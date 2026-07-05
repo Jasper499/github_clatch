@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="每周自动更新的 GitHub 热门项目与技术社区精选">
+  <title>Clatch · 每周热门精选</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Clatch 每周热门精选</h1>
+      <p>自动聚合 GitHub 热门开源项目与 Hacker News 技术讨论，每周更新一次。</p>
+      <div class="meta-bar">
+        <span class="badge live">已启用自动更新</span>
+        <span class="badge">统计周期：<strong id="period-days">7</strong> 天</span>
+        <span class="badge">上次更新：<strong id="updated-at">—</strong></span>
+      </div>
+    </header>
+
+    <nav class="tabs" aria-label="内容分类">
+      <button class="tab active" data-target="github">GitHub 热门新项目</button>
+      <button class="tab" data-target="githubActive">GitHub 活跃项目</button>
+      <button class="tab" data-target="hackernews">Hacker News 热门</button>
+    </nav>
+
+    <div id="loading" class="loading-state">正在加载数据…</div>
+    <div id="error" class="error-state" style="display:none"></div>
+
+    <section id="section-github" class="section active">
+      <div class="section-header">
+        <h2 id="title-github">GitHub 热门新项目</h2>
+        <p id="desc-github"></p>
+      </div>
+      <div id="grid-github" class="grid"></div>
+    </section>
+
+    <section id="section-githubActive" class="section">
+      <div class="section-header">
+        <h2 id="title-githubActive">GitHub 活跃项目</h2>
+        <p id="desc-githubActive"></p>
+      </div>
+      <div id="grid-githubActive" class="grid"></div>
+    </section>
+
+    <section id="section-hackernews" class="section">
+      <div class="section-header">
+        <h2 id="title-hackernews">Hacker News 热门</h2>
+        <p id="desc-hackernews"></p>
+      </div>
+      <div id="grid-hackernews" class="grid"></div>
+    </section>
+
+    <footer>
+      <p>数据来源：GitHub API · Hacker News · 每周一自动更新</p>
+      <p><a href="https://github.com" target="_blank" rel="noopener">GitHub</a> ·
+         <a href="https://news.ycombinator.com" target="_blank" rel="noopener">Hacker News</a></p>
+    </footer>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+</html>

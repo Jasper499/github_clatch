@@ -1,0 +1,504 @@
+{
+  "updatedAt": "2026-07-05T13:12:57Z",
+  "periodDays": 7,
+  "sources": {
+    "github": {
+      "label": "GitHub 热门新项目",
+      "description": "近 7 天内创建、按 Star 数排序的开源项目",
+      "items": [
+        {
+          "title": "mekos2772/ios-location-spoofer",
+          "description": "Standalone iOS app to spoof GPS location without jailbreak. Includes Shadowrocket/Surge/Loon/QX/Stash module.",
+          "url": "https://github.com/mekos2772/ios-location-spoofer",
+          "stars": 1311,
+          "language": "JavaScript",
+          "owner": "mekos2772"
+        },
+        {
+          "title": "elder-plinius/T3MP3ST",
+          "description": "autonomous red teaming platform; multi-agent offensive-security meta-harness",
+          "url": "https://github.com/elder-plinius/T3MP3ST",
+          "stars": 923,
+          "language": "TypeScript",
+          "owner": "elder-plinius"
+        },
+        {
+          "title": "HUANGCHIHHUNGLeo/claude-real-video",
+          "description": "Let Claude (or any LLM) actually watch a video — scene-aware, deduplicated frames + transcript, from a URL or local file. Runs locally, MIT.",
+          "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
+          "stars": 865,
+          "language": "Python",
+          "owner": "HUANGCHIHHUNGLeo"
+        },
+        {
+          "title": "jamesob/local-llm",
+          "description": "Everything I know about running LLMs locally",
+          "url": "https://github.com/jamesob/local-llm",
+          "stars": 837,
+          "language": "Shell",
+          "owner": "jamesob"
+        },
+        {
+          "title": "xuchonglang/investing-for-beginners",
+          "description": "小隐寺投资百科官方公开索引：美股、期权与加密货币知识框架",
+          "url": "https://github.com/xuchonglang/investing-for-beginners",
+          "stars": 684,
+          "language": "",
+          "owner": "xuchonglang"
+        },
+        {
+          "title": "jmerelnyc/Talos",
+          "description": "GPU worker client for the Talos network. Pairs with your Talos account, serves open-model inference jobs over a WebSocket, and reports uptime for payouts.",
+          "url": "https://github.com/jmerelnyc/Talos",
+          "stars": 640,
+          "language": "Python",
+          "owner": "jmerelnyc"
+        },
+        {
+          "title": "uzairansaruzi/hermex",
+          "description": "Native iPhone app for your Hermes agent",
+          "url": "https://github.com/uzairansaruzi/hermex",
+          "stars": 586,
+          "language": "Swift",
+          "owner": "uzairansaruzi"
+        },
+        {
+          "title": "ammaarreshi/Generals-Mac-iOS-iPad",
+          "description": "Command & Conquer Generals: Zero Hour running natively on macOS, iPhone & iPad — real engine (EA GPL v3 source, via GeneralsX), DXVK/MoltenVK renderer, RTS touch controls. No game assets included.",
+          "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad",
+          "stars": 554,
+          "language": "C++",
+          "owner": "ammaarreshi"
+        },
+        {
+          "title": "Kulaxyz/token-diet",
+          "description": "Always-on token-efficiency skill for coding agents (Claude Code, Codex, Cursor, Windsurf, Cline). ~31% lower bill on average, no loss of correctness.",
+          "url": "https://github.com/Kulaxyz/token-diet",
+          "stars": 552,
+          "language": "Shell",
+          "owner": "Kulaxyz"
+        },
+        {
+          "title": "TianhangZhuzth/Fundamental-Ava",
+          "description": "Build digital human beings — autonomous, collaborative, and socially intelligent agents. FNzgGxU31RWiDgLr3GvxxSa42nRntvZNSG6aBMQ1pump",
+          "url": "https://github.com/TianhangZhuzth/Fundamental-Ava",
+          "stars": 524,
+          "language": "Python",
+          "owner": "TianhangZhuzth"
+        },
+        {
+          "title": "LinXiaoTao/FuckClaude",
+          "description": "",
+          "url": "https://github.com/LinXiaoTao/FuckClaude",
+          "stars": 465,
+          "language": "TypeScript",
+          "owner": "LinXiaoTao"
+        },
+        {
+          "title": "asz798838958/FrciblyK12",
+          "description": "多线程全自动注册free 强上K12空间",
+          "url": "https://github.com/asz798838958/FrciblyK12",
+          "stars": 438,
+          "language": "Python",
+          "owner": "asz798838958"
+        },
+        {
+          "title": "spiritov/ds.css",
+          "description": "A css framework recreating the DS / DS Lite's UI",
+          "url": "https://github.com/spiritov/ds.css",
+          "stars": 438,
+          "language": "CSS",
+          "owner": "spiritov"
+        },
+        {
+          "title": "lingbol088-spec/reverse-flow-skill",
+          "description": "面向 AI Agent / Codex 的本地 CTF 逆向工程流程技能。加载后通过“真心为你”进入逆向模式，默认在本地沙盒、CTF、crackme、wargame 或训练靶场环境中工作，按“分析 → 报告 → 逆向 → 深度逆向 → 漏洞研判 → 用户选择下一步”的流程推进。",
+          "url": "https://github.com/lingbol088-spec/reverse-flow-skill",
+          "stars": 379,
+          "language": "Python",
+          "owner": "lingbol088-spec"
+        },
+        {
+          "title": "Evolink-AI/Awesome-Blender-Seedance-Workflow-Usecases",
+          "description": "Curated Blender + Seedance workflows for AI filmmaking: previs, camera control, Blender MCP, reference video, and agent-guided use cases.",
+          "url": "https://github.com/Evolink-AI/Awesome-Blender-Seedance-Workflow-Usecases",
+          "stars": 299,
+          "language": "Python",
+          "owner": "Evolink-AI"
+        },
+        {
+          "title": "yynxxxxx/Codex-X",
+          "description": "Codex Switch & Instruct desktop manager",
+          "url": "https://github.com/yynxxxxx/Codex-X",
+          "stars": 274,
+          "language": "TypeScript",
+          "owner": "yynxxxxx"
+        },
+        {
+          "title": "xt4d/GameBlocks",
+          "description": "Concise and self-explanatory building blocks that help coding agents prototype browser-based 3D games.",
+          "url": "https://github.com/xt4d/GameBlocks",
+          "stars": 254,
+          "language": "JavaScript",
+          "owner": "xt4d"
+        },
+        {
+          "title": "CalmNoteDepot/MECCHA-CHAMELEON-VISION",
+          "description": "🎨 Meccha Chameleon Vision — Desktop Tool 2026",
+          "url": "https://github.com/CalmNoteDepot/MECCHA-CHAMELEON-VISION",
+          "stars": 251,
+          "language": "",
+          "owner": "CalmNoteDepot"
+        },
+        {
+          "title": "HKUDS/OpenOPC",
+          "description": "OpenOPC: Build Your Personal AI-Native Company — Self-Built, Self-Run, Self-Grown",
+          "url": "https://github.com/HKUDS/OpenOPC",
+          "stars": 247,
+          "language": "Python",
+          "owner": "HKUDS"
+        },
+        {
+          "title": "SuperJJ007/CSSwitch",
+          "description": "帮你的 Claude Science 一键接入你自己的 API：DeepSeek / 通义千问 / 智谱 GLM / Kimi / MiniMax / 小米 MiMo / 硅基流动 / OpenRouter / 任意 OpenAI·Anthropic 兼容端点",
+          "url": "https://github.com/SuperJJ007/CSSwitch",
+          "stars": 244,
+          "language": "Rust",
+          "owner": "SuperJJ007"
+        }
+      ]
+    },
+    "githubActive": {
+      "label": "GitHub 活跃项目",
+      "description": "近 7 天内有推送、按 Star 数排序的热门仓库",
+      "items": [
+        {
+          "title": "sindresorhus/awesome",
+          "description": "😎 Awesome lists about all kinds of interesting topics",
+          "url": "https://github.com/sindresorhus/awesome",
+          "stars": 481687,
+          "language": "",
+          "owner": "sindresorhus"
+        },
+        {
+          "title": "freeCodeCamp/freeCodeCamp",
+          "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+          "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+          "stars": 451110,
+          "language": "TypeScript",
+          "owner": "freeCodeCamp"
+        },
+        {
+          "title": "public-apis/public-apis",
+          "description": "A collective list of free APIs",
+          "url": "https://github.com/public-apis/public-apis",
+          "stars": 446764,
+          "language": "Python",
+          "owner": "public-apis"
+        },
+        {
+          "title": "EbookFoundation/free-programming-books",
+          "description": ":books: Freely available programming books",
+          "url": "https://github.com/EbookFoundation/free-programming-books",
+          "stars": 391307,
+          "language": "Python",
+          "owner": "EbookFoundation"
+        },
+        {
+          "title": "openclaw/openclaw",
+          "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
+          "url": "https://github.com/openclaw/openclaw",
+          "stars": 381798,
+          "language": "TypeScript",
+          "owner": "openclaw"
+        },
+        {
+          "title": "nilbuild/developer-roadmap",
+          "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+          "url": "https://github.com/nilbuild/developer-roadmap",
+          "stars": 359353,
+          "language": "TypeScript",
+          "owner": "nilbuild"
+        },
+        {
+          "title": "vinta/awesome-python",
+          "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
+          "url": "https://github.com/vinta/awesome-python",
+          "stars": 306428,
+          "language": "Python",
+          "owner": "vinta"
+        },
+        {
+          "title": "awesome-selfhosted/awesome-selfhosted",
+          "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
+          "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+          "stars": 302956,
+          "language": "",
+          "owner": "awesome-selfhosted"
+        },
+        {
+          "title": "practical-tutorials/project-based-learning",
+          "description": "Curated list of project-based tutorials",
+          "url": "https://github.com/practical-tutorials/project-based-learning",
+          "stars": 272129,
+          "language": "Python",
+          "owner": "practical-tutorials"
+        },
+        {
+          "title": "obra/superpowers",
+          "description": "An agentic skills framework & software development methodology that works.",
+          "url": "https://github.com/obra/superpowers",
+          "stars": 246605,
+          "language": "Shell",
+          "owner": "obra"
+        },
+        {
+          "title": "react/react",
+          "description": "The library for web and native user interfaces.",
+          "url": "https://github.com/react/react",
+          "stars": 246250,
+          "language": "JavaScript",
+          "owner": "react"
+        },
+        {
+          "title": "torvalds/linux",
+          "description": "Linux kernel source tree",
+          "url": "https://github.com/torvalds/linux",
+          "stars": 238411,
+          "language": "C",
+          "owner": "torvalds"
+        },
+        {
+          "title": "affaan-m/ECC",
+          "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+          "url": "https://github.com/affaan-m/ECC",
+          "stars": 226195,
+          "language": "JavaScript",
+          "owner": "affaan-m"
+        },
+        {
+          "title": "NousResearch/hermes-agent",
+          "description": "The agent that grows with you",
+          "url": "https://github.com/NousResearch/hermes-agent",
+          "stars": 209458,
+          "language": "Python",
+          "owner": "NousResearch"
+        },
+        {
+          "title": "tensorflow/tensorflow",
+          "description": "An Open Source Machine Learning Framework for Everyone",
+          "url": "https://github.com/tensorflow/tensorflow",
+          "stars": 196048,
+          "language": "C++",
+          "owner": "tensorflow"
+        },
+        {
+          "title": "n8n-io/n8n",
+          "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+          "url": "https://github.com/n8n-io/n8n",
+          "stars": 195261,
+          "language": "TypeScript",
+          "owner": "n8n-io"
+        },
+        {
+          "title": "ohmyzsh/ohmyzsh",
+          "description": "🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
+          "url": "https://github.com/ohmyzsh/ohmyzsh",
+          "stars": 188369,
+          "language": "Shell",
+          "owner": "ohmyzsh"
+        },
+        {
+          "title": "microsoft/vscode",
+          "description": "Visual Studio Code",
+          "url": "https://github.com/microsoft/vscode",
+          "stars": 187057,
+          "language": "TypeScript",
+          "owner": "microsoft"
+        },
+        {
+          "title": "Significant-Gravitas/AutoGPT",
+          "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+          "url": "https://github.com/Significant-Gravitas/AutoGPT",
+          "stars": 185373,
+          "language": "Python",
+          "owner": "Significant-Gravitas"
+        },
+        {
+          "title": "anomalyco/opencode",
+          "description": "The open source coding agent.",
+          "url": "https://github.com/anomalyco/opencode",
+          "stars": 182516,
+          "language": "TypeScript",
+          "owner": "anomalyco"
+        }
+      ]
+    },
+    "hackernews": {
+      "label": "Hacker News 热门",
+      "description": "近 7 天内 HN 社区高互动技术讨论",
+      "items": [
+        {
+          "title": "Claude Code is steganographically marking requests",
+          "description": "",
+          "url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
+          "score": 2435,
+          "comments": 746,
+          "owner": "kirushik"
+        },
+        {
+          "title": "Android Developer Verification: Threat masquerading as protection",
+          "description": "",
+          "url": "https://f-droid.org/2026/07/01/adv-malware.html",
+          "score": 1709,
+          "comments": 732,
+          "owner": "drewfax"
+        },
+        {
+          "title": "Half-Baked Product",
+          "description": "",
+          "url": "https://weli.dev/blog/half-baked-product/",
+          "score": 1357,
+          "comments": 399,
+          "owner": "weli"
+        },
+        {
+          "title": "Claude Sonnet 5",
+          "description": "",
+          "url": "https://www.anthropic.com/news/claude-sonnet-5",
+          "score": 1262,
+          "comments": 781,
+          "owner": "marinesebastian"
+        },
+        {
+          "title": "Qwen 3.6 27B is the sweet spot for local development",
+          "description": "",
+          "url": "https://quesma.com/blog/qwen-36-is-awesome/",
+          "score": 1189,
+          "comments": 757,
+          "owner": "stared"
+        },
+        {
+          "title": "GLM 5.2 beats Claude in our benchmarks",
+          "description": "",
+          "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/",
+          "score": 1108,
+          "comments": 514,
+          "owner": "jms703"
+        },
+        {
+          "title": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88",
+          "description": "",
+          "url": "https://danunparsed.com/p/hackerrank-open-source-ats",
+          "score": 1027,
+          "comments": 433,
+          "owner": "sambellll"
+        },
+        {
+          "title": "Age verification is just a precursor to automated attribution of speech",
+          "description": "",
+          "url": "https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026",
+          "score": 1019,
+          "comments": 632,
+          "owner": "arkhiver"
+        },
+        {
+          "title": "Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5",
+          "description": "",
+          "url": "https://twitter.com/AnthropicAI/status/2072106151890809341",
+          "score": 970,
+          "comments": 687,
+          "owner": "Pragmata"
+        },
+        {
+          "title": "For first time, a cell built from scratch grows and divides",
+          "description": "<a href=\"https:&#x2F;&#x2F;biotic.org&#x2F;research&#x2F;spudcell&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;biotic.org&#x2F;research&#x2F;spudcell&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;www.science.org&#x2F;content&#x2F;article&#x2F;lab-created-spudcell-marks-major-step-toward-building-life-scratch\" rel=\"nofollow\">https:&#x2F;&#x2F;www.science.org&#x2F;content&#x2F;article&#x2F;lab-created-spudcell...</a><p><a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;interactive&#x2F;2026&#x2F;07&#x2F;01&#x2F;science&#x2F;spudcells-synthetic-cell.html?unlocked_article_code=1.uVA.6Rwg.20U5t0kLK6oU&amp;smid=nytcore-ios-share\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nytimes.com&#x2F;interactive&#x2F;2026&#x2F;07&#x2F;01&#x2F;science&#x2F;spudc...</a>",
+          "url": "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/",
+          "score": 950,
+          "comments": 298,
+          "owner": "defrost"
+        },
+        {
+          "title": "Virginia bans sale of precise geolocation data",
+          "description": "<a href=\"https:&#x2F;&#x2F;lis.virginia.gov&#x2F;bill-details&#x2F;20261&#x2F;SB338&#x2F;text&#x2F;SB338\" rel=\"nofollow\">https:&#x2F;&#x2F;lis.virginia.gov&#x2F;bill-details&#x2F;20261&#x2F;SB338&#x2F;text&#x2F;SB338</a>",
+          "url": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/virginia-bans-sale-of-geolocation-data",
+          "score": 946,
+          "comments": 137,
+          "owner": "toomuchtodo"
+        },
+        {
+          "title": "Pollen tried to remove my article and Google is assisting with it",
+          "description": "",
+          "url": "https://blog.pragmaticengineer.com/pollen-tried-to-remove-my-article-about-callum-negus-fancey-and-google-is-assisting-to-it/",
+          "score": 916,
+          "comments": 127,
+          "owner": "taubek"
+        },
+        {
+          "title": "The bottleneck might be the air in the room",
+          "description": "",
+          "url": "https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making/",
+          "score": 788,
+          "comments": 455,
+          "owner": "gslin"
+        },
+        {
+          "title": "Physical disc production ending in Jan 2028 for new games on PlayStation",
+          "description": "",
+          "url": "https://blog.playstation.com/2026/07/01/physical-disc-production-ending-in-january-2028-for-new-games-releasing-on-playstation-consoles/",
+          "score": 784,
+          "comments": 793,
+          "owner": "Tiberium"
+        },
+        {
+          "title": "EU to legislate about Chat Control behind closed doors",
+          "description": "",
+          "url": "https://www.patrick-breyer.de/en/double-threat-to-private-communications-undemocratic-chat-control-backroom-deals-and-imminent-concessions-spark-relaunch-of-fightchatcontrol-eu/",
+          "score": 741,
+          "comments": 434,
+          "owner": "NeutralForest"
+        },
+        {
+          "title": "Spain Orders Blacklist of Palantir from Public and Private Companies",
+          "description": "",
+          "url": "https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv",
+          "score": 736,
+          "comments": 304,
+          "owner": "mgh2"
+        },
+        {
+          "title": "30-year sentence for transporting zines is a five-alarm fire for free speech",
+          "description": "",
+          "url": "https://theintercept.com/2026/06/26/daniel-sanchez-estrada-zines-prairieland-free-speech/",
+          "score": 722,
+          "comments": 486,
+          "owner": "xrd"
+        },
+        {
+          "title": "Most arguments are about ego, not ideas",
+          "description": "",
+          "url": "https://wangcong.org/2026-06-30-why-i-stopped-arguing-with-people.html",
+          "score": 719,
+          "comments": 557,
+          "owner": "backlit4034"
+        },
+        {
+          "title": "European digital ID wallets rely on safety services of Google and Apple",
+          "description": "",
+          "url": "https://waag.org/en/article/european-digital-id-wallets-are-gift-google-and-apple/",
+          "score": 708,
+          "comments": 309,
+          "owner": "donohoe"
+        },
+        {
+          "title": "The US ambassador had Belgian police stop our reporting",
+          "description": "",
+          "url": "https://europeancorrespondent.com/en/r/the-us-ambassador-had-belgian-police-stop-our-reporting",
+          "score": 693,
+          "comments": 334,
+          "owner": "robtherobber"
+        }
+      ]
+    }
+  }
+}
