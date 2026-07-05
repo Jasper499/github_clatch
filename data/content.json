@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T13:12:57Z",
+  "updatedAt": "2026-07-05T13:47:48Z",
   "periodDays": 7,
   "sources": {
     "github": {
@@ -10,7 +10,7 @@
           "title": "mekos2772/ios-location-spoofer",
           "description": "Standalone iOS app to spoof GPS location without jailbreak. Includes Shadowrocket/Surge/Loon/QX/Stash module.",
           "url": "https://github.com/mekos2772/ios-location-spoofer",
-          "stars": 1311,
+          "stars": 1312,
           "language": "JavaScript",
           "owner": "mekos2772"
         },
@@ -18,7 +18,7 @@
           "title": "elder-plinius/T3MP3ST",
           "description": "autonomous red teaming platform; multi-agent offensive-security meta-harness",
           "url": "https://github.com/elder-plinius/T3MP3ST",
-          "stars": 923,
+          "stars": 978,
           "language": "TypeScript",
           "owner": "elder-plinius"
         },
@@ -26,7 +26,7 @@
           "title": "HUANGCHIHHUNGLeo/claude-real-video",
           "description": "Let Claude (or any LLM) actually watch a video — scene-aware, deduplicated frames + transcript, from a URL or local file. Runs locally, MIT.",
           "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
-          "stars": 865,
+          "stars": 869,
           "language": "Python",
           "owner": "HUANGCHIHHUNGLeo"
         },
@@ -34,7 +34,7 @@
           "title": "jamesob/local-llm",
           "description": "Everything I know about running LLMs locally",
           "url": "https://github.com/jamesob/local-llm",
-          "stars": 837,
+          "stars": 843,
           "language": "Shell",
           "owner": "jamesob"
         },
@@ -42,7 +42,7 @@
           "title": "xuchonglang/investing-for-beginners",
           "description": "小隐寺投资百科官方公开索引：美股、期权与加密货币知识框架",
           "url": "https://github.com/xuchonglang/investing-for-beginners",
-          "stars": 684,
+          "stars": 686,
           "language": "",
           "owner": "xuchonglang"
         },
@@ -50,7 +50,7 @@
           "title": "jmerelnyc/Talos",
           "description": "GPU worker client for the Talos network. Pairs with your Talos account, serves open-model inference jobs over a WebSocket, and reports uptime for payouts.",
           "url": "https://github.com/jmerelnyc/Talos",
-          "stars": 640,
+          "stars": 642,
           "language": "Python",
           "owner": "jmerelnyc"
         },
@@ -58,7 +58,7 @@
           "title": "uzairansaruzi/hermex",
           "description": "Native iPhone app for your Hermes agent",
           "url": "https://github.com/uzairansaruzi/hermex",
-          "stars": 586,
+          "stars": 592,
           "language": "Swift",
           "owner": "uzairansaruzi"
         },
@@ -66,7 +66,7 @@
           "title": "ammaarreshi/Generals-Mac-iOS-iPad",
           "description": "Command & Conquer Generals: Zero Hour running natively on macOS, iPhone & iPad — real engine (EA GPL v3 source, via GeneralsX), DXVK/MoltenVK renderer, RTS touch controls. No game assets included.",
           "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad",
-          "stars": 554,
+          "stars": 561,
           "language": "C++",
           "owner": "ammaarreshi"
         },
@@ -74,7 +74,7 @@
           "title": "Kulaxyz/token-diet",
           "description": "Always-on token-efficiency skill for coding agents (Claude Code, Codex, Cursor, Windsurf, Cline). ~31% lower bill on average, no loss of correctness.",
           "url": "https://github.com/Kulaxyz/token-diet",
-          "stars": 552,
+          "stars": 554,
           "language": "Shell",
           "owner": "Kulaxyz"
         },
@@ -90,7 +90,7 @@
           "title": "LinXiaoTao/FuckClaude",
           "description": "",
           "url": "https://github.com/LinXiaoTao/FuckClaude",
-          "stars": 465,
+          "stars": 468,
           "language": "TypeScript",
           "owner": "LinXiaoTao"
         },
@@ -98,7 +98,7 @@
           "title": "asz798838958/FrciblyK12",
           "description": "多线程全自动注册free 强上K12空间",
           "url": "https://github.com/asz798838958/FrciblyK12",
-          "stars": 438,
+          "stars": 439,
           "language": "Python",
           "owner": "asz798838958"
         },
@@ -106,7 +106,7 @@
           "title": "spiritov/ds.css",
           "description": "A css framework recreating the DS / DS Lite's UI",
           "url": "https://github.com/spiritov/ds.css",
-          "stars": 438,
+          "stars": 439,
           "language": "CSS",
           "owner": "spiritov"
         },
@@ -114,7 +114,7 @@
           "title": "lingbol088-spec/reverse-flow-skill",
           "description": "面向 AI Agent / Codex 的本地 CTF 逆向工程流程技能。加载后通过“真心为你”进入逆向模式，默认在本地沙盒、CTF、crackme、wargame 或训练靶场环境中工作，按“分析 → 报告 → 逆向 → 深度逆向 → 漏洞研判 → 用户选择下一步”的流程推进。",
           "url": "https://github.com/lingbol088-spec/reverse-flow-skill",
-          "stars": 379,
+          "stars": 380,
           "language": "Python",
           "owner": "lingbol088-spec"
         },
@@ -130,15 +130,23 @@
           "title": "yynxxxxx/Codex-X",
           "description": "Codex Switch & Instruct desktop manager",
           "url": "https://github.com/yynxxxxx/Codex-X",
-          "stars": 274,
+          "stars": 276,
           "language": "TypeScript",
           "owner": "yynxxxxx"
+        },
+        {
+          "title": "HKUDS/OpenOPC",
+          "description": "OpenOPC: Build Your Personal AI-Native Company — Self-Built, Self-Run, Self-Grown",
+          "url": "https://github.com/HKUDS/OpenOPC",
+          "stars": 259,
+          "language": "Python",
+          "owner": "HKUDS"
         },
         {
           "title": "xt4d/GameBlocks",
           "description": "Concise and self-explanatory building blocks that help coding agents prototype browser-based 3D games.",
           "url": "https://github.com/xt4d/GameBlocks",
-          "stars": 254,
+          "stars": 255,
           "language": "JavaScript",
           "owner": "xt4d"
         },
@@ -151,18 +159,10 @@
           "owner": "CalmNoteDepot"
         },
         {
-          "title": "HKUDS/OpenOPC",
-          "description": "OpenOPC: Build Your Personal AI-Native Company — Self-Built, Self-Run, Self-Grown",
-          "url": "https://github.com/HKUDS/OpenOPC",
-          "stars": 247,
-          "language": "Python",
-          "owner": "HKUDS"
-        },
-        {
           "title": "SuperJJ007/CSSwitch",
           "description": "帮你的 Claude Science 一键接入你自己的 API：DeepSeek / 通义千问 / 智谱 GLM / Kimi / MiniMax / 小米 MiMo / 硅基流动 / OpenRouter / 任意 OpenAI·Anthropic 兼容端点",
           "url": "https://github.com/SuperJJ007/CSSwitch",
-          "stars": 244,
+          "stars": 247,
           "language": "Rust",
           "owner": "SuperJJ007"
         }
@@ -176,7 +176,7 @@
           "title": "sindresorhus/awesome",
           "description": "😎 Awesome lists about all kinds of interesting topics",
           "url": "https://github.com/sindresorhus/awesome",
-          "stars": 481687,
+          "stars": 481700,
           "language": "",
           "owner": "sindresorhus"
         },
@@ -184,7 +184,7 @@
           "title": "freeCodeCamp/freeCodeCamp",
           "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
           "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-          "stars": 451110,
+          "stars": 451109,
           "language": "TypeScript",
           "owner": "freeCodeCamp"
         },
@@ -192,7 +192,7 @@
           "title": "public-apis/public-apis",
           "description": "A collective list of free APIs",
           "url": "https://github.com/public-apis/public-apis",
-          "stars": 446764,
+          "stars": 446767,
           "language": "Python",
           "owner": "public-apis"
         },
@@ -200,7 +200,7 @@
           "title": "EbookFoundation/free-programming-books",
           "description": ":books: Freely available programming books",
           "url": "https://github.com/EbookFoundation/free-programming-books",
-          "stars": 391307,
+          "stars": 391309,
           "language": "Python",
           "owner": "EbookFoundation"
         },
@@ -208,7 +208,7 @@
           "title": "openclaw/openclaw",
           "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
           "url": "https://github.com/openclaw/openclaw",
-          "stars": 381798,
+          "stars": 381799,
           "language": "TypeScript",
           "owner": "openclaw"
         },
@@ -216,7 +216,7 @@
           "title": "nilbuild/developer-roadmap",
           "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
           "url": "https://github.com/nilbuild/developer-roadmap",
-          "stars": 359353,
+          "stars": 359355,
           "language": "TypeScript",
           "owner": "nilbuild"
         },
@@ -224,7 +224,7 @@
           "title": "vinta/awesome-python",
           "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
           "url": "https://github.com/vinta/awesome-python",
-          "stars": 306428,
+          "stars": 306438,
           "language": "Python",
           "owner": "vinta"
         },
@@ -232,7 +232,7 @@
           "title": "awesome-selfhosted/awesome-selfhosted",
           "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
           "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-          "stars": 302956,
+          "stars": 302968,
           "language": "",
           "owner": "awesome-selfhosted"
         },
@@ -240,7 +240,7 @@
           "title": "practical-tutorials/project-based-learning",
           "description": "Curated list of project-based tutorials",
           "url": "https://github.com/practical-tutorials/project-based-learning",
-          "stars": 272129,
+          "stars": 272133,
           "language": "Python",
           "owner": "practical-tutorials"
         },
@@ -248,7 +248,7 @@
           "title": "obra/superpowers",
           "description": "An agentic skills framework & software development methodology that works.",
           "url": "https://github.com/obra/superpowers",
-          "stars": 246605,
+          "stars": 246621,
           "language": "Shell",
           "owner": "obra"
         },
@@ -256,7 +256,7 @@
           "title": "react/react",
           "description": "The library for web and native user interfaces.",
           "url": "https://github.com/react/react",
-          "stars": 246250,
+          "stars": 246251,
           "language": "JavaScript",
           "owner": "react"
         },
@@ -264,7 +264,7 @@
           "title": "torvalds/linux",
           "description": "Linux kernel source tree",
           "url": "https://github.com/torvalds/linux",
-          "stars": 238411,
+          "stars": 238414,
           "language": "C",
           "owner": "torvalds"
         },
@@ -272,7 +272,7 @@
           "title": "affaan-m/ECC",
           "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
           "url": "https://github.com/affaan-m/ECC",
-          "stars": 226195,
+          "stars": 226208,
           "language": "JavaScript",
           "owner": "affaan-m"
         },
@@ -280,7 +280,7 @@
           "title": "NousResearch/hermes-agent",
           "description": "The agent that grows with you",
           "url": "https://github.com/NousResearch/hermes-agent",
-          "stars": 209458,
+          "stars": 209473,
           "language": "Python",
           "owner": "NousResearch"
         },
@@ -296,7 +296,7 @@
           "title": "n8n-io/n8n",
           "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
           "url": "https://github.com/n8n-io/n8n",
-          "stars": 195261,
+          "stars": 195264,
           "language": "TypeScript",
           "owner": "n8n-io"
         },
@@ -304,7 +304,7 @@
           "title": "ohmyzsh/ohmyzsh",
           "description": "🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
           "url": "https://github.com/ohmyzsh/ohmyzsh",
-          "stars": 188369,
+          "stars": 188370,
           "language": "Shell",
           "owner": "ohmyzsh"
         },
@@ -312,7 +312,7 @@
           "title": "microsoft/vscode",
           "description": "Visual Studio Code",
           "url": "https://github.com/microsoft/vscode",
-          "stars": 187057,
+          "stars": 187060,
           "language": "TypeScript",
           "owner": "microsoft"
         },
@@ -320,7 +320,7 @@
           "title": "Significant-Gravitas/AutoGPT",
           "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
           "url": "https://github.com/Significant-Gravitas/AutoGPT",
-          "stars": 185373,
+          "stars": 185374,
           "language": "Python",
           "owner": "Significant-Gravitas"
         },
@@ -328,7 +328,7 @@
           "title": "anomalyco/opencode",
           "description": "The open source coding agent.",
           "url": "https://github.com/anomalyco/opencode",
-          "stars": 182516,
+          "stars": 182527,
           "language": "TypeScript",
           "owner": "anomalyco"
         }
@@ -350,7 +350,7 @@
           "title": "Android Developer Verification: Threat masquerading as protection",
           "description": "",
           "url": "https://f-droid.org/2026/07/01/adv-malware.html",
-          "score": 1709,
+          "score": 1710,
           "comments": 732,
           "owner": "drewfax"
         },
@@ -358,7 +358,7 @@
           "title": "Half-Baked Product",
           "description": "",
           "url": "https://weli.dev/blog/half-baked-product/",
-          "score": 1357,
+          "score": 1359,
           "comments": 399,
           "owner": "weli"
         },
@@ -438,7 +438,7 @@
           "title": "The bottleneck might be the air in the room",
           "description": "",
           "url": "https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making/",
-          "score": 788,
+          "score": 789,
           "comments": 455,
           "owner": "gslin"
         },
