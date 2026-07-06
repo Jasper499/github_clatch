@@ -14,14 +14,22 @@
         var saved = localStorage.getItem("hjl-theme");
         var theme = saved || (matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
         document.documentElement.setAttribute("data-theme", theme);
+        document.documentElement.setAttribute("data-platform", "github");
       } catch (e) {
         document.documentElement.setAttribute("data-theme", "dark");
+        document.documentElement.setAttribute("data-platform", "github");
       }
     })();
   </script>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <div class="page-bg" aria-hidden="true">
+    <div class="page-bg__orb page-bg__orb--1"></div>
+    <div class="page-bg__orb page-bg__orb--2"></div>
+    <div class="page-bg__orb page-bg__orb--3"></div>
+    <div class="page-bg__mesh"></div>
+  </div>
   <button id="theme-toggle" class="theme-toggle" type="button" aria-label="切换浅色/深色模式" title="切换主题">
     <span class="theme-toggle-icon theme-icon-dark"></span>
     <span class="theme-toggle-icon theme-icon-light"></span>

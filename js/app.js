@@ -74,8 +74,10 @@ function metaPill(text, type = "default") {
 function applyPanelTheme() {
   const meta = getPlatformMeta(activeSourceKey);
   const panel = document.getElementById("content-panel");
-  if (!panel) return;
-  panel.className = `content-panel ${meta.theme}`;
+  if (panel) {
+    panel.className = `content-panel ${meta.theme}`;
+  }
+  document.documentElement.setAttribute("data-platform", activeParentId);
 }
 
 function formatDate(iso) {
