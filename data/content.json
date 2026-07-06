@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T05:02:26Z",
+  "updatedAt": "2026-07-06T16:53:30Z",
   "periodDays": 7,
   "weekLabel": "2026-06-29 ~ 2026-07-06",
   "catalog": [
@@ -399,7 +399,7 @@
           "title": "Claude Code is steganographically marking requests",
           "description": "",
           "url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
-          "score": 2436,
+          "score": 2438,
           "comments": 746,
           "owner": "kirushik"
         },
@@ -407,23 +407,23 @@
           "title": "Android Developer Verification: Threat masquerading as protection",
           "description": "",
           "url": "https://f-droid.org/2026/07/01/adv-malware.html",
-          "score": 1718,
-          "comments": 738,
+          "score": 1724,
+          "comments": 740,
           "owner": "drewfax"
         },
         {
           "title": "Half-Baked Product",
           "description": "",
           "url": "https://weli.dev/blog/half-baked-product/",
-          "score": 1370,
-          "comments": 403,
+          "score": 1377,
+          "comments": 409,
           "owner": "weli"
         },
         {
           "title": "Claude Sonnet 5",
           "description": "",
           "url": "https://www.anthropic.com/news/claude-sonnet-5",
-          "score": 1262,
+          "score": 1264,
           "comments": 783,
           "owner": "marinesebastian"
         },
@@ -432,22 +432,30 @@
           "description": "",
           "url": "https://quesma.com/blog/qwen-36-is-awesome/",
           "score": 1190,
-          "comments": 757,
+          "comments": 758,
           "owner": "stared"
         },
         {
-          "title": "Age verification is just a precursor to automated attribution of speech",
+          "title": "Organic Maps",
           "description": "",
-          "url": "https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026",
-          "score": 1019,
-          "comments": 632,
-          "owner": "arkhiver"
+          "url": "https://organicmaps.app/",
+          "score": 1095,
+          "comments": 352,
+          "owner": "tosh"
+        },
+        {
+          "title": "OpenPrinter",
+          "description": "",
+          "url": "https://www.opentools.studio/",
+          "score": 1065,
+          "comments": 262,
+          "owner": "bouh"
         },
         {
           "title": "Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5",
           "description": "",
           "url": "https://twitter.com/AnthropicAI/status/2072106151890809341",
-          "score": 972,
+          "score": 975,
           "comments": 690,
           "owner": "Pragmata"
         },
@@ -456,63 +464,47 @@
           "description": "<a href=\"https:&#x2F;&#x2F;biotic.org&#x2F;research&#x2F;spudcell&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;biotic.org&#x2F;research&#x2F;spudcell&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;www.science.org&#x2F;content&#x2F;article&#x2F;lab-created-spudcell-marks-major-step-toward-building-life-scratch\" rel=\"nofollow\">https:&#x2F;&#x2F;www.science.org&#x2F;content&#x2F;article&#x2F;lab-created-spudcell...</a><p><a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;interactive&#x2F;2026&#x2F;07&#x2F;01&#x2F;science&#x2F;spudcells-synthetic-cell.html?unlocked_article_code=1.uVA.6Rwg.20U5t0kLK6oU&amp;smid=nytcore-ios-share\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nytimes.com&#x2F;interactive&#x2F;2026&#x2F;07&#x2F;01&#x2F;science&#x2F;spudc...</a>",
           "url": "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/",
           "score": 950,
-          "comments": 301,
+          "comments": 302,
           "owner": "defrost"
         },
         {
           "title": "Virginia bans sale of precise geolocation data",
           "description": "<a href=\"https:&#x2F;&#x2F;lis.virginia.gov&#x2F;bill-details&#x2F;20261&#x2F;SB338&#x2F;text&#x2F;SB338\" rel=\"nofollow\">https:&#x2F;&#x2F;lis.virginia.gov&#x2F;bill-details&#x2F;20261&#x2F;SB338&#x2F;text&#x2F;SB338</a>",
           "url": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/virginia-bans-sale-of-geolocation-data",
-          "score": 948,
+          "score": 950,
           "comments": 138,
           "owner": "toomuchtodo"
-        },
-        {
-          "title": "Pollen tried to remove my article and Google is assisting with it",
-          "description": "",
-          "url": "https://blog.pragmaticengineer.com/pollen-tried-to-remove-my-article-about-callum-negus-fancey-and-google-is-assisting-to-it/",
-          "score": 917,
-          "comments": 127,
-          "owner": "taubek"
-        },
-        {
-          "title": "Organic Maps",
-          "description": "",
-          "url": "https://organicmaps.app/",
-          "score": 842,
-          "comments": 231,
-          "owner": "tosh"
         },
         {
           "title": "The bottleneck might be the air in the room",
           "description": "",
           "url": "https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making/",
-          "score": 812,
-          "comments": 456,
+          "score": 818,
+          "comments": 464,
           "owner": "gslin"
         },
         {
           "title": "Physical disc production ending in Jan 2028 for new games on PlayStation",
           "description": "",
           "url": "https://blog.playstation.com/2026/07/01/physical-disc-production-ending-in-january-2028-for-new-games-releasing-on-playstation-consoles/",
-          "score": 784,
-          "comments": 793,
+          "score": 785,
+          "comments": 794,
           "owner": "Tiberium"
         },
         {
           "title": "Spain Orders Blacklist of Palantir from Public and Private Companies",
           "description": "",
           "url": "https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv",
-          "score": 739,
-          "comments": 304,
+          "score": 740,
+          "comments": 305,
           "owner": "mgh2"
         },
         {
           "title": "Most arguments are about ego, not ideas",
           "description": "",
           "url": "https://wangcong.org/2026-06-30-why-i-stopped-arguing-with-people.html",
-          "score": 721,
-          "comments": 558,
+          "score": 722,
+          "comments": 559,
           "owner": "backlit4034"
         },
         {
@@ -532,12 +524,12 @@
           "owner": "robtherobber"
         },
         {
-          "title": "The CEO of Mullvad is the main financer of the Swedish Örebro party",
+          "title": "Leaking YouTube creators' private videos",
           "description": "",
-          "url": "https://det.social/@lostgen/116820546568940358",
-          "score": 687,
-          "comments": 1578,
-          "owner": "Risse"
+          "url": "https://javoriuski.com/post/youtube",
+          "score": 682,
+          "comments": 392,
+          "owner": "javxfps"
         },
         {
           "title": ".self: A new top-level domain designed to support self-hosting",
@@ -551,255 +543,263 @@
           "title": "PeerTube is a free, decentralized and federated video platform",
           "description": "",
           "url": "https://github.com/Chocobozzz/PeerTube",
-          "score": 673,
+          "score": 675,
           "comments": 354,
           "owner": "doener"
+        },
+        {
+          "title": "Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable",
+          "description": "",
+          "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main",
+          "score": 675,
+          "comments": 283,
+          "owner": "asronline"
         }
       ]
     },
     "weibo": {
       "label": "微博热搜",
-      "description": "当日微博实时热搜榜（2026-07-06，共 30 条）",
-      "updateFrequency": "daily",
+      "description": "当日微博实时热搜榜（2026-07-06，共 30 条，每日 10:00/22:00 更新）",
+      "updateFrequency": "twice-daily",
       "fetchedDate": "2026-07-06",
       "items": [
         {
-          "title": "内马尔哭了",
-          "description": "热",
-          "url": "https://s.weibo.com/weibo?q=%E5%86%85%E9%A9%AC%E5%B0%94%E5%93%AD%E4%BA%86&t=31&band_rank=1&Refer=top",
-          "score": 2677701,
+          "title": "广西抗洪",
+          "description": "沸",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%B9%BF%E8%A5%BF%E6%8A%97%E6%B4%AA%23&t=31&band_rank=1&Refer=top",
+          "score": 1847646,
           "owner": "微博热搜",
-          "label": "热"
+          "label": "沸"
         },
         {
-          "title": "哈兰德回应淘汰巴西",
+          "title": "LV胜诉敲响中国纹样版权保护警钟",
           "description": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%93%88%E5%85%B0%E5%BE%B7%E5%9B%9E%E5%BA%94%E6%B7%98%E6%B1%B0%E5%B7%B4%E8%A5%BF%23&t=31&band_rank=1&Refer=top",
-          "score": 1483205,
+          "url": "https://s.weibo.com/weibo?q=%23LV%E8%83%9C%E8%AF%89%E6%95%B2%E5%93%8D%E4%B8%AD%E5%9B%BD%E7%BA%B9%E6%A0%B7%E7%89%88%E6%9D%83%E4%BF%9D%E6%8A%A4%E8%AD%A6%E9%92%9F%23&t=31&band_rank=1&Refer=top",
+          "score": 677149,
           "owner": "微博热搜",
           "label": ""
         },
         {
-          "title": "数说中国经济6月成绩单",
+          "title": "暴雨天牢记这些保命知识",
           "description": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%95%B0%E8%AF%B4%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E6%E6%9C%88%E6%88%90%E7%BB%A9%E5%8D%95%23&t=31&band_rank=1&Refer=top",
-          "score": 996432,
+          "url": "https://s.weibo.com/weibo?q=%23%E6%9A%B4%E9%9B%A8%E5%A4%A9%E7%89%A2%E8%AE%B0%E8%BF%99%E4%BA%9B%E4%BF%9D%E5%91%BD%E7%9F%A5%E8%AF%86%23&t=31&band_rank=1&Refer=top",
+          "score": 591456,
           "owner": "微博热搜",
           "label": ""
         },
         {
-          "title": "巴西1比2挪威",
+          "title": "word删除空白页 义务教育",
           "description": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%B7%B4%E8%A5%BF1%E6%AF%942%E6%8C%AA%E5%A8%81%23&t=31&band_rank=1&Refer=top",
-          "score": 985629,
+          "url": "https://s.weibo.com/weibo?q=word%E5%88%A0%E9%99%A4%E7%A9%BA%E7%99%BD%E9%A1%B5%20%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2&t=31&band_rank=1&Refer=top",
+          "score": 550111,
           "owner": "微博热搜",
           "label": ""
         },
         {
-          "title": "巴西只有内马尔想赢",
+          "title": "詹姆斯 湖人",
           "description": "新",
-          "url": "https://s.weibo.com/weibo?q=%E5%B7%B4%E8%A5%BF%E5%8F%AA%E6%9C%89%E5%86%85%E9%A9%AC%E5%B0%94%E6%83%B3%E8%B5%A2&t=31&band_rank=1&Refer=top",
-          "score": 869695,
+          "url": "https://s.weibo.com/weibo?q=%E8%A9%B9%E5%A7%86%E6%96%AF%20%E6%B9%96%E4%BA%BA&t=31&band_rank=1&Refer=top",
+          "score": 399117,
           "owner": "微博热搜",
           "label": "新"
         },
         {
-          "title": "患者控诉每天要早起等医生查房",
-          "description": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%82%A3%E8%80%85%E6%8E%A7%E8%AF%89%E6%AF%8F%E5%A4%A9%E8%A6%81%E6%97%A9%E8%B5%B7%E7%AD%89%E5%8C%BB%E7%94%9F%E6%9F%A5%E6%88%BF%23&t=31&band_rank=1&Refer=top",
-          "score": 753302,
-          "owner": "微博热搜",
-          "label": ""
-        },
-        {
-          "title": "有线耳机此生从此分明了",
-          "description": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%9C%89%E7%BA%BF%E8%80%B3%E6%9C%BA%E6%AD%A4%E7%94%9F%E4%BB%8E%E6%AD%A4%E5%88%86%E6%98%8E%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-          "score": 588341,
-          "owner": "微博热搜",
-          "label": ""
-        },
-        {
-          "title": "灿如繁星 虞书欣单扛",
+          "title": "广西洪水 超话求助",
           "description": "新",
-          "url": "https://s.weibo.com/weibo?q=%E7%81%BF%E5%A6%82%E7%B9%81%E6%98%9F%20%E8%99%9E%E4%B9%A6%E6%AC%A3%E5%8D%95%E6%89%9B&t=31&band_rank=1&Refer=top",
-          "score": 345870,
+          "url": "https://s.weibo.com/weibo?q=%E5%B9%BF%E8%A5%BF%E6%B4%AA%E6%B0%B4%20%E8%B6%85%E8%AF%9D%E6%B1%82%E5%8A%A9&t=31&band_rank=1&Refer=top",
+          "score": 371884,
           "owner": "微博热搜",
           "label": "新"
         },
         {
-          "title": "马思纯直言再瘦就认不出郭麒麟了",
+          "title": "字节 草地牛",
           "description": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E9%A9%AC%E6%80%9D%E7%BA%AF%E7%9B%B4%E8%A8%80%E5%86%8D%E7%98%A6%E5%B0%B1%E8%AE%A4%E4%B8%8D%E5%87%BA%E9%83%AD%E9%BA%92%E9%BA%9F%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-          "score": 305560,
+          "url": "https://s.weibo.com/weibo?q=%E5%AD%97%E8%8A%82%20%E8%8D%89%E5%9C%B0%E7%89%9B&t=31&band_rank=1&Refer=top",
+          "score": 346458,
           "owner": "微博热搜",
           "label": ""
         },
         {
-          "title": "内马尔从巴西国家队退役",
+          "title": "广西灾情可能进一步扩大",
+          "description": "",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%B9%BF%E8%A5%BF%E7%81%BE%E6%83%85%E5%8F%AF%E8%83%BD%E8%BF%9B%E4%B8%80%E6%AD%A5%E6%89%A9%E5%A4%A7%23&t=31&band_rank=1&Refer=top",
+          "score": 346024,
+          "owner": "微博热搜",
+          "label": ""
+        },
+        {
+          "title": "李柯以张翅 剧宣",
           "description": "新",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%86%85%E9%A9%AC%E5%B0%94%E4%BB%8E%E5%B7%B4%E8%A5%BF%E5%9B%BD%E5%AE%B6%E9%98%9F%E9%80%80%E5%BD%B9%23&t=31&band_rank=1&Refer=top",
-          "score": 302991,
+          "url": "https://s.weibo.com/weibo?q=%E6%9D%8E%E6%9F%AF%E4%BB%A5%E5%BC%A0%E7%BF%85%20%E5%89%A7%E5%AE%A3&t=31&band_rank=1&Refer=top",
+          "score": 344089,
           "owner": "微博热搜",
           "label": "新"
         },
         {
-          "title": "巴西VS挪威",
-          "description": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%B7%B4%E8%A5%BFVS%E6%8C%AA%E5%A8%81%23&t=31&band_rank=1&Refer=top",
-          "score": 298310,
-          "owner": "微博热搜",
-          "label": ""
-        },
-        {
-          "title": "司晓迪疑似发鹿晗",
-          "description": "爆",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%8F%B8%E6%99%93%E8%BF%AA%E7%96%91%E4%BC%BC%E5%8F%91%E9%B9%BF%E6%99%97%23&t=31&band_rank=1&Refer=top",
-          "score": 10208255,
-          "owner": "微博热搜",
-          "label": "爆"
-        },
-        {
-          "title": "迪丽热巴全程都很不自在",
-          "description": "热",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4%E5%85%A8%E7%A8%8B%E9%83%BD%E5%BE%88%E4%B8%8D%E8%87%AA%E5%9C%A8%23&t=31&band_rank=1&Refer=top",
-          "score": 284358,
-          "owner": "微博热搜",
-          "label": "热"
-        },
-        {
-          "title": "哈兰德",
-          "description": "",
-          "url": "https://s.weibo.com/weibo?q=%E5%93%88%E5%85%B0%E5%BE%B7&t=31&band_rank=1&Refer=top",
-          "score": 274949,
-          "owner": "微博热搜",
-          "label": ""
-        },
-        {
-          "title": "LV在中国疯狂打官司",
-          "description": "",
-          "url": "https://s.weibo.com/weibo?q=%23LV%E5%9C%A8%E4%B8%AD%E5%9B%BD%E7%96%AF%E7%8B%82%E6%89%93%E5%AE%98%E5%8F%B8%23&t=31&band_rank=1&Refer=top",
-          "score": 266665,
-          "owner": "微博热搜",
-          "label": ""
-        },
-        {
-          "title": "特朗普发文感谢国际足联",
-          "description": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E5%8F%91%E6%96%87%E6%84%9F%E8%B0%A2%E5%9B%BD%E9%99%85%E8%B6%B3%E8%81%94%23&t=31&band_rank=1&Refer=top",
-          "score": 264342,
-          "owner": "微博热搜",
-          "label": ""
-        },
-        {
-          "title": "台风",
-          "description": "",
-          "url": "https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E&t=31&band_rank=1&Refer=top",
-          "score": 227583,
-          "owner": "微博热搜",
-          "label": ""
-        },
-        {
-          "title": "张新成演唱会翻唱率",
-          "description": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%BC%A0%E6%96%B0%E6%88%90%E6%BC%94%E5%94%B1%E4%BC%9A%E7%BF%BB%E5%94%B1%E7%8E%87%23&t=31&band_rank=1&Refer=top",
-          "score": 225307,
-          "owner": "微博热搜",
-          "label": ""
-        },
-        {
-          "title": "安切洛蒂 巴西",
+          "title": "曾舜晞抱孟子义的狗自拍",
           "description": "新",
-          "url": "https://s.weibo.com/weibo?q=%E5%AE%89%E5%88%87%E6%B4%9B%E8%92%82%20%E5%B7%B4%E8%A5%BF&t=31&band_rank=1&Refer=top",
-          "score": 225067,
+          "url": "https://s.weibo.com/weibo?q=%23%E6%9B%BE%E8%88%9C%E6%99%9E%E6%8A%B1%E5%AD%9F%E5%AD%90%E4%B9%89%E7%9A%84%E7%8B%97%E8%87%AA%E6%8B%8D%23&t=31&band_rank=1&Refer=top",
+          "score": 341964,
           "owner": "微博热搜",
           "label": "新"
         },
         {
-          "title": "字节申请热门网络梗著作权",
+          "title": "LV被指垄断中国古纹样",
+          "description": "新",
+          "url": "https://s.weibo.com/weibo?q=LV%E8%A2%AB%E6%8C%87%E5%9E%84%E6%96%AD%E4%B8%AD%E5%9B%BD%E5%8F%A4%E7%BA%B9%E6%A0%B7&t=31&band_rank=1&Refer=top",
+          "score": 340445,
+          "owner": "微博热搜",
+          "label": "新"
+        },
+        {
+          "title": "王俊凯旁边的是谁",
           "description": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%AD%97%E8%8A%82%E7%94%B3%E8%AF%B7%E7%83%AD%E9%97%A8%E7%BD%91%E7%BB%9C%E6%A2%97%E8%91%97%E4%BD%9C%E6%9D%83%23&t=31&band_rank=1&Refer=top",
-          "score": 222338,
+          "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E4%BF%8A%E5%87%AF%E6%97%81%E8%BE%B9%E7%9A%84%E6%98%AF%E8%B0%81%23&t=31&band_rank=1&Refer=top",
+          "score": 338862,
           "owner": "微博热搜",
           "label": ""
         },
         {
-          "title": "司晓迪发了好多男明星",
-          "description": "热",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%8F%B8%E6%99%93%E8%BF%AA%E5%8F%91%E4%BA%86%E5%A5%BD%E5%A4%9A%E7%94%B7%E6%98%8E%E6%98%9F%23&t=31&band_rank=1&Refer=top",
-          "score": 221890,
-          "owner": "微博热搜",
-          "label": "热"
-        },
-        {
-          "title": "关晓彤 鹿晗",
-          "description": "新",
-          "url": "https://s.weibo.com/weibo?q=%E5%85%B3%E6%99%93%E5%BD%A4%20%E9%B9%BF%E6%99%97&t=31&band_rank=1&Refer=top",
-          "score": 220519,
-          "owner": "微博热搜",
-          "label": "新"
-        },
-        {
-          "title": "计算机跌出本科专业月收入前十",
+          "title": "王安宇自曝理想型要外在形象条件",
           "description": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%B7%8C%E5%87%BA%E6%9C%AC%E7%A7%91%E4%B8%93%E4%B8%9A%E6%9C%88%E6%94%B6%E5%85%A5%E5%89%8D%E5%8D%81%23&t=31&band_rank=1&Refer=top",
-          "score": 218769,
+          "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E5%AE%89%E5%AE%87%E8%87%AA%E6%9B%9D%E7%90%86%E6%83%B3%E5%9E%8B%E8%A6%81%E5%A4%96%E5%9C%A8%E5%BD%A2%E8%B1%A1%E6%9D%A1%E4%BB%B6%23&t=31&band_rank=1&Refer=top",
+          "score": 337375,
           "owner": "微博热搜",
           "label": ""
         },
         {
-          "title": "霉霉婚礼安保拉满却没防住内鬼",
+          "title": "保洁阿姨在厕所吃饭景区连夜回应",
           "description": "新",
-          "url": "https://s.weibo.com/weibo?q=%23%E9%9C%89%E9%9C%89%E5%A9%9A%E7%A4%BC%E5%AE%89%E4%BF%9D%E6%8B%89%E6%BB%A1%E5%8D%B4%E6%B2%A1%E9%98%B2%E4%BD%8F%E5%86%85%E9%AC%BC%23&t=31&band_rank=1&Refer=top",
-          "score": 216607,
+          "url": "https://s.weibo.com/weibo?q=%23%E4%BF%9D%E6%B4%81%E9%98%BF%E5%A7%A8%E5%9C%A8%E5%8E%95%E6%89%80%E5%90%83%E9%A5%AD%E6%99%AF%E5%8C%BA%E8%BF%9E%E5%A4%9C%E5%9B%9E%E5%BA%94%23&t=31&band_rank=1&Refer=top",
+          "score": 336372,
           "owner": "微博热搜",
           "label": "新"
         },
         {
-          "title": "虞书欣蚌精仿妆",
+          "title": "美国博主一口闷茅台走红TikTok",
           "description": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%99%9E%E4%B9%A6%E6%AC%A3%E8%9A%8C%E7%B2%BE%E4%BB%BF%E5%A6%86%23&t=31&band_rank=1&Refer=top",
-          "score": 215859,
+          "url": "https://s.weibo.com/weibo?q=%E7%BE%8E%E5%9B%BD%E5%8D%9A%E4%B8%BB%E4%B8%80%E5%8F%A3%E9%97%B7%E8%8C%85%E5%8F%B0%E8%B5%B0%E7%BA%A2TikTok&t=31&band_rank=1&Refer=top",
+          "score": 333815,
           "owner": "微博热搜",
           "label": ""
         },
         {
-          "title": "长期关系的本质是什么",
+          "title": "朱志鑫高会更新",
+          "description": "新",
+          "url": "https://s.weibo.com/weibo?q=%E6%9C%B1%E5%BF%97%E9%91%AB%E9%AB%98%E4%BC%9A%E6%9B%B4%E6%96%B0&t=31&band_rank=1&Refer=top",
+          "score": 333046,
+          "owner": "微博热搜",
+          "label": "新"
+        },
+        {
+          "title": "特朗普插手世界杯红牌",
           "description": "",
-          "url": "https://s.weibo.com/weibo?q=%E9%95%BF%E6%9C%9F%E5%85%B3%E7%B3%BB%E7%9A%84%E6%9C%AC%E8%B4%A8%E6%98%AF%E4%BB%80%E4%B9%88&t=31&band_rank=1&Refer=top",
-          "score": 214186,
+          "url": "https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E6%8F%92%E6%89%8B%E4%B8%96%E7%95%8C%E6%9D%AF%E7%BA%A2%E7%89%8C%23&t=31&band_rank=1&Refer=top",
+          "score": 331719,
           "owner": "微博热搜",
           "label": ""
         },
         {
-          "title": "曝时代少年团有成员去歌手帮唱",
-          "description": "新",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E6%97%B6%E4%BB%A3%E5%B0%91%E5%B9%B4%E5%9B%A2%E6%9C%89%E6%88%90%E5%91%98%E5%8E%BB%E6%AD%8C%E6%89%8B%E5%B8%AE%E5%94%B1%23&t=31&band_rank=1&Refer=top",
-          "score": 212132,
-          "owner": "微博热搜",
-          "label": "新"
-        },
-        {
-          "title": "原来泰国的身份证长这样",
-          "description": "新",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%8E%9F%E6%9D%A5%E6%B3%B0%E5%9B%BD%E7%9A%84%E8%BA%AB%E4%BB%BD%E8%AF%81%E9%95%BF%E8%BF%99%E6%A0%B7%23&t=31&band_rank=1&Refer=top",
-          "score": 210965,
-          "owner": "微博热搜",
-          "label": "新"
-        },
-        {
-          "title": "孙怡这个腿环设计太加分了",
-          "description": "新",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%AD%99%E6%80%A1%E8%BF%99%E4%B8%AA%E8%85%BF%E7%8E%AF%E8%AE%BE%E8%AE%A1%E5%A4%AA%E5%8A%A0%E5%88%86%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-          "score": 209660,
-          "owner": "微博热搜",
-          "label": "新"
-        },
-        {
-          "title": "未发现蒋方舟存在学术不端行为",
+          "title": "功夫女足成本3.8亿",
           "description": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%9C%AA%E5%8F%91%E7%8E%B0%E8%92%8B%E6%96%B9%E8%88%9F%E5%AD%98%E5%9C%A8%E5%AD%A6%E6%9C%AF%E4%B8%8D%E7%AB%AF%E8%A1%8C%E4%B8%BA%23&t=31&band_rank=1&Refer=top",
-          "score": 209426,
+          "url": "https://s.weibo.com/weibo?q=%23%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E6%88%90%E6%9C%AC3.8%E4%BA%BF%23&t=31&band_rank=1&Refer=top",
+          "score": 329277,
+          "owner": "微博热搜",
+          "label": ""
+        },
+        {
+          "title": "AI五大核心赛道",
+          "description": "新",
+          "url": "https://s.weibo.com/weibo?q=AI%E4%BA%94%E5%A4%A7%E6%A0%B8%E5%BF%83%E8%B5%9B%E9%81%93&t=31&band_rank=1&Refer=top",
+          "score": 328257,
+          "owner": "微博热搜",
+          "label": "新"
+        },
+        {
+          "title": "三星SK海力士股价震荡",
+          "description": "",
+          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%89%E6%98%9FSK%E6%B5%B7%E5%8A%9B%E5%A3%AB%E8%82%A1%E4%BB%B7%E9%9C%87%E8%8D%A1%23&t=31&band_rank=1&Refer=top",
+          "score": 326190,
+          "owner": "微博热搜",
+          "label": ""
+        },
+        {
+          "title": "广西洪水",
+          "description": "",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%B9%BF%E8%A5%BF%E6%B4%AA%E6%B0%B4%23&t=31&band_rank=1&Refer=top",
+          "score": 325545,
+          "owner": "微博热搜",
+          "label": ""
+        },
+        {
+          "title": "香蕉是世界上最善良的水果",
+          "description": "",
+          "url": "https://s.weibo.com/weibo?q=%E9%A6%99%E8%95%89%E6%98%AF%E4%B8%96%E7%95%8C%E4%B8%8A%E6%9C%80%E5%96%84%E8%89%AF%E7%9A%84%E6%B0%B4%E6%9E%9C&t=31&band_rank=1&Refer=top",
+          "score": 323601,
+          "owner": "微博热搜",
+          "label": ""
+        },
+        {
+          "title": "哈兰德是我见过最搞笑的足球明星",
+          "description": "",
+          "url": "https://s.weibo.com/weibo?q=%E5%93%88%E5%85%B0%E5%BE%B7%E6%98%AF%E6%88%91%E8%A7%81%E8%BF%87%E6%9C%80%E6%90%9E%E7%AC%91%E7%9A%84%E8%B6%B3%E7%90%83%E6%98%8E%E6%98%9F&t=31&band_rank=1&Refer=top",
+          "score": 321310,
+          "owner": "微博热搜",
+          "label": ""
+        },
+        {
+          "title": "广西洪涝灾害致2人死亡",
+          "description": "",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%B9%BF%E8%A5%BF%E6%B4%AA%E6%B6%9D%E7%81%BE%E5%AE%B3%E8%87%B42%E4%BA%BA%E6%AD%BB%E4%BA%A1%23&t=31&band_rank=1&Refer=top",
+          "score": 320614,
+          "owner": "微博热搜",
+          "label": ""
+        },
+        {
+          "title": "房租才是我生活拮据的罪魁祸首",
+          "description": "",
+          "url": "https://s.weibo.com/weibo?q=%E6%88%BF%E7%A7%9F%E6%89%8D%E6%98%AF%E6%88%91%E7%94%9F%E6%B4%BB%E6%8B%AE%E6%8D%AE%E7%9A%84%E7%BD%AA%E9%AD%81%E7%A5%B8%E9%A6%96&t=31&band_rank=1&Refer=top",
+          "score": 318412,
+          "owner": "微博热搜",
+          "label": ""
+        },
+        {
+          "title": "哈兰德连发5条中文动态",
+          "description": "",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%93%88%E5%85%B0%E5%BE%B7%E8%BF%9E%E5%8F%915%E6%9D%A1%E4%B8%AD%E6%96%87%E5%8A%A8%E6%80%81%23&t=31&band_rank=1&Refer=top",
+          "score": 317395,
+          "owner": "微博热搜",
+          "label": ""
+        },
+        {
+          "title": "真正的强大是敢于让别人不舒服",
+          "description": "新",
+          "url": "https://s.weibo.com/weibo?q=%E7%9C%9F%E6%AD%A3%E7%9A%84%E5%BC%BA%E5%A4%A7%E6%98%AF%E6%95%A2%E4%BA%8E%E8%AE%A9%E5%88%AB%E4%BA%BA%E4%B8%8D%E8%88%92%E6%9C%8D&t=31&band_rank=1&Refer=top",
+          "score": 315272,
+          "owner": "微博热搜",
+          "label": "新"
+        },
+        {
+          "title": "魏晨和老婆拥抱会被儿子推开",
+          "description": "",
+          "url": "https://s.weibo.com/weibo?q=%23%E9%AD%8F%E6%99%A8%E5%92%8C%E8%80%81%E5%A9%86%E6%8B%A5%E6%8A%B1%E4%BC%9A%E8%A2%AB%E5%84%BF%E5%AD%90%E6%8E%A8%E5%BC%80%23&t=31&band_rank=1&Refer=top",
+          "score": 312848,
+          "owner": "微博热搜",
+          "label": ""
+        },
+        {
+          "title": "虞书欣就这么把脸伸过来了",
+          "description": "",
+          "url": "https://s.weibo.com/weibo?q=%23%E8%99%9E%E4%B9%A6%E6%AC%A3%E5%B0%B1%E8%BF%99%E4%B9%88%E6%8A%8A%E8%84%B8%E4%BC%B8%E8%BF%87%E6%9D%A5%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+          "score": 312693,
+          "owner": "微博热搜",
+          "label": ""
+        },
+        {
+          "title": "美客机在空中被烟花击中",
+          "description": "",
+          "url": "https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%AE%A2%E6%9C%BA%E5%9C%A8%E7%A9%BA%E4%B8%AD%E8%A2%AB%E7%83%9F%E8%8A%B1%E5%87%BB%E4%B8%AD%23&t=31&band_rank=1&Refer=top",
+          "score": 310683,
           "owner": "微博热搜",
           "label": ""
         }
@@ -1345,9 +1345,9 @@
       ]
     }
   },
-  "weiboUpdatedAt": "2026-07-06T01:22:55Z",
+  "weiboUpdatedAt": "2026-07-06T16:53:30Z",
   "journalsUpdatedAt": "2026-07-06T03:02:33Z",
   "journalsPeriod": "2026-05-22 ~ 2026-07-06",
-  "hackernewsUpdatedAt": "2026-07-06T03:41:47Z",
+  "hackernewsUpdatedAt": "2026-07-06T16:53:29Z",
   "githubUpdatedAt": "2026-07-06T05:02:26Z"
 }

@@ -1,7 +1,7 @@
 {
   "date": "2026-07-06",
   "sourceKey": "hackernews",
-  "savedAt": "2026-07-06T03:41:47Z",
+  "savedAt": "2026-07-06T16:53:29Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-07-06，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -11,7 +11,7 @@
       "title": "Claude Code is steganographically marking requests",
       "description": "",
       "url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
-      "score": 2436,
+      "score": 2438,
       "comments": 746,
       "owner": "kirushik"
     },
@@ -19,23 +19,23 @@
       "title": "Android Developer Verification: Threat masquerading as protection",
       "description": "",
       "url": "https://f-droid.org/2026/07/01/adv-malware.html",
-      "score": 1718,
-      "comments": 738,
+      "score": 1724,
+      "comments": 740,
       "owner": "drewfax"
     },
     {
       "title": "Half-Baked Product",
       "description": "",
       "url": "https://weli.dev/blog/half-baked-product/",
-      "score": 1370,
-      "comments": 403,
+      "score": 1377,
+      "comments": 409,
       "owner": "weli"
     },
     {
       "title": "Claude Sonnet 5",
       "description": "",
       "url": "https://www.anthropic.com/news/claude-sonnet-5",
-      "score": 1262,
+      "score": 1264,
       "comments": 783,
       "owner": "marinesebastian"
     },
@@ -44,22 +44,30 @@
       "description": "",
       "url": "https://quesma.com/blog/qwen-36-is-awesome/",
       "score": 1190,
-      "comments": 757,
+      "comments": 758,
       "owner": "stared"
     },
     {
-      "title": "Age verification is just a precursor to automated attribution of speech",
+      "title": "Organic Maps",
       "description": "",
-      "url": "https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026",
-      "score": 1019,
-      "comments": 632,
-      "owner": "arkhiver"
+      "url": "https://organicmaps.app/",
+      "score": 1095,
+      "comments": 352,
+      "owner": "tosh"
+    },
+    {
+      "title": "OpenPrinter",
+      "description": "",
+      "url": "https://www.opentools.studio/",
+      "score": 1065,
+      "comments": 262,
+      "owner": "bouh"
     },
     {
       "title": "Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5",
       "description": "",
       "url": "https://twitter.com/AnthropicAI/status/2072106151890809341",
-      "score": 972,
+      "score": 975,
       "comments": 690,
       "owner": "Pragmata"
     },
@@ -68,63 +76,47 @@
       "description": "<a href=\"https:&#x2F;&#x2F;biotic.org&#x2F;research&#x2F;spudcell&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;biotic.org&#x2F;research&#x2F;spudcell&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;www.science.org&#x2F;content&#x2F;article&#x2F;lab-created-spudcell-marks-major-step-toward-building-life-scratch\" rel=\"nofollow\">https:&#x2F;&#x2F;www.science.org&#x2F;content&#x2F;article&#x2F;lab-created-spudcell...</a><p><a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;interactive&#x2F;2026&#x2F;07&#x2F;01&#x2F;science&#x2F;spudcells-synthetic-cell.html?unlocked_article_code=1.uVA.6Rwg.20U5t0kLK6oU&amp;smid=nytcore-ios-share\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nytimes.com&#x2F;interactive&#x2F;2026&#x2F;07&#x2F;01&#x2F;science&#x2F;spudc...</a>",
       "url": "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/",
       "score": 950,
-      "comments": 301,
+      "comments": 302,
       "owner": "defrost"
     },
     {
       "title": "Virginia bans sale of precise geolocation data",
       "description": "<a href=\"https:&#x2F;&#x2F;lis.virginia.gov&#x2F;bill-details&#x2F;20261&#x2F;SB338&#x2F;text&#x2F;SB338\" rel=\"nofollow\">https:&#x2F;&#x2F;lis.virginia.gov&#x2F;bill-details&#x2F;20261&#x2F;SB338&#x2F;text&#x2F;SB338</a>",
       "url": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/virginia-bans-sale-of-geolocation-data",
-      "score": 948,
+      "score": 950,
       "comments": 138,
       "owner": "toomuchtodo"
-    },
-    {
-      "title": "Pollen tried to remove my article and Google is assisting with it",
-      "description": "",
-      "url": "https://blog.pragmaticengineer.com/pollen-tried-to-remove-my-article-about-callum-negus-fancey-and-google-is-assisting-to-it/",
-      "score": 917,
-      "comments": 127,
-      "owner": "taubek"
-    },
-    {
-      "title": "Organic Maps",
-      "description": "",
-      "url": "https://organicmaps.app/",
-      "score": 842,
-      "comments": 231,
-      "owner": "tosh"
     },
     {
       "title": "The bottleneck might be the air in the room",
       "description": "",
       "url": "https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making/",
-      "score": 812,
-      "comments": 456,
+      "score": 818,
+      "comments": 464,
       "owner": "gslin"
     },
     {
       "title": "Physical disc production ending in Jan 2028 for new games on PlayStation",
       "description": "",
       "url": "https://blog.playstation.com/2026/07/01/physical-disc-production-ending-in-january-2028-for-new-games-releasing-on-playstation-consoles/",
-      "score": 784,
-      "comments": 793,
+      "score": 785,
+      "comments": 794,
       "owner": "Tiberium"
     },
     {
       "title": "Spain Orders Blacklist of Palantir from Public and Private Companies",
       "description": "",
       "url": "https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv",
-      "score": 739,
-      "comments": 304,
+      "score": 740,
+      "comments": 305,
       "owner": "mgh2"
     },
     {
       "title": "Most arguments are about ego, not ideas",
       "description": "",
       "url": "https://wangcong.org/2026-06-30-why-i-stopped-arguing-with-people.html",
-      "score": 721,
-      "comments": 558,
+      "score": 722,
+      "comments": 559,
       "owner": "backlit4034"
     },
     {
@@ -144,12 +136,12 @@
       "owner": "robtherobber"
     },
     {
-      "title": "The CEO of Mullvad is the main financer of the Swedish Örebro party",
+      "title": "Leaking YouTube creators' private videos",
       "description": "",
-      "url": "https://det.social/@lostgen/116820546568940358",
-      "score": 687,
-      "comments": 1578,
-      "owner": "Risse"
+      "url": "https://javoriuski.com/post/youtube",
+      "score": 682,
+      "comments": 392,
+      "owner": "javxfps"
     },
     {
       "title": ".self: A new top-level domain designed to support self-hosting",
@@ -163,9 +155,17 @@
       "title": "PeerTube is a free, decentralized and federated video platform",
       "description": "",
       "url": "https://github.com/Chocobozzz/PeerTube",
-      "score": 673,
+      "score": 675,
       "comments": 354,
       "owner": "doener"
+    },
+    {
+      "title": "Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable",
+      "description": "",
+      "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main",
+      "score": 675,
+      "comments": 283,
+      "owner": "asronline"
     }
   ]
 }
