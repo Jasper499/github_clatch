@@ -19,6 +19,15 @@ const DEFAULT_CATALOG = [
     label: "微博",
     children: [{ id: "weibo", sourceKey: "weibo" }],
   },
+  {
+    id: "journals",
+    label: "MRI 顶刊",
+    children: [
+      { id: "mrm", sourceKey: "mrm" },
+      { id: "tmi", sourceKey: "tmi" },
+      { id: "media", sourceKey: "media" },
+    ],
+  },
 ];
 
 let appData = null;
@@ -55,6 +64,7 @@ function getSource(data, key) {
 function platformIcon(parentId) {
   if (parentId === "github") return "🐙";
   if (parentId === "weibo") return "🔥";
+  if (parentId === "journals") return "📚";
   return "📰";
 }
 
@@ -169,6 +179,10 @@ function fillCategorySelect(data) {
 
 function itemSummary(item, index) {
   const rank = `#${index + 1}`;
+  if (item.journal) {
+    const date = item.published ? ` · ${item.published}` : "";
+    return `${rank} [${item.journal}]${date} ${item.title}`;
+  }
   if (item.stars != null) return `${rank} ★${Number(item.stars).toLocaleString()} · ${item.title}`;
   if (item.score != null) return `${rank} ▲${Number(item.score).toLocaleString()} · ${item.title}`;
   return `${rank} ${item.title}`;
@@ -215,26 +229,42 @@ function renderItemDetail(item, index) {
     : `<p class="detail-desc muted">暂无描述</p>`;
 
   const meta = [
+    item.authors ? `<span>${escapeHtml(item.authors)}</span>` : "",
+    item.published ? `<span>📅 ${escapeHtml(item.published)}</span>` : "",
+    item.journal ? `<span class="lang-tag">${escapeHtml(item.journal)}</span>` : "",
     item.stars != null ? `<span class="meta-stars">★ ${Number(item.stars).toLocaleString()}</span>` : "",
     item.score != null ? `<span>▲ ${Number(item.score).toLocaleString()}</span>` : "",
     item.comments != null ? `<span>💬 ${Number(item.comments).toLocaleString()}</span>` : "",
-    item.owner ? `<span>@${escapeHtml(item.owner)}</span>` : "",
+    item.owner && !item.journal ? `<span>@${escapeHtml(item.owner)}</span>` : "",
     item.language ? `<span class="lang-tag">${escapeHtml(item.language)}</span>` : "",
     item.label ? `<span class="hot-label">${escapeHtml(item.label)}</span>` : "",
+    item.isOpenAccess ? `<span class="oa-tag">开放获取</span>` : "",
   ]
     .filter(Boolean)
     .join("");
+
+  const actionLinks = [
+    item.url
+      ? `<a class="detail-link" href="${item.url}" target="_blank" rel="noopener noreferrer">打开期刊页面 →</a>`
+      : "",
+    item.pdfUrl
+      ? `<a class="detail-link pdf-link" href="${item.pdfUrl}" target="_blank" rel="noopener noreferrer">下载 PDF（已保存本地）→</a>`
+      : "",
+  ].filter(Boolean).join("");
+
+  const pdfNote = !item.pdfUrl && item.isOpenAccess
+    ? `<p class="detail-note">本篇为开放获取，但未找到可直接下载的 PDF 文件。</p>`
+    : !item.pdfUrl && item.doi
+      ? `<p class="detail-note">PDF 通常需机构订阅；已提供 DOI 期刊页面链接。</p>`
+      : "";
 
   panel.innerHTML = `
     <div class="detail-rank">第 ${index + 1} 条</div>
     <h2 class="detail-title">${title}</h2>
     ${desc}
     <div class="detail-meta">${meta}</div>
-    ${
-      item.url
-        ? `<a class="detail-link" href="${item.url}" target="_blank" rel="noopener noreferrer">打开原文 →</a>`
-        : ""
-    }
+    <div class="detail-actions">${actionLinks}</div>
+    ${pdfNote}
   `;
 }
 

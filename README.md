@@ -25,6 +25,7 @@ github_clatch/
 | GitHub 活跃项目 | GitHub Search API | 近 7 天有推送、Star > 10、按 Star 排序 |
 | Hacker News 热门 | HN Algolia API | 近 7 天高互动 Story |
 | 微博热搜 | `weibo.com/ajax/side/hotSearch` | 当日实时热搜 TOP 30 |
+| MRM / TMI / MedIA | CrossRef + Semantic Scholar + Unpaywall | 近 45 天 MRI 相关论文，自动下载开放获取 PDF |
 
 ## 自动更新
 
@@ -32,8 +33,9 @@ github_clatch/
 |------|------|--------|------|
 | GitHub + HN + 微博 | 每周一 09:00 | `weekly-update.yml` | `python scripts/update_content.py` |
 | 微博热搜 | **每天 08:00** | `daily-weibo.yml` | `python scripts/update_weibo.py` |
+| **MRI 顶刊** | **每月 1/15 日 10:00** | `biweekly-journals.yml` | `python scripts/update_journals.py` |
 
-微博每日任务只更新 `sources.weibo`，不会覆盖 GitHub / HN 数据。
+论文 PDF 仅下载**开放获取**版本，保存至 `papers/mrm/`、`papers/tmi/`、`papers/media/`。
 
 ## 快速开始
 
