@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T00:41:39Z",
+  "updatedAt": "2026-07-06T01:03:14Z",
   "periodDays": 7,
   "weekLabel": "2026-06-29 ~ 2026-07-06",
   "catalog": [
@@ -37,7 +37,7 @@
           "title": "elder-plinius/T3MP3ST",
           "description": "autonomous red teaming platform; multi-agent offensive-security meta-harness",
           "url": "https://github.com/elder-plinius/T3MP3ST",
-          "stars": 1644,
+          "stars": 1660,
           "language": "TypeScript",
           "owner": "elder-plinius"
         },
@@ -53,7 +53,7 @@
           "title": "HUANGCHIHHUNGLeo/claude-real-video",
           "description": "Let Claude (or any LLM) actually watch a video — scene-aware, deduplicated frames + transcript, from a URL or local file. Runs locally, MIT.",
           "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
-          "stars": 955,
+          "stars": 963,
           "language": "Python",
           "owner": "HUANGCHIHHUNGLeo"
         },
@@ -61,7 +61,7 @@
           "title": "jamesob/local-llm",
           "description": "Everything I know about running LLMs locally",
           "url": "https://github.com/jamesob/local-llm",
-          "stars": 919,
+          "stars": 920,
           "language": "Shell",
           "owner": "jamesob"
         },
@@ -69,7 +69,7 @@
           "title": "ammaarreshi/Generals-Mac-iOS-iPad",
           "description": "Command & Conquer Generals: Zero Hour running natively on macOS, iPhone & iPad — real engine (EA GPL v3 source, via GeneralsX), DXVK/MoltenVK renderer, RTS touch controls. No game assets included.",
           "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad",
-          "stars": 795,
+          "stars": 796,
           "language": "C++",
           "owner": "ammaarreshi"
         },
@@ -125,7 +125,7 @@
           "title": "LinXiaoTao/FuckClaude",
           "description": "",
           "url": "https://github.com/LinXiaoTao/FuckClaude",
-          "stars": 500,
+          "stars": 503,
           "language": "TypeScript",
           "owner": "LinXiaoTao"
         },
@@ -157,7 +157,7 @@
           "title": "dzhng/skills",
           "description": "",
           "url": "https://github.com/dzhng/skills",
-          "stars": 312,
+          "stars": 314,
           "language": "JavaScript",
           "owner": "dzhng"
         },
@@ -165,7 +165,7 @@
           "title": "Archive228/loopkit",
           "description": "33 battle-tested skills + minimal .claude harness for any coding agent (Claude Code, Cursor, Codex, Gemini CLI).",
           "url": "https://github.com/Archive228/loopkit",
-          "stars": 309,
+          "stars": 312,
           "language": "JavaScript",
           "owner": "Archive228"
         },
@@ -173,7 +173,7 @@
           "title": "yynxxxxx/Codex-X",
           "description": "Codex Switch & Instruct desktop manager",
           "url": "https://github.com/yynxxxxx/Codex-X",
-          "stars": 300,
+          "stars": 301,
           "language": "Rust",
           "owner": "yynxxxxx"
         },
@@ -203,7 +203,7 @@
           "title": "sindresorhus/awesome",
           "description": "😎 Awesome lists about all kinds of interesting topics",
           "url": "https://github.com/sindresorhus/awesome",
-          "stars": 481839,
+          "stars": 481843,
           "language": "",
           "owner": "sindresorhus"
         },
@@ -219,7 +219,7 @@
           "title": "public-apis/public-apis",
           "description": "A collective list of free APIs",
           "url": "https://github.com/public-apis/public-apis",
-          "stars": 446894,
+          "stars": 446901,
           "language": "Python",
           "owner": "public-apis"
         },
@@ -243,7 +243,7 @@
           "title": "nilbuild/developer-roadmap",
           "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
           "url": "https://github.com/nilbuild/developer-roadmap",
-          "stars": 359409,
+          "stars": 359411,
           "language": "TypeScript",
           "owner": "nilbuild"
         },
@@ -251,7 +251,7 @@
           "title": "vinta/awesome-python",
           "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
           "url": "https://github.com/vinta/awesome-python",
-          "stars": 306526,
+          "stars": 306528,
           "language": "Python",
           "owner": "vinta"
         },
@@ -259,7 +259,7 @@
           "title": "awesome-selfhosted/awesome-selfhosted",
           "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
           "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-          "stars": 303077,
+          "stars": 303080,
           "language": "",
           "owner": "awesome-selfhosted"
         },
@@ -267,7 +267,7 @@
           "title": "practical-tutorials/project-based-learning",
           "description": "Curated list of project-based tutorials",
           "url": "https://github.com/practical-tutorials/project-based-learning",
-          "stars": 272205,
+          "stars": 272207,
           "language": "Python",
           "owner": "practical-tutorials"
         },
@@ -275,7 +275,7 @@
           "title": "obra/superpowers",
           "description": "An agentic skills framework & software development methodology that works.",
           "url": "https://github.com/obra/superpowers",
-          "stars": 246856,
+          "stars": 246865,
           "language": "Shell",
           "owner": "obra"
         },
@@ -291,7 +291,7 @@
           "title": "torvalds/linux",
           "description": "Linux kernel source tree",
           "url": "https://github.com/torvalds/linux",
-          "stars": 238530,
+          "stars": 238531,
           "language": "C",
           "owner": "torvalds"
         },
@@ -299,7 +299,7 @@
           "title": "affaan-m/ECC",
           "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
           "url": "https://github.com/affaan-m/ECC",
-          "stars": 226327,
+          "stars": 226330,
           "language": "JavaScript",
           "owner": "affaan-m"
         },
@@ -307,7 +307,7 @@
           "title": "NousResearch/hermes-agent",
           "description": "The agent that grows with you",
           "url": "https://github.com/NousResearch/hermes-agent",
-          "stars": 209664,
+          "stars": 209673,
           "language": "Python",
           "owner": "NousResearch"
         },
@@ -323,7 +323,7 @@
           "title": "n8n-io/n8n",
           "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
           "url": "https://github.com/n8n-io/n8n",
-          "stars": 195312,
+          "stars": 195313,
           "language": "TypeScript",
           "owner": "n8n-io"
         },
@@ -339,7 +339,7 @@
           "title": "microsoft/vscode",
           "description": "Visual Studio Code",
           "url": "https://github.com/microsoft/vscode",
-          "stars": 187139,
+          "stars": 187141,
           "language": "TypeScript",
           "owner": "microsoft"
         },
@@ -347,7 +347,7 @@
           "title": "Significant-Gravitas/AutoGPT",
           "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
           "url": "https://github.com/Significant-Gravitas/AutoGPT",
-          "stars": 185388,
+          "stars": 185389,
           "language": "Python",
           "owner": "Significant-Gravitas"
         },
@@ -355,7 +355,7 @@
           "title": "anomalyco/opencode",
           "description": "The open source coding agent.",
           "url": "https://github.com/anomalyco/opencode",
-          "stars": 182633,
+          "stars": 182635,
           "language": "TypeScript",
           "owner": "anomalyco"
         }
@@ -434,7 +434,7 @@
           "description": "<a href=\"https:&#x2F;&#x2F;biotic.org&#x2F;research&#x2F;spudcell&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;biotic.org&#x2F;research&#x2F;spudcell&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;www.science.org&#x2F;content&#x2F;article&#x2F;lab-created-spudcell-marks-major-step-toward-building-life-scratch\" rel=\"nofollow\">https:&#x2F;&#x2F;www.science.org&#x2F;content&#x2F;article&#x2F;lab-created-spudcell...</a><p><a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;interactive&#x2F;2026&#x2F;07&#x2F;01&#x2F;science&#x2F;spudcells-synthetic-cell.html?unlocked_article_code=1.uVA.6Rwg.20U5t0kLK6oU&amp;smid=nytcore-ios-share\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nytimes.com&#x2F;interactive&#x2F;2026&#x2F;07&#x2F;01&#x2F;science&#x2F;spudc...</a>",
           "url": "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/",
           "score": 950,
-          "comments": 300,
+          "comments": 301,
           "owner": "defrost"
         },
         {
@@ -457,7 +457,7 @@
           "title": "The bottleneck might be the air in the room",
           "description": "",
           "url": "https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making/",
-          "score": 811,
+          "score": 812,
           "comments": 456,
           "owner": "gslin"
         },
@@ -465,8 +465,8 @@
           "title": "Organic Maps",
           "description": "",
           "url": "https://organicmaps.app/",
-          "score": 790,
-          "comments": 219,
+          "score": 794,
+          "comments": 221,
           "owner": "tosh"
         },
         {
