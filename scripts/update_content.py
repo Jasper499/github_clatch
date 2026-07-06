@@ -12,6 +12,9 @@ import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from fetch_weibo import fetch_weibo, weibo_catalog_entry, weibo_source_meta, iso_date_today
+
 PERIOD_DAYS = 7
 ROOT = Path(__file__).resolve().parent.parent
 OUTPUT = ROOT / "data" / "content.json"
@@ -122,6 +125,7 @@ def build_payload() -> dict:
     new_repos = fetch_github_repos(f"created:>{since}")
     active_repos = fetch_github_repos(f"pushed:>{since}")
     hn_stories = fetch_hackernews()
+    weibo_items = fetch_weibo()
 
     return {
         "updatedAt": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
@@ -143,6 +147,7 @@ def build_payload() -> dict:
                     {"id": "hackernews", "sourceKey": "hackernews"},
                 ],
             },
+            weibo_catalog_entry(),
         ],
         "sources": {
             "github": {
@@ -160,7 +165,9 @@ def build_payload() -> dict:
                 "description": f"近 {PERIOD_DAYS} 天内 HN 社区高互动技术讨论",
                 "items": hn_stories,
             },
+            "weibo": weibo_source_meta(today, weibo_items),
         },
+        "weiboUpdatedAt": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
     }
 
 
@@ -178,6 +185,7 @@ def main() -> int:
     print(f"  GitHub 新项目: {counts['github']} 条")
     print(f"  GitHub 活跃:   {counts['githubActive']} 条")
     print(f"  Hacker News:   {counts['hackernews']} 条")
+    print(f"  微博热搜:      {counts.get('weibo', 0)} 条")
     print(f"  更新时间:      {payload['updatedAt']}")
     return 0
 

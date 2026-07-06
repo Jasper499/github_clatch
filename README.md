@@ -1,6 +1,6 @@
 # Clatch · 每周热门精选
 
-自动聚合 **GitHub 热门开源项目** 与 **Hacker News 技术讨论**，每周更新一次。
+自动聚合 **GitHub 热门开源项目**、**Hacker News 技术讨论** 与 **微博每日热搜**，支持目录树与下拉浏览。
 
 ## 项目结构
 
@@ -10,8 +10,11 @@ github_clatch/
 ├── css/style.css           # 样式
 ├── js/app.js               # 前端渲染逻辑
 ├── data/content.json       # 抓取结果（网站读取此文件）
-├── scripts/update_content.py  # 内容抓取脚本
-└── .github/workflows/weekly-update.yml  # GitHub Actions 备用定时任务
+├── scripts/update_content.py   # 每周全量抓取
+├── scripts/update_weibo.py     # 微博每日热搜
+├── scripts/fetch_weibo.py      # 微博抓取逻辑
+├── .github/workflows/weekly-update.yml
+└── .github/workflows/daily-weibo.yml
 ```
 
 ## 数据来源
@@ -21,6 +24,16 @@ github_clatch/
 | GitHub 热门新项目 | GitHub Search API | 近 7 天创建、Star > 10、按 Star 排序 |
 | GitHub 活跃项目 | GitHub Search API | 近 7 天有推送、Star > 10、按 Star 排序 |
 | Hacker News 热门 | HN Algolia API | 近 7 天高互动 Story |
+| 微博热搜 | `weibo.com/ajax/side/hotSearch` | 当日实时热搜 TOP 30 |
+
+## 自动更新
+
+| 任务 | 频率 | 工作流 | 命令 |
+|------|------|--------|------|
+| GitHub + HN + 微博 | 每周一 09:00 | `weekly-update.yml` | `python scripts/update_content.py` |
+| 微博热搜 | **每天 08:00** | `daily-weibo.yml` | `python scripts/update_weibo.py` |
+
+微博每日任务只更新 `sources.weibo`，不会覆盖 GitHub / HN 数据。
 
 ## 快速开始
 

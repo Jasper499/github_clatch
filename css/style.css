@@ -347,6 +347,15 @@ header p {
   font-size: 0.78rem;
 }
 
+.hot-label {
+  padding: 0.1rem 0.45rem;
+  border-radius: 6px;
+  background: rgba(248, 81, 73, 0.15);
+  color: #f85149;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
 .detail-link {
   display: inline-flex;
   color: var(--accent);

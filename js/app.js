@@ -14,6 +14,11 @@ const DEFAULT_CATALOG = [
     label: "Hacker News",
     children: [{ id: "hackernews", sourceKey: "hackernews" }],
   },
+  {
+    id: "weibo",
+    label: "微博",
+    children: [{ id: "weibo", sourceKey: "weibo" }],
+  },
 ];
 
 let appData = null;
@@ -47,6 +52,12 @@ function getSource(data, key) {
   return data.sources?.[key] ?? null;
 }
 
+function platformIcon(parentId) {
+  if (parentId === "github") return "🐙";
+  if (parentId === "weibo") return "🔥";
+  return "📰";
+}
+
 function getParentNode(catalog, parentId) {
   return catalog.find((node) => node.id === parentId) ?? catalog[0];
 }
@@ -74,7 +85,7 @@ function renderTree(data) {
             (parent) => `
           <details class="tree-node" ${parent.id === activeParentId ? "open" : ""} data-parent-id="${parent.id}">
             <summary class="tree-label">
-              <span class="tree-icon">${parent.id === "github" ? "🐙" : "📰"}</span>
+              <span class="tree-icon">${platformIcon(parent.id)}</span>
               <span>${escapeHtml(parent.label)}</span>
             </summary>
             <ul class="tree-leaves">
@@ -209,6 +220,7 @@ function renderItemDetail(item, index) {
     item.comments != null ? `<span>💬 ${Number(item.comments).toLocaleString()}</span>` : "",
     item.owner ? `<span>@${escapeHtml(item.owner)}</span>` : "",
     item.language ? `<span class="lang-tag">${escapeHtml(item.language)}</span>` : "",
+    item.label ? `<span class="hot-label">${escapeHtml(item.label)}</span>` : "",
   ]
     .filter(Boolean)
     .join("");
