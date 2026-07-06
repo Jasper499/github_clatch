@@ -5,11 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="每周自动更新的 GitHub 热门项目与技术社区精选">
   <title>HJL· 自动获取最新内容网站</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem("hjl-theme");
+        var theme = saved || (matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+        document.documentElement.setAttribute("data-theme", theme);
+      } catch (e) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    })();
+  </script>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <button id="theme-toggle" class="theme-toggle" type="button" aria-label="切换浅色/深色模式" title="切换主题">
+    <span class="theme-toggle-icon theme-icon-dark"></span>
+    <span class="theme-toggle-icon theme-icon-light"></span>
+  </button>
   <div class="container">
-    <header>
+    <header class="site-header">
+      <div class="site-logo">HJL</div>
       <h1>HJL 自动获取最新内容网站</h1>
       <p>按「本周 → 平台 → 分类」目录浏览，支持下拉快速定位条目。</p>
       <div class="meta-bar">
@@ -19,8 +38,31 @@
       </div>
     </header>
 
-    <div id="loading" class="loading-state">正在加载数据…</div>
+    <div id="loading" class="skeleton-layout" aria-busy="true" aria-label="正在加载">
+      <div class="skeleton-sidebar">
+        <div class="skeleton-line skeleton-title"></div>
+        <div class="skeleton-line"></div>
+        <div class="skeleton-line"></div>
+        <div class="skeleton-line skeleton-short"></div>
+      </div>
+      <div class="skeleton-main">
+        <div class="skeleton-line skeleton-breadcrumb"></div>
+        <div class="skeleton-controls">
+          <div class="skeleton-block"></div>
+          <div class="skeleton-block skeleton-block-wide"></div>
+        </div>
+        <div class="skeleton-card">
+          <div class="skeleton-line skeleton-card-title"></div>
+          <div class="skeleton-line"></div>
+          <div class="skeleton-line"></div>
+          <div class="skeleton-line skeleton-short"></div>
+        </div>
+      </div>
+    </div>
     <div id="error" class="error-state" style="display:none"></div>
+
+    <nav id="mobile-nav" class="mobile-nav" hidden aria-label="平台导航"></nav>
+    <nav id="mobile-subnav" class="mobile-subnav" hidden aria-label="子分类导航"></nav>
 
     <div id="app-layout" class="app-layout" hidden>
       <aside class="sidebar" aria-label="内容目录">
@@ -28,7 +70,7 @@
         <nav id="catalog-tree" class="catalog-tree"></nav>
       </aside>
 
-      <main class="content-panel">
+      <main id="content-panel" class="content-panel">
         <nav id="breadcrumb" class="breadcrumb" aria-label="当前位置"></nav>
 
         <div class="controls">
@@ -44,21 +86,33 @@
 
         <p id="section-desc" class="section-desc"></p>
 
-        <article id="item-detail" class="item-detail" aria-live="polite"></article>
+        <div id="journal-stats" class="journal-stats" hidden></div>
 
-        <details class="compact-list-panel">
-          <summary>展开完整列表（<span id="item-count">0</span> 条）</summary>
-          <ul id="compact-list" class="compact-list"></ul>
-        </details>
+        <div id="panel-content" class="panel-content">
+          <article id="item-detail" class="item-detail" aria-live="polite"></article>
+
+          <details class="compact-list-panel">
+            <summary>展开完整列表（<span id="item-count">0</span> 条）</summary>
+            <ul id="compact-list" class="compact-list"></ul>
+          </details>
+        </div>
       </main>
     </div>
 
-    <footer>
-      <p>数据来源：GitHub · Hacker News · 微博 · MRI 顶刊（MRM/TMI/MedIA）· 微博每天更新 · 顶刊每半月更新</p>
-      <p><a href="https://github.com" target="_blank" rel="noopener">GitHub</a> ·
-         <a href="https://news.ycombinator.com" target="_blank" rel="noopener">Hacker News</a></p>
+    <footer class="site-footer">
+      <details class="footer-details">
+        <summary>数据来源与更新说明</summary>
+        <p>GitHub · Hacker News · 微博 · MRI 顶刊（MRM / TMI / MedIA）</p>
+        <p>微博每天 08:00 更新 · GitHub/HN 每周一更新 · 顶刊每半月更新</p>
+      </details>
+      <p class="footer-links">
+        <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+        <span>·</span>
+        <a href="https://news.ycombinator.com" target="_blank" rel="noopener">Hacker News</a>
+      </p>
     </footer>
   </div>
+  <script src="js/icons.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

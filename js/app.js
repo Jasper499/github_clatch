@@ -34,6 +34,43 @@ let appData = null;
 let activeParentId = "github";
 let activeSourceKey = "github";
 
+const PLATFORM_META = {
+  github: { theme: "theme-github", short: "GH", name: "GitHub" },
+  githubActive: { theme: "theme-github", short: "GH", name: "GitHub" },
+  hackernews: { theme: "theme-hn", short: "HN", name: "Hacker News" },
+  weibo: { theme: "theme-weibo", short: "WB", name: "微博" },
+  mrm: { theme: "theme-journals", short: "MR", name: "MRM" },
+  tmi: { theme: "theme-journals", short: "TM", name: "TMI" },
+  media: { theme: "theme-journals", short: "MD", name: "MedIA" },
+};
+
+function getPlatformMeta(sourceKey) {
+  return PLATFORM_META[sourceKey] || PLATFORM_META.github;
+}
+
+function getParentTheme(parentId) {
+  const map = {
+    github: "theme-github",
+    hackernews: "theme-hn",
+    weibo: "theme-weibo",
+    journals: "theme-journals",
+  };
+  return map[parentId] || "theme-github";
+}
+
+function metaPill(text, type = "default") {
+  if (!text) return "";
+  const cls = type === "default" ? "meta-pill" : `meta-pill meta-pill--${type}`;
+  return `<span class="${cls}">${escapeHtml(text)}</span>`;
+}
+
+function applyPanelTheme() {
+  const meta = getPlatformMeta(activeSourceKey);
+  const panel = document.getElementById("content-panel");
+  if (!panel) return;
+  panel.className = `content-panel ${meta.theme}`;
+}
+
 function formatDate(iso) {
   if (!iso) return "未知";
   const d = new Date(iso);
@@ -62,10 +99,241 @@ function getSource(data, key) {
 }
 
 function platformIcon(parentId) {
-  if (parentId === "github") return "🐙";
-  if (parentId === "weibo") return "🔥";
-  if (parentId === "journals") return "📚";
-  return "📰";
+  return parentIcon(parentId);
+}
+
+function itemCompactMeta(item) {
+  const parts = [];
+  if (item.stars != null) parts.push(`★ ${Number(item.stars).toLocaleString()}`);
+  if (item.score != null) parts.push(`▲ ${Number(item.score).toLocaleString()}`);
+  if (item.comments != null) parts.push(`💬 ${Number(item.comments).toLocaleString()}`);
+  if (item.published) parts.push(item.published);
+  if (item.journal) parts.push(item.journal);
+  if (item.language) parts.push(item.language);
+  if (item.owner && !item.journal) parts.push(`@${item.owner}`);
+  if (item.label) parts.push(item.label);
+  if (item.isOpenAccess) parts.push("OA");
+  if (item.pdfAvailable) parts.push("PDF");
+  return parts.join(" · ");
+}
+
+function triggerPanelFade() {
+  const panel = document.getElementById("panel-content");
+  if (!panel) return;
+  panel.classList.remove("panel-fade-in");
+  void panel.offsetWidth;
+  panel.classList.add("panel-fade-in");
+}
+
+function renderMobileNav(data) {
+  const nav = document.getElementById("mobile-nav");
+  if (!nav) return;
+
+  const catalog = getCatalog(data);
+  nav.innerHTML = catalog
+    .map(
+      (parent) => `
+    <button
+      type="button"
+      class="mobile-tab${activeParentId === parent.id ? " active" : ""} ${getParentTheme(parent.id)}"
+      data-parent-id="${parent.id}"
+    >
+      ${parentIcon(parent.id)}
+      <span>${escapeHtml(parent.label)}</span>
+    </button>
+  `
+    )
+    .join("");
+
+  nav.querySelectorAll(".mobile-tab").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const parentId = btn.dataset.parentId;
+      const parent = catalog.find((p) => p.id === parentId);
+      if (!parent?.children?.length) return;
+      activeParentId = parentId;
+      activeSourceKey = parent.children[0].sourceKey;
+      renderTree(data);
+      renderMobileNav(data);
+      syncPanel(data, { preserveItemIndex: false });
+    });
+  });
+}
+
+const JOURNAL_KEYS = new Set(["mrm", "tmi", "media"]);
+
+function isJournalSource(sourceKey) {
+  return JOURNAL_KEYS.has(sourceKey);
+}
+
+function initThemeToggle() {
+  const btn = document.getElementById("theme-toggle");
+  if (!btn) return;
+
+  const darkEl = btn.querySelector(".theme-icon-dark");
+  const lightEl = btn.querySelector(".theme-icon-light");
+  if (darkEl && typeof ICONS !== "undefined") darkEl.innerHTML = ICONS.moon;
+  if (lightEl && typeof ICONS !== "undefined") lightEl.innerHTML = ICONS.sun;
+
+  const apply = (theme) => {
+    document.documentElement.setAttribute("data-theme", theme);
+    try {
+      localStorage.setItem("hjl-theme", theme);
+    } catch (_) {}
+    btn.setAttribute("aria-label", theme === "dark" ? "切换为浅色模式" : "切换为深色模式");
+  };
+
+  btn.addEventListener("click", () => {
+    const current = document.documentElement.getAttribute("data-theme") || "dark";
+    apply(current === "dark" ? "light" : "dark");
+  });
+}
+
+function renderAbstractBlock(text) {
+  if (!text) return `<p class="detail-desc muted">暂无摘要</p>`;
+  if (text.length <= 240) {
+    return `<p class="detail-desc journal-abstract">${escapeHtml(text)}</p>`;
+  }
+  const id = `abs-${Math.random().toString(36).slice(2, 9)}`;
+  return `
+    <div class="abstract-block" data-abstract-id="${id}">
+      <p class="detail-desc journal-abstract abstract-short">${escapeHtml(text.slice(0, 240))}…</p>
+      <p class="detail-desc journal-abstract abstract-full" hidden>${escapeHtml(text)}</p>
+      <button type="button" class="abstract-toggle" data-abstract-id="${id}">展开完整摘要</button>
+    </div>
+  `;
+}
+
+function bindAbstractToggles(root) {
+  root.querySelectorAll(".abstract-toggle").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const block = btn.closest(".abstract-block");
+      if (!block) return;
+      const full = block.querySelector(".abstract-full");
+      const short = block.querySelector(".abstract-short");
+      const expanded = !full.hidden;
+      full.hidden = expanded;
+      short.hidden = !expanded;
+      btn.textContent = expanded ? "展开完整摘要" : "收起摘要";
+    });
+  });
+}
+
+function renderJournalStats(data, source) {
+  const box = document.getElementById("journal-stats");
+  if (!box) return;
+
+  if (!isJournalSource(activeSourceKey)) {
+    box.hidden = true;
+    box.innerHTML = "";
+    return;
+  }
+
+  const items = source?.items || [];
+  const oaCount = items.filter((i) => i.isOpenAccess).length;
+  const pdfCount = items.filter((i) => i.pdfAvailable).length;
+  const period = data.journalsPeriod || "近半月";
+
+  box.hidden = false;
+  box.innerHTML = `
+    <div class="journal-stats-head">
+      ${icon("book", "icon icon-tree")}
+      <div>
+        <div class="journal-stats-title">MRI 学术速递</div>
+        <div class="journal-stats-period">${escapeHtml(period)}</div>
+      </div>
+    </div>
+    <div class="journal-stat-grid">
+      <div class="journal-stat"><span class="journal-stat-val">${items.length}</span><span class="journal-stat-lbl">论文</span></div>
+      <div class="journal-stat"><span class="journal-stat-val">${oaCount}</span><span class="journal-stat-lbl">开放获取</span></div>
+      <div class="journal-stat"><span class="journal-stat-val">${pdfCount}</span><span class="journal-stat-lbl">PDF 已存档</span></div>
+    </div>
+  `;
+}
+
+function renderJournalDetail(item, index, platform) {
+  const panel = document.getElementById("item-detail");
+  panel.className = `item-detail journal-paper ${platform.theme}`;
+
+  const rankLabel = String(index + 1).padStart(2, "0");
+  const title = item.url
+    ? `<a href="${item.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>`
+    : escapeHtml(item.title);
+
+  const oaClass = item.isOpenAccess ? "oa-open" : "oa-closed";
+  const oaText = item.isOpenAccess ? "开放获取" : "机构订阅";
+
+  panel.innerHTML = `
+    <div class="detail-body journal-detail">
+      <div class="journal-banner">
+        <div class="journal-banner-left">
+          <span class="journal-badge">${escapeHtml(item.journal || platform.name)}</span>
+          <span class="detail-rank-badge">#${rankLabel}</span>
+        </div>
+        <span class="journal-oa-badge ${oaClass}">${oaText}</span>
+      </div>
+      <h2 class="detail-title journal-title">${title}</h2>
+      ${item.authors ? `<p class="journal-authors">${escapeHtml(item.authors)}</p>` : ""}
+      ${item.doi ? `<p class="journal-doi"><span>DOI</span> ${escapeHtml(item.doi)}</p>` : ""}
+      <div class="detail-divider"></div>
+      ${renderAbstractBlock(item.description)}
+      <div class="detail-meta">
+        ${item.published ? metaPill(`发表 ${item.published}`, "accent") : ""}
+        ${item.isOpenAccess ? metaPill("开放获取", "success") : metaPill("付费访问", "hot")}
+        ${item.pdfAvailable ? metaPill("PDF 已本地存档", "success") : ""}
+      </div>
+      <div class="detail-actions journal-actions">
+        ${item.url ? `<a class="btn btn-secondary" href="${item.url}" target="_blank" rel="noopener noreferrer">期刊页面 →</a>` : ""}
+        ${item.pdfUrl ? `<a class="btn btn-success" href="${item.pdfUrl}" target="_blank" rel="noopener noreferrer">${icon("file", "icon")} 下载 PDF</a>` : ""}
+        ${!item.pdfUrl && item.url ? `<a class="btn btn-primary" href="${item.url}" target="_blank" rel="noopener noreferrer">查看论文 →</a>` : ""}
+      </div>
+      ${
+        !item.pdfUrl && item.isOpenAccess
+          ? `<p class="detail-note">本篇为开放获取，暂未找到可下载 PDF。</p>`
+          : !item.pdfUrl && item.doi
+            ? `<p class="detail-note">完整 PDF 通常需机构订阅权限，已提供 DOI 链接。</p>`
+            : ""
+      }
+    </div>
+  `;
+  bindAbstractToggles(panel);
+}
+
+function renderMobileSubnav(data) {
+  const nav = document.getElementById("mobile-subnav");
+  if (!nav) return;
+
+  const catalog = getCatalog(data);
+  const parent = getParentNode(catalog, activeParentId);
+  if (!parent?.children || parent.children.length <= 1) {
+    nav.hidden = true;
+    nav.innerHTML = "";
+    return;
+  }
+
+  nav.hidden = false;
+  nav.innerHTML = parent.children
+    .map((child) => {
+      const source = getSource(data, child.sourceKey);
+      const active = activeSourceKey === child.sourceKey;
+      return `
+        <button
+          type="button"
+          class="mobile-chip${active ? " active" : ""} ${getParentTheme(activeParentId)}"
+          data-source-key="${child.sourceKey}"
+        >${escapeHtml(source?.label || child.id)}</button>
+      `;
+    })
+    .join("");
+
+  nav.querySelectorAll(".mobile-chip").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      activeSourceKey = btn.dataset.sourceKey;
+      renderTree(data);
+      renderMobileNav(data);
+      renderMobileSubnav(data);
+      syncPanel(data, { preserveItemIndex: false });
+    });
+  });
 }
 
 function getParentNode(catalog, parentId) {
@@ -86,16 +354,16 @@ function renderTree(data) {
   const weekNode = `
     <details class="tree-node tree-root" open>
       <summary class="tree-label tree-label-root">
-        <span class="tree-icon">📅</span>
+        ${icon("calendar", "icon icon-tree")}
         <span>${escapeHtml(weekLabel)}</span>
       </summary>
       <div class="tree-children">
         ${catalog
           .map(
             (parent) => `
-          <details class="tree-node" ${parent.id === activeParentId ? "open" : ""} data-parent-id="${parent.id}">
+          <details class="tree-node ${getParentTheme(parent.id)}" ${parent.id === activeParentId ? "open" : ""} data-parent-id="${parent.id}">
             <summary class="tree-label">
-              <span class="tree-icon">${platformIcon(parent.id)}</span>
+              ${parentIcon(parent.id)}
               <span>${escapeHtml(parent.label)}</span>
             </summary>
             <ul class="tree-leaves">
@@ -136,6 +404,8 @@ function renderTree(data) {
       activeParentId = btn.dataset.parentId;
       activeSourceKey = btn.dataset.sourceKey;
       renderTree(data);
+      renderMobileNav(data);
+      renderMobileSubnav(data);
       syncPanel(data);
     });
   });
@@ -148,11 +418,11 @@ function renderBreadcrumb(data) {
   const weekLabel = data.weekLabel || "本周精选";
 
   document.getElementById("breadcrumb").innerHTML = `
-    <span class="crumb">📅 ${escapeHtml(weekLabel)}</span>
+    <span class="crumb crumb-pill">${escapeHtml(weekLabel)}</span>
     <span class="crumb-sep">/</span>
-    <span class="crumb">${escapeHtml(parent?.label || "")}</span>
+    <span class="crumb crumb-pill">${escapeHtml(parent?.label || "")}</span>
     <span class="crumb-sep">/</span>
-    <span class="crumb crumb-current">${escapeHtml(source?.label || "")}</span>
+    <span class="crumb crumb-pill crumb-current">${escapeHtml(source?.label || "")}</span>
   `;
 }
 
@@ -173,6 +443,8 @@ function fillCategorySelect(data) {
   select.onchange = () => {
     activeSourceKey = select.value;
     renderTree(data);
+    renderMobileNav(data);
+    renderMobileSubnav(data);
     syncPanel(data, { preserveItemIndex: false });
   };
 }
@@ -216,9 +488,18 @@ function fillItemSelect(data, preferredIndex = 0) {
 function renderItemDetail(item, index) {
   const panel = document.getElementById("item-detail");
   if (!item) {
-    panel.innerHTML = `<div class="empty-state"><p>当前分类暂无内容。</p></div>`;
+    panel.className = "item-detail";
+    panel.innerHTML = `<div class="detail-body"><div class="empty-state"><p>当前分类暂无内容。</p></div></div>`;
     return;
   }
+
+  const platform = getPlatformMeta(activeSourceKey);
+  if (isJournalSource(activeSourceKey)) {
+    renderJournalDetail(item, index, platform);
+    return;
+  }
+
+  panel.className = `item-detail ${platform.theme}`;
 
   const title = item.url
     ? `<a href="${item.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>`
@@ -228,27 +509,32 @@ function renderItemDetail(item, index) {
     ? `<p class="detail-desc">${escapeHtml(item.description)}</p>`
     : `<p class="detail-desc muted">暂无描述</p>`;
 
+  const rankLabel = String(index + 1).padStart(2, "0");
+
   const meta = [
-    item.authors ? `<span>${escapeHtml(item.authors)}</span>` : "",
-    item.published ? `<span>📅 ${escapeHtml(item.published)}</span>` : "",
-    item.journal ? `<span class="lang-tag">${escapeHtml(item.journal)}</span>` : "",
-    item.stars != null ? `<span class="meta-stars">★ ${Number(item.stars).toLocaleString()}</span>` : "",
-    item.score != null ? `<span>▲ ${Number(item.score).toLocaleString()}</span>` : "",
-    item.comments != null ? `<span>💬 ${Number(item.comments).toLocaleString()}</span>` : "",
-    item.owner && !item.journal ? `<span>@${escapeHtml(item.owner)}</span>` : "",
-    item.language ? `<span class="lang-tag">${escapeHtml(item.language)}</span>` : "",
-    item.label ? `<span class="hot-label">${escapeHtml(item.label)}</span>` : "",
-    item.isOpenAccess ? `<span class="oa-tag">开放获取</span>` : "",
+    metaPill(platform.name, "accent"),
+    item.journal ? metaPill(item.journal, "accent") : "",
+    item.authors ? metaPill(item.authors) : "",
+    item.published ? metaPill(`📅 ${item.published}`) : "",
+    item.stars != null ? metaPill(`★ ${Number(item.stars).toLocaleString()}`, "star") : "",
+    item.score != null ? metaPill(`▲ ${Number(item.score).toLocaleString()}`, "hot") : "",
+    item.comments != null ? metaPill(`💬 ${Number(item.comments).toLocaleString()}`) : "",
+    item.owner && !item.journal ? metaPill(`@${item.owner}`) : "",
+    item.language ? metaPill(item.language, "lang") : "",
+    item.label ? metaPill(item.label, "hot") : "",
+    item.isOpenAccess ? metaPill("开放获取", "success") : "",
+    item.pdfAvailable ? metaPill("PDF 已存档", "success") : "",
   ]
     .filter(Boolean)
     .join("");
 
+  const linkLabel = item.journal || item.doi ? "打开期刊页面" : "打开原文";
   const actionLinks = [
     item.url
-      ? `<a class="detail-link" href="${item.url}" target="_blank" rel="noopener noreferrer">打开期刊页面 →</a>`
+      ? `<a class="btn btn-primary" href="${item.url}" target="_blank" rel="noopener noreferrer">${linkLabel} →</a>`
       : "",
     item.pdfUrl
-      ? `<a class="detail-link pdf-link" href="${item.pdfUrl}" target="_blank" rel="noopener noreferrer">下载 PDF（已保存本地）→</a>`
+      ? `<a class="btn btn-success" href="${item.pdfUrl}" target="_blank" rel="noopener noreferrer">下载 PDF →</a>`
       : "",
   ].filter(Boolean).join("");
 
@@ -259,12 +545,18 @@ function renderItemDetail(item, index) {
       : "";
 
   panel.innerHTML = `
-    <div class="detail-rank">第 ${index + 1} 条</div>
-    <h2 class="detail-title">${title}</h2>
-    ${desc}
-    <div class="detail-meta">${meta}</div>
-    <div class="detail-actions">${actionLinks}</div>
-    ${pdfNote}
+    <div class="detail-body">
+      <div class="detail-header">
+        <span class="detail-rank-badge">#${rankLabel}</span>
+        ${metaPill(platform.name, "accent")}
+      </div>
+      <h2 class="detail-title">${title}</h2>
+      <div class="detail-divider"></div>
+      ${desc}
+      <div class="detail-meta">${meta}</div>
+      <div class="detail-actions">${actionLinks}</div>
+      ${pdfNote}
+    </div>
   `;
 }
 
@@ -283,11 +575,17 @@ function renderCompactList(data, activeIndex) {
   list.innerHTML = items
     .map((item, index) => {
       const active = index === activeIndex ? " active" : "";
+      const meta = itemCompactMeta(item);
       const inner = `
-          <span class="compact-rank">${index + 1}</span>
+        <span class="compact-rank">${index + 1}</span>
+        <div class="compact-body${isJournalSource(activeSourceKey) ? " compact-body-journal" : ""}">
           <span class="compact-title">${escapeHtml(item.title)}</span>
-          ${item.url ? `<span class="compact-link-icon" aria-hidden="true">↗</span>` : ""}
+          ${meta ? `<span class="compact-meta">${escapeHtml(meta)}</span>` : ""}
+        </div>
+        ${item.url ? icon("external", "icon icon-compact") : ""}
       `;
+
+      const journalClass = isJournalSource(activeSourceKey) ? " compact-item-journal" : "";
 
       if (item.url) {
         return `
@@ -296,7 +594,7 @@ function renderCompactList(data, activeIndex) {
           href="${escapeHtml(item.url)}"
           target="_blank"
           rel="noopener noreferrer"
-          class="compact-item${active}"
+          class="compact-item${active}${journalClass}"
           data-index="${index}"
         >${inner}</a>
       </li>
@@ -305,7 +603,7 @@ function renderCompactList(data, activeIndex) {
 
       return `
       <li>
-        <button type="button" class="compact-item${active}" data-index="${index}">
+        <button type="button" class="compact-item${active}${journalClass}" data-index="${index}">
           ${inner}
         </button>
       </li>
@@ -330,11 +628,15 @@ function syncPanel(data, { preserveItemIndex = true } = {}) {
 
   renderBreadcrumb(data);
   fillCategorySelect(data);
+  applyPanelTheme();
   document.getElementById("section-desc").textContent = source?.description || "";
+  renderJournalStats(data, source);
+  renderMobileSubnav(data);
 
   const activeIndex = fillItemSelect(data, previousIndex);
   renderItemDetail(items[activeIndex], activeIndex);
   renderCompactList(data, activeIndex);
+  triggerPanelFade();
 }
 
 async function loadContent() {
@@ -350,9 +652,12 @@ async function loadContent() {
 
     renderMeta(appData);
     renderTree(appData);
+    renderMobileNav(appData);
+    renderMobileSubnav(appData);
     syncPanel(appData, { preserveItemIndex: false });
 
     loading.style.display = "none";
+    document.getElementById("mobile-nav").hidden = false;
     layout.hidden = false;
   } catch (err) {
     loading.style.display = "none";
@@ -363,4 +668,5 @@ async function loadContent() {
   }
 }
 
+initThemeToggle();
 loadContent();
