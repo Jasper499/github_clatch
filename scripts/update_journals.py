@@ -15,6 +15,7 @@ from fetch_journals import (
     journal_source_meta,
     journals_catalog_entry,
 )
+from history import save_sources_from_content
 
 ROOT = Path(__file__).resolve().parent.parent
 OUTPUT = ROOT / "data" / "content.json"
@@ -67,6 +68,8 @@ def main() -> int:
     with OUTPUT.open("w", encoding="utf-8") as f:
         json.dump(content, f, ensure_ascii=False, indent=2)
         f.write("\n")
+
+    save_sources_from_content(content, [j["id"] for j in JOURNALS])
 
     print(f"已写入 {OUTPUT}")
     for journal in JOURNALS:

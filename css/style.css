@@ -535,9 +535,18 @@ body::after {
   font-family: var(--font-mono);
 }
 
+.crumb-history {
+  color: var(--accent);
+  border-color: color-mix(in srgb, var(--accent) 35%, var(--border));
+}
+
+.section-desc--history {
+  color: var(--accent);
+}
+
 .controls {
   display: grid;
-  grid-template-columns: minmax(160px, 220px) 1fr;
+  grid-template-columns: minmax(140px, 180px) minmax(160px, 200px) 1fr;
   gap: 0.75rem;
   margin-bottom: 0.85rem;
 }

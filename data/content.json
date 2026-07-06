@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T01:22:55Z",
+  "updatedAt": "2026-07-06T03:41:47Z",
   "periodDays": 7,
   "weekLabel": "2026-06-29 ~ 2026-07-06",
   "catalog": [
@@ -391,7 +391,9 @@
     },
     "hackernews": {
       "label": "Hacker News 热门",
-      "description": "近 7 天内 HN 社区高互动技术讨论",
+      "description": "近 7 天 HN 高互动讨论（2026-07-06，共 20 条）",
+      "updateFrequency": "twice-daily",
+      "fetchedDate": "2026-07-06",
       "items": [
         {
           "title": "Claude Code is steganographically marking requests",
@@ -405,15 +407,15 @@
           "title": "Android Developer Verification: Threat masquerading as protection",
           "description": "",
           "url": "https://f-droid.org/2026/07/01/adv-malware.html",
-          "score": 1717,
-          "comments": 737,
+          "score": 1718,
+          "comments": 738,
           "owner": "drewfax"
         },
         {
           "title": "Half-Baked Product",
           "description": "",
           "url": "https://weli.dev/blog/half-baked-product/",
-          "score": 1369,
+          "score": 1370,
           "comments": 403,
           "owner": "weli"
         },
@@ -434,14 +436,6 @@
           "owner": "stared"
         },
         {
-          "title": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88",
-          "description": "",
-          "url": "https://danunparsed.com/p/hackerrank-open-source-ats",
-          "score": 1028,
-          "comments": 433,
-          "owner": "sambellll"
-        },
-        {
           "title": "Age verification is just a precursor to automated attribution of speech",
           "description": "",
           "url": "https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026",
@@ -454,7 +448,7 @@
           "description": "",
           "url": "https://twitter.com/AnthropicAI/status/2072106151890809341",
           "score": 972,
-          "comments": 688,
+          "comments": 690,
           "owner": "Pragmata"
         },
         {
@@ -462,7 +456,7 @@
           "description": "<a href=\"https:&#x2F;&#x2F;biotic.org&#x2F;research&#x2F;spudcell&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;biotic.org&#x2F;research&#x2F;spudcell&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;www.science.org&#x2F;content&#x2F;article&#x2F;lab-created-spudcell-marks-major-step-toward-building-life-scratch\" rel=\"nofollow\">https:&#x2F;&#x2F;www.science.org&#x2F;content&#x2F;article&#x2F;lab-created-spudcell...</a><p><a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;interactive&#x2F;2026&#x2F;07&#x2F;01&#x2F;science&#x2F;spudcells-synthetic-cell.html?unlocked_article_code=1.uVA.6Rwg.20U5t0kLK6oU&amp;smid=nytcore-ios-share\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nytimes.com&#x2F;interactive&#x2F;2026&#x2F;07&#x2F;01&#x2F;science&#x2F;spudc...</a>",
           "url": "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/",
           "score": 950,
-          "comments": 300,
+          "comments": 301,
           "owner": "defrost"
         },
         {
@@ -477,25 +471,25 @@
           "title": "Pollen tried to remove my article and Google is assisting with it",
           "description": "",
           "url": "https://blog.pragmaticengineer.com/pollen-tried-to-remove-my-article-about-callum-negus-fancey-and-google-is-assisting-to-it/",
-          "score": 916,
+          "score": 917,
           "comments": 127,
           "owner": "taubek"
-        },
-        {
-          "title": "The bottleneck might be the air in the room",
-          "description": "",
-          "url": "https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making/",
-          "score": 811,
-          "comments": 456,
-          "owner": "gslin"
         },
         {
           "title": "Organic Maps",
           "description": "",
           "url": "https://organicmaps.app/",
-          "score": 790,
-          "comments": 219,
+          "score": 842,
+          "comments": 231,
           "owner": "tosh"
+        },
+        {
+          "title": "The bottleneck might be the air in the room",
+          "description": "",
+          "url": "https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making/",
+          "score": 812,
+          "comments": 456,
+          "owner": "gslin"
         },
         {
           "title": "Physical disc production ending in Jan 2028 for new games on PlayStation",
@@ -517,8 +511,8 @@
           "title": "Most arguments are about ego, not ideas",
           "description": "",
           "url": "https://wangcong.org/2026-06-30-why-i-stopped-arguing-with-people.html",
-          "score": 720,
-          "comments": 557,
+          "score": 721,
+          "comments": 558,
           "owner": "backlit4034"
         },
         {
@@ -542,7 +536,7 @@
           "description": "",
           "url": "https://det.social/@lostgen/116820546568940358",
           "score": 687,
-          "comments": 1576,
+          "comments": 1578,
           "owner": "Risse"
         },
         {
@@ -552,6 +546,14 @@
           "score": 676,
           "comments": 381,
           "owner": "HumanCCF"
+        },
+        {
+          "title": "PeerTube is a free, decentralized and federated video platform",
+          "description": "",
+          "url": "https://github.com/Chocobozzz/PeerTube",
+          "score": 673,
+          "comments": 354,
+          "owner": "doener"
         }
       ]
     },
@@ -1345,5 +1347,6 @@
   },
   "weiboUpdatedAt": "2026-07-06T01:22:55Z",
   "journalsUpdatedAt": "2026-07-06T03:02:33Z",
-  "journalsPeriod": "2026-05-22 ~ 2026-07-06"
+  "journalsPeriod": "2026-05-22 ~ 2026-07-06",
+  "hackernewsUpdatedAt": "2026-07-06T03:41:47Z"
 }

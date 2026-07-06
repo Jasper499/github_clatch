@@ -10,11 +10,13 @@ github_clatch/
 ├── css/style.css           # 样式
 ├── js/app.js               # 前端渲染逻辑
 ├── data/content.json       # 抓取结果（网站读取此文件）
-├── scripts/update_content.py   # 每周全量抓取
-├── scripts/update_weibo.py     # 微博每日热搜
-├── scripts/fetch_weibo.py      # 微博抓取逻辑
+├── scripts/update_content.py       # GitHub 每周抓取
+├── scripts/update_hackernews.py    # HN 每日两次更新
+├── scripts/update_weibo.py         # 微博每日两次更新
+├── scripts/fetch_hackernews.py     # HN 抓取逻辑
+├── scripts/fetch_weibo.py          # 微博抓取逻辑
 ├── .github/workflows/weekly-update.yml
-└── .github/workflows/daily-weibo.yml
+└── .github/workflows/twice-daily-hn-weibo.yml
 ```
 
 ## 数据来源
@@ -31,8 +33,8 @@ github_clatch/
 
 | 任务 | 频率 | 工作流 | 命令 |
 |------|------|--------|------|
-| GitHub + HN + 微博 | 每周一 09:00 | `weekly-update.yml` | `python scripts/update_content.py` |
-| 微博热搜 | **每天 08:00** | `daily-weibo.yml` | `python scripts/update_weibo.py` |
+| GitHub 热门 | 每周一 09:00 | `weekly-update.yml` | `python scripts/update_content.py` |
+| Hacker News + 微博热搜 | **每天 10:00、22:00** | `twice-daily-hn-weibo.yml` | `python scripts/update_hackernews.py` + `update_weibo.py` |
 | **MRI 顶刊** | **每月 1/15 日 10:00** | `biweekly-journals.yml` | `python scripts/update_journals.py` |
 
 论文 PDF 仅下载**开放获取**版本，保存至 `papers/mrm/`、`papers/tmi/`、`papers/media/`。

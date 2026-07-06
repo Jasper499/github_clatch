@@ -1,4 +1,6 @@
 const DATA_URL = "data/content.json";
+const MANIFEST_URL = "data/manifest.json";
+const DATES_STORAGE_KEY = "hjl-source-dates";
 
 const DEFAULT_CATALOG = [
   {
@@ -31,8 +33,11 @@ const DEFAULT_CATALOG = [
 ];
 
 let appData = null;
+let manifest = null;
 let activeParentId = "github";
 let activeSourceKey = "github";
+let selectedDates = {};
+const historyCache = {};
 
 const PLATFORM_META = {
   github: { theme: "theme-github", short: "GH", name: "GitHub" },
@@ -43,6 +48,8 @@ const PLATFORM_META = {
   tmi: { theme: "theme-journals", short: "TM", name: "TMI" },
   media: { theme: "theme-journals", short: "MD", name: "MedIA" },
 };
+
+const JOURNAL_KEYS = new Set(["mrm", "tmi", "media"]);
 
 function getPlatformMeta(sourceKey) {
   return PLATFORM_META[sourceKey] || PLATFORM_META.github;
@@ -82,6 +89,51 @@ function formatDate(iso) {
     hour: "2-digit",
     minute: "2-digit",
   });
+}
+
+function formatShortDate(iso) {
+  if (!iso) return "";
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return "";
+  return d.toLocaleDateString("zh-CN", { month: "2-digit", day: "2-digit" });
+}
+
+function loadStoredDates() {
+  try {
+    const raw = localStorage.getItem(DATES_STORAGE_KEY);
+    if (raw) selectedDates = JSON.parse(raw);
+  } catch (_) {}
+}
+
+function persistDates() {
+  try {
+    localStorage.setItem(DATES_STORAGE_KEY, JSON.stringify(selectedDates));
+  } catch (_) {}
+}
+
+function getLatestUpdatedAt(data, sourceKey) {
+  if (sourceKey === "weibo" && data.weiboUpdatedAt) return data.weiboUpdatedAt;
+  if (sourceKey === "hackernews" && data.hackernewsUpdatedAt) return data.hackernewsUpdatedAt;
+  if ((sourceKey === "github" || sourceKey === "githubActive") && data.githubUpdatedAt) {
+    return data.githubUpdatedAt;
+  }
+  if (JOURNAL_KEYS.has(sourceKey) && data.journalsUpdatedAt) return data.journalsUpdatedAt;
+  return data.updatedAt;
+}
+
+async function resolveSource(data, sourceKey = activeSourceKey) {
+  const dateKey = selectedDates[sourceKey] || "latest";
+  if (dateKey === "latest") return getSource(data, sourceKey);
+
+  const cacheKey = `${sourceKey}:${dateKey}`;
+  if (historyCache[cacheKey]) return historyCache[cacheKey];
+
+  const url = `data/history/${sourceKey}/${dateKey}.json`;
+  const res = await fetch(`${url}?t=${Date.now()}`);
+  if (!res.ok) throw new Error(`历史快照加载失败 (${res.status})`);
+  const snapshot = await res.json();
+  historyCache[cacheKey] = snapshot;
+  return snapshot;
 }
 
 function escapeHtml(text) {
@@ -154,12 +206,10 @@ function renderMobileNav(data) {
       activeSourceKey = parent.children[0].sourceKey;
       renderTree(data);
       renderMobileNav(data);
-      syncPanel(data, { preserveItemIndex: false });
+      void syncPanel(data, { preserveItemIndex: false });
     });
   });
 }
-
-const JOURNAL_KEYS = new Set(["mrm", "tmi", "media"]);
 
 function isJournalSource(sourceKey) {
   return JOURNAL_KEYS.has(sourceKey);
@@ -231,7 +281,11 @@ function renderJournalStats(data, source) {
   const items = source?.items || [];
   const oaCount = items.filter((i) => i.isOpenAccess).length;
   const pdfCount = items.filter((i) => i.pdfAvailable).length;
-  const period = data.journalsPeriod || "近半月";
+  const dateKey = selectedDates[activeSourceKey] || "latest";
+  const period =
+    dateKey !== "latest"
+      ? `历史快照 · ${dateKey}`
+      : data.journalsPeriod || "近半月";
 
   box.hidden = false;
   box.innerHTML = `
@@ -331,7 +385,7 @@ function renderMobileSubnav(data) {
       renderTree(data);
       renderMobileNav(data);
       renderMobileSubnav(data);
-      syncPanel(data, { preserveItemIndex: false });
+      void syncPanel(data, { preserveItemIndex: false });
     });
   });
 }
@@ -406,16 +460,20 @@ function renderTree(data) {
       renderTree(data);
       renderMobileNav(data);
       renderMobileSubnav(data);
-      syncPanel(data);
+      void syncPanel(data);
     });
   });
 }
 
-function renderBreadcrumb(data) {
+function renderBreadcrumb(data, source) {
   const catalog = getCatalog(data);
   const parent = getParentNode(catalog, activeParentId);
-  const source = getSource(data, activeSourceKey);
   const weekLabel = data.weekLabel || "本周精选";
+  const dateKey = selectedDates[activeSourceKey] || "latest";
+  const historyCrumb =
+    dateKey !== "latest"
+      ? `<span class="crumb-sep">/</span><span class="crumb crumb-pill crumb-history">${escapeHtml(dateKey)}</span>`
+      : "";
 
   document.getElementById("breadcrumb").innerHTML = `
     <span class="crumb crumb-pill">${escapeHtml(weekLabel)}</span>
@@ -423,6 +481,7 @@ function renderBreadcrumb(data) {
     <span class="crumb crumb-pill">${escapeHtml(parent?.label || "")}</span>
     <span class="crumb-sep">/</span>
     <span class="crumb crumb-pill crumb-current">${escapeHtml(source?.label || "")}</span>
+    ${historyCrumb}
   `;
 }
 
@@ -445,7 +504,34 @@ function fillCategorySelect(data) {
     renderTree(data);
     renderMobileNav(data);
     renderMobileSubnav(data);
-    syncPanel(data, { preserveItemIndex: false });
+    void syncPanel(data, { preserveItemIndex: false });
+  };
+}
+
+function fillDateSelect(data) {
+  const select = document.getElementById("date-select");
+  if (!select) return;
+
+  const entries = manifest?.sources?.[activeSourceKey] || [];
+  const latestHint = formatShortDate(getLatestUpdatedAt(data, activeSourceKey));
+  const latestLabel = latestHint ? ` · ${latestHint}` : "";
+
+  const options = [`<option value="latest">最新${latestLabel}</option>`];
+  entries.forEach((entry) => {
+    const count = entry.itemCount != null ? ` · ${entry.itemCount} 条` : "";
+    options.push(`<option value="${entry.date}">${entry.date}${count}</option>`);
+  });
+
+  select.innerHTML = options.join("");
+  const validDates = new Set(["latest", ...entries.map((entry) => entry.date)]);
+  const current = selectedDates[activeSourceKey] || "latest";
+  select.value = validDates.has(current) ? current : "latest";
+  selectedDates[activeSourceKey] = select.value;
+
+  select.onchange = () => {
+    selectedDates[activeSourceKey] = select.value;
+    persistDates();
+    void syncPanel(data, { preserveItemIndex: false });
   };
 }
 
@@ -460,8 +546,7 @@ function itemSummary(item, index) {
   return `${rank} ${item.title}`;
 }
 
-function fillItemSelect(data, preferredIndex = 0) {
-  const source = getSource(data, activeSourceKey);
+function fillItemSelect(source, preferredIndex = 0) {
   const items = source?.items || [];
   const select = document.getElementById("item-select");
 
@@ -560,8 +645,7 @@ function renderItemDetail(item, index) {
   `;
 }
 
-function renderCompactList(data, activeIndex) {
-  const source = getSource(data, activeSourceKey);
+function renderCompactList(source, activeIndex) {
   const items = source?.items || [];
   const list = document.getElementById("compact-list");
 
@@ -616,26 +700,49 @@ function renderCompactList(data, activeIndex) {
       const index = Number(el.dataset.index);
       document.getElementById("item-select").value = String(index);
       renderItemDetail(items[index], index);
-      renderCompactList(data, index);
+      renderCompactList(source, index);
     });
   });
 }
 
-function syncPanel(data, { preserveItemIndex = true } = {}) {
-  const source = getSource(data, activeSourceKey);
-  const items = source?.items || [];
-  const previousIndex = preserveItemIndex ? Number(document.getElementById("item-select").value) || 0 : 0;
+async function syncPanel(data, { preserveItemIndex = true } = {}) {
+  let source;
+  try {
+    source = await resolveSource(data, activeSourceKey);
+  } catch (err) {
+    document.getElementById("section-desc").textContent = err.message;
+    document.getElementById("item-count").textContent = "0";
+    document.getElementById("compact-list").innerHTML = `<li class="compact-empty">暂无条目</li>`;
+    document.getElementById("item-detail").innerHTML =
+      `<div class="detail-body"><div class="empty-state"><p>${escapeHtml(err.message)}</p></div></div>`;
+    return;
+  }
 
-  renderBreadcrumb(data);
+  const items = source?.items || [];
+  const previousIndex = preserveItemIndex
+    ? Number(document.getElementById("item-select").value) || 0
+    : 0;
+  const dateKey = selectedDates[activeSourceKey] || "latest";
+
+  renderBreadcrumb(data, source);
   fillCategorySelect(data);
+  fillDateSelect(data);
   applyPanelTheme();
-  document.getElementById("section-desc").textContent = source?.description || "";
+
+  let desc = source?.description || "";
+  if (dateKey !== "latest") {
+    desc = `【历史快照 ${dateKey}】${desc ? ` ${desc}` : ""}`;
+  }
+  const descEl = document.getElementById("section-desc");
+  descEl.textContent = desc;
+  descEl.classList.toggle("section-desc--history", dateKey !== "latest");
+
   renderJournalStats(data, source);
   renderMobileSubnav(data);
 
-  const activeIndex = fillItemSelect(data, previousIndex);
+  const activeIndex = fillItemSelect(source, previousIndex);
   renderItemDetail(items[activeIndex], activeIndex);
-  renderCompactList(data, activeIndex);
+  renderCompactList(source, activeIndex);
   triggerPanelFade();
 }
 
@@ -645,16 +752,22 @@ async function loadContent() {
   loading.style.display = "block";
   layout.hidden = true;
 
+  loadStoredDates();
+
   try {
-    const res = await fetch(`${DATA_URL}?t=${Date.now()}`);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    appData = await res.json();
+    const [contentRes, manifestRes] = await Promise.all([
+      fetch(`${DATA_URL}?t=${Date.now()}`),
+      fetch(`${MANIFEST_URL}?t=${Date.now()}`),
+    ]);
+    if (!contentRes.ok) throw new Error(`HTTP ${contentRes.status}`);
+    appData = await contentRes.json();
+    manifest = manifestRes.ok ? await manifestRes.json() : { sources: {} };
 
     renderMeta(appData);
     renderTree(appData);
     renderMobileNav(appData);
     renderMobileSubnav(appData);
-    syncPanel(appData, { preserveItemIndex: false });
+    await syncPanel(appData, { preserveItemIndex: false });
 
     loading.style.display = "none";
     document.getElementById("mobile-nav").hidden = false;
