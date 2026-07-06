@@ -398,7 +398,7 @@ header p {
 .compact-item {
   width: 100%;
   display: grid;
-  grid-template-columns: 2rem 1fr;
+  grid-template-columns: 2rem 1fr auto;
   gap: 0.5rem;
   align-items: center;
   padding: 0.55rem 1rem;
@@ -409,6 +409,11 @@ header p {
   text-align: left;
   cursor: pointer;
   font-size: 0.88rem;
+  text-decoration: none;
+}
+
+a.compact-item:hover .compact-link-icon {
+  color: var(--accent);
 }
 
 .compact-item:hover {
@@ -428,6 +433,11 @@ header p {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.compact-link-icon {
+  color: var(--muted);
+  font-size: 0.82rem;
 }
 
 .compact-empty {

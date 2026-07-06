@@ -251,21 +251,41 @@ function renderCompactList(data, activeIndex) {
   }
 
   list.innerHTML = items
-    .map(
-      (item, index) => `
-      <li>
-        <button type="button" class="compact-item${index === activeIndex ? " active" : ""}" data-index="${index}">
+    .map((item, index) => {
+      const active = index === activeIndex ? " active" : "";
+      const inner = `
           <span class="compact-rank">${index + 1}</span>
           <span class="compact-title">${escapeHtml(item.title)}</span>
+          ${item.url ? `<span class="compact-link-icon" aria-hidden="true">↗</span>` : ""}
+      `;
+
+      if (item.url) {
+        return `
+      <li>
+        <a
+          href="${escapeHtml(item.url)}"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="compact-item${active}"
+          data-index="${index}"
+        >${inner}</a>
+      </li>
+    `;
+      }
+
+      return `
+      <li>
+        <button type="button" class="compact-item${active}" data-index="${index}">
+          ${inner}
         </button>
       </li>
-    `
-    )
+    `;
+    })
     .join("");
 
-  list.querySelectorAll(".compact-item").forEach((btn) => {
-    btn.addEventListener("click", () => {
-      const index = Number(btn.dataset.index);
+  list.querySelectorAll(".compact-item").forEach((el) => {
+    el.addEventListener("click", () => {
+      const index = Number(el.dataset.index);
       document.getElementById("item-select").value = String(index);
       renderItemDetail(items[index], index);
       renderCompactList(data, index);
