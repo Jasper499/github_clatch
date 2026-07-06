@@ -118,6 +118,7 @@ def fetch_hackernews(limit: int = 20) -> list[dict]:
 
 def build_payload() -> dict:
     since = iso_date(PERIOD_DAYS)
+    today = iso_date(0)
     new_repos = fetch_github_repos(f"created:>{since}")
     active_repos = fetch_github_repos(f"pushed:>{since}")
     hn_stories = fetch_hackernews()
@@ -125,6 +126,24 @@ def build_payload() -> dict:
     return {
         "updatedAt": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
         "periodDays": PERIOD_DAYS,
+        "weekLabel": f"{since} ~ {today}",
+        "catalog": [
+            {
+                "id": "github",
+                "label": "GitHub",
+                "children": [
+                    {"id": "github", "sourceKey": "github"},
+                    {"id": "githubActive", "sourceKey": "githubActive"},
+                ],
+            },
+            {
+                "id": "hackernews",
+                "label": "Hacker News",
+                "children": [
+                    {"id": "hackernews", "sourceKey": "hackernews"},
+                ],
+            },
+        ],
         "sources": {
             "github": {
                 "label": "GitHub 热门新项目",

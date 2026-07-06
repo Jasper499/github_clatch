@@ -11,46 +11,47 @@
   <div class="container">
     <header>
       <h1>Clatch 每周热门精选</h1>
-      <p>自动聚合 GitHub 热门开源项目与 Hacker News 技术讨论，每周更新一次。</p>
+      <p>按「本周 → 平台 → 分类」目录浏览，支持下拉快速定位条目。</p>
       <div class="meta-bar">
         <span class="badge live">已启用自动更新</span>
-        <span class="badge">统计周期：<strong id="period-days">7</strong> 天</span>
+        <span class="badge">周期：<strong id="week-label">—</strong></span>
         <span class="badge">上次更新：<strong id="updated-at">—</strong></span>
       </div>
     </header>
 
-    <nav class="tabs" aria-label="内容分类">
-      <button class="tab active" data-target="github">GitHub 热门新项目</button>
-      <button class="tab" data-target="githubActive">GitHub 活跃项目</button>
-      <button class="tab" data-target="hackernews">Hacker News 热门</button>
-    </nav>
-
     <div id="loading" class="loading-state">正在加载数据…</div>
     <div id="error" class="error-state" style="display:none"></div>
 
-    <section id="section-github" class="section active">
-      <div class="section-header">
-        <h2 id="title-github">GitHub 热门新项目</h2>
-        <p id="desc-github"></p>
-      </div>
-      <div id="grid-github" class="grid"></div>
-    </section>
+    <div id="app-layout" class="app-layout" hidden>
+      <aside class="sidebar" aria-label="内容目录">
+        <div class="sidebar-title">内容目录</div>
+        <nav id="catalog-tree" class="catalog-tree"></nav>
+      </aside>
 
-    <section id="section-githubActive" class="section">
-      <div class="section-header">
-        <h2 id="title-githubActive">GitHub 活跃项目</h2>
-        <p id="desc-githubActive"></p>
-      </div>
-      <div id="grid-githubActive" class="grid"></div>
-    </section>
+      <main class="content-panel">
+        <nav id="breadcrumb" class="breadcrumb" aria-label="当前位置"></nav>
 
-    <section id="section-hackernews" class="section">
-      <div class="section-header">
-        <h2 id="title-hackernews">Hacker News 热门</h2>
-        <p id="desc-hackernews"></p>
-      </div>
-      <div id="grid-hackernews" class="grid"></div>
-    </section>
+        <div class="controls">
+          <div class="control-group">
+            <label for="category-select">子分类</label>
+            <select id="category-select" class="select"></select>
+          </div>
+          <div class="control-group control-group-grow">
+            <label for="item-select">条目列表</label>
+            <select id="item-select" class="select"></select>
+          </div>
+        </div>
+
+        <p id="section-desc" class="section-desc"></p>
+
+        <article id="item-detail" class="item-detail" aria-live="polite"></article>
+
+        <details class="compact-list-panel">
+          <summary>展开完整列表（<span id="item-count">0</span> 条）</summary>
+          <ul id="compact-list" class="compact-list"></ul>
+        </details>
+      </main>
+    </div>
 
     <footer>
       <p>数据来源：GitHub API · Hacker News · 每周一自动更新</p>
