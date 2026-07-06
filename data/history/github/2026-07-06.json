@@ -1,7 +1,7 @@
 {
   "date": "2026-07-06",
   "sourceKey": "github",
-  "savedAt": "2026-07-06T03:38:30Z",
+  "savedAt": "2026-07-06T05:02:26Z",
   "label": "GitHub 热门新项目",
   "description": "近 7 天内创建、按 Star 数排序的开源项目",
   "items": [
@@ -9,7 +9,7 @@
       "title": "elder-plinius/T3MP3ST",
       "description": "autonomous red teaming platform; multi-agent offensive-security meta-harness",
       "url": "https://github.com/elder-plinius/T3MP3ST",
-      "stars": 1644,
+      "stars": 1830,
       "language": "TypeScript",
       "owner": "elder-plinius"
     },
@@ -17,7 +17,7 @@
       "title": "mekos2772/ios-location-spoofer",
       "description": "Standalone iOS app to spoof GPS location without jailbreak. Includes Shadowrocket/Surge/Loon/QX/Stash module.",
       "url": "https://github.com/mekos2772/ios-location-spoofer",
-      "stars": 1323,
+      "stars": 1342,
       "language": "JavaScript",
       "owner": "mekos2772"
     },
@@ -25,7 +25,7 @@
       "title": "HUANGCHIHHUNGLeo/claude-real-video",
       "description": "Let Claude (or any LLM) actually watch a video — scene-aware, deduplicated frames + transcript, from a URL or local file. Runs locally, MIT.",
       "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
-      "stars": 955,
+      "stars": 1029,
       "language": "Python",
       "owner": "HUANGCHIHHUNGLeo"
     },
@@ -33,7 +33,7 @@
       "title": "jamesob/local-llm",
       "description": "Everything I know about running LLMs locally",
       "url": "https://github.com/jamesob/local-llm",
-      "stars": 919,
+      "stars": 932,
       "language": "Shell",
       "owner": "jamesob"
     },
@@ -41,7 +41,7 @@
       "title": "ammaarreshi/Generals-Mac-iOS-iPad",
       "description": "Command & Conquer Generals: Zero Hour running natively on macOS, iPhone & iPad — real engine (EA GPL v3 source, via GeneralsX), DXVK/MoltenVK renderer, RTS touch controls. No game assets included.",
       "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad",
-      "stars": 795,
+      "stars": 854,
       "language": "C++",
       "owner": "ammaarreshi"
     },
@@ -49,7 +49,7 @@
       "title": "xuchonglang/investing-for-beginners",
       "description": "小隐寺投资百科官方公开索引：美股、期权与加密货币知识框架",
       "url": "https://github.com/xuchonglang/investing-for-beginners",
-      "stars": 705,
+      "stars": 718,
       "language": "",
       "owner": "xuchonglang"
     },
@@ -57,7 +57,7 @@
       "title": "jmerelnyc/Talos",
       "description": "GPU worker client for the Talos network. Pairs with your Talos account, serves open-model inference jobs over a WebSocket, and reports uptime for payouts.",
       "url": "https://github.com/jmerelnyc/Talos",
-      "stars": 676,
+      "stars": 683,
       "language": "Python",
       "owner": "jmerelnyc"
     },
@@ -65,7 +65,7 @@
       "title": "uzairansaruzi/hermex",
       "description": "Native iPhone app for your Hermes agent",
       "url": "https://github.com/uzairansaruzi/hermex",
-      "stars": 615,
+      "stars": 626,
       "language": "Swift",
       "owner": "uzairansaruzi"
     },
@@ -73,9 +73,17 @@
       "title": "Kulaxyz/token-diet",
       "description": "Always-on token-efficiency skill for coding agents (Claude Code, Codex, Cursor, Windsurf, Cline). ~31% lower bill on average, no loss of correctness.",
       "url": "https://github.com/Kulaxyz/token-diet",
-      "stars": 585,
+      "stars": 590,
       "language": "Shell",
       "owner": "Kulaxyz"
+    },
+    {
+      "title": "LinXiaoTao/FuckClaude",
+      "description": "",
+      "url": "https://github.com/LinXiaoTao/FuckClaude",
+      "stars": 536,
+      "language": "TypeScript",
+      "owner": "LinXiaoTao"
     },
     {
       "title": "CalmNoteDepot/MECCHA-VISION-ULTIMATE",
@@ -89,47 +97,39 @@
       "title": "TianhangZhuzth/Fundamental-Ava",
       "description": "Build digital human beings — autonomous, collaborative, and socially intelligent agents. FNzgGxU31RWiDgLr3GvxxSa42nRntvZNSG6aBMQ1pump",
       "url": "https://github.com/TianhangZhuzth/Fundamental-Ava",
-      "stars": 524,
+      "stars": 525,
       "language": "Python",
       "owner": "TianhangZhuzth"
-    },
-    {
-      "title": "LinXiaoTao/FuckClaude",
-      "description": "",
-      "url": "https://github.com/LinXiaoTao/FuckClaude",
-      "stars": 500,
-      "language": "TypeScript",
-      "owner": "LinXiaoTao"
     },
     {
       "title": "asz798838958/FrciblyK12",
       "description": "多线程全自动注册free 强上K12空间",
       "url": "https://github.com/asz798838958/FrciblyK12",
-      "stars": 444,
+      "stars": 456,
       "language": "Python",
       "owner": "asz798838958"
-    },
-    {
-      "title": "lingbol088-spec/reverse-flow-skill",
-      "description": "面向 AI Agent / Codex 的本地 CTF 逆向工程流程技能。加载后通过“真心为你”进入逆向模式，默认在本地沙盒、CTF、crackme、wargame 或训练靶场环境中工作，按“分析 → 报告 → 逆向 → 深度逆向 → 漏洞研判 → 用户选择下一步”的流程推进。",
-      "url": "https://github.com/lingbol088-spec/reverse-flow-skill",
-      "stars": 389,
-      "language": "Python",
-      "owner": "lingbol088-spec"
     },
     {
       "title": "HKUDS/OpenOPC",
       "description": "OpenOPC: Build Your Personal AI-Native Company — Self-Built, Self-Run, Self-Grown",
       "url": "https://github.com/HKUDS/OpenOPC",
-      "stars": 383,
+      "stars": 403,
       "language": "Python",
       "owner": "HKUDS"
+    },
+    {
+      "title": "lingbol088-spec/reverse-flow-skill",
+      "description": "面向 AI Agent / Codex 的本地 CTF 逆向工程流程技能。加载后通过“真心为你”进入逆向模式，默认在本地沙盒、CTF、crackme、wargame 或训练靶场环境中工作，按“分析 → 报告 → 逆向 → 深度逆向 → 漏洞研判 → 用户选择下一步”的流程推进。",
+      "url": "https://github.com/lingbol088-spec/reverse-flow-skill",
+      "stars": 399,
+      "language": "Python",
+      "owner": "lingbol088-spec"
     },
     {
       "title": "dzhng/skills",
       "description": "",
       "url": "https://github.com/dzhng/skills",
-      "stars": 312,
+      "stars": 347,
       "language": "JavaScript",
       "owner": "dzhng"
     },
@@ -137,7 +137,7 @@
       "title": "Archive228/loopkit",
       "description": "33 battle-tested skills + minimal .claude harness for any coding agent (Claude Code, Cursor, Codex, Gemini CLI).",
       "url": "https://github.com/Archive228/loopkit",
-      "stars": 309,
+      "stars": 326,
       "language": "JavaScript",
       "owner": "Archive228"
     },
@@ -145,7 +145,7 @@
       "title": "yynxxxxx/Codex-X",
       "description": "Codex Switch & Instruct desktop manager",
       "url": "https://github.com/yynxxxxx/Codex-X",
-      "stars": 300,
+      "stars": 315,
       "language": "Rust",
       "owner": "yynxxxxx"
     },
@@ -153,7 +153,7 @@
       "title": "xt4d/GameBlocks",
       "description": "Concise and self-explanatory building blocks that help coding agents prototype browser-based 3D games.",
       "url": "https://github.com/xt4d/GameBlocks",
-      "stars": 297,
+      "stars": 301,
       "language": "JavaScript",
       "owner": "xt4d"
     },
@@ -161,7 +161,7 @@
       "title": "SuperJJ007/CSSwitch",
       "description": "帮你的 Claude Science 一键接入你自己的 API：DeepSeek / 通义千问 / 智谱 GLM / Kimi / MiniMax / 小米 MiMo / 硅基流动 / OpenRouter / 任意 OpenAI·Anthropic 兼容端点",
       "url": "https://github.com/SuperJJ007/CSSwitch",
-      "stars": 255,
+      "stars": 264,
       "language": "Rust",
       "owner": "SuperJJ007"
     }
