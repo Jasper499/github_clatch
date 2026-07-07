@@ -1,9 +1,9 @@
-name: Weekly Content Update
+name: Twice-Daily Weibo Update
 
 on:
   schedule:
-    # 每周一 UTC 01:00（北京时间 09:00）
-    - cron: "0 1 * * 1"
+    # 错开 10 分钟，避免与 HN 同时 push 冲突
+    - cron: "10 2,14 * * *"
   workflow_dispatch:
 
 concurrency:
@@ -14,7 +14,7 @@ permissions:
   contents: write
 
 jobs:
-  update:
+  update-weibo:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -23,10 +23,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Fetch GitHub trending repos
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/update_content.py
+      - name: Fetch Weibo hot search
+        run: python scripts/update_weibo.py
 
       - name: Commit and push if changed
         run: |
@@ -36,7 +34,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "chore: weekly GitHub trending update"
+            git commit -m "chore: twice-daily Weibo update"
             git pull --rebase origin main
             git push
           fi

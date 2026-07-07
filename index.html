@@ -41,9 +41,31 @@
       <p>按「本周 → 平台 → 分类」目录浏览，支持下拉快速定位条目。</p>
       <div class="meta-bar">
         <span class="badge live">已启用自动更新</span>
-        <span class="badge">周期：<strong id="week-label">—</strong></span>
-        <span class="badge">上次更新：<strong id="updated-at">—</strong></span>
+        <span class="badge badge-week">GitHub 周期：<strong id="week-label">—</strong></span>
       </div>
+      <div class="meta-sync-grid" id="meta-sync-grid" aria-label="各栏目最近更新时间">
+        <div class="meta-sync-item theme-github" data-platform="github">
+          <span class="meta-sync-label">GitHub</span>
+          <span class="meta-sync-schedule">每周一</span>
+          <strong class="meta-sync-time" id="meta-github-at">—</strong>
+        </div>
+        <div class="meta-sync-item theme-hn" data-platform="hackernews">
+          <span class="meta-sync-label">Hacker News</span>
+          <span class="meta-sync-schedule">每日 10/22 点</span>
+          <strong class="meta-sync-time" id="meta-hackernews-at">—</strong>
+        </div>
+        <div class="meta-sync-item theme-weibo" data-platform="weibo">
+          <span class="meta-sync-label">微博</span>
+          <span class="meta-sync-schedule">每日 10/22 点</span>
+          <strong class="meta-sync-time" id="meta-weibo-at">—</strong>
+        </div>
+        <div class="meta-sync-item theme-journals" data-platform="journals">
+          <span class="meta-sync-label">MRI 顶刊</span>
+          <span class="meta-sync-schedule">每月 1/15 日</span>
+          <strong class="meta-sync-time" id="meta-journals-at">—</strong>
+        </div>
+      </div>
+      <p class="meta-sync-hint">计划时间仅供参考，GitHub Actions 可能延迟数小时；切换栏目时高亮对应该栏目的更新时间。</p>
     </header>
 
     <div id="loading" class="skeleton-layout" aria-busy="true" aria-label="正在加载">
@@ -116,9 +138,14 @@
       <details class="footer-details">
         <summary>数据来源与更新说明</summary>
         <p>GitHub · Hacker News · 微博 · MRI 顶刊（MRM / TMI / MedIA）</p>
-        <p>微博/HN 每天 10:00、22:00 更新 · GitHub 每周一更新 · 顶刊每半月更新</p>
+        <p>微博/HN 每天 10:00、22:00 · GitHub 每周一 · 顶刊每月 1/15 日（均为北京时间计划时间）</p>
+        <p>自动抓取由 <a href="https://github.com/Jasper499/github_clatch/actions" target="_blank" rel="noopener noreferrer">GitHub Actions</a> 执行，实际完成时间可能有延迟。</p>
+        <p>若内容看似未更新：请强制刷新（Ctrl+F5），并确认「历史日期」选为「最新」。</p>
+        <ul class="footer-sync-list" id="footer-sync-list" aria-label="各栏目最近更新时间"></ul>
       </details>
       <p class="footer-links">
+        <a href="https://github.com/Jasper499/github_clatch/actions" target="_blank" rel="noopener noreferrer">查看自动更新记录</a>
+        <span>·</span>
         <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
         <span>·</span>
         <a href="https://news.ycombinator.com" target="_blank" rel="noopener">Hacker News</a>

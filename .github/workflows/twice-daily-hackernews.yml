@@ -1,4 +1,4 @@
-name: Twice-Daily HN and Weibo Update
+name: Twice-Daily Hacker News Update
 
 on:
   schedule:
@@ -6,11 +6,15 @@ on:
     - cron: "0 2,14 * * *"
   workflow_dispatch:
 
+concurrency:
+  group: data-content-update
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
 jobs:
-  update:
+  update-hackernews:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -19,10 +23,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Fetch Hacker News and Weibo
-        run: |
-          python scripts/update_hackernews.py
-          python scripts/update_weibo.py
+      - name: Fetch Hacker News
+        run: python scripts/update_hackernews.py
 
       - name: Commit and push if changed
         run: |
@@ -32,6 +34,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "chore: twice-daily HN and weibo update"
+            git commit -m "chore: twice-daily Hacker News update"
+            git pull --rebase origin main
             git push
           fi

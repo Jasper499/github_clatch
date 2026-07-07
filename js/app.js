@@ -51,6 +51,13 @@ const PLATFORM_META = {
 
 const JOURNAL_KEYS = new Set(["mrm", "tmi", "media"]);
 
+const META_SYNC_PLATFORMS = [
+  { id: "github", label: "GitHub", schedule: "每周一", field: "githubUpdatedAt" },
+  { id: "hackernews", label: "Hacker News", schedule: "每日 10/22 点", field: "hackernewsUpdatedAt" },
+  { id: "weibo", label: "微博", schedule: "每日 10/22 点", field: "weiboUpdatedAt" },
+  { id: "journals", label: "MRI 顶刊", schedule: "每月 1/15 日", field: "journalsUpdatedAt" },
+];
+
 function getPlatformMeta(sourceKey) {
   return PLATFORM_META[sourceKey] || PLATFORM_META.github;
 }
@@ -78,6 +85,21 @@ function applyPanelTheme() {
     panel.className = `content-panel ${meta.theme}`;
   }
   document.documentElement.setAttribute("data-platform", activeParentId);
+  highlightMetaPlatform(activeParentId);
+}
+
+function highlightMetaPlatform(platformId) {
+  document.querySelectorAll(".meta-sync-item").forEach((item) => {
+    item.classList.toggle("active", item.dataset.platform === platformId);
+  });
+}
+
+function resolveMetaTimestamp(data, field) {
+  if (data[field]) return data[field];
+  if (field === "githubUpdatedAt" || field === "hackernewsUpdatedAt" || field === "weiboUpdatedAt") {
+    return data.updatedAt;
+  }
+  return null;
 }
 
 function formatDate(iso) {
@@ -397,9 +419,28 @@ function getParentNode(catalog, parentId) {
 }
 
 function renderMeta(data) {
-  document.getElementById("updated-at").textContent = formatDate(data.updatedAt);
-  document.getElementById("week-label").textContent =
-    data.weekLabel || `近 ${data.periodDays || 7} 天`;
+  const weekEl = document.getElementById("week-label");
+  if (weekEl) {
+    weekEl.textContent = data.weekLabel || `近 ${data.periodDays || 7} 天`;
+  }
+
+  META_SYNC_PLATFORMS.forEach((platform) => {
+    const el = document.getElementById(`meta-${platform.id}-at`);
+    if (!el) return;
+    const iso = resolveMetaTimestamp(data, platform.field);
+    el.textContent = iso ? formatDate(iso) : "暂无记录";
+  });
+
+  const footerList = document.getElementById("footer-sync-list");
+  if (footerList) {
+    footerList.innerHTML = META_SYNC_PLATFORMS.map((platform) => {
+      const iso = resolveMetaTimestamp(data, platform.field);
+      const time = iso ? formatDate(iso) : "暂无记录";
+      return `<li><span class="footer-sync-label">${escapeHtml(platform.label)}</span>（${escapeHtml(platform.schedule)}）<strong>${escapeHtml(time)}</strong></li>`;
+    }).join("");
+  }
+
+  highlightMetaPlatform(activeParentId);
 }
 
 function renderTree(data) {
