@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T06:12:48Z",
+  "updatedAt": "2026-07-07T16:17:43Z",
   "periodDays": 7,
   "weekLabel": "2026-06-29 ~ 2026-07-06",
   "catalog": [
@@ -396,18 +396,10 @@
       "fetchedDate": "2026-07-07",
       "items": [
         {
-          "title": "Claude Code is steganographically marking requests",
-          "description": "",
-          "url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
-          "score": 2440,
-          "comments": 747,
-          "owner": "kirushik"
-        },
-        {
           "title": "Android Developer Verification: Threat masquerading as protection",
           "description": "",
           "url": "https://f-droid.org/2026/07/01/adv-malware.html",
-          "score": 1725,
+          "score": 1728,
           "comments": 742,
           "owner": "drewfax"
         },
@@ -415,7 +407,7 @@
           "title": "Half-Baked Product",
           "description": "",
           "url": "https://weli.dev/blog/half-baked-product/",
-          "score": 1382,
+          "score": 1386,
           "comments": 409,
           "owner": "weli"
         },
@@ -431,16 +423,16 @@
           "title": "Organic Maps",
           "description": "",
           "url": "https://organicmaps.app/",
-          "score": 1141,
-          "comments": 358,
+          "score": 1159,
+          "comments": 362,
           "owner": "tosh"
         },
         {
           "title": "OpenPrinter",
           "description": "",
           "url": "https://www.opentools.studio/",
-          "score": 1115,
-          "comments": 282,
+          "score": 1125,
+          "comments": 284,
           "owner": "bouh"
         },
         {
@@ -455,7 +447,7 @@
           "title": "Virginia bans sale of precise geolocation data",
           "description": "<a href=\"https:&#x2F;&#x2F;lis.virginia.gov&#x2F;bill-details&#x2F;20261&#x2F;SB338&#x2F;text&#x2F;SB338\" rel=\"nofollow\">https:&#x2F;&#x2F;lis.virginia.gov&#x2F;bill-details&#x2F;20261&#x2F;SB338&#x2F;text&#x2F;SB338</a>",
           "url": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/virginia-bans-sale-of-geolocation-data",
-          "score": 952,
+          "score": 953,
           "comments": 138,
           "owner": "toomuchtodo"
         },
@@ -463,7 +455,7 @@
           "title": "For first time, a cell built from scratch grows and divides",
           "description": "<a href=\"https:&#x2F;&#x2F;biotic.org&#x2F;research&#x2F;spudcell&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;biotic.org&#x2F;research&#x2F;spudcell&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;www.science.org&#x2F;content&#x2F;article&#x2F;lab-created-spudcell-marks-major-step-toward-building-life-scratch\" rel=\"nofollow\">https:&#x2F;&#x2F;www.science.org&#x2F;content&#x2F;article&#x2F;lab-created-spudcell...</a><p><a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;interactive&#x2F;2026&#x2F;07&#x2F;01&#x2F;science&#x2F;spudcells-synthetic-cell.html?unlocked_article_code=1.uVA.6Rwg.20U5t0kLK6oU&amp;smid=nytcore-ios-share\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nytimes.com&#x2F;interactive&#x2F;2026&#x2F;07&#x2F;01&#x2F;science&#x2F;spudc...</a>",
           "url": "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/",
-          "score": 951,
+          "score": 952,
           "comments": 302,
           "owner": "defrost"
         },
@@ -471,7 +463,7 @@
           "title": "The bottleneck might be the air in the room",
           "description": "",
           "url": "https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making/",
-          "score": 821,
+          "score": 822,
           "comments": 465,
           "owner": "gslin"
         },
@@ -484,42 +476,50 @@
           "owner": "Tiberium"
         },
         {
+          "title": "OpenWrt One – Open Hardware Router",
+          "description": "",
+          "url": "https://openwrt.org/toh/openwrt/one",
+          "score": 769,
+          "comments": 287,
+          "owner": "peter_d_sherman"
+        },
+        {
           "title": "Spain Orders Blacklist of Palantir from Public and Private Companies",
           "description": "",
           "url": "https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv",
-          "score": 741,
-          "comments": 306,
+          "score": 742,
+          "comments": 308,
           "owner": "mgh2"
         },
         {
           "title": "Most arguments are about ego, not ideas",
           "description": "",
           "url": "https://wangcong.org/2026-06-30-why-i-stopped-arguing-with-people.html",
-          "score": 722,
+          "score": 724,
           "comments": 559,
           "owner": "backlit4034"
         },
         {
-          "title": "European digital ID wallets rely on safety services of Google and Apple",
+          "title": "CoMaps – FOSS Offline Maps",
           "description": "",
-          "url": "https://waag.org/en/article/european-digital-id-wallets-are-gift-google-and-apple/",
-          "score": 708,
-          "comments": 309,
-          "owner": "donohoe"
+          "url": "https://www.comaps.app/",
+          "score": 716,
+          "comments": 174,
+          "owner": "basilikum"
         },
         {
-          "title": "The US ambassador had Belgian police stop our reporting",
+          "title": "Resetting Xbox",
           "description": "",
-          "url": "https://europeancorrespondent.com/en/r/the-us-ambassador-had-belgian-police-stop-our-reporting",
-          "score": 693,
-          "comments": 334,
-          "owner": "robtherobber"
+          "url": "https://news.xbox.com/en-us/2026/07/06/resetting-xbox/",
+          "score": 708,
+          "comments": 849,
+          "owner": "dijksterhuis"
         },
         {
           "title": "Leaking YouTube creators' private videos",
           "description": "",
           "url": "https://javoriuski.com/post/youtube",
-          "score": 686,
+          "score": 688,
           "comments": 395,
           "owner": "javxfps"
         },
@@ -527,9 +527,17 @@
           "title": "Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable",
           "description": "",
           "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main",
-          "score": 681,
-          "comments": 283,
+          "score": 684,
+          "comments": 286,
           "owner": "asronline"
+        },
+        {
+          "title": "It's not about physical vs. digital games, it's about ownership",
+          "description": "",
+          "url": "https://popcar.bearblog.dev/its-about-ownership/",
+          "score": 681,
+          "comments": 516,
+          "owner": "popcar2"
         },
         {
           "title": "PeerTube is a free, decentralized and federated video platform",
@@ -540,20 +548,12 @@
           "owner": "doener"
         },
         {
-          "title": "It's not about physical vs. digital games, it's about ownership",
+          "title": "Immich 3.0",
           "description": "",
-          "url": "https://popcar.bearblog.dev/its-about-ownership/",
-          "score": 659,
-          "comments": 505,
-          "owner": "popcar2"
-        },
-        {
-          "title": "Podman v6.0.0",
-          "description": "",
-          "url": "https://blog.podman.io/2026/07/introducing-podman-v6-0-0/",
-          "score": 644,
-          "comments": 257,
-          "owner": "soheilpro"
+          "url": "https://github.com/immich-app/immich/discussions/29439",
+          "score": 646,
+          "comments": 293,
+          "owner": "hashier"
         }
       ]
     },
@@ -1348,6 +1348,6 @@
   "weiboUpdatedAt": "2026-07-07T06:12:48Z",
   "journalsUpdatedAt": "2026-07-06T03:02:33Z",
   "journalsPeriod": "2026-05-22 ~ 2026-07-06",
-  "hackernewsUpdatedAt": "2026-07-07T06:12:47Z",
+  "hackernewsUpdatedAt": "2026-07-07T16:17:43Z",
   "githubUpdatedAt": "2026-07-06T05:02:26Z"
 }
