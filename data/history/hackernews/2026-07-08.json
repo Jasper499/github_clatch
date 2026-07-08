@@ -1,7 +1,7 @@
 {
   "date": "2026-07-08",
   "sourceKey": "hackernews",
-  "savedAt": "2026-07-08T04:58:57Z",
+  "savedAt": "2026-07-08T15:56:58Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-07-08，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -19,72 +19,80 @@
       "title": "Half-Baked Product",
       "description": "",
       "url": "https://weli.dev/blog/half-baked-product/",
-      "score": 1391,
-      "comments": 409,
+      "score": 1395,
+      "comments": 410,
       "owner": "weli"
     },
     {
       "title": "Organic Maps",
       "description": "",
       "url": "https://organicmaps.app/",
-      "score": 1164,
-      "comments": 362,
+      "score": 1170,
+      "comments": 363,
       "owner": "tosh"
     },
     {
       "title": "OpenPrinter",
       "description": "",
       "url": "https://www.opentools.studio/",
-      "score": 1137,
+      "score": 1141,
       "comments": 285,
       "owner": "bouh"
-    },
-    {
-      "title": "For first time, a cell built from scratch grows and divides",
-      "description": "<a href=\"https:&#x2F;&#x2F;biotic.org&#x2F;research&#x2F;spudcell&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;biotic.org&#x2F;research&#x2F;spudcell&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;www.science.org&#x2F;content&#x2F;article&#x2F;lab-created-spudcell-marks-major-step-toward-building-life-scratch\" rel=\"nofollow\">https:&#x2F;&#x2F;www.science.org&#x2F;content&#x2F;article&#x2F;lab-created-spudcell...</a><p><a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;interactive&#x2F;2026&#x2F;07&#x2F;01&#x2F;science&#x2F;spudcells-synthetic-cell.html?unlocked_article_code=1.uVA.6Rwg.20U5t0kLK6oU&amp;smid=nytcore-ios-share\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nytimes.com&#x2F;interactive&#x2F;2026&#x2F;07&#x2F;01&#x2F;science&#x2F;spudc...</a>",
-      "url": "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/",
-      "score": 954,
-      "comments": 302,
-      "owner": "defrost"
     },
     {
       "title": "Virginia bans sale of precise geolocation data",
       "description": "<a href=\"https:&#x2F;&#x2F;lis.virginia.gov&#x2F;bill-details&#x2F;20261&#x2F;SB338&#x2F;text&#x2F;SB338\" rel=\"nofollow\">https:&#x2F;&#x2F;lis.virginia.gov&#x2F;bill-details&#x2F;20261&#x2F;SB338&#x2F;text&#x2F;SB338</a>",
       "url": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/virginia-bans-sale-of-geolocation-data",
-      "score": 953,
+      "score": 955,
       "comments": 138,
       "owner": "toomuchtodo"
+    },
+    {
+      "title": "Decoding the obfuscated bash script on a Uniqlo t-shirt",
+      "description": "",
+      "url": "https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/",
+      "score": 906,
+      "comments": 165,
+      "owner": "speerer"
+    },
+    {
+      "title": "Chat Control 1.0 and 2.0 Explained",
+      "description": "",
+      "url": "https://fightchatcontrol.eu/chat-control-overview",
+      "score": 829,
+      "comments": 312,
+      "owner": "gasull"
     },
     {
       "title": "The bottleneck might be the air in the room",
       "description": "",
       "url": "https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making/",
       "score": 823,
-      "comments": 465,
+      "comments": 467,
       "owner": "gslin"
     },
     {
       "title": "OpenWrt One – Open Hardware Router",
       "description": "",
       "url": "https://openwrt.org/toh/openwrt/one",
-      "score": 802,
-      "comments": 305,
+      "score": 813,
+      "comments": 315,
       "owner": "peter_d_sherman"
     },
     {
-      "title": "Physical disc production ending in Jan 2028 for new games on PlayStation",
+      "title": "StreetComplete: Fixing OpenStreetMap, one tiny quest at a time",
       "description": "",
-      "url": "https://blog.playstation.com/2026/07/01/physical-disc-production-ending-in-january-2028-for-new-games-releasing-on-playstation-consoles/",
-      "score": 789,
-      "comments": 795,
-      "owner": "Tiberium"
+      "url": "https://streetcomplete.app/",
+      "score": 794,
+      "comments": 201,
+      "owner": "kls0e"
     },
     {
       "title": "CoMaps – FOSS Offline Maps",
       "description": "",
       "url": "https://www.comaps.app/",
-      "score": 760,
-      "comments": 199,
+      "score": 778,
+      "comments": 206,
       "owner": "basilikum"
     },
     {
@@ -99,39 +107,31 @@
       "title": "Resetting Xbox",
       "description": "",
       "url": "https://news.xbox.com/en-us/2026/07/06/resetting-xbox/",
-      "score": 726,
-      "comments": 905,
+      "score": 732,
+      "comments": 912,
       "owner": "dijksterhuis"
     },
     {
-      "title": "Most arguments are about ego, not ideas",
+      "title": "Every new car sold in the European Union must include a driver monitoring camera",
       "description": "",
-      "url": "https://wangcong.org/2026-06-30-why-i-stopped-arguing-with-people.html",
-      "score": 726,
-      "comments": 559,
-      "owner": "backlit4034"
-    },
-    {
-      "title": "StreetComplete: Fixing OpenStreetMap, one tiny quest at a time",
-      "description": "",
-      "url": "https://streetcomplete.app/",
-      "score": 725,
-      "comments": 173,
-      "owner": "kls0e"
+      "url": "https://allaboutcookies.org/eu-mandatory-distracted-driver-system",
+      "score": 722,
+      "comments": 935,
+      "owner": "nickslaughter02"
     },
     {
       "title": "It's not about physical vs. digital games, it's about ownership",
       "description": "",
       "url": "https://popcar.bearblog.dev/its-about-ownership/",
-      "score": 688,
-      "comments": 521,
+      "score": 693,
+      "comments": 523,
       "owner": "popcar2"
     },
     {
       "title": "Leaking YouTube creators' private videos",
       "description": "",
       "url": "https://javoriuski.com/post/youtube",
-      "score": 688,
+      "score": 689,
       "comments": 395,
       "owner": "javxfps"
     },
@@ -147,7 +147,7 @@
       "title": "PeerTube is a free, decentralized and federated video platform",
       "description": "",
       "url": "https://github.com/Chocobozzz/PeerTube",
-      "score": 679,
+      "score": 680,
       "comments": 354,
       "owner": "doener"
     },
@@ -155,15 +155,15 @@
       "title": "GLM 5.2 and the coming AI margin collapse",
       "description": "",
       "url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
-      "score": 668,
-      "comments": 451,
+      "score": 677,
+      "comments": 463,
       "owner": "martinald"
     },
     {
       "title": "Immich 3.0",
       "description": "",
       "url": "https://github.com/immich-app/immich/discussions/29439",
-      "score": 647,
+      "score": 648,
       "comments": 293,
       "owner": "hashier"
     }
