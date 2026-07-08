@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T16:40:00Z",
+  "updatedAt": "2026-07-08T04:58:57Z",
   "periodDays": 7,
   "weekLabel": "2026-06-29 ~ 2026-07-06",
   "catalog": [
@@ -391,15 +391,15 @@
     },
     "hackernews": {
       "label": "Hacker News 热门",
-      "description": "近 7 天 HN 高互动讨论（2026-07-07，共 20 条）",
+      "description": "近 7 天 HN 高互动讨论（2026-07-08，共 20 条）",
       "updateFrequency": "twice-daily",
-      "fetchedDate": "2026-07-07",
+      "fetchedDate": "2026-07-08",
       "items": [
         {
           "title": "Android Developer Verification: Threat masquerading as protection",
           "description": "",
           "url": "https://f-droid.org/2026/07/01/adv-malware.html",
-          "score": 1728,
+          "score": 1730,
           "comments": 742,
           "owner": "drewfax"
         },
@@ -407,23 +407,15 @@
           "title": "Half-Baked Product",
           "description": "",
           "url": "https://weli.dev/blog/half-baked-product/",
-          "score": 1386,
+          "score": 1391,
           "comments": 409,
           "owner": "weli"
-        },
-        {
-          "title": "Claude Sonnet 5",
-          "description": "",
-          "url": "https://www.anthropic.com/news/claude-sonnet-5",
-          "score": 1265,
-          "comments": 783,
-          "owner": "marinesebastian"
         },
         {
           "title": "Organic Maps",
           "description": "",
           "url": "https://organicmaps.app/",
-          "score": 1159,
+          "score": 1164,
           "comments": 362,
           "owner": "tosh"
         },
@@ -431,17 +423,17 @@
           "title": "OpenPrinter",
           "description": "",
           "url": "https://www.opentools.studio/",
-          "score": 1125,
-          "comments": 284,
+          "score": 1137,
+          "comments": 285,
           "owner": "bouh"
         },
         {
-          "title": "Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5",
-          "description": "",
-          "url": "https://twitter.com/AnthropicAI/status/2072106151890809341",
-          "score": 976,
-          "comments": 690,
-          "owner": "Pragmata"
+          "title": "For first time, a cell built from scratch grows and divides",
+          "description": "<a href=\"https:&#x2F;&#x2F;biotic.org&#x2F;research&#x2F;spudcell&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;biotic.org&#x2F;research&#x2F;spudcell&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;www.science.org&#x2F;content&#x2F;article&#x2F;lab-created-spudcell-marks-major-step-toward-building-life-scratch\" rel=\"nofollow\">https:&#x2F;&#x2F;www.science.org&#x2F;content&#x2F;article&#x2F;lab-created-spudcell...</a><p><a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;interactive&#x2F;2026&#x2F;07&#x2F;01&#x2F;science&#x2F;spudcells-synthetic-cell.html?unlocked_article_code=1.uVA.6Rwg.20U5t0kLK6oU&amp;smid=nytcore-ios-share\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nytimes.com&#x2F;interactive&#x2F;2026&#x2F;07&#x2F;01&#x2F;science&#x2F;spudc...</a>",
+          "url": "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/",
+          "score": 954,
+          "comments": 302,
+          "owner": "defrost"
         },
         {
           "title": "Virginia bans sale of precise geolocation data",
@@ -452,36 +444,36 @@
           "owner": "toomuchtodo"
         },
         {
-          "title": "For first time, a cell built from scratch grows and divides",
-          "description": "<a href=\"https:&#x2F;&#x2F;biotic.org&#x2F;research&#x2F;spudcell&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;biotic.org&#x2F;research&#x2F;spudcell&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;www.science.org&#x2F;content&#x2F;article&#x2F;lab-created-spudcell-marks-major-step-toward-building-life-scratch\" rel=\"nofollow\">https:&#x2F;&#x2F;www.science.org&#x2F;content&#x2F;article&#x2F;lab-created-spudcell...</a><p><a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;interactive&#x2F;2026&#x2F;07&#x2F;01&#x2F;science&#x2F;spudcells-synthetic-cell.html?unlocked_article_code=1.uVA.6Rwg.20U5t0kLK6oU&amp;smid=nytcore-ios-share\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nytimes.com&#x2F;interactive&#x2F;2026&#x2F;07&#x2F;01&#x2F;science&#x2F;spudc...</a>",
-          "url": "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/",
-          "score": 952,
-          "comments": 302,
-          "owner": "defrost"
-        },
-        {
           "title": "The bottleneck might be the air in the room",
           "description": "",
           "url": "https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making/",
-          "score": 822,
+          "score": 823,
           "comments": 465,
           "owner": "gslin"
-        },
-        {
-          "title": "Physical disc production ending in Jan 2028 for new games on PlayStation",
-          "description": "",
-          "url": "https://blog.playstation.com/2026/07/01/physical-disc-production-ending-in-january-2028-for-new-games-releasing-on-playstation-consoles/",
-          "score": 788,
-          "comments": 794,
-          "owner": "Tiberium"
         },
         {
           "title": "OpenWrt One – Open Hardware Router",
           "description": "",
           "url": "https://openwrt.org/toh/openwrt/one",
-          "score": 769,
-          "comments": 287,
+          "score": 802,
+          "comments": 305,
           "owner": "peter_d_sherman"
+        },
+        {
+          "title": "Physical disc production ending in Jan 2028 for new games on PlayStation",
+          "description": "",
+          "url": "https://blog.playstation.com/2026/07/01/physical-disc-production-ending-in-january-2028-for-new-games-releasing-on-playstation-consoles/",
+          "score": 789,
+          "comments": 795,
+          "owner": "Tiberium"
+        },
+        {
+          "title": "CoMaps – FOSS Offline Maps",
+          "description": "",
+          "url": "https://www.comaps.app/",
+          "score": 760,
+          "comments": 199,
+          "owner": "basilikum"
         },
         {
           "title": "Spain Orders Blacklist of Palantir from Public and Private Companies",
@@ -492,28 +484,36 @@
           "owner": "mgh2"
         },
         {
+          "title": "Resetting Xbox",
+          "description": "",
+          "url": "https://news.xbox.com/en-us/2026/07/06/resetting-xbox/",
+          "score": 726,
+          "comments": 905,
+          "owner": "dijksterhuis"
+        },
+        {
           "title": "Most arguments are about ego, not ideas",
           "description": "",
           "url": "https://wangcong.org/2026-06-30-why-i-stopped-arguing-with-people.html",
-          "score": 724,
+          "score": 726,
           "comments": 559,
           "owner": "backlit4034"
         },
         {
-          "title": "CoMaps – FOSS Offline Maps",
+          "title": "StreetComplete: Fixing OpenStreetMap, one tiny quest at a time",
           "description": "",
-          "url": "https://www.comaps.app/",
-          "score": 716,
-          "comments": 174,
-          "owner": "basilikum"
+          "url": "https://streetcomplete.app/",
+          "score": 725,
+          "comments": 173,
+          "owner": "kls0e"
         },
         {
-          "title": "Resetting Xbox",
+          "title": "It's not about physical vs. digital games, it's about ownership",
           "description": "",
-          "url": "https://news.xbox.com/en-us/2026/07/06/resetting-xbox/",
-          "score": 708,
-          "comments": 849,
-          "owner": "dijksterhuis"
+          "url": "https://popcar.bearblog.dev/its-about-ownership/",
+          "score": 688,
+          "comments": 521,
+          "owner": "popcar2"
         },
         {
           "title": "Leaking YouTube creators' private videos",
@@ -527,31 +527,31 @@
           "title": "Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable",
           "description": "",
           "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main",
-          "score": 684,
-          "comments": 286,
+          "score": 687,
+          "comments": 287,
           "owner": "asronline"
-        },
-        {
-          "title": "It's not about physical vs. digital games, it's about ownership",
-          "description": "",
-          "url": "https://popcar.bearblog.dev/its-about-ownership/",
-          "score": 681,
-          "comments": 516,
-          "owner": "popcar2"
         },
         {
           "title": "PeerTube is a free, decentralized and federated video platform",
           "description": "",
           "url": "https://github.com/Chocobozzz/PeerTube",
-          "score": 678,
+          "score": 679,
           "comments": 354,
           "owner": "doener"
+        },
+        {
+          "title": "GLM 5.2 and the coming AI margin collapse",
+          "description": "",
+          "url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
+          "score": 668,
+          "comments": 451,
+          "owner": "martinald"
         },
         {
           "title": "Immich 3.0",
           "description": "",
           "url": "https://github.com/immich-app/immich/discussions/29439",
-          "score": 646,
+          "score": 647,
           "comments": 293,
           "owner": "hashier"
         }
@@ -1348,6 +1348,6 @@
   "weiboUpdatedAt": "2026-07-07T16:40:00Z",
   "journalsUpdatedAt": "2026-07-06T03:02:33Z",
   "journalsPeriod": "2026-05-22 ~ 2026-07-06",
-  "hackernewsUpdatedAt": "2026-07-07T16:17:43Z",
+  "hackernewsUpdatedAt": "2026-07-08T04:58:57Z",
   "githubUpdatedAt": "2026-07-06T05:02:26Z"
 }
