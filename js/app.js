@@ -738,12 +738,23 @@ function renderCompactList(source, activeIndex) {
     })
     .join("");
 
-  list.querySelectorAll(".compact-item").forEach((el) => {
+  list.querySelectorAll("button.compact-item").forEach((el) => {
     el.addEventListener("click", () => {
       const index = Number(el.dataset.index);
       document.getElementById("item-select").value = String(index);
       renderItemDetail(items[index], index);
       renderCompactList(source, index);
+    });
+  });
+
+  list.querySelectorAll("a.compact-item").forEach((el) => {
+    el.addEventListener("click", () => {
+      const index = Number(el.dataset.index);
+      document.getElementById("item-select").value = String(index);
+      renderItemDetail(items[index], index);
+      list.querySelectorAll(".compact-item").forEach((node) => {
+        node.classList.toggle("active", Number(node.dataset.index) === index);
+      });
     });
   });
 }
