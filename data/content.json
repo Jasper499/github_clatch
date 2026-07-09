@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T06:14:00Z",
+  "updatedAt": "2026-07-09T16:21:54Z",
   "periodDays": 7,
   "weekLabel": "2026-06-29 ~ 2026-07-06",
   "catalog": [
@@ -396,6 +396,14 @@
       "fetchedDate": "2026-07-09",
       "items": [
         {
+          "title": "Decoding the obfuscated bash script on a Uniqlo t-shirt",
+          "description": "",
+          "url": "https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/",
+          "score": 1422,
+          "comments": 227,
+          "owner": "speerer"
+        },
+        {
           "title": "Half-Baked Product",
           "description": "",
           "url": "https://weli.dev/blog/half-baked-product/",
@@ -404,18 +412,18 @@
           "owner": "weli"
         },
         {
-          "title": "Decoding the obfuscated bash script on a Uniqlo t-shirt",
+          "title": "John Deere owners will get the right to repair equipment under FTC settlement",
           "description": "",
-          "url": "https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/",
-          "score": 1343,
-          "comments": 211,
-          "owner": "speerer"
+          "url": "https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02",
+          "score": 1222,
+          "comments": 252,
+          "owner": "djoldman"
         },
         {
           "title": "Organic Maps",
           "description": "",
           "url": "https://organicmaps.app/",
-          "score": 1171,
+          "score": 1173,
           "comments": 363,
           "owner": "tosh"
         },
@@ -423,9 +431,17 @@
           "title": "OpenPrinter",
           "description": "",
           "url": "https://www.opentools.studio/",
-          "score": 1142,
-          "comments": 285,
+          "score": 1145,
+          "comments": 287,
           "owner": "bouh"
+        },
+        {
+          "title": "Chatto is now open source",
+          "description": "",
+          "url": "https://www.hmans.dev/blog/chatto-is-open-source",
+          "score": 1045,
+          "comments": 280,
+          "owner": "speckx"
         },
         {
           "title": "Virginia bans sale of precise geolocation data",
@@ -439,39 +455,31 @@
           "title": "Chat Control 1.0 and 2.0 Explained",
           "description": "",
           "url": "https://fightchatcontrol.eu/chat-control-overview",
-          "score": 884,
-          "comments": 335,
+          "score": 900,
+          "comments": 341,
           "owner": "gasull"
-        },
-        {
-          "title": "Chatto is now open source",
-          "description": "",
-          "url": "https://www.hmans.dev/blog/chatto-is-open-source",
-          "score": 867,
-          "comments": 226,
-          "owner": "speckx"
         },
         {
           "title": "The bottleneck might be the air in the room",
           "description": "",
           "url": "https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making/",
-          "score": 825,
-          "comments": 467,
+          "score": 826,
+          "comments": 468,
           "owner": "gslin"
         },
         {
           "title": "OpenWrt One – Open Hardware Router",
           "description": "",
           "url": "https://openwrt.org/toh/openwrt/one",
-          "score": 817,
-          "comments": 317,
+          "score": 819,
+          "comments": 318,
           "owner": "peter_d_sherman"
         },
         {
           "title": "StreetComplete: Fixing OpenStreetMap, one tiny quest at a time",
           "description": "",
           "url": "https://streetcomplete.app/",
-          "score": 811,
+          "score": 816,
           "comments": 206,
           "owner": "kls0e"
         },
@@ -479,40 +487,56 @@
           "title": "CoMaps – FOSS Offline Maps",
           "description": "",
           "url": "https://www.comaps.app/",
-          "score": 783,
-          "comments": 206,
+          "score": 786,
+          "comments": 210,
           "owner": "basilikum"
         },
         {
           "title": "Every new car sold in the European Union must include a driver monitoring camera",
           "description": "",
           "url": "https://allaboutcookies.org/eu-mandatory-distracted-driver-system",
-          "score": 766,
-          "comments": 1018,
+          "score": 774,
+          "comments": 1043,
           "owner": "nickslaughter02"
         },
         {
-          "title": "Spain Orders Blacklist of Palantir from Public and Private Companies",
-          "description": "",
-          "url": "https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv",
-          "score": 742,
-          "comments": 308,
-          "owner": "mgh2"
+          "title": "Grok 4.5",
+          "description": "<a href=\"https:&#x2F;&#x2F;cursor.com&#x2F;blog&#x2F;grok-4-5\" rel=\"nofollow\">https:&#x2F;&#x2F;cursor.com&#x2F;blog&#x2F;grok-4-5</a>",
+          "url": "https://x.ai/news/grok-4-5",
+          "score": 736,
+          "comments": 1354,
+          "owner": "BoumTAC"
         },
         {
           "title": "Resetting Xbox",
           "description": "",
           "url": "https://news.xbox.com/en-us/2026/07/06/resetting-xbox/",
           "score": 734,
-          "comments": 921,
+          "comments": 927,
           "owner": "dijksterhuis"
+        },
+        {
+          "title": "GPT‑Live",
+          "description": "",
+          "url": "https://openai.com/index/introducing-gpt-live/",
+          "score": 731,
+          "comments": 502,
+          "owner": "logickkk1"
+        },
+        {
+          "title": "Rewriting Bun in Rust",
+          "description": "",
+          "url": "https://bun.com/blog/bun-in-rust",
+          "score": 725,
+          "comments": 455,
+          "owner": "afturner"
         },
         {
           "title": "It's not about physical vs. digital games, it's about ownership",
           "description": "",
           "url": "https://popcar.bearblog.dev/its-about-ownership/",
-          "score": 698,
-          "comments": 524,
+          "score": 700,
+          "comments": 525,
           "owner": "popcar2"
         },
         {
@@ -520,40 +544,16 @@
           "description": "",
           "url": "https://javoriuski.com/post/youtube",
           "score": 691,
-          "comments": 395,
+          "comments": 396,
           "owner": "javxfps"
         },
         {
-          "title": "Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable",
+          "title": "TypeScript 7",
           "description": "",
-          "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main",
-          "score": 687,
-          "comments": 287,
-          "owner": "asronline"
-        },
-        {
-          "title": "GLM 5.2 and the coming AI margin collapse",
-          "description": "",
-          "url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
-          "score": 685,
-          "comments": 466,
-          "owner": "martinald"
-        },
-        {
-          "title": "PeerTube is a free, decentralized and federated video platform",
-          "description": "",
-          "url": "https://github.com/Chocobozzz/PeerTube",
-          "score": 680,
-          "comments": 354,
-          "owner": "doener"
-        },
-        {
-          "title": "GPT‑Live",
-          "description": "",
-          "url": "https://openai.com/index/introducing-gpt-live/",
-          "score": 660,
-          "comments": 429,
-          "owner": "logickkk1"
+          "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/",
+          "score": 690,
+          "comments": 280,
+          "owner": "DanRosenwasser"
         }
       ]
     },
@@ -1348,6 +1348,6 @@
   "weiboUpdatedAt": "2026-07-09T06:14:00Z",
   "journalsUpdatedAt": "2026-07-06T03:02:33Z",
   "journalsPeriod": "2026-05-22 ~ 2026-07-06",
-  "hackernewsUpdatedAt": "2026-07-09T05:55:19Z",
+  "hackernewsUpdatedAt": "2026-07-09T16:21:54Z",
   "githubUpdatedAt": "2026-07-06T05:02:26Z"
 }
