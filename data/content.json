@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T16:08:26Z",
+  "updatedAt": "2026-07-09T05:55:19Z",
   "periodDays": 7,
   "weekLabel": "2026-06-29 ~ 2026-07-06",
   "catalog": [
@@ -391,31 +391,31 @@
     },
     "hackernews": {
       "label": "Hacker News 热门",
-      "description": "近 7 天 HN 高互动讨论（2026-07-08，共 20 条）",
+      "description": "近 7 天 HN 高互动讨论（2026-07-09，共 20 条）",
       "updateFrequency": "twice-daily",
-      "fetchedDate": "2026-07-08",
+      "fetchedDate": "2026-07-09",
       "items": [
-        {
-          "title": "Android Developer Verification: Threat masquerading as protection",
-          "description": "",
-          "url": "https://f-droid.org/2026/07/01/adv-malware.html",
-          "score": 1730,
-          "comments": 742,
-          "owner": "drewfax"
-        },
         {
           "title": "Half-Baked Product",
           "description": "",
           "url": "https://weli.dev/blog/half-baked-product/",
-          "score": 1395,
-          "comments": 410,
+          "score": 1398,
+          "comments": 411,
           "owner": "weli"
+        },
+        {
+          "title": "Decoding the obfuscated bash script on a Uniqlo t-shirt",
+          "description": "",
+          "url": "https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/",
+          "score": 1343,
+          "comments": 211,
+          "owner": "speerer"
         },
         {
           "title": "Organic Maps",
           "description": "",
           "url": "https://organicmaps.app/",
-          "score": 1170,
+          "score": 1171,
           "comments": 363,
           "owner": "tosh"
         },
@@ -423,7 +423,7 @@
           "title": "OpenPrinter",
           "description": "",
           "url": "https://www.opentools.studio/",
-          "score": 1141,
+          "score": 1142,
           "comments": 285,
           "owner": "bouh"
         },
@@ -436,26 +436,26 @@
           "owner": "toomuchtodo"
         },
         {
-          "title": "Decoding the obfuscated bash script on a Uniqlo t-shirt",
-          "description": "",
-          "url": "https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/",
-          "score": 906,
-          "comments": 165,
-          "owner": "speerer"
-        },
-        {
           "title": "Chat Control 1.0 and 2.0 Explained",
           "description": "",
           "url": "https://fightchatcontrol.eu/chat-control-overview",
-          "score": 829,
-          "comments": 312,
+          "score": 884,
+          "comments": 335,
           "owner": "gasull"
+        },
+        {
+          "title": "Chatto is now open source",
+          "description": "",
+          "url": "https://www.hmans.dev/blog/chatto-is-open-source",
+          "score": 867,
+          "comments": 226,
+          "owner": "speckx"
         },
         {
           "title": "The bottleneck might be the air in the room",
           "description": "",
           "url": "https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making/",
-          "score": 823,
+          "score": 825,
           "comments": 467,
           "owner": "gslin"
         },
@@ -463,25 +463,33 @@
           "title": "OpenWrt One – Open Hardware Router",
           "description": "",
           "url": "https://openwrt.org/toh/openwrt/one",
-          "score": 813,
-          "comments": 315,
+          "score": 817,
+          "comments": 317,
           "owner": "peter_d_sherman"
         },
         {
           "title": "StreetComplete: Fixing OpenStreetMap, one tiny quest at a time",
           "description": "",
           "url": "https://streetcomplete.app/",
-          "score": 794,
-          "comments": 201,
+          "score": 811,
+          "comments": 206,
           "owner": "kls0e"
         },
         {
           "title": "CoMaps – FOSS Offline Maps",
           "description": "",
           "url": "https://www.comaps.app/",
-          "score": 778,
+          "score": 783,
           "comments": 206,
           "owner": "basilikum"
+        },
+        {
+          "title": "Every new car sold in the European Union must include a driver monitoring camera",
+          "description": "",
+          "url": "https://allaboutcookies.org/eu-mandatory-distracted-driver-system",
+          "score": 766,
+          "comments": 1018,
+          "owner": "nickslaughter02"
         },
         {
           "title": "Spain Orders Blacklist of Palantir from Public and Private Companies",
@@ -495,31 +503,23 @@
           "title": "Resetting Xbox",
           "description": "",
           "url": "https://news.xbox.com/en-us/2026/07/06/resetting-xbox/",
-          "score": 732,
-          "comments": 912,
+          "score": 734,
+          "comments": 921,
           "owner": "dijksterhuis"
-        },
-        {
-          "title": "Every new car sold in the European Union must include a driver monitoring camera",
-          "description": "",
-          "url": "https://allaboutcookies.org/eu-mandatory-distracted-driver-system",
-          "score": 722,
-          "comments": 935,
-          "owner": "nickslaughter02"
         },
         {
           "title": "It's not about physical vs. digital games, it's about ownership",
           "description": "",
           "url": "https://popcar.bearblog.dev/its-about-ownership/",
-          "score": 693,
-          "comments": 523,
+          "score": 698,
+          "comments": 524,
           "owner": "popcar2"
         },
         {
           "title": "Leaking YouTube creators' private videos",
           "description": "",
           "url": "https://javoriuski.com/post/youtube",
-          "score": 689,
+          "score": 691,
           "comments": 395,
           "owner": "javxfps"
         },
@@ -532,6 +532,14 @@
           "owner": "asronline"
         },
         {
+          "title": "GLM 5.2 and the coming AI margin collapse",
+          "description": "",
+          "url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
+          "score": 685,
+          "comments": 466,
+          "owner": "martinald"
+        },
+        {
           "title": "PeerTube is a free, decentralized and federated video platform",
           "description": "",
           "url": "https://github.com/Chocobozzz/PeerTube",
@@ -540,20 +548,12 @@
           "owner": "doener"
         },
         {
-          "title": "GLM 5.2 and the coming AI margin collapse",
+          "title": "GPT‑Live",
           "description": "",
-          "url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
-          "score": 677,
-          "comments": 463,
-          "owner": "martinald"
-        },
-        {
-          "title": "Immich 3.0",
-          "description": "",
-          "url": "https://github.com/immich-app/immich/discussions/29439",
-          "score": 648,
-          "comments": 293,
-          "owner": "hashier"
+          "url": "https://openai.com/index/introducing-gpt-live/",
+          "score": 660,
+          "comments": 429,
+          "owner": "logickkk1"
         }
       ]
     },
@@ -1348,6 +1348,6 @@
   "weiboUpdatedAt": "2026-07-08T16:08:26Z",
   "journalsUpdatedAt": "2026-07-06T03:02:33Z",
   "journalsPeriod": "2026-05-22 ~ 2026-07-06",
-  "hackernewsUpdatedAt": "2026-07-08T15:56:58Z",
+  "hackernewsUpdatedAt": "2026-07-09T05:55:19Z",
   "githubUpdatedAt": "2026-07-06T05:02:26Z"
 }
