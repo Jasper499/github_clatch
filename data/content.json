@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T16:35:55Z",
+  "updatedAt": "2026-07-10T05:54:23Z",
   "periodDays": 7,
   "weekLabel": "2026-06-29 ~ 2026-07-06",
   "catalog": [
@@ -391,23 +391,23 @@
     },
     "hackernews": {
       "label": "Hacker News 热门",
-      "description": "近 7 天 HN 高互动讨论（2026-07-09，共 20 条）",
+      "description": "近 7 天 HN 高互动讨论（2026-07-10，共 20 条）",
       "updateFrequency": "twice-daily",
-      "fetchedDate": "2026-07-09",
+      "fetchedDate": "2026-07-10",
       "items": [
         {
           "title": "Decoding the obfuscated bash script on a Uniqlo t-shirt",
           "description": "",
           "url": "https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/",
-          "score": 1422,
-          "comments": 227,
+          "score": 1459,
+          "comments": 229,
           "owner": "speerer"
         },
         {
           "title": "Half-Baked Product",
           "description": "",
           "url": "https://weli.dev/blog/half-baked-product/",
-          "score": 1398,
+          "score": 1401,
           "comments": 411,
           "owner": "weli"
         },
@@ -415,23 +415,39 @@
           "title": "John Deere owners will get the right to repair equipment under FTC settlement",
           "description": "",
           "url": "https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02",
-          "score": 1222,
-          "comments": 252,
+          "score": 1300,
+          "comments": 274,
           "owner": "djoldman"
         },
         {
           "title": "Organic Maps",
           "description": "",
           "url": "https://organicmaps.app/",
-          "score": 1173,
+          "score": 1175,
           "comments": 363,
           "owner": "tosh"
+        },
+        {
+          "title": "GPT-5.6",
+          "description": "<a href=\"https:&#x2F;&#x2F;deploymentsafety.openai.com&#x2F;gpt-5-6&#x2F;gpt-5-6.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;deploymentsafety.openai.com&#x2F;gpt-5-6&#x2F;gpt-5-6.pdf</a><p><a href=\"https:&#x2F;&#x2F;developers.openai.com&#x2F;api&#x2F;docs&#x2F;guides&#x2F;latest-model\" rel=\"nofollow\">https:&#x2F;&#x2F;developers.openai.com&#x2F;api&#x2F;docs&#x2F;guides&#x2F;latest-model</a><p><a href=\"https:&#x2F;&#x2F;x.com&#x2F;levie&#x2F;status&#x2F;2075287443411222628\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;levie&#x2F;status&#x2F;2075287443411222628</a>, <a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;levie&#x2F;status&#x2F;2075287443411222628\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;levie&#x2F;status&#x2F;2075287443411222628</a>",
+          "url": "https://openai.com/index/gpt-5-6/",
+          "score": 1169,
+          "comments": 830,
+          "owner": "logickkk1"
+        },
+        {
+          "title": "EU Parliament greenlights Chat Control 1.0",
+          "description": "",
+          "url": "https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/",
+          "score": 1160,
+          "comments": 561,
+          "owner": "rapnie"
         },
         {
           "title": "OpenPrinter",
           "description": "",
           "url": "https://www.opentools.studio/",
-          "score": 1145,
+          "score": 1147,
           "comments": 287,
           "owner": "bouh"
         },
@@ -439,47 +455,47 @@
           "title": "Chatto is now open source",
           "description": "",
           "url": "https://www.hmans.dev/blog/chatto-is-open-source",
-          "score": 1045,
-          "comments": 280,
+          "score": 1073,
+          "comments": 292,
           "owner": "speckx"
         },
         {
-          "title": "Virginia bans sale of precise geolocation data",
-          "description": "<a href=\"https:&#x2F;&#x2F;lis.virginia.gov&#x2F;bill-details&#x2F;20261&#x2F;SB338&#x2F;text&#x2F;SB338\" rel=\"nofollow\">https:&#x2F;&#x2F;lis.virginia.gov&#x2F;bill-details&#x2F;20261&#x2F;SB338&#x2F;text&#x2F;SB338</a>",
-          "url": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/virginia-bans-sale-of-geolocation-data",
-          "score": 955,
-          "comments": 138,
-          "owner": "toomuchtodo"
+          "title": "Show HN: 18 Words",
+          "description": "",
+          "url": "https://18words.com/",
+          "score": 908,
+          "comments": 299,
+          "owner": "pompomsheep"
         },
         {
           "title": "Chat Control 1.0 and 2.0 Explained",
           "description": "",
           "url": "https://fightchatcontrol.eu/chat-control-overview",
-          "score": 900,
-          "comments": 341,
+          "score": 906,
+          "comments": 346,
           "owner": "gasull"
         },
         {
           "title": "The bottleneck might be the air in the room",
           "description": "",
           "url": "https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making/",
-          "score": 826,
-          "comments": 468,
+          "score": 829,
+          "comments": 469,
           "owner": "gslin"
         },
         {
           "title": "OpenWrt One – Open Hardware Router",
           "description": "",
           "url": "https://openwrt.org/toh/openwrt/one",
-          "score": 819,
-          "comments": 318,
+          "score": 821,
+          "comments": 320,
           "owner": "peter_d_sherman"
         },
         {
           "title": "StreetComplete: Fixing OpenStreetMap, one tiny quest at a time",
           "description": "",
           "url": "https://streetcomplete.app/",
-          "score": 816,
+          "score": 818,
           "comments": 206,
           "owner": "kls0e"
         },
@@ -487,72 +503,56 @@
           "title": "CoMaps – FOSS Offline Maps",
           "description": "",
           "url": "https://www.comaps.app/",
-          "score": 786,
-          "comments": 210,
+          "score": 788,
+          "comments": 213,
           "owner": "basilikum"
         },
         {
           "title": "Every new car sold in the European Union must include a driver monitoring camera",
           "description": "",
           "url": "https://allaboutcookies.org/eu-mandatory-distracted-driver-system",
-          "score": 774,
-          "comments": 1043,
+          "score": 783,
+          "comments": 1050,
           "owner": "nickslaughter02"
         },
         {
           "title": "Grok 4.5",
           "description": "<a href=\"https:&#x2F;&#x2F;cursor.com&#x2F;blog&#x2F;grok-4-5\" rel=\"nofollow\">https:&#x2F;&#x2F;cursor.com&#x2F;blog&#x2F;grok-4-5</a>",
           "url": "https://x.ai/news/grok-4-5",
-          "score": 736,
-          "comments": 1354,
+          "score": 761,
+          "comments": 1419,
           "owner": "BoumTAC"
+        },
+        {
+          "title": "Rewriting Bun in Rust",
+          "description": "",
+          "url": "https://bun.com/blog/bun-in-rust",
+          "score": 753,
+          "comments": 497,
+          "owner": "afturner"
+        },
+        {
+          "title": "GPT‑Live",
+          "description": "",
+          "url": "https://openai.com/index/introducing-gpt-live/",
+          "score": 742,
+          "comments": 517,
+          "owner": "logickkk1"
         },
         {
           "title": "Resetting Xbox",
           "description": "",
           "url": "https://news.xbox.com/en-us/2026/07/06/resetting-xbox/",
           "score": 734,
-          "comments": 927,
+          "comments": 930,
           "owner": "dijksterhuis"
-        },
-        {
-          "title": "GPT‑Live",
-          "description": "",
-          "url": "https://openai.com/index/introducing-gpt-live/",
-          "score": 731,
-          "comments": 502,
-          "owner": "logickkk1"
-        },
-        {
-          "title": "Rewriting Bun in Rust",
-          "description": "",
-          "url": "https://bun.com/blog/bun-in-rust",
-          "score": 725,
-          "comments": 455,
-          "owner": "afturner"
-        },
-        {
-          "title": "It's not about physical vs. digital games, it's about ownership",
-          "description": "",
-          "url": "https://popcar.bearblog.dev/its-about-ownership/",
-          "score": 700,
-          "comments": 525,
-          "owner": "popcar2"
-        },
-        {
-          "title": "Leaking YouTube creators' private videos",
-          "description": "",
-          "url": "https://javoriuski.com/post/youtube",
-          "score": 691,
-          "comments": 396,
-          "owner": "javxfps"
         },
         {
           "title": "TypeScript 7",
           "description": "",
           "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/",
-          "score": 690,
-          "comments": 280,
+          "score": 703,
+          "comments": 294,
           "owner": "DanRosenwasser"
         }
       ]
@@ -1348,6 +1348,6 @@
   "weiboUpdatedAt": "2026-07-09T16:35:55Z",
   "journalsUpdatedAt": "2026-07-06T03:02:33Z",
   "journalsPeriod": "2026-05-22 ~ 2026-07-06",
-  "hackernewsUpdatedAt": "2026-07-09T16:21:54Z",
+  "hackernewsUpdatedAt": "2026-07-10T05:54:23Z",
   "githubUpdatedAt": "2026-07-06T05:02:26Z"
 }
