@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T16:32:00Z",
+  "updatedAt": "2026-07-11T04:53:40Z",
   "periodDays": 7,
   "weekLabel": "2026-06-29 ~ 2026-07-06",
   "catalog": [
@@ -391,47 +391,47 @@
     },
     "hackernews": {
       "label": "Hacker News 热门",
-      "description": "近 7 天 HN 高互动讨论（2026-07-10，共 20 条）",
+      "description": "近 7 天 HN 高互动讨论（2026-07-11，共 20 条）",
       "updateFrequency": "twice-daily",
-      "fetchedDate": "2026-07-10",
+      "fetchedDate": "2026-07-11",
       "items": [
         {
           "title": "EU Parliament greenlights Chat Control 1.0",
           "description": "",
           "url": "https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/",
-          "score": 1536,
-          "comments": 773,
+          "score": 1589,
+          "comments": 814,
           "owner": "rapnie"
-        },
-        {
-          "title": "Decoding the obfuscated bash script on a Uniqlo t-shirt",
-          "description": "",
-          "url": "https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/",
-          "score": 1472,
-          "comments": 231,
-          "owner": "speerer"
         },
         {
           "title": "GPT-5.6",
           "description": "<a href=\"https:&#x2F;&#x2F;deploymentsafety.openai.com&#x2F;gpt-5-6&#x2F;gpt-5-6.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;deploymentsafety.openai.com&#x2F;gpt-5-6&#x2F;gpt-5-6.pdf</a><p><a href=\"https:&#x2F;&#x2F;developers.openai.com&#x2F;api&#x2F;docs&#x2F;guides&#x2F;latest-model\" rel=\"nofollow\">https:&#x2F;&#x2F;developers.openai.com&#x2F;api&#x2F;docs&#x2F;guides&#x2F;latest-model</a><p><a href=\"https:&#x2F;&#x2F;x.com&#x2F;levie&#x2F;status&#x2F;2075287443411222628\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;levie&#x2F;status&#x2F;2075287443411222628</a>, <a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;levie&#x2F;status&#x2F;2075287443411222628\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;levie&#x2F;status&#x2F;2075287443411222628</a>",
           "url": "https://openai.com/index/gpt-5-6/",
-          "score": 1459,
-          "comments": 1024,
+          "score": 1521,
+          "comments": 1082,
           "owner": "logickkk1"
+        },
+        {
+          "title": "Decoding the obfuscated bash script on a Uniqlo t-shirt",
+          "description": "",
+          "url": "https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/",
+          "score": 1476,
+          "comments": 232,
+          "owner": "speerer"
         },
         {
           "title": "John Deere owners will get the right to repair equipment under FTC settlement",
           "description": "",
           "url": "https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02",
-          "score": 1345,
-          "comments": 292,
+          "score": 1368,
+          "comments": 298,
           "owner": "djoldman"
         },
         {
           "title": "Organic Maps",
           "description": "",
           "url": "https://organicmaps.app/",
-          "score": 1175,
+          "score": 1178,
           "comments": 363,
           "owner": "tosh"
         },
@@ -439,65 +439,81 @@
           "title": "OpenPrinter",
           "description": "",
           "url": "https://www.opentools.studio/",
-          "score": 1147,
+          "score": 1149,
           "comments": 287,
           "owner": "bouh"
-        },
-        {
-          "title": "Chatto is now open source",
-          "description": "",
-          "url": "https://www.hmans.dev/blog/chatto-is-open-source",
-          "score": 1077,
-          "comments": 299,
-          "owner": "speckx"
         },
         {
           "title": "Show HN: 18 Words",
           "description": "",
           "url": "https://18words.com/",
-          "score": 1063,
-          "comments": 339,
+          "score": 1091,
+          "comments": 348,
           "owner": "pompomsheep"
+        },
+        {
+          "title": "Chatto is now open source",
+          "description": "",
+          "url": "https://www.hmans.dev/blog/chatto-is-open-source",
+          "score": 1084,
+          "comments": 300,
+          "owner": "speckx"
         },
         {
           "title": "Chat Control 1.0 and 2.0 Explained",
           "description": "",
           "url": "https://fightchatcontrol.eu/chat-control-overview",
-          "score": 909,
-          "comments": 346,
+          "score": 913,
+          "comments": 348,
           "owner": "gasull"
+        },
+        {
+          "title": "Show HN: Getting GLM 5.2 running on my slow computer",
+          "description": "A few days ago I found myself trying out GLM 5.2 and was really positively impressed. The capabilities and security I was getting from this LLM are similar to those I&#x27;ve gotten from models like Claude or GPT, and this really surprised me.<p>But then I thought, &quot;I wonder how it would work on a normal computer like mine,&quot; and above all, &quot;I wonder if it would work without going into OOM on a computer like mine.&quot; So I started working with the help of agents to test this possibility.<p>I started converting the model to int4, understanding MTP usage, and if possible implementing DSA for long context. How it responds in int4 and whether the quality is maintained or not. Until I got to the point, on my computer with 32GB of RAM, I was able to communicate with GLM 5.2 with times that, of course, aren&#x27;t high in cold start, but even then, we&#x27;re talking about 0.1 tok&#x2F;s, but that wasn&#x27;t important to me. The important thing was the journey to reach this goal. I just wanted it to work at all costs, even slowly.<p>So I created Colibrì, which was born from a very simple idea, to be honest, but tested in every way, where a 744B Mixture-of-Experts model activates only ~40B parameters per token—and only ~11 GB of those change from token to token (the routed experts). So:<p>The dense part (attention, shared experts, embeddings—~17B params) stays resident in RAM at int4 (~9.9 GB); The 21,504 routed experts (75 MoE layers × 256 experts + the MTP head, ~19 MB each at int4) live on disk (~370 GB) and are streamed on demand, with a per-layer LRU cache, an optional pinned hot-store, and the OS page cache as a free L2.<p>The engine is a single C file (c&#x2F;glm.c, ~1,300 lines) plus small headers. No BLAS, no Python at runtime, no GPU.No GPU or serious hardware because I don&#x27;t have that hardware so I can&#x27;t test it on hardware that is more powerful than my computer.Colibrì is a one-person project, written and tested entirely on a 12-core laptop with 25 GB of RAM — the numbers above are the ceiling of what I can measure at home.<p>Any feedback is welcome! (and if anyone wanted to participate in the project I would be delighted)<p>Repo: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;JustVugg&#x2F;colibri\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;JustVugg&#x2F;colibri</a>",
+          "url": "https://github.com/JustVugg/colibri",
+          "score": 838,
+          "comments": 206,
+          "owner": "vforno"
         },
         {
           "title": "The bottleneck might be the air in the room",
           "description": "",
           "url": "https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making/",
-          "score": 829,
-          "comments": 469,
+          "score": 831,
+          "comments": 468,
           "owner": "gslin"
         },
         {
           "title": "OpenWrt One – Open Hardware Router",
           "description": "",
           "url": "https://openwrt.org/toh/openwrt/one",
-          "score": 824,
+          "score": 825,
           "comments": 323,
           "owner": "peter_d_sherman"
+        },
+        {
+          "title": "Train sim created by just one person is being called the best ever made",
+          "description": "<a href=\"https:&#x2F;&#x2F;store.steampowered.com&#x2F;app&#x2F;4630570&#x2F;RUNNING_TRAIN&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;store.steampowered.com&#x2F;app&#x2F;4630570&#x2F;RUNNING_TRAIN&#x2F;</a>",
+          "url": "https://kotaku.com/a-train-sim-created-by-just-one-person-is-being-called-the-best-ever-made-2000699429",
+          "score": 823,
+          "comments": 338,
+          "owner": "oumua_don17"
         },
         {
           "title": "StreetComplete: Fixing OpenStreetMap, one tiny quest at a time",
           "description": "",
           "url": "https://streetcomplete.app/",
-          "score": 819,
+          "score": 821,
           "comments": 206,
           "owner": "kls0e"
         },
         {
-          "title": "Show HN: Getting GLM 5.2 running on my slow computer",
-          "description": "A few days ago I found myself trying out GLM 5.2 and was really positively impressed. The capabilities and security I was getting from this LLM are similar to those I&#x27;ve gotten from models like Claude or GPT, and this really surprised me.<p>But then I thought, &quot;I wonder how it would work on a normal computer like mine,&quot; and above all, &quot;I wonder if it would work without going into OOM on a computer like mine.&quot; So I started working with the help of agents to test this possibility.<p>I started converting the model to int4, understanding MTP usage, and if possible implementing DSA for long context. How it responds in int4 and whether the quality is maintained or not. Until I got to the point, on my computer with 32GB of RAM, I was able to communicate with GLM 5.2 with times that, of course, aren&#x27;t high in cold start, but even then, we&#x27;re talking about 0.1 tok&#x2F;s, but that wasn&#x27;t important to me. The important thing was the journey to reach this goal. I just wanted it to work at all costs, even slowly.<p>So I created Colibrì, which was born from a very simple idea, to be honest, but tested in every way, where a 744B Mixture-of-Experts model activates only ~40B parameters per token—and only ~11 GB of those change from token to token (the routed experts). So:<p>The dense part (attention, shared experts, embeddings—~17B params) stays resident in RAM at int4 (~9.9 GB); The 21,504 routed experts (75 MoE layers × 256 experts + the MTP head, ~19 MB each at int4) live on disk (~370 GB) and are streamed on demand, with a per-layer LRU cache, an optional pinned hot-store, and the OS page cache as a free L2.<p>The engine is a single C file (c&#x2F;glm.c, ~1,300 lines) plus small headers. No BLAS, no Python at runtime, no GPU.No GPU or serious hardware because I don&#x27;t have that hardware so I can&#x27;t test it on hardware that is more powerful than my computer.Colibrì is a one-person project, written and tested entirely on a 12-core laptop with 25 GB of RAM — the numbers above are the ceiling of what I can measure at home.<p>Any feedback is welcome! (and if anyone wanted to participate in the project I would be delighted)<p>Repo: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;JustVugg&#x2F;colibri\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;JustVugg&#x2F;colibri</a>",
-          "url": "https://github.com/JustVugg/colibri",
-          "score": 800,
-          "comments": 198,
-          "owner": "vforno"
+          "title": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
+          "description": "",
+          "url": "https://github.com/malisper/pgrust",
+          "score": 789,
+          "comments": 707,
+          "owner": "SweetSoftPillow"
         },
         {
           "title": "CoMaps – FOSS Offline Maps",
@@ -511,49 +527,33 @@
           "title": "Every new car sold in the European Union must include a driver monitoring camera",
           "description": "",
           "url": "https://allaboutcookies.org/eu-mandatory-distracted-driver-system",
-          "score": 785,
-          "comments": 1058,
+          "score": 787,
+          "comments": 1059,
           "owner": "nickslaughter02"
-        },
-        {
-          "title": "Train sim created by just one person is being called the best ever made",
-          "description": "<a href=\"https:&#x2F;&#x2F;store.steampowered.com&#x2F;app&#x2F;4630570&#x2F;RUNNING_TRAIN&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;store.steampowered.com&#x2F;app&#x2F;4630570&#x2F;RUNNING_TRAIN&#x2F;</a>",
-          "url": "https://kotaku.com/a-train-sim-created-by-just-one-person-is-being-called-the-best-ever-made-2000699429",
-          "score": 768,
-          "comments": 317,
-          "owner": "oumua_don17"
         },
         {
           "title": "Grok 4.5",
           "description": "<a href=\"https:&#x2F;&#x2F;cursor.com&#x2F;blog&#x2F;grok-4-5\" rel=\"nofollow\">https:&#x2F;&#x2F;cursor.com&#x2F;blog&#x2F;grok-4-5</a>",
           "url": "https://x.ai/news/grok-4-5",
-          "score": 767,
-          "comments": 1454,
+          "score": 769,
+          "comments": 1468,
           "owner": "BoumTAC"
-        },
-        {
-          "title": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
-          "description": "",
-          "url": "https://github.com/malisper/pgrust",
-          "score": 763,
-          "comments": 661,
-          "owner": "SweetSoftPillow"
         },
         {
           "title": "Rewriting Bun in Rust",
           "description": "",
           "url": "https://bun.com/blog/bun-in-rust",
-          "score": 760,
-          "comments": 512,
+          "score": 769,
+          "comments": 522,
           "owner": "afturner"
         },
         {
-          "title": "GPT‑Live",
+          "title": "My thoughts on the Bun Rust rewrite",
           "description": "",
-          "url": "https://openai.com/index/introducing-gpt-live/",
-          "score": 745,
-          "comments": 520,
-          "owner": "logickkk1"
+          "url": "https://andrewkelley.me/post/my-thoughts-bun-rust-rewrite.html",
+          "score": 767,
+          "comments": 676,
+          "owner": "kristoff_it"
         }
       ]
     },
@@ -1348,6 +1348,6 @@
   "weiboUpdatedAt": "2026-07-10T16:32:00Z",
   "journalsUpdatedAt": "2026-07-06T03:02:33Z",
   "journalsPeriod": "2026-05-22 ~ 2026-07-06",
-  "hackernewsUpdatedAt": "2026-07-10T16:13:57Z",
+  "hackernewsUpdatedAt": "2026-07-11T04:53:40Z",
   "githubUpdatedAt": "2026-07-06T05:02:26Z"
 }
