@@ -1701,6 +1701,166 @@ footer a:hover {
   font-size: 0.84rem;
 }
 
+/* ── GitHub README panel ── */
+
+.readme-panel {
+  margin-top: 1rem;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.02);
+  overflow: hidden;
+}
+
+.readme-summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  user-select: none;
+  list-style: none;
+  font-family: var(--font-mono);
+  font-size: 0.84rem;
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.03);
+  border-bottom: 1px solid transparent;
+}
+
+.readme-panel[open] .readme-summary {
+  border-bottom-color: var(--border);
+}
+
+.readme-summary::-webkit-details-marker {
+  display: none;
+}
+
+.readme-summary-title {
+  font-weight: 600;
+  color: var(--card-accent, var(--platform-github));
+}
+
+.readme-summary-hint {
+  font-size: 0.72rem;
+  color: var(--muted);
+}
+
+.readme-truncated,
+.readme-empty {
+  margin: 0.75rem 1rem 0;
+}
+
+.readme-content {
+  max-height: min(70vh, 720px);
+  overflow: auto;
+  padding: 1rem 1.1rem 1.15rem;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-strong) transparent;
+}
+
+.readme-fallback {
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+}
+
+.markdown-body {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: var(--text);
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4 {
+  margin: 1.1rem 0 0.55rem;
+  line-height: 1.35;
+  font-weight: 600;
+}
+
+.markdown-body h1 { font-size: 1.35rem; border-bottom: 1px solid var(--border); padding-bottom: 0.35rem; }
+.markdown-body h2 { font-size: 1.15rem; border-bottom: 1px solid var(--border); padding-bottom: 0.25rem; }
+.markdown-body h3 { font-size: 1rem; }
+.markdown-body p,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body pre,
+.markdown-body table,
+.markdown-body blockquote {
+  margin: 0.55rem 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 1.35rem;
+}
+
+.markdown-body a {
+  color: var(--card-accent, var(--accent));
+  text-decoration: none;
+}
+
+.markdown-body a:hover {
+  text-decoration: underline;
+}
+
+.markdown-body code {
+  font-family: var(--font-mono);
+  font-size: 0.82em;
+  padding: 0.12rem 0.35rem;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--border);
+}
+
+.markdown-body pre {
+  padding: 0.85rem 1rem;
+  border-radius: var(--radius-sm);
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  overflow: auto;
+}
+
+.markdown-body pre code {
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+.markdown-body blockquote {
+  padding: 0.45rem 0.8rem;
+  border-left: 3px solid var(--card-accent, var(--platform-github-border));
+  color: var(--muted);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.markdown-body img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius-sm);
+}
+
+.markdown-body table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.84rem;
+}
+
+.markdown-body th,
+.markdown-body td {
+  border: 1px solid var(--border);
+  padding: 0.45rem 0.55rem;
+}
+
+.markdown-body hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 1rem 0;
+}
+
 /* ── Mobile subnav chips ── */
 
 .mobile-subnav {

@@ -239,6 +239,89 @@ function isJournalSource(sourceKey) {
   return JOURNAL_KEYS.has(sourceKey);
 }
 
+function isGithubSource(sourceKey) {
+  return sourceKey === "github" || sourceKey === "githubActive";
+}
+
+function fixGithubRelativeUrls(html, fullName) {
+  const parts = (fullName || "").split("/");
+  if (parts.length < 2) return html;
+
+  const [owner, repo] = parts;
+  const rawBase = `https://raw.githubusercontent.com/${owner}/${repo}/HEAD/`;
+  const wrap = document.createElement("div");
+  wrap.innerHTML = html;
+
+  wrap.querySelectorAll("img[src]").forEach((img) => {
+    const src = img.getAttribute("src");
+    if (src && !/^https?:\/\//i.test(src) && !src.startsWith("data:")) {
+      img.src = new URL(src.replace(/^\.\//, ""), rawBase).href;
+    }
+  });
+
+  wrap.querySelectorAll("a[href]").forEach((link) => {
+    const href = link.getAttribute("href");
+    if (href && !/^https?:\/\//i.test(href) && !href.startsWith("#") && !href.startsWith("mailto:")) {
+      link.href = new URL(href.replace(/^\.\//, ""), rawBase).href;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+    }
+  });
+
+  return wrap.innerHTML;
+}
+
+function renderGithubMarkdown(markdown, fullName) {
+  if (typeof marked === "undefined") {
+    return `<pre class="readme-fallback">${escapeHtml(markdown)}</pre>`;
+  }
+
+  marked.setOptions({ gfm: true, breaks: false });
+  let html = marked.parse(markdown);
+  html = fixGithubRelativeUrls(html, fullName);
+
+  if (typeof DOMPurify !== "undefined") {
+    html = DOMPurify.sanitize(html, {
+      ADD_ATTR: ["target", "rel", "align"],
+      ADD_TAGS: ["details", "summary"],
+    });
+  }
+
+  return html;
+}
+
+function renderGithubReadmeBlock(item) {
+  const fileName = item.readmeFile || "README.md";
+
+  if (!item.readme) {
+    return `
+      <details class="readme-panel">
+        <summary class="readme-summary">
+          <span class="readme-summary-title">${escapeHtml(fileName)}</span>
+          <span class="readme-summary-hint">暂无内容</span>
+        </summary>
+        <p class="detail-desc muted readme-empty">该仓库未提供 README，或抓取时未能获取。</p>
+      </details>
+    `;
+  }
+
+  const html = renderGithubMarkdown(item.readme, item.title);
+  const truncatedNote = item.readmeTruncated
+    ? `<p class="detail-note readme-truncated">README 较长，已截断显示前 80KB，完整内容请访问仓库。</p>`
+    : "";
+
+  return `
+    <details class="readme-panel" open>
+      <summary class="readme-summary">
+        <span class="readme-summary-title">${escapeHtml(fileName)} 完整内容</span>
+        <span class="readme-summary-hint">点击折叠 / 展开</span>
+      </summary>
+      ${truncatedNote}
+      <div class="readme-content markdown-body">${html}</div>
+    </details>
+  `;
+}
+
 function initThemeToggle() {
   const btn = document.getElementById("theme-toggle");
   if (!btn) return;
@@ -584,7 +667,10 @@ function itemSummary(item, index) {
     const date = item.published ? ` · ${item.published}` : "";
     return `${rank} [${item.journal}]${date} ${item.title}`;
   }
-  if (item.stars != null) return `${rank} ★${Number(item.stars).toLocaleString()} · ${item.title}`;
+  if (item.stars != null) {
+    const readmeTag = item.readme && isGithubSource(activeSourceKey) ? " · README" : "";
+    return `${rank} ★${Number(item.stars).toLocaleString()}${readmeTag} · ${item.title}`;
+  }
   if (item.score != null) return `${rank} ▲${Number(item.score).toLocaleString()} · ${item.title}`;
   return `${rank} ${item.title}`;
 }
@@ -624,6 +710,11 @@ function renderItemDetail(item, index) {
   const platform = getPlatformMeta(activeSourceKey);
   if (isJournalSource(activeSourceKey)) {
     renderJournalDetail(item, index, platform);
+    return;
+  }
+
+  if (isGithubSource(activeSourceKey)) {
+    renderGithubDetail(item, index, platform);
     return;
   }
 
@@ -684,6 +775,49 @@ function renderItemDetail(item, index) {
       <div class="detail-meta">${meta}</div>
       <div class="detail-actions">${actionLinks}</div>
       ${pdfNote}
+    </div>
+  `;
+}
+
+function renderGithubDetail(item, index, platform) {
+  const panel = document.getElementById("item-detail");
+  panel.className = `item-detail ${platform.theme}`;
+
+  const title = item.url
+    ? `<a href="${item.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>`
+    : escapeHtml(item.title);
+
+  const desc = item.description
+    ? `<p class="detail-desc">${escapeHtml(item.description)}</p>`
+    : `<p class="detail-desc muted">暂无描述</p>`;
+
+  const rankLabel = String(index + 1).padStart(2, "0");
+  const readmeBlock = renderGithubReadmeBlock(item);
+
+  const meta = [
+    metaPill(platform.name, "accent"),
+    item.stars != null ? metaPill(`★ ${Number(item.stars).toLocaleString()}`, "star") : "",
+    item.owner ? metaPill(`@${item.owner}`) : "",
+    item.language ? metaPill(item.language, "lang") : "",
+    item.readme ? metaPill("README 已收录", "success") : metaPill("无 README", "default"),
+  ]
+    .filter(Boolean)
+    .join("");
+
+  panel.innerHTML = `
+    <div class="detail-body">
+      <div class="detail-header">
+        <span class="detail-rank-badge">#${rankLabel}</span>
+        ${metaPill(platform.name, "accent")}
+      </div>
+      <h2 class="detail-title">${title}</h2>
+      <div class="detail-divider"></div>
+      ${desc}
+      <div class="detail-meta">${meta}</div>
+      <div class="detail-actions">
+        ${item.url ? `<a class="btn btn-primary" href="${item.url}" target="_blank" rel="noopener noreferrer">打开仓库 →</a>` : ""}
+      </div>
+      ${readmeBlock}
     </div>
   `;
 }

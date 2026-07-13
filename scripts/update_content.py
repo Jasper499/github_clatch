@@ -4,84 +4,25 @@
 from __future__ import annotations
 
 import json
-import os
 import sys
-import urllib.error
-import urllib.parse
-import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from fetch_github import PERIOD_DAYS, fetch_github_repos
 from history import save_sources_from_content
 
-PERIOD_DAYS = 7
 ROOT = Path(__file__).resolve().parent.parent
 OUTPUT = ROOT / "data" / "content.json"
-USER_AGENT = "clatch-weekly-updater/1.0"
 
 
 def _utc_now_iso() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
 
-def http_get(url: str, headers: dict | None = None) -> dict | list:
-    req_headers = {"Accept": "application/json", "User-Agent": USER_AGENT}
-    if headers:
-        req_headers.update(headers)
-
-    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
-    if token and "api.github.com" in url:
-        req_headers["Authorization"] = f"Bearer {token}"
-
-    req = urllib.request.Request(url, headers=req_headers)
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return json.loads(resp.read().decode("utf-8"))
-
-
 def iso_date(days_ago: int) -> str:
     dt = datetime.now(timezone.utc) - timedelta(days=days_ago)
     return dt.strftime("%Y-%m-%d")
-
-
-def fetch_github_repos(query_suffix: str, limit: int = 20) -> list[dict]:
-    since = iso_date(PERIOD_DAYS)
-    q = f"{query_suffix} stars:>10"
-    params = urllib.parse.urlencode(
-        {
-            "q": q,
-            "sort": "stars",
-            "order": "desc",
-            "per_page": str(min(limit, 30)),
-        }
-    )
-    url = f"https://api.github.com/search/repositories?{params}"
-
-    try:
-        data = http_get(url)
-    except urllib.error.HTTPError as exc:
-        body = exc.read().decode("utf-8", errors="replace")
-        print(f"GitHub API error ({exc.code}): {body}", file=sys.stderr)
-        if exc.code == 403 and "rate limit" in body.lower():
-            print(
-                "提示：设置 GITHUB_TOKEN 环境变量可提高 API 限额。",
-                file=sys.stderr,
-            )
-        return []
-
-    items = []
-    for repo in data.get("items", [])[:limit]:
-        items.append(
-            {
-                "title": repo.get("full_name") or repo.get("name", "unknown"),
-                "description": repo.get("description") or "",
-                "url": repo.get("html_url", ""),
-                "stars": repo.get("stargazers_count", 0),
-                "language": repo.get("language") or "",
-                "owner": (repo.get("owner") or {}).get("login", ""),
-            }
-        )
-    return items
 
 
 def _load_content() -> dict:
@@ -118,24 +59,24 @@ def _ensure_github_catalog(content: dict) -> None:
 
 def build_github_sources() -> dict:
     since = iso_date(PERIOD_DAYS)
-    new_repos = fetch_github_repos(f"created:>{since}")
-    active_repos = fetch_github_repos(f"pushed:>{since}")
+    new_repos = fetch_github_repos(f"created:>{since}", since)
+    active_repos = fetch_github_repos(f"pushed:>{since}", since)
     return {
         "github": {
             "label": "GitHub 热门新项目",
-            "description": f"近 {PERIOD_DAYS} 天内创建、按 Star 数排序的开源项目",
+            "description": f"近 {PERIOD_DAYS} 天内创建、按 Star 数排序的开源项目（含 README）",
             "items": new_repos,
         },
         "githubActive": {
             "label": "GitHub 活跃项目",
-            "description": f"近 {PERIOD_DAYS} 天内有推送、按 Star 数排序的热门仓库",
+            "description": f"近 {PERIOD_DAYS} 天内有推送、按 Star 数排序的热门仓库（含 README）",
             "items": active_repos,
         },
     }
 
 
 def main() -> int:
-    print(f"正在抓取近 {PERIOD_DAYS} 天 GitHub 热门项目…")
+    print(f"正在抓取近 {PERIOD_DAYS} 天 GitHub 热门项目及 README…")
     since = iso_date(PERIOD_DAYS)
     today = iso_date(0)
     github_sources = build_github_sources()
@@ -160,9 +101,13 @@ def main() -> int:
     save_sources_from_content(content, list(github_sources.keys()))
 
     counts = {k: len(v["items"]) for k, v in github_sources.items()}
+    readme_counts = {
+        k: sum(1 for item in v["items"] if item.get("readme"))
+        for k, v in github_sources.items()
+    }
     print(f"已写入 {OUTPUT}")
-    print(f"  GitHub 新项目: {counts['github']} 条")
-    print(f"  GitHub 活跃:   {counts['githubActive']} 条")
+    print(f"  GitHub 新项目: {counts['github']} 条，README {readme_counts['github']} 篇")
+    print(f"  GitHub 活跃:   {counts['githubActive']} 条，README {readme_counts['githubActive']} 篇")
     print(f"  更新时间:      {content['githubUpdatedAt']}")
     return 0
 
