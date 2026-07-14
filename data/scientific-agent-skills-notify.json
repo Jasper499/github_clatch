@@ -1,0 +1,44 @@
+{
+  "changed": true,
+  "fetchedAt": "2026-07-14T02:23:53Z",
+  "previousSha": "",
+  "latestSha": "fc0b9f692459ea7d9e5a5c64948a5878e1bce274",
+  "repo": "K-Dense-AI/scientific-agent-skills",
+  "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "stars": 0,
+  "skillCount": 134,
+  "latestCommit": {
+    "title": "Enhance Research Lookup Skill: Update documentation and improve backe…",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/fc0b9f692459ea7d9e5a5c64948a5878e1bce274",
+    "sha": "fc0b9f6",
+    "published": "2026-07-14"
+  },
+  "siteUrl": "https://jasper499.github.io/github_clatch/",
+  "recentCommits": [
+    {
+      "title": "Enhance Research Lookup Skill: Update documentation and improve backe…",
+      "sha": "fc0b9f6",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/fc0b9f692459ea7d9e5a5c64948a5878e1bce274"
+    },
+    {
+      "title": "Delete redundant files",
+      "sha": "cd77d3f",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/cd77d3f3010697815e23cc66be37366c867be640"
+    },
+    {
+      "title": "Update parallel-web skill",
+      "sha": "0433033",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/04330336f86d7b39930bd09a8d10e1b47d4d927b"
+    },
+    {
+      "title": "Merge pull request #209 from dnaerys/onekgpd-update",
+      "sha": "708d419",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/708d419d71d04681d799b44027fa70fc82d57399"
+    },
+    {
+      "title": "Merge pull request #155 from Bortlesboat/codex/add-research-grants-re…",
+      "sha": "dbd9d0d",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/dbd9d0dd4d447a190787786dd36cf75586cfcc47"
+    }
+  ]
+}

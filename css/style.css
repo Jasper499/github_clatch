@@ -48,6 +48,10 @@
   --platform-nature-soft: rgba(45, 212, 191, 0.14);
   --platform-nature-border: rgba(45, 212, 191, 0.35);
 
+  --platform-scientific: #38bdf8;
+  --platform-scientific-soft: rgba(56, 189, 248, 0.14);
+  --platform-scientific-border: rgba(56, 189, 248, 0.35);
+
   --platform-week: #56d364;
   --platform-week-soft: rgba(86, 211, 100, 0.12);
 }
@@ -80,6 +84,12 @@ html[data-platform="natureSkills"] {
   --ambient-1: rgba(45, 212, 191, 0.22);
   --ambient-2: rgba(45, 212, 191, 0.1);
   --ambient-3: rgba(13, 148, 136, 0.06);
+}
+
+html[data-platform="scientificSkills"] {
+  --ambient-1: rgba(56, 189, 248, 0.22);
+  --ambient-2: rgba(56, 189, 248, 0.1);
+  --ambient-3: rgba(2, 132, 199, 0.06);
 }
 
 [data-theme="light"] {
@@ -123,6 +133,10 @@ html[data-platform="natureSkills"] {
   --platform-nature-soft: rgba(13, 148, 136, 0.1);
   --platform-nature-border: rgba(13, 148, 136, 0.28);
 
+  --platform-scientific: #0284c7;
+  --platform-scientific-soft: rgba(2, 132, 199, 0.1);
+  --platform-scientific-border: rgba(2, 132, 199, 0.28);
+
   --platform-week: #16a34a;
   --platform-week-soft: rgba(22, 163, 74, 0.1);
 }
@@ -150,6 +164,11 @@ html[data-theme="light"][data-platform="journals"] {
 html[data-theme="light"][data-platform="natureSkills"] {
   --ambient-1: rgba(13, 148, 136, 0.12);
   --ambient-2: rgba(13, 148, 136, 0.06);
+}
+
+html[data-theme="light"][data-platform="scientificSkills"] {
+  --ambient-1: rgba(2, 132, 199, 0.12);
+  --ambient-2: rgba(2, 132, 199, 0.06);
 }
 
 [data-theme="light"] body::before {
@@ -424,7 +443,7 @@ body::after {
 
 .meta-sync-grid {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.55rem;
   margin-top: 1rem;
   max-width: 960px;
@@ -472,6 +491,11 @@ body::after {
 .meta-sync-item.theme-nature.active {
   border-color: var(--platform-nature-border);
   background: var(--platform-nature-soft);
+}
+
+.meta-sync-item.theme-scientific.active {
+  border-color: var(--platform-scientific-border);
+  background: var(--platform-scientific-soft);
 }
 
 .meta-sync-label {
@@ -680,6 +704,12 @@ body::after {
   border: 1px solid var(--platform-nature-border);
 }
 
+.tree-node.theme-scientific .icon-tree {
+  background: var(--platform-scientific-soft);
+  color: var(--platform-scientific);
+  border: 1px solid var(--platform-scientific-border);
+}
+
 .tree-root .icon-tree {
   background: var(--platform-week-soft);
   color: var(--platform-week);
@@ -769,6 +799,12 @@ body::after {
   --leaf-accent: var(--platform-nature);
 }
 
+.theme-scientific .tree-leaf.active {
+  background: var(--platform-scientific-soft);
+  border-color: var(--platform-scientific-border);
+  --leaf-accent: var(--platform-scientific);
+}
+
 .leaf-count {
   font-size: 0.72rem;
   padding: 0.12rem 0.42rem;
@@ -831,6 +867,12 @@ body::after {
   --panel-glow: var(--platform-nature-soft);
   border-color: var(--platform-nature-border);
   box-shadow: var(--shadow-soft), 0 0 0 1px var(--platform-nature-soft), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.content-panel.theme-scientific {
+  --panel-glow: var(--platform-scientific-soft);
+  border-color: var(--platform-scientific-border);
+  box-shadow: var(--shadow-soft), 0 0 0 1px var(--platform-scientific-soft), inset 0 1px 0 rgba(255, 255, 255, 0.05);
 }
 
 .breadcrumb,
@@ -897,6 +939,12 @@ body::after {
   --crumb-accent: var(--platform-nature);
   --crumb-accent-soft: var(--platform-nature-soft);
   --crumb-accent-border: var(--platform-nature-border);
+}
+
+.content-panel.theme-scientific .crumb-current {
+  --crumb-accent: var(--platform-scientific);
+  --crumb-accent-soft: var(--platform-scientific-soft);
+  --crumb-accent-border: var(--platform-scientific-border);
 }
 
 .crumb-sep {
@@ -994,6 +1042,11 @@ body::after {
   --focus-soft: var(--platform-nature-soft);
 }
 
+.content-panel.theme-scientific .select:focus {
+  --focus-color: var(--platform-scientific-border);
+  --focus-soft: var(--platform-scientific-soft);
+}
+
 .select:disabled {
   opacity: 0.6;
   cursor: not-allowed;
@@ -1014,6 +1067,7 @@ body::after {
 .content-panel.theme-weibo .section-desc { --desc-accent: var(--platform-weibo); }
 .content-panel.theme-journals .section-desc { --desc-accent: var(--platform-journals); }
 .content-panel.theme-nature .section-desc { --desc-accent: var(--platform-nature); }
+.content-panel.theme-scientific .section-desc { --desc-accent: var(--platform-scientific); }
 
 /* ── Detail card ── */
 
@@ -1042,6 +1096,7 @@ body::after {
 .item-detail.theme-weibo { --card-accent: var(--platform-weibo); }
 .item-detail.theme-journals { --card-accent: var(--platform-journals); }
 .item-detail.theme-nature { --card-accent: var(--platform-nature); }
+.item-detail.theme-scientific { --card-accent: var(--platform-scientific); }
 
 .detail-body {
   padding: 1.25rem 1.35rem 1.35rem;
@@ -1093,6 +1148,11 @@ body::after {
 .item-detail.theme-nature {
   --card-accent-soft: var(--platform-nature-soft);
   --card-accent-border: var(--platform-nature-border);
+}
+
+.item-detail.theme-scientific {
+  --card-accent-soft: var(--platform-scientific-soft);
+  --card-accent-border: var(--platform-scientific-border);
 }
 
 .detail-title {
@@ -1358,6 +1418,11 @@ a.compact-item:hover .icon-compact {
   --list-active-accent: var(--platform-nature);
 }
 
+.content-panel.theme-scientific {
+  --list-active-bg: var(--platform-scientific-soft);
+  --list-active-accent: var(--platform-scientific);
+}
+
 .compact-rank {
   color: var(--muted);
   font-size: 0.78rem;
@@ -1540,6 +1605,12 @@ a.compact-item:hover .icon-compact {
   background: var(--platform-nature-soft);
   border-color: var(--platform-nature-border);
   color: var(--platform-nature);
+}
+
+.mobile-tab.theme-scientific.active {
+  background: var(--platform-scientific-soft);
+  border-color: var(--platform-scientific-border);
+  color: var(--platform-scientific);
 }
 
 .error-state {
@@ -1985,6 +2056,12 @@ footer a:hover {
   color: var(--platform-nature);
   background: var(--platform-nature-soft);
   border-color: var(--platform-nature-border);
+}
+
+.mobile-chip.theme-scientific.active {
+  color: var(--platform-scientific);
+  background: var(--platform-scientific-soft);
+  border-color: var(--platform-scientific-border);
 }
 
 /* ── Footer ── */

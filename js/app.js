@@ -38,6 +38,14 @@ const DEFAULT_CATALOG = [
       { id: "natureSkillsCommits", sourceKey: "natureSkillsCommits" },
     ],
   },
+  {
+    id: "scientificSkills",
+    label: "Scientific Skills",
+    children: [
+      { id: "scientificSkills", sourceKey: "scientificSkills" },
+      { id: "scientificSkillsCommits", sourceKey: "scientificSkillsCommits" },
+    ],
+  },
 ];
 
 let appData = null;
@@ -57,10 +65,21 @@ const PLATFORM_META = {
   media: { theme: "theme-journals", short: "MD", name: "MedIA" },
   natureSkills: { theme: "theme-nature", short: "NS", name: "Nature Skills" },
   natureSkillsCommits: { theme: "theme-nature", short: "NS", name: "Nature Skills" },
+  scientificSkills: { theme: "theme-scientific", short: "SA", name: "Scientific Skills" },
+  scientificSkillsCommits: { theme: "theme-scientific", short: "SA", name: "Scientific Skills" },
 };
 
 const JOURNAL_KEYS = new Set(["mrm", "tmi", "media"]);
 const NATURE_SKILLS_KEYS = new Set(["natureSkills", "natureSkillsCommits"]);
+const SCIENTIFIC_SKILLS_KEYS = new Set(["scientificSkills", "scientificSkillsCommits"]);
+const TRACKED_SKILLS_KEYS = new Set([...NATURE_SKILLS_KEYS, ...SCIENTIFIC_SKILLS_KEYS]);
+
+const TRACKED_SKILLS_REPO = {
+  natureSkills: "Yuan1z0825/nature-skills",
+  natureSkillsCommits: "Yuan1z0825/nature-skills",
+  scientificSkills: "K-Dense-AI/scientific-agent-skills",
+  scientificSkillsCommits: "K-Dense-AI/scientific-agent-skills",
+};
 
 const META_SYNC_PLATFORMS = [
   { id: "github", label: "GitHub", schedule: "每周一", field: "githubUpdatedAt" },
@@ -68,6 +87,7 @@ const META_SYNC_PLATFORMS = [
   { id: "weibo", label: "微博", schedule: "每日 10/22 点", field: "weiboUpdatedAt" },
   { id: "journals", label: "MRI 顶刊", schedule: "每月 1/15 日", field: "journalsUpdatedAt" },
   { id: "natureSkills", label: "Nature Skills", schedule: "每日 10/22 点", field: "natureSkillsUpdatedAt" },
+  { id: "scientificSkills", label: "Scientific Skills", schedule: "每日 10/22 点", field: "scientificSkillsUpdatedAt" },
 ];
 
 function getPlatformMeta(sourceKey) {
@@ -81,6 +101,7 @@ function getParentTheme(parentId) {
     weibo: "theme-weibo",
     journals: "theme-journals",
     natureSkills: "theme-nature",
+    scientificSkills: "theme-scientific",
   };
   return map[parentId] || "theme-github";
 }
@@ -113,7 +134,8 @@ function resolveMetaTimestamp(data, field) {
     field === "githubUpdatedAt" ||
     field === "hackernewsUpdatedAt" ||
     field === "weiboUpdatedAt" ||
-    field === "natureSkillsUpdatedAt"
+    field === "natureSkillsUpdatedAt" ||
+    field === "scientificSkillsUpdatedAt"
   ) {
     return data.updatedAt;
   }
@@ -161,6 +183,9 @@ function getLatestUpdatedAt(data, sourceKey) {
   }
   if (NATURE_SKILLS_KEYS.has(sourceKey) && data.natureSkillsUpdatedAt) {
     return data.natureSkillsUpdatedAt;
+  }
+  if (SCIENTIFIC_SKILLS_KEYS.has(sourceKey) && data.scientificSkillsUpdatedAt) {
+    return data.scientificSkillsUpdatedAt;
   }
   if (JOURNAL_KEYS.has(sourceKey) && data.journalsUpdatedAt) return data.journalsUpdatedAt;
   return data.updatedAt;
@@ -270,8 +295,16 @@ function isNatureSkillsSource(sourceKey) {
   return NATURE_SKILLS_KEYS.has(sourceKey);
 }
 
+function isScientificSkillsSource(sourceKey) {
+  return SCIENTIFIC_SKILLS_KEYS.has(sourceKey);
+}
+
+function isTrackedSkillsSource(sourceKey) {
+  return TRACKED_SKILLS_KEYS.has(sourceKey);
+}
+
 function isReadmeSource(sourceKey) {
-  return isGithubSource(sourceKey) || sourceKey === "natureSkills";
+  return isGithubSource(sourceKey) || sourceKey === "natureSkills" || sourceKey === "scientificSkills";
 }
 
 function fixGithubRelativeUrls(html, fullName) {
@@ -764,8 +797,8 @@ function renderItemDetail(item, index) {
     return;
   }
 
-  if (isNatureSkillsSource(activeSourceKey)) {
-    renderNatureSkillsDetail(item, index, platform);
+  if (isTrackedSkillsSource(activeSourceKey)) {
+    renderTrackedSkillsDetail(item, index, platform);
     return;
   }
 
@@ -873,7 +906,7 @@ function renderGithubDetail(item, index, platform) {
   `;
 }
 
-function renderNatureSkillsDetail(item, index, platform) {
+function renderTrackedSkillsDetail(item, index, platform) {
   const panel = document.getElementById("item-detail");
   panel.className = `item-detail ${platform.theme}`;
 
@@ -886,9 +919,11 @@ function renderNatureSkillsDetail(item, index, platform) {
     : `<p class="detail-desc muted">暂无描述</p>`;
 
   const rankLabel = String(index + 1).padStart(2, "0");
-  const repoFullName = "Yuan1z0825/nature-skills";
-  const showReadme = activeSourceKey === "natureSkills" && item.readme;
+  const repoFullName = TRACKED_SKILLS_REPO[activeSourceKey] || item.repo || "";
+  const showReadme =
+    (activeSourceKey === "natureSkills" || activeSourceKey === "scientificSkills") && item.readme;
   const readmeBlock = showReadme ? renderGithubReadmeBlock(item, repoFullName) : "";
+  const repoUrl = repoFullName ? `https://github.com/${repoFullName}` : item.url || "#";
 
   const meta = [
     metaPill(platform.name, "accent"),
@@ -919,7 +954,7 @@ function renderNatureSkillsDetail(item, index, platform) {
       <div class="detail-meta">${meta}</div>
       <div class="detail-actions">
         ${item.url ? `<a class="btn btn-primary" href="${item.url}" target="_blank" rel="noopener noreferrer">${primaryLabel}</a>` : ""}
-        <a class="btn btn-secondary" href="https://github.com/Yuan1z0825/nature-skills" target="_blank" rel="noopener noreferrer">Nature Skills 仓库 →</a>
+        <a class="btn btn-secondary" href="${repoUrl}" target="_blank" rel="noopener noreferrer">源仓库 →</a>
       </div>
       ${readmeBlock}
     </div>
