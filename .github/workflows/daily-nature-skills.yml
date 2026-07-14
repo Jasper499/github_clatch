@@ -1,0 +1,90 @@
+name: Daily Nature Skills Update
+
+on:
+  schedule:
+    # 每天 UTC 02:20、14:20（北京时间 10:20、22:20）
+    - cron: "20 2,14 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: data-content-update
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  update-nature-skills:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch nature-skills
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_nature_skills.py
+
+      - name: Commit and push if changed
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/content.json data/history/ data/manifest.json data/nature-skills-notify.json
+          if git diff --staged --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No website data changes."
+          else
+            git commit -m "chore: daily nature-skills update"
+            git pull --rebase origin main
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Notify via GitHub Issue
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python <<'PY'
+          import json
+          from pathlib import Path
+          notify = json.loads(Path("data/nature-skills-notify.json").read_text(encoding="utf-8"))
+          if not notify.get("changed"):
+              print("Notify skipped: content SHA unchanged")
+              raise SystemExit(0)
+          latest = notify.get("latestCommit") or {}
+          lines = [
+              f"## Nature Skills 有更新",
+              "",
+              f"- 仓库：[{notify.get('repo')}]({notify.get('repoUrl')})",
+              f"- Stars：{notify.get('stars')}",
+              f"- Skills 数量：{notify.get('skillCount')}",
+              f"- 最新提交：[`{latest.get('sha')}`]({latest.get('url')}) {latest.get('title')}",
+              f"- 网站入口：{notify.get('siteUrl')}",
+              "",
+              "### 最近提交",
+              "",
+          ]
+          for c in notify.get("recentCommits") or []:
+              lines.append(f"- [`{c.get('sha')}`]({c.get('url')}) {c.get('title')}")
+          lines.extend([
+              "",
+              "---",
+              "_本 Issue 由 GitHub Actions 在检测到 `Yuan1z0825/nature-skills` 更新后自动创建。_",
+          ])
+          Path("/tmp/nature-skills-notify.md").write_text("\n".join(lines), encoding="utf-8")
+          print("Notification body prepared.")
+          PY
+          TITLE="Nature Skills 更新通知 $(date -u +%Y-%m-%d)"
+          gh issue create \
+            --title "$TITLE" \
+            --body-file /tmp/nature-skills-notify.md \
+            --label "nature-skills-notify" || \
+          gh issue create \
+            --title "$TITLE" \
+            --body-file /tmp/nature-skills-notify.md

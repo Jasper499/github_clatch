@@ -30,6 +30,14 @@ const DEFAULT_CATALOG = [
       { id: "media", sourceKey: "media" },
     ],
   },
+  {
+    id: "natureSkills",
+    label: "Nature Skills",
+    children: [
+      { id: "natureSkills", sourceKey: "natureSkills" },
+      { id: "natureSkillsCommits", sourceKey: "natureSkillsCommits" },
+    ],
+  },
 ];
 
 let appData = null;
@@ -47,15 +55,19 @@ const PLATFORM_META = {
   mrm: { theme: "theme-journals", short: "MR", name: "MRM" },
   tmi: { theme: "theme-journals", short: "TM", name: "TMI" },
   media: { theme: "theme-journals", short: "MD", name: "MedIA" },
+  natureSkills: { theme: "theme-nature", short: "NS", name: "Nature Skills" },
+  natureSkillsCommits: { theme: "theme-nature", short: "NS", name: "Nature Skills" },
 };
 
 const JOURNAL_KEYS = new Set(["mrm", "tmi", "media"]);
+const NATURE_SKILLS_KEYS = new Set(["natureSkills", "natureSkillsCommits"]);
 
 const META_SYNC_PLATFORMS = [
   { id: "github", label: "GitHub", schedule: "每周一", field: "githubUpdatedAt" },
   { id: "hackernews", label: "Hacker News", schedule: "每日 10/22 点", field: "hackernewsUpdatedAt" },
   { id: "weibo", label: "微博", schedule: "每日 10/22 点", field: "weiboUpdatedAt" },
   { id: "journals", label: "MRI 顶刊", schedule: "每月 1/15 日", field: "journalsUpdatedAt" },
+  { id: "natureSkills", label: "Nature Skills", schedule: "每日 10/22 点", field: "natureSkillsUpdatedAt" },
 ];
 
 function getPlatformMeta(sourceKey) {
@@ -68,6 +80,7 @@ function getParentTheme(parentId) {
     hackernews: "theme-hn",
     weibo: "theme-weibo",
     journals: "theme-journals",
+    natureSkills: "theme-nature",
   };
   return map[parentId] || "theme-github";
 }
@@ -96,7 +109,12 @@ function highlightMetaPlatform(platformId) {
 
 function resolveMetaTimestamp(data, field) {
   if (data[field]) return data[field];
-  if (field === "githubUpdatedAt" || field === "hackernewsUpdatedAt" || field === "weiboUpdatedAt") {
+  if (
+    field === "githubUpdatedAt" ||
+    field === "hackernewsUpdatedAt" ||
+    field === "weiboUpdatedAt" ||
+    field === "natureSkillsUpdatedAt"
+  ) {
     return data.updatedAt;
   }
   return null;
@@ -140,6 +158,9 @@ function getLatestUpdatedAt(data, sourceKey) {
   if (sourceKey === "hackernews" && data.hackernewsUpdatedAt) return data.hackernewsUpdatedAt;
   if ((sourceKey === "github" || sourceKey === "githubActive") && data.githubUpdatedAt) {
     return data.githubUpdatedAt;
+  }
+  if (NATURE_SKILLS_KEYS.has(sourceKey) && data.natureSkillsUpdatedAt) {
+    return data.natureSkillsUpdatedAt;
   }
   if (JOURNAL_KEYS.has(sourceKey) && data.journalsUpdatedAt) return data.journalsUpdatedAt;
   return data.updatedAt;
@@ -188,6 +209,8 @@ function itemCompactMeta(item) {
   if (item.language) parts.push(item.language);
   if (item.owner && !item.journal) parts.push(`@${item.owner}`);
   if (item.label) parts.push(item.label);
+  if (item.sha) parts.push(item.sha);
+  if (item.version) parts.push(`v${item.version}`);
   if (item.isOpenAccess) parts.push("OA");
   if (item.pdfAvailable) parts.push("PDF");
   return parts.join(" · ");
@@ -243,6 +266,14 @@ function isGithubSource(sourceKey) {
   return sourceKey === "github" || sourceKey === "githubActive";
 }
 
+function isNatureSkillsSource(sourceKey) {
+  return NATURE_SKILLS_KEYS.has(sourceKey);
+}
+
+function isReadmeSource(sourceKey) {
+  return isGithubSource(sourceKey) || sourceKey === "natureSkills";
+}
+
 function fixGithubRelativeUrls(html, fullName) {
   const parts = (fullName || "").split("/");
   if (parts.length < 2) return html;
@@ -290,8 +321,11 @@ function renderGithubMarkdown(markdown, fullName) {
   return html;
 }
 
-function renderGithubReadmeBlock(item) {
+function renderGithubReadmeBlock(item, repoFullName = null) {
   const fileName = item.readmeFile || "README.md";
+  const markdownBase =
+    repoFullName ||
+    (String(item.title || "").includes("/") ? String(item.title).split(" · ")[0] : null);
 
   if (!item.readme) {
     return `
@@ -305,9 +339,9 @@ function renderGithubReadmeBlock(item) {
     `;
   }
 
-  const html = renderGithubMarkdown(item.readme, item.title);
+  const html = renderGithubMarkdown(item.readme, markdownBase);
   const truncatedNote = item.readmeTruncated
-    ? `<p class="detail-note readme-truncated">README 较长，已截断显示前 80KB，完整内容请访问仓库。</p>`
+    ? `<p class="detail-note readme-truncated">内容较长，已截断显示，完整内容请访问仓库。</p>`
     : "";
 
   return `
@@ -667,8 +701,20 @@ function itemSummary(item, index) {
     const date = item.published ? ` · ${item.published}` : "";
     return `${rank} [${item.journal}]${date} ${item.title}`;
   }
+  if (item.label === "skill") {
+    const ver = item.version ? ` v${item.version}` : "";
+    return `${rank} [skill]${ver} · ${item.title}`;
+  }
+  if (item.label === "commit") {
+    const sha = item.sha ? ` ${item.sha}` : "";
+    const date = item.published ? ` · ${item.published}` : "";
+    return `${rank} [commit]${sha}${date} · ${item.title}`;
+  }
+  if (item.label === "overview") {
+    return `${rank} [overview] · ${item.title}`;
+  }
   if (item.stars != null) {
-    const readmeTag = item.readme && isGithubSource(activeSourceKey) ? " · README" : "";
+    const readmeTag = item.readme && isReadmeSource(activeSourceKey) ? " · README" : "";
     return `${rank} ★${Number(item.stars).toLocaleString()}${readmeTag} · ${item.title}`;
   }
   if (item.score != null) return `${rank} ▲${Number(item.score).toLocaleString()} · ${item.title}`;
@@ -715,6 +761,11 @@ function renderItemDetail(item, index) {
 
   if (isGithubSource(activeSourceKey)) {
     renderGithubDetail(item, index, platform);
+    return;
+  }
+
+  if (isNatureSkillsSource(activeSourceKey)) {
+    renderNatureSkillsDetail(item, index, platform);
     return;
   }
 
@@ -816,6 +867,59 @@ function renderGithubDetail(item, index, platform) {
       <div class="detail-meta">${meta}</div>
       <div class="detail-actions">
         ${item.url ? `<a class="btn btn-primary" href="${item.url}" target="_blank" rel="noopener noreferrer">打开仓库 →</a>` : ""}
+      </div>
+      ${readmeBlock}
+    </div>
+  `;
+}
+
+function renderNatureSkillsDetail(item, index, platform) {
+  const panel = document.getElementById("item-detail");
+  panel.className = `item-detail ${platform.theme}`;
+
+  const title = item.url
+    ? `<a href="${item.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>`
+    : escapeHtml(item.title);
+
+  const desc = item.description
+    ? `<p class="detail-desc">${escapeHtml(item.description)}</p>`
+    : `<p class="detail-desc muted">暂无描述</p>`;
+
+  const rankLabel = String(index + 1).padStart(2, "0");
+  const repoFullName = "Yuan1z0825/nature-skills";
+  const showReadme = activeSourceKey === "natureSkills" && item.readme;
+  const readmeBlock = showReadme ? renderGithubReadmeBlock(item, repoFullName) : "";
+
+  const meta = [
+    metaPill(platform.name, "accent"),
+    item.label ? metaPill(item.label, "hot") : "",
+    item.version ? metaPill(`v${item.version}`, "lang") : "",
+    item.sha ? metaPill(item.sha, "lang") : "",
+    item.published ? metaPill(item.published, "accent") : "",
+    item.stars != null ? metaPill(`★ ${Number(item.stars).toLocaleString()}`, "star") : "",
+    item.skillCount != null ? metaPill(`${item.skillCount} skills`, "success") : "",
+    item.owner ? metaPill(`@${item.owner}`) : "",
+    showReadme ? metaPill("SKILL/README 已收录", "success") : "",
+  ]
+    .filter(Boolean)
+    .join("");
+
+  const primaryLabel =
+    item.label === "commit" ? "打开提交 →" : item.label === "skill" ? "打开 Skill →" : "打开仓库 →";
+
+  panel.innerHTML = `
+    <div class="detail-body">
+      <div class="detail-header">
+        <span class="detail-rank-badge">#${rankLabel}</span>
+        ${metaPill(platform.name, "accent")}
+      </div>
+      <h2 class="detail-title">${title}</h2>
+      <div class="detail-divider"></div>
+      ${desc}
+      <div class="detail-meta">${meta}</div>
+      <div class="detail-actions">
+        ${item.url ? `<a class="btn btn-primary" href="${item.url}" target="_blank" rel="noopener noreferrer">${primaryLabel}</a>` : ""}
+        <a class="btn btn-secondary" href="https://github.com/Yuan1z0825/nature-skills" target="_blank" rel="noopener noreferrer">Nature Skills 仓库 →</a>
       </div>
       ${readmeBlock}
     </div>
