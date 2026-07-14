@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T05:16:07Z",
+  "updatedAt": "2026-07-14T15:16:11Z",
   "periodDays": 7,
   "weekLabel": "2026-07-06 ~ 2026-07-13",
   "catalog": [
@@ -544,25 +544,33 @@
           "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
           "description": "<a href=\"https:&#x2F;&#x2F;www.macrumors.com&#x2F;2026&#x2F;07&#x2F;10&#x2F;apple-sues-openai&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.macrumors.com&#x2F;2026&#x2F;07&#x2F;10&#x2F;apple-sues-openai&#x2F;</a>",
           "url": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
-          "score": 1648,
-          "comments": 953,
+          "score": 1649,
+          "comments": 954,
           "owner": "stock_toaster"
         },
         {
           "title": "EU Parliament greenlights Chat Control 1.0",
           "description": "",
           "url": "https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/",
-          "score": 1630,
-          "comments": 860,
+          "score": 1632,
+          "comments": 861,
           "owner": "rapnie"
         },
         {
           "title": "GPT-5.6",
           "description": "<a href=\"https:&#x2F;&#x2F;deploymentsafety.openai.com&#x2F;gpt-5-6&#x2F;gpt-5-6.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;deploymentsafety.openai.com&#x2F;gpt-5-6&#x2F;gpt-5-6.pdf</a><p><a href=\"https:&#x2F;&#x2F;developers.openai.com&#x2F;api&#x2F;docs&#x2F;guides&#x2F;latest-model\" rel=\"nofollow\">https:&#x2F;&#x2F;developers.openai.com&#x2F;api&#x2F;docs&#x2F;guides&#x2F;latest-model</a><p><a href=\"https:&#x2F;&#x2F;x.com&#x2F;levie&#x2F;status&#x2F;2075287443411222628\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;levie&#x2F;status&#x2F;2075287443411222628</a>, <a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;levie&#x2F;status&#x2F;2075287443411222628\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;levie&#x2F;status&#x2F;2075287443411222628</a>",
           "url": "https://openai.com/index/gpt-5-6/",
-          "score": 1557,
-          "comments": 1104,
+          "score": 1559,
+          "comments": 1105,
           "owner": "logickkk1"
+        },
+        {
+          "title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
+          "description": "",
+          "url": "https://raymyers.org/post/zed-creator-calls-spade-a-spade/",
+          "score": 1498,
+          "comments": 762,
+          "owner": "crowdhailer"
         },
         {
           "title": "Decoding the obfuscated bash script on a Uniqlo t-shirt",
@@ -573,18 +581,10 @@
           "owner": "speerer"
         },
         {
-          "title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
-          "description": "",
-          "url": "https://raymyers.org/post/zed-creator-calls-spade-a-spade/",
-          "score": 1434,
-          "comments": 719,
-          "owner": "crowdhailer"
-        },
-        {
           "title": "John Deere owners will get the right to repair equipment under FTC settlement",
           "description": "",
           "url": "https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02",
-          "score": 1394,
+          "score": 1397,
           "comments": 304,
           "owner": "djoldman"
         },
@@ -592,8 +592,8 @@
           "title": "Show HN: 18 Words",
           "description": "",
           "url": "https://18words.com/",
-          "score": 1152,
-          "comments": 363,
+          "score": 1155,
+          "comments": 364,
           "owner": "pompomsheep"
         },
         {
@@ -608,39 +608,23 @@
           "title": "Ask HN: Add flag for AI-generated articles",
           "description": "Should HN add the ability to flag articles as AI-generated? This doesn&#x27;t have to act as a regular flag, i.e., it won&#x27;t de-rank the article; it could just show up as an indicator, allowing others (like myself) who don&#x27;t like reading AI-generated text, to skip it.<p>Open questions:<p>1. Why is the regular voting system not enough?<p>2. Should HN change in response to the gen AI era? It has been successful not changing fundamentals.",
           "url": "https://news.ycombinator.com/item?id=48886741",
-          "score": 1018,
-          "comments": 441,
+          "score": 1055,
+          "comments": 449,
           "owner": "levkk"
         },
         {
           "title": "Show HN: Getting GLM 5.2 running on my slow computer",
           "description": "A few days ago I found myself trying out GLM 5.2 and was really positively impressed. The capabilities and security I was getting from this LLM are similar to those I&#x27;ve gotten from models like Claude or GPT, and this really surprised me.<p>But then I thought, &quot;I wonder how it would work on a normal computer like mine,&quot; and above all, &quot;I wonder if it would work without going into OOM on a computer like mine.&quot; So I started working with the help of agents to test this possibility.<p>I started converting the model to int4, understanding MTP usage, and if possible implementing DSA for long context. How it responds in int4 and whether the quality is maintained or not. Until I got to the point, on my computer with 32GB of RAM, I was able to communicate with GLM 5.2 with times that, of course, aren&#x27;t high in cold start, but even then, we&#x27;re talking about 0.1 tok&#x2F;s, but that wasn&#x27;t important to me. The important thing was the journey to reach this goal. I just wanted it to work at all costs, even slowly.<p>So I created Colibrì, which was born from a very simple idea, to be honest, but tested in every way, where a 744B Mixture-of-Experts model activates only ~40B parameters per token—and only ~11 GB of those change from token to token (the routed experts). So:<p>The dense part (attention, shared experts, embeddings—~17B params) stays resident in RAM at int4 (~9.9 GB); The 21,504 routed experts (75 MoE layers × 256 experts + the MTP head, ~19 MB each at int4) live on disk (~370 GB) and are streamed on demand, with a per-layer LRU cache, an optional pinned hot-store, and the OS page cache as a free L2.<p>The engine is a single C file (c&#x2F;glm.c, ~1,300 lines) plus small headers. No BLAS, no Python at runtime, no GPU.No GPU or serious hardware because I don&#x27;t have that hardware so I can&#x27;t test it on hardware that is more powerful than my computer.Colibrì is a one-person project, written and tested entirely on a 12-core laptop with 25 GB of RAM — the numbers above are the ceiling of what I can measure at home.<p>Any feedback is welcome! (and if anyone wanted to participate in the project I would be delighted)<p>Repo: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;JustVugg&#x2F;colibri\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;JustVugg&#x2F;colibri</a>",
           "url": "https://github.com/JustVugg/colibri",
-          "score": 922,
-          "comments": 239,
+          "score": 927,
+          "comments": 240,
           "owner": "vforno"
-        },
-        {
-          "title": "Chat Control 1.0 and 2.0 Explained",
-          "description": "",
-          "url": "https://fightchatcontrol.eu/chat-control-overview",
-          "score": 915,
-          "comments": 353,
-          "owner": "gasull"
-        },
-        {
-          "title": "StreetComplete: Fixing OpenStreetMap, one tiny quest at a time",
-          "description": "",
-          "url": "https://streetcomplete.app/",
-          "score": 826,
-          "comments": 206,
-          "owner": "kls0e"
         },
         {
           "title": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
           "description": "",
           "url": "https://github.com/malisper/pgrust",
-          "score": 820,
+          "score": 821,
           "comments": 723,
           "owner": "SweetSoftPillow"
         },
@@ -648,7 +632,7 @@
           "title": "My thoughts on the Bun Rust rewrite",
           "description": "",
           "url": "https://andrewkelley.me/post/my-thoughts-bun-rust-rewrite.html",
-          "score": 807,
+          "score": 808,
           "comments": 701,
           "owner": "kristoff_it"
         },
@@ -657,7 +641,7 @@
           "description": "",
           "url": "https://allaboutcookies.org/eu-mandatory-distracted-driver-system",
           "score": 792,
-          "comments": 1063,
+          "comments": 1065,
           "owner": "nickslaughter02"
         },
         {
@@ -673,7 +657,7 @@
           "description": "<a href=\"https:&#x2F;&#x2F;cursor.com&#x2F;blog&#x2F;grok-4-5\" rel=\"nofollow\">https:&#x2F;&#x2F;cursor.com&#x2F;blog&#x2F;grok-4-5</a>",
           "url": "https://x.ai/news/grok-4-5",
           "score": 774,
-          "comments": 1491,
+          "comments": 1495,
           "owner": "BoumTAC"
         },
         {
@@ -689,7 +673,7 @@
           "description": "",
           "url": "https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/",
           "score": 749,
-          "comments": 235,
+          "comments": 236,
           "owner": "speckx"
         },
         {
@@ -699,6 +683,22 @@
           "score": 718,
           "comments": 301,
           "owner": "DanRosenwasser"
+        },
+        {
+          "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+          "description": "This started based off of a hunch. We usually use OpenCode, but were &#x27;forced&#x27; to use Claude Code for a while due to issues with Meridian. In that time, we saw the usage meter rise much, much more quickly than when using OpenCode.<p>This was the initial anecdotal evidence, but we undertook this small study to collect empirical data:<p>We added logging between the agentic coding tool (Claude Code and OpenCode) and Anthropic&#x27;s endpoint, and captured all requests (and the returned usage blocks).<p>With one caveat (toward the end of the post) we found unambiguously that Claude Code was far more inefficient in terms of its cache strategy and its harness token usage than OpenCode.",
+          "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+          "score": 691,
+          "comments": 381,
+          "owner": "systima"
+        },
+        {
+          "title": "Microsoft fire idTech team at Id software",
+          "description": "",
+          "url": "https://gamefromscratch.com/microsoft-fire-idtech-team-at-id-software/",
+          "score": 676,
+          "comments": 602,
+          "owner": "bauc"
         }
       ]
     },
@@ -4016,7 +4016,7 @@
   "weiboUpdatedAt": "2026-07-14T05:08:27Z",
   "journalsUpdatedAt": "2026-07-06T03:02:33Z",
   "journalsPeriod": "2026-05-22 ~ 2026-07-06",
-  "hackernewsUpdatedAt": "2026-07-14T04:40:32Z",
+  "hackernewsUpdatedAt": "2026-07-14T15:16:11Z",
   "githubUpdatedAt": "2026-07-13T04:23:21Z",
   "natureSkillsUpdatedAt": "2026-07-14T05:11:31Z",
   "natureSkillsLatestSha": "b98b53ef5e8f15d9159682bf7587301a16b0747f",
