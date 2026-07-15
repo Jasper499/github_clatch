@@ -1,44 +1,44 @@
 {
   "changed": true,
-  "fetchedAt": "2026-07-15T05:11:28Z",
-  "previousSha": "b98b53ef5e8f15d9159682bf7587301a16b0747f",
-  "latestSha": "22cff091926dddd2ca54bde7d7693aba92c2c7e9",
+  "fetchedAt": "2026-07-15T15:55:27Z",
+  "previousSha": "22cff091926dddd2ca54bde7d7693aba92c2c7e9",
+  "latestSha": "3f03388dc4c183ec0acc92176fcbf3f9b504041e",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "Merge pull request #116 from Flyme886/codex/optional-si-download",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/22cff091926dddd2ca54bde7d7693aba92c2c7e9",
-    "sha": "22cff09",
+    "title": "Merge pull request #117 from SaltGardenia/main",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/3f03388dc4c183ec0acc92176fcbf3f9b504041e",
+    "sha": "3f03388",
     "published": "2026-07-15"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
     {
+      "title": "Merge pull request #117 from SaltGardenia/main",
+      "sha": "3f03388",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/3f03388dc4c183ec0acc92176fcbf3f9b504041e"
+    },
+    {
+      "title": "Update README_EN.md",
+      "sha": "bbc1c35",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/bbc1c350e8e0ff0e4e8326309aa13a3e3e56a37f"
+    },
+    {
+      "title": "Update README.md",
+      "sha": "6319ecd",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/6319ecd80c2dab03022e10f06113b4b03a5a0008"
+    },
+    {
+      "title": "Create index.html",
+      "sha": "353140f",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/353140f966e864e8386413ea38dc78ae919ea08e"
+    },
+    {
       "title": "Merge pull request #116 from Flyme886/codex/optional-si-download",
       "sha": "22cff09",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/22cff091926dddd2ca54bde7d7693aba92c2c7e9"
-    },
-    {
-      "title": "feat: add optional SI downloads to nature downloader",
-      "sha": "fb55deb",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/fb55debcddd30d070ed71156242faa41257d19e7"
-    },
-    {
-      "title": "Merge pull request #114 from Flyme886/codex/oa-path-no-library",
-      "sha": "2168071",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/216807178cb01284171081b5150f770d78e76405"
-    },
-    {
-      "title": "feat: route users without library access to OA",
-      "sha": "89c4c9c",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/89c4c9c92fa4c089a665a02c6558a9de733620c0"
-    },
-    {
-      "title": "Merge pull request #113 from Travisma2233/feat/add-patent-disclosure-…",
-      "sha": "b98b53e",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/b98b53ef5e8f15d9159682bf7587301a16b0747f"
     }
   ]
 }

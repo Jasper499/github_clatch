@@ -1,13 +1,53 @@
 {
   "date": "2026-07-15",
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-07-15T05:11:28Z",
+  "savedAt": "2026-07-15T15:55:27Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "22cff091926dddd2ca54bde7d7693aba92c2c7e9",
+  "latestSha": "3f03388dc4c183ec0acc92176fcbf3f9b504041e",
   "items": [
+    {
+      "title": "Merge pull request #117 from SaltGardenia/main",
+      "description": "Merge pull request #117 from SaltGardenia/main\n\n为项目实现了便于宣传展示的前端页面",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/3f03388dc4c183ec0acc92176fcbf3f9b504041e",
+      "sha": "3f03388",
+      "fullSha": "3f03388dc4c183ec0acc92176fcbf3f9b504041e",
+      "owner": "Yuan1z0825",
+      "published": "2026-07-15",
+      "label": "commit"
+    },
+    {
+      "title": "Update README_EN.md",
+      "description": "Update README_EN.md",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/bbc1c350e8e0ff0e4e8326309aa13a3e3e56a37f",
+      "sha": "bbc1c35",
+      "fullSha": "bbc1c350e8e0ff0e4e8326309aa13a3e3e56a37f",
+      "owner": "Yuan1z0825",
+      "published": "2026-07-15",
+      "label": "commit"
+    },
+    {
+      "title": "Update README.md",
+      "description": "Update README.md",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/6319ecd80c2dab03022e10f06113b4b03a5a0008",
+      "sha": "6319ecd",
+      "fullSha": "6319ecd80c2dab03022e10f06113b4b03a5a0008",
+      "owner": "Yuan1z0825",
+      "published": "2026-07-15",
+      "label": "commit"
+    },
+    {
+      "title": "Create index.html",
+      "description": "Create index.html",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/353140f966e864e8386413ea38dc78ae919ea08e",
+      "sha": "353140f",
+      "fullSha": "353140f966e864e8386413ea38dc78ae919ea08e",
+      "owner": "SaltGardenia",
+      "published": "2026-07-15",
+      "label": "commit"
+    },
     {
       "title": "Merge pull request #116 from Flyme886/codex/optional-si-download",
       "description": "Merge pull request #116 from Flyme886/codex/optional-si-download\n\nfeat: nature downloader 新增可选 SI 下载功能",
@@ -116,46 +156,6 @@
       "fullSha": "9c67cf6256dce0314939ec03bc1291dccf956381",
       "owner": "github-actions",
       "published": "2026-07-13",
-      "label": "commit"
-    },
-    {
-      "title": "feat: add automatic verification handling",
-      "description": "feat: add automatic verification handling",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/32fa75dd07c52230d7e62d561f1c1af0695c9403",
-      "sha": "32fa75d",
-      "fullSha": "32fa75dd07c52230d7e62d561f1c1af0695c9403",
-      "owner": "Flyme886",
-      "published": "2026-07-13",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #111 from Travisma2233/docs/star-history-every-3-days",
-      "description": "Merge pull request #111 from Travisma2233/docs/star-history-every-3-days\n\nci: refresh star history every three days",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/7950cab17a793a1395d16ab6bcffb548ba92eca3",
-      "sha": "7950cab",
-      "fullSha": "7950cab17a793a1395d16ab6bcffb548ba92eca3",
-      "owner": "Travisma2233",
-      "published": "2026-07-12",
-      "label": "commit"
-    },
-    {
-      "title": "ci: refresh star history every three days",
-      "description": "ci: refresh star history every three days",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/51759bbc2a7079a3306dfe634cae5170785e5e52",
-      "sha": "51759bb",
-      "fullSha": "51759bbc2a7079a3306dfe634cae5170785e5e52",
-      "owner": "Travisma2233",
-      "published": "2026-07-12",
-      "label": "commit"
-    },
-    {
-      "title": "chore: update star history",
-      "description": "chore: update star history",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/ee981a5c068ffa01e79541b71eb810043b9fd674",
-      "sha": "ee981a5",
-      "fullSha": "ee981a5c068ffa01e79541b71eb810043b9fd674",
-      "owner": "github-actions",
-      "published": "2026-07-12",
       "label": "commit"
     }
   ]
