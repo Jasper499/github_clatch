@@ -1,44 +1,44 @@
 {
   "changed": true,
-  "fetchedAt": "2026-07-15T15:55:27Z",
-  "previousSha": "22cff091926dddd2ca54bde7d7693aba92c2c7e9",
-  "latestSha": "3f03388dc4c183ec0acc92176fcbf3f9b504041e",
+  "fetchedAt": "2026-07-16T05:22:07Z",
+  "previousSha": "3f03388dc4c183ec0acc92176fcbf3f9b504041e",
+  "latestSha": "8abf819d748b4a3c61f5c0277b712bccc69d4e5c",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "Merge pull request #117 from SaltGardenia/main",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/3f03388dc4c183ec0acc92176fcbf3f9b504041e",
-    "sha": "3f03388",
-    "published": "2026-07-15"
+    "title": "docs: add Bin Hu as third contributor (#124)",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/8abf819d748b4a3c61f5c0277b712bccc69d4e5c",
+    "sha": "8abf819",
+    "published": "2026-07-16"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
     {
-      "title": "Merge pull request #117 from SaltGardenia/main",
-      "sha": "3f03388",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/3f03388dc4c183ec0acc92176fcbf3f9b504041e"
+      "title": "docs: add Bin Hu as third contributor (#124)",
+      "sha": "8abf819",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/8abf819d748b4a3c61f5c0277b712bccc69d4e5c"
     },
     {
-      "title": "Update README_EN.md",
-      "sha": "bbc1c35",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/bbc1c350e8e0ff0e4e8326309aa13a3e3e56a37f"
+      "title": "Merge pull request #123 from Travisma2233/fix/star-history-cache-busting",
+      "sha": "26147db",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/26147dbaf3ba2fafc242bb1d15d1e07e8933d5c8"
     },
     {
-      "title": "Update README.md",
-      "sha": "6319ecd",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/6319ecd80c2dab03022e10f06113b4b03a5a0008"
+      "title": "fix: refresh cached star history images",
+      "sha": "00ee604",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/00ee604641f5ccae2cf3a331743821a6a57fb855"
     },
     {
-      "title": "Create index.html",
-      "sha": "353140f",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/353140f966e864e8386413ea38dc78ae919ea08e"
+      "title": "Merge pull request #122 from Travisma2233/chore/update-star-history-2…",
+      "sha": "778358d",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/778358dc550f33970888b5c79b38b1fdbd3d29b3"
     },
     {
-      "title": "Merge pull request #116 from Flyme886/codex/optional-si-download",
-      "sha": "22cff09",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/22cff091926dddd2ca54bde7d7693aba92c2c7e9"
+      "title": "feat: nature downloader 出版商授权路径稳定性升级 (#119)",
+      "sha": "d33e55b",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/d33e55bddcd9712da95ded486324686da79ba986"
     }
   ]
 }
