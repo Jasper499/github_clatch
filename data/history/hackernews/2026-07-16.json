@@ -1,0 +1,171 @@
+{
+  "date": "2026-07-16",
+  "sourceKey": "hackernews",
+  "savedAt": "2026-07-16T04:50:32Z",
+  "label": "Hacker News 热门",
+  "description": "近 7 天 HN 高互动讨论（2026-07-16，共 20 条）",
+  "updateFrequency": "twice-daily",
+  "fetchedDate": "2026-07-16",
+  "items": [
+    {
+      "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
+      "description": "<a href=\"https:&#x2F;&#x2F;www.macrumors.com&#x2F;2026&#x2F;07&#x2F;10&#x2F;apple-sues-openai&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.macrumors.com&#x2F;2026&#x2F;07&#x2F;10&#x2F;apple-sues-openai&#x2F;</a>",
+      "url": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
+      "score": 1651,
+      "comments": 962,
+      "owner": "stock_toaster"
+    },
+    {
+      "title": "EU Parliament greenlights Chat Control 1.0",
+      "description": "",
+      "url": "https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/",
+      "score": 1635,
+      "comments": 863,
+      "owner": "rapnie"
+    },
+    {
+      "title": "GPT-5.6",
+      "description": "<a href=\"https:&#x2F;&#x2F;deploymentsafety.openai.com&#x2F;gpt-5-6&#x2F;gpt-5-6.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;deploymentsafety.openai.com&#x2F;gpt-5-6&#x2F;gpt-5-6.pdf</a><p><a href=\"https:&#x2F;&#x2F;developers.openai.com&#x2F;api&#x2F;docs&#x2F;guides&#x2F;latest-model\" rel=\"nofollow\">https:&#x2F;&#x2F;developers.openai.com&#x2F;api&#x2F;docs&#x2F;guides&#x2F;latest-model</a><p><a href=\"https:&#x2F;&#x2F;x.com&#x2F;levie&#x2F;status&#x2F;2075287443411222628\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;levie&#x2F;status&#x2F;2075287443411222628</a>, <a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;levie&#x2F;status&#x2F;2075287443411222628\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;levie&#x2F;status&#x2F;2075287443411222628</a>",
+      "url": "https://openai.com/index/gpt-5-6/",
+      "score": 1560,
+      "comments": 1106,
+      "owner": "logickkk1"
+    },
+    {
+      "title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
+      "description": "",
+      "url": "https://raymyers.org/post/zed-creator-calls-spade-a-spade/",
+      "score": 1527,
+      "comments": 778,
+      "owner": "crowdhailer"
+    },
+    {
+      "title": "Show HN: 18 Words",
+      "description": "",
+      "url": "https://18words.com/",
+      "score": 1156,
+      "comments": 365,
+      "owner": "pompomsheep"
+    },
+    {
+      "title": "Ask HN: Add flag for AI-generated articles",
+      "description": "Should HN add the ability to flag articles as AI-generated? This doesn&#x27;t have to act as a regular flag, i.e., it won&#x27;t de-rank the article; it could just show up as an indicator, allowing others (like myself) who don&#x27;t like reading AI-generated text, to skip it.<p>Open questions:<p>1. Why is the regular voting system not enough?<p>2. Should HN change in response to the gen AI era? It has been successful not changing fundamentals.",
+      "url": "https://news.ycombinator.com/item?id=48886741",
+      "score": 1083,
+      "comments": 456,
+      "owner": "levkk"
+    },
+    {
+      "title": "Show HN: Getting GLM 5.2 running on my slow computer",
+      "description": "A few days ago I found myself trying out GLM 5.2 and was really positively impressed. The capabilities and security I was getting from this LLM are similar to those I&#x27;ve gotten from models like Claude or GPT, and this really surprised me.<p>But then I thought, &quot;I wonder how it would work on a normal computer like mine,&quot; and above all, &quot;I wonder if it would work without going into OOM on a computer like mine.&quot; So I started working with the help of agents to test this possibility.<p>I started converting the model to int4, understanding MTP usage, and if possible implementing DSA for long context. How it responds in int4 and whether the quality is maintained or not. Until I got to the point, on my computer with 32GB of RAM, I was able to communicate with GLM 5.2 with times that, of course, aren&#x27;t high in cold start, but even then, we&#x27;re talking about 0.1 tok&#x2F;s, but that wasn&#x27;t important to me. The important thing was the journey to reach this goal. I just wanted it to work at all costs, even slowly.<p>So I created Colibrì, which was born from a very simple idea, to be honest, but tested in every way, where a 744B Mixture-of-Experts model activates only ~40B parameters per token—and only ~11 GB of those change from token to token (the routed experts). So:<p>The dense part (attention, shared experts, embeddings—~17B params) stays resident in RAM at int4 (~9.9 GB); The 21,504 routed experts (75 MoE layers × 256 experts + the MTP head, ~19 MB each at int4) live on disk (~370 GB) and are streamed on demand, with a per-layer LRU cache, an optional pinned hot-store, and the OS page cache as a free L2.<p>The engine is a single C file (c&#x2F;glm.c, ~1,300 lines) plus small headers. No BLAS, no Python at runtime, no GPU.No GPU or serious hardware because I don&#x27;t have that hardware so I can&#x27;t test it on hardware that is more powerful than my computer.Colibrì is a one-person project, written and tested entirely on a 12-core laptop with 25 GB of RAM — the numbers above are the ceiling of what I can measure at home.<p>Any feedback is welcome! (and if anyone wanted to participate in the project I would be delighted)<p>Repo: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;JustVugg&#x2F;colibri\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;JustVugg&#x2F;colibri</a>",
+      "url": "https://github.com/JustVugg/colibri",
+      "score": 931,
+      "comments": 240,
+      "owner": "vforno"
+    },
+    {
+      "title": "Jurassic Park computers in excruciating detail",
+      "description": "",
+      "url": "https://fabiensanglard.net/jurrasic_park_computers/index.html",
+      "score": 879,
+      "comments": 231,
+      "owner": "vinhnx"
+    },
+    {
+      "title": "Your 'app' could have been a webpage (so I fixed it for you)",
+      "description": "",
+      "url": "https://danq.me/2026/07/09/your-app-could-have-been-a-webpage/",
+      "score": 863,
+      "comments": 523,
+      "owner": "MrVandemar"
+    },
+    {
+      "title": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
+      "description": "",
+      "url": "https://github.com/malisper/pgrust",
+      "score": 826,
+      "comments": 724,
+      "owner": "SweetSoftPillow"
+    },
+    {
+      "title": "Inkling: Our Open-Weights Model",
+      "description": "",
+      "url": "https://thinkingmachines.ai/news/introducing-inkling/",
+      "score": 816,
+      "comments": 211,
+      "owner": "vimarsh6739"
+    },
+    {
+      "title": "My thoughts on the Bun Rust rewrite",
+      "description": "",
+      "url": "https://andrewkelley.me/post/my-thoughts-bun-rust-rewrite.html",
+      "score": 811,
+      "comments": 704,
+      "owner": "kristoff_it"
+    },
+    {
+      "title": "QuadRF can spot drones and see WiFi through my wall",
+      "description": "",
+      "url": "https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/",
+      "score": 750,
+      "comments": 237,
+      "owner": "speckx"
+    },
+    {
+      "title": "Japan develops a method to recover up to 90% of lithium from used EV batteries",
+      "description": "",
+      "url": "https://tech.supercarblondie.com/japan-recovers-up-to-90-of-lithium-from-used-ev-batteries/",
+      "score": 741,
+      "comments": 195,
+      "owner": "donohoe"
+    },
+    {
+      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+      "description": "This started based off of a hunch. We usually use OpenCode, but were &#x27;forced&#x27; to use Claude Code for a while due to issues with Meridian. In that time, we saw the usage meter rise much, much more quickly than when using OpenCode.<p>This was the initial anecdotal evidence, but we undertook this small study to collect empirical data:<p>We added logging between the agentic coding tool (Claude Code and OpenCode) and Anthropic&#x27;s endpoint, and captured all requests (and the returned usage blocks).<p>With one caveat (toward the end of the post) we found unambiguously that Claude Code was far more inefficient in terms of its cache strategy and its harness token usage than OpenCode.",
+      "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+      "score": 699,
+      "comments": 390,
+      "owner": "systima"
+    },
+    {
+      "title": "A graph that should be front-page news",
+      "description": "",
+      "url": "https://www.lyrebirddreaming.com/post/the-graph-that-should-be-front-page-news",
+      "score": 687,
+      "comments": 440,
+      "owner": "rakel_rakel"
+    },
+    {
+      "title": "Bonsai 27B: A 27B-Class model that runs on a phone",
+      "description": "",
+      "url": "https://prismml.com/news/bonsai-27b",
+      "score": 681,
+      "comments": 242,
+      "owner": "xenova"
+    },
+    {
+      "title": "Sleep regularity is a stronger predictor of mortality risk than sleep duration (2023)",
+      "description": "",
+      "url": "https://academic.oup.com/sleep/article/47/1/zsad253/7280269",
+      "score": 676,
+      "comments": 350,
+      "owner": "bilsbie"
+    },
+    {
+      "title": "New York City to ban deceptive subscription practices",
+      "description": "<a href=\"https:&#x2F;&#x2F;www.nyc.gov&#x2F;mayors-office&#x2F;news&#x2F;2026&#x2F;07&#x2F;mayor-mamdani-announces-landmark--click-to-cancel--consumer-prot\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nyc.gov&#x2F;mayors-office&#x2F;news&#x2F;2026&#x2F;07&#x2F;mayor-mamdani...</a>",
+      "url": "https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban",
+      "score": 643,
+      "comments": 342,
+      "owner": "randycupertino"
+    },
+    {
+      "title": "I tricked Claude into leaking your deepest, darkest secrets",
+      "description": "",
+      "url": "https://www.ayush.digital/blog/the-memory-heist",
+      "score": 616,
+      "comments": 283,
+      "owner": "macleginn"
+    }
+  ]
+}
