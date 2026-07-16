@@ -1,20 +1,25 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-07-15T16:07:31Z",
+  "changed": true,
+  "fetchedAt": "2026-07-16T05:27:26Z",
   "previousSha": "fc0b9f692459ea7d9e5a5c64948a5878e1bce274",
-  "latestSha": "fc0b9f692459ea7d9e5a5c64948a5878e1bce274",
+  "latestSha": "3f825caafe149b7853ec8c4d1dd7f4553ea6b2a5",
   "repo": "K-Dense-AI/scientific-agent-skills",
   "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "stars": 0,
   "skillCount": 149,
   "latestCommit": {
-    "title": "Enhance Research Lookup Skill: Update documentation and improve backe…",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/fc0b9f692459ea7d9e5a5c64948a5878e1bce274",
-    "sha": "fc0b9f6",
-    "published": "2026-07-14"
+    "title": "Update README.md: Enhance star history chart with responsive design f…",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/3f825caafe149b7853ec8c4d1dd7f4553ea6b2a5",
+    "sha": "3f825ca",
+    "published": "2026-07-15"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "Update README.md: Enhance star history chart with responsive design f…",
+      "sha": "3f825ca",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/3f825caafe149b7853ec8c4d1dd7f4553ea6b2a5"
+    },
     {
       "title": "Enhance Research Lookup Skill: Update documentation and improve backe…",
       "sha": "fc0b9f6",
@@ -34,11 +39,6 @@
       "title": "Merge pull request #209 from dnaerys/onekgpd-update",
       "sha": "708d419",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/708d419d71d04681d799b44027fa70fc82d57399"
-    },
-    {
-      "title": "Merge pull request #155 from Bortlesboat/codex/add-research-grants-re…",
-      "sha": "dbd9d0d",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/dbd9d0dd4d447a190787786dd36cf75586cfcc47"
     }
   ]
 }
