@@ -1,44 +1,44 @@
 {
   "changed": true,
-  "fetchedAt": "2026-07-16T05:22:07Z",
-  "previousSha": "3f03388dc4c183ec0acc92176fcbf3f9b504041e",
-  "latestSha": "8abf819d748b4a3c61f5c0277b712bccc69d4e5c",
+  "fetchedAt": "2026-07-16T15:49:43Z",
+  "previousSha": "8abf819d748b4a3c61f5c0277b712bccc69d4e5c",
+  "latestSha": "fb3bffa0b5d299b939fae959786e222bf699bd25",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "docs: add Bin Hu as third contributor (#124)",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/8abf819d748b4a3c61f5c0277b712bccc69d4e5c",
-    "sha": "8abf819",
+    "title": "Merge pull request #135 from Travisma2233/preview/readme-structure-v2",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/fb3bffa0b5d299b939fae959786e222bf699bd25",
+    "sha": "fb3bffa",
     "published": "2026-07-16"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
     {
-      "title": "docs: add Bin Hu as third contributor (#124)",
-      "sha": "8abf819",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/8abf819d748b4a3c61f5c0277b712bccc69d4e5c"
+      "title": "Merge pull request #135 from Travisma2233/preview/readme-structure-v2",
+      "sha": "fb3bffa",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/fb3bffa0b5d299b939fae959786e222bf699bd25"
     },
     {
-      "title": "Merge pull request #123 from Travisma2233/fix/star-history-cache-busting",
-      "sha": "26147db",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/26147dbaf3ba2fafc242bb1d15d1e07e8933d5c8"
+      "title": "docs: reorganize README structure",
+      "sha": "66c9ad3",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/66c9ad3093e45678fe6300626b5d2f3f6e8a9c10"
     },
     {
-      "title": "fix: refresh cached star history images",
-      "sha": "00ee604",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/00ee604641f5ccae2cf3a331743821a6a57fb855"
+      "title": "Merge pull request #134 from Travisma2233/docs/move-self-operated-bef…",
+      "sha": "97a8647",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/97a8647181e85598adf56c9a7af0b07f7185f967"
     },
     {
-      "title": "Merge pull request #122 from Travisma2233/chore/update-star-history-2…",
-      "sha": "778358d",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/778358dc550f33970888b5c79b38b1fdbd3d29b3"
+      "title": "docs: move self-operated section before contents",
+      "sha": "a9faa21",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/a9faa21df4261c91ca3dbfa93dd56c75cb48ff0f"
     },
     {
-      "title": "feat: nature downloader 出版商授权路径稳定性升级 (#119)",
-      "sha": "d33e55b",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/d33e55bddcd9712da95ded486324686da79ba986"
+      "title": "Merge pull request #133 from Travisma2233/docs/fix-self-operated-section",
+      "sha": "c602bc1",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c602bc14fdbde1e7cc39b848bd75012ac91a98eb"
     }
   ]
 }
