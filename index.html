@@ -8,6 +8,10 @@
   <meta name="theme-color" content="#0d1117">
   <link rel="canonical" href="https://jasper499.github.io/github_clatch/">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="HJL Clatch">
+  <meta name="mobile-web-app-capable" content="yes">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="zh_CN">
   <meta property="og:site_name" content="HJL Clatch">
@@ -56,9 +60,10 @@
       <div class="meta-bar">
         <span class="badge live">自动更新中</span>
         <span class="badge badge-week">GitHub 周期：<strong id="week-label">—</strong></span>
+        <button type="button" id="open-digest-btn" class="badge badge-action">今日摘要</button>
       </div>
       <details class="sync-status-details" id="sync-status-details">
-        <summary>更新状态</summary>
+        <summary>更新状态 / 健康检查</summary>
         <div class="meta-sync-grid" id="meta-sync-grid" aria-label="各栏目最近更新时间">
           <div class="meta-sync-item theme-github" data-platform="github">
             <span class="meta-sync-label">GitHub</span>
@@ -91,7 +96,8 @@
             <strong class="meta-sync-time" id="meta-scientificSkills-at">—</strong>
           </div>
         </div>
-        <p class="meta-sync-hint">计划时间仅供参考，Actions 可能延迟；切换栏目时高亮对应更新时间。</p>
+        <ul class="health-list" id="health-list" aria-label="栏目健康状态"></ul>
+        <p class="meta-sync-hint">健康状态按更新时间与计划频率估算；Actions 延迟可能导致短暂标黄。</p>
       </details>
     </header>
 
@@ -166,6 +172,7 @@
                 <span id="list-new-hint" class="list-new-hint" hidden></span>
               </div>
               <div class="list-toolbar-right">
+                <button type="button" id="pin-source-btn" class="btn-text" aria-pressed="false">钉选栏目</button>
                 <button type="button" id="mark-read-btn" class="btn-text" hidden>全部标为已读</button>
                 <span class="kbd-hint" title="键盘快捷键">j/k · Enter · /</span>
               </div>
@@ -197,6 +204,17 @@
       </p>
     </footer>
   </div>
+
+  <dialog id="digest-dialog" class="digest-dialog" aria-labelledby="digest-title">
+    <div class="digest-header">
+      <h2 id="digest-title">今日摘要</h2>
+      <button type="button" id="digest-close-btn" class="btn-text" aria-label="关闭">关闭</button>
+    </div>
+    <div id="digest-body" class="digest-body">
+      <p class="muted">正在汇总各栏目…</p>
+    </div>
+  </dialog>
+
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/dompurify@3/dist/purify.min.js"></script>
   <script src="js/icons.js"></script>

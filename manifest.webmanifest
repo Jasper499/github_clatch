@@ -1,0 +1,19 @@
+{
+  "name": "HJL Clatch",
+  "short_name": "Clatch",
+  "description": "GitHub / HN / 微博 / 顶刊 / Skills 自动聚合站",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0d1117",
+  "theme_color": "#0d1117",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

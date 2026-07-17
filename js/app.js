@@ -5,6 +5,7 @@ const SOURCES_BASE = "data/sources";
 const DATES_STORAGE_KEY = "hjl-source-dates";
 const SEEN_STORAGE_KEY = "hjl-seen-v1";
 const SEEN_MAX_PER_SOURCE = 400;
+const PINS_STORAGE_KEY = "hjl-pins-v1";
 
 const DEFAULT_CATALOG = [
   {
@@ -63,6 +64,7 @@ const historyCache = {};
 const latestSourceCache = {};
 let suppressHashWrite = false;
 let seenStore = {};
+let pinStore = [];
 let currentSourceRef = null;
 
 const PLATFORM_META = {
@@ -92,12 +94,12 @@ const TRACKED_SKILLS_REPO = {
 };
 
 const META_SYNC_PLATFORMS = [
-  { id: "github", label: "GitHub", schedule: "每周一", field: "githubUpdatedAt" },
-  { id: "hackernews", label: "Hacker News", schedule: "每日 10/22 点", field: "hackernewsUpdatedAt" },
-  { id: "weibo", label: "微博", schedule: "每日 10/22 点", field: "weiboUpdatedAt" },
-  { id: "journals", label: "MRI 顶刊", schedule: "每月 1/15 日", field: "journalsUpdatedAt" },
-  { id: "natureSkills", label: "Nature Skills", schedule: "每日 10/22 点", field: "natureSkillsUpdatedAt" },
-  { id: "scientificSkills", label: "Scientific Skills", schedule: "每日 10/22 点", field: "scientificSkillsUpdatedAt" },
+  { id: "github", label: "GitHub", schedule: "每周一", field: "githubUpdatedAt", maxAgeHours: 8 * 24 },
+  { id: "hackernews", label: "Hacker News", schedule: "每日 10/22 点", field: "hackernewsUpdatedAt", maxAgeHours: 36 },
+  { id: "weibo", label: "微博", schedule: "每日 10/22 点", field: "weiboUpdatedAt", maxAgeHours: 36 },
+  { id: "journals", label: "MRI 顶刊", schedule: "每月 1/15 日", field: "journalsUpdatedAt", maxAgeHours: 20 * 24 },
+  { id: "natureSkills", label: "Nature Skills", schedule: "每日 10/22 点", field: "natureSkillsUpdatedAt", maxAgeHours: 36 },
+  { id: "scientificSkills", label: "Scientific Skills", schedule: "每日 10/22 点", field: "scientificSkillsUpdatedAt", maxAgeHours: 36 },
 ];
 
 function getPlatformMeta(sourceKey) {
@@ -245,6 +247,82 @@ function countNewItems(sourceKey, items) {
   if (!Object.prototype.hasOwnProperty.call(seenStore, sourceKey)) return 0;
   const seen = getSeenSet(sourceKey);
   return (items || []).reduce((n, item) => n + (seen.has(itemFingerprint(item)) ? 0 : 1), 0);
+}
+
+function loadPins() {
+  try {
+    const raw = JSON.parse(localStorage.getItem(PINS_STORAGE_KEY) || "[]");
+    return Array.isArray(raw) ? raw.filter((x) => typeof x === "string") : [];
+  } catch (_) {
+    return [];
+  }
+}
+
+function persistPins() {
+  try {
+    localStorage.setItem(PINS_STORAGE_KEY, JSON.stringify(pinStore));
+  } catch (_) {}
+}
+
+function isPinned(sourceKey) {
+  return pinStore.includes(sourceKey);
+}
+
+function togglePin(sourceKey) {
+  if (!sourceKey) return;
+  if (isPinned(sourceKey)) {
+    pinStore = pinStore.filter((key) => key !== sourceKey);
+  } else {
+    pinStore = [sourceKey, ...pinStore.filter((key) => key !== sourceKey)].slice(0, 12);
+  }
+  persistPins();
+}
+
+function updatePinButton() {
+  const btn = document.getElementById("pin-source-btn");
+  if (!btn) return;
+  const pinned = isPinned(activeSourceKey);
+  btn.textContent = pinned ? "取消钉选" : "钉选栏目";
+  btn.setAttribute("aria-pressed", pinned ? "true" : "false");
+  btn.classList.toggle("is-active", pinned);
+}
+
+function healthStatus(iso, maxAgeHours) {
+  if (!iso) return { level: "bad", label: "无数据" };
+  const ageMs = Date.now() - new Date(iso).getTime();
+  if (Number.isNaN(ageMs)) return { level: "bad", label: "时间异常" };
+  const ageHours = ageMs / 36e5;
+  if (ageHours <= maxAgeHours) return { level: "ok", label: "正常" };
+  if (ageHours <= maxAgeHours * 1.75) return { level: "warn", label: "偏旧" };
+  return { level: "bad", label: "过期" };
+}
+
+function platformForSource(parentId, sourceKey) {
+  return (
+    META_SYNC_PLATFORMS.find((p) => {
+      if (p.id === "journals") return ["mrm", "tmi", "media"].includes(sourceKey);
+      if (p.id === "github") return sourceKey === "github" || sourceKey === "githubActive";
+      if (p.id === "natureSkills") return sourceKey.startsWith("nature");
+      if (p.id === "scientificSkills") return sourceKey.startsWith("scientific");
+      return p.id === parentId || p.id === sourceKey;
+    }) || null
+  );
+}
+
+function renderHealth(data) {
+  const list = document.getElementById("health-list");
+  if (!list) return;
+  list.innerHTML = META_SYNC_PLATFORMS.map((platform) => {
+    const iso = resolveMetaTimestamp(data, platform.field);
+    const status = healthStatus(iso, platform.maxAgeHours || 48);
+    const time = iso ? formatDate(iso) : "暂无记录";
+    return `<li class="health-item health-${status.level}">
+      <span class="health-dot" aria-hidden="true"></span>
+      <span class="health-label">${escapeHtml(platform.label)}</span>
+      <span class="health-status">${escapeHtml(status.label)}</span>
+      <span class="health-time">${escapeHtml(time)}</span>
+    </li>`;
+  }).join("");
 }
 
 function updateNewHints(sourceKey, items) {
@@ -408,6 +486,7 @@ function applyRoute(data, route, { sync = true } = {}) {
     renderTree(data);
     renderMobileNav(data);
     renderMobileSubnav(data);
+    updatePinButton();
     void syncPanel(data, { preserveItemIndex: true });
   }
 }
@@ -791,6 +870,22 @@ function renderMeta(data) {
   }
 
   highlightMetaPlatform(activeParentId);
+  renderHealth(data);
+}
+
+function findSourceMeta(data, sourceKey) {
+  for (const parent of getCatalog(data)) {
+    const child = parent.children?.find((c) => c.sourceKey === sourceKey);
+    if (child) {
+      return {
+        parentId: parent.id,
+        parentLabel: parent.label,
+        sourceKey,
+        label: getSource(data, sourceKey)?.label || child.id,
+      };
+    }
+  }
+  return null;
 }
 
 function renderTree(data) {
@@ -798,7 +893,33 @@ function renderTree(data) {
   const weekLabel = data.weekLabel || "本周精选";
   const tree = document.getElementById("catalog-tree");
 
+  const pinnedBlock =
+    pinStore.length > 0
+      ? `
+    <div class="tree-pins">
+      <div class="tree-pins-title">钉选</div>
+      <ul class="tree-leaves tree-pins-list">
+        ${pinStore
+          .map((sourceKey) => {
+            const meta = findSourceMeta(data, sourceKey);
+            if (!meta) return "";
+            const source = getSource(data, sourceKey);
+            const active = activeSourceKey === sourceKey;
+            return `<li>
+              <button type="button" class="tree-leaf${active ? " active" : ""} ${getParentTheme(meta.parentId)}"
+                data-parent-id="${meta.parentId}" data-source-key="${sourceKey}">
+                <span class="leaf-name"><span class="leaf-pin-mark" aria-hidden="true"></span>${escapeHtml(meta.label)}</span>
+                <span class="leaf-count">${sourceItemCount(source)}</span>
+              </button>
+            </li>`;
+          })
+          .join("")}
+      </ul>
+    </div>`
+      : "";
+
   const weekNode = `
+    ${pinnedBlock}
     <details class="tree-node tree-root" open>
       <summary class="tree-label tree-label-root">
         ${icon("calendar", "icon icon-tree")}
@@ -820,6 +941,7 @@ function renderTree(data) {
                   const count = sourceItemCount(source);
                   const active =
                     activeParentId === parent.id && activeSourceKey === child.sourceKey;
+                  const pinned = isPinned(child.sourceKey) ? " ·钉" : "";
                   return `
                     <li>
                       <button
@@ -828,7 +950,7 @@ function renderTree(data) {
                         data-parent-id="${parent.id}"
                         data-source-key="${child.sourceKey}"
                       >
-                        <span class="leaf-name">${escapeHtml(source?.label || child.id)}</span>
+                        <span class="leaf-name">${escapeHtml(source?.label || child.id)}${pinned}</span>
                         <span class="leaf-count">${count}</span>
                       </button>
                     </li>
@@ -857,6 +979,7 @@ function renderTree(data) {
       renderTree(data);
       renderMobileNav(data);
       renderMobileSubnav(data);
+      updatePinButton();
       void syncPanel(data, { preserveItemIndex: false });
     });
   });
@@ -905,6 +1028,7 @@ function fillCategorySelect(data) {
     renderTree(data);
     renderMobileNav(data);
     renderMobileSubnav(data);
+    updatePinButton();
     void syncPanel(data, { preserveItemIndex: false });
   };
 }
@@ -1275,6 +1399,7 @@ async function syncPanel(data, { preserveItemIndex = true } = {}) {
   }
 
   updateNewHints(activeSourceKey, items);
+  updatePinButton();
   renderItemDetail(items[activeItemIndex], activeItemIndex);
   renderCompactList(source, activeItemIndex);
   writeHashRoute();
@@ -1317,6 +1442,127 @@ function bindMarkRead() {
     markSourceSeen(activeSourceKey, items);
     updateNewHints(activeSourceKey, items);
     renderCompactList(currentSourceRef, activeItemIndex);
+  });
+}
+
+function bindPinButton(data) {
+  const btn = document.getElementById("pin-source-btn");
+  if (!btn || btn.dataset.bound === "1") return;
+  btn.dataset.bound = "1";
+  btn.addEventListener("click", () => {
+    togglePin(activeSourceKey);
+    updatePinButton();
+    renderTree(data);
+  });
+}
+
+async function buildDigest(data) {
+  const body = document.getElementById("digest-body");
+  if (!body) return;
+  body.innerHTML = `<p class="muted">正在汇总各栏目…</p>`;
+
+  const sourceKeys = [];
+  getCatalog(data).forEach((parent) => {
+    parent.children?.forEach((child) => sourceKeys.push(child.sourceKey));
+  });
+
+  const rows = await Promise.all(
+    sourceKeys.map(async (sourceKey) => {
+      try {
+        const source = await resolveSource(data, sourceKey);
+        const items = source?.items || [];
+        bootstrapSeenIfNeeded(sourceKey, items);
+        const newCount = countNewItems(sourceKey, items);
+        const newItems = items.filter((item) => isItemNew(sourceKey, item)).slice(0, 5);
+        const meta = findSourceMeta(data, sourceKey);
+        const updated = getLatestUpdatedAt(data, sourceKey);
+        return {
+          sourceKey,
+          label: meta?.label || source?.label || sourceKey,
+          parentLabel: meta?.parentLabel || "",
+          parentId: meta?.parentId || "github",
+          count: items.length,
+          newCount,
+          newItems,
+          updated,
+        };
+      } catch (_) {
+        return null;
+      }
+    })
+  );
+
+  const valid = rows.filter(Boolean);
+  const totalNew = valid.reduce((n, row) => n + row.newCount, 0);
+  const today = new Date().toLocaleDateString("zh-CN");
+
+  body.innerHTML = `
+    <p class="digest-lead">${escapeHtml(today)} · 共检测到 <strong>${totalNew}</strong> 条相对上次浏览的新内容</p>
+    <div class="digest-grid">
+      ${valid
+        .map((row) => {
+          const platform = platformForSource(row.parentId, row.sourceKey);
+          const health = healthStatus(row.updated, platform?.maxAgeHours || 48);
+          const news =
+            row.newItems.length > 0
+              ? `<ul class="digest-new-list">${row.newItems
+                  .map((item) => `<li>${escapeHtml(item.title || "")}</li>`)
+                  .join("")}${row.newCount > row.newItems.length ? `<li>…另有 ${row.newCount - row.newItems.length} 条</li>` : ""}</ul>`
+              : `<p class="muted digest-empty">暂无新条目</p>`;
+          return `<section class="digest-card ${getParentTheme(row.parentId)}">
+            <header>
+              <h3>${escapeHtml(row.label)}</h3>
+              <span class="health-pill health-${health.level}">${escapeHtml(health.label)}</span>
+            </header>
+            <p class="digest-meta">${row.count} 条 · 新 ${row.newCount} · ${escapeHtml(row.updated ? formatDate(row.updated) : "—")}</p>
+            ${news}
+            <button type="button" class="btn-text digest-jump" data-source-key="${row.sourceKey}">打开栏目</button>
+          </section>`;
+        })
+        .join("")}
+    </div>
+  `;
+
+  body.querySelectorAll(".digest-jump").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const sourceKey = btn.dataset.sourceKey;
+      const meta = findSourceMeta(data, sourceKey);
+      if (!meta) return;
+      activeParentId = meta.parentId;
+      activeSourceKey = sourceKey;
+      searchQuery = "";
+      activeItemIndex = 0;
+      document.getElementById("digest-dialog")?.close();
+      renderTree(data);
+      renderMobileNav(data);
+      renderMobileSubnav(data);
+      updatePinButton();
+      void syncPanel(data, { preserveItemIndex: false });
+    });
+  });
+}
+
+function bindDigest(data) {
+  const openBtn = document.getElementById("open-digest-btn");
+  const dialog = document.getElementById("digest-dialog");
+  const closeBtn = document.getElementById("digest-close-btn");
+  if (!openBtn || !dialog || openBtn.dataset.bound === "1") return;
+  openBtn.dataset.bound = "1";
+  openBtn.addEventListener("click", () => {
+    dialog.showModal();
+    void buildDigest(data);
+  });
+  closeBtn?.addEventListener("click", () => dialog.close());
+  dialog.addEventListener("click", (event) => {
+    if (event.target === dialog) dialog.close();
+  });
+}
+
+function registerServiceWorker() {
+  if (!("serviceWorker" in navigator)) return;
+  const swUrl = new URL("sw.js", window.location.href);
+  navigator.serviceWorker.register(swUrl.href).catch(() => {
+    /* ignore offline registration failures */
   });
 }
 
@@ -1394,6 +1640,7 @@ async function loadContent() {
 
   loadStoredDates();
   seenStore = loadSeenStore();
+  pinStore = loadPins();
 
   try {
     const bust = Date.now();
@@ -1423,7 +1670,11 @@ async function loadContent() {
     renderMobileSubnav(appData);
     bindSearch(appData);
     bindMarkRead();
+    bindPinButton(appData);
+    bindDigest(appData);
     bindKeyboard();
+    updatePinButton();
+    registerServiceWorker();
     await syncPanel(appData, { preserveItemIndex: Boolean(route) });
 
     loading.style.display = "none";

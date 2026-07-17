@@ -2407,3 +2407,270 @@ footer a:hover {
     transition: none !important;
   }
 }
+
+/* —— Low-priority: pins / health / digest / PWA affordances —— */
+
+.badge-action {
+  cursor: pointer;
+  border: 1px solid var(--border-strong);
+  background: var(--accent-soft);
+  color: var(--text);
+  font: inherit;
+  font-size: inherit;
+}
+
+.badge-action:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+#pin-source-btn.is-active {
+  color: var(--star);
+}
+
+.tree-pins {
+  margin: 0 0 0.65rem;
+  padding: 0.55rem 0.5rem 0.35rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: rgba(240, 180, 41, 0.06);
+}
+
+.tree-pins-title {
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--star);
+  margin: 0 0 0.35rem 0.25rem;
+}
+
+.tree-pins-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.leaf-pin-mark {
+  display: inline-block;
+  width: 0.45rem;
+  height: 0.45rem;
+  margin-right: 0.4rem;
+  border-radius: 50%;
+  background: var(--star);
+  vertical-align: middle;
+}
+
+.health-list {
+  list-style: none;
+  margin: 0.85rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 0.4rem;
+}
+
+.health-item {
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  gap: 0.45rem 0.65rem;
+  align-items: center;
+  padding: 0.4rem 0.55rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.02);
+  font-size: 0.78rem;
+}
+
+.health-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: var(--muted);
+}
+
+.health-ok .health-dot {
+  background: var(--success);
+}
+
+.health-warn .health-dot {
+  background: var(--star);
+}
+
+.health-bad .health-dot {
+  background: var(--platform-weibo);
+}
+
+.health-label {
+  color: var(--text);
+}
+
+.health-status {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+}
+
+.health-ok .health-status {
+  color: var(--success);
+}
+
+.health-warn .health-status {
+  color: var(--star);
+}
+
+.health-bad .health-status {
+  color: var(--platform-weibo);
+}
+
+.health-time {
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+}
+
+.digest-dialog {
+  width: min(920px, calc(100vw - 1.5rem));
+  max-height: min(86vh, 900px);
+  margin: auto;
+  padding: 0;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius);
+  background: var(--bg-elevated);
+  color: var(--text);
+  box-shadow: var(--shadow);
+}
+
+.digest-dialog::backdrop {
+  background: rgba(4, 8, 14, 0.72);
+  backdrop-filter: blur(4px);
+}
+
+.digest-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.15rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.digest-header h2 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.digest-body {
+  padding: 1rem 1.15rem 1.25rem;
+  overflow: auto;
+  max-height: calc(min(86vh, 900px) - 4rem);
+}
+
+.digest-lead {
+  margin: 0 0 1rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.digest-lead strong {
+  color: var(--text);
+}
+
+.digest-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 0.75rem;
+}
+
+.digest-card {
+  padding: 0.85rem 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.digest-card header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.35rem;
+}
+
+.digest-card h3 {
+  margin: 0;
+  font-size: 0.92rem;
+}
+
+.digest-meta {
+  margin: 0 0 0.55rem;
+  color: var(--muted);
+  font-size: 0.75rem;
+  font-family: var(--font-mono);
+}
+
+.digest-new-list {
+  margin: 0 0 0.65rem;
+  padding-left: 1.1rem;
+  font-size: 0.8rem;
+  color: var(--text);
+}
+
+.digest-new-list li + li {
+  margin-top: 0.25rem;
+}
+
+.digest-empty {
+  margin: 0 0 0.65rem;
+  font-size: 0.8rem;
+}
+
+.health-pill {
+  flex-shrink: 0;
+  padding: 0.1rem 0.4rem;
+  border-radius: 999px;
+  font-size: 0.68rem;
+  font-family: var(--font-mono);
+  border: 1px solid var(--border);
+}
+
+.health-pill.health-ok {
+  color: var(--success);
+  border-color: rgba(63, 185, 80, 0.45);
+  background: rgba(63, 185, 80, 0.12);
+}
+
+.health-pill.health-warn {
+  color: var(--star);
+  border-color: rgba(240, 180, 41, 0.45);
+  background: rgba(240, 180, 41, 0.12);
+}
+
+.health-pill.health-bad {
+  color: var(--platform-weibo);
+  border-color: var(--platform-weibo-border);
+  background: var(--platform-weibo-soft);
+}
+
+@media (max-width: 720px) {
+  .health-item {
+    grid-template-columns: auto 1fr;
+    grid-template-areas:
+      "dot label"
+      "dot status"
+      "dot time";
+  }
+
+  .health-dot {
+    grid-area: dot;
+  }
+
+  .health-label {
+    grid-area: label;
+  }
+
+  .health-status {
+    grid-area: status;
+  }
+
+  .health-time {
+    grid-area: time;
+  }
+}
