@@ -1,13 +1,13 @@
 /* HJL Clatch service worker — cache shell + recent data for offline reading. */
-const CACHE_SHELL = "clatch-shell-v3";
-const CACHE_DATA = "clatch-data-v3";
+const CACHE_SHELL = "clatch-shell-v4";
+const CACHE_DATA = "clatch-data-v4";
 
 const SHELL_FILES = [
   "./",
   "./index.html",
-  "./css/style.css",
-  "./js/app.js",
-  "./js/icons.js",
+  "./css/style.css?v=4",
+  "./js/app.js?v=4",
+  "./js/icons.js?v=4",
   "./favicon.svg",
   "./manifest.webmanifest",
   "./data/meta.json",
@@ -26,13 +26,16 @@ self.addEventListener("install", (event) => {
 
 self.addEventListener("activate", (event) => {
   event.waitUntil(
-    caches.keys().then((keys) =>
-      Promise.all(
-        keys
-          .filter((key) => key !== CACHE_SHELL && key !== CACHE_DATA)
-          .map((key) => caches.delete(key))
+    caches
+      .keys()
+      .then((keys) =>
+        Promise.all(
+          keys
+            .filter((key) => key !== CACHE_SHELL && key !== CACHE_DATA)
+            .map((key) => caches.delete(key))
+        )
       )
-    ).then(() => self.clients.claim())
+      .then(() => self.clients.claim())
   );
 });
 
@@ -42,6 +45,20 @@ function isDataRequest(url) {
     url.pathname.includes("/data/manifest.json") ||
     url.pathname.includes("/data/sources/") ||
     url.pathname.includes("/data/history/")
+  );
+}
+
+/** App shell that must pick up deploys quickly (avoid sticky cacheFirst). */
+function isFreshShellRequest(url) {
+  const path = url.pathname;
+  return (
+    path.endsWith("/index.html") ||
+    path.endsWith("/") ||
+    path.endsWith("/css/style.css") ||
+    path.endsWith("/js/app.js") ||
+    path.endsWith("/js/icons.js") ||
+    path.endsWith("/sw.js") ||
+    path.endsWith("/manifest.webmanifest")
   );
 }
 
@@ -57,15 +74,9 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  if (req.mode === "navigate") {
+  if (req.mode === "navigate" || isFreshShellRequest(url)) {
     event.respondWith(
-      fetch(req)
-        .then((res) => {
-          const copy = res.clone();
-          caches.open(CACHE_SHELL).then((cache) => cache.put("./index.html", copy));
-          return res;
-        })
-        .catch(() => caches.match("./index.html"))
+      networkFirst(req, CACHE_SHELL).catch(() => caches.match("./index.html"))
     );
     return;
   }
