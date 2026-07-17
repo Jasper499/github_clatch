@@ -19,6 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -31,22 +33,62 @@ jobs:
 
       - name: Commit and push if changed
         id: commit
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/content.json data/history/ data/manifest.json data/scientific-agent-skills-notify.json
           if git diff --staged --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No website data changes."
-          else
-            git commit -m "chore: daily scientific-agent-skills update"
-            git pull --rebase origin main
-            git push
-            echo "changed=true" >> "$GITHUB_OUTPUT"
+            exit 0
           fi
+
+          git commit -m "chore: daily scientific-agent-skills update"
+
+          # content.json 常被其他栏目并发改动；冲突时保留本次 scientific 相关文件
+          for attempt in 1 2 3 4 5; do
+            if git pull --rebase origin main && git push origin HEAD; then
+              echo "changed=true" >> "$GITHUB_OUTPUT"
+              echo "Push succeeded on attempt ${attempt}."
+              exit 0
+            fi
+            echo "Push/rebase failed on attempt ${attempt}, resolving…"
+            git rebase --abort 2>/dev/null || true
+            git fetch origin main
+            if git rebase origin/main; then
+              continue
+            fi
+            # rebase 冲突时：先接受 upstream 的 content/manifest，再重新合并本次 scientific 抓取
+            git checkout --ours -- data/content.json data/manifest.json 2>/dev/null || true
+            git add -- data/content.json data/manifest.json 2>/dev/null || true
+            for path in \
+              data/scientific-agent-skills-notify.json \
+              data/history/scientificSkills \
+              data/history/scientificSkillsCommits
+            do
+              git checkout --theirs -- "$path" 2>/dev/null || true
+              git add -- "$path" 2>/dev/null || true
+            done
+            git diff --name-only --diff-filter=U | while read -r conflicted; do
+              git checkout --ours -- "$conflicted" 2>/dev/null || true
+              git add -- "$conflicted" 2>/dev/null || true
+            done
+            GITHUB_TOKEN="${GITHUB_TOKEN:-}" python scripts/update_scientific_agent_skills.py
+            git add data/content.json data/history/ data/manifest.json data/scientific-agent-skills-notify.json
+            GIT_EDITOR=true git rebase --continue || true
+            sleep $((attempt * 2))
+            continue
+          done
+
+          echo "Failed to push after retries" >&2
+          exit 1
 
       - name: Notify via GitHub Issue
         if: steps.commit.outputs.changed == 'true'
+        continue-on-error: true
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -87,4 +129,5 @@ jobs:
             --label "scientific-skills-notify" || \
           gh issue create \
             --title "$TITLE" \
-            --body-file /tmp/scientific-agent-skills-notify.md
+            --body-file /tmp/scientific-agent-skills-notify.md || \
+          echo "Issue notify failed (non-blocking)."

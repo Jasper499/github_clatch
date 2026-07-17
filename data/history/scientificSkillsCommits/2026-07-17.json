@@ -1,0 +1,177 @@
+{
+  "date": "2026-07-17",
+  "sourceKey": "scientificSkillsCommits",
+  "savedAt": "2026-07-17T02:19:14Z",
+  "label": "最近提交",
+  "description": "最近 15 条提交动态",
+  "updateFrequency": "daily",
+  "repo": "K-Dense-AI/scientific-agent-skills",
+  "latestSha": "3f825caafe149b7853ec8c4d1dd7f4553ea6b2a5",
+  "items": [
+    {
+      "title": "Update README.md: Enhance star history chart with responsive design f…",
+      "description": "Update README.md: Enhance star history chart with responsive design for dark and light themes, and clarify project name change to Scientific Agent Skills.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/3f825caafe149b7853ec8c4d1dd7f4553ea6b2a5",
+      "sha": "3f825ca",
+      "fullSha": "3f825caafe149b7853ec8c4d1dd7f4553ea6b2a5",
+      "owner": "TKassis",
+      "published": "2026-07-15",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Enhance Research Lookup Skill: Update documentation and improve backe…",
+      "description": "Enhance Research Lookup Skill: Update documentation and improve backend routing for manuscript evidence compilation. The skill now targets 60 verified references, producing structured research packets. Adjusted descriptions in README and SKILL.md for clarity, and removed outdated test file.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/fc0b9f692459ea7d9e5a5c64948a5878e1bce274",
+      "sha": "fc0b9f6",
+      "fullSha": "fc0b9f692459ea7d9e5a5c64948a5878e1bce274",
+      "owner": "TKassis",
+      "published": "2026-07-14",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Delete redundant files",
+      "description": "Delete redundant files",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/cd77d3f3010697815e23cc66be37366c867be640",
+      "sha": "cd77d3f",
+      "fullSha": "cd77d3f3010697815e23cc66be37366c867be640",
+      "owner": "TKassis",
+      "published": "2026-07-13",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Update parallel-web skill",
+      "description": "Update parallel-web skill",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/04330336f86d7b39930bd09a8d10e1b47d4d927b",
+      "sha": "0433033",
+      "fullSha": "04330336f86d7b39930bd09a8d10e1b47d4d927b",
+      "owner": "TKassis",
+      "published": "2026-07-13",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Merge pull request #209 from dnaerys/onekgpd-update",
+      "description": "Merge pull request #209 from dnaerys/onekgpd-update\n\nfeat(skills): update onekgpd to v1.2",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/708d419d71d04681d799b44027fa70fc82d57399",
+      "sha": "708d419",
+      "fullSha": "708d419d71d04681d799b44027fa70fc82d57399",
+      "owner": "TKassis",
+      "published": "2026-07-13",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Merge pull request #155 from Bortlesboat/codex/add-research-grants-re…",
+      "description": "Merge pull request #155 from Bortlesboat/codex/add-research-grants-references\n\ndocs: add missing research grants references",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/dbd9d0dd4d447a190787786dd36cf75586cfcc47",
+      "sha": "dbd9d0d",
+      "fullSha": "dbd9d0dd4d447a190787786dd36cf75586cfcc47",
+      "owner": "TKassis",
+      "published": "2026-07-13",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "chore: update security scan report [skip ci]",
+      "description": "chore: update security scan report [skip ci]",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/e12d68309994d5643c7c2ee00ce883f570916b7d",
+      "sha": "e12d683",
+      "fullSha": "e12d68309994d5643c7c2ee00ce883f570916b7d",
+      "owner": "github-actions",
+      "published": "2026-07-13",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "feat(skills): onekgpd v1.2: retargets the Dnaerys Client v0.2.1 requi…",
+      "description": "feat(skills): onekgpd v1.2: retargets the Dnaerys Client v0.2.1 required for Python 3.11 support",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/aa716d029ddcf2fdda3039038fc3d8949816227d",
+      "sha": "aa716d0",
+      "fullSha": "aa716d029ddcf2fdda3039038fc3d8949816227d",
+      "owner": "de-grave",
+      "published": "2026-07-10",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "feat(skills): onekgpd v1.1: retargets the Dnaerys Client v0.2.0 requi…",
+      "description": "feat(skills): onekgpd v1.1: retargets the Dnaerys Client v0.2.0 required for the latest KGP live database",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/1e2f2dcca8d8aa3420c6f839620a8035d5508e37",
+      "sha": "1e2f2dc",
+      "fullSha": "1e2f2dcca8d8aa3420c6f839620a8035d5508e37",
+      "owner": "de-grave",
+      "published": "2026-07-07",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "chore: update security scan report [skip ci]",
+      "description": "chore: update security scan report [skip ci]",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/4d97e293dc6f604fb6b63dcd49b9028df413d65b",
+      "sha": "4d97e29",
+      "fullSha": "4d97e293dc6f604fb6b63dcd49b9028df413d65b",
+      "owner": "github-actions",
+      "published": "2026-07-06",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Update optimize-for-gpu and paper-lookup skills",
+      "description": "Update optimize-for-gpu and paper-lookup skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/26fd7a84512acdb6f00b40a4f4675cacf22cb2df",
+      "sha": "26fd7a8",
+      "fullSha": "26fd7a84512acdb6f00b40a4f4675cacf22cb2df",
+      "owner": "TKassis",
+      "published": "2026-07-04",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Update research-lookup and statistical-analysis skills",
+      "description": "Update research-lookup and statistical-analysis skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/afa84b445efc132a8553b776077f8c648e114c08",
+      "sha": "afa84b4",
+      "fullSha": "afa84b445efc132a8553b776077f8c648e114c08",
+      "owner": "TKassis",
+      "published": "2026-07-04",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Enhance database lookup skill documentation and API interaction. Upda…",
+      "description": "Enhance database lookup skill documentation and API interaction. Updated descriptions for clarity, improved retrieval contract guidelines, and added new API version checks for ClinicalTrials.gov. Adjusted AlphaFold references to reflect current file URLs and versioning. Incremented skill version to 1.2.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/1e024ea8547ada12039edbe8197aaa959d97763f",
+      "sha": "1e024ea",
+      "fullSha": "1e024ea8547ada12039edbe8197aaa959d97763f",
+      "owner": "TKassis",
+      "published": "2026-07-01",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Merge pull request #203 from dnaerys/onekgpd",
+      "description": "Merge pull request #203 from dnaerys/onekgpd\n\nfeat(skills): add onekgpd skill: individual-level queries over the 1000 Genomes variant dataset",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/0807ddbc5ceae9c76162198b6909c63d88a1e38a",
+      "sha": "0807ddb",
+      "fullSha": "0807ddbc5ceae9c76162198b6909c63d88a1e38a",
+      "owner": "TKassis",
+      "published": "2026-06-29",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Update README and documentation to reflect the addition of 2 new skil…",
+      "description": "Update README and documentation to reflect the addition of 2 new skills, increasing the total to 148. Updated version badge to 2.53.0 and made minor adjustments for clarity in the skills documentation.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/50a46b2d217024527382f2c03099fc529038ef8d",
+      "sha": "50a46b2",
+      "fullSha": "50a46b2d217024527382f2c03099fc529038ef8d",
+      "owner": "TKassis",
+      "published": "2026-06-29",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """Fetch K-Dense-AI/scientific-agent-skills via jsDelivr (+ optional Atom commits).
 
 As of upstream v2.43.0, skills live under `skills/` (not `scientific-skills/`).
@@ -31,6 +32,7 @@ USER_AGENT = "clatch-scientific-agent-skills-updater/1.0"
 SKILL_README_MAX = 25_000
 COMMITS_LIMIT = 15
 FETCH_WORKERS = 8
+MIN_SKILLS_OK = 50
 
 
 def _utc_now_iso() -> str:
@@ -102,6 +104,7 @@ def list_skill_names_via_github_api() -> list[str]:
         return []
 
     if not isinstance(data, list):
+        print(f"GitHub API 返回非列表（可能目录过大），已忽略: {type(data).__name__}", file=sys.stderr)
         return []
     names = []
     for entry in data:
@@ -111,6 +114,7 @@ def list_skill_names_via_github_api() -> list[str]:
         if not name or name.startswith("_") or name.startswith("."):
             continue
         names.append(name)
+    print(f"  GitHub API 枚举到 {len(names)} 个")
     return sorted(names)
 
 
@@ -135,14 +139,18 @@ def list_skill_names_via_jsdelivr() -> list[str]:
             legacy = node
 
     names = _names_from_tree_node(preferred) or _names_from_tree_node(legacy)
+    print(f"  jsDelivr 枚举到 {len(names)} 个")
     return sorted(names)
 
 
 def list_skill_names() -> list[str]:
-    names = list_skill_names_via_github_api()
-    if names:
-        return names
-    return list_skill_names_via_jsdelivr()
+    """Merge GitHub API + jsDelivr names; either source alone is enough."""
+    merged = set(list_skill_names_via_jsdelivr())
+    for name in list_skill_names_via_github_api():
+        merged.add(name)
+    names = sorted(merged)
+    print(f"合并去重后共 {len(names)} 个 Skill 目录")
+    return names
 
 
 def fetch_commits_from_atom(limit: int = COMMITS_LIMIT) -> list[dict]:
@@ -236,8 +244,13 @@ def fetch_skills(names: list[str]) -> list[dict]:
     with ThreadPoolExecutor(max_workers=FETCH_WORKERS) as pool:
         futures = {pool.submit(_fetch_one_skill, name): name for name in names}
         for future in as_completed(futures):
+            name = futures[future]
             done += 1
-            item = future.result()
+            try:
+                item = future.result()
+            except Exception as exc:  # noqa: BLE001
+                print(f"跳过 {name}: 线程异常 {exc}", file=sys.stderr)
+                item = None
             if item:
                 items.append(item)
             if done % 20 == 0 or done == total:
@@ -311,8 +324,14 @@ def build_scientific_skills_payload() -> dict:
 
     print(f"正在抓取 {len(skill_names)} 个 Skill…")
     skills = fetch_skills(skill_names)
-    if not skills:
-        raise RuntimeError("未能获取任何 Skill 内容")
+    if len(skills) < MIN_SKILLS_OK:
+        raise RuntimeError(f"Skill 抓取过少（{len(skills)}/{len(skill_names)}），放弃写入")
+
+    if len(skills) < len(skill_names):
+        print(
+            f"警告: 仅成功 {len(skills)}/{len(skill_names)}，仍超过阈值 {MIN_SKILLS_OK}，继续写入",
+            file=sys.stderr,
+        )
 
     readme = ""
     try:
