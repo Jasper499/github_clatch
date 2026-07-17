@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-07-17T05:21:18Z",
+  "updatedAt": "2026-07-17T13:58:45Z",
   "periodDays": 7,
   "weekLabel": "2026-07-06 ~ 2026-07-13",
   "githubUpdatedAt": "2026-07-13T04:23:21Z",
   "hackernewsUpdatedAt": "2026-07-16T15:25:40Z",
-  "weiboUpdatedAt": "2026-07-17T05:21:18Z",
+  "weiboUpdatedAt": "2026-07-17T13:58:45Z",
   "journalsUpdatedAt": "2026-07-15T04:40:50Z",
   "natureSkillsUpdatedAt": "2026-07-16T15:49:43Z",
   "scientificSkillsUpdatedAt": "2026-07-17T02:19:13Z",
@@ -112,7 +112,7 @@
     },
     "weibo": {
       "label": "微博热搜",
-      "description": "当日微博实时热搜榜（2026-07-17，共 30 条，每日 10:00/22:00 更新）",
+      "description": "当日微博实时热搜榜（2026-07-17，共 30 条，每 6 小时更新）",
       "updateFrequency": "twice-daily",
       "fetchedDate": "2026-07-17",
       "itemCount": 30
@@ -168,5 +168,5 @@
       "itemCount": 15
     }
   },
-  "generatedAt": "2026-07-17T05:21:18Z"
+  "generatedAt": "2026-07-17T13:58:45Z"
 }
