@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="每周自动更新的 GitHub 热门项目与技术社区精选">
-  <title>HJL· 自动获取最新内容网站</title>
+  <meta name="description" content="定时自动更新的HJL的网站">
+  <title>One Piece· HJL专属网站</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
         document.documentElement.setAttribute("data-theme", theme);
         document.documentElement.setAttribute("data-platform", "github");
       } catch (e) {
-        document.documentElement.setAttribute("data-theme", "dark");
+        document.documentElement.setAttribute("data-theme", "blue");
         document.documentElement.setAttribute("data-platform", "github");
       }
     })();
@@ -30,15 +30,15 @@
     <div class="page-bg__orb page-bg__orb--3"></div>
     <div class="page-bg__mesh"></div>
   </div>
-  <button id="theme-toggle" class="theme-toggle" type="button" aria-label="切换浅色/深色模式" title="切换主题">
+  <button id="theme-toggle" class="theme-toggle" type="button" aria-label="切换浅/深色模式" title="切换主题模式">
     <span class="theme-toggle-icon theme-icon-dark"></span>
     <span class="theme-toggle-icon theme-icon-light"></span>
   </button>
   <div class="container">
     <header class="site-header">
       <div class="site-logo">HJL</div>
-      <h1>HJL 自动获取最新内容网站</h1>
-      <p>按「本周 → 平台 → 分类」目录浏览，支持下拉快速定位条目。</p>
+      <h1>One Piece HJL的网站</h1>
+      <p>支持快速获取想要的更新内容，夯爆了</p>
       <div class="meta-bar">
         <span class="badge live">已启用自动更新</span>
         <span class="badge badge-week">GitHub 周期：<strong id="week-label">—</strong></span>
@@ -60,7 +60,7 @@
           <strong class="meta-sync-time" id="meta-weibo-at">—</strong>
         </div>
         <div class="meta-sync-item theme-journals" data-platform="journals">
-          <span class="meta-sync-label">MRI 顶刊</span>
+          <span class="meta-sync-label">MRI 顶刊/顶会</span>
           <span class="meta-sync-schedule">每月 1/15 日</span>
           <strong class="meta-sync-time" id="meta-journals-at">—</strong>
         </div>
