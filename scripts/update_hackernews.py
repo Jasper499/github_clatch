@@ -15,7 +15,7 @@ from fetch_hackernews import (
     hackernews_source_meta,
     iso_date_today,
 )
-from history import save_source_snapshot
+from history import publish_content_artifacts, save_source_snapshot
 
 ROOT = Path(__file__).resolve().parent.parent
 OUTPUT = ROOT / "data" / "content.json"
@@ -66,6 +66,7 @@ def main() -> int:
         f.write("\n")
 
     save_source_snapshot("hackernews", content["sources"]["hackernews"])
+    publish_content_artifacts(content)
 
     print(f"已写入 {OUTPUT}")
     print(f"  Hacker News: {len(items)} 条")

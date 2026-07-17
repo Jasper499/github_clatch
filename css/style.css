@@ -1304,6 +1304,48 @@ body::after {
 
 /* ── Compact list ── */
 
+.panel-split {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.95fr) minmax(320px, 1.15fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.list-pane {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.02);
+  overflow: hidden;
+  backdrop-filter: blur(8px);
+  min-height: 280px;
+}
+
+.list-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.7rem 1rem;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.84rem;
+}
+
+.list-count {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  color: var(--text);
+}
+
+.list-filter-hint {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-family: var(--font-mono);
+}
+
+.search-input {
+  width: 100%;
+}
+
 .compact-list-panel {
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
@@ -1335,6 +1377,42 @@ body::after {
   scrollbar-color: var(--border-strong) transparent;
 }
 
+.compact-list--primary {
+  max-height: min(68vh, 760px);
+  border-top: none;
+}
+
+.compact-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: stretch;
+  border-bottom: 1px solid rgba(36, 48, 68, 0.5);
+}
+
+.compact-row:last-child {
+  border-bottom: none;
+}
+
+.compact-external {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.4rem;
+  color: var(--muted);
+  border-left: 1px solid rgba(36, 48, 68, 0.45);
+}
+
+.compact-external:hover {
+  color: var(--text);
+  background: var(--surface-hover);
+}
+
+.compact-external--empty {
+  width: 0.5rem;
+  border: none;
+  pointer-events: none;
+}
+
 .compact-list::-webkit-scrollbar {
   width: 6px;
 }
@@ -1347,12 +1425,12 @@ body::after {
 .compact-item {
   width: 100%;
   display: grid;
-  grid-template-columns: 2rem 1fr auto;
+  grid-template-columns: 2rem 1fr;
   gap: 0.65rem;
   align-items: center;
-  padding: 0.65rem 1rem;
+  padding: 0.65rem 0.85rem 0.65rem 1rem;
   border: none;
-  border-bottom: 1px solid rgba(36, 48, 68, 0.5);
+  border-bottom: none;
   background: transparent;
   color: var(--text);
   text-align: left;
@@ -2143,6 +2221,14 @@ footer a:hover {
 
   .controls {
     grid-template-columns: 1fr;
+  }
+
+  .panel-split {
+    grid-template-columns: 1fr;
+  }
+
+  .compact-list--primary {
+    max-height: min(48vh, 420px);
   }
 
   .site-header {

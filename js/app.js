@@ -1,5 +1,7 @@
 const DATA_URL = "data/content.json";
+const META_URL = "data/meta.json";
 const MANIFEST_URL = "data/manifest.json";
+const SOURCES_BASE = "data/sources";
 const DATES_STORAGE_KEY = "hjl-source-dates";
 
 const DEFAULT_CATALOG = [
@@ -52,8 +54,12 @@ let appData = null;
 let manifest = null;
 let activeParentId = "github";
 let activeSourceKey = "github";
+let activeItemIndex = 0;
+let searchQuery = "";
 let selectedDates = {};
 const historyCache = {};
+const latestSourceCache = {};
+let suppressHashWrite = false;
 
 const PLATFORM_META = {
   github: { theme: "theme-github", short: "GH", name: "GitHub" },
@@ -193,7 +199,34 @@ function getLatestUpdatedAt(data, sourceKey) {
 
 async function resolveSource(data, sourceKey = activeSourceKey) {
   const dateKey = selectedDates[sourceKey] || "latest";
-  if (dateKey === "latest") return getSource(data, sourceKey);
+  if (dateKey === "latest") {
+    if (latestSourceCache[sourceKey]) return latestSourceCache[sourceKey];
+
+    const url = `${SOURCES_BASE}/${sourceKey}.json`;
+    try {
+      const res = await fetch(`${url}?t=${Date.now()}`);
+      if (res.ok) {
+        const snapshot = await res.json();
+        latestSourceCache[sourceKey] = snapshot;
+        if (data.sources?.[sourceKey]) {
+          data.sources[sourceKey].itemCount = (snapshot.items || []).length;
+          data.sources[sourceKey].label = snapshot.label || data.sources[sourceKey].label;
+          data.sources[sourceKey].description =
+            snapshot.description || data.sources[sourceKey].description;
+        }
+        return snapshot;
+      }
+    } catch (_) {
+      /* fall through to embedded content.json sources */
+    }
+
+    const embedded = getSource(data, sourceKey);
+    if (embedded?.items) {
+      latestSourceCache[sourceKey] = embedded;
+      return embedded;
+    }
+    throw new Error(`栏目数据加载失败 (${sourceKey})`);
+  }
 
   const cacheKey = `${sourceKey}:${dateKey}`;
   if (historyCache[cacheKey]) return historyCache[cacheKey];
@@ -218,6 +251,70 @@ function getCatalog(data) {
 
 function getSource(data, key) {
   return data.sources?.[key] ?? null;
+}
+
+function sourceItemCount(source) {
+  if (!source) return 0;
+  if (Array.isArray(source.items)) return source.items.length;
+  if (source.itemCount != null) return Number(source.itemCount) || 0;
+  return 0;
+}
+
+function filterItems(items) {
+  const q = searchQuery.trim().toLowerCase();
+  if (!q) {
+    return items.map((item, index) => ({ item, index }));
+  }
+  return items
+    .map((item, index) => ({ item, index }))
+    .filter(({ item }) => {
+      const hay = `${item.title || ""} ${item.description || ""} ${item.owner || ""} ${item.label || ""} ${item.sha || ""}`.toLowerCase();
+      return hay.includes(q);
+    });
+}
+
+function parseHashRoute() {
+  const raw = (location.hash || "").replace(/^#\/?/, "").trim();
+  if (!raw) return null;
+  const parts = raw.split("/").map((p) => decodeURIComponent(p));
+  const [sourceKey, dateKey = "latest", indexRaw = "0"] = parts;
+  if (!sourceKey) return null;
+  const itemIndex = Math.max(0, Number.parseInt(indexRaw, 10) || 0);
+  return { sourceKey, dateKey: dateKey || "latest", itemIndex };
+}
+
+function writeHashRoute() {
+  if (suppressHashWrite) return;
+  const dateKey = selectedDates[activeSourceKey] || "latest";
+  const next = `#/${encodeURIComponent(activeSourceKey)}/${encodeURIComponent(dateKey)}/${activeItemIndex}`;
+  if (location.hash === next) return;
+  history.replaceState(null, "", next);
+}
+
+function findParentIdForSource(data, sourceKey) {
+  for (const parent of getCatalog(data)) {
+    if (parent.children?.some((child) => child.sourceKey === sourceKey)) {
+      return parent.id;
+    }
+  }
+  return null;
+}
+
+function applyRoute(data, route, { sync = true } = {}) {
+  if (!route?.sourceKey) return;
+  const parentId = findParentIdForSource(data, route.sourceKey);
+  if (!parentId) return;
+  activeParentId = parentId;
+  activeSourceKey = route.sourceKey;
+  selectedDates[activeSourceKey] = route.dateKey || "latest";
+  activeItemIndex = route.itemIndex || 0;
+  persistDates();
+  if (sync) {
+    renderTree(data);
+    renderMobileNav(data);
+    renderMobileSubnav(data);
+    void syncPanel(data, { preserveItemIndex: true });
+  }
 }
 
 function platformIcon(parentId) {
@@ -276,6 +373,10 @@ function renderMobileNav(data) {
       if (!parent?.children?.length) return;
       activeParentId = parentId;
       activeSourceKey = parent.children[0].sourceKey;
+      searchQuery = "";
+      activeItemIndex = 0;
+      const searchInput = document.getElementById("search-input");
+      if (searchInput) searchInput.value = "";
       renderTree(data);
       renderMobileNav(data);
       void syncPanel(data, { preserveItemIndex: false });
@@ -556,6 +657,10 @@ function renderMobileSubnav(data) {
   nav.querySelectorAll(".mobile-chip").forEach((btn) => {
     btn.addEventListener("click", () => {
       activeSourceKey = btn.dataset.sourceKey;
+      searchQuery = "";
+      activeItemIndex = 0;
+      const searchInput = document.getElementById("search-input");
+      if (searchInput) searchInput.value = "";
       renderTree(data);
       renderMobileNav(data);
       renderMobileSubnav(data);
@@ -617,7 +722,7 @@ function renderTree(data) {
               ${parent.children
                 .map((child) => {
                   const source = getSource(data, child.sourceKey);
-                  const count = source?.items?.length ?? 0;
+                  const count = sourceItemCount(source);
                   const active =
                     activeParentId === parent.id && activeSourceKey === child.sourceKey;
                   return `
@@ -650,10 +755,14 @@ function renderTree(data) {
     btn.addEventListener("click", () => {
       activeParentId = btn.dataset.parentId;
       activeSourceKey = btn.dataset.sourceKey;
+      searchQuery = "";
+      activeItemIndex = 0;
+      const searchInput = document.getElementById("search-input");
+      if (searchInput) searchInput.value = "";
       renderTree(data);
       renderMobileNav(data);
       renderMobileSubnav(data);
-      void syncPanel(data);
+      void syncPanel(data, { preserveItemIndex: false });
     });
   });
 }
@@ -694,6 +803,10 @@ function fillCategorySelect(data) {
 
   select.onchange = () => {
     activeSourceKey = select.value;
+    searchQuery = "";
+    activeItemIndex = 0;
+    const searchInput = document.getElementById("search-input");
+    if (searchInput) searchInput.value = "";
     renderTree(data);
     renderMobileNav(data);
     renderMobileSubnav(data);
@@ -724,6 +837,12 @@ function fillDateSelect(data) {
   select.onchange = () => {
     selectedDates[activeSourceKey] = select.value;
     persistDates();
+    searchQuery = "";
+    activeItemIndex = 0;
+    const searchInput = document.getElementById("search-input");
+    if (searchInput) searchInput.value = "";
+    // bust latest cache when returning to latest after history
+    if (select.value === "latest") delete latestSourceCache[activeSourceKey];
     void syncPanel(data, { preserveItemIndex: false });
   };
 }
@@ -756,26 +875,17 @@ function itemSummary(item, index) {
 
 function fillItemSelect(source, preferredIndex = 0) {
   const items = source?.items || [];
-  const select = document.getElementById("item-select");
+  if (!items.length) return 0;
+  return Math.min(Math.max(0, preferredIndex), items.length - 1);
+}
 
-  if (!items.length) {
-    select.innerHTML = `<option value="">暂无条目</option>`;
-    select.disabled = true;
-    return 0;
-  }
-
-  select.disabled = false;
-  select.innerHTML = items
-    .map(
-      (item, index) =>
-        `<option value="${index}">${escapeHtml(itemSummary(item, index))}</option>`
-    )
-    .join("");
-
-  const index = Math.min(Math.max(preferredIndex, 0), items.length - 1);
-  select.value = String(index);
-  select.onchange = () => renderItemDetail(items[Number(select.value)], Number(select.value));
-  return index;
+function selectListItem(source, index) {
+  const items = source?.items || [];
+  if (!items.length) return;
+  activeItemIndex = Math.min(Math.max(0, index), items.length - 1);
+  renderItemDetail(items[activeItemIndex], activeItemIndex);
+  renderCompactList(source, activeItemIndex);
+  writeHashRoute();
 }
 
 function renderItemDetail(item, index) {
@@ -964,48 +1074,45 @@ function renderTrackedSkillsDetail(item, index, platform) {
 function renderCompactList(source, activeIndex) {
   const items = source?.items || [];
   const list = document.getElementById("compact-list");
+  const filtered = filterItems(items);
+  const hint = document.getElementById("list-filter-hint");
 
-  document.getElementById("item-count").textContent = String(items.length);
+  document.getElementById("item-count").textContent = String(filtered.length);
 
-  if (!items.length) {
-    list.innerHTML = `<li class="compact-empty">暂无条目</li>`;
+  if (hint) {
+    if (searchQuery.trim()) {
+      hint.hidden = false;
+      hint.textContent = `匹配 ${filtered.length} / ${items.length}`;
+    } else {
+      hint.hidden = true;
+      hint.textContent = "";
+    }
+  }
+
+  if (!filtered.length) {
+    list.innerHTML = `<li class="compact-empty">${items.length ? "无匹配条目" : "暂无条目"}</li>`;
     return;
   }
 
-  list.innerHTML = items
-    .map((item, index) => {
+  list.innerHTML = filtered
+    .map(({ item, index }) => {
       const active = index === activeIndex ? " active" : "";
       const meta = itemCompactMeta(item);
-      const inner = `
-        <span class="compact-rank">${index + 1}</span>
-        <div class="compact-body${isJournalSource(activeSourceKey) ? " compact-body-journal" : ""}">
-          <span class="compact-title">${escapeHtml(item.title)}</span>
-          ${meta ? `<span class="compact-meta">${escapeHtml(meta)}</span>` : ""}
-        </div>
-        ${item.url ? icon("external", "icon icon-compact") : ""}
-      `;
-
       const journalClass = isJournalSource(activeSourceKey) ? " compact-item-journal" : "";
-
-      if (item.url) {
-        return `
-      <li>
-        <a
-          href="${escapeHtml(item.url)}"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="compact-item${active}${journalClass}"
-          data-index="${index}"
-        >${inner}</a>
-      </li>
-    `;
-      }
+      const external = item.url
+        ? `<a class="compact-external" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer" title="打开原链接" aria-label="打开原链接">${icon("external", "icon icon-compact")}</a>`
+        : `<span class="compact-external compact-external--empty"></span>`;
 
       return `
-      <li>
+      <li class="compact-row">
         <button type="button" class="compact-item${active}${journalClass}" data-index="${index}">
-          ${inner}
+          <span class="compact-rank">${index + 1}</span>
+          <div class="compact-body${isJournalSource(activeSourceKey) ? " compact-body-journal" : ""}">
+            <span class="compact-title">${escapeHtml(item.title)}</span>
+            ${meta ? `<span class="compact-meta">${escapeHtml(meta)}</span>` : ""}
+          </div>
         </button>
+        ${external}
       </li>
     `;
     })
@@ -1013,21 +1120,7 @@ function renderCompactList(source, activeIndex) {
 
   list.querySelectorAll("button.compact-item").forEach((el) => {
     el.addEventListener("click", () => {
-      const index = Number(el.dataset.index);
-      document.getElementById("item-select").value = String(index);
-      renderItemDetail(items[index], index);
-      renderCompactList(source, index);
-    });
-  });
-
-  list.querySelectorAll("a.compact-item").forEach((el) => {
-    el.addEventListener("click", () => {
-      const index = Number(el.dataset.index);
-      document.getElementById("item-select").value = String(index);
-      renderItemDetail(items[index], index);
-      list.querySelectorAll(".compact-item").forEach((node) => {
-        node.classList.toggle("active", Number(node.dataset.index) === index);
-      });
+      selectListItem(source, Number(el.dataset.index));
     });
   });
 }
@@ -1042,19 +1135,19 @@ async function syncPanel(data, { preserveItemIndex = true } = {}) {
     document.getElementById("compact-list").innerHTML = `<li class="compact-empty">暂无条目</li>`;
     document.getElementById("item-detail").innerHTML =
       `<div class="detail-body"><div class="empty-state"><p>${escapeHtml(err.message)}</p></div></div>`;
+    writeHashRoute();
     return;
   }
 
   const items = source?.items || [];
-  const previousIndex = preserveItemIndex
-    ? Number(document.getElementById("item-select").value) || 0
-    : 0;
+  const previousIndex = preserveItemIndex ? activeItemIndex : 0;
   const dateKey = selectedDates[activeSourceKey] || "latest";
 
   renderBreadcrumb(data, source);
   fillCategorySelect(data);
   fillDateSelect(data);
   applyPanelTheme();
+  highlightMetaPlatform(activeParentId);
 
   let desc = source?.description || "";
   if (dateKey !== "latest") {
@@ -1067,10 +1160,48 @@ async function syncPanel(data, { preserveItemIndex = true } = {}) {
   renderJournalStats(data, source);
   renderMobileSubnav(data);
 
-  const activeIndex = fillItemSelect(source, previousIndex);
-  renderItemDetail(items[activeIndex], activeIndex);
-  renderCompactList(source, activeIndex);
+  const searchInput = document.getElementById("search-input");
+  if (searchInput && searchInput.value !== searchQuery) {
+    searchInput.value = searchQuery;
+  }
+
+  activeItemIndex = fillItemSelect(source, previousIndex);
+  const filtered = filterItems(items);
+  if (filtered.length && !filtered.some(({ index }) => index === activeItemIndex)) {
+    activeItemIndex = filtered[0].index;
+  }
+
+  renderItemDetail(items[activeItemIndex], activeItemIndex);
+  renderCompactList(source, activeItemIndex);
+  writeHashRoute();
   triggerPanelFade();
+}
+
+function bindSearch(data) {
+  const input = document.getElementById("search-input");
+  if (!input || input.dataset.bound === "1") return;
+  input.dataset.bound = "1";
+  let timer = null;
+  input.addEventListener("input", () => {
+    searchQuery = input.value || "";
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+      void (async () => {
+        try {
+          const source = await resolveSource(data, activeSourceKey);
+          const filtered = filterItems(source?.items || []);
+          if (filtered.length && !filtered.some(({ index }) => index === activeItemIndex)) {
+            activeItemIndex = filtered[0].index;
+          }
+          renderItemDetail((source?.items || [])[activeItemIndex], activeItemIndex);
+          renderCompactList(source, activeItemIndex);
+          writeHashRoute();
+        } catch (_) {
+          /* ignore */
+        }
+      })();
+    }, 120);
+  });
 }
 
 async function loadContent() {
@@ -1082,19 +1213,33 @@ async function loadContent() {
   loadStoredDates();
 
   try {
-    const [contentRes, manifestRes] = await Promise.all([
-      fetch(`${DATA_URL}?t=${Date.now()}`),
-      fetch(`${MANIFEST_URL}?t=${Date.now()}`),
+    const bust = Date.now();
+    const [metaRes, manifestRes] = await Promise.all([
+      fetch(`${META_URL}?t=${bust}`),
+      fetch(`${MANIFEST_URL}?t=${bust}`),
     ]);
-    if (!contentRes.ok) throw new Error(`HTTP ${contentRes.status}`);
-    appData = await contentRes.json();
+
+    if (metaRes.ok) {
+      appData = await metaRes.json();
+    } else {
+      const contentRes = await fetch(`${DATA_URL}?t=${bust}`);
+      if (!contentRes.ok) throw new Error(`HTTP ${contentRes.status}`);
+      appData = await contentRes.json();
+    }
+
     manifest = manifestRes.ok ? await manifestRes.json() : { sources: {} };
+
+    const route = parseHashRoute();
+    suppressHashWrite = true;
+    if (route) applyRoute(appData, route, { sync: false });
+    suppressHashWrite = false;
 
     renderMeta(appData);
     renderTree(appData);
     renderMobileNav(appData);
     renderMobileSubnav(appData);
-    await syncPanel(appData, { preserveItemIndex: false });
+    bindSearch(appData);
+    await syncPanel(appData, { preserveItemIndex: Boolean(route) });
 
     loading.style.display = "none";
     document.getElementById("mobile-nav").hidden = false;
@@ -1107,6 +1252,15 @@ async function loadContent() {
       `加载失败：${err.message}。若本地预览，请用 HTTP 服务器打开（见 README）。`;
   }
 }
+
+window.addEventListener("hashchange", () => {
+  if (!appData) return;
+  const route = parseHashRoute();
+  if (!route) return;
+  suppressHashWrite = true;
+  applyRoute(appData, route, { sync: true });
+  suppressHashWrite = false;
+});
 
 initThemeToggle();
 loadContent();

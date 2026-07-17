@@ -1,0 +1,172 @@
+{
+  "updatedAt": "2026-07-17T02:19:13Z",
+  "periodDays": 7,
+  "weekLabel": "2026-07-06 ~ 2026-07-13",
+  "githubUpdatedAt": "2026-07-13T04:23:21Z",
+  "hackernewsUpdatedAt": "2026-07-16T15:25:40Z",
+  "weiboUpdatedAt": "2026-07-16T15:45:00Z",
+  "journalsUpdatedAt": "2026-07-15T04:40:50Z",
+  "natureSkillsUpdatedAt": "2026-07-16T15:49:43Z",
+  "scientificSkillsUpdatedAt": "2026-07-17T02:19:13Z",
+  "natureSkillsLatestSha": "fb3bffa0b5d299b939fae959786e222bf699bd25",
+  "scientificSkillsLatestSha": "3f825caafe149b7853ec8c4d1dd7f4553ea6b2a5",
+  "catalog": [
+    {
+      "id": "github",
+      "label": "GitHub",
+      "children": [
+        {
+          "id": "github",
+          "sourceKey": "github"
+        },
+        {
+          "id": "githubActive",
+          "sourceKey": "githubActive"
+        }
+      ]
+    },
+    {
+      "id": "hackernews",
+      "label": "Hacker News",
+      "children": [
+        {
+          "id": "hackernews",
+          "sourceKey": "hackernews"
+        }
+      ]
+    },
+    {
+      "id": "weibo",
+      "label": "微博",
+      "children": [
+        {
+          "id": "weibo",
+          "sourceKey": "weibo"
+        }
+      ]
+    },
+    {
+      "id": "journals",
+      "label": "MRI 顶刊",
+      "children": [
+        {
+          "id": "mrm",
+          "sourceKey": "mrm"
+        },
+        {
+          "id": "tmi",
+          "sourceKey": "tmi"
+        },
+        {
+          "id": "media",
+          "sourceKey": "media"
+        }
+      ]
+    },
+    {
+      "id": "natureSkills",
+      "label": "Nature Skills",
+      "children": [
+        {
+          "id": "natureSkills",
+          "sourceKey": "natureSkills"
+        },
+        {
+          "id": "natureSkillsCommits",
+          "sourceKey": "natureSkillsCommits"
+        }
+      ]
+    },
+    {
+      "id": "scientificSkills",
+      "label": "Scientific Skills",
+      "children": [
+        {
+          "id": "scientificSkills",
+          "sourceKey": "scientificSkills"
+        },
+        {
+          "id": "scientificSkillsCommits",
+          "sourceKey": "scientificSkillsCommits"
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "github": {
+      "label": "GitHub 热门新项目",
+      "description": "近 7 天内创建、按 Star 数排序的开源项目（含 README）",
+      "itemCount": 20
+    },
+    "githubActive": {
+      "label": "GitHub 活跃项目",
+      "description": "近 7 天内有推送、按 Star 数排序的热门仓库（含 README）",
+      "itemCount": 20
+    },
+    "hackernews": {
+      "label": "Hacker News 热门",
+      "description": "近 7 天 HN 高互动讨论（2026-07-16，共 20 条）",
+      "updateFrequency": "twice-daily",
+      "fetchedDate": "2026-07-16",
+      "itemCount": 20
+    },
+    "weibo": {
+      "label": "微博热搜",
+      "description": "当日微博实时热搜榜（2026-07-16，共 30 条，每日 10:00/22:00 更新）",
+      "updateFrequency": "twice-daily",
+      "fetchedDate": "2026-07-16",
+      "itemCount": 30
+    },
+    "mrm": {
+      "label": "Magnetic Resonance in Medicine",
+      "description": "近 45 天 MRM 期刊 MRI 相关论文（2026-05-31 ~ 2026-07-15，共 15 篇，已下载开放获取 PDF 0 篇）",
+      "updateFrequency": "biweekly",
+      "itemCount": 15
+    },
+    "tmi": {
+      "label": "IEEE Transactions on Medical Imaging",
+      "description": "近 45 天 TMI 期刊 MRI 相关论文（2026-05-31 ~ 2026-07-15，共 12 篇，已下载开放获取 PDF 0 篇）",
+      "updateFrequency": "biweekly",
+      "itemCount": 12
+    },
+    "media": {
+      "label": "Medical Image Analysis",
+      "description": "近 45 天 MedIA 期刊 MRI 相关论文（2026-05-31 ~ 2026-07-15，共 14 篇，已下载开放获取 PDF 0 篇）",
+      "updateFrequency": "biweekly",
+      "itemCount": 14
+    },
+    "natureSkills": {
+      "label": "Skills 清单",
+      "description": "跟踪 Yuan1z0825/nature-skills：共 17 个技能（最近同步 2026-07-16）",
+      "updateFrequency": "daily",
+      "repo": "Yuan1z0825/nature-skills",
+      "latestSha": "fb3bffa0b5d299b939fae959786e222bf699bd25",
+      "itemCount": 18
+    },
+    "natureSkillsCommits": {
+      "label": "最近提交",
+      "description": "最近 15 条提交动态",
+      "updateFrequency": "daily",
+      "repo": "Yuan1z0825/nature-skills",
+      "latestSha": "fb3bffa0b5d299b939fae959786e222bf699bd25",
+      "itemCount": 15
+    },
+    "scientificSkills": {
+      "label": "Skills 清单",
+      "description": "跟踪 K-Dense-AI/scientific-agent-skills：共 134 个技能（最近同步 2026-07-15）",
+      "updateFrequency": "daily",
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "latestSha": "3f825caafe149b7853ec8c4d1dd7f4553ea6b2a5",
+      "itemCount": 135
+    },
+    "scientificSkillsCommits": {
+      "label": "最近提交",
+      "description": "最近 15 条提交动态",
+      "updateFrequency": "daily",
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "latestSha": "3f825caafe149b7853ec8c4d1dd7f4553ea6b2a5",
+      "itemCount": 15
+    }
+  },
+  "generatedAt": "2026-07-17T02:35:24Z"
+}

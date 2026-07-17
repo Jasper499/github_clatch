@@ -15,7 +15,7 @@ from fetch_weibo import (
     weibo_catalog_entry,
     weibo_source_meta,
 )
-from history import save_source_snapshot
+from history import publish_content_artifacts, save_source_snapshot
 
 ROOT = Path(__file__).resolve().parent.parent
 OUTPUT = ROOT / "data" / "content.json"
@@ -66,6 +66,7 @@ def main() -> int:
         f.write("\n")
 
     save_source_snapshot("weibo", content["sources"]["weibo"])
+    publish_content_artifacts(content)
 
     print(f"已写入 {OUTPUT}")
     print(f"  微博热搜: {len(items)} 条")

@@ -124,8 +124,14 @@
             <select id="date-select" class="select"></select>
           </div>
           <div class="control-group control-group-grow">
-            <label for="item-select">条目列表</label>
-            <select id="item-select" class="select"></select>
+            <label for="search-input">搜索</label>
+            <input
+              id="search-input"
+              class="select search-input"
+              type="search"
+              placeholder="过滤标题 / 描述…"
+              autocomplete="off"
+            />
           </div>
         </div>
 
@@ -133,13 +139,15 @@
 
         <div id="journal-stats" class="journal-stats" hidden></div>
 
-        <div id="panel-content" class="panel-content">
+        <div id="panel-content" class="panel-content panel-split">
+          <section class="list-pane" aria-label="条目列表">
+            <div class="list-toolbar">
+              <strong class="list-count"><span id="item-count">0</span> 条</strong>
+              <span id="list-filter-hint" class="list-filter-hint" hidden></span>
+            </div>
+            <ul id="compact-list" class="compact-list compact-list--primary"></ul>
+          </section>
           <article id="item-detail" class="item-detail" aria-live="polite"></article>
-
-          <details class="compact-list-panel">
-            <summary>展开完整列表（<span id="item-count">0</span> 条）</summary>
-            <ul id="compact-list" class="compact-list"></ul>
-          </details>
         </div>
       </main>
     </div>

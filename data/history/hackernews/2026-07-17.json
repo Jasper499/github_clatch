@@ -1,0 +1,171 @@
+{
+  "date": "2026-07-17",
+  "sourceKey": "hackernews",
+  "savedAt": "2026-07-17T02:35:24Z",
+  "label": "Hacker News 热门",
+  "description": "近 7 天 HN 高互动讨论（2026-07-16，共 20 条）",
+  "updateFrequency": "twice-daily",
+  "fetchedDate": "2026-07-16",
+  "items": [
+    {
+      "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
+      "description": "<a href=\"https:&#x2F;&#x2F;www.macrumors.com&#x2F;2026&#x2F;07&#x2F;10&#x2F;apple-sues-openai&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.macrumors.com&#x2F;2026&#x2F;07&#x2F;10&#x2F;apple-sues-openai&#x2F;</a>",
+      "url": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
+      "score": 1652,
+      "comments": 964,
+      "owner": "stock_toaster"
+    },
+    {
+      "title": "GPT-5.6",
+      "description": "<a href=\"https:&#x2F;&#x2F;deploymentsafety.openai.com&#x2F;gpt-5-6&#x2F;gpt-5-6.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;deploymentsafety.openai.com&#x2F;gpt-5-6&#x2F;gpt-5-6.pdf</a><p><a href=\"https:&#x2F;&#x2F;developers.openai.com&#x2F;api&#x2F;docs&#x2F;guides&#x2F;latest-model\" rel=\"nofollow\">https:&#x2F;&#x2F;developers.openai.com&#x2F;api&#x2F;docs&#x2F;guides&#x2F;latest-model</a><p><a href=\"https:&#x2F;&#x2F;x.com&#x2F;levie&#x2F;status&#x2F;2075287443411222628\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;levie&#x2F;status&#x2F;2075287443411222628</a>, <a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;levie&#x2F;status&#x2F;2075287443411222628\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;levie&#x2F;status&#x2F;2075287443411222628</a>",
+      "url": "https://openai.com/index/gpt-5-6/",
+      "score": 1560,
+      "comments": 1107,
+      "owner": "logickkk1"
+    },
+    {
+      "title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
+      "description": "",
+      "url": "https://raymyers.org/post/zed-creator-calls-spade-a-spade/",
+      "score": 1530,
+      "comments": 781,
+      "owner": "crowdhailer"
+    },
+    {
+      "title": "Inkling: Our Open-Weights Model",
+      "description": "",
+      "url": "https://thinkingmachines.ai/news/introducing-inkling/",
+      "score": 1126,
+      "comments": 274,
+      "owner": "vimarsh6739"
+    },
+    {
+      "title": "Ask HN: Add flag for AI-generated articles",
+      "description": "Should HN add the ability to flag articles as AI-generated? This doesn&#x27;t have to act as a regular flag, i.e., it won&#x27;t de-rank the article; it could just show up as an indicator, allowing others (like myself) who don&#x27;t like reading AI-generated text, to skip it.<p>Open questions:<p>1. Why is the regular voting system not enough?<p>2. Should HN change in response to the gen AI era? It has been successful not changing fundamentals.",
+      "url": "https://news.ycombinator.com/item?id=48886741",
+      "score": 1083,
+      "comments": 456,
+      "owner": "levkk"
+    },
+    {
+      "title": "Jurassic Park computers in excruciating detail",
+      "description": "",
+      "url": "https://fabiensanglard.net/jurrasic_park_computers/index.html",
+      "score": 912,
+      "comments": 243,
+      "owner": "vinhnx"
+    },
+    {
+      "title": "Your 'app' could have been a webpage (so I fixed it for you)",
+      "description": "",
+      "url": "https://danq.me/2026/07/09/your-app-could-have-been-a-webpage/",
+      "score": 871,
+      "comments": 532,
+      "owner": "MrVandemar"
+    },
+    {
+      "title": "QuadRF can spot drones and see WiFi through my wall",
+      "description": "",
+      "url": "https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/",
+      "score": 750,
+      "comments": 237,
+      "owner": "speckx"
+    },
+    {
+      "title": "Japan develops a method to recover up to 90% of lithium from used EV batteries",
+      "description": "",
+      "url": "https://tech.supercarblondie.com/japan-recovers-up-to-90-of-lithium-from-used-ev-batteries/",
+      "score": 742,
+      "comments": 196,
+      "owner": "donohoe"
+    },
+    {
+      "title": "Sleep regularity is a stronger predictor of mortality risk than sleep duration (2023)",
+      "description": "",
+      "url": "https://academic.oup.com/sleep/article/47/1/zsad253/7280269",
+      "score": 716,
+      "comments": 386,
+      "owner": "bilsbie"
+    },
+    {
+      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+      "description": "This started based off of a hunch. We usually use OpenCode, but were &#x27;forced&#x27; to use Claude Code for a while due to issues with Meridian. In that time, we saw the usage meter rise much, much more quickly than when using OpenCode.<p>This was the initial anecdotal evidence, but we undertook this small study to collect empirical data:<p>We added logging between the agentic coding tool (Claude Code and OpenCode) and Anthropic&#x27;s endpoint, and captured all requests (and the returned usage blocks).<p>With one caveat (toward the end of the post) we found unambiguously that Claude Code was far more inefficient in terms of its cache strategy and its harness token usage than OpenCode.",
+      "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+      "score": 699,
+      "comments": 391,
+      "owner": "systima"
+    },
+    {
+      "title": "A graph that should be front-page news",
+      "description": "",
+      "url": "https://www.lyrebirddreaming.com/post/the-graph-that-should-be-front-page-news",
+      "score": 690,
+      "comments": 440,
+      "owner": "rakel_rakel"
+    },
+    {
+      "title": "Bonsai 27B: A 27B-Class model that runs on a phone",
+      "description": "",
+      "url": "https://prismml.com/news/bonsai-27b",
+      "score": 689,
+      "comments": 243,
+      "owner": "xenova"
+    },
+    {
+      "title": "I tricked Claude into leaking your deepest, darkest secrets",
+      "description": "",
+      "url": "https://www.ayush.digital/blog/the-memory-heist",
+      "score": 649,
+      "comments": 290,
+      "owner": "macleginn"
+    },
+    {
+      "title": "New York City to ban deceptive subscription practices",
+      "description": "<a href=\"https:&#x2F;&#x2F;www.nyc.gov&#x2F;mayors-office&#x2F;news&#x2F;2026&#x2F;07&#x2F;mayor-mamdani-announces-landmark--click-to-cancel--consumer-prot\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nyc.gov&#x2F;mayors-office&#x2F;news&#x2F;2026&#x2F;07&#x2F;mayor-mamdani...</a>",
+      "url": "https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban",
+      "score": 644,
+      "comments": 342,
+      "owner": "randycupertino"
+    },
+    {
+      "title": "How to stop Claude from saying load-bearing",
+      "description": "",
+      "url": "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
+      "score": 598,
+      "comments": 607,
+      "owner": "shintoist"
+    },
+    {
+      "title": "The lost joy of music piracy",
+      "description": "",
+      "url": "https://www.pigeonsandplanes.com/read/music-piracy-what-cd-oink-nine-inch-nails-streaming",
+      "score": 576,
+      "comments": 373,
+      "owner": "mcgin"
+    },
+    {
+      "title": "How to read more books",
+      "description": "",
+      "url": "https://scotto.me/blog/2026-07-12-how-to-read-more-books/",
+      "score": 566,
+      "comments": 295,
+      "owner": "silcoon"
+    },
+    {
+      "title": "European \"age verification\" \"app\" forcing everyone to use Android or iOS",
+      "description": "",
+      "url": "https://github.com/eu-digital-identity-wallet/av-doc-technical-specification/discussions/19",
+      "score": 564,
+      "comments": 420,
+      "owner": "roundabout-host"
+    },
+    {
+      "title": "Good Tools Are Invisible",
+      "description": "",
+      "url": "https://www.gingerbill.org/article/2026/07/10/good-tools-are-invisible/",
+      "score": 564,
+      "comments": 275,
+      "owner": "theanonymousone"
+    }
+  ]
+}
