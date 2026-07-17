@@ -12,7 +12,7 @@ github_clatch/
 ├── data/content.json       # 抓取结果（网站读取此文件）
 ├── scripts/update_content.py       # GitHub 每周抓取
 ├── scripts/update_hackernews.py    # HN 每日两次更新
-├── scripts/update_weibo.py         # 微博每日两次更新
+├── scripts/update_weibo.py         # 微博每 6 小时更新
 ├── scripts/fetch_hackernews.py     # HN 抓取逻辑
 ├── scripts/fetch_weibo.py          # 微博抓取逻辑
 ├── .github/workflows/weekly-update.yml
@@ -36,7 +36,7 @@ github_clatch/
 |------|------|--------|------|
 | GitHub 热门 | 每周一 09:00 | `weekly-update.yml` | `python scripts/update_content.py` |
 | Hacker News | **每天 10:00、22:00** | `twice-daily-hackernews.yml` | `python scripts/update_hackernews.py` |
-| 微博热搜 | **每天 10:00、22:00**（错开 10 分钟） | `twice-daily-weibo.yml` | `python scripts/update_weibo.py` |
+| 微博热搜 | **每 6 小时**（UTC :10，约北京 02/08/14/20 点） | `twice-daily-weibo.yml` | `python scripts/update_weibo.py` |
 | **MRI 顶刊** | **每月 1/15 日 10:00** | `biweekly-journals.yml` | `python scripts/update_journals.py` |
 
 论文 PDF 仅下载**开放获取**版本，保存至 `papers/mrm/`、`papers/tmi/`、`papers/media/`。

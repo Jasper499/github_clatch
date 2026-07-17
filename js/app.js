@@ -96,7 +96,7 @@ const TRACKED_SKILLS_REPO = {
 const META_SYNC_PLATFORMS = [
   { id: "github", label: "GitHub", schedule: "每周一", field: "githubUpdatedAt", maxAgeHours: 8 * 24 },
   { id: "hackernews", label: "Hacker News", schedule: "每日 10/22 点", field: "hackernewsUpdatedAt", maxAgeHours: 36 },
-  { id: "weibo", label: "微博", schedule: "每日 10/22 点", field: "weiboUpdatedAt", maxAgeHours: 36 },
+  { id: "weibo", label: "微博", schedule: "每 6 小时", field: "weiboUpdatedAt", maxAgeHours: 9 },
   { id: "journals", label: "MRI 顶刊", schedule: "每月 1/15 日", field: "journalsUpdatedAt", maxAgeHours: 20 * 24 },
   { id: "natureSkills", label: "Nature Skills", schedule: "每日 10/22 点", field: "natureSkillsUpdatedAt", maxAgeHours: 36 },
   { id: "scientificSkills", label: "Scientific Skills", schedule: "每日 10/22 点", field: "scientificSkillsUpdatedAt", maxAgeHours: 36 },

@@ -1,9 +1,10 @@
-name: Twice-Daily Weibo Update
+name: Every 6 Hours Weibo Update
 
 on:
   schedule:
-    # 错开 10 分钟，避免与 HN 同时 push 冲突
-    - cron: "10 2,14 * * *"
+    # 每 6 小时（UTC :10），错开其它任务，避免同时 push
+    # UTC 0/6/12/18 → 北京时间约 08:10 / 14:10 / 20:10 / 02:10
+    - cron: "10 */6 * * *"
   workflow_dispatch:
 
 concurrency:
@@ -34,7 +35,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "chore: twice-daily Weibo update"
+            git commit -m "chore: 6-hourly Weibo update"
             git pull --rebase origin main
             git push
           fi

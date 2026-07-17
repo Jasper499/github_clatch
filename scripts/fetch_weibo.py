@@ -92,7 +92,7 @@ def fetch_weibo(limit: int = 30) -> list[dict]:
 def weibo_source_meta(fetched_date: str, items: list[dict]) -> dict:
     return {
         "label": "微博热搜",
-        "description": f"当日微博实时热搜榜（{fetched_date}，共 {len(items)} 条，每日 10:00/22:00 更新）",
+        "description": f"当日微博实时热搜榜（{fetched_date}，共 {len(items)} 条，每 6 小时更新）",
         "updateFrequency": "twice-daily",
         "fetchedDate": fetched_date,
         "items": items,
