@@ -1,6 +1,6 @@
 /* HJL Clatch service worker — cache shell + recent data for offline reading. */
-const CACHE_SHELL = "clatch-shell-v1";
-const CACHE_DATA = "clatch-data-v1";
+const CACHE_SHELL = "clatch-shell-v3";
+const CACHE_DATA = "clatch-data-v3";
 
 const SHELL_FILES = [
   "./",

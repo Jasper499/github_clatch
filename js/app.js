@@ -418,6 +418,12 @@ function escapeHtml(text) {
   return div.innerHTML;
 }
 
+function plainText(text) {
+  const div = document.createElement("div");
+  div.innerHTML = String(text ?? "");
+  return (div.textContent || "").replace(/\s+/g, " ").trim();
+}
+
 function getCatalog(data) {
   return data.catalog?.length ? data.catalog : DEFAULT_CATALOG;
 }
@@ -564,6 +570,167 @@ function isJournalSource(sourceKey) {
 
 function isGithubSource(sourceKey) {
   return sourceKey === "github" || sourceKey === "githubActive";
+}
+
+function isWeiboSource(sourceKey = activeSourceKey) {
+  return sourceKey === "weibo";
+}
+
+function isHackerNewsSource(sourceKey = activeSourceKey) {
+  return sourceKey === "hackernews";
+}
+
+function isSkillsCommitSource(sourceKey = activeSourceKey) {
+  return sourceKey === "natureSkillsCommits" || sourceKey === "scientificSkillsCommits";
+}
+
+function isSkillsOverviewSource(sourceKey = activeSourceKey) {
+  return sourceKey === "natureSkills" || sourceKey === "scientificSkills";
+}
+
+/** @returns {'weibo'|'hn'|'github'|'journals'|'skills'|'skills-commits'|null} */
+function getFeedMode(sourceKey = activeSourceKey) {
+  if (isWeiboSource(sourceKey)) return "weibo";
+  if (isHackerNewsSource(sourceKey)) return "hn";
+  if (isGithubSource(sourceKey)) return "github";
+  if (isJournalSource(sourceKey)) return "journals";
+  if (isSkillsCommitSource(sourceKey)) return "skills-commits";
+  if (isSkillsOverviewSource(sourceKey) || isTrackedSkillsSource(sourceKey)) return "skills";
+  return null;
+}
+
+function formatHotScore(value) {
+  const n = Number(value);
+  if (!Number.isFinite(n) || n <= 0) return "";
+  if (n >= 10000) {
+    const wan = n / 10000;
+    const text = wan >= 100 ? wan.toFixed(0) : wan.toFixed(1).replace(/\.0$/, "");
+    return `${text}万`;
+  }
+  return n.toLocaleString("zh-CN");
+}
+
+function languageColor(language) {
+  const map = {
+    JavaScript: "#f1e05a",
+    TypeScript: "#3178c6",
+    Python: "#3572a5",
+    Rust: "#dea584",
+    Go: "#00add8",
+    Java: "#b07219",
+    "C++": "#f34b7d",
+    C: "#555555",
+    Ruby: "#701516",
+    PHP: "#4f5d95",
+    Swift: "#f05138",
+    Kotlin: "#a97bff",
+    Shell: "#89e051",
+    HTML: "#e34c26",
+    CSS: "#563d7c",
+    Jupyter: "#da5b0b",
+    R: "#198ce7",
+    Lua: "#000080",
+    Dart: "#00b4ab",
+    Scala: "#c22d40",
+    Vue: "#41b883",
+  };
+  return map[language] || "#8b949e";
+}
+
+function updateListFilterHint(filteredLen, totalLen) {
+  const hint = document.getElementById("list-filter-hint");
+  if (!hint) return;
+  if (searchQuery.trim()) {
+    hint.hidden = false;
+    hint.textContent = `匹配 ${filteredLen} / ${totalLen}`;
+  } else {
+    hint.hidden = true;
+    hint.textContent = "";
+  }
+}
+
+function bindFeedListClicks(source, selector) {
+  const list = document.getElementById("compact-list");
+  list.querySelectorAll(selector).forEach((el) => {
+    el.addEventListener("click", () => {
+      selectListItem(source, Number(el.dataset.index));
+    });
+    el.addEventListener("dblclick", () => {
+      const item = source?.items?.[Number(el.dataset.index)];
+      if (item?.url) {
+        window.open(item.url, "_blank", "noopener,noreferrer");
+      }
+    });
+  });
+}
+
+function externalLink(url, label) {
+  if (!url) return `<span class="compact-external compact-external--empty"></span>`;
+  return `<a class="compact-external" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" title="${escapeHtml(label)}" aria-label="${escapeHtml(label)}">${icon("external", "icon icon-compact")}</a>`;
+}
+
+function applyFeedLayout(mode = getFeedMode()) {
+  const panel = document.getElementById("panel-content");
+  const list = document.getElementById("compact-list");
+  if (!panel || !list) return;
+
+  const modes = ["weibo", "hn", "github", "journals", "skills", "skills-commits"];
+  modes.forEach((m) => {
+    panel.classList.remove(`panel-content--${m}-feed`);
+    list.classList.remove(`${m}-board`, "hotboard", "hn-board", "github-board", "journals-board", "skills-board", "commits-board");
+  });
+  list.classList.remove("hotboard");
+
+  const singleColumn = mode === "weibo" || mode === "hn" || mode === "skills-commits";
+  panel.classList.toggle("panel-split", !singleColumn);
+  if (mode) {
+    panel.classList.add(`panel-content--${mode}-feed`);
+  }
+
+  const boardClass =
+    mode === "weibo"
+      ? "hotboard"
+      : mode === "hn"
+        ? "hn-board"
+        : mode === "github"
+          ? "github-board"
+          : mode === "journals"
+            ? "journals-board"
+            : mode === "skills-commits"
+              ? "commits-board"
+              : mode === "skills"
+                ? "skills-board"
+                : "";
+  if (boardClass) list.classList.add(boardClass);
+
+  const labels = {
+    weibo: "微博热搜",
+    hn: "Hacker News",
+    github: "GitHub 仓库",
+    journals: "期刊论文",
+    skills: "Skills 清单",
+    "skills-commits": "最近提交",
+  };
+  list.setAttribute("aria-label", labels[mode] || "条目");
+}
+
+function renderActiveList(source, activeIndex) {
+  const mode = getFeedMode();
+  if (mode === "weibo") return renderWeiboHotboard(source, activeIndex);
+  if (mode === "hn") return renderHnBoard(source, activeIndex);
+  if (mode === "github") return renderGithubBoard(source, activeIndex);
+  if (mode === "journals") return renderJournalsBoard(source, activeIndex);
+  if (mode === "skills-commits") return renderSkillsCommitsBoard(source, activeIndex);
+  if (mode === "skills") return renderSkillsBoard(source, activeIndex);
+  return renderCompactList(source, activeIndex);
+}
+
+function renderActiveDetail(item, index) {
+  const mode = getFeedMode();
+  if (mode === "weibo") return renderWeiboDetail(item, index);
+  if (mode === "hn") return renderHnDetail(item, index);
+  if (mode === "skills-commits") return renderSkillsCommitDetail(item, index);
+  return renderItemDetail(item, index);
 }
 
 function isNatureSkillsSource(sourceKey) {
@@ -1104,9 +1271,395 @@ function selectListItem(source, index) {
   activeItemIndex = Math.min(Math.max(0, index), items.length - 1);
   markItemSeen(activeSourceKey, items[activeItemIndex]);
   updateNewHints(activeSourceKey, items);
-  renderItemDetail(items[activeItemIndex], activeItemIndex);
-  renderCompactList(source, activeItemIndex);
+  renderActiveDetail(items[activeItemIndex], activeItemIndex);
+  renderActiveList(source, activeItemIndex);
   writeHashRoute();
+}
+
+function renderWeiboDetail(item, index) {
+  const panel = document.getElementById("item-detail");
+  if (!panel) return;
+  panel.className = "item-detail theme-weibo item-detail--weibo-bar";
+  if (!item) {
+    panel.innerHTML = `<div class="detail-body weibo-bar-body"><p class="muted">暂无热搜</p></div>`;
+    return;
+  }
+  const rank = index + 1;
+  const title = item.url
+    ? `<a href="${item.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>`
+    : escapeHtml(item.title);
+  const label = item.label
+    ? `<span class="hot-label">${escapeHtml(item.label)}</span>`
+    : "";
+  const score = formatHotScore(item.score);
+  panel.innerHTML = `
+    <div class="detail-body weibo-bar-body">
+      <span class="hot-rank ${rank <= 3 ? `hot-rank--${rank}` : ""}">${rank}</span>
+      <div class="weibo-bar-main">
+        <h2 class="weibo-bar-title">${title}${label}</h2>
+        ${score ? `<span class="hot-score">${escapeHtml(score)}</span>` : ""}
+      </div>
+      ${
+        item.url
+          ? `<a class="btn btn-primary weibo-open-btn" href="${item.url}" target="_blank" rel="noopener noreferrer">打开热搜 →</a>`
+          : ""
+      }
+    </div>
+  `;
+}
+
+function renderWeiboHotboard(source, activeIndex) {
+  const items = source?.items || [];
+  const list = document.getElementById("compact-list");
+  const filtered = filterItems(items);
+
+  document.getElementById("item-count").textContent = String(filtered.length);
+  updateListFilterHint(filtered.length, items.length);
+
+  if (!filtered.length) {
+    list.innerHTML = `<li class="compact-empty">${items.length ? "无匹配热搜" : "暂无热搜"}</li>`;
+    return;
+  }
+
+  list.innerHTML = filtered
+    .map(({ item, index }) => {
+      const active = index === activeIndex ? " active" : "";
+      const isNew = isItemNew(activeSourceKey, item);
+      const newClass = isNew ? " is-new" : "";
+      const newBadge = isNew ? `<span class="new-badge" aria-label="新内容">新</span>` : "";
+      const rank = index + 1;
+      const rankClass = rank <= 3 ? ` hot-rank--${rank}` : "";
+      const label = item.label ? `<span class="hot-label">${escapeHtml(item.label)}</span>` : "";
+      const score = formatHotScore(item.score);
+
+      return `
+      <li class="compact-row hotboard-row${newClass}" data-rank="${rank}">
+        <button type="button" class="compact-item hotboard-item${active}${newClass}" data-index="${index}" role="option" aria-selected="${active ? "true" : "false"}">
+          <span class="hot-rank${rankClass}">${rank}</span>
+          <div class="hotboard-body">
+            <span class="hotboard-title">${newBadge}${escapeHtml(item.title)}</span>
+            ${label}
+          </div>
+          ${score ? `<span class="hot-score">${escapeHtml(score)}</span>` : `<span class="hot-score hot-score--empty"></span>`}
+        </button>
+        ${externalLink(item.url, "打开热搜")}
+      </li>
+    `;
+    })
+    .join("");
+
+  bindFeedListClicks(source, "button.hotboard-item");
+}
+
+function renderHnDetail(item, index) {
+  const panel = document.getElementById("item-detail");
+  if (!panel) return;
+  panel.className = "item-detail theme-hn item-detail--feed-bar";
+  if (!item) {
+    panel.innerHTML = `<div class="detail-body feed-bar-body"><p class="muted">暂无条目</p></div>`;
+    return;
+  }
+  const rank = index + 1;
+  const title = item.url
+    ? `<a href="${item.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>`
+    : escapeHtml(item.title);
+  const meta = [
+    item.score != null ? `▲ ${Number(item.score).toLocaleString()}` : "",
+    item.comments != null ? `${Number(item.comments).toLocaleString()} comments` : "",
+    item.owner ? `by ${item.owner}` : "",
+  ]
+    .filter(Boolean)
+    .join(" · ");
+  panel.innerHTML = `
+    <div class="detail-body feed-bar-body">
+      <span class="hn-rank">${rank}</span>
+      <div class="feed-bar-main">
+        <h2 class="feed-bar-title">${title}</h2>
+        ${meta ? `<span class="feed-bar-meta">${escapeHtml(meta)}</span>` : ""}
+      </div>
+      ${
+        item.url
+          ? `<a class="btn btn-primary" href="${item.url}" target="_blank" rel="noopener noreferrer">打开原文 →</a>`
+          : ""
+      }
+    </div>
+  `;
+}
+
+function renderHnBoard(source, activeIndex) {
+  const items = source?.items || [];
+  const list = document.getElementById("compact-list");
+  const filtered = filterItems(items);
+
+  document.getElementById("item-count").textContent = String(filtered.length);
+  updateListFilterHint(filtered.length, items.length);
+
+  if (!filtered.length) {
+    list.innerHTML = `<li class="compact-empty">${items.length ? "无匹配条目" : "暂无条目"}</li>`;
+    return;
+  }
+
+  list.innerHTML = filtered
+    .map(({ item, index }) => {
+      const active = index === activeIndex ? " active" : "";
+      const isNew = isItemNew(activeSourceKey, item);
+      const newClass = isNew ? " is-new" : "";
+      const newBadge = isNew ? `<span class="new-badge" aria-label="新内容">新</span>` : "";
+      const rank = index + 1;
+      const meta = [
+        item.score != null ? `▲ ${Number(item.score).toLocaleString()}` : "",
+        item.comments != null ? `${Number(item.comments).toLocaleString()} comments` : "",
+        item.owner ? `by ${escapeHtml(item.owner)}` : "",
+      ]
+        .filter(Boolean)
+        .join(" · ");
+
+      return `
+      <li class="compact-row hn-row${newClass}">
+        <button type="button" class="compact-item hn-item${active}${newClass}" data-index="${index}" role="option" aria-selected="${active ? "true" : "false"}">
+          <span class="hn-rank">${rank}.</span>
+          <div class="hn-body">
+            <span class="hn-title">${newBadge}${escapeHtml(item.title)}</span>
+            ${meta ? `<span class="hn-meta">${meta}</span>` : ""}
+          </div>
+        </button>
+        ${externalLink(item.url, "打开原文")}
+      </li>
+    `;
+    })
+    .join("");
+
+  bindFeedListClicks(source, "button.hn-item");
+}
+
+function renderGithubBoard(source, activeIndex) {
+  const items = source?.items || [];
+  const list = document.getElementById("compact-list");
+  const filtered = filterItems(items);
+
+  document.getElementById("item-count").textContent = String(filtered.length);
+  updateListFilterHint(filtered.length, items.length);
+
+  if (!filtered.length) {
+    list.innerHTML = `<li class="compact-empty">${items.length ? "无匹配仓库" : "暂无仓库"}</li>`;
+    return;
+  }
+
+  list.innerHTML = filtered
+    .map(({ item, index }) => {
+      const active = index === activeIndex ? " active" : "";
+      const isNew = isItemNew(activeSourceKey, item);
+      const newClass = isNew ? " is-new" : "";
+      const newBadge = isNew ? `<span class="new-badge" aria-label="新内容">新</span>` : "";
+      const stars = item.stars != null ? `★ ${Number(item.stars).toLocaleString()}` : "";
+      const lang = item.language
+        ? `<span class="gh-lang"><span class="gh-lang-dot" style="background:${languageColor(item.language)}"></span>${escapeHtml(item.language)}</span>`
+        : "";
+      const desc = item.description
+        ? `<span class="gh-desc">${escapeHtml(item.description)}</span>`
+        : `<span class="gh-desc muted">暂无描述</span>`;
+      const owner = item.owner ? `<span class="gh-owner">${escapeHtml(item.owner)}</span>` : "";
+
+      return `
+      <li class="compact-row github-row${newClass}">
+        <button type="button" class="compact-item github-item${active}${newClass}" data-index="${index}" role="option" aria-selected="${active ? "true" : "false"}">
+          <div class="gh-body">
+            <span class="gh-title">${newBadge}${escapeHtml(item.title)}</span>
+            ${desc}
+            <div class="gh-meta-row">
+              ${lang}
+              ${stars ? `<span class="gh-stars">${stars}</span>` : ""}
+              ${owner}
+            </div>
+          </div>
+        </button>
+        ${externalLink(item.url, "打开仓库")}
+      </li>
+    `;
+    })
+    .join("");
+
+  bindFeedListClicks(source, "button.github-item");
+}
+
+function renderJournalsBoard(source, activeIndex) {
+  const items = source?.items || [];
+  const list = document.getElementById("compact-list");
+  const filtered = filterItems(items);
+
+  document.getElementById("item-count").textContent = String(filtered.length);
+  updateListFilterHint(filtered.length, items.length);
+
+  if (!filtered.length) {
+    list.innerHTML = `<li class="compact-empty">${items.length ? "无匹配论文" : "暂无论文"}</li>`;
+    return;
+  }
+
+  list.innerHTML = filtered
+    .map(({ item, index }) => {
+      const active = index === activeIndex ? " active" : "";
+      const isNew = isItemNew(activeSourceKey, item);
+      const newClass = isNew ? " is-new" : "";
+      const newBadge = isNew ? `<span class="new-badge" aria-label="新内容">新</span>` : "";
+      const journal = item.journal
+        ? `<span class="paper-journal">${escapeHtml(item.journal)}</span>`
+        : "";
+      const authors = item.authors
+        ? `<span class="paper-authors">${escapeHtml(item.authors)}</span>`
+        : "";
+      const published = item.published
+        ? `<span class="paper-date">${escapeHtml(item.published)}</span>`
+        : "";
+      const badges = [
+        item.isOpenAccess ? `<span class="paper-badge paper-badge--oa">OA</span>` : "",
+        item.pdfAvailable || item.pdfUrl ? `<span class="paper-badge paper-badge--pdf">PDF</span>` : "",
+      ]
+        .filter(Boolean)
+        .join("");
+
+      return `
+      <li class="compact-row journals-row${newClass}">
+        <button type="button" class="compact-item journals-item${active}${newClass}" data-index="${index}" role="option" aria-selected="${active ? "true" : "false"}">
+          <div class="paper-body">
+            <div class="paper-top">${journal}${badges}</div>
+            <span class="paper-title">${newBadge}${escapeHtml(plainText(item.title))}</span>
+            <div class="paper-meta">${[authors, published].filter(Boolean).join('<span class="paper-sep">·</span>')}</div>
+          </div>
+        </button>
+        ${externalLink(item.url, "打开期刊页面")}
+      </li>
+    `;
+    })
+    .join("");
+
+  bindFeedListClicks(source, "button.journals-item");
+}
+
+function renderSkillsBoard(source, activeIndex) {
+  const items = source?.items || [];
+  const list = document.getElementById("compact-list");
+  const filtered = filterItems(items);
+  const theme = getPlatformMeta(activeSourceKey).theme;
+
+  document.getElementById("item-count").textContent = String(filtered.length);
+  updateListFilterHint(filtered.length, items.length);
+
+  if (!filtered.length) {
+    list.innerHTML = `<li class="compact-empty">${items.length ? "无匹配技能" : "暂无技能"}</li>`;
+    return;
+  }
+
+  list.innerHTML = filtered
+    .map(({ item, index }) => {
+      const active = index === activeIndex ? " active" : "";
+      const isNew = isItemNew(activeSourceKey, item);
+      const newClass = isNew ? " is-new" : "";
+      const newBadge = isNew ? `<span class="new-badge" aria-label="新内容">新</span>` : "";
+      const label = item.label ? `<span class="skill-label">${escapeHtml(item.label)}</span>` : "";
+      const count =
+        item.skillCount != null ? `<span class="skill-count">${item.skillCount} skills</span>` : "";
+      const sha = item.latestSha
+        ? `<span class="skill-sha">${escapeHtml(String(item.latestSha).slice(0, 7))}</span>`
+        : "";
+      const desc = item.description
+        ? `<span class="skill-desc">${escapeHtml(item.description)}</span>`
+        : "";
+
+      return `
+      <li class="compact-row skills-row ${theme}${newClass}">
+        <button type="button" class="compact-item skills-item${active}${newClass}" data-index="${index}" role="option" aria-selected="${active ? "true" : "false"}">
+          <div class="skill-body">
+            <span class="skill-title">${newBadge}${escapeHtml(item.title)}</span>
+            ${desc}
+            <div class="skill-meta-row">${label}${count}${sha}</div>
+          </div>
+        </button>
+        ${externalLink(item.url, "打开仓库")}
+      </li>
+    `;
+    })
+    .join("");
+
+  bindFeedListClicks(source, "button.skills-item");
+}
+
+function renderSkillsCommitDetail(item, index) {
+  const panel = document.getElementById("item-detail");
+  if (!panel) return;
+  const platform = getPlatformMeta(activeSourceKey);
+  panel.className = `item-detail ${platform.theme} item-detail--feed-bar`;
+  if (!item) {
+    panel.innerHTML = `<div class="detail-body feed-bar-body"><p class="muted">暂无提交</p></div>`;
+    return;
+  }
+  const title = item.url
+    ? `<a href="${item.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>`
+    : escapeHtml(item.title);
+  const meta = [
+    item.sha ? String(item.sha).slice(0, 7) : "",
+    item.published || "",
+    item.owner || "",
+  ]
+    .filter(Boolean)
+    .join(" · ");
+  panel.innerHTML = `
+    <div class="detail-body feed-bar-body">
+      <span class="commit-rank">${index + 1}</span>
+      <div class="feed-bar-main">
+        <h2 class="feed-bar-title">${title}</h2>
+        ${meta ? `<span class="feed-bar-meta">${escapeHtml(meta)}</span>` : ""}
+      </div>
+      ${
+        item.url
+          ? `<a class="btn btn-primary" href="${item.url}" target="_blank" rel="noopener noreferrer">查看提交 →</a>`
+          : ""
+      }
+    </div>
+  `;
+}
+
+function renderSkillsCommitsBoard(source, activeIndex) {
+  const items = source?.items || [];
+  const list = document.getElementById("compact-list");
+  const filtered = filterItems(items);
+  const theme = getPlatformMeta(activeSourceKey).theme;
+
+  document.getElementById("item-count").textContent = String(filtered.length);
+  updateListFilterHint(filtered.length, items.length);
+
+  if (!filtered.length) {
+    list.innerHTML = `<li class="compact-empty">${items.length ? "无匹配提交" : "暂无提交"}</li>`;
+    return;
+  }
+
+  list.innerHTML = filtered
+    .map(({ item, index }) => {
+      const active = index === activeIndex ? " active" : "";
+      const isNew = isItemNew(activeSourceKey, item);
+      const newClass = isNew ? " is-new" : "";
+      const newBadge = isNew ? `<span class="new-badge" aria-label="新内容">新</span>` : "";
+      const sha = item.sha ? `<span class="commit-sha">${escapeHtml(String(item.sha).slice(0, 7))}</span>` : "";
+      const date = item.published
+        ? `<span class="commit-date">${escapeHtml(item.published)}</span>`
+        : "";
+      const label = item.label ? `<span class="skill-label">${escapeHtml(item.label)}</span>` : "";
+
+      return `
+      <li class="compact-row commits-row ${theme}${newClass}">
+        <button type="button" class="compact-item commits-item${active}${newClass}" data-index="${index}" role="option" aria-selected="${active ? "true" : "false"}">
+          ${sha}
+          <div class="commit-body">
+            <span class="commit-title">${newBadge}${escapeHtml(item.title)}</span>
+            <div class="commit-meta">${[date, label].filter(Boolean).join('<span class="paper-sep">·</span>')}</div>
+          </div>
+        </button>
+        ${externalLink(item.url, "查看提交")}
+      </li>
+    `;
+    })
+    .join("");
+
+  bindFeedListClicks(source, "button.commits-item");
 }
 
 function renderItemDetail(item, index) {
@@ -1118,6 +1671,11 @@ function renderItemDetail(item, index) {
   }
 
   const platform = getPlatformMeta(activeSourceKey);
+  if (isWeiboSource(activeSourceKey)) {
+    renderWeiboDetail(item, index);
+    return;
+  }
+
   if (isJournalSource(activeSourceKey)) {
     renderJournalDetail(item, index, platform);
     return;
@@ -1351,6 +1909,8 @@ function renderCompactList(source, activeIndex) {
 
 async function syncPanel(data, { preserveItemIndex = true } = {}) {
   let source;
+  applyFeedLayout(getFeedMode());
+
   try {
     source = await resolveSource(data, activeSourceKey);
   } catch (err) {
@@ -1400,8 +1960,8 @@ async function syncPanel(data, { preserveItemIndex = true } = {}) {
 
   updateNewHints(activeSourceKey, items);
   updatePinButton();
-  renderItemDetail(items[activeItemIndex], activeItemIndex);
-  renderCompactList(source, activeItemIndex);
+  renderActiveDetail(items[activeItemIndex], activeItemIndex);
+  renderActiveList(source, activeItemIndex);
   writeHashRoute();
   triggerPanelFade();
 }
@@ -1422,8 +1982,8 @@ function bindSearch(data) {
           if (filtered.length && !filtered.some(({ index }) => index === activeItemIndex)) {
             activeItemIndex = filtered[0].index;
           }
-          renderItemDetail((source?.items || [])[activeItemIndex], activeItemIndex);
-          renderCompactList(source, activeItemIndex);
+          renderActiveDetail((source?.items || [])[activeItemIndex], activeItemIndex);
+          renderActiveList(source, activeItemIndex);
           writeHashRoute();
         } catch (_) {
           /* ignore */
@@ -1441,7 +2001,7 @@ function bindMarkRead() {
     const items = currentSourceRef?.items || [];
     markSourceSeen(activeSourceKey, items);
     updateNewHints(activeSourceKey, items);
-    renderCompactList(currentSourceRef, activeItemIndex);
+    renderActiveList(currentSourceRef, activeItemIndex);
   });
 }
 
@@ -1612,7 +2172,7 @@ function bindKeyboard() {
         input.value = "";
         input.blur();
         if (currentSourceRef) {
-          renderCompactList(currentSourceRef, activeItemIndex);
+          renderActiveList(currentSourceRef, activeItemIndex);
           updateNewHints(activeSourceKey, currentSourceRef.items || []);
         }
       }
