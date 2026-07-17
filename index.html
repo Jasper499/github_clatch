@@ -3,8 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="定时自动更新的HJL的网站">
-  <title>One Piece· HJL专属网站</title>
+  <title>HJL Clatch · GitHub / HN / 微博 / 顶刊 / Skills 聚合</title>
+  <meta name="description" content="HJL 自动聚合站：GitHub 热门、Hacker News、微博热搜、MRI 顶刊，以及 Nature Skills / Scientific Skills 更新追踪。支持历史快照与可分享深链。">
+  <meta name="theme-color" content="#0d1117">
+  <link rel="canonical" href="https://jasper499.github.io/github_clatch/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:site_name" content="HJL Clatch">
+  <meta property="og:title" content="HJL Clatch · 自动聚合更新站">
+  <meta property="og:description" content="GitHub、Hacker News、微博、MRI 顶刊与 Agent Skills 一站追踪，带历史快照与深链分享。">
+  <meta property="og:url" content="https://jasper499.github.io/github_clatch/">
+  <meta property="og:image" content="https://jasper499.github.io/github_clatch/favicon.svg">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="HJL Clatch · 自动聚合更新站">
+  <meta name="twitter:description" content="GitHub、Hacker News、微博、MRI 顶刊与 Agent Skills 一站追踪。">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -16,7 +29,7 @@
         document.documentElement.setAttribute("data-theme", theme);
         document.documentElement.setAttribute("data-platform", "github");
       } catch (e) {
-        document.documentElement.setAttribute("data-theme", "blue");
+        document.documentElement.setAttribute("data-theme", "dark");
         document.documentElement.setAttribute("data-platform", "github");
       }
     })();
@@ -24,6 +37,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <a class="skip-link" href="#content-panel">跳到内容</a>
   <div class="page-bg" aria-hidden="true">
     <div class="page-bg__orb page-bg__orb--1"></div>
     <div class="page-bg__orb page-bg__orb--2"></div>
@@ -35,47 +49,50 @@
     <span class="theme-toggle-icon theme-icon-light"></span>
   </button>
   <div class="container">
-    <header class="site-header">
-      <div class="site-logo">HJL</div>
-      <h1>One Piece HJL的网站</h1>
-      <p>支持快速获取想要的更新内容，夯爆了</p>
+    <header class="site-header site-header--compact">
+      <div class="site-logo" aria-hidden="true">HJL</div>
+      <h1>HJL Clatch</h1>
+      <p class="site-tagline">GitHub · HN · 微博 · 顶刊 · Skills，自动聚合与历史回看</p>
       <div class="meta-bar">
-        <span class="badge live">已启用自动更新</span>
+        <span class="badge live">自动更新中</span>
         <span class="badge badge-week">GitHub 周期：<strong id="week-label">—</strong></span>
       </div>
-      <div class="meta-sync-grid" id="meta-sync-grid" aria-label="各栏目最近更新时间">
-        <div class="meta-sync-item theme-github" data-platform="github">
-          <span class="meta-sync-label">GitHub</span>
-          <span class="meta-sync-schedule">每周一</span>
-          <strong class="meta-sync-time" id="meta-github-at">—</strong>
+      <details class="sync-status-details" id="sync-status-details">
+        <summary>更新状态</summary>
+        <div class="meta-sync-grid" id="meta-sync-grid" aria-label="各栏目最近更新时间">
+          <div class="meta-sync-item theme-github" data-platform="github">
+            <span class="meta-sync-label">GitHub</span>
+            <span class="meta-sync-schedule">每周一</span>
+            <strong class="meta-sync-time" id="meta-github-at">—</strong>
+          </div>
+          <div class="meta-sync-item theme-hn" data-platform="hackernews">
+            <span class="meta-sync-label">Hacker News</span>
+            <span class="meta-sync-schedule">每日 10/22 点</span>
+            <strong class="meta-sync-time" id="meta-hackernews-at">—</strong>
+          </div>
+          <div class="meta-sync-item theme-weibo" data-platform="weibo">
+            <span class="meta-sync-label">微博</span>
+            <span class="meta-sync-schedule">每日 10/22 点</span>
+            <strong class="meta-sync-time" id="meta-weibo-at">—</strong>
+          </div>
+          <div class="meta-sync-item theme-journals" data-platform="journals">
+            <span class="meta-sync-label">MRI 顶刊/顶会</span>
+            <span class="meta-sync-schedule">每月 1/15 日</span>
+            <strong class="meta-sync-time" id="meta-journals-at">—</strong>
+          </div>
+          <div class="meta-sync-item theme-nature" data-platform="natureSkills">
+            <span class="meta-sync-label">Nature Skills</span>
+            <span class="meta-sync-schedule">每日 10/22 点</span>
+            <strong class="meta-sync-time" id="meta-natureSkills-at">—</strong>
+          </div>
+          <div class="meta-sync-item theme-scientific" data-platform="scientificSkills">
+            <span class="meta-sync-label">Scientific Skills</span>
+            <span class="meta-sync-schedule">每日 10/22 点</span>
+            <strong class="meta-sync-time" id="meta-scientificSkills-at">—</strong>
+          </div>
         </div>
-        <div class="meta-sync-item theme-hn" data-platform="hackernews">
-          <span class="meta-sync-label">Hacker News</span>
-          <span class="meta-sync-schedule">每日 10/22 点</span>
-          <strong class="meta-sync-time" id="meta-hackernews-at">—</strong>
-        </div>
-        <div class="meta-sync-item theme-weibo" data-platform="weibo">
-          <span class="meta-sync-label">微博</span>
-          <span class="meta-sync-schedule">每日 10/22 点</span>
-          <strong class="meta-sync-time" id="meta-weibo-at">—</strong>
-        </div>
-        <div class="meta-sync-item theme-journals" data-platform="journals">
-          <span class="meta-sync-label">MRI 顶刊/顶会</span>
-          <span class="meta-sync-schedule">每月 1/15 日</span>
-          <strong class="meta-sync-time" id="meta-journals-at">—</strong>
-        </div>
-        <div class="meta-sync-item theme-nature" data-platform="natureSkills">
-          <span class="meta-sync-label">Nature Skills</span>
-          <span class="meta-sync-schedule">每日 10/22 点</span>
-          <strong class="meta-sync-time" id="meta-natureSkills-at">—</strong>
-        </div>
-        <div class="meta-sync-item theme-scientific" data-platform="scientificSkills">
-          <span class="meta-sync-label">Scientific Skills</span>
-          <span class="meta-sync-schedule">每日 10/22 点</span>
-          <strong class="meta-sync-time" id="meta-scientificSkills-at">—</strong>
-        </div>
-      </div>
-      <p class="meta-sync-hint">计划时间仅供参考，GitHub Actions 可能延迟数小时；切换栏目时高亮对应该栏目的更新时间。</p>
+        <p class="meta-sync-hint">计划时间仅供参考，Actions 可能延迟；切换栏目时高亮对应更新时间。</p>
+      </details>
     </header>
 
     <div id="loading" class="skeleton-layout" aria-busy="true" aria-label="正在加载">
@@ -111,7 +128,7 @@
         <nav id="catalog-tree" class="catalog-tree"></nav>
       </aside>
 
-      <main id="content-panel" class="content-panel">
+      <main id="content-panel" class="content-panel" tabindex="-1">
         <nav id="breadcrumb" class="breadcrumb" aria-label="当前位置"></nav>
 
         <div class="controls">
@@ -129,23 +146,31 @@
               id="search-input"
               class="select search-input"
               type="search"
-              placeholder="过滤标题 / 描述…"
+              placeholder="过滤标题 / 描述…（快捷键 /）"
               autocomplete="off"
             />
           </div>
         </div>
 
         <p id="section-desc" class="section-desc"></p>
+        <p id="new-items-banner" class="new-items-banner" hidden></p>
 
         <div id="journal-stats" class="journal-stats" hidden></div>
 
         <div id="panel-content" class="panel-content panel-split">
           <section class="list-pane" aria-label="条目列表">
             <div class="list-toolbar">
-              <strong class="list-count"><span id="item-count">0</span> 条</strong>
-              <span id="list-filter-hint" class="list-filter-hint" hidden></span>
+              <div class="list-toolbar-left">
+                <strong class="list-count"><span id="item-count">0</span> 条</strong>
+                <span id="list-filter-hint" class="list-filter-hint" hidden></span>
+                <span id="list-new-hint" class="list-new-hint" hidden></span>
+              </div>
+              <div class="list-toolbar-right">
+                <button type="button" id="mark-read-btn" class="btn-text" hidden>全部标为已读</button>
+                <span class="kbd-hint" title="键盘快捷键">j/k · Enter · /</span>
+              </div>
             </div>
-            <ul id="compact-list" class="compact-list compact-list--primary"></ul>
+            <ul id="compact-list" class="compact-list compact-list--primary" role="listbox" aria-label="条目"></ul>
           </section>
           <article id="item-detail" class="item-detail" aria-live="polite"></article>
         </div>
@@ -153,13 +178,14 @@
     </div>
 
     <footer class="site-footer">
-      <details class="footer-details">
+      <details class="footer-details" id="footer-details">
         <summary>数据来源与更新说明</summary>
         <p>GitHub · Hacker News · 微博 · MRI 顶刊 · Nature Skills · Scientific Skills</p>
         <p>微博/HN/Nature Skills/Scientific Skills 每天约 10/22 点 · GitHub 每周一 · 顶刊每月 1/15 日</p>
         <p>Nature Skills / Scientific Skills 有更新时会自动创建 GitHub Issue（需 Watch 本仓库）。</p>
         <p>自动抓取由 <a href="https://github.com/Jasper499/github_clatch/actions" target="_blank" rel="noopener noreferrer">GitHub Actions</a> 执行，实际完成时间可能有延迟。</p>
         <p>若内容看似未更新：请强制刷新（Ctrl+F5），并确认「历史日期」选为「最新」。</p>
+        <p>快捷键：<kbd>j</kbd>/<kbd>k</kbd> 上下条 · <kbd>Enter</kbd> 打开链接 · <kbd>/</kbd> 搜索 · <kbd>Esc</kbd> 清空搜索</p>
         <ul class="footer-sync-list" id="footer-sync-list" aria-label="各栏目最近更新时间"></ul>
       </details>
       <p class="footer-links">

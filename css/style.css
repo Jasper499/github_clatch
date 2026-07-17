@@ -309,8 +309,8 @@ body::after {
 
 .site-header {
   text-align: center;
-  margin-bottom: 2rem;
-  padding: 2rem 1.35rem 1.85rem;
+  margin-bottom: 1.5rem;
+  padding: 1.55rem 1.25rem 1.25rem;
   border: 1px solid var(--glass-border);
   border-radius: calc(var(--radius) + 6px);
   background: var(--glass-bg);
@@ -319,6 +319,62 @@ body::after {
   box-shadow: var(--shadow-soft), inset 0 1px 0 rgba(255, 255, 255, 0.06);
   position: relative;
   overflow: hidden;
+}
+
+.site-header--compact .site-logo {
+  width: 2.55rem;
+  height: 2.55rem;
+  margin-bottom: 0.55rem;
+  font-size: 0.72rem;
+}
+
+.site-header--compact h1 {
+  font-size: clamp(1.45rem, 3.4vw, 2rem);
+  margin-bottom: 0.3rem;
+}
+
+.site-tagline,
+.site-header p {
+  color: var(--muted);
+  max-width: 620px;
+  margin: 0 auto 0.85rem;
+  font-size: 0.92rem;
+}
+
+.sync-status-details {
+  margin: 0.85rem auto 0;
+  max-width: 960px;
+  text-align: left;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.sync-status-details > summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 0.55rem 0.85rem;
+  font-size: 0.84rem;
+  color: var(--muted);
+  font-family: var(--font-mono);
+  user-select: none;
+}
+
+.sync-status-details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.sync-status-details[open] > summary {
+  border-bottom: 1px solid var(--border);
+  color: var(--text);
+}
+
+.sync-status-details .meta-sync-grid {
+  margin: 0.75rem;
+}
+
+.sync-status-details .meta-sync-hint {
+  margin: 0 0.85rem 0.85rem;
 }
 
 .site-header::before {
@@ -381,13 +437,6 @@ body::after {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-}
-
-.site-header p {
-  color: var(--muted);
-  max-width: 620px;
-  margin: 0 auto 1.1rem;
-  font-size: 0.95rem;
 }
 
 .meta-bar {
@@ -1330,16 +1379,116 @@ body::after {
   font-size: 0.84rem;
 }
 
+.list-toolbar-left,
+.list-toolbar-right {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  min-width: 0;
+}
+
 .list-count {
   font-family: var(--font-mono);
   font-weight: 600;
   color: var(--text);
 }
 
-.list-filter-hint {
+.list-filter-hint,
+.list-new-hint,
+.kbd-hint {
   color: var(--muted);
   font-size: 0.78rem;
   font-family: var(--font-mono);
+}
+
+.list-new-hint {
+  color: var(--platform-hn);
+  border: 1px solid var(--platform-hn-border);
+  background: var(--platform-hn-soft);
+  border-radius: 999px;
+  padding: 0.08rem 0.45rem;
+}
+
+.btn-text {
+  border: none;
+  background: transparent;
+  color: var(--accent);
+  font: inherit;
+  font-size: 0.78rem;
+  cursor: pointer;
+  padding: 0.15rem 0.25rem;
+}
+
+.btn-text:hover {
+  text-decoration: underline;
+}
+
+.new-items-banner {
+  margin: 0 0 0.85rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--platform-hn-border);
+  background: var(--platform-hn-soft);
+  color: var(--text);
+  font-size: 0.86rem;
+}
+
+.new-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.4rem;
+  padding: 0.05rem 0.35rem;
+  border-radius: 999px;
+  font-size: 0.68rem;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background: var(--platform-hn);
+  vertical-align: middle;
+}
+
+.compact-item.is-new .compact-title,
+.compact-row.is-new .compact-title {
+  font-weight: 600;
+}
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 0;
+  z-index: 1000;
+  padding: 0.55rem 0.85rem;
+  background: var(--accent);
+  color: #0d1117;
+  border-radius: 0 0 var(--radius-sm) 0;
+  font-weight: 600;
+}
+
+.skip-link:focus {
+  left: 0;
+}
+
+kbd {
+  font-family: var(--font-mono);
+  font-size: 0.78em;
+  padding: 0.08rem 0.35rem;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.compact-item:focus-visible,
+.tree-leaf:focus-visible,
+.mobile-tab:focus-visible,
+.mobile-chip:focus-visible,
+.select:focus-visible,
+.search-input:focus-visible,
+.btn-text:focus-visible,
+.theme-toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
 
 .search-input {

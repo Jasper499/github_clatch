@@ -3,6 +3,8 @@ const META_URL = "data/meta.json";
 const MANIFEST_URL = "data/manifest.json";
 const SOURCES_BASE = "data/sources";
 const DATES_STORAGE_KEY = "hjl-source-dates";
+const SEEN_STORAGE_KEY = "hjl-seen-v1";
+const SEEN_MAX_PER_SOURCE = 400;
 
 const DEFAULT_CATALOG = [
   {
@@ -60,6 +62,8 @@ let selectedDates = {};
 const historyCache = {};
 const latestSourceCache = {};
 let suppressHashWrite = false;
+let seenStore = {};
+let currentSourceRef = null;
 
 const PLATFORM_META = {
   github: { theme: "theme-github", short: "GH", name: "GitHub" },
@@ -179,6 +183,97 @@ function persistDates() {
   try {
     localStorage.setItem(DATES_STORAGE_KEY, JSON.stringify(selectedDates));
   } catch (_) {}
+}
+
+function loadSeenStore() {
+  try {
+    const raw = JSON.parse(localStorage.getItem(SEEN_STORAGE_KEY) || "{}");
+    return raw && typeof raw === "object" ? raw : {};
+  } catch (_) {
+    return {};
+  }
+}
+
+function persistSeenStore() {
+  try {
+    localStorage.setItem(SEEN_STORAGE_KEY, JSON.stringify(seenStore));
+  } catch (_) {}
+}
+
+function itemFingerprint(item) {
+  if (!item) return "";
+  if (item.url) return `u:${item.url}`;
+  if (item.sha) return `s:${item.sha}|${item.title || ""}`;
+  if (item.doi) return `d:${item.doi}`;
+  return `t:${item.title || ""}|${item.published || ""}|${item.label || ""}`;
+}
+
+function getSeenSet(sourceKey) {
+  const list = seenStore[sourceKey];
+  return new Set(Array.isArray(list) ? list : []);
+}
+
+function bootstrapSeenIfNeeded(sourceKey, items) {
+  if (Object.prototype.hasOwnProperty.call(seenStore, sourceKey)) return false;
+  seenStore[sourceKey] = (items || []).map(itemFingerprint).filter(Boolean).slice(0, SEEN_MAX_PER_SOURCE);
+  persistSeenStore();
+  return true;
+}
+
+function isItemNew(sourceKey, item) {
+  if (!Object.prototype.hasOwnProperty.call(seenStore, sourceKey)) return false;
+  return !getSeenSet(sourceKey).has(itemFingerprint(item));
+}
+
+function markItemSeen(sourceKey, item) {
+  if (!item) return;
+  const fp = itemFingerprint(item);
+  if (!fp) return;
+  const list = Array.isArray(seenStore[sourceKey]) ? seenStore[sourceKey].slice() : [];
+  if (list.includes(fp)) return;
+  list.unshift(fp);
+  seenStore[sourceKey] = list.slice(0, SEEN_MAX_PER_SOURCE);
+  persistSeenStore();
+}
+
+function markSourceSeen(sourceKey, items) {
+  seenStore[sourceKey] = (items || []).map(itemFingerprint).filter(Boolean).slice(0, SEEN_MAX_PER_SOURCE);
+  persistSeenStore();
+}
+
+function countNewItems(sourceKey, items) {
+  if (!Object.prototype.hasOwnProperty.call(seenStore, sourceKey)) return 0;
+  const seen = getSeenSet(sourceKey);
+  return (items || []).reduce((n, item) => n + (seen.has(itemFingerprint(item)) ? 0 : 1), 0);
+}
+
+function updateNewHints(sourceKey, items) {
+  const newCount = countNewItems(sourceKey, items);
+  const banner = document.getElementById("new-items-banner");
+  const hint = document.getElementById("list-new-hint");
+  const markBtn = document.getElementById("mark-read-btn");
+
+  if (banner) {
+    if (newCount > 0) {
+      banner.hidden = false;
+      banner.textContent = `自上次浏览后，本栏目有 ${newCount} 条新内容`;
+    } else {
+      banner.hidden = true;
+      banner.textContent = "";
+    }
+  }
+  if (hint) {
+    if (newCount > 0) {
+      hint.hidden = false;
+      hint.textContent = `${newCount} 新`;
+    } else {
+      hint.hidden = true;
+      hint.textContent = "";
+    }
+  }
+  if (markBtn) {
+    markBtn.hidden = newCount === 0;
+  }
 }
 
 function getLatestUpdatedAt(data, sourceKey) {
@@ -883,6 +978,8 @@ function selectListItem(source, index) {
   const items = source?.items || [];
   if (!items.length) return;
   activeItemIndex = Math.min(Math.max(0, index), items.length - 1);
+  markItemSeen(activeSourceKey, items[activeItemIndex]);
+  updateNewHints(activeSourceKey, items);
   renderItemDetail(items[activeItemIndex], activeItemIndex);
   renderCompactList(source, activeItemIndex);
   writeHashRoute();
@@ -1097,18 +1194,21 @@ function renderCompactList(source, activeIndex) {
   list.innerHTML = filtered
     .map(({ item, index }) => {
       const active = index === activeIndex ? " active" : "";
+      const isNew = isItemNew(activeSourceKey, item);
       const meta = itemCompactMeta(item);
       const journalClass = isJournalSource(activeSourceKey) ? " compact-item-journal" : "";
+      const newClass = isNew ? " is-new" : "";
+      const newBadge = isNew ? `<span class="new-badge" aria-label="新内容">新</span>` : "";
       const external = item.url
         ? `<a class="compact-external" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer" title="打开原链接" aria-label="打开原链接">${icon("external", "icon icon-compact")}</a>`
         : `<span class="compact-external compact-external--empty"></span>`;
 
       return `
-      <li class="compact-row">
-        <button type="button" class="compact-item${active}${journalClass}" data-index="${index}">
+      <li class="compact-row${newClass}">
+        <button type="button" class="compact-item${active}${journalClass}${newClass}" data-index="${index}" role="option" aria-selected="${active ? "true" : "false"}">
           <span class="compact-rank">${index + 1}</span>
           <div class="compact-body${isJournalSource(activeSourceKey) ? " compact-body-journal" : ""}">
-            <span class="compact-title">${escapeHtml(item.title)}</span>
+            <span class="compact-title">${newBadge}${escapeHtml(item.title)}</span>
             ${meta ? `<span class="compact-meta">${escapeHtml(meta)}</span>` : ""}
           </div>
         </button>
@@ -1135,11 +1235,14 @@ async function syncPanel(data, { preserveItemIndex = true } = {}) {
     document.getElementById("compact-list").innerHTML = `<li class="compact-empty">暂无条目</li>`;
     document.getElementById("item-detail").innerHTML =
       `<div class="detail-body"><div class="empty-state"><p>${escapeHtml(err.message)}</p></div></div>`;
+    updateNewHints(activeSourceKey, []);
     writeHashRoute();
     return;
   }
 
   const items = source?.items || [];
+  currentSourceRef = source;
+  bootstrapSeenIfNeeded(activeSourceKey, items);
   const previousIndex = preserveItemIndex ? activeItemIndex : 0;
   const dateKey = selectedDates[activeSourceKey] || "latest";
 
@@ -1171,6 +1274,7 @@ async function syncPanel(data, { preserveItemIndex = true } = {}) {
     activeItemIndex = filtered[0].index;
   }
 
+  updateNewHints(activeSourceKey, items);
   renderItemDetail(items[activeItemIndex], activeItemIndex);
   renderCompactList(source, activeItemIndex);
   writeHashRoute();
@@ -1204,6 +1308,84 @@ function bindSearch(data) {
   });
 }
 
+function bindMarkRead() {
+  const btn = document.getElementById("mark-read-btn");
+  if (!btn || btn.dataset.bound === "1") return;
+  btn.dataset.bound = "1";
+  btn.addEventListener("click", () => {
+    const items = currentSourceRef?.items || [];
+    markSourceSeen(activeSourceKey, items);
+    updateNewHints(activeSourceKey, items);
+    renderCompactList(currentSourceRef, activeItemIndex);
+  });
+}
+
+function isTypingTarget(el) {
+  if (!el) return false;
+  const tag = (el.tagName || "").toLowerCase();
+  return tag === "input" || tag === "textarea" || tag === "select" || el.isContentEditable;
+}
+
+function moveSelection(delta) {
+  if (!currentSourceRef) return;
+  const filtered = filterItems(currentSourceRef.items || []);
+  if (!filtered.length) return;
+  let pos = filtered.findIndex(({ index }) => index === activeItemIndex);
+  if (pos < 0) pos = 0;
+  pos = Math.min(Math.max(0, pos + delta), filtered.length - 1);
+  selectListItem(currentSourceRef, filtered[pos].index);
+  const activeBtn = document.querySelector(`#compact-list button[data-index="${filtered[pos].index}"]`);
+  activeBtn?.scrollIntoView({ block: "nearest" });
+}
+
+function openActiveItem() {
+  const item = currentSourceRef?.items?.[activeItemIndex];
+  if (item?.url) {
+    markItemSeen(activeSourceKey, item);
+    updateNewHints(activeSourceKey, currentSourceRef.items || []);
+    window.open(item.url, "_blank", "noopener,noreferrer");
+  }
+}
+
+function bindKeyboard() {
+  if (window.__hjlKeysBound) return;
+  window.__hjlKeysBound = true;
+  document.addEventListener("keydown", (event) => {
+    if (event.metaKey || event.ctrlKey || event.altKey) return;
+    const typing = isTypingTarget(event.target);
+
+    if (event.key === "/" && !typing) {
+      event.preventDefault();
+      document.getElementById("search-input")?.focus();
+      return;
+    }
+    if (event.key === "Escape") {
+      const input = document.getElementById("search-input");
+      if (input && (document.activeElement === input || searchQuery)) {
+        searchQuery = "";
+        input.value = "";
+        input.blur();
+        if (currentSourceRef) {
+          renderCompactList(currentSourceRef, activeItemIndex);
+          updateNewHints(activeSourceKey, currentSourceRef.items || []);
+        }
+      }
+      return;
+    }
+    if (typing) return;
+    if (event.key === "j" || event.key === "J") {
+      event.preventDefault();
+      moveSelection(1);
+    } else if (event.key === "k" || event.key === "K") {
+      event.preventDefault();
+      moveSelection(-1);
+    } else if (event.key === "Enter") {
+      event.preventDefault();
+      openActiveItem();
+    }
+  });
+}
+
 async function loadContent() {
   const loading = document.getElementById("loading");
   const layout = document.getElementById("app-layout");
@@ -1211,6 +1393,7 @@ async function loadContent() {
   layout.hidden = true;
 
   loadStoredDates();
+  seenStore = loadSeenStore();
 
   try {
     const bust = Date.now();
@@ -1239,6 +1422,8 @@ async function loadContent() {
     renderMobileNav(appData);
     renderMobileSubnav(appData);
     bindSearch(appData);
+    bindMarkRead();
+    bindKeyboard();
     await syncPanel(appData, { preserveItemIndex: Boolean(route) });
 
     loading.style.display = "none";
