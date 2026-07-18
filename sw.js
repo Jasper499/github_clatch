@@ -1,13 +1,13 @@
 /* HJL Clatch service worker — cache shell + recent data for offline reading. */
-const CACHE_SHELL = "clatch-shell-v4";
-const CACHE_DATA = "clatch-data-v4";
+const CACHE_SHELL = "clatch-shell-v5";
+const CACHE_DATA = "clatch-data-v5";
 
 const SHELL_FILES = [
   "./",
   "./index.html",
-  "./css/style.css?v=4",
-  "./js/app.js?v=4",
-  "./js/icons.js?v=4",
+  "./css/style.css?v=5",
+  "./js/app.js?v=5",
+  "./js/icons.js?v=5",
   "./favicon.svg",
   "./manifest.webmanifest",
   "./data/meta.json",

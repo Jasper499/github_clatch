@@ -17,7 +17,8 @@ HISTORY_DIR = DATA_DIR / "history"
 SOURCES_DIR = DATA_DIR / "sources"
 MANIFEST_PATH = DATA_DIR / "manifest.json"
 META_PATH = DATA_DIR / "meta.json"
-MAX_SNAPSHOTS_PER_SOURCE = 60
+MAX_SNAPSHOTS_PER_SOURCE = 120
+
 
 META_COPY_FIELDS = (
     "updatedAt",
@@ -36,6 +37,11 @@ META_COPY_FIELDS = (
 
 def iso_date_today() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+
+def iso_snapshot_id() -> str:
+    """Unique snapshot id per run (UTC), safe for filenames on Windows/Linux."""
+    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H%M%SZ")
 
 
 def utc_now_iso() -> str:
@@ -96,36 +102,54 @@ def publish_content_artifacts(content: dict, source_keys: list[str] | None = Non
 
 
 def save_source_snapshot(source_key: str, source_data: dict, snapshot_date: str | None = None) -> str:
-    """Persist one source snapshot and update manifest. Returns snapshot date."""
-    date = snapshot_date or iso_date_today()
+    """Persist one source snapshot and update manifest.
+
+    Each run gets its own snapshot id (UTC timestamp) so same-day updates
+    (e.g. Weibo every 6 hours) are kept instead of overwriting.
+    Returns the snapshot id used as history filename stem.
+    """
     HISTORY_DIR.mkdir(parents=True, exist_ok=True)
     source_dir = HISTORY_DIR / source_key
     source_dir.mkdir(parents=True, exist_ok=True)
 
+    base_id = snapshot_date or iso_snapshot_id()
+    snap_id = base_id
+    if snapshot_date is None:
+        # Avoid rare same-second collisions when workflow_dispatch is re-run.
+        suffix = 2
+        while (source_dir / f"{snap_id}.json").exists():
+            snap_id = f"{base_id}-{suffix}"
+            suffix += 1
+
+    calendar_day = snap_id[:10] if len(snap_id) >= 10 else iso_date_today()
+
     payload = {
-        "date": date,
+        "date": snap_id,
+        "day": calendar_day,
         "sourceKey": source_key,
         "savedAt": utc_now_iso(),
         **source_data,
     }
 
-    out_file = source_dir / f"{date}.json"
+    out_file = source_dir / f"{snap_id}.json"
     with out_file.open("w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
         f.write("\n")
 
     manifest = _load_manifest()
     entries = manifest.setdefault("sources", {}).setdefault(source_key, [])
-    entries = [e for e in entries if e.get("date") != date]
+    # Only replace an entry with the exact same snapshot id (idempotent re-run).
+    entries = [e for e in entries if e.get("date") != snap_id]
     entries.insert(
         0,
         {
-            "date": date,
+            "date": snap_id,
+            "day": calendar_day,
             "savedAt": payload["savedAt"],
             "itemCount": len(source_data.get("items", [])),
         },
     )
-    entries.sort(key=lambda e: e.get("date", ""), reverse=True)
+    entries.sort(key=lambda e: e.get("savedAt") or e.get("date") or "", reverse=True)
     manifest["sources"][source_key] = entries[:MAX_SNAPSHOTS_PER_SOURCE]
     manifest["updatedAt"] = utc_now_iso()
 
@@ -133,7 +157,7 @@ def save_source_snapshot(source_key: str, source_data: dict, snapshot_date: str 
         json.dump(manifest, f, ensure_ascii=False, indent=2)
         f.write("\n")
 
-    return date
+    return snap_id
 
 
 def save_sources_from_content(content: dict, source_keys: list[str]) -> None:

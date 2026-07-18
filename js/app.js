@@ -167,6 +167,16 @@ function formatDate(iso) {
   });
 }
 
+/** History snapshot id → readable label (keeps plain YYYY-MM-DD as-is). */
+function formatSnapshotLabel(dateKey) {
+  if (!dateKey || dateKey === "latest") return dateKey;
+  const stamped = /^(\d{4}-\d{2}-\d{2})T(\d{2})(\d{2})(\d{2})Z$/.exec(dateKey);
+  if (stamped) {
+    return `${stamped[1]} ${stamped[2]}:${stamped[3]}`;
+  }
+  return dateKey;
+}
+
 function formatShortDate(iso) {
   if (!iso) return "";
   const d = new Date(iso);
@@ -900,7 +910,7 @@ function renderJournalStats(data, source) {
   const dateKey = selectedDates[activeSourceKey] || "latest";
   const period =
     dateKey !== "latest"
-      ? `历史快照 · ${dateKey}`
+      ? `历史快照 · ${formatSnapshotLabel(dateKey)}`
       : data.journalsPeriod || "近半月";
 
   box.hidden = false;
@@ -1159,7 +1169,7 @@ function renderBreadcrumb(data, source) {
   const dateKey = selectedDates[activeSourceKey] || "latest";
   const historyCrumb =
     dateKey !== "latest"
-      ? `<span class="crumb-sep">/</span><span class="crumb crumb-pill crumb-history">${escapeHtml(dateKey)}</span>`
+      ? `<span class="crumb-sep">/</span><span class="crumb crumb-pill crumb-history">${escapeHtml(formatSnapshotLabel(dateKey))}</span>`
       : "";
 
   document.getElementById("breadcrumb").innerHTML = `
@@ -1211,7 +1221,8 @@ function fillDateSelect(data) {
   const options = [`<option value="latest">最新${latestLabel}</option>`];
   entries.forEach((entry) => {
     const count = entry.itemCount != null ? ` · ${entry.itemCount} 条` : "";
-    options.push(`<option value="${entry.date}">${entry.date}${count}</option>`);
+    const label = formatSnapshotLabel(entry.date);
+    options.push(`<option value="${entry.date}">${label}${count}</option>`);
   });
 
   select.innerHTML = options.join("");
@@ -1938,7 +1949,7 @@ async function syncPanel(data, { preserveItemIndex = true } = {}) {
 
   let desc = source?.description || "";
   if (dateKey !== "latest") {
-    desc = `【历史快照 ${dateKey}】${desc ? ` ${desc}` : ""}`;
+    desc = `【历史快照 ${formatSnapshotLabel(dateKey)}】${desc ? ` ${desc}` : ""}`;
   }
   const descEl = document.getElementById("section-desc");
   descEl.textContent = desc;
