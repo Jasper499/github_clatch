@@ -44,75 +44,114 @@
   --platform-journals-soft: rgba(183, 148, 246, 0.14);
   --platform-journals-border: rgba(183, 148, 246, 0.35);
 
-  --platform-nature: #2dd4bf;
-  --platform-nature-soft: rgba(45, 212, 191, 0.14);
-  --platform-nature-border: rgba(45, 212, 191, 0.35);
+  --platform-nature: #2f81f7;
+  --platform-nature-soft: rgba(47, 129, 247, 0.14);
+  --platform-nature-border: rgba(47, 129, 247, 0.35);
 
-  --platform-scientific: #38bdf8;
-  --platform-scientific-soft: rgba(56, 189, 248, 0.14);
-  --platform-scientific-border: rgba(56, 189, 248, 0.35);
+  --platform-scientific: #2f81f7;
+  --platform-scientific-soft: rgba(47, 129, 247, 0.14);
+  --platform-scientific-border: rgba(47, 129, 247, 0.35);
 
   --platform-week: #56d364;
   --platform-week-soft: rgba(86, 211, 100, 0.12);
 }
 
+html[data-platform="hackernews"] .site-header::before,
+html[data-platform="hackernews"] .site-header::after {
+  display: none;
+}
+
 html[data-platform="hackernews"] {
   --bg: #f6f6ef;
-  --bg-elevated: #ffffff;
-  --surface: #ffffff;
-  --surface-solid: #ffffff;
-  --surface-hover: #f0f0e8;
-  --surface-active: #fff7e8;
-  --border: rgba(0, 0, 0, 0.08);
-  --border-strong: rgba(0, 0, 0, 0.14);
+  --bg-elevated: #f6f6ef;
+  --surface: #f6f6ef;
+  --surface-solid: #f6f6ef;
+  --surface-hover: #ecece4;
+  --surface-active: #e6e6de;
+  --border: #ff6600;
+  --border-strong: rgba(0, 0, 0, 0.2);
   --text: #000000;
   --muted: #828282;
   --accent: #ff6600;
   --accent-soft: rgba(255, 102, 0, 0.12);
-  --shadow: 0 8px 28px rgba(0, 0, 0, 0.08);
-  --shadow-soft: 0 2px 12px rgba(0, 0, 0, 0.05);
-  --glass-bg: #ffffff;
-  --glass-border: rgba(0, 0, 0, 0.06);
-  --ambient-1: rgba(255, 102, 0, 0.14);
-  --ambient-2: rgba(255, 140, 66, 0.08);
-  --ambient-3: rgba(255, 102, 0, 0.04);
+  --shadow: none;
+  --shadow-soft: none;
+  --glass-bg: #f6f6ef;
+  --glass-border: rgba(0, 0, 0, 0.08);
+  --ambient-1: transparent;
+  --ambient-2: transparent;
+  --ambient-3: transparent;
   --platform-hn: #ff6600;
-  --platform-hn-soft: rgba(255, 102, 0, 0.12);
+  --platform-hn-soft: rgba(255, 102, 0, 0.1);
   --platform-hn-border: rgba(255, 102, 0, 0.35);
+  --font-hn: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* HN stays classic light regardless of app theme */
+html[data-theme="dark"][data-platform="hackernews"],
+html[data-theme="light"][data-platform="hackernews"] {
+  --bg: #f6f6ef;
+  --bg-elevated: #f6f6ef;
+  --surface: #f6f6ef;
+  --surface-solid: #f6f6ef;
+  --text: #000000;
+  --muted: #828282;
+  --accent: #ff6600;
 }
 
 html[data-platform="hackernews"] .page-bg__orb,
 html[data-platform="hackernews"] .page-bg__mesh {
-  opacity: 0.12;
+  opacity: 0;
 }
 
-html[data-platform="github"] {
+html[data-platform="hackernews"] body::before,
+html[data-platform="hackernews"] body::after {
+  opacity: 0;
+}
+
+html[data-platform="hackernews"] body {
+  font-family: var(--font-hn);
+}
+
+/* GitHub Explore skin ? shared by GitHub / Nature Skills / Scientific Skills */
+html[data-platform="github"],
+html[data-platform="natureSkills"],
+html[data-platform="scientificSkills"] {
   --bg: #0d1117;
   --bg-elevated: #161b22;
   --surface: #161b22;
   --surface-solid: #161b22;
   --surface-hover: #1c2128;
-  --surface-active: #1f6feb22;
+  --surface-active: rgba(56, 139, 253, 0.1);
   --border: rgba(48, 54, 61, 0.9);
   --border-strong: rgba(110, 118, 129, 0.4);
   --text: #e6edf3;
   --muted: #8b949e;
   --accent: #2f81f7;
   --accent-soft: rgba(47, 129, 247, 0.14);
-  --star: #e3b341;
+  --star: #8b949e;
   --shadow: 0 8px 28px rgba(0, 0, 0, 0.35);
-  --shadow-soft: 0 2px 12px rgba(0, 0, 0, 0.28);
+  --shadow-soft: 0 0 0 1px rgba(48, 54, 61, 0.9);
   --glass-bg: rgba(22, 27, 34, 0.92);
   --glass-border: rgba(48, 54, 61, 0.9);
-  --ambient-1: rgba(47, 129, 247, 0.16);
-  --ambient-2: rgba(47, 129, 247, 0.08);
-  --ambient-3: rgba(110, 118, 129, 0.06);
+  --ambient-1: rgba(47, 129, 247, 0.12);
+  --ambient-2: rgba(47, 129, 247, 0.06);
+  --ambient-3: rgba(110, 118, 129, 0.04);
   --platform-github: #2f81f7;
-  --platform-github-soft: rgba(47, 129, 247, 0.14);
-  --platform-github-border: rgba(47, 129, 247, 0.4);
+  --platform-github-soft: rgba(47, 129, 247, 0.12);
+  --platform-github-border: rgba(47, 129, 247, 0.35);
+  --platform-nature: #2f81f7;
+  --platform-nature-soft: rgba(47, 129, 247, 0.12);
+  --platform-nature-border: rgba(47, 129, 247, 0.35);
+  --platform-scientific: #2f81f7;
+  --platform-scientific-soft: rgba(47, 129, 247, 0.12);
+  --platform-scientific-border: rgba(47, 129, 247, 0.35);
+  --font-gh: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
 }
 
-html[data-theme="light"][data-platform="github"] {
+html[data-theme="light"][data-platform="github"],
+html[data-theme="light"][data-platform="natureSkills"],
+html[data-theme="light"][data-platform="scientificSkills"] {
   --bg: #f6f8fa;
   --bg-elevated: #ffffff;
   --surface: #ffffff;
@@ -125,12 +164,23 @@ html[data-theme="light"][data-platform="github"] {
   --muted: #656d76;
   --accent: #0969da;
   --accent-soft: rgba(9, 105, 218, 0.1);
-  --star: #9a6700;
+  --star: #656d76;
+  --shadow: 0 1px 0 rgba(31, 35, 40, 0.04);
+  --shadow-soft: 0 0 0 1px rgba(31, 35, 40, 0.06);
   --glass-bg: #ffffff;
   --glass-border: rgba(31, 35, 40, 0.12);
+  --ambient-1: rgba(9, 105, 218, 0.08);
+  --ambient-2: rgba(9, 105, 218, 0.04);
+  --ambient-3: rgba(110, 118, 129, 0.04);
   --platform-github: #0969da;
-  --platform-github-soft: rgba(9, 105, 218, 0.1);
+  --platform-github-soft: rgba(9, 105, 218, 0.08);
   --platform-github-border: rgba(9, 105, 218, 0.28);
+  --platform-nature: #0969da;
+  --platform-nature-soft: rgba(9, 105, 218, 0.08);
+  --platform-nature-border: rgba(9, 105, 218, 0.28);
+  --platform-scientific: #0969da;
+  --platform-scientific-soft: rgba(9, 105, 218, 0.08);
+  --platform-scientific-border: rgba(9, 105, 218, 0.28);
 }
 
 html[data-platform="journals"] {
@@ -156,56 +206,6 @@ html[data-platform="journals"] {
   --platform-journals: #7c3aed;
   --platform-journals-soft: rgba(124, 58, 237, 0.1);
   --platform-journals-border: rgba(124, 58, 237, 0.28);
-}
-
-html[data-platform="natureSkills"] {
-  --bg: #f2fbf9;
-  --bg-elevated: #ffffff;
-  --surface: #ffffff;
-  --surface-solid: #ffffff;
-  --surface-hover: #eaf8f5;
-  --surface-active: #d9f3ed;
-  --border: rgba(13, 148, 136, 0.14);
-  --border-strong: rgba(13, 148, 136, 0.24);
-  --text: #134e4a;
-  --muted: #5f7d79;
-  --accent: #0d9488;
-  --accent-soft: rgba(13, 148, 136, 0.1);
-  --shadow: 0 8px 28px rgba(13, 100, 90, 0.08);
-  --shadow-soft: 0 2px 12px rgba(13, 100, 90, 0.05);
-  --glass-bg: #ffffff;
-  --glass-border: rgba(13, 148, 136, 0.12);
-  --ambient-1: rgba(13, 148, 136, 0.12);
-  --ambient-2: rgba(45, 212, 191, 0.08);
-  --ambient-3: rgba(13, 148, 136, 0.04);
-  --platform-nature: #0d9488;
-  --platform-nature-soft: rgba(13, 148, 136, 0.1);
-  --platform-nature-border: rgba(13, 148, 136, 0.28);
-}
-
-html[data-platform="scientificSkills"] {
-  --bg: #f3f9fd;
-  --bg-elevated: #ffffff;
-  --surface: #ffffff;
-  --surface-solid: #ffffff;
-  --surface-hover: #eaf4fb;
-  --surface-active: #dcebff;
-  --border: rgba(2, 132, 199, 0.14);
-  --border-strong: rgba(2, 132, 199, 0.24);
-  --text: #0c4a6e;
-  --muted: #5b7a90;
-  --accent: #0284c7;
-  --accent-soft: rgba(2, 132, 199, 0.1);
-  --shadow: 0 8px 28px rgba(2, 80, 120, 0.08);
-  --shadow-soft: 0 2px 12px rgba(2, 80, 120, 0.05);
-  --glass-bg: #ffffff;
-  --glass-border: rgba(2, 132, 199, 0.12);
-  --ambient-1: rgba(2, 132, 199, 0.12);
-  --ambient-2: rgba(56, 189, 248, 0.08);
-  --ambient-3: rgba(2, 132, 199, 0.04);
-  --platform-scientific: #0284c7;
-  --platform-scientific-soft: rgba(2, 132, 199, 0.1);
-  --platform-scientific-border: rgba(2, 132, 199, 0.28);
 }
 
 html[data-platform="weibo"] {
@@ -287,26 +287,28 @@ html[data-platform="weibo"] body::after {
   --platform-journals-soft: rgba(124, 58, 237, 0.1);
   --platform-journals-border: rgba(124, 58, 237, 0.28);
 
-  --platform-nature: #0d9488;
-  --platform-nature-soft: rgba(13, 148, 136, 0.1);
-  --platform-nature-border: rgba(13, 148, 136, 0.28);
+  --platform-nature: #0969da;
+  --platform-nature-soft: rgba(9, 105, 218, 0.1);
+  --platform-nature-border: rgba(9, 105, 218, 0.28);
 
-  --platform-scientific: #0284c7;
-  --platform-scientific-soft: rgba(2, 132, 199, 0.1);
-  --platform-scientific-border: rgba(2, 132, 199, 0.28);
+  --platform-scientific: #0969da;
+  --platform-scientific-soft: rgba(9, 105, 218, 0.1);
+  --platform-scientific-border: rgba(9, 105, 218, 0.28);
 
   --platform-week: #16a34a;
   --platform-week-soft: rgba(22, 163, 74, 0.1);
 }
 
-html[data-theme="light"][data-platform="github"] {
-  --ambient-1: rgba(9, 105, 218, 0.12);
-  --ambient-2: rgba(9, 105, 218, 0.06);
+html[data-theme="light"][data-platform="github"],
+html[data-theme="light"][data-platform="natureSkills"],
+html[data-theme="light"][data-platform="scientificSkills"] {
+  --ambient-1: rgba(9, 105, 218, 0.1);
+  --ambient-2: rgba(9, 105, 218, 0.05);
 }
 
 html[data-theme="light"][data-platform="hackernews"] {
-  --ambient-1: rgba(217, 119, 6, 0.12);
-  --ambient-2: rgba(217, 119, 6, 0.06);
+  --ambient-1: rgba(255, 102, 0, 0.1);
+  --ambient-2: rgba(255, 102, 0, 0.05);
 }
 
 html[data-theme="light"][data-platform="weibo"] {
@@ -327,16 +329,6 @@ html[data-theme="light"][data-platform="weibo"] {
 html[data-theme="light"][data-platform="journals"] {
   --ambient-1: rgba(124, 58, 237, 0.12);
   --ambient-2: rgba(124, 58, 237, 0.06);
-}
-
-html[data-theme="light"][data-platform="natureSkills"] {
-  --ambient-1: rgba(13, 148, 136, 0.12);
-  --ambient-2: rgba(13, 148, 136, 0.06);
-}
-
-html[data-theme="light"][data-platform="scientificSkills"] {
-  --ambient-1: rgba(2, 132, 199, 0.12);
-  --ambient-2: rgba(2, 132, 199, 0.06);
 }
 
 [data-theme="light"] body::before {
@@ -372,7 +364,7 @@ body {
   position: relative;
 }
 
-/* ── Ambient background ── */
+/* ?? Ambient background ?? */
 
 .page-bg {
   position: fixed;
@@ -473,7 +465,7 @@ body::after {
   position: relative;
 }
 
-/* ── Header ── */
+/* ?? Header ?? */
 
 .site-header {
   text-align: center;
@@ -800,7 +792,7 @@ body::after {
   50% { opacity: 0.45; }
 }
 
-/* ── Layout ── */
+/* ?? Layout ?? */
 
 .app-layout {
   display: grid;
@@ -1030,7 +1022,7 @@ body::after {
   font-family: var(--font-mono);
 }
 
-/* ── Content panel ── */
+/* ?? Content panel ?? */
 
 .content-panel {
   background: var(--glass-bg);
@@ -1286,7 +1278,7 @@ body::after {
 .content-panel.theme-nature .section-desc { --desc-accent: var(--platform-nature); }
 .content-panel.theme-scientific .section-desc { --desc-accent: var(--platform-scientific); }
 
-/* ── Detail card ── */
+/* ?? Detail card ?? */
 
 .item-detail {
   background: linear-gradient(165deg, rgba(255, 255, 255, 0.04), transparent 42%), var(--bg-elevated);
@@ -1519,7 +1511,7 @@ body::after {
   border: 1px dashed var(--border);
 }
 
-/* ── Compact list ── */
+/* ?? Compact list ?? */
 
 .panel-split {
   display: grid;
@@ -1848,7 +1840,7 @@ a.compact-item:hover .icon-compact {
   margin-bottom: 1rem;
 }
 
-/* ── Skeleton loading ── */
+/* ?? Skeleton loading ?? */
 
 .skeleton-layout {
   display: grid;
@@ -1908,7 +1900,7 @@ a.compact-item:hover .icon-compact {
   100% { background-position: -200% 0; }
 }
 
-/* ── Panel fade ── */
+/* ?? Panel fade ?? */
 
 .panel-content.panel-fade-in {
   animation: panelFadeIn 0.18s ease-out;
@@ -1925,7 +1917,7 @@ a.compact-item:hover .icon-compact {
   }
 }
 
-/* ── Mobile platform tabs ── */
+/* ?? Mobile platform tabs ?? */
 
 .mobile-nav {
   display: none;
@@ -2017,7 +2009,7 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/* ── Theme toggle ── */
+/* ?? Theme toggle ?? */
 
 .theme-toggle {
   position: fixed;
@@ -2061,7 +2053,7 @@ footer a:hover {
   display: inline-flex;
 }
 
-/* ── Journal paper section ── */
+/* ?? Journal paper section ?? */
 
 .journal-stats {
   margin-bottom: 1rem;
@@ -2238,7 +2230,7 @@ footer a:hover {
   font-size: 0.84rem;
 }
 
-/* ── GitHub README panel ── */
+/* ?? GitHub README panel ?? */
 
 .readme-panel {
   margin-top: 1rem;
@@ -2398,7 +2390,7 @@ footer a:hover {
   margin: 1rem 0;
 }
 
-/* ── Mobile subnav chips ── */
+/* ?? Mobile subnav chips ?? */
 
 .mobile-subnav {
   display: none;
@@ -2459,7 +2451,7 @@ footer a:hover {
   border-color: var(--platform-scientific-border);
 }
 
-/* ── Footer ── */
+/* ?? Footer ?? */
 
 .site-footer {
   margin-top: 3rem;
@@ -2576,7 +2568,7 @@ footer a:hover {
   }
 }
 
-/* —— Low-priority: pins / health / digest / PWA affordances —— */
+/* ?? Low-priority: pins / health / digest / PWA affordances ?? */
 
 .badge-action {
   cursor: pointer;
@@ -2843,7 +2835,7 @@ footer a:hover {
   }
 }
 
-/* —— Weibo hotboard feed —— */
+/* ?? Weibo hotboard feed ?? */
 
 .panel-content--weibo-feed {
   display: block;
@@ -2898,7 +2890,7 @@ html[data-platform="weibo"] .content-panel.theme-weibo {
 }
 
 .panel-content--weibo-feed .list-count::before {
-  content: "热搜 ";
+  content: "?? ";
   font-weight: 600;
   color: #333;
   font-family: var(--font-sans);
@@ -3079,7 +3071,7 @@ html[data-platform="weibo"] .content-panel.theme-weibo {
   }
 }
 
-/* ���� Shared single-column feeds (HN / commits) ���� */
+/* ???? Shared single-column feeds (HN / commits) ???? */
 
 .panel-content--hn-feed,
 .panel-content--skills-commits-feed {
@@ -3105,18 +3097,55 @@ html[data-platform="weibo"] .content-panel.theme-weibo {
   overflow: hidden;
 }
 
-html[data-platform="hackernews"] .site-header,
+html[data-platform="hackernews"] .panel-content--hn-feed .list-pane {
+  border: none;
+  border-radius: 0;
+  background: #f6f6ef;
+  box-shadow: none;
+}
+
+html[data-platform="github"] .panel-content--github-feed .list-pane,
+html[data-platform="natureSkills"] .panel-content--skills-feed .list-pane,
+html[data-platform="scientificSkills"] .panel-content--skills-feed .list-pane {
+  border-radius: 6px;
+  box-shadow: none;
+}
+
+html[data-platform="hackernews"] .site-header {
+  background: #ff6600;
+  border-color: #ff6600;
+  box-shadow: none;
+  backdrop-filter: none;
+  border-radius: 0;
+  color: #000;
+}
+
+html[data-platform="hackernews"] .site-header h1 {
+  color: #000;
+  background: none !important;
+  -webkit-background-clip: unset !important;
+  background-clip: unset !important;
+  -webkit-text-fill-color: #000;
+  font-family: var(--font-hn);
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: 0;
+}
+
+html[data-platform="hackernews"] .site-header .muted,
+html[data-platform="hackernews"] .site-header button,
+html[data-platform="hackernews"] .site-header a {
+  color: #000;
+}
+
 html[data-platform="journals"] .site-header,
 html[data-platform="natureSkills"] .site-header,
-html[data-platform="scientificSkills"] .site-header {
+html[data-platform="scientificSkills"] .site-header,
+html[data-platform="github"] .site-header {
   background: var(--bg-elevated);
   border-color: var(--border);
   box-shadow: 0 1px 0 var(--border);
   backdrop-filter: none;
-}
-
-html[data-platform="hackernews"] .site-header h1 {
-  color: #ff6600;
 }
 
 html[data-platform="hackernews"] .sidebar,
@@ -3129,11 +3158,35 @@ html[data-platform="github"] .sidebar {
   box-shadow: var(--shadow-soft);
 }
 
+html[data-platform="github"] .content-panel,
+html[data-platform="natureSkills"] .content-panel,
+html[data-platform="scientificSkills"] .content-panel,
+html[data-platform="github"] .item-detail,
+html[data-platform="natureSkills"] .item-detail,
+html[data-platform="scientificSkills"] .item-detail {
+  font-family: var(--font-gh), var(--font-sans);
+}
+
+html[data-platform="hackernews"] .content-panel {
+  background: #f6f6ef;
+  border: 1px solid #ff6600;
+  border-radius: 0;
+  box-shadow: none;
+  backdrop-filter: none;
+  font-family: var(--font-hn);
+}
+
+html[data-platform="hackernews"] .content-panel .panel-header {
+  background: #ff6600;
+  border-bottom: none;
+  color: #000;
+}
+
 .panel-content--hn-feed .list-count::before {
   content: "HN ";
   font-weight: 700;
   color: #ff6600;
-  font-family: var(--font-sans);
+  font-family: var(--font-hn);
 }
 
 .compact-list.hn-board,
@@ -3147,17 +3200,28 @@ html[data-platform="github"] .sidebar {
   border-top: none;
 }
 
-/* HN rows */
+.compact-list.hn-board {
+  background: #f6f6ef;
+  padding: 0.35rem 0 0.5rem;
+  max-height: none;
+}
+
+/* HN rows ? news.ycombinator.com density */
 .hn-row {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  border-bottom: none;
+  position: relative;
+}
+
+.hn-row + .hn-row {
+  margin-top: 0.15rem;
 }
 
 .hn-item {
   display: grid;
-  grid-template-columns: 2rem minmax(0, 1fr);
-  gap: 0.55rem;
+  grid-template-columns: 1.75rem minmax(0, 1fr);
+  gap: 0.35rem;
   align-items: start;
-  padding: 0.55rem 0.85rem;
+  padding: 0.15rem 0.55rem;
   border: none;
   background: transparent;
   color: inherit;
@@ -3165,50 +3229,71 @@ html[data-platform="github"] .sidebar {
   cursor: pointer;
   font: inherit;
   transform: none;
+  border-radius: 0;
 }
 
 .hn-item:hover {
-  background: rgba(255, 102, 0, 0.06);
+  background: transparent;
   transform: none;
 }
 
+.hn-item:hover .hn-title {
+  text-decoration: underline;
+}
+
 .hn-item.active {
-  background: rgba(255, 102, 0, 0.1);
+  background: transparent;
   border-left: none;
-  box-shadow: inset 3px 0 0 #ff6600;
-  padding-left: 0.85rem;
+  box-shadow: none;
+  padding-left: 0.55rem;
+}
+
+.hn-item.active .hn-title {
+  color: #000;
+  font-weight: 700;
 }
 
 .hn-rank {
   color: #828282;
-  font-family: var(--font-mono);
-  font-size: 0.9rem;
-  font-weight: 700;
-  padding-top: 0.1rem;
+  font-family: var(--font-hn);
+  font-size: 0.82rem;
+  font-weight: 400;
+  padding-top: 0.05rem;
+  text-align: right;
+  line-height: 1.3;
 }
 
 .hn-body {
   min-width: 0;
   display: flex;
   flex-direction: column;
-  gap: 0.15rem;
+  gap: 0.05rem;
 }
 
 .hn-title {
-  font-size: 0.95rem;
-  font-weight: 500;
+  font-size: 0.9rem;
+  font-weight: 400;
   color: #000;
+  line-height: 1.3;
+  font-family: var(--font-hn);
+}
+
+.hn-subtext,
+.hn-meta {
+  font-size: 0.7rem;
+  color: #828282;
+  font-family: var(--font-hn);
   line-height: 1.35;
 }
 
-.hn-item.active .hn-title {
-  color: #ff6600;
+.hn-row .compact-external {
+  opacity: 0.55;
+  color: #828282;
 }
 
-.hn-meta {
-  font-size: 0.75rem;
-  color: #828282;
-  font-family: var(--font-mono);
+.hn-row .compact-external:hover {
+  opacity: 1;
+  color: #ff6600;
 }
 
 .feed-bar-body,
@@ -3244,7 +3329,25 @@ html[data-platform="github"] .sidebar {
   font-family: var(--font-mono);
 }
 
-/* GitHub trending rows */
+html[data-platform="hackernews"] .item-detail--feed-bar {
+  background: #f6f6ef;
+  border: 1px solid #ff6600;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+html[data-platform="hackernews"] .feed-bar-title {
+  font-family: var(--font-hn);
+  font-weight: 400;
+  font-size: 0.95rem;
+}
+
+html[data-platform="hackernews"] .feed-bar-meta {
+  font-family: var(--font-hn);
+  color: #828282;
+}
+
+/* GitHub Explore-style repo cards */
 .github-row {
   border-bottom: 1px solid var(--border);
 }
@@ -3252,14 +3355,16 @@ html[data-platform="github"] .sidebar {
 .github-item {
   display: block;
   width: 100%;
-  padding: 0.8rem 0.95rem;
+  padding: 1rem 1rem;
   border: none;
   background: transparent;
   color: inherit;
   text-align: left;
   cursor: pointer;
   font: inherit;
+  font-family: var(--font-gh), var(--font-sans);
   transform: none;
+  border-radius: 0;
 }
 
 .github-item:hover {
@@ -3268,10 +3373,64 @@ html[data-platform="github"] .sidebar {
 }
 
 .github-item.active {
-  background: var(--platform-github-soft);
+  background: var(--surface-active);
   border-left: none;
-  box-shadow: inset 3px 0 0 var(--platform-github);
-  padding-left: 0.95rem;
+  box-shadow: inset 2px 0 0 var(--platform-github);
+  padding-left: 1rem;
+}
+
+.gh-card {
+  display: flex;
+  gap: 0.75rem;
+  min-width: 0;
+}
+
+.gh-card-main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  min-width: 0;
+  flex: 1;
+}
+
+.gh-repo-line {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-width: 0;
+}
+
+.gh-repo-icon {
+  flex-shrink: 0;
+  color: var(--muted);
+}
+
+.gh-repo-name {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--platform-github);
+  line-height: 1.35;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.gh-owner-name {
+  font-weight: 400;
+  color: var(--platform-github);
+}
+
+.gh-name-sep {
+  font-weight: 400;
+  color: var(--platform-github);
+}
+
+.gh-repo-leaf {
+  font-weight: 600;
+}
+
+.github-item:hover .gh-repo-name {
+  text-decoration: underline;
 }
 
 .gh-body {
@@ -3288,8 +3447,10 @@ html[data-platform="github"] .sidebar {
 }
 
 .gh-desc {
-  font-size: 0.82rem;
+  margin: 0;
+  font-size: 0.84rem;
   color: var(--muted);
+  line-height: 1.45;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
@@ -3299,11 +3460,11 @@ html[data-platform="github"] .sidebar {
 .gh-meta-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.65rem;
+  gap: 0.85rem;
   align-items: center;
   font-size: 0.75rem;
   color: var(--muted);
-  font-family: var(--font-mono);
+  font-family: var(--font-gh), var(--font-sans);
 }
 
 .gh-lang {
@@ -3313,13 +3474,53 @@ html[data-platform="github"] .sidebar {
 }
 
 .gh-lang-dot {
-  width: 0.55rem;
-  height: 0.55rem;
+  width: 0.75rem;
+  height: 0.75rem;
   border-radius: 50%;
+  display: inline-block;
 }
 
 .gh-stars {
-  color: var(--star);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: var(--muted);
+}
+
+.gh-star-icon {
+  color: var(--muted);
+}
+
+.gh-topic {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 0.45rem;
+  height: 1.25rem;
+  border-radius: 2rem;
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--platform-github);
+  background: var(--platform-github-soft);
+  border: 1px solid var(--platform-github-border);
+}
+
+.gh-meta-muted {
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+}
+
+.github-row .compact-external {
+  color: var(--muted);
+}
+
+.github-row .compact-external:hover {
+  color: var(--platform-github);
+}
+
+.compact-list.github-board {
+  background: var(--bg-elevated);
+  padding: 0;
 }
 
 /* Journals paper rows */

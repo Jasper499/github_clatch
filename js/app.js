@@ -702,15 +702,13 @@ function applyFeedLayout(mode = getFeedMode()) {
       ? "hotboard"
       : mode === "hn"
         ? "hn-board"
-        : mode === "github"
+        : mode === "github" || mode === "skills"
           ? "github-board"
           : mode === "journals"
             ? "journals-board"
             : mode === "skills-commits"
               ? "commits-board"
-              : mode === "skills"
-                ? "skills-board"
-                : "";
+              : "";
   if (boardClass) list.classList.add(boardClass);
 
   const labels = {
@@ -1397,6 +1395,32 @@ function renderHnDetail(item, index) {
   `;
 }
 
+function splitRepoTitle(item) {
+  const title = String(item?.title || "");
+  if (title.includes("/")) {
+    const i = title.indexOf("/");
+    return {
+      owner: title.slice(0, i),
+      name: title.slice(i + 1),
+      full: title,
+    };
+  }
+  const owner = item?.owner || "";
+  return {
+    owner,
+    name: title,
+    full: owner ? `${owner}/${title}` : title,
+  };
+}
+
+function starIconSvg() {
+  return `<svg class="gh-star-icon" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/></svg>`;
+}
+
+function repoIconSvg() {
+  return `<svg class="gh-repo-icon" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v.563c.09-.033.186-.062.286-.093.41-.123.862-.186 1.214-.186h8ZM4.5 1.5A1 1 0 0 0 3.5 2.5v.563c.09-.033.186-.062.286-.093.41-.123.862-.186 1.214-.186h8v-1Z"/></svg>`;
+}
+
 function renderHnBoard(source, activeIndex) {
   const items = source?.items || [];
   const list = document.getElementById("compact-list");
@@ -1417,13 +1441,11 @@ function renderHnBoard(source, activeIndex) {
       const newClass = isNew ? " is-new" : "";
       const newBadge = isNew ? `<span class="new-badge" aria-label="新内容">新</span>` : "";
       const rank = index + 1;
-      const meta = [
-        item.score != null ? `▲ ${Number(item.score).toLocaleString()}` : "",
-        item.comments != null ? `${Number(item.comments).toLocaleString()} comments` : "",
-        item.owner ? `by ${escapeHtml(item.owner)}` : "",
-      ]
-        .filter(Boolean)
-        .join(" · ");
+      const points = item.score != null ? `${Number(item.score).toLocaleString()} points` : "";
+      const by = item.owner ? `by ${escapeHtml(item.owner)}` : "";
+      const comments =
+        item.comments != null ? `${Number(item.comments).toLocaleString()} comments` : "";
+      const sub = [points, by, comments].filter(Boolean).join(" | ");
 
       return `
       <li class="compact-row hn-row${newClass}">
@@ -1431,7 +1453,7 @@ function renderHnBoard(source, activeIndex) {
           <span class="hn-rank">${rank}.</span>
           <div class="hn-body">
             <span class="hn-title">${newBadge}${escapeHtml(item.title)}</span>
-            ${meta ? `<span class="hn-meta">${meta}</span>` : ""}
+            ${sub ? `<span class="hn-subtext">${sub}</span>` : ""}
           </div>
         </button>
         ${externalLink(item.url, "打开原文")}
@@ -1443,16 +1465,17 @@ function renderHnBoard(source, activeIndex) {
   bindFeedListClicks(source, "button.hn-item");
 }
 
-function renderGithubBoard(source, activeIndex) {
+function renderGithubStyleList(source, activeIndex, { skills = false } = {}) {
   const items = source?.items || [];
   const list = document.getElementById("compact-list");
   const filtered = filterItems(items);
+  const emptyLabel = skills ? "技能" : "仓库";
 
   document.getElementById("item-count").textContent = String(filtered.length);
   updateListFilterHint(filtered.length, items.length);
 
   if (!filtered.length) {
-    list.innerHTML = `<li class="compact-empty">${items.length ? "无匹配仓库" : "暂无仓库"}</li>`;
+    list.innerHTML = `<li class="compact-empty">${items.length ? `无匹配${emptyLabel}` : `暂无${emptyLabel}`}</li>`;
     return;
   }
 
@@ -1462,35 +1485,67 @@ function renderGithubBoard(source, activeIndex) {
       const isNew = isItemNew(activeSourceKey, item);
       const newClass = isNew ? " is-new" : "";
       const newBadge = isNew ? `<span class="new-badge" aria-label="新内容">新</span>` : "";
-      const stars = item.stars != null ? `★ ${Number(item.stars).toLocaleString()}` : "";
+      const repo = splitRepoTitle(item);
+      const stars =
+        item.stars != null
+          ? `<span class="gh-stars">${starIconSvg()} ${Number(item.stars).toLocaleString()}</span>`
+          : "";
       const lang = item.language
         ? `<span class="gh-lang"><span class="gh-lang-dot" style="background:${languageColor(item.language)}"></span>${escapeHtml(item.language)}</span>`
         : "";
       const desc = item.description
-        ? `<span class="gh-desc">${escapeHtml(item.description)}</span>`
-        : `<span class="gh-desc muted">暂无描述</span>`;
-      const owner = item.owner ? `<span class="gh-owner">${escapeHtml(item.owner)}</span>` : "";
+        ? `<p class="gh-desc">${escapeHtml(item.description)}</p>`
+        : "";
+      const skillBits = skills
+        ? [
+            item.label ? `<span class="gh-topic">${escapeHtml(item.label)}</span>` : "",
+            item.skillCount != null
+              ? `<span class="gh-meta-muted">${item.skillCount} skills</span>`
+              : "",
+            item.latestSha
+              ? `<span class="gh-meta-muted">${escapeHtml(String(item.latestSha).slice(0, 7))}</span>`
+              : "",
+          ]
+            .filter(Boolean)
+            .join("")
+        : "";
+      const ownerSpan = repo.owner
+        ? `<span class="gh-owner-name">${escapeHtml(repo.owner)}</span><span class="gh-name-sep"> / </span>`
+        : "";
 
       return `
       <li class="compact-row github-row${newClass}">
         <button type="button" class="compact-item github-item${active}${newClass}" data-index="${index}" role="option" aria-selected="${active ? "true" : "false"}">
-          <div class="gh-body">
-            <span class="gh-title">${newBadge}${escapeHtml(item.title)}</span>
-            ${desc}
-            <div class="gh-meta-row">
-              ${lang}
-              ${stars ? `<span class="gh-stars">${stars}</span>` : ""}
-              ${owner}
+          <div class="gh-card">
+            <div class="gh-card-main">
+              <div class="gh-repo-line">
+                ${repoIconSvg()}
+                <span class="gh-repo-name">${newBadge}${ownerSpan}<span class="gh-repo-leaf">${escapeHtml(repo.name)}</span></span>
+              </div>
+              ${desc}
+              <div class="gh-meta-row">
+                ${lang}
+                ${stars}
+                ${skillBits}
+              </div>
             </div>
           </div>
         </button>
-        ${externalLink(item.url, "打开仓库")}
+        ${externalLink(item.url, skills ? "打开仓库" : "打开仓库")}
       </li>
     `;
     })
     .join("");
 
   bindFeedListClicks(source, "button.github-item");
+}
+
+function renderGithubBoard(source, activeIndex) {
+  renderGithubStyleList(source, activeIndex, { skills: false });
+}
+
+function renderSkillsBoard(source, activeIndex) {
+  renderGithubStyleList(source, activeIndex, { skills: true });
 }
 
 function renderJournalsBoard(source, activeIndex) {
@@ -1544,54 +1599,6 @@ function renderJournalsBoard(source, activeIndex) {
     .join("");
 
   bindFeedListClicks(source, "button.journals-item");
-}
-
-function renderSkillsBoard(source, activeIndex) {
-  const items = source?.items || [];
-  const list = document.getElementById("compact-list");
-  const filtered = filterItems(items);
-  const theme = getPlatformMeta(activeSourceKey).theme;
-
-  document.getElementById("item-count").textContent = String(filtered.length);
-  updateListFilterHint(filtered.length, items.length);
-
-  if (!filtered.length) {
-    list.innerHTML = `<li class="compact-empty">${items.length ? "无匹配技能" : "暂无技能"}</li>`;
-    return;
-  }
-
-  list.innerHTML = filtered
-    .map(({ item, index }) => {
-      const active = index === activeIndex ? " active" : "";
-      const isNew = isItemNew(activeSourceKey, item);
-      const newClass = isNew ? " is-new" : "";
-      const newBadge = isNew ? `<span class="new-badge" aria-label="新内容">新</span>` : "";
-      const label = item.label ? `<span class="skill-label">${escapeHtml(item.label)}</span>` : "";
-      const count =
-        item.skillCount != null ? `<span class="skill-count">${item.skillCount} skills</span>` : "";
-      const sha = item.latestSha
-        ? `<span class="skill-sha">${escapeHtml(String(item.latestSha).slice(0, 7))}</span>`
-        : "";
-      const desc = item.description
-        ? `<span class="skill-desc">${escapeHtml(item.description)}</span>`
-        : "";
-
-      return `
-      <li class="compact-row skills-row ${theme}${newClass}">
-        <button type="button" class="compact-item skills-item${active}${newClass}" data-index="${index}" role="option" aria-selected="${active ? "true" : "false"}">
-          <div class="skill-body">
-            <span class="skill-title">${newBadge}${escapeHtml(item.title)}</span>
-            ${desc}
-            <div class="skill-meta-row">${label}${count}${sha}</div>
-          </div>
-        </button>
-        ${externalLink(item.url, "打开仓库")}
-      </li>
-    `;
-    })
-    .join("");
-
-  bindFeedListClicks(source, "button.skills-item");
 }
 
 function renderSkillsCommitDetail(item, index) {
