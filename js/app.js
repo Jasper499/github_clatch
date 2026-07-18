@@ -126,6 +126,12 @@ function clearSearchInputs() {
   if (gh) gh.value = "";
 }
 
+function metaPill(text, type = "default") {
+  if (!text) return "";
+  const cls = type === "default" ? "meta-pill" : `meta-pill meta-pill--${type}`;
+  return `<span class="${cls}">${escapeHtml(text)}</span>`;
+}
+
 function applyPanelTheme() {
   const meta = getPlatformMeta(activeSourceKey);
   const panel = document.getElementById("content-panel");
