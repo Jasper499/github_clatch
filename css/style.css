@@ -3836,19 +3836,27 @@ html[data-platform="hackernews"] .panel-content--hn-feed .item-detail {
 
 html[data-platform="hackernews"] .controls {
   display: flex;
-  gap: 0.5rem;
-  padding: 0.35rem 0.5rem 0.5rem;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 0.55rem 0.75rem;
+  padding: 0.45rem 0.55rem 0.55rem;
   background: #f6f6ef;
   border: none;
   margin: 0;
 }
 
-html[data-platform="hackernews"] .controls .control-group:not(.control-group-grow) {
+/* Keep history date + search; hide subcategory on HN */
+html[data-platform="hackernews"] .controls .control-group:has(#category-select) {
   display: none;
 }
 
-html[data-platform="hackernews"] .controls label {
-  display: none;
+html[data-platform="hackernews"] .controls .control-group:has(#date-select) label,
+html[data-platform="hackernews"] .controls .control-group:has(#search-input) label {
+  display: block;
+  font-family: var(--font-hn);
+  font-size: 0.72rem;
+  color: #828282;
+  margin-bottom: 0.15rem;
 }
 
 html[data-platform="hackernews"] .search-input,
@@ -3860,6 +3868,7 @@ html[data-platform="hackernews"] .controls .select {
   font-family: var(--font-hn);
   font-size: 0.8rem;
   box-shadow: none;
+  min-width: 10rem;
 }
 
 .hn-chrome-bar {
@@ -3977,23 +3986,23 @@ html[data-platform="hackernews"] .btn-text {
   font-size: 0.75rem;
 }
 
-/* —— GitHub / Skills full skin —— */
+/* —— GitHub / Skills list skin (keep HJL site header) —— */
 html[data-platform="github"] .platform-chrome--gh,
 html[data-platform="natureSkills"] .platform-chrome--gh,
 html[data-platform="scientificSkills"] .platform-chrome--gh {
-  display: block;
-  position: sticky;
-  top: 0;
-  z-index: 40;
+  display: none;
 }
 
 html[data-platform="github"] .page-bg,
 html[data-platform="natureSkills"] .page-bg,
-html[data-platform="scientificSkills"] .page-bg,
-html[data-platform="github"] .site-header,
-html[data-platform="natureSkills"] .site-header,
-html[data-platform="scientificSkills"] .site-header {
-  display: none !important;
+html[data-platform="scientificSkills"] .page-bg {
+  opacity: 0.35;
+}
+
+html[data-platform="github"] .page-bg .page-bg__orb,
+html[data-platform="natureSkills"] .page-bg .page-bg__orb,
+html[data-platform="scientificSkills"] .page-bg .page-bg__orb {
+  opacity: 0.25;
 }
 
 html[data-platform="github"] .site-footer,
