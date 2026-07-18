@@ -118,10 +118,12 @@ function getParentTheme(parentId) {
   return map[parentId] || "theme-github";
 }
 
-function metaPill(text, type = "default") {
-  if (!text) return "";
-  const cls = type === "default" ? "meta-pill" : `meta-pill meta-pill--${type}`;
-  return `<span class="${cls}">${escapeHtml(text)}</span>`;
+function clearSearchInputs() {
+  searchQuery = "";
+  const main = document.getElementById("search-input");
+  const gh = document.getElementById("gh-chrome-search");
+  if (main) main.value = "";
+  if (gh) gh.value = "";
 }
 
 function applyPanelTheme() {
@@ -590,10 +592,8 @@ function renderMobileNav(data) {
       if (!parent?.children?.length) return;
       activeParentId = parentId;
       activeSourceKey = parent.children[0].sourceKey;
-      searchQuery = "";
+      clearSearchInputs();
       activeItemIndex = 0;
-      const searchInput = document.getElementById("search-input");
-      if (searchInput) searchInput.value = "";
       renderTree(data);
       renderMobileNav(data);
       void syncPanel(data, { preserveItemIndex: false });
@@ -1033,10 +1033,8 @@ function renderMobileSubnav(data) {
   nav.querySelectorAll(".mobile-chip").forEach((btn) => {
     btn.addEventListener("click", () => {
       activeSourceKey = btn.dataset.sourceKey;
-      searchQuery = "";
+      clearSearchInputs();
       activeItemIndex = 0;
-      const searchInput = document.getElementById("search-input");
-      if (searchInput) searchInput.value = "";
       renderTree(data);
       renderMobileNav(data);
       renderMobileSubnav(data);
@@ -1174,10 +1172,8 @@ function renderTree(data) {
     btn.addEventListener("click", () => {
       activeParentId = btn.dataset.parentId;
       activeSourceKey = btn.dataset.sourceKey;
-      searchQuery = "";
+      clearSearchInputs();
       activeItemIndex = 0;
-      const searchInput = document.getElementById("search-input");
-      if (searchInput) searchInput.value = "";
       renderTree(data);
       renderMobileNav(data);
       renderMobileSubnav(data);
@@ -1223,10 +1219,8 @@ function fillCategorySelect(data) {
 
   select.onchange = () => {
     activeSourceKey = select.value;
-    searchQuery = "";
+    clearSearchInputs();
     activeItemIndex = 0;
-    const searchInput = document.getElementById("search-input");
-    if (searchInput) searchInput.value = "";
     renderTree(data);
     renderMobileNav(data);
     renderMobileSubnav(data);
@@ -1259,10 +1253,8 @@ function fillDateSelect(data) {
   select.onchange = () => {
     selectedDates[activeSourceKey] = select.value;
     persistDates();
-    searchQuery = "";
+    clearSearchInputs();
     activeItemIndex = 0;
-    const searchInput = document.getElementById("search-input");
-    if (searchInput) searchInput.value = "";
     // bust latest cache when returning to latest after history
     if (select.value === "latest") delete latestSourceCache[activeSourceKey];
     void syncPanel(data, { preserveItemIndex: false });
@@ -1996,6 +1988,10 @@ async function syncPanel(data, { preserveItemIndex = true } = {}) {
   if (searchInput && searchInput.value !== searchQuery) {
     searchInput.value = searchQuery;
   }
+  const ghSearch = document.getElementById("gh-chrome-search");
+  if (ghSearch && ghSearch.value !== searchQuery) {
+    ghSearch.value = searchQuery;
+  }
 
   activeItemIndex = fillItemSelect(source, previousIndex);
   const filtered = filterItems(items);
@@ -2012,12 +2008,13 @@ async function syncPanel(data, { preserveItemIndex = true } = {}) {
 }
 
 function bindSearch(data) {
-  const input = document.getElementById("search-input");
-  if (!input || input.dataset.bound === "1") return;
-  input.dataset.bound = "1";
+  const inputs = [
+    document.getElementById("search-input"),
+    document.getElementById("gh-chrome-search"),
+  ].filter(Boolean);
+
   let timer = null;
-  input.addEventListener("input", () => {
-    searchQuery = input.value || "";
+  const runFilter = () => {
     clearTimeout(timer);
     timer = setTimeout(() => {
       void (async () => {
@@ -2035,6 +2032,18 @@ function bindSearch(data) {
         }
       })();
     }, 120);
+  };
+
+  inputs.forEach((input) => {
+    if (input.dataset.bound === "1") return;
+    input.dataset.bound = "1";
+    input.addEventListener("input", () => {
+      searchQuery = input.value || "";
+      inputs.forEach((other) => {
+        if (other !== input && other.value !== searchQuery) other.value = searchQuery;
+      });
+      runFilter();
+    });
   });
 }
 
@@ -2135,7 +2144,7 @@ async function buildDigest(data) {
       if (!meta) return;
       activeParentId = meta.parentId;
       activeSourceKey = sourceKey;
-      searchQuery = "";
+      clearSearchInputs();
       activeItemIndex = 0;
       document.getElementById("digest-dialog")?.close();
       renderTree(data);
@@ -2207,15 +2216,28 @@ function bindKeyboard() {
 
     if (event.key === "/" && !typing) {
       event.preventDefault();
-      document.getElementById("search-input")?.focus();
+      const platform = document.documentElement.getAttribute("data-platform");
+      const preferGh =
+        platform === "github" ||
+        platform === "natureSkills" ||
+        platform === "scientificSkills";
+      (preferGh
+        ? document.getElementById("gh-chrome-search")
+        : document.getElementById("search-input")
+      )?.focus();
       return;
     }
     if (event.key === "Escape") {
-      const input = document.getElementById("search-input");
-      if (input && (document.activeElement === input || searchQuery)) {
-        searchQuery = "";
-        input.value = "";
-        input.blur();
+      const main = document.getElementById("search-input");
+      const gh = document.getElementById("gh-chrome-search");
+      const active = document.activeElement;
+      if (
+        (main && (active === main || searchQuery)) ||
+        (gh && active === gh)
+      ) {
+        clearSearchInputs();
+        main?.blur();
+        gh?.blur();
         if (currentSourceRef) {
           renderActiveList(currentSourceRef, activeItemIndex);
           updateNewHints(activeSourceKey, currentSourceRef.items || []);

@@ -3986,11 +3986,14 @@ html[data-platform="hackernews"] .btn-text {
   font-size: 0.75rem;
 }
 
-/* —— GitHub / Skills list skin (keep HJL site header) —— */
+/* —— GitHub / Skills: HJL intro + GitHub chrome together —— */
 html[data-platform="github"] .platform-chrome--gh,
 html[data-platform="natureSkills"] .platform-chrome--gh,
 html[data-platform="scientificSkills"] .platform-chrome--gh {
-  display: none;
+  display: block;
+  position: sticky;
+  top: 0;
+  z-index: 40;
 }
 
 html[data-platform="github"] .page-bg,
@@ -4003,6 +4006,13 @@ html[data-platform="github"] .page-bg .page-bg__orb,
 html[data-platform="natureSkills"] .page-bg .page-bg__orb,
 html[data-platform="scientificSkills"] .page-bg .page-bg__orb {
   opacity: 0.25;
+}
+
+html[data-platform="github"] .site-header,
+html[data-platform="natureSkills"] .site-header,
+html[data-platform="scientificSkills"] .site-header {
+  display: block;
+  margin-top: 0.85rem;
 }
 
 html[data-platform="github"] .site-footer,
@@ -4072,6 +4082,63 @@ html[data-theme="light"] .gh-chrome-bar {
 
 html[data-theme="light"] .gh-chrome-sub {
   color: #656d76;
+}
+
+.gh-chrome-search {
+  flex: 1 1 14rem;
+  min-width: 10rem;
+  max-width: 28rem;
+  margin-left: 0.35rem;
+}
+
+.gh-chrome-search input {
+  width: 100%;
+  height: 1.85rem;
+  padding: 0 0.7rem;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  background: #0d1117;
+  color: #e6edf3;
+  font-size: 0.84rem;
+  font-family: inherit;
+  outline: none;
+}
+
+.gh-chrome-search input::placeholder {
+  color: #8b949e;
+}
+
+.gh-chrome-search input:focus {
+  border-color: #2f81f7;
+  box-shadow: 0 0 0 2px rgba(47, 129, 247, 0.25);
+}
+
+html[data-theme="light"] .gh-chrome-search input {
+  background: #f6f8fa;
+  border-color: rgba(31, 35, 40, 0.2);
+  color: #1f2328;
+}
+
+html[data-theme="light"] .gh-chrome-search input::placeholder {
+  color: #656d76;
+}
+
+html[data-theme="light"] .gh-chrome-search input:focus {
+  border-color: #0969da;
+  background: #fff;
+  box-shadow: 0 0 0 2px rgba(9, 105, 218, 0.2);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .gh-chrome-nav {
