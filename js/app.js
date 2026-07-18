@@ -132,6 +132,33 @@ function applyPanelTheme() {
   }
   document.documentElement.setAttribute("data-platform", activeParentId);
   highlightMetaPlatform(activeParentId);
+  updatePlatformChrome(activeParentId);
+}
+
+function updatePlatformChrome(parentId) {
+  const brand = document.getElementById("gh-chrome-brand");
+  const sub = document.getElementById("gh-chrome-sub");
+  if (!brand || !sub) return;
+
+  if (parentId === "natureSkills") {
+    brand.textContent = "Nature Skills";
+    sub.textContent = "Agent skills · Explore";
+  } else if (parentId === "scientificSkills") {
+    brand.textContent = "Scientific Skills";
+    sub.textContent = "Agent skills · Explore";
+  } else {
+    brand.textContent = "Explore";
+    sub.textContent = "Trending repositories";
+  }
+
+  document.querySelectorAll(".gh-chrome-nav a").forEach((link) => {
+    const hash = link.getAttribute("href") || "";
+    const active =
+      (parentId === "github" && hash === "#/github") ||
+      (parentId === "natureSkills" && hash === "#/natureSkills") ||
+      (parentId === "scientificSkills" && hash === "#/scientificSkills");
+    link.classList.toggle("is-active", active);
+  });
 }
 
 function highlightMetaPlatform(platformId) {

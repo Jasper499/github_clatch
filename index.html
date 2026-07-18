@@ -38,7 +38,7 @@
       }
     })();
   </script>
-  <link rel="stylesheet" href="css/style.css?v=6">
+  <link rel="stylesheet" href="css/style.css?v=7">
 </head>
 <body>
   <a class="skip-link" href="#content-panel">跳到内容</a>
@@ -48,6 +48,48 @@
     <div class="page-bg__orb page-bg__orb--3"></div>
     <div class="page-bg__mesh"></div>
   </div>
+
+  <!-- Official-site chrome (shown by CSS when data-platform matches) -->
+  <header class="platform-chrome platform-chrome--hn" aria-label="Hacker News">
+    <div class="hn-chrome-bar">
+      <a class="hn-yc" href="#/hackernews" aria-label="Hacker News 首页">Y</a>
+      <a class="hn-chrome-brand" href="#/hackernews">Hacker News</a>
+      <nav class="hn-chrome-nav" aria-label="HN 栏目">
+        <span>new</span>
+        <span>past</span>
+        <span>comments</span>
+        <span>ask</span>
+        <span>show</span>
+        <span>jobs</span>
+      </nav>
+      <div class="hn-chrome-right">
+        <a class="hn-chrome-hjl" href="#/github">github</a>
+        <span class="hn-chrome-sep">|</span>
+        <a class="hn-chrome-hjl" href="#/weibo">weibo</a>
+        <span class="hn-chrome-sep">|</span>
+        <a class="hn-chrome-hjl" href="#/github">HJL</a>
+      </div>
+    </div>
+  </header>
+
+  <header class="platform-chrome platform-chrome--gh" aria-label="GitHub">
+    <div class="gh-chrome-bar">
+      <a class="gh-chrome-mark" href="#/github" aria-label="GitHub">
+        <svg viewBox="0 0 16 16" width="32" height="32" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+      </a>
+      <div class="gh-chrome-titles">
+        <strong id="gh-chrome-brand">Explore</strong>
+        <span id="gh-chrome-sub" class="gh-chrome-sub">Trending repositories</span>
+      </div>
+      <nav class="gh-chrome-nav" aria-label="GitHub 栏目">
+        <a href="#/github">Trending</a>
+        <a href="#/natureSkills">Nature Skills</a>
+        <a href="#/scientificSkills">Scientific Skills</a>
+      </nav>
+      <a class="gh-chrome-hjl" href="#/hackernews">HJL</a>
+    </div>
+  </header>
+
   <button id="theme-toggle" class="theme-toggle" type="button" aria-label="切换浅/深色模式" title="切换主题模式">
     <span class="theme-toggle-icon theme-icon-dark"></span>
     <span class="theme-toggle-icon theme-icon-light"></span>
@@ -217,7 +259,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/dompurify@3/dist/purify.min.js"></script>
-  <script src="js/icons.js?v=6"></script>
-  <script src="js/app.js?v=6"></script>
+  <script src="js/icons.js?v=7"></script>
+  <script src="js/app.js?v=7"></script>
 </body>
 </html>
