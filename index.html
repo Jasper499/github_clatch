@@ -38,9 +38,21 @@
       }
     })();
   </script>
-  <link rel="stylesheet" href="css/style.css?v=10">
+  <link rel="stylesheet" href="css/style.css?v=11">
 </head>
 <body>
+  <script>
+    /* Fallback if a stale SW serves an older app.js without metaPill */
+    if (typeof metaPill !== "function") {
+      window.metaPill = function metaPill(text, type) {
+        if (!text) return "";
+        var cls = !type || type === "default" ? "meta-pill" : "meta-pill meta-pill--" + type;
+        var div = document.createElement("div");
+        div.textContent = text == null ? "" : String(text);
+        return '<span class="' + cls + '">' + div.innerHTML + "</span>";
+      };
+    }
+  </script>
   <a class="skip-link" href="#content-panel">跳到内容</a>
   <div class="page-bg" aria-hidden="true">
     <div class="page-bg__orb page-bg__orb--1"></div>
@@ -268,7 +280,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/dompurify@3/dist/purify.min.js"></script>
-  <script src="js/icons.js?v=10"></script>
-  <script src="js/app.js?v=10"></script>
+  <script src="js/icons.js?v=11"></script>
+  <script src="js/app.js?v=11"></script>
 </body>
 </html>
