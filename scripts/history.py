@@ -165,7 +165,7 @@ def save_sources_from_content(content: dict, source_keys: list[str]) -> None:
     for key in source_keys:
         if key in sources and sources[key].get("items") is not None:
             save_source_snapshot(key, sources[key])
-    publish_content_artifacts(content)
+    publish_content_artifacts(content, source_keys)
 
 
 def seed_from_content(content_path: Path | None = None) -> int:
