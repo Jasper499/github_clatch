@@ -2,7 +2,7 @@ name: Twice-Daily Hacker News Update
 
 on:
   schedule:
-    # æ¯å¤© UTC 02:00ã€?4:00ï¼ˆåŒ—äº¬æ—¶é—?10:00ã€?2:00ï¼?
+    # UTC 02:00 and 14:00 (Beijing 10:00 and 22:00)
     - cron: "0 2,14 * * *"
   workflow_dispatch:
 
