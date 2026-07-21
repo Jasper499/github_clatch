@@ -415,18 +415,21 @@ function getLatestUpdatedAt(data, sourceKey) {
   return data.updatedAt;
 }
 
-async function resolveSource(data, sourceKey = activeSourceKey) {
+async function resolveSource(data, sourceKey = activeSourceKey, { lite = false } = {}) {
   const dateKey = selectedDates[sourceKey] || "latest";
   if (dateKey === "latest") {
-    if (latestSourceCache[sourceKey]) return latestSourceCache[sourceKey];
+    const cacheBucket = lite ? `${sourceKey}::lite` : sourceKey;
+    if (latestSourceCache[cacheBucket]) return latestSourceCache[cacheBucket];
 
-    const url = `${SOURCES_BASE}/${sourceKey}.json`;
+    const url = lite
+      ? `${SOURCES_BASE}/${sourceKey}.lite.json`
+      : `${SOURCES_BASE}/${sourceKey}.json`;
     try {
       const res = await fetch(`${url}?t=${Date.now()}`);
       if (res.ok) {
         const snapshot = await res.json();
-        latestSourceCache[sourceKey] = snapshot;
-        if (data.sources?.[sourceKey]) {
+        latestSourceCache[cacheBucket] = snapshot;
+        if (!lite && data.sources?.[sourceKey]) {
           data.sources[sourceKey].itemCount = (snapshot.items || []).length;
           data.sources[sourceKey].label = snapshot.label || data.sources[sourceKey].label;
           data.sources[sourceKey].description =
@@ -434,19 +437,28 @@ async function resolveSource(data, sourceKey = activeSourceKey) {
         }
         return snapshot;
       }
+      // Older deploys may not have .lite.json yet — fall back to full payload.
+      if (lite) return resolveSource(data, sourceKey, { lite: false });
     } catch (_) {
+      if (lite) {
+        try {
+          return await resolveSource(data, sourceKey, { lite: false });
+        } catch (__) {
+          /* fall through */
+        }
+      }
       /* fall through to embedded content.json sources */
     }
 
     const embedded = getSource(data, sourceKey);
     if (embedded?.items) {
-      latestSourceCache[sourceKey] = embedded;
+      latestSourceCache[cacheBucket] = embedded;
       return embedded;
     }
     throw new Error(`栏目数据加载失败 (${sourceKey})`);
   }
 
-  const cacheKey = `${sourceKey}:${dateKey}`;
+  const cacheKey = `${sourceKey}:${dateKey}${lite ? ":lite" : ""}`;
   if (historyCache[cacheKey]) return historyCache[cacheKey];
 
   const url = `data/history/${sourceKey}/${dateKey}.json`;
@@ -2089,7 +2101,7 @@ async function buildDigest(data) {
   const rows = await Promise.all(
     sourceKeys.map(async (sourceKey) => {
       try {
-        const source = await resolveSource(data, sourceKey);
+        const source = await resolveSource(data, sourceKey, { lite: true });
         const items = source?.items || [];
         bootstrapSeenIfNeeded(sourceKey, items);
         const newCount = countNewItems(sourceKey, items);
@@ -2183,6 +2195,39 @@ function registerServiceWorker() {
   const swUrl = new URL("sw.js", window.location.href);
   navigator.serviceWorker.register(swUrl.href).catch(() => {
     /* ignore offline registration failures */
+  });
+}
+
+async function forceRefreshSiteData() {
+  try {
+    if ("caches" in window) {
+      const keys = await caches.keys();
+      await Promise.all(
+        keys.filter((key) => key.startsWith("clatch-")).map((key) => caches.delete(key))
+      );
+    }
+    if ("serviceWorker" in navigator) {
+      const regs = await navigator.serviceWorker.getRegistrations();
+      await Promise.all(regs.map((reg) => reg.unregister()));
+    }
+  } catch (_) {
+    /* ignore */
+  }
+  Object.keys(latestSourceCache).forEach((key) => delete latestSourceCache[key]);
+  Object.keys(historyCache).forEach((key) => delete historyCache[key]);
+  const url = new URL(window.location.href);
+  url.searchParams.set("refresh", String(Date.now()));
+  window.location.replace(url.toString());
+}
+
+function bindForceRefresh() {
+  const btn = document.getElementById("force-refresh-btn");
+  if (!btn || btn.dataset.bound === "1") return;
+  btn.dataset.bound = "1";
+  btn.addEventListener("click", () => {
+    btn.disabled = true;
+    btn.textContent = "刷新中…";
+    void forceRefreshSiteData();
   });
 }
 
@@ -2305,6 +2350,7 @@ async function loadContent() {
     bindMarkRead();
     bindPinButton(appData);
     bindDigest(appData);
+    bindForceRefresh();
     bindKeyboard();
     updatePinButton();
     registerServiceWorker();

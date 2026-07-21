@@ -2,8 +2,7 @@ name: Every 6 Hours Weibo Update
 
 on:
   schedule:
-    # 每 6 小时（UTC :10），错开其它任务，避免同时 push
-    # UTC 0/6/12/18 → 北京时间约 08:10 / 14:10 / 20:10 / 02:10
+    # Every 6 hours at UTC :10 (Beijing ~08:10 / 14:10 / 20:10 / 02:10)
     - cron: "10 */6 * * *"
   workflow_dispatch:
 
@@ -32,10 +31,4 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/content.json data/meta.json data/sources/ data/history/ data/manifest.json
-          if git diff --staged --quiet; then
-            echo "No changes to commit."
-          else
-            git commit -m "chore: 6-hourly Weibo update"
-            git pull --rebase origin main
-            git push
-          fi
+          bash scripts/git_push_with_retry.sh "chore: 6-hourly Weibo update"

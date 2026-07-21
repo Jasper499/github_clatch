@@ -1,0 +1,212 @@
+{
+  "sourceKey": "natureSkills",
+  "savedAt": "2026-07-21T08:41:45Z",
+  "label": "Skills 清单",
+  "description": "跟踪 Yuan1z0825/nature-skills：共 17 个技能（最近同步 2026-07-16）",
+  "updateFrequency": "daily",
+  "repo": "Yuan1z0825/nature-skills",
+  "latestSha": "fb3bffa0b5d299b939fae959786e222bf699bd25",
+  "items": [
+    {
+      "title": "Yuan1z0825/nature-skills · 仓库总览",
+      "description": "<div align=\"center\">",
+      "url": "https://github.com/Yuan1z0825/nature-skills",
+      "stars": 0,
+      "language": "Python",
+      "owner": "Yuan1z0825",
+      "label": "overview",
+      "published": "2026-07-16",
+      "readmeTruncated": false,
+      "readmeFile": "README.md",
+      "skillCount": 17,
+      "latestSha": "fb3bffa0b5d299b939fae959786e222bf699bd25"
+    },
+    {
+      "title": "nature-academic-search",
+      "description": ">-",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-academic-search",
+      "readmeTruncated": false,
+      "readmeFile": "SKILL.md",
+      "version": "",
+      "author": "",
+      "label": "skill",
+      "owner": "Yuan1z0825"
+    },
+    {
+      "title": "nature-citation",
+      "description": ">-",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-citation",
+      "readmeTruncated": false,
+      "readmeFile": "SKILL.md",
+      "version": "2.0.0",
+      "author": "Yuan1z skill, refactored into static/dynamic layers",
+      "label": "skill",
+      "owner": "Yuan1z0825"
+    },
+    {
+      "title": "nature-data",
+      "description": ">-",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-data",
+      "readmeTruncated": false,
+      "readmeFile": "SKILL.md",
+      "version": "2.0.0",
+      "author": "Yuan1z skill, refactored into static/dynamic layers",
+      "label": "skill",
+      "owner": "Yuan1z0825"
+    },
+    {
+      "title": "nature-downloader",
+      "description": "Use when a user needs lawful academic full text, CNKI institutional access, English OA retrieval, publisher API access, institutional browser fallback, or supporting information…",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-downloader",
+      "readmeTruncated": false,
+      "readmeFile": "SKILL.md",
+      "version": "",
+      "author": "",
+      "label": "skill",
+      "owner": "Yuan1z0825"
+    },
+    {
+      "title": "nature-experiment-log",
+      "description": "标准化实验日志记录——接收原始材料（图/语音/文字），产出带 YAML frontmatter 的标准日志到 Obsidian vault。需配合飞书 CLI 或手动输入使用。",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-experiment-log",
+      "readmeTruncated": false,
+      "readmeFile": "SKILL.md",
+      "version": "1.0.0",
+      "author": "十五 (JL Lab)",
+      "label": "skill",
+      "owner": "Yuan1z0825"
+    },
+    {
+      "title": "nature-figure",
+      "description": ">-",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-figure",
+      "readmeTruncated": false,
+      "readmeFile": "SKILL.md",
+      "version": "",
+      "author": "",
+      "label": "skill",
+      "owner": "Yuan1z0825"
+    },
+    {
+      "title": "nature-literature-pipeline",
+      "description": "|",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-literature-pipeline",
+      "readmeTruncated": false,
+      "readmeFile": "SKILL.md",
+      "version": "1.0.0",
+      "author": "十五 (JL Lab)",
+      "label": "skill",
+      "owner": "Yuan1z0825"
+    },
+    {
+      "title": "nature-paper-to-patent",
+      "description": "Convert scientific papers, theses, technical reports, source code, figures, inventor notes, or research manuscripts into evidence-grounded Chinese invention patent drafts and at…",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-paper-to-patent",
+      "readmeTruncated": false,
+      "readmeFile": "SKILL.md",
+      "version": "",
+      "author": "",
+      "label": "skill",
+      "owner": "Yuan1z0825"
+    },
+    {
+      "title": "nature-paper2ppt",
+      "description": "Build a complete Nature-style Chinese PPTX presentation from a scientific paper, preprint, PDF, article text, figure legends, or reading notes. Use for journal club, group meeti…",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-paper2ppt",
+      "readmeTruncated": false,
+      "readmeFile": "SKILL.md",
+      "version": "",
+      "author": "",
+      "label": "skill",
+      "owner": "Yuan1z0825"
+    },
+    {
+      "title": "nature-polishing",
+      "description": "Polish, restructure, or translate academic prose into Nature-leaning English using writing-strategy principles, curated Nature/Nature Communications article patterns, and phrase…",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-polishing",
+      "readmeTruncated": false,
+      "readmeFile": "SKILL.md",
+      "version": "6.1.0",
+      "author": "Yuan1z skill, refactored into static/dynamic layers",
+      "label": "skill",
+      "owner": "Yuan1z0825"
+    },
+    {
+      "title": "researchwrite",
+      "description": "|",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-proposal-writer",
+      "readmeTruncated": false,
+      "readmeFile": "SKILL.md",
+      "version": "1.0.0",
+      "author": "十五 (JL Lab)",
+      "label": "skill",
+      "owner": "Yuan1z0825"
+    },
+    {
+      "title": "nature-reader",
+      "description": "Build full-paper Chinese-English side-by-side, figure/table-aware, source-grounded Markdown readers for journal or conference papers from PDF, DOI, arXiv, publisher HTML, or pas…",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-reader",
+      "readmeTruncated": false,
+      "readmeFile": "SKILL.md",
+      "version": "2.0.0",
+      "author": "Community contribution, refactored into static/dynamic layers",
+      "label": "skill",
+      "owner": "Yuan1z0825"
+    },
+    {
+      "title": "nature-ref-verifier",
+      "description": ">-",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-ref-verifier",
+      "readmeTruncated": false,
+      "readmeFile": "SKILL.md",
+      "version": "",
+      "author": "",
+      "label": "skill",
+      "owner": "Yuan1z0825"
+    },
+    {
+      "title": "nature-response",
+      "description": ">-",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-response",
+      "readmeTruncated": false,
+      "readmeFile": "SKILL.md",
+      "version": "",
+      "author": "",
+      "label": "skill",
+      "owner": "Yuan1z0825"
+    },
+    {
+      "title": "nature-reviewer",
+      "description": ">-",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-reviewer",
+      "readmeTruncated": false,
+      "readmeFile": "SKILL.md",
+      "version": "",
+      "author": "",
+      "label": "skill",
+      "owner": "Yuan1z0825"
+    },
+    {
+      "title": "nature-statistics",
+      "description": ">-",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-statistics",
+      "readmeTruncated": false,
+      "readmeFile": "SKILL.md",
+      "version": "",
+      "author": "",
+      "label": "skill",
+      "owner": "Yuan1z0825"
+    },
+    {
+      "title": "nature-writing",
+      "description": "Draft, restructure, or plan Nature-style manuscript sections and initial-submission materials from author-provided claims, results, figures, notes, or Chinese drafts. Use when t…",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-writing",
+      "readmeTruncated": false,
+      "readmeFile": "SKILL.md",
+      "version": "",
+      "author": "",
+      "label": "skill",
+      "owner": "Yuan1z0825"
+    }
+  ]
+}

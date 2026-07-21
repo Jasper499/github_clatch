@@ -12,7 +12,7 @@ import urllib.parse
 import urllib.request
 
 PERIOD_DAYS = 7
-README_MAX_BYTES = 80_000
+README_MAX_BYTES = 40_000
 USER_AGENT = "clatch-weekly-updater/1.0"
 
 

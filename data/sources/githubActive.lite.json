@@ -1,0 +1,206 @@
+{
+  "sourceKey": "githubActive",
+  "savedAt": "2026-07-21T08:41:45Z",
+  "label": "GitHub 活跃项目",
+  "description": "近 7 天内有推送、按 Star 数排序的热门仓库（含 README）",
+  "items": [
+    {
+      "title": "freeCodeCamp/freeCodeCamp",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "stars": 451666,
+      "language": "TypeScript",
+      "owner": "freeCodeCamp",
+      "readmeTruncated": false,
+      "readmeFile": "README.md"
+    },
+    {
+      "title": "openclaw/openclaw",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": 382730,
+      "language": "TypeScript",
+      "owner": "openclaw",
+      "readmeTruncated": true,
+      "readmeFile": "README.md"
+    },
+    {
+      "title": "nilbuild/developer-roadmap",
+      "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+      "url": "https://github.com/nilbuild/developer-roadmap",
+      "stars": 360651,
+      "language": "TypeScript",
+      "owner": "nilbuild",
+      "readmeTruncated": false,
+      "readmeFile": "README.md"
+    },
+    {
+      "title": "vinta/awesome-python",
+      "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
+      "url": "https://github.com/vinta/awesome-python",
+      "stars": 307800,
+      "language": "Python",
+      "owner": "vinta",
+      "readmeTruncated": true,
+      "readmeFile": "README.md"
+    },
+    {
+      "title": "awesome-selfhosted/awesome-selfhosted",
+      "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "stars": 305001,
+      "language": "",
+      "owner": "awesome-selfhosted",
+      "readmeTruncated": true,
+      "readmeFile": "README.md"
+    },
+    {
+      "title": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "url": "https://github.com/obra/superpowers",
+      "stars": 253166,
+      "language": "Shell",
+      "owner": "obra",
+      "readmeTruncated": false,
+      "readmeFile": "README.md"
+    },
+    {
+      "title": "react/react",
+      "description": "The library for web and native user interfaces.",
+      "url": "https://github.com/react/react",
+      "stars": 246458,
+      "language": "JavaScript",
+      "owner": "react",
+      "readmeTruncated": false,
+      "readmeFile": "README.md"
+    },
+    {
+      "title": "torvalds/linux",
+      "description": "Linux kernel source tree",
+      "url": "https://github.com/torvalds/linux",
+      "stars": 239296,
+      "language": "C",
+      "owner": "torvalds"
+    },
+    {
+      "title": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "url": "https://github.com/affaan-m/ECC",
+      "stars": 228996,
+      "language": "JavaScript",
+      "owner": "affaan-m",
+      "readmeTruncated": true,
+      "readmeFile": "README.md"
+    },
+    {
+      "title": "TheAlgorithms/Python",
+      "description": "All Algorithms implemented in Python",
+      "url": "https://github.com/TheAlgorithms/Python",
+      "stars": 222628,
+      "language": "Python",
+      "owner": "TheAlgorithms",
+      "readmeTruncated": false,
+      "readmeFile": "README.md"
+    },
+    {
+      "title": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": 213825,
+      "language": "Python",
+      "owner": "NousResearch",
+      "readmeTruncated": false,
+      "readmeFile": "README.md"
+    },
+    {
+      "title": "tensorflow/tensorflow",
+      "description": "An Open Source Machine Learning Framework for Everyone",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "stars": 196292,
+      "language": "C++",
+      "owner": "tensorflow",
+      "readmeTruncated": false,
+      "readmeFile": "README.md"
+    },
+    {
+      "title": "n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": 196219,
+      "language": "TypeScript",
+      "owner": "n8n-io",
+      "readmeTruncated": false,
+      "readmeFile": "README.md"
+    },
+    {
+      "title": "ohmyzsh/ohmyzsh",
+      "description": "🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
+      "url": "https://github.com/ohmyzsh/ohmyzsh",
+      "stars": 188666,
+      "language": "Shell",
+      "owner": "ohmyzsh",
+      "readmeTruncated": false,
+      "readmeFile": "README.md"
+    },
+    {
+      "title": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "url": "https://github.com/microsoft/vscode",
+      "stars": 187481,
+      "language": "TypeScript",
+      "owner": "microsoft",
+      "readmeTruncated": false,
+      "readmeFile": "README.md"
+    },
+    {
+      "title": "Significant-Gravitas/AutoGPT",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "stars": 185496,
+      "language": "Python",
+      "owner": "Significant-Gravitas",
+      "readmeTruncated": false,
+      "readmeFile": "README.md"
+    },
+    {
+      "title": "anomalyco/opencode",
+      "description": "The open source coding agent.",
+      "url": "https://github.com/anomalyco/opencode",
+      "stars": 185155,
+      "language": "TypeScript",
+      "owner": "anomalyco",
+      "readmeTruncated": false,
+      "readmeFile": "README.md"
+    },
+    {
+      "title": "avelino/awesome-go",
+      "description": "A curated list of awesome Go frameworks, libraries and software",
+      "url": "https://github.com/avelino/awesome-go",
+      "stars": 177997,
+      "language": "Go",
+      "owner": "avelino",
+      "readmeTruncated": true,
+      "readmeFile": "README.md"
+    },
+    {
+      "title": "flutter/flutter",
+      "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+      "url": "https://github.com/flutter/flutter",
+      "stars": 177851,
+      "language": "Dart",
+      "owner": "flutter",
+      "readmeTruncated": false,
+      "readmeFile": "README.md"
+    },
+    {
+      "title": "yt-dlp/yt-dlp",
+      "description": "A feature-rich command-line audio/video downloader",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "stars": 177602,
+      "language": "Python",
+      "owner": "yt-dlp",
+      "readmeTruncated": true,
+      "readmeFile": "README.md"
+    }
+  ]
+}

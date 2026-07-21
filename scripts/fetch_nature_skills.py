@@ -17,7 +17,7 @@ JSDELIVR_META = f"https://data.jsdelivr.com/v1/packages/gh/{REPO}@main"
 JSDELIVR_RAW = f"https://cdn.jsdelivr.net/gh/{REPO}@main"
 COMMITS_ATOM = f"https://github.com/{REPO}/commits/main.atom"
 USER_AGENT = "clatch-nature-skills-updater/1.0"
-SKILL_README_MAX = 100_000
+SKILL_README_MAX = 40_000
 COMMITS_LIMIT = 15
 
 KNOWN_SKILLS = [

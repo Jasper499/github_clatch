@@ -55,8 +55,24 @@ def _load_manifest() -> dict:
     return {"version": 1, "sources": {}}
 
 
+def _slim_items_without_readme(source_data: dict) -> dict:
+    """Drop bulky README bodies for lite/history payloads."""
+    items = source_data.get("items")
+    if not isinstance(items, list):
+        return dict(source_data)
+    slim_items = []
+    for item in items:
+        if not isinstance(item, dict):
+            slim_items.append(item)
+            continue
+        slim_items.append({k: v for k, v in item.items() if k != "readme"})
+    out = dict(source_data)
+    out["items"] = slim_items
+    return out
+
+
 def write_latest_source(source_key: str, source_data: dict) -> Path:
-    """Write data/sources/{key}.json for on-demand frontend loading."""
+    """Write data/sources/{key}.json and a README-free .lite.json companion."""
     SOURCES_DIR.mkdir(parents=True, exist_ok=True)
     payload = {
         "sourceKey": source_key,
@@ -66,6 +82,16 @@ def write_latest_source(source_key: str, source_data: dict) -> Path:
     out_file = SOURCES_DIR / f"{source_key}.json"
     with out_file.open("w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+
+    lite_payload = {
+        "sourceKey": source_key,
+        "savedAt": payload["savedAt"],
+        **_slim_items_without_readme(source_data),
+    }
+    lite_file = SOURCES_DIR / f"{source_key}.lite.json"
+    with lite_file.open("w", encoding="utf-8") as f:
+        json.dump(lite_payload, f, ensure_ascii=False, indent=2)
         f.write("\n")
     return out_file
 
@@ -128,7 +154,7 @@ def save_source_snapshot(source_key: str, source_data: dict, snapshot_date: str 
         "day": calendar_day,
         "sourceKey": source_key,
         "savedAt": utc_now_iso(),
-        **source_data,
+        **_slim_items_without_readme(source_data),
     }
 
     out_file = source_dir / f"{snap_id}.json"
@@ -150,12 +176,22 @@ def save_source_snapshot(source_key: str, source_data: dict, snapshot_date: str 
         },
     )
     entries.sort(key=lambda e: e.get("savedAt") or e.get("date") or "", reverse=True)
-    manifest["sources"][source_key] = entries[:MAX_SNAPSHOTS_PER_SOURCE]
+    kept = entries[:MAX_SNAPSHOTS_PER_SOURCE]
+    manifest["sources"][source_key] = kept
     manifest["updatedAt"] = utc_now_iso()
 
     with MANIFEST_PATH.open("w", encoding="utf-8") as f:
         json.dump(manifest, f, ensure_ascii=False, indent=2)
         f.write("\n")
+
+    # Drop orphan snapshot files not referenced by the trimmed manifest.
+    keep_names = {f"{e.get('date')}.json" for e in kept if e.get("date")}
+    for stale in source_dir.glob("*.json"):
+        if stale.name not in keep_names:
+            try:
+                stale.unlink()
+            except OSError:
+                pass
 
     return snap_id
 
