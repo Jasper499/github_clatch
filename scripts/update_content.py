@@ -1,23 +1,15 @@
 #!/usr/bin/env python3
-"""Weekly GitHub trending updater — merges into existing content.json."""
+"""Weekly GitHub trending updater — writes sources/meta/history (no content.json)."""
 
 from __future__ import annotations
 
-import json
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from fetch_github import PERIOD_DAYS, fetch_github_repos
-from history import save_sources_from_content
-
-ROOT = Path(__file__).resolve().parent.parent
-OUTPUT = ROOT / "data" / "content.json"
-
-
-def _utc_now_iso() -> str:
-    return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+from history import publish_source_update, utc_now_iso
 
 
 def iso_date(days_ago: int) -> str:
@@ -25,24 +17,8 @@ def iso_date(days_ago: int) -> str:
     return dt.strftime("%Y-%m-%d")
 
 
-def _load_content() -> dict:
-    if OUTPUT.exists():
-        with OUTPUT.open(encoding="utf-8") as f:
-            return json.load(f)
-
-    today = iso_date(0)
+def github_catalog_entry() -> dict:
     return {
-        "updatedAt": _utc_now_iso(),
-        "periodDays": PERIOD_DAYS,
-        "weekLabel": today,
-        "catalog": [],
-        "sources": {},
-    }
-
-
-def _ensure_github_catalog(content: dict) -> None:
-    catalog = content.setdefault("catalog", [])
-    github_entry = {
         "id": "github",
         "label": "GitHub",
         "children": [
@@ -50,11 +26,6 @@ def _ensure_github_catalog(content: dict) -> None:
             {"id": "githubActive", "sourceKey": "githubActive"},
         ],
     }
-    for index, node in enumerate(catalog):
-        if node.get("id") == "github":
-            catalog[index] = github_entry
-            return
-    catalog.insert(0, github_entry)
 
 
 def build_github_sources() -> dict:
@@ -85,30 +56,27 @@ def main() -> int:
         print("GitHub 抓取失败，未写入文件。", file=sys.stderr)
         return 1
 
-    content = _load_content()
-    content["periodDays"] = PERIOD_DAYS
-    content["weekLabel"] = f"{since} ~ {today}"
-    content["githubUpdatedAt"] = _utc_now_iso()
-    content["updatedAt"] = content["githubUpdatedAt"]
-    content.setdefault("sources", {}).update(github_sources)
-    _ensure_github_catalog(content)
-
-    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    with OUTPUT.open("w", encoding="utf-8") as f:
-        json.dump(content, f, ensure_ascii=False, indent=2)
-        f.write("\n")
-
-    save_sources_from_content(content, list(github_sources.keys()))
+    now = utc_now_iso()
+    publish_source_update(
+        github_sources,
+        meta_fields={
+            "periodDays": PERIOD_DAYS,
+            "weekLabel": f"{since} ~ {today}",
+            "githubUpdatedAt": now,
+            "updatedAt": now,
+        },
+        catalog_nodes=[github_catalog_entry()],
+    )
 
     counts = {k: len(v["items"]) for k, v in github_sources.items()}
     readme_counts = {
         k: sum(1 for item in v["items"] if item.get("readme"))
         for k, v in github_sources.items()
     }
-    print(f"已写入 {OUTPUT}")
+    print("已发布 sources/meta/history（未写 content.json）")
     print(f"  GitHub 新项目: {counts['github']} 条，README {readme_counts['github']} 篇")
     print(f"  GitHub 活跃:   {counts['githubActive']} 条，README {readme_counts['githubActive']} 篇")
-    print(f"  更新时间:      {content['githubUpdatedAt']}")
+    print(f"  更新时间:      {now}")
     return 0
 
 

@@ -1240,6 +1240,7 @@ function fillCategorySelect(data) {
     activeSourceKey = select.value;
     clearSearchInputs();
     activeItemIndex = 0;
+    hideHistoryCompare();
     renderTree(data);
     renderMobileNav(data);
     renderMobileSubnav(data);
@@ -1274,10 +1275,132 @@ function fillDateSelect(data) {
     persistDates();
     clearSearchInputs();
     activeItemIndex = 0;
+    hideHistoryCompare();
     // bust latest cache when returning to latest after history
     if (select.value === "latest") delete latestSourceCache[activeSourceKey];
     void syncPanel(data, { preserveItemIndex: false });
   };
+}
+
+function hideHistoryCompare() {
+  const panel = document.getElementById("history-compare-panel");
+  if (!panel) return;
+  panel.hidden = true;
+  panel.innerHTML = "";
+}
+
+function previousHistoryDate(sourceKey, currentDateKey) {
+  const entries = manifest?.sources?.[sourceKey] || [];
+  if (!entries.length) return null;
+  if (currentDateKey === "latest") return entries[0]?.date || null;
+  const idx = entries.findIndex((entry) => entry.date === currentDateKey);
+  if (idx < 0) return entries[0]?.date || null;
+  return entries[idx + 1]?.date || null;
+}
+
+function diffSnapshots(currentItems, previousItems) {
+  const prevMap = new Map();
+  (previousItems || []).forEach((item) => {
+    const fp = itemFingerprint(item);
+    if (fp) prevMap.set(fp, item);
+  });
+  const currMap = new Map();
+  (currentItems || []).forEach((item) => {
+    const fp = itemFingerprint(item);
+    if (fp) currMap.set(fp, item);
+  });
+  const added = [];
+  const removed = [];
+  currMap.forEach((item, fp) => {
+    if (!prevMap.has(fp)) added.push(item);
+  });
+  prevMap.forEach((item, fp) => {
+    if (!currMap.has(fp)) removed.push(item);
+  });
+  return { added, removed };
+}
+
+function renderHistoryCompare(currentLabel, previousLabel, added, removed) {
+  const panel = document.getElementById("history-compare-panel");
+  if (!panel) return;
+  const listHtml = (items, emptyText) => {
+    if (!items.length) return `<li class="muted">${escapeHtml(emptyText)}</li>`;
+    return items
+      .slice(0, 12)
+      .map((item) => `<li>${escapeHtml(item.title || "(无标题)")}</li>`)
+      .join("");
+  };
+  const moreAdded = added.length > 12 ? `（显示前 12 / 共 ${added.length}）` : "";
+  const moreRemoved = removed.length > 12 ? `（显示前 12 / 共 ${removed.length}）` : "";
+  panel.hidden = false;
+  panel.innerHTML = `
+    <div class="history-compare-head">
+      <strong>快照对比</strong>
+      <span class="muted">${escapeHtml(previousLabel)} → ${escapeHtml(currentLabel)}</span>
+      <button type="button" id="history-compare-close" class="btn-text">关闭</button>
+    </div>
+    <div class="history-compare-cols">
+      <div>
+        <h4>新增 ${added.length}${moreAdded}</h4>
+        <ul>${listHtml(added, "无新增")}</ul>
+      </div>
+      <div>
+        <h4>消失 ${removed.length}${moreRemoved}</h4>
+        <ul>${listHtml(removed, "无消失")}</ul>
+      </div>
+    </div>
+  `;
+  document.getElementById("history-compare-close")?.addEventListener("click", hideHistoryCompare);
+}
+
+async function runHistoryCompare(data) {
+  const sourceKey = activeSourceKey;
+  const currentKey = selectedDates[sourceKey] || "latest";
+  const previousKey = previousHistoryDate(sourceKey, currentKey);
+  const btn = document.getElementById("history-compare-btn");
+  if (!previousKey) {
+    const panel = document.getElementById("history-compare-panel");
+    if (panel) {
+      panel.hidden = false;
+      panel.innerHTML = `<p class="muted">暂无更早的历史快照可对比。</p>`;
+    }
+    return;
+  }
+  if (btn) {
+    btn.disabled = true;
+    btn.textContent = "对比中…";
+  }
+  try {
+    const current = await resolveSource(data, sourceKey);
+    const prevUrl = `data/history/${sourceKey}/${previousKey}.json?t=${Date.now()}`;
+    const prevRes = await fetch(prevUrl);
+    if (!prevRes.ok) throw new Error(`上一快照加载失败 (${prevRes.status})`);
+    const previousSnap = await prevRes.json();
+    const { added, removed } = diffSnapshots(current?.items || [], previousSnap?.items || []);
+    const currentLabel = currentKey === "latest" ? "最新" : formatSnapshotLabel(currentKey);
+    const previousLabel = formatSnapshotLabel(previousKey);
+    renderHistoryCompare(currentLabel, previousLabel, added, removed);
+  } catch (err) {
+    const panel = document.getElementById("history-compare-panel");
+    if (panel) {
+      panel.hidden = false;
+      panel.innerHTML = `<p class="muted">${escapeHtml(err.message || "对比失败")}</p>`;
+    }
+  } finally {
+    if (btn) {
+      btn.disabled = false;
+      btn.textContent = "对比";
+    }
+  }
+}
+
+function bindHistoryCompare(data) {
+  const btn = document.getElementById("history-compare-btn");
+  if (!btn || btn.dataset.bound === "1") return;
+  btn.dataset.bound = "1";
+  btn.addEventListener("click", () => {
+    void runHistoryCompare(data);
+  });
 }
 
 function itemSummary(item, index) {
@@ -2410,6 +2533,7 @@ async function loadContent() {
     bindPinButton(appData);
     bindDigest(appData);
     bindForceRefresh();
+    bindHistoryCompare(appData);
     bindMobileDetailNav();
     bindKeyboard();
     updatePinButton();

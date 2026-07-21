@@ -1,0 +1,249 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "HJL Clatch",
+  "home_page_url": "https://jasper499.github.io/github_clatch/",
+  "feed_url": "https://jasper499.github.io/github_clatch/data/feeds/all.json",
+  "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
+  "items": [
+    {
+      "id": "github:https://github.com/withmarbleapp/os-taxonomy",
+      "url": "https://github.com/withmarbleapp/os-taxonomy",
+      "title": "[GitHub 热门新项目] withmarbleapp/os-taxonomy",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "github:https://github.com/Robbyant/lingbot-world-v2",
+      "url": "https://github.com/Robbyant/lingbot-world-v2",
+      "title": "[GitHub 热门新项目] Robbyant/lingbot-world-v2",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "github:https://github.com/x4gKing/3x-ui-Upgrade",
+      "url": "https://github.com/x4gKing/3x-ui-Upgrade",
+      "title": "[GitHub 热门新项目] x4gKing/3x-ui-Upgrade",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "github:https://github.com/Robbyant/lingbot-video",
+      "url": "https://github.com/Robbyant/lingbot-video",
+      "title": "[GitHub 热门新项目] Robbyant/lingbot-video",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "github:https://github.com/vinhhien112/Three.js-Object-Sculptor-Codex-Plugin",
+      "url": "https://github.com/vinhhien112/Three.js-Object-Sculptor-Codex-Plugin",
+      "title": "[GitHub 热门新项目] vinhhien112/Three.js-Object-Sculptor-Codex-Plugin",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "github:https://github.com/mereyabdenbekuly-ctrl/clodex-ide",
+      "url": "https://github.com/mereyabdenbekuly-ctrl/clodex-ide",
+      "title": "[GitHub 热门新项目] mereyabdenbekuly-ctrl/clodex-ide",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "github:https://github.com/op7418/guizang-material-illustration",
+      "url": "https://github.com/op7418/guizang-material-illustration",
+      "title": "[GitHub 热门新项目] op7418/guizang-material-illustration",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "github:https://github.com/xiaotianfotos/homerail",
+      "url": "https://github.com/xiaotianfotos/homerail",
+      "title": "[GitHub 热门新项目] xiaotianfotos/homerail",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "githubActive:https://github.com/freeCodeCamp/freeCodeCamp",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "title": "[GitHub 活跃项目] freeCodeCamp/freeCodeCamp",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "githubActive:https://github.com/openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "title": "[GitHub 活跃项目] openclaw/openclaw",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "githubActive:https://github.com/nilbuild/developer-roadmap",
+      "url": "https://github.com/nilbuild/developer-roadmap",
+      "title": "[GitHub 活跃项目] nilbuild/developer-roadmap",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "githubActive:https://github.com/vinta/awesome-python",
+      "url": "https://github.com/vinta/awesome-python",
+      "title": "[GitHub 活跃项目] vinta/awesome-python",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "githubActive:https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "title": "[GitHub 活跃项目] awesome-selfhosted/awesome-selfhosted",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "githubActive:https://github.com/obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "title": "[GitHub 活跃项目] obra/superpowers",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "githubActive:https://github.com/react/react",
+      "url": "https://github.com/react/react",
+      "title": "[GitHub 活跃项目] react/react",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "githubActive:https://github.com/torvalds/linux",
+      "url": "https://github.com/torvalds/linux",
+      "title": "[GitHub 活跃项目] torvalds/linux",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "hackernews:https://news.ycombinator.com/item?id=48968606",
+      "url": "https://news.ycombinator.com/item?id=48968606",
+      "title": "[Hacker News 热门] Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "hackernews:https://www.kimi.com/blog/kimi-k3",
+      "url": "https://www.kimi.com/blog/kimi-k3",
+      "title": "[Hacker News 热门] Kimi K3: Open Frontier Intelligence",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "hackernews:https://news.ycombinator.com/item?id=48945241",
+      "url": "https://news.ycombinator.com/item?id=48945241",
+      "title": "[Hacker News 热门] AWS: Inaccurate Estimated Billing Data – $1.7 billion",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "hackernews:https://thinkingmachines.ai/news/introducing-inkling/",
+      "url": "https://thinkingmachines.ai/news/introducing-inkling/",
+      "title": "[Hacker News 热门] Inkling: Our Open-Weights Model",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "hackernews:https://videocardz.com/newz/lg-monitors-silently-install-software-through-windows-update-without-user-consent",
+      "url": "https://videocardz.com/newz/lg-monitors-silently-install-software-through-windows-update-without-user-consent",
+      "title": "[Hacker News 热门] LG monitors silently install software through Windows Update without consent",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "hackernews:https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
+      "url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
+      "title": "[Hacker News 热门] China’s open-weights AI strategy is winning",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "hackernews:https://fabiensanglard.net/jurrasic_park_computers/index.html",
+      "url": "https://fabiensanglard.net/jurrasic_park_computers/index.html",
+      "title": "[Hacker News 热门] Jurassic Park computers in excruciating detail",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "hackernews:https://twitter.com/Alibaba_Qwen/status/2078759124914098291",
+      "url": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291",
+      "title": "[Hacker News 热门] Qwen 3.8",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "weibo:https://s.weibo.com/weibo?q=%E6%80%A1%E9%A2%97%E8%8E%93%20%E8%87%B4%E7%99%8C%E7%89%A9&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%E6%80%A1%E9%A2%97%E8%8E%93%20%E8%87%B4%E7%99%8C%E7%89%A9&t=31&band_rank=1&Refer=top",
+      "title": "[微博热搜] 怡颗莓 致癌物",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "weibo:https://s.weibo.com/weibo?q=FIFA%E6%9B%B4%E6%96%B0%E7%94%B7%E8%B6%B3%E4%B8%96%E7%95%8C%E6%8E%92%E5%90%8D&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=FIFA%E6%9B%B4%E6%96%B0%E7%94%B7%E8%B6%B3%E4%B8%96%E7%95%8C%E6%8E%92%E5%90%8D&t=31&band_rank=1&Refer=top",
+      "title": "[微博热搜] FIFA更新男足世界排名",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "weibo:https://s.weibo.com/weibo?q=%23%E4%B8%80%E5%9B%BE%E8%AF%BB%E6%87%82%E6%96%B0%E4%B8%80%E4%BB%A3%E9%80%9A%E4%BF%A1%E7%BD%91%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%80%E5%9B%BE%E8%AF%BB%E6%87%82%E6%96%B0%E4%B8%80%E4%BB%A3%E9%80%9A%E4%BF%A1%E7%BD%91%23&t=31&band_rank=1&Refer=top",
+      "title": "[微博热搜] 一图读懂新一代通信网",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "weibo:https://s.weibo.com/weibo?q=%E8%A7%81%E8%AF%86%E5%88%B0%E4%B8%89%E4%BC%8F%E5%A4%A9%E7%9A%84%E5%8E%89%E5%AE%B3%E4%BA%86&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%E8%A7%81%E8%AF%86%E5%88%B0%E4%B8%89%E4%BC%8F%E5%A4%A9%E7%9A%84%E5%8E%89%E5%AE%B3%E4%BA%86&t=31&band_rank=1&Refer=top",
+      "title": "[微博热搜] 见识到三伏天的厉害了",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "weibo:https://s.weibo.com/weibo?q=%23%E7%8E%8B%E7%8E%89%E9%9B%AF%E5%9C%A8%E7%99%BD%E9%B9%BF%E9%9D%A2%E5%89%8D%E5%BE%88%E5%B0%91%E5%8C%96%E5%A6%86%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E7%8E%89%E9%9B%AF%E5%9C%A8%E7%99%BD%E9%B9%BF%E9%9D%A2%E5%89%8D%E5%BE%88%E5%B0%91%E5%8C%96%E5%A6%86%23&t=31&band_rank=1&Refer=top",
+      "title": "[微博热搜] 王玉雯在白鹿面前很少化妆",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%A4%AE%E8%A7%86%E6%9B%9D%E4%B9%99%E6%B8%B8%E5%B9%B4%E9%BE%84%E9%97%A8%E6%A7%9B%E5%BD%A2%E5%90%8C%E8%99%9A%E8%AE%BE%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%AE%E8%A7%86%E6%9B%9D%E4%B9%99%E6%B8%B8%E5%B9%B4%E9%BE%84%E9%97%A8%E6%A7%9B%E5%BD%A2%E5%90%8C%E8%99%9A%E8%AE%BE%23&t=31&band_rank=1&Refer=top",
+      "title": "[微博热搜] 央视曝乙游年龄门槛形同虚设",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "weibo:https://s.weibo.com/weibo?q=%E5%A5%94%E8%B7%91%E5%90%A7&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%E5%A5%94%E8%B7%91%E5%90%A7&t=31&band_rank=1&Refer=top",
+      "title": "[微博热搜] 奔跑吧",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "weibo:https://s.weibo.com/weibo?q=A%E8%82%A1&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=A%E8%82%A1&t=31&band_rank=1&Refer=top",
+      "title": "[微博热搜] A股",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "mrm:https://doi.org/10.1002/mrm.70513",
+      "url": "https://doi.org/10.1002/mrm.70513",
+      "title": "[Magnetic Resonance in Medicine] Joint Reconstruction of Multiple\n                    <i>b</i>\n                    ‐Values and Multiple Directions for Accelerating Diffusion Kurtosis Imaging",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "mrm:https://doi.org/10.1002/mrm.70509",
+      "url": "https://doi.org/10.1002/mrm.70509",
+      "title": "[Magnetic Resonance in Medicine] Generative\n                    <scp>MR</scp>\n                    Multitasking With Complex‐Harmonic Cardiac Encoding: Bridging the Gap Between Gated Imaging and Real‐Time Imaging",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "mrm:https://doi.org/10.1002/mrm.70510",
+      "url": "https://doi.org/10.1002/mrm.70510",
+      "title": "[Magnetic Resonance in Medicine] Combined\n                    <scp>ADC</scp>\n                    and\n                    <scp>\n                      T\n                      <sub>2</sub>\n                    </scp>\n                    Mapping in the Prostate Using a\n                    <scp>3D</scp>\n                    Reduced\n                    <scp>FOV</scp>\n                    Sequence",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "mrm:https://doi.org/10.1002/mrm.70505",
+      "url": "https://doi.org/10.1002/mrm.70505",
+      "title": "[Magnetic Resonance in Medicine] <scp>3D</scp>\n                    and\n                    <scp>4D</scp>\n                    Free‐Breathing Abdominal\n                    <scp>T1</scp>\n                    ‐Weighted\n                    <scp>MRI</scp>\n                    in Clinical Practice Using Deep Learning Auto‐Navigation and Reconstruction",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "mrm:https://doi.org/10.1002/mrm.70484",
+      "url": "https://doi.org/10.1002/mrm.70484",
+      "title": "[Magnetic Resonance in Medicine] Real‐Time Targeted Slice Reacquisition for Motion‐Corrupted Fetal Diffusion MRI",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "mrm:https://doi.org/10.1002/mrm.70501",
+      "url": "https://doi.org/10.1002/mrm.70501",
+      "title": "[Magnetic Resonance in Medicine] Accelerating Stroke\n                    <scp>MRI</scp>\n                    With Diffusion Probabilistic Models Through Large‐Scale Pre‐Training and Target‐Specific Fine‐Tuning",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "mrm:https://doi.org/10.1002/mrm.70493",
+      "url": "https://doi.org/10.1002/mrm.70493",
+      "title": "[Magnetic Resonance in Medicine] <scp>4D</scp>\n                    Flow\n                    <scp>MRI</scp>\n                    ‐Based Quantification of Tricuspid Regurgitation: A Possible Approach to Improve Measurement Repeatability",
+      "date_published": "2026-07-21T09:50:39Z"
+    },
+    {
+      "id": "mrm:https://doi.org/10.1002/mrm.70506",
+      "url": "https://doi.org/10.1002/mrm.70506",
+      "title": "[Magnetic Resonance in Medicine] Quantifying Skin Sodium Concentration With Novel Very Rapid Biexponential\n                    <scp>\n                      T\n                      <sub>2</sub>\n                    </scp>\n                    Relaxometry and Signal Loss Compensation Methodology",
+      "date_published": "2026-07-21T09:50:39Z"
+    }
+  ]
+}

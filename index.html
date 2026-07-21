@@ -38,7 +38,7 @@
       }
     })();
   </script>
-  <link rel="stylesheet" href="css/style.css?v=13">
+  <link rel="stylesheet" href="css/style.css?v=14">
 </head>
 <body>
   <script>
@@ -108,6 +108,27 @@
         <a href="#/scientificSkills">Scientific Skills</a>
       </nav>
       <a class="gh-chrome-hjl" href="#/hackernews">HJL</a>
+    </div>
+  </header>
+
+  <header class="platform-chrome platform-chrome--weibo" aria-label="微博热搜">
+    <div class="weibo-chrome-bar">
+      <a class="weibo-chrome-brand" href="#/weibo">
+        <span class="weibo-chrome-mark" aria-hidden="true">微</span>
+        <span>微博热搜</span>
+      </a>
+      <nav class="weibo-chrome-nav" aria-label="微博栏目">
+        <span class="is-active">热搜榜</span>
+        <span>实时</span>
+        <span>同城</span>
+      </nav>
+      <div class="weibo-chrome-right">
+        <a class="weibo-chrome-link" href="#/github">github</a>
+        <span class="weibo-chrome-sep">|</span>
+        <a class="weibo-chrome-link" href="#/hackernews">HN</a>
+        <span class="weibo-chrome-sep">|</span>
+        <a class="weibo-chrome-link" href="#/github">HJL</a>
+      </div>
     </div>
   </header>
 
@@ -208,7 +229,10 @@
           </div>
           <div class="control-group">
             <label for="date-select">历史日期</label>
-            <select id="date-select" class="select"></select>
+            <div class="date-compare-row">
+              <select id="date-select" class="select"></select>
+              <button type="button" id="history-compare-btn" class="btn-text" title="与上一快照对比新增/消失条目">对比</button>
+            </div>
           </div>
           <div class="control-group control-group-grow">
             <label for="search-input">搜索</label>
@@ -224,6 +248,7 @@
 
         <p id="section-desc" class="section-desc"></p>
         <p id="new-items-banner" class="new-items-banner" hidden></p>
+        <div id="history-compare-panel" class="history-compare-panel" hidden></div>
 
         <div id="journal-stats" class="journal-stats" hidden></div>
 
@@ -265,6 +290,10 @@
       <p class="footer-links">
         <a href="https://github.com/Jasper499/github_clatch/actions" target="_blank" rel="noopener noreferrer">查看自动更新记录</a>
         <span>·</span>
+        <a href="data/feeds/all.xml">Atom Feed</a>
+        <span>·</span>
+        <a href="data/feeds/all.json">JSON Feed</a>
+        <span>·</span>
         <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
         <span>·</span>
         <a href="https://news.ycombinator.com" target="_blank" rel="noopener">Hacker News</a>
@@ -282,9 +311,17 @@
     </div>
   </dialog>
 
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/dompurify@3/dist/purify.min.js"></script>
-  <script src="js/icons.js?v=13"></script>
-  <script src="js/app.js?v=13"></script>
+  <script
+    src="vendor/marked.min.js"
+    integrity="sha384-948ahk4ZmxYVYOc+rxN1H2gM1EJ2Duhp7uHtZ4WSLkV4Vtx5MUqnV+l7u9B+jFv+"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="vendor/purify.min.js"
+    integrity="sha384-piCcpDdJ7qVeK4Tv8Z6Hpcr3ZBIgP16TxQTPVfsLFdZ5uDgwc3Y8Ho7oUnqf12qu"
+    crossorigin="anonymous"
+  ></script>
+  <script src="js/icons.js?v=14"></script>
+  <script src="js/app.js?v=14"></script>
 </body>
 </html>

@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
-"""Daily updater for K-Dense-AI/scientific-agent-skills — merges into content.json."""
+"""Daily updater for K-Dense-AI/scientific-agent-skills — writes sources/meta/history."""
 
 from __future__ import annotations
 
 import json
 import sys
-from datetime import datetime, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -13,47 +12,10 @@ from fetch_scientific_agent_skills import (
     build_scientific_skills_payload,
     scientific_skills_catalog_entry,
 )
-from history import save_sources_from_content
+from history import previous_meta_sha, publish_source_update
 
 ROOT = Path(__file__).resolve().parent.parent
-OUTPUT = ROOT / "data" / "content.json"
 NOTIFY_PATH = ROOT / "data" / "scientific-agent-skills-notify.json"
-SOURCE_KEYS = ["scientificSkills", "scientificSkillsCommits"]
-
-
-def _utc_now_iso() -> str:
-    return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
-
-
-def _load_content() -> dict:
-    if OUTPUT.exists():
-        with OUTPUT.open(encoding="utf-8") as f:
-            return json.load(f)
-    return {
-        "updatedAt": _utc_now_iso(),
-        "periodDays": 7,
-        "weekLabel": "",
-        "catalog": [],
-        "sources": {},
-    }
-
-
-def _ensure_catalog(content: dict) -> None:
-    catalog = content.setdefault("catalog", [])
-    entry = scientific_skills_catalog_entry()
-    for index, node in enumerate(catalog):
-        if node.get("id") == "scientificSkills":
-            catalog[index] = entry
-            return
-    catalog.append(entry)
-
-
-def _previous_sha(content: dict) -> str:
-    for key in SOURCE_KEYS:
-        sha = (content.get("sources") or {}).get(key, {}).get("latestSha")
-        if sha:
-            return sha
-    return content.get("scientificSkillsLatestSha") or ""
 
 
 def _write_notify(payload: dict, previous_sha: str, changed: bool) -> None:
@@ -100,30 +62,26 @@ def main() -> int:
         print("未获取到 Skills 条目，未写入。", file=sys.stderr)
         return 1
 
-    content = _load_content()
-    previous_sha = _previous_sha(content)
+    previous_sha = previous_meta_sha("scientificSkillsLatestSha")
     latest_sha = payload.get("latestSha") or ""
     changed = (not previous_sha) or (previous_sha != latest_sha)
 
-    content.setdefault("sources", {}).update(payload["sources"])
-    content["scientificSkillsUpdatedAt"] = payload["fetchedAt"]
-    content["scientificSkillsLatestSha"] = latest_sha
-    content["updatedAt"] = content["scientificSkillsUpdatedAt"]
-    _ensure_catalog(content)
-
-    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    with OUTPUT.open("w", encoding="utf-8") as f:
-        json.dump(content, f, ensure_ascii=False, indent=2)
-        f.write("\n")
-
-    save_sources_from_content(content, SOURCE_KEYS)
+    publish_source_update(
+        payload["sources"],
+        meta_fields={
+            "scientificSkillsUpdatedAt": payload["fetchedAt"],
+            "scientificSkillsLatestSha": latest_sha,
+            "updatedAt": payload["fetchedAt"],
+        },
+        catalog_nodes=[scientific_skills_catalog_entry()],
+    )
     _write_notify(payload, previous_sha, changed)
 
     skill_count = sum(
         1 for i in payload["sources"]["scientificSkills"]["items"] if i.get("label") == "skill"
     )
     commit_count = len(payload["sources"]["scientificSkillsCommits"]["items"])
-    print(f"已写入 {OUTPUT}")
+    print("已发布 sources/meta/history（未写 content.json）")
     print(f"  Skills: {skill_count}")
     print(f"  提交:   {commit_count}")
     print(f"  SHA:    {latest_sha[:7] if latest_sha else '-'}")

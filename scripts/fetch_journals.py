@@ -305,12 +305,19 @@ def fetch_journal_articles(journal: dict, papers_root: Path | None = None) -> li
 
 
 def journal_source_meta(journal: dict, items: list[dict], period_label: str) -> dict:
+    with_pdf_link = sum(1 for item in items if item.get("pdfUrl") or item.get("pdfAvailable"))
     downloaded = sum(1 for item in items if item.get("pdfAvailable"))
+    if downloaded > 0:
+        pdf_note = f"本地已存 OA PDF {downloaded} 篇"
+    elif with_pdf_link > 0:
+        pdf_note = f"含 OA PDF 链接 {with_pdf_link} 篇"
+    else:
+        pdf_note = "暂无可用 OA PDF 链接"
     return {
         "label": journal["label"],
         "description": (
             f"近 {LOOKBACK_DAYS} 天 {journal['short']} 期刊 MRI 相关论文"
-            f"（{period_label}，共 {len(items)} 篇，已下载开放获取 PDF {downloaded} 篇）"
+            f"（{period_label}，共 {len(items)} 篇，{pdf_note}）"
         ),
         "updateFrequency": "biweekly",
         "items": items,

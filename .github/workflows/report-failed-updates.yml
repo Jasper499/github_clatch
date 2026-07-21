@@ -1,0 +1,73 @@
+name: Report Failed Data Updates
+
+on:
+  workflow_run:
+    workflows:
+      - Twice-Daily Hacker News Update
+      - Every 6 Hours Weibo Update
+      - Daily Nature Skills Update
+      - Daily Scientific Agent Skills Update
+      - Weekly Content Update
+      - Biweekly MRI Journal Update
+    types: [completed]
+
+permissions:
+  issues: write
+  actions: read
+
+jobs:
+  report:
+    if: ${{ github.event.workflow_run.conclusion == 'failure' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Open or update failure issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const run = context.payload.workflow_run;
+            const title = `CI failure: ${run.name}`;
+            const body = [
+              `Workflow **${run.name}** failed.`,
+              "",
+              `- Run: ${run.html_url}`,
+              `- Branch: \`${run.head_branch}\``,
+              `- Event: \`${run.event}\``,
+              `- Finished: ${run.updated_at}`,
+              "",
+              "_Auto-opened by Report Failed Data Updates._",
+            ].join("\n");
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: "open",
+              labels: "ci-failure",
+              per_page: 50,
+            });
+            const existing = issues.data.find((i) => i.title === title);
+            if (existing) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                body,
+              });
+              core.info(`Commented on existing issue #${existing.number}`);
+              return;
+            }
+            try {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body,
+                labels: ["ci-failure"],
+              });
+            } catch (err) {
+              // Label may not exist yet — create without labels.
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body,
+              });
+            }

@@ -1,49 +1,59 @@
-# One Piece
+# HJL Clatch
 
-自动定时更新最新的内容，支持目录树与下拉浏览。
+自动聚合 GitHub Trending、Hacker News、微博热搜、MRI 顶刊、Nature Skills、Scientific Skills，支持历史回看与今日摘要。
+
+站点：https://jasper499.github.io/github_clatch/
 
 ## 项目结构
 
 ```
 github_clatch/
-├── index.html              # 网站首页
-├── css/style.css           # 样式
-├── js/app.js               # 前端渲染逻辑
-├── data/content.json       # 抓取结果（网站读取此文件）
-├── scripts/update_content.py       # GitHub 每周抓取
-├── scripts/update_hackernews.py    # HN 每日两次更新
-├── scripts/update_weibo.py         # 微博每 6 小时更新
-├── scripts/fetch_hackernews.py     # HN 抓取逻辑
-├── scripts/fetch_weibo.py          # 微博抓取逻辑
-├── .github/workflows/weekly-update.yml
-├── .github/workflows/twice-daily-hackernews.yml
-└── .github/workflows/twice-daily-weibo.yml
+├── index.html                 # 前端入口
+├── css/style.css              # 样式（含各平台 chrome）
+├── js/app.js                  # 渲染与路由
+├── vendor/                    # 本地 marked / DOMPurify（带 SRI）
+├── data/
+│   ├── meta.json              # 轻量元数据（权威目录与更新时间）
+│   ├── manifest.json          # 历史快照索引
+│   ├── sources/*.json         # 各源最新全文
+│   ├── sources/*.lite.json    # 列表摘要（无 README）
+│   ├── history/<source>/      # 按日快照（已去 README）
+│   └── feeds/all.{json,xml}   # JSON Feed / Atom
+├── scripts/                   # 抓取与发布脚本
+└── .github/workflows/         # 定时更新 + 失败开 Issue
 ```
 
-## 数据来源
+## 数据架构
 
-| 板块 | 来源 | 规则 |
-|------|------|------|
-| GitHub 热门新项目 | GitHub Search API | 近 7 天创建、Star > 10、按 Star 排序 |
-| GitHub 活跃项目 | GitHub Search API | 近 7 天有推送、Star > 10、按 Star 排序 |
-| Hacker News 热门 | HN Algolia API | 近 7 天高互动 Story |
-| 微博热搜 | `weibo.com/ajax/side/hotSearch` | 当日实时热搜 TOP 30 |
-| MRM / TMI / MedIA | CrossRef + Semantic Scholar + Unpaywall | 近 45 天 MRI 相关论文，自动下载开放获取 PDF |
+- 写入权威路径：`meta.json` + `sources/` + `history/` + `feeds/`（**不再维护** 巨型 `content.json`）
+- 前端优先读 `meta.json` 与 `sources/*.lite.json` / `sources/*.json`
+- 各源 updater 通过 `scripts/history.py` 的 `publish_source_update()` 统一发布
 
 ## 自动更新
 
-| 任务 | 频率 | 工作流 | 命令 |
-|------|------|--------|------|
-| GitHub 热门 | 每周一 09:00 | `weekly-update.yml` | `python scripts/update_content.py` |
-| Hacker News | **每天 10:00、22:00** | `twice-daily-hackernews.yml` | `python scripts/update_hackernews.py` |
-| 微博热搜 | **每 6 小时**（UTC :10，约北京 02/08/14/20 点） | `twice-daily-weibo.yml` | `python scripts/update_weibo.py` |
-| **MRI 顶刊** | **每月 1/15 日 10:00** | `biweekly-journals.yml` | `python scripts/update_journals.py` |
+| 板块 | 频率 | 工作流 |
+|------|------|--------|
+| GitHub 热门 / 活跃 | 每周一 | `weekly-update.yml` |
+| Hacker News | 每天约 10/22 点 | `twice-daily-hackernews.yml` |
+| 微博热搜 | 每 6 小时 | `twice-daily-weibo.yml` |
+| MRI 顶刊 | 每月 1/15 日 | `biweekly-journals.yml` |
+| Nature Skills | 每天约 10/22 点 | `daily-nature-skills.yml` |
+| Scientific Skills | 每天约 10/22 点 | `daily-scientific-agent-skills.yml` |
+| 更新失败告警 | workflow 失败时开 Issue | `report-failed-updates.yml` |
 
-论文 PDF 仅下载**开放获取**版本，保存至 `papers/mrm/`、`papers/tmi/`、`papers/media/`。
+## 本地脚本
 
+```bash
+python scripts/update_content.py
+python scripts/update_hackernews.py
+python scripts/update_weibo.py
+python scripts/update_journals.py
+python scripts/prune_history.py   # 瘦身旧 history + 重写 feeds
+```
 
+推送重试：`scripts/git_push_with_retry.sh`（workflow 已接入）。
 
+## Feed
 
-
-
-
+- Atom：`data/feeds/all.xml`
+- JSON Feed：`data/feeds/all.json`
