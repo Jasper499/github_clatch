@@ -1,12 +1,45 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-07-21T08:41:45Z",
+  "savedAt": "2026-07-21T16:06:12Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "3f825caafe149b7853ec8c4d1dd7f4553ea6b2a5",
+  "latestSha": "e8727695e34f19a80be02b1769aa64dabdd2938b",
   "items": [
+    {
+      "title": "Bump version",
+      "description": "Bump version",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/e8727695e34f19a80be02b1769aa64dabdd2938b",
+      "sha": "e872769",
+      "fullSha": "e8727695e34f19a80be02b1769aa64dabdd2938b",
+      "owner": "TKassis",
+      "published": "2026-07-20",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Update Torchdrug and venue-templates skills",
+      "description": "Update Torchdrug and venue-templates skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/3b6f0e48b400742e245c540774e511f684adb174",
+      "sha": "3b6f0e4",
+      "fullSha": "3b6f0e48b400742e245c540774e511f684adb174",
+      "owner": "TKassis",
+      "published": "2026-07-20",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "chore: update security scan report [skip ci]",
+      "description": "chore: update security scan report [skip ci]",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/a177179f77aa4da00d6930c9c05b2a40a26c5959",
+      "sha": "a177179",
+      "fullSha": "a177179f77aa4da00d6930c9c05b2a40a26c5959",
+      "owner": "github-actions",
+      "published": "2026-07-20",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "Update README.md: Enhance star history chart with responsive design f…",
       "description": "Update README.md: Enhance star history chart with responsive design for dark and light themes, and clarify project name change to Scientific Agent Skills.",
@@ -136,39 +169,6 @@
       "fullSha": "afa84b445efc132a8553b776077f8c648e114c08",
       "owner": "TKassis",
       "published": "2026-07-04",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Enhance database lookup skill documentation and API interaction. Upda…",
-      "description": "Enhance database lookup skill documentation and API interaction. Updated descriptions for clarity, improved retrieval contract guidelines, and added new API version checks for ClinicalTrials.gov. Adjusted AlphaFold references to reflect current file URLs and versioning. Incremented skill version to 1.2.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/1e024ea8547ada12039edbe8197aaa959d97763f",
-      "sha": "1e024ea",
-      "fullSha": "1e024ea8547ada12039edbe8197aaa959d97763f",
-      "owner": "TKassis",
-      "published": "2026-07-01",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Merge pull request #203 from dnaerys/onekgpd",
-      "description": "Merge pull request #203 from dnaerys/onekgpd\n\nfeat(skills): add onekgpd skill: individual-level queries over the 1000 Genomes variant dataset",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/0807ddbc5ceae9c76162198b6909c63d88a1e38a",
-      "sha": "0807ddb",
-      "fullSha": "0807ddbc5ceae9c76162198b6909c63d88a1e38a",
-      "owner": "TKassis",
-      "published": "2026-06-29",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Update README and documentation to reflect the addition of 2 new skil…",
-      "description": "Update README and documentation to reflect the addition of 2 new skills, increasing the total to 148. Updated version badge to 2.53.0 and made minor adjustments for clarity in the skills documentation.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/50a46b2d217024527382f2c03099fc529038ef8d",
-      "sha": "50a46b2",
-      "fullSha": "50a46b2d217024527382f2c03099fc529038ef8d",
-      "owner": "TKassis",
-      "published": "2026-06-29",
       "label": "commit",
       "repo": "K-Dense-AI/scientific-agent-skills"
     }

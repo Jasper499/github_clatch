@@ -1,20 +1,35 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-07-17T02:19:13Z",
+  "changed": true,
+  "fetchedAt": "2026-07-21T16:06:12Z",
   "previousSha": "3f825caafe149b7853ec8c4d1dd7f4553ea6b2a5",
-  "latestSha": "3f825caafe149b7853ec8c4d1dd7f4553ea6b2a5",
+  "latestSha": "e8727695e34f19a80be02b1769aa64dabdd2938b",
   "repo": "K-Dense-AI/scientific-agent-skills",
   "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "stars": 0,
-  "skillCount": 134,
+  "skillCount": 149,
   "latestCommit": {
-    "title": "Update README.md: Enhance star history chart with responsive design f…",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/3f825caafe149b7853ec8c4d1dd7f4553ea6b2a5",
-    "sha": "3f825ca",
-    "published": "2026-07-15"
+    "title": "Bump version",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/e8727695e34f19a80be02b1769aa64dabdd2938b",
+    "sha": "e872769",
+    "published": "2026-07-20"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "Bump version",
+      "sha": "e872769",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/e8727695e34f19a80be02b1769aa64dabdd2938b"
+    },
+    {
+      "title": "Update Torchdrug and venue-templates skills",
+      "sha": "3b6f0e4",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/3b6f0e48b400742e245c540774e511f684adb174"
+    },
+    {
+      "title": "chore: update security scan report [skip ci]",
+      "sha": "a177179",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/a177179f77aa4da00d6930c9c05b2a40a26c5959"
+    },
     {
       "title": "Update README.md: Enhance star history chart with responsive design f…",
       "sha": "3f825ca",
@@ -24,21 +39,6 @@
       "title": "Enhance Research Lookup Skill: Update documentation and improve backe…",
       "sha": "fc0b9f6",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/fc0b9f692459ea7d9e5a5c64948a5878e1bce274"
-    },
-    {
-      "title": "Delete redundant files",
-      "sha": "cd77d3f",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/cd77d3f3010697815e23cc66be37366c867be640"
-    },
-    {
-      "title": "Update parallel-web skill",
-      "sha": "0433033",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/04330336f86d7b39930bd09a8d10e1b47d4d927b"
-    },
-    {
-      "title": "Merge pull request #209 from dnaerys/onekgpd-update",
-      "sha": "708d419",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/708d419d71d04681d799b44027fa70fc82d57399"
     }
   ]
 }
