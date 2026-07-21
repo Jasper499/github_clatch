@@ -1,44 +1,44 @@
 {
   "changed": true,
-  "fetchedAt": "2026-07-16T15:49:43Z",
-  "previousSha": "8abf819d748b4a3c61f5c0277b712bccc69d4e5c",
-  "latestSha": "fb3bffa0b5d299b939fae959786e222bf699bd25",
+  "fetchedAt": "2026-07-21T09:50:39Z",
+  "previousSha": "fb3bffa0b5d299b939fae959786e222bf699bd25",
+  "latestSha": "d12e63cf98c630cd752996814bb8ea637613035c",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "Merge pull request #135 from Travisma2233/preview/readme-structure-v2",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/fb3bffa0b5d299b939fae959786e222bf699bd25",
-    "sha": "fb3bffa",
-    "published": "2026-07-16"
+    "title": "Merge pull request #175 from MuseLinn/skill/ref-verifier-hardening",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/d12e63cf98c630cd752996814bb8ea637613035c",
+    "sha": "d12e63c",
+    "published": "2026-07-21"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
     {
-      "title": "Merge pull request #135 from Travisma2233/preview/readme-structure-v2",
-      "sha": "fb3bffa",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/fb3bffa0b5d299b939fae959786e222bf699bd25"
+      "title": "Merge pull request #175 from MuseLinn/skill/ref-verifier-hardening",
+      "sha": "d12e63c",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/d12e63cf98c630cd752996814bb8ea637613035c"
     },
     {
-      "title": "docs: reorganize README structure",
-      "sha": "66c9ad3",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/66c9ad3093e45678fe6300626b5d2f3f6e8a9c10"
+      "title": "skill(nature-ref-verifier): harden from 35-ref field audit, promote t…",
+      "sha": "a3d990f",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/a3d990fe73a469c323a82c5605d7329f80f061c6"
     },
     {
-      "title": "Merge pull request #134 from Travisma2233/docs/move-self-operated-bef…",
-      "sha": "97a8647",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/97a8647181e85598adf56c9a7af0b07f7185f967"
+      "title": "Merge pull request #171 from zpf2234/ci/run-skill-index-on-skill-changes",
+      "sha": "05305ab",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/05305ab1a636e7794849181cb97f397b49ed498b"
     },
     {
-      "title": "docs: move self-operated section before contents",
-      "sha": "a9faa21",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/a9faa21df4261c91ca3dbfa93dd56c75cb48ff0f"
+      "title": "Merge pull request #170 from zpf2234/docs/nature-downloader-readme-ha…",
+      "sha": "e5a54db",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/e5a54db177be7072cbea19eea5dec046143b1563"
     },
     {
-      "title": "Merge pull request #133 from Travisma2233/docs/fix-self-operated-section",
-      "sha": "c602bc1",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c602bc14fdbde1e7cc39b848bd75012ac91a98eb"
+      "title": "Merge pull request #169 from zpf2234/ci/scope-repository-validation",
+      "sha": "5fe97a0",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/5fe97a048606f52401e904501406a00c833e461a"
     }
   ]
 }
