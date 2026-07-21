@@ -818,12 +818,12 @@ body::after {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--muted);
-  margin-bottom: 0.75rem;
+  margin: 0.15rem 0 0.65rem;
   font-family: var(--font-mono);
 }
 
 .motto-bar {
-  margin: 0 0 0.85rem;
+  margin: 0 0 0.75rem;
   padding: 0.7rem 0.75rem 0.75rem;
   border-radius: var(--radius-sm);
   border: 1px solid var(--border);

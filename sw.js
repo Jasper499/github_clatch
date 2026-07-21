@@ -1,13 +1,13 @@
 /* HJL Clatch service worker — cache shell + recent data for offline reading. */
-const CACHE_SHELL = "clatch-shell-v16";
-const CACHE_DATA = "clatch-data-v16";
+const CACHE_SHELL = "clatch-shell-v17";
+const CACHE_DATA = "clatch-data-v17";
 
 const SHELL_FILES = [
   "./",
   "./index.html",
-  "./css/style.css?v=16",
-  "./js/app.js?v=16",
-  "./js/icons.js?v=16",
+  "./css/style.css?v=17",
+  "./js/app.js?v=17",
+  "./js/icons.js?v=17",
   "./vendor/marked.min.js",
   "./vendor/purify.min.js",
   "./favicon.svg",

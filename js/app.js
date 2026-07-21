@@ -1184,6 +1184,7 @@ function renderTree(data) {
   const catalogHtml = `
     ${pinnedBlock}
     ${renderMottoBar()}
+    <div class="sidebar-title">内容目录</div>
     <div class="tree-children tree-children--root">
       ${catalog
         .map(
