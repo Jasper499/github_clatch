@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-07-21T09:50:39Z",
+  "updatedAt": "2026-07-21T12:23:24Z",
   "periodDays": 7,
   "weekLabel": "2026-07-06 ~ 2026-07-13",
   "githubUpdatedAt": "2026-07-13T04:23:21Z",
   "hackernewsUpdatedAt": "2026-07-21T05:24:56Z",
-  "weiboUpdatedAt": "2026-07-21T08:41:45Z",
+  "weiboUpdatedAt": "2026-07-21T12:23:24Z",
   "journalsUpdatedAt": "2026-07-15T04:40:50Z",
   "natureSkillsUpdatedAt": "2026-07-21T09:50:39Z",
   "scientificSkillsUpdatedAt": "2026-07-17T02:19:13Z",
@@ -42,6 +42,14 @@
         {
           "id": "weibo",
           "sourceKey": "weibo"
+        },
+        {
+          "id": "weiboRealtime",
+          "sourceKey": "weiboRealtime"
+        },
+        {
+          "id": "weiboLocal",
+          "sourceKey": "weiboLocal"
         }
       ]
     },
@@ -111,9 +119,9 @@
       "itemCount": 20
     },
     "weibo": {
-      "label": "微博热搜",
-      "description": "当日微博实时热搜榜（2026-07-21，共 30 条，每 6 小时更新）",
-      "updateFrequency": "twice-daily",
+      "label": "热搜榜",
+      "description": "微博热搜榜（2026-07-21，共 30 条，约每 6 小时更新）",
+      "updateFrequency": "every-6h",
       "fetchedDate": "2026-07-21",
       "itemCount": 30
     },
@@ -166,7 +174,21 @@
       "repo": "K-Dense-AI/scientific-agent-skills",
       "latestSha": "3f825caafe149b7853ec8c4d1dd7f4553ea6b2a5",
       "itemCount": 15
+    },
+    "weiboRealtime": {
+      "label": "实时",
+      "description": "微博实时上升榜（按上榜时间排序，2026-07-21，共 30 条，约每 6 小时更新）",
+      "updateFrequency": "every-6h",
+      "fetchedDate": "2026-07-21",
+      "itemCount": 30
+    },
+    "weiboLocal": {
+      "label": "同城",
+      "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-07-21，共 11 条，约每 6 小时更新）",
+      "updateFrequency": "every-6h",
+      "fetchedDate": "2026-07-21",
+      "itemCount": 11
     }
   },
-  "generatedAt": "2026-07-21T09:50:39Z"
+  "generatedAt": "2026-07-21T12:23:25Z"
 }

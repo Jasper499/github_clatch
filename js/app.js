@@ -24,7 +24,11 @@ const DEFAULT_CATALOG = [
   {
     id: "weibo",
     label: "微博",
-    children: [{ id: "weibo", sourceKey: "weibo" }],
+    children: [
+      { id: "weibo", sourceKey: "weibo" },
+      { id: "weiboRealtime", sourceKey: "weiboRealtime" },
+      { id: "weiboLocal", sourceKey: "weiboLocal" },
+    ],
   },
   {
     id: "journals",
@@ -72,6 +76,8 @@ const PLATFORM_META = {
   githubActive: { theme: "theme-github", short: "GH", name: "GitHub" },
   hackernews: { theme: "theme-hn", short: "HN", name: "Hacker News" },
   weibo: { theme: "theme-weibo", short: "WB", name: "微博" },
+  weiboRealtime: { theme: "theme-weibo", short: "WB", name: "微博" },
+  weiboLocal: { theme: "theme-weibo", short: "WB", name: "微博" },
   mrm: { theme: "theme-journals", short: "MR", name: "MRM" },
   tmi: { theme: "theme-journals", short: "TM", name: "TMI" },
   media: { theme: "theme-journals", short: "MD", name: "MedIA" },
@@ -146,26 +152,31 @@ function applyPanelTheme() {
 function updatePlatformChrome(parentId) {
   const brand = document.getElementById("gh-chrome-brand");
   const sub = document.getElementById("gh-chrome-sub");
-  if (!brand || !sub) return;
+  if (brand && sub) {
+    if (parentId === "natureSkills") {
+      brand.textContent = "Nature Skills";
+      sub.textContent = "Agent skills · Explore";
+    } else if (parentId === "scientificSkills") {
+      brand.textContent = "Scientific Skills";
+      sub.textContent = "Agent skills · Explore";
+    } else {
+      brand.textContent = "Explore";
+      sub.textContent = "Trending repositories";
+    }
 
-  if (parentId === "natureSkills") {
-    brand.textContent = "Nature Skills";
-    sub.textContent = "Agent skills · Explore";
-  } else if (parentId === "scientificSkills") {
-    brand.textContent = "Scientific Skills";
-    sub.textContent = "Agent skills · Explore";
-  } else {
-    brand.textContent = "Explore";
-    sub.textContent = "Trending repositories";
+    document.querySelectorAll(".gh-chrome-nav a").forEach((link) => {
+      const hash = link.getAttribute("href") || "";
+      const active =
+        (parentId === "github" && hash === "#/github") ||
+        (parentId === "natureSkills" && hash === "#/natureSkills") ||
+        (parentId === "scientificSkills" && hash === "#/scientificSkills");
+      link.classList.toggle("is-active", active);
+    });
   }
 
-  document.querySelectorAll(".gh-chrome-nav a").forEach((link) => {
-    const hash = link.getAttribute("href") || "";
-    const active =
-      (parentId === "github" && hash === "#/github") ||
-      (parentId === "natureSkills" && hash === "#/natureSkills") ||
-      (parentId === "scientificSkills" && hash === "#/scientificSkills");
-    link.classList.toggle("is-active", active);
+  document.querySelectorAll(".weibo-chrome-nav a").forEach((link) => {
+    const board = link.getAttribute("data-weibo-board") || "";
+    link.classList.toggle("is-active", board === activeSourceKey);
   });
 }
 
@@ -400,7 +411,12 @@ function updateNewHints(sourceKey, items) {
 }
 
 function getLatestUpdatedAt(data, sourceKey) {
-  if (sourceKey === "weibo" && data.weiboUpdatedAt) return data.weiboUpdatedAt;
+  if (
+    (sourceKey === "weibo" || sourceKey === "weiboRealtime" || sourceKey === "weiboLocal") &&
+    data.weiboUpdatedAt
+  ) {
+    return data.weiboUpdatedAt;
+  }
   if (sourceKey === "hackernews" && data.hackernewsUpdatedAt) return data.hackernewsUpdatedAt;
   if ((sourceKey === "github" || sourceKey === "githubActive") && data.githubUpdatedAt) {
     return data.githubUpdatedAt;
@@ -628,7 +644,7 @@ function isGithubSource(sourceKey) {
 }
 
 function isWeiboSource(sourceKey = activeSourceKey) {
-  return sourceKey === "weibo";
+  return sourceKey === "weibo" || sourceKey === "weiboRealtime" || sourceKey === "weiboLocal";
 }
 
 function isHackerNewsSource(sourceKey = activeSourceKey) {

@@ -4449,8 +4449,21 @@ html[data-platform="weibo"] .platform-chrome--weibo {
   opacity: 0.92;
 }
 
-.weibo-chrome-nav span.is-active {
+.weibo-chrome-nav a {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.88;
+}
+
+.weibo-chrome-nav a:hover {
+  opacity: 1;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.weibo-chrome-nav a.is-active {
   font-weight: 700;
+  opacity: 1;
   text-decoration: underline;
   text-underline-offset: 0.2em;
 }
