@@ -2536,8 +2536,53 @@ footer a:hover {
     grid-template-columns: 1fr;
   }
 
+  /* Mobile master-detail: list first, then full detail with back */
+  .panel-split.panel-content--github-feed .item-detail,
+  .panel-split.panel-content--journals-feed .item-detail,
+  .panel-split.panel-content--skills-feed .item-detail {
+    display: none;
+  }
+
+  .panel-split.is-mobile-detail.panel-content--github-feed .list-pane,
+  .panel-split.is-mobile-detail.panel-content--journals-feed .list-pane,
+  .panel-split.is-mobile-detail.panel-content--skills-feed .list-pane {
+    display: none;
+  }
+
+  .panel-split.is-mobile-detail.panel-content--github-feed .item-detail,
+  .panel-split.is-mobile-detail.panel-content--journals-feed .item-detail,
+  .panel-split.is-mobile-detail.panel-content--skills-feed .item-detail {
+    display: block;
+  }
+
+  .mobile-detail-back {
+    display: none;
+    align-items: center;
+    gap: 0.35rem;
+    width: 100%;
+    margin: 0 0 0.65rem;
+    padding: 0.55rem 0.75rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--bg-elevated);
+    color: var(--accent);
+    font: inherit;
+    font-size: 0.88rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: left;
+  }
+
+  .panel-split.is-mobile-detail .mobile-detail-back:not([hidden]) {
+    display: inline-flex;
+  }
+
+  .mobile-detail-back:hover {
+    background: var(--surface-hover);
+  }
+
   .compact-list--primary {
-    max-height: min(48vh, 420px);
+    max-height: min(70vh, 640px);
   }
 
   .site-header {
@@ -2569,6 +2614,10 @@ footer a:hover {
 }
 
 /* ?? Low-priority: pins / health / digest / PWA affordances ?? */
+
+.mobile-detail-back {
+  display: none;
+}
 
 .badge-action {
   cursor: pointer;

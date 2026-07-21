@@ -765,6 +765,7 @@ function applyFeedLayout(mode = getFeedMode()) {
     "skills-commits": "最近提交",
   };
   list.setAttribute("aria-label", labels[mode] || "条目");
+  closeMobileDetail();
 }
 
 function renderActiveList(source, activeIndex) {
@@ -1320,6 +1321,55 @@ function selectListItem(source, index) {
   renderActiveDetail(items[activeItemIndex], activeItemIndex);
   renderActiveList(source, activeItemIndex);
   writeHashRoute();
+  openMobileDetailIfNeeded();
+}
+
+function feedHasSplitDetail(mode = getFeedMode()) {
+  return mode === "github" || mode === "journals" || mode === "skills";
+}
+
+function isMobileViewport() {
+  return window.matchMedia("(max-width: 860px)").matches;
+}
+
+function openMobileDetailIfNeeded() {
+  const panel = document.getElementById("panel-content");
+  const back = document.getElementById("mobile-detail-back");
+  if (!panel || !feedHasSplitDetail()) {
+    closeMobileDetail();
+    return;
+  }
+  if (!isMobileViewport()) {
+    panel.classList.remove("is-mobile-detail");
+    if (back) back.hidden = true;
+    return;
+  }
+  panel.classList.add("is-mobile-detail");
+  if (back) back.hidden = false;
+  document.getElementById("item-detail")?.scrollIntoView({ block: "start" });
+}
+
+function closeMobileDetail() {
+  const panel = document.getElementById("panel-content");
+  const back = document.getElementById("mobile-detail-back");
+  panel?.classList.remove("is-mobile-detail");
+  if (back) back.hidden = true;
+}
+
+function bindMobileDetailNav() {
+  const back = document.getElementById("mobile-detail-back");
+  if (back && back.dataset.bound !== "1") {
+    back.dataset.bound = "1";
+    back.addEventListener("click", () => {
+      closeMobileDetail();
+      document.getElementById("compact-list")?.scrollIntoView({ block: "nearest" });
+    });
+  }
+  if (window.__hjlMobileDetailBound) return;
+  window.__hjlMobileDetailBound = true;
+  window.addEventListener("resize", () => {
+    if (!isMobileViewport()) closeMobileDetail();
+  });
 }
 
 function renderWeiboDetail(item, index) {
@@ -2023,6 +2073,9 @@ async function syncPanel(data, { preserveItemIndex = true } = {}) {
   renderActiveList(source, activeItemIndex);
   writeHashRoute();
   triggerPanelFade();
+  if (preserveItemIndex && items.length) {
+    openMobileDetailIfNeeded();
+  }
 }
 
 function bindSearch(data) {
@@ -2279,6 +2332,12 @@ function bindKeyboard() {
       return;
     }
     if (event.key === "Escape") {
+      const panel = document.getElementById("panel-content");
+      if (panel?.classList.contains("is-mobile-detail") && !typing) {
+        event.preventDefault();
+        closeMobileDetail();
+        return;
+      }
       const main = document.getElementById("search-input");
       const gh = document.getElementById("gh-chrome-search");
       const active = document.activeElement;
@@ -2351,6 +2410,7 @@ async function loadContent() {
     bindPinButton(appData);
     bindDigest(appData);
     bindForceRefresh();
+    bindMobileDetailNav();
     bindKeyboard();
     updatePinButton();
     registerServiceWorker();
