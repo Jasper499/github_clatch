@@ -2,7 +2,7 @@ name: Daily Nature Skills Update
 
 on:
   schedule:
-    # 每天 UTC 02:20�?4:20（北京时�?10:20�?2:20�?
+    # UTC 02:20 and 14:20 (Beijing 10:20 and 22:20)
     - cron: "20 2,14 * * *"
   workflow_dispatch:
 
@@ -59,15 +59,15 @@ jobs:
               raise SystemExit(0)
           latest = notify.get("latestCommit") or {}
           lines = [
-              f"## Nature Skills 有更�?,
+              "## Nature Skills has updates",
               "",
-              f"- 仓库：[{notify.get('repo')}]({notify.get('repoUrl')})",
-              f"- Stars：{notify.get('stars')}",
-              f"- Skills 数量：{notify.get('skillCount')}",
-              f"- 最新提交：[`{latest.get('sha')}`]({latest.get('url')}) {latest.get('title')}",
-              f"- 网站入口：{notify.get('siteUrl')}",
+              f"- Repo: [{notify.get('repo')}]({notify.get('repoUrl')})",
+              f"- Stars: {notify.get('stars')}",
+              f"- Skills: {notify.get('skillCount')}",
+              f"- Latest commit: [`{latest.get('sha')}`]({latest.get('url')}) {latest.get('title')}",
+              f"- Site: {notify.get('siteUrl')}",
               "",
-              "### 最近提�?,
+              "### Recent commits",
               "",
           ]
           for c in notify.get("recentCommits") or []:
@@ -75,12 +75,12 @@ jobs:
           lines.extend([
               "",
               "---",
-              "_�?Issue �?GitHub Actions 在检测到 `Yuan1z0825/nature-skills` 更新后自动创建。_",
+              "_This issue is auto-created by GitHub Actions when `Yuan1z0825/nature-skills` updates._",
           ])
           Path("/tmp/nature-skills-notify.md").write_text("\n".join(lines), encoding="utf-8")
           print("Notification body prepared.")
           PY
-          TITLE="Nature Skills 更新通知 $(date -u +%Y-%m-%d)"
+          TITLE="Nature Skills update $(date -u +%Y-%m-%d)"
           gh issue create \
             --title "$TITLE" \
             --body-file /tmp/nature-skills-notify.md \

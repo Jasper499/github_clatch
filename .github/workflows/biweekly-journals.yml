@@ -2,7 +2,7 @@ name: Biweekly MRI Journal Update
 
 on:
   schedule:
-    # æ¯æœˆ 1 æ—¥ã€?5 æ—?UTC 02:00ï¼ˆåŒ—äº¬æ—¶é—?10:00ï¼?
+    # Day 1 and 15 UTC 02:00 (Beijing 10:00)
     - cron: "0 2 1,15 * *"
   workflow_dispatch:
 
