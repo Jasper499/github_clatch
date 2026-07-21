@@ -822,6 +822,38 @@ body::after {
   font-family: var(--font-mono);
 }
 
+.motto-bar {
+  margin: 0 0 0.85rem;
+  padding: 0.7rem 0.75rem 0.75rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--accent) 10%, transparent), transparent 55%),
+    var(--surface-hover);
+}
+
+.motto-text {
+  margin: 0;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  color: var(--text);
+  font-weight: 560;
+}
+
+.motto-by {
+  margin: 0.4rem 0 0;
+  font-size: 0.72rem;
+  color: var(--muted);
+  text-align: right;
+  letter-spacing: 0.02em;
+}
+
+.tree-children--root {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
 .catalog-tree {
   display: flex;
   flex-direction: column;

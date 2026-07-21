@@ -1083,11 +1083,6 @@ function getParentNode(catalog, parentId) {
 }
 
 function renderMeta(data) {
-  const weekEl = document.getElementById("week-label");
-  if (weekEl) {
-    weekEl.textContent = data.weekLabel || `近 ${data.periodDays || 7} 天`;
-  }
-
   META_SYNC_PLATFORMS.forEach((platform) => {
     const el = document.getElementById(`meta-${platform.id}-at`);
     if (!el) return;
@@ -1108,6 +1103,40 @@ function renderMeta(data) {
   renderHealth(data);
 }
 
+const MOTTO_QUOTES = [
+  { text: "行远自迩，登高自卑。", by: "《礼记》" },
+  { text: "不积跬步，无以至千里。", by: "荀子" },
+  { text: "路漫漫其修远兮，吾将上下而求索。", by: "屈原" },
+  { text: "博观而约取，厚积而薄发。", by: "苏轼" },
+  { text: "业精于勤，荒于嬉。", by: "韩愈" },
+  { text: "知之愈明，则行之愈笃。", by: "朱熹" },
+  { text: "Stay hungry. Stay foolish.", by: "Steve Jobs" },
+  { text: "The only way to do great work is to love what you do.", by: "Steve Jobs" },
+  { text: "Done is better than perfect.", by: "Sheryl Sandberg" },
+  { text: "Make it work, make it right, make it fast.", by: "Kent Beck" },
+  { text: "简单的事情重复做，你就是专家。", by: "俗语" },
+  { text: "今天最好的表现，是明天最低的要求。", by: "佚名" },
+];
+
+function pickMottoQuote() {
+  const dayKey = new Date().toISOString().slice(0, 10);
+  let hash = 0;
+  for (let i = 0; i < dayKey.length; i += 1) {
+    hash = (hash * 31 + dayKey.charCodeAt(i)) >>> 0;
+  }
+  return MOTTO_QUOTES[hash % MOTTO_QUOTES.length];
+}
+
+function renderMottoBar() {
+  const quote = pickMottoQuote();
+  return `
+    <aside class="motto-bar" aria-label="今日寄语">
+      <p class="motto-text">“${escapeHtml(quote.text)}”</p>
+      <p class="motto-by">— ${escapeHtml(quote.by)}</p>
+    </aside>
+  `;
+}
+
 function findSourceMeta(data, sourceKey) {
   for (const parent of getCatalog(data)) {
     const child = parent.children?.find((c) => c.sourceKey === sourceKey);
@@ -1125,7 +1154,6 @@ function findSourceMeta(data, sourceKey) {
 
 function renderTree(data) {
   const catalog = getCatalog(data);
-  const weekLabel = data.weekLabel || "本周精选";
   const tree = document.getElementById("catalog-tree");
 
   const pinnedBlock =
@@ -1153,55 +1181,50 @@ function renderTree(data) {
     </div>`
       : "";
 
-  const weekNode = `
+  const catalogHtml = `
     ${pinnedBlock}
-    <details class="tree-node tree-root" open>
-      <summary class="tree-label tree-label-root">
-        ${icon("calendar", "icon icon-tree")}
-        <span>${escapeHtml(weekLabel)}</span>
-      </summary>
-      <div class="tree-children">
-        ${catalog
-          .map(
-            (parent) => `
-          <details class="tree-node ${getParentTheme(parent.id)}" ${parent.id === activeParentId ? "open" : ""} data-parent-id="${parent.id}">
-            <summary class="tree-label">
-              ${parentIcon(parent.id)}
-              <span>${escapeHtml(parent.label)}</span>
-            </summary>
-            <ul class="tree-leaves">
-              ${parent.children
-                .map((child) => {
-                  const source = getSource(data, child.sourceKey);
-                  const count = sourceItemCount(source);
-                  const active =
-                    activeParentId === parent.id && activeSourceKey === child.sourceKey;
-                  const pinned = isPinned(child.sourceKey) ? " ·钉" : "";
-                  return `
-                    <li>
-                      <button
-                        type="button"
-                        class="tree-leaf${active ? " active" : ""}"
-                        data-parent-id="${parent.id}"
-                        data-source-key="${child.sourceKey}"
-                      >
-                        <span class="leaf-name">${escapeHtml(source?.label || child.id)}${pinned}</span>
-                        <span class="leaf-count">${count}</span>
-                      </button>
-                    </li>
-                  `;
-                })
-                .join("")}
-            </ul>
-          </details>
-        `
-          )
-          .join("")}
-      </div>
-    </details>
+    ${renderMottoBar()}
+    <div class="tree-children tree-children--root">
+      ${catalog
+        .map(
+          (parent) => `
+        <details class="tree-node ${getParentTheme(parent.id)}" ${parent.id === activeParentId ? "open" : ""} data-parent-id="${parent.id}">
+          <summary class="tree-label">
+            ${parentIcon(parent.id)}
+            <span>${escapeHtml(parent.label)}</span>
+          </summary>
+          <ul class="tree-leaves">
+            ${parent.children
+              .map((child) => {
+                const source = getSource(data, child.sourceKey);
+                const count = sourceItemCount(source);
+                const active =
+                  activeParentId === parent.id && activeSourceKey === child.sourceKey;
+                const pinned = isPinned(child.sourceKey) ? " ·钉" : "";
+                return `
+                  <li>
+                    <button
+                      type="button"
+                      class="tree-leaf${active ? " active" : ""}"
+                      data-parent-id="${parent.id}"
+                      data-source-key="${child.sourceKey}"
+                    >
+                      <span class="leaf-name">${escapeHtml(source?.label || child.id)}${pinned}</span>
+                      <span class="leaf-count">${count}</span>
+                    </button>
+                  </li>
+                `;
+              })
+              .join("")}
+          </ul>
+        </details>
+      `
+        )
+        .join("")}
+    </div>
   `;
 
-  tree.innerHTML = weekNode;
+  tree.innerHTML = catalogHtml;
 
   tree.querySelectorAll(".tree-leaf").forEach((btn) => {
     btn.addEventListener("click", () => {
@@ -1221,7 +1244,6 @@ function renderTree(data) {
 function renderBreadcrumb(data, source) {
   const catalog = getCatalog(data);
   const parent = getParentNode(catalog, activeParentId);
-  const weekLabel = data.weekLabel || "本周精选";
   const dateKey = selectedDates[activeSourceKey] || "latest";
   const historyCrumb =
     dateKey !== "latest"
@@ -1229,8 +1251,6 @@ function renderBreadcrumb(data, source) {
       : "";
 
   document.getElementById("breadcrumb").innerHTML = `
-    <span class="crumb crumb-pill">${escapeHtml(weekLabel)}</span>
-    <span class="crumb-sep">/</span>
     <span class="crumb crumb-pill">${escapeHtml(parent?.label || "")}</span>
     <span class="crumb-sep">/</span>
     <span class="crumb crumb-pill crumb-current">${escapeHtml(source?.label || "")}</span>
