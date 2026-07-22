@@ -1,44 +1,44 @@
 {
   "changed": true,
-  "fetchedAt": "2026-07-22T05:31:07Z",
-  "previousSha": "d12e63cf98c630cd752996814bb8ea637613035c",
-  "latestSha": "e89df5bd9c7888f652b06b4a4978d782ff14236d",
+  "fetchedAt": "2026-07-22T15:54:31Z",
+  "previousSha": "e89df5bd9c7888f652b06b4a4978d782ff14236d",
+  "latestSha": "91862221b39f7ca16d52ae0e1e9cb6c2bb31a96b",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
     "title": "Update README.md",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/e89df5bd9c7888f652b06b4a4978d782ff14236d",
-    "sha": "e89df5b",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/91862221b39f7ca16d52ae0e1e9cb6c2bb31a96b",
+    "sha": "9186222",
     "published": "2026-07-22"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
     {
       "title": "Update README.md",
-      "sha": "e89df5b",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/e89df5bd9c7888f652b06b4a4978d782ff14236d"
+      "sha": "9186222",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/91862221b39f7ca16d52ae0e1e9cb6c2bb31a96b"
     },
     {
-      "title": "Merge pull request #175 from MuseLinn/skill/ref-verifier-hardening",
-      "sha": "d12e63c",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/d12e63cf98c630cd752996814bb8ea637613035c"
+      "title": "Update README.md",
+      "sha": "e348007",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/e3480071ef24d73afa3d4a9644e1e2854b250282"
     },
     {
-      "title": "skill(nature-ref-verifier): harden from 35-ref field audit, promote t…",
-      "sha": "a3d990f",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/a3d990fe73a469c323a82c5605d7329f80f061c6"
+      "title": "Rename nature-ai-wechat.jpg to 微信图片_20260722195146_331_1.jpg",
+      "sha": "733c8ed",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/733c8ed843d77970ea2bb5dbf462d6cce15b4fa0"
     },
     {
-      "title": "Merge pull request #171 from zpf2234/ci/run-skill-index-on-skill-changes",
-      "sha": "05305ab",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/05305ab1a636e7794849181cb97f397b49ed498b"
+      "title": "fix: prevent stale star history cache",
+      "sha": "f038640",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/f038640e708cd3cc8e39af2b6a7083ed6b64d927"
     },
     {
-      "title": "Merge pull request #170 from zpf2234/docs/nature-downloader-readme-ha…",
-      "sha": "e5a54db",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/e5a54db177be7072cbea19eea5dec046143b1563"
+      "title": "chore: update star history",
+      "sha": "384dc66",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/384dc66e13fc8ac7ae3e84e291793326bf6bb3a1"
     }
   ]
 }

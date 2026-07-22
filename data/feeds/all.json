@@ -6,52 +6,100 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "hackernews:https://news.ycombinator.com/item?id=48968606",
-      "url": "https://news.ycombinator.com/item?id=48968606",
-      "title": "[Hacker News 热门] Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s",
-      "date_published": "2026-07-22T15:44:35Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills",
+      "url": "https://github.com/Yuan1z0825/nature-skills",
+      "title": "[Skills 清单] Yuan1z0825/nature-skills · 仓库总览",
+      "date_published": "2026-07-22T15:54:31Z"
     },
     {
-      "id": "hackernews:https://www.kimi.com/blog/kimi-k3",
-      "url": "https://www.kimi.com/blog/kimi-k3",
-      "title": "[Hacker News 热门] Kimi K3: Open Frontier Intelligence",
-      "date_published": "2026-07-22T15:44:35Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-academic-search",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-academic-search",
+      "title": "[Skills 清单] nature-academic-search",
+      "date_published": "2026-07-22T15:54:31Z"
     },
     {
-      "id": "hackernews:https://openai.com/index/hugging-face-model-evaluation-security-incident/",
-      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
-      "title": "[Hacker News 热门] OpenAI and Hugging Face address security incident during model evaluation",
-      "date_published": "2026-07-22T15:44:35Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-citation",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-citation",
+      "title": "[Skills 清单] nature-citation",
+      "date_published": "2026-07-22T15:54:31Z"
     },
     {
-      "id": "hackernews:https://news.ycombinator.com/item?id=48945241",
-      "url": "https://news.ycombinator.com/item?id=48945241",
-      "title": "[Hacker News 热门] AWS: Inaccurate Estimated Billing Data – $1.7 billion",
-      "date_published": "2026-07-22T15:44:35Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-data",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-data",
+      "title": "[Skills 清单] nature-data",
+      "date_published": "2026-07-22T15:54:31Z"
     },
     {
-      "id": "hackernews:https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
-      "url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
-      "title": "[Hacker News 热门] China’s open-weights AI strategy is winning",
-      "date_published": "2026-07-22T15:44:35Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-downloader",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-downloader",
+      "title": "[Skills 清单] nature-downloader",
+      "date_published": "2026-07-22T15:54:31Z"
     },
     {
-      "id": "hackernews:https://thinkingmachines.ai/news/introducing-inkling/",
-      "url": "https://thinkingmachines.ai/news/introducing-inkling/",
-      "title": "[Hacker News 热门] Inkling: Our Open-Weights Model",
-      "date_published": "2026-07-22T15:44:35Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-experiment-log",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-experiment-log",
+      "title": "[Skills 清单] nature-experiment-log",
+      "date_published": "2026-07-22T15:54:31Z"
     },
     {
-      "id": "hackernews:https://videocardz.com/newz/lg-monitors-silently-install-software-through-windows-update-without-user-consent",
-      "url": "https://videocardz.com/newz/lg-monitors-silently-install-software-through-windows-update-without-user-consent",
-      "title": "[Hacker News 热门] LG monitors silently install software through Windows Update without consent",
-      "date_published": "2026-07-22T15:44:35Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-figure",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-figure",
+      "title": "[Skills 清单] nature-figure",
+      "date_published": "2026-07-22T15:54:31Z"
     },
     {
-      "id": "hackernews:https://ads.openai.com/",
-      "url": "https://ads.openai.com/",
-      "title": "[Hacker News 热门] Advertise in ChatGPT",
-      "date_published": "2026-07-22T15:44:35Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-literature-pipeline",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-literature-pipeline",
+      "title": "[Skills 清单] nature-literature-pipeline",
+      "date_published": "2026-07-22T15:54:31Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/91862221b39f7ca16d52ae0e1e9cb6c2bb31a96b",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/91862221b39f7ca16d52ae0e1e9cb6c2bb31a96b",
+      "title": "[最近提交] Update README.md",
+      "date_published": "2026-07-22T15:54:31Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/e3480071ef24d73afa3d4a9644e1e2854b250282",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/e3480071ef24d73afa3d4a9644e1e2854b250282",
+      "title": "[最近提交] Update README.md",
+      "date_published": "2026-07-22T15:54:31Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/733c8ed843d77970ea2bb5dbf462d6cce15b4fa0",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/733c8ed843d77970ea2bb5dbf462d6cce15b4fa0",
+      "title": "[最近提交] Rename nature-ai-wechat.jpg to 微信图片_20260722195146_331_1.jpg",
+      "date_published": "2026-07-22T15:54:31Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/f038640e708cd3cc8e39af2b6a7083ed6b64d927",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/f038640e708cd3cc8e39af2b6a7083ed6b64d927",
+      "title": "[最近提交] fix: prevent stale star history cache",
+      "date_published": "2026-07-22T15:54:31Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/384dc66e13fc8ac7ae3e84e291793326bf6bb3a1",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/384dc66e13fc8ac7ae3e84e291793326bf6bb3a1",
+      "title": "[最近提交] chore: update star history",
+      "date_published": "2026-07-22T15:54:31Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/e89df5bd9c7888f652b06b4a4978d782ff14236d",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/e89df5bd9c7888f652b06b4a4978d782ff14236d",
+      "title": "[最近提交] Update README.md",
+      "date_published": "2026-07-22T15:54:31Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/d12e63cf98c630cd752996814bb8ea637613035c",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/d12e63cf98c630cd752996814bb8ea637613035c",
+      "title": "[最近提交] Merge pull request #175 from MuseLinn/skill/ref-verifier-hardening",
+      "date_published": "2026-07-22T15:54:31Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/a3d990fe73a469c323a82c5605d7329f80f061c6",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/a3d990fe73a469c323a82c5605d7329f80f061c6",
+      "title": "[最近提交] skill(nature-ref-verifier): harden from 35-ref field audit, promote t…",
+      "date_published": "2026-07-22T15:54:31Z"
     }
   ]
 }
