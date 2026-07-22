@@ -1,20 +1,25 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-07-21T15:57:10Z",
+  "changed": true,
+  "fetchedAt": "2026-07-22T05:31:07Z",
   "previousSha": "d12e63cf98c630cd752996814bb8ea637613035c",
-  "latestSha": "d12e63cf98c630cd752996814bb8ea637613035c",
+  "latestSha": "e89df5bd9c7888f652b06b4a4978d782ff14236d",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "Merge pull request #175 from MuseLinn/skill/ref-verifier-hardening",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/d12e63cf98c630cd752996814bb8ea637613035c",
-    "sha": "d12e63c",
-    "published": "2026-07-21"
+    "title": "Update README.md",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/e89df5bd9c7888f652b06b4a4978d782ff14236d",
+    "sha": "e89df5b",
+    "published": "2026-07-22"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "Update README.md",
+      "sha": "e89df5b",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/e89df5bd9c7888f652b06b4a4978d782ff14236d"
+    },
     {
       "title": "Merge pull request #175 from MuseLinn/skill/ref-verifier-hardening",
       "sha": "d12e63c",
@@ -34,11 +39,6 @@
       "title": "Merge pull request #170 from zpf2234/docs/nature-downloader-readme-ha…",
       "sha": "e5a54db",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/e5a54db177be7072cbea19eea5dec046143b1563"
-    },
-    {
-      "title": "Merge pull request #169 from zpf2234/ci/scope-repository-validation",
-      "sha": "5fe97a0",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/5fe97a048606f52401e904501406a00c833e461a"
     }
   ]
 }

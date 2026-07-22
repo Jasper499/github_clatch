@@ -6,52 +6,100 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "hackernews:https://news.ycombinator.com/item?id=48968606",
-      "url": "https://news.ycombinator.com/item?id=48968606",
-      "title": "[Hacker News 热门] Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s",
-      "date_published": "2026-07-22T05:23:18Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills",
+      "url": "https://github.com/Yuan1z0825/nature-skills",
+      "title": "[Skills 清单] Yuan1z0825/nature-skills · 仓库总览",
+      "date_published": "2026-07-22T05:31:07Z"
     },
     {
-      "id": "hackernews:https://www.kimi.com/blog/kimi-k3",
-      "url": "https://www.kimi.com/blog/kimi-k3",
-      "title": "[Hacker News 热门] Kimi K3: Open Frontier Intelligence",
-      "date_published": "2026-07-22T05:23:18Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-academic-search",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-academic-search",
+      "title": "[Skills 清单] nature-academic-search",
+      "date_published": "2026-07-22T05:31:07Z"
     },
     {
-      "id": "hackernews:https://news.ycombinator.com/item?id=48945241",
-      "url": "https://news.ycombinator.com/item?id=48945241",
-      "title": "[Hacker News 热门] AWS: Inaccurate Estimated Billing Data – $1.7 billion",
-      "date_published": "2026-07-22T05:23:18Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-citation",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-citation",
+      "title": "[Skills 清单] nature-citation",
+      "date_published": "2026-07-22T05:31:07Z"
     },
     {
-      "id": "hackernews:https://thinkingmachines.ai/news/introducing-inkling/",
-      "url": "https://thinkingmachines.ai/news/introducing-inkling/",
-      "title": "[Hacker News 热门] Inkling: Our Open-Weights Model",
-      "date_published": "2026-07-22T05:23:18Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-data",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-data",
+      "title": "[Skills 清单] nature-data",
+      "date_published": "2026-07-22T05:31:07Z"
     },
     {
-      "id": "hackernews:https://videocardz.com/newz/lg-monitors-silently-install-software-through-windows-update-without-user-consent",
-      "url": "https://videocardz.com/newz/lg-monitors-silently-install-software-through-windows-update-without-user-consent",
-      "title": "[Hacker News 热门] LG monitors silently install software through Windows Update without consent",
-      "date_published": "2026-07-22T05:23:18Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-downloader",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-downloader",
+      "title": "[Skills 清单] nature-downloader",
+      "date_published": "2026-07-22T05:31:07Z"
     },
     {
-      "id": "hackernews:https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
-      "url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
-      "title": "[Hacker News 热门] China’s open-weights AI strategy is winning",
-      "date_published": "2026-07-22T05:23:18Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-experiment-log",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-experiment-log",
+      "title": "[Skills 清单] nature-experiment-log",
+      "date_published": "2026-07-22T05:31:07Z"
     },
     {
-      "id": "hackernews:https://twitter.com/Alibaba_Qwen/status/2078759124914098291",
-      "url": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291",
-      "title": "[Hacker News 热门] Qwen 3.8",
-      "date_published": "2026-07-22T05:23:18Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-figure",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-figure",
+      "title": "[Skills 清单] nature-figure",
+      "date_published": "2026-07-22T05:31:07Z"
     },
     {
-      "id": "hackernews:https://stratechery.com/2026/whos-afraid-of-chinese-models/",
-      "url": "https://stratechery.com/2026/whos-afraid-of-chinese-models/",
-      "title": "[Hacker News 热门] Who's afraid of Chinese models?",
-      "date_published": "2026-07-22T05:23:18Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-literature-pipeline",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-literature-pipeline",
+      "title": "[Skills 清单] nature-literature-pipeline",
+      "date_published": "2026-07-22T05:31:07Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/e89df5bd9c7888f652b06b4a4978d782ff14236d",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/e89df5bd9c7888f652b06b4a4978d782ff14236d",
+      "title": "[最近提交] Update README.md",
+      "date_published": "2026-07-22T05:31:07Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/d12e63cf98c630cd752996814bb8ea637613035c",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/d12e63cf98c630cd752996814bb8ea637613035c",
+      "title": "[最近提交] Merge pull request #175 from MuseLinn/skill/ref-verifier-hardening",
+      "date_published": "2026-07-22T05:31:07Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/a3d990fe73a469c323a82c5605d7329f80f061c6",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/a3d990fe73a469c323a82c5605d7329f80f061c6",
+      "title": "[最近提交] skill(nature-ref-verifier): harden from 35-ref field audit, promote t…",
+      "date_published": "2026-07-22T05:31:07Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/05305ab1a636e7794849181cb97f397b49ed498b",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/05305ab1a636e7794849181cb97f397b49ed498b",
+      "title": "[最近提交] Merge pull request #171 from zpf2234/ci/run-skill-index-on-skill-changes",
+      "date_published": "2026-07-22T05:31:07Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/e5a54db177be7072cbea19eea5dec046143b1563",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/e5a54db177be7072cbea19eea5dec046143b1563",
+      "title": "[最近提交] Merge pull request #170 from zpf2234/docs/nature-downloader-readme-ha…",
+      "date_published": "2026-07-22T05:31:07Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/5fe97a048606f52401e904501406a00c833e461a",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/5fe97a048606f52401e904501406a00c833e461a",
+      "title": "[最近提交] Merge pull request #169 from zpf2234/ci/scope-repository-validation",
+      "date_published": "2026-07-22T05:31:07Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/1f527786d64670ef85bc850f5394787fbd94e678",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/1f527786d64670ef85bc850f5394787fbd94e678",
+      "title": "[最近提交] Merge pull request #168 from zpf2234/fix/validate-manifest-route-paths",
+      "date_published": "2026-07-22T05:31:07Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/c739ff07f1188f88a0ee4914f92e705cee7a521a",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c739ff07f1188f88a0ee4914f92e705cee7a521a",
+      "title": "[最近提交] Merge pull request #167 from zpf2234/ci/validate-workflow-path-filters",
+      "date_published": "2026-07-22T05:31:07Z"
     }
   ]
 }

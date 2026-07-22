@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-07-21T15:57:10Z",
+  "savedAt": "2026-07-22T05:31:07Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "d12e63cf98c630cd752996814bb8ea637613035c",
+  "latestSha": "e89df5bd9c7888f652b06b4a4978d782ff14236d",
   "items": [
+    {
+      "title": "Update README.md",
+      "description": "Update README.md",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/e89df5bd9c7888f652b06b4a4978d782ff14236d",
+      "sha": "e89df5b",
+      "fullSha": "e89df5bd9c7888f652b06b4a4978d782ff14236d",
+      "owner": "Flyme886",
+      "published": "2026-07-22",
+      "label": "commit"
+    },
     {
       "title": "Merge pull request #175 from MuseLinn/skill/ref-verifier-hardening",
       "description": "Merge pull request #175 from MuseLinn/skill/ref-verifier-hardening\n\nskill(nature-ref-verifier): harden from 35-ref field audit, promote to Stable",
@@ -143,16 +153,6 @@
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/9764c8e786b4a615594a0e47422ed84be98582fa",
       "sha": "9764c8e",
       "fullSha": "9764c8e786b4a615594a0e47422ed84be98582fa",
-      "owner": "zpf2234",
-      "published": "2026-07-19",
-      "label": "commit"
-    },
-    {
-      "title": "fix: validate manifest route paths",
-      "description": "fix: validate manifest route paths",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/590e699d89805e7dc0a350629a5914859029e076",
-      "sha": "590e699",
-      "fullSha": "590e699d89805e7dc0a350629a5914859029e076",
       "owner": "zpf2234",
       "published": "2026-07-19",
       "label": "commit"
