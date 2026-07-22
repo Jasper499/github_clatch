@@ -1083,6 +1083,7 @@ function getParentNode(catalog, parentId) {
 }
 
 function renderMeta(data) {
+  renderHeaderMotto();
   META_SYNC_PLATFORMS.forEach((platform) => {
     const el = document.getElementById(`meta-${platform.id}-at`);
     if (!el) return;
@@ -1103,6 +1104,24 @@ function renderMeta(data) {
   renderHealth(data);
 }
 
+const WORKPLACE_QUOTES = [
+  { text: "先把事做成，再把理讲清。", by: "职场生存" },
+  { text: "汇报讲结论，沟通留证据，承诺控范围。", by: "职场生存" },
+  { text: "少争对错，多争结果；少表态度，多给方案。", by: "职场生存" },
+  { text: "能书面确认的，就不要只靠口头。", by: "职场生存" },
+  { text: "向上对齐目标，横向对齐接口，向下对齐标准。", by: "职场生存" },
+  { text: "情绪可以有，但别让情绪上线。", by: "职场生存" },
+  { text: "做得好看不如交付得稳。", by: "职场生存" },
+  { text: "把问题拆成可执行的下一步。", by: "职场生存" },
+  { text: "边界清晰，才是长期协作的前提。", by: "职场生存" },
+  { text: "会提问的人，比会抱怨的人走得更远。", by: "职场生存" },
+  { text: "今天能闭环的，就不要拖到明天。", by: "职场生存" },
+  { text: "保护精力，比证明自己更重要。", by: "职场生存" },
+  { text: "先同步风险，再承诺时间。", by: "职场生存" },
+  { text: "记录过程，是给未来的自己买保险。", by: "职场生存" },
+  { text: "把功劳分出去，把责任扛起来。", by: "职场生存" },
+];
+
 const MOTTO_QUOTES = [
   { text: "行远自迩，登高自卑。", by: "《礼记》" },
   { text: "不积跬步，无以至千里。", by: "荀子" },
@@ -1110,25 +1129,34 @@ const MOTTO_QUOTES = [
   { text: "博观而约取，厚积而薄发。", by: "苏轼" },
   { text: "业精于勤，荒于嬉。", by: "韩愈" },
   { text: "知之愈明，则行之愈笃。", by: "朱熹" },
-  { text: "Stay hungry. Stay foolish.", by: "Steve Jobs" },
-  { text: "The only way to do great work is to love what you do.", by: "Steve Jobs" },
-  { text: "Done is better than perfect.", by: "Sheryl Sandberg" },
-  { text: "Make it work, make it right, make it fast.", by: "Kent Beck" },
   { text: "简单的事情重复做，你就是专家。", by: "俗语" },
   { text: "今天最好的表现，是明天最低的要求。", by: "佚名" },
 ];
 
-function pickMottoQuote() {
-  const dayKey = new Date().toISOString().slice(0, 10);
+function dayHash(seed = "") {
+  const dayKey = `${new Date().toISOString().slice(0, 10)}:${seed}`;
   let hash = 0;
   for (let i = 0; i < dayKey.length; i += 1) {
     hash = (hash * 31 + dayKey.charCodeAt(i)) >>> 0;
   }
-  return MOTTO_QUOTES[hash % MOTTO_QUOTES.length];
+  return hash;
+}
+
+function pickQuote(list, seed = "") {
+  if (!list.length) return { text: "", by: "" };
+  return list[dayHash(seed) % list.length];
+}
+
+function renderHeaderMotto() {
+  const quote = pickQuote(WORKPLACE_QUOTES, "header");
+  const textEl = document.getElementById("header-motto-text");
+  const byEl = document.getElementById("header-motto-by");
+  if (textEl) textEl.textContent = `“${quote.text}”`;
+  if (byEl) byEl.textContent = `— ${quote.by}`;
 }
 
 function renderMottoBar() {
-  const quote = pickMottoQuote();
+  const quote = pickQuote(MOTTO_QUOTES, "sidebar");
   return `
     <aside class="motto-bar" aria-label="今日寄语">
       <p class="motto-text">“${escapeHtml(quote.text)}”</p>
@@ -2599,4 +2627,5 @@ window.addEventListener("hashchange", () => {
 });
 
 initThemeToggle();
+renderHeaderMotto();
 loadContent();

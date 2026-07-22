@@ -343,10 +343,16 @@ html[data-theme="light"][data-platform="journals"] {
   opacity: 0.35;
 }
 
-[data-theme="light"] .site-header h1 {
+[data-theme="light"] .site-header h1:not(.header-motto-text) {
   background: linear-gradient(135deg, #1a2332 0%, #4a5c74 100%);
   -webkit-background-clip: text;
   background-clip: text;
+}
+
+[data-theme="light"] .site-header .header-motto-text {
+  background: none;
+  color: var(--text);
+  -webkit-text-fill-color: var(--text);
 }
 
 * {
@@ -469,8 +475,8 @@ body::after {
 
 .site-header {
   text-align: center;
-  margin-bottom: 1.5rem;
-  padding: 1.55rem 1.25rem 1.25rem;
+  margin-bottom: 1.1rem;
+  padding: 1.05rem 1rem 0.9rem;
   border: 1px solid var(--glass-border);
   border-radius: calc(var(--radius) + 6px);
   background: var(--glass-bg);
@@ -479,6 +485,32 @@ body::after {
   box-shadow: var(--shadow-soft), inset 0 1px 0 rgba(255, 255, 255, 0.06);
   position: relative;
   overflow: hidden;
+}
+
+.site-header--motto .header-motto-kicker {
+  margin: 0 0 0.4rem;
+  font-size: 0.66rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-family: var(--font-mono);
+}
+
+.site-header--motto .header-motto-text {
+  margin: 0 auto 0.3rem;
+  max-width: 42rem;
+  font-size: clamp(1.05rem, 2.6vw, 1.4rem);
+  line-height: 1.45;
+  font-weight: 650;
+  color: var(--text);
+  background: none;
+  -webkit-text-fill-color: unset;
+}
+
+.site-header--motto .header-motto-by {
+  margin: 0 auto 0.65rem;
+  color: var(--muted);
+  font-size: 0.7rem;
 }
 
 .site-header--compact .site-logo {
@@ -494,15 +526,15 @@ body::after {
 }
 
 .site-tagline,
-.site-header p {
+.site-header p:not(.header-motto-text):not(.header-motto-by):not(.header-motto-kicker) {
   color: var(--muted);
   max-width: 620px;
-  margin: 0 auto 0.85rem;
-  font-size: 0.92rem;
+  margin: 0 auto 0.7rem;
+  font-size: 0.78rem;
 }
 
 .sync-status-details {
-  margin: 0.85rem auto 0;
+  margin: 0.6rem auto 0;
   max-width: 960px;
   text-align: left;
   border: 1px solid var(--border);
@@ -513,8 +545,8 @@ body::after {
 .sync-status-details > summary {
   cursor: pointer;
   list-style: none;
-  padding: 0.55rem 0.85rem;
-  font-size: 0.84rem;
+  padding: 0.4rem 0.7rem;
+  font-size: 0.7rem;
   color: var(--muted);
   font-family: var(--font-mono);
   user-select: none;
@@ -602,10 +634,10 @@ body::after {
 .meta-bar {
   display: inline-flex;
   flex-wrap: wrap;
-  gap: 0.55rem;
+  gap: 0.35rem;
   justify-content: center;
   align-items: center;
-  padding: 0.45rem 0.55rem;
+  padding: 0.28rem 0.4rem;
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid var(--border);
@@ -615,10 +647,10 @@ body::after {
 .badge {
   display: inline-flex;
   align-items: center;
-  gap: 0.35rem;
-  padding: 0.38rem 0.8rem;
+  gap: 0.28rem;
+  padding: 0.22rem 0.55rem;
   border-radius: 999px;
-  font-size: 0.82rem;
+  font-size: 0.68rem;
   background: rgba(255, 255, 255, 0.04);
   border: 1px solid var(--border);
   color: var(--muted);
@@ -708,19 +740,19 @@ body::after {
 }
 
 .meta-sync-label {
-  font-size: 0.78rem;
+  font-size: 0.7rem;
   font-weight: 600;
   color: var(--text);
 }
 
 .meta-sync-schedule {
-  font-size: 0.68rem;
+  font-size: 0.62rem;
   color: var(--muted);
   font-family: var(--font-mono);
 }
 
 .meta-sync-time {
-  font-size: 0.72rem;
+  font-size: 0.66rem;
   font-weight: 600;
   color: var(--muted);
   font-family: var(--font-mono);
@@ -734,7 +766,7 @@ body::after {
 
 .meta-sync-hint {
   margin-top: 0.75rem;
-  font-size: 0.76rem;
+  font-size: 0.68rem;
   color: var(--muted);
   max-width: 640px;
   margin-left: auto;
@@ -1129,9 +1161,9 @@ body::after {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.35rem;
-  margin-bottom: 1.1rem;
-  font-size: 0.84rem;
+  gap: 0.3rem;
+  margin-bottom: 0.85rem;
+  font-size: 0.74rem;
   color: var(--muted);
 }
 
@@ -1224,7 +1256,7 @@ body::after {
 }
 
 .control-group label {
-  font-size: 0.72rem;
+  font-size: 0.64rem;
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -1233,12 +1265,12 @@ body::after {
 
 .select {
   width: 100%;
-  padding: 0.62rem 2rem 0.62rem 0.75rem;
+  padding: 0.48rem 1.7rem 0.48rem 0.65rem;
   border-radius: var(--radius-sm);
   border: 1px solid var(--border);
   background: var(--bg-elevated);
   color: var(--text);
-  font-size: 0.88rem;
+  font-size: 0.78rem;
   cursor: pointer;
   transition: border-color 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
   appearance: none;
@@ -1295,9 +1327,9 @@ body::after {
 
 .section-desc {
   color: var(--muted);
-  font-size: 0.88rem;
-  margin-bottom: 1.1rem;
-  padding: 0.55rem 0.75rem;
+  font-size: 0.76rem;
+  margin-bottom: 0.85rem;
+  padding: 0.45rem 0.65rem;
   border-left: 3px solid var(--desc-accent, var(--platform-github));
   background: rgba(255, 255, 255, 0.02);
   border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
@@ -3012,8 +3044,11 @@ html[data-platform="weibo"] .site-header {
   backdrop-filter: none;
 }
 
-html[data-platform="weibo"] .site-header h1 {
+html[data-platform="weibo"] .site-header h1,
+html[data-platform="weibo"] .site-header .header-motto-text {
   color: #e6162d;
+  background: none;
+  -webkit-text-fill-color: #e6162d;
 }
 
 html[data-platform="weibo"] .sidebar {
