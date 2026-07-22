@@ -1,32 +1,32 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-07-21T15:46:20Z",
+  "savedAt": "2026-07-22T05:23:18Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-07-21，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-07-22，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-07-21",
+  "fetchedDate": "2026-07-22",
   "items": [
     {
       "title": "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s",
       "description": "I might be the only SRE on Earth with his own bowling center. It&#x27;s a more in-depth gig than you&#x27;d think.<p>My family and I bought an abandoned 8-lane bowling center in the rural mid-west. In our small town there weren&#x27;t many recreation options for families. You&#x27;ve heard of a food desert? This is an R&amp;R desert.<p>It had been abandoned for a good reason. The roof leaks, the electrical system was constantly surging, and my 70-year-old bowling equipment (still) doesn&#x27;t work perfectly. The system that keeps your score is particularly interesting to me. It&#x27;s the thing you watch during your game, but it fades into the background beyond that. Turns out these things are really cool, but absurdly expensive.<p>Ours was installed in 2008 and cost six figures. It&#x27;s calculating ball speed and trajectory, camera-based pin detection (object detection and trig, on ICs!), runs the fouling, the animations, the pinsetting machine and ball return. Very cool stuff for its age.<p>From the business perspective, my facility only cost me $105k. To forklift-replace the score keeping system runs anywhere between $80-$120k, depending on features, vendor, and unit age. No upgrades or service contracts, mind you, and every feature and customization is a new line item. That&#x27;s for a 1:1 replacement on a system installed in 2008. Incredible, given how fast the tech world moves.<p>Replacement parts cost a shocking $4000 per pair of lanes. But wait, the bowling machines themselves are 70 years old, so what&#x27;s this &quot;advanced&quot; system actually doing back there? Actuating a single relay to trigger that big old machine. Everything else is strictly mechanical. Meanwhile I&#x27;ve got a six-figure invoice in my hand. I&#x27;m upset.<p>Given the state of open hardware, computer vision, real-time event streaming, and open source running megascale products worldwide, there had to be a way to do this myself.<p>So far I&#x27;ve built an equivalent prototype for about $200 per lane-pair, $400 if you&#x27;re fancy. ESP32 and ESPNow with an RS485 fallback, reporting to a raspberry pi lane computer that&#x27;s really just redis and a state machine bolted to an ESP32 gateway for the mesh.<p>Since it&#x27;s all ESP32, I&#x27;ve got a fistful of spare controllers in a drawer, pre-flashed or waiting to be. All common off-the-shelf hardware: microcontrollers wired to relays, optocouplers, and IR-break-beam sensors, each running slightly different firmware. Writing the firmware and protocol is the actual hard part.<p>It&#x27;s an ESPNow star-topology mesh: each node emits events from its sensors and accepts commands for its controls, reporting to a gateway node connected to the raspi over UART. From there it&#x27;s event streaming: RX packets get translated and tossed into redis, commands relay back out to the mesh as needed. RS485 sits underneath as a wired fallback for noisy RF environments.<p>Once the data&#x27;s in redis, it&#x27;s familiar middleware&#x2F;React&#x2F;websocket&#x2F;pub-sub stuff. Any React dev can build their own UI and bowling animations. Since it all runs on commodity hardware, I can do legit anything I want as the proprietor, and I own all my data. Repairs take five minutes; I can swap the rig on a lane pair in under 10. I&#x27;d bet a house like mine could go from zero to running in an hour or two.<p>We&#x27;re calling it OpenLaneLink, and I plan to open source the hardware, firmware, and software stack when it&#x27;s ready. Bowling is fun, and I want to help keep it affordable for alleys like mine.\nI hate vendor lock-in. I&#x27;m not a fan of closed systems, calling support for every hiccup, or paying to &quot;white label&quot; my own equipment. Want to go Tron-themed for a night? Good luck finding a neon neumorphic theme in something bought at the turn of the century.<p>All that bugged me. Sure, bowling equipment is niche, but the open hardware and software landscape is amazing.<p>Thanks for reading! Let me know if anyone&#x27;s interested in more posts about this bowling nonsense.",
       "url": "https://news.ycombinator.com/item?id=48968606",
-      "score": 2887,
-      "comments": 345,
+      "score": 2908,
+      "comments": 351,
       "owner": "section33"
     },
     {
       "title": "Kimi K3: Open Frontier Intelligence",
       "description": "<a href=\"https:&#x2F;&#x2F;www.kimi.com&#x2F;en\" rel=\"nofollow\">https:&#x2F;&#x2F;www.kimi.com&#x2F;en</a><p>Kimi K3 Intelligence, Performance &amp; Price Analysis: <a href=\"https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;models&#x2F;kimi-k3\" rel=\"nofollow\">https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;models&#x2F;kimi-k3</a>",
       "url": "https://www.kimi.com/blog/kimi-k3",
-      "score": 2097,
-      "comments": 1211,
+      "score": 2100,
+      "comments": 1212,
       "owner": "vincent_s"
     },
     {
       "title": "AWS: Inaccurate Estimated Billing Data – $1.7 billion",
       "description": "URL already posted: <a href=\"https:&#x2F;&#x2F;health.aws.amazon.com&#x2F;health&#x2F;status\" rel=\"nofollow\">https:&#x2F;&#x2F;health.aws.amazon.com&#x2F;health&#x2F;status</a><p>I&#x27;ve got an estimated bill for $1.7 BILLION over this month. Normal usage is &lt; $5.<p>Obvs have created an urgent AWS support ticket. Anyone else seeing something like this?<p>Update: Reddit link: <a href=\"https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;aws&#x2F;comments&#x2F;1uyuaw7&#x2F;help_my_bill_skyrocketed_from_around_5_cents_per&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;aws&#x2F;comments&#x2F;1uyuaw7&#x2F;help_my_bill_s...</a>",
       "url": "https://news.ycombinator.com/item?id=48945241",
-      "score": 1308,
+      "score": 1310,
       "comments": 754,
       "owner": "nprateem"
     },
@@ -34,79 +34,79 @@
       "title": "Inkling: Our Open-Weights Model",
       "description": "",
       "url": "https://thinkingmachines.ai/news/introducing-inkling/",
-      "score": 1223,
-      "comments": 293,
+      "score": 1224,
+      "comments": 294,
       "owner": "vimarsh6739"
     },
     {
       "title": "LG monitors silently install software through Windows Update without consent",
       "description": "",
       "url": "https://videocardz.com/newz/lg-monitors-silently-install-software-through-windows-update-without-user-consent",
-      "score": 1216,
-      "comments": 635,
+      "score": 1218,
+      "comments": 638,
       "owner": "baranul"
     },
     {
       "title": "China’s open-weights AI strategy is winning",
       "description": "",
       "url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
-      "score": 1180,
-      "comments": 894,
+      "score": 1216,
+      "comments": 921,
       "owner": "benwerd"
-    },
-    {
-      "title": "Jurassic Park computers in excruciating detail",
-      "description": "",
-      "url": "https://fabiensanglard.net/jurrasic_park_computers/index.html",
-      "score": 957,
-      "comments": 259,
-      "owner": "vinhnx"
     },
     {
       "title": "Qwen 3.8",
       "description": "<a href=\"https:&#x2F;&#x2F;www.qwencloud.com&#x2F;pricing&#x2F;token-plan\" rel=\"nofollow\">https:&#x2F;&#x2F;www.qwencloud.com&#x2F;pricing&#x2F;token-plan</a>",
       "url": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291",
-      "score": 954,
-      "comments": 713,
+      "score": 959,
+      "comments": 721,
       "owner": "nh43215rgb"
     },
     {
       "title": "Who's afraid of Chinese models?",
       "description": "",
       "url": "https://stratechery.com/2026/whos-afraid-of-chinese-models/",
-      "score": 860,
-      "comments": 688,
+      "score": 949,
+      "comments": 847,
+      "owner": "mfiguiere"
+    },
+    {
+      "title": "OpenAI and Hugging Face address security incident during model evaluation",
+      "description": "<a href=\"https:&#x2F;&#x2F;www.axios.com&#x2F;2026&#x2F;07&#x2F;21&#x2F;openai-says-hugging-face-breach-caused-by-one-its-models\" rel=\"nofollow\">https:&#x2F;&#x2F;www.axios.com&#x2F;2026&#x2F;07&#x2F;21&#x2F;openai-says-hugging-face-br...</a><p>See also <i>Security incident disclosure – July 2026</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48956248\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48956248</a> (9 comments)",
+      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+      "score": 898,
+      "comments": 635,
       "owner": "mfiguiere"
     },
     {
       "title": "The lost joy of music piracy",
       "description": "",
       "url": "https://www.pigeonsandplanes.com/read/music-piracy-what-cd-oink-nine-inch-nails-streaming",
-      "score": 845,
+      "score": 846,
       "comments": 605,
       "owner": "mcgin"
-    },
-    {
-      "title": "Thanks HN for 15 years of support and helping me find my life's work",
-      "description": "Tomorrow is the 15th anniversary of the first day of the Recurse Center (<a href=\"https:&#x2F;&#x2F;www.recurse.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.recurse.com&#x2F;</a>)<p>My cofounders and I did YC all the way back in the Summer of 2010, with the initial idea of building &quot;OkCupid for jobs.&quot; That idea quickly fizzled, and we spent the better part of a year pivoting between other ideas that also failed.<p>Finally, we made something that we wanted ourselves: a self-directed programming retreat, where people built fun projects, contributed to open source, and helped each other become better programmers.<p>After running two small batches, we launched on HN[1] and got an incredible reception.<p>That post on HN helped us reach beyond our personal networks and meet programmers from around the world, many of whom have since become friends. HN brought us the majority of people who came to our next few batches, and in the years since, HN has remained our #2 source of applicants (after word of mouth).<p>Alas, pg&#x27;s comment[2] on HN when we launched turned out to be prescient: Running free programming retreats isn&#x27;t a billion-dollar business, but it&#x27;s still a worthwhile thing to do, and has positively impacted over 3,000 people so far. And 15 years on I still wake up every day excited to keep working on it.<p>So, thanks HN, for helping make the Recurse Center possible, and for helping me find my life&#x27;s work.<p>[1] <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=3435183\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=3435183</a><p>[2] &quot;This sounds like a crazy plan for a startup, I realize, but this is the right sort of crazy. In fact, the way the Hackruiters think about Hacker School is a lot like the way we initially thought about YC: if it doesn&#x27;t make money, it will at least have been a benevolent thing to do.&quot;",
-      "url": "https://news.ycombinator.com/item?id=48949551",
-      "score": 825,
-      "comments": 107,
-      "owner": "nicholasjbs"
     },
     {
       "title": "Airport Simulator",
       "description": "",
       "url": "https://airport.apunen.com/",
-      "score": 818,
-      "comments": 159,
+      "score": 836,
+      "comments": 162,
       "owner": "apunen"
+    },
+    {
+      "title": "Thanks HN for 15 years of support and helping me find my life's work",
+      "description": "Tomorrow is the 15th anniversary of the first day of the Recurse Center (<a href=\"https:&#x2F;&#x2F;www.recurse.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.recurse.com&#x2F;</a>)<p>My cofounders and I did YC all the way back in the Summer of 2010, with the initial idea of building &quot;OkCupid for jobs.&quot; That idea quickly fizzled, and we spent the better part of a year pivoting between other ideas that also failed.<p>Finally, we made something that we wanted ourselves: a self-directed programming retreat, where people built fun projects, contributed to open source, and helped each other become better programmers.<p>After running two small batches, we launched on HN[1] and got an incredible reception.<p>That post on HN helped us reach beyond our personal networks and meet programmers from around the world, many of whom have since become friends. HN brought us the majority of people who came to our next few batches, and in the years since, HN has remained our #2 source of applicants (after word of mouth).<p>Alas, pg&#x27;s comment[2] on HN when we launched turned out to be prescient: Running free programming retreats isn&#x27;t a billion-dollar business, but it&#x27;s still a worthwhile thing to do, and has positively impacted over 3,000 people so far. And 15 years on I still wake up every day excited to keep working on it.<p>So, thanks HN, for helping make the Recurse Center possible, and for helping me find my life&#x27;s work.<p>[1] <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=3435183\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=3435183</a><p>[2] &quot;This sounds like a crazy plan for a startup, I realize, but this is the right sort of crazy. In fact, the way the Hackruiters think about Hacker School is a lot like the way we initially thought about YC: if it doesn&#x27;t make money, it will at least have been a benevolent thing to do.&quot;",
+      "url": "https://news.ycombinator.com/item?id=48949551",
+      "score": 826,
+      "comments": 107,
+      "owner": "nicholasjbs"
     },
     {
       "title": "Microsoft Comic Chat is now open source",
       "description": "",
       "url": "https://opensource.microsoft.com/blog/2026/07/16/microsoft-comic-chat-is-now-open-source/",
-      "score": 811,
+      "score": 812,
       "comments": 178,
       "owner": "jervant"
     },
@@ -114,23 +114,23 @@
       "title": "Claude Fable produced a counterexample to the Jacobian Conjecture",
       "description": "",
       "url": "https://xcancel.com/__alpoge__/status/2079028340955197566",
-      "score": 777,
-      "comments": 489,
+      "score": 788,
+      "comments": 503,
       "owner": "loubbrad"
     },
     {
       "title": "Transcribe.cpp",
       "description": "",
       "url": "https://workshop.cjpais.com/projects/transcribe-cpp",
-      "score": 763,
-      "comments": 163,
+      "score": 764,
+      "comments": 165,
       "owner": "sebjones"
     },
     {
       "title": "Sleep regularity is a stronger predictor of mortality risk than sleep duration (2023)",
       "description": "",
       "url": "https://academic.oup.com/sleep/article/47/1/zsad253/7280269",
-      "score": 755,
+      "score": 756,
       "comments": 408,
       "owner": "bilsbie"
     },
@@ -138,7 +138,7 @@
       "title": "Regressive JPEGs",
       "description": "",
       "url": "https://maurycyz.com/projects/bad_jpeg/",
-      "score": 722,
+      "score": 723,
       "comments": 69,
       "owner": "vitaut"
     },
@@ -146,17 +146,9 @@
       "title": "Decoy Font",
       "description": "",
       "url": "https://www.mixfont.com/experiments/decoy-font",
-      "score": 717,
+      "score": 719,
       "comments": 159,
       "owner": "ray__"
-    },
-    {
-      "title": "Bonsai 27B: A 27B-Class model that runs on a phone",
-      "description": "",
-      "url": "https://prismml.com/news/bonsai-27b",
-      "score": 705,
-      "comments": 251,
-      "owner": "xenova"
     },
     {
       "title": "Sony deletes more movies from the accounts of people who ‘bought’ them",
@@ -165,6 +157,14 @@
       "score": 703,
       "comments": 449,
       "owner": "nekusar"
+    },
+    {
+      "title": "Hacker wipes Romania's land registry database",
+      "description": "",
+      "url": "https://news.risky.biz/risky-bulletin-hacker-wipes-romanias-entire-land-registry-database/",
+      "score": 700,
+      "comments": 397,
+      "owner": "speckx"
     }
   ]
 }
