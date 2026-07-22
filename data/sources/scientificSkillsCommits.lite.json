@@ -1,12 +1,23 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-07-21T16:06:12Z",
+  "savedAt": "2026-07-22T05:36:00Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "e8727695e34f19a80be02b1769aa64dabdd2938b",
+  "latestSha": "831d49eb77eed3c792be2970921b46764012ef00",
   "items": [
+    {
+      "title": "Update skills and documentation: Change AI models from Gemini 3.1 Pro…",
+      "description": "Update skills and documentation: Change AI models from Gemini 3.1 Pro to Gemini 3.6 Flash for improved quality review across various skills, including Generate Image, Infographics, and Clinical Decision Support. Bump version numbers in SKILL.md files to reflect updates.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/831d49eb77eed3c792be2970921b46764012ef00",
+      "sha": "831d49e",
+      "fullSha": "831d49eb77eed3c792be2970921b46764012ef00",
+      "owner": "TKassis",
+      "published": "2026-07-21",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "Bump version",
       "description": "Bump version",
@@ -156,17 +167,6 @@
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/26fd7a84512acdb6f00b40a4f4675cacf22cb2df",
       "sha": "26fd7a8",
       "fullSha": "26fd7a84512acdb6f00b40a4f4675cacf22cb2df",
-      "owner": "TKassis",
-      "published": "2026-07-04",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Update research-lookup and statistical-analysis skills",
-      "description": "Update research-lookup and statistical-analysis skills",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/afa84b445efc132a8553b776077f8c648e114c08",
-      "sha": "afa84b4",
-      "fullSha": "afa84b445efc132a8553b776077f8c648e114c08",
       "owner": "TKassis",
       "published": "2026-07-04",
       "label": "commit",

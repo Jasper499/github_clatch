@@ -1,20 +1,25 @@
 {
   "changed": true,
-  "fetchedAt": "2026-07-21T16:06:12Z",
-  "previousSha": "3f825caafe149b7853ec8c4d1dd7f4553ea6b2a5",
-  "latestSha": "e8727695e34f19a80be02b1769aa64dabdd2938b",
+  "fetchedAt": "2026-07-22T05:36:00Z",
+  "previousSha": "e8727695e34f19a80be02b1769aa64dabdd2938b",
+  "latestSha": "831d49eb77eed3c792be2970921b46764012ef00",
   "repo": "K-Dense-AI/scientific-agent-skills",
   "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "stars": 0,
   "skillCount": 149,
   "latestCommit": {
-    "title": "Bump version",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/e8727695e34f19a80be02b1769aa64dabdd2938b",
-    "sha": "e872769",
-    "published": "2026-07-20"
+    "title": "Update skills and documentation: Change AI models from Gemini 3.1 Pro…",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/831d49eb77eed3c792be2970921b46764012ef00",
+    "sha": "831d49e",
+    "published": "2026-07-21"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "Update skills and documentation: Change AI models from Gemini 3.1 Pro…",
+      "sha": "831d49e",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/831d49eb77eed3c792be2970921b46764012ef00"
+    },
     {
       "title": "Bump version",
       "sha": "e872769",
@@ -34,11 +39,6 @@
       "title": "Update README.md: Enhance star history chart with responsive design f…",
       "sha": "3f825ca",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/3f825caafe149b7853ec8c4d1dd7f4553ea6b2a5"
-    },
-    {
-      "title": "Enhance Research Lookup Skill: Update documentation and improve backe…",
-      "sha": "fc0b9f6",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/fc0b9f692459ea7d9e5a5c64948a5878e1bce274"
     }
   ]
 }
