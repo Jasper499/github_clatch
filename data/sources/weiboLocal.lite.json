@@ -1,80 +1,70 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-07-23T08:42:43Z",
+  "savedAt": "2026-07-23T14:26:25Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-07-23，共 7 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-07-23，共 6 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-07-23",
   "items": [
     {
-      "title": "男子对女同事开黄腔被打遭开除称不公",
+      "title": "这份山洪避险口诀请收好",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E5%AF%B9%E5%A5%B3%E5%90%8C%E4%BA%8B%E5%BC%80%E9%BB%84%E8%85%94%E8%A2%AB%E6%89%93%E9%81%AD%E5%BC%80%E9%99%A4%E7%A7%B0%E4%B8%8D%E5%85%AC%23&t=31&band_rank=1&Refer=top",
-      "score": 770493,
+      "url": "https://s.weibo.com/weibo?q=%23%E8%BF%99%E4%BB%BD%E5%B1%B1%E6%B4%AA%E9%81%BF%E9%99%A9%E5%8F%A3%E8%AF%80%E8%AF%B7%E6%94%B6%E5%A5%BD%23&t=31&band_rank=1&Refer=top",
+      "score": 4566218,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1784785582
+      "onboardTime": 1784808080
     },
     {
-      "title": "大爷摸知了猴3小时赚近400元",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%A7%E7%88%B7%E6%91%B8%E7%9F%A5%E4%BA%86%E7%8C%B43%E5%B0%8F%E6%97%B6%E8%B5%9A%E8%BF%91400%E5%85%83%23&t=31&band_rank=1&Refer=top",
-      "score": 362755,
+      "title": "深圳地铁空奶茶袋也需过安检机",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B7%B1%E5%9C%B3%E5%9C%B0%E9%93%81%E7%A9%BA%E5%A5%B6%E8%8C%B6%E8%A2%8B%E4%B9%9F%E9%9C%80%E8%BF%87%E5%AE%89%E6%A3%80%E6%9C%BA%23&t=31&band_rank=1&Refer=top",
+      "score": 303419,
       "owner": "微博同城",
-      "label": "",
+      "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1784780902
+      "onboardTime": 1784816122
     },
     {
-      "title": "男子AI伪造烂水果仅退款连累全县",
+      "title": "女子搬运150斤黄鸡蛋瞬间全碎",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90AI%E4%BC%AA%E9%80%A0%E7%83%82%E6%B0%B4%E6%9E%9C%E4%BB%85%E9%80%80%E6%AC%BE%E8%BF%9E%E7%B4%AF%E5%85%A8%E5%8E%BF%23&t=31&band_rank=1&Refer=top",
-      "score": 347240,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E6%90%AC%E8%BF%90150%E6%96%A4%E9%BB%84%E9%B8%A1%E8%9B%8B%E7%9E%AC%E9%97%B4%E5%85%A8%E7%A2%8E%23&t=31&band_rank=1&Refer=top",
+      "score": 297879,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1784783360
+      "onboardTime": 1784804419
     },
     {
-      "title": "女子买一本刮刮乐第一张就中20万",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E4%B9%B0%E4%B8%80%E6%9C%AC%E5%88%AE%E5%88%AE%E4%B9%90%E7%AC%AC%E4%B8%80%E5%BC%A0%E5%B0%B1%E4%B8%AD20%E4%B8%87%23&t=31&band_rank=1&Refer=top",
-      "score": 287300,
+      "title": "复旦副教授沈奕斐被举报后决定硬刚",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%8D%E6%97%A6%E5%89%AF%E6%95%99%E6%8E%88%E6%B2%88%E5%A5%95%E6%96%90%E8%A2%AB%E4%B8%BE%E6%8A%A5%E5%90%8E%E5%86%B3%E5%AE%9A%E7%A1%AC%E5%88%9A%23&t=31&band_rank=1&Refer=top",
+      "score": 230987,
       "owner": "微博同城",
-      "label": "",
+      "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1784789120
+      "onboardTime": 1784811861
     },
     {
-      "title": "闫闯被指数年前曾过失致人死亡",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%97%AB%E9%97%AF%E8%A2%AB%E6%8C%87%E6%95%B0%E5%B9%B4%E5%89%8D%E6%9B%BE%E8%BF%87%E5%A4%B1%E8%87%B4%E4%BA%BA%E6%AD%BB%E4%BA%A1%23&t=31&band_rank=1&Refer=top",
-      "score": 259433,
+      "title": "耐克上市3个月新品被滔搏6折出售",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%80%90%E5%85%8B%E4%B8%8A%E5%B8%823%E4%B8%AA%E6%9C%88%E6%96%B0%E5%93%81%E8%A2%AB%E6%BB%94%E6%90%8F6%E6%8A%98%E5%87%BA%E5%94%AE%23&t=31&band_rank=1&Refer=top",
+      "score": 200406,
       "owner": "微博同城",
-      "label": "",
+      "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1784771240
+      "onboardTime": 1784812821
     },
     {
-      "title": "个人贷款新规8月1日起施行",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E4%B8%AA%E4%BA%BA%E8%B4%B7%E6%AC%BE%E6%96%B0%E8%A7%848%E6%9C%881%E6%97%A5%E8%B5%B7%E6%96%BD%E8%A1%8C&t=31&band_rank=1&Refer=top",
-      "score": 191179,
+      "title": "台风雨将波及6省",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8F%B0%E9%A3%8E%E9%9B%A8%E5%B0%86%E6%B3%A2%E5%8F%8A6%E7%9C%81%23&t=31&band_rank=1&Refer=top",
+      "score": 182316,
       "owner": "微博同城",
-      "label": "",
+      "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1784778682
-    },
-    {
-      "title": "A380备降杭州乘客被困机舱10小时",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23A380%E5%A4%87%E9%99%8D%E6%9D%AD%E5%B7%9E%E4%B9%98%E5%AE%A2%E8%A2%AB%E5%9B%B0%E6%9C%BA%E8%88%B110%E5%B0%8F%E6%97%B6%23&t=31&band_rank=1&Refer=top",
-      "score": 169664,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1784786960
+      "onboardTime": 1784814021
     }
   ]
 }
