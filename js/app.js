@@ -1,11 +1,19 @@
 const DATA_URL = "data/content.json";
 const META_URL = "data/meta.json";
 const MANIFEST_URL = "data/manifest.json";
+const LIVE_ENDPOINTS_URL = "data/live-endpoints.json";
 const SOURCES_BASE = "data/sources";
 const DATES_STORAGE_KEY = "hjl-source-dates";
 const SEEN_STORAGE_KEY = "hjl-seen-v1";
 const SEEN_MAX_PER_SOURCE = 400;
 const PINS_STORAGE_KEY = "hjl-pins-v1";
+const WEIBO_REALTIME_KEY = "weiboRealtime";
+
+/** @type {Record<string, string>} */
+let liveEndpoints = {};
+/** @type {'idle'|'loading'|'live'|'fallback'|'unconfigured'} */
+let weiboRealtimeLiveStatus = "idle";
+let weiboRealtimeLiveFetchedAt = "";
 
 const DEFAULT_CATALOG = [
   {
@@ -412,7 +420,14 @@ function updateNewHints(sourceKey, items) {
 
 function getLatestUpdatedAt(data, sourceKey) {
   if (
-    (sourceKey === "weibo" || sourceKey === "weiboRealtime" || sourceKey === "weiboLocal") &&
+    sourceKey === WEIBO_REALTIME_KEY &&
+    weiboRealtimeLiveStatus === "live" &&
+    weiboRealtimeLiveFetchedAt
+  ) {
+    return weiboRealtimeLiveFetchedAt;
+  }
+  if (
+    (sourceKey === "weibo" || sourceKey === WEIBO_REALTIME_KEY || sourceKey === "weiboLocal") &&
     data.weiboUpdatedAt
   ) {
     return data.weiboUpdatedAt;
@@ -431,9 +446,81 @@ function getLatestUpdatedAt(data, sourceKey) {
   return data.updatedAt;
 }
 
+async function loadLiveEndpoints() {
+  try {
+    const res = await fetch(`${LIVE_ENDPOINTS_URL}?t=${Date.now()}`);
+    if (!res.ok) return;
+    const data = await res.json();
+    if (data && typeof data === "object") liveEndpoints = data;
+  } catch (_) {
+    /* optional config */
+  }
+}
+
+function weiboRealtimeLiveUrl() {
+  const raw = (liveEndpoints[WEIBO_REALTIME_KEY] || "").trim();
+  return raw || "";
+}
+
+async function fetchWeiboRealtimeLive() {
+  const endpoint = weiboRealtimeLiveUrl();
+  if (!endpoint) {
+    weiboRealtimeLiveStatus = "unconfigured";
+    weiboRealtimeLiveFetchedAt = "";
+    return null;
+  }
+  weiboRealtimeLiveStatus = "loading";
+  try {
+    const res = await fetch(`${endpoint.replace(/\/+$/, "")}/realtime?t=${Date.now()}`, {
+      credentials: "omit",
+    });
+    if (!res.ok) throw new Error(`live ${res.status}`);
+    const snapshot = await res.json();
+    if (!snapshot || !Array.isArray(snapshot.items)) throw new Error("live payload invalid");
+    weiboRealtimeLiveStatus = "live";
+    weiboRealtimeLiveFetchedAt = snapshot.fetchedAt || snapshot.savedAt || new Date().toISOString();
+    snapshot.live = true;
+    return snapshot;
+  } catch (_) {
+    weiboRealtimeLiveStatus = "fallback";
+    weiboRealtimeLiveFetchedAt = "";
+    return null;
+  }
+}
+
+function weiboRealtimeLiveHint() {
+  if (weiboRealtimeLiveStatus === "live" && weiboRealtimeLiveFetchedAt) {
+    return `【即时拉取 ${formatDate(weiboRealtimeLiveFetchedAt)}】`;
+  }
+  if (weiboRealtimeLiveStatus === "fallback") {
+    return "【即时代理不可用，已回退静态快照】";
+  }
+  if (weiboRealtimeLiveStatus === "unconfigured") {
+    return "【未配置 live 代理，显示静态快照；见 workers/README.md】";
+  }
+  if (weiboRealtimeLiveStatus === "loading") {
+    return "【正在即时拉取…】";
+  }
+  return "";
+}
+
 async function resolveSource(data, sourceKey = activeSourceKey, { lite = false } = {}) {
   const dateKey = selectedDates[sourceKey] || "latest";
   if (dateKey === "latest") {
+    // Weibo「实时」：每次进入都优先走 live 代理（不吃 latestSourceCache）
+    if (sourceKey === WEIBO_REALTIME_KEY && !lite) {
+      const live = await fetchWeiboRealtimeLive();
+      if (live) {
+        if (data.sources?.[sourceKey]) {
+          data.sources[sourceKey].itemCount = (live.items || []).length;
+          data.sources[sourceKey].label = live.label || data.sources[sourceKey].label;
+          data.sources[sourceKey].description =
+            live.description || data.sources[sourceKey].description;
+        }
+        return live;
+      }
+    }
+
     const cacheBucket = lite ? `${sourceKey}::lite` : sourceKey;
     if (latestSourceCache[cacheBucket]) return latestSourceCache[cacheBucket];
 
@@ -2232,6 +2319,9 @@ async function syncPanel(data, { preserveItemIndex = true } = {}) {
   let desc = source?.description || "";
   if (dateKey !== "latest") {
     desc = `【历史快照 ${formatSnapshotLabel(dateKey)}】${desc ? ` ${desc}` : ""}`;
+  } else if (activeSourceKey === WEIBO_REALTIME_KEY) {
+    const hint = weiboRealtimeLiveHint();
+    if (hint) desc = `${hint}${desc ? ` ${desc}` : ""}`;
   }
   const descEl = document.getElementById("section-desc");
   descEl.textContent = desc;
@@ -2572,6 +2662,7 @@ async function loadContent() {
     const [metaRes, manifestRes] = await Promise.all([
       fetch(`${META_URL}?t=${bust}`),
       fetch(`${MANIFEST_URL}?t=${bust}`),
+      loadLiveEndpoints(),
     ]);
 
     if (metaRes.ok) {

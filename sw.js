@@ -1,19 +1,20 @@
 /* HJL Clatch service worker — cache shell + recent data for offline reading. */
-const CACHE_SHELL = "clatch-shell-v19";
-const CACHE_DATA = "clatch-data-v19";
+const CACHE_SHELL = "clatch-shell-v20";
+const CACHE_DATA = "clatch-data-v20";
 
 const SHELL_FILES = [
   "./",
   "./index.html",
-  "./css/style.css?v=18",
-  "./js/app.js?v=18",
-  "./js/icons.js?v=18",
+  "./css/style.css?v=20",
+  "./js/app.js?v=20",
+  "./js/icons.js?v=20",
   "./vendor/marked.min.js",
   "./vendor/purify.min.js",
   "./favicon.svg",
   "./manifest.webmanifest",
   "./data/meta.json",
   "./data/manifest.json",
+  "./data/live-endpoints.json",
 ];
 
 self.addEventListener("install", (event) => {

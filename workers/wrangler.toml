@@ -1,0 +1,6 @@
+name = "hjl-clatch-weibo-live"
+main = "weibo-live.js"
+compatibility_date = "2024-11-01"
+
+# After deploy, copy the worker URL into data/live-endpoints.json → weiboRealtime
+# Example: https://hjl-clatch-weibo-live.<your-subdomain>.workers.dev
