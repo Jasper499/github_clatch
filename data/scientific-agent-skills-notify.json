@@ -1,44 +1,44 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-07-23T16:12:54Z",
+  "changed": true,
+  "fetchedAt": "2026-07-24T05:36:55Z",
   "previousSha": "831d49eb77eed3c792be2970921b46764012ef00",
-  "latestSha": "831d49eb77eed3c792be2970921b46764012ef00",
+  "latestSha": "70a0d595e54b8d92ca54f216d4315e0ab8c7d967",
   "repo": "K-Dense-AI/scientific-agent-skills",
   "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "stars": 0,
   "skillCount": 149,
   "latestCommit": {
-    "title": "Update skills and documentation: Change AI models from Gemini 3.1 Pro…",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/831d49eb77eed3c792be2970921b46764012ef00",
-    "sha": "831d49e",
-    "published": "2026-07-21"
+    "title": "Update PyLabRobot safety workflows",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/70a0d595e54b8d92ca54f216d4315e0ab8c7d967",
+    "sha": "70a0d59",
+    "published": "2026-07-23"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
     {
-      "title": "Update skills and documentation: Change AI models from Gemini 3.1 Pro…",
-      "sha": "831d49e",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/831d49eb77eed3c792be2970921b46764012ef00"
+      "title": "Update PyLabRobot safety workflows",
+      "sha": "70a0d59",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/70a0d595e54b8d92ca54f216d4315e0ab8c7d967"
     },
     {
-      "title": "Bump version",
-      "sha": "e872769",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/e8727695e34f19a80be02b1769aa64dabdd2938b"
+      "title": "Update NeuroKit2 skill for current APIs",
+      "sha": "ddcd380",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/ddcd380f51e7606687201d952b9c17e1644bbc5d"
     },
     {
-      "title": "Update Torchdrug and venue-templates skills",
-      "sha": "3b6f0e4",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/3b6f0e48b400742e245c540774e511f684adb174"
+      "title": "Update PathML skill for current workflows",
+      "sha": "191e153",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/191e153a29d6851dec151161869241e8330df31e"
     },
     {
-      "title": "chore: update security scan report [skip ci]",
-      "sha": "a177179",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/a177179f77aa4da00d6930c9c05b2a40a26c5959"
+      "title": "Update SimPy skill for current semantics",
+      "sha": "65f4698",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/65f46984c5eb7c4126bb1615cbf5bacabb9e685d"
     },
     {
-      "title": "Update README.md: Enhance star history chart with responsive design f…",
-      "sha": "3f825ca",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/3f825caafe149b7853ec8c4d1dd7f4553ea6b2a5"
+      "title": "Update scikit-survival for current APIs",
+      "sha": "5a62c8a",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/5a62c8a075115aaef3a3b70aba76aaea6c3f1267"
     }
   ]
 }
