@@ -28,6 +28,10 @@ wrangler deploy
 
 4. 提交并推送后，GitHub Pages 会加载该配置；进入「实时」时优先请求 Worker，失败则回退静态 JSON。
 
+当前已部署示例：`https://hjl-clatch-weibo-live.jasper499.workers.dev`
+
+> 若浏览器无法访问 `*.workers.dev`（部分网络环境会超时），即时拉取会自动回退静态快照。可在 Cloudflare Dashboard 为该 Worker 绑定自定义域名后再改 `live-endpoints.json`。
+
 ## 接口
 
 - `GET /`、`GET /realtime`、`GET /weibo/realtime`
