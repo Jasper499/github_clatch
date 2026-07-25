@@ -1,12 +1,42 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-07-24T15:49:36Z",
+  "savedAt": "2026-07-25T05:26:09Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "91862221b39f7ca16d52ae0e1e9cb6c2bb31a96b",
+  "latestSha": "8d674eb50454d4b49d3e0be625a121ad4863840b",
   "items": [
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/8d674eb50454d4b49d3e0be625a121ad4863840b",
+      "sha": "8d674eb",
+      "fullSha": "8d674eb50454d4b49d3e0be625a121ad4863840b",
+      "owner": "github-actions",
+      "published": "2026-07-25",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #177 from Kstheme/feat/nature-paper-card",
+      "description": "Merge pull request #177 from Kstheme/feat/nature-paper-card\n\nfeat: add nature-paper-card for source-grounded paper deep reading",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/703c150ec6b3d7885dc93aa0232a6b7fdd6686ed",
+      "sha": "703c150",
+      "fullSha": "703c150ec6b3d7885dc93aa0232a6b7fdd6686ed",
+      "owner": "Yuan1z0825",
+      "published": "2026-07-25",
+      "label": "commit"
+    },
+    {
+      "title": "feat: add nature-paper-card skill",
+      "description": "feat: add nature-paper-card skill",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/2db5d0b2810bd07d3fca2400795ee50e5f3c9b26",
+      "sha": "2db5d0b",
+      "fullSha": "2db5d0b2810bd07d3fca2400795ee50e5f3c9b26",
+      "owner": "Kstheme",
+      "published": "2026-07-24",
+      "label": "commit"
+    },
     {
       "title": "Update README.md",
       "description": "Update README.md",
@@ -123,36 +153,6 @@
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/1f527786d64670ef85bc850f5394787fbd94e678",
       "sha": "1f52778",
       "fullSha": "1f527786d64670ef85bc850f5394787fbd94e678",
-      "owner": "Travisma2233",
-      "published": "2026-07-20",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #167 from zpf2234/ci/validate-workflow-path-filters",
-      "description": "Merge pull request #167 from zpf2234/ci/validate-workflow-path-filters\n\nci: validate workflow path filters",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c739ff07f1188f88a0ee4914f92e705cee7a521a",
-      "sha": "c739ff0",
-      "fullSha": "c739ff07f1188f88a0ee4914f92e705cee7a521a",
-      "owner": "Travisma2233",
-      "published": "2026-07-20",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #173 from Yuan1z0825/feat/complete-proposal-writer…",
-      "description": "Merge pull request #173 from Yuan1z0825/feat/complete-proposal-writer-references\n\nfeat: complete proposal writer reference bundle",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/a9dd69eef5b5a7bffc78dfb1bdb018d7350d134d",
-      "sha": "a9dd69e",
-      "fullSha": "a9dd69eef5b5a7bffc78dfb1bdb018d7350d134d",
-      "owner": "Travisma2233",
-      "published": "2026-07-20",
-      "label": "commit"
-    },
-    {
-      "title": "feat: complete proposal writer reference bundle",
-      "description": "feat: complete proposal writer reference bundle",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/8dd9f26694a620b7131eb80f0bae81f8bbdbd112",
-      "sha": "8dd9f26",
-      "fullSha": "8dd9f26694a620b7131eb80f0bae81f8bbdbd112",
       "owner": "Travisma2233",
       "published": "2026-07-20",
       "label": "commit"
