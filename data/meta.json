@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-07-25T05:31:48Z",
+  "updatedAt": "2026-07-25T08:20:54Z",
   "periodDays": 7,
   "weekLabel": "2026-07-14 ~ 2026-07-21",
   "githubUpdatedAt": "2026-07-21T12:46:20Z",
   "hackernewsUpdatedAt": "2026-07-25T05:18:08Z",
-  "weiboUpdatedAt": "2026-07-25T03:32:53Z",
+  "weiboUpdatedAt": "2026-07-25T08:20:54Z",
   "journalsUpdatedAt": "2026-07-15T04:40:50Z",
   "natureSkillsUpdatedAt": "2026-07-25T05:26:09Z",
   "scientificSkillsUpdatedAt": "2026-07-25T05:31:48Z",
@@ -184,11 +184,11 @@
     },
     "weiboLocal": {
       "label": "同城",
-      "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-07-25，共 10 条，约每 6 小时更新）",
+      "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-07-25，共 11 条，约每 6 小时更新）",
       "updateFrequency": "every-6h",
       "fetchedDate": "2026-07-25",
-      "itemCount": 10
+      "itemCount": 11
     }
   },
-  "generatedAt": "2026-07-25T05:31:48Z"
+  "generatedAt": "2026-07-25T08:20:54Z"
 }
