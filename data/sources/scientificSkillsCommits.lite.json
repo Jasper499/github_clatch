@@ -1,12 +1,34 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-07-26T05:47:05Z",
+  "savedAt": "2026-07-26T15:44:09Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "a1b84fb2235e3b24d4af08b0b118414ff3d95d41",
+  "latestSha": "489de4ce4ce908436637b9a52cd6be9480c2ae75",
   "items": [
+    {
+      "title": "Update security documentation and scanning process",
+      "description": "Update security documentation and scanning process\n\n- Clarified the security scan report generation process in README.md, emphasizing the publication of results.\n- Revised `scan_skills.py` documentation to reflect changes in report generation and the removal of the validate_report.py script.\n- Updated SECURITY.md to specify the scope of vulnerabilities and improved clarity on the report&#39;s purpose and limitations.\n- Adjusted the security scan workflow to remove the validation step, streamlining the process while ensuring accurate reporting.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/489de4ce4ce908436637b9a52cd6be9480c2ae75",
+      "sha": "489de4c",
+      "fullSha": "489de4ce4ce908436637b9a52cd6be9480c2ae75",
+      "owner": "TKassis",
+      "published": "2026-07-26",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Remove validate_report.py script as it is no longer needed for the se…",
+      "description": "Remove validate_report.py script as it is no longer needed for the security scan process. This change simplifies the codebase and eliminates redundancy in validation checks, streamlining the overall workflow.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/b01cff4cda1b14b75a3ca111089f3c6b722694d0",
+      "sha": "b01cff4",
+      "fullSha": "b01cff4cda1b14b75a3ca111089f3c6b722694d0",
+      "owner": "TKassis",
+      "published": "2026-07-26",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "feat(docx): enhance DOCX skill and comment script functionality",
       "description": "feat(docx): enhance DOCX skill and comment script functionality\n\n- Updated the skill description to include support for Word templates (.dotx) alongside .docx files, broadening the skill&#39;s applicability.\n- Improved the comment script to accept both unpacked directories and .docx/.dotx files directly, streamlining the user experience.\n- Added automatic comment ID assignment and XML escaping for comment text, enhancing robustness and usability.\n- Removed the obsolete pack.py and unpack.py scripts, consolidating functionality into existing scripts for better maintainability.\n- Enhanced validation and error handling in the validate.py script, ensuring better feedback for users.",
@@ -147,28 +169,6 @@
       "fullSha": "fdee3698c28c5fbf21d3c538a19898d5f20011f3",
       "owner": "TKassis",
       "published": "2026-07-25",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Correct README release details",
-      "description": "Correct README release details\n\nCo-authored-by: Cursor &lt;cursoragent@cursor.com&gt;",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/757b63b1c09798a45c79eea542c9b55dbe04e502",
-      "sha": "757b63b",
-      "fullSha": "757b63b1c09798a45c79eea542c9b55dbe04e502",
-      "owner": "TKassis",
-      "published": "2026-07-24",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Bump version to 2.55.0",
-      "description": "Bump version to 2.55.0\n\nCo-authored-by: Cursor &lt;cursoragent@cursor.com&gt;",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/bb87fa13e8f9236fac1081472461b19918fff41c",
-      "sha": "bb87fa1",
-      "fullSha": "bb87fa13e8f9236fac1081472461b19918fff41c",
-      "owner": "TKassis",
-      "published": "2026-07-24",
       "label": "commit",
       "repo": "K-Dense-AI/scientific-agent-skills"
     }

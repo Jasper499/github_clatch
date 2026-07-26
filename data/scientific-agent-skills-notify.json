@@ -1,20 +1,30 @@
 {
   "changed": true,
-  "fetchedAt": "2026-07-26T05:47:05Z",
-  "previousSha": "757b63b1c09798a45c79eea542c9b55dbe04e502",
-  "latestSha": "a1b84fb2235e3b24d4af08b0b118414ff3d95d41",
+  "fetchedAt": "2026-07-26T15:44:09Z",
+  "previousSha": "a1b84fb2235e3b24d4af08b0b118414ff3d95d41",
+  "latestSha": "489de4ce4ce908436637b9a52cd6be9480c2ae75",
   "repo": "K-Dense-AI/scientific-agent-skills",
   "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "stars": 0,
   "skillCount": 150,
   "latestCommit": {
-    "title": "feat(docx): enhance DOCX skill and comment script functionality",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/a1b84fb2235e3b24d4af08b0b118414ff3d95d41",
-    "sha": "a1b84fb",
+    "title": "Update security documentation and scanning process",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/489de4ce4ce908436637b9a52cd6be9480c2ae75",
+    "sha": "489de4c",
     "published": "2026-07-26"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "Update security documentation and scanning process",
+      "sha": "489de4c",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/489de4ce4ce908436637b9a52cd6be9480c2ae75"
+    },
+    {
+      "title": "Remove validate_report.py script as it is no longer needed for the se…",
+      "sha": "b01cff4",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/b01cff4cda1b14b75a3ca111089f3c6b722694d0"
+    },
     {
       "title": "feat(docx): enhance DOCX skill and comment script functionality",
       "sha": "a1b84fb",
@@ -29,16 +39,6 @@
       "title": "perf(security-scan): scan concurrently and reuse unchanged results",
       "sha": "665663c",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/665663cac17c7cbfa71a6a3b2dad95db494996c1"
-    },
-    {
-      "title": "Update security scanning process and documentation",
-      "sha": "d77f819",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/d77f819637d8631c0f38f2f75c9dba013770da8f"
-    },
-    {
-      "title": "Merge pull request #215 from K-Dense-AI/feat/citation-management-zotero",
-      "sha": "bf38369",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/bf383691e2a146c12f12cccc018fa706d08244de"
     }
   ]
 }
