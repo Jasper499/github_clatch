@@ -1,100 +1,80 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-07-27T03:57:26Z",
+  "savedAt": "2026-07-27T10:06:08Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-07-27，共 9 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-07-27，共 7 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-07-27",
   "items": [
     {
-      "title": "重庆山体崩塌现场发现人体残骸",
-      "description": "热 · 突发/灾害",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%87%8D%E5%BA%86%E5%B1%B1%E4%BD%93%E5%B4%A9%E5%A1%8C%E7%8E%B0%E5%9C%BA%E5%8F%91%E7%8E%B0%E4%BA%BA%E4%BD%93%E6%AE%8B%E9%AA%B8%23&t=31&band_rank=1&Refer=top",
-      "score": 2006054,
-      "owner": "微博同城",
-      "label": "热",
-      "category": "突发/灾害",
-      "onboardTime": 1785111921
-    },
-    {
-      "title": "中国制造在全球产业变局中释放新价值",
+      "title": "57岁处级干部每天11点准时脱岗",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E5%88%B6%E9%80%A0%E5%9C%A8%E5%85%A8%E7%90%83%E4%BA%A7%E4%B8%9A%E5%8F%98%E5%B1%80%E4%B8%AD%E9%87%8A%E6%94%BE%E6%96%B0%E4%BB%B7%E5%80%BC%23&t=31&band_rank=1&Refer=top",
-      "score": 1033341,
+      "url": "https://s.weibo.com/weibo?q=%2357%E5%B2%81%E5%A4%84%E7%BA%A7%E5%B9%B2%E9%83%A8%E6%AF%8F%E5%A4%A911%E7%82%B9%E5%87%86%E6%97%B6%E8%84%B1%E5%B2%97%23&t=31&band_rank=1&Refer=top",
+      "score": 876730,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1785119659
+      "onboardTime": 1785144862
     },
     {
-      "title": "宝马车主逃单3000被抓说这么多吗",
+      "title": "上半年规上工业企业利润增长18.7%",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AE%9D%E9%A9%AC%E8%BD%A6%E4%B8%BB%E9%80%83%E5%8D%953000%E8%A2%AB%E6%8A%93%E8%AF%B4%E8%BF%99%E4%B9%88%E5%A4%9A%E5%90%97%23&t=31&band_rank=1&Refer=top",
-      "score": 716179,
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%8A%E5%8D%8A%E5%B9%B4%E8%A7%84%E4%B8%8A%E5%B7%A5%E4%B8%9A%E4%BC%81%E4%B8%9A%E5%88%A9%E6%B6%A6%E5%A2%9E%E9%95%BF18.7%25%23&t=31&band_rank=1&Refer=top",
+      "score": 698737,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1785116900
+      "onboardTime": 1785136705
     },
     {
-      "title": "卫健局介入女童基因编辑死亡事件",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8D%AB%E5%81%A5%E5%B1%80%E4%BB%8B%E5%85%A5%E5%A5%B3%E7%AB%A5%E5%9F%BA%E5%9B%A0%E7%BC%96%E8%BE%91%E6%AD%BB%E4%BA%A1%E4%BA%8B%E4%BB%B6%23&t=31&band_rank=1&Refer=top",
-      "score": 342065,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1785122180
-    },
-    {
-      "title": "50万粉丝抓蛇博主在广西排除蛇患",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%2350%E4%B8%87%E7%B2%89%E4%B8%9D%E6%8A%93%E8%9B%87%E5%8D%9A%E4%B8%BB%E5%9C%A8%E5%B9%BF%E8%A5%BF%E6%8E%92%E9%99%A4%E8%9B%87%E6%82%A3%23&t=31&band_rank=1&Refer=top",
-      "score": 336580,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1785119780
-    },
-    {
-      "title": "男子冲进早教班动手打3岁幼童",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E5%86%B2%E8%BF%9B%E6%97%A9%E6%95%99%E7%8F%AD%E5%8A%A8%E6%89%8B%E6%89%933%E5%B2%81%E5%B9%BC%E7%AB%A5%23&t=31&band_rank=1&Refer=top",
-      "score": 330483,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1785124041
-    },
-    {
-      "title": "上海一酒店月租万元起长住客近半",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%8A%E6%B5%B7%E4%B8%80%E9%85%92%E5%BA%97%E6%9C%88%E7%A7%9F%E4%B8%87%E5%85%83%E8%B5%B7%E9%95%BF%E4%BD%8F%E5%AE%A2%E8%BF%91%E5%8D%8A%23&t=31&band_rank=1&Refer=top",
-      "score": 328867,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1785124100
-    },
-    {
-      "title": "龙卷风突袭 他3分钟失去父母和公司",
-      "description": "突发/灾害",
-      "url": "https://s.weibo.com/weibo?q=%E9%BE%99%E5%8D%B7%E9%A3%8E%E7%AA%81%E8%A2%AD%20%E4%BB%963%E5%88%86%E9%92%9F%E5%A4%B1%E5%8E%BB%E7%88%B6%E6%AF%8D%E5%92%8C%E5%85%AC%E5%8F%B8&t=31&band_rank=1&Refer=top",
-      "score": 261571,
+      "title": "河南三支一扶 高分",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E6%B2%B3%E5%8D%97%E4%B8%89%E6%94%AF%E4%B8%80%E6%89%B6%20%E9%AB%98%E5%88%86&t=31&band_rank=1&Refer=top",
+      "score": 345937,
       "owner": "微博同城",
       "label": "",
-      "category": "突发/灾害",
-      "onboardTime": 1785114500
+      "category": "民生新闻",
+      "onboardTime": 1785131960
     },
     {
-      "title": "LV称不实信息损害品牌形象",
+      "title": "第13号台风白海豚要来了",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23LV%E7%A7%B0%E4%B8%8D%E5%AE%9E%E4%BF%A1%E6%81%AF%E6%8D%9F%E5%AE%B3%E5%93%81%E7%89%8C%E5%BD%A2%E8%B1%A1%23&t=31&band_rank=1&Refer=top",
-      "score": 170555,
+      "url": "https://s.weibo.com/weibo?q=%23%E7%AC%AC13%E5%8F%B7%E5%8F%B0%E9%A3%8E%E7%99%BD%E6%B5%B7%E8%B1%9A%E8%A6%81%E6%9D%A5%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 298246,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1785124461
+      "onboardTime": 1785145161
+    },
+    {
+      "title": "西瓜滞销村干部要求村民撤回求助",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%A5%BF%E7%93%9C%E6%BB%9E%E9%94%80%E6%9D%91%E5%B9%B2%E9%83%A8%E8%A6%81%E6%B1%82%E6%9D%91%E6%B0%91%E6%92%A4%E5%9B%9E%E6%B1%82%E5%8A%A9%23&t=31&band_rank=1&Refer=top",
+      "score": 272630,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1785136646
+    },
+    {
+      "title": "博物馆存包遭遇押金退还未到账",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8D%9A%E7%89%A9%E9%A6%86%E5%AD%98%E5%8C%85%E9%81%AD%E9%81%87%E6%8A%BC%E9%87%91%E9%80%80%E8%BF%98%E6%9C%AA%E5%88%B0%E8%B4%A6%23&t=31&band_rank=1&Refer=top",
+      "score": 243650,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1785145341
+    },
+    {
+      "title": "台风红霞停编",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8F%B0%E9%A3%8E%E7%BA%A2%E9%9C%9E%E5%81%9C%E7%BC%96%23&t=31&band_rank=1&Refer=top",
+      "score": 242609,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1785144681
     }
   ]
 }
