@@ -6,100 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "github:https://github.com/slvDev/esp32-ai",
-      "url": "https://github.com/slvDev/esp32-ai",
-      "title": "[GitHub 热门新项目] slvDev/esp32-ai",
-      "date_published": "2026-07-27T04:34:34Z"
+      "id": "hackernews:https://www.anthropic.com/news/claude-opus-5",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "title": "[Hacker News 热门] Claude Opus 5",
+      "date_published": "2026-07-27T05:54:39Z"
     },
     {
-      "id": "github:https://github.com/Jakubantalik/thinking-orbs",
-      "url": "https://github.com/Jakubantalik/thinking-orbs",
-      "title": "[GitHub 热门新项目] Jakubantalik/thinking-orbs",
-      "date_published": "2026-07-27T04:34:34Z"
+      "id": "hackernews:https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+      "title": "[Hacker News 热门] OpenAI and Hugging Face address security incident during model evaluation",
+      "date_published": "2026-07-27T05:54:39Z"
     },
     {
-      "id": "github:https://github.com/mikiarlo3/ai-copywriter",
-      "url": "https://github.com/mikiarlo3/ai-copywriter",
-      "title": "[GitHub 热门新项目] mikiarlo3/ai-copywriter",
-      "date_published": "2026-07-27T04:34:34Z"
+      "id": "hackernews:https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
+      "url": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
+      "title": "[Hacker News 热门] Writing by hand is good for your brain",
+      "date_published": "2026-07-27T05:54:39Z"
     },
     {
-      "id": "github:https://github.com/mshumer/Claude-of-Duty",
-      "url": "https://github.com/mshumer/Claude-of-Duty",
-      "title": "[GitHub 热门新项目] mshumer/Claude-of-Duty",
-      "date_published": "2026-07-27T04:34:34Z"
+      "id": "hackernews:https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
+      "url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
+      "title": "[Hacker News 热门] China’s open-weights AI strategy is winning",
+      "date_published": "2026-07-27T05:54:39Z"
     },
     {
-      "id": "github:https://github.com/gnipbao/story-to-handdrawn-video",
-      "url": "https://github.com/gnipbao/story-to-handdrawn-video",
-      "title": "[GitHub 热门新项目] gnipbao/story-to-handdrawn-video",
-      "date_published": "2026-07-27T04:34:34Z"
+      "id": "hackernews:https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
+      "url": "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
+      "title": "[Hacker News 热门] Terence Tao's ChatGPT conversation about the Jacobian Conjecture counterexample",
+      "date_published": "2026-07-27T05:54:39Z"
     },
     {
-      "id": "github:https://github.com/makecindy/cindy",
-      "url": "https://github.com/makecindy/cindy",
-      "title": "[GitHub 热门新项目] makecindy/cindy",
-      "date_published": "2026-07-27T04:34:34Z"
+      "id": "hackernews:https://ads.openai.com/",
+      "url": "https://ads.openai.com/",
+      "title": "[Hacker News 热门] Advertise in ChatGPT",
+      "date_published": "2026-07-27T05:54:39Z"
     },
     {
-      "id": "github:https://github.com/vercel-labs/scriptc",
-      "url": "https://github.com/vercel-labs/scriptc",
-      "title": "[GitHub 热门新项目] vercel-labs/scriptc",
-      "date_published": "2026-07-27T04:34:34Z"
+      "id": "hackernews:https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
+      "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
+      "title": "[Hacker News 热门] Startup founders urge U.S. government not to shut off Chinese open weight AI",
+      "date_published": "2026-07-27T05:54:39Z"
     },
     {
-      "id": "github:https://github.com/0xhype/hyperliquid-tracker",
-      "url": "https://github.com/0xhype/hyperliquid-tracker",
-      "title": "[GitHub 热门新项目] 0xhype/hyperliquid-tracker",
-      "date_published": "2026-07-27T04:34:34Z"
-    },
-    {
-      "id": "githubActive:https://github.com/freeCodeCamp/freeCodeCamp",
-      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "title": "[GitHub 活跃项目] freeCodeCamp/freeCodeCamp",
-      "date_published": "2026-07-27T04:34:34Z"
-    },
-    {
-      "id": "githubActive:https://github.com/public-apis/public-apis",
-      "url": "https://github.com/public-apis/public-apis",
-      "title": "[GitHub 活跃项目] public-apis/public-apis",
-      "date_published": "2026-07-27T04:34:34Z"
-    },
-    {
-      "id": "githubActive:https://github.com/EbookFoundation/free-programming-books",
-      "url": "https://github.com/EbookFoundation/free-programming-books",
-      "title": "[GitHub 活跃项目] EbookFoundation/free-programming-books",
-      "date_published": "2026-07-27T04:34:34Z"
-    },
-    {
-      "id": "githubActive:https://github.com/openclaw/openclaw",
-      "url": "https://github.com/openclaw/openclaw",
-      "title": "[GitHub 活跃项目] openclaw/openclaw",
-      "date_published": "2026-07-27T04:34:34Z"
-    },
-    {
-      "id": "githubActive:https://github.com/nilbuild/developer-roadmap",
-      "url": "https://github.com/nilbuild/developer-roadmap",
-      "title": "[GitHub 活跃项目] nilbuild/developer-roadmap",
-      "date_published": "2026-07-27T04:34:34Z"
-    },
-    {
-      "id": "githubActive:https://github.com/vinta/awesome-python",
-      "url": "https://github.com/vinta/awesome-python",
-      "title": "[GitHub 活跃项目] vinta/awesome-python",
-      "date_published": "2026-07-27T04:34:34Z"
-    },
-    {
-      "id": "githubActive:https://github.com/awesome-selfhosted/awesome-selfhosted",
-      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-      "title": "[GitHub 活跃项目] awesome-selfhosted/awesome-selfhosted",
-      "date_published": "2026-07-27T04:34:34Z"
-    },
-    {
-      "id": "githubActive:https://github.com/obra/superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "title": "[GitHub 活跃项目] obra/superpowers",
-      "date_published": "2026-07-27T04:34:34Z"
+      "id": "hackernews:https://bento.page/slides/",
+      "url": "https://bento.page/slides/",
+      "title": "[Hacker News 热门] Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab)",
+      "date_published": "2026-07-27T05:54:39Z"
     }
   ]
 }

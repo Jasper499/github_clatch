@@ -1,33 +1,33 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-07-26T15:08:46Z",
+  "savedAt": "2026-07-27T05:54:39Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-07-26，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-07-27，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-07-26",
+  "fetchedDate": "2026-07-27",
   "items": [
     {
       "title": "Claude Opus 5",
       "description": "<a href=\"https:&#x2F;&#x2F;www.anthropic.com&#x2F;claude-opus-5-system-card\" rel=\"nofollow\">https:&#x2F;&#x2F;www.anthropic.com&#x2F;claude-opus-5-system-card</a>",
       "url": "https://www.anthropic.com/news/claude-opus-5",
-      "score": 1756,
-      "comments": 1298,
+      "score": 1768,
+      "comments": 1317,
       "owner": "alvis"
     },
     {
       "title": "OpenAI and Hugging Face address security incident during model evaluation",
       "description": "<a href=\"https:&#x2F;&#x2F;www.axios.com&#x2F;2026&#x2F;07&#x2F;21&#x2F;openai-says-hugging-face-breach-caused-by-one-its-models\" rel=\"nofollow\">https:&#x2F;&#x2F;www.axios.com&#x2F;2026&#x2F;07&#x2F;21&#x2F;openai-says-hugging-face-br...</a><p>See also <i>Security incident disclosure – July 2026</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48956248\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48956248</a> (9 comments)<p><a href=\"https:&#x2F;&#x2F;www.bbc.com&#x2F;news&#x2F;articles&#x2F;c3ek3gvdnj3o\" rel=\"nofollow\">https:&#x2F;&#x2F;www.bbc.com&#x2F;news&#x2F;articles&#x2F;c3ek3gvdnj3o</a>",
       "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
-      "score": 1625,
-      "comments": 1155,
+      "score": 1626,
+      "comments": 1156,
       "owner": "mfiguiere"
     },
     {
       "title": "Writing by hand is good for your brain",
       "description": "",
       "url": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
-      "score": 1470,
-      "comments": 659,
+      "score": 1475,
+      "comments": 665,
       "owner": "dwwoelfel"
     },
     {
@@ -42,7 +42,7 @@
       "title": "Terence Tao's ChatGPT conversation about the Jacobian Conjecture counterexample",
       "description": "<i>A digestion of the Jacobian conjecture counterexample</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48998362\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48998362</a> - July 2026 (133 comments)<p><i>Claude Fable produced a counterexample to the Jacobian Conjecture</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48973869\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48973869</a> - July 2026 (508 comments)",
       "url": "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
-      "score": 1117,
+      "score": 1118,
       "comments": 636,
       "owner": "gmays"
     },
@@ -50,7 +50,7 @@
       "title": "Advertise in ChatGPT",
       "description": "",
       "url": "https://ads.openai.com/",
-      "score": 1093,
+      "score": 1095,
       "comments": 840,
       "owner": "montecarl"
     },
@@ -58,15 +58,15 @@
       "title": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
       "description": "<a href=\"https:&#x2F;&#x2F;littletech.org&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;littletech.org&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;static.politico.com&#x2F;4a&#x2F;bf&#x2F;9c4021d8404386b0a311dcccf0e5&#x2F;lta-open-weight-ai-letter-7-22-26.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;static.politico.com&#x2F;4a&#x2F;bf&#x2F;9c4021d8404386b0a311dcccf0...</a>",
       "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
-      "score": 1063,
-      "comments": 880,
+      "score": 1065,
+      "comments": 886,
       "owner": "theanonymousone"
     },
     {
       "title": "Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab)",
       "description": "Over the past few months, our team has been building more and more slidedecks using web frontend technologies with coding harnesses like Claude Code, but a common complaint is to make even small edits we need to edit the code either manually or via the harness.<p>To avoid this loop, I ended up creating Bento, a single HTML file with everything you need in a slide tool including animations and shared editing. There&#x27;s no install or cloud login, everything works offline. The default deck is around 560 KB and it doesn&#x27;t need to fetch anything once you got it.<p>Open it in a browser and then you can edit, present, print and save. Share it via email or via Airdrop and all they need is a browser to edit, present and also do live collab on the slides. Drop it in to Claude or ChatGPT to transform existing pptx files into Bento slides. There is no cloud involved, only an encrypted blind relay to allow for shared editing. The relay doesn&#x27;t see any of the data.<p>Check it out at <a href=\"https:&#x2F;&#x2F;bento.page&#x2F;slides&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;bento.page&#x2F;slides&#x2F;</a> which takes you straight to the editor.<p>Go to <a href=\"https:&#x2F;&#x2F;bento.page&#x2F;guestbook&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;bento.page&#x2F;guestbook&#x2F;</a> to try out the live guestbook to experience share editing &#x2F; collab.<p>There is also a gallery with some sample decks on the website - <a href=\"https:&#x2F;&#x2F;bento.page&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;bento.page&#x2F;</a><p>All the code is MIT licensed and you can find it here - <a href=\"https:&#x2F;&#x2F;github.com&#x2F;nyblnet&#x2F;bento\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;nyblnet&#x2F;bento</a> . I used reveal.js with several other libraries (including some homegrown ones), and Claude Code.",
       "url": "https://bento.page/slides/",
-      "score": 1018,
+      "score": 1021,
       "comments": 238,
       "owner": "starfallg"
     },
@@ -82,8 +82,8 @@
       "title": "Android may soon restrict on-device ADB",
       "description": "",
       "url": "https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/",
-      "score": 956,
-      "comments": 470,
+      "score": 980,
+      "comments": 484,
       "owner": "shscs911"
     },
     {
@@ -91,14 +91,22 @@
       "description": "<a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;na_announce&#x2F;status&#x2F;2079952538040672302\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;na_announce&#x2F;status&#x2F;2079952538040672302</a><p><a href=\"https:&#x2F;&#x2F;www.twit.community&#x2F;t&#x2F;john-c-dvorak-has-passed-away&#x2F;20291\" rel=\"nofollow\">https:&#x2F;&#x2F;www.twit.community&#x2F;t&#x2F;john-c-dvorak-has-passed-away&#x2F;2...</a><p><a href=\"https:&#x2F;&#x2F;www.facebook.com&#x2F;aric.mackey&#x2F;posts&#x2F;john-c-dvorak-19462026john-c-dvorak-a-pioneering-technology-journalist-podcaster&#x2F;10242625420121221&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.facebook.com&#x2F;aric.mackey&#x2F;posts&#x2F;john-c-dvorak-194...</a>",
       "url": "https://twitter.com/na_announce/status/2079952538040672302",
       "score": 925,
-      "comments": 316,
+      "comments": 319,
       "owner": "coleca"
+    },
+    {
+      "title": "Kill The Cookie Banner",
+      "description": "",
+      "url": "https://killthecookiebanner.eu/",
+      "score": 904,
+      "comments": 441,
+      "owner": "rapnie"
     },
     {
       "title": "Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA",
       "description": "Also: Kimi K3: second only to Fable 5 on AA-Briefcase\n <a href=\"https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;articles&#x2F;kimi-k3-agentic-knowledge-benchmark\" rel=\"nofollow\">https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;articles&#x2F;kimi-k3-agentic-knowl...</a>",
       "url": "https://fireworks.ai/blog/kimik3-fable",
-      "score": 876,
+      "score": 877,
       "comments": 447,
       "owner": "piotrgrabowski"
     },
@@ -106,32 +114,24 @@
       "title": "If coding has been solved, why does software keep getting worse?",
       "description": "",
       "url": "https://ptrchm.com/posts/nothing-works-and-everyone-is-euphoric/",
-      "score": 863,
-      "comments": 644,
+      "score": 874,
+      "comments": 668,
       "owner": "pchm"
     },
     {
       "title": "Airport Simulator",
       "description": "",
       "url": "https://airport.apunen.com/",
-      "score": 854,
+      "score": 855,
       "comments": 167,
       "owner": "apunen"
-    },
-    {
-      "title": "Claude Fable produced a counterexample to the Jacobian Conjecture",
-      "description": "",
-      "url": "https://xcancel.com/__alpoge__/status/2079028340955197566",
-      "score": 801,
-      "comments": 514,
-      "owner": "loubbrad"
     },
     {
       "title": "It's getting harder to focus every day",
       "description": "",
       "url": "https://glyphack.com/attention/",
-      "score": 765,
-      "comments": 406,
+      "score": 771,
+      "comments": 410,
       "owner": "peykar"
     },
     {
@@ -146,7 +146,7 @@
       "title": "FreeInk: Open ecosystem for e-readers",
       "description": "",
       "url": "https://freeink.org/",
-      "score": 719,
+      "score": 722,
       "comments": 169,
       "owner": "FriedPickles"
     },
@@ -155,14 +155,14 @@
       "description": "",
       "url": "https://news.risky.biz/risky-bulletin-hacker-wipes-romanias-entire-land-registry-database/",
       "score": 709,
-      "comments": 413,
+      "comments": 416,
       "owner": "speckx"
     },
     {
       "title": "'VPNs are lawful technical tools,' says EU Court in landmark copyright ruling",
       "description": "",
       "url": "https://www.techradar.com/vpn/vpn-privacy-security/vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling",
-      "score": 700,
+      "score": 701,
       "comments": 141,
       "owner": "healsdata"
     }
