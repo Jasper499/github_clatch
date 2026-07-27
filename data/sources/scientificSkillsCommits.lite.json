@@ -1,12 +1,23 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-07-27T06:06:03Z",
+  "savedAt": "2026-07-27T16:47:58Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "051f93f59fc64cd877d66554d03429f5c486b66e",
+  "latestSha": "81e316bc89f7fda176b092d2bceb959204710b0a",
   "items": [
+    {
+      "title": "chore: update security scan report [skip ci]",
+      "description": "chore: update security scan report [skip ci]",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/81e316bc89f7fda176b092d2bceb959204710b0a",
+      "sha": "81e316b",
+      "fullSha": "81e316bc89f7fda176b092d2bceb959204710b0a",
+      "owner": "github-actions",
+      "published": "2026-07-27",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "Update README, examples, and skills documentation to reflect the addi…",
       "description": "Update README, examples, and skills documentation to reflect the addition of new skills and version bump to 2.57.0. The README now highlights 154 skills, including the new Ontology Term Resolution and Genomic Coordinates skills, and provides updated examples for interdisciplinary workflows. The skills documentation has been expanded to include detailed descriptions of the new skills and their functionalities.",
@@ -157,17 +168,6 @@
       "sha": "dde1906",
       "fullSha": "dde19062f391a190a4eea5692219950e774889bc",
       "owner": "alexlib",
-      "published": "2026-07-26",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Update documentation and improve test structure for autoskill",
-      "description": "Update documentation and improve test structure for autoskill\n\n- Enhanced AGENTS.md to clarify skill scope and directory structure, providing clearer guidelines for skill creation and updates.\n- Updated CONTRIBUTING.md to emphasize the separation of tests from skill directories, ensuring better organization and clarity for contributors.\n- Revised .gitignore to include .pytest_cache, improving project cleanliness.\n- Adjusted pyproject.toml to configure pytest for better test path management.\n- Incremented version number in SKILL.md for autoskill to reflect recent updates.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/2f2022de186dbf73f4c3b6e37b9856fa5cb66db4",
-      "sha": "2f2022d",
-      "fullSha": "2f2022de186dbf73f4c3b6e37b9856fa5cb66db4",
-      "owner": "TKassis",
       "published": "2026-07-26",
       "label": "commit",
       "repo": "K-Dense-AI/scientific-agent-skills"
