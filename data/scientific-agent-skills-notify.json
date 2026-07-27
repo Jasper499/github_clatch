@@ -1,44 +1,44 @@
 {
   "changed": true,
-  "fetchedAt": "2026-07-26T15:44:09Z",
-  "previousSha": "a1b84fb2235e3b24d4af08b0b118414ff3d95d41",
-  "latestSha": "489de4ce4ce908436637b9a52cd6be9480c2ae75",
+  "fetchedAt": "2026-07-27T06:06:03Z",
+  "previousSha": "489de4ce4ce908436637b9a52cd6be9480c2ae75",
+  "latestSha": "051f93f59fc64cd877d66554d03429f5c486b66e",
   "repo": "K-Dense-AI/scientific-agent-skills",
   "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "stars": 0,
-  "skillCount": 150,
+  "skillCount": 154,
   "latestCommit": {
-    "title": "Update security documentation and scanning process",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/489de4ce4ce908436637b9a52cd6be9480c2ae75",
-    "sha": "489de4c",
-    "published": "2026-07-26"
+    "title": "Update README, examples, and skills documentation to reflect the addi…",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/051f93f59fc64cd877d66554d03429f5c486b66e",
+    "sha": "051f93f",
+    "published": "2026-07-27"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
     {
-      "title": "Update security documentation and scanning process",
-      "sha": "489de4c",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/489de4ce4ce908436637b9a52cd6be9480c2ae75"
+      "title": "Update README, examples, and skills documentation to reflect the addi…",
+      "sha": "051f93f",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/051f93f59fc64cd877d66554d03429f5c486b66e"
     },
     {
-      "title": "Remove validate_report.py script as it is no longer needed for the se…",
-      "sha": "b01cff4",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/b01cff4cda1b14b75a3ca111089f3c6b722694d0"
+      "title": "Replace iso-13485-certification with iso-standards-readiness",
+      "sha": "6d22863",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/6d22863f8d8666a32f2bcd1db1169de9e912c8ab"
     },
     {
-      "title": "feat(docx): enhance DOCX skill and comment script functionality",
-      "sha": "a1b84fb",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/a1b84fb2235e3b24d4af08b0b118414ff3d95d41"
+      "title": "Add From the Blog section to README",
+      "sha": "f8eb840",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/f8eb840d1138d589c1f9d83a38b5846bd2d1d39e"
     },
     {
-      "title": "feat(citation-management): enhance metadata handling and subprocess e…",
-      "sha": "f5a0bbc",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/f5a0bbcf6cdb2bef29607ed571c12918b1caa429"
+      "title": "Add pytest as a dependency in pyproject.toml for improved testing sup…",
+      "sha": "58746dc",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/58746dc785d2c8469dd4736e4e27a3d0835d2760"
     },
     {
-      "title": "perf(security-scan): scan concurrently and reuse unchanged results",
-      "sha": "665663c",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/665663cac17c7cbfa71a6a3b2dad95db494996c1"
+      "title": "Bump version to 2.57.0",
+      "sha": "2598479",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/2598479c83f9ff9e561ec92e767b42cef26b398c"
     }
   ]
 }
