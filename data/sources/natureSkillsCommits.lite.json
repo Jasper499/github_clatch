@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-07-27T06:02:27Z",
+  "savedAt": "2026-07-27T16:36:29Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "8d674eb50454d4b49d3e0be625a121ad4863840b",
+  "latestSha": "1562ab71e5aec0b313f5311130438ba04c7830c9",
   "items": [
+    {
+      "title": "Update README.md",
+      "description": "Update README.md",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/1562ab71e5aec0b313f5311130438ba04c7830c9",
+      "sha": "1562ab7",
+      "fullSha": "1562ab71e5aec0b313f5311130438ba04c7830c9",
+      "owner": "Flyme886",
+      "published": "2026-07-27",
+      "label": "commit"
+    },
     {
       "title": "chore: update star history",
       "description": "chore: update star history",
@@ -143,16 +153,6 @@
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/5fe97a048606f52401e904501406a00c833e461a",
       "sha": "5fe97a0",
       "fullSha": "5fe97a048606f52401e904501406a00c833e461a",
-      "owner": "Travisma2233",
-      "published": "2026-07-20",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #168 from zpf2234/fix/validate-manifest-route-paths",
-      "description": "Merge pull request #168 from zpf2234/fix/validate-manifest-route-paths\n\nfix: validate manifest route paths",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/1f527786d64670ef85bc850f5394787fbd94e678",
-      "sha": "1f52778",
-      "fullSha": "1f527786d64670ef85bc850f5394787fbd94e678",
       "owner": "Travisma2233",
       "published": "2026-07-20",
       "label": "commit"
