@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-07-27T16:36:29Z",
+  "savedAt": "2026-07-28T05:27:12Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "1562ab71e5aec0b313f5311130438ba04c7830c9",
+  "latestSha": "fac88c419fa0ad642014609e3084f52629cfee52",
   "items": [
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/fac88c419fa0ad642014609e3084f52629cfee52",
+      "sha": "fac88c4",
+      "fullSha": "fac88c419fa0ad642014609e3084f52629cfee52",
+      "owner": "github-actions",
+      "published": "2026-07-28",
+      "label": "commit"
+    },
     {
       "title": "Update README.md",
       "description": "Update README.md",
@@ -143,16 +153,6 @@
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/e5a54db177be7072cbea19eea5dec046143b1563",
       "sha": "e5a54db",
       "fullSha": "e5a54db177be7072cbea19eea5dec046143b1563",
-      "owner": "Travisma2233",
-      "published": "2026-07-20",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #169 from zpf2234/ci/scope-repository-validation",
-      "description": "Merge pull request #169 from zpf2234/ci/scope-repository-validation\n\nci: scope repository validation triggers",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/5fe97a048606f52401e904501406a00c833e461a",
-      "sha": "5fe97a0",
-      "fullSha": "5fe97a048606f52401e904501406a00c833e461a",
       "owner": "Travisma2233",
       "published": "2026-07-20",
       "label": "commit"
