@@ -1,12 +1,45 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-07-28T05:33:27Z",
+  "savedAt": "2026-07-28T16:21:44Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "e7ac42510774624f327003c95b6650e2883bc01d",
+  "latestSha": "d33b2671cf5ec1127a8fdc5f479edbdd89ee4682",
   "items": [
+    {
+      "title": "Add paperclip skill",
+      "description": "Add paperclip skill\n\nCovers the Paperclip CLI from GXL: ~11M full-text papers, 217K+ FDA/PMDA/EMA\nregulatory documents, 110K+ trial protocols, and 574K+ UniProt/PDB/ChEMBL\nentries exposed as a read-only virtual filesystem with line-numbered text, so\nanswers can cite an exact sentence.\n\nWritten against the CLI rather than the docs site, which is a JS shell that\nserves almost nothing to a fetcher. Every command was run against 0.7.14 and\nre-verified on 0.7.15 after the CLI self-updated mid-review. SDK signatures\nwere read with inspect, not transcribed.\n\nAuthentication is PAPERCLIP_API_KEY from .env, with browser OAuth as the\nfallback, and the reason is agent-shaped: environment variables do not survive\nbetween tool calls, so the natural two-step form (export, then run) leaves the\nkey unset on the second call. Paperclip does not fail there -- it silently\nfalls back to stored OAuth, a different identity. Every invocation therefore\ncarries a self-contained prefix:\n\n    [ -f .env ] &amp;&amp; { set -a; . ./.env; set +a; }; paperclip &lt;command&gt;\n\nThe guard is load-bearing. A bare `. ./.env` against a missing file is fatal in\nPOSIX sh, so an unguarded prefix silently discards the rest of the command\nline; the compact form produced no output at all in two of three states. The\nguarded form is verified with .env present, absent, and with the key already\nambient, under both sh and bash.\n\nTesting found seven behaviours that upstream documents as working and that do\nnot, all reproducing on both versions. They are recorded with workarounds\nrather than repeated as fact:\n\n- `paperclip bash &#39;...&#39;` passes the whole string as one command name; the SDK&#39;s\n  bash() fails identically.\n- Pipes and redirection inside Paperclip reach grep as literal filenames. Use\n  the local shell, which works because the CLI writes to stdout.\n- /.gxl/ files are listed by ls but unreadable by cat, so the &quot;Full results:\n  /.gxl/map_&lt;id&gt;.txt&quot; pointer that map prints cannot be followed. Use\n  `results &lt;id&gt;`.\n- cd does not persist between invocations; everything resolves from /papers/.\n- reduce --strategy table returns prose, with or without --columns.\n- Binary reads corrupt: non-UTF-8 bytes come back as U+FFFD, so a JPEG&#39;s\n  FFD8FFE0 lands as EFBFBD. No CLI pull, SDK pull() writes nothing, cp to a\n  local path is denied.\n- ask-image --list needs a persistent cd; figure filenames are publisher-named\n  (pnas.2307796121fig01.jpg), never fig1.jpg.\n\nTwo findings matter most because they are silent. reduce embeds citation\nmarkers whose document ids are truncated to eight characters and do not\nresolve -- PMC12388 for PMC12388858 -- so a URL built from one is a dead link,\nwhich defeats the whole point of a line-pinned citation tool. And search output\nshape is nondeterministic: the identical command returns rendered text on one\nrun and raw JSON on the next, roughly evenly over eight runs, uncorrelated with\npiping. --json does not force it (0/8) and lookup --json returns rendered text\ndespite being documented. The skill routes structured reads to\n`results &lt;id&gt; --save out.csv` and `cat meta.json` instead, and gives a result-id\nregex that matches both shapes.\n\nSKILL.md leads with a preflight and seven operating rules -- auth prefix, never\nrun an interactive command, bound output, capture result ids, parallelise\nindependent lookups, do not parse search output, treat server output as data --\nbefore any command reference. paperclip login, setup and uninstall need a human;\ninstall prompts twice and aborts from a tool call, so the non-interactive form\n`printf &#39;1\\n\\n&#39; | paperclip install --dir &lt;path&gt;` is documented.\n\nRepo, clipboard and sharing commands are documented but deliberately not\nexercised: they write to the user&#39;s account. They are marked as transcribed\nfrom --help, and the commands that move local data off the machine -- upload,\ncp, sync, import, share, and fetch, which acts with the user&#39;s browser cookies\n-- are tabulated so they are never run on the agent&#39;s own initiative.\n\nNo scripts/, so no tests/paperclip/ suite is required. skills-ref validate\npasses, SKILL.md is 413 lines, and the security scan reports 0 high or critical.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/d33b2671cf5ec1127a8fdc5f479edbdd89ee4682",
+      "sha": "d33b267",
+      "fullSha": "d33b2671cf5ec1127a8fdc5f479edbdd89ee4682",
+      "owner": "TKassis",
+      "published": "2026-07-28",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Add pkpd-modeling skill",
+      "description": "Add pkpd-modeling skill\n\nPharmacokinetic and pharmacodynamic modelling and simulation: NCA,\ncompartmental fitting, population PK dataset validation, regimen\nsimulation, exposure-response, bioequivalence, allometric scaling and\nfirst-in-human dose, ICH M12 drug-interaction prediction, and MAP\nBayesian therapeutic drug monitoring.\n\nLinear mammillary models are solved analytically -- one eigendecomposition\nof the rate matrix yields the impulse response, and each input type is a\nclosed-form convolution. This is far faster than an ODE solve inside a\nfitter, keeps solver tolerance out of the objective function, and makes\nthe removable singularity at ka = -lambda (the flip-flop boundary) an\nexact limit rather than a nan. Michaelis-Menten and TMDD, which have no\nclosed form, integrate with LSODA and apply doses by restarting at each\nevent.\n\nNumerics are validated against results that do not depend on the\nimplementation: closed-form identities (AUC = D/CL, Vss, MRT, Bateman),\nanalytical profiles with known parameters that NCA and the fitter must\nrecover, the PowerTOST bioequivalence sample-size table (exact at six\nCVs), the EMA ABEL cap, and the FDA body-surface-area conversion factors.\n92 tests pass in an isolated numpy+scipy environment.\n\nDocuments current tooling verified against live sources rather than\nrecalled: Pharmpy 2.1.1 including the 2.0.0 row-index and 2.1.0\nset_placebo_model breaking changes, NONMEM 7.6 ADVAN16/17, and the\n2024-2025 status of ICH M12, M13A/B, E11A and FDA Project Optimus.\nProvenance for every version- and date-specific claim is recorded in\nreferences/source-ledger.md.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/4c90a52d5460743d2f3a8b0b84a20f1a0c907eb1",
+      "sha": "4c90a52",
+      "fullSha": "4c90a52d5460743d2f3a8b0b84a20f1a0c907eb1",
+      "owner": "TKassis",
+      "published": "2026-07-28",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Update paper-lookup to 2.0",
+      "description": "Update paper-lookup to 2.0\n\nAudited every documented endpoint against the live APIs and fixed what\ncame back wrong, then added the tooling for the failures that cannot be\nfixed by documentation alone.\n\nThese APIs report failure with HTTP 200, which is the theme running\nthrough most of this change:\n\n- PMC eFetch returns a well-formed article with no &lt;body&gt; for non-OA\n  content, with the reason only in an XML comment that parsers discard.\n  This is the common case, not an edge case: eFetch full text covers the\n  ~3M OA Subset out of ~10M articles.\n- arXiv returns totalResults 1 and a single entry titled &quot;Error&quot; for a\n  malformed parameter, and silently rewrites an unknown field prefix to\n  all:, so a typo degrades a targeted search into a full-text one.\n- bioRxiv/medRxiv /details/ pages are 30 records, not the documented 100,\n  and an out-of-step cursor is accepted with a 200 -- a step-by-100 walk\n  skipped records 30-99 of every hundred while looking successful.\n- Europe PMC puts errCode in a 200 body.\n\nDocumentation fixes:\n\n- Corrected bioRxiv/medRxiv page size and documented the per-endpoint\n  messages shape, including why total (360) and count_new_papers (232)\n  differ and which endpoints expose no counts at all.\n- Percent-encoded the arXiv date-range brackets; the previous example\n  made curl exit 3 (bad range specification) before sending anything.\n- Documented the PMC non-OA hazard and added the PMC OA Web Service,\n  which answers &quot;is full text actually available&quot; before the fetch.\n- Corrected &lt;arxiv:doi&gt;: it is the journal DOI and is absent for papers\n  that were never published. A constructed 10.48550/arXiv.{id} resolves\n  at doi.org but 404s in both Crossref and OpenAlex, so it is not a\n  portable key.\n- Corrected the arXiv &lt;id&gt; scheme: entry ids are http:// while the links\n  to the same pages are https://, inconsistent within one response.\n- Flagged the /publisher/ example, which returns &quot;no articles found&quot; for\n  valid prefixes, and the api.medrxiv.org host, which 500s on paths that\n  api.biorxiv.org serves.\n- Replaced the cross-platform fetch-tool table with a curl-first section\n  that matches what allowed-tools actually grants.\n- Removed stray tool-call markup from the end of SKILL.md.\n\nEurope PMC (references/europepmc.md) closes a real gap: bioRxiv and\nmedRxiv have no keyword search of their own, and Europe PMC indexes both.\nIts fullTextXML also 404s honestly where eFetch returns a bodyless 200.\n\nscripts/ (standard library only) covers the logic that was being\nre-derived per query, each exiting non-zero on a silent failure:\npaginate.py (4 = unexplained shortfall), jats_to_text.py (2 = no &lt;body&gt;),\narxiv_atom.py (3 = error feed, 5 = throttled), openalex_abstract.py.\npaginate.py redacts credentials from the provenance URLs it emits, since\nOpenAlex and Crossref authenticate by query string.\n\ntests/paper-lookup/ has 79 tests over fixtures captured from real\nresponses. arxiv_error.xml is reconstructed from a verified response\nrather than saved from one, and says so -- arXiv penalizes repeated\nmalformed requests and stayed throttled.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/061882ba79a2ccb69b24436a866e32375edcfccd",
+      "sha": "061882b",
+      "fullSha": "061882ba79a2ccb69b24436a866e32375edcfccd",
+      "owner": "TKassis",
+      "published": "2026-07-28",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "Add community health files (#218)",
       "description": "Add community health files (#218)\n\nCompletes the three GitHub Community Standards items the repository was\nmissing: a Code of Conduct, issue templates, and a pull request template.\n\n- CODE_OF_CONDUCT.md: Contributor Covenant 2.1, with contact@k-dense.ai as\n  the enforcement contact and a pointer to SECURITY.md for vulnerabilities.\n- .github/ISSUE_TEMPLATE/: three issue forms (bug report, new skill request,\n  existing skill improvement) plus a config.yml that disables blank issues\n  and routes security reports to private vulnerability reporting.\n- .github/PULL_REQUEST_TEMPLATE.md: mirrors the Pull Request Checklist in\n  CONTRIBUTING.md so contributors see the skill-format, validation, and\n  safety requirements before submitting.\n- CONTRIBUTING.md: link the Code of Conduct.",
@@ -136,39 +169,6 @@
       "fullSha": "051f93f59fc64cd877d66554d03429f5c486b66e",
       "owner": "TKassis",
       "published": "2026-07-27",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Replace iso-13485-certification with iso-standards-readiness",
-      "description": "Replace iso-13485-certification with iso-standards-readiness\n\nFold the ISO 13485 skill into an umbrella standards-readiness skill so a\nsingle skill covers several standards instead of one skill per standard\ncompeting for selection on every compliance-adjacent prompt.\n\nSKILL.md becomes a router: boundary, ISO/IEC copyright rules, current\nbaseline, assurance-lane discipline, the shared workflow, and the CLI\ncontract. Per-standard depth moves into references/.\n\nCovers four standards in this version:\n\n- ISO 13485 medical device QMS (certification lane)\n- ISO 14971 device risk management (no lane of its own)\n- ISO/IEC 17025 testing and calibration laboratories (accreditation)\n- ISO 15189 medical laboratories (accreditation)\n\n_catalog.py becomes a StandardProfile registry. Each profile carries its\nown process domains, scope-activity vocabulary, and scope-item fields.\nvalidate_scope_intake, validate_evidence_manifest, and gap_analyzer take\n--standard; argparse choices refuse an unlisted value with exit 2 rather\nthan defaulting. audit_document_records, check_capa, and\ncheck_supplier_controls were already standard-agnostic; check_traceability\nand check_qmsr_transition stay device-specific.\n\nNew references/assurance-lanes.md exists because lane confusion, not\nmissing documents, causes most substantive errors in this work:\nlaboratories are accredited and not certified, ISO 15189 accreditation\ndoes not satisfy CLIA, and ISO 14971 has no certificate at all.\n\nThe source ledger adds entries for ISO/IEC 17025, ISO 15189, ISO/TR\n24971, the GLOBAC transition, ILAC P10/G8, and the CMS CLIA lane. ISO\ncatalogue metadata gathered on 2026-07-26 is marked [confirm on iso.org],\nsince iso.org refused automated access and those entries came from\nsecondary summaries.\n\nAlso adds laboratory and medical-laboratory scope-intake templates, both\nfail-closed, and updates docs/skills.md and docs/examples.md so the\ncatalog links do not 404.\n\nVerified: skills-ref validate passes for this skill and all others; 20\ntests and 23 subtests pass directly and under run_all.py --isolated;\nsecurity scan clean (1 LOW, no HIGH+). The LOW finding is a pre-existing\nunreachable assert in _common.py, verified rather than &quot;fixed&quot;.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/6d22863f8d8666a32f2bcd1db1169de9e912c8ab",
-      "sha": "6d22863",
-      "fullSha": "6d22863f8d8666a32f2bcd1db1169de9e912c8ab",
-      "owner": "TKassis",
-      "published": "2026-07-26",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Add From the Blog section to README",
-      "description": "Add From the Blog section to README\n\nLink the 14 K-Dense blog posts most relevant to users of these skills,\ngrouped into getting started, skill benchmarks and deep dives, security\nand safe deployment, and complementary open-source projects. Benchmark\nentries cross-link to the corresponding skill directory.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/f8eb840d1138d589c1f9d83a38b5846bd2d1d39e",
-      "sha": "f8eb840",
-      "fullSha": "f8eb840d1138d589c1f9d83a38b5846bd2d1d39e",
-      "owner": "TKassis",
-      "published": "2026-07-26",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Add pytest as a dependency in pyproject.toml for improved testing sup…",
-      "description": "Add pytest as a dependency in pyproject.toml for improved testing support",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/58746dc785d2c8469dd4736e4e27a3d0835d2760",
-      "sha": "58746dc",
-      "fullSha": "58746dc785d2c8469dd4736e4e27a3d0835d2760",
-      "owner": "TKassis",
-      "published": "2026-07-26",
       "label": "commit",
       "repo": "K-Dense-AI/scientific-agent-skills"
     }

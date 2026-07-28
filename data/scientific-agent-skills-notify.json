@@ -1,20 +1,35 @@
 {
   "changed": true,
-  "fetchedAt": "2026-07-28T05:33:27Z",
-  "previousSha": "81e316bc89f7fda176b092d2bceb959204710b0a",
-  "latestSha": "e7ac42510774624f327003c95b6650e2883bc01d",
+  "fetchedAt": "2026-07-28T16:21:44Z",
+  "previousSha": "e7ac42510774624f327003c95b6650e2883bc01d",
+  "latestSha": "d33b2671cf5ec1127a8fdc5f479edbdd89ee4682",
   "repo": "K-Dense-AI/scientific-agent-skills",
   "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "stars": 0,
-  "skillCount": 156,
+  "skillCount": 158,
   "latestCommit": {
-    "title": "Add community health files (#218)",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/e7ac42510774624f327003c95b6650e2883bc01d",
-    "sha": "e7ac425",
+    "title": "Add paperclip skill",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/d33b2671cf5ec1127a8fdc5f479edbdd89ee4682",
+    "sha": "d33b267",
     "published": "2026-07-28"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "Add paperclip skill",
+      "sha": "d33b267",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/d33b2671cf5ec1127a8fdc5f479edbdd89ee4682"
+    },
+    {
+      "title": "Add pkpd-modeling skill",
+      "sha": "4c90a52",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/4c90a52d5460743d2f3a8b0b84a20f1a0c907eb1"
+    },
+    {
+      "title": "Update paper-lookup to 2.0",
+      "sha": "061882b",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/061882ba79a2ccb69b24436a866e32375edcfccd"
+    },
     {
       "title": "Add community health files (#218)",
       "sha": "e7ac425",
@@ -24,21 +39,6 @@
       "title": "Update README",
       "sha": "752753b",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/752753bf7214de96d333d9b502bf93bc2700bae9"
-    },
-    {
-      "title": "Add new skill for genomic data analysis",
-      "sha": "dbe9422",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/dbe942214d9725d8d327bb566fa726ffd241ddc8"
-    },
-    {
-      "title": "Add bulk RNA-seq diagram to documentation",
-      "sha": "0789168",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/07891681fb8b0b5bdb7d6d5f9a5a68b5af110da4"
-    },
-    {
-      "title": "More diagrams for skills",
-      "sha": "ce01a27",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/ce01a273b3f0af614c05e9cc29b1c4eac5520f6a"
     }
   ]
 }
