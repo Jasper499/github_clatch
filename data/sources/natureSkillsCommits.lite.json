@@ -1,12 +1,32 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-07-28T05:27:12Z",
+  "savedAt": "2026-07-28T16:16:42Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "fac88c419fa0ad642014609e3084f52629cfee52",
+  "latestSha": "ca9f57e80e8bc100eb06ebfbfff406c126e5b256",
   "items": [
+    {
+      "title": "Update README.md",
+      "description": "Update README.md",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/ca9f57e80e8bc100eb06ebfbfff406c126e5b256",
+      "sha": "ca9f57e",
+      "fullSha": "ca9f57e80e8bc100eb06ebfbfff406c126e5b256",
+      "owner": "Flyme886",
+      "published": "2026-07-28",
+      "label": "commit"
+    },
+    {
+      "title": "Update print statement from 'Hello' to 'Goodbye'",
+      "description": "Update print statement from &#39;Hello&#39; to &#39;Goodbye&#39;",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/d74d49641ad87c6bc6cd32a5c14eb543a94d7414",
+      "sha": "d74d496",
+      "fullSha": "d74d49641ad87c6bc6cd32a5c14eb543a94d7414",
+      "owner": "Flyme886",
+      "published": "2026-07-28",
+      "label": "commit"
+    },
     {
       "title": "chore: update star history",
       "description": "chore: update star history",
@@ -135,26 +155,6 @@
       "fullSha": "a3d990fe73a469c323a82c5605d7329f80f061c6",
       "owner": "MuseLinn",
       "published": "2026-07-21",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #171 from zpf2234/ci/run-skill-index-on-skill-changes",
-      "description": "Merge pull request #171 from zpf2234/ci/run-skill-index-on-skill-changes\n\nci: validate skill index on skill changes",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/05305ab1a636e7794849181cb97f397b49ed498b",
-      "sha": "05305ab",
-      "fullSha": "05305ab1a636e7794849181cb97f397b49ed498b",
-      "owner": "Travisma2233",
-      "published": "2026-07-20",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #170 from zpf2234/docs/nature-downloader-readme-ha…",
-      "description": "Merge pull request #170 from zpf2234/docs/nature-downloader-readme-hardening\n\ndocs: harden downloader README guidance",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/e5a54db177be7072cbea19eea5dec046143b1563",
-      "sha": "e5a54db",
-      "fullSha": "e5a54db177be7072cbea19eea5dec046143b1563",
-      "owner": "Travisma2233",
-      "published": "2026-07-20",
       "label": "commit"
     }
   ]
