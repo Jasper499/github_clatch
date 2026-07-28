@@ -1,44 +1,44 @@
 {
   "changed": true,
-  "fetchedAt": "2026-07-27T16:47:58Z",
-  "previousSha": "051f93f59fc64cd877d66554d03429f5c486b66e",
-  "latestSha": "81e316bc89f7fda176b092d2bceb959204710b0a",
+  "fetchedAt": "2026-07-28T05:33:27Z",
+  "previousSha": "81e316bc89f7fda176b092d2bceb959204710b0a",
+  "latestSha": "e7ac42510774624f327003c95b6650e2883bc01d",
   "repo": "K-Dense-AI/scientific-agent-skills",
   "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "stars": 0,
-  "skillCount": 154,
+  "skillCount": 156,
   "latestCommit": {
-    "title": "chore: update security scan report [skip ci]",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/81e316bc89f7fda176b092d2bceb959204710b0a",
-    "sha": "81e316b",
-    "published": "2026-07-27"
+    "title": "Add community health files (#218)",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/e7ac42510774624f327003c95b6650e2883bc01d",
+    "sha": "e7ac425",
+    "published": "2026-07-28"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
     {
-      "title": "chore: update security scan report [skip ci]",
-      "sha": "81e316b",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/81e316bc89f7fda176b092d2bceb959204710b0a"
+      "title": "Add community health files (#218)",
+      "sha": "e7ac425",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/e7ac42510774624f327003c95b6650e2883bc01d"
     },
     {
-      "title": "Update README, examples, and skills documentation to reflect the addi…",
-      "sha": "051f93f",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/051f93f59fc64cd877d66554d03429f5c486b66e"
+      "title": "Update README",
+      "sha": "752753b",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/752753bf7214de96d333d9b502bf93bc2700bae9"
     },
     {
-      "title": "Replace iso-13485-certification with iso-standards-readiness",
-      "sha": "6d22863",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/6d22863f8d8666a32f2bcd1db1169de9e912c8ab"
+      "title": "Add new skill for genomic data analysis",
+      "sha": "dbe9422",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/dbe942214d9725d8d327bb566fa726ffd241ddc8"
     },
     {
-      "title": "Add From the Blog section to README",
-      "sha": "f8eb840",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/f8eb840d1138d589c1f9d83a38b5846bd2d1d39e"
+      "title": "Add bulk RNA-seq diagram to documentation",
+      "sha": "0789168",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/07891681fb8b0b5bdb7d6d5f9a5a68b5af110da4"
     },
     {
-      "title": "Add pytest as a dependency in pyproject.toml for improved testing sup…",
-      "sha": "58746dc",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/58746dc785d2c8469dd4736e4e27a3d0835d2760"
+      "title": "More diagrams for skills",
+      "sha": "ce01a27",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/ce01a273b3f0af614c05e9cc29b1c4eac5520f6a"
     }
   ]
 }
