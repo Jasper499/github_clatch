@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-07-28T05:18:34Z",
+  "savedAt": "2026-07-28T16:06:40Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-07-28，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,48 +10,48 @@
       "title": "Claude Opus 5",
       "description": "<a href=\"https:&#x2F;&#x2F;www.anthropic.com&#x2F;claude-opus-5-system-card\" rel=\"nofollow\">https:&#x2F;&#x2F;www.anthropic.com&#x2F;claude-opus-5-system-card</a>",
       "url": "https://www.anthropic.com/news/claude-opus-5",
-      "score": 1775,
-      "comments": 1322,
+      "score": 1777,
+      "comments": 1325,
       "owner": "alvis"
     },
     {
       "title": "OpenAI and Hugging Face address security incident during model evaluation",
       "description": "<a href=\"https:&#x2F;&#x2F;www.axios.com&#x2F;2026&#x2F;07&#x2F;21&#x2F;openai-says-hugging-face-breach-caused-by-one-its-models\" rel=\"nofollow\">https:&#x2F;&#x2F;www.axios.com&#x2F;2026&#x2F;07&#x2F;21&#x2F;openai-says-hugging-face-br...</a><p>See also <i>Security incident disclosure – July 2026</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48956248\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48956248</a> (9 comments)<p><a href=\"https:&#x2F;&#x2F;www.bbc.com&#x2F;news&#x2F;articles&#x2F;c3ek3gvdnj3o\" rel=\"nofollow\">https:&#x2F;&#x2F;www.bbc.com&#x2F;news&#x2F;articles&#x2F;c3ek3gvdnj3o</a>",
       "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
-      "score": 1628,
-      "comments": 1157,
+      "score": 1630,
+      "comments": 1156,
       "owner": "mfiguiere"
     },
     {
       "title": "Writing by hand is good for your brain",
       "description": "",
       "url": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
-      "score": 1481,
-      "comments": 666,
+      "score": 1482,
+      "comments": 667,
       "owner": "dwwoelfel"
     },
     {
       "title": "Kimi-K3 on HuggingFace",
       "description": "Related: <i>Kimi-K3 Technical Report [pdf]</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49070985\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49070985</a>",
       "url": "https://huggingface.co/moonshotai/Kimi-K3",
-      "score": 1326,
-      "comments": 527,
+      "score": 1357,
+      "comments": 536,
       "owner": "nateb2022"
     },
     {
       "title": "US citizen charged after GrapheneOS phone wipes during airport search",
       "description": "",
       "url": "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html",
-      "score": 1271,
-      "comments": 1020,
+      "score": 1301,
+      "comments": 1058,
       "owner": "eecc"
     },
     {
       "title": "Kill The Cookie Banner",
       "description": "",
       "url": "https://killthecookiebanner.eu/",
-      "score": 1126,
-      "comments": 575,
+      "score": 1141,
+      "comments": 581,
       "owner": "rapnie"
     },
     {
@@ -61,6 +61,14 @@
       "score": 1122,
       "comments": 635,
       "owner": "gmays"
+    },
+    {
+      "title": "Our position on open-weights models",
+      "description": "",
+      "url": "https://www.anthropic.com/news/position-open-weights-models",
+      "score": 1099,
+      "comments": 1578,
+      "owner": "surprisetalk"
     },
     {
       "title": "Advertise in ChatGPT",
@@ -90,8 +98,8 @@
       "title": "Android may soon restrict on-device ADB",
       "description": "",
       "url": "https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/",
-      "score": 998,
-      "comments": 500,
+      "score": 1000,
+      "comments": 502,
       "owner": "shscs911"
     },
     {
@@ -106,16 +114,16 @@
       "title": "PGSimCity - How PostgreSQL Works",
       "description": "",
       "url": "https://nikolays.github.io/PGSimCity/",
-      "score": 899,
-      "comments": 88,
+      "score": 912,
+      "comments": 89,
       "owner": "jonbaer"
     },
     {
       "title": "If coding has been solved, why does software keep getting worse?",
       "description": "",
       "url": "https://ptrchm.com/posts/nothing-works-and-everyone-is-euphoric/",
-      "score": 887,
-      "comments": 686,
+      "score": 891,
+      "comments": 689,
       "owner": "pchm"
     },
     {
@@ -130,24 +138,16 @@
       "title": "It's getting harder to focus every day",
       "description": "",
       "url": "https://glyphack.com/attention/",
-      "score": 777,
-      "comments": 415,
+      "score": 779,
+      "comments": 417,
       "owner": "peykar"
-    },
-    {
-      "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
-      "description": "<a href=\"https:&#x2F;&#x2F;console.cloud.google.com&#x2F;agent-platform&#x2F;publishers&#x2F;google&#x2F;model-garden&#x2F;gemini-3.6-flash\" rel=\"nofollow\">https:&#x2F;&#x2F;console.cloud.google.com&#x2F;agent-platform&#x2F;publishers&#x2F;g...</a>",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
-      "score": 758,
-      "comments": 575,
-      "owner": "logickkk1"
     },
     {
       "title": "AI companies are shredding rare books",
       "description": "<a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;HedgieMarkets&#x2F;status&#x2F;2081534588485296565\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;HedgieMarkets&#x2F;status&#x2F;2081534588485296565</a>",
       "url": "https://twitter.com/HedgieMarkets/status/2081534588485296565",
-      "score": 753,
-      "comments": 476,
+      "score": 772,
+      "comments": 494,
       "owner": "anon373839"
     },
     {
@@ -162,7 +162,7 @@
       "title": "'VPNs are lawful technical tools,' says EU Court in landmark copyright ruling",
       "description": "",
       "url": "https://www.techradar.com/vpn/vpn-privacy-security/vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling",
-      "score": 703,
+      "score": 704,
       "comments": 141,
       "owner": "healsdata"
     }
