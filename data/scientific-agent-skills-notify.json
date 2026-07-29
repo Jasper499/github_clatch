@@ -1,44 +1,44 @@
 {
   "changed": true,
-  "fetchedAt": "2026-07-28T16:21:44Z",
-  "previousSha": "e7ac42510774624f327003c95b6650e2883bc01d",
-  "latestSha": "d33b2671cf5ec1127a8fdc5f479edbdd89ee4682",
+  "fetchedAt": "2026-07-29T05:38:24Z",
+  "previousSha": "d33b2671cf5ec1127a8fdc5f479edbdd89ee4682",
+  "latestSha": "ab2f84ab10597c59fac186ecda6d5edd5dcc8b92",
   "repo": "K-Dense-AI/scientific-agent-skills",
   "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "stars": 0,
   "skillCount": 158,
   "latestCommit": {
-    "title": "Add paperclip skill",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/d33b2671cf5ec1127a8fdc5f479edbdd89ee4682",
-    "sha": "d33b267",
-    "published": "2026-07-28"
+    "title": "Update version to 2.61.0 in pyproject.toml and README.md, reflecting …",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/ab2f84ab10597c59fac186ecda6d5edd5dcc8b92",
+    "sha": "ab2f84a",
+    "published": "2026-07-29"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
     {
-      "title": "Add paperclip skill",
-      "sha": "d33b267",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/d33b2671cf5ec1127a8fdc5f479edbdd89ee4682"
+      "title": "Update version to 2.61.0 in pyproject.toml and README.md, reflecting …",
+      "sha": "ab2f84a",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/ab2f84ab10597c59fac186ecda6d5edd5dcc8b92"
     },
     {
-      "title": "Add pkpd-modeling skill",
-      "sha": "4c90a52",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/4c90a52d5460743d2f3a8b0b84a20f1a0c907eb1"
+      "title": "Update skill versions to 1.4 and 1.5 across multiple skills, includin…",
+      "sha": "f1b60f8",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/f1b60f8ef45fd580fbda538421dc1bd1d81bdbca"
     },
     {
-      "title": "Update paper-lookup to 2.0",
-      "sha": "061882b",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/061882ba79a2ccb69b24436a866e32375edcfccd"
+      "title": "Add new example for Phase 2 regimen development in examples.md and en…",
+      "sha": "07021b9",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/07021b927e6d8dfafe0013503a35d0f6a0b9ad8b"
     },
     {
-      "title": "Add community health files (#218)",
-      "sha": "e7ac425",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/e7ac42510774624f327003c95b6650e2883bc01d"
+      "title": "chore: update security scan report [skip ci]",
+      "sha": "f9d7053",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/f9d7053cb11c560f94cb08dfa64d15b292f5ca1c"
     },
     {
-      "title": "Update README",
-      "sha": "752753b",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/752753bf7214de96d333d9b502bf93bc2700bae9"
+      "title": "Update skill versions and enhance security measures across multiple s…",
+      "sha": "0e45106",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/0e451065e3308e9902d8229e17d2028359b2bbaf"
     }
   ]
 }
