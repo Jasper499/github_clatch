@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-07-29T05:25:56Z",
+  "savedAt": "2026-07-29T15:50:46Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-07-29，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -18,7 +18,7 @@
       "title": "Writing by hand is good for your brain",
       "description": "",
       "url": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
-      "score": 1484,
+      "score": 1485,
       "comments": 668,
       "owner": "dwwoelfel"
     },
@@ -26,24 +26,24 @@
       "title": "Kimi-K3 on HuggingFace",
       "description": "Related: <i>Kimi-K3 Technical Report [pdf]</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49070985\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49070985</a>",
       "url": "https://huggingface.co/moonshotai/Kimi-K3",
-      "score": 1368,
-      "comments": 538,
+      "score": 1374,
+      "comments": 544,
       "owner": "nateb2022"
     },
     {
       "title": "US citizen charged after GrapheneOS phone wipes during airport search",
       "description": "",
       "url": "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html",
-      "score": 1316,
-      "comments": 1101,
+      "score": 1322,
+      "comments": 1107,
       "owner": "eecc"
     },
     {
       "title": "Our position on open-weights models",
       "description": "",
       "url": "https://www.anthropic.com/news/position-open-weights-models",
-      "score": 1154,
-      "comments": 1692,
+      "score": 1163,
+      "comments": 1717,
       "owner": "surprisetalk"
     },
     {
@@ -51,14 +51,14 @@
       "description": "",
       "url": "https://killthecookiebanner.eu/",
       "score": 1144,
-      "comments": 587,
+      "comments": 591,
       "owner": "rapnie"
     },
     {
       "title": "Terence Tao's ChatGPT conversation about the Jacobian Conjecture counterexample",
       "description": "<i>A digestion of the Jacobian conjecture counterexample</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48998362\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48998362</a> - July 2026 (133 comments)<p><i>Claude Fable produced a counterexample to the Jacobian Conjecture</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48973869\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48973869</a> - July 2026 (508 comments)",
       "url": "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
-      "score": 1123,
+      "score": 1124,
       "comments": 635,
       "owner": "gmays"
     },
@@ -71,18 +71,10 @@
       "owner": "theanonymousone"
     },
     {
-      "title": "Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab)",
-      "description": "Over the past few months, our team has been building more and more slidedecks using web frontend technologies with coding harnesses like Claude Code, but a common complaint is to make even small edits we need to edit the code either manually or via the harness.<p>To avoid this loop, I ended up creating Bento, a single HTML file with everything you need in a slide tool including animations and shared editing. There&#x27;s no install or cloud login, everything works offline. The default deck is around 560 KB and it doesn&#x27;t need to fetch anything once you got it.<p>Open it in a browser and then you can edit, present, print and save. Share it via email or via Airdrop and all they need is a browser to edit, present and also do live collab on the slides. Drop it in to Claude or ChatGPT to transform existing pptx files into Bento slides. There is no cloud involved, only an encrypted blind relay to allow for shared editing. The relay doesn&#x27;t see any of the data.<p>Check it out at <a href=\"https:&#x2F;&#x2F;bento.page&#x2F;slides&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;bento.page&#x2F;slides&#x2F;</a> which takes you straight to the editor.<p>Go to <a href=\"https:&#x2F;&#x2F;bento.page&#x2F;guestbook&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;bento.page&#x2F;guestbook&#x2F;</a> to try out the live guestbook to experience share editing &#x2F; collab.<p>There is also a gallery with some sample decks on the website - <a href=\"https:&#x2F;&#x2F;bento.page&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;bento.page&#x2F;</a><p>All the code is MIT licensed and you can find it here - <a href=\"https:&#x2F;&#x2F;github.com&#x2F;nyblnet&#x2F;bento\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;nyblnet&#x2F;bento</a> . I used reveal.js with several other libraries (including some homegrown ones), and Claude Code.",
-      "url": "https://bento.page/slides/",
-      "score": 1025,
-      "comments": 239,
-      "owner": "starfallg"
-    },
-    {
       "title": "Android may soon restrict on-device ADB",
       "description": "",
       "url": "https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/",
-      "score": 1002,
+      "score": 1004,
       "comments": 504,
       "owner": "shscs911"
     },
@@ -99,38 +91,38 @@
       "description": "",
       "url": "https://nikolays.github.io/PGSimCity/",
       "score": 916,
-      "comments": 89,
+      "comments": 90,
       "owner": "jonbaer"
     },
     {
       "title": "If coding has been solved, why does software keep getting worse?",
       "description": "",
       "url": "https://ptrchm.com/posts/nothing-works-and-everyone-is-euphoric/",
-      "score": 892,
+      "score": 896,
       "comments": 689,
       "owner": "pchm"
-    },
-    {
-      "title": "AI companies are shredding rare books",
-      "description": "<a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;HedgieMarkets&#x2F;status&#x2F;2081534588485296565\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;HedgieMarkets&#x2F;status&#x2F;2081534588485296565</a>",
-      "url": "https://twitter.com/HedgieMarkets/status/2081534588485296565",
-      "score": 784,
-      "comments": 508,
-      "owner": "anon373839"
     },
     {
       "title": "7.1 Earthquake in Japan",
       "description": "",
       "url": "https://www.data.jma.go.jp/multi/quake/quake_detail.html?eventID=20260728163528&lang=en",
-      "score": 781,
-      "comments": 209,
+      "score": 802,
+      "comments": 221,
       "owner": "krembo"
+    },
+    {
+      "title": "AI companies are shredding rare books",
+      "description": "<a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;HedgieMarkets&#x2F;status&#x2F;2081534588485296565\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;HedgieMarkets&#x2F;status&#x2F;2081534588485296565</a>",
+      "url": "https://twitter.com/HedgieMarkets/status/2081534588485296565",
+      "score": 790,
+      "comments": 510,
+      "owner": "anon373839"
     },
     {
       "title": "It's getting harder to focus every day",
       "description": "",
       "url": "https://glyphack.com/attention/",
-      "score": 780,
+      "score": 782,
       "comments": 418,
       "owner": "peykar"
     },
@@ -143,18 +135,10 @@
       "owner": "technewssss"
     },
     {
-      "title": "OverpAId – Fire your CEO. Hire the future",
-      "description": "",
-      "url": "https://overpaid.lol",
-      "score": 681,
-      "comments": 364,
-      "owner": "ignaloidas"
-    },
-    {
       "title": "Are AI labs pelicanmaxxing?",
       "description": "",
       "url": "https://dylancastillo.co/posts/pelicanmaxxing.html",
-      "score": 681,
+      "score": 682,
       "comments": 242,
       "owner": "dcastm"
     },
@@ -165,6 +149,22 @@
       "score": 662,
       "comments": 252,
       "owner": "WadeGrimridge"
+    },
+    {
+      "title": "Nvidia, Microsoft, Meta warn against overregulating open-weight models",
+      "description": "Letter: <a href=\"https:&#x2F;&#x2F;images.nvidia.com&#x2F;pdf&#x2F;Open-Weights-and-American-AI-Leadership.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;images.nvidia.com&#x2F;pdf&#x2F;Open-Weights-and-American-AI-L...</a> [pdf]<p><a href=\"https:&#x2F;&#x2F;x.com&#x2F;JensenHuang&#x2F;status&#x2F;2080643682408321103\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;JensenHuang&#x2F;status&#x2F;2080643682408321103</a>, <a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;JensenHuang&#x2F;status&#x2F;2080643682408321103\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;JensenHuang&#x2F;status&#x2F;2080643682408321103</a><p><a href=\"https:&#x2F;&#x2F;www.wired.com&#x2F;story&#x2F;silicon-valley-is-completely-divided-over-chinese-ai&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.wired.com&#x2F;story&#x2F;silicon-valley-is-completely-div...</a>, <a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;LAkVI\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;LAkVI</a>",
+      "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+      "score": 658,
+      "comments": 318,
+      "owner": "louiereederson"
+    },
+    {
+      "title": "Stop Killing the Internet: No Digital ID and No Age Verification",
+      "description": "",
+      "url": "https://citizens-initiative.europa.eu/initiatives/details/2026/000011_en",
+      "score": 654,
+      "comments": 262,
+      "owner": "doener"
     }
   ]
 }
