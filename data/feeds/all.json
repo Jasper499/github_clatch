@@ -6,148 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%A4%A9%E4%BB%B7%E9%80%80%E7%A5%A8%E8%B4%B9%E5%85%A8%E9%A2%9D%E9%80%80%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%A9%E4%BB%B7%E9%80%80%E7%A5%A8%E8%B4%B9%E5%85%A8%E9%A2%9D%E9%80%80%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 天价退票费全额退了",
-      "date_published": "2026-07-30T03:19:26Z"
+      "id": "hackernews:https://www.anthropic.com/news/claude-opus-5",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "title": "[Hacker News 热门] Claude Opus 5",
+      "date_published": "2026-07-30T05:12:40Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23A%E8%82%A1%E7%A7%91%E6%8A%80%E9%80%80%E6%BD%AE%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23A%E8%82%A1%E7%A7%91%E6%8A%80%E9%80%80%E6%BD%AE%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] A股科技退潮",
-      "date_published": "2026-07-30T03:19:26Z"
+      "id": "hackernews:https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
+      "url": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
+      "title": "[Hacker News 热门] Writing by hand is good for your brain",
+      "date_published": "2026-07-30T05:12:40Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%A4%A9%E9%93%BE%E4%B8%89%E5%8F%B701%E6%98%9F%E5%8F%91%E5%B0%84%E6%88%90%E5%8A%9F%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%A9%E9%93%BE%E4%B8%89%E5%8F%B701%E6%98%9F%E5%8F%91%E5%B0%84%E6%88%90%E5%8A%9F%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 天链三号01星发射成功",
-      "date_published": "2026-07-30T03:19:26Z"
+      "id": "hackernews:https://huggingface.co/moonshotai/Kimi-K3",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3",
+      "title": "[Hacker News 热门] Kimi-K3 on HuggingFace",
+      "date_published": "2026-07-30T05:12:40Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E7%99%BD%E9%B9%BF%E5%91%A8%E7%BF%8A%E7%84%B6%E9%80%8F%E6%98%8E%E7%88%B1%E4%BA%BAMV%E4%BA%B2%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E9%B9%BF%E5%91%A8%E7%BF%8A%E7%84%B6%E9%80%8F%E6%98%8E%E7%88%B1%E4%BA%BAMV%E4%BA%B2%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 白鹿周翊然透明爱人MV亲了",
-      "date_published": "2026-07-30T03:19:26Z"
+      "id": "hackernews:https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html",
+      "url": "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html",
+      "title": "[Hacker News 热门] US citizen charged after GrapheneOS phone wipes during airport search",
+      "date_published": "2026-07-30T05:12:40Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%2330%E5%B2%81%E5%B0%8F%E4%BC%99%E8%B4%9F%E5%80%BA170%E4%B8%87%E5%8D%96%E9%A5%BA%E5%AD%90%E7%BF%BB%E8%BA%AB%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%2330%E5%B2%81%E5%B0%8F%E4%BC%99%E8%B4%9F%E5%80%BA170%E4%B8%87%E5%8D%96%E9%A5%BA%E5%AD%90%E7%BF%BB%E8%BA%AB%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 30岁小伙负债170万卖饺子翻身",
-      "date_published": "2026-07-30T03:19:26Z"
+      "id": "hackernews:https://www.anthropic.com/news/position-open-weights-models",
+      "url": "https://www.anthropic.com/news/position-open-weights-models",
+      "title": "[Hacker News 热门] Our position on open-weights models",
+      "date_published": "2026-07-30T05:12:40Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E5%BC%A0%E9%9B%85%E7%90%AA%20%E8%8A%B1%E5%B0%91&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E9%9B%85%E7%90%AA%20%E8%8A%B1%E5%B0%91&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 张雅琪 花少",
-      "date_published": "2026-07-30T03:19:26Z"
+      "id": "hackernews:https://killthecookiebanner.eu/",
+      "url": "https://killthecookiebanner.eu/",
+      "title": "[Hacker News 热门] Kill The Cookie Banner",
+      "date_published": "2026-07-30T05:12:40Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%231.5%E4%B8%87%E5%85%83%E6%9C%BA%E7%A5%A8%E4%BB%85%E9%80%80432%E5%85%83%E5%90%8E%E7%BB%AD%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%231.5%E4%B8%87%E5%85%83%E6%9C%BA%E7%A5%A8%E4%BB%85%E9%80%80432%E5%85%83%E5%90%8E%E7%BB%AD%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 1.5万元机票仅退432元后续",
-      "date_published": "2026-07-30T03:19:26Z"
+      "id": "hackernews:https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
+      "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
+      "title": "[Hacker News 热门] Startup founders urge U.S. government not to shut off Chinese open weight AI",
+      "date_published": "2026-07-30T05:12:40Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E6%B3%B8%E6%BA%AA%E6%B2%B3&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E6%B3%B8%E6%BA%AA%E6%B2%B3&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 泸溪河",
-      "date_published": "2026-07-30T03:19:26Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E9%A2%86%E5%AF%BC%E7%9C%9F%E7%9A%84%E4%BC%9A%E5%AF%B9%E5%AE%B6%E5%A2%83%E5%A5%BD%E7%9A%84%E5%AE%A2%E6%B0%94%E4%B8%80%E7%82%B9%E5%90%97&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E9%A2%86%E5%AF%BC%E7%9C%9F%E7%9A%84%E4%BC%9A%E5%AF%B9%E5%AE%B6%E5%A2%83%E5%A5%BD%E7%9A%84%E5%AE%A2%E6%B0%94%E4%B8%80%E7%82%B9%E5%90%97&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 领导真的会对家境好的客气一点吗",
-      "date_published": "2026-07-30T03:19:26Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E7%99%BD%E9%B9%BF%E8%AE%A9%E5%91%A8%E7%BF%8A%E7%84%B6%E5%BF%AB%E5%8E%9F%E8%B0%85%E7%8E%B0%E5%81%B6%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E9%B9%BF%E8%AE%A9%E5%91%A8%E7%BF%8A%E7%84%B6%E5%BF%AB%E5%8E%9F%E8%B0%85%E7%8E%B0%E5%81%B6%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 白鹿让周翊然快原谅现偶",
-      "date_published": "2026-07-30T03:19:26Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E7%AA%81%E7%84%B6%E6%84%8F%E8%AF%86%E5%88%B0%E6%9C%8B%E5%8F%8B%E4%B9%9F%E6%98%AF%E9%9C%80%E8%A6%81%E5%88%86%E7%B1%BB%E7%9A%84&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E7%AA%81%E7%84%B6%E6%84%8F%E8%AF%86%E5%88%B0%E6%9C%8B%E5%8F%8B%E4%B9%9F%E6%98%AF%E9%9C%80%E8%A6%81%E5%88%86%E7%B1%BB%E7%9A%84&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 突然意识到朋友也是需要分类的",
-      "date_published": "2026-07-30T03:19:26Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E8%A9%B9%E5%A7%86%E6%96%AF%E6%9B%BE%E6%8B%92%E7%BB%9D%E5%BF%AB%E8%88%B92000%E4%B8%87%E5%B9%B4%E8%96%AA%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%A9%B9%E5%A7%86%E6%96%AF%E6%9B%BE%E6%8B%92%E7%BB%9D%E5%BF%AB%E8%88%B92000%E4%B8%87%E5%B9%B4%E8%96%AA%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 詹姆斯曾拒绝快船2000万年薪",
-      "date_published": "2026-07-30T03:19:26Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E7%8E%8B%E7%9A%84%E7%8C%9C%E6%83%B3%E4%BD%9C%E8%80%85%E5%9B%9E%E5%BF%86%E6%A0%87%E9%A2%98%E5%88%9B%E4%BD%9C%E8%BF%87%E7%A8%8B%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E7%9A%84%E7%8C%9C%E6%83%B3%E4%BD%9C%E8%80%85%E5%9B%9E%E5%BF%86%E6%A0%87%E9%A2%98%E5%88%9B%E4%BD%9C%E8%BF%87%E7%A8%8B%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 王的猜想作者回忆标题创作过程",
-      "date_published": "2026-07-30T03:19:26Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E6%9D%A5%E8%BF%99%E9%87%8C%E6%89%8D%E6%98%AF%E9%BC%93%E6%B5%AA%E5%B1%BF%E7%9A%84%E9%AB%98%E7%BA%A7%E7%8E%A9%E6%B3%95%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%A5%E8%BF%99%E9%87%8C%E6%89%8D%E6%98%AF%E9%BC%93%E6%B5%AA%E5%B1%BF%E7%9A%84%E9%AB%98%E7%BA%A7%E7%8E%A9%E6%B3%95%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 来这里才是鼓浪屿的高级玩法",
-      "date_published": "2026-07-30T03:19:26Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%AE%9A%E6%A0%BC%E8%BF%AA%E5%A5%A5%E6%83%8A%E8%89%B3%E6%97%B6%E5%88%BB%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AE%9A%E6%A0%BC%E8%BF%AA%E5%A5%A5%E6%83%8A%E8%89%B3%E6%97%B6%E5%88%BB%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 定格迪奥惊艳时刻",
-      "date_published": "2026-07-30T03:19:26Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%90%89%E6%9E%97%E5%A4%A7%E9%87%8F%E8%8F%8C%E5%8C%85%E8%8F%8C%E6%A3%92%E8%A2%AB%E5%86%B2%E4%B8%8A%E8%A1%97%E5%A4%B4%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%90%89%E6%9E%97%E5%A4%A7%E9%87%8F%E8%8F%8C%E5%8C%85%E8%8F%8C%E6%A3%92%E8%A2%AB%E5%86%B2%E4%B8%8A%E8%A1%97%E5%A4%B4%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 吉林大量菌包菌棒被冲上街头",
-      "date_published": "2026-07-30T03:19:26Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%A4%A9%E9%93%BE%E4%B8%89%E5%8F%B701%E6%98%9F%E5%8F%91%E5%B0%84%E6%88%90%E5%8A%9F%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%A9%E9%93%BE%E4%B8%89%E5%8F%B701%E6%98%9F%E5%8F%91%E5%B0%84%E6%88%90%E5%8A%9F%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 天链三号01星发射成功",
-      "date_published": "2026-07-30T03:19:26Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%231.5%E4%B8%87%E5%85%83%E6%9C%BA%E7%A5%A8%E4%BB%85%E9%80%80432%E5%85%83%E5%90%8E%E7%BB%AD%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%231.5%E4%B8%87%E5%85%83%E6%9C%BA%E7%A5%A8%E4%BB%85%E9%80%80432%E5%85%83%E5%90%8E%E7%BB%AD%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 1.5万元机票仅退432元后续",
-      "date_published": "2026-07-30T03:19:26Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E6%B3%B8%E6%BA%AA%E6%B2%B3&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E6%B3%B8%E6%BA%AA%E6%B2%B3&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 泸溪河",
-      "date_published": "2026-07-30T03:19:26Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%90%89%E6%9E%97%E5%A4%A7%E9%87%8F%E8%8F%8C%E5%8C%85%E8%8F%8C%E6%A3%92%E8%A2%AB%E5%86%B2%E4%B8%8A%E8%A1%97%E5%A4%B4%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%90%89%E6%9E%97%E5%A4%A7%E9%87%8F%E8%8F%8C%E5%8C%85%E8%8F%8C%E6%A3%92%E8%A2%AB%E5%86%B2%E4%B8%8A%E8%A1%97%E5%A4%B4%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 吉林大量菌包菌棒被冲上街头",
-      "date_published": "2026-07-30T03:19:26Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E7%BD%91%E5%8F%8B%E6%9B%9D%E8%83%96%E4%B8%9C%E6%9D%A5%E7%9B%B4%E9%A5%AE%E6%B0%B4%E6%88%90%E5%85%8D%E8%B4%B9%E5%8F%96%E6%B0%B4%E7%82%B9%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%BD%91%E5%8F%8B%E6%9B%9D%E8%83%96%E4%B8%9C%E6%9D%A5%E7%9B%B4%E9%A5%AE%E6%B0%B4%E6%88%90%E5%85%8D%E8%B4%B9%E5%8F%96%E6%B0%B4%E7%82%B9%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 网友曝胖东来直饮水成免费取水点",
-      "date_published": "2026-07-30T03:19:26Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E7%8E%8B%E7%9A%84%E7%8C%9C%E6%83%B3%E4%BD%9C%E8%80%85%E5%9B%9E%E5%BF%86%E6%A0%87%E9%A2%98%E5%88%9B%E4%BD%9C%E8%BF%87%E7%A8%8B%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E7%9A%84%E7%8C%9C%E6%83%B3%E4%BD%9C%E8%80%85%E5%9B%9E%E5%BF%86%E6%A0%87%E9%A2%98%E5%88%9B%E4%BD%9C%E8%BF%87%E7%A8%8B%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 王的猜想作者回忆标题创作过程",
-      "date_published": "2026-07-30T03:19:26Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%2328%E5%B2%81%E5%A5%B3%E5%AD%90%E8%84%96%E5%AD%90%E9%85%B8%E7%97%9B%E6%8C%89%E4%BA%86%E5%87%A0%E4%B8%8B%E8%84%91%E6%A2%97%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%2328%E5%B2%81%E5%A5%B3%E5%AD%90%E8%84%96%E5%AD%90%E9%85%B8%E7%97%9B%E6%8C%89%E4%BA%86%E5%87%A0%E4%B8%8B%E8%84%91%E6%A2%97%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 28岁女子脖子酸痛按了几下脑梗了",
-      "date_published": "2026-07-30T03:19:26Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%B0%8F%E5%8C%BA%E7%94%B5%E6%A2%AF%E5%A4%B1%E6%8E%A7%E4%BB%8E31%E6%A5%BC%E4%B8%8B%E5%9D%A0%E5%88%B0%E8%B4%9F2%E6%A5%BC%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%B0%8F%E5%8C%BA%E7%94%B5%E6%A2%AF%E5%A4%B1%E6%8E%A7%E4%BB%8E31%E6%A5%BC%E4%B8%8B%E5%9D%A0%E5%88%B0%E8%B4%9F2%E6%A5%BC%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 小区电梯失控从31楼下坠到负2楼",
-      "date_published": "2026-07-30T03:19:26Z"
+      "id": "hackernews:https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/",
+      "url": "https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/",
+      "title": "[Hacker News 热门] Android may soon restrict on-device ADB",
+      "date_published": "2026-07-30T05:12:40Z"
     }
   ]
 }
