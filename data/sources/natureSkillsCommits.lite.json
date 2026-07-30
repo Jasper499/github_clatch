@@ -1,12 +1,32 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-07-30T05:21:00Z",
+  "savedAt": "2026-07-30T16:01:45Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "ca9f57e80e8bc100eb06ebfbfff406c126e5b256",
+  "latestSha": "cc29e56abcd14e6f8fb6a7b065208a051397f47a",
   "items": [
+    {
+      "title": "Update README.md",
+      "description": "Update README.md",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/cc29e56abcd14e6f8fb6a7b065208a051397f47a",
+      "sha": "cc29e56",
+      "fullSha": "cc29e56abcd14e6f8fb6a7b065208a051397f47a",
+      "owner": "Flyme886",
+      "published": "2026-07-30",
+      "label": "commit"
+    },
+    {
+      "title": "Update README.md",
+      "description": "Update README.md",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/e250511e7387efe9895be912a5bd65d041e78ac5",
+      "sha": "e250511",
+      "fullSha": "e250511e7387efe9895be912a5bd65d041e78ac5",
+      "owner": "Flyme886",
+      "published": "2026-07-30",
+      "label": "commit"
+    },
     {
       "title": "Update README.md",
       "description": "Update README.md",
@@ -135,26 +155,6 @@
       "fullSha": "e89df5bd9c7888f652b06b4a4978d782ff14236d",
       "owner": "Flyme886",
       "published": "2026-07-22",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #175 from MuseLinn/skill/ref-verifier-hardening",
-      "description": "Merge pull request #175 from MuseLinn/skill/ref-verifier-hardening\n\nskill(nature-ref-verifier): harden from 35-ref field audit, promote to Stable",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/d12e63cf98c630cd752996814bb8ea637613035c",
-      "sha": "d12e63c",
-      "fullSha": "d12e63cf98c630cd752996814bb8ea637613035c",
-      "owner": "Travisma2233",
-      "published": "2026-07-21",
-      "label": "commit"
-    },
-    {
-      "title": "skill(nature-ref-verifier): harden from 35-ref field audit, promote t…",
-      "description": "skill(nature-ref-verifier): harden from 35-ref field audit, promote to Stable\n\n- Step 2.0: DOI resolvability check via CrossRef as cheapest first pass\n- Critical: missing authors, article-number letter traps, DOI misassignment\n- Warning: Early Access metadata drift (CrossRef current value wins)\n- Zotero sync section rewritten (local API read-only, pyzotero Web preferred)\n- Batch guidance (10-15 refs per parallel subagent)\n- README/README_EN: nature-ref-verifier Beta -&gt; Stable",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/a3d990fe73a469c323a82c5605d7329f80f061c6",
-      "sha": "a3d990f",
-      "fullSha": "a3d990fe73a469c323a82c5605d7329f80f061c6",
-      "owner": "MuseLinn",
-      "published": "2026-07-21",
       "label": "commit"
     }
   ]
