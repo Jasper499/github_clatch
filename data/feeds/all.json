@@ -6,136 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E8%BF%9E%E4%BA%91%E6%B8%AF%E6%B6%88%E9%98%B2%E5%9B%9E%E5%BA%94%E7%81%AB%E7%81%BE%E6%AF%8D%E5%A5%B3%E5%9D%A0%E6%A5%BC%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%BF%9E%E4%BA%91%E6%B8%AF%E6%B6%88%E9%98%B2%E5%9B%9E%E5%BA%94%E7%81%AB%E7%81%BE%E6%AF%8D%E5%A5%B3%E5%9D%A0%E6%A5%BC%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 连云港消防回应火灾母女坠楼",
-      "date_published": "2026-07-31T14:29:44Z"
+      "id": "hackernews:https://www.anthropic.com/news/claude-opus-5",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "title": "[Hacker News 热门] Claude Opus 5",
+      "date_published": "2026-07-31T16:02:38Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E6%AD%8C%E6%89%8B%E6%8E%92%E5%90%8D&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E6%AD%8C%E6%89%8B%E6%8E%92%E5%90%8D&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 歌手排名",
-      "date_published": "2026-07-31T14:29:44Z"
+      "id": "hackernews:https://huggingface.co/moonshotai/Kimi-K3",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3",
+      "title": "[Hacker News 热门] Kimi-K3 on HuggingFace",
+      "date_published": "2026-07-31T16:02:38Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%BC%BA%E5%86%9B%E5%88%B6%E8%83%9C%E4%B8%8D%E8%B4%9F%E8%8D%A3%E5%85%89%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%BC%BA%E5%86%9B%E5%88%B6%E8%83%9C%E4%B8%8D%E8%B4%9F%E8%8D%A3%E5%85%89%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 强军制胜不负荣光",
-      "date_published": "2026-07-31T14:29:44Z"
+      "id": "hackernews:https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html",
+      "url": "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html",
+      "title": "[Hacker News 热门] US citizen charged after GrapheneOS phone wipes during airport search",
+      "date_published": "2026-07-31T16:02:38Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E6%88%BF%E4%B8%BB%E4%BB%BB%E8%A2%AB%E5%81%9C%E6%BC%943%E4%B8%AA%E6%9C%88%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%88%BF%E4%B8%BB%E4%BB%BB%E8%A2%AB%E5%81%9C%E6%BC%943%E4%B8%AA%E6%9C%88%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 房主任被停演3个月",
-      "date_published": "2026-07-31T14:29:44Z"
+      "id": "hackernews:https://www.anthropic.com/news/position-open-weights-models",
+      "url": "https://www.anthropic.com/news/position-open-weights-models",
+      "title": "[Hacker News 热门] Our position on open-weights models",
+      "date_published": "2026-07-31T16:02:38Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E9%AD%8F%E5%A6%82%E8%90%B1%E6%B7%98%E6%B1%B0&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E9%AD%8F%E5%A6%82%E8%90%B1%E6%B7%98%E6%B1%B0&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 魏如萱淘汰",
-      "date_published": "2026-07-31T14:29:44Z"
+      "id": "hackernews:https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/",
+      "url": "https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/",
+      "title": "[Hacker News 热门] UEFA and its national associations will not participate in FIFA competitions",
+      "date_published": "2026-07-31T16:02:38Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E5%AE%A2%E6%9C%8D%20%E5%9D%8F%E4%BA%86%E4%BB%96%E7%9C%9F%E4%BC%9A%E5%95%8A&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%AE%A2%E6%9C%8D%20%E5%9D%8F%E4%BA%86%E4%BB%96%E7%9C%9F%E4%BC%9A%E5%95%8A&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 客服 坏了他真会啊",
-      "date_published": "2026-07-31T14:29:44Z"
+      "id": "hackernews:https://killthecookiebanner.eu/",
+      "url": "https://killthecookiebanner.eu/",
+      "title": "[Hacker News 热门] Kill The Cookie Banner",
+      "date_published": "2026-07-31T16:02:38Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E5%91%A8%E6%98%9F%E9%A9%B0%E8%B4%A8%E7%96%91%E8%91%A3%E5%AE%87%E8%BE%89%E7%9C%8B%E5%A4%A7%E8%AF%9D%E8%A5%BF%E6%B8%B8500%E9%81%8D&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%91%A8%E6%98%9F%E9%A9%B0%E8%B4%A8%E7%96%91%E8%91%A3%E5%AE%87%E8%BE%89%E7%9C%8B%E5%A4%A7%E8%AF%9D%E8%A5%BF%E6%B8%B8500%E9%81%8D&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 周星驰质疑董宇辉看大话西游500遍",
-      "date_published": "2026-07-31T14:29:44Z"
+      "id": "hackernews:https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/",
+      "url": "https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/",
+      "title": "[Hacker News 热门] Android may soon restrict on-device ADB",
+      "date_published": "2026-07-31T16:02:38Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E4%B8%89%E5%A4%A7%E8%BF%90%E8%90%A5%E5%95%86%E5%8F%91%E5%B8%83%E5%85%AC%E5%91%8A%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%89%E5%A4%A7%E8%BF%90%E8%90%A5%E5%95%86%E5%8F%91%E5%B8%83%E5%85%AC%E5%91%8A%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 三大运营商发布公告",
-      "date_published": "2026-07-31T14:29:44Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E6%9D%A8%E5%B9%82%E7%99%BE%E8%8A%B1%E5%A5%96%E5%8F%B2%E4%B8%8A%E7%AC%AC%E4%B8%80%E4%BD%8D%E5%A5%B3%E9%85%8D%E5%8F%8C%E6%8F%90%E5%90%8D%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%A8%E5%B9%82%E7%99%BE%E8%8A%B1%E5%A5%96%E5%8F%B2%E4%B8%8A%E7%AC%AC%E4%B8%80%E4%BD%8D%E5%A5%B3%E9%85%8D%E5%8F%8C%E6%8F%90%E5%90%8D%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 杨幂百花奖史上第一位女配双提名",
-      "date_published": "2026-07-31T14:29:44Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E9%BB%84%E5%AD%90%E5%BC%98%E5%87%A1%E6%89%93%E6%96%AD%E7%8E%8B%E6%A0%8E%E9%91%AB%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%BB%84%E5%AD%90%E5%BC%98%E5%87%A1%E6%89%93%E6%96%AD%E7%8E%8B%E6%A0%8E%E9%91%AB%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 黄子弘凡打断王栎鑫",
-      "date_published": "2026-07-31T14:29:44Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%90%B4%E5%AE%9C%E6%B3%BD6%E6%AF%9410%E7%89%B9%E9%B2%81%E5%A7%86%E6%99%AE%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%90%B4%E5%AE%9C%E6%B3%BD6%E6%AF%9410%E7%89%B9%E9%B2%81%E5%A7%86%E6%99%AE%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 吴宜泽6比10特鲁姆普",
-      "date_published": "2026-07-31T14:29:44Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E8%82%96%E6%88%98%E7%9A%84%E8%85%B0%E8%BF%98%E5%A5%BD%E5%90%97%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%82%96%E6%88%98%E7%9A%84%E8%85%B0%E8%BF%98%E5%A5%BD%E5%90%97%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 肖战的腰还好吗",
-      "date_published": "2026-07-31T14:29:44Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E4%B8%89%E5%A4%A7%E8%BF%90%E8%90%A5%E5%95%86%E5%B0%86%E5%81%9C%E6%AD%A2%E7%AC%AC%E4%B8%89%E6%96%B9%E4%BA%92%E8%81%94%E7%BD%91%E6%B8%A0%E9%81%93%E5%8A%9E%E5%8D%A1%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%89%E5%A4%A7%E8%BF%90%E8%90%A5%E5%95%86%E5%B0%86%E5%81%9C%E6%AD%A2%E7%AC%AC%E4%B8%89%E6%96%B9%E4%BA%92%E8%81%94%E7%BD%91%E6%B8%A0%E9%81%93%E5%8A%9E%E5%8D%A1%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 三大运营商将停止第三方互联网渠道办卡",
-      "date_published": "2026-07-31T14:29:44Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E9%AD%8F%E5%A6%82%E8%90%B1%E6%B7%98%E6%B1%B0&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E9%AD%8F%E5%A6%82%E8%90%B1%E6%B7%98%E6%B1%B0&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 魏如萱淘汰",
-      "date_published": "2026-07-31T14:29:44Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E4%B8%8A%E6%B5%B7%E4%B8%80%E9%A1%BE%E5%AE%A2%E5%9B%A0%E5%A4%A7%E7%9B%98%E9%B8%A1%E9%87%8C%E6%9C%89%E5%9C%9F%E8%B1%86%E6%8A%A5%E8%AD%A6%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%8A%E6%B5%B7%E4%B8%80%E9%A1%BE%E5%AE%A2%E5%9B%A0%E5%A4%A7%E7%9B%98%E9%B8%A1%E9%87%8C%E6%9C%89%E5%9C%9F%E8%B1%86%E6%8A%A5%E8%AD%A6%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 上海一顾客因大盘鸡里有土豆报警",
-      "date_published": "2026-07-31T14:29:44Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E9%AD%8F%E5%A6%82%E8%90%B1%E4%B8%91%E5%85%AB%E6%80%AA%E8%88%9E%E5%8F%B0%E6%80%AA%E8%AF%9E%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%AD%8F%E5%A6%82%E8%90%B1%E4%B8%91%E5%85%AB%E6%80%AA%E8%88%9E%E5%8F%B0%E6%80%AA%E8%AF%9E%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 魏如萱丑八怪舞台怪诞",
-      "date_published": "2026-07-31T14:29:44Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E6%AF%8D%E5%A5%B3%E5%9D%A0%E8%90%BD%E6%97%B6%E6%B6%88%E9%98%B2%E5%92%8C%E7%BE%A4%E4%BC%97%E5%B7%B2%E6%8B%89%E8%A2%AB%E8%A4%A5%E6%8E%A5%E4%BA%BA%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%AF%8D%E5%A5%B3%E5%9D%A0%E8%90%BD%E6%97%B6%E6%B6%88%E9%98%B2%E5%92%8C%E7%BE%A4%E4%BC%97%E5%B7%B2%E6%8B%89%E8%A2%AB%E8%A4%A5%E6%8E%A5%E4%BA%BA%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 母女坠落时消防和群众已拉被褥接人",
-      "date_published": "2026-07-31T14:29:44Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%85%AC%E5%85%AC%E5%BC%BA%E5%A5%B8%E5%84%BF%E5%AA%B3%E6%A1%88%E4%B8%88%E5%A4%AB%E8%AE%A4%E5%AE%9A%E5%A6%BB%E5%AD%90%E6%98%AF%E8%87%AA%E6%84%BF%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%85%AC%E5%85%AC%E5%BC%BA%E5%A5%B8%E5%84%BF%E5%AA%B3%E6%A1%88%E4%B8%88%E5%A4%AB%E8%AE%A4%E5%AE%9A%E5%A6%BB%E5%AD%90%E6%98%AF%E8%87%AA%E6%84%BF%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 公公强奸儿媳案丈夫认定妻子是自愿",
-      "date_published": "2026-07-31T14:29:44Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E6%9C%88%E4%BA%AE&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E6%9C%88%E4%BA%AE&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 月亮",
-      "date_published": "2026-07-31T14:29:44Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E4%B8%8A%E6%B5%B7%E4%B8%80%E9%A1%BE%E5%AE%A2%E5%9B%A0%E5%A4%A7%E7%9B%98%E9%B8%A1%E9%87%8C%E6%9C%89%E5%9C%9F%E8%B1%86%E6%8A%A5%E8%AD%A6%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%8A%E6%B5%B7%E4%B8%80%E9%A1%BE%E5%AE%A2%E5%9B%A0%E5%A4%A7%E7%9B%98%E9%B8%A1%E9%87%8C%E6%9C%89%E5%9C%9F%E8%B1%86%E6%8A%A5%E8%AD%A6%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 上海一顾客因大盘鸡里有土豆报警",
-      "date_published": "2026-07-31T14:29:44Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E8%BF%9E%E4%BA%91%E6%B8%AF%E7%81%AB%E7%81%BE%E5%9D%A0%E6%A5%BC%E6%AF%8D%E4%BA%B2%E4%BC%A4%E6%83%85%E5%B9%B3%E7%A8%B3%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%BF%9E%E4%BA%91%E6%B8%AF%E7%81%AB%E7%81%BE%E5%9D%A0%E6%A5%BC%E6%AF%8D%E4%BA%B2%E4%BC%A4%E6%83%85%E5%B9%B3%E7%A8%B3%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 连云港火灾坠楼母亲伤情平稳",
-      "date_published": "2026-07-31T14:29:44Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E4%B8%89%E5%A4%A7%E8%BF%90%E8%90%A5%E5%95%86%E5%B0%86%E5%81%9C%E6%AD%A2%E7%AC%AC%E4%B8%89%E6%96%B9%E4%BA%92%E8%81%94%E7%BD%91%E6%B8%A0%E9%81%93%E5%8A%9E%E5%8D%A1%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%89%E5%A4%A7%E8%BF%90%E8%90%A5%E5%95%86%E5%B0%86%E5%81%9C%E6%AD%A2%E7%AC%AC%E4%B8%89%E6%96%B9%E4%BA%92%E8%81%94%E7%BD%91%E6%B8%A0%E9%81%93%E5%8A%9E%E5%8D%A1%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 三大运营商将停止第三方互联网渠道办卡",
-      "date_published": "2026-07-31T14:29:44Z"
+      "id": "hackernews:https://nikolays.github.io/PGSimCity/",
+      "url": "https://nikolays.github.io/PGSimCity/",
+      "title": "[Hacker News 热门] PGSimCity - How PostgreSQL Works",
+      "date_published": "2026-07-31T16:02:38Z"
     }
   ]
 }
