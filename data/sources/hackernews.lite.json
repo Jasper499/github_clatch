@@ -1,10 +1,10 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-07-30T15:53:28Z",
+  "savedAt": "2026-07-31T05:39:47Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-07-30，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-07-31，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-07-30",
+  "fetchedDate": "2026-07-31",
   "items": [
     {
       "title": "Claude Opus 5",
@@ -18,7 +18,7 @@
       "title": "Kimi-K3 on HuggingFace",
       "description": "Related: <i>Kimi-K3 Technical Report [pdf]</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49070985\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49070985</a>",
       "url": "https://huggingface.co/moonshotai/Kimi-K3",
-      "score": 1375,
+      "score": 1376,
       "comments": 544,
       "owner": "nateb2022"
     },
@@ -26,16 +26,16 @@
       "title": "US citizen charged after GrapheneOS phone wipes during airport search",
       "description": "",
       "url": "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html",
-      "score": 1331,
-      "comments": 1110,
+      "score": 1333,
+      "comments": 1111,
       "owner": "eecc"
     },
     {
       "title": "Our position on open-weights models",
       "description": "",
       "url": "https://www.anthropic.com/news/position-open-weights-models",
-      "score": 1170,
-      "comments": 1740,
+      "score": 1172,
+      "comments": 1744,
       "owner": "surprisetalk"
     },
     {
@@ -50,7 +50,7 @@
       "title": "Android may soon restrict on-device ADB",
       "description": "",
       "url": "https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/",
-      "score": 1005,
+      "score": 1006,
       "comments": 505,
       "owner": "shscs911"
     },
@@ -58,7 +58,7 @@
       "title": "PGSimCity - How PostgreSQL Works",
       "description": "",
       "url": "https://nikolays.github.io/PGSimCity/",
-      "score": 924,
+      "score": 926,
       "comments": 92,
       "owner": "jonbaer"
     },
@@ -67,15 +67,23 @@
       "description": "",
       "url": "https://ptrchm.com/posts/nothing-works-and-everyone-is-euphoric/",
       "score": 896,
-      "comments": 689,
+      "comments": 690,
       "owner": "pchm"
+    },
+    {
+      "title": "UEFA and its national associations will not participate in FIFA competitions",
+      "description": "",
+      "url": "https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/",
+      "score": 894,
+      "comments": 487,
+      "owner": "dickfickling"
     },
     {
       "title": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
       "description": "Hi HN,<p>I built a specialized inference engine for running 4-bit Gemma 4 26B-A4B-IT on any M-series Mac using about 2 GB of RAM. It is called TurboFieldfare and is written in Swift and Metal.<p>I have always adored on-device AI. It feels like magic that you can run a powerful NN on your Mac or iPhone. So I wanted to push the limits a bit and run a model whose weights don’t fit in memory.<p>The model’s 4-bit quantized weights occupy roughly 14 GB, which makes running it with conventional inference tools almost impossible on an 8 GB or even 16 GB Mac once the OS, applications, and KV cache are included.<p>The trick is to keep the shared part of the model and the KV cache in RAM, then stream only the routed experts needed for each token from SSD. An SSD is way slower than RAM, so the runtime uses a small expert cache and bounded parallel `pread`. While those reads are in flight, the GPU runs the shared part of the layer.<p>I ran more than 100 experiments. Most didn’t work. A few got me here. The experiments are described in the GitHub repo.<p>It currently generates 5–6 tok&#x2F;s on an 8 GB M2 MacBook Air and 31–35 tok&#x2F;s on an M5 MacBook Pro.<p>I also added an experimental OpenAI-compatible local server. It supports streaming and tool calls, and reuses one prompt prefix from the KV cache.<p>Try it! The Mac app is easy to install. On the first run, it will download 15 GB of weights from Hugging Face. The model is surprisingly capable.<p>I would love any kind of feedback!",
       "url": "https://github.com/drumih/turbo-fieldfare",
-      "score": 861,
-      "comments": 309,
+      "score": 889,
+      "comments": 326,
       "owner": "gitpusher42"
     },
     {
@@ -83,55 +91,55 @@
       "description": "",
       "url": "https://www.data.jma.go.jp/multi/quake/quake_detail.html?eventID=20260728163528&lang=en",
       "score": 816,
-      "comments": 229,
+      "comments": 231,
       "owner": "krembo"
+    },
+    {
+      "title": "The coolest use for the Vision Pro",
+      "description": "",
+      "url": "https://christianselig.com/2026/07/vision-pro-house/",
+      "score": 812,
+      "comments": 310,
+      "owner": "robbiet480"
     },
     {
       "title": "AI companies are shredding rare books",
       "description": "<a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;HedgieMarkets&#x2F;status&#x2F;2081534588485296565\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;HedgieMarkets&#x2F;status&#x2F;2081534588485296565</a>",
       "url": "https://twitter.com/HedgieMarkets/status/2081534588485296565",
       "score": 794,
-      "comments": 514,
+      "comments": 515,
       "owner": "anon373839"
     },
     {
       "title": "It's getting harder to focus every day",
       "description": "",
       "url": "https://glyphack.com/attention/",
-      "score": 785,
+      "score": 786,
       "comments": 419,
       "owner": "peykar"
-    },
-    {
-      "title": "The coolest use for the Vision Pro",
-      "description": "",
-      "url": "https://christianselig.com/2026/07/vision-pro-house/",
-      "score": 781,
-      "comments": 291,
-      "owner": "robbiet480"
     },
     {
       "title": "Superlogical",
       "description": "<a href=\"https:&#x2F;&#x2F;mitchellh.com&#x2F;writing&#x2F;superlogical\" rel=\"nofollow\">https:&#x2F;&#x2F;mitchellh.com&#x2F;writing&#x2F;superlogical</a>",
       "url": "https://www.superlogical.com/",
-      "score": 745,
-      "comments": 440,
+      "score": 762,
+      "comments": 451,
       "owner": "yan"
     },
     {
       "title": "KOReader",
       "description": "",
       "url": "https://koreader.rocks/",
-      "score": 724,
-      "comments": 234,
+      "score": 737,
+      "comments": 241,
       "owner": "Cider9986"
     },
     {
       "title": "Stop Killing the Internet: No Digital ID and No Age Verification",
       "description": "",
       "url": "https://citizens-initiative.europa.eu/initiatives/details/2026/000011_en",
-      "score": 703,
-      "comments": 283,
+      "score": 705,
+      "comments": 286,
       "owner": "doener"
     },
     {
@@ -146,24 +154,16 @@
       "title": "New HIV vaccine shows unprecedented success in preclinical study",
       "description": "",
       "url": "https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/",
-      "score": 654,
-      "comments": 290,
+      "score": 655,
+      "comments": 295,
       "owner": "codebyaditya"
     },
     {
-      "title": "My security camera shipped a GitHub admin token in its login page",
+      "title": "Read this before you buy that TV streaming stick",
       "description": "",
-      "url": "https://hhh.hn/hanwha-github-token/",
-      "score": 642,
-      "comments": 243,
-      "owner": "hhh"
-    },
-    {
-      "title": "Substack writers, you need a website",
-      "description": "",
-      "url": "https://elizabethtai.com/2026/06/10/substack-writers-you-need-a-website/",
-      "score": 637,
-      "comments": 344,
+      "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+      "score": 650,
+      "comments": 370,
       "owner": "speckx"
     }
   ]
