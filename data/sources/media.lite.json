@@ -1,10 +1,52 @@
 {
   "sourceKey": "media",
-  "savedAt": "2026-07-21T08:41:45Z",
+  "savedAt": "2026-08-01T05:16:17Z",
   "label": "Medical Image Analysis",
-  "description": "近 45 天 MedIA 期刊 MRI 相关论文（2026-05-31 ~ 2026-07-15，共 14 篇，暂无可用 OA PDF 链接）",
+  "description": "近 45 天 MedIA 期刊 MRI 相关论文（2026-06-17 ~ 2026-08-01，共 14 篇，暂无可用 OA PDF 链接）",
   "updateFrequency": "biweekly",
   "items": [
+    {
+      "title": "Learning robust and task-invariant functional representation from fMRI through Siamese self-supervised learning",
+      "description": "MedIA · 2026-11-01",
+      "url": "https://doi.org/10.1016/j.media.2026.104221",
+      "doi": "10.1016/j.media.2026.104221",
+      "authors": "Jiyao Wang, Peiyu Duan, Nicha C. Dvornek, Lawrence H. Staib, et al.",
+      "published": "2026-11-01",
+      "journal": "MedIA",
+      "owner": "MedIA",
+      "isOpenAccess": false,
+      "pdfAvailable": false,
+      "pdfUrl": null,
+      "pdfSourceUrl": ""
+    },
+    {
+      "title": "Patient-specific unsupervised neural reconstruction of cardiac blood flow from 4D flow MRI",
+      "description": "Clinical 4D flow MRI can provide detailed measurements of cardiac blood flow, but current workflows rely on manual segmentation and post hoc velocity filtering, which introduce variability and reduce physical consistency. We introduce SMURF (Scalable Method for Unsupervised Reconstruction of Flow), a label-free framewo…",
+      "url": "https://doi.org/10.1016/j.media.2026.104230",
+      "doi": "10.1016/j.media.2026.104230",
+      "authors": "Atharva Hans, Abhishek Singh, Yue-Hin Loke, Pavlos P. Vlachos, et al.",
+      "published": "2026-11-01",
+      "journal": "MedIA",
+      "owner": "MedIA",
+      "isOpenAccess": true,
+      "pdfAvailable": false,
+      "pdfUrl": null,
+      "pdfSourceUrl": "https://doi.org/10.1016/j.media.2026.104230"
+    },
+    {
+      "title": "Standardized evaluation of automatic methods for perivascular spaces segmentation in MRI – MICCAI 2024 challenge results",
+      "description": "MedIA · 2026-11-01",
+      "url": "https://doi.org/10.1016/j.media.2026.104227",
+      "doi": "10.1016/j.media.2026.104227",
+      "authors": "Yilei Wu, Yichi Zhang, Zijian Dong, Fang Ji, et al.",
+      "published": "2026-11-01",
+      "journal": "MedIA",
+      "owner": "MedIA",
+      "isOpenAccess": true,
+      "pdfAvailable": false,
+      "pdfUrl": null,
+      "pdfSourceUrl": "https://hdl.handle.net/20.500.11820/ab852367-e7e3-486a-a48d-0e4d4484e393"
+    },
     {
       "title": "DGCD-3D: Difference-guided conditional diffusion model for low-field 3D MRI enhancement to assist stroke assessment",
       "description": "Low-field (LF) magnetic resonance imaging (MRI) plays a crucial role in assisting clinicians with rapid stroke diagnosis. However, its inherent limitations, such as low signal-to-noise ratio (SNR) and suboptimal image quality, make accurate stroke lesion identification challenging. To address this, we propose a Differe…",
@@ -46,6 +88,20 @@
       "pdfAvailable": false,
       "pdfUrl": null,
       "pdfSourceUrl": ""
+    },
+    {
+      "title": "Reconstruction-informed and multidomain deep learning for generalizable CT-free attenuation correction in SPECT myocardial perfusion imaging",
+      "description": "PURPOSE\nDeep learning (DL) has shown promise in enabling attenuation correction (AC) for SPECT myocardial perfusion imaging (MPI) without relying on anatomical information or CT-derived attenuation maps (ATMs). We introduce a novel reconstruction-informed and multidomain (RIMD) DL framework utilizing both multi-input r…",
+      "url": "https://doi.org/10.1016/j.media.2026.104220",
+      "doi": "10.1016/j.media.2026.104220",
+      "authors": "Ghasem Hajianfar, Yazdan Salimi, Mehdi Amini, Xiaotong Hong, et al.",
+      "published": "2026-09-01",
+      "journal": "MedIA",
+      "owner": "MedIA",
+      "isOpenAccess": true,
+      "pdfAvailable": false,
+      "pdfUrl": null,
+      "pdfSourceUrl": "https://www.sciencedirect.com/science/article/pii/S1361841526002896/pdf"
     },
     {
       "title": "Reconstructing shared visual experiences from human brain activity across individuals",
@@ -91,7 +147,7 @@
     },
     {
       "title": "Motion-compensated implicit neural modeling for 3D multiparametric quantitative MRI",
-      "description": "MedIA · 2026-09-01",
+      "description": "Multiparametric quantitative MRI (MP-qMRI) provides comprehensive 3D tissue characterization in neuroimaging but remains highly susceptible to involuntary head motion. Motion correction in 3D MP-qMRI is particularly challenging, as even subtle head movements corrupt volumetric encoding, disrupt inter-contrast consisten…",
       "url": "https://doi.org/10.1016/j.media.2026.104208",
       "doi": "10.1016/j.media.2026.104208",
       "authors": "Guoyan Lao, Xiaopeng Zong, Chen Liu, Xingang Wang, et al.",
@@ -144,62 +200,6 @@
       "pdfAvailable": false,
       "pdfUrl": null,
       "pdfSourceUrl": ""
-    },
-    {
-      "title": "A plug-and-play method for guided multi-contrast MRI reconstruction based on content/style modeling",
-      "description": "MedIA · 2026-09-01",
-      "url": "https://doi.org/10.1016/j.media.2026.104160",
-      "doi": "10.1016/j.media.2026.104160",
-      "authors": "Chinmay Rao, Matthias van Osch, Nicola Pezzotti, Jeroen de Bresser, et al.",
-      "published": "2026-09-01",
-      "journal": "MedIA",
-      "owner": "MedIA",
-      "isOpenAccess": false,
-      "pdfAvailable": false,
-      "pdfUrl": null,
-      "pdfSourceUrl": ""
-    },
-    {
-      "title": "A spatiotemporal dependency-aware lightweight CNN-ViT network for 3D MRF with a balanced acceleration strategy",
-      "description": "The push for rapid MRI acquisition aims to enhance clinical efficiency and diagnostic consistency by shortening scan times. 3D Magnetic Resonance Fingerprinting (MRF) has emerged as a promising technique for fast, multi-parametric quantitative imaging. However, its accuracy and relatively long acquisition time remain a…",
-      "url": "https://doi.org/10.1016/j.media.2026.104147",
-      "doi": "10.1016/j.media.2026.104147",
-      "authors": "Jintao Wei, Huihui Ye, Bingchen Shao, Longtao Ma, et al.",
-      "published": "2026-09-01",
-      "journal": "MedIA",
-      "owner": "MedIA",
-      "isOpenAccess": false,
-      "pdfAvailable": false,
-      "pdfUrl": null,
-      "pdfSourceUrl": ""
-    },
-    {
-      "title": "FlowLet: Conditional 3D brain MRI synthesis using wavelet flow matching",
-      "description": "Generative modeling for 3D brain MRI is challenged by a trade-off between anatomical fidelity, sample diversity, and computational efficiency. Diffusion-based approaches achieve strong visual quality but typically require hundreds to thousands of sampling steps, while latent-space compression can introduce reconstructi…",
-      "url": "https://doi.org/10.1016/j.media.2026.104161",
-      "doi": "10.1016/j.media.2026.104161",
-      "authors": "Danilo Danese, Angela Lombardi, Matteo Attimonelli, Giuseppe Fasano, et al.",
-      "published": "2026-09-01",
-      "journal": "MedIA",
-      "owner": "MedIA",
-      "isOpenAccess": true,
-      "pdfAvailable": false,
-      "pdfUrl": null,
-      "pdfSourceUrl": "https://doi.org/10.1016/j.media.2026.104161"
-    },
-    {
-      "title": "MBAS2024: A large-scale benchmark for multi-class bi-atrial segmentation in multi-center contrast-enhanced MRIs",
-      "description": "Atrial fibrillation (AF), the most common cardiac arrhythmia, affects one in three adults over 45 years of age. Improving its treatment requires a better understanding of bi-atrial anatomy. Existing benchmarks have focused on the left atrial (LA) cavity, overlooking the fundamental challenges posed by bi-atrial anatomy…",
-      "url": "https://doi.org/10.1016/j.media.2026.104203",
-      "doi": "10.1016/j.media.2026.104203",
-      "authors": "Fangqiang Xu, James Kennelly, Alexander M. Zolotarev, Caroline Roney, et al.",
-      "published": "2026-09-01",
-      "journal": "MedIA",
-      "owner": "MedIA",
-      "isOpenAccess": true,
-      "pdfAvailable": false,
-      "pdfUrl": null,
-      "pdfSourceUrl": "https://doi.org/10.1016/j.media.2026.104203"
     }
   ]
 }

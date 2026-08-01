@@ -1,13 +1,13 @@
 {
   "sourceKey": "tmi",
-  "savedAt": "2026-07-21T08:41:45Z",
+  "savedAt": "2026-08-01T05:16:17Z",
   "label": "IEEE Transactions on Medical Imaging",
-  "description": "近 45 天 TMI 期刊 MRI 相关论文（2026-05-31 ~ 2026-07-15，共 12 篇，暂无可用 OA PDF 链接）",
+  "description": "近 45 天 TMI 期刊 MRI 相关论文（2026-06-17 ~ 2026-08-01，共 15 篇，本地已存 OA PDF 3 篇）",
   "updateFrequency": "biweekly",
   "items": [
     {
       "title": "scBIT: Integrating Single-Cell Transcriptomic Data Into fMRI-Based Prediction for Alzheimer's Disease Diagnosis",
-      "description": "TMI · 2026-07-01",
+      "description": "Functional MRI (fMRI) and single-cell transcriptomics are pivotal in Alzheimer’s disease (AD) research, each providing unique insights into neural function and molecular mechanisms. However, integrating these complementary modalities remains largely unexplored. Here, we introduce scBIT, a novel method for enhancing AD …",
       "url": "https://doi.org/10.1109/tmi.2026.3675606",
       "doi": "10.1109/tmi.2026.3675606",
       "authors": "Yu-An Huang, Yao Hu, Yue-Chao Li, Xiyue Cao, et al.",
@@ -62,6 +62,20 @@
       "pdfSourceUrl": ""
     },
     {
+      "title": "Interpretable Multimodal Learning for Cardiovascular Hemodynamics Assessment",
+      "description": "Pulmonary Arterial Wedge Pressure (PAWP) is an essential cardiovascular hemodynamics marker to detect heart failure. In clinical practice, Right Heart Catheterization is considered a gold standard for assessing cardiac hemodynamics while non-invasive methods are often needed to screen high-risk patients from a large po…",
+      "url": "https://doi.org/10.1109/tmi.2026.3681722",
+      "doi": "10.1109/tmi.2026.3681722",
+      "authors": "Prasun C. Tripathi, Sina Tabakhi, Mohammod N. I. Suvon, Lawrence Schöbs, et al.",
+      "published": "2026-07-01",
+      "journal": "TMI",
+      "owner": "TMI",
+      "isOpenAccess": true,
+      "pdfAvailable": true,
+      "pdfUrl": "papers/tmi/10.1109_tmi.2026.3681722.pdf",
+      "pdfSourceUrl": "https://arxiv.org/pdf/2404.04718"
+    },
+    {
       "title": "Deep Learning for Temporal Super-Resolution 4D Flow MRI",
       "description": "4D Flow Magnetic Resonance Imaging (4D Flow MRI) is a non-invasive technique for volumetric, time-resolved blood flow quantification. However, apparent trade-offs between acquisition time, image noise, and resolution limit clinical applicability. In particular, in regions of highly transient flow, coarse temporal resol…",
       "url": "https://doi.org/10.1109/tmi.2026.3676987",
@@ -91,38 +105,24 @@
     },
     {
       "title": "Cyclic Self-Supervised Diffusion for Ultra Low-Field to High-Field MRI Synthesis",
-      "description": "TMI · 2026-07-01",
+      "description": "Synthesizing high-quality images from low-field MRI holds significant potential. Low-field MRI is cheaper, more accessible, and safer, but suffers from low resolution and poor signal-to-noise ratio. This synthesis process can reduce reliance on costly acquisitions and expand data availability. However, synthesizing hig…",
       "url": "https://doi.org/10.1109/tmi.2026.3685559",
       "doi": "10.1109/tmi.2026.3685559",
       "authors": "Zhenxuan Zhang, Peiyuan Jing, Zi Wang, Ula Briski, et al.",
       "published": "2026-07-01",
       "journal": "TMI",
       "owner": "TMI",
-      "isOpenAccess": false,
+      "isOpenAccess": true,
       "pdfAvailable": false,
       "pdfUrl": null,
-      "pdfSourceUrl": ""
+      "pdfSourceUrl": "https://arxiv.org/pdf/2510.13735"
     },
     {
       "title": "BrainPrompt+: Multi-Level Brain Prompt Learning for Knowledge-Guided Neurological Disorder Identification",
-      "description": "Accurate identification of neurological disorders such as Alzheimer's disease (AD), Parkinson's disease (PD), and Autism Spectrum Disorder (ASD) is challenging due to subtle early-stage symptoms and heterogeneous brain dynamics. Resting-state functional MRI (rs-fMRI) enables the construction of functional brain network…",
+      "description": "Accurate identification of neurological disorders such as Alzheimer’s disease (AD), Parkinson’s disease (PD), and Autism Spectrum Disorder (ASD) is challenging due to subtle early-stage symptoms and heterogeneous brain dynamics. Resting-state functional MRI (rs-fMRI) enables the construction of functional brain network…",
       "url": "https://doi.org/10.1109/tmi.2026.3692958",
       "doi": "10.1109/tmi.2026.3692958",
       "authors": "Jiaxing Xu, Kai He, Yue Tang, Wei Li, et al.",
-      "published": "2026-07-01",
-      "journal": "TMI",
-      "owner": "TMI",
-      "isOpenAccess": false,
-      "pdfAvailable": false,
-      "pdfUrl": null,
-      "pdfSourceUrl": ""
-    },
-    {
-      "title": "Positional Prompts-Enhanced Brain–Heart–Gut Interactions for Mild Cognitive Impairment Diagnosis",
-      "description": "Mild cognitive impairment (MCI) is the prodromal stage of dementia involving complex interactions between the brain and peripheral organs. Emerging evidence indicates that heart dysfunction and gut microbiota dysbiosis can contribute to MCI pathogenesis. Yet, these discoveries of cross-organ interactions have not been …",
-      "url": "https://doi.org/10.1109/tmi.2026.3681075",
-      "doi": "10.1109/tmi.2026.3681075",
-      "authors": "Fan Li, Shilun Zhao, Shuwei Bai, Dengqiang Jia, et al.",
       "published": "2026-07-01",
       "journal": "TMI",
       "owner": "TMI",
@@ -146,6 +146,20 @@
       "pdfSourceUrl": ""
     },
     {
+      "title": "Positional Prompts-Enhanced Brain–Heart–Gut Interactions for Mild Cognitive Impairment Diagnosis",
+      "description": "Mild cognitive impairment (MCI) is the prodromal stage of dementia involving complex interactions between the brain and peripheral organs. Emerging evidence indicates that heart dysfunction and gut microbiota dysbiosis can contribute to MCI pathogenesis. Yet, these discoveries of cross-organ interactions have not been …",
+      "url": "https://doi.org/10.1109/tmi.2026.3681075",
+      "doi": "10.1109/tmi.2026.3681075",
+      "authors": "Fan Li, Shilun Zhao, Shuwei Bai, Dengqiang Jia, et al.",
+      "published": "2026-07-01",
+      "journal": "TMI",
+      "owner": "TMI",
+      "isOpenAccess": false,
+      "pdfAvailable": false,
+      "pdfUrl": null,
+      "pdfSourceUrl": ""
+    },
+    {
       "title": "Refine Then Fusion: Robust 3D Brain MRI Synthesis via Vision–Language Collaboration",
       "description": "Metadata-guided cross-modality 3D MRI synthesis aims to generate target-contrast volumes from source-modality data conditioned on clinically available metadata, which is important for enhancing clinical imaging flexibility. However, existing methods still suffer from two main limitations: 1) They neglect spatial depend…",
       "url": "https://doi.org/10.1109/tmi.2026.3692748",
@@ -160,6 +174,20 @@
       "pdfSourceUrl": ""
     },
     {
+      "title": "MorphiNet: A Graph Subdivision Network for Adaptive Bi-Ventricle Surface Reconstruction",
+      "description": "Cardiac Magnetic Resonance (CMR) imaging is widely used to personalize heart models for cardiac digital twin analysis because of its ability to visualize soft tissues and capture dynamic functions. However, CMR images have an anisotropic nature, characterized by large inter-slice distances and misalignments from cardia…",
+      "url": "https://doi.org/10.1109/tmi.2026.3683925",
+      "doi": "10.1109/tmi.2026.3683925",
+      "authors": "Yu Deng, Yiyang Xu, Linglong Qian, Charlène Mauger, et al.",
+      "published": "2026-07-01",
+      "journal": "TMI",
+      "owner": "TMI",
+      "isOpenAccess": true,
+      "pdfAvailable": true,
+      "pdfUrl": "papers/tmi/10.1109_tmi.2026.3683925.pdf",
+      "pdfSourceUrl": "https://arxiv.org/pdf/2412.10985"
+    },
+    {
       "title": "DSHARP: Deep Incompressible Motion Estimation With Sinusoidal-Transformed Harmonic Phase for Tagged MRI",
       "description": "Tagged magnetic resonance imaging (tMRI) is a valuable tool for visualizing and quantifying tissue deformation in vivo. Its use is often hampered, however, by tag fading, long computation times, and the challenge of ensuring diffeomorphic, incompressible motion fields. In this paper, we describe a novel integration of …",
       "url": "https://doi.org/10.1109/tmi.2026.3693998",
@@ -172,6 +200,20 @@
       "pdfAvailable": false,
       "pdfUrl": null,
       "pdfSourceUrl": ""
+    },
+    {
+      "title": "A 3-D Cross-Modal Keypoint Descriptor for MR-US Matching and Registration",
+      "description": "Intraoperative registration of real-time ultrasound (iUS) to preoperative Magnetic Resonance Imaging (MRI) remains an unsolved problem due to severe modality-specific differences in appearance, resolution, and field-of-view. To address this, we propose a novel 3D cross-modal keypoint descriptor for MRI–iUS matching and…",
+      "url": "https://doi.org/10.1109/tmi.2026.3680352",
+      "doi": "10.1109/tmi.2026.3680352",
+      "authors": "Daniil Morozov, Reuben Dorent, Nazim Haouchine",
+      "published": "2026-07-01",
+      "journal": "TMI",
+      "owner": "TMI",
+      "isOpenAccess": true,
+      "pdfAvailable": true,
+      "pdfUrl": "papers/tmi/10.1109_tmi.2026.3680352.pdf",
+      "pdfSourceUrl": "https://arxiv.org/pdf/2507.18551"
     }
   ]
 }
