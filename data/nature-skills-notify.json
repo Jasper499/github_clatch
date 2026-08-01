@@ -1,44 +1,44 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-07-31T16:14:31Z",
+  "changed": true,
+  "fetchedAt": "2026-08-01T05:38:44Z",
   "previousSha": "d5c9dee63cb1679c22e2a6e4e488f5f23d4ec2e1",
-  "latestSha": "d5c9dee63cb1679c22e2a6e4e488f5f23d4ec2e1",
+  "latestSha": "0198b34c6a7741cd1c4f82e617198d0039bcadea",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "chore: update star history",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/d5c9dee63cb1679c22e2a6e4e488f5f23d4ec2e1",
-    "sha": "d5c9dee",
-    "published": "2026-07-31"
+    "title": "feat: distinguish major and minor revisions",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/0198b34c6a7741cd1c4f82e617198d0039bcadea",
+    "sha": "0198b34",
+    "published": "2026-08-01"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
     {
+      "title": "feat: distinguish major and minor revisions",
+      "sha": "0198b34",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/0198b34c6a7741cd1c4f82e617198d0039bcadea"
+    },
+    {
+      "title": "Merge pull request #182 from jinhaosong-source/feat/orcarouter-images…",
+      "sha": "6ba1575",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/6ba15753254a67e1120ff412e1725ae72439be9f"
+    },
+    {
+      "title": "chore: update star history",
+      "sha": "745f6da",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/745f6da4b30ba3eaf68b7f76e8ee51c7790f2568"
+    },
+    {
+      "title": "feat(nature-figure): allow any OpenAI-compatible images endpoint via …",
+      "sha": "19d23c7",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/19d23c7890d302b3b70d4d8bfbdfe0eea24be464"
+    },
+    {
       "title": "chore: update star history",
       "sha": "d5c9dee",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/d5c9dee63cb1679c22e2a6e4e488f5f23d4ec2e1"
-    },
-    {
-      "title": "Merge pull request #178 from Jiahao8595/docs/generalize-literature-tr…",
-      "sha": "cf043cd",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/cf043cdc33e3685de938a2cbc4e8f1104775170c"
-    },
-    {
-      "title": "Merge pull request #179 from Jiahao8595/docs/generalize-experiment-lo…",
-      "sha": "9d52444",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/9d5244452d8096e5cdaedb28fd5996f729505910"
-    },
-    {
-      "title": "Update README.md",
-      "sha": "cc29e56",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/cc29e56abcd14e6f8fb6a7b065208a051397f47a"
-    },
-    {
-      "title": "Update README.md",
-      "sha": "e250511",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/e250511e7387efe9895be912a5bd65d041e78ac5"
     }
   ]
 }

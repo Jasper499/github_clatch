@@ -6,52 +6,100 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "hackernews:https://huggingface.co/moonshotai/Kimi-K3",
-      "url": "https://huggingface.co/moonshotai/Kimi-K3",
-      "title": "[Hacker News 热门] Kimi-K3 on HuggingFace",
-      "date_published": "2026-08-01T05:31:04Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills",
+      "url": "https://github.com/Yuan1z0825/nature-skills",
+      "title": "[Skills 清单] Yuan1z0825/nature-skills · 仓库总览",
+      "date_published": "2026-08-01T05:38:44Z"
     },
     {
-      "id": "hackernews:https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html",
-      "url": "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html",
-      "title": "[Hacker News 热门] US citizen charged after GrapheneOS phone wipes during airport search",
-      "date_published": "2026-08-01T05:31:04Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-academic-search",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-academic-search",
+      "title": "[Skills 清单] nature-academic-search",
+      "date_published": "2026-08-01T05:38:44Z"
     },
     {
-      "id": "hackernews:https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/",
-      "url": "https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/",
-      "title": "[Hacker News 热门] UEFA and its national associations will not participate in FIFA competitions",
-      "date_published": "2026-08-01T05:31:04Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-citation",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-citation",
+      "title": "[Skills 清单] nature-citation",
+      "date_published": "2026-08-01T05:38:44Z"
     },
     {
-      "id": "hackernews:https://www.anthropic.com/news/position-open-weights-models",
-      "url": "https://www.anthropic.com/news/position-open-weights-models",
-      "title": "[Hacker News 热门] Our position on open-weights models",
-      "date_published": "2026-08-01T05:31:04Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-data",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-data",
+      "title": "[Skills 清单] nature-data",
+      "date_published": "2026-08-01T05:38:44Z"
     },
     {
-      "id": "hackernews:https://killthecookiebanner.eu/",
-      "url": "https://killthecookiebanner.eu/",
-      "title": "[Hacker News 热门] Kill The Cookie Banner",
-      "date_published": "2026-08-01T05:31:04Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-downloader",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-downloader",
+      "title": "[Skills 清单] nature-downloader",
+      "date_published": "2026-08-01T05:38:44Z"
     },
     {
-      "id": "hackernews:https://john.fun/elevators",
-      "url": "https://john.fun/elevators",
-      "title": "[Hacker News 热门] Elevators",
-      "date_published": "2026-08-01T05:31:04Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-experiment-log",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-experiment-log",
+      "title": "[Skills 清单] nature-experiment-log",
+      "date_published": "2026-08-01T05:38:44Z"
     },
     {
-      "id": "hackernews:https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/",
-      "url": "https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/",
-      "title": "[Hacker News 热门] Android may soon restrict on-device ADB",
-      "date_published": "2026-08-01T05:31:04Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-figure",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-figure",
+      "title": "[Skills 清单] nature-figure",
+      "date_published": "2026-08-01T05:38:44Z"
     },
     {
-      "id": "hackernews:https://nikolays.github.io/PGSimCity/",
-      "url": "https://nikolays.github.io/PGSimCity/",
-      "title": "[Hacker News 热门] PGSimCity - How PostgreSQL Works",
-      "date_published": "2026-08-01T05:31:04Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-literature-pipeline",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-literature-pipeline",
+      "title": "[Skills 清单] nature-literature-pipeline",
+      "date_published": "2026-08-01T05:38:44Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/0198b34c6a7741cd1c4f82e617198d0039bcadea",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/0198b34c6a7741cd1c4f82e617198d0039bcadea",
+      "title": "[最近提交] feat: distinguish major and minor revisions",
+      "date_published": "2026-08-01T05:38:44Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/6ba15753254a67e1120ff412e1725ae72439be9f",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/6ba15753254a67e1120ff412e1725ae72439be9f",
+      "title": "[最近提交] Merge pull request #182 from jinhaosong-source/feat/orcarouter-images…",
+      "date_published": "2026-08-01T05:38:44Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/745f6da4b30ba3eaf68b7f76e8ee51c7790f2568",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/745f6da4b30ba3eaf68b7f76e8ee51c7790f2568",
+      "title": "[最近提交] chore: update star history",
+      "date_published": "2026-08-01T05:38:44Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/19d23c7890d302b3b70d4d8bfbdfe0eea24be464",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/19d23c7890d302b3b70d4d8bfbdfe0eea24be464",
+      "title": "[最近提交] feat(nature-figure): allow any OpenAI-compatible images endpoint via …",
+      "date_published": "2026-08-01T05:38:44Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/d5c9dee63cb1679c22e2a6e4e488f5f23d4ec2e1",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/d5c9dee63cb1679c22e2a6e4e488f5f23d4ec2e1",
+      "title": "[最近提交] chore: update star history",
+      "date_published": "2026-08-01T05:38:44Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/cf043cdc33e3685de938a2cbc4e8f1104775170c",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/cf043cdc33e3685de938a2cbc4e8f1104775170c",
+      "title": "[最近提交] Merge pull request #178 from Jiahao8595/docs/generalize-literature-tr…",
+      "date_published": "2026-08-01T05:38:44Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/9d5244452d8096e5cdaedb28fd5996f729505910",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/9d5244452d8096e5cdaedb28fd5996f729505910",
+      "title": "[最近提交] Merge pull request #179 from Jiahao8595/docs/generalize-experiment-lo…",
+      "date_published": "2026-08-01T05:38:44Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/cc29e56abcd14e6f8fb6a7b065208a051397f47a",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/cc29e56abcd14e6f8fb6a7b065208a051397f47a",
+      "title": "[最近提交] Update README.md",
+      "date_published": "2026-08-01T05:38:44Z"
     }
   ]
 }
