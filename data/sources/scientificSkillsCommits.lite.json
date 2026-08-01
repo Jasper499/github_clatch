@@ -1,12 +1,100 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-07-31T16:21:47Z",
+  "savedAt": "2026-08-01T05:42:20Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "ab2f84ab10597c59fac186ecda6d5edd5dcc8b92",
+  "latestSha": "ad21a3868923628330734375dddbf7b86ea84222",
   "items": [
+    {
+      "title": "Update version to 2.62.0 in pyproject.toml and README.md, reflecting …",
+      "description": "Update version to 2.62.0 in pyproject.toml and README.md, reflecting the latest release.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/ad21a3868923628330734375dddbf7b86ea84222",
+      "sha": "ad21a38",
+      "fullSha": "ad21a3868923628330734375dddbf7b86ea84222",
+      "owner": "TKassis",
+      "published": "2026-07-31",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "citation-management: correct documented commands, bump to 2.0",
+      "description": "citation-management: correct documented commands, bump to 2.0\n\nSKILL.md&#39;s one copy-pasteable Phase 3 command used --remove-duplicates, which\nargparse rejects; the real flag is --deduplicate. A sweep of every documented\ninvocation against the actual --help output found eleven more flags that do not\nexist: validate_citations.py --auto-fix, --strict, --output,\n--check-required-fields, --check-authors, --check-duplicates, --check-syntax;\nformat_bibtex.py --validate, --report, --style; doi_to_bibtex.py --clipboard;\nand search_google_scholar.py --open-access-only. Several sat in worked examples\nan agent would run verbatim.\n\ncitation_validation.md documented an &quot;auto-fix&quot; mode of validate_citations.py\nthat never existed -- the script only reports. Those sections now point at\nformat_bibtex.py, which is what rewrites.\n\nOther corrections:\n\n- --report wrote a JSON document to report.txt.\n- three of five declared dependencies were never imported.\n- Phase 2.5 was marked MANDATORY but needed web access that allowed-tools did\n  not grant; WebSearch and WebFetch are now declared.\n- no compatibility field, despite needing a Python version, a package, and\n  network access.\n- the schematics section told a citation skill to produce diagrams by default,\n  and named generate_schematic.py while generate_schematic_ai.py sat beside it\n  unexplained. Reduced to a pointer at scientific-schematics.\n- venue reference counts are labelled as rules of thumb rather than submission\n  requirements, which is what they are.\n\nDocuments search_openalex.py and the shared _common.py, and regenerates the\nworkflow diagram, which no longer matched what the skill does.\n\nVersion 1.8 -&gt; 2.0: format_bibtex.py no longer overwrites its input by default.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/3378ecea5702801512e18ad37d52fd069e8653b0",
+      "sha": "3378ece",
+      "fullSha": "3378ecea5702801512e18ad37d52fd069e8653b0",
+      "owner": "TKassis",
+      "published": "2026-07-31",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "citation-management: fix BibTeX corruption and metadata defects",
+      "description": "citation-management: fix BibTeX corruption and metadata defects\n\nThe field parser in format_bibtex.py and validate_citations.py matched\n`\\{([^}]*)\\}`, which stops at the first closing brace. Any title with a\nprotected term -- `{Highly accurate prediction with {AlphaFold}}` -- was\ntruncated mid-value, and rewriting it produced a .bib with unbalanced braces\nthat no BibTeX engine reads. extract_metadata.py emits that protection\ndeliberately, so the documented Phase 2 -&gt; Phase 3 pipeline corrupted its own\noutput, and format_bibtex.py defaulted to overwriting the input in place.\n\nReplace both parsers with a brace-depth scanner in scripts/_common.py, which\nalso owns entry rendering, page normalisation, and one citation-key scheme\nshared by every producer -- entries from Crossref, PubMed, OpenAlex, and\nScholar now collide when they are the same paper, which is what makes\ndeduplication work at all. Writing is opt-in: without --output or --in-place\nthe result goes to stdout and the input is untouched.\n\nAlso fixed:\n\n- pages: `replace(&#39;-&#39;, &#39;--&#39;)` turned `583--589` into `583----589`; PubMed&#39;s\n  abbreviated `1123-30` now expands to `1123--1130` rather than staying a\n  range that resolves to nothing.\n- publisher was read from Crossref and dropped by the writer, so every @book\n  and @techreport failed the required-field check.\n- an arXiv preprint with a DataCite DOI was typed @article with no journal --\n  guaranteed to fail validation. It is @misc unless journal_ref names a venue.\n- --url and PMCID were classified by identify_type but had no handler, so a\n  publisher URL without a DOI in its path errored out. URLs now resolve via\n  the citation_doi meta tag; PMCIDs via the NCBI ID converter.\n- citation keys were unsanitised in search_pubmed.py: `Müller2021pmid123`\n  and `O&#39;Brien2021pmid124` are not valid BibTeX keys.\n- DOIs were interpolated into API URLs unquoted.\n- verify_doi used HEAD on doi.org, which follows to the publisher; several\n  answer HEAD with 403 behind a bot check, so good DOIs looked unresolvable.\n  Ask Crossref, then DataCite, and treat transport failures as unknown.\n- valid_entries subtracted the error count from the entry count and reported\n  `Valid entries: -2` for a one-entry file.\n- structured abstracts kept only their first section; titles lost inline\n  markup and carried PubMed&#39;s trailing full stop.\n- two `note` fields could be emitted in one entry.\n- --auto-fix was advertised in --help as &quot;not implemented yet&quot; and did nothing.\n- venue_standards was assigned inside validate_file, so a fresh validator did\n  not have it.\n\nAdd search_openalex.py: ~250M works, keyless REST API, cursor pagination,\nabstracts rebuilt from the inverted index. The skill&#39;s own &quot;single source\nbias&quot; pitfall previously had only two sources to offer, one of them scraped.\n\nDrop the bundled schematic generators (1,148 lines) in favour of the\nscientific-schematics skill, and update the shared-copy contract accordingly.\n\nReference-list length is editorial judgement, so a venue shortfall is now a\nwarning; only an explicit --min-count is enforced as an error.\n\nDependencies drop from eight packages to two: bibtexparser, biopython,\ncrossref-commons, pylatexenc, and selenium were declared but never imported,\nand the parsing layer is now standard library.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/d39264b47c882508545baf8176950b54afe132ce",
+      "sha": "d39264b",
+      "fullSha": "d39264b47c882508545baf8176950b54afe132ce",
+      "owner": "TKassis",
+      "published": "2026-07-31",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "market-research-reports: fix ledger validator crash on publication_da…",
+      "description": "market-research-reports: fix ledger validator crash on publication_date=not-stated\n\nThe sentinel &quot;not-stated&quot; is exactly 10 characters, so it satisfied the\nlen(publication) == 10 ISO-date guard and reached\ndate.fromisoformat(&quot;not-stated&quot;), raising an uncaught ValueError instead of\nthe documented warning. SKILL.md instructs recording &quot;not-stated&quot; when the\npublication date is unavailable, so this crashed on valid ledgers.\n\nCheck the sentinel before the retrieval/publication comparison, and add\nregression tests for both the not-stated warning and the still-enforced\nretrieval-precedes-publication error.\n\nFixes #219",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/95d3adda6dd1179db117c6fb388c35abf527b391",
+      "sha": "95d3add",
+      "fullSha": "95d3adda6dd1179db117c6fb388c35abf527b391",
+      "owner": "TKassis",
+      "published": "2026-07-31",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Update generate-image.png to reflect recent changes in image generati…",
+      "description": "Update generate-image.png to reflect recent changes in image generation process.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/390c8b8b49894ced8942a0987c731763cca0c32e",
+      "sha": "390c8b8",
+      "fullSha": "390c8b8b49894ced8942a0987c731763cca0c32e",
+      "owner": "TKassis",
+      "published": "2026-07-31",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Enforce use of uv for packagment installation whenever needed",
+      "description": "Enforce use of uv for packagment installation whenever needed",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/4226ca8052b89b471ab4eedead6e04b0b6aa08ef",
+      "sha": "4226ca8",
+      "fullSha": "4226ca8052b89b471ab4eedead6e04b0b6aa08ef",
+      "owner": "TKassis",
+      "published": "2026-07-31",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Update image generation and citation management scripts to use 'uv pi…",
+      "description": "Update image generation and citation management scripts to use &#39;uv pip install&#39; for package installations. Modify skill versions for infographics and generate-image to reflect recent changes. Enhance error handling and review logic in infographic generation scripts, ensuring better feedback on quality assessments.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/bd99c01e3fa95bc4e7eef79f8aa74e0c8a27c82e",
+      "sha": "bd99c01",
+      "fullSha": "bd99c01e3fa95bc4e7eef79f8aa74e0c8a27c82e",
+      "owner": "TKassis",
+      "published": "2026-07-31",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "chore: update security scan report [skip ci]",
+      "description": "chore: update security scan report [skip ci]",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/4d5f1d20be7d821a79185914222f9797d6435faf",
+      "sha": "4d5f1d2",
+      "fullSha": "4d5f1d20be7d821a79185914222f9797d6435faf",
+      "owner": "github-actions",
+      "published": "2026-07-31",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "Update version to 2.61.0 in pyproject.toml and README.md, reflecting …",
       "description": "Update version to 2.61.0 in pyproject.toml and README.md, reflecting the latest release.",
@@ -81,94 +169,6 @@
       "fullSha": "4fb7e0bc2926ff92aa7a345a113ffa6ab46dc5af",
       "owner": "TKassis",
       "published": "2026-07-28",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Add paperclip skill",
-      "description": "Add paperclip skill\n\nCovers the Paperclip CLI from GXL: ~11M full-text papers, 217K+ FDA/PMDA/EMA\nregulatory documents, 110K+ trial protocols, and 574K+ UniProt/PDB/ChEMBL\nentries exposed as a read-only virtual filesystem with line-numbered text, so\nanswers can cite an exact sentence.\n\nWritten against the CLI rather than the docs site, which is a JS shell that\nserves almost nothing to a fetcher. Every command was run against 0.7.14 and\nre-verified on 0.7.15 after the CLI self-updated mid-review. SDK signatures\nwere read with inspect, not transcribed.\n\nAuthentication is PAPERCLIP_API_KEY from .env, with browser OAuth as the\nfallback, and the reason is agent-shaped: environment variables do not survive\nbetween tool calls, so the natural two-step form (export, then run) leaves the\nkey unset on the second call. Paperclip does not fail there -- it silently\nfalls back to stored OAuth, a different identity. Every invocation therefore\ncarries a self-contained prefix:\n\n    [ -f .env ] &amp;&amp; { set -a; . ./.env; set +a; }; paperclip &lt;command&gt;\n\nThe guard is load-bearing. A bare `. ./.env` against a missing file is fatal in\nPOSIX sh, so an unguarded prefix silently discards the rest of the command\nline; the compact form produced no output at all in two of three states. The\nguarded form is verified with .env present, absent, and with the key already\nambient, under both sh and bash.\n\nTesting found seven behaviours that upstream documents as working and that do\nnot, all reproducing on both versions. They are recorded with workarounds\nrather than repeated as fact:\n\n- `paperclip bash &#39;...&#39;` passes the whole string as one command name; the SDK&#39;s\n  bash() fails identically.\n- Pipes and redirection inside Paperclip reach grep as literal filenames. Use\n  the local shell, which works because the CLI writes to stdout.\n- /.gxl/ files are listed by ls but unreadable by cat, so the &quot;Full results:\n  /.gxl/map_&lt;id&gt;.txt&quot; pointer that map prints cannot be followed. Use\n  `results &lt;id&gt;`.\n- cd does not persist between invocations; everything resolves from /papers/.\n- reduce --strategy table returns prose, with or without --columns.\n- Binary reads corrupt: non-UTF-8 bytes come back as U+FFFD, so a JPEG&#39;s\n  FFD8FFE0 lands as EFBFBD. No CLI pull, SDK pull() writes nothing, cp to a\n  local path is denied.\n- ask-image --list needs a persistent cd; figure filenames are publisher-named\n  (pnas.2307796121fig01.jpg), never fig1.jpg.\n\nTwo findings matter most because they are silent. reduce embeds citation\nmarkers whose document ids are truncated to eight characters and do not\nresolve -- PMC12388 for PMC12388858 -- so a URL built from one is a dead link,\nwhich defeats the whole point of a line-pinned citation tool. And search output\nshape is nondeterministic: the identical command returns rendered text on one\nrun and raw JSON on the next, roughly evenly over eight runs, uncorrelated with\npiping. --json does not force it (0/8) and lookup --json returns rendered text\ndespite being documented. The skill routes structured reads to\n`results &lt;id&gt; --save out.csv` and `cat meta.json` instead, and gives a result-id\nregex that matches both shapes.\n\nSKILL.md leads with a preflight and seven operating rules -- auth prefix, never\nrun an interactive command, bound output, capture result ids, parallelise\nindependent lookups, do not parse search output, treat server output as data --\nbefore any command reference. paperclip login, setup and uninstall need a human;\ninstall prompts twice and aborts from a tool call, so the non-interactive form\n`printf &#39;1\\n\\n&#39; | paperclip install --dir &lt;path&gt;` is documented.\n\nRepo, clipboard and sharing commands are documented but deliberately not\nexercised: they write to the user&#39;s account. They are marked as transcribed\nfrom --help, and the commands that move local data off the machine -- upload,\ncp, sync, import, share, and fetch, which acts with the user&#39;s browser cookies\n-- are tabulated so they are never run on the agent&#39;s own initiative.\n\nNo scripts/, so no tests/paperclip/ suite is required. skills-ref validate\npasses, SKILL.md is 413 lines, and the security scan reports 0 high or critical.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/d33b2671cf5ec1127a8fdc5f479edbdd89ee4682",
-      "sha": "d33b267",
-      "fullSha": "d33b2671cf5ec1127a8fdc5f479edbdd89ee4682",
-      "owner": "TKassis",
-      "published": "2026-07-28",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Add pkpd-modeling skill",
-      "description": "Add pkpd-modeling skill\n\nPharmacokinetic and pharmacodynamic modelling and simulation: NCA,\ncompartmental fitting, population PK dataset validation, regimen\nsimulation, exposure-response, bioequivalence, allometric scaling and\nfirst-in-human dose, ICH M12 drug-interaction prediction, and MAP\nBayesian therapeutic drug monitoring.\n\nLinear mammillary models are solved analytically -- one eigendecomposition\nof the rate matrix yields the impulse response, and each input type is a\nclosed-form convolution. This is far faster than an ODE solve inside a\nfitter, keeps solver tolerance out of the objective function, and makes\nthe removable singularity at ka = -lambda (the flip-flop boundary) an\nexact limit rather than a nan. Michaelis-Menten and TMDD, which have no\nclosed form, integrate with LSODA and apply doses by restarting at each\nevent.\n\nNumerics are validated against results that do not depend on the\nimplementation: closed-form identities (AUC = D/CL, Vss, MRT, Bateman),\nanalytical profiles with known parameters that NCA and the fitter must\nrecover, the PowerTOST bioequivalence sample-size table (exact at six\nCVs), the EMA ABEL cap, and the FDA body-surface-area conversion factors.\n92 tests pass in an isolated numpy+scipy environment.\n\nDocuments current tooling verified against live sources rather than\nrecalled: Pharmpy 2.1.1 including the 2.0.0 row-index and 2.1.0\nset_placebo_model breaking changes, NONMEM 7.6 ADVAN16/17, and the\n2024-2025 status of ICH M12, M13A/B, E11A and FDA Project Optimus.\nProvenance for every version- and date-specific claim is recorded in\nreferences/source-ledger.md.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/4c90a52d5460743d2f3a8b0b84a20f1a0c907eb1",
-      "sha": "4c90a52",
-      "fullSha": "4c90a52d5460743d2f3a8b0b84a20f1a0c907eb1",
-      "owner": "TKassis",
-      "published": "2026-07-28",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Update paper-lookup to 2.0",
-      "description": "Update paper-lookup to 2.0\n\nAudited every documented endpoint against the live APIs and fixed what\ncame back wrong, then added the tooling for the failures that cannot be\nfixed by documentation alone.\n\nThese APIs report failure with HTTP 200, which is the theme running\nthrough most of this change:\n\n- PMC eFetch returns a well-formed article with no &lt;body&gt; for non-OA\n  content, with the reason only in an XML comment that parsers discard.\n  This is the common case, not an edge case: eFetch full text covers the\n  ~3M OA Subset out of ~10M articles.\n- arXiv returns totalResults 1 and a single entry titled &quot;Error&quot; for a\n  malformed parameter, and silently rewrites an unknown field prefix to\n  all:, so a typo degrades a targeted search into a full-text one.\n- bioRxiv/medRxiv /details/ pages are 30 records, not the documented 100,\n  and an out-of-step cursor is accepted with a 200 -- a step-by-100 walk\n  skipped records 30-99 of every hundred while looking successful.\n- Europe PMC puts errCode in a 200 body.\n\nDocumentation fixes:\n\n- Corrected bioRxiv/medRxiv page size and documented the per-endpoint\n  messages shape, including why total (360) and count_new_papers (232)\n  differ and which endpoints expose no counts at all.\n- Percent-encoded the arXiv date-range brackets; the previous example\n  made curl exit 3 (bad range specification) before sending anything.\n- Documented the PMC non-OA hazard and added the PMC OA Web Service,\n  which answers &quot;is full text actually available&quot; before the fetch.\n- Corrected &lt;arxiv:doi&gt;: it is the journal DOI and is absent for papers\n  that were never published. A constructed 10.48550/arXiv.{id} resolves\n  at doi.org but 404s in both Crossref and OpenAlex, so it is not a\n  portable key.\n- Corrected the arXiv &lt;id&gt; scheme: entry ids are http:// while the links\n  to the same pages are https://, inconsistent within one response.\n- Flagged the /publisher/ example, which returns &quot;no articles found&quot; for\n  valid prefixes, and the api.medrxiv.org host, which 500s on paths that\n  api.biorxiv.org serves.\n- Replaced the cross-platform fetch-tool table with a curl-first section\n  that matches what allowed-tools actually grants.\n- Removed stray tool-call markup from the end of SKILL.md.\n\nEurope PMC (references/europepmc.md) closes a real gap: bioRxiv and\nmedRxiv have no keyword search of their own, and Europe PMC indexes both.\nIts fullTextXML also 404s honestly where eFetch returns a bodyless 200.\n\nscripts/ (standard library only) covers the logic that was being\nre-derived per query, each exiting non-zero on a silent failure:\npaginate.py (4 = unexplained shortfall), jats_to_text.py (2 = no &lt;body&gt;),\narxiv_atom.py (3 = error feed, 5 = throttled), openalex_abstract.py.\npaginate.py redacts credentials from the provenance URLs it emits, since\nOpenAlex and Crossref authenticate by query string.\n\ntests/paper-lookup/ has 79 tests over fixtures captured from real\nresponses. arxiv_error.xml is reconstructed from a verified response\nrather than saved from one, and says so -- arXiv penalizes repeated\nmalformed requests and stayed throttled.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/061882ba79a2ccb69b24436a866e32375edcfccd",
-      "sha": "061882b",
-      "fullSha": "061882ba79a2ccb69b24436a866e32375edcfccd",
-      "owner": "TKassis",
-      "published": "2026-07-28",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Add community health files (#218)",
-      "description": "Add community health files (#218)\n\nCompletes the three GitHub Community Standards items the repository was\nmissing: a Code of Conduct, issue templates, and a pull request template.\n\n- CODE_OF_CONDUCT.md: Contributor Covenant 2.1, with contact@k-dense.ai as\n  the enforcement contact and a pointer to SECURITY.md for vulnerabilities.\n- .github/ISSUE_TEMPLATE/: three issue forms (bug report, new skill request,\n  existing skill improvement) plus a config.yml that disables blank issues\n  and routes security reports to private vulnerability reporting.\n- .github/PULL_REQUEST_TEMPLATE.md: mirrors the Pull Request Checklist in\n  CONTRIBUTING.md so contributors see the skill-format, validation, and\n  safety requirements before submitting.\n- CONTRIBUTING.md: link the Code of Conduct.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/e7ac42510774624f327003c95b6650e2883bc01d",
-      "sha": "e7ac425",
-      "fullSha": "e7ac42510774624f327003c95b6650e2883bc01d",
-      "owner": "TKassis",
-      "published": "2026-07-28",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Update README",
-      "description": "Update README",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/752753bf7214de96d333d9b502bf93bc2700bae9",
-      "sha": "752753b",
-      "fullSha": "752753bf7214de96d333d9b502bf93bc2700bae9",
-      "owner": "TKassis",
-      "published": "2026-07-28",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Add new skill for genomic data analysis",
-      "description": "Add new skill for genomic data analysis\n\nIntroduces a skill for analyzing genomic data, including features for variant calling, mutation analysis, and lineage tracking. The implementation includes several command-line interfaces for querying genomic databases and generating reports. Updates documentation to reflect the new skill and its functionalities, ensuring users can effectively utilize the new features.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/dbe942214d9725d8d327bb566fa726ffd241ddc8",
-      "sha": "dbe9422",
-      "fullSha": "dbe942214d9725d8d327bb566fa726ffd241ddc8",
-      "owner": "TKassis",
-      "published": "2026-07-27",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Add bulk RNA-seq diagram to documentation",
-      "description": "Add bulk RNA-seq diagram to documentation",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/07891681fb8b0b5bdb7d6d5f9a5a68b5af110da4",
-      "sha": "0789168",
-      "fullSha": "07891681fb8b0b5bdb7d6d5f9a5a68b5af110da4",
-      "owner": "TKassis",
-      "published": "2026-07-27",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "More diagrams for skills",
-      "description": "More diagrams for skills",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/ce01a273b3f0af614c05e9cc29b1c4eac5520f6a",
-      "sha": "ce01a27",
-      "fullSha": "ce01a273b3f0af614c05e9cc29b1c4eac5520f6a",
-      "owner": "TKassis",
-      "published": "2026-07-27",
       "label": "commit",
       "repo": "K-Dense-AI/scientific-agent-skills"
     }

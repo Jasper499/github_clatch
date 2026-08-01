@@ -1,44 +1,44 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-07-31T16:21:47Z",
+  "changed": true,
+  "fetchedAt": "2026-08-01T05:42:20Z",
   "previousSha": "ab2f84ab10597c59fac186ecda6d5edd5dcc8b92",
-  "latestSha": "ab2f84ab10597c59fac186ecda6d5edd5dcc8b92",
+  "latestSha": "ad21a3868923628330734375dddbf7b86ea84222",
   "repo": "K-Dense-AI/scientific-agent-skills",
   "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "stars": 0,
   "skillCount": 158,
   "latestCommit": {
-    "title": "Update version to 2.61.0 in pyproject.toml and README.md, reflecting …",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/ab2f84ab10597c59fac186ecda6d5edd5dcc8b92",
-    "sha": "ab2f84a",
-    "published": "2026-07-29"
+    "title": "Update version to 2.62.0 in pyproject.toml and README.md, reflecting …",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/ad21a3868923628330734375dddbf7b86ea84222",
+    "sha": "ad21a38",
+    "published": "2026-07-31"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
     {
-      "title": "Update version to 2.61.0 in pyproject.toml and README.md, reflecting …",
-      "sha": "ab2f84a",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/ab2f84ab10597c59fac186ecda6d5edd5dcc8b92"
+      "title": "Update version to 2.62.0 in pyproject.toml and README.md, reflecting …",
+      "sha": "ad21a38",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/ad21a3868923628330734375dddbf7b86ea84222"
     },
     {
-      "title": "Update skill versions to 1.4 and 1.5 across multiple skills, includin…",
-      "sha": "f1b60f8",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/f1b60f8ef45fd580fbda538421dc1bd1d81bdbca"
+      "title": "citation-management: correct documented commands, bump to 2.0",
+      "sha": "3378ece",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/3378ecea5702801512e18ad37d52fd069e8653b0"
     },
     {
-      "title": "Add new example for Phase 2 regimen development in examples.md and en…",
-      "sha": "07021b9",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/07021b927e6d8dfafe0013503a35d0f6a0b9ad8b"
+      "title": "citation-management: fix BibTeX corruption and metadata defects",
+      "sha": "d39264b",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/d39264b47c882508545baf8176950b54afe132ce"
     },
     {
-      "title": "chore: update security scan report [skip ci]",
-      "sha": "f9d7053",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/f9d7053cb11c560f94cb08dfa64d15b292f5ca1c"
+      "title": "market-research-reports: fix ledger validator crash on publication_da…",
+      "sha": "95d3add",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/95d3adda6dd1179db117c6fb388c35abf527b391"
     },
     {
-      "title": "Update skill versions and enhance security measures across multiple s…",
-      "sha": "0e45106",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/0e451065e3308e9902d8229e17d2028359b2bbaf"
+      "title": "Update generate-image.png to reflect recent changes in image generati…",
+      "sha": "390c8b8",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/390c8b8b49894ced8942a0987c731763cca0c32e"
     }
   ]
 }
