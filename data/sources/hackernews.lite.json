@@ -1,24 +1,16 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-07-31T16:02:38Z",
+  "savedAt": "2026-08-01T05:31:04Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-07-31，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-08-01，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-07-31",
+  "fetchedDate": "2026-08-01",
   "items": [
-    {
-      "title": "Claude Opus 5",
-      "description": "<a href=\"https:&#x2F;&#x2F;www.anthropic.com&#x2F;claude-opus-5-system-card\" rel=\"nofollow\">https:&#x2F;&#x2F;www.anthropic.com&#x2F;claude-opus-5-system-card</a>",
-      "url": "https://www.anthropic.com/news/claude-opus-5",
-      "score": 1778,
-      "comments": 1331,
-      "owner": "alvis"
-    },
     {
       "title": "Kimi-K3 on HuggingFace",
       "description": "Related: <i>Kimi-K3 Technical Report [pdf]</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49070985\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49070985</a>",
       "url": "https://huggingface.co/moonshotai/Kimi-K3",
-      "score": 1376,
+      "score": 1377,
       "comments": 544,
       "owner": "nateb2022"
     },
@@ -27,8 +19,16 @@
       "description": "",
       "url": "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html",
       "score": 1334,
-      "comments": 1112,
+      "comments": 1113,
       "owner": "eecc"
+    },
+    {
+      "title": "UEFA and its national associations will not participate in FIFA competitions",
+      "description": "",
+      "url": "https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/",
+      "score": 1203,
+      "comments": 659,
+      "owner": "dickfickling"
     },
     {
       "title": "Our position on open-weights models",
@@ -39,26 +39,26 @@
       "owner": "surprisetalk"
     },
     {
-      "title": "UEFA and its national associations will not participate in FIFA competitions",
-      "description": "",
-      "url": "https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/",
-      "score": 1171,
-      "comments": 627,
-      "owner": "dickfickling"
-    },
-    {
       "title": "Kill The Cookie Banner",
       "description": "",
       "url": "https://killthecookiebanner.eu/",
-      "score": 1149,
+      "score": 1151,
       "comments": 592,
       "owner": "rapnie"
+    },
+    {
+      "title": "Elevators",
+      "description": "",
+      "url": "https://john.fun/elevators",
+      "score": 1085,
+      "comments": 256,
+      "owner": "Jrh0203"
     },
     {
       "title": "Android may soon restrict on-device ADB",
       "description": "",
       "url": "https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/",
-      "score": 1007,
+      "score": 1008,
       "comments": 505,
       "owner": "shscs911"
     },
@@ -74,15 +74,15 @@
       "title": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
       "description": "Hi HN,<p>I built a specialized inference engine for running 4-bit Gemma 4 26B-A4B-IT on any M-series Mac using about 2 GB of RAM. It is called TurboFieldfare and is written in Swift and Metal.<p>I have always adored on-device AI. It feels like magic that you can run a powerful NN on your Mac or iPhone. So I wanted to push the limits a bit and run a model whose weights don’t fit in memory.<p>The model’s 4-bit quantized weights occupy roughly 14 GB, which makes running it with conventional inference tools almost impossible on an 8 GB or even 16 GB Mac once the OS, applications, and KV cache are included.<p>The trick is to keep the shared part of the model and the KV cache in RAM, then stream only the routed experts needed for each token from SSD. An SSD is way slower than RAM, so the runtime uses a small expert cache and bounded parallel `pread`. While those reads are in flight, the GPU runs the shared part of the layer.<p>I ran more than 100 experiments. Most didn’t work. A few got me here. The experiments are described in the GitHub repo.<p>It currently generates 5–6 tok&#x2F;s on an 8 GB M2 MacBook Air and 31–35 tok&#x2F;s on an M5 MacBook Pro.<p>I also added an experimental OpenAI-compatible local server. It supports streaming and tool calls, and reuses one prompt prefix from the KV cache.<p>Try it! The Mac app is easy to install. On the first run, it will download 15 GB of weights from Hugging Face. The model is surprisingly capable.<p>I would love any kind of feedback!",
       "url": "https://github.com/drumih/turbo-fieldfare",
-      "score": 899,
-      "comments": 333,
+      "score": 901,
+      "comments": 336,
       "owner": "gitpusher42"
     },
     {
       "title": "The coolest use for the Vision Pro",
       "description": "",
       "url": "https://christianselig.com/2026/07/vision-pro-house/",
-      "score": 825,
+      "score": 831,
       "comments": 314,
       "owner": "robbiet480"
     },
@@ -91,14 +91,14 @@
       "description": "",
       "url": "https://www.data.jma.go.jp/multi/quake/quake_detail.html?eventID=20260728163528&lang=en",
       "score": 816,
-      "comments": 233,
+      "comments": 234,
       "owner": "krembo"
     },
     {
       "title": "AI companies are shredding rare books",
       "description": "<a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;HedgieMarkets&#x2F;status&#x2F;2081534588485296565\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;HedgieMarkets&#x2F;status&#x2F;2081534588485296565</a>",
       "url": "https://twitter.com/HedgieMarkets/status/2081534588485296565",
-      "score": 794,
+      "score": 795,
       "comments": 515,
       "owner": "anon373839"
     },
@@ -106,65 +106,65 @@
       "title": "Read this before you buy that TV streaming stick",
       "description": "",
       "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
-      "score": 780,
-      "comments": 504,
+      "score": 794,
+      "comments": 529,
       "owner": "speckx"
     },
     {
       "title": "Superlogical",
       "description": "<a href=\"https:&#x2F;&#x2F;mitchellh.com&#x2F;writing&#x2F;superlogical\" rel=\"nofollow\">https:&#x2F;&#x2F;mitchellh.com&#x2F;writing&#x2F;superlogical</a>",
       "url": "https://www.superlogical.com/",
-      "score": 777,
-      "comments": 452,
+      "score": 781,
+      "comments": 453,
       "owner": "yan"
     },
     {
       "title": "Stacked PRs are now live on GitHub",
       "description": "",
       "url": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/",
-      "score": 751,
-      "comments": 262,
+      "score": 764,
+      "comments": 285,
       "owner": "tomzorz"
     },
     {
       "title": "KOReader",
       "description": "",
       "url": "https://koreader.rocks/",
-      "score": 743,
-      "comments": 242,
+      "score": 744,
+      "comments": 244,
       "owner": "Cider9986"
-    },
-    {
-      "title": "Stop Killing the Internet: No Digital ID and No Age Verification",
-      "description": "",
-      "url": "https://citizens-initiative.europa.eu/initiatives/details/2026/000011_en",
-      "score": 710,
-      "comments": 287,
-      "owner": "doener"
-    },
-    {
-      "title": "New HIV vaccine shows unprecedented success in preclinical study",
-      "description": "",
-      "url": "https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/",
-      "score": 656,
-      "comments": 295,
-      "owner": "codebyaditya"
     },
     {
       "title": "The session you cannot take with you",
       "description": "",
       "url": "https://earendil.com/posts/session-portability/",
-      "score": 648,
-      "comments": 176,
+      "score": 740,
+      "comments": 212,
       "owner": "apitman"
     },
     {
-      "title": "Substack writers, you need a website",
+      "title": "Stop Killing the Internet: No Digital ID and No Age Verification",
       "description": "",
-      "url": "https://elizabethtai.com/2026/06/10/substack-writers-you-need-a-website/",
-      "score": 641,
-      "comments": 349,
-      "owner": "speckx"
+      "url": "https://citizens-initiative.europa.eu/initiatives/details/2026/000011_en",
+      "score": 711,
+      "comments": 289,
+      "owner": "doener"
+    },
+    {
+      "title": "DeepSeek-V4-Flash Update",
+      "description": "",
+      "url": "https://api-docs.deepseek.com/updates/",
+      "score": 684,
+      "comments": 329,
+      "owner": "dnhkng"
+    },
+    {
+      "title": "New HIV vaccine shows unprecedented success in preclinical study",
+      "description": "",
+      "url": "https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/",
+      "score": 658,
+      "comments": 295,
+      "owner": "codebyaditya"
     }
   ]
 }
