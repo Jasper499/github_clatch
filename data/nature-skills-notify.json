@@ -1,20 +1,25 @@
 {
   "changed": true,
-  "fetchedAt": "2026-08-01T05:38:44Z",
-  "previousSha": "d5c9dee63cb1679c22e2a6e4e488f5f23d4ec2e1",
-  "latestSha": "0198b34c6a7741cd1c4f82e617198d0039bcadea",
+  "fetchedAt": "2026-08-01T15:32:07Z",
+  "previousSha": "0198b34c6a7741cd1c4f82e617198d0039bcadea",
+  "latestSha": "17a8b719963b6fa92351ebb27d039a2714fa1b29",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "feat: distinguish major and minor revisions",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/0198b34c6a7741cd1c4f82e617198d0039bcadea",
-    "sha": "0198b34",
+    "title": "feat: grade reviewer concerns by severity",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/17a8b719963b6fa92351ebb27d039a2714fa1b29",
+    "sha": "17a8b71",
     "published": "2026-08-01"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "feat: grade reviewer concerns by severity",
+      "sha": "17a8b71",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/17a8b719963b6fa92351ebb27d039a2714fa1b29"
+    },
     {
       "title": "feat: distinguish major and minor revisions",
       "sha": "0198b34",
@@ -34,11 +39,6 @@
       "title": "feat(nature-figure): allow any OpenAI-compatible images endpoint via …",
       "sha": "19d23c7",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/19d23c7890d302b3b70d4d8bfbdfe0eea24be464"
-    },
-    {
-      "title": "chore: update star history",
-      "sha": "d5c9dee",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/d5c9dee63cb1679c22e2a6e4e488f5f23d4ec2e1"
     }
   ]
 }

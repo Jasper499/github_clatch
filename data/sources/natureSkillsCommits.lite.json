@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-08-01T05:38:44Z",
+  "savedAt": "2026-08-01T15:32:07Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "0198b34c6a7741cd1c4f82e617198d0039bcadea",
+  "latestSha": "17a8b719963b6fa92351ebb27d039a2714fa1b29",
   "items": [
+    {
+      "title": "feat: grade reviewer concerns by severity",
+      "description": "feat: grade reviewer concerns by severity",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/17a8b719963b6fa92351ebb27d039a2714fa1b29",
+      "sha": "17a8b71",
+      "fullSha": "17a8b719963b6fa92351ebb27d039a2714fa1b29",
+      "owner": "Travisma2233",
+      "published": "2026-08-01",
+      "label": "commit"
+    },
     {
       "title": "feat: distinguish major and minor revisions",
       "description": "feat: distinguish major and minor revisions",
@@ -145,16 +155,6 @@
       "fullSha": "fac88c419fa0ad642014609e3084f52629cfee52",
       "owner": "github-actions",
       "published": "2026-07-28",
-      "label": "commit"
-    },
-    {
-      "title": "Update README.md",
-      "description": "Update README.md",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/1562ab71e5aec0b313f5311130438ba04c7830c9",
-      "sha": "1562ab7",
-      "fullSha": "1562ab71e5aec0b313f5311130438ba04c7830c9",
-      "owner": "Flyme886",
-      "published": "2026-07-27",
       "label": "commit"
     }
   ]
