@@ -1,12 +1,32 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-08-01T15:32:07Z",
+  "savedAt": "2026-08-02T05:39:03Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "17a8b719963b6fa92351ebb27d039a2714fa1b29",
+  "latestSha": "4312c49e04c27aac9a719a03be17cf1a15501147",
   "items": [
+    {
+      "title": "fix: preserve unknown source-map locators",
+      "description": "fix: preserve unknown source-map locators",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/4312c49e04c27aac9a719a03be17cf1a15501147",
+      "sha": "4312c49",
+      "fullSha": "4312c49e04c27aac9a719a03be17cf1a15501147",
+      "owner": "Travisma2233",
+      "published": "2026-08-01",
+      "label": "commit"
+    },
+    {
+      "title": "fix: render equations in paper readers",
+      "description": "fix: render equations in paper readers",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/e7a9bc0cfa71a1eb731e58d72f079192591bad74",
+      "sha": "e7a9bc0",
+      "fullSha": "e7a9bc0cfa71a1eb731e58d72f079192591bad74",
+      "owner": "Travisma2233",
+      "published": "2026-08-01",
+      "label": "commit"
+    },
     {
       "title": "feat: grade reviewer concerns by severity",
       "description": "feat: grade reviewer concerns by severity",
@@ -134,26 +154,6 @@
       "sha": "910d5c0",
       "fullSha": "910d5c0efd1fb4f095eed4d24fd8f621aa7b9e75",
       "owner": "54f7qr5xr2-hash",
-      "published": "2026-07-28",
-      "label": "commit"
-    },
-    {
-      "title": "docs: generalize literature pipeline examples",
-      "description": "docs: generalize literature pipeline examples",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/7fa208e6b36d80b4a6928bd745c976667cffa29e",
-      "sha": "7fa208e",
-      "fullSha": "7fa208e6b36d80b4a6928bd745c976667cffa29e",
-      "owner": "Jiahao8595",
-      "published": "2026-07-28",
-      "label": "commit"
-    },
-    {
-      "title": "chore: update star history",
-      "description": "chore: update star history",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/fac88c419fa0ad642014609e3084f52629cfee52",
-      "sha": "fac88c4",
-      "fullSha": "fac88c419fa0ad642014609e3084f52629cfee52",
-      "owner": "github-actions",
       "published": "2026-07-28",
       "label": "commit"
     }

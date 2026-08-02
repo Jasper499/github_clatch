@@ -1,20 +1,30 @@
 {
   "changed": true,
-  "fetchedAt": "2026-08-01T15:32:07Z",
-  "previousSha": "0198b34c6a7741cd1c4f82e617198d0039bcadea",
-  "latestSha": "17a8b719963b6fa92351ebb27d039a2714fa1b29",
+  "fetchedAt": "2026-08-02T05:39:03Z",
+  "previousSha": "17a8b719963b6fa92351ebb27d039a2714fa1b29",
+  "latestSha": "4312c49e04c27aac9a719a03be17cf1a15501147",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "feat: grade reviewer concerns by severity",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/17a8b719963b6fa92351ebb27d039a2714fa1b29",
-    "sha": "17a8b71",
+    "title": "fix: preserve unknown source-map locators",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/4312c49e04c27aac9a719a03be17cf1a15501147",
+    "sha": "4312c49",
     "published": "2026-08-01"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "fix: preserve unknown source-map locators",
+      "sha": "4312c49",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/4312c49e04c27aac9a719a03be17cf1a15501147"
+    },
+    {
+      "title": "fix: render equations in paper readers",
+      "sha": "e7a9bc0",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/e7a9bc0cfa71a1eb731e58d72f079192591bad74"
+    },
     {
       "title": "feat: grade reviewer concerns by severity",
       "sha": "17a8b71",
@@ -29,16 +39,6 @@
       "title": "Merge pull request #182 from jinhaosong-source/feat/orcarouter-images…",
       "sha": "6ba1575",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/6ba15753254a67e1120ff412e1725ae72439be9f"
-    },
-    {
-      "title": "chore: update star history",
-      "sha": "745f6da",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/745f6da4b30ba3eaf68b7f76e8ee51c7790f2568"
-    },
-    {
-      "title": "feat(nature-figure): allow any OpenAI-compatible images endpoint via …",
-      "sha": "19d23c7",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/19d23c7890d302b3b70d4d8bfbdfe0eea24be464"
     }
   ]
 }
