@@ -1,20 +1,25 @@
 {
   "changed": true,
-  "fetchedAt": "2026-08-02T05:39:03Z",
-  "previousSha": "17a8b719963b6fa92351ebb27d039a2714fa1b29",
-  "latestSha": "4312c49e04c27aac9a719a03be17cf1a15501147",
+  "fetchedAt": "2026-08-02T15:32:18Z",
+  "previousSha": "4312c49e04c27aac9a719a03be17cf1a15501147",
+  "latestSha": "e62b77c58efbe80bab1111ca9a40b271981ed797",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "fix: preserve unknown source-map locators",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/4312c49e04c27aac9a719a03be17cf1a15501147",
-    "sha": "4312c49",
-    "published": "2026-08-01"
+    "title": "feat: strengthen reviewer isolation and response etiquette",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/e62b77c58efbe80bab1111ca9a40b271981ed797",
+    "sha": "e62b77c",
+    "published": "2026-08-02"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "feat: strengthen reviewer isolation and response etiquette",
+      "sha": "e62b77c",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/e62b77c58efbe80bab1111ca9a40b271981ed797"
+    },
     {
       "title": "fix: preserve unknown source-map locators",
       "sha": "4312c49",
@@ -34,11 +39,6 @@
       "title": "feat: distinguish major and minor revisions",
       "sha": "0198b34",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/0198b34c6a7741cd1c4f82e617198d0039bcadea"
-    },
-    {
-      "title": "Merge pull request #182 from jinhaosong-source/feat/orcarouter-images…",
-      "sha": "6ba1575",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/6ba15753254a67e1120ff412e1725ae72439be9f"
     }
   ]
 }
