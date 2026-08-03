@@ -1,0 +1,34 @@
+name: Daily China Daily Update
+
+on:
+  schedule:
+    # UTC 03:00 (Beijing 11:00)
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: data-content-update
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update-china-daily:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch China Daily
+        run: python scripts/update_china_daily.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/meta.json data/sources/ data/history/ data/manifest.json data/feeds/
+          bash scripts/git_push_with_retry.sh "chore: daily China Daily update"

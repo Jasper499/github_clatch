@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-08-03T03:48:02Z",
+  "updatedAt": "2026-07-31T12:28:07Z",
   "periodDays": 7,
-  "weekLabel": "2026-07-20 ~ 2026-07-27",
-  "githubUpdatedAt": "2026-07-27T04:34:34Z",
-  "hackernewsUpdatedAt": "2026-08-02T15:05:43Z",
-  "weiboUpdatedAt": "2026-08-03T03:48:02Z",
-  "journalsUpdatedAt": "2026-08-01T05:16:17Z",
-  "natureSkillsUpdatedAt": "2026-08-02T15:32:18Z",
-  "scientificSkillsUpdatedAt": "2026-08-02T15:42:59Z",
-  "natureSkillsLatestSha": "e62b77c58efbe80bab1111ca9a40b271981ed797",
-  "scientificSkillsLatestSha": "ad21a3868923628330734375dddbf7b86ea84222",
+  "weekLabel": "2026-07-14 ~ 2026-07-21",
+  "githubUpdatedAt": "2026-07-21T12:46:20Z",
+  "hackernewsUpdatedAt": "2026-07-24T05:24:06Z",
+  "weiboUpdatedAt": "2026-07-24T03:36:06Z",
+  "journalsUpdatedAt": "2026-07-15T04:40:50Z",
+  "natureSkillsUpdatedAt": "2026-07-24T05:31:46Z",
+  "scientificSkillsUpdatedAt": "2026-07-24T05:36:55Z",
+  "natureSkillsLatestSha": "91862221b39f7ca16d52ae0e1e9cb6c2bb31a96b",
+  "scientificSkillsLatestSha": "70a0d595e54b8d92ca54f216d4315e0ab8c7d967",
   "catalog": [
     {
       "id": "github",
@@ -98,6 +98,16 @@
           "sourceKey": "scientificSkillsCommits"
         }
       ]
+    },
+    {
+      "id": "chinaDaily",
+      "label": "China Daily",
+      "children": [
+        {
+          "id": "chinaDaily",
+          "sourceKey": "chinaDaily"
+        }
+      ]
     }
   ],
   "sources": {
@@ -113,42 +123,42 @@
     },
     "hackernews": {
       "label": "Hacker News 热门",
-      "description": "近 7 天 HN 高互动讨论（2026-08-02，共 20 条）",
+      "description": "近 7 天 HN 高互动讨论（2026-07-24，共 20 条）",
       "updateFrequency": "twice-daily",
-      "fetchedDate": "2026-08-02",
+      "fetchedDate": "2026-07-24",
       "itemCount": 20
     },
     "weibo": {
       "label": "热搜榜",
-      "description": "微博热搜榜（2026-08-03，共 30 条，约每 6 小时更新）",
+      "description": "微博热搜榜（2026-07-24，共 30 条，约每 6 小时更新）",
       "updateFrequency": "every-6h",
-      "fetchedDate": "2026-08-03",
+      "fetchedDate": "2026-07-24",
       "itemCount": 30
     },
     "mrm": {
       "label": "Magnetic Resonance in Medicine",
-      "description": "近 45 天 MRM 期刊 MRI 相关论文（2026-06-17 ~ 2026-08-01，共 15 篇，暂无可用 OA PDF 链接）",
+      "description": "近 45 天 MRM 期刊 MRI 相关论文（2026-05-31 ~ 2026-07-15，共 15 篇，暂无可用 OA PDF 链接）",
       "updateFrequency": "biweekly",
       "itemCount": 15
     },
     "tmi": {
       "label": "IEEE Transactions on Medical Imaging",
-      "description": "近 45 天 TMI 期刊 MRI 相关论文（2026-06-17 ~ 2026-08-01，共 15 篇，本地已存 OA PDF 3 篇）",
+      "description": "近 45 天 TMI 期刊 MRI 相关论文（2026-05-31 ~ 2026-07-15，共 12 篇，暂无可用 OA PDF 链接）",
       "updateFrequency": "biweekly",
-      "itemCount": 15
+      "itemCount": 12
     },
     "media": {
       "label": "Medical Image Analysis",
-      "description": "近 45 天 MedIA 期刊 MRI 相关论文（2026-06-17 ~ 2026-08-01，共 14 篇，暂无可用 OA PDF 链接）",
+      "description": "近 45 天 MedIA 期刊 MRI 相关论文（2026-05-31 ~ 2026-07-15，共 14 篇，暂无可用 OA PDF 链接）",
       "updateFrequency": "biweekly",
       "itemCount": 14
     },
     "natureSkills": {
       "label": "Skills 清单",
-      "description": "跟踪 Yuan1z0825/nature-skills：共 17 个技能（最近同步 2026-08-02）",
+      "description": "跟踪 Yuan1z0825/nature-skills：共 17 个技能（最近同步 2026-07-22）",
       "updateFrequency": "daily",
       "repo": "Yuan1z0825/nature-skills",
-      "latestSha": "e62b77c58efbe80bab1111ca9a40b271981ed797",
+      "latestSha": "91862221b39f7ca16d52ae0e1e9cb6c2bb31a96b",
       "itemCount": 18
     },
     "natureSkillsCommits": {
@@ -156,40 +166,47 @@
       "description": "最近 15 条提交动态",
       "updateFrequency": "daily",
       "repo": "Yuan1z0825/nature-skills",
-      "latestSha": "e62b77c58efbe80bab1111ca9a40b271981ed797",
+      "latestSha": "91862221b39f7ca16d52ae0e1e9cb6c2bb31a96b",
       "itemCount": 15
     },
     "scientificSkills": {
       "label": "Skills 清单",
-      "description": "跟踪 K-Dense-AI/scientific-agent-skills：共 158 个技能（最近同步 2026-07-31）",
+      "description": "跟踪 K-Dense-AI/scientific-agent-skills：共 149 个技能（最近同步 2026-07-23）",
       "updateFrequency": "daily",
       "repo": "K-Dense-AI/scientific-agent-skills",
-      "latestSha": "ad21a3868923628330734375dddbf7b86ea84222",
-      "itemCount": 159
+      "latestSha": "70a0d595e54b8d92ca54f216d4315e0ab8c7d967",
+      "itemCount": 150
     },
     "scientificSkillsCommits": {
       "label": "最近提交",
       "description": "最近 15 条提交动态",
       "updateFrequency": "daily",
       "repo": "K-Dense-AI/scientific-agent-skills",
-      "latestSha": "ad21a3868923628330734375dddbf7b86ea84222",
+      "latestSha": "70a0d595e54b8d92ca54f216d4315e0ab8c7d967",
       "itemCount": 15
     },
     "weiboRealtime": {
       "label": "实时",
-      "description": "微博实时上升榜（按上榜时间排序，2026-08-03，共 30 条，约每 6 小时更新）",
+      "description": "微博实时上升榜（按上榜时间排序，2026-07-24，共 30 条，约每 6 小时更新）",
       "updateFrequency": "every-6h",
-      "fetchedDate": "2026-08-03",
+      "fetchedDate": "2026-07-24",
       "itemCount": 30
     },
     "weiboLocal": {
       "label": "同城",
-      "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-03，共 13 条，约每 6 小时更新）",
+      "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-07-24，共 11 条，约每 6 小时更新）",
       "updateFrequency": "every-6h",
-      "fetchedDate": "2026-08-03",
-      "itemCount": 13
+      "fetchedDate": "2026-07-24",
+      "itemCount": 11
+    },
+    "chinaDaily": {
+      "label": "China Daily 热门",
+      "description": "China Daily Most Viewed / 首页热门（2026-07-31，共 20 条，每天更新）",
+      "updateFrequency": "daily",
+      "fetchedDate": "2026-07-31",
+      "itemCount": 20
     }
   },
-  "generatedAt": "2026-08-03T03:48:02Z",
-  "journalsPeriod": "2026-06-17 ~ 2026-08-01"
+  "generatedAt": "2026-07-31T12:28:07Z",
+  "chinaDailyUpdatedAt": "2026-07-31T12:28:07Z"
 }

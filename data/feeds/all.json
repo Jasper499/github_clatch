@@ -6,148 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E7%89%9B%E8%9B%99%20%E6%8A%97%E7%94%9F%E7%B4%A0&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E7%89%9B%E8%9B%99%20%E6%8A%97%E7%94%9F%E7%B4%A0&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 牛蛙 抗生素",
-      "date_published": "2026-08-03T03:48:02Z"
+      "id": "chinaDaily:https://www.chinadaily.com.cn/a/202607/27/WS6a66ac6fa310986e2b4675ef.html",
+      "url": "https://www.chinadaily.com.cn/a/202607/27/WS6a66ac6fa310986e2b4675ef.html",
+      "title": "[China Daily 热门] Questions before goodbye",
+      "date_published": "2026-07-31T12:28:07Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E8%8E%AB%E6%B0%8F%E9%B8%A1%E7%85%B2%E8%80%81%E6%9D%BF%E8%AF%B4%E5%A6%82%E6%9E%9C%E5%86%8D%E6%9D%A5%E6%B5%81%E9%87%8F%E4%BC%9A%E5%85%B3%E5%BA%97%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%8E%AB%E6%B0%8F%E9%B8%A1%E7%85%B2%E8%80%81%E6%9D%BF%E8%AF%B4%E5%A6%82%E6%9E%9C%E5%86%8D%E6%9D%A5%E6%B5%81%E9%87%8F%E4%BC%9A%E5%85%B3%E5%BA%97%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 莫氏鸡煲老板说如果再来流量会关店",
-      "date_published": "2026-08-03T03:48:02Z"
+      "id": "chinaDaily:https://www.chinadaily.com.cn/a/201812/08/WS5c0b3c8ca310eff30328fdd7.html",
+      "url": "https://www.chinadaily.com.cn/a/201812/08/WS5c0b3c8ca310eff30328fdd7.html",
+      "title": "[China Daily 热门] Selves set free",
+      "date_published": "2026-07-31T12:28:07Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E6%B4%BB%E5%8A%9B%E4%B8%AD%E5%9B%BD%E8%B0%83%E7%A0%94%E8%A1%8C%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B4%BB%E5%8A%9B%E4%B8%AD%E5%9B%BD%E8%B0%83%E7%A0%94%E8%A1%8C%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 活力中国调研行",
-      "date_published": "2026-08-03T03:48:02Z"
+      "id": "chinaDaily:https://www.chinadaily.com.cn/a/202607/30/WS6a6b6ab2a310986e2b468357.html",
+      "url": "https://www.chinadaily.com.cn/a/202607/30/WS6a6b6ab2a310986e2b468357.html",
+      "title": "[China Daily 热门] CPC to hold key meeting in October",
+      "date_published": "2026-07-31T12:28:07Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E5%A5%B3%E5%84%BF%E8%80%83%E4%B8%8A%E5%8C%97%E5%A4%A7%20%E8%AF%B7%E5%A4%A7%E5%AE%B6%E5%96%9D%E6%B0%B4&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%84%BF%E8%80%83%E4%B8%8A%E5%8C%97%E5%A4%A7%20%E8%AF%B7%E5%A4%A7%E5%AE%B6%E5%96%9D%E6%B0%B4&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 女儿考上北大 请大家喝水",
-      "date_published": "2026-08-03T03:48:02Z"
+      "id": "chinaDaily:https://www.chinadaily.com.cn/a/202607/29/WS6a6a1a02a310986e2b468008.html",
+      "url": "https://www.chinadaily.com.cn/a/202607/29/WS6a6a1a02a310986e2b468008.html",
+      "title": "[China Daily 热门] US urged to end research cooperation curbs",
+      "date_published": "2026-07-31T12:28:07Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E4%B8%8D%E5%96%9C%E6%AC%A2%E8%A2%AB%E5%8F%AB%E6%B3%A1%E8%8F%9C%E5%A6%B9%E7%9A%84%E9%9F%A9%E5%A5%B3%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%8D%E5%96%9C%E6%AC%A2%E8%A2%AB%E5%8F%AB%E6%B3%A1%E8%8F%9C%E5%A6%B9%E7%9A%84%E9%9F%A9%E5%A5%B3%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 不喜欢被叫泡菜妹的韩女",
-      "date_published": "2026-08-03T03:48:02Z"
+      "id": "chinaDaily:https://www.chinadaily.com.cn/a/202607/29/WS6a6a19a5a310986e2b468005.html",
+      "url": "https://www.chinadaily.com.cn/a/202607/29/WS6a6a19a5a310986e2b468005.html",
+      "title": "[China Daily 热门] Present, future results both key to governance",
+      "date_published": "2026-07-31T12:28:07Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%AD%98%E5%82%A8%E8%8A%AF%E7%89%87%E5%8F%88%E5%B4%A9%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AD%98%E5%82%A8%E8%8A%AF%E7%89%87%E5%8F%88%E5%B4%A9%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 存储芯片又崩了",
-      "date_published": "2026-08-03T03:48:02Z"
+      "id": "chinaDaily:https://www.chinadaily.com.cn/a/202607/29/WS6a6a1cdaa310986e2b468014.html",
+      "url": "https://www.chinadaily.com.cn/a/202607/29/WS6a6a1cdaa310986e2b468014.html",
+      "title": "[China Daily 热门] China unveils plan for faster green transition",
+      "date_published": "2026-07-31T12:28:07Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E%E7%99%BD%E6%B5%B7%E8%B1%9A&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E%E7%99%BD%E6%B5%B7%E8%B1%9A&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 台风白海豚",
-      "date_published": "2026-08-03T03:48:02Z"
+      "id": "chinaDaily:https://www.chinadaily.com.cn/a/202607/30/WS6a6ae0fba310986e2b46825b.html",
+      "url": "https://www.chinadaily.com.cn/a/202607/30/WS6a6ae0fba310986e2b46825b.html",
+      "title": "[China Daily 热门] Tales & Trails | Tianjin: Dive into every side of the sea",
+      "date_published": "2026-07-31T12:28:07Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 王者荣耀",
-      "date_published": "2026-08-03T03:48:02Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E5%A9%9A%E5%A4%96%E8%83%9A%E8%83%8E%E6%A1%88%20%E9%87%8D%E5%A9%9A&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%A9%9A%E5%A4%96%E8%83%9A%E8%83%8E%E6%A1%88%20%E9%87%8D%E5%A9%9A&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 婚外胚胎案 重婚",
-      "date_published": "2026-08-03T03:48:02Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E4%BB%8E%E5%85%BB%E8%80%81%E9%99%A2%E5%9B%9E%E6%9D%A5%E5%90%8E%E5%9D%9A%E5%AE%9A%E4%BA%86%E7%B2%97%E8%85%BF%E7%9A%84%E5%86%B3%E5%BF%83&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E4%BB%8E%E5%85%BB%E8%80%81%E9%99%A2%E5%9B%9E%E6%9D%A5%E5%90%8E%E5%9D%9A%E5%AE%9A%E4%BA%86%E7%B2%97%E8%85%BF%E7%9A%84%E5%86%B3%E5%BF%83&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 从养老院回来后坚定了粗腿的决心",
-      "date_published": "2026-08-03T03:48:02Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E7%A6%8F%E5%BB%BA%E6%BC%B3%E5%B7%9E%E9%80%9A%E6%8A%A5%E6%8A%97%E7%94%9F%E7%B4%A0%E7%89%9B%E8%9B%99%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%A6%8F%E5%BB%BA%E6%BC%B3%E5%B7%9E%E9%80%9A%E6%8A%A5%E6%8A%97%E7%94%9F%E7%B4%A0%E7%89%9B%E8%9B%99%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 福建漳州通报抗生素牛蛙",
-      "date_published": "2026-08-03T03:48:02Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=A%E8%82%A1&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=A%E8%82%A1&t=31&band_rank=1&Refer=top",
-      "title": "[实时] A股",
-      "date_published": "2026-08-03T03:48:02Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=AI%E6%8A%8A%E6%88%91%E7%9A%84%E6%91%B8%E9%B1%BC%E6%97%B6%E9%97%B4%E9%83%BD%E5%81%B7%E8%B5%B0%E4%BA%86&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=AI%E6%8A%8A%E6%88%91%E7%9A%84%E6%91%B8%E9%B1%BC%E6%97%B6%E9%97%B4%E9%83%BD%E5%81%B7%E8%B5%B0%E4%BA%86&t=31&band_rank=1&Refer=top",
-      "title": "[实时] AI把我的摸鱼时间都偷走了",
-      "date_published": "2026-08-03T03:48:02Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E5%86%85%E5%A8%B1%E5%B1%85%E7%84%B6%E8%BF%98%E6%9C%89%E8%BF%99%E4%B9%88%E5%A4%9A%E7%A7%AF%E5%8E%8B%E7%9A%84%E5%89%A7&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%86%85%E5%A8%B1%E5%B1%85%E7%84%B6%E8%BF%98%E6%9C%89%E8%BF%99%E4%B9%88%E5%A4%9A%E7%A7%AF%E5%8E%8B%E7%9A%84%E5%89%A7&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 内娱居然还有这么多积压的剧",
-      "date_published": "2026-08-03T03:48:02Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E8%B1%86%E5%8C%85%E7%AE%80%E7%9B%B4%E6%98%AF%E5%8E%8B%E5%8A%9B%E5%85%A8%E5%90%83%E4%B9%8B%E4%BA%BA&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E8%B1%86%E5%8C%85%E7%AE%80%E7%9B%B4%E6%98%AF%E5%8E%8B%E5%8A%9B%E5%85%A8%E5%90%83%E4%B9%8B%E4%BA%BA&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 豆包简直是压力全吃之人",
-      "date_published": "2026-08-03T03:48:02Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 王者荣耀",
-      "date_published": "2026-08-03T03:48:02Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E7%89%9B%E8%9B%99%20%E6%8A%97%E7%94%9F%E7%B4%A0&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E7%89%9B%E8%9B%99%20%E6%8A%97%E7%94%9F%E7%B4%A0&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 牛蛙 抗生素",
-      "date_published": "2026-08-03T03:48:02Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E8%8E%AB%E6%B0%8F%E9%B8%A1%E7%85%B2%E8%80%81%E6%9D%BF%E8%AF%B4%E5%A6%82%E6%9E%9C%E5%86%8D%E6%9D%A5%E6%B5%81%E9%87%8F%E4%BC%9A%E5%85%B3%E5%BA%97%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%8E%AB%E6%B0%8F%E9%B8%A1%E7%85%B2%E8%80%81%E6%9D%BF%E8%AF%B4%E5%A6%82%E6%9E%9C%E5%86%8D%E6%9D%A5%E6%B5%81%E9%87%8F%E4%BC%9A%E5%85%B3%E5%BA%97%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 莫氏鸡煲老板说如果再来流量会关店",
-      "date_published": "2026-08-03T03:48:02Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E6%B4%BB%E5%8A%9B%E4%B8%AD%E5%9B%BD%E8%B0%83%E7%A0%94%E8%A1%8C%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B4%BB%E5%8A%9B%E4%B8%AD%E5%9B%BD%E8%B0%83%E7%A0%94%E8%A1%8C%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 活力中国调研行",
-      "date_published": "2026-08-03T03:48:02Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E%E7%99%BD%E6%B5%B7%E8%B1%9A&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E%E7%99%BD%E6%B5%B7%E8%B1%9A&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 台风白海豚",
-      "date_published": "2026-08-03T03:48:02Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E8%B5%9B%E9%87%8C%E6%9C%A8%E6%B9%96%E6%8C%89%E4%BA%BA%E6%94%B6%E8%B4%B9%E6%94%B9%E4%B8%BA%E6%8C%89%E8%BD%A6%E6%94%B6%E8%B4%B9%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%B5%9B%E9%87%8C%E6%9C%A8%E6%B9%96%E6%8C%89%E4%BA%BA%E6%94%B6%E8%B4%B9%E6%94%B9%E4%B8%BA%E6%8C%89%E8%BD%A6%E6%94%B6%E8%B4%B9%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 赛里木湖按人收费改为按车收费",
-      "date_published": "2026-08-03T03:48:02Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E5%84%BF%E7%A7%91%E9%9F%A9%E6%9D%B0%E5%8C%BB%E7%94%9F%E8%A2%AB%E5%88%A4%E5%88%91&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%84%BF%E7%A7%91%E9%9F%A9%E6%9D%B0%E5%8C%BB%E7%94%9F%E8%A2%AB%E5%88%A4%E5%88%91&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 儿科韩杰医生被判刑",
-      "date_published": "2026-08-03T03:48:02Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E9%93%B6%E9%B9%AD%E5%9B%9E%E5%BA%94%E4%B8%87%E5%85%83%E8%B5%94%E5%81%BF%E8%BD%AC%E8%B4%A6%E5%A4%87%E6%B3%A8%E9%A1%BE%E5%AE%A2%E6%95%B2%E8%AF%88%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%93%B6%E9%B9%AD%E5%9B%9E%E5%BA%94%E4%B8%87%E5%85%83%E8%B5%94%E5%81%BF%E8%BD%AC%E8%B4%A6%E5%A4%87%E6%B3%A8%E9%A1%BE%E5%AE%A2%E6%95%B2%E8%AF%88%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 银鹭回应万元赔偿转账备注顾客敲诈",
-      "date_published": "2026-08-03T03:48:02Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%A9%9A%E5%A4%96%E8%83%9A%E8%83%8E%E6%A1%88%E5%A6%BB%E5%AD%90%E7%A7%B0%E6%88%BF%E4%BA%A7%E5%9D%87%E5%9C%A8%E5%8F%8C%E6%96%B9%E5%90%8D%E4%B8%8B%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A9%9A%E5%A4%96%E8%83%9A%E8%83%8E%E6%A1%88%E5%A6%BB%E5%AD%90%E7%A7%B0%E6%88%BF%E4%BA%A7%E5%9D%87%E5%9C%A8%E5%8F%8C%E6%96%B9%E5%90%8D%E4%B8%8B%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 婚外胚胎案妻子称房产均在双方名下",
-      "date_published": "2026-08-03T03:48:02Z"
+      "id": "chinaDaily:https://www.chinadaily.com.cn/a/202607/30/WS6a6aa309a310986e2b4680cf.html",
+      "url": "https://www.chinadaily.com.cn/a/202607/30/WS6a6aa309a310986e2b4680cf.html",
+      "title": "[China Daily 热门] Steering new dynamics in Asia-Pacific",
+      "date_published": "2026-07-31T12:28:07Z"
     }
   ]
 }

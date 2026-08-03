@@ -27,6 +27,7 @@ META_COPY_FIELDS = (
     "githubUpdatedAt",
     "hackernewsUpdatedAt",
     "weiboUpdatedAt",
+    "chinaDailyUpdatedAt",
     "journalsUpdatedAt",
     "natureSkillsUpdatedAt",
     "scientificSkillsUpdatedAt",

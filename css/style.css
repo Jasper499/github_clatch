@@ -40,6 +40,10 @@
   --platform-weibo-soft: rgba(255, 92, 122, 0.14);
   --platform-weibo-border: rgba(255, 92, 122, 0.35);
 
+  --platform-chinadaily: #c8102e;
+  --platform-chinadaily-soft: rgba(200, 16, 46, 0.14);
+  --platform-chinadaily-border: rgba(200, 16, 46, 0.35);
+
   --platform-journals: #b794f6;
   --platform-journals-soft: rgba(183, 148, 246, 0.14);
   --platform-journals-border: rgba(183, 148, 246, 0.35);
@@ -759,6 +763,11 @@ body::after {
   background: var(--platform-weibo-soft);
 }
 
+.meta-sync-item.theme-chinadaily.active {
+  border-color: var(--platform-chinadaily-border);
+  background: var(--platform-chinadaily-soft);
+}
+
 .meta-sync-item.theme-journals.active {
   border-color: var(--platform-journals-border);
   background: var(--platform-journals-soft);
@@ -1095,6 +1104,12 @@ body::after {
   --leaf-accent: var(--platform-weibo);
 }
 
+.theme-chinadaily .tree-leaf.active {
+  background: var(--platform-chinadaily-soft);
+  border-color: var(--platform-chinadaily-border);
+  --leaf-accent: var(--platform-chinadaily);
+}
+
 .theme-journals .tree-leaf.active {
   background: var(--platform-journals-soft);
   border-color: var(--platform-journals-border);
@@ -1163,6 +1178,12 @@ body::after {
   --panel-glow: var(--platform-weibo-soft);
   border-color: var(--platform-weibo-border);
   box-shadow: var(--shadow-soft), 0 0 0 1px var(--platform-weibo-soft), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.content-panel.theme-chinadaily {
+  --panel-glow: var(--platform-chinadaily-soft);
+  border-color: var(--platform-chinadaily-border);
+  box-shadow: var(--shadow-soft), 0 0 0 1px var(--platform-chinadaily-soft), inset 0 1px 0 rgba(255, 255, 255, 0.05);
 }
 
 .content-panel.theme-journals {
@@ -1963,6 +1984,11 @@ a.compact-item:hover .icon-compact {
   --list-active-accent: var(--platform-weibo);
 }
 
+.content-panel.theme-chinadaily {
+  --list-active-bg: var(--platform-chinadaily-soft);
+  --list-active-accent: var(--platform-chinadaily);
+}
+
 .content-panel.theme-journals {
   --list-active-bg: var(--platform-journals-soft);
   --list-active-accent: var(--platform-journals);
@@ -2148,6 +2174,12 @@ a.compact-item:hover .icon-compact {
   background: var(--platform-weibo-soft);
   border-color: var(--platform-weibo-border);
   color: var(--platform-weibo);
+}
+
+.mobile-tab.theme-chinadaily.active {
+  background: var(--platform-chinadaily-soft);
+  border-color: var(--platform-chinadaily-border);
+  color: var(--platform-chinadaily);
 }
 
 .mobile-tab.theme-journals.active {
@@ -4599,3 +4631,417 @@ html[data-platform="weibo"] .platform-chrome--weibo {
   }
 }
 
+
+/* —— China Daily full skin —— */
+html[data-platform="chinaDaily"] .platform-chrome--chinadaily {
+  display: block;
+  position: sticky;
+  top: 0;
+  z-index: 40;
+}
+
+html[data-platform="chinaDaily"] .page-bg,
+html[data-platform="chinaDaily"] .site-header,
+html[data-platform="chinaDaily"] .sidebar,
+html[data-platform="chinaDaily"] .site-footer,
+html[data-platform="chinaDaily"] .theme-toggle,
+html[data-platform="chinaDaily"] .mobile-nav,
+html[data-platform="chinaDaily"] .mobile-subnav {
+  display: none !important;
+}
+
+html[data-platform="chinaDaily"] {
+  --bg: #f7f4ee;
+  --bg-elevated: #fffdf8;
+  --surface: #fffdf8;
+  --surface-solid: #fffdf8;
+  --surface-hover: #f1ebe0;
+  --surface-active: #ebe3d4;
+  --border: rgba(200, 16, 46, 0.22);
+  --border-strong: rgba(26, 26, 26, 0.18);
+  --text: #1a1a1a;
+  --muted: #5c5c5c;
+  --accent: #c8102e;
+  --accent-soft: rgba(200, 16, 46, 0.1);
+  --shadow: none;
+  --shadow-soft: none;
+  --glass-bg: #fffdf8;
+  --glass-border: rgba(26, 26, 26, 0.08);
+  --ambient-1: transparent;
+  --ambient-2: transparent;
+  --ambient-3: transparent;
+  --platform-chinadaily: #c8102e;
+  --platform-chinadaily-soft: rgba(200, 16, 46, 0.08);
+  --platform-chinadaily-border: rgba(200, 16, 46, 0.35);
+  --font-cd-serif: "Source Serif 4", "Noto Serif SC", "Times New Roman", Georgia, serif;
+  --font-cd-sans: "Noto Sans SC", "Segoe UI", system-ui, sans-serif;
+}
+
+html[data-theme="dark"][data-platform="chinaDaily"],
+html[data-theme="light"][data-platform="chinaDaily"] {
+  --bg: #f7f4ee;
+  --bg-elevated: #fffdf8;
+  --surface: #fffdf8;
+  --surface-solid: #fffdf8;
+  --text: #1a1a1a;
+  --muted: #5c5c5c;
+  --accent: #c8102e;
+}
+
+html[data-platform="chinaDaily"] body {
+  background: #f7f4ee;
+  color: #1a1a1a;
+  font-family: var(--font-cd-sans);
+}
+
+html[data-platform="chinaDaily"] .container {
+  max-width: 980px;
+  width: min(96%, 980px);
+  margin: 0 auto;
+  padding: 0 0 2.5rem;
+}
+
+html[data-platform="chinaDaily"] .app-layout {
+  display: block;
+  gap: 0;
+}
+
+html[data-platform="chinaDaily"] .content-panel,
+html[data-platform="chinaDaily"] .content-panel.theme-chinadaily {
+  background: #fffdf8;
+  border: 1px solid rgba(26, 26, 26, 0.1);
+  border-top: 3px solid #c8102e;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
+  backdrop-filter: none;
+}
+
+html[data-platform="chinaDaily"] .breadcrumb,
+html[data-platform="chinaDaily"] .section-desc,
+html[data-platform="chinaDaily"] .list-toolbar-right .kbd-hint {
+  display: none !important;
+}
+
+html[data-platform="chinaDaily"] .controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 0.55rem 0.75rem;
+  padding: 0.7rem 0.9rem 0.75rem;
+  background: #fffdf8;
+  border-bottom: 1px solid rgba(26, 26, 26, 0.1);
+  margin: 0;
+}
+
+html[data-platform="chinaDaily"] .controls .control-group:has(#category-select) {
+  display: none;
+}
+
+html[data-platform="chinaDaily"] .controls label {
+  color: #5c5c5c;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+html[data-platform="chinaDaily"] .controls .select,
+html[data-platform="chinaDaily"] .controls input[type="search"] {
+  background: #fff;
+  border: 1px solid rgba(26, 26, 26, 0.16);
+  color: #1a1a1a;
+  border-radius: 0;
+}
+
+.cd-chrome-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem 1.1rem;
+  flex-wrap: wrap;
+  padding: 0.7rem 1rem;
+  background: #c8102e;
+  color: #fff;
+}
+
+.cd-chrome-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.cd-chrome-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.7rem;
+  height: 1.7rem;
+  border: 1.5px solid rgba(255, 255, 255, 0.85);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.cd-chrome-title {
+  font-family: var(--font-cd-serif);
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.cd-chrome-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.82rem;
+  opacity: 0.95;
+}
+
+.cd-chrome-nav a,
+.cd-chrome-nav span {
+  color: #fff;
+  text-decoration: none;
+}
+
+.cd-chrome-nav a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.cd-chrome-right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.78rem;
+}
+
+.cd-chrome-sep {
+  opacity: 0.55;
+}
+
+.cd-chrome-link {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.92;
+}
+
+.cd-chrome-link:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
+
+.cd-chrome-subbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.4rem 1rem;
+  background: #1a1a1a;
+  color: #f2f2f2;
+  font-size: 0.74rem;
+  letter-spacing: 0.03em;
+}
+
+.cd-chrome-subbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.cd-chrome-subbar a:hover {
+  text-decoration: underline;
+}
+
+html[data-platform="chinaDaily"] .panel-content--chinadaily-feed {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+
+html[data-platform="chinaDaily"] .panel-content--chinadaily-feed .list-pane {
+  border: none;
+  background: transparent;
+}
+
+html[data-platform="chinaDaily"] .cd-board {
+  list-style: none;
+  margin: 0;
+  padding: 0.35rem 0 1rem;
+}
+
+.cd-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.35rem;
+  border-bottom: 1px solid rgba(26, 26, 26, 0.1);
+}
+
+.cd-item {
+  display: grid;
+  grid-template-columns: 2.4rem 1fr;
+  gap: 0.75rem;
+  width: 100%;
+  padding: 0.95rem 0.9rem;
+  border: none;
+  background: transparent;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.cd-item:hover,
+.cd-item.active {
+  background: rgba(200, 16, 46, 0.05);
+}
+
+.cd-rank {
+  font-family: var(--font-cd-serif);
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #c8102e;
+  line-height: 1.1;
+}
+
+.cd-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.28rem;
+  min-width: 0;
+}
+
+.cd-title {
+  font-family: var(--font-cd-serif);
+  font-size: 1.12rem;
+  font-weight: 700;
+  line-height: 1.35;
+  color: #1a1a1a;
+}
+
+.cd-dek {
+  font-size: 0.88rem;
+  line-height: 1.45;
+  color: #4a4a4a;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.cd-subtext {
+  font-size: 0.74rem;
+  color: #6b6b6b;
+  letter-spacing: 0.02em;
+}
+
+html[data-platform="chinaDaily"] .item-detail--cd {
+  border: none;
+  border-top: 1px solid rgba(26, 26, 26, 0.12);
+  border-radius: 0;
+  background: #fffdf8;
+  box-shadow: none;
+}
+
+.cd-detail-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  padding: 1.1rem 1rem 1.35rem;
+}
+
+.cd-detail-kicker {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.cd-detail-rank {
+  font-family: var(--font-cd-serif);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #c8102e;
+}
+
+.cd-detail-flag {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: #c8102e;
+  border: 1px solid rgba(200, 16, 46, 0.35);
+  padding: 0.15rem 0.4rem;
+}
+
+.cd-detail-title {
+  margin: 0;
+  font-family: var(--font-cd-serif);
+  font-size: 1.55rem;
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+.cd-detail-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.cd-detail-title a:hover {
+  color: #c8102e;
+}
+
+.cd-detail-meta {
+  margin: 0;
+  font-size: 0.78rem;
+  color: #6b6b6b;
+}
+
+.cd-detail-dek {
+  margin: 0;
+  font-size: 0.98rem;
+  line-height: 1.55;
+  color: #333;
+  max-width: 42rem;
+}
+
+.cd-detail-media {
+  margin-top: 0.25rem;
+  border: 1px solid rgba(26, 26, 26, 0.1);
+  background: #efe9dc;
+  max-width: 36rem;
+}
+
+.cd-detail-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.cd-detail-link {
+  align-self: flex-start;
+  margin-top: 0.25rem;
+  color: #c8102e;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(200, 16, 46, 0.35);
+}
+
+.cd-detail-link:hover {
+  border-bottom-color: #c8102e;
+}
+
+@media (max-width: 860px) {
+  .cd-chrome-nav {
+    display: none;
+  }
+
+  html[data-platform="chinaDaily"] .container {
+    width: 100%;
+    max-width: none;
+  }
+
+  .cd-title {
+    font-size: 1.02rem;
+  }
+
+  .cd-detail-title {
+    font-size: 1.28rem;
+  }
+}

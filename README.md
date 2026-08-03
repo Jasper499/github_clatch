@@ -1,6 +1,6 @@
 # HJL Clatch
 
-自动聚合 GitHub Trending、Hacker News、微博热搜、MRI 顶刊、Nature Skills、Scientific Skills，支持历史回看与今日摘要。
+自动聚合 GitHub Trending、Hacker News、微博热搜、China Daily、MRI 顶刊、Nature Skills、Scientific Skills，支持历史回看与今日摘要。
 
 站点：https://jasper499.github.io/github_clatch/
 
@@ -39,6 +39,7 @@ github_clatch/
 | GitHub 热门 / 活跃 | 每周一 | `weekly-update.yml` |
 | Hacker News | 每天约 10/22 点 | `twice-daily-hackernews.yml` |
 | 微博热搜 / 实时 / 同城（静态回退） | 每 6 小时 | `twice-daily-weibo.yml` |
+| China Daily 热门 | 每天 | `daily-china-daily.yml` |
 | MRI 顶刊 | 每月 1/15 日 | `biweekly-journals.yml` |
 | Nature Skills | 每天约 10/22 点 | `daily-nature-skills.yml` |
 | Scientific Skills | 每天约 10/22 点 | `daily-scientific-agent-skills.yml` |
@@ -50,6 +51,7 @@ github_clatch/
 python scripts/update_content.py
 python scripts/update_hackernews.py
 python scripts/update_weibo.py
+python scripts/update_china_daily.py
 python scripts/update_journals.py
 python scripts/prune_history.py   # 瘦身旧 history + 重写 feeds
 ```

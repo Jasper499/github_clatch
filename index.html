@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HJL Clatch · GitHub / HN / 微博 / 顶刊 / Skills 聚合</title>
-  <meta name="description" content="HJL 自动聚合站：GitHub 热门、Hacker News、微博热搜、MRI 顶刊，以及 Nature Skills / Scientific Skills 更新追踪。支持历史快照与可分享深链。">
+  <title>HJL Clatch · GitHub / HN / 微博 / China Daily / 顶刊 / Skills 聚合</title>
+  <meta name="description" content="HJL 自动聚合站：GitHub 热门、Hacker News、微博热搜、China Daily、MRI 顶刊，以及 Nature Skills / Scientific Skills 更新追踪。支持历史快照与可分享深链。">
   <meta name="theme-color" content="#0d1117">
   <link rel="canonical" href="https://jasper499.github.io/github_clatch/">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -16,7 +16,7 @@
   <meta property="og:locale" content="zh_CN">
   <meta property="og:site_name" content="HJL Clatch">
   <meta property="og:title" content="HJL Clatch · 自动聚合更新站">
-  <meta property="og:description" content="GitHub、Hacker News、微博、MRI 顶刊与 Agent Skills 一站追踪，带历史快照与深链分享。">
+  <meta property="og:description" content="GitHub、Hacker News、微博、China Daily、MRI 顶刊与 Agent Skills 一站追踪，带历史快照与深链分享。">
   <meta property="og:url" content="https://jasper499.github.io/github_clatch/">
   <meta property="og:image" content="https://jasper499.github.io/github_clatch/favicon.svg">
   <meta name="twitter:card" content="summary">
@@ -24,7 +24,7 @@
   <meta name="twitter:description" content="GitHub、Hacker News、微博、MRI 顶刊与 Agent Skills 一站追踪。">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,700&display=swap" rel="stylesheet">
   <script>
     (function () {
       try {
@@ -38,7 +38,7 @@
       }
     })();
   </script>
-  <link rel="stylesheet" href="css/style.css?v=20">
+  <link rel="stylesheet" href="css/style.css?v=21">
 </head>
 <body>
   <script>
@@ -127,8 +127,40 @@
         <span class="weibo-chrome-sep">|</span>
         <a class="weibo-chrome-link" href="#/hackernews">HN</a>
         <span class="weibo-chrome-sep">|</span>
+        <a class="weibo-chrome-link" href="#/chinaDaily">CD</a>
+        <span class="weibo-chrome-sep">|</span>
         <a class="weibo-chrome-link" href="#/github">HJL</a>
       </div>
+    </div>
+  </header>
+
+  <header class="platform-chrome platform-chrome--chinadaily" aria-label="China Daily">
+    <div class="cd-chrome-bar">
+      <a class="cd-chrome-brand" href="#/chinaDaily">
+        <span class="cd-chrome-mark" aria-hidden="true">CD</span>
+        <span class="cd-chrome-title">CHINA DAILY</span>
+      </a>
+      <nav class="cd-chrome-nav" aria-label="China Daily 栏目">
+        <a href="#/chinaDaily">Most Viewed</a>
+        <span>China</span>
+        <span>World</span>
+        <span>Business</span>
+        <span>Opinion</span>
+        <span>Lifestyle</span>
+      </nav>
+      <div class="cd-chrome-right">
+        <a class="cd-chrome-link" href="#/github">GitHub</a>
+        <span class="cd-chrome-sep">|</span>
+        <a class="cd-chrome-link" href="#/hackernews">HN</a>
+        <span class="cd-chrome-sep">|</span>
+        <a class="cd-chrome-link" href="#/weibo">Weibo</a>
+        <span class="cd-chrome-sep">|</span>
+        <a class="cd-chrome-link" href="#/github">HJL</a>
+      </div>
+    </div>
+    <div class="cd-chrome-subbar">
+      <span>Hot stories · Updated daily</span>
+      <a href="https://www.chinadaily.com.cn/" target="_blank" rel="noopener noreferrer">chinadaily.com.cn</a>
     </div>
   </header>
 
@@ -165,6 +197,11 @@
             <span class="meta-sync-label">微博</span>
             <span class="meta-sync-schedule">每 6 小时</span>
             <strong class="meta-sync-time" id="meta-weibo-at">—</strong>
+          </div>
+          <div class="meta-sync-item theme-chinadaily" data-platform="chinaDaily">
+            <span class="meta-sync-label">China Daily</span>
+            <span class="meta-sync-schedule">每天</span>
+            <strong class="meta-sync-time" id="meta-chinaDaily-at">—</strong>
           </div>
           <div class="meta-sync-item theme-journals" data-platform="journals">
             <span class="meta-sync-label">MRI 顶刊/顶会</span>
@@ -279,8 +316,8 @@
     <footer class="site-footer">
       <details class="footer-details" id="footer-details">
         <summary>数据来源与更新说明</summary>
-        <p>GitHub · Hacker News · 微博 · MRI 顶刊 · Nature Skills · Scientific Skills</p>
-        <p>微博约每 6 小时 · HN/Nature Skills/Scientific Skills 每天约 10/22 点 · GitHub 每周一 · 顶刊每月 1/15 日</p>
+        <p>GitHub · Hacker News · 微博 · China Daily · MRI 顶刊 · Nature Skills · Scientific Skills</p>
+        <p>微博约每 6 小时 · China Daily 每天 · HN/Nature Skills/Scientific Skills 每天约 10/22 点 · GitHub 每周一 · 顶刊每月 1/15 日</p>
         <p>Nature Skills / Scientific Skills 有更新时会自动创建 GitHub Issue（需 Watch 本仓库）。</p>
         <p>自动抓取由 <a href="https://github.com/Jasper499/github_clatch/actions" target="_blank" rel="noopener noreferrer">GitHub Actions</a> 执行，实际完成时间可能有延迟。</p>
         <p>若内容看似未更新：请强制刷新（Ctrl+F5），并确认「历史日期」选为「最新」。</p>
@@ -321,7 +358,7 @@
     integrity="sha384-piCcpDdJ7qVeK4Tv8Z6Hpcr3ZBIgP16TxQTPVfsLFdZ5uDgwc3Y8Ho7oUnqf12qu"
     crossorigin="anonymous"
   ></script>
-  <script src="js/icons.js?v=20"></script>
-  <script src="js/app.js?v=20"></script>
+  <script src="js/icons.js?v=21"></script>
+  <script src="js/app.js?v=21"></script>
 </body>
 </html>

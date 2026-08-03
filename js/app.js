@@ -39,6 +39,11 @@ const DEFAULT_CATALOG = [
     ],
   },
   {
+    id: "chinaDaily",
+    label: "China Daily",
+    children: [{ id: "chinaDaily", sourceKey: "chinaDaily" }],
+  },
+  {
     id: "journals",
     label: "MRI 顶刊",
     children: [
@@ -86,6 +91,7 @@ const PLATFORM_META = {
   weibo: { theme: "theme-weibo", short: "WB", name: "微博" },
   weiboRealtime: { theme: "theme-weibo", short: "WB", name: "微博" },
   weiboLocal: { theme: "theme-weibo", short: "WB", name: "微博" },
+  chinaDaily: { theme: "theme-chinadaily", short: "CD", name: "China Daily" },
   mrm: { theme: "theme-journals", short: "MR", name: "MRM" },
   tmi: { theme: "theme-journals", short: "TM", name: "TMI" },
   media: { theme: "theme-journals", short: "MD", name: "MedIA" },
@@ -111,6 +117,7 @@ const META_SYNC_PLATFORMS = [
   { id: "github", label: "GitHub", schedule: "每周一", field: "githubUpdatedAt", maxAgeHours: 8 * 24 },
   { id: "hackernews", label: "Hacker News", schedule: "每日 10/22 点", field: "hackernewsUpdatedAt", maxAgeHours: 36 },
   { id: "weibo", label: "微博", schedule: "每 6 小时", field: "weiboUpdatedAt", maxAgeHours: 9 },
+  { id: "chinaDaily", label: "China Daily", schedule: "每天", field: "chinaDailyUpdatedAt", maxAgeHours: 36 },
   { id: "journals", label: "MRI 顶刊", schedule: "每月 1/15 日", field: "journalsUpdatedAt", maxAgeHours: 20 * 24 },
   { id: "natureSkills", label: "Nature Skills", schedule: "每日 10/22 点", field: "natureSkillsUpdatedAt", maxAgeHours: 36 },
   { id: "scientificSkills", label: "Scientific Skills", schedule: "每日 10/22 点", field: "scientificSkillsUpdatedAt", maxAgeHours: 36 },
@@ -125,6 +132,7 @@ function getParentTheme(parentId) {
     github: "theme-github",
     hackernews: "theme-hn",
     weibo: "theme-weibo",
+    chinaDaily: "theme-chinadaily",
     journals: "theme-journals",
     natureSkills: "theme-nature",
     scientificSkills: "theme-scientific",
@@ -433,6 +441,7 @@ function getLatestUpdatedAt(data, sourceKey) {
     return data.weiboUpdatedAt;
   }
   if (sourceKey === "hackernews" && data.hackernewsUpdatedAt) return data.hackernewsUpdatedAt;
+  if (sourceKey === "chinaDaily" && data.chinaDailyUpdatedAt) return data.chinaDailyUpdatedAt;
   if ((sourceKey === "github" || sourceKey === "githubActive") && data.githubUpdatedAt) {
     return data.githubUpdatedAt;
   }
@@ -738,6 +747,10 @@ function isHackerNewsSource(sourceKey = activeSourceKey) {
   return sourceKey === "hackernews";
 }
 
+function isChinaDailySource(sourceKey = activeSourceKey) {
+  return sourceKey === "chinaDaily";
+}
+
 function isSkillsCommitSource(sourceKey = activeSourceKey) {
   return sourceKey === "natureSkillsCommits" || sourceKey === "scientificSkillsCommits";
 }
@@ -746,10 +759,11 @@ function isSkillsOverviewSource(sourceKey = activeSourceKey) {
   return sourceKey === "natureSkills" || sourceKey === "scientificSkills";
 }
 
-/** @returns {'weibo'|'hn'|'github'|'journals'|'skills'|'skills-commits'|null} */
+/** @returns {'weibo'|'hn'|'chinadaily'|'github'|'journals'|'skills'|'skills-commits'|null} */
 function getFeedMode(sourceKey = activeSourceKey) {
   if (isWeiboSource(sourceKey)) return "weibo";
   if (isHackerNewsSource(sourceKey)) return "hn";
+  if (isChinaDailySource(sourceKey)) return "chinadaily";
   if (isGithubSource(sourceKey)) return "github";
   if (isJournalSource(sourceKey)) return "journals";
   if (isSkillsCommitSource(sourceKey)) return "skills-commits";
@@ -832,14 +846,24 @@ function applyFeedLayout(mode = getFeedMode()) {
   const list = document.getElementById("compact-list");
   if (!panel || !list) return;
 
-  const modes = ["weibo", "hn", "github", "journals", "skills", "skills-commits"];
+  const modes = ["weibo", "hn", "chinadaily", "github", "journals", "skills", "skills-commits"];
   modes.forEach((m) => {
     panel.classList.remove(`panel-content--${m}-feed`);
-    list.classList.remove(`${m}-board`, "hotboard", "hn-board", "github-board", "journals-board", "skills-board", "commits-board");
+    list.classList.remove(
+      `${m}-board`,
+      "hotboard",
+      "hn-board",
+      "cd-board",
+      "github-board",
+      "journals-board",
+      "skills-board",
+      "commits-board"
+    );
   });
   list.classList.remove("hotboard");
 
-  const singleColumn = mode === "weibo" || mode === "hn" || mode === "skills-commits";
+  const singleColumn =
+    mode === "weibo" || mode === "hn" || mode === "chinadaily" || mode === "skills-commits";
   panel.classList.toggle("panel-split", !singleColumn);
   if (mode) {
     panel.classList.add(`panel-content--${mode}-feed`);
@@ -850,18 +874,21 @@ function applyFeedLayout(mode = getFeedMode()) {
       ? "hotboard"
       : mode === "hn"
         ? "hn-board"
-        : mode === "github" || mode === "skills"
-          ? "github-board"
-          : mode === "journals"
-            ? "journals-board"
-            : mode === "skills-commits"
-              ? "commits-board"
-              : "";
+        : mode === "chinadaily"
+          ? "cd-board"
+          : mode === "github" || mode === "skills"
+            ? "github-board"
+            : mode === "journals"
+              ? "journals-board"
+              : mode === "skills-commits"
+                ? "commits-board"
+                : "";
   if (boardClass) list.classList.add(boardClass);
 
   const labels = {
     weibo: "微博热搜",
     hn: "Hacker News",
+    chinadaily: "China Daily",
     github: "GitHub 仓库",
     journals: "期刊论文",
     skills: "Skills 清单",
@@ -875,6 +902,7 @@ function renderActiveList(source, activeIndex) {
   const mode = getFeedMode();
   if (mode === "weibo") return renderWeiboHotboard(source, activeIndex);
   if (mode === "hn") return renderHnBoard(source, activeIndex);
+  if (mode === "chinadaily") return renderChinaDailyBoard(source, activeIndex);
   if (mode === "github") return renderGithubBoard(source, activeIndex);
   if (mode === "journals") return renderJournalsBoard(source, activeIndex);
   if (mode === "skills-commits") return renderSkillsCommitsBoard(source, activeIndex);
@@ -886,6 +914,7 @@ function renderActiveDetail(item, index) {
   const mode = getFeedMode();
   if (mode === "weibo") return renderWeiboDetail(item, index);
   if (mode === "hn") return renderHnDetail(item, index);
+  if (mode === "chinadaily") return renderChinaDailyDetail(item, index);
   if (mode === "skills-commits") return renderSkillsCommitDetail(item, index);
   return renderItemDetail(item, index);
 }
@@ -1755,6 +1784,96 @@ function renderHnDetail(item, index) {
       }
     </div>
   `;
+}
+
+function renderChinaDailyDetail(item, index) {
+  const panel = document.getElementById("item-detail");
+  if (!panel) return;
+  panel.className = "item-detail theme-chinadaily item-detail--cd";
+  if (!item) {
+    panel.innerHTML = `<div class="detail-body cd-detail-body"><p class="muted">No story selected</p></div>`;
+    return;
+  }
+  const rank = item.rank || index + 1;
+  const views =
+    item.score != null && Number(item.score) > 0
+      ? `${Number(item.score).toLocaleString("en-US")} views`
+      : "";
+  const meta = [item.label, item.published, item.owner, views].filter(Boolean).join(" · ");
+  const desc = item.description
+    ? `<p class="cd-detail-dek">${escapeHtml(item.description)}</p>`
+    : "";
+  const img = item.image
+    ? `<div class="cd-detail-media"><img src="${escapeHtml(item.image)}" alt="" loading="lazy" /></div>`
+    : "";
+  panel.innerHTML = `
+    <div class="detail-body cd-detail-body">
+      <div class="cd-detail-kicker">
+        <span class="cd-detail-rank">${escapeHtml(String(rank))}</span>
+        <span class="cd-detail-flag">CHINA DAILY</span>
+      </div>
+      <h2 class="cd-detail-title">${
+        item.url
+          ? `<a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>`
+          : escapeHtml(item.title)
+      }</h2>
+      ${meta ? `<p class="cd-detail-meta">${escapeHtml(meta)}</p>` : ""}
+      ${desc}
+      ${img}
+      ${
+        item.url
+          ? `<a class="cd-detail-link" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">Read on China Daily →</a>`
+          : ""
+      }
+    </div>
+  `;
+}
+
+function renderChinaDailyBoard(source, activeIndex) {
+  const items = source?.items || [];
+  const list = document.getElementById("compact-list");
+  const filtered = filterItems(items);
+
+  document.getElementById("item-count").textContent = String(filtered.length);
+  updateListFilterHint(filtered.length, items.length);
+
+  if (!filtered.length) {
+    list.innerHTML = `<li class="compact-empty">${items.length ? "无匹配条目" : "暂无条目"}</li>`;
+    return;
+  }
+
+  list.innerHTML = filtered
+    .map(({ item, index }) => {
+      const active = index === activeIndex ? " active" : "";
+      const isNew = isItemNew(activeSourceKey, item);
+      const newClass = isNew ? " is-new" : "";
+      const newBadge = isNew ? `<span class="new-badge" aria-label="新内容">新</span>` : "";
+      const rank = item.rank || index + 1;
+      const views =
+        item.score != null && Number(item.score) > 0
+          ? `${Number(item.score).toLocaleString("en-US")} views`
+          : "";
+      const sub = [item.published, item.label, views].filter(Boolean).join(" · ");
+      const dek = item.description
+        ? `<span class="cd-dek">${escapeHtml(item.description)}</span>`
+        : "";
+
+      return `
+      <li class="compact-row cd-row${newClass}">
+        <button type="button" class="compact-item cd-item${active}${newClass}" data-index="${index}" role="option" aria-selected="${active ? "true" : "false"}">
+          <span class="cd-rank" aria-hidden="true">${escapeHtml(String(rank))}</span>
+          <div class="cd-body">
+            <span class="cd-title">${newBadge}${escapeHtml(item.title)}</span>
+            ${dek}
+            ${sub ? `<span class="cd-subtext">${escapeHtml(sub)}</span>` : ""}
+          </div>
+        </button>
+        ${externalLink(item.url, "打开原文")}
+      </li>`;
+    })
+    .join("");
+
+  bindFeedListClicks(source, "button.cd-item");
 }
 
 function splitRepoTitle(item) {

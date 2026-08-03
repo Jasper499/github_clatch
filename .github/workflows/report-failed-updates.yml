@@ -5,6 +5,7 @@ on:
     workflows:
       - Twice-Daily Hacker News Update
       - Every 6 Hours Weibo Update
+      - Daily China Daily Update
       - Daily Nature Skills Update
       - Daily Scientific Agent Skills Update
       - Weekly Content Update
