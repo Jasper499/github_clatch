@@ -1,12 +1,122 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-08-02T15:32:18Z",
+  "savedAt": "2026-08-03T05:55:00Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "e62b77c58efbe80bab1111ca9a40b271981ed797",
+  "latestSha": "172365798a985084bf13c58afa5279257cdc6a79",
   "items": [
+    {
+      "title": "fix: ignore local artifacts during skill sync",
+      "description": "fix: ignore local artifacts during skill sync",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/172365798a985084bf13c58afa5279257cdc6a79",
+      "sha": "1723657",
+      "fullSha": "172365798a985084bf13c58afa5279257cdc6a79",
+      "owner": "Travisma2233",
+      "published": "2026-08-03",
+      "label": "commit"
+    },
+    {
+      "title": "chore: ignore local generated artifacts",
+      "description": "chore: ignore local generated artifacts",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/ded5a1730bef1d41e42fd90b0e8144ddd0b01056",
+      "sha": "ded5a17",
+      "fullSha": "ded5a1730bef1d41e42fd90b0e8144ddd0b01056",
+      "owner": "Travisma2233",
+      "published": "2026-08-03",
+      "label": "commit"
+    },
+    {
+      "title": "test: enforce Codex skill interface metadata",
+      "description": "test: enforce Codex skill interface metadata",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/ad75c2518ea4820ab817bd7ca0ae7816a74c387c",
+      "sha": "ad75c25",
+      "fullSha": "ad75c2518ea4820ab817bd7ca0ae7816a74c387c",
+      "owner": "Travisma2233",
+      "published": "2026-08-03",
+      "label": "commit"
+    },
+    {
+      "title": "feat: add Codex interface metadata for all skills",
+      "description": "feat: add Codex interface metadata for all skills",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/2bf67fd76aa2d47da8c804acabf08ccb9089b822",
+      "sha": "2bf67fd",
+      "fullSha": "2bf67fd76aa2d47da8c804acabf08ccb9089b822",
+      "owner": "Travisma2233",
+      "published": "2026-08-03",
+      "label": "commit"
+    },
+    {
+      "title": "refactor: slim nature downloader router",
+      "description": "refactor: slim nature downloader router",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/ca7a7b12fe529770b8d4590ef5aab835127e9b4a",
+      "sha": "ca7a7b1",
+      "fullSha": "ca7a7b12fe529770b8d4590ef5aab835127e9b4a",
+      "owner": "Travisma2233",
+      "published": "2026-08-03",
+      "label": "commit"
+    },
+    {
+      "title": "docs: expose manuscript consistency workflows",
+      "description": "docs: expose manuscript consistency workflows",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/e95d0eeafd8e375687494a9e2d0cd450cd6c25be",
+      "sha": "e95d0ee",
+      "fullSha": "e95d0eeafd8e375687494a9e2d0cd450cd6c25be",
+      "owner": "Travisma2233",
+      "published": "2026-08-03",
+      "label": "commit"
+    },
+    {
+      "title": "feat: add manuscript consistency scanner",
+      "description": "feat: add manuscript consistency scanner",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/b6646462fde7676b9f81cf995429178080d01954",
+      "sha": "b664646",
+      "fullSha": "b6646462fde7676b9f81cf995429178080d01954",
+      "owner": "Travisma2233",
+      "published": "2026-08-03",
+      "label": "commit"
+    },
+    {
+      "title": "feat: automate revision package consistency checks",
+      "description": "feat: automate revision package consistency checks",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/a875ad9c669e3df9c83a8a2d339995e605c63fec",
+      "sha": "a875ad9",
+      "fullSha": "a875ad9c669e3df9c83a8a2d339995e605c63fec",
+      "owner": "Travisma2233",
+      "published": "2026-08-03",
+      "label": "commit"
+    },
+    {
+      "title": "ci: run skill tooling tests",
+      "description": "ci: run skill tooling tests",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/0a4b613b226c455d94136be235710ef01b672cad",
+      "sha": "0a4b613",
+      "fullSha": "0a4b613b226c455d94136be235710ef01b672cad",
+      "owner": "Travisma2233",
+      "published": "2026-08-03",
+      "label": "commit"
+    },
+    {
+      "title": "fix: enforce valid skill frontmatter",
+      "description": "fix: enforce valid skill frontmatter",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/8b53e9cb49e7d9ef297bcd88892803386ac038bf",
+      "sha": "8b53e9c",
+      "fullSha": "8b53e9cb49e7d9ef297bcd88892803386ac038bf",
+      "owner": "Travisma2233",
+      "published": "2026-08-03",
+      "label": "commit"
+    },
+    {
+      "title": "feat: add manuscript consistency audits",
+      "description": "feat: add manuscript consistency audits",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/1d2a230adea5d5f511dd6273c586d3c3eefb75e6",
+      "sha": "1d2a230",
+      "fullSha": "1d2a230adea5d5f511dd6273c586d3c3eefb75e6",
+      "owner": "Travisma2233",
+      "published": "2026-08-02",
+      "label": "commit"
+    },
     {
       "title": "feat: strengthen reviewer isolation and response etiquette",
       "description": "feat: strengthen reviewer isolation and response etiquette",
@@ -45,116 +155,6 @@
       "fullSha": "17a8b719963b6fa92351ebb27d039a2714fa1b29",
       "owner": "Travisma2233",
       "published": "2026-08-01",
-      "label": "commit"
-    },
-    {
-      "title": "feat: distinguish major and minor revisions",
-      "description": "feat: distinguish major and minor revisions",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/0198b34c6a7741cd1c4f82e617198d0039bcadea",
-      "sha": "0198b34",
-      "fullSha": "0198b34c6a7741cd1c4f82e617198d0039bcadea",
-      "owner": "Travisma2233",
-      "published": "2026-08-01",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #182 from jinhaosong-source/feat/orcarouter-images…",
-      "description": "Merge pull request #182 from jinhaosong-source/feat/orcarouter-images-endpoint\n\nfeat(nature-figure): allow any OpenAI-compatible images endpoint via --api-url",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/6ba15753254a67e1120ff412e1725ae72439be9f",
-      "sha": "6ba1575",
-      "fullSha": "6ba15753254a67e1120ff412e1725ae72439be9f",
-      "owner": "Travisma2233",
-      "published": "2026-08-01",
-      "label": "commit"
-    },
-    {
-      "title": "chore: update star history",
-      "description": "chore: update star history",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/745f6da4b30ba3eaf68b7f76e8ee51c7790f2568",
-      "sha": "745f6da",
-      "fullSha": "745f6da4b30ba3eaf68b7f76e8ee51c7790f2568",
-      "owner": "github-actions",
-      "published": "2026-08-01",
-      "label": "commit"
-    },
-    {
-      "title": "feat(nature-figure): allow any OpenAI-compatible images endpoint via …",
-      "description": "feat(nature-figure): allow any OpenAI-compatible images endpoint via --api-url\n\nThe schematic script already takes --api-key-env, but the endpoint itself was\na hardcoded constant, so a user whose credit sits with another OpenAI-compatible\nimages gateway could not use this route at all.\n\n--api-url (or SCHEMATIC_IMAGE_API_URL) now selects the endpoint, defaulting to\nthe existing OpenRouter URL so current behaviour is unchanged. The endpoint that\nwas actually called is recorded in request_metadata.json, and request failures\nname it. Documents the flag with an OrcaRouter example.",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/19d23c7890d302b3b70d4d8bfbdfe0eea24be464",
-      "sha": "19d23c7",
-      "fullSha": "19d23c7890d302b3b70d4d8bfbdfe0eea24be464",
-      "owner": "jinhaosong-source",
-      "published": "2026-07-31",
-      "label": "commit"
-    },
-    {
-      "title": "chore: update star history",
-      "description": "chore: update star history",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/d5c9dee63cb1679c22e2a6e4e488f5f23d4ec2e1",
-      "sha": "d5c9dee",
-      "fullSha": "d5c9dee63cb1679c22e2a6e4e488f5f23d4ec2e1",
-      "owner": "github-actions",
-      "published": "2026-07-31",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #178 from Jiahao8595/docs/generalize-literature-tr…",
-      "description": "Merge pull request #178 from Jiahao8595/docs/generalize-literature-troubleshooting\n\ndocs: generalize literature pipeline examples",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/cf043cdc33e3685de938a2cbc4e8f1104775170c",
-      "sha": "cf043cd",
-      "fullSha": "cf043cdc33e3685de938a2cbc4e8f1104775170c",
-      "owner": "Yuan1z0825",
-      "published": "2026-07-31",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #179 from Jiahao8595/docs/generalize-experiment-lo…",
-      "description": "Merge pull request #179 from Jiahao8595/docs/generalize-experiment-log-integrations\n\ndocs: clarify experiment log input and output modes",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/9d5244452d8096e5cdaedb28fd5996f729505910",
-      "sha": "9d52444",
-      "fullSha": "9d5244452d8096e5cdaedb28fd5996f729505910",
-      "owner": "Yuan1z0825",
-      "published": "2026-07-31",
-      "label": "commit"
-    },
-    {
-      "title": "Update README.md",
-      "description": "Update README.md",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/cc29e56abcd14e6f8fb6a7b065208a051397f47a",
-      "sha": "cc29e56",
-      "fullSha": "cc29e56abcd14e6f8fb6a7b065208a051397f47a",
-      "owner": "Flyme886",
-      "published": "2026-07-30",
-      "label": "commit"
-    },
-    {
-      "title": "Update README.md",
-      "description": "Update README.md",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/e250511e7387efe9895be912a5bd65d041e78ac5",
-      "sha": "e250511",
-      "fullSha": "e250511e7387efe9895be912a5bd65d041e78ac5",
-      "owner": "Flyme886",
-      "published": "2026-07-30",
-      "label": "commit"
-    },
-    {
-      "title": "Update README.md",
-      "description": "Update README.md",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/ca9f57e80e8bc100eb06ebfbfff406c126e5b256",
-      "sha": "ca9f57e",
-      "fullSha": "ca9f57e80e8bc100eb06ebfbfff406c126e5b256",
-      "owner": "Flyme886",
-      "published": "2026-07-28",
-      "label": "commit"
-    },
-    {
-      "title": "Update print statement from 'Hello' to 'Goodbye'",
-      "description": "Update print statement from &#39;Hello&#39; to &#39;Goodbye&#39;",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/d74d49641ad87c6bc6cd32a5c14eb543a94d7414",
-      "sha": "d74d496",
-      "fullSha": "d74d49641ad87c6bc6cd32a5c14eb543a94d7414",
-      "owner": "Flyme886",
-      "published": "2026-07-28",
       "label": "commit"
     }
   ]
