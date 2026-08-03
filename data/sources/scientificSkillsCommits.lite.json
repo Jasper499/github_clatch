@@ -1,12 +1,23 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-08-03T05:58:48Z",
+  "savedAt": "2026-08-03T16:58:58Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "ad21a3868923628330734375dddbf7b86ea84222",
+  "latestSha": "d767725c6e93b1d02a220e6be75b261a9833ede5",
   "items": [
+    {
+      "title": "chore: update security scan report [skip ci]",
+      "description": "chore: update security scan report [skip ci]",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/d767725c6e93b1d02a220e6be75b261a9833ede5",
+      "sha": "d767725",
+      "fullSha": "d767725c6e93b1d02a220e6be75b261a9833ede5",
+      "owner": "github-actions",
+      "published": "2026-08-03",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "Update version to 2.62.0 in pyproject.toml and README.md, reflecting …",
       "description": "Update version to 2.62.0 in pyproject.toml and README.md, reflecting the latest release.",
@@ -156,17 +167,6 @@
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/223f5a30f8928bb76b2e93db282ebe0d6ff5b2ea",
       "sha": "223f5a3",
       "fullSha": "223f5a30f8928bb76b2e93db282ebe0d6ff5b2ea",
-      "owner": "TKassis",
-      "published": "2026-07-28",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Test every script-bearing skill, and enforce that it stays that way",
-      "description": "Test every script-bearing skill, and enforce that it stays that way\n\nAGENTS.md has always said that a skill shipping scripts/ puts its tests in\ntests/&lt;name&gt;/, but nothing checked it: 54 of the 100 such skills had no suite\nat all, including docx, pptx, xlsx, pdf and scanpy. All 100 now do.\n\ntests/_meta is the guard. It runs the shared structural contract across every\nskill in a single process -- safe because it parses scripts with ast and never\nimports them -- and fails when a skill ships scripts/ without a suite or\nwithout a [skills.&lt;name&gt;] entry in skill-requirements.toml. It needs no\nscientific packages and finishes in seconds, so skill-tests.yml blocks every\npull request on it, plus the packages=[] suites.\n\ntests/_contract holds what the per-skill suites were each reimplementing:\nfrontmatter conformance, the 500-line limit, no tests or bytecode under\nskills/, local links resolving, scripts parsing, no eval/exec/os.system, no\nstandard-library shadowing, no hardcoded local paths, valid shell scripts. Also\nthe --help contract, which skips when a skill&#39;s packages are absent and runs\nfor real under --isolated, and shared behaviour for the files docx/pptx/xlsx\nand five schematic-shipping skills carry byte-identical copies of, with drift\ndetection so they cannot diverge silently.\n\n67 new suites, 3325 test functions. The existing suites were retrofitted: 18\nno longer pin an exact skill version, so a version bump no longer breaks a\ntest; 11 duplicated structural methods removed; 19 wired to the --help\ncontract; and 5 that failed collection without their packages now skip\ncleanly. run_all.py in the bare project environment goes from 6 failures to 0.\n\nWriting the tests surfaced 19 defects in the skills, fixed here with version\nbumps. The ones that changed scientific output:\n\n  - openpiv reported vorticity 0 for a rotating flow, from a sign error in\n    openpiv&#39;s y-up coordinate relabelling; solid-body rotation now gives 2w\n    exactly, on grids of either orientation\n  - deepchem returned solubility predictions in z-scored space while labelling\n    them log(mol/L), because it transformed a y-less dataset instead of\n    untransforming the output\n  - neuropixels-analysis had the Allen and IBL ISI thresholds swapped,\n    contradicting its own references/QUALITY_METRICS.md and inverting the two\n    standards&#39; relative strictness\n  - scanpy&#39;s summarize() raised TypeError on every AnnData under anndata 0.13,\n    which reports an unnamed None key on .layers; scanpy convert was broken\n  - experimental-design&#39;s Latin hypercube was never reproducible: pyDOE3 draws\n    from its own default_rng and ignores numpy&#39;s global seed\n  - primekg shipped a hardcoded path naming a person, which is why\n    no_personal_paths is now a contract rule\n\nThe remainder is upstream API drift, each verified against the installed\npackage: retired symbols in bioservices 1.16, gget helpers that returned lists\nwhere a string was written, ArviZ 1.x kwargs in pymc, a positional-only\nfactory in pymoo, ReduceLROnPlateau(verbose=) in torch 2.13, a removed scvelo\nparameter, and PyPDF2 in scientific-slides.\n\nTwo manifest environments could not build and are pinned: gget, where an\nunpinned scanpy walked back to 1.9.8 and pulled llvmlite 0.36 which does not\ncompile on 3.13, and pymatgen, pinned to the snapshot its own _common.py\nenforces rather than loosening that check. deepchem gains torch, without which\nno model class exists.\n\npython tests/run_all.py --isolated: 101 passed, 0 failed.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/4fb7e0bc2926ff92aa7a345a113ffa6ab46dc5af",
-      "sha": "4fb7e0b",
-      "fullSha": "4fb7e0bc2926ff92aa7a345a113ffa6ab46dc5af",
       "owner": "TKassis",
       "published": "2026-07-28",
       "label": "commit",

@@ -1,20 +1,25 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-08-03T05:58:48Z",
+  "changed": true,
+  "fetchedAt": "2026-08-03T16:58:58Z",
   "previousSha": "ad21a3868923628330734375dddbf7b86ea84222",
-  "latestSha": "ad21a3868923628330734375dddbf7b86ea84222",
+  "latestSha": "d767725c6e93b1d02a220e6be75b261a9833ede5",
   "repo": "K-Dense-AI/scientific-agent-skills",
   "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "stars": 0,
   "skillCount": 158,
   "latestCommit": {
-    "title": "Update version to 2.62.0 in pyproject.toml and README.md, reflecting …",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/ad21a3868923628330734375dddbf7b86ea84222",
-    "sha": "ad21a38",
-    "published": "2026-07-31"
+    "title": "chore: update security scan report [skip ci]",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/d767725c6e93b1d02a220e6be75b261a9833ede5",
+    "sha": "d767725",
+    "published": "2026-08-03"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "chore: update security scan report [skip ci]",
+      "sha": "d767725",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/d767725c6e93b1d02a220e6be75b261a9833ede5"
+    },
     {
       "title": "Update version to 2.62.0 in pyproject.toml and README.md, reflecting …",
       "sha": "ad21a38",
@@ -34,11 +39,6 @@
       "title": "market-research-reports: fix ledger validator crash on publication_da…",
       "sha": "95d3add",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/95d3adda6dd1179db117c6fb388c35abf527b391"
-    },
-    {
-      "title": "Update generate-image.png to reflect recent changes in image generati…",
-      "sha": "390c8b8",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/390c8b8b49894ced8942a0987c731763cca0c32e"
     }
   ]
 }
