@@ -1,44 +1,44 @@
 {
   "changed": true,
-  "fetchedAt": "2026-08-03T05:55:00Z",
-  "previousSha": "e62b77c58efbe80bab1111ca9a40b271981ed797",
-  "latestSha": "172365798a985084bf13c58afa5279257cdc6a79",
+  "fetchedAt": "2026-08-03T16:42:56Z",
+  "previousSha": "172365798a985084bf13c58afa5279257cdc6a79",
+  "latestSha": "10cf80f4ba3350f23f8188fffb88b7a3f531a4c0",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "fix: ignore local artifacts during skill sync",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/172365798a985084bf13c58afa5279257cdc6a79",
-    "sha": "1723657",
+    "title": "docs(citation): make RIS the safe default",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/10cf80f4ba3350f23f8188fffb88b7a3f531a4c0",
+    "sha": "10cf80f",
     "published": "2026-08-03"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
     {
-      "title": "fix: ignore local artifacts during skill sync",
-      "sha": "1723657",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/172365798a985084bf13c58afa5279257cdc6a79"
+      "title": "docs(citation): make RIS the safe default",
+      "sha": "10cf80f",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/10cf80f4ba3350f23f8188fffb88b7a3f531a4c0"
     },
     {
-      "title": "chore: ignore local generated artifacts",
-      "sha": "ded5a17",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/ded5a1730bef1d41e42fd90b0e8144ddd0b01056"
+      "title": "feat(citation): preserve complete author metadata",
+      "sha": "27d6326",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/27d6326a70bd6ec8ebc0626fabb32e9d8e09c9f3"
     },
     {
-      "title": "test: enforce Codex skill interface metadata",
-      "sha": "ad75c25",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/ad75c2518ea4820ab817bd7ca0ae7816a74c387c"
+      "title": "ci: constrain Python test dependencies",
+      "sha": "8c805d2",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/8c805d2a397c657eca20b188d50478bb63e15180"
     },
     {
-      "title": "feat: add Codex interface metadata for all skills",
-      "sha": "2bf67fd",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/2bf67fd76aa2d47da8c804acabf08ccb9089b822"
+      "title": "docs: align auto-update timeout and log paths",
+      "sha": "339655f",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/339655f5ce0de8e68044a52ddb31218dce3c1f8a"
     },
     {
-      "title": "refactor: slim nature downloader router",
-      "sha": "ca7a7b1",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/ca7a7b12fe529770b8d4590ef5aab835127e9b4a"
+      "title": "fix: stage skill installs before activation",
+      "sha": "0836dcb",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/0836dcbde2720f365d5ebb40de2968679f78a00c"
     }
   ]
 }
