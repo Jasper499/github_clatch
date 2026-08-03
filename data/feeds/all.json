@@ -6,100 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "github:https://github.com/yc-software/qm",
-      "url": "https://github.com/yc-software/qm",
-      "title": "[GitHub 热门新项目] yc-software/qm",
-      "date_published": "2026-08-03T04:27:44Z"
+      "id": "hackernews:https://john.fun/elevators",
+      "url": "https://john.fun/elevators",
+      "title": "[Hacker News 热门] Show HN: Elevators",
+      "date_published": "2026-08-03T05:46:56Z"
     },
     {
-      "id": "github:https://github.com/bashalarmistalt/decimen-optical-transfer",
-      "url": "https://github.com/bashalarmistalt/decimen-optical-transfer",
-      "title": "[GitHub 热门新项目] bashalarmistalt/decimen-optical-transfer",
-      "date_published": "2026-08-03T04:27:44Z"
+      "id": "hackernews:https://huggingface.co/moonshotai/Kimi-K3",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3",
+      "title": "[Hacker News 热门] Kimi-K3 on HuggingFace",
+      "date_published": "2026-08-03T05:46:56Z"
     },
     {
-      "id": "github:https://github.com/trycompai/crm",
-      "url": "https://github.com/trycompai/crm",
-      "title": "[GitHub 热门新项目] trycompai/crm",
-      "date_published": "2026-08-03T04:27:44Z"
+      "id": "hackernews:https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/",
+      "url": "https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/",
+      "title": "[Hacker News 热门] UEFA and its national associations will not participate in FIFA competitions",
+      "date_published": "2026-08-03T05:46:56Z"
     },
     {
-      "id": "github:https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
-      "url": "https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
-      "title": "[GitHub 热门新项目] xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
-      "date_published": "2026-08-03T04:27:44Z"
+      "id": "hackernews:https://www.anthropic.com/news/position-open-weights-models",
+      "url": "https://www.anthropic.com/news/position-open-weights-models",
+      "title": "[Hacker News 热门] Our position on open-weights models",
+      "date_published": "2026-08-03T05:46:56Z"
     },
     {
-      "id": "github:https://github.com/WilonityDev/WilonityLoader",
-      "url": "https://github.com/WilonityDev/WilonityLoader",
-      "title": "[GitHub 热门新项目] WilonityDev/WilonityLoader",
-      "date_published": "2026-08-03T04:27:44Z"
+      "id": "hackernews:https://github.com/drumih/turbo-fieldfare",
+      "url": "https://github.com/drumih/turbo-fieldfare",
+      "title": "[Hacker News 热门] Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
+      "date_published": "2026-08-03T05:46:56Z"
     },
     {
-      "id": "github:https://github.com/sqliteai/waste",
-      "url": "https://github.com/sqliteai/waste",
-      "title": "[GitHub 热门新项目] sqliteai/waste",
-      "date_published": "2026-08-03T04:27:44Z"
+      "id": "hackernews:https://christianselig.com/2026/07/vision-pro-house/",
+      "url": "https://christianselig.com/2026/07/vision-pro-house/",
+      "title": "[Hacker News 热门] The coolest use for the Vision Pro",
+      "date_published": "2026-08-03T05:46:56Z"
     },
     {
-      "id": "github:https://github.com/microsoft/skill-recorder",
-      "url": "https://github.com/microsoft/skill-recorder",
-      "title": "[GitHub 热门新项目] microsoft/skill-recorder",
-      "date_published": "2026-08-03T04:27:44Z"
+      "id": "hackernews:https://www.data.jma.go.jp/multi/quake/quake_detail.html?eventID=20260728163528&lang=en",
+      "url": "https://www.data.jma.go.jp/multi/quake/quake_detail.html?eventID=20260728163528&lang=en",
+      "title": "[Hacker News 热门] 7.1 Earthquake in Japan",
+      "date_published": "2026-08-03T05:46:56Z"
     },
     {
-      "id": "github:https://github.com/xikhar/persona",
-      "url": "https://github.com/xikhar/persona",
-      "title": "[GitHub 热门新项目] xikhar/persona",
-      "date_published": "2026-08-03T04:27:44Z"
-    },
-    {
-      "id": "githubActive:https://github.com/freeCodeCamp/freeCodeCamp",
-      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "title": "[GitHub 活跃项目] freeCodeCamp/freeCodeCamp",
-      "date_published": "2026-08-03T04:27:44Z"
-    },
-    {
-      "id": "githubActive:https://github.com/EbookFoundation/free-programming-books",
-      "url": "https://github.com/EbookFoundation/free-programming-books",
-      "title": "[GitHub 活跃项目] EbookFoundation/free-programming-books",
-      "date_published": "2026-08-03T04:27:44Z"
-    },
-    {
-      "id": "githubActive:https://github.com/openclaw/openclaw",
-      "url": "https://github.com/openclaw/openclaw",
-      "title": "[GitHub 活跃项目] openclaw/openclaw",
-      "date_published": "2026-08-03T04:27:44Z"
-    },
-    {
-      "id": "githubActive:https://github.com/nilbuild/developer-roadmap",
-      "url": "https://github.com/nilbuild/developer-roadmap",
-      "title": "[GitHub 活跃项目] nilbuild/developer-roadmap",
-      "date_published": "2026-08-03T04:27:44Z"
-    },
-    {
-      "id": "githubActive:https://github.com/vinta/awesome-python",
-      "url": "https://github.com/vinta/awesome-python",
-      "title": "[GitHub 活跃项目] vinta/awesome-python",
-      "date_published": "2026-08-03T04:27:44Z"
-    },
-    {
-      "id": "githubActive:https://github.com/awesome-selfhosted/awesome-selfhosted",
-      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-      "title": "[GitHub 活跃项目] awesome-selfhosted/awesome-selfhosted",
-      "date_published": "2026-08-03T04:27:44Z"
-    },
-    {
-      "id": "githubActive:https://github.com/obra/superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "title": "[GitHub 活跃项目] obra/superpowers",
-      "date_published": "2026-08-03T04:27:44Z"
-    },
-    {
-      "id": "githubActive:https://github.com/react/react",
-      "url": "https://github.com/react/react",
-      "title": "[GitHub 活跃项目] react/react",
-      "date_published": "2026-08-03T04:27:44Z"
+      "id": "hackernews:https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+      "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+      "title": "[Hacker News 热门] Read this before you buy that TV streaming stick",
+      "date_published": "2026-08-03T05:46:56Z"
     }
   ]
 }

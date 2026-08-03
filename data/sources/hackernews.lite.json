@@ -1,17 +1,17 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-08-02T15:05:43Z",
+  "savedAt": "2026-08-03T05:46:56Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-08-02，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-08-03，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-08-02",
+  "fetchedDate": "2026-08-03",
   "items": [
     {
       "title": "Show HN: Elevators",
       "description": "",
       "url": "https://john.fun/elevators",
-      "score": 1610,
-      "comments": 396,
+      "score": 1630,
+      "comments": 399,
       "owner": "Jrh0203"
     },
     {
@@ -23,18 +23,10 @@
       "owner": "nateb2022"
     },
     {
-      "title": "US citizen charged after GrapheneOS phone wipes during airport search",
-      "description": "",
-      "url": "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html",
-      "score": 1336,
-      "comments": 1114,
-      "owner": "eecc"
-    },
-    {
       "title": "UEFA and its national associations will not participate in FIFA competitions",
       "description": "",
       "url": "https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/",
-      "score": 1221,
+      "score": 1226,
       "comments": 671,
       "owner": "dickfickling"
     },
@@ -42,23 +34,15 @@
       "title": "Our position on open-weights models",
       "description": "",
       "url": "https://www.anthropic.com/news/position-open-weights-models",
-      "score": 1176,
+      "score": 1177,
       "comments": 1746,
       "owner": "surprisetalk"
-    },
-    {
-      "title": "PGSimCity - How PostgreSQL Works",
-      "description": "",
-      "url": "https://nikolays.github.io/PGSimCity/",
-      "score": 927,
-      "comments": 92,
-      "owner": "jonbaer"
     },
     {
       "title": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
       "description": "Hi HN,<p>I built a specialized inference engine for running 4-bit Gemma 4 26B-A4B-IT on any M-series Mac using about 2 GB of RAM. It is called TurboFieldfare and is written in Swift and Metal.<p>I have always adored on-device AI. It feels like magic that you can run a powerful NN on your Mac or iPhone. So I wanted to push the limits a bit and run a model whose weights don’t fit in memory.<p>The model’s 4-bit quantized weights occupy roughly 14 GB, which makes running it with conventional inference tools almost impossible on an 8 GB or even 16 GB Mac once the OS, applications, and KV cache are included.<p>The trick is to keep the shared part of the model and the KV cache in RAM, then stream only the routed experts needed for each token from SSD. An SSD is way slower than RAM, so the runtime uses a small expert cache and bounded parallel `pread`. While those reads are in flight, the GPU runs the shared part of the layer.<p>I ran more than 100 experiments. Most didn’t work. A few got me here. The experiments are described in the GitHub repo.<p>It currently generates 5–6 tok&#x2F;s on an 8 GB M2 MacBook Air and 31–35 tok&#x2F;s on an M5 MacBook Pro.<p>I also added an experimental OpenAI-compatible local server. It supports streaming and tool calls, and reuses one prompt prefix from the KV cache.<p>Try it! The Mac app is easy to install. On the first run, it will download 15 GB of weights from Hugging Face. The model is surprisingly capable.<p>I would love any kind of feedback!",
       "url": "https://github.com/drumih/turbo-fieldfare",
-      "score": 907,
+      "score": 911,
       "comments": 341,
       "owner": "gitpusher42"
     },
@@ -66,7 +50,7 @@
       "title": "The coolest use for the Vision Pro",
       "description": "",
       "url": "https://christianselig.com/2026/07/vision-pro-house/",
-      "score": 840,
+      "score": 843,
       "comments": 317,
       "owner": "robbiet480"
     },
@@ -74,7 +58,7 @@
       "title": "7.1 Earthquake in Japan",
       "description": "",
       "url": "https://www.data.jma.go.jp/multi/quake/quake_detail.html?eventID=20260728163528&lang=en",
-      "score": 816,
+      "score": 817,
       "comments": 234,
       "owner": "krembo"
     },
@@ -83,14 +67,14 @@
       "description": "",
       "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
       "score": 808,
-      "comments": 544,
+      "comments": 545,
       "owner": "speckx"
     },
     {
       "title": "AI companies are shredding rare books",
       "description": "<a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;HedgieMarkets&#x2F;status&#x2F;2081534588485296565\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;HedgieMarkets&#x2F;status&#x2F;2081534588485296565</a>",
       "url": "https://twitter.com/HedgieMarkets/status/2081534588485296565",
-      "score": 796,
+      "score": 797,
       "comments": 516,
       "owner": "anon373839"
     },
@@ -98,31 +82,31 @@
       "title": "Superlogical",
       "description": "<a href=\"https:&#x2F;&#x2F;mitchellh.com&#x2F;writing&#x2F;superlogical\" rel=\"nofollow\">https:&#x2F;&#x2F;mitchellh.com&#x2F;writing&#x2F;superlogical</a>",
       "url": "https://www.superlogical.com/",
-      "score": 786,
-      "comments": 455,
+      "score": 787,
+      "comments": 457,
       "owner": "yan"
     },
     {
       "title": "Stacked PRs are now live on GitHub",
       "description": "",
       "url": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/",
-      "score": 774,
-      "comments": 294,
+      "score": 776,
+      "comments": 295,
       "owner": "tomzorz"
     },
     {
       "title": "The session you cannot take with you",
       "description": "",
       "url": "https://earendil.com/posts/session-portability/",
-      "score": 767,
-      "comments": 218,
+      "score": 775,
+      "comments": 221,
       "owner": "apitman"
     },
     {
       "title": "KOReader",
       "description": "",
       "url": "https://koreader.rocks/",
-      "score": 747,
+      "score": 748,
       "comments": 245,
       "owner": "Cider9986"
     },
@@ -130,41 +114,57 @@
       "title": "DeepSeek-V4-Flash Update",
       "description": "",
       "url": "https://api-docs.deepseek.com/updates/",
-      "score": 734,
-      "comments": 344,
+      "score": 737,
+      "comments": 345,
       "owner": "dnhkng"
     },
     {
       "title": "Stop Killing the Internet: No Digital ID and No Age Verification",
       "description": "",
       "url": "https://citizens-initiative.europa.eu/initiatives/details/2026/000011_en",
-      "score": 718,
+      "score": 719,
       "comments": 289,
       "owner": "doener"
-    },
-    {
-      "title": "New HIV vaccine shows unprecedented success in preclinical study",
-      "description": "",
-      "url": "https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/",
-      "score": 658,
-      "comments": 297,
-      "owner": "codebyaditya"
     },
     {
       "title": "qm – Multiplayer agent harness for work",
       "description": "",
       "url": "https://github.com/yc-software/qm",
-      "score": 658,
-      "comments": 156,
+      "score": 665,
+      "comments": 161,
       "owner": "tosh"
+    },
+    {
+      "title": "New HIV vaccine shows unprecedented success in preclinical study",
+      "description": "",
+      "url": "https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/",
+      "score": 660,
+      "comments": 297,
+      "owner": "codebyaditya"
     },
     {
       "title": "Substack writers, you need a website",
       "description": "",
       "url": "https://elizabethtai.com/2026/06/10/substack-writers-you-need-a-website/",
       "score": 643,
-      "comments": 350,
+      "comments": 351,
       "owner": "speckx"
+    },
+    {
+      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "description": "",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+      "score": 617,
+      "comments": 540,
+      "owner": "ai2027"
+    },
+    {
+      "title": "Tailscale didn't stop the Hugging Face intrusion",
+      "description": "",
+      "url": "https://tailscale.com/blog/hugging-face-intrusion",
+      "score": 617,
+      "comments": 216,
+      "owner": "bluehatbrit"
     }
   ]
 }
