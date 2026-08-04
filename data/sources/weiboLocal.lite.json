@@ -1,100 +1,140 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-08-03T19:52:00Z",
+  "savedAt": "2026-08-04T03:31:38Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-03，共 9 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-04，共 13 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
-  "fetchedDate": "2026-08-03",
+  "fetchedDate": "2026-08-04",
   "items": [
     {
-      "title": "东莞9岁女孩确诊性早熟",
+      "title": "国庆假期上3休7上3",
       "description": "热 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%9C%E8%8E%9E9%E5%B2%81%E5%A5%B3%E5%AD%A9%E7%A1%AE%E8%AF%8A%E6%80%A7%E6%97%A9%E7%86%9F%23&t=31&band_rank=1&Refer=top",
-      "score": 69106,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%9B%BD%E5%BA%86%E5%81%87%E6%9C%9F%E4%B8%8A3%E4%BC%917%E4%B8%8A3%23&t=31&band_rank=1&Refer=top",
+      "score": 1021385,
       "owner": "微博同城",
       "label": "热",
+      "category": "民生新闻",
+      "onboardTime": 1785800479
+    },
+    {
+      "title": "我军三型无人机成体系应用首次公开",
+      "description": "新 · 民生新闻,军事",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%88%91%E5%86%9B%E4%B8%89%E5%9E%8B%E6%97%A0%E4%BA%BA%E6%9C%BA%E6%88%90%E4%BD%93%E7%B3%BB%E5%BA%94%E7%94%A8%E9%A6%96%E6%AC%A1%E5%85%AC%E5%BC%80%23&t=31&band_rank=1&Refer=top",
+      "score": 775094,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻,军事",
+      "onboardTime": 1785813980
+    },
+    {
+      "title": "台风",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E&t=31&band_rank=1&Refer=top",
+      "score": 764342,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1785812841
+    },
+    {
+      "title": "几乎灭绝的床虱为何又卷土重来",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%87%A0%E4%B9%8E%E7%81%AD%E7%BB%9D%E7%9A%84%E5%BA%8A%E8%99%B1%E4%B8%BA%E4%BD%95%E5%8F%88%E5%8D%B7%E5%9C%9F%E9%87%8D%E6%9D%A5%23&t=31&band_rank=1&Refer=top",
+      "score": 494485,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1785812659
+    },
+    {
+      "title": "9岁女孩性早熟骨骼已接近闭合",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%239%E5%B2%81%E5%A5%B3%E5%AD%A9%E6%80%A7%E6%97%A9%E7%86%9F%E9%AA%A8%E9%AA%BC%E5%B7%B2%E6%8E%A5%E8%BF%91%E9%97%AD%E5%90%88%23&t=31&band_rank=1&Refer=top",
+      "score": 443689,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1785809238
+    },
+    {
+      "title": "法院通报执行局长骚扰索贿女当事人",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B3%95%E9%99%A2%E9%80%9A%E6%8A%A5%E6%89%A7%E8%A1%8C%E5%B1%80%E9%95%BF%E9%AA%9A%E6%89%B0%E7%B4%A2%E8%B4%BF%E5%A5%B3%E5%BD%93%E4%BA%8B%E4%BA%BA%23&t=31&band_rank=1&Refer=top",
+      "score": 369046,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1785807621
+    },
+    {
+      "title": "东莞9岁女孩确诊性早熟",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%9C%E8%8E%9E9%E5%B2%81%E5%A5%B3%E5%AD%A9%E7%A1%AE%E8%AF%8A%E6%80%A7%E6%97%A9%E7%86%9F%23&t=31&band_rank=1&Refer=top",
+      "score": 351258,
+      "owner": "微博同城",
+      "label": "",
       "category": "民生新闻",
       "onboardTime": 1785772159
     },
     {
-      "title": "怪不得长沙人晚上不睡觉",
-      "description": "热 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E6%80%AA%E4%B8%8D%E5%BE%97%E9%95%BF%E6%B2%99%E4%BA%BA%E6%99%9A%E4%B8%8A%E4%B8%8D%E7%9D%A1%E8%A7%89&t=31&band_rank=1&Refer=top",
-      "score": 68177,
+      "title": "我国高端新材料迎来集中突破",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%88%91%E5%9B%BD%E9%AB%98%E7%AB%AF%E6%96%B0%E6%9D%90%E6%96%99%E8%BF%8E%E6%9D%A5%E9%9B%86%E4%B8%AD%E7%AA%81%E7%A0%B4%23&t=31&band_rank=1&Refer=top",
+      "score": 264749,
       "owner": "微博同城",
-      "label": "热",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1785813920
+    },
+    {
+      "title": "空调不制冷还有异味师傅撕下层棉被",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%A9%BA%E8%B0%83%E4%B8%8D%E5%88%B6%E5%86%B7%E8%BF%98%E6%9C%89%E5%BC%82%E5%91%B3%E5%B8%88%E5%82%85%E6%92%95%E4%B8%8B%E5%B1%82%E6%A3%89%E8%A2%AB%23&t=31&band_rank=1&Refer=top",
+      "score": 264592,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1785803660
+    },
+    {
+      "title": "2026国庆放假通知",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%232026%E5%9B%BD%E5%BA%86%E6%94%BE%E5%81%87%E9%80%9A%E7%9F%A5%23&t=31&band_rank=1&Refer=top",
+      "score": 214089,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1785797596
+    },
+    {
+      "title": "香港胚胎样本错配案外籍员工被通缉",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%A6%99%E6%B8%AF%E8%83%9A%E8%83%8E%E6%A0%B7%E6%9C%AC%E9%94%99%E9%85%8D%E6%A1%88%E5%A4%96%E7%B1%8D%E5%91%98%E5%B7%A5%E8%A2%AB%E9%80%9A%E7%BC%89%23&t=31&band_rank=1&Refer=top",
+      "score": 193598,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1785813081
+    },
+    {
+      "title": "怪不得长沙人晚上不睡觉",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E6%80%AA%E4%B8%8D%E5%BE%97%E9%95%BF%E6%B2%99%E4%BA%BA%E6%99%9A%E4%B8%8A%E4%B8%8D%E7%9D%A1%E8%A7%89&t=31&band_rank=1&Refer=top",
+      "score": 192983,
+      "owner": "微博同城",
+      "label": "",
       "category": "民生新闻",
       "onboardTime": 1785778576
     },
     {
-      "title": "9岁女孩长期吃蛋糕熬夜确诊性早熟",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%239%E5%B2%81%E5%A5%B3%E5%AD%A9%E9%95%BF%E6%9C%9F%E5%90%83%E8%9B%8B%E7%B3%95%E7%86%AC%E5%A4%9C%E7%A1%AE%E8%AF%8A%E6%80%A7%E6%97%A9%E7%86%9F%23&t=31&band_rank=1&Refer=top",
-      "score": 67232,
+      "title": "停车欠费近1.5万被判连本带息偿还",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%81%9C%E8%BD%A6%E6%AC%A0%E8%B4%B9%E8%BF%911.5%E4%B8%87%E8%A2%AB%E5%88%A4%E8%BF%9E%E6%9C%AC%E5%B8%A6%E6%81%AF%E5%81%BF%E8%BF%98%23&t=31&band_rank=1&Refer=top",
+      "score": 187420,
       "owner": "微博同城",
-      "label": "",
+      "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1785768981
-    },
-    {
-      "title": "985博士后孕期出轨女生还见亲友",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23985%E5%8D%9A%E5%A3%AB%E5%90%8E%E5%AD%95%E6%9C%9F%E5%87%BA%E8%BD%A8%E5%A5%B3%E7%94%9F%E8%BF%98%E8%A7%81%E4%BA%B2%E5%8F%8B%23&t=31&band_rank=1&Refer=top",
-      "score": 64042,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1785775159
-    },
-    {
-      "title": "我国要建一条超级大的外环路",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%88%91%E5%9B%BD%E8%A6%81%E5%BB%BA%E4%B8%80%E6%9D%A1%E8%B6%85%E7%BA%A7%E5%A4%A7%E7%9A%84%E5%A4%96%E7%8E%AF%E8%B7%AF%23&t=31&band_rank=1&Refer=top",
-      "score": 62371,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1785777436
-    },
-    {
-      "title": "煮火锅爆炸全屋溅满红油女子发声",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%85%AE%E7%81%AB%E9%94%85%E7%88%86%E7%82%B8%E5%85%A8%E5%B1%8B%E6%BA%85%E6%BB%A1%E7%BA%A2%E6%B2%B9%E5%A5%B3%E5%AD%90%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
-      "score": 62324,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1785778276
-    },
-    {
-      "title": "煮火锅突然爆炸全屋溅满红油",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%85%AE%E7%81%AB%E9%94%85%E7%AA%81%E7%84%B6%E7%88%86%E7%82%B8%E5%85%A8%E5%B1%8B%E6%BA%85%E6%BB%A1%E7%BA%A2%E6%B2%B9%23&t=31&band_rank=1&Refer=top",
-      "score": 62317,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1785764721
-    },
-    {
-      "title": "以后不准再叫中国烹饪大师了",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%BB%A5%E5%90%8E%E4%B8%8D%E5%87%86%E5%86%8D%E5%8F%AB%E4%B8%AD%E5%9B%BD%E7%83%B9%E9%A5%AA%E5%A4%A7%E5%B8%88%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 62229,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1785773539
-    },
-    {
-      "title": "母牛把娃弄丢了被主人叨叨叨叨",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%AF%8D%E7%89%9B%E6%8A%8A%E5%A8%83%E5%BC%84%E4%B8%A2%E4%BA%86%E8%A2%AB%E4%B8%BB%E4%BA%BA%E5%8F%A8%E5%8F%A8%E5%8F%A8%E5%8F%A8%23&t=31&band_rank=1&Refer=top",
-      "score": 62222,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1785776418
+      "onboardTime": 1785814281
     }
   ]
 }
