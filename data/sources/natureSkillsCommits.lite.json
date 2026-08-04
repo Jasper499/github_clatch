@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-08-03T16:42:56Z",
+  "savedAt": "2026-08-04T05:27:19Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "10cf80f4ba3350f23f8188fffb88b7a3f531a4c0",
+  "latestSha": "b79c022946b7bf59a30655bee726444dccf199a9",
   "items": [
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/b79c022946b7bf59a30655bee726444dccf199a9",
+      "sha": "b79c022",
+      "fullSha": "b79c022946b7bf59a30655bee726444dccf199a9",
+      "owner": "github-actions",
+      "published": "2026-08-04",
+      "label": "commit"
+    },
     {
       "title": "docs(citation): make RIS the safe default",
       "description": "docs(citation): make RIS the safe default",
@@ -143,16 +153,6 @@
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/bfd193dc380f85f8bb235719aa52876bb3740221",
       "sha": "bfd193d",
       "fullSha": "bfd193dc380f85f8bb235719aa52876bb3740221",
-      "owner": "Travisma2233",
-      "published": "2026-08-03",
-      "label": "commit"
-    },
-    {
-      "title": "docs: add navigation to long skill references",
-      "description": "docs: add navigation to long skill references",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/242daf708ffdaf9710caaf5f3b76debe31917c85",
-      "sha": "242daf7",
-      "fullSha": "242daf708ffdaf9710caaf5f3b76debe31917c85",
       "owner": "Travisma2233",
       "published": "2026-08-03",
       "label": "commit"

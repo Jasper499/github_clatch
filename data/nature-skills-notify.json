@@ -1,20 +1,25 @@
 {
   "changed": true,
-  "fetchedAt": "2026-08-03T16:42:56Z",
-  "previousSha": "172365798a985084bf13c58afa5279257cdc6a79",
-  "latestSha": "10cf80f4ba3350f23f8188fffb88b7a3f531a4c0",
+  "fetchedAt": "2026-08-04T05:27:19Z",
+  "previousSha": "10cf80f4ba3350f23f8188fffb88b7a3f531a4c0",
+  "latestSha": "b79c022946b7bf59a30655bee726444dccf199a9",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "docs(citation): make RIS the safe default",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/10cf80f4ba3350f23f8188fffb88b7a3f531a4c0",
-    "sha": "10cf80f",
-    "published": "2026-08-03"
+    "title": "chore: update star history",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/b79c022946b7bf59a30655bee726444dccf199a9",
+    "sha": "b79c022",
+    "published": "2026-08-04"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "chore: update star history",
+      "sha": "b79c022",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/b79c022946b7bf59a30655bee726444dccf199a9"
+    },
     {
       "title": "docs(citation): make RIS the safe default",
       "sha": "10cf80f",
@@ -34,11 +39,6 @@
       "title": "docs: align auto-update timeout and log paths",
       "sha": "339655f",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/339655f5ce0de8e68044a52ddb31218dce3c1f8a"
-    },
-    {
-      "title": "fix: stage skill installs before activation",
-      "sha": "0836dcb",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/0836dcbde2720f365d5ebb40de2968679f78a00c"
     }
   ]
 }
