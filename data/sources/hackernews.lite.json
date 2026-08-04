@@ -1,72 +1,64 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-08-03T16:28:55Z",
+  "savedAt": "2026-08-04T05:18:34Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-08-03，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-08-04，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-08-03",
+  "fetchedDate": "2026-08-04",
   "items": [
-    {
-      "title": "Show HN: Elevators",
-      "description": "",
-      "url": "https://john.fun/elevators",
-      "score": 1644,
-      "comments": 401,
-      "owner": "Jrh0203"
-    },
     {
       "title": "Don't be a meat proxy",
       "description": "",
       "url": "https://gruhn.me/blog/2026-08-03/",
-      "score": 1352,
-      "comments": 567,
+      "score": 1714,
+      "comments": 698,
       "owner": "ngruhn"
+    },
+    {
+      "title": "Show HN: Elevators",
+      "description": "",
+      "url": "https://john.fun/elevators",
+      "score": 1652,
+      "comments": 409,
+      "owner": "Jrh0203"
     },
     {
       "title": "UEFA and its national associations will not participate in FIFA competitions",
       "description": "",
       "url": "https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/",
-      "score": 1229,
-      "comments": 671,
+      "score": 1230,
+      "comments": 672,
       "owner": "dickfickling"
-    },
-    {
-      "title": "Our position on open-weights models",
-      "description": "",
-      "url": "https://www.anthropic.com/news/position-open-weights-models",
-      "score": 1177,
-      "comments": 1746,
-      "owner": "surprisetalk"
-    },
-    {
-      "title": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
-      "description": "Hi HN,<p>I built a specialized inference engine for running 4-bit Gemma 4 26B-A4B-IT on any M-series Mac using about 2 GB of RAM. It is called TurboFieldfare and is written in Swift and Metal.<p>I have always adored on-device AI. It feels like magic that you can run a powerful NN on your Mac or iPhone. So I wanted to push the limits a bit and run a model whose weights don’t fit in memory.<p>The model’s 4-bit quantized weights occupy roughly 14 GB, which makes running it with conventional inference tools almost impossible on an 8 GB or even 16 GB Mac once the OS, applications, and KV cache are included.<p>The trick is to keep the shared part of the model and the KV cache in RAM, then stream only the routed experts needed for each token from SSD. An SSD is way slower than RAM, so the runtime uses a small expert cache and bounded parallel `pread`. While those reads are in flight, the GPU runs the shared part of the layer.<p>I ran more than 100 experiments. Most didn’t work. A few got me here. The experiments are described in the GitHub repo.<p>It currently generates 5–6 tok&#x2F;s on an 8 GB M2 MacBook Air and 31–35 tok&#x2F;s on an M5 MacBook Pro.<p>I also added an experimental OpenAI-compatible local server. It supports streaming and tool calls, and reuses one prompt prefix from the KV cache.<p>Try it! The Mac app is easy to install. On the first run, it will download 15 GB of weights from Hugging Face. The model is surprisingly capable.<p>I would love any kind of feedback!",
-      "url": "https://github.com/drumih/turbo-fieldfare",
-      "score": 912,
-      "comments": 343,
-      "owner": "gitpusher42"
     },
     {
       "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
       "description": "",
       "url": "https://qwen.ai/blog?id=qwen3.8",
-      "score": 906,
-      "comments": 466,
+      "score": 1064,
+      "comments": 574,
       "owner": "ai2027"
+    },
+    {
+      "title": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
+      "description": "Hi HN,<p>I built a specialized inference engine for running 4-bit Gemma 4 26B-A4B-IT on any M-series Mac using about 2 GB of RAM. It is called TurboFieldfare and is written in Swift and Metal.<p>I have always adored on-device AI. It feels like magic that you can run a powerful NN on your Mac or iPhone. So I wanted to push the limits a bit and run a model whose weights don’t fit in memory.<p>The model’s 4-bit quantized weights occupy roughly 14 GB, which makes running it with conventional inference tools almost impossible on an 8 GB or even 16 GB Mac once the OS, applications, and KV cache are included.<p>The trick is to keep the shared part of the model and the KV cache in RAM, then stream only the routed experts needed for each token from SSD. An SSD is way slower than RAM, so the runtime uses a small expert cache and bounded parallel `pread`. While those reads are in flight, the GPU runs the shared part of the layer.<p>I ran more than 100 experiments. Most didn’t work. A few got me here. The experiments are described in the GitHub repo.<p>It currently generates 5–6 tok&#x2F;s on an 8 GB M2 MacBook Air and 31–35 tok&#x2F;s on an M5 MacBook Pro.<p>I also added an experimental OpenAI-compatible local server. It supports streaming and tool calls, and reuses one prompt prefix from the KV cache.<p>Try it! The Mac app is easy to install. On the first run, it will download 15 GB of weights from Hugging Face. The model is surprisingly capable.<p>I would love any kind of feedback!",
+      "url": "https://github.com/drumih/turbo-fieldfare",
+      "score": 913,
+      "comments": 343,
+      "owner": "gitpusher42"
     },
     {
       "title": "The coolest use for the Vision Pro",
       "description": "",
       "url": "https://christianselig.com/2026/07/vision-pro-house/",
-      "score": 843,
-      "comments": 318,
+      "score": 844,
+      "comments": 319,
       "owner": "robbiet480"
     },
     {
       "title": "7.1 Earthquake in Japan",
       "description": "",
       "url": "https://www.data.jma.go.jp/multi/quake/quake_detail.html?eventID=20260728163528&lang=en",
-      "score": 817,
+      "score": 818,
       "comments": 234,
       "owner": "krembo"
     },
@@ -74,23 +66,23 @@
       "title": "Read this before you buy that TV streaming stick",
       "description": "",
       "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
-      "score": 809,
-      "comments": 545,
+      "score": 811,
+      "comments": 546,
       "owner": "speckx"
     },
     {
       "title": "Superlogical",
       "description": "<a href=\"https:&#x2F;&#x2F;mitchellh.com&#x2F;writing&#x2F;superlogical\" rel=\"nofollow\">https:&#x2F;&#x2F;mitchellh.com&#x2F;writing&#x2F;superlogical</a>",
       "url": "https://www.superlogical.com/",
-      "score": 788,
-      "comments": 457,
+      "score": 790,
+      "comments": 456,
       "owner": "yan"
     },
     {
       "title": "The session you cannot take with you",
       "description": "",
       "url": "https://earendil.com/posts/session-portability/",
-      "score": 781,
+      "score": 783,
       "comments": 224,
       "owner": "apitman"
     },
@@ -98,7 +90,7 @@
       "title": "Stacked PRs are now live on GitHub",
       "description": "",
       "url": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/",
-      "score": 776,
+      "score": 778,
       "comments": 295,
       "owner": "tomzorz"
     },
@@ -122,17 +114,33 @@
       "title": "Stop Killing the Internet: No Digital ID and No Age Verification",
       "description": "",
       "url": "https://citizens-initiative.europa.eu/initiatives/details/2026/000011_en",
-      "score": 722,
+      "score": 724,
       "comments": 290,
       "owner": "doener"
+    },
+    {
+      "title": "SQLite Critical CVEs or LLM Slop?",
+      "description": "",
+      "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
+      "score": 706,
+      "comments": 355,
+      "owner": "ymir_e"
     },
     {
       "title": "qm – Multiplayer agent harness for work",
       "description": "",
       "url": "https://github.com/yc-software/qm",
-      "score": 669,
-      "comments": 164,
+      "score": 671,
+      "comments": 165,
       "owner": "tosh"
+    },
+    {
+      "title": "LLMs reward expertise",
+      "description": "",
+      "url": "https://www.seangoedecke.com/llms-reward-expertise/",
+      "score": 665,
+      "comments": 274,
+      "owner": "MaxMussio"
     },
     {
       "title": "New HIV vaccine shows unprecedented success in preclinical study",
@@ -146,7 +154,7 @@
       "title": "Substack writers, you need a website",
       "description": "",
       "url": "https://elizabethtai.com/2026/06/10/substack-writers-you-need-a-website/",
-      "score": 643,
+      "score": 644,
       "comments": 351,
       "owner": "speckx"
     },
@@ -154,17 +162,9 @@
       "title": "How Google helped destroy adoption of RSS feeds (2023)",
       "description": "",
       "url": "https://openrss.org/blog/how-google-helped-destroy-adoption-of-rss-feeds",
-      "score": 625,
-      "comments": 235,
+      "score": 630,
+      "comments": 242,
       "owner": "pudgywalsh"
-    },
-    {
-      "title": "Tailscale didn't stop the Hugging Face intrusion",
-      "description": "",
-      "url": "https://tailscale.com/blog/hugging-face-intrusion",
-      "score": 620,
-      "comments": 217,
-      "owner": "bluehatbrit"
     }
   ]
 }
