@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-05T03:26:52Z",
+  "updatedAt": "2026-08-05T05:18:57Z",
   "periodDays": 7,
   "weekLabel": "2026-07-27 ~ 2026-08-03",
   "githubUpdatedAt": "2026-08-03T04:27:44Z",
-  "hackernewsUpdatedAt": "2026-08-04T16:14:08Z",
+  "hackernewsUpdatedAt": "2026-08-05T05:18:57Z",
   "weiboUpdatedAt": "2026-08-05T03:26:52Z",
   "journalsUpdatedAt": "2026-08-01T05:16:17Z",
   "natureSkillsUpdatedAt": "2026-08-04T16:25:32Z",
@@ -123,9 +123,9 @@
     },
     "hackernews": {
       "label": "Hacker News 热门",
-      "description": "近 7 天 HN 高互动讨论（2026-08-04，共 20 条）",
+      "description": "近 7 天 HN 高互动讨论（2026-08-05，共 20 条）",
       "updateFrequency": "twice-daily",
-      "fetchedDate": "2026-08-04",
+      "fetchedDate": "2026-08-05",
       "itemCount": 20
     },
     "weibo": {
@@ -207,7 +207,7 @@
       "itemCount": 20
     }
   },
-  "generatedAt": "2026-08-05T03:26:52Z",
+  "generatedAt": "2026-08-05T05:18:57Z",
   "journalsPeriod": "2026-06-17 ~ 2026-08-01",
   "chinaDailyUpdatedAt": "2026-08-04T05:46:45Z"
 }
