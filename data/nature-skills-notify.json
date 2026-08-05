@@ -1,44 +1,44 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-08-05T05:26:53Z",
+  "changed": true,
+  "fetchedAt": "2026-08-05T16:13:42Z",
   "previousSha": "b79c022946b7bf59a30655bee726444dccf199a9",
-  "latestSha": "b79c022946b7bf59a30655bee726444dccf199a9",
+  "latestSha": "9410400815df189d3e76d4be19c74afa68d03412",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "chore: update star history",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/b79c022946b7bf59a30655bee726444dccf199a9",
-    "sha": "b79c022",
-    "published": "2026-08-04"
+    "title": "docs(figure): codify panel-level QA rules",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/9410400815df189d3e76d4be19c74afa68d03412",
+    "sha": "9410400",
+    "published": "2026-08-05"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
     {
+      "title": "docs(figure): codify panel-level QA rules",
+      "sha": "9410400",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/9410400815df189d3e76d4be19c74afa68d03412"
+    },
+    {
+      "title": "feat(figure): add rendering safety checks",
+      "sha": "b4f82f1",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/b4f82f145a6b6bcc9ab924a59e88e0623b32e2eb"
+    },
+    {
+      "title": "Update README.md",
+      "sha": "43649b0",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/43649b071a2ab057d5cdaeb739960272d5201c85"
+    },
+    {
+      "title": "Update README.md",
+      "sha": "b690055",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/b69005590fc4be3f9cf562c033967ecfc51f1ad7"
+    },
+    {
       "title": "chore: update star history",
       "sha": "b79c022",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/b79c022946b7bf59a30655bee726444dccf199a9"
-    },
-    {
-      "title": "docs(citation): make RIS the safe default",
-      "sha": "10cf80f",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/10cf80f4ba3350f23f8188fffb88b7a3f531a4c0"
-    },
-    {
-      "title": "feat(citation): preserve complete author metadata",
-      "sha": "27d6326",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/27d6326a70bd6ec8ebc0626fabb32e9d8e09c9f3"
-    },
-    {
-      "title": "ci: constrain Python test dependencies",
-      "sha": "8c805d2",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/8c805d2a397c657eca20b188d50478bb63e15180"
-    },
-    {
-      "title": "docs: align auto-update timeout and log paths",
-      "sha": "339655f",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/339655f5ce0de8e68044a52ddb31218dce3c1f8a"
     }
   ]
 }
