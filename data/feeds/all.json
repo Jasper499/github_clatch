@@ -6,148 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E8%A2%AB%E6%A2%85%E5%A7%A8%E6%8B%90%E5%8D%96%E8%80%85%E7%A7%B0%E5%B7%B2%E8%A2%AB%E5%85%BB%E7%88%B6%E6%AF%8D%E5%88%A0%E9%99%A4%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%A2%AB%E6%A2%85%E5%A7%A8%E6%8B%90%E5%8D%96%E8%80%85%E7%A7%B0%E5%B7%B2%E8%A2%AB%E5%85%BB%E7%88%B6%E6%AF%8D%E5%88%A0%E9%99%A4%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 被梅姨拐卖者称已被养父母删除",
-      "date_published": "2026-08-06T03:30:02Z"
+      "id": "hackernews:https://gruhn.me/blog/2026-08-03/",
+      "url": "https://gruhn.me/blog/2026-08-03/",
+      "title": "[Hacker News 热门] Don't be a meat proxy",
+      "date_published": "2026-08-06T05:20:32Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E5%91%A8%E4%BA%94%E4%B8%8B%E5%8D%88%E5%BC%B9%E6%80%A7%E7%A6%BB%E5%B2%97&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%91%A8%E4%BA%94%E4%B8%8B%E5%8D%88%E5%BC%B9%E6%80%A7%E7%A6%BB%E5%B2%97&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 周五下午弹性离岗",
-      "date_published": "2026-08-06T03:30:02Z"
+      "id": "hackernews:https://john.fun/elevators",
+      "url": "https://john.fun/elevators",
+      "title": "[Hacker News 热门] Show HN: Elevators",
+      "date_published": "2026-08-06T05:20:32Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E6%95%B0%E6%8D%AE%E7%9C%8B%E4%B8%AD%E5%9B%BD%E6%99%BA%E9%80%A0%E7%A1%AC%E6%A0%B8%E5%AE%9E%E5%8A%9B%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%95%B0%E6%8D%AE%E7%9C%8B%E4%B8%AD%E5%9B%BD%E6%99%BA%E9%80%A0%E7%A1%AC%E6%A0%B8%E5%AE%9E%E5%8A%9B%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 数据看中国智造硬核实力",
-      "date_published": "2026-08-06T03:30:02Z"
+      "id": "hackernews:https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years/",
+      "url": "https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years/",
+      "title": "[Hacker News 热门] In Memory of My Wife, Elise Cawley, with Thanks for 36 Wonderful Years",
+      "date_published": "2026-08-06T05:20:32Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E7%94%B0%E6%9B%A6%E8%96%87%E8%BF%9E%E7%BB%AD16%E9%83%A8%E9%93%81%E5%88%98%E6%B5%B7%E5%89%A7%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B0%E6%9B%A6%E8%96%87%E8%BF%9E%E7%BB%AD16%E9%83%A8%E9%93%81%E5%88%98%E6%B5%B7%E5%89%A7%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 田曦薇连续16部铁刘海剧",
-      "date_published": "2026-08-06T03:30:02Z"
+      "id": "hackernews:https://www.seangoedecke.com/llms-reward-expertise/",
+      "url": "https://www.seangoedecke.com/llms-reward-expertise/",
+      "title": "[Hacker News 热门] LLMs reward expertise",
+      "date_published": "2026-08-06T05:20:32Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E4%B8%AD%E4%BC%A0%E5%8F%96%E6%B6%88%E8%89%BA%E8%80%83%E6%84%8F%E5%91%B3%E7%9D%80%E4%BB%80%E4%B9%88%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E4%BC%A0%E5%8F%96%E6%B6%88%E8%89%BA%E8%80%83%E6%84%8F%E5%91%B3%E7%9D%80%E4%BB%80%E4%B9%88%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 中传取消艺考意味着什么",
-      "date_published": "2026-08-06T03:30:02Z"
+      "id": "hackernews:https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/",
+      "url": "https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/",
+      "title": "[Hacker News 热门] UEFA and its national associations will not participate in FIFA competitions",
+      "date_published": "2026-08-06T05:20:32Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%A9%9A%E5%A4%96%E8%83%9A%E8%83%8E%E6%A1%88%E5%A6%BB%E5%AD%90%E5%BE%97%E7%9F%A5%E8%83%9A%E8%83%8E%E9%94%80%E6%AF%81%E5%8F%8C%E6%89%8B%E9%A2%A4%E6%8A%96%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A9%9A%E5%A4%96%E8%83%9A%E8%83%8E%E6%A1%88%E5%A6%BB%E5%AD%90%E5%BE%97%E7%9F%A5%E8%83%9A%E8%83%8E%E9%94%80%E6%AF%81%E5%8F%8C%E6%89%8B%E9%A2%A4%E6%8A%96%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 婚外胚胎案妻子得知胚胎销毁双手颤抖",
-      "date_published": "2026-08-06T03:30:02Z"
+      "id": "hackernews:https://qwen.ai/blog?id=qwen3.8",
+      "url": "https://qwen.ai/blog?id=qwen3.8",
+      "title": "[Hacker News 热门] Qwen3.8-Max: A New Bar for Coding and Cowork",
+      "date_published": "2026-08-06T05:20:32Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%A7%86%E5%B7%B4%E4%BD%A9%E6%96%B0%E5%A5%B3%E5%8F%8B%E6%98%AF%E8%A5%BF%E7%8F%AD%E7%89%99%E9%A1%B6%E6%B5%81%E5%A5%B3%E6%98%9F%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A7%86%E5%B7%B4%E4%BD%A9%E6%96%B0%E5%A5%B3%E5%8F%8B%E6%98%AF%E8%A5%BF%E7%8F%AD%E7%89%99%E9%A1%B6%E6%B5%81%E5%A5%B3%E6%98%9F%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 姆巴佩新女友是西班牙顶流女星",
-      "date_published": "2026-08-06T03:30:02Z"
+      "id": "hackernews:https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+      "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+      "title": "[Hacker News 热门] Read this before you buy that TV streaming stick",
+      "date_published": "2026-08-06T05:20:32Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E8%88%92%E7%95%85%E6%BC%94%E7%9F%AD%E5%89%A7%E6%9C%89%E7%A7%8D%E9%99%8D%E7%BB%B4%E6%89%93%E5%87%BB%E7%9A%84%E6%84%9F%E8%A7%89&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E8%88%92%E7%95%85%E6%BC%94%E7%9F%AD%E5%89%A7%E6%9C%89%E7%A7%8D%E9%99%8D%E7%BB%B4%E6%89%93%E5%87%BB%E7%9A%84%E6%84%9F%E8%A7%89&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 舒畅演短剧有种降维打击的感觉",
-      "date_published": "2026-08-06T03:30:02Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%A9%9A%E5%A4%96%E8%83%9A%E8%83%8E%E6%A1%88%E7%88%B6%E4%BA%B2%E5%B7%B210%E4%B8%AA%E6%9C%88%E6%B2%A1%E8%A7%81%E8%BF%87%E5%A5%B3%E5%84%BF%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A9%9A%E5%A4%96%E8%83%9A%E8%83%8E%E6%A1%88%E7%88%B6%E4%BA%B2%E5%B7%B210%E4%B8%AA%E6%9C%88%E6%B2%A1%E8%A7%81%E8%BF%87%E5%A5%B3%E5%84%BF%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 婚外胚胎案父亲已10个月没见过女儿",
-      "date_published": "2026-08-06T03:30:02Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E9%9F%A9%E6%9D%B0%E7%A7%B0%E8%AF%8A%E7%96%97%E6%9C%89%E7%96%8F%E6%BC%8F%E8%AE%A4%E9%94%99%E4%BD%86%E4%B8%8D%E8%AE%A4%E7%BD%AA%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%9F%A9%E6%9D%B0%E7%A7%B0%E8%AF%8A%E7%96%97%E6%9C%89%E7%96%8F%E6%BC%8F%E8%AE%A4%E9%94%99%E4%BD%86%E4%B8%8D%E8%AE%A4%E7%BD%AA%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 韩杰称诊疗有疏漏认错但不认罪",
-      "date_published": "2026-08-06T03:30:02Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=DeepSeek%E6%8E%A8%E7%90%86%E5%88%B0%E4%B8%80%E5%8D%8A%E8%AF%B4%E8%87%AA%E5%B7%B1%E9%A5%BF%E4%BA%86&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=DeepSeek%E6%8E%A8%E7%90%86%E5%88%B0%E4%B8%80%E5%8D%8A%E8%AF%B4%E8%87%AA%E5%B7%B1%E9%A5%BF%E4%BA%86&t=31&band_rank=1&Refer=top",
-      "title": "[实时] DeepSeek推理到一半说自己饿了",
-      "date_published": "2026-08-06T03:30:02Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E5%87%8C%E7%8E%B2%E6%98%AF%E5%90%B4%E8%B6%8A%E5%8C%85%E8%A3%85%E5%BE%88%E4%B8%91%E7%9A%84%E7%A4%BC%E7%89%A9&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%87%8C%E7%8E%B2%E6%98%AF%E5%90%B4%E8%B6%8A%E5%8C%85%E8%A3%85%E5%BE%88%E4%B8%91%E7%9A%84%E7%A4%BC%E7%89%A9&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 凌玲是吴越包装很丑的礼物",
-      "date_published": "2026-08-06T03:30:02Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E6%97%A0%E6%9C%9F%E8%BF%B7%E9%80%94&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E6%97%A0%E6%9C%9F%E8%BF%B7%E9%80%94&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 无期迷途",
-      "date_published": "2026-08-06T03:30:02Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E7%9B%B4%E8%A7%82%E6%84%9F%E5%8F%97%E5%88%B0%E4%BA%86%E7%89%A9%E7%90%86%E9%98%B2%E6%99%92%E7%9A%84%E5%A8%81%E5%8A%9B&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E7%9B%B4%E8%A7%82%E6%84%9F%E5%8F%97%E5%88%B0%E4%BA%86%E7%89%A9%E7%90%86%E9%98%B2%E6%99%92%E7%9A%84%E5%A8%81%E5%8A%9B&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 直观感受到了物理防晒的威力",
-      "date_published": "2026-08-06T03:30:02Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%B9%BF%E5%B2%9B%E6%8A%95%E5%8E%9F%E5%AD%90%E5%BC%B9%E9%A3%9E%E8%A1%8C%E5%91%98%E4%BB%8E%E6%9C%AA%E5%90%8E%E6%82%94%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%B9%BF%E5%B2%9B%E6%8A%95%E5%8E%9F%E5%AD%90%E5%BC%B9%E9%A3%9E%E8%A1%8C%E5%91%98%E4%BB%8E%E6%9C%AA%E5%90%8E%E6%82%94%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 广岛投原子弹飞行员从未后悔",
-      "date_published": "2026-08-06T03:30:02Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%2338%E5%B2%81%E5%B1%B1%E4%B8%9C%E8%B4%A2%E5%A4%A7%E6%95%99%E6%8E%88%E5%88%98%E6%B5%B7%E6%98%8E%E9%80%9D%E4%B8%96%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%2338%E5%B2%81%E5%B1%B1%E4%B8%9C%E8%B4%A2%E5%A4%A7%E6%95%99%E6%8E%88%E5%88%98%E6%B5%B7%E6%98%8E%E9%80%9D%E4%B8%96%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 38岁山东财大教授刘海明逝世",
-      "date_published": "2026-08-06T03:30:02Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E5%91%A8%E4%BA%94%E4%B8%8B%E5%8D%88%E5%BC%B9%E6%80%A7%E7%A6%BB%E5%B2%97&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%91%A8%E4%BA%94%E4%B8%8B%E5%8D%88%E5%BC%B9%E6%80%A7%E7%A6%BB%E5%B2%97&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 周五下午弹性离岗",
-      "date_published": "2026-08-06T03:30:02Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%A9%9A%E5%A4%96%E8%83%9A%E8%83%8E%E6%A1%88%E5%A6%BB%E5%AD%90%E5%BE%97%E7%9F%A5%E8%83%9A%E8%83%8E%E9%94%80%E6%AF%81%E5%8F%8C%E6%89%8B%E9%A2%A4%E6%8A%96%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A9%9A%E5%A4%96%E8%83%9A%E8%83%8E%E6%A1%88%E5%A6%BB%E5%AD%90%E5%BE%97%E7%9F%A5%E8%83%9A%E8%83%8E%E9%94%80%E6%AF%81%E5%8F%8C%E6%89%8B%E9%A2%A4%E6%8A%96%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 婚外胚胎案妻子得知胚胎销毁双手颤抖",
-      "date_published": "2026-08-06T03:30:02Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23DeepSeek%E8%AE%A1%E5%88%92%E5%A4%A7%E5%B9%85%E6%B6%A8%E4%BB%B7%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23DeepSeek%E8%AE%A1%E5%88%92%E5%A4%A7%E5%B9%85%E6%B6%A8%E4%BB%B7%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] DeepSeek计划大幅涨价",
-      "date_published": "2026-08-06T03:30:02Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E6%9D%8E%E4%BA%9A%E9%B9%8F%E5%90%91%E5%9C%B0%E9%93%81%E5%90%90%E8%A1%80%E5%A5%B3%E5%AD%A9%E6%8D%9099999%E5%85%83%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E4%BA%9A%E9%B9%8F%E5%90%91%E5%9C%B0%E9%93%81%E5%90%90%E8%A1%80%E5%A5%B3%E5%AD%A9%E6%8D%9099999%E5%85%83%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 李亚鹏向地铁吐血女孩捐99999元",
-      "date_published": "2026-08-06T03:30:02Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E7%99%BD%E6%B5%B7%E8%B1%9A&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E7%99%BD%E6%B5%B7%E8%B1%9A&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 白海豚",
-      "date_published": "2026-08-06T03:30:02Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E9%9D%A0AI%E5%87%8F%E8%82%A545%E5%A4%A9%E7%98%A640%E6%96%A4%E9%99%A9%E4%B8%A7%E5%91%BD%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E9%9D%A0AI%E5%87%8F%E8%82%A545%E5%A4%A9%E7%98%A640%E6%96%A4%E9%99%A9%E4%B8%A7%E5%91%BD%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 男子靠AI减肥45天瘦40斤险丧命",
-      "date_published": "2026-08-06T03:30:02Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E6%A2%85%E5%A7%A8%E6%AD%BB%E5%88%91%E6%88%96%E9%80%82%E7%94%A8%E5%8F%97%E9%99%90%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%A2%85%E5%A7%A8%E6%AD%BB%E5%88%91%E6%88%96%E9%80%82%E7%94%A8%E5%8F%97%E9%99%90%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 梅姨死刑或适用受限",
-      "date_published": "2026-08-06T03:30:02Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%A6%BB%E5%AD%90%E4%B8%BE%E6%8A%A5%E9%AB%98%E7%AE%A1%E4%B8%88%E5%A4%AB%E6%B6%89%E5%AB%8C%E9%87%8D%E5%A9%9A%E8%BF%9B%E5%B1%95%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A6%BB%E5%AD%90%E4%B8%BE%E6%8A%A5%E9%AB%98%E7%AE%A1%E4%B8%88%E5%A4%AB%E6%B6%89%E5%AB%8C%E9%87%8D%E5%A9%9A%E8%BF%9B%E5%B1%95%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 妻子举报高管丈夫涉嫌重婚进展",
-      "date_published": "2026-08-06T03:30:02Z"
+      "id": "hackernews:https://earendil.com/posts/session-portability/",
+      "url": "https://earendil.com/posts/session-portability/",
+      "title": "[Hacker News 热门] The session you cannot take with you",
+      "date_published": "2026-08-06T05:20:32Z"
     }
   ]
 }

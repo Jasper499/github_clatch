@@ -1,24 +1,24 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-08-05T16:02:22Z",
+  "savedAt": "2026-08-06T05:20:32Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-08-05，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-08-06，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-08-05",
+  "fetchedDate": "2026-08-06",
   "items": [
     {
       "title": "Don't be a meat proxy",
       "description": "",
       "url": "https://gruhn.me/blog/2026-08-03/",
-      "score": 1805,
-      "comments": 719,
+      "score": 1811,
+      "comments": 724,
       "owner": "ngruhn"
     },
     {
       "title": "Show HN: Elevators",
       "description": "",
       "url": "https://john.fun/elevators",
-      "score": 1662,
+      "score": 1666,
       "comments": 413,
       "owner": "Jrh0203"
     },
@@ -26,15 +26,15 @@
       "title": "In Memory of My Wife, Elise Cawley, with Thanks for 36 Wonderful Years",
       "description": "",
       "url": "https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years/",
-      "score": 1549,
-      "comments": 92,
+      "score": 1599,
+      "comments": 93,
       "owner": "jdcampolargo"
     },
     {
       "title": "LLMs reward expertise",
       "description": "",
       "url": "https://www.seangoedecke.com/llms-reward-expertise/",
-      "score": 1371,
+      "score": 1384,
       "comments": 564,
       "owner": "MaxMussio"
     },
@@ -42,7 +42,7 @@
       "title": "UEFA and its national associations will not participate in FIFA competitions",
       "description": "",
       "url": "https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/",
-      "score": 1231,
+      "score": 1233,
       "comments": 673,
       "owner": "dickfickling"
     },
@@ -50,23 +50,15 @@
       "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
       "description": "",
       "url": "https://qwen.ai/blog?id=qwen3.8",
-      "score": 1107,
-      "comments": 605,
+      "score": 1110,
+      "comments": 609,
       "owner": "ai2027"
-    },
-    {
-      "title": "The coolest use for the Vision Pro",
-      "description": "",
-      "url": "https://christianselig.com/2026/07/vision-pro-house/",
-      "score": 845,
-      "comments": 320,
-      "owner": "robbiet480"
     },
     {
       "title": "Read this before you buy that TV streaming stick",
       "description": "",
       "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
-      "score": 812,
+      "score": 813,
       "comments": 547,
       "owner": "speckx"
     },
@@ -74,9 +66,17 @@
       "title": "The session you cannot take with you",
       "description": "",
       "url": "https://earendil.com/posts/session-portability/",
-      "score": 785,
-      "comments": 225,
+      "score": 786,
+      "comments": 226,
       "owner": "apitman"
+    },
+    {
+      "title": "AI-Generated Images Discourage Me from Reading Your Blog",
+      "description": "",
+      "url": "https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog/",
+      "score": 785,
+      "comments": 461,
+      "owner": "meysamazad"
     },
     {
       "title": "Stacked PRs are now live on GitHub",
@@ -87,18 +87,10 @@
       "owner": "tomzorz"
     },
     {
-      "title": "AI-Generated Images Discourage Me from Reading Your Blog",
-      "description": "",
-      "url": "https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog/",
-      "score": 771,
-      "comments": 457,
-      "owner": "meysamazad"
-    },
-    {
       "title": "DeepSeek-V4-Flash Update",
       "description": "",
       "url": "https://api-docs.deepseek.com/updates/",
-      "score": 741,
+      "score": 743,
       "comments": 347,
       "owner": "dnhkng"
     },
@@ -106,24 +98,24 @@
       "title": "SQLite Critical CVEs or LLM Slop?",
       "description": "",
       "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
-      "score": 723,
-      "comments": 374,
+      "score": 725,
+      "comments": 373,
       "owner": "ymir_e"
     },
     {
       "title": "Devtools must be open source",
       "description": "",
       "url": "https://blog.exe.dev/devtools-must-be-open-source",
-      "score": 716,
-      "comments": 231,
+      "score": 719,
+      "comments": 232,
       "owner": "bryanmikaelian"
     },
     {
       "title": "Xbox goes down. You can't play games you own on disc",
       "description": "",
       "url": "https://birchtree.me/blog/xbox-goes-down-you-cant-play-games-you-own-on-disc/",
-      "score": 681,
-      "comments": 734,
+      "score": 699,
+      "comments": 751,
       "owner": "surprisetalk"
     },
     {
@@ -135,12 +127,28 @@
       "owner": "tosh"
     },
     {
+      "title": "Discovery Loop",
+      "description": "",
+      "url": "https://www.discoveryloop.com/",
+      "score": 665,
+      "comments": 416,
+      "owner": "xtreak29"
+    },
+    {
       "title": "How Google helped destroy adoption of RSS feeds (2023)",
       "description": "",
       "url": "https://openrss.org/blog/how-google-helped-destroy-adoption-of-rss-feeds",
-      "score": 637,
-      "comments": 247,
+      "score": 639,
+      "comments": 249,
       "owner": "pudgywalsh"
+    },
+    {
+      "title": "More German than many Germans",
+      "description": "",
+      "url": "https://mertbulan.com/more-german-than-many-germans/",
+      "score": 631,
+      "comments": 487,
+      "owner": "mertbio"
     },
     {
       "title": "Tailscale didn't stop the Hugging Face intrusion",
@@ -151,19 +159,11 @@
       "owner": "bluehatbrit"
     },
     {
-      "title": "More German than many Germans",
-      "description": "",
-      "url": "https://mertbulan.com/more-german-than-many-germans/",
-      "score": 621,
-      "comments": 483,
-      "owner": "mertbio"
-    },
-    {
       "title": "Ten advances in mathematics and theoretical computer science",
       "description": "",
       "url": "https://openai.com/index/ten-advances-in-mathematics/",
-      "score": 620,
-      "comments": 920,
+      "score": 621,
+      "comments": 925,
       "owner": "milkshakes"
     }
   ]
