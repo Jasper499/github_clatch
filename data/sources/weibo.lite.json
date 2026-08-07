@@ -1,250 +1,250 @@
 {
   "sourceKey": "weibo",
-  "savedAt": "2026-08-07T13:25:54Z",
+  "savedAt": "2026-08-07T19:10:11Z",
   "label": "热搜榜",
   "description": "微博热搜榜（2026-08-07，共 30 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-08-07",
   "items": [
     {
-      "title": "歌手总决赛",
+      "title": "胡彦斌歌王",
       "description": "热",
-      "url": "https://s.weibo.com/weibo?q=%E6%AD%8C%E6%89%8B%E6%80%BB%E5%86%B3%E8%B5%9B&t=31&band_rank=1&Refer=top",
-      "score": 3983736,
+      "url": "https://s.weibo.com/weibo?q=%E8%83%A1%E5%BD%A6%E6%96%8C%E6%AD%8C%E7%8E%8B&t=31&band_rank=1&Refer=top",
+      "score": 237330,
       "owner": "微博热搜",
       "label": "热"
     },
     {
-      "title": "台风",
+      "title": "原来戴泳帽真的会影响颜值",
       "description": "",
-      "url": "https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E&t=31&band_rank=1&Refer=top",
-      "score": 1146528,
+      "url": "https://s.weibo.com/weibo?q=%E5%8E%9F%E6%9D%A5%E6%88%B4%E6%B3%B3%E5%B8%BD%E7%9C%9F%E7%9A%84%E4%BC%9A%E5%BD%B1%E5%93%8D%E9%A2%9C%E5%80%BC&t=31&band_rank=1&Refer=top",
+      "score": 195443,
       "owner": "微博热搜",
       "label": ""
     },
     {
-      "title": "暑期档票房超80亿",
-      "description": "新",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9A%91%E6%9C%9F%E6%A1%A3%E7%A5%A8%E6%88%BF%E8%B6%8580%E4%BA%BF%23&t=31&band_rank=1&Refer=top",
-      "score": 1117671,
-      "owner": "微博热搜",
-      "label": "新"
-    },
-    {
-      "title": "黄子弘凡好稳",
-      "description": "新",
-      "url": "https://s.weibo.com/weibo?q=%E9%BB%84%E5%AD%90%E5%BC%98%E5%87%A1%E5%A5%BD%E7%A8%B3&t=31&band_rank=1&Refer=top",
-      "score": 1104355,
-      "owner": "微博热搜",
-      "label": "新"
-    },
-    {
-      "title": "一个没有空调外挂机的城市",
+      "title": "民用航空发展十五五规划",
       "description": "",
-      "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E4%B8%AA%E6%B2%A1%E6%9C%89%E7%A9%BA%E8%B0%83%E5%A4%96%E6%8C%82%E6%9C%BA%E7%9A%84%E5%9F%8E%E5%B8%82&t=31&band_rank=1&Refer=top",
-      "score": 515168,
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B0%91%E7%94%A8%E8%88%AA%E7%A9%BA%E5%8F%91%E5%B1%95%E5%8D%81%E4%BA%94%E4%BA%94%E8%A7%84%E5%88%92%23&t=31&band_rank=1&Refer=top",
+      "score": 159970,
       "owner": "微博热搜",
       "label": ""
     },
     {
-      "title": "齐豫毛阿敏秒了",
-      "description": "新",
-      "url": "https://s.weibo.com/weibo?q=%E9%BD%90%E8%B1%AB%E6%AF%9B%E9%98%BF%E6%95%8F%E7%A7%92%E4%BA%86&t=31&band_rank=1&Refer=top",
-      "score": 460176,
+      "title": "23岁博士回应确诊胃癌晚期",
+      "description": "热",
+      "url": "https://s.weibo.com/weibo?q=%2323%E5%B2%81%E5%8D%9A%E5%A3%AB%E5%9B%9E%E5%BA%94%E7%A1%AE%E8%AF%8A%E8%83%83%E7%99%8C%E6%99%9A%E6%9C%9F%23&t=31&band_rank=1&Refer=top",
+      "score": 157983,
       "owner": "微博热搜",
-      "label": "新"
+      "label": "热"
     },
     {
-      "title": "iPhone18Pro起售或破万",
+      "title": "歌手总决赛 孙燕姿吴青峰太伟大了",
+      "description": "热",
+      "url": "https://s.weibo.com/weibo?q=%E6%AD%8C%E6%89%8B%E6%80%BB%E5%86%B3%E8%B5%9B%20%E5%AD%99%E7%87%95%E5%A7%BF%E5%90%B4%E9%9D%92%E5%B3%B0%E5%A4%AA%E4%BC%9F%E5%A4%A7%E4%BA%86&t=31&band_rank=1&Refer=top",
+      "score": 155760,
+      "owner": "微博热搜",
+      "label": "热"
+    },
+    {
+      "title": "中餐厅",
       "description": "",
-      "url": "https://s.weibo.com/weibo?q=iPhone18Pro%E8%B5%B7%E5%94%AE%E6%88%96%E7%A0%B4%E4%B8%87&t=31&band_rank=1&Refer=top",
-      "score": 369924,
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E9%A4%90%E5%8E%85&t=31&band_rank=1&Refer=top",
+      "score": 147413,
       "owner": "微博热搜",
       "label": ""
     },
     {
-      "title": "三支一扶作弊案",
+      "title": "Bin哥我们错了",
       "description": "",
-      "url": "https://s.weibo.com/weibo?q=%E4%B8%89%E6%94%AF%E4%B8%80%E6%89%B6%E4%BD%9C%E5%BC%8A%E6%A1%88&t=31&band_rank=1&Refer=top",
-      "score": 367691,
+      "url": "https://s.weibo.com/weibo?q=%23Bin%E5%93%A5%E6%88%91%E4%BB%AC%E9%94%99%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 116839,
       "owner": "微博热搜",
       "label": ""
     },
     {
-      "title": "国乒男单横滨冠军赛全军覆没",
+      "title": "歌手排名",
       "description": "",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%9B%BD%E4%B9%92%E7%94%B7%E5%8D%95%E6%A8%AA%E6%BB%A8%E5%86%A0%E5%86%9B%E8%B5%9B%E5%85%A8%E5%86%9B%E8%A6%86%E6%B2%A1%23&t=31&band_rank=1&Refer=top",
-      "score": 350242,
+      "url": "https://s.weibo.com/weibo?q=%E6%AD%8C%E6%89%8B%E6%8E%92%E5%90%8D&t=31&band_rank=1&Refer=top",
+      "score": 107784,
       "owner": "微博热搜",
       "label": ""
     },
     {
-      "title": "歌手开场 好听",
-      "description": "新",
-      "url": "https://s.weibo.com/weibo?q=%E6%AD%8C%E6%89%8B%E5%BC%80%E5%9C%BA%20%E5%A5%BD%E5%90%AC&t=31&band_rank=1&Refer=top",
-      "score": 335746,
+      "title": "小米高管玩梗被指越界",
+      "description": "",
+      "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%B1%B3%E9%AB%98%E7%AE%A1%E7%8E%A9%E6%A2%97%E8%A2%AB%E6%8C%87%E8%B6%8A%E7%95%8C&t=31&band_rank=1&Refer=top",
+      "score": 107360,
       "owner": "微博热搜",
-      "label": "新"
-    },
-    {
-      "title": "我支持万妮达当歌王",
-      "description": "新",
-      "url": "https://s.weibo.com/weibo?q=%E6%88%91%E6%94%AF%E6%8C%81%E4%B8%87%E5%A6%AE%E8%BE%BE%E5%BD%93%E6%AD%8C%E7%8E%8B&t=31&band_rank=1&Refer=top",
-      "score": 333234,
-      "owner": "微博热搜",
-      "label": "新"
-    },
-    {
-      "title": "黄金",
-      "description": "新",
-      "url": "https://s.weibo.com/weibo?q=%E9%BB%84%E9%87%91&t=31&band_rank=1&Refer=top",
-      "score": 322881,
-      "owner": "微博热搜",
-      "label": "新"
-    },
-    {
-      "title": "胡彦斌韩磊 谁帮谁",
-      "description": "新",
-      "url": "https://s.weibo.com/weibo?q=%E8%83%A1%E5%BD%A6%E6%96%8C%E9%9F%A9%E7%A3%8A%20%E8%B0%81%E5%B8%AE%E8%B0%81&t=31&band_rank=1&Refer=top",
-      "score": 316508,
-      "owner": "微博热搜",
-      "label": "新"
-    },
-    {
-      "title": "窦靖童欧阳娜娜 好听",
-      "description": "新",
-      "url": "https://s.weibo.com/weibo?q=%E7%AA%A6%E9%9D%96%E7%AB%A5%E6%AC%A7%E9%98%B3%E5%A8%9C%E5%A8%9C%20%E5%A5%BD%E5%90%AC&t=31&band_rank=1&Refer=top",
-      "score": 313955,
-      "owner": "微博热搜",
-      "label": "新"
+      "label": ""
     },
     {
       "title": "湖人 詹姆斯",
-      "description": "新",
+      "description": "",
       "url": "https://s.weibo.com/weibo?q=%E6%B9%96%E4%BA%BA%20%E8%A9%B9%E5%A7%86%E6%96%AF&t=31&band_rank=1&Refer=top",
-      "score": 308301,
-      "owner": "微博热搜",
-      "label": "新"
-    },
-    {
-      "title": "刘浩存红裙跳舞",
-      "description": "新",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E6%B5%A9%E5%AD%98%E7%BA%A2%E8%A3%99%E8%B7%B3%E8%88%9E%23&t=31&band_rank=1&Refer=top",
-      "score": 308240,
-      "owner": "微博热搜",
-      "label": "新"
-    },
-    {
-      "title": "毛阿敏 我是大姐",
-      "description": "新",
-      "url": "https://s.weibo.com/weibo?q=%E6%AF%9B%E9%98%BF%E6%95%8F%20%E6%88%91%E6%98%AF%E5%A4%A7%E5%A7%90&t=31&band_rank=1&Refer=top",
-      "score": 305627,
-      "owner": "微博热搜",
-      "label": "新"
-    },
-    {
-      "title": "河南三支一扶笔试将重考",
-      "description": "",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B2%B3%E5%8D%97%E4%B8%89%E6%94%AF%E4%B8%80%E6%89%B6%E7%AC%94%E8%AF%95%E5%B0%86%E9%87%8D%E8%80%83%23&t=31&band_rank=1&Refer=top",
-      "score": 301433,
+      "score": 107089,
       "owner": "微博热搜",
       "label": ""
     },
     {
-      "title": "非农数据",
-      "description": "新",
-      "url": "https://s.weibo.com/weibo?q=%E9%9D%9E%E5%86%9C%E6%95%B0%E6%8D%AE&t=31&band_rank=1&Refer=top",
-      "score": 293143,
+      "title": "一个没有空调外挂机的城市",
+      "description": "热",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E4%B8%AA%E6%B2%A1%E6%9C%89%E7%A9%BA%E8%B0%83%E5%A4%96%E6%8C%82%E6%9C%BA%E7%9A%84%E5%9F%8E%E5%B8%82&t=31&band_rank=1&Refer=top",
+      "score": 106567,
       "owner": "微博热搜",
-      "label": "新"
+      "label": "热"
     },
     {
-      "title": "雪佛兰将停止在华销售",
+      "title": "齐豫 躲歌王",
       "description": "",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%9B%AA%E4%BD%9B%E5%85%B0%E5%B0%86%E5%81%9C%E6%AD%A2%E5%9C%A8%E5%8D%8E%E9%94%80%E5%94%AE%23&t=31&band_rank=1&Refer=top",
-      "score": 292397,
+      "url": "https://s.weibo.com/weibo?q=%E9%BD%90%E8%B1%AB%20%E8%BA%B2%E6%AD%8C%E7%8E%8B&t=31&band_rank=1&Refer=top",
+      "score": 106244,
       "owner": "微博热搜",
       "label": ""
     },
     {
-      "title": "原来这就是抑郁躯体化",
+      "title": "黄金",
       "description": "",
-      "url": "https://s.weibo.com/weibo?q=%E5%8E%9F%E6%9D%A5%E8%BF%99%E5%B0%B1%E6%98%AF%E6%8A%91%E9%83%81%E8%BA%AF%E4%BD%93%E5%8C%96&t=31&band_rank=1&Refer=top",
-      "score": 290813,
+      "url": "https://s.weibo.com/weibo?q=%E9%BB%84%E9%87%91&t=31&band_rank=1&Refer=top",
+      "score": 105813,
       "owner": "微博热搜",
       "label": ""
     },
     {
-      "title": "飞机免费退改票真的来了",
+      "title": "国乒男单 梯队建设",
       "description": "",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%A3%9E%E6%9C%BA%E5%85%8D%E8%B4%B9%E9%80%80%E6%94%B9%E7%A5%A8%E7%9C%9F%E7%9A%84%E6%9D%A5%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 289250,
+      "url": "https://s.weibo.com/weibo?q=%E5%9B%BD%E4%B9%92%E7%94%B7%E5%8D%95%20%E6%A2%AF%E9%98%9F%E5%BB%BA%E8%AE%BE&t=31&band_rank=1&Refer=top",
+      "score": 91919,
       "owner": "微博热搜",
       "label": ""
     },
     {
-      "title": "九尾看九门被陈伟霆盯上了",
+      "title": "欧阳娜娜超预期",
       "description": "新",
-      "url": "https://s.weibo.com/weibo?q=%E4%B9%9D%E5%B0%BE%E7%9C%8B%E4%B9%9D%E9%97%A8%E8%A2%AB%E9%99%88%E4%BC%9F%E9%9C%86%E7%9B%AF%E4%B8%8A%E4%BA%86&t=31&band_rank=1&Refer=top",
-      "score": 287068,
+      "url": "https://s.weibo.com/weibo?q=%23%E6%AC%A7%E9%98%B3%E5%A8%9C%E5%A8%9C%E8%B6%85%E9%A2%84%E6%9C%9F%23&t=31&band_rank=1&Refer=top",
+      "score": 91905,
       "owner": "微博热搜",
       "label": "新"
     },
     {
-      "title": "相思",
-      "description": "新",
-      "url": "https://s.weibo.com/weibo?q=%E7%9B%B8%E6%80%9D&t=31&band_rank=1&Refer=top",
-      "score": 286695,
-      "owner": "微博热搜",
-      "label": "新"
-    },
-    {
-      "title": "河南带薪错峰休假 撤回",
-      "description": "新",
-      "url": "https://s.weibo.com/weibo?q=%E6%B2%B3%E5%8D%97%E5%B8%A6%E8%96%AA%E9%94%99%E5%B3%B0%E4%BC%91%E5%81%87%20%E6%92%A4%E5%9B%9E&t=31&band_rank=1&Refer=top",
-      "score": 285307,
-      "owner": "微博热搜",
-      "label": "新"
-    },
-    {
-      "title": "宁艺卓钢管舞pose",
-      "description": "新",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AE%81%E8%89%BA%E5%8D%93%E9%92%A2%E7%AE%A1%E8%88%9Epose%23&t=31&band_rank=1&Refer=top",
-      "score": 283512,
-      "owner": "微博热搜",
-      "label": "新"
-    },
-    {
-      "title": "立秋",
+      "title": "耳帝",
       "description": "",
-      "url": "https://s.weibo.com/weibo?q=%E7%AB%8B%E7%A7%8B&t=31&band_rank=1&Refer=top",
-      "score": 266531,
+      "url": "https://s.weibo.com/weibo?q=%E8%80%B3%E5%B8%9D&t=31&band_rank=1&Refer=top",
+      "score": 90193,
       "owner": "微博热搜",
       "label": ""
     },
     {
-      "title": "歌手",
+      "title": "陈情令外鹅版VS内鹅版",
       "description": "",
-      "url": "https://s.weibo.com/weibo?q=%E6%AD%8C%E6%89%8B&t=31&band_rank=1&Refer=top",
-      "score": 263073,
+      "url": "https://s.weibo.com/weibo?q=%E9%99%88%E6%83%85%E4%BB%A4%E5%A4%96%E9%B9%85%E7%89%88VS%E5%86%85%E9%B9%85%E7%89%88&t=31&band_rank=1&Refer=top",
+      "score": 88049,
       "owner": "微博热搜",
       "label": ""
     },
     {
-      "title": "程潇复刻古希腊女神",
+      "title": "王安宇晒一念江南片场照",
       "description": "新",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%A8%8B%E6%BD%87%E5%A4%8D%E5%88%BB%E5%8F%A4%E5%B8%8C%E8%85%8A%E5%A5%B3%E7%A5%9E%23&t=31&band_rank=1&Refer=top",
-      "score": 258343,
+      "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E5%AE%89%E5%AE%87%E6%99%92%E4%B8%80%E5%BF%B5%E6%B1%9F%E5%8D%97%E7%89%87%E5%9C%BA%E7%85%A7%23&t=31&band_rank=1&Refer=top",
+      "score": 85557,
       "owner": "微博热搜",
       "label": "新"
+    },
+    {
+      "title": "披荆斩棘",
+      "description": "",
+      "url": "https://s.weibo.com/weibo?q=%E6%8A%AB%E8%8D%86%E6%96%A9%E6%A3%98&t=31&band_rank=1&Refer=top",
+      "score": 80474,
+      "owner": "微博热搜",
+      "label": ""
+    },
+    {
+      "title": "湖人官方宣传被指除名詹眉",
+      "description": "",
+      "url": "https://s.weibo.com/weibo?q=%E6%B9%96%E4%BA%BA%E5%AE%98%E6%96%B9%E5%AE%A3%E4%BC%A0%E8%A2%AB%E6%8C%87%E9%99%A4%E5%90%8D%E8%A9%B9%E7%9C%89&t=31&band_rank=1&Refer=top",
+      "score": 79428,
+      "owner": "微博热搜",
+      "label": ""
+    },
+    {
+      "title": "山水不会再相逢人也不会再见",
+      "description": "",
+      "url": "https://s.weibo.com/weibo?q=%E5%B1%B1%E6%B0%B4%E4%B8%8D%E4%BC%9A%E5%86%8D%E7%9B%B8%E9%80%A2%E4%BA%BA%E4%B9%9F%E4%B8%8D%E4%BC%9A%E5%86%8D%E8%A7%81&t=31&band_rank=1&Refer=top",
+      "score": 79065,
+      "owner": "微博热搜",
+      "label": ""
+    },
+    {
+      "title": "歌手收视率",
+      "description": "",
+      "url": "https://s.weibo.com/weibo?q=%E6%AD%8C%E6%89%8B%E6%94%B6%E8%A7%86%E7%8E%87&t=31&band_rank=1&Refer=top",
+      "score": 78478,
+      "owner": "微博热搜",
+      "label": ""
+    },
+    {
+      "title": "女子生下4胞胎被全家宠上天称嫁对人了",
+      "description": "",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E7%94%9F%E4%B8%8B4%E8%83%9E%E8%83%8E%E8%A2%AB%E5%85%A8%E5%AE%B6%E5%AE%A0%E4%B8%8A%E5%A4%A9%E7%A7%B0%E5%AB%81%E5%AF%B9%E4%BA%BA%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 68067,
+      "owner": "微博热搜",
+      "label": ""
+    },
+    {
+      "title": "aespa最伟大的Drama回来了",
+      "description": "",
+      "url": "https://s.weibo.com/weibo?q=aespa%E6%9C%80%E4%BC%9F%E5%A4%A7%E7%9A%84Drama%E5%9B%9E%E6%9D%A5%E4%BA%86&t=31&band_rank=1&Refer=top",
+      "score": 59519,
+      "owner": "微博热搜",
+      "label": ""
+    },
+    {
+      "title": "张凌赫苍兰诀婚服里面破洞裤",
+      "description": "",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%BC%A0%E5%87%8C%E8%B5%AB%E8%8B%8D%E5%85%B0%E8%AF%80%E5%A9%9A%E6%9C%8D%E9%87%8C%E9%9D%A2%E7%A0%B4%E6%B4%9E%E8%A3%A4%23&t=31&band_rank=1&Refer=top",
+      "score": 57199,
+      "owner": "微博热搜",
+      "label": ""
+    },
+    {
+      "title": "中山大学23岁直博生确诊胃癌晚期",
+      "description": "",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%B1%B1%E5%A4%A7%E5%AD%A623%E5%B2%81%E7%9B%B4%E5%8D%9A%E7%94%9F%E7%A1%AE%E8%AF%8A%E8%83%83%E7%99%8C%E6%99%9A%E6%9C%9F%23&t=31&band_rank=1&Refer=top",
+      "score": 56754,
+      "owner": "微博热搜",
+      "label": ""
+    },
+    {
+      "title": "离树不到10秒的活荔枝",
+      "description": "",
+      "url": "https://s.weibo.com/weibo?q=%E7%A6%BB%E6%A0%91%E4%B8%8D%E5%88%B010%E7%A7%92%E7%9A%84%E6%B4%BB%E8%8D%94%E6%9E%9D&t=31&band_rank=1&Refer=top",
+      "score": 55755,
+      "owner": "微博热搜",
+      "label": ""
+    },
+    {
+      "title": "齐豫第二轮倒一",
+      "description": "",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%BD%90%E8%B1%AB%E7%AC%AC%E4%BA%8C%E8%BD%AE%E5%80%92%E4%B8%80%23&t=31&band_rank=1&Refer=top",
+      "score": 55751,
+      "owner": "微博热搜",
+      "label": ""
     },
     {
       "title": "外国网友也认了中式天庭",
-      "description": "新",
+      "description": "",
       "url": "https://s.weibo.com/weibo?q=%E5%A4%96%E5%9B%BD%E7%BD%91%E5%8F%8B%E4%B9%9F%E8%AE%A4%E4%BA%86%E4%B8%AD%E5%BC%8F%E5%A4%A9%E5%BA%AD&t=31&band_rank=1&Refer=top",
-      "score": 253890,
+      "score": 55733,
       "owner": "微博热搜",
-      "label": "新"
+      "label": ""
+    },
+    {
+      "title": "中国要用5万亿织一张网",
+      "description": "",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E8%A6%81%E7%94%A85%E4%B8%87%E4%BA%BF%E7%BB%87%E4%B8%80%E5%BC%A0%E7%BD%91%23&t=31&band_rank=1&Refer=top",
+      "score": 55726,
+      "owner": "微博热搜",
+      "label": ""
     }
   ]
 }
