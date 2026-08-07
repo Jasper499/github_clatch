@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-08-06T05:29:24Z",
+  "savedAt": "2026-08-07T04:34:43Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "9410400815df189d3e76d4be19c74afa68d03412",
+  "latestSha": "c2be4dc08934b1be6fb88e658bd21e0eec89088c",
   "items": [
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c2be4dc08934b1be6fb88e658bd21e0eec89088c",
+      "sha": "c2be4dc",
+      "fullSha": "c2be4dc08934b1be6fb88e658bd21e0eec89088c",
+      "owner": "github-actions",
+      "published": "2026-08-07",
+      "label": "commit"
+    },
     {
       "title": "docs(figure): codify panel-level QA rules",
       "description": "docs(figure): codify panel-level QA rules",
@@ -143,16 +153,6 @@
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/656968531e1828877c2a90be1541de220dd17669",
       "sha": "6569685",
       "fullSha": "656968531e1828877c2a90be1541de220dd17669",
-      "owner": "Travisma2233",
-      "published": "2026-08-03",
-      "label": "commit"
-    },
-    {
-      "title": "fix: harden automatic skill synchronization",
-      "description": "fix: harden automatic skill synchronization",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/d8e6887a866deec1631504ba0e4fc4ced74326ee",
-      "sha": "d8e6887",
-      "fullSha": "d8e6887a866deec1631504ba0e4fc4ced74326ee",
       "owner": "Travisma2233",
       "published": "2026-08-03",
       "label": "commit"
