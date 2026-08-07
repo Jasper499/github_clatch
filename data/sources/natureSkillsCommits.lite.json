@@ -1,12 +1,42 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-08-07T04:34:43Z",
+  "savedAt": "2026-08-07T15:13:28Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "c2be4dc08934b1be6fb88e658bd21e0eec89088c",
+  "latestSha": "1a8c0208405fe73f3a617169d80fb3b388cd0e9f",
   "items": [
+    {
+      "title": "Update README.md",
+      "description": "Update README.md",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/1a8c0208405fe73f3a617169d80fb3b388cd0e9f",
+      "sha": "1a8c020",
+      "fullSha": "1a8c0208405fe73f3a617169d80fb3b388cd0e9f",
+      "owner": "Yuan1z0825",
+      "published": "2026-08-07",
+      "label": "commit"
+    },
+    {
+      "title": "Update README.md",
+      "description": "Update README.md",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/54b0158a12a335f71a563fc3b962f3904c61676e",
+      "sha": "54b0158",
+      "fullSha": "54b0158a12a335f71a563fc3b962f3904c61676e",
+      "owner": "Yuan1z0825",
+      "published": "2026-08-07",
+      "label": "commit"
+    },
+    {
+      "title": "fix: improve star history endpoint marker (#184)",
+      "description": "fix: improve star history endpoint marker (#184)",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/dfd4e3bf8dc5daada876c6a0b1b92c49b8defedb",
+      "sha": "dfd4e3b",
+      "fullSha": "dfd4e3bf8dc5daada876c6a0b1b92c49b8defedb",
+      "owner": "Travisma2233",
+      "published": "2026-08-07",
+      "label": "commit"
+    },
     {
       "title": "chore: update star history",
       "description": "chore: update star history",
@@ -123,36 +153,6 @@
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/2fd4be8fb759fb3aa00d672e59630b368382f22a",
       "sha": "2fd4be8",
       "fullSha": "2fd4be8fb759fb3aa00d672e59630b368382f22a",
-      "owner": "Travisma2233",
-      "published": "2026-08-03",
-      "label": "commit"
-    },
-    {
-      "title": "ci: pin actions to immutable commits",
-      "description": "ci: pin actions to immutable commits",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/3c32970e955679065fc3f5ee71304b962f9fc21a",
-      "sha": "3c32970",
-      "fullSha": "3c32970e955679065fc3f5ee71304b962f9fc21a",
-      "owner": "Travisma2233",
-      "published": "2026-08-03",
-      "label": "commit"
-    },
-    {
-      "title": "chore: normalize Markdown line endings",
-      "description": "chore: normalize Markdown line endings",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/42507354cfe36ac52031cdf69c5b1aa19bc7eaa0",
-      "sha": "4250735",
-      "fullSha": "42507354cfe36ac52031cdf69c5b1aa19bc7eaa0",
-      "owner": "Travisma2233",
-      "published": "2026-08-03",
-      "label": "commit"
-    },
-    {
-      "title": "test: cover skill sync safety failures",
-      "description": "test: cover skill sync safety failures",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/656968531e1828877c2a90be1541de220dd17669",
-      "sha": "6569685",
-      "fullSha": "656968531e1828877c2a90be1541de220dd17669",
       "owner": "Travisma2233",
       "published": "2026-08-03",
       "label": "commit"

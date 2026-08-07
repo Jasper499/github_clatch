@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-08-07T14:56:05Z",
+  "updatedAt": "2026-08-07T15:13:28Z",
   "periodDays": 7,
   "weekLabel": "2026-07-27 ~ 2026-08-03",
   "githubUpdatedAt": "2026-08-03T04:27:44Z",
   "hackernewsUpdatedAt": "2026-08-07T14:56:05Z",
   "weiboUpdatedAt": "2026-08-07T13:25:54Z",
   "journalsUpdatedAt": "2026-08-01T05:16:17Z",
-  "natureSkillsUpdatedAt": "2026-08-07T04:34:43Z",
+  "natureSkillsUpdatedAt": "2026-08-07T15:13:28Z",
   "scientificSkillsUpdatedAt": "2026-08-07T04:37:54Z",
-  "natureSkillsLatestSha": "c2be4dc08934b1be6fb88e658bd21e0eec89088c",
+  "natureSkillsLatestSha": "1a8c0208405fe73f3a617169d80fb3b388cd0e9f",
   "scientificSkillsLatestSha": "d767725c6e93b1d02a220e6be75b261a9833ede5",
   "catalog": [
     {
@@ -158,7 +158,7 @@
       "description": "跟踪 Yuan1z0825/nature-skills：共 17 个技能（最近同步 2026-08-07）",
       "updateFrequency": "daily",
       "repo": "Yuan1z0825/nature-skills",
-      "latestSha": "c2be4dc08934b1be6fb88e658bd21e0eec89088c",
+      "latestSha": "1a8c0208405fe73f3a617169d80fb3b388cd0e9f",
       "itemCount": 18
     },
     "natureSkillsCommits": {
@@ -166,7 +166,7 @@
       "description": "最近 15 条提交动态",
       "updateFrequency": "daily",
       "repo": "Yuan1z0825/nature-skills",
-      "latestSha": "c2be4dc08934b1be6fb88e658bd21e0eec89088c",
+      "latestSha": "1a8c0208405fe73f3a617169d80fb3b388cd0e9f",
       "itemCount": 15
     },
     "scientificSkills": {
@@ -207,7 +207,7 @@
       "itemCount": 20
     }
   },
-  "generatedAt": "2026-08-07T14:56:05Z",
+  "generatedAt": "2026-08-07T15:13:28Z",
   "journalsPeriod": "2026-06-17 ~ 2026-08-01",
   "chinaDailyUpdatedAt": "2026-08-07T04:54:52Z"
 }

@@ -1,20 +1,35 @@
 {
   "changed": true,
-  "fetchedAt": "2026-08-07T04:34:43Z",
-  "previousSha": "9410400815df189d3e76d4be19c74afa68d03412",
-  "latestSha": "c2be4dc08934b1be6fb88e658bd21e0eec89088c",
+  "fetchedAt": "2026-08-07T15:13:28Z",
+  "previousSha": "c2be4dc08934b1be6fb88e658bd21e0eec89088c",
+  "latestSha": "1a8c0208405fe73f3a617169d80fb3b388cd0e9f",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "chore: update star history",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/c2be4dc08934b1be6fb88e658bd21e0eec89088c",
-    "sha": "c2be4dc",
+    "title": "Update README.md",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/1a8c0208405fe73f3a617169d80fb3b388cd0e9f",
+    "sha": "1a8c020",
     "published": "2026-08-07"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "Update README.md",
+      "sha": "1a8c020",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/1a8c0208405fe73f3a617169d80fb3b388cd0e9f"
+    },
+    {
+      "title": "Update README.md",
+      "sha": "54b0158",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/54b0158a12a335f71a563fc3b962f3904c61676e"
+    },
+    {
+      "title": "fix: improve star history endpoint marker (#184)",
+      "sha": "dfd4e3b",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/dfd4e3bf8dc5daada876c6a0b1b92c49b8defedb"
+    },
     {
       "title": "chore: update star history",
       "sha": "c2be4dc",
@@ -24,21 +39,6 @@
       "title": "docs(figure): codify panel-level QA rules",
       "sha": "9410400",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/9410400815df189d3e76d4be19c74afa68d03412"
-    },
-    {
-      "title": "feat(figure): add rendering safety checks",
-      "sha": "b4f82f1",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/b4f82f145a6b6bcc9ab924a59e88e0623b32e2eb"
-    },
-    {
-      "title": "Update README.md",
-      "sha": "43649b0",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/43649b071a2ab057d5cdaeb739960272d5201c85"
-    },
-    {
-      "title": "Update README.md",
-      "sha": "b690055",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/b69005590fc4be3f9cf562c033967ecfc51f1ad7"
     }
   ]
 }
