@@ -6,148 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E6%AD%8C%E6%89%8B%E6%80%BB%E5%86%B3%E8%B5%9B&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E6%AD%8C%E6%89%8B%E6%80%BB%E5%86%B3%E8%B5%9B&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 歌手总决赛",
-      "date_published": "2026-08-07T13:25:54Z"
+      "id": "hackernews:https://gruhn.me/blog/2026-08-03/",
+      "url": "https://gruhn.me/blog/2026-08-03/",
+      "title": "[Hacker News 热门] Don't be a meat proxy",
+      "date_published": "2026-08-07T14:56:05Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 台风",
-      "date_published": "2026-08-07T13:25:54Z"
+      "id": "hackernews:https://john.fun/elevators",
+      "url": "https://john.fun/elevators",
+      "title": "[Hacker News 热门] Show HN: Elevators",
+      "date_published": "2026-08-07T14:56:05Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E6%9A%91%E6%9C%9F%E6%A1%A3%E7%A5%A8%E6%88%BF%E8%B6%8580%E4%BA%BF%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9A%91%E6%9C%9F%E6%A1%A3%E7%A5%A8%E6%88%BF%E8%B6%8580%E4%BA%BF%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 暑期档票房超80亿",
-      "date_published": "2026-08-07T13:25:54Z"
+      "id": "hackernews:https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years/",
+      "url": "https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years/",
+      "title": "[Hacker News 热门] In Memory of My Wife, Elise Cawley, with Thanks for 36 Wonderful Years",
+      "date_published": "2026-08-07T14:56:05Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E9%BB%84%E5%AD%90%E5%BC%98%E5%87%A1%E5%A5%BD%E7%A8%B3&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E9%BB%84%E5%AD%90%E5%BC%98%E5%87%A1%E5%A5%BD%E7%A8%B3&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 黄子弘凡好稳",
-      "date_published": "2026-08-07T13:25:54Z"
+      "id": "hackernews:https://www.seangoedecke.com/llms-reward-expertise/",
+      "url": "https://www.seangoedecke.com/llms-reward-expertise/",
+      "title": "[Hacker News 热门] LLMs reward expertise",
+      "date_published": "2026-08-07T14:56:05Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E4%B8%80%E4%B8%AA%E6%B2%A1%E6%9C%89%E7%A9%BA%E8%B0%83%E5%A4%96%E6%8C%82%E6%9C%BA%E7%9A%84%E5%9F%8E%E5%B8%82&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E4%B8%AA%E6%B2%A1%E6%9C%89%E7%A9%BA%E8%B0%83%E5%A4%96%E6%8C%82%E6%9C%BA%E7%9A%84%E5%9F%8E%E5%B8%82&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 一个没有空调外挂机的城市",
-      "date_published": "2026-08-07T13:25:54Z"
+      "id": "hackernews:https://qwen.ai/blog?id=qwen3.8",
+      "url": "https://qwen.ai/blog?id=qwen3.8",
+      "title": "[Hacker News 热门] Qwen3.8-Max: A New Bar for Coding and Cowork",
+      "date_published": "2026-08-07T14:56:05Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E9%BD%90%E8%B1%AB%E6%AF%9B%E9%98%BF%E6%95%8F%E7%A7%92%E4%BA%86&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E9%BD%90%E8%B1%AB%E6%AF%9B%E9%98%BF%E6%95%8F%E7%A7%92%E4%BA%86&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 齐豫毛阿敏秒了",
-      "date_published": "2026-08-07T13:25:54Z"
+      "id": "hackernews:https://www.mayerowitz.io/blog/mario-meets-pareto",
+      "url": "https://www.mayerowitz.io/blog/mario-meets-pareto",
+      "title": "[Hacker News 热门] Mario Meets Pareto",
+      "date_published": "2026-08-07T14:56:05Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=iPhone18Pro%E8%B5%B7%E5%94%AE%E6%88%96%E7%A0%B4%E4%B8%87&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=iPhone18Pro%E8%B5%B7%E5%94%AE%E6%88%96%E7%A0%B4%E4%B8%87&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] iPhone18Pro起售或破万",
-      "date_published": "2026-08-07T13:25:54Z"
+      "id": "hackernews:https://www.discoveryloop.com/",
+      "url": "https://www.discoveryloop.com/",
+      "title": "[Hacker News 热门] Discovery Loop",
+      "date_published": "2026-08-07T14:56:05Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E4%B8%89%E6%94%AF%E4%B8%80%E6%89%B6%E4%BD%9C%E5%BC%8A%E6%A1%88&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E4%B8%89%E6%94%AF%E4%B8%80%E6%89%B6%E4%BD%9C%E5%BC%8A%E6%A1%88&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 三支一扶作弊案",
-      "date_published": "2026-08-07T13:25:54Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E6%9D%8E%E5%9C%A8%E6%98%8E%E5%90%91%E5%9B%BD%E5%AE%B6%E6%9A%B4%E5%8A%9B%E5%8F%97%E5%AE%B3%E8%80%85%E9%81%93%E6%AD%89%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E5%9C%A8%E6%98%8E%E5%90%91%E5%9B%BD%E5%AE%B6%E6%9A%B4%E5%8A%9B%E5%8F%97%E5%AE%B3%E8%80%85%E9%81%93%E6%AD%89%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 李在明向国家暴力受害者道歉",
-      "date_published": "2026-08-07T13:25:54Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E6%B9%96%E4%BA%BA%20%E8%A9%B9%E5%A7%86%E6%96%AF&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E6%B9%96%E4%BA%BA%20%E8%A9%B9%E5%A7%86%E6%96%AF&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 湖人 詹姆斯",
-      "date_published": "2026-08-07T13:25:54Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E9%9F%A6%E7%A4%BC%E5%AE%89%E5%8F%88%E6%9D%A5%E6%BC%94%E5%B0%8F%E5%93%81%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%9F%A6%E7%A4%BC%E5%AE%89%E5%8F%88%E6%9D%A5%E6%BC%94%E5%B0%8F%E5%93%81%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 韦礼安又来演小品了",
-      "date_published": "2026-08-07T13:25:54Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E9%BD%90%E8%B1%AB%E8%A1%A3%E6%9C%8D%E5%8B%BE%E4%B8%9D%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%BD%90%E8%B1%AB%E8%A1%A3%E6%9C%8D%E5%8B%BE%E4%B8%9D%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 齐豫衣服勾丝了",
-      "date_published": "2026-08-07T13:25:54Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E6%88%91%E6%94%AF%E6%8C%81%E4%B8%87%E5%A6%AE%E8%BE%BE%E5%BD%93%E6%AD%8C%E7%8E%8B&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E6%88%91%E6%94%AF%E6%8C%81%E4%B8%87%E5%A6%AE%E8%BE%BE%E5%BD%93%E6%AD%8C%E7%8E%8B&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 我支持万妮达当歌王",
-      "date_published": "2026-08-07T13:25:54Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%88%98%E6%B5%A9%E5%AD%98%E7%BA%A2%E8%A3%99%E8%B7%B3%E8%88%9E%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E6%B5%A9%E5%AD%98%E7%BA%A2%E8%A3%99%E8%B7%B3%E8%88%9E%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 刘浩存红裙跳舞",
-      "date_published": "2026-08-07T13:25:54Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E9%BB%84%E9%87%91&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E9%BB%84%E9%87%91&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 黄金",
-      "date_published": "2026-08-07T13:25:54Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%BC%A0%E5%87%8C%E8%B5%AB%E8%87%AA%E6%9B%9D%E6%B2%A1%E6%9C%89%E4%B8%80%E7%B1%B3%E4%B9%9D%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%BC%A0%E5%87%8C%E8%B5%AB%E8%87%AA%E6%9B%9D%E6%B2%A1%E6%9C%89%E4%B8%80%E7%B1%B3%E4%B9%9D%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 张凌赫自曝没有一米九",
-      "date_published": "2026-08-07T13:25:54Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 台风",
-      "date_published": "2026-08-07T13:25:54Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E6%9A%91%E6%9C%9F%E6%A1%A3%E7%A5%A8%E6%88%BF%E8%B6%8580%E4%BA%BF%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9A%91%E6%9C%9F%E6%A1%A3%E7%A5%A8%E6%88%BF%E8%B6%8580%E4%BA%BF%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 暑期档票房超80亿",
-      "date_published": "2026-08-07T13:25:54Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E4%B8%80%E4%B8%AA%E6%B2%A1%E6%9C%89%E7%A9%BA%E8%B0%83%E5%A4%96%E6%8C%82%E6%9C%BA%E7%9A%84%E5%9F%8E%E5%B8%82&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E4%B8%AA%E6%B2%A1%E6%9C%89%E7%A9%BA%E8%B0%83%E5%A4%96%E6%8C%82%E6%9C%BA%E7%9A%84%E5%9F%8E%E5%B8%82&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 一个没有空调外挂机的城市",
-      "date_published": "2026-08-07T13:25:54Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E4%B8%89%E6%94%AF%E4%B8%80%E6%89%B6%E4%BD%9C%E5%BC%8A%E6%A1%88&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E4%B8%89%E6%94%AF%E4%B8%80%E6%89%B6%E4%BD%9C%E5%BC%8A%E6%A1%88&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 三支一扶作弊案",
-      "date_published": "2026-08-07T13:25:54Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E9%A3%9E%E6%9C%BA%E5%85%8D%E8%B4%B9%E9%80%80%E6%94%B9%E7%A5%A8%E7%9C%9F%E7%9A%84%E6%9D%A5%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%A3%9E%E6%9C%BA%E5%85%8D%E8%B4%B9%E9%80%80%E6%94%B9%E7%A5%A8%E7%9C%9F%E7%9A%84%E6%9D%A5%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 飞机免费退改票真的来了",
-      "date_published": "2026-08-07T13:25:54Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E6%B2%B3%E5%8D%97%E5%B8%A6%E8%96%AA%E9%94%99%E5%B3%B0%E4%BC%91%E5%81%87%20%E6%92%A4%E5%9B%9E&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E6%B2%B3%E5%8D%97%E5%B8%A6%E8%96%AA%E9%94%99%E5%B3%B0%E4%BC%91%E5%81%87%20%E6%92%A4%E5%9B%9E&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 河南带薪错峰休假 撤回",
-      "date_published": "2026-08-07T13:25:54Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E7%AB%8B%E7%A7%8B&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E7%AB%8B%E7%A7%8B&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 立秋",
-      "date_published": "2026-08-07T13:25:54Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%9B%9B%E5%B7%9D%E9%AB%98%E5%8E%BF%E5%9C%B0%E9%9C%871%E4%BA%BA%E6%AD%BB%E4%BA%A1%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%9B%9B%E5%B7%9D%E9%AB%98%E5%8E%BF%E5%9C%B0%E9%9C%871%E4%BA%BA%E6%AD%BB%E4%BA%A1%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 四川高县地震1人死亡",
-      "date_published": "2026-08-07T13:25:54Z"
+      "id": "hackernews:https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+      "title": "[Hacker News 热门] Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
+      "date_published": "2026-08-07T14:56:05Z"
     }
   ]
 }
