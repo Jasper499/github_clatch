@@ -1,44 +1,44 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-08-08T03:48:03Z",
+  "changed": true,
+  "fetchedAt": "2026-08-08T14:53:45Z",
   "previousSha": "1a8c0208405fe73f3a617169d80fb3b388cd0e9f",
-  "latestSha": "1a8c0208405fe73f3a617169d80fb3b388cd0e9f",
+  "latestSha": "adb7b8a5a7d72ed6fe9f71e085785e9972dd8db2",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "Update README.md",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/1a8c0208405fe73f3a617169d80fb3b388cd0e9f",
-    "sha": "1a8c020",
-    "published": "2026-08-07"
+    "title": "更新完善了nature-reader的相关功能 (#192)",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/adb7b8a5a7d72ed6fe9f71e085785e9972dd8db2",
+    "sha": "adb7b8a",
+    "published": "2026-08-08"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
     {
-      "title": "Update README.md",
-      "sha": "1a8c020",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/1a8c0208405fe73f3a617169d80fb3b388cd0e9f"
+      "title": "更新完善了nature-reader的相关功能 (#192)",
+      "sha": "adb7b8a",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/adb7b8a5a7d72ed6fe9f71e085785e9972dd8db2"
     },
     {
-      "title": "Update README.md",
-      "sha": "54b0158",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/54b0158a12a335f71a563fc3b962f3904c61676e"
+      "title": "feat: add flagship Nature submission requirements (#190)",
+      "sha": "f6e5f4d",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/f6e5f4d15694b82b1e836c32dd19a8fa1b223426"
     },
     {
-      "title": "fix: improve star history endpoint marker (#184)",
-      "sha": "dfd4e3b",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/dfd4e3bf8dc5daada876c6a0b1b92c49b8defedb"
+      "title": "fix: bust star history image cache (#189)",
+      "sha": "1ffb43b",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/1ffb43b0f63583f004097432e213437167197dd8"
     },
     {
-      "title": "chore: update star history",
-      "sha": "c2be4dc",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c2be4dc08934b1be6fb88e658bd21e0eec89088c"
+      "title": "feat: add current star count KPI (#188)",
+      "sha": "092c7d6",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/092c7d6b445cdde6f43f1f6e425a92a4ddfc7945"
     },
     {
-      "title": "docs(figure): codify panel-level QA rules",
-      "sha": "9410400",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/9410400815df189d3e76d4be19c74afa68d03412"
+      "title": "chore: update star history (#187)",
+      "sha": "db6a388",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/db6a3888a40c09b222b34aaeecfe5ed7fa620e15"
     }
   ]
 }

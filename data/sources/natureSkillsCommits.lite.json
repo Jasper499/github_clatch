@@ -1,12 +1,62 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-08-08T03:48:03Z",
+  "savedAt": "2026-08-08T14:53:45Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "1a8c0208405fe73f3a617169d80fb3b388cd0e9f",
+  "latestSha": "adb7b8a5a7d72ed6fe9f71e085785e9972dd8db2",
   "items": [
+    {
+      "title": "更新完善了nature-reader的相关功能 (#192)",
+      "description": "更新完善了nature-reader的相关功能 (#192)\n\n* Add files via upload\n\n* Add files via upload\n\n* Add files via upload\n\n* Add files via upload\n\n* Add files via upload",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/adb7b8a5a7d72ed6fe9f71e085785e9972dd8db2",
+      "sha": "adb7b8a",
+      "fullSha": "adb7b8a5a7d72ed6fe9f71e085785e9972dd8db2",
+      "owner": "dabogeeee",
+      "published": "2026-08-08",
+      "label": "commit"
+    },
+    {
+      "title": "feat: add flagship Nature submission requirements (#190)",
+      "description": "feat: add flagship Nature submission requirements (#190)",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/f6e5f4d15694b82b1e836c32dd19a8fa1b223426",
+      "sha": "f6e5f4d",
+      "fullSha": "f6e5f4d15694b82b1e836c32dd19a8fa1b223426",
+      "owner": "Travisma2233",
+      "published": "2026-08-08",
+      "label": "commit"
+    },
+    {
+      "title": "fix: bust star history image cache (#189)",
+      "description": "fix: bust star history image cache (#189)",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/1ffb43b0f63583f004097432e213437167197dd8",
+      "sha": "1ffb43b",
+      "fullSha": "1ffb43b0f63583f004097432e213437167197dd8",
+      "owner": "Travisma2233",
+      "published": "2026-08-08",
+      "label": "commit"
+    },
+    {
+      "title": "feat: add current star count KPI (#188)",
+      "description": "feat: add current star count KPI (#188)",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/092c7d6b445cdde6f43f1f6e425a92a4ddfc7945",
+      "sha": "092c7d6",
+      "fullSha": "092c7d6b445cdde6f43f1f6e425a92a4ddfc7945",
+      "owner": "Travisma2233",
+      "published": "2026-08-08",
+      "label": "commit"
+    },
+    {
+      "title": "chore: update star history (#187)",
+      "description": "chore: update star history (#187)",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/db6a3888a40c09b222b34aaeecfe5ed7fa620e15",
+      "sha": "db6a388",
+      "fullSha": "db6a3888a40c09b222b34aaeecfe5ed7fa620e15",
+      "owner": "Travisma2233",
+      "published": "2026-08-08",
+      "label": "commit"
+    },
     {
       "title": "Update README.md",
       "description": "Update README.md",
@@ -103,56 +153,6 @@
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/10cf80f4ba3350f23f8188fffb88b7a3f531a4c0",
       "sha": "10cf80f",
       "fullSha": "10cf80f4ba3350f23f8188fffb88b7a3f531a4c0",
-      "owner": "Travisma2233",
-      "published": "2026-08-03",
-      "label": "commit"
-    },
-    {
-      "title": "feat(citation): preserve complete author metadata",
-      "description": "feat(citation): preserve complete author metadata",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/27d6326a70bd6ec8ebc0626fabb32e9d8e09c9f3",
-      "sha": "27d6326",
-      "fullSha": "27d6326a70bd6ec8ebc0626fabb32e9d8e09c9f3",
-      "owner": "Travisma2233",
-      "published": "2026-08-03",
-      "label": "commit"
-    },
-    {
-      "title": "ci: constrain Python test dependencies",
-      "description": "ci: constrain Python test dependencies",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/8c805d2a397c657eca20b188d50478bb63e15180",
-      "sha": "8c805d2",
-      "fullSha": "8c805d2a397c657eca20b188d50478bb63e15180",
-      "owner": "Travisma2233",
-      "published": "2026-08-03",
-      "label": "commit"
-    },
-    {
-      "title": "docs: align auto-update timeout and log paths",
-      "description": "docs: align auto-update timeout and log paths",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/339655f5ce0de8e68044a52ddb31218dce3c1f8a",
-      "sha": "339655f",
-      "fullSha": "339655f5ce0de8e68044a52ddb31218dce3c1f8a",
-      "owner": "Travisma2233",
-      "published": "2026-08-03",
-      "label": "commit"
-    },
-    {
-      "title": "fix: stage skill installs before activation",
-      "description": "fix: stage skill installs before activation",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/0836dcbde2720f365d5ebb40de2968679f78a00c",
-      "sha": "0836dcb",
-      "fullSha": "0836dcbde2720f365d5ebb40de2968679f78a00c",
-      "owner": "Travisma2233",
-      "published": "2026-08-03",
-      "label": "commit"
-    },
-    {
-      "title": "fix: serialize automatic skill updates",
-      "description": "fix: serialize automatic skill updates",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/2fd4be8fb759fb3aa00d672e59630b368382f22a",
-      "sha": "2fd4be8",
-      "fullSha": "2fd4be8fb759fb3aa00d672e59630b368382f22a",
       "owner": "Travisma2233",
       "published": "2026-08-03",
       "label": "commit"
