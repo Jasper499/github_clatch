@@ -1,100 +1,110 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-08-08T07:08:51Z",
+  "savedAt": "2026-08-08T13:07:26Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-08，共 9 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-08，共 10 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-08-08",
   "items": [
     {
-      "title": "白海豚已闭眼",
-      "description": "突发/灾害",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E6%B5%B7%E8%B1%9A%E5%B7%B2%E9%97%AD%E7%9C%BC%23&t=31&band_rank=1&Refer=top",
-      "score": 879113,
+      "title": "台风白海豚",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E%E7%99%BD%E6%B5%B7%E8%B1%9A&t=31&band_rank=1&Refer=top",
+      "score": 857989,
       "owner": "微博同城",
       "label": "",
-      "category": "突发/灾害",
-      "onboardTime": 1786156159
+      "category": "民生新闻",
+      "onboardTime": 1786182080
     },
     {
-      "title": "白海豚将正面袭击贯穿浙江",
+      "title": "西平县刑案嫌犯伤害多名无辜群众",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%A5%BF%E5%B9%B3%E5%8E%BF%E5%88%91%E6%A1%88%E5%AB%8C%E7%8A%AF%E4%BC%A4%E5%AE%B3%E5%A4%9A%E5%90%8D%E6%97%A0%E8%BE%9C%E7%BE%A4%E4%BC%97%23&t=31&band_rank=1&Refer=top",
+      "score": 300984,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1786191921
+    },
+    {
+      "title": "河南西平刑案嫌犯已落网",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B2%B3%E5%8D%97%E8%A5%BF%E5%B9%B3%E5%88%91%E6%A1%88%E5%AB%8C%E7%8A%AF%E5%B7%B2%E8%90%BD%E7%BD%91%23&t=31&band_rank=1&Refer=top",
+      "score": 284890,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1786186160
+    },
+    {
+      "title": "18岁女孩遭强奸案被挂案五年",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=18%E5%B2%81%E5%A5%B3%E5%AD%A9%E9%81%AD%E5%BC%BA%E5%A5%B8%E6%A1%88%E8%A2%AB%E6%8C%82%E6%A1%88%E4%BA%94%E5%B9%B4&t=31&band_rank=1&Refer=top",
+      "score": 221056,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1786186280
+    },
+    {
+      "title": "霸王茶姬高仿店被判赔35万",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%9C%B8%E7%8E%8B%E8%8C%B6%E5%A7%AC%E9%AB%98%E4%BB%BF%E5%BA%97%E8%A2%AB%E5%88%A4%E8%B5%9435%E4%B8%87%23&t=31&band_rank=1&Refer=top",
+      "score": 221026,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1786188741
+    },
+    {
+      "title": "台风白海豚来袭杭州全市停课",
       "description": "新 · 突发/灾害",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E6%B5%B7%E8%B1%9A%E5%B0%86%E6%AD%A3%E9%9D%A2%E8%A2%AD%E5%87%BB%E8%B4%AF%E7%A9%BF%E6%B5%99%E6%B1%9F%23&t=31&band_rank=1&Refer=top",
-      "score": 364688,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8F%B0%E9%A3%8E%E7%99%BD%E6%B5%B7%E8%B1%9A%E6%9D%A5%E8%A2%AD%E6%9D%AD%E5%B7%9E%E5%85%A8%E5%B8%82%E5%81%9C%E8%AF%BE%23&t=31&band_rank=1&Refer=top",
+      "score": 213558,
       "owner": "微博同城",
       "label": "新",
       "category": "突发/灾害",
-      "onboardTime": 1786169721
+      "onboardTime": 1786193121
     },
     {
-      "title": "小心这种手机壳正在偷拍你的隐私",
-      "description": "热 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%B0%8F%E5%BF%83%E8%BF%99%E7%A7%8D%E6%89%8B%E6%9C%BA%E5%A3%B3%E6%AD%A3%E5%9C%A8%E5%81%B7%E6%8B%8D%E4%BD%A0%E7%9A%84%E9%9A%90%E7%A7%81%23&t=31&band_rank=1&Refer=top",
-      "score": 340368,
-      "owner": "微博同城",
-      "label": "热",
-      "category": "民生新闻",
-      "onboardTime": 1786165521
-    },
-    {
-      "title": "费大厨塌房了吗",
+      "title": "永和豆浆创始人林炳生逝世",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%B4%B9%E5%A4%A7%E5%8E%A8%E5%A1%8C%E6%88%BF%E4%BA%86%E5%90%97%23&t=31&band_rank=1&Refer=top",
-      "score": 294385,
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B0%B8%E5%92%8C%E8%B1%86%E6%B5%86%E5%88%9B%E5%A7%8B%E4%BA%BA%E6%9E%97%E7%82%B3%E7%94%9F%E9%80%9D%E4%B8%96%23&t=31&band_rank=1&Refer=top",
+      "score": 190596,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1786172479
+      "onboardTime": 1786191921
     },
     {
-      "title": "河南低保户背上40万超额贷款",
+      "title": "女子用17年把丈夫和小三送进牢房",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B2%B3%E5%8D%97%E4%BD%8E%E4%BF%9D%E6%88%B7%E8%83%8C%E4%B8%8A40%E4%B8%87%E8%B6%85%E9%A2%9D%E8%B4%B7%E6%AC%BE%23&t=31&band_rank=1&Refer=top",
-      "score": 289449,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E7%94%A817%E5%B9%B4%E6%8A%8A%E4%B8%88%E5%A4%AB%E5%92%8C%E5%B0%8F%E4%B8%89%E9%80%81%E8%BF%9B%E7%89%A2%E6%88%BF%23&t=31&band_rank=1&Refer=top",
+      "score": 189862,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1786171940
+      "onboardTime": 1786194081
     },
     {
-      "title": "名创优品一次性内裤 颜面尽失",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%90%8D%E5%88%9B%E4%BC%98%E5%93%81%E4%B8%80%E6%AC%A1%E6%80%A7%E5%86%85%E8%A3%A4%20%E9%A2%9C%E9%9D%A2%E5%B0%BD%E5%A4%B1&t=31&band_rank=1&Refer=top",
-      "score": 280267,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1786170141
-    },
-    {
-      "title": "胃癌直博生曾向父亲借钱旅游被拒",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%83%83%E7%99%8C%E7%9B%B4%E5%8D%9A%E7%94%9F%E6%9B%BE%E5%90%91%E7%88%B6%E4%BA%B2%E5%80%9F%E9%92%B1%E6%97%85%E6%B8%B8%E8%A2%AB%E6%8B%92%23&t=31&band_rank=1&Refer=top",
-      "score": 280142,
+      "title": "西湖突下暴雨游客蹲断桥上躲避",
+      "description": "突发/灾害",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%A5%BF%E6%B9%96%E7%AA%81%E4%B8%8B%E6%9A%B4%E9%9B%A8%E6%B8%B8%E5%AE%A2%E8%B9%B2%E6%96%AD%E6%A1%A5%E4%B8%8A%E8%BA%B2%E9%81%BF%23&t=31&band_rank=1&Refer=top",
+      "score": 169461,
       "owner": "微博同城",
       "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1786164380
+      "category": "突发/灾害",
+      "onboardTime": 1786188499
     },
     {
-      "title": "确诊胃癌晚期博士父母发声",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%A1%AE%E8%AF%8A%E8%83%83%E7%99%8C%E6%99%9A%E6%9C%9F%E5%8D%9A%E5%A3%AB%E7%88%B6%E6%AF%8D%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
-      "score": 279910,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1786159761
-    },
-    {
-      "title": "23岁患癌博士盼完成学业报父母恩情",
+      "title": "国际猫咪日祝小猫咪节日快乐",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%2323%E5%B2%81%E6%82%A3%E7%99%8C%E5%8D%9A%E5%A3%AB%E7%9B%BC%E5%AE%8C%E6%88%90%E5%AD%A6%E4%B8%9A%E6%8A%A5%E7%88%B6%E6%AF%8D%E6%81%A9%E6%83%85%23&t=31&band_rank=1&Refer=top",
-      "score": 213034,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%9B%BD%E9%99%85%E7%8C%AB%E5%92%AA%E6%97%A5%E7%A5%9D%E5%B0%8F%E7%8C%AB%E5%92%AA%E8%8A%82%E6%97%A5%E5%BF%AB%E4%B9%90%23&t=31&band_rank=1&Refer=top",
+      "score": 168661,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1786172479
+      "onboardTime": 1786192820
     }
   ]
 }
