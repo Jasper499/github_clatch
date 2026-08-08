@@ -1,44 +1,44 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-08-07T15:32:56Z",
+  "changed": true,
+  "fetchedAt": "2026-08-08T03:56:49Z",
   "previousSha": "d767725c6e93b1d02a220e6be75b261a9833ede5",
-  "latestSha": "d767725c6e93b1d02a220e6be75b261a9833ede5",
+  "latestSha": "991bd993aca4e90891d1f9908ba82ef45d77b6f0",
   "repo": "K-Dense-AI/scientific-agent-skills",
   "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "stars": 0,
-  "skillCount": 158,
+  "skillCount": 160,
   "latestCommit": {
-    "title": "chore: update security scan report [skip ci]",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/d767725c6e93b1d02a220e6be75b261a9833ede5",
-    "sha": "d767725",
-    "published": "2026-08-03"
+    "title": "Update optimize-for-gpu skill documentation and assets",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/991bd993aca4e90891d1f9908ba82ef45d77b6f0",
+    "sha": "991bd99",
+    "published": "2026-08-07"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
     {
-      "title": "chore: update security scan report [skip ci]",
-      "sha": "d767725",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/d767725c6e93b1d02a220e6be75b261a9833ede5"
+      "title": "Update optimize-for-gpu skill documentation and assets",
+      "sha": "991bd99",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/991bd993aca4e90891d1f9908ba82ef45d77b6f0"
     },
     {
-      "title": "Update version to 2.62.0 in pyproject.toml and README.md, reflecting …",
-      "sha": "ad21a38",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/ad21a3868923628330734375dddbf7b86ea84222"
+      "title": "Merge pull request #221 from KalinNonchev/add-deepspot-m-skill",
+      "sha": "5c0d8b3",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/5c0d8b302921fc140ea9f8aee22e39dcb70615ab"
     },
     {
-      "title": "citation-management: correct documented commands, bump to 2.0",
-      "sha": "3378ece",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/3378ecea5702801512e18ad37d52fd069e8653b0"
+      "title": "deepspot-m: document the ~19k-gene panel limit, drop redundant eval c…",
+      "sha": "9477641",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/947764127b0c6bdf2345cd2e62e7621397134662"
     },
     {
-      "title": "citation-management: fix BibTeX corruption and metadata defects",
-      "sha": "d39264b",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/d39264b47c882508545baf8176950b54afe132ce"
+      "title": "Introduced a new skill for relsa-severity-assessment",
+      "sha": "f8c6f0e",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/f8c6f0ef7301b7dbfbf9d6860eb47148499b520a"
     },
     {
-      "title": "market-research-reports: fix ledger validator crash on publication_da…",
-      "sha": "95d3add",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/95d3adda6dd1179db117c6fb388c35abf527b391"
+      "title": "Add DeepSpot-M skill",
+      "sha": "de981da",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/de981da0ecc4f1baaab8a9f6340b6fb1d9473529"
     }
   ]
 }

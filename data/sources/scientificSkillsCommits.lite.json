@@ -1,12 +1,67 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-08-07T15:32:56Z",
+  "savedAt": "2026-08-08T03:56:49Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "d767725c6e93b1d02a220e6be75b261a9833ede5",
+  "latestSha": "991bd993aca4e90891d1f9908ba82ef45d77b6f0",
   "items": [
+    {
+      "title": "Update optimize-for-gpu skill documentation and assets",
+      "description": "Update optimize-for-gpu skill documentation and assets\n\n- Enhanced the skill description for clarity and accuracy regarding GPU acceleration.\n- Updated compatibility notes to reflect requirements for RAPIDS 26.06 and Python 3.11+.\n- Revised the library selection guidance to emphasize preferred usage patterns and legacy considerations.\n- Improved the optimization workflow section with detailed steps for defining contracts and checking suitability.\n- Added new code transformation patterns and clarified the use of cuSpatial and cuVS.\n- Updated the cuCIM reference to include installation instructions and performance characteristics.\n- Replaced the existing optimize-for-gpu.png image with a new version to better illustrate the skill&#39;s capabilities.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/991bd993aca4e90891d1f9908ba82ef45d77b6f0",
+      "sha": "991bd99",
+      "fullSha": "991bd993aca4e90891d1f9908ba82ef45d77b6f0",
+      "owner": "TKassis",
+      "published": "2026-08-07",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Merge pull request #221 from KalinNonchev/add-deepspot-m-skill",
+      "description": "Merge pull request #221 from KalinNonchev/add-deepspot-m-skill\n\nAdd DeepSpot-M skill",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/5c0d8b302921fc140ea9f8aee22e39dcb70615ab",
+      "sha": "5c0d8b3",
+      "fullSha": "5c0d8b302921fc140ea9f8aee22e39dcb70615ab",
+      "owner": "TKassis",
+      "published": "2026-08-07",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "deepspot-m: document the ~19k-gene panel limit, drop redundant eval c…",
+      "description": "deepspot-m: document the ~19k-gene panel limit, drop redundant eval calls, add diagram\n\n- State that predict_genes only accepts symbols in the released tokens.csv\n  panel (model.gene_names) and raises KeyError otherwise; temper the\n  transcriptome-coverage claims to match.\n- Use from_pretrained&#39;s device argument; the model already returns in eval\n  mode and predict_genes runs under no_grad, so drop the redundant\n  model.eval()/no_grad lines (also clears MDBLOCK_PYTHON_EVAL_EXEC scan FPs).\n- Rebuild the tile batch inside the multi-source loop, matching the advice\n  beneath the example.\n- Pin the install to deepspotm==1.0.0.\n- Add the required docs/images/deepspot-m.png workflow diagram.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/947764127b0c6bdf2345cd2e62e7621397134662",
+      "sha": "9477641",
+      "fullSha": "947764127b0c6bdf2345cd2e62e7621397134662",
+      "owner": "TKassis",
+      "published": "2026-08-07",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Introduced a new skill for relsa-severity-assessment",
+      "description": "Introduced a new skill for relsa-severity-assessment",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/f8c6f0ef7301b7dbfbf9d6860eb47148499b520a",
+      "sha": "f8c6f0e",
+      "fullSha": "f8c6f0ef7301b7dbfbf9d6860eb47148499b520a",
+      "owner": "TKassis",
+      "published": "2026-08-07",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Add DeepSpot-M skill",
+      "description": "Add DeepSpot-M skill\n\nAdds skills/deepspot-m for transcriptome-wide virtual spatial transcriptomics from H&amp;E histology tiles, plus references for the API and whole slide runs. Updates the README counts and docs/skills.md.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/de981da0ecc4f1baaab8a9f6340b6fb1d9473529",
+      "sha": "de981da",
+      "fullSha": "de981da0ecc4f1baaab8a9f6340b6fb1d9473529",
+      "owner": "KalinNonchev",
+      "published": "2026-08-04",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "chore: update security scan report [skip ci]",
       "description": "chore: update security scan report [skip ci]",
@@ -114,61 +169,6 @@
       "fullSha": "ab2f84ab10597c59fac186ecda6d5edd5dcc8b92",
       "owner": "TKassis",
       "published": "2026-07-29",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Update skill versions to 1.4 and 1.5 across multiple skills, includin…",
-      "description": "Update skill versions to 1.4 and 1.5 across multiple skills, including infographics, latex-posters, literature-review, scientific-schematics, and scientific-slides. Enhance API key resolution logic in various scripts to improve credential handling and error messaging. Adjust image model references for clarity in infographic and schematic generation scripts.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/f1b60f8ef45fd580fbda538421dc1bd1d81bdbca",
-      "sha": "f1b60f8",
-      "fullSha": "f1b60f8ef45fd580fbda538421dc1bd1d81bdbca",
-      "owner": "TKassis",
-      "published": "2026-07-29",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Add new example for Phase 2 regimen development in examples.md and en…",
-      "description": "Add new example for Phase 2 regimen development in examples.md and enhance pharmacology skills section in skills.md. The new example outlines a comprehensive workflow from first-in-human dose to a defensible Phase 2 regimen, detailing objectives, disciplines, skills used, and a structured prompt. Additionally, the skills section now includes a dedicated entry for PK/PD modeling, emphasizing its applications in pharmacometrics.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/07021b927e6d8dfafe0013503a35d0f6a0b9ad8b",
-      "sha": "07021b9",
-      "fullSha": "07021b927e6d8dfafe0013503a35d0f6a0b9ad8b",
-      "owner": "TKassis",
-      "published": "2026-07-28",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "chore: update security scan report [skip ci]",
-      "description": "chore: update security scan report [skip ci]",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/f9d7053cb11c560f94cb08dfa64d15b292f5ca1c",
-      "sha": "f9d7053",
-      "fullSha": "f9d7053cb11c560f94cb08dfa64d15b292f5ca1c",
-      "owner": "github-actions",
-      "published": "2026-07-28",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Update skill versions and enhance security measures across multiple s…",
-      "description": "Update skill versions and enhance security measures across multiple skills. Added a triage report to SECURITY.md, improved endpoint validation in autoskill, and updated various skills to version 1.1 or 1.2. Enhanced documentation for imaging-data-commons and other skills to clarify installation and usage instructions.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/0e451065e3308e9902d8229e17d2028359b2bbaf",
-      "sha": "0e45106",
-      "fullSha": "0e451065e3308e9902d8229e17d2028359b2bbaf",
-      "owner": "TKassis",
-      "published": "2026-07-28",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Update version to 2.60.0 and increment skill count to 158 in README.md",
-      "description": "Update version to 2.60.0 and increment skill count to 158 in README.md",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/223f5a30f8928bb76b2e93db282ebe0d6ff5b2ea",
-      "sha": "223f5a3",
-      "fullSha": "223f5a30f8928bb76b2e93db282ebe0d6ff5b2ea",
-      "owner": "TKassis",
-      "published": "2026-07-28",
       "label": "commit",
       "repo": "K-Dense-AI/scientific-agent-skills"
     }
