@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-08-08T03:36:31Z",
+  "savedAt": "2026-08-08T14:35:16Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-08-08，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,15 +10,15 @@
       "title": "Don't be a meat proxy",
       "description": "",
       "url": "https://gruhn.me/blog/2026-08-03/",
-      "score": 1831,
-      "comments": 738,
+      "score": 1834,
+      "comments": 740,
       "owner": "ngruhn"
     },
     {
       "title": "In Memory of My Wife, Elise Cawley, with Thanks for 36 Wonderful Years",
       "description": "",
       "url": "https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years/",
-      "score": 1635,
+      "score": 1636,
       "comments": 95,
       "owner": "jdcampolargo"
     },
@@ -26,15 +26,15 @@
       "title": "LLMs reward expertise",
       "description": "",
       "url": "https://www.seangoedecke.com/llms-reward-expertise/",
-      "score": 1404,
-      "comments": 568,
+      "score": 1407,
+      "comments": 569,
       "owner": "MaxMussio"
     },
     {
       "title": "Mario Meets Pareto",
       "description": "",
       "url": "https://www.mayerowitz.io/blog/mario-meets-pareto",
-      "score": 1143,
+      "score": 1162,
       "comments": 165,
       "owner": "theanonymousone"
     },
@@ -50,33 +50,41 @@
       "title": "Discovery Loop",
       "description": "",
       "url": "https://www.discoveryloop.com/",
-      "score": 938,
-      "comments": 591,
+      "score": 944,
+      "comments": 592,
       "owner": "xtreak29"
     },
     {
       "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
       "description": "<a href=\"https:&#x2F;&#x2F;ir.amd.com&#x2F;news-events&#x2F;press-releases&#x2F;detail&#x2F;1296&#x2F;amd-acquires-taalas-to-advance-compute-solutions-for-rapidly-growing-ai-inference-market\" rel=\"nofollow\">https:&#x2F;&#x2F;ir.amd.com&#x2F;news-events&#x2F;press-releases&#x2F;detail&#x2F;1296&#x2F;am...</a><p><a href=\"https:&#x2F;&#x2F;chatjimmy.ai&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;chatjimmy.ai&#x2F;</a>",
       "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
-      "score": 895,
-      "comments": 669,
+      "score": 912,
+      "comments": 687,
       "owner": "itvision"
     },
     {
       "title": "US strikes $1.2B deal to pay German firm to halt offshore wind projects",
       "description": "",
       "url": "https://www.bbc.com/news/articles/c1e1vg0gjl5o",
-      "score": 859,
-      "comments": 823,
+      "score": 884,
+      "comments": 851,
       "owner": "defrost"
     },
     {
       "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
       "description": "<a href=\"https:&#x2F;&#x2F;www.axios.com&#x2F;2026&#x2F;08&#x2F;05&#x2F;google-deepmind-demis-hassabis-ai\" rel=\"nofollow\">https:&#x2F;&#x2F;www.axios.com&#x2F;2026&#x2F;08&#x2F;05&#x2F;google-deepmind-demis-hassa...</a><p><a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;google-shakes-up-ai-leadership-deepmind-chief-shifts-role-2026-08-05&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;google-shakes-up-ai-leaders...</a><p><a href=\"https:&#x2F;&#x2F;www.discoveryloop.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.discoveryloop.com&#x2F;</a>, <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49184960\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49184960</a><p><a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;JeffDean&#x2F;status&#x2F;2085034604172603724\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;JeffDean&#x2F;status&#x2F;2085034604172603724</a>, <a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;JeffDean&#x2F;status&#x2F;2085034604172603724\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;JeffDean&#x2F;status&#x2F;2085034604172603724</a>",
       "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
-      "score": 849,
-      "comments": 922,
+      "score": 852,
+      "comments": 925,
       "owner": "colesantiago"
+    },
+    {
+      "title": "What happens if an entire class of workers loses faith in their careers",
+      "description": "",
+      "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
+      "score": 814,
+      "comments": 902,
+      "owner": "RickJWagner"
     },
     {
       "title": "AI-Generated Images Discourage Me from Reading Your Blog",
@@ -90,8 +98,8 @@
       "title": "New Mexico court orders Meta to pay $567m over harms to children’s mental health",
       "description": "<a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;world&#x2F;new-mexico-court-orders-meta-pay-567-mln-teen-mental-health-fund-2026-08-06&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;world&#x2F;new-mexico-court-orders-meta-p...</a><p><a href=\"https:&#x2F;&#x2F;www.theguardian.com&#x2F;technology&#x2F;2026&#x2F;aug&#x2F;06&#x2F;new-mexico-court-meta\" rel=\"nofollow\">https:&#x2F;&#x2F;www.theguardian.com&#x2F;technology&#x2F;2026&#x2F;aug&#x2F;06&#x2F;new-mexic...</a><p><a href=\"https:&#x2F;&#x2F;www.kob.com&#x2F;new-mexico&#x2F;nm-court-orders-meta-to-pay-567m-make-changes-for-underage-users&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.kob.com&#x2F;new-mexico&#x2F;nm-court-orders-meta-to-pay-5...</a><p><a href=\"https:&#x2F;&#x2F;www.bbc.com&#x2F;news&#x2F;articles&#x2F;cd7lz3wr2rlo\" rel=\"nofollow\">https:&#x2F;&#x2F;www.bbc.com&#x2F;news&#x2F;articles&#x2F;cd7lz3wr2rlo</a><p><a href=\"https:&#x2F;&#x2F;www.wsj.com&#x2F;tech&#x2F;meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media-8ba5aab7\" rel=\"nofollow\">https:&#x2F;&#x2F;www.wsj.com&#x2F;tech&#x2F;meta-ordered-to-pay-942-million-to-...</a>",
       "url": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta",
-      "score": 738,
-      "comments": 396,
+      "score": 778,
+      "comments": 413,
       "owner": "boplicity"
     },
     {
@@ -114,57 +122,49 @@
       "title": "Xbox goes down. You can't play games you own on disc",
       "description": "",
       "url": "https://birchtree.me/blog/xbox-goes-down-you-cant-play-games-you-own-on-disc/",
-      "score": 710,
+      "score": 711,
       "comments": 766,
       "owner": "surprisetalk"
+    },
+    {
+      "title": "DeepSeek V4 Flash 0731",
+      "description": "",
+      "url": "https://arcprize.org/results/deepseek-v4-flash-0731",
+      "score": 695,
+      "comments": 419,
+      "owner": "tosh"
     },
     {
       "title": "Crime Pays but Botany Doesn't",
       "description": "",
       "url": "https://www.crimepaysbutbotanydoesnt.com/reading-list",
-      "score": 687,
+      "score": 689,
       "comments": 214,
       "owner": "DarkContinent"
-    },
-    {
-      "title": "Cloudflare OS: an open platform for agents, apps, and work",
-      "description": "",
-      "url": "https://blog.cloudflare.com/cloudflare-os/",
-      "score": 658,
-      "comments": 331,
-      "owner": "speckx"
     },
     {
       "title": "Taste Is All That's Left",
       "description": "",
       "url": "https://notashelf.dev/posts/taste-is-all-thats-left",
-      "score": 655,
-      "comments": 518,
+      "score": 673,
+      "comments": 527,
       "owner": "tsak"
+    },
+    {
+      "title": "Cloudflare OS: an open platform for agents, apps, and work",
+      "description": "",
+      "url": "https://blog.cloudflare.com/cloudflare-os/",
+      "score": 659,
+      "comments": 331,
+      "owner": "speckx"
     },
     {
       "title": "More German than many Germans",
       "description": "",
       "url": "https://mertbulan.com/more-german-than-many-germans/",
       "score": 645,
-      "comments": 491,
+      "comments": 497,
       "owner": "mertbio"
-    },
-    {
-      "title": "How Google helped destroy adoption of RSS feeds (2023)",
-      "description": "",
-      "url": "https://openrss.org/blog/how-google-helped-destroy-adoption-of-rss-feeds",
-      "score": 641,
-      "comments": 249,
-      "owner": "pudgywalsh"
-    },
-    {
-      "title": "Ten advances in mathematics and theoretical computer science",
-      "description": "",
-      "url": "https://openai.com/index/ten-advances-in-mathematics/",
-      "score": 625,
-      "comments": 935,
-      "owner": "milkshakes"
     }
   ]
 }
