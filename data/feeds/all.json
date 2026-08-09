@@ -6,148 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E4%B8%8A%E6%B5%B7%E5%8F%B0%E9%A3%8E&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E4%B8%8A%E6%B5%B7%E5%8F%B0%E9%A3%8E&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 上海台风",
-      "date_published": "2026-08-09T02:24:09Z"
+      "id": "hackernews:https://gruhn.me/blog/2026-08-03/",
+      "url": "https://gruhn.me/blog/2026-08-03/",
+      "title": "[Hacker News 热门] Don't be a meat proxy",
+      "date_published": "2026-08-09T03:46:36Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E7%BD%91%E7%BA%A2%E9%9B%85%E5%85%B8%E5%A8%9C%20%E6%81%B6%E6%AF%92%E9%97%BA%E8%9C%9C&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E7%BD%91%E7%BA%A2%E9%9B%85%E5%85%B8%E5%A8%9C%20%E6%81%B6%E6%AF%92%E9%97%BA%E8%9C%9C&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 网红雅典娜 恶毒闺蜜",
-      "date_published": "2026-08-09T02:24:09Z"
+      "id": "hackernews:https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years/",
+      "url": "https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years/",
+      "title": "[Hacker News 热门] In Memory of My Wife, Elise Cawley, with Thanks for 36 Wonderful Years",
+      "date_published": "2026-08-09T03:46:36Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E6%88%91%E5%9B%BD%E6%97%A5%E5%9D%87%E8%AF%8D%E5%85%83%E8%B0%83%E7%94%A8%E9%87%8F%E8%B6%85%E5%8D%83%E5%80%8D%E5%A2%9E%E9%95%BF%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%88%91%E5%9B%BD%E6%97%A5%E5%9D%87%E8%AF%8D%E5%85%83%E8%B0%83%E7%94%A8%E9%87%8F%E8%B6%85%E5%8D%83%E5%80%8D%E5%A2%9E%E9%95%BF%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 我国日均词元调用量超千倍增长",
-      "date_published": "2026-08-09T02:24:09Z"
+      "id": "hackernews:https://www.seangoedecke.com/llms-reward-expertise/",
+      "url": "https://www.seangoedecke.com/llms-reward-expertise/",
+      "title": "[Hacker News 热门] LLMs reward expertise",
+      "date_published": "2026-08-09T03:46:36Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E4%B8%8A%E5%8D%8A%E5%B9%B4%E5%9B%BD%E5%86%85%E6%89%8B%E6%9C%BA%E9%94%80%E9%87%8FTOP30%E5%87%BA%E7%82%89%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%8A%E5%8D%8A%E5%B9%B4%E5%9B%BD%E5%86%85%E6%89%8B%E6%9C%BA%E9%94%80%E9%87%8FTOP30%E5%87%BA%E7%82%89%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 上半年国内手机销量TOP30出炉",
-      "date_published": "2026-08-09T02:24:09Z"
+      "id": "hackernews:https://www.mayerowitz.io/blog/mario-meets-pareto",
+      "url": "https://www.mayerowitz.io/blog/mario-meets-pareto",
+      "title": "[Hacker News 热门] Mario Meets Pareto",
+      "date_published": "2026-08-09T03:46:36Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E6%88%90%E6%AF%85%20%E6%BC%94%E5%94%B1%E4%BC%9A&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E6%88%90%E6%AF%85%20%E6%BC%94%E5%94%B1%E4%BC%9A&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 成毅 演唱会",
-      "date_published": "2026-08-09T02:24:09Z"
+      "id": "hackernews:https://qwen.ai/blog?id=qwen3.8",
+      "url": "https://qwen.ai/blog?id=qwen3.8",
+      "title": "[Hacker News 热门] Qwen3.8-Max: A New Bar for Coding and Cowork",
+      "date_published": "2026-08-09T03:46:36Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E9%BD%90%E8%B1%AB%E7%8B%AC%E5%94%B1%E6%97%B6%E5%8A%A0%E7%9A%84%E5%B0%8F%E7%94%B7%E5%AD%A9%E5%AE%B6%E9%95%BF%E6%80%81%E5%BA%A6&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E9%BD%90%E8%B1%AB%E7%8B%AC%E5%94%B1%E6%97%B6%E5%8A%A0%E7%9A%84%E5%B0%8F%E7%94%B7%E5%AD%A9%E5%AE%B6%E9%95%BF%E6%80%81%E5%BA%A6&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 齐豫独唱时加的小男孩家长态度",
-      "date_published": "2026-08-09T02:24:09Z"
+      "id": "hackernews:https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
+      "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
+      "title": "[Hacker News 热门] What happens if an entire class of workers loses faith in their careers",
+      "date_published": "2026-08-09T03:46:36Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E6%9D%AD%E5%B7%9E%E5%9C%B0%E9%93%81&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E6%9D%AD%E5%B7%9E%E5%9C%B0%E9%93%81&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 杭州地铁",
-      "date_published": "2026-08-09T02:24:09Z"
+      "id": "hackernews:https://www.discoveryloop.com/",
+      "url": "https://www.discoveryloop.com/",
+      "title": "[Hacker News 热门] Discovery Loop",
+      "date_published": "2026-08-09T03:46:36Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E4%BF%9D%E6%8A%A4%E8%84%8A%E6%9F%B1%E8%85%B0%E6%A4%8E%20%E5%B9%BB%E6%83%B3%E8%87%AA%E5%B7%B1%E6%9C%89%E4%B8%80%E6%9D%A1%E5%B0%BE%E5%B7%B4&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E4%BF%9D%E6%8A%A4%E8%84%8A%E6%9F%B1%E8%85%B0%E6%A4%8E%20%E5%B9%BB%E6%83%B3%E8%87%AA%E5%B7%B1%E6%9C%89%E4%B8%80%E6%9D%A1%E5%B0%BE%E5%B7%B4&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 保护脊柱腰椎 幻想自己有一条尾巴",
-      "date_published": "2026-08-09T02:24:09Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E8%A3%B4%E7%8F%A0%E6%B3%AB%E5%AF%B9%E7%B2%89%E4%B8%9D%E8%AF%B4%E4%BD%A0%E8%A1%8C%E4%BD%A0%E4%B8%8A&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E8%A3%B4%E7%8F%A0%E6%B3%AB%E5%AF%B9%E7%B2%89%E4%B8%9D%E8%AF%B4%E4%BD%A0%E8%A1%8C%E4%BD%A0%E4%B8%8A&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 裴珠泫对粉丝说你行你上",
-      "date_published": "2026-08-09T02:24:09Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E4%B8%8A%E6%B5%B7%E5%9C%B0%E9%93%818%E6%9C%889%E6%97%A5%E5%AE%9E%E6%96%BD%E8%BF%90%E8%90%A5%E8%B0%83%E6%95%B4%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%8A%E6%B5%B7%E5%9C%B0%E9%93%818%E6%9C%889%E6%97%A5%E5%AE%9E%E6%96%BD%E8%BF%90%E8%90%A5%E8%B0%83%E6%95%B4%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 上海地铁8月9日实施运营调整",
-      "date_published": "2026-08-09T02:24:09Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E9%95%BF%E5%B4%8E%E5%B0%86%E6%8A%8A%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%B1%A0%E6%9D%80%E6%94%B9%E4%B8%BA%E5%8D%97%E4%BA%AC%E4%BA%8B%E4%BB%B6%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%95%BF%E5%B4%8E%E5%B0%86%E6%8A%8A%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%B1%A0%E6%9D%80%E6%94%B9%E4%B8%BA%E5%8D%97%E4%BA%AC%E4%BA%8B%E4%BB%B6%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 长崎将把南京大屠杀改为南京事件",
-      "date_published": "2026-08-09T02:24:09Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%8F%B0%E9%A3%8E%E5%A4%A9%E9%92%B1%E5%A1%98%E6%B1%9F%E7%8E%B0%E5%A4%A7%E5%9C%B0%E6%B5%81%E6%B2%99%E7%94%BB%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8F%B0%E9%A3%8E%E5%A4%A9%E9%92%B1%E5%A1%98%E6%B1%9F%E7%8E%B0%E5%A4%A7%E5%9C%B0%E6%B5%81%E6%B2%99%E7%94%BB%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 台风天钱塘江现大地流沙画",
-      "date_published": "2026-08-09T02:24:09Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%8E%9F%E5%AD%90%E5%BC%B9%E7%88%86%E7%82%B8%E5%90%8E%E6%97%A5%E6%9C%AC%E7%A6%81%E7%94%A8%E5%8E%9F%E5%AD%90%E5%BC%B9%E4%B8%80%E8%AF%8D%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8E%9F%E5%AD%90%E5%BC%B9%E7%88%86%E7%82%B8%E5%90%8E%E6%97%A5%E6%9C%AC%E7%A6%81%E7%94%A8%E5%8E%9F%E5%AD%90%E5%BC%B9%E4%B8%80%E8%AF%8D%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 原子弹爆炸后日本禁用原子弹一词",
-      "date_published": "2026-08-09T02:24:09Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E5%9B%A0%E5%89%8D%E5%A4%AB%E8%83%8C6000%E4%B8%87%E5%80%BA%E5%8A%A1%E8%AF%B4%E4%BB%96%E5%A4%AA%E7%8B%A0%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E5%9B%A0%E5%89%8D%E5%A4%AB%E8%83%8C6000%E4%B8%87%E5%80%BA%E5%8A%A1%E8%AF%B4%E4%BB%96%E5%A4%AA%E7%8B%A0%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 女子因前夫背6000万债务说他太狠了",
-      "date_published": "2026-08-09T02:24:09Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E6%88%91%E5%9B%BD%E6%97%A5%E5%9D%87%E8%AF%8D%E5%85%83%E8%B0%83%E7%94%A8%E9%87%8F%E8%B6%85%E5%8D%83%E5%80%8D%E5%A2%9E%E9%95%BF%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%88%91%E5%9B%BD%E6%97%A5%E5%9D%87%E8%AF%8D%E5%85%83%E8%B0%83%E7%94%A8%E9%87%8F%E8%B6%85%E5%8D%83%E5%80%8D%E5%A2%9E%E9%95%BF%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 我国日均词元调用量超千倍增长",
-      "date_published": "2026-08-09T02:24:09Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E8%BF%88%E9%98%BF%E5%AF%86%E5%9B%BD%E9%99%85%E7%90%83%E5%91%98%E8%BF%9B%E7%90%83%E5%90%8E%E6%82%BC%E5%BF%B5%E8%B1%AA%E5%B0%94%E8%B5%AB&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E8%BF%88%E9%98%BF%E5%AF%86%E5%9B%BD%E9%99%85%E7%90%83%E5%91%98%E8%BF%9B%E7%90%83%E5%90%8E%E6%82%BC%E5%BF%B5%E8%B1%AA%E5%B0%94%E8%B5%AB&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 迈阿密国际球员进球后悼念豪尔赫",
-      "date_published": "2026-08-09T02:24:09Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E4%B8%8A%E6%B5%B7%E5%8F%B0%E9%A3%8E&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E4%B8%8A%E6%B5%B7%E5%8F%B0%E9%A3%8E&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 上海台风",
-      "date_published": "2026-08-09T02:24:09Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E7%BD%91%E7%BA%A2%E9%9B%85%E5%85%B8%E5%A8%9C%20%E6%81%B6%E6%AF%92%E9%97%BA%E8%9C%9C&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E7%BD%91%E7%BA%A2%E9%9B%85%E5%85%B8%E5%A8%9C%20%E6%81%B6%E6%AF%92%E9%97%BA%E8%9C%9C&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 网红雅典娜 恶毒闺蜜",
-      "date_published": "2026-08-09T02:24:09Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E6%9D%AD%E5%B7%9E%E5%9C%B0%E9%93%81&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E6%9D%AD%E5%B7%9E%E5%9C%B0%E9%93%81&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 杭州地铁",
-      "date_published": "2026-08-09T02:24:09Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E%E7%99%BD%E6%B5%B7%E8%B1%9A&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E%E7%99%BD%E6%B5%B7%E8%B1%9A&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 台风白海豚",
-      "date_published": "2026-08-09T02:24:09Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E7%99%BD%E6%B5%B7%E8%B1%9A10%E7%BA%A7%E9%A3%8E%E5%9C%88%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E6%B5%B7%E8%B1%9A10%E7%BA%A7%E9%A3%8E%E5%9C%88%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 白海豚10级风圈",
-      "date_published": "2026-08-09T02:24:09Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%8F%B0%E9%A3%8E%E5%A4%A9%E9%92%B1%E5%A1%98%E6%B1%9F%E7%8E%B0%E5%A4%A7%E5%9C%B0%E6%B5%81%E6%B2%99%E7%94%BB%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8F%B0%E9%A3%8E%E5%A4%A9%E9%92%B1%E5%A1%98%E6%B1%9F%E7%8E%B0%E5%A4%A7%E5%9C%B0%E6%B5%81%E6%B2%99%E7%94%BB%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 台风天钱塘江现大地流沙画",
-      "date_published": "2026-08-09T02:24:09Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E4%B8%8A%E6%B5%B7%E5%9C%B0%E9%93%818%E6%9C%889%E6%97%A5%E5%AE%9E%E6%96%BD%E8%BF%90%E8%90%A5%E8%B0%83%E6%95%B4%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%8A%E6%B5%B7%E5%9C%B0%E9%93%818%E6%9C%889%E6%97%A5%E5%AE%9E%E6%96%BD%E8%BF%90%E8%90%A5%E8%B0%83%E6%95%B4%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 上海地铁8月9日实施运营调整",
-      "date_published": "2026-08-09T02:24:09Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E9%95%BF%E6%9C%9F%E7%A9%BF%E7%A2%B3%E6%9D%BF%E9%9E%8B%E7%9A%84%E5%8F%97%E5%AE%B3%E8%80%85%E5%87%BA%E7%8E%B0%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%95%BF%E6%9C%9F%E7%A9%BF%E7%A2%B3%E6%9D%BF%E9%9E%8B%E7%9A%84%E5%8F%97%E5%AE%B3%E8%80%85%E5%87%BA%E7%8E%B0%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 长期穿碳板鞋的受害者出现了",
-      "date_published": "2026-08-09T02:24:09Z"
+      "id": "hackernews:https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+      "title": "[Hacker News 热门] AMD acquires Taalas to boost inference performance by etching models in silicon",
+      "date_published": "2026-08-09T03:46:36Z"
     }
   ]
 }
