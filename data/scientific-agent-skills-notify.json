@@ -1,20 +1,30 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-08-08T15:02:19Z",
+  "changed": true,
+  "fetchedAt": "2026-08-09T04:03:49Z",
   "previousSha": "991bd993aca4e90891d1f9908ba82ef45d77b6f0",
-  "latestSha": "991bd993aca4e90891d1f9908ba82ef45d77b6f0",
+  "latestSha": "9b1d761c67c310e6538f1d5d88759b2bcfc65ce2",
   "repo": "K-Dense-AI/scientific-agent-skills",
   "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "stars": 0,
-  "skillCount": 160,
+  "skillCount": 161,
   "latestCommit": {
-    "title": "Update optimize-for-gpu skill documentation and assets",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/991bd993aca4e90891d1f9908ba82ef45d77b6f0",
-    "sha": "991bd99",
-    "published": "2026-08-07"
+    "title": "Merge pull request #224 from neuroepithelial/codex/add-ncats-arax-skill",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/9b1d761c67c310e6538f1d5d88759b2bcfc65ce2",
+    "sha": "9b1d761",
+    "published": "2026-08-08"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "Merge pull request #224 from neuroepithelial/codex/add-ncats-arax-skill",
+      "sha": "9b1d761",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/9b1d761c67c310e6538f1d5d88759b2bcfc65ce2"
+    },
+    {
+      "title": "Add bounded NCATS ARAX knowledge graph skill",
+      "sha": "550b965",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/550b965a693b2f6b907a6a92b8d5c9315fc3a111"
+    },
     {
       "title": "Update optimize-for-gpu skill documentation and assets",
       "sha": "991bd99",
@@ -29,16 +39,6 @@
       "title": "deepspot-m: document the ~19k-gene panel limit, drop redundant eval c…",
       "sha": "9477641",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/947764127b0c6bdf2345cd2e62e7621397134662"
-    },
-    {
-      "title": "Introduced a new skill for relsa-severity-assessment",
-      "sha": "f8c6f0e",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/f8c6f0ef7301b7dbfbf9d6860eb47148499b520a"
-    },
-    {
-      "title": "Add DeepSpot-M skill",
-      "sha": "de981da",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/de981da0ecc4f1baaab8a9f6340b6fb1d9473529"
     }
   ]
 }

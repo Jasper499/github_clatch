@@ -1,12 +1,34 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-08-08T15:02:19Z",
+  "savedAt": "2026-08-09T04:03:49Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "991bd993aca4e90891d1f9908ba82ef45d77b6f0",
+  "latestSha": "9b1d761c67c310e6538f1d5d88759b2bcfc65ce2",
   "items": [
+    {
+      "title": "Merge pull request #224 from neuroepithelial/codex/add-ncats-arax-skill",
+      "description": "Merge pull request #224 from neuroepithelial/codex/add-ncats-arax-skill\n\nAdd bounded NCATS ARAX knowledge graph skill",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/9b1d761c67c310e6538f1d5d88759b2bcfc65ce2",
+      "sha": "9b1d761",
+      "fullSha": "9b1d761c67c310e6538f1d5d88759b2bcfc65ce2",
+      "owner": "TKassis",
+      "published": "2026-08-08",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Add bounded NCATS ARAX knowledge graph skill",
+      "description": "Add bounded NCATS ARAX knowledge graph skill\n\nAdd a standard-library ARAX client for typed one-hop and endpoint-pinned two-hop Translator queries, selected-provider federation, entity normalization, and provenance-preserving artifacts. Include offline fixtures and tests, isolated test metadata, and README discovery.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/550b965a693b2f6b907a6a92b8d5c9315fc3a111",
+      "sha": "550b965",
+      "fullSha": "550b965a693b2f6b907a6a92b8d5c9315fc3a111",
+      "owner": "neuroepithelial",
+      "published": "2026-08-08",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "Update optimize-for-gpu skill documentation and assets",
       "description": "Update optimize-for-gpu skill documentation and assets\n\n- Enhanced the skill description for clarity and accuracy regarding GPU acceleration.\n- Updated compatibility notes to reflect requirements for RAPIDS 26.06 and Python 3.11+.\n- Revised the library selection guidance to emphasize preferred usage patterns and legacy considerations.\n- Improved the optimization workflow section with detailed steps for defining contracts and checking suitability.\n- Added new code transformation patterns and clarified the use of cuSpatial and cuVS.\n- Updated the cuCIM reference to include installation instructions and performance characteristics.\n- Replaced the existing optimize-for-gpu.png image with a new version to better illustrate the skill&#39;s capabilities.",
@@ -147,28 +169,6 @@
       "fullSha": "bd99c01e3fa95bc4e7eef79f8aa74e0c8a27c82e",
       "owner": "TKassis",
       "published": "2026-07-31",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "chore: update security scan report [skip ci]",
-      "description": "chore: update security scan report [skip ci]",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/4d5f1d20be7d821a79185914222f9797d6435faf",
-      "sha": "4d5f1d2",
-      "fullSha": "4d5f1d20be7d821a79185914222f9797d6435faf",
-      "owner": "github-actions",
-      "published": "2026-07-31",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Update version to 2.61.0 in pyproject.toml and README.md, reflecting …",
-      "description": "Update version to 2.61.0 in pyproject.toml and README.md, reflecting the latest release.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/ab2f84ab10597c59fac186ecda6d5edd5dcc8b92",
-      "sha": "ab2f84a",
-      "fullSha": "ab2f84ab10597c59fac186ecda6d5edd5dcc8b92",
-      "owner": "TKassis",
-      "published": "2026-07-29",
       "label": "commit",
       "repo": "K-Dense-AI/scientific-agent-skills"
     }
