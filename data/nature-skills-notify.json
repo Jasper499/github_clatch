@@ -1,20 +1,25 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-08-09T14:56:31Z",
+  "changed": true,
+  "fetchedAt": "2026-08-10T04:10:30Z",
   "previousSha": "adb7b8a5a7d72ed6fe9f71e085785e9972dd8db2",
-  "latestSha": "adb7b8a5a7d72ed6fe9f71e085785e9972dd8db2",
+  "latestSha": "a816314de0bb985e7034886e01596059522255b9",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "更新完善了nature-reader的相关功能 (#192)",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/adb7b8a5a7d72ed6fe9f71e085785e9972dd8db2",
-    "sha": "adb7b8a",
-    "published": "2026-08-08"
+    "title": "chore: update star history",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/a816314de0bb985e7034886e01596059522255b9",
+    "sha": "a816314",
+    "published": "2026-08-10"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "chore: update star history",
+      "sha": "a816314",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/a816314de0bb985e7034886e01596059522255b9"
+    },
     {
       "title": "更新完善了nature-reader的相关功能 (#192)",
       "sha": "adb7b8a",
@@ -34,11 +39,6 @@
       "title": "feat: add current star count KPI (#188)",
       "sha": "092c7d6",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/092c7d6b445cdde6f43f1f6e425a92a4ddfc7945"
-    },
-    {
-      "title": "chore: update star history (#187)",
-      "sha": "db6a388",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/db6a3888a40c09b222b34aaeecfe5ed7fa620e15"
     }
   ]
 }
