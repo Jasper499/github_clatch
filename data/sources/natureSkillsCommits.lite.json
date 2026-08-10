@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-08-10T04:10:30Z",
+  "savedAt": "2026-08-10T15:27:15Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "a816314de0bb985e7034886e01596059522255b9",
+  "latestSha": "1ea82ffff20f40077bf84b74182f55eeaf3d111d",
   "items": [
+    {
+      "title": "Update README.md",
+      "description": "Update README.md",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/1ea82ffff20f40077bf84b74182f55eeaf3d111d",
+      "sha": "1ea82ff",
+      "fullSha": "1ea82ffff20f40077bf84b74182f55eeaf3d111d",
+      "owner": "Flyme886",
+      "published": "2026-08-10",
+      "label": "commit"
+    },
     {
       "title": "chore: update star history",
       "description": "chore: update star history",
@@ -145,16 +155,6 @@
       "fullSha": "b69005590fc4be3f9cf562c033967ecfc51f1ad7",
       "owner": "Yuan1z0825",
       "published": "2026-08-05",
-      "label": "commit"
-    },
-    {
-      "title": "chore: update star history",
-      "description": "chore: update star history",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/b79c022946b7bf59a30655bee726444dccf199a9",
-      "sha": "b79c022",
-      "fullSha": "b79c022946b7bf59a30655bee726444dccf199a9",
-      "owner": "github-actions",
-      "published": "2026-08-04",
       "label": "commit"
     }
   ]

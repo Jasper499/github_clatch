@@ -1,20 +1,25 @@
 {
   "changed": true,
-  "fetchedAt": "2026-08-10T04:10:30Z",
-  "previousSha": "adb7b8a5a7d72ed6fe9f71e085785e9972dd8db2",
-  "latestSha": "a816314de0bb985e7034886e01596059522255b9",
+  "fetchedAt": "2026-08-10T15:27:15Z",
+  "previousSha": "a816314de0bb985e7034886e01596059522255b9",
+  "latestSha": "1ea82ffff20f40077bf84b74182f55eeaf3d111d",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "chore: update star history",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/a816314de0bb985e7034886e01596059522255b9",
-    "sha": "a816314",
+    "title": "Update README.md",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/1ea82ffff20f40077bf84b74182f55eeaf3d111d",
+    "sha": "1ea82ff",
     "published": "2026-08-10"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "Update README.md",
+      "sha": "1ea82ff",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/1ea82ffff20f40077bf84b74182f55eeaf3d111d"
+    },
     {
       "title": "chore: update star history",
       "sha": "a816314",
@@ -34,11 +39,6 @@
       "title": "fix: bust star history image cache (#189)",
       "sha": "1ffb43b",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/1ffb43b0f63583f004097432e213437167197dd8"
-    },
-    {
-      "title": "feat: add current star count KPI (#188)",
-      "sha": "092c7d6",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/092c7d6b445cdde6f43f1f6e425a92a4ddfc7945"
     }
   ]
 }
