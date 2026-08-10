@@ -1,110 +1,100 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-08-10T02:28:46Z",
+  "savedAt": "2026-08-10T07:59:22Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-10，共 10 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-10，共 9 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-08-10",
   "items": [
     {
-      "title": "白海豚 上班",
-      "description": "爆 · 突发/灾害",
-      "url": "https://s.weibo.com/weibo?q=%E7%99%BD%E6%B5%B7%E8%B1%9A%20%E4%B8%8A%E7%8F%AD&t=31&band_rank=1&Refer=top",
-      "score": 10967988,
+      "title": "费大厨撤下全国小炒肉大王称号",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%B4%B9%E5%A4%A7%E5%8E%A8%E6%92%A4%E4%B8%8B%E5%85%A8%E5%9B%BD%E5%B0%8F%E7%82%92%E8%82%89%E5%A4%A7%E7%8E%8B%E7%A7%B0%E5%8F%B7%23&t=31&band_rank=1&Refer=top",
+      "score": 1274438,
       "owner": "微博同城",
-      "label": "爆",
-      "category": "突发/灾害",
-      "onboardTime": 1786321220
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1786340061
     },
     {
-      "title": "武汉通报天桥打人事件",
+      "title": "无锡 内涝",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%AD%A6%E6%B1%89%E9%80%9A%E6%8A%A5%E5%A4%A9%E6%A1%A5%E6%89%93%E4%BA%BA%E4%BA%8B%E4%BB%B6%23&t=31&band_rank=1&Refer=top",
-      "score": 1980186,
+      "url": "https://s.weibo.com/weibo?q=%E6%97%A0%E9%94%A1%20%E5%86%85%E6%B6%9D&t=31&band_rank=1&Refer=top",
+      "score": 778806,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1786328060
+      "onboardTime": 1786344201
+    },
+    {
+      "title": "白海豚 北京",
+      "description": "突发/灾害",
+      "url": "https://s.weibo.com/weibo?q=%E7%99%BD%E6%B5%B7%E8%B1%9A%20%E5%8C%97%E4%BA%AC&t=31&band_rank=1&Refer=top",
+      "score": 375483,
+      "owner": "微博同城",
+      "label": "",
+      "category": "突发/灾害",
+      "onboardTime": 1786342223
+    },
+    {
+      "title": "白海豚突然大拐弯",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E6%B5%B7%E8%B1%9A%E7%AA%81%E7%84%B6%E5%A4%A7%E6%8B%90%E5%BC%AF%23&t=31&band_rank=1&Refer=top",
+      "score": 362621,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1786348160
+    },
+    {
+      "title": "台风致上海严重内涝",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E%E8%87%B4%E4%B8%8A%E6%B5%B7%E4%B8%A5%E9%87%8D%E5%86%85%E6%B6%9D&t=31&band_rank=1&Refer=top",
+      "score": 360919,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1786347741
     },
     {
       "title": "白海豚",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%E7%99%BD%E6%B5%B7%E8%B1%9A&t=31&band_rank=1&Refer=top",
-      "score": 342461,
+      "score": 263574,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1786318939
     },
     {
-      "title": "上海武康大楼真成船了",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%8A%E6%B5%B7%E6%AD%A6%E5%BA%B7%E5%A4%A7%E6%A5%BC%E7%9C%9F%E6%88%90%E8%88%B9%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 302399,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1786325661
-    },
-    {
-      "title": "健身女村支书称老人有突发情况我背",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%81%A5%E8%BA%AB%E5%A5%B3%E6%9D%91%E6%94%AF%E4%B9%A6%E7%A7%B0%E8%80%81%E4%BA%BA%E6%9C%89%E7%AA%81%E5%8F%91%E6%83%85%E5%86%B5%E6%88%91%E8%83%8C%23&t=31&band_rank=1&Refer=top",
-      "score": 283518,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1786327941
-    },
-    {
-      "title": "黄山因台风白海豚大量游客滞留",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%BB%84%E5%B1%B1%E5%9B%A0%E5%8F%B0%E9%A3%8E%E7%99%BD%E6%B5%B7%E8%B1%9A%E5%A4%A7%E9%87%8F%E6%B8%B8%E5%AE%A2%E6%BB%9E%E7%95%99%23&t=31&band_rank=1&Refer=top",
-      "score": 282525,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1786327941
-    },
-    {
-      "title": "蔡磊不想做第二个冰桶挑战",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%94%A1%E7%A3%8A%E4%B8%8D%E6%83%B3%E5%81%9A%E7%AC%AC%E4%BA%8C%E4%B8%AA%E5%86%B0%E6%A1%B6%E6%8C%91%E6%88%98%23&t=31&band_rank=1&Refer=top",
-      "score": 280986,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1786328060
-    },
-    {
-      "title": "婴儿快窒息时被小猫救下宝妈发声",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A9%B4%E5%84%BF%E5%BF%AB%E7%AA%92%E6%81%AF%E6%97%B6%E8%A2%AB%E5%B0%8F%E7%8C%AB%E6%95%91%E4%B8%8B%E5%AE%9D%E5%A6%88%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
-      "score": 268159,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1786292720
-    },
-    {
-      "title": "白海豚快速减弱",
+      "title": "上海徐家汇出现特大暴雨",
       "description": "突发/灾害",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E6%B5%B7%E8%B1%9A%E5%BF%AB%E9%80%9F%E5%87%8F%E5%BC%B1%23&t=31&band_rank=1&Refer=top",
-      "score": 189075,
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%8A%E6%B5%B7%E5%BE%90%E5%AE%B6%E6%B1%87%E5%87%BA%E7%8E%B0%E7%89%B9%E5%A4%A7%E6%9A%B4%E9%9B%A8%23&t=31&band_rank=1&Refer=top",
+      "score": 224183,
       "owner": "微博同城",
       "label": "",
       "category": "突发/灾害",
-      "onboardTime": 1786302614
+      "onboardTime": 1786338681
     },
     {
-      "title": "划船上班",
+      "title": "孙子非亲生案再审大概率不能鉴定",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%88%92%E8%88%B9%E4%B8%8A%E7%8F%AD&t=31&band_rank=1&Refer=top",
-      "score": 163127,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%AD%99%E5%AD%90%E9%9D%9E%E4%BA%B2%E7%94%9F%E6%A1%88%E5%86%8D%E5%AE%A1%E5%A4%A7%E6%A6%82%E7%8E%87%E4%B8%8D%E8%83%BD%E9%89%B4%E5%AE%9A%23&t=31&band_rank=1&Refer=top",
+      "score": 210787,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1786327700
+      "onboardTime": 1786348701
+    },
+    {
+      "title": "无罪释放后负债3000万国赔仅41万",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%97%A0%E7%BD%AA%E9%87%8A%E6%94%BE%E5%90%8E%E8%B4%9F%E5%80%BA3000%E4%B8%87%E5%9B%BD%E8%B5%94%E4%BB%8541%E4%B8%87%23&t=31&band_rank=1&Refer=top",
+      "score": 173797,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1786348521
     }
   ]
 }
