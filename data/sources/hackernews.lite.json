@@ -1,19 +1,11 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-08-10T04:00:26Z",
+  "savedAt": "2026-08-10T15:02:21Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-08-10，共 20 条）",
   "updateFrequency": "twice-daily",
   "fetchedDate": "2026-08-10",
   "items": [
-    {
-      "title": "Don't be a meat proxy",
-      "description": "",
-      "url": "https://gruhn.me/blog/2026-08-03/",
-      "score": 1841,
-      "comments": 740,
-      "owner": "ngruhn"
-    },
     {
       "title": "In Memory of My Wife, Elise Cawley, with Thanks for 36 Wonderful Years",
       "description": "",
@@ -34,16 +26,16 @@
       "title": "Mario Meets Pareto",
       "description": "",
       "url": "https://www.mayerowitz.io/blog/mario-meets-pareto",
-      "score": 1172,
-      "comments": 167,
+      "score": 1174,
+      "comments": 168,
       "owner": "theanonymousone"
     },
     {
       "title": "What happens if an entire class of workers loses faith in their careers",
       "description": "",
       "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
-      "score": 1054,
-      "comments": 1287,
+      "score": 1072,
+      "comments": 1303,
       "owner": "RickJWagner"
     },
     {
@@ -59,30 +51,30 @@
       "description": "<a href=\"https:&#x2F;&#x2F;ir.amd.com&#x2F;news-events&#x2F;press-releases&#x2F;detail&#x2F;1296&#x2F;amd-acquires-taalas-to-advance-compute-solutions-for-rapidly-growing-ai-inference-market\" rel=\"nofollow\">https:&#x2F;&#x2F;ir.amd.com&#x2F;news-events&#x2F;press-releases&#x2F;detail&#x2F;1296&#x2F;am...</a><p><a href=\"https:&#x2F;&#x2F;chatjimmy.ai&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;chatjimmy.ai&#x2F;</a>",
       "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
       "score": 937,
-      "comments": 704,
+      "comments": 706,
       "owner": "itvision"
-    },
-    {
-      "title": "US strikes $1.2B deal to pay German firm to halt offshore wind projects",
-      "description": "",
-      "url": "https://www.bbc.com/news/articles/c1e1vg0gjl5o",
-      "score": 903,
-      "comments": 879,
-      "owner": "defrost"
     },
     {
       "title": "“Code was never the hard part” is an insult to all programmers",
       "description": "",
       "url": "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers",
-      "score": 874,
-      "comments": 534,
+      "score": 912,
+      "comments": 559,
       "owner": "senko"
+    },
+    {
+      "title": "US strikes $1.2B deal to pay German firm to halt offshore wind projects",
+      "description": "",
+      "url": "https://www.bbc.com/news/articles/c1e1vg0gjl5o",
+      "score": 906,
+      "comments": 884,
+      "owner": "defrost"
     },
     {
       "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
       "description": "<a href=\"https:&#x2F;&#x2F;www.axios.com&#x2F;2026&#x2F;08&#x2F;05&#x2F;google-deepmind-demis-hassabis-ai\" rel=\"nofollow\">https:&#x2F;&#x2F;www.axios.com&#x2F;2026&#x2F;08&#x2F;05&#x2F;google-deepmind-demis-hassa...</a><p><a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;google-shakes-up-ai-leadership-deepmind-chief-shifts-role-2026-08-05&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;google-shakes-up-ai-leaders...</a><p><a href=\"https:&#x2F;&#x2F;www.discoveryloop.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.discoveryloop.com&#x2F;</a>, <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49184960\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49184960</a><p><a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;JeffDean&#x2F;status&#x2F;2085034604172603724\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;JeffDean&#x2F;status&#x2F;2085034604172603724</a>, <a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;JeffDean&#x2F;status&#x2F;2085034604172603724\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;JeffDean&#x2F;status&#x2F;2085034604172603724</a>",
       "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
-      "score": 860,
+      "score": 861,
       "comments": 929,
       "owner": "colesantiago"
     },
@@ -90,8 +82,8 @@
       "title": "New Mexico court orders Meta to pay $567m over harms to children’s mental health",
       "description": "<a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;world&#x2F;new-mexico-court-orders-meta-pay-567-mln-teen-mental-health-fund-2026-08-06&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;world&#x2F;new-mexico-court-orders-meta-p...</a><p><a href=\"https:&#x2F;&#x2F;www.theguardian.com&#x2F;technology&#x2F;2026&#x2F;aug&#x2F;06&#x2F;new-mexico-court-meta\" rel=\"nofollow\">https:&#x2F;&#x2F;www.theguardian.com&#x2F;technology&#x2F;2026&#x2F;aug&#x2F;06&#x2F;new-mexic...</a><p><a href=\"https:&#x2F;&#x2F;www.kob.com&#x2F;new-mexico&#x2F;nm-court-orders-meta-to-pay-567m-make-changes-for-underage-users&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.kob.com&#x2F;new-mexico&#x2F;nm-court-orders-meta-to-pay-5...</a><p><a href=\"https:&#x2F;&#x2F;www.bbc.com&#x2F;news&#x2F;articles&#x2F;cd7lz3wr2rlo\" rel=\"nofollow\">https:&#x2F;&#x2F;www.bbc.com&#x2F;news&#x2F;articles&#x2F;cd7lz3wr2rlo</a><p><a href=\"https:&#x2F;&#x2F;www.wsj.com&#x2F;tech&#x2F;meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media-8ba5aab7\" rel=\"nofollow\">https:&#x2F;&#x2F;www.wsj.com&#x2F;tech&#x2F;meta-ordered-to-pay-942-million-to-...</a>",
       "url": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta",
-      "score": 802,
-      "comments": 427,
+      "score": 805,
+      "comments": 431,
       "owner": "boplicity"
     },
     {
@@ -106,25 +98,17 @@
       "title": "DeepSeek V4 Flash 0731",
       "description": "",
       "url": "https://arcprize.org/results/deepseek-v4-flash-0731",
-      "score": 783,
+      "score": 789,
       "comments": 470,
       "owner": "tosh"
     },
     {
-      "title": "Devtools must be open source",
+      "title": "How I use LLMs to learn complex topics",
       "description": "",
-      "url": "https://blog.exe.dev/devtools-must-be-open-source",
-      "score": 728,
-      "comments": 233,
-      "owner": "bryanmikaelian"
-    },
-    {
-      "title": "SQLite Critical CVEs or LLM Slop?",
-      "description": "",
-      "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
-      "score": 726,
-      "comments": 374,
-      "owner": "ymir_e"
+      "url": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
+      "score": 751,
+      "comments": 480,
+      "owner": "laurentiurad"
     },
     {
       "title": "Xbox goes down. You can't play games you own on disc",
@@ -135,36 +119,52 @@
       "owner": "surprisetalk"
     },
     {
-      "title": "Crime Pays but Botany Doesn't",
-      "description": "",
-      "url": "https://www.crimepaysbutbotanydoesnt.com/reading-list",
-      "score": 695,
-      "comments": 215,
-      "owner": "DarkContinent"
-    },
-    {
       "title": "Taste Is All That's Left",
       "description": "",
       "url": "https://notashelf.dev/posts/taste-is-all-thats-left",
-      "score": 693,
-      "comments": 537,
+      "score": 697,
+      "comments": 540,
       "owner": "tsak"
+    },
+    {
+      "title": "Crime Pays but Botany Doesn't",
+      "description": "",
+      "url": "https://www.crimepaysbutbotanydoesnt.com/reading-list",
+      "score": 696,
+      "comments": 215,
+      "owner": "DarkContinent"
     },
     {
       "title": "Cloudflare OS: an open platform for agents, apps, and work",
       "description": "",
       "url": "https://blog.cloudflare.com/cloudflare-os/",
-      "score": 659,
+      "score": 661,
       "comments": 331,
       "owner": "speckx"
     },
     {
-      "title": "More German than many Germans",
+      "title": "Danish high schoolers will have to verbally defend written assignments",
       "description": "",
-      "url": "https://mertbulan.com/more-german-than-many-germans/",
-      "score": 647,
-      "comments": 500,
-      "owner": "mertbio"
+      "url": "https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral/",
+      "score": 643,
+      "comments": 281,
+      "owner": "theanonymousone"
+    },
+    {
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "description": "",
+      "url": "https://openai.com/index/ten-advances-in-mathematics/",
+      "score": 628,
+      "comments": 938,
+      "owner": "milkshakes"
+    },
+    {
+      "title": "Show HN: Simple algorithm and color space to generate diverse skin tones",
+      "description": "Hello HN!<p>I found that picking out plausible but diverse skin tones for my digital art and game development projects was kind of difficult, and I got curious about if there was a way to define a color space that made it easy.<p>I&#x27;ve built a color picker and procedural generation algorithm based on the space as well as a bunch of other fun js features and demos throughout the page that use the equations. If you find it interesting, I have lots of explanations of how I built it and what properties the space has.<p>The methodology might be a bit shaky, but hopefully the result is as helpful for others as I have found it! There&#x27;s lots of room for improvements (see the Future Work section), but I&#x27;m really happy with how it turned out.",
+      "url": "https://toneyalexander.github.io/inclusive-color-space/",
+      "score": 625,
+      "comments": 99,
+      "owner": "automatoney"
     }
   ]
 }
