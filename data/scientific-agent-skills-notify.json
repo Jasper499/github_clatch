@@ -1,20 +1,25 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-08-10T04:16:48Z",
+  "changed": true,
+  "fetchedAt": "2026-08-10T15:35:13Z",
   "previousSha": "9b1d761c67c310e6538f1d5d88759b2bcfc65ce2",
-  "latestSha": "9b1d761c67c310e6538f1d5d88759b2bcfc65ce2",
+  "latestSha": "7eb9c23c32ecf7f8c19cb45ded3150534ccefe6a",
   "repo": "K-Dense-AI/scientific-agent-skills",
   "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "stars": 0,
   "skillCount": 161,
   "latestCommit": {
-    "title": "Merge pull request #224 from neuroepithelial/codex/add-ncats-arax-skill",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/9b1d761c67c310e6538f1d5d88759b2bcfc65ce2",
-    "sha": "9b1d761",
-    "published": "2026-08-08"
+    "title": "chore: update security scan report [skip ci]",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/7eb9c23c32ecf7f8c19cb45ded3150534ccefe6a",
+    "sha": "7eb9c23",
+    "published": "2026-08-10"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "chore: update security scan report [skip ci]",
+      "sha": "7eb9c23",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/7eb9c23c32ecf7f8c19cb45ded3150534ccefe6a"
+    },
     {
       "title": "Merge pull request #224 from neuroepithelial/codex/add-ncats-arax-skill",
       "sha": "9b1d761",
@@ -34,11 +39,6 @@
       "title": "Merge pull request #221 from KalinNonchev/add-deepspot-m-skill",
       "sha": "5c0d8b3",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/5c0d8b302921fc140ea9f8aee22e39dcb70615ab"
-    },
-    {
-      "title": "deepspot-m: document the ~19k-gene panel limit, drop redundant eval c…",
-      "sha": "9477641",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/947764127b0c6bdf2345cd2e62e7621397134662"
     }
   ]
 }

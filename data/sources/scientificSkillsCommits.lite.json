@@ -1,12 +1,23 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-08-10T04:16:48Z",
+  "savedAt": "2026-08-10T15:35:13Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "9b1d761c67c310e6538f1d5d88759b2bcfc65ce2",
+  "latestSha": "7eb9c23c32ecf7f8c19cb45ded3150534ccefe6a",
   "items": [
+    {
+      "title": "chore: update security scan report [skip ci]",
+      "description": "chore: update security scan report [skip ci]",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/7eb9c23c32ecf7f8c19cb45ded3150534ccefe6a",
+      "sha": "7eb9c23",
+      "fullSha": "7eb9c23c32ecf7f8c19cb45ded3150534ccefe6a",
+      "owner": "github-actions",
+      "published": "2026-08-10",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "Merge pull request #224 from neuroepithelial/codex/add-ncats-arax-skill",
       "description": "Merge pull request #224 from neuroepithelial/codex/add-ncats-arax-skill\n\nAdd bounded NCATS ARAX knowledge graph skill",
@@ -156,17 +167,6 @@
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/4226ca8052b89b471ab4eedead6e04b0b6aa08ef",
       "sha": "4226ca8",
       "fullSha": "4226ca8052b89b471ab4eedead6e04b0b6aa08ef",
-      "owner": "TKassis",
-      "published": "2026-07-31",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Update image generation and citation management scripts to use 'uv pi…",
-      "description": "Update image generation and citation management scripts to use &#39;uv pip install&#39; for package installations. Modify skill versions for infographics and generate-image to reflect recent changes. Enhance error handling and review logic in infographic generation scripts, ensuring better feedback on quality assessments.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/bd99c01e3fa95bc4e7eef79f8aa74e0c8a27c82e",
-      "sha": "bd99c01",
-      "fullSha": "bd99c01e3fa95bc4e7eef79f8aa74e0c8a27c82e",
       "owner": "TKassis",
       "published": "2026-07-31",
       "label": "commit",
