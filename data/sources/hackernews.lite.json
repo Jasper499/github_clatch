@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-08-11T03:48:15Z",
+  "savedAt": "2026-08-11T15:01:29Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-08-11，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -18,31 +18,31 @@
       "title": "Mario Meets Pareto",
       "description": "",
       "url": "https://www.mayerowitz.io/blog/mario-meets-pareto",
-      "score": 1177,
+      "score": 1180,
       "comments": 169,
       "owner": "theanonymousone"
-    },
-    {
-      "title": "What happens if an entire class of workers loses faith in their careers",
-      "description": "",
-      "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
-      "score": 1078,
-      "comments": 1319,
-      "owner": "RickJWagner"
     },
     {
       "title": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
       "description": "",
       "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
-      "score": 1062,
-      "comments": 587,
+      "score": 1153,
+      "comments": 621,
       "owner": "riordan"
+    },
+    {
+      "title": "What happens if an entire class of workers loses faith in their careers",
+      "description": "",
+      "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
+      "score": 1082,
+      "comments": 1321,
+      "owner": "RickJWagner"
     },
     {
       "title": "Discovery Loop",
       "description": "",
       "url": "https://www.discoveryloop.com/",
-      "score": 947,
+      "score": 951,
       "comments": 597,
       "owner": "xtreak29"
     },
@@ -51,15 +51,15 @@
       "description": "<a href=\"https:&#x2F;&#x2F;ir.amd.com&#x2F;news-events&#x2F;press-releases&#x2F;detail&#x2F;1296&#x2F;amd-acquires-taalas-to-advance-compute-solutions-for-rapidly-growing-ai-inference-market\" rel=\"nofollow\">https:&#x2F;&#x2F;ir.amd.com&#x2F;news-events&#x2F;press-releases&#x2F;detail&#x2F;1296&#x2F;am...</a><p><a href=\"https:&#x2F;&#x2F;chatjimmy.ai&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;chatjimmy.ai&#x2F;</a>",
       "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
       "score": 942,
-      "comments": 711,
+      "comments": 714,
       "owner": "itvision"
     },
     {
       "title": "“Code was never the hard part” is an insult to all programmers",
       "description": "",
       "url": "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers",
-      "score": 922,
-      "comments": 567,
+      "score": 924,
+      "comments": 570,
       "owner": "senko"
     },
     {
@@ -67,40 +67,32 @@
       "description": "",
       "url": "https://www.bbc.com/news/articles/c1e1vg0gjl5o",
       "score": 907,
-      "comments": 885,
+      "comments": 887,
       "owner": "defrost"
     },
     {
       "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
       "description": "<a href=\"https:&#x2F;&#x2F;www.axios.com&#x2F;2026&#x2F;08&#x2F;05&#x2F;google-deepmind-demis-hassabis-ai\" rel=\"nofollow\">https:&#x2F;&#x2F;www.axios.com&#x2F;2026&#x2F;08&#x2F;05&#x2F;google-deepmind-demis-hassa...</a><p><a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;google-shakes-up-ai-leadership-deepmind-chief-shifts-role-2026-08-05&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;google-shakes-up-ai-leaders...</a><p><a href=\"https:&#x2F;&#x2F;www.discoveryloop.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.discoveryloop.com&#x2F;</a>, <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49184960\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49184960</a><p><a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;JeffDean&#x2F;status&#x2F;2085034604172603724\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;JeffDean&#x2F;status&#x2F;2085034604172603724</a>, <a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;JeffDean&#x2F;status&#x2F;2085034604172603724\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;JeffDean&#x2F;status&#x2F;2085034604172603724</a>",
       "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
-      "score": 863,
-      "comments": 930,
+      "score": 864,
+      "comments": 931,
       "owner": "colesantiago"
-    },
-    {
-      "title": "New Mexico court orders Meta to pay $567m over harms to children’s mental health",
-      "description": "<a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;world&#x2F;new-mexico-court-orders-meta-pay-567-mln-teen-mental-health-fund-2026-08-06&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;world&#x2F;new-mexico-court-orders-meta-p...</a><p><a href=\"https:&#x2F;&#x2F;www.theguardian.com&#x2F;technology&#x2F;2026&#x2F;aug&#x2F;06&#x2F;new-mexico-court-meta\" rel=\"nofollow\">https:&#x2F;&#x2F;www.theguardian.com&#x2F;technology&#x2F;2026&#x2F;aug&#x2F;06&#x2F;new-mexic...</a><p><a href=\"https:&#x2F;&#x2F;www.kob.com&#x2F;new-mexico&#x2F;nm-court-orders-meta-to-pay-567m-make-changes-for-underage-users&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.kob.com&#x2F;new-mexico&#x2F;nm-court-orders-meta-to-pay-5...</a><p><a href=\"https:&#x2F;&#x2F;www.bbc.com&#x2F;news&#x2F;articles&#x2F;cd7lz3wr2rlo\" rel=\"nofollow\">https:&#x2F;&#x2F;www.bbc.com&#x2F;news&#x2F;articles&#x2F;cd7lz3wr2rlo</a><p><a href=\"https:&#x2F;&#x2F;www.wsj.com&#x2F;tech&#x2F;meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media-8ba5aab7\" rel=\"nofollow\">https:&#x2F;&#x2F;www.wsj.com&#x2F;tech&#x2F;meta-ordered-to-pay-942-million-to-...</a>",
-      "url": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta",
-      "score": 806,
-      "comments": 432,
-      "owner": "boplicity"
     },
     {
       "title": "How I use LLMs to learn complex topics",
       "description": "",
       "url": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
-      "score": 796,
-      "comments": 530,
+      "score": 807,
+      "comments": 532,
       "owner": "laurentiurad"
     },
     {
-      "title": "AI-Generated Images Discourage Me from Reading Your Blog",
-      "description": "",
-      "url": "https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog/",
-      "score": 795,
-      "comments": 465,
-      "owner": "meysamazad"
+      "title": "New Mexico court orders Meta to pay $567m over harms to children’s mental health",
+      "description": "<a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;world&#x2F;new-mexico-court-orders-meta-pay-567-mln-teen-mental-health-fund-2026-08-06&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;world&#x2F;new-mexico-court-orders-meta-p...</a><p><a href=\"https:&#x2F;&#x2F;www.theguardian.com&#x2F;technology&#x2F;2026&#x2F;aug&#x2F;06&#x2F;new-mexico-court-meta\" rel=\"nofollow\">https:&#x2F;&#x2F;www.theguardian.com&#x2F;technology&#x2F;2026&#x2F;aug&#x2F;06&#x2F;new-mexic...</a><p><a href=\"https:&#x2F;&#x2F;www.kob.com&#x2F;new-mexico&#x2F;nm-court-orders-meta-to-pay-567m-make-changes-for-underage-users&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.kob.com&#x2F;new-mexico&#x2F;nm-court-orders-meta-to-pay-5...</a><p><a href=\"https:&#x2F;&#x2F;www.bbc.com&#x2F;news&#x2F;articles&#x2F;cd7lz3wr2rlo\" rel=\"nofollow\">https:&#x2F;&#x2F;www.bbc.com&#x2F;news&#x2F;articles&#x2F;cd7lz3wr2rlo</a><p><a href=\"https:&#x2F;&#x2F;www.wsj.com&#x2F;tech&#x2F;meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media-8ba5aab7\" rel=\"nofollow\">https:&#x2F;&#x2F;www.wsj.com&#x2F;tech&#x2F;meta-ordered-to-pay-942-million-to-...</a>",
+      "url": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta",
+      "score": 807,
+      "comments": 432,
+      "owner": "boplicity"
     },
     {
       "title": "DeepSeek V4 Flash 0731",
@@ -111,28 +103,36 @@
       "owner": "tosh"
     },
     {
-      "title": "Xbox goes down. You can't play games you own on disc",
+      "title": "France to ban unsolicited telemarketing calls",
       "description": "",
-      "url": "https://birchtree.me/blog/xbox-goes-down-you-cant-play-games-you-own-on-disc/",
-      "score": 713,
-      "comments": 769,
-      "owner": "surprisetalk"
+      "url": "https://www.lemonde.fr/en/france/article/2026/08/06/france-to-ban-unsolicited-telemarketing-calls-from-august-11_6756208_7.html",
+      "score": 707,
+      "comments": 362,
+      "owner": "aziaziazi"
     },
     {
       "title": "Taste Is All That's Left",
       "description": "",
       "url": "https://notashelf.dev/posts/taste-is-all-thats-left",
-      "score": 698,
-      "comments": 544,
+      "score": 699,
+      "comments": 545,
       "owner": "tsak"
     },
     {
       "title": "Crime Pays but Botany Doesn't",
       "description": "",
       "url": "https://www.crimepaysbutbotanydoesnt.com/reading-list",
-      "score": 696,
+      "score": 698,
       "comments": 215,
       "owner": "DarkContinent"
+    },
+    {
+      "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
+      "description": "",
+      "url": "https://www.docker.com/products/docker-sandboxes/",
+      "score": 667,
+      "comments": 372,
+      "owner": "etoxin"
     },
     {
       "title": "Cloudflare OS: an open platform for agents, apps, and work",
@@ -143,28 +143,28 @@
       "owner": "speckx"
     },
     {
-      "title": "Danish high schoolers will have to verbally defend written assignments",
-      "description": "",
-      "url": "https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral/",
-      "score": 647,
-      "comments": 281,
-      "owner": "theanonymousone"
-    },
-    {
-      "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
-      "description": "",
-      "url": "https://www.docker.com/products/docker-sandboxes/",
-      "score": 637,
-      "comments": 354,
-      "owner": "etoxin"
-    },
-    {
       "title": "Windows 11's built-in Weather app wastes more than 1 GB of RAM",
       "description": "",
       "url": "https://www.notebookcheck.net/Windows-11-s-built-in-Weather-app-wastes-more-than-1-GB-of-RAM.1364205.0.html",
-      "score": 636,
-      "comments": 570,
+      "score": 654,
+      "comments": 583,
       "owner": "akyuu"
+    },
+    {
+      "title": "Danish high schoolers will have to verbally defend written assignments",
+      "description": "",
+      "url": "https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral/",
+      "score": 648,
+      "comments": 282,
+      "owner": "theanonymousone"
+    },
+    {
+      "title": "Show HN: Simple algorithm and color space to generate diverse skin tones",
+      "description": "Hello HN!<p>I found that picking out plausible but diverse skin tones for my digital art and game development projects was kind of difficult, and I got curious about if there was a way to define a color space that made it easy.<p>I&#x27;ve built a color picker and procedural generation algorithm based on the space as well as a bunch of other fun js features and demos throughout the page that use the equations. If you find it interesting, I have lots of explanations of how I built it and what properties the space has.<p>The methodology might be a bit shaky, but hopefully the result is as helpful for others as I have found it! There&#x27;s lots of room for improvements (see the Future Work section), but I&#x27;m really happy with how it turned out.",
+      "url": "https://toneyalexander.github.io/inclusive-color-space/",
+      "score": 625,
+      "comments": 99,
+      "owner": "automatoney"
     }
   ]
 }

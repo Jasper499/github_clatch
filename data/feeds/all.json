@@ -6,148 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E5%93%AA%E5%90%92%E8%8E%B7%E5%A5%96%E5%8F%B0%E4%B8%8B%E5%98%89%E5%AE%BE%E5%8F%8D%E5%BA%94%E5%86%B7%E6%B7%A1%E5%8E%9F%E5%9B%A0&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%93%AA%E5%90%92%E8%8E%B7%E5%A5%96%E5%8F%B0%E4%B8%8B%E5%98%89%E5%AE%BE%E5%8F%8D%E5%BA%94%E5%86%B7%E6%B7%A1%E5%8E%9F%E5%9B%A0&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 哪吒获奖台下嘉宾反应冷淡原因",
-      "date_published": "2026-08-11T13:34:52Z"
+      "id": "hackernews:https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years/",
+      "url": "https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years/",
+      "title": "[Hacker News 热门] In Memory of My Wife, Elise Cawley, with Thanks for 36 Wonderful Years",
+      "date_published": "2026-08-11T15:01:29Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E6%9B%9D%E8%B5%B5%E4%B8%80%E9%B8%A34%E5%9D%97%E7%89%9B%E8%82%89%E5%B9%B264%E5%85%83%E5%A4%8D%E7%A7%B0%E4%BB%8517%E5%85%83%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E8%B5%B5%E4%B8%80%E9%B8%A34%E5%9D%97%E7%89%9B%E8%82%89%E5%B9%B264%E5%85%83%E5%A4%8D%E7%A7%B0%E4%BB%8517%E5%85%83%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 曝赵一鸣4块牛肉干64元复称仅17元",
-      "date_published": "2026-08-11T13:34:52Z"
+      "id": "hackernews:https://www.mayerowitz.io/blog/mario-meets-pareto",
+      "url": "https://www.mayerowitz.io/blog/mario-meets-pareto",
+      "title": "[Hacker News 热门] Mario Meets Pareto",
+      "date_published": "2026-08-11T15:01:29Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E8%AF%B7%E6%9F%A5%E6%94%B6%E8%BF%99%E4%BB%BD%E6%9A%B4%E9%9B%A8%E5%A4%A9%E9%81%BF%E9%99%A9%E6%8C%87%E5%8D%97%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%AF%B7%E6%9F%A5%E6%94%B6%E8%BF%99%E4%BB%BD%E6%9A%B4%E9%9B%A8%E5%A4%A9%E9%81%BF%E9%99%A9%E6%8C%87%E5%8D%97%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 请查收这份暴雨天避险指南",
-      "date_published": "2026-08-11T13:34:52Z"
+      "id": "hackernews:https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "title": "[Hacker News 热门] Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
+      "date_published": "2026-08-11T15:01:29Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E5%BB%BA%E8%AE%AE%E5%A5%B3%E7%94%9F%E4%B8%8D%E8%A6%81%E5%9C%A8%E7%BD%91%E4%B8%8A%E8%BF%87%E5%BA%A6%E5%88%86%E4%BA%AB&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%BB%BA%E8%AE%AE%E5%A5%B3%E7%94%9F%E4%B8%8D%E8%A6%81%E5%9C%A8%E7%BD%91%E4%B8%8A%E8%BF%87%E5%BA%A6%E5%88%86%E4%BA%AB&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 建议女生不要在网上过度分享",
-      "date_published": "2026-08-11T13:34:52Z"
+      "id": "hackernews:https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
+      "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
+      "title": "[Hacker News 热门] What happens if an entire class of workers loses faith in their careers",
+      "date_published": "2026-08-11T15:01:29Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%A8%9C%E6%89%8E%E4%B8%8A%E6%88%B7%E5%8F%A3%E7%9A%84%E6%97%B6%E5%80%99%E5%90%8D%E5%AD%97%E5%A4%9A%E6%89%93%E5%AD%97%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A8%9C%E6%89%8E%E4%B8%8A%E6%88%B7%E5%8F%A3%E7%9A%84%E6%97%B6%E5%80%99%E5%90%8D%E5%AD%97%E5%A4%9A%E6%89%93%E5%AD%97%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 娜扎上户口的时候名字多打字了",
-      "date_published": "2026-08-11T13:34:52Z"
+      "id": "hackernews:https://www.discoveryloop.com/",
+      "url": "https://www.discoveryloop.com/",
+      "title": "[Hacker News 热门] Discovery Loop",
+      "date_published": "2026-08-11T15:01:29Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%BC%A0%E6%A1%82%E6%BA%90%E5%BC%A0%E5%87%BD%E7%91%9E%E7%9C%BC%E9%BC%BB%E5%98%B4%E5%BD%A9%E6%8E%92%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%BC%A0%E6%A1%82%E6%BA%90%E5%BC%A0%E5%87%BD%E7%91%9E%E7%9C%BC%E9%BC%BB%E5%98%B4%E5%BD%A9%E6%8E%92%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 张桂源张函瑞眼鼻嘴彩排",
-      "date_published": "2026-08-11T13:34:52Z"
+      "id": "hackernews:https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+      "title": "[Hacker News 热门] AMD acquires Taalas to boost inference performance by etching models in silicon",
+      "date_published": "2026-08-11T15:01:29Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E9%9B%85%E5%85%B8%E5%A8%9C%E6%AF%8D%E4%BA%B2%E9%92%88%E5%AF%B9%E9%81%87%E5%AE%B3%E4%BC%A0%E9%97%BB%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%9B%85%E5%85%B8%E5%A8%9C%E6%AF%8D%E4%BA%B2%E9%92%88%E5%AF%B9%E9%81%87%E5%AE%B3%E4%BC%A0%E9%97%BB%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 雅典娜母亲针对遇害传闻发声",
-      "date_published": "2026-08-11T13:34:52Z"
+      "id": "hackernews:https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers",
+      "url": "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers",
+      "title": "[Hacker News 热门] “Code was never the hard part” is an insult to all programmers",
+      "date_published": "2026-08-11T15:01:29Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E6%81%A2%E5%A4%8D%E7%94%9F%E5%91%BD%E5%8A%9B%E5%8F%AA%E9%9C%80%E8%A6%81%E4%B8%80%E4%BA%9B%E4%BD%8E%E6%88%90%E6%9C%AC%E7%88%B1%E5%A5%BD&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E6%81%A2%E5%A4%8D%E7%94%9F%E5%91%BD%E5%8A%9B%E5%8F%AA%E9%9C%80%E8%A6%81%E4%B8%80%E4%BA%9B%E4%BD%8E%E6%88%90%E6%9C%AC%E7%88%B1%E5%A5%BD&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 恢复生命力只需要一些低成本爱好",
-      "date_published": "2026-08-11T13:34:52Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23TF%E5%9B%9B%E4%BB%A3%E5%8D%95%E4%BA%BA%E6%8B%8D%E7%AB%8B%E5%BE%97%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23TF%E5%9B%9B%E4%BB%A3%E5%8D%95%E4%BA%BA%E6%8B%8D%E7%AB%8B%E5%BE%97%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] TF四代单人拍立得",
-      "date_published": "2026-08-11T13:34:52Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23NBA%E6%8F%AD%E5%B9%95%E6%88%9876%E4%BA%BA%E5%AF%B9%E9%98%B5%E5%B0%BC%E5%85%8B%E6%96%AF%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23NBA%E6%8F%AD%E5%B9%95%E6%88%9876%E4%BA%BA%E5%AF%B9%E9%98%B5%E5%B0%BC%E5%85%8B%E6%96%AF%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] NBA揭幕战76人对阵尼克斯",
-      "date_published": "2026-08-11T13:34:52Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%BD%A9%E6%B0%91%E5%AE%88%E5%8F%B72%E4%B8%AA%E6%9C%88%E4%B8%AD1065%E4%B8%87%E5%85%83%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%BD%A9%E6%B0%91%E5%AE%88%E5%8F%B72%E4%B8%AA%E6%9C%88%E4%B8%AD1065%E4%B8%87%E5%85%83%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 彩民守号2个月中1065万元",
-      "date_published": "2026-08-11T13:34:52Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E6%9C%8B%E5%8F%8B%E5%9C%88%E8%AF%84%E8%AE%BA%E6%95%99%E4%BD%93%E5%B1%80%E9%95%BF%E5%85%8D%E8%81%8C%E8%A2%AB%E6%8B%98%E5%90%8E%E7%BB%AD%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9C%8B%E5%8F%8B%E5%9C%88%E8%AF%84%E8%AE%BA%E6%95%99%E4%BD%93%E5%B1%80%E9%95%BF%E5%85%8D%E8%81%8C%E8%A2%AB%E6%8B%98%E5%90%8E%E7%BB%AD%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 朋友圈评论教体局长免职被拘后续",
-      "date_published": "2026-08-11T13:34:52Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E7%A5%81%E8%90%8C%E5%AE%B6%E5%B1%9E%E5%B7%B2%E5%90%91%E6%88%91%E9%A9%BB%E6%B3%B0%E4%BD%BF%E9%A6%86%E6%B1%82%E5%8A%A9%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%A5%81%E8%90%8C%E5%AE%B6%E5%B1%9E%E5%B7%B2%E5%90%91%E6%88%91%E9%A9%BB%E6%B3%B0%E4%BD%BF%E9%A6%86%E6%B1%82%E5%8A%A9%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 祁萌家属已向我驻泰使馆求助",
-      "date_published": "2026-08-11T13:34:52Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E8%AF%B7%E6%9F%A5%E6%94%B6%E8%BF%99%E4%BB%BD%E6%9A%B4%E9%9B%A8%E5%A4%A9%E9%81%BF%E9%99%A9%E6%8C%87%E5%8D%97%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%AF%B7%E6%9F%A5%E6%94%B6%E8%BF%99%E4%BB%BD%E6%9A%B4%E9%9B%A8%E5%A4%A9%E9%81%BF%E9%99%A9%E6%8C%87%E5%8D%97%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 请查收这份暴雨天避险指南",
-      "date_published": "2026-08-11T13:34:52Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E4%B8%8A%E7%8F%AD%E8%84%91%E5%87%BA%E8%A1%80%E5%AE%B6%E5%B1%9E%E6%97%A0%E5%A5%88%E6%8B%94%E7%AE%A1%E5%90%8E%E6%AD%BB%E4%BA%A1%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E4%B8%8A%E7%8F%AD%E8%84%91%E5%87%BA%E8%A1%80%E5%AE%B6%E5%B1%9E%E6%97%A0%E5%A5%88%E6%8B%94%E7%AE%A1%E5%90%8E%E6%AD%BB%E4%BA%A1%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 男子上班脑出血家属无奈拔管后死亡",
-      "date_published": "2026-08-11T13:34:52Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E7%99%BD%E9%B9%BF%E7%9B%B4%E6%92%AD%E4%B8%83%E5%88%86%E9%92%9F%E4%BA%BA%E6%95%B0%E7%A0%B4500%E4%B8%87%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E9%B9%BF%E7%9B%B4%E6%92%AD%E4%B8%83%E5%88%86%E9%92%9F%E4%BA%BA%E6%95%B0%E7%A0%B4500%E4%B8%87%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 白鹿直播七分钟人数破500万",
-      "date_published": "2026-08-11T13:34:52Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E6%9B%9D%E8%B5%B5%E4%B8%80%E9%B8%A34%E5%9D%97%E7%89%9B%E8%82%89%E5%B9%B264%E5%85%83%E5%A4%8D%E7%A7%B0%E4%BB%8517%E5%85%83%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E8%B5%B5%E4%B8%80%E9%B8%A34%E5%9D%97%E7%89%9B%E8%82%89%E5%B9%B264%E5%85%83%E5%A4%8D%E7%A7%B0%E4%BB%8517%E5%85%83%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 曝赵一鸣4块牛肉干64元复称仅17元",
-      "date_published": "2026-08-11T13:34:52Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E8%AF%B7%E6%9F%A5%E6%94%B6%E8%BF%99%E4%BB%BD%E6%9A%B4%E9%9B%A8%E5%A4%A9%E9%81%BF%E9%99%A9%E6%8C%87%E5%8D%97%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%AF%B7%E6%9F%A5%E6%94%B6%E8%BF%99%E4%BB%BD%E6%9A%B4%E9%9B%A8%E5%A4%A9%E9%81%BF%E9%99%A9%E6%8C%87%E5%8D%97%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 请查收这份暴雨天避险指南",
-      "date_published": "2026-08-11T13:34:52Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E9%9B%85%E5%85%B8%E5%A8%9C%E6%AF%8D%E4%BA%B2%E9%92%88%E5%AF%B9%E9%81%87%E5%AE%B3%E4%BC%A0%E9%97%BB%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%9B%85%E5%85%B8%E5%A8%9C%E6%AF%8D%E4%BA%B2%E9%92%88%E5%AF%B9%E9%81%87%E5%AE%B3%E4%BC%A0%E9%97%BB%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 雅典娜母亲针对遇害传闻发声",
-      "date_published": "2026-08-11T13:34:52Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E5%8C%97%E4%BA%AC%E6%9A%B4%E9%9B%A8&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%8C%97%E4%BA%AC%E6%9A%B4%E9%9B%A8&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 北京暴雨",
-      "date_published": "2026-08-11T13:34:52Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E5%81%9A%E6%A0%B8%E7%A3%81%E5%BF%98%E6%91%98%E9%87%91%E6%89%8B%E9%95%AF%E7%96%AF%E7%8B%82%E6%8A%96%E5%8A%A8%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E5%81%9A%E6%A0%B8%E7%A3%81%E5%BF%98%E6%91%98%E9%87%91%E6%89%8B%E9%95%AF%E7%96%AF%E7%8B%82%E6%8A%96%E5%8A%A8%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 女子做核磁忘摘金手镯疯狂抖动",
-      "date_published": "2026-08-11T13:34:52Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E7%A5%81%E8%90%8C%E5%AE%B6%E5%B1%9E%E5%B7%B2%E5%90%91%E6%88%91%E9%A9%BB%E6%B3%B0%E4%BD%BF%E9%A6%86%E6%B1%82%E5%8A%A9%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%A5%81%E8%90%8C%E5%AE%B6%E5%B1%9E%E5%B7%B2%E5%90%91%E6%88%91%E9%A9%BB%E6%B3%B0%E4%BD%BF%E9%A6%86%E6%B1%82%E5%8A%A9%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 祁萌家属已向我驻泰使馆求助",
-      "date_published": "2026-08-11T13:34:52Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E4%B8%8A%E7%8F%AD%E8%84%91%E5%87%BA%E8%A1%80%E5%AE%B6%E5%B1%9E%E6%97%A0%E5%A5%88%E6%8B%94%E7%AE%A1%E5%90%8E%E6%AD%BB%E4%BA%A1%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E4%B8%8A%E7%8F%AD%E8%84%91%E5%87%BA%E8%A1%80%E5%AE%B6%E5%B1%9E%E6%97%A0%E5%A5%88%E6%8B%94%E7%AE%A1%E5%90%8E%E6%AD%BB%E4%BA%A1%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 男子上班脑出血家属无奈拔管后死亡",
-      "date_published": "2026-08-11T13:34:52Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%A4%AB%E5%A6%BB%E7%BB%93%E5%A9%9A40%E5%B9%B4%E9%83%BDAA%E5%88%B6%E4%B8%88%E5%A4%AB%E5%9C%A8%E5%AE%B6%E8%A3%85%E7%9B%91%E6%8E%A7%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%AB%E5%A6%BB%E7%BB%93%E5%A9%9A40%E5%B9%B4%E9%83%BDAA%E5%88%B6%E4%B8%88%E5%A4%AB%E5%9C%A8%E5%AE%B6%E8%A3%85%E7%9B%91%E6%8E%A7%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 夫妻结婚40年都AA制丈夫在家装监控",
-      "date_published": "2026-08-11T13:34:52Z"
+      "id": "hackernews:https://www.bbc.com/news/articles/c1e1vg0gjl5o",
+      "url": "https://www.bbc.com/news/articles/c1e1vg0gjl5o",
+      "title": "[Hacker News 热门] US strikes $1.2B deal to pay German firm to halt offshore wind projects",
+      "date_published": "2026-08-11T15:01:29Z"
     }
   ]
 }
