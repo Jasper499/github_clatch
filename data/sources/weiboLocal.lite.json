@@ -1,140 +1,160 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-08-11T13:34:52Z",
+  "savedAt": "2026-08-11T19:15:07Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-11，共 13 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-11，共 15 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-08-11",
   "items": [
     {
-      "title": "曝赵一鸣4块牛肉干64元复称仅17元",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E8%B5%B5%E4%B8%80%E9%B8%A34%E5%9D%97%E7%89%9B%E8%82%89%E5%B9%B264%E5%85%83%E5%A4%8D%E7%A7%B0%E4%BB%8517%E5%85%83%23&t=31&band_rank=1&Refer=top",
-      "score": 1038460,
+      "title": "忙到晕倒炸鸡店员工已结算工资离职",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%BF%99%E5%88%B0%E6%99%95%E5%80%92%E7%82%B8%E9%B8%A1%E5%BA%97%E5%91%98%E5%B7%A5%E5%B7%B2%E7%BB%93%E7%AE%97%E5%B7%A5%E8%B5%84%E7%A6%BB%E8%81%8C%23&t=31&band_rank=1&Refer=top",
+      "score": 424205,
       "owner": "微博同城",
-      "label": "新",
+      "label": "热",
       "category": "民生新闻",
-      "onboardTime": 1786451120
+      "onboardTime": 1786462400
     },
     {
       "title": "请查收这份暴雨天避险指南",
-      "description": "新 · 民生新闻",
+      "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E8%AF%B7%E6%9F%A5%E6%94%B6%E8%BF%99%E4%BB%BD%E6%9A%B4%E9%9B%A8%E5%A4%A9%E9%81%BF%E9%99%A9%E6%8C%87%E5%8D%97%23&t=31&band_rank=1&Refer=top",
-      "score": 846825,
+      "score": 122741,
       "owner": "微博同城",
-      "label": "新",
+      "label": "",
       "category": "民生新闻",
       "onboardTime": 1786454181
     },
     {
-      "title": "雅典娜母亲针对遇害传闻发声",
-      "description": "新 · 民生新闻,网红",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%9B%85%E5%85%B8%E5%A8%9C%E6%AF%8D%E4%BA%B2%E9%92%88%E5%AF%B9%E9%81%87%E5%AE%B3%E4%BC%A0%E9%97%BB%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
-      "score": 592322,
+      "title": "曝赵一鸣4块牛肉干64元复称仅17元",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E8%B5%B5%E4%B8%80%E9%B8%A34%E5%9D%97%E7%89%9B%E8%82%89%E5%B9%B264%E5%85%83%E5%A4%8D%E7%A7%B0%E4%BB%8517%E5%85%83%23&t=31&band_rank=1&Refer=top",
+      "score": 49779,
       "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻,网红",
-      "onboardTime": 1786451782
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1786451120
+    },
+    {
+      "title": "赵一鸣涉事店铺老板回应",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%B5%B5%E4%B8%80%E9%B8%A3%E6%B6%89%E4%BA%8B%E5%BA%97%E9%93%BA%E8%80%81%E6%9D%BF%E5%9B%9E%E5%BA%94%23&t=31&band_rank=1&Refer=top",
+      "score": 49766,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1786461321
     },
     {
       "title": "北京暴雨",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%E5%8C%97%E4%BA%AC%E6%9A%B4%E9%9B%A8&t=31&band_rank=1&Refer=top",
-      "score": 343922,
+      "score": 49634,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1786440741
     },
     {
-      "title": "女子做核磁忘摘金手镯疯狂抖动",
+      "title": "男子在住所杀害前女友开16度藏尸",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E5%81%9A%E6%A0%B8%E7%A3%81%E5%BF%98%E6%91%98%E9%87%91%E6%89%8B%E9%95%AF%E7%96%AF%E7%8B%82%E6%8A%96%E5%8A%A8%23&t=31&band_rank=1&Refer=top",
-      "score": 305076,
+      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E5%9C%A8%E4%BD%8F%E6%89%80%E6%9D%80%E5%AE%B3%E5%89%8D%E5%A5%B3%E5%8F%8B%E5%BC%8016%E5%BA%A6%E8%97%8F%E5%B0%B8%23&t=31&band_rank=1&Refer=top",
+      "score": 45457,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1786446080
+      "onboardTime": 1786467977
     },
     {
-      "title": "祁萌家属已向我驻泰使馆求助",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%A5%81%E8%90%8C%E5%AE%B6%E5%B1%9E%E5%B7%B2%E5%90%91%E6%88%91%E9%A9%BB%E6%B3%B0%E4%BD%BF%E9%A6%86%E6%B1%82%E5%8A%A9%23&t=31&band_rank=1&Refer=top",
-      "score": 300156,
+      "title": "女子因丈夫私自给公婆转50万怒提离婚",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E5%9B%A0%E4%B8%88%E5%A4%AB%E7%A7%81%E8%87%AA%E7%BB%99%E5%85%AC%E5%A9%86%E8%BD%AC50%E4%B8%87%E6%80%92%E6%8F%90%E7%A6%BB%E5%A9%9A%23&t=31&band_rank=1&Refer=top",
+      "score": 44764,
       "owner": "微博同城",
-      "label": "新",
+      "label": "",
       "category": "民生新闻",
-      "onboardTime": 1786454542
+      "onboardTime": 1786467617
+    },
+    {
+      "title": "中598万男子称保密怕影响妻子孩子",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD598%E4%B8%87%E7%94%B7%E5%AD%90%E7%A7%B0%E4%BF%9D%E5%AF%86%E6%80%95%E5%BD%B1%E5%93%8D%E5%A6%BB%E5%AD%90%E5%AD%A9%E5%AD%90%23&t=31&band_rank=1&Refer=top",
+      "score": 44677,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1786467617
     },
     {
       "title": "男子上班脑出血家属无奈拔管后死亡",
-      "description": "新 · 民生新闻",
+      "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E4%B8%8A%E7%8F%AD%E8%84%91%E5%87%BA%E8%A1%80%E5%AE%B6%E5%B1%9E%E6%97%A0%E5%A5%88%E6%8B%94%E7%AE%A1%E5%90%8E%E6%AD%BB%E4%BA%A1%23&t=31&band_rank=1&Refer=top",
-      "score": 291937,
+      "score": 37537,
       "owner": "微博同城",
-      "label": "新",
+      "label": "",
       "category": "民生新闻",
       "onboardTime": 1786454121
     },
     {
-      "title": "夫妻结婚40年都AA制丈夫在家装监控",
+      "title": "流星雨",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%AB%E5%A6%BB%E7%BB%93%E5%A9%9A40%E5%B9%B4%E9%83%BDAA%E5%88%B6%E4%B8%88%E5%A4%AB%E5%9C%A8%E5%AE%B6%E8%A3%85%E7%9B%91%E6%8E%A7%23&t=31&band_rank=1&Refer=top",
-      "score": 288010,
+      "url": "https://s.weibo.com/weibo?q=%E6%B5%81%E6%98%9F%E9%9B%A8&t=31&band_rank=1&Refer=top",
+      "score": 37040,
       "owner": "微博同城",
       "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1786470736
+    },
+    {
+      "title": "白海豚直接吞并了台风鲸鱼",
+      "description": "突发/灾害",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E6%B5%B7%E8%B1%9A%E7%9B%B4%E6%8E%A5%E5%90%9E%E5%B9%B6%E4%BA%86%E5%8F%B0%E9%A3%8E%E9%B2%B8%E9%B1%BC%23&t=31&band_rank=1&Refer=top",
+      "score": 34189,
+      "owner": "微博同城",
+      "label": "",
+      "category": "突发/灾害",
+      "onboardTime": 1786460182
+    },
+    {
+      "title": "结婚40年都AA制丈夫认为公平合理",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%BB%93%E5%A9%9A40%E5%B9%B4%E9%83%BDAA%E5%88%B6%E4%B8%88%E5%A4%AB%E8%AE%A4%E4%B8%BA%E5%85%AC%E5%B9%B3%E5%90%88%E7%90%86%23&t=31&band_rank=1&Refer=top",
+      "score": 32608,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1786467918
+    },
+    {
+      "title": "台风白海豚",
+      "description": "突发/灾害",
+      "url": "https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E%E7%99%BD%E6%B5%B7%E8%B1%9A&t=31&band_rank=1&Refer=top",
+      "score": 32084,
+      "owner": "微博同城",
+      "label": "",
+      "category": "突发/灾害",
+      "onboardTime": 1786457962
+    },
+    {
+      "title": "父亲耗时二十多年把榕树养成天然树屋",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E7%88%B6%E4%BA%B2%E8%80%97%E6%97%B6%E4%BA%8C%E5%8D%81%E5%A4%9A%E5%B9%B4%E6%8A%8A%E6%A6%95%E6%A0%91%E5%85%BB%E6%88%90%E5%A4%A9%E7%84%B6%E6%A0%91%E5%B1%8B&t=31&band_rank=1&Refer=top",
+      "score": 32009,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1786467617
+    },
+    {
+      "title": "夫妻结婚40年都AA制丈夫在家装监控",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%AB%E5%A6%BB%E7%BB%93%E5%A9%9A40%E5%B9%B4%E9%83%BDAA%E5%88%B6%E4%B8%88%E5%A4%AB%E5%9C%A8%E5%AE%B6%E8%A3%85%E7%9B%91%E6%8E%A7%23&t=31&band_rank=1&Refer=top",
+      "score": 29895,
+      "owner": "微博同城",
+      "label": "",
       "category": "民生新闻",
       "onboardTime": 1786450401
-    },
-    {
-      "title": "台风白海豚停止编号",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8F%B0%E9%A3%8E%E7%99%BD%E6%B5%B7%E8%B1%9A%E5%81%9C%E6%AD%A2%E7%BC%96%E5%8F%B7%23&t=31&band_rank=1&Refer=top",
-      "score": 220662,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1786441820
-    },
-    {
-      "title": "姐弟打架奶奶拉偏架妈妈心疼痛哭",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A7%90%E5%BC%9F%E6%89%93%E6%9E%B6%E5%A5%B6%E5%A5%B6%E6%8B%89%E5%81%8F%E6%9E%B6%E5%A6%88%E5%A6%88%E5%BF%83%E7%96%BC%E7%97%9B%E5%93%AD%23&t=31&band_rank=1&Refer=top",
-      "score": 212911,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1786443680
-    },
-    {
-      "title": "胚胎案妻子正式起诉第三者",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%83%9A%E8%83%8E%E6%A1%88%E5%A6%BB%E5%AD%90%E6%AD%A3%E5%BC%8F%E8%B5%B7%E8%AF%89%E7%AC%AC%E4%B8%89%E8%80%85%23&t=31&band_rank=1&Refer=top",
-      "score": 153863,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1786450760
-    },
-    {
-      "title": "彩民守号2个月中1065万元",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%BD%A9%E6%B0%91%E5%AE%88%E5%8F%B72%E4%B8%AA%E6%9C%88%E4%B8%AD1065%E4%B8%87%E5%85%83%23&t=31&band_rank=1&Refer=top",
-      "score": 149500,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1786454782
-    },
-    {
-      "title": "炸鸡店回应店员爆单崩溃倒地",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%82%B8%E9%B8%A1%E5%BA%97%E5%9B%9E%E5%BA%94%E5%BA%97%E5%91%98%E7%88%86%E5%8D%95%E5%B4%A9%E6%BA%83%E5%80%92%E5%9C%B0%23&t=31&band_rank=1&Refer=top",
-      "score": 115349,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1786450041
     }
   ]
 }
