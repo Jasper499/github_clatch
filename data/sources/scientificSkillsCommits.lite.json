@@ -1,12 +1,45 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-08-10T15:35:13Z",
+  "savedAt": "2026-08-11T04:05:30Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "7eb9c23c32ecf7f8c19cb45ded3150534ccefe6a",
+  "latestSha": "d661d27ef4ddad5b9287bdd84887ace27e2320b8",
   "items": [
+    {
+      "title": "Merge pull request #158 from fedorov/update-idc-skill-v1.6.2",
+      "description": "Merge pull request #158 from fedorov/update-idc-skill-v1.6.2\n\nUpdate imaging-data-commons skill from v1.4.0 to v1.8.1 upstream",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/d661d27ef4ddad5b9287bdd84887ace27e2320b8",
+      "sha": "d661d27",
+      "fullSha": "d661d27ef4ddad5b9287bdd84887ace27e2320b8",
+      "owner": "TKassis",
+      "published": "2026-08-10",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "feat: enhance skill security scan for forked PRs",
+      "description": "feat: enhance skill security scan for forked PRs\n\n- Added handling for missing SKILL_SCANNER_LLM_API_KEY in forked pull requests.\n- Implemented a sticky comment to inform users when the scan is skipped due to the absence of the API key.\n- Updated workflow documentation to clarify the behavior of the scanner in forked contexts.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/3956e5408b61d1274c275b052a7fd619a5661a1a",
+      "sha": "3956e54",
+      "fullSha": "3956e5408b61d1274c275b052a7fd619a5661a1a",
+      "owner": "TKassis",
+      "published": "2026-08-10",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Update imaging-data-commons skill from v1.4.0 to upstream v1.8.1",
+      "description": "Update imaging-data-commons skill from v1.4.0 to upstream v1.8.1\n\nRebased onto current main and re-synced from\nImagingDataCommons/imaging-data-commons-skill, which now holds SKILL.md under 500\nlines upstream. references/core_capabilities.md is therefore removed rather than\nrefreshed: its content was redistributed into the topical guides that already own\neach subject (sql_patterns, index_tables_guide, cli_guide, licensing_and_citation)\ninstead of a catch-all file, and upstream CI holds the budget so the split does not\nhave to be redone after each sync.\n\nNew since v1.4.0: the hosted IDC MCP server and REST API as first-class access paths\n(references/mcp_guide.md, references/rest_api_guide.md), so a metadata question no\nlonger requires a ~77 MB idc-index install; licensing_and_citation.md; idc-index\n0.12.5 / IDC data v24; scripts/check_version.py as the startup version check.\n\ntests/imaging-data-commons/test_check_version.py covers the bundled script: offline,\nstandard library only, no idc-index needed. It is a copy of the upstream file, which\nis written to be vendored — only two path constants and the frontmatter-version\nassertion differ.\n\nVerified: pytest tests/_meta tests/imaging-data-commons -&gt; 29 passed, 1030 subtests;\nskills-ref validate skills/imaging-data-commons -&gt; valid; SKILL.md 495 lines.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/aaf763c3a60a1f8065d2f80189de7efe25ddf2d3",
+      "sha": "aaf763c",
+      "fullSha": "aaf763c3a60a1f8065d2f80189de7efe25ddf2d3",
+      "owner": "fedorov",
+      "published": "2026-08-10",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "chore: update security scan report [skip ci]",
       "description": "chore: update security scan report [skip ci]",
@@ -134,39 +167,6 @@
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/d39264b47c882508545baf8176950b54afe132ce",
       "sha": "d39264b",
       "fullSha": "d39264b47c882508545baf8176950b54afe132ce",
-      "owner": "TKassis",
-      "published": "2026-07-31",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "market-research-reports: fix ledger validator crash on publication_da…",
-      "description": "market-research-reports: fix ledger validator crash on publication_date=not-stated\n\nThe sentinel &quot;not-stated&quot; is exactly 10 characters, so it satisfied the\nlen(publication) == 10 ISO-date guard and reached\ndate.fromisoformat(&quot;not-stated&quot;), raising an uncaught ValueError instead of\nthe documented warning. SKILL.md instructs recording &quot;not-stated&quot; when the\npublication date is unavailable, so this crashed on valid ledgers.\n\nCheck the sentinel before the retrieval/publication comparison, and add\nregression tests for both the not-stated warning and the still-enforced\nretrieval-precedes-publication error.\n\nFixes #219",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/95d3adda6dd1179db117c6fb388c35abf527b391",
-      "sha": "95d3add",
-      "fullSha": "95d3adda6dd1179db117c6fb388c35abf527b391",
-      "owner": "TKassis",
-      "published": "2026-07-31",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Update generate-image.png to reflect recent changes in image generati…",
-      "description": "Update generate-image.png to reflect recent changes in image generation process.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/390c8b8b49894ced8942a0987c731763cca0c32e",
-      "sha": "390c8b8",
-      "fullSha": "390c8b8b49894ced8942a0987c731763cca0c32e",
-      "owner": "TKassis",
-      "published": "2026-07-31",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Enforce use of uv for packagment installation whenever needed",
-      "description": "Enforce use of uv for packagment installation whenever needed",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/4226ca8052b89b471ab4eedead6e04b0b6aa08ef",
-      "sha": "4226ca8",
-      "fullSha": "4226ca8052b89b471ab4eedead6e04b0b6aa08ef",
       "owner": "TKassis",
       "published": "2026-07-31",
       "label": "commit",
