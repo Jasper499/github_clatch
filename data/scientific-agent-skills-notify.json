@@ -1,20 +1,30 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-08-11T15:34:52Z",
+  "changed": true,
+  "fetchedAt": "2026-08-12T04:26:58Z",
   "previousSha": "d661d27ef4ddad5b9287bdd84887ace27e2320b8",
-  "latestSha": "d661d27ef4ddad5b9287bdd84887ace27e2320b8",
+  "latestSha": "5ad4aae76bc40257b914367afacc6fd686a282d5",
   "repo": "K-Dense-AI/scientific-agent-skills",
   "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "stars": 0,
   "skillCount": 161,
   "latestCommit": {
-    "title": "Merge pull request #158 from fedorov/update-idc-skill-v1.6.2",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/d661d27ef4ddad5b9287bdd84887ace27e2320b8",
-    "sha": "d661d27",
-    "published": "2026-08-10"
+    "title": "Update documentation and versioning for Agent Plugins compliance",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/5ad4aae76bc40257b914367afacc6fd686a282d5",
+    "sha": "5ad4aae",
+    "published": "2026-08-12"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "Update documentation and versioning for Agent Plugins compliance",
+      "sha": "5ad4aae",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/5ad4aae76bc40257b914367afacc6fd686a282d5"
+    },
+    {
+      "title": "Remove Star History chart from README.",
+      "sha": "f2f77ff",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/f2f77ff889e0454e2bbdf0729f811ba7da3d40ff"
+    },
     {
       "title": "Merge pull request #158 from fedorov/update-idc-skill-v1.6.2",
       "sha": "d661d27",
@@ -29,16 +39,6 @@
       "title": "Update imaging-data-commons skill from v1.4.0 to upstream v1.8.1",
       "sha": "aaf763c",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/aaf763c3a60a1f8065d2f80189de7efe25ddf2d3"
-    },
-    {
-      "title": "chore: update security scan report [skip ci]",
-      "sha": "7eb9c23",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/7eb9c23c32ecf7f8c19cb45ded3150534ccefe6a"
-    },
-    {
-      "title": "Merge pull request #224 from neuroepithelial/codex/add-ncats-arax-skill",
-      "sha": "9b1d761",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/9b1d761c67c310e6538f1d5d88759b2bcfc65ce2"
     }
   ]
 }

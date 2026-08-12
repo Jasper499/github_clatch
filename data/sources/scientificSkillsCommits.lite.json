@@ -1,12 +1,34 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-08-11T15:34:52Z",
+  "savedAt": "2026-08-12T04:26:58Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "d661d27ef4ddad5b9287bdd84887ace27e2320b8",
+  "latestSha": "5ad4aae76bc40257b914367afacc6fd686a282d5",
   "items": [
+    {
+      "title": "Update documentation and versioning for Agent Plugins compliance",
+      "description": "Update documentation and versioning for Agent Plugins compliance\n\n- Enhanced AGENTS.md and CONTRIBUTING.md to clarify the structure and requirements for the Agent Plugins package, including the need for `plugin.json` to be schema-valid and version-synced with `pyproject.toml`.\n- Updated README.md to reflect the new version 2.63.0 and added details about the repository being a portable Agent Plugins package.\n- Added tests in test_repo_contract.py to ensure compliance with the Agent Plugins manifest schema and discoverability of skills.\n\nThis update ensures better adherence to the Agent Plugins standard and improves the overall documentation for contributors.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/5ad4aae76bc40257b914367afacc6fd686a282d5",
+      "sha": "5ad4aae",
+      "fullSha": "5ad4aae76bc40257b914367afacc6fd686a282d5",
+      "owner": "TKassis",
+      "published": "2026-08-12",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Remove Star History chart from README.",
+      "description": "Remove Star History chart from README.\n\nCo-authored-by: Cursor &lt;cursoragent@cursor.com&gt;",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/f2f77ff889e0454e2bbdf0729f811ba7da3d40ff",
+      "sha": "f2f77ff",
+      "fullSha": "f2f77ff889e0454e2bbdf0729f811ba7da3d40ff",
+      "owner": "TKassis",
+      "published": "2026-08-11",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "Merge pull request #158 from fedorov/update-idc-skill-v1.6.2",
       "description": "Merge pull request #158 from fedorov/update-idc-skill-v1.6.2\n\nUpdate imaging-data-commons skill from v1.4.0 to v1.8.1 upstream",
@@ -145,28 +167,6 @@
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/ad21a3868923628330734375dddbf7b86ea84222",
       "sha": "ad21a38",
       "fullSha": "ad21a3868923628330734375dddbf7b86ea84222",
-      "owner": "TKassis",
-      "published": "2026-07-31",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "citation-management: correct documented commands, bump to 2.0",
-      "description": "citation-management: correct documented commands, bump to 2.0\n\nSKILL.md&#39;s one copy-pasteable Phase 3 command used --remove-duplicates, which\nargparse rejects; the real flag is --deduplicate. A sweep of every documented\ninvocation against the actual --help output found eleven more flags that do not\nexist: validate_citations.py --auto-fix, --strict, --output,\n--check-required-fields, --check-authors, --check-duplicates, --check-syntax;\nformat_bibtex.py --validate, --report, --style; doi_to_bibtex.py --clipboard;\nand search_google_scholar.py --open-access-only. Several sat in worked examples\nan agent would run verbatim.\n\ncitation_validation.md documented an &quot;auto-fix&quot; mode of validate_citations.py\nthat never existed -- the script only reports. Those sections now point at\nformat_bibtex.py, which is what rewrites.\n\nOther corrections:\n\n- --report wrote a JSON document to report.txt.\n- three of five declared dependencies were never imported.\n- Phase 2.5 was marked MANDATORY but needed web access that allowed-tools did\n  not grant; WebSearch and WebFetch are now declared.\n- no compatibility field, despite needing a Python version, a package, and\n  network access.\n- the schematics section told a citation skill to produce diagrams by default,\n  and named generate_schematic.py while generate_schematic_ai.py sat beside it\n  unexplained. Reduced to a pointer at scientific-schematics.\n- venue reference counts are labelled as rules of thumb rather than submission\n  requirements, which is what they are.\n\nDocuments search_openalex.py and the shared _common.py, and regenerates the\nworkflow diagram, which no longer matched what the skill does.\n\nVersion 1.8 -&gt; 2.0: format_bibtex.py no longer overwrites its input by default.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/3378ecea5702801512e18ad37d52fd069e8653b0",
-      "sha": "3378ece",
-      "fullSha": "3378ecea5702801512e18ad37d52fd069e8653b0",
-      "owner": "TKassis",
-      "published": "2026-07-31",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "citation-management: fix BibTeX corruption and metadata defects",
-      "description": "citation-management: fix BibTeX corruption and metadata defects\n\nThe field parser in format_bibtex.py and validate_citations.py matched\n`\\{([^}]*)\\}`, which stops at the first closing brace. Any title with a\nprotected term -- `{Highly accurate prediction with {AlphaFold}}` -- was\ntruncated mid-value, and rewriting it produced a .bib with unbalanced braces\nthat no BibTeX engine reads. extract_metadata.py emits that protection\ndeliberately, so the documented Phase 2 -&gt; Phase 3 pipeline corrupted its own\noutput, and format_bibtex.py defaulted to overwriting the input in place.\n\nReplace both parsers with a brace-depth scanner in scripts/_common.py, which\nalso owns entry rendering, page normalisation, and one citation-key scheme\nshared by every producer -- entries from Crossref, PubMed, OpenAlex, and\nScholar now collide when they are the same paper, which is what makes\ndeduplication work at all. Writing is opt-in: without --output or --in-place\nthe result goes to stdout and the input is untouched.\n\nAlso fixed:\n\n- pages: `replace(&#39;-&#39;, &#39;--&#39;)` turned `583--589` into `583----589`; PubMed&#39;s\n  abbreviated `1123-30` now expands to `1123--1130` rather than staying a\n  range that resolves to nothing.\n- publisher was read from Crossref and dropped by the writer, so every @book\n  and @techreport failed the required-field check.\n- an arXiv preprint with a DataCite DOI was typed @article with no journal --\n  guaranteed to fail validation. It is @misc unless journal_ref names a venue.\n- --url and PMCID were classified by identify_type but had no handler, so a\n  publisher URL without a DOI in its path errored out. URLs now resolve via\n  the citation_doi meta tag; PMCIDs via the NCBI ID converter.\n- citation keys were unsanitised in search_pubmed.py: `Müller2021pmid123`\n  and `O&#39;Brien2021pmid124` are not valid BibTeX keys.\n- DOIs were interpolated into API URLs unquoted.\n- verify_doi used HEAD on doi.org, which follows to the publisher; several\n  answer HEAD with 403 behind a bot check, so good DOIs looked unresolvable.\n  Ask Crossref, then DataCite, and treat transport failures as unknown.\n- valid_entries subtracted the error count from the entry count and reported\n  `Valid entries: -2` for a one-entry file.\n- structured abstracts kept only their first section; titles lost inline\n  markup and carried PubMed&#39;s trailing full stop.\n- two `note` fields could be emitted in one entry.\n- --auto-fix was advertised in --help as &quot;not implemented yet&quot; and did nothing.\n- venue_standards was assigned inside validate_file, so a fresh validator did\n  not have it.\n\nAdd search_openalex.py: ~250M works, keyless REST API, cursor pagination,\nabstracts rebuilt from the inverted index. The skill&#39;s own &quot;single source\nbias&quot; pitfall previously had only two sources to offer, one of them scraped.\n\nDrop the bundled schematic generators (1,148 lines) in favour of the\nscientific-schematics skill, and update the shared-copy contract accordingly.\n\nReference-list length is editorial judgement, so a venue shortfall is now a\nwarning; only an explicit --min-count is enforced as an error.\n\nDependencies drop from eight packages to two: bibtexparser, biopython,\ncrossref-commons, pylatexenc, and selenium were declared but never imported,\nand the parsing layer is now standard library.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/d39264b47c882508545baf8176950b54afe132ce",
-      "sha": "d39264b",
-      "fullSha": "d39264b47c882508545baf8176950b54afe132ce",
       "owner": "TKassis",
       "published": "2026-07-31",
       "label": "commit",
