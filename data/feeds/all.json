@@ -6,52 +6,100 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "hackernews:https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
-      "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
-      "title": "[Hacker News 热门] Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
-      "date_published": "2026-08-12T04:10:41Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills",
+      "url": "https://github.com/Yuan1z0825/nature-skills",
+      "title": "[Skills 清单] Yuan1z0825/nature-skills · 仓库总览",
+      "date_published": "2026-08-12T04:19:07Z"
     },
     {
-      "id": "hackernews:https://www.mayerowitz.io/blog/mario-meets-pareto",
-      "url": "https://www.mayerowitz.io/blog/mario-meets-pareto",
-      "title": "[Hacker News 热门] Mario Meets Pareto",
-      "date_published": "2026-08-12T04:10:41Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-academic-search",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-academic-search",
+      "title": "[Skills 清单] nature-academic-search",
+      "date_published": "2026-08-12T04:19:07Z"
     },
     {
-      "id": "hackernews:https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
-      "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
-      "title": "[Hacker News 热门] What happens if an entire class of workers loses faith in their careers",
-      "date_published": "2026-08-12T04:10:41Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-citation",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-citation",
+      "title": "[Skills 清单] nature-citation",
+      "date_published": "2026-08-12T04:19:07Z"
     },
     {
-      "id": "hackernews:https://www.lemonde.fr/en/france/article/2026/08/06/france-to-ban-unsolicited-telemarketing-calls-from-august-11_6756208_7.html",
-      "url": "https://www.lemonde.fr/en/france/article/2026/08/06/france-to-ban-unsolicited-telemarketing-calls-from-august-11_6756208_7.html",
-      "title": "[Hacker News 热门] France to ban unsolicited telemarketing calls",
-      "date_published": "2026-08-12T04:10:41Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-data",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-data",
+      "title": "[Skills 清单] nature-data",
+      "date_published": "2026-08-12T04:19:07Z"
     },
     {
-      "id": "hackernews:https://www.discoveryloop.com/",
-      "url": "https://www.discoveryloop.com/",
-      "title": "[Hacker News 热门] Discovery Loop",
-      "date_published": "2026-08-12T04:10:41Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-downloader",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-downloader",
+      "title": "[Skills 清单] nature-downloader",
+      "date_published": "2026-08-12T04:19:07Z"
     },
     {
-      "id": "hackernews:https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
-      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
-      "title": "[Hacker News 热门] AMD acquires Taalas to boost inference performance by etching models in silicon",
-      "date_published": "2026-08-12T04:10:41Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-experiment-log",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-experiment-log",
+      "title": "[Skills 清单] nature-experiment-log",
+      "date_published": "2026-08-12T04:19:07Z"
     },
     {
-      "id": "hackernews:https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers",
-      "url": "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers",
-      "title": "[Hacker News 热门] “Code was never the hard part” is an insult to all programmers",
-      "date_published": "2026-08-12T04:10:41Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-figure",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-figure",
+      "title": "[Skills 清单] nature-figure",
+      "date_published": "2026-08-12T04:19:07Z"
     },
     {
-      "id": "hackernews:https://www.bbc.com/news/articles/c1e1vg0gjl5o",
-      "url": "https://www.bbc.com/news/articles/c1e1vg0gjl5o",
-      "title": "[Hacker News 热门] US strikes $1.2B deal to pay German firm to halt offshore wind projects",
-      "date_published": "2026-08-12T04:10:41Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-literature-pipeline",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-literature-pipeline",
+      "title": "[Skills 清单] nature-literature-pipeline",
+      "date_published": "2026-08-12T04:19:07Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/1ea82ffff20f40077bf84b74182f55eeaf3d111d",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/1ea82ffff20f40077bf84b74182f55eeaf3d111d",
+      "title": "[最近提交] Update README.md",
+      "date_published": "2026-08-12T04:19:07Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/a816314de0bb985e7034886e01596059522255b9",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/a816314de0bb985e7034886e01596059522255b9",
+      "title": "[最近提交] chore: update star history",
+      "date_published": "2026-08-12T04:19:07Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/adb7b8a5a7d72ed6fe9f71e085785e9972dd8db2",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/adb7b8a5a7d72ed6fe9f71e085785e9972dd8db2",
+      "title": "[最近提交] 更新完善了nature-reader的相关功能 (#192)",
+      "date_published": "2026-08-12T04:19:07Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/f6e5f4d15694b82b1e836c32dd19a8fa1b223426",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/f6e5f4d15694b82b1e836c32dd19a8fa1b223426",
+      "title": "[最近提交] feat: add flagship Nature submission requirements (#190)",
+      "date_published": "2026-08-12T04:19:07Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/1ffb43b0f63583f004097432e213437167197dd8",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/1ffb43b0f63583f004097432e213437167197dd8",
+      "title": "[最近提交] fix: bust star history image cache (#189)",
+      "date_published": "2026-08-12T04:19:07Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/092c7d6b445cdde6f43f1f6e425a92a4ddfc7945",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/092c7d6b445cdde6f43f1f6e425a92a4ddfc7945",
+      "title": "[最近提交] feat: add current star count KPI (#188)",
+      "date_published": "2026-08-12T04:19:07Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/db6a3888a40c09b222b34aaeecfe5ed7fa620e15",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/db6a3888a40c09b222b34aaeecfe5ed7fa620e15",
+      "title": "[最近提交] chore: update star history (#187)",
+      "date_published": "2026-08-12T04:19:07Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/1a8c0208405fe73f3a617169d80fb3b388cd0e9f",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/1a8c0208405fe73f3a617169d80fb3b388cd0e9f",
+      "title": "[最近提交] Update README.md",
+      "date_published": "2026-08-12T04:19:07Z"
     }
   ]
 }
