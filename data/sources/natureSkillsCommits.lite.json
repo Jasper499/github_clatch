@@ -1,12 +1,32 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-08-12T15:24:43Z",
+  "savedAt": "2026-08-13T04:23:05Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "1ea82ffff20f40077bf84b74182f55eeaf3d111d",
+  "latestSha": "d1fb103c635e63288c0f2174460276b1ab7582d8",
   "items": [
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/d1fb103c635e63288c0f2174460276b1ab7582d8",
+      "sha": "d1fb103",
+      "fullSha": "d1fb103c635e63288c0f2174460276b1ab7582d8",
+      "owner": "github-actions",
+      "published": "2026-08-13",
+      "label": "commit"
+    },
+    {
+      "title": "Add Nature Machine Intelligence submission requirements (#195)",
+      "description": "Add Nature Machine Intelligence submission requirements (#195)\n\n* feat: add Nature Machine Intelligence submission contract\n\n* docs: document NMI submission support",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/fe7f972c8d5d1c7e08f5ee742dc49fa493614930",
+      "sha": "fe7f972",
+      "fullSha": "fe7f972c8d5d1c7e08f5ee742dc49fa493614930",
+      "owner": "Travisma2233",
+      "published": "2026-08-12",
+      "label": "commit"
+    },
     {
       "title": "Update README.md",
       "description": "Update README.md",
@@ -134,26 +154,6 @@
       "sha": "b4f82f1",
       "fullSha": "b4f82f145a6b6bcc9ab924a59e88e0623b32e2eb",
       "owner": "Travisma2233",
-      "published": "2026-08-05",
-      "label": "commit"
-    },
-    {
-      "title": "Update README.md",
-      "description": "Update README.md",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/43649b071a2ab057d5cdaeb739960272d5201c85",
-      "sha": "43649b0",
-      "fullSha": "43649b071a2ab057d5cdaeb739960272d5201c85",
-      "owner": "Yuan1z0825",
-      "published": "2026-08-05",
-      "label": "commit"
-    },
-    {
-      "title": "Update README.md",
-      "description": "Update README.md",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/b69005590fc4be3f9cf562c033967ecfc51f1ad7",
-      "sha": "b690055",
-      "fullSha": "b69005590fc4be3f9cf562c033967ecfc51f1ad7",
-      "owner": "Yuan1z0825",
       "published": "2026-08-05",
       "label": "commit"
     }

@@ -1,20 +1,30 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-08-12T15:24:43Z",
+  "changed": true,
+  "fetchedAt": "2026-08-13T04:23:05Z",
   "previousSha": "1ea82ffff20f40077bf84b74182f55eeaf3d111d",
-  "latestSha": "1ea82ffff20f40077bf84b74182f55eeaf3d111d",
+  "latestSha": "d1fb103c635e63288c0f2174460276b1ab7582d8",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "Update README.md",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/1ea82ffff20f40077bf84b74182f55eeaf3d111d",
-    "sha": "1ea82ff",
-    "published": "2026-08-10"
+    "title": "chore: update star history",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/d1fb103c635e63288c0f2174460276b1ab7582d8",
+    "sha": "d1fb103",
+    "published": "2026-08-13"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "chore: update star history",
+      "sha": "d1fb103",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/d1fb103c635e63288c0f2174460276b1ab7582d8"
+    },
+    {
+      "title": "Add Nature Machine Intelligence submission requirements (#195)",
+      "sha": "fe7f972",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/fe7f972c8d5d1c7e08f5ee742dc49fa493614930"
+    },
     {
       "title": "Update README.md",
       "sha": "1ea82ff",
@@ -29,16 +39,6 @@
       "title": "更新完善了nature-reader的相关功能 (#192)",
       "sha": "adb7b8a",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/adb7b8a5a7d72ed6fe9f71e085785e9972dd8db2"
-    },
-    {
-      "title": "feat: add flagship Nature submission requirements (#190)",
-      "sha": "f6e5f4d",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/f6e5f4d15694b82b1e836c32dd19a8fa1b223426"
-    },
-    {
-      "title": "fix: bust star history image cache (#189)",
-      "sha": "1ffb43b",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/1ffb43b0f63583f004097432e213437167197dd8"
     }
   ]
 }
