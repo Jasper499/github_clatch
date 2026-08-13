@@ -1,140 +1,130 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-08-13T02:40:39Z",
+  "savedAt": "2026-08-13T07:47:40Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-13，共 13 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-13，共 12 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-08-13",
   "items": [
     {
-      "title": "胖东来许昌老店关闭周边商户发声",
-      "description": "热 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%83%96%E4%B8%9C%E6%9D%A5%E8%AE%B8%E6%98%8C%E8%80%81%E5%BA%97%E5%85%B3%E9%97%AD%E5%91%A8%E8%BE%B9%E5%95%86%E6%88%B7%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
-      "score": 1004605,
+      "title": "花48万买事业编",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E8%8A%B148%E4%B8%87%E4%B9%B0%E4%BA%8B%E4%B8%9A%E7%BC%96&t=31&band_rank=1&Refer=top",
+      "score": 919927,
       "owner": "微博同城",
-      "label": "热",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1786605021
+    },
+    {
+      "title": "胖东来 房租翻倍",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E8%83%96%E4%B8%9C%E6%9D%A5%20%E6%88%BF%E7%A7%9F%E7%BF%BB%E5%80%8D&t=31&band_rank=1&Refer=top",
+      "score": 583705,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1786600579
+    },
+    {
+      "title": "男子帮朋友装空调不慎12楼坠亡",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E5%B8%AE%E6%9C%8B%E5%8F%8B%E8%A3%85%E7%A9%BA%E8%B0%83%E4%B8%8D%E6%85%8E12%E6%A5%BC%E5%9D%A0%E4%BA%A1%23&t=31&band_rank=1&Refer=top",
+      "score": 438418,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1786604480
+    },
+    {
+      "title": "手机壳 偷拍",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E6%89%8B%E6%9C%BA%E5%A3%B3%20%E5%81%B7%E6%8B%8D&t=31&band_rank=1&Refer=top",
+      "score": 394004,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1786594761
+    },
+    {
+      "title": "重罚台风请假员工公司多年0人参保",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%87%8D%E7%BD%9A%E5%8F%B0%E9%A3%8E%E8%AF%B7%E5%81%87%E5%91%98%E5%B7%A5%E5%85%AC%E5%8F%B8%E5%A4%9A%E5%B9%B40%E4%BA%BA%E5%8F%82%E4%BF%9D%23&t=31&band_rank=1&Refer=top",
+      "score": 315699,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1786593680
+    },
+    {
+      "title": "花48万买事业编事没办成中间人拒退款",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%8A%B148%E4%B8%87%E4%B9%B0%E4%BA%8B%E4%B8%9A%E7%BC%96%E4%BA%8B%E6%B2%A1%E5%8A%9E%E6%88%90%E4%B8%AD%E9%97%B4%E4%BA%BA%E6%8B%92%E9%80%80%E6%AC%BE%23&t=31&band_rank=1&Refer=top",
+      "score": 301357,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1786603640
+    },
+    {
+      "title": "为什么结婚少了离婚多了",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%BA%E4%BB%80%E4%B9%88%E7%BB%93%E5%A9%9A%E5%B0%91%E4%BA%86%E7%A6%BB%E5%A9%9A%E5%A4%9A%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 227621,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1786596201
+    },
+    {
+      "title": "婚外胚胎案再添新诉讼",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A9%9A%E5%A4%96%E8%83%9A%E8%83%8E%E6%A1%88%E5%86%8D%E6%B7%BB%E6%96%B0%E8%AF%89%E8%AE%BC%23&t=31&band_rank=1&Refer=top",
+      "score": 207447,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1786598001
+    },
+    {
+      "title": "七旬老人组队起诉前东家追讨1.4亿",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%83%E6%97%AC%E8%80%81%E4%BA%BA%E7%BB%84%E9%98%9F%E8%B5%B7%E8%AF%89%E5%89%8D%E4%B8%9C%E5%AE%B6%E8%BF%BD%E8%AE%A81.4%E4%BA%BF%23&t=31&band_rank=1&Refer=top",
+      "score": 199340,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1786606040
+    },
+    {
+      "title": "男子欠31万不还把百万货款转母亲账户",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E6%AC%A031%E4%B8%87%E4%B8%8D%E8%BF%98%E6%8A%8A%E7%99%BE%E4%B8%87%E8%B4%A7%E6%AC%BE%E8%BD%AC%E6%AF%8D%E4%BA%B2%E8%B4%A6%E6%88%B7%23&t=31&band_rank=1&Refer=top",
+      "score": 180036,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1786607120
+    },
+    {
+      "title": "胖东来许昌老店关闭周边商户发声",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%83%96%E4%B8%9C%E6%9D%A5%E8%AE%B8%E6%98%8C%E8%80%81%E5%BA%97%E5%85%B3%E9%97%AD%E5%91%A8%E8%BE%B9%E5%95%86%E6%88%B7%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
+      "score": 177822,
+      "owner": "微博同城",
+      "label": "",
       "category": "民生新闻",
       "onboardTime": 1786550601
     },
     {
-      "title": "男子分手十多年想要回30克金手镯",
+      "title": "两弹一星元勋王希季逝世",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E5%88%86%E6%89%8B%E5%8D%81%E5%A4%9A%E5%B9%B4%E6%83%B3%E8%A6%81%E5%9B%9E30%E5%85%8B%E9%87%91%E6%89%8B%E9%95%AF%23&t=31&band_rank=1&Refer=top",
-      "score": 799465,
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%A4%E5%BC%B9%E4%B8%80%E6%98%9F%E5%85%83%E5%8B%8B%E7%8E%8B%E5%B8%8C%E5%AD%A3%E9%80%9D%E4%B8%96%23&t=31&band_rank=1&Refer=top",
+      "score": 154350,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1786581741
-    },
-    {
-      "title": "员工台风天临时请假被罚近1500元",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%91%98%E5%B7%A5%E5%8F%B0%E9%A3%8E%E5%A4%A9%E4%B8%B4%E6%97%B6%E8%AF%B7%E5%81%87%E8%A2%AB%E7%BD%9A%E8%BF%911500%E5%85%83%23&t=31&band_rank=1&Refer=top",
-      "score": 348720,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1786583061
-    },
-    {
-      "title": "Lululemon劲敌来中国了",
-      "description": "民生新闻,时尚",
-      "url": "https://s.weibo.com/weibo?q=%23Lululemon%E5%8A%B2%E6%95%8C%E6%9D%A5%E4%B8%AD%E5%9B%BD%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 264618,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻,时尚",
-      "onboardTime": 1786550241
-    },
-    {
-      "title": "业内人士谈结婚登记下降3大原因",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%9A%E5%86%85%E4%BA%BA%E5%A3%AB%E8%B0%88%E7%BB%93%E5%A9%9A%E7%99%BB%E8%AE%B0%E4%B8%8B%E9%99%8D3%E5%A4%A7%E5%8E%9F%E5%9B%A0%23&t=31&band_rank=1&Refer=top",
-      "score": 261852,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1786585699
-    },
-    {
-      "title": "流星雨",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E6%B5%81%E6%98%9F%E9%9B%A8&t=31&band_rank=1&Refer=top",
-      "score": 261767,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1786577899
-    },
-    {
-      "title": "升学宴35桌无人上桌",
-      "description": "热 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%8D%87%E5%AD%A6%E5%AE%B435%E6%A1%8C%E6%97%A0%E4%BA%BA%E4%B8%8A%E6%A1%8C&t=31&band_rank=1&Refer=top",
-      "score": 259465,
-      "owner": "微博同城",
-      "label": "热",
-      "category": "民生新闻",
-      "onboardTime": 1786554078
-    },
-    {
-      "title": "作家李娟10年没见妈妈了",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%BD%9C%E5%AE%B6%E6%9D%8E%E5%A8%9F10%E5%B9%B4%E6%B2%A1%E8%A7%81%E5%A6%88%E5%A6%88%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 259003,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1786584741
-    },
-    {
-      "title": "有人吐槽Alo上千的衣服起球",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9C%89%E4%BA%BA%E5%90%90%E6%A7%BDAlo%E4%B8%8A%E5%8D%83%E7%9A%84%E8%A1%A3%E6%9C%8D%E8%B5%B7%E7%90%83%23&t=31&band_rank=1&Refer=top",
-      "score": 252020,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1786588340
-    },
-    {
-      "title": "为防住客薅羊毛酒店更换壁挂洗护",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%BA%E9%98%B2%E4%BD%8F%E5%AE%A2%E8%96%85%E7%BE%8A%E6%AF%9B%E9%85%92%E5%BA%97%E6%9B%B4%E6%8D%A2%E5%A3%81%E6%8C%82%E6%B4%97%E6%8A%A4%23&t=31&band_rank=1&Refer=top",
-      "score": 219455,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1786587621
-    },
-    {
-      "title": "银行能办结婚证了",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E9%93%B6%E8%A1%8C%E8%83%BD%E5%8A%9E%E7%BB%93%E5%A9%9A%E8%AF%81%E4%BA%86&t=31&band_rank=1&Refer=top",
-      "score": 200622,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1786530866
-    },
-    {
-      "title": "台风白海豚为何沿海登陆却影响北方",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8F%B0%E9%A3%8E%E7%99%BD%E6%B5%B7%E8%B1%9A%E4%B8%BA%E4%BD%95%E6%B2%BF%E6%B5%B7%E7%99%BB%E9%99%86%E5%8D%B4%E5%BD%B1%E5%93%8D%E5%8C%97%E6%96%B9%23&t=31&band_rank=1&Refer=top",
-      "score": 155142,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1786588641
-    },
-    {
-      "title": "名创优品争议姿势手办已售罄",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%90%8D%E5%88%9B%E4%BC%98%E5%93%81%E4%BA%89%E8%AE%AE%E5%A7%BF%E5%8A%BF%E6%89%8B%E5%8A%9E%E5%B7%B2%E5%94%AE%E7%BD%84%23&t=31&band_rank=1&Refer=top",
-      "score": 154293,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1786584918
+      "onboardTime": 1786599199
     }
   ]
 }
