@@ -6,148 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E7%A0%B830%E4%B8%87%E8%A1%A5%E8%AF%BE%E5%88%B0700%E5%88%86%E6%9C%80%E5%90%8E%E4%B8%8A%E4%BA%86%E8%81%8C%E6%A0%A1%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%A0%B830%E4%B8%87%E8%A1%A5%E8%AF%BE%E5%88%B0700%E5%88%86%E6%9C%80%E5%90%8E%E4%B8%8A%E4%BA%86%E8%81%8C%E6%A0%A1%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 砸30万补课到700分最后上了职校",
-      "date_published": "2026-08-13T13:38:29Z"
+      "id": "hackernews:https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "title": "[Hacker News 热门] Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
+      "date_published": "2026-08-13T15:00:58Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E4%BA%94%E5%85%AC%E7%AB%99%E5%A7%90%E5%87%BA%E5%9B%BE&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E4%BA%94%E5%85%AC%E7%AB%99%E5%A7%90%E5%87%BA%E5%9B%BE&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 五公站姐出图",
-      "date_published": "2026-08-13T13:38:29Z"
+      "id": "hackernews:https://tailscale.com/blog/sqlite-wal-reset-bug",
+      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
+      "title": "[Hacker News 热门] Tracking down the 16-year-old WAL-reset SQLite bug",
+      "date_published": "2026-08-13T15:00:58Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E7%A2%B3%E6%8E%92%E6%94%BE%E6%9D%83%E4%BA%A4%E6%98%93%E5%B8%82%E5%9C%BA%E6%88%90%E4%BA%A4%E9%87%8F%E7%A0%B49%E4%BA%BF%E5%90%A8%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%A2%B3%E6%8E%92%E6%94%BE%E6%9D%83%E4%BA%A4%E6%98%93%E5%B8%82%E5%9C%BA%E6%88%90%E4%BA%A4%E9%87%8F%E7%A0%B49%E4%BA%BF%E5%90%A8%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 碳排放权交易市场成交量破9亿吨",
-      "date_published": "2026-08-13T13:38:29Z"
+      "id": "hackernews:https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
+      "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
+      "title": "[Hacker News 热门] What happens if an entire class of workers loses faith in their careers",
+      "date_published": "2026-08-13T15:00:58Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E7%8E%8B%E6%A9%B9%E6%9D%B0%E5%AF%B9%E7%9D%80%E8%93%9D%E7%B2%89%E6%B5%B7%E5%81%B7%E7%AC%91&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E6%A9%B9%E6%9D%B0%E5%AF%B9%E7%9D%80%E8%93%9D%E7%B2%89%E6%B5%B7%E5%81%B7%E7%AC%91&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 王橹杰对着蓝粉海偷笑",
-      "date_published": "2026-08-13T13:38:29Z"
+      "id": "hackernews:https://www.lemonde.fr/en/france/article/2026/08/06/france-to-ban-unsolicited-telemarketing-calls-from-august-11_6756208_7.html",
+      "url": "https://www.lemonde.fr/en/france/article/2026/08/06/france-to-ban-unsolicited-telemarketing-calls-from-august-11_6756208_7.html",
+      "title": "[Hacker News 热门] France to ban unsolicited telemarketing calls",
+      "date_published": "2026-08-13T15:00:58Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E7%A0%B4%E5%B1%80%20%E9%9A%BE%E5%90%AC&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E7%A0%B4%E5%B1%80%20%E9%9A%BE%E5%90%AC&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 破局 难听",
-      "date_published": "2026-08-13T13:38:29Z"
+      "id": "hackernews:https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+      "title": "[Hacker News 热门] DeepSeek V4 Pro 0813",
+      "date_published": "2026-08-13T15:00:58Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80%20%E4%B8%AD%E5%9B%BD%E5%B8%82%E5%80%BC%E6%9C%80%E5%A4%A7%E4%B8%8A%E5%B8%82%E5%85%AC%E5%8F%B8&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80%20%E4%B8%AD%E5%9B%BD%E5%B8%82%E5%80%BC%E6%9C%80%E5%A4%A7%E4%B8%8A%E5%B8%82%E5%85%AC%E5%8F%B8&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 长鑫科技 中国市值最大上市公司",
-      "date_published": "2026-08-13T13:38:29Z"
+      "id": "hackernews:https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+      "title": "[Hacker News 热门] AMD acquires Taalas to boost inference performance by etching models in silicon",
+      "date_published": "2026-08-13T15:00:58Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E9%AD%8F%E5%AD%90%E5%AE%B8%E5%A5%BD%E5%B8%85&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E9%AD%8F%E5%AD%90%E5%AE%B8%E5%A5%BD%E5%B8%85&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 魏子宸好帅",
-      "date_published": "2026-08-13T13:38:29Z"
+      "id": "hackernews:https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+      "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+      "title": "[Hacker News 热门] AI is removing the middle class of software engineering?",
+      "date_published": "2026-08-13T15:00:58Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E7%BD%97%E6%B0%8F%E8%99%BE%E8%87%AA%E5%8A%A9%E5%90%8312%E5%8F%AA%E5%9B%9E%E6%9C%AC%E5%A4%AA%E7%88%BD%E4%BA%86&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E7%BD%97%E6%B0%8F%E8%99%BE%E8%87%AA%E5%8A%A9%E5%90%8312%E5%8F%AA%E5%9B%9E%E6%9C%AC%E5%A4%AA%E7%88%BD%E4%BA%86&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 罗氏虾自助吃12只回本太爽了",
-      "date_published": "2026-08-13T13:38:29Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%8C%97%E7%94%B5%E7%A5%9D%E8%B4%BA%E5%88%98%E8%80%80%E6%96%87%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8C%97%E7%94%B5%E7%A5%9D%E8%B4%BA%E5%88%98%E8%80%80%E6%96%87%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 北电祝贺刘耀文",
-      "date_published": "2026-08-13T13:38:29Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E9%99%88%E5%A5%95%E6%81%92%E5%A5%BD%E6%B8%85%E6%99%B0%E7%9A%84%E7%94%9F%E5%9B%BE&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E9%99%88%E5%A5%95%E6%81%92%E5%A5%BD%E6%B8%85%E6%99%B0%E7%9A%84%E7%94%9F%E5%9B%BE&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 陈奕恒好清晰的生图",
-      "date_published": "2026-08-13T13:38:29Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23A%E8%82%A1%E7%9B%B4%E7%BA%BF%E8%B7%B3%E6%B0%B4%E5%8E%9F%E5%9B%A0%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23A%E8%82%A1%E7%9B%B4%E7%BA%BF%E8%B7%B3%E6%B0%B4%E5%8E%9F%E5%9B%A0%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] A股直线跳水原因",
-      "date_published": "2026-08-13T13:38:29Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%BC%82%E5%9C%B0%E5%B0%B1%E5%8C%BB%E5%8E%BB%E5%B9%B4%E8%83%BD%E6%8A%A5%E4%BB%8A%E5%B9%B4%E4%B8%8D%E7%BB%99%E6%8A%A5%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%BC%82%E5%9C%B0%E5%B0%B1%E5%8C%BB%E5%8E%BB%E5%B9%B4%E8%83%BD%E6%8A%A5%E4%BB%8A%E5%B9%B4%E4%B8%8D%E7%BB%99%E6%8A%A5%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 异地就医去年能报今年不给报",
-      "date_published": "2026-08-13T13:38:29Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%9B%9B%E4%BB%A3%E4%BA%94%E5%85%AC%E5%A4%A7%E5%B1%8F%E5%9D%8F%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%9B%9B%E4%BB%A3%E4%BA%94%E5%85%AC%E5%A4%A7%E5%B1%8F%E5%9D%8F%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 四代五公大屏坏了",
-      "date_published": "2026-08-13T13:38:29Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E7%A7%A6Max%E4%BB%B7%E6%A0%BC&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E7%A7%A6Max%E4%BB%B7%E6%A0%BC&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 秦Max价格",
-      "date_published": "2026-08-13T13:38:29Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E9%99%88%E5%86%A0%E5%B8%8C%E4%B8%80%E5%AE%B6%E5%9B%9B%E5%8F%A3%E5%9C%A8%E5%B7%B4%E9%BB%8E%E8%A2%AB%E5%81%B6%E9%81%87&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E9%99%88%E5%86%A0%E5%B8%8C%E4%B8%80%E5%AE%B6%E5%9B%9B%E5%8F%A3%E5%9C%A8%E5%B7%B4%E9%BB%8E%E8%A2%AB%E5%81%B6%E9%81%87&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 陈冠希一家四口在巴黎被偶遇",
-      "date_published": "2026-08-13T13:38:29Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E9%80%80%E4%BC%91236%E5%A4%A9%E5%A4%A7%E5%A7%90%E7%8A%B6%E6%80%81%E5%A4%A7%E5%8F%98%E6%A0%B7%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%80%80%E4%BC%91236%E5%A4%A9%E5%A4%A7%E5%A7%90%E7%8A%B6%E6%80%81%E5%A4%A7%E5%8F%98%E6%A0%B7%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 退休236天大姐状态大变样",
-      "date_published": "2026-08-13T13:38:29Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E7%A0%B830%E4%B8%87%E8%A1%A5%E8%AF%BE%E5%88%B0700%E5%88%86%E6%9C%80%E5%90%8E%E4%B8%8A%E4%BA%86%E8%81%8C%E6%A0%A1%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%A0%B830%E4%B8%87%E8%A1%A5%E8%AF%BE%E5%88%B0700%E5%88%86%E6%9C%80%E5%90%8E%E4%B8%8A%E4%BA%86%E8%81%8C%E6%A0%A1%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 砸30万补课到700分最后上了职校",
-      "date_published": "2026-08-13T13:38:29Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E7%A2%B3%E6%8E%92%E6%94%BE%E6%9D%83%E4%BA%A4%E6%98%93%E5%B8%82%E5%9C%BA%E6%88%90%E4%BA%A4%E9%87%8F%E7%A0%B49%E4%BA%BF%E5%90%A8%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%A2%B3%E6%8E%92%E6%94%BE%E6%9D%83%E4%BA%A4%E6%98%93%E5%B8%82%E5%9C%BA%E6%88%90%E4%BA%A4%E9%87%8F%E7%A0%B49%E4%BA%BF%E5%90%A8%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 碳排放权交易市场成交量破9亿吨",
-      "date_published": "2026-08-13T13:38:29Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E6%B7%B1%E5%9C%B3%E5%A5%B3%E7%94%9F%E4%B8%80%E5%A4%A91500%E4%B8%93%E9%97%A8%E5%8A%9D%E4%BA%BA%E5%88%AB%E4%B9%B0%E6%88%BF&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E6%B7%B1%E5%9C%B3%E5%A5%B3%E7%94%9F%E4%B8%80%E5%A4%A91500%E4%B8%93%E9%97%A8%E5%8A%9D%E4%BA%BA%E5%88%AB%E4%B9%B0%E6%88%BF&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 深圳女生一天1500专门劝人别买房",
-      "date_published": "2026-08-13T13:38:29Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%BC%82%E5%9C%B0%E5%B0%B1%E5%8C%BB%E5%8E%BB%E5%B9%B4%E8%83%BD%E6%8A%A5%E4%BB%8A%E5%B9%B4%E4%B8%8D%E7%BB%99%E6%8A%A5%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%BC%82%E5%9C%B0%E5%B0%B1%E5%8C%BB%E5%8E%BB%E5%B9%B4%E8%83%BD%E6%8A%A5%E4%BB%8A%E5%B9%B4%E4%B8%8D%E7%BB%99%E6%8A%A5%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 异地就医去年能报今年不给报",
-      "date_published": "2026-08-13T13:38:29Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E5%9C%B0%E4%B8%8B%E8%AF%95%E7%AE%A1%E5%A9%B4%E5%84%BF&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%9C%B0%E4%B8%8B%E8%AF%95%E7%AE%A1%E5%A9%B4%E5%84%BF&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 地下试管婴儿",
-      "date_published": "2026-08-13T13:38:29Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E8%99%90%E5%BE%85%E4%BA%B2%E7%94%9F%E5%A5%B3%E5%84%BF%E8%87%B4%E6%AD%BB%E5%90%8E%E6%82%A3%E9%87%8D%E5%BA%A6%E6%8A%91%E9%83%81%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E8%99%90%E5%BE%85%E4%BA%B2%E7%94%9F%E5%A5%B3%E5%84%BF%E8%87%B4%E6%AD%BB%E5%90%8E%E6%82%A3%E9%87%8D%E5%BA%A6%E6%8A%91%E9%83%81%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 女子虐待亲生女儿致死后患重度抑郁",
-      "date_published": "2026-08-13T13:38:29Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E9%80%80%E4%BC%91236%E5%A4%A9%E5%A4%A7%E5%A7%90%E7%8A%B6%E6%80%81%E5%A4%A7%E5%8F%98%E6%A0%B7%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%80%80%E4%BC%91236%E5%A4%A9%E5%A4%A7%E5%A7%90%E7%8A%B6%E6%80%81%E5%A4%A7%E5%8F%98%E6%A0%B7%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 退休236天大姐状态大变样",
-      "date_published": "2026-08-13T13:38:29Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%2390%E5%90%8E%E5%A5%B3%E5%AD%90%E7%88%B1%E7%94%9F%E9%97%B7%E6%B0%94%E4%B9%B3%E8%85%BA%E7%99%8C%E5%8E%BB%E4%B8%96%E4%B8%88%E5%A4%AB%E7%97%9B%E5%93%AD%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%2390%E5%90%8E%E5%A5%B3%E5%AD%90%E7%88%B1%E7%94%9F%E9%97%B7%E6%B0%94%E4%B9%B3%E8%85%BA%E7%99%8C%E5%8E%BB%E4%B8%96%E4%B8%88%E5%A4%AB%E7%97%9B%E5%93%AD%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 90后女子爱生闷气乳腺癌去世丈夫痛哭",
-      "date_published": "2026-08-13T13:38:29Z"
+      "id": "hackernews:https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers",
+      "url": "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers",
+      "title": "[Hacker News 热门] “Code was never the hard part” is an insult to all programmers",
+      "date_published": "2026-08-13T15:00:58Z"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-08-13T04:15:49Z",
+  "savedAt": "2026-08-13T15:00:58Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-08-13，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,56 +10,72 @@
       "title": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
       "description": "",
       "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
-      "score": 1198,
+      "score": 1199,
       "comments": 637,
       "owner": "riordan"
     },
     {
-      "title": "Mario Meets Pareto",
+      "title": "Tracking down the 16-year-old WAL-reset SQLite bug",
       "description": "",
-      "url": "https://www.mayerowitz.io/blog/mario-meets-pareto",
-      "score": 1184,
-      "comments": 169,
-      "owner": "theanonymousone"
+      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
+      "score": 1132,
+      "comments": 216,
+      "owner": "ropbear"
     },
     {
       "title": "What happens if an entire class of workers loses faith in their careers",
       "description": "",
       "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
       "score": 1096,
-      "comments": 1330,
+      "comments": 1331,
       "owner": "RickJWagner"
     },
     {
       "title": "France to ban unsolicited telemarketing calls",
       "description": "",
       "url": "https://www.lemonde.fr/en/france/article/2026/08/06/france-to-ban-unsolicited-telemarketing-calls-from-august-11_6756208_7.html",
-      "score": 1051,
-      "comments": 506,
+      "score": 1054,
+      "comments": 508,
       "owner": "aziaziazi"
+    },
+    {
+      "title": "DeepSeek V4 Pro 0813",
+      "description": "<a href=\"https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;models&#x2F;deepseek-v4-pro\" rel=\"nofollow\">https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;models&#x2F;deepseek-v4-pro</a><p><a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;ChrisGPT&#x2F;status&#x2F;2087572834650407024\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;ChrisGPT&#x2F;status&#x2F;2087572834650407024</a>, <a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;ChrisGPT&#x2F;status&#x2F;2087572834650407024\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;ChrisGPT&#x2F;status&#x2F;2087572834650407024</a>",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+      "score": 999,
+      "comments": 428,
+      "owner": "explosion-s"
     },
     {
       "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
       "description": "<a href=\"https:&#x2F;&#x2F;ir.amd.com&#x2F;news-events&#x2F;press-releases&#x2F;detail&#x2F;1296&#x2F;amd-acquires-taalas-to-advance-compute-solutions-for-rapidly-growing-ai-inference-market\" rel=\"nofollow\">https:&#x2F;&#x2F;ir.amd.com&#x2F;news-events&#x2F;press-releases&#x2F;detail&#x2F;1296&#x2F;am...</a><p><a href=\"https:&#x2F;&#x2F;chatjimmy.ai&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;chatjimmy.ai&#x2F;</a>",
       "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
       "score": 944,
-      "comments": 718,
+      "comments": 719,
       "owner": "itvision"
+    },
+    {
+      "title": "AI is removing the middle class of software engineering?",
+      "description": "",
+      "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+      "score": 933,
+      "comments": 847,
+      "owner": "florianherrengt"
     },
     {
       "title": "“Code was never the hard part” is an insult to all programmers",
       "description": "",
       "url": "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers",
       "score": 933,
-      "comments": 577,
+      "comments": 580,
       "owner": "senko"
     },
     {
       "title": "As AI eats the web, the internet’s collective memory is disappearing",
       "description": "",
       "url": "https://thewalrus.ca/google-search-is-dying/",
-      "score": 927,
-      "comments": 963,
+      "score": 932,
+      "comments": 969,
       "owner": "awnird"
     },
     {
@@ -71,18 +87,10 @@
       "owner": "defrost"
     },
     {
-      "title": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
-      "description": "",
-      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
-      "score": 872,
-      "comments": 168,
-      "owner": "ropbear"
-    },
-    {
       "title": "How I use LLMs to learn complex topics",
       "description": "",
       "url": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
-      "score": 820,
+      "score": 822,
       "comments": 544,
       "owner": "laurentiurad"
     },
@@ -95,14 +103,6 @@
       "owner": "boplicity"
     },
     {
-      "title": "DeepSeek V4 Pro 0813",
-      "description": "",
-      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
-      "score": 806,
-      "comments": 315,
-      "owner": "explosion-s"
-    },
-    {
       "title": "DeepSeek V4 Flash 0731",
       "description": "",
       "url": "https://arcprize.org/results/deepseek-v4-flash-0731",
@@ -111,60 +111,60 @@
       "owner": "tosh"
     },
     {
-      "title": "AI is removing the middle class of software engineering?",
-      "description": "",
-      "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
-      "score": 779,
-      "comments": 722,
-      "owner": "florianherrengt"
-    },
-    {
       "title": "Taste Is All That's Left",
       "description": "",
       "url": "https://notashelf.dev/posts/taste-is-all-thats-left",
-      "score": 701,
-      "comments": 545,
+      "score": 702,
+      "comments": 547,
       "owner": "tsak"
     },
     {
-      "title": "Crime Pays but Botany Doesn't",
-      "description": "",
-      "url": "https://www.crimepaysbutbotanydoesnt.com/reading-list",
-      "score": 699,
-      "comments": 215,
-      "owner": "DarkContinent"
+      "title": "Qwen3.8-2.4T",
+      "description": "<a href=\"https:&#x2F;&#x2F;huggingface.co&#x2F;Qwen&#x2F;Qwen3.8-2.4T-A95B-FP8\" rel=\"nofollow\">https:&#x2F;&#x2F;huggingface.co&#x2F;Qwen&#x2F;Qwen3.8-2.4T-A95B-FP8</a>",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+      "score": 691,
+      "comments": 161,
+      "owner": "Philpax"
     },
     {
       "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
       "description": "",
       "url": "https://www.docker.com/products/docker-sandboxes/",
       "score": 690,
-      "comments": 393,
+      "comments": 394,
       "owner": "etoxin"
     },
     {
       "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
       "description": "",
       "url": "https://stolen-thoughts.com/",
-      "score": 684,
-      "comments": 300,
+      "score": 688,
+      "comments": 302,
       "owner": "quantumgarbage"
     },
     {
       "title": "Windows 11's built-in Weather app wastes more than 1 GB of RAM",
       "description": "",
       "url": "https://www.notebookcheck.net/Windows-11-s-built-in-Weather-app-wastes-more-than-1-GB-of-RAM.1364205.0.html",
-      "score": 666,
-      "comments": 592,
+      "score": 667,
+      "comments": 594,
       "owner": "akyuu"
     },
     {
       "title": "The UK's war on anonymity has come to America",
       "description": "",
       "url": "https://www.effort.news/uk-lobby",
-      "score": 662,
-      "comments": 757,
+      "score": 664,
+      "comments": 758,
       "owner": "slowin"
+    },
+    {
+      "title": "Danish high schoolers will have to verbally defend written assignments",
+      "description": "",
+      "url": "https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral/",
+      "score": 654,
+      "comments": 283,
+      "owner": "theanonymousone"
     }
   ]
 }
