@@ -1,10 +1,10 @@
 {
   "sourceKey": "chinaDaily",
-  "savedAt": "2026-08-13T04:50:37Z",
+  "savedAt": "2026-08-14T04:47:56Z",
   "label": "China Daily 热门",
-  "description": "China Daily Most Viewed / 首页热门（2026-08-13，共 20 条，每天更新）",
+  "description": "China Daily Most Viewed / 首页热门（2026-08-14，共 20 条，每天更新）",
   "updateFrequency": "daily",
-  "fetchedDate": "2026-08-13",
+  "fetchedDate": "2026-08-14",
   "items": [
     {
       "title": "Spark curiosity to build the bridge",
@@ -207,40 +207,38 @@
       "image": "https://img2.chinadaily.com.cn/images/202608/11/6a7a7bf7a310986e101b4375.jpeg"
     },
     {
-      "title": "In Xi's footsteps: Achieving harmony with nature (8)",
-      "url": "https://www.chinadaily.com.cn/a/202608/13/WS6a7d2179a31073853ec5316f.html",
+      "title": "Visionary Pathway: A Long March to Green",
+      "url": "https://www.chinadaily.com.cn/a/202608/14/WS6a7e76a6a31073853ec53471.html",
       "score": 0,
-      "published": "2026-08-13",
+      "published": "2026-08-14",
       "source": "homepage",
       "rank": 18,
-      "description": "Following in his footsteps across China, let's explore his vision of harmony between humanity and nature.",
-      "owner": "Zhang Wenfang",
+      "description": "Changting county in Fujian province was once one of the areas most severely affected by soil erosion in southern China. During his tenure in Fujian, Xi Jinping visited Changting five times, personally advancing efforts to restore its fragile ecosystem.",
+      "owner": "China Daily",
       "label": "Top News",
-      "image": "https://img2.chinadaily.com.cn/images/202608/13/6a7d24a7a31073853158e6a5.jpeg"
+      "image": "https://img2.chinadaily.com.cn/images/202608/14/6a7e76a6a31073853158fa51.png"
     },
     {
-      "title": "Movie-themed train turns travels into cultural trips",
-      "url": "https://www.chinadaily.com.cn/a/202608/13/WS6a7cffb1a31073853ec5305a.html",
+      "title": "Timeless Chinese philosophy rooted in forest tea",
+      "url": "https://www.chinadaily.com.cn/a/202608/14/WS6a7e7c79a31073853ec534c0.html",
       "score": 0,
-      "published": "2026-08-13",
+      "published": "2026-08-14",
       "source": "homepage",
       "rank": 19,
-      "description": "When the Z174 train reached Shanghai Railway Station at 1:14 pm on Tuesday, the curtain came down on passenger Li Xin's enchanting 24-hour journey from Harbin in Heilongjiang province — much like a classic movie but without the scrolling credits at the end.",
-      "owner": "ZHOU HUIYING in Harbin",
-      "label": "Top News",
-      "image": "https://img2.chinadaily.com.cn/images/202608/13/6a7cffb1a31073853158de95.jpeg"
+      "description": "On August 15, China marks National Ecology Day, a moment to reflect on our relationship with the natural world.",
+      "owner": "China Daily",
+      "label": "Top News"
     },
     {
-      "title": "Tourists add tech trips to itineraries",
-      "url": "https://www.chinadaily.com.cn/a/202608/13/WS6a7d210ea31073853ec53162.html",
+      "title": "Visitors to Beijing see the city from a fresh perspective",
+      "url": "https://www.chinadaily.com.cn/a/202608/14/WS6a7e693aa31073853ec533a6.html",
       "score": 0,
-      "published": "2026-08-13",
+      "published": "2026-08-14",
       "source": "homepage",
       "rank": 20,
-      "description": "Drones, humanoid robots, brain-computer interfaces being added to expanded tours.",
-      "owner": "LI JING",
-      "label": "Top News",
-      "image": "https://img2.chinadaily.com.cn/images/202608/13/6a7d210da31073853158e5c9.png"
+      "description": "Many first-time visitors come to Beijing for its famous landmarks. Some leave captivated by the rooftops.",
+      "owner": "ZHENG JINRAN",
+      "label": "Top News"
     }
   ]
 }
