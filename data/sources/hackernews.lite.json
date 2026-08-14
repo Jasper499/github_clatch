@@ -1,16 +1,16 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-08-13T15:00:58Z",
+  "savedAt": "2026-08-14T04:12:16Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-08-13，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-08-14，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-08-13",
+  "fetchedDate": "2026-08-14",
   "items": [
     {
       "title": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
       "description": "",
       "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
-      "score": 1199,
+      "score": 1200,
       "comments": 637,
       "owner": "riordan"
     },
@@ -18,16 +18,16 @@
       "title": "Tracking down the 16-year-old WAL-reset SQLite bug",
       "description": "",
       "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
-      "score": 1132,
-      "comments": 216,
+      "score": 1179,
+      "comments": 228,
       "owner": "ropbear"
     },
     {
       "title": "What happens if an entire class of workers loses faith in their careers",
       "description": "",
       "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
-      "score": 1096,
-      "comments": 1331,
+      "score": 1100,
+      "comments": 1332,
       "owner": "RickJWagner"
     },
     {
@@ -42,47 +42,39 @@
       "title": "DeepSeek V4 Pro 0813",
       "description": "<a href=\"https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;models&#x2F;deepseek-v4-pro\" rel=\"nofollow\">https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;models&#x2F;deepseek-v4-pro</a><p><a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;ChrisGPT&#x2F;status&#x2F;2087572834650407024\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;ChrisGPT&#x2F;status&#x2F;2087572834650407024</a>, <a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;ChrisGPT&#x2F;status&#x2F;2087572834650407024\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;ChrisGPT&#x2F;status&#x2F;2087572834650407024</a>",
       "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
-      "score": 999,
-      "comments": 428,
+      "score": 1018,
+      "comments": 441,
       "owner": "explosion-s"
-    },
-    {
-      "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
-      "description": "<a href=\"https:&#x2F;&#x2F;ir.amd.com&#x2F;news-events&#x2F;press-releases&#x2F;detail&#x2F;1296&#x2F;amd-acquires-taalas-to-advance-compute-solutions-for-rapidly-growing-ai-inference-market\" rel=\"nofollow\">https:&#x2F;&#x2F;ir.amd.com&#x2F;news-events&#x2F;press-releases&#x2F;detail&#x2F;1296&#x2F;am...</a><p><a href=\"https:&#x2F;&#x2F;chatjimmy.ai&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;chatjimmy.ai&#x2F;</a>",
-      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
-      "score": 944,
-      "comments": 719,
-      "owner": "itvision"
     },
     {
       "title": "AI is removing the middle class of software engineering?",
       "description": "",
       "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
-      "score": 933,
-      "comments": 847,
+      "score": 966,
+      "comments": 894,
       "owner": "florianherrengt"
     },
     {
       "title": "“Code was never the hard part” is an insult to all programmers",
       "description": "",
       "url": "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers",
-      "score": 933,
-      "comments": 580,
+      "score": 935,
+      "comments": 581,
       "owner": "senko"
     },
     {
       "title": "As AI eats the web, the internet’s collective memory is disappearing",
       "description": "",
       "url": "https://thewalrus.ca/google-search-is-dying/",
-      "score": 932,
-      "comments": 969,
+      "score": 933,
+      "comments": 973,
       "owner": "awnird"
     },
     {
       "title": "US strikes $1.2B deal to pay German firm to halt offshore wind projects",
       "description": "",
       "url": "https://www.bbc.com/news/articles/c1e1vg0gjl5o",
-      "score": 907,
+      "score": 908,
       "comments": 887,
       "owner": "defrost"
     },
@@ -90,17 +82,9 @@
       "title": "How I use LLMs to learn complex topics",
       "description": "",
       "url": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
-      "score": 822,
+      "score": 823,
       "comments": 544,
       "owner": "laurentiurad"
-    },
-    {
-      "title": "New Mexico court orders Meta to pay $567m over harms to children’s mental health",
-      "description": "<a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;world&#x2F;new-mexico-court-orders-meta-pay-567-mln-teen-mental-health-fund-2026-08-06&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;world&#x2F;new-mexico-court-orders-meta-p...</a><p><a href=\"https:&#x2F;&#x2F;www.theguardian.com&#x2F;technology&#x2F;2026&#x2F;aug&#x2F;06&#x2F;new-mexico-court-meta\" rel=\"nofollow\">https:&#x2F;&#x2F;www.theguardian.com&#x2F;technology&#x2F;2026&#x2F;aug&#x2F;06&#x2F;new-mexic...</a><p><a href=\"https:&#x2F;&#x2F;www.kob.com&#x2F;new-mexico&#x2F;nm-court-orders-meta-to-pay-567m-make-changes-for-underage-users&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.kob.com&#x2F;new-mexico&#x2F;nm-court-orders-meta-to-pay-5...</a><p><a href=\"https:&#x2F;&#x2F;www.bbc.com&#x2F;news&#x2F;articles&#x2F;cd7lz3wr2rlo\" rel=\"nofollow\">https:&#x2F;&#x2F;www.bbc.com&#x2F;news&#x2F;articles&#x2F;cd7lz3wr2rlo</a><p><a href=\"https:&#x2F;&#x2F;www.wsj.com&#x2F;tech&#x2F;meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media-8ba5aab7\" rel=\"nofollow\">https:&#x2F;&#x2F;www.wsj.com&#x2F;tech&#x2F;meta-ordered-to-pay-942-million-to-...</a>",
-      "url": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta",
-      "score": 811,
-      "comments": 432,
-      "owner": "boplicity"
     },
     {
       "title": "DeepSeek V4 Flash 0731",
@@ -111,36 +95,44 @@
       "owner": "tosh"
     },
     {
-      "title": "Taste Is All That's Left",
-      "description": "",
-      "url": "https://notashelf.dev/posts/taste-is-all-thats-left",
-      "score": 702,
-      "comments": 547,
-      "owner": "tsak"
-    },
-    {
       "title": "Qwen3.8-2.4T",
       "description": "<a href=\"https:&#x2F;&#x2F;huggingface.co&#x2F;Qwen&#x2F;Qwen3.8-2.4T-A95B-FP8\" rel=\"nofollow\">https:&#x2F;&#x2F;huggingface.co&#x2F;Qwen&#x2F;Qwen3.8-2.4T-A95B-FP8</a>",
       "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
-      "score": 691,
-      "comments": 161,
+      "score": 700,
+      "comments": 168,
       "owner": "Philpax"
-    },
-    {
-      "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
-      "description": "",
-      "url": "https://www.docker.com/products/docker-sandboxes/",
-      "score": 690,
-      "comments": 394,
-      "owner": "etoxin"
     },
     {
       "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
       "description": "",
       "url": "https://stolen-thoughts.com/",
-      "score": 688,
-      "comments": 302,
+      "score": 694,
+      "comments": 306,
       "owner": "quantumgarbage"
+    },
+    {
+      "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
+      "description": "",
+      "url": "https://www.docker.com/products/docker-sandboxes/",
+      "score": 691,
+      "comments": 397,
+      "owner": "etoxin"
+    },
+    {
+      "title": "uBlock Origin is giving up the fight to keep ads off Facebook",
+      "description": "<a href=\"https:&#x2F;&#x2F;reddit.com&#x2F;r&#x2F;uBlockOrigin&#x2F;comments&#x2F;1vgcjg5&#x2F;about_disgusting_facebook_devs&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;reddit.com&#x2F;r&#x2F;uBlockOrigin&#x2F;comments&#x2F;1vgcjg5&#x2F;about_dis...</a><p><a href=\"https:&#x2F;&#x2F;www.neowin.net&#x2F;news&#x2F;facebook-ads-are-so-hard-to-block-that-ublock-origin-stopped-filtering-them&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.neowin.net&#x2F;news&#x2F;facebook-ads-are-so-hard-to-bloc...</a>",
+      "url": "https://digitalescapetools.com/2026/08/ublock-origin-stops-chasing-facebook-ads.html",
+      "score": 688,
+      "comments": 847,
+      "owner": "Markoff"
+    },
+    {
+      "title": "Gemini 3.7 Flash",
+      "description": "<a href=\"https:&#x2F;&#x2F;ai.google.dev&#x2F;gemini-api&#x2F;docs&#x2F;models&#x2F;gemini-3.7-flash\" rel=\"nofollow\">https:&#x2F;&#x2F;ai.google.dev&#x2F;gemini-api&#x2F;docs&#x2F;models&#x2F;gemini-3.7-flas...</a>",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+      "score": 676,
+      "comments": 380,
+      "owner": "thisisauserid"
     },
     {
       "title": "Windows 11's built-in Weather app wastes more than 1 GB of RAM",
@@ -154,17 +146,25 @@
       "title": "The UK's war on anonymity has come to America",
       "description": "",
       "url": "https://www.effort.news/uk-lobby",
-      "score": 664,
+      "score": 666,
       "comments": 758,
       "owner": "slowin"
     },
     {
-      "title": "Danish high schoolers will have to verbally defend written assignments",
+      "title": "Delta",
       "description": "",
-      "url": "https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral/",
-      "score": 654,
-      "comments": 283,
-      "owner": "theanonymousone"
+      "url": "https://zed.dev/blog/introducing-delta",
+      "score": 664,
+      "comments": 245,
+      "owner": "khy"
+    },
+    {
+      "title": "Compression is prediction",
+      "description": "",
+      "url": "https://ngrok.com/blog/compression-is-prediction",
+      "score": 660,
+      "comments": 288,
+      "owner": "nikolay"
     }
   ]
 }
