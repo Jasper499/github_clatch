@@ -1,20 +1,25 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-08-14T04:20:55Z",
+  "changed": true,
+  "fetchedAt": "2026-08-14T15:10:49Z",
   "previousSha": "d1fb103c635e63288c0f2174460276b1ab7582d8",
-  "latestSha": "d1fb103c635e63288c0f2174460276b1ab7582d8",
+  "latestSha": "c79c1c5203a4cc4ca6553d0348e25a3af948ff81",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "chore: update star history",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/d1fb103c635e63288c0f2174460276b1ab7582d8",
-    "sha": "d1fb103",
-    "published": "2026-08-13"
+    "title": "Clarify NMI figure legend word guidance (#196)",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/c79c1c5203a4cc4ca6553d0348e25a3af948ff81",
+    "sha": "c79c1c5",
+    "published": "2026-08-14"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "Clarify NMI figure legend word guidance (#196)",
+      "sha": "c79c1c5",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c79c1c5203a4cc4ca6553d0348e25a3af948ff81"
+    },
     {
       "title": "chore: update star history",
       "sha": "d1fb103",
@@ -34,11 +39,6 @@
       "title": "chore: update star history",
       "sha": "a816314",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/a816314de0bb985e7034886e01596059522255b9"
-    },
-    {
-      "title": "更新完善了nature-reader的相关功能 (#192)",
-      "sha": "adb7b8a",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/adb7b8a5a7d72ed6fe9f71e085785e9972dd8db2"
     }
   ]
 }

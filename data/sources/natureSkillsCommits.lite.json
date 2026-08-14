@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-08-14T04:20:55Z",
+  "savedAt": "2026-08-14T15:10:49Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "d1fb103c635e63288c0f2174460276b1ab7582d8",
+  "latestSha": "c79c1c5203a4cc4ca6553d0348e25a3af948ff81",
   "items": [
+    {
+      "title": "Clarify NMI figure legend word guidance (#196)",
+      "description": "Clarify NMI figure legend word guidance (#196)\n\n* fix: clarify NMI figure legend word guidance\n\n* docs: explain NMI legend advisory ceiling",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c79c1c5203a4cc4ca6553d0348e25a3af948ff81",
+      "sha": "c79c1c5",
+      "fullSha": "c79c1c5203a4cc4ca6553d0348e25a3af948ff81",
+      "owner": "Travisma2233",
+      "published": "2026-08-14",
+      "label": "commit"
+    },
     {
       "title": "chore: update star history",
       "description": "chore: update star history",
@@ -143,16 +153,6 @@
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/9410400815df189d3e76d4be19c74afa68d03412",
       "sha": "9410400",
       "fullSha": "9410400815df189d3e76d4be19c74afa68d03412",
-      "owner": "Travisma2233",
-      "published": "2026-08-05",
-      "label": "commit"
-    },
-    {
-      "title": "feat(figure): add rendering safety checks",
-      "description": "feat(figure): add rendering safety checks",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/b4f82f145a6b6bcc9ab924a59e88e0623b32e2eb",
-      "sha": "b4f82f1",
-      "fullSha": "b4f82f145a6b6bcc9ab924a59e88e0623b32e2eb",
       "owner": "Travisma2233",
       "published": "2026-08-05",
       "label": "commit"
