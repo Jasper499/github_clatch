@@ -1,20 +1,30 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-08-13T15:36:02Z",
+  "changed": true,
+  "fetchedAt": "2026-08-14T04:26:41Z",
   "previousSha": "5ad4aae76bc40257b914367afacc6fd686a282d5",
-  "latestSha": "5ad4aae76bc40257b914367afacc6fd686a282d5",
+  "latestSha": "13385c7c4db02fdcc84a020752c07cce91ef780e",
   "repo": "K-Dense-AI/scientific-agent-skills",
   "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "stars": 0,
   "skillCount": 161,
   "latestCommit": {
-    "title": "Update documentation and versioning for Agent Plugins compliance",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/5ad4aae76bc40257b914367afacc6fd686a282d5",
-    "sha": "5ad4aae",
-    "published": "2026-08-12"
+    "title": "Add new blog entries to README for AI co-scientists and workflow impo…",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/13385c7c4db02fdcc84a020752c07cce91ef780e",
+    "sha": "13385c7",
+    "published": "2026-08-13"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "Add new blog entries to README for AI co-scientists and workflow impo…",
+      "sha": "13385c7",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/13385c7c4db02fdcc84a020752c07cce91ef780e"
+    },
+    {
+      "title": "Update review model to version 3.7 across multiple scripts",
+      "sha": "5f3de01",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/5f3de01dba3dbfe3f63e3928aade592891819859"
+    },
     {
       "title": "Update documentation and versioning for Agent Plugins compliance",
       "sha": "5ad4aae",
@@ -29,16 +39,6 @@
       "title": "Merge pull request #158 from fedorov/update-idc-skill-v1.6.2",
       "sha": "d661d27",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/d661d27ef4ddad5b9287bdd84887ace27e2320b8"
-    },
-    {
-      "title": "feat: enhance skill security scan for forked PRs",
-      "sha": "3956e54",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/3956e5408b61d1274c275b052a7fd619a5661a1a"
-    },
-    {
-      "title": "Update imaging-data-commons skill from v1.4.0 to upstream v1.8.1",
-      "sha": "aaf763c",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/aaf763c3a60a1f8065d2f80189de7efe25ddf2d3"
     }
   ]
 }

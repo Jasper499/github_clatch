@@ -1,12 +1,34 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-08-13T15:36:02Z",
+  "savedAt": "2026-08-14T04:26:41Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "5ad4aae76bc40257b914367afacc6fd686a282d5",
+  "latestSha": "13385c7c4db02fdcc84a020752c07cce91ef780e",
   "items": [
+    {
+      "title": "Add new blog entries to README for AI co-scientists and workflow impo…",
+      "description": "Add new blog entries to README for AI co-scientists and workflow importance\n\n- Included a new section on AI co-scientists with a link to a live Q&amp;A session addressing practical concerns for researchers.\n- Added multiple entries discussing the significance of workflow in scientific research, emphasizing verification and reproducibility in AI applications.\n- Updated the README to enhance the resourcefulness of the documentation for users exploring AI in scientific contexts.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/13385c7c4db02fdcc84a020752c07cce91ef780e",
+      "sha": "13385c7",
+      "fullSha": "13385c7c4db02fdcc84a020752c07cce91ef780e",
+      "owner": "TKassis",
+      "published": "2026-08-13",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Update review model to version 3.7 across multiple scripts",
+      "description": "Update review model to version 3.7 across multiple scripts\n\n- Changed the review model from &quot;google/gemini-3.6-flash&quot; to &quot;google/gemini-3.7-flash&quot; in the following scripts:\n  - generate_infographic_ai.py\n  - generate_schematic_ai.py (in latex-posters, literature-review, scientific-schematics, and scientific-slides)\n  - generate_slide_image_ai.py\n- Updated documentation to reflect the new review model version in iterative_refinement.md.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/5f3de01dba3dbfe3f63e3928aade592891819859",
+      "sha": "5f3de01",
+      "fullSha": "5f3de01dba3dbfe3f63e3928aade592891819859",
+      "owner": "TKassis",
+      "published": "2026-08-13",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "Update documentation and versioning for Agent Plugins compliance",
       "description": "Update documentation and versioning for Agent Plugins compliance\n\n- Enhanced AGENTS.md and CONTRIBUTING.md to clarify the structure and requirements for the Agent Plugins package, including the need for `plugin.json` to be schema-valid and version-synced with `pyproject.toml`.\n- Updated README.md to reflect the new version 2.63.0 and added details about the repository being a portable Agent Plugins package.\n- Added tests in test_repo_contract.py to ensure compliance with the Agent Plugins manifest schema and discoverability of skills.\n\nThis update ensures better adherence to the Agent Plugins standard and improves the overall documentation for contributors.",
@@ -147,28 +169,6 @@
       "fullSha": "de981da0ecc4f1baaab8a9f6340b6fb1d9473529",
       "owner": "KalinNonchev",
       "published": "2026-08-04",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "chore: update security scan report [skip ci]",
-      "description": "chore: update security scan report [skip ci]",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/d767725c6e93b1d02a220e6be75b261a9833ede5",
-      "sha": "d767725",
-      "fullSha": "d767725c6e93b1d02a220e6be75b261a9833ede5",
-      "owner": "github-actions",
-      "published": "2026-08-03",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Update version to 2.62.0 in pyproject.toml and README.md, reflecting …",
-      "description": "Update version to 2.62.0 in pyproject.toml and README.md, reflecting the latest release.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/ad21a3868923628330734375dddbf7b86ea84222",
-      "sha": "ad21a38",
-      "fullSha": "ad21a3868923628330734375dddbf7b86ea84222",
-      "owner": "TKassis",
-      "published": "2026-07-31",
       "label": "commit",
       "repo": "K-Dense-AI/scientific-agent-skills"
     }
