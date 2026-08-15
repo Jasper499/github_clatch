@@ -6,136 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "mrm:https://doi.org/10.1002/mrm.70557",
-      "url": "https://doi.org/10.1002/mrm.70557",
-      "title": "[Magnetic Resonance in Medicine] Evaluation of 7 Tesla\n                    <scp>pTx</scp>\n                    Body Coils Regarding Transmit and Receive Performance",
-      "date_published": "2026-08-15T02:43:06Z"
+      "id": "hackernews:https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "title": "[Hacker News 热门] Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
+      "date_published": "2026-08-15T02:54:31Z"
     },
     {
-      "id": "mrm:https://doi.org/10.1002/mrm.70547",
-      "url": "https://doi.org/10.1002/mrm.70547",
-      "title": "[Magnetic Resonance in Medicine] Correction to “Radial Multi‐Echo\n                    <scp>bSSFP</scp>\n                    and\n                    <scp>IDEAL</scp>\n                    Chemical Shift Separation in k‐Space for High‐Speed\n                    <scp>3D</scp>\n                    Hyperpolarized\n                    <scp>\n                      <sup>13</sup>\n                      C\n                    </scp>\n                    Metabolic\n                    <scp>MRI</scp>\n                    ”",
-      "date_published": "2026-08-15T02:43:06Z"
+      "id": "hackernews:https://tailscale.com/blog/sqlite-wal-reset-bug",
+      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
+      "title": "[Hacker News 热门] Tracking down the 16-year-old WAL-reset SQLite bug",
+      "date_published": "2026-08-15T02:54:31Z"
     },
     {
-      "id": "mrm:https://doi.org/10.1002/mrm.70558",
-      "url": "https://doi.org/10.1002/mrm.70558",
-      "title": "[Magnetic Resonance in Medicine] The Transient Hydrogen Bond Model Captures Salient Features of Central Nervous System Tissue Cellular Microstructure Relevant to\n                    <scp>MR</scp>\n                    Signal Relaxation",
-      "date_published": "2026-08-15T02:43:06Z"
+      "id": "hackernews:https://www.lemonde.fr/en/france/article/2026/08/06/france-to-ban-unsolicited-telemarketing-calls-from-august-11_6756208_7.html",
+      "url": "https://www.lemonde.fr/en/france/article/2026/08/06/france-to-ban-unsolicited-telemarketing-calls-from-august-11_6756208_7.html",
+      "title": "[Hacker News 热门] France to ban unsolicited telemarketing calls",
+      "date_published": "2026-08-15T02:54:31Z"
     },
     {
-      "id": "mrm:https://doi.org/10.1002/mrm.70466",
-      "url": "https://doi.org/10.1002/mrm.70466",
-      "title": "[Magnetic Resonance in Medicine] On the Measurement and Modeling of R1 Relaxation Anisotropy in Human Brain White Matter",
-      "date_published": "2026-08-15T02:43:06Z"
+      "id": "hackernews:https://z.ai/blog/glm-5.3",
+      "url": "https://z.ai/blog/glm-5.3",
+      "title": "[Hacker News 热门] GLM-5.3: Frontier coding with emergent cyber capabilities",
+      "date_published": "2026-08-15T02:54:31Z"
     },
     {
-      "id": "mrm:https://doi.org/10.1002/mrm.70554",
-      "url": "https://doi.org/10.1002/mrm.70554",
-      "title": "[Magnetic Resonance in Medicine] <i>p</i>\n                    ‐Brain: A Modular Open‐Source Framework for Automated Quantitative DCE‐MRI of Cerebral Perfusion, Microvasculature, and Blood–Brain Barrier Permeability",
-      "date_published": "2026-08-15T02:43:06Z"
+      "id": "hackernews:https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+      "title": "[Hacker News 热门] DeepSeek V4 Pro 0813",
+      "date_published": "2026-08-15T02:54:31Z"
     },
     {
-      "id": "mrm:https://doi.org/10.1002/mrm.70544",
-      "url": "https://doi.org/10.1002/mrm.70544",
-      "title": "[Magnetic Resonance in Medicine] Adapted Linear Binning Method to Assess Pulmonary Ventilation and Perfusion in Children Using Lung Matrix Pencil Decomposition (\n                    <scp>MP</scp>\n                    )‐\n                    <scp>MRI</scp>",
-      "date_published": "2026-08-15T02:43:06Z"
+      "id": "hackernews:https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+      "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+      "title": "[Hacker News 热门] AI is removing the middle class of software engineering?",
+      "date_published": "2026-08-15T02:54:31Z"
     },
     {
-      "id": "mrm:https://doi.org/10.1002/mrm.70565",
-      "url": "https://doi.org/10.1002/mrm.70565",
-      "title": "[Magnetic Resonance in Medicine] Effects of Lipid‐Induced Magnetic Microstructure on Fat Fraction Quantification in Muscular Dystrophies",
-      "date_published": "2026-08-15T02:43:06Z"
+      "id": "hackernews:https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+      "title": "[Hacker News 热门] Gemini 3.7 Flash",
+      "date_published": "2026-08-15T02:54:31Z"
     },
     {
-      "id": "mrm:https://doi.org/10.1002/mrm.70529",
-      "url": "https://doi.org/10.1002/mrm.70529",
-      "title": "[Magnetic Resonance in Medicine] Human In Vivo Validation of Frequency‐Dependent\n                    <scp>QTI</scp>",
-      "date_published": "2026-08-15T02:43:06Z"
-    },
-    {
-      "id": "tmi:https://doi.org/10.1109/tmi.2026.3705770",
-      "url": "https://doi.org/10.1109/tmi.2026.3705770",
-      "title": "[IEEE Transactions on Medical Imaging] Medical Referring Image Segmentation via Next-Token Mask Prediction",
-      "date_published": "2026-08-15T02:43:06Z"
-    },
-    {
-      "id": "tmi:https://doi.org/10.1109/tmi.2026.3700967",
-      "url": "https://doi.org/10.1109/tmi.2026.3700967",
-      "title": "[IEEE Transactions on Medical Imaging] PathRWKV: Enhancing Whole Slide Image Inference With Asymmetric Recurrent Modeling",
-      "date_published": "2026-08-15T02:43:06Z"
-    },
-    {
-      "id": "tmi:https://doi.org/10.1109/tmi.2026.3696914",
-      "url": "https://doi.org/10.1109/tmi.2026.3696914",
-      "title": "[IEEE Transactions on Medical Imaging] DSA-NRP: No-Reflow Prediction From Angiographic Perfusion Dynamics in Stroke EVT",
-      "date_published": "2026-08-15T02:43:06Z"
-    },
-    {
-      "id": "tmi:https://doi.org/10.1109/tmi.2026.3702822",
-      "url": "https://doi.org/10.1109/tmi.2026.3702822",
-      "title": "[IEEE Transactions on Medical Imaging] Modeling Aleatoric Uncertainty in Cardiac MRI Segmentation: Probabilistic Detection and Contour Regression",
-      "date_published": "2026-08-15T02:43:06Z"
-    },
-    {
-      "id": "tmi:https://doi.org/10.1109/tmi.2026.3698415",
-      "url": "https://doi.org/10.1109/tmi.2026.3698415",
-      "title": "[IEEE Transactions on Medical Imaging] Self-Supervised T2WI-Bridged Framework for Liver Segmentation and PDFF Prediction From US Images",
-      "date_published": "2026-08-15T02:43:06Z"
-    },
-    {
-      "id": "tmi:https://doi.org/10.1109/tmi.2026.3705847",
-      "url": "https://doi.org/10.1109/tmi.2026.3705847",
-      "title": "[IEEE Transactions on Medical Imaging] MotionDPS: Motion-Compensated 3-D Brain MRI Reconstruction",
-      "date_published": "2026-08-15T02:43:06Z"
-    },
-    {
-      "id": "media:https://doi.org/10.1016/j.media.2026.104241",
-      "url": "https://doi.org/10.1016/j.media.2026.104241",
-      "title": "[Medical Image Analysis] MI2-Net: A Mamba-based network for joint incomplete multi-modal and incomplete label MRI image segmentation",
-      "date_published": "2026-08-15T02:43:06Z"
-    },
-    {
-      "id": "media:https://doi.org/10.1016/j.media.2026.104252",
-      "url": "https://doi.org/10.1016/j.media.2026.104252",
-      "title": "[Medical Image Analysis] biv-me: Open-source software for generating time-varying biventricular meshes from cine cardiovascular magnetic resonance imaging with multi-cohort validation",
-      "date_published": "2026-08-15T02:43:06Z"
-    },
-    {
-      "id": "media:https://doi.org/10.1016/j.media.2026.104243",
-      "url": "https://doi.org/10.1016/j.media.2026.104243",
-      "title": "[Medical Image Analysis] From voxel discovery to regional interaction: A multi-level interpretable framework for Alzheimer’s disease diagnosis",
-      "date_published": "2026-08-15T02:43:06Z"
-    },
-    {
-      "id": "media:https://doi.org/10.1016/j.media.2026.104216",
-      "url": "https://doi.org/10.1016/j.media.2026.104216",
-      "title": "[Medical Image Analysis] Leveraging rotational equivariance for reinforcement learning in tractography",
-      "date_published": "2026-08-15T02:43:06Z"
-    },
-    {
-      "id": "media:https://doi.org/10.1016/j.media.2026.104221",
-      "url": "https://doi.org/10.1016/j.media.2026.104221",
-      "title": "[Medical Image Analysis] Learning robust and task-invariant functional representation from fMRI through Siamese self-supervised learning",
-      "date_published": "2026-08-15T02:43:06Z"
-    },
-    {
-      "id": "media:https://doi.org/10.1016/j.media.2026.104259",
-      "url": "https://doi.org/10.1016/j.media.2026.104259",
-      "title": "[Medical Image Analysis] Dual-contrastive modality recovery for incomplete multi-modal brain disease diagnosis",
-      "date_published": "2026-08-15T02:43:06Z"
-    },
-    {
-      "id": "media:https://doi.org/10.1016/j.media.2026.104240",
-      "url": "https://doi.org/10.1016/j.media.2026.104240",
-      "title": "[Medical Image Analysis] Self-supervised reconstruction framework via motion- and physics-informed learning for four-dimensional magnetic resonance fingerprinting",
-      "date_published": "2026-08-15T02:43:06Z"
-    },
-    {
-      "id": "media:https://doi.org/10.1016/j.media.2026.104250",
-      "url": "https://doi.org/10.1016/j.media.2026.104250",
-      "title": "[Medical Image Analysis] Topology-constrained graph transformer network for structural and functional brain organization",
-      "date_published": "2026-08-15T02:43:06Z"
+      "id": "hackernews:https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers",
+      "url": "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers",
+      "title": "[Hacker News 热门] “Code was never the hard part” is an insult to all programmers",
+      "date_published": "2026-08-15T02:54:31Z"
     }
   ]
 }
