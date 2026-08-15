@@ -1,12 +1,45 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-08-14T15:28:07Z",
+  "savedAt": "2026-08-15T03:20:53Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "13385c7c4db02fdcc84a020752c07cce91ef780e",
+  "latestSha": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
   "items": [
+    {
+      "title": "Update pi-agent skill",
+      "description": "Update pi-agent skill",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+      "sha": "b2a92ba",
+      "fullSha": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+      "owner": "TKassis",
+      "published": "2026-08-14",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Update examples and skills documentation",
+      "description": "Update examples and skills documentation\n\n- Added a new example for virtual spatial transcriptomics from archival H&amp;E slides, detailing objectives, disciplines, skills used, and workflow steps.\n- Introduced the NCATS ARAX skill for querying biomedical knowledge-graph relationships, including detailed usage instructions and capabilities.\n- Updated the examples list to reflect the new addition and ensure comprehensive coverage of relevant topics.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/3c8fc0fd16d6408e5185e086cc75564888e51d41",
+      "sha": "3c8fc0f",
+      "fullSha": "3c8fc0fd16d6408e5185e086cc75564888e51d41",
+      "owner": "TKassis",
+      "published": "2026-08-14",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Add CAD skill for lab hardware",
+      "description": "Add CAD skill for lab hardware",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/980e4f0bb2a73f26fc66254c1edbbe7b7985f5e1",
+      "sha": "980e4f0",
+      "fullSha": "980e4f0bb2a73f26fc66254c1edbbe7b7985f5e1",
+      "owner": "TKassis",
+      "published": "2026-08-14",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "Add new blog entries to README for AI co-scientists and workflow impo…",
       "description": "Add new blog entries to README for AI co-scientists and workflow importance\n\n- Included a new section on AI co-scientists with a link to a live Q&amp;A session addressing practical concerns for researchers.\n- Added multiple entries discussing the significance of workflow in scientific research, emphasizing verification and reproducibility in AI applications.\n- Updated the README to enhance the resourcefulness of the documentation for users exploring AI in scientific contexts.",
@@ -136,39 +169,6 @@
       "fullSha": "5c0d8b302921fc140ea9f8aee22e39dcb70615ab",
       "owner": "TKassis",
       "published": "2026-08-07",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "deepspot-m: document the ~19k-gene panel limit, drop redundant eval c…",
-      "description": "deepspot-m: document the ~19k-gene panel limit, drop redundant eval calls, add diagram\n\n- State that predict_genes only accepts symbols in the released tokens.csv\n  panel (model.gene_names) and raises KeyError otherwise; temper the\n  transcriptome-coverage claims to match.\n- Use from_pretrained&#39;s device argument; the model already returns in eval\n  mode and predict_genes runs under no_grad, so drop the redundant\n  model.eval()/no_grad lines (also clears MDBLOCK_PYTHON_EVAL_EXEC scan FPs).\n- Rebuild the tile batch inside the multi-source loop, matching the advice\n  beneath the example.\n- Pin the install to deepspotm==1.0.0.\n- Add the required docs/images/deepspot-m.png workflow diagram.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/947764127b0c6bdf2345cd2e62e7621397134662",
-      "sha": "9477641",
-      "fullSha": "947764127b0c6bdf2345cd2e62e7621397134662",
-      "owner": "TKassis",
-      "published": "2026-08-07",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Introduced a new skill for relsa-severity-assessment",
-      "description": "Introduced a new skill for relsa-severity-assessment",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/f8c6f0ef7301b7dbfbf9d6860eb47148499b520a",
-      "sha": "f8c6f0e",
-      "fullSha": "f8c6f0ef7301b7dbfbf9d6860eb47148499b520a",
-      "owner": "TKassis",
-      "published": "2026-08-07",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Add DeepSpot-M skill",
-      "description": "Add DeepSpot-M skill\n\nAdds skills/deepspot-m for transcriptome-wide virtual spatial transcriptomics from H&amp;E histology tiles, plus references for the API and whole slide runs. Updates the README counts and docs/skills.md.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/de981da0ecc4f1baaab8a9f6340b6fb1d9473529",
-      "sha": "de981da",
-      "fullSha": "de981da0ecc4f1baaab8a9f6340b6fb1d9473529",
-      "owner": "KalinNonchev",
-      "published": "2026-08-04",
       "label": "commit",
       "repo": "K-Dense-AI/scientific-agent-skills"
     }
