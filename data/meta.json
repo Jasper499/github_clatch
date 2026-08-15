@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-15T06:53:44Z",
+  "updatedAt": "2026-08-15T12:54:48Z",
   "periodDays": 7,
   "weekLabel": "2026-08-03 ~ 2026-08-10",
   "githubUpdatedAt": "2026-08-10T03:10:03Z",
   "hackernewsUpdatedAt": "2026-08-15T02:54:31Z",
-  "weiboUpdatedAt": "2026-08-15T06:53:44Z",
+  "weiboUpdatedAt": "2026-08-15T12:54:48Z",
   "journalsUpdatedAt": "2026-08-15T02:43:06Z",
   "natureSkillsUpdatedAt": "2026-08-15T03:08:34Z",
   "scientificSkillsUpdatedAt": "2026-08-15T03:20:53Z",
@@ -194,10 +194,10 @@
     },
     "weiboLocal": {
       "label": "同城",
-      "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-15，共 6 条，约每 6 小时更新）",
+      "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-15，共 8 条，约每 6 小时更新）",
       "updateFrequency": "every-6h",
       "fetchedDate": "2026-08-15",
-      "itemCount": 6
+      "itemCount": 8
     },
     "chinaDaily": {
       "label": "China Daily 热门",
@@ -207,7 +207,7 @@
       "itemCount": 20
     }
   },
-  "generatedAt": "2026-08-15T06:53:44Z",
+  "generatedAt": "2026-08-15T12:54:48Z",
   "journalsPeriod": "2026-07-01 ~ 2026-08-15",
   "chinaDailyUpdatedAt": "2026-08-15T03:38:35Z"
 }
