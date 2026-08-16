@@ -1,130 +1,30 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-08-16T06:54:45Z",
+  "savedAt": "2026-08-16T12:56:34Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-16，共 12 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-16，共 2 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-08-16",
   "items": [
     {
-      "title": "胖东来将闭门店28个收银口排长龙",
+      "title": "市民打12345投诉月光太亮影响睡觉",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%83%96%E4%B8%9C%E6%9D%A5%E5%B0%86%E9%97%AD%E9%97%A8%E5%BA%9728%E4%B8%AA%E6%94%B6%E9%93%B6%E5%8F%A3%E6%8E%92%E9%95%BF%E9%BE%99%23&t=31&band_rank=1&Refer=top",
-      "score": 1116448,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%B8%82%E6%B0%91%E6%89%9312345%E6%8A%95%E8%AF%89%E6%9C%88%E5%85%89%E5%A4%AA%E4%BA%AE%E5%BD%B1%E5%93%8D%E7%9D%A1%E8%A7%89%23&t=31&band_rank=1&Refer=top",
+      "score": 758575,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1786840159
+      "onboardTime": 1786876518
     },
     {
-      "title": "进货式游中国火了",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%BF%9B%E8%B4%A7%E5%BC%8F%E6%B8%B8%E4%B8%AD%E5%9B%BD%E7%81%AB%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 1105887,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1786844419
-    },
-    {
-      "title": "39岁知名儿科医生不幸去世",
+      "title": "7名县委常委在土坯房上班",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%2339%E5%B2%81%E7%9F%A5%E5%90%8D%E5%84%BF%E7%A7%91%E5%8C%BB%E7%94%9F%E4%B8%8D%E5%B9%B8%E5%8E%BB%E4%B8%96%23&t=31&band_rank=1&Refer=top",
-      "score": 234406,
+      "url": "https://s.weibo.com/weibo?q=%237%E5%90%8D%E5%8E%BF%E5%A7%94%E5%B8%B8%E5%A7%94%E5%9C%A8%E5%9C%9F%E5%9D%AF%E6%88%BF%E4%B8%8A%E7%8F%AD%23&t=31&band_rank=1&Refer=top",
+      "score": 463017,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1786862361
-    },
-    {
-      "title": "生育四孩不能享受90天延长产假",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%94%9F%E8%82%B2%E5%9B%9B%E5%AD%A9%E4%B8%8D%E8%83%BD%E4%BA%AB%E5%8F%9790%E5%A4%A9%E5%BB%B6%E9%95%BF%E4%BA%A7%E5%81%87%23&t=31&band_rank=1&Refer=top",
-      "score": 234113,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1786862720
-    },
-    {
-      "title": "女子产后抑郁自杀生前备忘录曝光",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E4%BA%A7%E5%90%8E%E6%8A%91%E9%83%81%E8%87%AA%E6%9D%80%E7%94%9F%E5%89%8D%E5%A4%87%E5%BF%98%E5%BD%95%E6%9B%9D%E5%85%89%23&t=31&band_rank=1&Refer=top",
-      "score": 232953,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1786851799
-    },
-    {
-      "title": "事业编三甲医生没全额缴社保",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E4%BA%8B%E4%B8%9A%E7%BC%96%E4%B8%89%E7%94%B2%E5%8C%BB%E7%94%9F%E6%B2%A1%E5%85%A8%E9%A2%9D%E7%BC%B4%E7%A4%BE%E4%BF%9D&t=31&band_rank=1&Refer=top",
-      "score": 232100,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1786861341
-    },
-    {
-      "title": "女儿抑郁自杀母亲称8.8万彩礼太少",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%84%BF%E6%8A%91%E9%83%81%E8%87%AA%E6%9D%80%E6%AF%8D%E4%BA%B2%E7%A7%B08.8%E4%B8%87%E5%BD%A9%E7%A4%BC%E5%A4%AA%E5%B0%91%23&t=31&band_rank=1&Refer=top",
-      "score": 218903,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1786859719
-    },
-    {
-      "title": "瑞幸联名 份子钱",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E7%91%9E%E5%B9%B8%E8%81%94%E5%90%8D%20%E4%BB%BD%E5%AD%90%E9%92%B1&t=31&band_rank=1&Refer=top",
-      "score": 193869,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1786858459
-    },
-    {
-      "title": "许昌店主称胖东来附近店面会很难抢",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%AE%B8%E6%98%8C%E5%BA%97%E4%B8%BB%E7%A7%B0%E8%83%96%E4%B8%9C%E6%9D%A5%E9%99%84%E8%BF%91%E5%BA%97%E9%9D%A2%E4%BC%9A%E5%BE%88%E9%9A%BE%E6%8A%A2%23&t=31&band_rank=1&Refer=top",
-      "score": 152864,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1786850900
-    },
-    {
-      "title": "小三胚胎案背后是财产争夺",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E4%B8%89%E8%83%9A%E8%83%8E%E6%A1%88%E8%83%8C%E5%90%8E%E6%98%AF%E8%B4%A2%E4%BA%A7%E4%BA%89%E5%A4%BA&t=31&band_rank=1&Refer=top",
-      "score": 133825,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1786862361
-    },
-    {
-      "title": "旺旺晒出无糖低糖新品",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%97%BA%E6%97%BA%E6%99%92%E5%87%BA%E6%97%A0%E7%B3%96%E4%BD%8E%E7%B3%96%E6%96%B0%E5%93%81%23&t=31&band_rank=1&Refer=top",
-      "score": 128813,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1786840399
-    },
-    {
-      "title": "驾校 应试教育",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E9%A9%BE%E6%A0%A1%20%E5%BA%94%E8%AF%95%E6%95%99%E8%82%B2&t=31&band_rank=1&Refer=top",
-      "score": 128430,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1786861220
+      "onboardTime": 1786884681
     }
   ]
 }
