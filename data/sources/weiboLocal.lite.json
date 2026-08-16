@@ -1,70 +1,70 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-08-15T18:42:58Z",
+  "savedAt": "2026-08-16T01:53:43Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-15，共 6 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-16，共 6 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
-  "fetchedDate": "2026-08-15",
+  "fetchedDate": "2026-08-16",
   "items": [
+    {
+      "title": "胖东来将闭门店28个收银口排长龙",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%83%96%E4%B8%9C%E6%9D%A5%E5%B0%86%E9%97%AD%E9%97%A8%E5%BA%9728%E4%B8%AA%E6%94%B6%E9%93%B6%E5%8F%A3%E6%8E%92%E9%95%BF%E9%BE%99%23&t=31&band_rank=1&Refer=top",
+      "score": 1190376,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1786840159
+    },
+    {
+      "title": "旺旺晒出无糖低糖新品",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%97%BA%E6%97%BA%E6%99%92%E5%87%BA%E6%97%A0%E7%B3%96%E4%BD%8E%E7%B3%96%E6%96%B0%E5%93%81%23&t=31&band_rank=1&Refer=top",
+      "score": 867030,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1786840399
+    },
     {
       "title": "以数智物流赋能特色产业发展",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E4%BB%A5%E6%95%B0%E6%99%BA%E7%89%A9%E6%B5%81%E8%B5%8B%E8%83%BD%E7%89%B9%E8%89%B2%E4%BA%A7%E4%B8%9A%E5%8F%91%E5%B1%95%23&t=31&band_rank=1&Refer=top",
-      "score": 242399,
+      "score": 660291,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1786794020
     },
     {
-      "title": "山西挖眼案男孩高考721分选了中医学",
+      "title": "女子产后抑郁自缢至亲因财产对簿公堂",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%B1%B1%E8%A5%BF%E6%8C%96%E7%9C%BC%E6%A1%88%E7%94%B7%E5%AD%A9%E9%AB%98%E8%80%83721%E5%88%86%E9%80%89%E4%BA%86%E4%B8%AD%E5%8C%BB%E5%AD%A6%23&t=31&band_rank=1&Refer=top",
-      "score": 126368,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E4%BA%A7%E5%90%8E%E6%8A%91%E9%83%81%E8%87%AA%E7%BC%A2%E8%87%B3%E4%BA%B2%E5%9B%A0%E8%B4%A2%E4%BA%A7%E5%AF%B9%E7%B0%BF%E5%85%AC%E5%A0%82%23&t=31&band_rank=1&Refer=top",
+      "score": 549109,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1786802481
+      "onboardTime": 1786839799
+    },
+    {
+      "title": "胖东来闭店裁缝摊称将跟随搬迁",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%83%96%E4%B8%9C%E6%9D%A5%E9%97%AD%E5%BA%97%E8%A3%81%E7%BC%9D%E6%91%8A%E7%A7%B0%E5%B0%86%E8%B7%9F%E9%9A%8F%E6%90%AC%E8%BF%81%23&t=31&band_rank=1&Refer=top",
+      "score": 330179,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1786840097
     },
     {
       "title": "新乡胖东来搬走前VS搬走后",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E6%96%B0%E4%B9%A1%E8%83%96%E4%B8%9C%E6%9D%A5%E6%90%AC%E8%B5%B0%E5%89%8DVS%E6%90%AC%E8%B5%B0%E5%90%8E%23&t=31&band_rank=1&Refer=top",
-      "score": 125999,
+      "score": 179462,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1786803140
-    },
-    {
-      "title": "胖东来 刑释人员",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E8%83%96%E4%B8%9C%E6%9D%A5%20%E5%88%91%E9%87%8A%E4%BA%BA%E5%91%98&t=31&band_rank=1&Refer=top",
-      "score": 125959,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1786778000
-    },
-    {
-      "title": "获千万打赏女主播涉诈骗被公诉",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%8E%B7%E5%8D%83%E4%B8%87%E6%89%93%E8%B5%8F%E5%A5%B3%E4%B8%BB%E6%92%AD%E6%B6%89%E8%AF%88%E9%AA%97%E8%A2%AB%E5%85%AC%E8%AF%89%23&t=31&band_rank=1&Refer=top",
-      "score": 125821,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1786816219
-    },
-    {
-      "title": "谁杀死了驾校",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%B0%81%E6%9D%80%E6%AD%BB%E4%BA%86%E9%A9%BE%E6%A0%A1%23&t=31&band_rank=1&Refer=top",
-      "score": 125632,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1786779920
     }
   ]
 }
