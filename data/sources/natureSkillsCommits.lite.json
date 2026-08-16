@@ -1,12 +1,32 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-08-16T03:16:10Z",
+  "savedAt": "2026-08-16T14:44:08Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "7316aff80302f105c5703cf8d7dfd0f608a9b411",
+  "latestSha": "c171989db699bd601d4373912b3fb8db96ecc95b",
   "items": [
+    {
+      "title": "feat: enforce main-text discipline (#198)",
+      "description": "feat: enforce main-text discipline (#198)",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c171989db699bd601d4373912b3fb8db96ecc95b",
+      "sha": "c171989",
+      "fullSha": "c171989db699bd601d4373912b3fb8db96ecc95b",
+      "owner": "Travisma2233",
+      "published": "2026-08-16",
+      "label": "commit"
+    },
+    {
+      "title": "Update image in README",
+      "description": "Update image in README\n\nReplaced an image in the README with a new one.",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/bfd02c8fce2c1decf065e79339ce3f65de48f1aa",
+      "sha": "bfd02c8",
+      "fullSha": "bfd02c8fce2c1decf065e79339ce3f65de48f1aa",
+      "owner": "Flyme886",
+      "published": "2026-08-16",
+      "label": "commit"
+    },
     {
       "title": "chore: update star history",
       "description": "chore: update star history",
@@ -134,26 +154,6 @@
       "sha": "1a8c020",
       "fullSha": "1a8c0208405fe73f3a617169d80fb3b388cd0e9f",
       "owner": "Yuan1z0825",
-      "published": "2026-08-07",
-      "label": "commit"
-    },
-    {
-      "title": "Update README.md",
-      "description": "Update README.md",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/54b0158a12a335f71a563fc3b962f3904c61676e",
-      "sha": "54b0158",
-      "fullSha": "54b0158a12a335f71a563fc3b962f3904c61676e",
-      "owner": "Yuan1z0825",
-      "published": "2026-08-07",
-      "label": "commit"
-    },
-    {
-      "title": "fix: improve star history endpoint marker (#184)",
-      "description": "fix: improve star history endpoint marker (#184)",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/dfd4e3bf8dc5daada876c6a0b1b92c49b8defedb",
-      "sha": "dfd4e3b",
-      "fullSha": "dfd4e3bf8dc5daada876c6a0b1b92c49b8defedb",
-      "owner": "Travisma2233",
       "published": "2026-08-07",
       "label": "commit"
     }
