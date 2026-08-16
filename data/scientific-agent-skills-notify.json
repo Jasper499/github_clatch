@@ -1,20 +1,30 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-08-15T14:56:42Z",
+  "changed": true,
+  "fetchedAt": "2026-08-16T03:31:07Z",
   "previousSha": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
-  "latestSha": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+  "latestSha": "336c4f838a6c21b54e1e1f58cbbeae143d151fe2",
   "repo": "K-Dense-AI/scientific-agent-skills",
   "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "stars": 0,
   "skillCount": 162,
   "latestCommit": {
-    "title": "Update pi-agent skill",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/b2a92ba052dcae4ef48e850b9e31ebf75706be48",
-    "sha": "b2a92ba",
-    "published": "2026-08-14"
+    "title": "Update lab hardware CAD skill documentation and standards",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/336c4f838a6c21b54e1e1f58cbbeae143d151fe2",
+    "sha": "336c4f8",
+    "published": "2026-08-16"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "Update lab hardware CAD skill documentation and standards",
+      "sha": "336c4f8",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/336c4f838a6c21b54e1e1f58cbbeae143d151fe2"
+    },
+    {
+      "title": "Update README to include Reddit link and enhance user engagement",
+      "sha": "43a3e61",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/43a3e619a1dd8f053abdeb258c87ce81c53b424f"
+    },
     {
       "title": "Update pi-agent skill",
       "sha": "b2a92ba",
@@ -29,16 +39,6 @@
       "title": "Add CAD skill for lab hardware",
       "sha": "980e4f0",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/980e4f0bb2a73f26fc66254c1edbbe7b7985f5e1"
-    },
-    {
-      "title": "Add new blog entries to README for AI co-scientists and workflow impo…",
-      "sha": "13385c7",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/13385c7c4db02fdcc84a020752c07cce91ef780e"
-    },
-    {
-      "title": "Update review model to version 3.7 across multiple scripts",
-      "sha": "5f3de01",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/5f3de01dba3dbfe3f63e3928aade592891819859"
     }
   ]
 }

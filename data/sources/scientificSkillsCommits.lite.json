@@ -1,12 +1,34 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-08-15T14:56:42Z",
+  "savedAt": "2026-08-16T03:31:07Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+  "latestSha": "336c4f838a6c21b54e1e1f58cbbeae143d151fe2",
   "items": [
+    {
+      "title": "Update lab hardware CAD skill documentation and standards",
+      "description": "Update lab hardware CAD skill documentation and standards\n\n- Bumped version to 1.2 and updated last-reviewed date in SKILL.md.\n- Enhanced standards.json with updated notes and additional dimensions for clarity.\n- Expanded build123d-patterns.md to include detailed geometry checks and their semantics.\n- Improved fabrication-limits.md with laser cutting guidelines and corner radius considerations.\n- Updated validation.md to clarify checks for declared interfaces and geometry.\n- Added new geometry checks functionality in scripts to validate model geometry against built solids.\n- Adjusted check.py to include geometry evaluation commands for better verification processes.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/336c4f838a6c21b54e1e1f58cbbeae143d151fe2",
+      "sha": "336c4f8",
+      "fullSha": "336c4f838a6c21b54e1e1f58cbbeae143d151fe2",
+      "owner": "TKassis",
+      "published": "2026-08-16",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Update README to include Reddit link and enhance user engagement",
+      "description": "Update README to include Reddit link and enhance user engagement\n\n- Added a Reddit badge and link to the README for broader community engagement.\n- Updated the &quot;Stay up to date&quot; section to include Reddit alongside existing social media links for new skills and updates.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/43a3e619a1dd8f053abdeb258c87ce81c53b424f",
+      "sha": "43a3e61",
+      "fullSha": "43a3e619a1dd8f053abdeb258c87ce81c53b424f",
+      "owner": "TKassis",
+      "published": "2026-08-15",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "Update pi-agent skill",
       "description": "Update pi-agent skill",
@@ -147,28 +169,6 @@
       "fullSha": "550b965a693b2f6b907a6a92b8d5c9315fc3a111",
       "owner": "neuroepithelial",
       "published": "2026-08-08",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Update optimize-for-gpu skill documentation and assets",
-      "description": "Update optimize-for-gpu skill documentation and assets\n\n- Enhanced the skill description for clarity and accuracy regarding GPU acceleration.\n- Updated compatibility notes to reflect requirements for RAPIDS 26.06 and Python 3.11+.\n- Revised the library selection guidance to emphasize preferred usage patterns and legacy considerations.\n- Improved the optimization workflow section with detailed steps for defining contracts and checking suitability.\n- Added new code transformation patterns and clarified the use of cuSpatial and cuVS.\n- Updated the cuCIM reference to include installation instructions and performance characteristics.\n- Replaced the existing optimize-for-gpu.png image with a new version to better illustrate the skill&#39;s capabilities.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/991bd993aca4e90891d1f9908ba82ef45d77b6f0",
-      "sha": "991bd99",
-      "fullSha": "991bd993aca4e90891d1f9908ba82ef45d77b6f0",
-      "owner": "TKassis",
-      "published": "2026-08-07",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Merge pull request #221 from KalinNonchev/add-deepspot-m-skill",
-      "description": "Merge pull request #221 from KalinNonchev/add-deepspot-m-skill\n\nAdd DeepSpot-M skill",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/5c0d8b302921fc140ea9f8aee22e39dcb70615ab",
-      "sha": "5c0d8b3",
-      "fullSha": "5c0d8b302921fc140ea9f8aee22e39dcb70615ab",
-      "owner": "TKassis",
-      "published": "2026-08-07",
       "label": "commit",
       "repo": "K-Dense-AI/scientific-agent-skills"
     }
