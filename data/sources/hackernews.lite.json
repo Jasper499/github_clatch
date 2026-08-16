@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-08-16T03:03:28Z",
+  "savedAt": "2026-08-16T14:26:48Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-08-16，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,23 +10,23 @@
       "title": "Firefox is now the last major browser that still supports uBlock Origin",
       "description": "",
       "url": "https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html",
-      "score": 1657,
-      "comments": 642,
+      "score": 1696,
+      "comments": 678,
       "owner": "DemiGuru"
     },
     {
       "title": "Qwen 3.8 27B",
       "description": "",
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
-      "score": 1361,
-      "comments": 773,
+      "score": 1394,
+      "comments": 782,
       "owner": "erdaltoprak"
     },
     {
       "title": "Tracking down the 16-year-old WAL-reset SQLite bug",
       "description": "",
       "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
-      "score": 1206,
+      "score": 1207,
       "comments": 234,
       "owner": "ropbear"
     },
@@ -42,8 +42,8 @@
       "title": "GLM-5.3: Frontier coding with emergent cyber capabilities",
       "description": "",
       "url": "https://z.ai/blog/glm-5.3",
-      "score": 1141,
-      "comments": 564,
+      "score": 1147,
+      "comments": 569,
       "owner": "pella"
     },
     {
@@ -58,7 +58,7 @@
       "title": "DeepSeek V4 Pro 0813",
       "description": "<a href=\"https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;models&#x2F;deepseek-v4-pro\" rel=\"nofollow\">https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;models&#x2F;deepseek-v4-pro</a><p><a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;ChrisGPT&#x2F;status&#x2F;2087572834650407024\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;ChrisGPT&#x2F;status&#x2F;2087572834650407024</a>, <a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;ChrisGPT&#x2F;status&#x2F;2087572834650407024\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;ChrisGPT&#x2F;status&#x2F;2087572834650407024</a>",
       "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
-      "score": 1032,
+      "score": 1034,
       "comments": 451,
       "owner": "explosion-s"
     },
@@ -66,31 +66,31 @@
       "title": "AI is removing the middle class of software engineering?",
       "description": "",
       "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
-      "score": 991,
-      "comments": 926,
+      "score": 993,
+      "comments": 930,
       "owner": "florianherrengt"
     },
     {
       "title": "Gemini 3.7 Flash",
       "description": "<a href=\"https:&#x2F;&#x2F;ai.google.dev&#x2F;gemini-api&#x2F;docs&#x2F;models&#x2F;gemini-3.7-flash\" rel=\"nofollow\">https:&#x2F;&#x2F;ai.google.dev&#x2F;gemini-api&#x2F;docs&#x2F;models&#x2F;gemini-3.7-flas...</a>",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-      "score": 960,
-      "comments": 490,
+      "score": 965,
+      "comments": 491,
       "owner": "thisisauserid"
     },
     {
       "title": "Why does Opus 5 feel worse to work with?",
       "description": "",
       "url": "https://mun-logadan.github.io/why-does-opus-5-feel-worse/",
-      "score": 937,
-      "comments": 833,
+      "score": 952,
+      "comments": 843,
       "owner": "numeri"
     },
     {
       "title": "As AI eats the web, the internet’s collective memory is disappearing",
       "description": "",
       "url": "https://thewalrus.ca/google-search-is-dying/",
-      "score": 934,
+      "score": 935,
       "comments": 984,
       "owner": "awnird"
     },
@@ -98,16 +98,16 @@
       "title": "Every Fucking Website (2020)",
       "description": "",
       "url": "https://lxe.github.io/everywebsite/",
-      "score": 840,
-      "comments": 474,
+      "score": 851,
+      "comments": 476,
       "owner": "doubletwoyou"
     },
     {
       "title": "How I use LLMs to learn complex topics",
       "description": "",
       "url": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
-      "score": 825,
-      "comments": 546,
+      "score": 828,
+      "comments": 547,
       "owner": "laurentiurad"
     },
     {
@@ -115,7 +115,7 @@
       "description": "<a href=\"https:&#x2F;&#x2F;github.com&#x2F;deepseek-ai&#x2F;deepseek-harness\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;deepseek-ai&#x2F;deepseek-harness</a><p><a href=\"https:&#x2F;&#x2F;deepseek-harness.github.io&#x2F;deepseek-harness&#x2F;en&#x2F;guide&#x2F;quickstart\" rel=\"nofollow\">https:&#x2F;&#x2F;deepseek-harness.github.io&#x2F;deepseek-harness&#x2F;en&#x2F;guide...</a>",
       "url": "https://deepseek.com/harness/en/",
       "score": 731,
-      "comments": 306,
+      "comments": 308,
       "owner": "bjin"
     },
     {
@@ -130,7 +130,7 @@
       "title": "Qwen3.8-2.4T",
       "description": "<a href=\"https:&#x2F;&#x2F;huggingface.co&#x2F;Qwen&#x2F;Qwen3.8-2.4T-A95B-FP8\" rel=\"nofollow\">https:&#x2F;&#x2F;huggingface.co&#x2F;Qwen&#x2F;Qwen3.8-2.4T-A95B-FP8</a>",
       "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
-      "score": 710,
+      "score": 711,
       "comments": 170,
       "owner": "Philpax"
     },
@@ -138,7 +138,7 @@
       "title": "Accelerating GPT-5.6 Sol Ultrafast",
       "description": "",
       "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
-      "score": 707,
+      "score": 710,
       "comments": 276,
       "owner": "pr337h4m"
     },
@@ -146,23 +146,23 @@
       "title": "Spaghettifying DRAM",
       "description": "",
       "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
-      "score": 706,
-      "comments": 173,
+      "score": 708,
+      "comments": 174,
       "owner": "matt_d"
     },
     {
       "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
       "description": "",
       "url": "https://stolen-thoughts.com/",
-      "score": 695,
-      "comments": 306,
+      "score": 696,
+      "comments": 307,
       "owner": "quantumgarbage"
     },
     {
       "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
       "description": "",
       "url": "https://www.docker.com/products/docker-sandboxes/",
-      "score": 692,
+      "score": 693,
       "comments": 396,
       "owner": "etoxin"
     }
