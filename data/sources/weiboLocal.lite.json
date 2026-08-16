@@ -1,30 +1,70 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-08-16T12:56:34Z",
+  "savedAt": "2026-08-16T18:42:10Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-16，共 2 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-16，共 6 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-08-16",
   "items": [
     {
+      "title": "女主播希望停止榜一大哥病态折磨",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E4%B8%BB%E6%92%AD%E5%B8%8C%E6%9C%9B%E5%81%9C%E6%AD%A2%E6%A6%9C%E4%B8%80%E5%A4%A7%E5%93%A5%E7%97%85%E6%80%81%E6%8A%98%E7%A3%A8%23&t=31&band_rank=1&Refer=top",
+      "score": 263894,
+      "owner": "微博同城",
+      "label": "热",
+      "category": "民生新闻",
+      "onboardTime": 1786894881
+    },
+    {
+      "title": "离世39岁儿科医生最后一条朋友圈",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%A6%BB%E4%B8%9639%E5%B2%81%E5%84%BF%E7%A7%91%E5%8C%BB%E7%94%9F%E6%9C%80%E5%90%8E%E4%B8%80%E6%9D%A1%E6%9C%8B%E5%8F%8B%E5%9C%88%23&t=31&band_rank=1&Refer=top",
+      "score": 85205,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1786897280
+    },
+    {
+      "title": "旺旺的无糖产品连店员都没听过",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%97%BA%E6%97%BA%E7%9A%84%E6%97%A0%E7%B3%96%E4%BA%A7%E5%93%81%E8%BF%9E%E5%BA%97%E5%91%98%E9%83%BD%E6%B2%A1%E5%90%AC%E8%BF%87%23&t=31&band_rank=1&Refer=top",
+      "score": 79498,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1786896679
+    },
+    {
+      "title": "游客不信胖东来爆满到店买2购物车",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B8%B8%E5%AE%A2%E4%B8%8D%E4%BF%A1%E8%83%96%E4%B8%9C%E6%9D%A5%E7%88%86%E6%BB%A1%E5%88%B0%E5%BA%97%E4%B9%B02%E8%B4%AD%E7%89%A9%E8%BD%A6%23&t=31&band_rank=1&Refer=top",
+      "score": 78488,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1786891942
+    },
+    {
+      "title": "有人要求政府联系某明星给自己过生日",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9C%89%E4%BA%BA%E8%A6%81%E6%B1%82%E6%94%BF%E5%BA%9C%E8%81%94%E7%B3%BB%E6%9F%90%E6%98%8E%E6%98%9F%E7%BB%99%E8%87%AA%E5%B7%B1%E8%BF%87%E7%94%9F%E6%97%A5%23&t=31&band_rank=1&Refer=top",
+      "score": 77968,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1786891762
+    },
+    {
       "title": "市民打12345投诉月光太亮影响睡觉",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E5%B8%82%E6%B0%91%E6%89%9312345%E6%8A%95%E8%AF%89%E6%9C%88%E5%85%89%E5%A4%AA%E4%BA%AE%E5%BD%B1%E5%93%8D%E7%9D%A1%E8%A7%89%23&t=31&band_rank=1&Refer=top",
-      "score": 758575,
+      "score": 76658,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1786876518
-    },
-    {
-      "title": "7名县委常委在土坯房上班",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%237%E5%90%8D%E5%8E%BF%E5%A7%94%E5%B8%B8%E5%A7%94%E5%9C%A8%E5%9C%9F%E5%9D%AF%E6%88%BF%E4%B8%8A%E7%8F%AD%23&t=31&band_rank=1&Refer=top",
-      "score": 463017,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1786884681
     }
   ]
 }
