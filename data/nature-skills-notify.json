@@ -1,20 +1,30 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-08-15T14:42:42Z",
+  "changed": true,
+  "fetchedAt": "2026-08-16T03:16:10Z",
   "previousSha": "c79c1c5203a4cc4ca6553d0348e25a3af948ff81",
-  "latestSha": "c79c1c5203a4cc4ca6553d0348e25a3af948ff81",
+  "latestSha": "7316aff80302f105c5703cf8d7dfd0f608a9b411",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "Clarify NMI figure legend word guidance (#196)",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/c79c1c5203a4cc4ca6553d0348e25a3af948ff81",
-    "sha": "c79c1c5",
-    "published": "2026-08-14"
+    "title": "chore: update star history",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/7316aff80302f105c5703cf8d7dfd0f608a9b411",
+    "sha": "7316aff",
+    "published": "2026-08-16"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "chore: update star history",
+      "sha": "7316aff",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/7316aff80302f105c5703cf8d7dfd0f608a9b411"
+    },
+    {
+      "title": "feat: add AI graphical abstract workflow (#197)",
+      "sha": "4ceb19c",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/4ceb19c9462111d70688729fbc9b6affd07646c3"
+    },
     {
       "title": "Clarify NMI figure legend word guidance (#196)",
       "sha": "c79c1c5",
@@ -29,16 +39,6 @@
       "title": "Add Nature Machine Intelligence submission requirements (#195)",
       "sha": "fe7f972",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/fe7f972c8d5d1c7e08f5ee742dc49fa493614930"
-    },
-    {
-      "title": "Update README.md",
-      "sha": "1ea82ff",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/1ea82ffff20f40077bf84b74182f55eeaf3d111d"
-    },
-    {
-      "title": "chore: update star history",
-      "sha": "a816314",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/a816314de0bb985e7034886e01596059522255b9"
     }
   ]
 }

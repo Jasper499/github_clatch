@@ -1,12 +1,32 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-08-15T14:42:42Z",
+  "savedAt": "2026-08-16T03:16:10Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "c79c1c5203a4cc4ca6553d0348e25a3af948ff81",
+  "latestSha": "7316aff80302f105c5703cf8d7dfd0f608a9b411",
   "items": [
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/7316aff80302f105c5703cf8d7dfd0f608a9b411",
+      "sha": "7316aff",
+      "fullSha": "7316aff80302f105c5703cf8d7dfd0f608a9b411",
+      "owner": "github-actions",
+      "published": "2026-08-16",
+      "label": "commit"
+    },
+    {
+      "title": "feat: add AI graphical abstract workflow (#197)",
+      "description": "feat: add AI graphical abstract workflow (#197)",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/4ceb19c9462111d70688729fbc9b6affd07646c3",
+      "sha": "4ceb19c",
+      "fullSha": "4ceb19c9462111d70688729fbc9b6affd07646c3",
+      "owner": "Travisma2233",
+      "published": "2026-08-15",
+      "label": "commit"
+    },
     {
       "title": "Clarify NMI figure legend word guidance (#196)",
       "description": "Clarify NMI figure legend word guidance (#196)\n\n* fix: clarify NMI figure legend word guidance\n\n* docs: explain NMI legend advisory ceiling",
@@ -135,26 +155,6 @@
       "fullSha": "dfd4e3bf8dc5daada876c6a0b1b92c49b8defedb",
       "owner": "Travisma2233",
       "published": "2026-08-07",
-      "label": "commit"
-    },
-    {
-      "title": "chore: update star history",
-      "description": "chore: update star history",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c2be4dc08934b1be6fb88e658bd21e0eec89088c",
-      "sha": "c2be4dc",
-      "fullSha": "c2be4dc08934b1be6fb88e658bd21e0eec89088c",
-      "owner": "github-actions",
-      "published": "2026-08-07",
-      "label": "commit"
-    },
-    {
-      "title": "docs(figure): codify panel-level QA rules",
-      "description": "docs(figure): codify panel-level QA rules",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/9410400815df189d3e76d4be19c74afa68d03412",
-      "sha": "9410400",
-      "fullSha": "9410400815df189d3e76d4be19c74afa68d03412",
-      "owner": "Travisma2233",
-      "published": "2026-08-05",
       "label": "commit"
     }
   ]
