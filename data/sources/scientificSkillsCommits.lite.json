@@ -1,12 +1,23 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-08-17T03:31:43Z",
+  "savedAt": "2026-08-17T15:00:36Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "336c4f838a6c21b54e1e1f58cbbeae143d151fe2",
+  "latestSha": "28f5603bc2b57ca6e2856e87af2e98686b65071f",
   "items": [
+    {
+      "title": "chore: update security scan report [skip ci]",
+      "description": "chore: update security scan report [skip ci]",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/28f5603bc2b57ca6e2856e87af2e98686b65071f",
+      "sha": "28f5603",
+      "fullSha": "28f5603bc2b57ca6e2856e87af2e98686b65071f",
+      "owner": "github-actions",
+      "published": "2026-08-17",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "Update lab hardware CAD skill documentation and standards",
       "description": "Update lab hardware CAD skill documentation and standards\n\n- Bumped version to 1.2 and updated last-reviewed date in SKILL.md.\n- Enhanced standards.json with updated notes and additional dimensions for clarity.\n- Expanded build123d-patterns.md to include detailed geometry checks and their semantics.\n- Improved fabrication-limits.md with laser cutting guidelines and corner radius considerations.\n- Updated validation.md to clarify checks for declared interfaces and geometry.\n- Added new geometry checks functionality in scripts to validate model geometry against built solids.\n- Adjusted check.py to include geometry evaluation commands for better verification processes.",
@@ -157,17 +168,6 @@
       "sha": "9b1d761",
       "fullSha": "9b1d761c67c310e6538f1d5d88759b2bcfc65ce2",
       "owner": "TKassis",
-      "published": "2026-08-08",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Add bounded NCATS ARAX knowledge graph skill",
-      "description": "Add bounded NCATS ARAX knowledge graph skill\n\nAdd a standard-library ARAX client for typed one-hop and endpoint-pinned two-hop Translator queries, selected-provider federation, entity normalization, and provenance-preserving artifacts. Include offline fixtures and tests, isolated test metadata, and README discovery.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/550b965a693b2f6b907a6a92b8d5c9315fc3a111",
-      "sha": "550b965",
-      "fullSha": "550b965a693b2f6b907a6a92b8d5c9315fc3a111",
-      "owner": "neuroepithelial",
       "published": "2026-08-08",
       "label": "commit",
       "repo": "K-Dense-AI/scientific-agent-skills"

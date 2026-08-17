@@ -1,20 +1,25 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-08-17T03:31:43Z",
+  "changed": true,
+  "fetchedAt": "2026-08-17T15:00:36Z",
   "previousSha": "336c4f838a6c21b54e1e1f58cbbeae143d151fe2",
-  "latestSha": "336c4f838a6c21b54e1e1f58cbbeae143d151fe2",
+  "latestSha": "28f5603bc2b57ca6e2856e87af2e98686b65071f",
   "repo": "K-Dense-AI/scientific-agent-skills",
   "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "stars": 0,
-  "skillCount": 162,
+  "skillCount": 155,
   "latestCommit": {
-    "title": "Update lab hardware CAD skill documentation and standards",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/336c4f838a6c21b54e1e1f58cbbeae143d151fe2",
-    "sha": "336c4f8",
-    "published": "2026-08-16"
+    "title": "chore: update security scan report [skip ci]",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/28f5603bc2b57ca6e2856e87af2e98686b65071f",
+    "sha": "28f5603",
+    "published": "2026-08-17"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "chore: update security scan report [skip ci]",
+      "sha": "28f5603",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/28f5603bc2b57ca6e2856e87af2e98686b65071f"
+    },
     {
       "title": "Update lab hardware CAD skill documentation and standards",
       "sha": "336c4f8",
@@ -34,11 +39,6 @@
       "title": "Update examples and skills documentation",
       "sha": "3c8fc0f",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/3c8fc0fd16d6408e5185e086cc75564888e51d41"
-    },
-    {
-      "title": "Add CAD skill for lab hardware",
-      "sha": "980e4f0",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/980e4f0bb2a73f26fc66254c1edbbe7b7985f5e1"
     }
   ]
 }
