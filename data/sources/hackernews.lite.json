@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-08-17T03:03:22Z",
+  "savedAt": "2026-08-17T14:31:59Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-08-17，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,16 +10,16 @@
       "title": "Firefox is now the last major browser that still supports uBlock Origin",
       "description": "",
       "url": "https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html",
-      "score": 1712,
-      "comments": 693,
+      "score": 1725,
+      "comments": 705,
       "owner": "DemiGuru"
     },
     {
       "title": "Qwen 3.8 27B",
       "description": "",
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
-      "score": 1411,
-      "comments": 784,
+      "score": 1423,
+      "comments": 788,
       "owner": "erdaltoprak"
     },
     {
@@ -31,26 +31,18 @@
       "owner": "ropbear"
     },
     {
-      "title": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
-      "description": "",
-      "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
-      "score": 1205,
-      "comments": 638,
-      "owner": "riordan"
-    },
-    {
       "title": "GLM-5.3: Frontier coding with emergent cyber capabilities",
       "description": "",
       "url": "https://z.ai/blog/glm-5.3",
-      "score": 1154,
-      "comments": 573,
+      "score": 1159,
+      "comments": 575,
       "owner": "pella"
     },
     {
       "title": "France to ban unsolicited telemarketing calls",
       "description": "",
       "url": "https://www.lemonde.fr/en/france/article/2026/08/06/france-to-ban-unsolicited-telemarketing-calls-from-august-11_6756208_7.html",
-      "score": 1060,
+      "score": 1061,
       "comments": 510,
       "owner": "aziaziazi"
     },
@@ -58,7 +50,7 @@
       "title": "DeepSeek V4 Pro 0813",
       "description": "<a href=\"https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;models&#x2F;deepseek-v4-pro\" rel=\"nofollow\">https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;models&#x2F;deepseek-v4-pro</a><p><a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;ChrisGPT&#x2F;status&#x2F;2087572834650407024\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;ChrisGPT&#x2F;status&#x2F;2087572834650407024</a>, <a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;ChrisGPT&#x2F;status&#x2F;2087572834650407024\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;ChrisGPT&#x2F;status&#x2F;2087572834650407024</a>",
       "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
-      "score": 1035,
+      "score": 1037,
       "comments": 451,
       "owner": "explosion-s"
     },
@@ -66,23 +58,23 @@
       "title": "AI is removing the middle class of software engineering?",
       "description": "",
       "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
-      "score": 996,
-      "comments": 932,
+      "score": 998,
+      "comments": 935,
       "owner": "florianherrengt"
     },
     {
       "title": "Why does Opus 5 feel worse to work with?",
       "description": "",
       "url": "https://mun-logadan.github.io/why-does-opus-5-feel-worse/",
-      "score": 966,
-      "comments": 854,
+      "score": 972,
+      "comments": 860,
       "owner": "numeri"
     },
     {
       "title": "Gemini 3.7 Flash",
       "description": "<a href=\"https:&#x2F;&#x2F;ai.google.dev&#x2F;gemini-api&#x2F;docs&#x2F;models&#x2F;gemini-3.7-flash\" rel=\"nofollow\">https:&#x2F;&#x2F;ai.google.dev&#x2F;gemini-api&#x2F;docs&#x2F;models&#x2F;gemini-3.7-flas...</a>",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-      "score": 966,
+      "score": 967,
       "comments": 491,
       "owner": "thisisauserid"
     },
@@ -90,23 +82,23 @@
       "title": "As AI eats the web, the internet’s collective memory is disappearing",
       "description": "",
       "url": "https://thewalrus.ca/google-search-is-dying/",
-      "score": 936,
-      "comments": 985,
+      "score": 937,
+      "comments": 986,
       "owner": "awnird"
     },
     {
       "title": "Every Fucking Website (2020)",
       "description": "",
       "url": "https://lxe.github.io/everywebsite/",
-      "score": 858,
-      "comments": 480,
+      "score": 860,
+      "comments": 491,
       "owner": "doubletwoyou"
     },
     {
       "title": "DeepSeek Harness developer preview",
       "description": "<a href=\"https:&#x2F;&#x2F;github.com&#x2F;deepseek-ai&#x2F;deepseek-harness\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;deepseek-ai&#x2F;deepseek-harness</a><p><a href=\"https:&#x2F;&#x2F;deepseek-harness.github.io&#x2F;deepseek-harness&#x2F;en&#x2F;guide&#x2F;quickstart\" rel=\"nofollow\">https:&#x2F;&#x2F;deepseek-harness.github.io&#x2F;deepseek-harness&#x2F;en&#x2F;guide...</a>",
       "url": "https://deepseek.com/harness/en/",
-      "score": 733,
+      "score": 735,
       "comments": 309,
       "owner": "bjin"
     },
@@ -115,16 +107,32 @@
       "description": "<a href=\"https:&#x2F;&#x2F;reddit.com&#x2F;r&#x2F;uBlockOrigin&#x2F;comments&#x2F;1vgcjg5&#x2F;about_disgusting_facebook_devs&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;reddit.com&#x2F;r&#x2F;uBlockOrigin&#x2F;comments&#x2F;1vgcjg5&#x2F;about_dis...</a><p><a href=\"https:&#x2F;&#x2F;www.neowin.net&#x2F;news&#x2F;facebook-ads-are-so-hard-to-block-that-ublock-origin-stopped-filtering-them&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.neowin.net&#x2F;news&#x2F;facebook-ads-are-so-hard-to-bloc...</a>",
       "url": "https://digitalescapetools.com/2026/08/ublock-origin-stops-chasing-facebook-ads.html",
       "score": 720,
-      "comments": 913,
+      "comments": 914,
       "owner": "Markoff"
+    },
+    {
+      "title": "Claude: System Prompts",
+      "description": "",
+      "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
+      "score": 717,
+      "comments": 271,
+      "owner": "tosh"
     },
     {
       "title": "Accelerating GPT-5.6 Sol Ultrafast",
       "description": "",
       "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
-      "score": 711,
+      "score": 712,
       "comments": 277,
       "owner": "pr337h4m"
+    },
+    {
+      "title": "Spaghettifying DRAM",
+      "description": "",
+      "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
+      "score": 712,
+      "comments": 175,
+      "owner": "matt_d"
     },
     {
       "title": "Qwen3.8-2.4T",
@@ -135,14 +143,6 @@
       "owner": "Philpax"
     },
     {
-      "title": "Spaghettifying DRAM",
-      "description": "",
-      "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
-      "score": 709,
-      "comments": 174,
-      "owner": "matt_d"
-    },
-    {
       "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
       "description": "",
       "url": "https://stolen-thoughts.com/",
@@ -151,18 +151,18 @@
       "owner": "quantumgarbage"
     },
     {
-      "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
+      "title": "Firefox for iOS now has a native adblocker",
       "description": "",
-      "url": "https://www.docker.com/products/docker-sandboxes/",
-      "score": 693,
-      "comments": 396,
-      "owner": "etoxin"
+      "url": "https://support.mozilla.org/en-US/kb/block-ads-firefox-ios",
+      "score": 680,
+      "comments": 266,
+      "owner": "pentagrama"
     },
     {
       "title": "Delta",
       "description": "",
       "url": "https://zed.dev/blog/introducing-delta",
-      "score": 677,
+      "score": 678,
       "comments": 257,
       "owner": "khy"
     }
