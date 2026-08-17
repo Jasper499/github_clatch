@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-16T18:42:10Z",
+  "updatedAt": "2026-08-17T01:51:17Z",
   "periodDays": 7,
   "weekLabel": "2026-08-03 ~ 2026-08-10",
   "githubUpdatedAt": "2026-08-10T03:10:03Z",
   "hackernewsUpdatedAt": "2026-08-16T14:26:48Z",
-  "weiboUpdatedAt": "2026-08-16T18:42:10Z",
+  "weiboUpdatedAt": "2026-08-17T01:51:17Z",
   "journalsUpdatedAt": "2026-08-15T02:43:06Z",
   "natureSkillsUpdatedAt": "2026-08-16T14:44:08Z",
   "scientificSkillsUpdatedAt": "2026-08-16T14:56:58Z",
@@ -130,9 +130,9 @@
     },
     "weibo": {
       "label": "热搜榜",
-      "description": "微博热搜榜（2026-08-16，共 30 条，约每 6 小时更新）",
+      "description": "微博热搜榜（2026-08-17，共 30 条，约每 6 小时更新）",
       "updateFrequency": "every-6h",
-      "fetchedDate": "2026-08-16",
+      "fetchedDate": "2026-08-17",
       "itemCount": 30
     },
     "mrm": {
@@ -187,17 +187,17 @@
     },
     "weiboRealtime": {
       "label": "实时",
-      "description": "微博实时上升榜（按上榜时间排序，2026-08-16，共 30 条，约每 6 小时更新）",
+      "description": "微博实时上升榜（按上榜时间排序，2026-08-17，共 30 条，约每 6 小时更新）",
       "updateFrequency": "every-6h",
-      "fetchedDate": "2026-08-16",
+      "fetchedDate": "2026-08-17",
       "itemCount": 30
     },
     "weiboLocal": {
       "label": "同城",
-      "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-16，共 6 条，约每 6 小时更新）",
+      "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-17，共 4 条，约每 6 小时更新）",
       "updateFrequency": "every-6h",
-      "fetchedDate": "2026-08-16",
-      "itemCount": 6
+      "fetchedDate": "2026-08-17",
+      "itemCount": 4
     },
     "chinaDaily": {
       "label": "China Daily 热门",
@@ -207,7 +207,7 @@
       "itemCount": 20
     }
   },
-  "generatedAt": "2026-08-16T18:42:10Z",
+  "generatedAt": "2026-08-17T01:51:17Z",
   "journalsPeriod": "2026-07-01 ~ 2026-08-15",
   "chinaDailyUpdatedAt": "2026-08-16T03:48:32Z"
 }
