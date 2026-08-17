@@ -1,50 +1,110 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-08-17T01:51:17Z",
+  "savedAt": "2026-08-17T07:11:58Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-17，共 4 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-17，共 10 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-08-17",
   "items": [
     {
-      "title": "儿科医生杨国辉去世妻子发声",
+      "title": "暑期服务消费潜能加速释放",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%84%BF%E7%A7%91%E5%8C%BB%E7%94%9F%E6%9D%A8%E5%9B%BD%E8%BE%89%E5%8E%BB%E4%B8%96%E5%A6%BB%E5%AD%90%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
-      "score": 593532,
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9A%91%E6%9C%9F%E6%9C%8D%E5%8A%A1%E6%B6%88%E8%B4%B9%E6%BD%9C%E8%83%BD%E5%8A%A0%E9%80%9F%E9%87%8A%E6%94%BE%23&t=31&band_rank=1&Refer=top",
+      "score": 718632,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1786923858
+      "onboardTime": 1786883482
     },
     {
-      "title": "考驾照的人为何变少了",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%80%83%E9%A9%BE%E7%85%A7%E7%9A%84%E4%BA%BA%E4%B8%BA%E4%BD%95%E5%8F%98%E5%B0%91%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 147264,
+      "title": "3孩非亲生案",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%233%E5%AD%A9%E9%9D%9E%E4%BA%B2%E7%94%9F%E6%A1%88%23&t=31&band_rank=1&Refer=top",
+      "score": 412836,
       "owner": "微博同城",
-      "label": "",
+      "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1786923919
+      "onboardTime": 1786947201
     },
     {
-      "title": "有人要求政府联系某明星给自己过生日",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9C%89%E4%BA%BA%E8%A6%81%E6%B1%82%E6%94%BF%E5%BA%9C%E8%81%94%E7%B3%BB%E6%9F%90%E6%98%8E%E6%98%9F%E7%BB%99%E8%87%AA%E5%B7%B1%E8%BF%87%E7%94%9F%E6%97%A5%23&t=31&band_rank=1&Refer=top",
-      "score": 136707,
+      "title": "爸爸酒后熟睡翻身压住婴儿脑袋",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%88%B8%E7%88%B8%E9%85%92%E5%90%8E%E7%86%9F%E7%9D%A1%E7%BF%BB%E8%BA%AB%E5%8E%8B%E4%BD%8F%E5%A9%B4%E5%84%BF%E8%84%91%E8%A2%8B%23&t=31&band_rank=1&Refer=top",
+      "score": 318068,
       "owner": "微博同城",
-      "label": "",
+      "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1786891762
+      "onboardTime": 1786948820
     },
     {
-      "title": "3女儿均非亲生男方盼尽快再婚",
+      "title": "女方回应结婚8年3孩非亲生",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E6%96%B9%E5%9B%9E%E5%BA%94%E7%BB%93%E5%A9%9A8%E5%B9%B43%E5%AD%A9%E9%9D%9E%E4%BA%B2%E7%94%9F%23&t=31&band_rank=1&Refer=top",
+      "score": 316050,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1786946120
+    },
+    {
+      "title": "建议这类手机壳赶紧扔掉",
+      "description": "民生新闻,健康医疗",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%BB%BA%E8%AE%AE%E8%BF%99%E7%B1%BB%E6%89%8B%E6%9C%BA%E5%A3%B3%E8%B5%B6%E7%B4%A7%E6%89%94%E6%8E%89%23&t=31&band_rank=1&Refer=top",
+      "score": 314031,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻,健康医疗",
+      "onboardTime": 1786933340
+    },
+    {
+      "title": "劣质手机壳或降低男性生育能力",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8A%A3%E8%B4%A8%E6%89%8B%E6%9C%BA%E5%A3%B3%E6%88%96%E9%99%8D%E4%BD%8E%E7%94%B7%E6%80%A7%E7%94%9F%E8%82%B2%E8%83%BD%E5%8A%9B%23&t=31&band_rank=1&Refer=top",
+      "score": 282507,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1786950080
+    },
+    {
+      "title": "瑞幸七夕作品博主近30日掉粉5万",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%91%9E%E5%B9%B8%E4%B8%83%E5%A4%95%E4%BD%9C%E5%93%81%E5%8D%9A%E4%B8%BB%E8%BF%9130%E6%97%A5%E6%8E%89%E7%B2%895%E4%B8%87%23&t=31&band_rank=1&Refer=top",
+      "score": 280618,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1786950080
+    },
+    {
+      "title": "三亚一沙滩上发现大量图钉",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%89%E4%BA%9A%E4%B8%80%E6%B2%99%E6%BB%A9%E4%B8%8A%E5%8F%91%E7%8E%B0%E5%A4%A7%E9%87%8F%E5%9B%BE%E9%92%89%23&t=31&band_rank=1&Refer=top",
+      "score": 276298,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1786949720
+    },
+    {
+      "title": "胖东来",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%233%E5%A5%B3%E5%84%BF%E5%9D%87%E9%9D%9E%E4%BA%B2%E7%94%9F%E7%94%B7%E6%96%B9%E7%9B%BC%E5%B0%BD%E5%BF%AB%E5%86%8D%E5%A9%9A%23&t=31&band_rank=1&Refer=top",
-      "score": 115016,
+      "url": "https://s.weibo.com/weibo?q=%E8%83%96%E4%B8%9C%E6%9D%A5&t=31&band_rank=1&Refer=top",
+      "score": 229499,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1786922298
+      "onboardTime": 1786940902
+    },
+    {
+      "title": "纪念江泽民同志诞辰100周年大会",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%BA%AA%E5%BF%B5%E6%B1%9F%E6%B3%BD%E6%B0%91%E5%90%8C%E5%BF%97%E8%AF%9E%E8%BE%B0100%E5%91%A8%E5%B9%B4%E5%A4%A7%E4%BC%9A%23&t=31&band_rank=1&Refer=top",
+      "score": 213328,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1786932200
     }
   ]
 }
