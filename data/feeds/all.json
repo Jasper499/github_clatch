@@ -6,100 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "github:https://github.com/deepseek-ai/deepseek-harness",
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "title": "[GitHub 热门新项目] deepseek-ai/deepseek-harness",
-      "date_published": "2026-08-17T02:18:07Z"
+      "id": "hackernews:https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html",
+      "url": "https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html",
+      "title": "[Hacker News 热门] Firefox is now the last major browser that still supports uBlock Origin",
+      "date_published": "2026-08-17T03:03:22Z"
     },
     {
-      "id": "github:https://github.com/guillaumemeyer/watermarks-remover",
-      "url": "https://github.com/guillaumemeyer/watermarks-remover",
-      "title": "[GitHub 热门新项目] guillaumemeyer/watermarks-remover",
-      "date_published": "2026-08-17T02:18:07Z"
+      "id": "hackernews:https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+      "title": "[Hacker News 热门] Qwen 3.8 27B",
+      "date_published": "2026-08-17T03:03:22Z"
     },
     {
-      "id": "github:https://github.com/anywhere-labs/deepseek-harness-desktop",
-      "url": "https://github.com/anywhere-labs/deepseek-harness-desktop",
-      "title": "[GitHub 热门新项目] anywhere-labs/deepseek-harness-desktop",
-      "date_published": "2026-08-17T02:18:07Z"
+      "id": "hackernews:https://tailscale.com/blog/sqlite-wal-reset-bug",
+      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
+      "title": "[Hacker News 热门] Tracking down the 16-year-old WAL-reset SQLite bug",
+      "date_published": "2026-08-17T03:03:22Z"
     },
     {
-      "id": "github:https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
-      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
-      "title": "[GitHub 热门新项目] awesome-dsh-plugin/awesome-dsh-plugin",
-      "date_published": "2026-08-17T02:18:07Z"
+      "id": "hackernews:https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "title": "[Hacker News 热门] Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
+      "date_published": "2026-08-17T03:03:22Z"
     },
     {
-      "id": "github:https://github.com/zhu1090093659/dsh-web-ui",
-      "url": "https://github.com/zhu1090093659/dsh-web-ui",
-      "title": "[GitHub 热门新项目] zhu1090093659/dsh-web-ui",
-      "date_published": "2026-08-17T02:18:07Z"
+      "id": "hackernews:https://z.ai/blog/glm-5.3",
+      "url": "https://z.ai/blog/glm-5.3",
+      "title": "[Hacker News 热门] GLM-5.3: Frontier coding with emergent cyber capabilities",
+      "date_published": "2026-08-17T03:03:22Z"
     },
     {
-      "id": "github:https://github.com/xiaobright/dsh-anchored-standard",
-      "url": "https://github.com/xiaobright/dsh-anchored-standard",
-      "title": "[GitHub 热门新项目] xiaobright/dsh-anchored-standard",
-      "date_published": "2026-08-17T02:18:07Z"
+      "id": "hackernews:https://www.lemonde.fr/en/france/article/2026/08/06/france-to-ban-unsolicited-telemarketing-calls-from-august-11_6756208_7.html",
+      "url": "https://www.lemonde.fr/en/france/article/2026/08/06/france-to-ban-unsolicited-telemarketing-calls-from-august-11_6756208_7.html",
+      "title": "[Hacker News 热门] France to ban unsolicited telemarketing calls",
+      "date_published": "2026-08-17T03:03:22Z"
     },
     {
-      "id": "github:https://github.com/yjh051108/dsh-routing-suite",
-      "url": "https://github.com/yjh051108/dsh-routing-suite",
-      "title": "[GitHub 热门新项目] yjh051108/dsh-routing-suite",
-      "date_published": "2026-08-17T02:18:07Z"
+      "id": "hackernews:https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+      "title": "[Hacker News 热门] DeepSeek V4 Pro 0813",
+      "date_published": "2026-08-17T03:03:22Z"
     },
     {
-      "id": "github:https://github.com/cordiverse/paper",
-      "url": "https://github.com/cordiverse/paper",
-      "title": "[GitHub 热门新项目] cordiverse/paper",
-      "date_published": "2026-08-17T02:18:07Z"
-    },
-    {
-      "id": "githubActive:https://github.com/public-apis/public-apis",
-      "url": "https://github.com/public-apis/public-apis",
-      "title": "[GitHub 活跃项目] public-apis/public-apis",
-      "date_published": "2026-08-17T02:18:07Z"
-    },
-    {
-      "id": "githubActive:https://github.com/freeCodeCamp/freeCodeCamp",
-      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "title": "[GitHub 活跃项目] freeCodeCamp/freeCodeCamp",
-      "date_published": "2026-08-17T02:18:07Z"
-    },
-    {
-      "id": "githubActive:https://github.com/EbookFoundation/free-programming-books",
-      "url": "https://github.com/EbookFoundation/free-programming-books",
-      "title": "[GitHub 活跃项目] EbookFoundation/free-programming-books",
-      "date_published": "2026-08-17T02:18:07Z"
-    },
-    {
-      "id": "githubActive:https://github.com/openclaw/openclaw",
-      "url": "https://github.com/openclaw/openclaw",
-      "title": "[GitHub 活跃项目] openclaw/openclaw",
-      "date_published": "2026-08-17T02:18:07Z"
-    },
-    {
-      "id": "githubActive:https://github.com/nilbuild/developer-roadmap",
-      "url": "https://github.com/nilbuild/developer-roadmap",
-      "title": "[GitHub 活跃项目] nilbuild/developer-roadmap",
-      "date_published": "2026-08-17T02:18:07Z"
-    },
-    {
-      "id": "githubActive:https://github.com/vinta/awesome-python",
-      "url": "https://github.com/vinta/awesome-python",
-      "title": "[GitHub 活跃项目] vinta/awesome-python",
-      "date_published": "2026-08-17T02:18:07Z"
-    },
-    {
-      "id": "githubActive:https://github.com/awesome-selfhosted/awesome-selfhosted",
-      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-      "title": "[GitHub 活跃项目] awesome-selfhosted/awesome-selfhosted",
-      "date_published": "2026-08-17T02:18:07Z"
-    },
-    {
-      "id": "githubActive:https://github.com/obra/superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "title": "[GitHub 活跃项目] obra/superpowers",
-      "date_published": "2026-08-17T02:18:07Z"
+      "id": "hackernews:https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+      "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+      "title": "[Hacker News 热门] AI is removing the middle class of software engineering?",
+      "date_published": "2026-08-17T03:03:22Z"
     }
   ]
 }
