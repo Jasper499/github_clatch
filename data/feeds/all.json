@@ -6,148 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%A4%A9%E5%AE%89%E9%97%A8%E4%B8%8B%E5%8D%8A%E6%97%97%E6%82%BC%E5%BF%B5%E6%9C%B1%E9%95%95%E5%9F%BA%E5%90%8C%E5%BF%97%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%A9%E5%AE%89%E9%97%A8%E4%B8%8B%E5%8D%8A%E6%97%97%E6%82%BC%E5%BF%B5%E6%9C%B1%E9%95%95%E5%9F%BA%E5%90%8C%E5%BF%97%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 天安门下半旗悼念朱镕基同志",
-      "date_published": "2026-08-18T01:46:17Z"
+      "id": "hackernews:https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html",
+      "url": "https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html",
+      "title": "[Hacker News 热门] Firefox is now the last major browser that still supports uBlock Origin",
+      "date_published": "2026-08-18T02:58:19Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=BBA%E5%A4%A7%E9%99%8D%E4%BB%B7%20%E5%AE%9D%E9%A9%AC5%E7%B3%BB%E8%B7%8C%E8%87%B328%E4%B8%87&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=BBA%E5%A4%A7%E9%99%8D%E4%BB%B7%20%E5%AE%9D%E9%A9%AC5%E7%B3%BB%E8%B7%8C%E8%87%B328%E4%B8%87&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] BBA大降价 宝马5系跌至28万",
-      "date_published": "2026-08-18T01:46:17Z"
+      "id": "hackernews:https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+      "title": "[Hacker News 热门] Qwen 3.8 27B",
+      "date_published": "2026-08-18T02:58:19Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%89%8D7%E4%B8%AA%E6%9C%88%E5%9B%BD%E6%B0%91%E7%BB%8F%E6%B5%8E%E6%80%BB%E4%BD%93%E5%B9%B3%E7%A8%B3%E5%90%91%E6%96%B0%E5%90%91%E4%BC%98%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%89%8D7%E4%B8%AA%E6%9C%88%E5%9B%BD%E6%B0%91%E7%BB%8F%E6%B5%8E%E6%80%BB%E4%BD%93%E5%B9%B3%E7%A8%B3%E5%90%91%E6%96%B0%E5%90%91%E4%BC%98%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 前7个月国民经济总体平稳向新向优",
-      "date_published": "2026-08-18T01:46:17Z"
+      "id": "hackernews:https://tailscale.com/blog/sqlite-wal-reset-bug",
+      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
+      "title": "[Hacker News 热门] Tracking down the 16-year-old WAL-reset SQLite bug",
+      "date_published": "2026-08-18T02:58:19Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E7%85%A7%E7%83%A7%E9%B3%97%E9%B1%BC%20%E6%AD%BB%E9%B3%97%E9%B1%BC&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E7%85%A7%E7%83%A7%E9%B3%97%E9%B1%BC%20%E6%AD%BB%E9%B3%97%E9%B1%BC&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 照烧鳗鱼 死鳗鱼",
-      "date_published": "2026-08-18T01:46:17Z"
+      "id": "hackernews:https://z.ai/blog/glm-5.3",
+      "url": "https://z.ai/blog/glm-5.3",
+      "title": "[Hacker News 热门] GLM-5.3: Frontier coding with emergent cyber capabilities",
+      "date_published": "2026-08-18T02:58:19Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E6%A6%B4%E8%8E%B2%E4%BB%B7%E6%A0%BC%E5%BD%BB%E5%BA%95%E5%B4%A9%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%A6%B4%E8%8E%B2%E4%BB%B7%E6%A0%BC%E5%BD%BB%E5%BA%95%E5%B4%A9%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 榴莲价格彻底崩了",
-      "date_published": "2026-08-18T01:46:17Z"
+      "id": "hackernews:https://www.lemonde.fr/en/france/article/2026/08/06/france-to-ban-unsolicited-telemarketing-calls-from-august-11_6756208_7.html",
+      "url": "https://www.lemonde.fr/en/france/article/2026/08/06/france-to-ban-unsolicited-telemarketing-calls-from-august-11_6756208_7.html",
+      "title": "[Hacker News 热门] France to ban unsolicited telemarketing calls",
+      "date_published": "2026-08-18T02:58:19Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E6%99%AE%E9%80%9A%E4%BA%BA%E6%9C%89%E6%94%B6%E5%85%A5%E5%90%8E%E7%88%B1%E5%BC%A5%E8%A1%A5%E8%BF%87%E5%8E%BB%E7%9A%84%E8%87%AA%E5%B7%B1&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E6%99%AE%E9%80%9A%E4%BA%BA%E6%9C%89%E6%94%B6%E5%85%A5%E5%90%8E%E7%88%B1%E5%BC%A5%E8%A1%A5%E8%BF%87%E5%8E%BB%E7%9A%84%E8%87%AA%E5%B7%B1&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 普通人有收入后爱弥补过去的自己",
-      "date_published": "2026-08-18T01:46:17Z"
+      "id": "hackernews:https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+      "title": "[Hacker News 热门] DeepSeek V4 Pro 0813",
+      "date_published": "2026-08-18T02:58:19Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%A4%A7%E6%89%B9AI%E5%8D%9A%E4%B8%BB%E5%81%9C%E6%9B%B4%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%A7%E6%89%B9AI%E5%8D%9A%E4%B8%BB%E5%81%9C%E6%9B%B4%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 大批AI博主停更了",
-      "date_published": "2026-08-18T01:46:17Z"
+      "id": "hackernews:https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+      "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+      "title": "[Hacker News 热门] AI is removing the middle class of software engineering?",
+      "date_published": "2026-08-18T02:58:19Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%8D%B0%E5%BA%A6%E6%95%99%E6%8E%88%E5%8F%91%E4%B8%AD%E5%9B%BD%E8%A1%97%E6%99%AF%E7%A7%B0%E8%A2%AB%E5%8D%B0%E5%AA%92%E9%AA%97%E6%83%A8%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8D%B0%E5%BA%A6%E6%95%99%E6%8E%88%E5%8F%91%E4%B8%AD%E5%9B%BD%E8%A1%97%E6%99%AF%E7%A7%B0%E8%A2%AB%E5%8D%B0%E5%AA%92%E9%AA%97%E6%83%A8%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 印度教授发中国街景称被印媒骗惨了",
-      "date_published": "2026-08-18T01:46:17Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%BC%9F%E5%BC%9F%E4%B8%BE%E6%8A%A5%E5%93%A5%E5%93%A5%E6%A1%88%E6%AF%8D%E4%BA%B2%E9%A6%96%E5%BA%A6%E9%9C%B2%E9%9D%A2%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%BC%9F%E5%BC%9F%E4%B8%BE%E6%8A%A5%E5%93%A5%E5%93%A5%E6%A1%88%E6%AF%8D%E4%BA%B2%E9%A6%96%E5%BA%A6%E9%9C%B2%E9%9D%A2%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 弟弟举报哥哥案母亲首度露面",
-      "date_published": "2026-08-18T01:46:17Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E8%B5%B5%E6%B5%B7%E5%B3%B0%E6%8E%A5%E5%8F%97%E8%B0%83%E6%9F%A5%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%B5%B5%E6%B5%B7%E5%B3%B0%E6%8E%A5%E5%8F%97%E8%B0%83%E6%9F%A5%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 赵海峰接受调查",
-      "date_published": "2026-08-18T01:46:17Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E9%86%89%E9%B9%85%E5%A8%98%20%E8%B5%B0%E7%A7%81&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E9%86%89%E9%B9%85%E5%A8%98%20%E8%B5%B0%E7%A7%81&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 醉鹅娘 走私",
-      "date_published": "2026-08-18T01:46:17Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E7%AB%A5%E8%A3%85%E8%AE%BE%E8%AE%A1%20%E5%BC%95%E4%BA%BA%E8%A7%A6%E6%91%B8&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E7%AB%A5%E8%A3%85%E8%AE%BE%E8%AE%A1%20%E5%BC%95%E4%BA%BA%E8%A7%A6%E6%91%B8&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 童装设计 引人触摸",
-      "date_published": "2026-08-18T01:46:17Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%9B%BD%E5%B7%A8%E5%A4%B4%E4%B9%B0%E4%BA%863200%E8%BE%86%E4%B8%AD%E5%9B%BD%E8%BD%A6%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%9B%BD%E5%B7%A8%E5%A4%B4%E4%B9%B0%E4%BA%863200%E8%BE%86%E4%B8%AD%E5%9B%BD%E8%BD%A6%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 美国巨头买了3200辆中国车",
-      "date_published": "2026-08-18T01:46:17Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E6%9D%8E%E8%A0%95%E8%A0%95%E8%96%9B%E7%94%84%E7%8F%A0%E4%BB%BF%E5%A6%86%E7%A5%9E%E8%BF%98%E5%8E%9F%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E8%A0%95%E8%A0%95%E8%96%9B%E7%94%84%E7%8F%A0%E4%BB%BF%E5%A6%86%E7%A5%9E%E8%BF%98%E5%8E%9F%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 李蠕蠕薛甄珠仿妆神还原",
-      "date_published": "2026-08-18T01:46:17Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23100%E4%BD%99%E5%90%8D%E4%B8%AD%E5%9B%BD%E4%BA%BA%E5%9C%A8%E5%B7%B4%E5%9F%BA%E6%96%AF%E5%9D%A6%E8%A2%AB%E6%8B%98%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23100%E4%BD%99%E5%90%8D%E4%B8%AD%E5%9B%BD%E4%BA%BA%E5%9C%A8%E5%B7%B4%E5%9F%BA%E6%96%AF%E5%9D%A6%E8%A2%AB%E6%8B%98%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 100余名中国人在巴基斯坦被拘",
-      "date_published": "2026-08-18T01:46:17Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E6%99%AE%E9%80%9A%E4%BA%BA%E6%9C%89%E6%94%B6%E5%85%A5%E5%90%8E%E7%88%B1%E5%BC%A5%E8%A1%A5%E8%BF%87%E5%8E%BB%E7%9A%84%E8%87%AA%E5%B7%B1&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E6%99%AE%E9%80%9A%E4%BA%BA%E6%9C%89%E6%94%B6%E5%85%A5%E5%90%8E%E7%88%B1%E5%BC%A5%E8%A1%A5%E8%BF%87%E5%8E%BB%E7%9A%84%E8%87%AA%E5%B7%B1&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 普通人有收入后爱弥补过去的自己",
-      "date_published": "2026-08-18T01:46:17Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%89%8D7%E4%B8%AA%E6%9C%88%E5%9B%BD%E6%B0%91%E7%BB%8F%E6%B5%8E%E6%80%BB%E4%BD%93%E5%B9%B3%E7%A8%B3%E5%90%91%E6%96%B0%E5%90%91%E4%BC%98%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%89%8D7%E4%B8%AA%E6%9C%88%E5%9B%BD%E6%B0%91%E7%BB%8F%E6%B5%8E%E6%80%BB%E4%BD%93%E5%B9%B3%E7%A8%B3%E5%90%91%E6%96%B0%E5%90%91%E4%BC%98%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 前7个月国民经济总体平稳向新向优",
-      "date_published": "2026-08-18T01:46:17Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E7%85%A7%E7%83%A7%E9%B3%97%E9%B1%BC%20%E6%AD%BB%E9%B3%97%E9%B1%BC&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E7%85%A7%E7%83%A7%E9%B3%97%E9%B1%BC%20%E6%AD%BB%E9%B3%97%E9%B1%BC&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 照烧鳗鱼 死鳗鱼",
-      "date_published": "2026-08-18T01:46:17Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E6%A6%B4%E8%8E%B2%E4%BB%B7%E6%A0%BC%E5%BD%BB%E5%BA%95%E5%B4%A9%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%A6%B4%E8%8E%B2%E4%BB%B7%E6%A0%BC%E5%BD%BB%E5%BA%95%E5%B4%A9%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 榴莲价格彻底崩了",
-      "date_published": "2026-08-18T01:46:17Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E8%AE%B8%E5%AE%B6%E5%8D%B0%E5%B4%A9%E4%BA%86%E4%B8%9C%E5%8C%97%E5%AF%8C%E4%BA%8C%E4%BB%A342%E4%B8%AA%E4%BA%BF%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%AE%B8%E5%AE%B6%E5%8D%B0%E5%B4%A9%E4%BA%86%E4%B8%9C%E5%8C%97%E5%AF%8C%E4%BA%8C%E4%BB%A342%E4%B8%AA%E4%BA%BF%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 许家印崩了东北富二代42个亿",
-      "date_published": "2026-08-18T01:46:17Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%2317%E5%B2%81%E5%A5%B3%E5%AD%A9%E6%90%AD%E8%BD%A6%E8%B7%AF%E8%BF%87%E9%82%B5%E9%98%B3%E5%8F%B8%E6%9C%BA%E4%B8%8B%E8%BD%A6%E5%A4%B1%E8%81%94%E8%A2%AB%E9%94%812%E5%B0%8F%E6%97%B6%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%2317%E5%B2%81%E5%A5%B3%E5%AD%A9%E6%90%AD%E8%BD%A6%E8%B7%AF%E8%BF%87%E9%82%B5%E9%98%B3%E5%8F%B8%E6%9C%BA%E4%B8%8B%E8%BD%A6%E5%A4%B1%E8%81%94%E8%A2%AB%E9%94%812%E5%B0%8F%E6%97%B6%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 17岁女孩搭车路过邵阳司机下车失联被锁2小时",
-      "date_published": "2026-08-18T01:46:17Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%A5%B3%E6%82%A3%E8%80%85%E7%A7%B0%E8%A2%AB%E7%94%B7%E5%8C%BB%E7%94%9F%E7%8C%A5%E4%BA%B5%E6%8F%89%E8%83%B8%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E6%82%A3%E8%80%85%E7%A7%B0%E8%A2%AB%E7%94%B7%E5%8C%BB%E7%94%9F%E7%8C%A5%E4%BA%B5%E6%8F%89%E8%83%B8%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 女患者称被男医生猥亵揉胸",
-      "date_published": "2026-08-18T01:46:17Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E5%8A%A0%E5%BC%BA%E4%B8%AD%E5%B0%8F%E5%AD%A6%E6%95%99%E5%B8%88%E5%8C%BB%E5%8A%A1%E4%BA%BA%E5%91%98%E6%AC%A0%E8%96%AA%E6%B2%BB%E7%90%86&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%8A%A0%E5%BC%BA%E4%B8%AD%E5%B0%8F%E5%AD%A6%E6%95%99%E5%B8%88%E5%8C%BB%E5%8A%A1%E4%BA%BA%E5%91%98%E6%AC%A0%E8%96%AA%E6%B2%BB%E7%90%86&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 加强中小学教师医务人员欠薪治理",
-      "date_published": "2026-08-18T01:46:17Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E6%83%B3%E7%83%AB%E5%A4%A7%E6%B3%A2%E6%B5%AA%E7%BB%93%E6%9E%9C%E7%83%AB%E6%88%90%E9%92%A2%E4%B8%9D%E7%90%83%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E6%83%B3%E7%83%AB%E5%A4%A7%E6%B3%A2%E6%B5%AA%E7%BB%93%E6%9E%9C%E7%83%AB%E6%88%90%E9%92%A2%E4%B8%9D%E7%90%83%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 女子想烫大波浪结果烫成钢丝球",
-      "date_published": "2026-08-18T01:46:17Z"
+      "id": "hackernews:https://mun-logadan.github.io/why-does-opus-5-feel-worse/",
+      "url": "https://mun-logadan.github.io/why-does-opus-5-feel-worse/",
+      "title": "[Hacker News 热门] Why does Opus 5 feel worse to work with?",
+      "date_published": "2026-08-18T02:58:19Z"
     }
   ]
 }
