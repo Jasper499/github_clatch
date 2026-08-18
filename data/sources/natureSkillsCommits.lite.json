@@ -1,12 +1,72 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-08-18T03:12:32Z",
+  "savedAt": "2026-08-18T14:56:36Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "c171989db699bd601d4373912b3fb8db96ecc95b",
+  "latestSha": "44defbcce0b8534f9a0a4734f56c40e4f703bbf4",
   "items": [
+    {
+      "title": "Merge pull request #200 from Paul-Jeo/agent/english-image2ppt-descrip…",
+      "description": "Merge pull request #200 from Paul-Jeo/agent/english-image2ppt-description\n\nchore: align Image2PPT metadata and CI dependencies",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/44defbcce0b8534f9a0a4734f56c40e4f703bbf4",
+      "sha": "44defbc",
+      "fullSha": "44defbcce0b8534f9a0a4734f56c40e4f703bbf4",
+      "owner": "Yuan1z0825",
+      "published": "2026-08-18",
+      "label": "commit"
+    },
+    {
+      "title": "ci: install LibreOffice for Image2PPT tests",
+      "description": "ci: install LibreOffice for Image2PPT tests",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/9729295f7e3cfe33762ed96664d6532ac4708fe5",
+      "sha": "9729295",
+      "fullSha": "9729295f7e3cfe33762ed96664d6532ac4708fe5",
+      "owner": "Paul-Jeo",
+      "published": "2026-08-18",
+      "label": "commit"
+    },
+    {
+      "title": "chore: use English Image2PPT short description",
+      "description": "chore: use English Image2PPT short description",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/8ec797169f1667f7aca8368d9a4b4d9475c2048b",
+      "sha": "8ec7971",
+      "fullSha": "8ec797169f1667f7aca8368d9a4b4d9475c2048b",
+      "owner": "Paul-Jeo",
+      "published": "2026-08-18",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #199 from Paul-Jeo/agent/add-nature-image2ppt",
+      "description": "Merge pull request #199 from Paul-Jeo/agent/add-nature-image2ppt\n\nfeat: add nature-image2ppt skill",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/07732a4b07a6e1a060a144ed8e21d98473b3c242",
+      "sha": "07732a4",
+      "fullSha": "07732a4b07a6e1a060a144ed8e21d98473b3c242",
+      "owner": "Yuan1z0825",
+      "published": "2026-08-18",
+      "label": "commit"
+    },
+    {
+      "title": "fix: sync Image2PPT ownership safeguards",
+      "description": "fix: sync Image2PPT ownership safeguards",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/9b8a955ff1fa402de85c1fdc4b7d0baabe7c8771",
+      "sha": "9b8a955",
+      "fullSha": "9b8a955ff1fa402de85c1fdc4b7d0baabe7c8771",
+      "owner": "Paul-Jeo",
+      "published": "2026-08-18",
+      "label": "commit"
+    },
+    {
+      "title": "feat: add nature-image2ppt skill",
+      "description": "feat: add nature-image2ppt skill",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/ffd2674eb043448fcde281b2e999c072b4538e88",
+      "sha": "ffd2674",
+      "fullSha": "ffd2674eb043448fcde281b2e999c072b4538e88",
+      "owner": "Paul-Jeo",
+      "published": "2026-08-18",
+      "label": "commit"
+    },
     {
       "title": "feat: enforce main-text discipline (#198)",
       "description": "feat: enforce main-text discipline (#198)",
@@ -95,66 +155,6 @@
       "fullSha": "a816314de0bb985e7034886e01596059522255b9",
       "owner": "github-actions",
       "published": "2026-08-10",
-      "label": "commit"
-    },
-    {
-      "title": "更新完善了nature-reader的相关功能 (#192)",
-      "description": "更新完善了nature-reader的相关功能 (#192)\n\n* Add files via upload\n\n* Add files via upload\n\n* Add files via upload\n\n* Add files via upload\n\n* Add files via upload",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/adb7b8a5a7d72ed6fe9f71e085785e9972dd8db2",
-      "sha": "adb7b8a",
-      "fullSha": "adb7b8a5a7d72ed6fe9f71e085785e9972dd8db2",
-      "owner": "dabogeeee",
-      "published": "2026-08-08",
-      "label": "commit"
-    },
-    {
-      "title": "feat: add flagship Nature submission requirements (#190)",
-      "description": "feat: add flagship Nature submission requirements (#190)",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/f6e5f4d15694b82b1e836c32dd19a8fa1b223426",
-      "sha": "f6e5f4d",
-      "fullSha": "f6e5f4d15694b82b1e836c32dd19a8fa1b223426",
-      "owner": "Travisma2233",
-      "published": "2026-08-08",
-      "label": "commit"
-    },
-    {
-      "title": "fix: bust star history image cache (#189)",
-      "description": "fix: bust star history image cache (#189)",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/1ffb43b0f63583f004097432e213437167197dd8",
-      "sha": "1ffb43b",
-      "fullSha": "1ffb43b0f63583f004097432e213437167197dd8",
-      "owner": "Travisma2233",
-      "published": "2026-08-08",
-      "label": "commit"
-    },
-    {
-      "title": "feat: add current star count KPI (#188)",
-      "description": "feat: add current star count KPI (#188)",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/092c7d6b445cdde6f43f1f6e425a92a4ddfc7945",
-      "sha": "092c7d6",
-      "fullSha": "092c7d6b445cdde6f43f1f6e425a92a4ddfc7945",
-      "owner": "Travisma2233",
-      "published": "2026-08-08",
-      "label": "commit"
-    },
-    {
-      "title": "chore: update star history (#187)",
-      "description": "chore: update star history (#187)",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/db6a3888a40c09b222b34aaeecfe5ed7fa620e15",
-      "sha": "db6a388",
-      "fullSha": "db6a3888a40c09b222b34aaeecfe5ed7fa620e15",
-      "owner": "Travisma2233",
-      "published": "2026-08-08",
-      "label": "commit"
-    },
-    {
-      "title": "Update README.md",
-      "description": "Update README.md",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/1a8c0208405fe73f3a617169d80fb3b388cd0e9f",
-      "sha": "1a8c020",
-      "fullSha": "1a8c0208405fe73f3a617169d80fb3b388cd0e9f",
-      "owner": "Yuan1z0825",
-      "published": "2026-08-07",
       "label": "commit"
     }
   ]
