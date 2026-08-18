@@ -1,12 +1,45 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-08-17T15:00:36Z",
+  "savedAt": "2026-08-18T03:26:13Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "28f5603bc2b57ca6e2856e87af2e98686b65071f",
+  "latestSha": "9e8b0cb0b09059f2fd4505e57ab4e00c8be1cef6",
   "items": [
+    {
+      "title": "Update version to 2.64.0 and enhance README with skill count increase",
+      "description": "Update version to 2.64.0 and enhance README with skill count increase\n\n- Bumped version number in plugin.json and pyproject.toml to 2.64.0.\n- Updated README to reflect an increase in the number of available skills from 161 to 163.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/9e8b0cb0b09059f2fd4505e57ab4e00c8be1cef6",
+      "sha": "9e8b0cb",
+      "fullSha": "9e8b0cb0b09059f2fd4505e57ab4e00c8be1cef6",
+      "owner": "TKassis",
+      "published": "2026-08-17",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Add waypoint skill",
+      "description": "Add waypoint skill",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/204eef574c7a2b81fe72802af650c5226182ad44",
+      "sha": "204eef5",
+      "fullSha": "204eef574c7a2b81fe72802af650c5226182ad44",
+      "owner": "TKassis",
+      "published": "2026-08-17",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Update README to include Star History chart",
+      "description": "Update README to include Star History chart\n\n- Added a new section for Star History with an embedded chart to visualize the repository&#39;s star growth over time.\n- This addition enhances the README by providing insights into the project&#39;s popularity and community engagement.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/4934681cd273d1d41bffe40d3bed0e769dce6ab6",
+      "sha": "4934681",
+      "fullSha": "4934681cd273d1d41bffe40d3bed0e769dce6ab6",
+      "owner": "TKassis",
+      "published": "2026-08-17",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "chore: update security scan report [skip ci]",
       "description": "chore: update security scan report [skip ci]",
@@ -136,39 +169,6 @@
       "fullSha": "3956e5408b61d1274c275b052a7fd619a5661a1a",
       "owner": "TKassis",
       "published": "2026-08-10",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Update imaging-data-commons skill from v1.4.0 to upstream v1.8.1",
-      "description": "Update imaging-data-commons skill from v1.4.0 to upstream v1.8.1\n\nRebased onto current main and re-synced from\nImagingDataCommons/imaging-data-commons-skill, which now holds SKILL.md under 500\nlines upstream. references/core_capabilities.md is therefore removed rather than\nrefreshed: its content was redistributed into the topical guides that already own\neach subject (sql_patterns, index_tables_guide, cli_guide, licensing_and_citation)\ninstead of a catch-all file, and upstream CI holds the budget so the split does not\nhave to be redone after each sync.\n\nNew since v1.4.0: the hosted IDC MCP server and REST API as first-class access paths\n(references/mcp_guide.md, references/rest_api_guide.md), so a metadata question no\nlonger requires a ~77 MB idc-index install; licensing_and_citation.md; idc-index\n0.12.5 / IDC data v24; scripts/check_version.py as the startup version check.\n\ntests/imaging-data-commons/test_check_version.py covers the bundled script: offline,\nstandard library only, no idc-index needed. It is a copy of the upstream file, which\nis written to be vendored — only two path constants and the frontmatter-version\nassertion differ.\n\nVerified: pytest tests/_meta tests/imaging-data-commons -&gt; 29 passed, 1030 subtests;\nskills-ref validate skills/imaging-data-commons -&gt; valid; SKILL.md 495 lines.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/aaf763c3a60a1f8065d2f80189de7efe25ddf2d3",
-      "sha": "aaf763c",
-      "fullSha": "aaf763c3a60a1f8065d2f80189de7efe25ddf2d3",
-      "owner": "fedorov",
-      "published": "2026-08-10",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "chore: update security scan report [skip ci]",
-      "description": "chore: update security scan report [skip ci]",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/7eb9c23c32ecf7f8c19cb45ded3150534ccefe6a",
-      "sha": "7eb9c23",
-      "fullSha": "7eb9c23c32ecf7f8c19cb45ded3150534ccefe6a",
-      "owner": "github-actions",
-      "published": "2026-08-10",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Merge pull request #224 from neuroepithelial/codex/add-ncats-arax-skill",
-      "description": "Merge pull request #224 from neuroepithelial/codex/add-ncats-arax-skill\n\nAdd bounded NCATS ARAX knowledge graph skill",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/9b1d761c67c310e6538f1d5d88759b2bcfc65ce2",
-      "sha": "9b1d761",
-      "fullSha": "9b1d761c67c310e6538f1d5d88759b2bcfc65ce2",
-      "owner": "TKassis",
-      "published": "2026-08-08",
       "label": "commit",
       "repo": "K-Dense-AI/scientific-agent-skills"
     }

@@ -1,20 +1,35 @@
 {
   "changed": true,
-  "fetchedAt": "2026-08-17T15:00:36Z",
-  "previousSha": "336c4f838a6c21b54e1e1f58cbbeae143d151fe2",
-  "latestSha": "28f5603bc2b57ca6e2856e87af2e98686b65071f",
+  "fetchedAt": "2026-08-18T03:26:13Z",
+  "previousSha": "28f5603bc2b57ca6e2856e87af2e98686b65071f",
+  "latestSha": "9e8b0cb0b09059f2fd4505e57ab4e00c8be1cef6",
   "repo": "K-Dense-AI/scientific-agent-skills",
   "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "stars": 0,
-  "skillCount": 155,
+  "skillCount": 163,
   "latestCommit": {
-    "title": "chore: update security scan report [skip ci]",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/28f5603bc2b57ca6e2856e87af2e98686b65071f",
-    "sha": "28f5603",
+    "title": "Update version to 2.64.0 and enhance README with skill count increase",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/9e8b0cb0b09059f2fd4505e57ab4e00c8be1cef6",
+    "sha": "9e8b0cb",
     "published": "2026-08-17"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "Update version to 2.64.0 and enhance README with skill count increase",
+      "sha": "9e8b0cb",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/9e8b0cb0b09059f2fd4505e57ab4e00c8be1cef6"
+    },
+    {
+      "title": "Add waypoint skill",
+      "sha": "204eef5",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/204eef574c7a2b81fe72802af650c5226182ad44"
+    },
+    {
+      "title": "Update README to include Star History chart",
+      "sha": "4934681",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/4934681cd273d1d41bffe40d3bed0e769dce6ab6"
+    },
     {
       "title": "chore: update security scan report [skip ci]",
       "sha": "28f5603",
@@ -24,21 +39,6 @@
       "title": "Update lab hardware CAD skill documentation and standards",
       "sha": "336c4f8",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/336c4f838a6c21b54e1e1f58cbbeae143d151fe2"
-    },
-    {
-      "title": "Update README to include Reddit link and enhance user engagement",
-      "sha": "43a3e61",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/43a3e619a1dd8f053abdeb258c87ce81c53b424f"
-    },
-    {
-      "title": "Update pi-agent skill",
-      "sha": "b2a92ba",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/b2a92ba052dcae4ef48e850b9e31ebf75706be48"
-    },
-    {
-      "title": "Update examples and skills documentation",
-      "sha": "3c8fc0f",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/3c8fc0fd16d6408e5185e086cc75564888e51d41"
     }
   ]
 }
