@@ -1,12 +1,32 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-08-18T14:56:36Z",
+  "savedAt": "2026-08-19T03:15:08Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "44defbcce0b8534f9a0a4734f56c40e4f703bbf4",
+  "latestSha": "96e41d3348748796c239cf5cb85bd947e5b02d38",
   "items": [
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/96e41d3348748796c239cf5cb85bd947e5b02d38",
+      "sha": "96e41d3",
+      "fullSha": "96e41d3348748796c239cf5cb85bd947e5b02d38",
+      "owner": "github-actions",
+      "published": "2026-08-19",
+      "label": "commit"
+    },
+    {
+      "title": "fix: harden Image2PPT validation boundaries (#201)",
+      "description": "fix: harden Image2PPT validation boundaries (#201)\n\n* fix: make image2ppt runtime reproducible\n\n* fix: harden image2ppt validation boundaries\n\n* fix: separate portable and rendering tests\n\n* test: restore visual evidence helper",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/83493833404c402dce8c81d1d2eba26bd253aa13",
+      "sha": "8349383",
+      "fullSha": "83493833404c402dce8c81d1d2eba26bd253aa13",
+      "owner": "Travisma2233",
+      "published": "2026-08-18",
+      "label": "commit"
+    },
     {
       "title": "Merge pull request #200 from Paul-Jeo/agent/english-image2ppt-descrip…",
       "description": "Merge pull request #200 from Paul-Jeo/agent/english-image2ppt-description\n\nchore: align Image2PPT metadata and CI dependencies",
@@ -135,26 +155,6 @@
       "fullSha": "fe7f972c8d5d1c7e08f5ee742dc49fa493614930",
       "owner": "Travisma2233",
       "published": "2026-08-12",
-      "label": "commit"
-    },
-    {
-      "title": "Update README.md",
-      "description": "Update README.md",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/1ea82ffff20f40077bf84b74182f55eeaf3d111d",
-      "sha": "1ea82ff",
-      "fullSha": "1ea82ffff20f40077bf84b74182f55eeaf3d111d",
-      "owner": "Flyme886",
-      "published": "2026-08-10",
-      "label": "commit"
-    },
-    {
-      "title": "chore: update star history",
-      "description": "chore: update star history",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/a816314de0bb985e7034886e01596059522255b9",
-      "sha": "a816314",
-      "fullSha": "a816314de0bb985e7034886e01596059522255b9",
-      "owner": "github-actions",
-      "published": "2026-08-10",
       "label": "commit"
     }
   ]

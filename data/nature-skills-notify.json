@@ -1,20 +1,30 @@
 {
   "changed": true,
-  "fetchedAt": "2026-08-18T14:56:36Z",
-  "previousSha": "c171989db699bd601d4373912b3fb8db96ecc95b",
-  "latestSha": "44defbcce0b8534f9a0a4734f56c40e4f703bbf4",
+  "fetchedAt": "2026-08-19T03:15:08Z",
+  "previousSha": "44defbcce0b8534f9a0a4734f56c40e4f703bbf4",
+  "latestSha": "96e41d3348748796c239cf5cb85bd947e5b02d38",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "Merge pull request #200 from Paul-Jeo/agent/english-image2ppt-descrip…",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/44defbcce0b8534f9a0a4734f56c40e4f703bbf4",
-    "sha": "44defbc",
-    "published": "2026-08-18"
+    "title": "chore: update star history",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/96e41d3348748796c239cf5cb85bd947e5b02d38",
+    "sha": "96e41d3",
+    "published": "2026-08-19"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "chore: update star history",
+      "sha": "96e41d3",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/96e41d3348748796c239cf5cb85bd947e5b02d38"
+    },
+    {
+      "title": "fix: harden Image2PPT validation boundaries (#201)",
+      "sha": "8349383",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/83493833404c402dce8c81d1d2eba26bd253aa13"
+    },
     {
       "title": "Merge pull request #200 from Paul-Jeo/agent/english-image2ppt-descrip…",
       "sha": "44defbc",
@@ -29,16 +39,6 @@
       "title": "chore: use English Image2PPT short description",
       "sha": "8ec7971",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/8ec797169f1667f7aca8368d9a4b4d9475c2048b"
-    },
-    {
-      "title": "Merge pull request #199 from Paul-Jeo/agent/add-nature-image2ppt",
-      "sha": "07732a4",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/07732a4b07a6e1a060a144ed8e21d98473b3c242"
-    },
-    {
-      "title": "fix: sync Image2PPT ownership safeguards",
-      "sha": "9b8a955",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/9b8a955ff1fa402de85c1fdc4b7d0baabe7c8771"
     }
   ]
 }
