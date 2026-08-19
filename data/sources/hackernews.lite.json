@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-08-19T03:00:32Z",
+  "savedAt": "2026-08-19T14:37:53Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-08-19，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,7 +10,7 @@
       "title": "Firefox is now the last major browser that still supports uBlock Origin",
       "description": "",
       "url": "https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html",
-      "score": 1746,
+      "score": 1747,
       "comments": 713,
       "owner": "DemiGuru"
     },
@@ -18,32 +18,40 @@
       "title": "Qwen 3.8 27B",
       "description": "",
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
-      "score": 1428,
+      "score": 1431,
       "comments": 791,
       "owner": "erdaltoprak"
     },
     {
-      "title": "Tracking down the 16-year-old WAL-reset SQLite bug",
+      "title": "The Amazon tax",
       "description": "",
-      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
-      "score": 1215,
-      "comments": 239,
-      "owner": "ropbear"
+      "url": "https://seths.blog/2026/08/the-amazon-tax/",
+      "score": 1279,
+      "comments": 649,
+      "owner": "herbertl"
     },
     {
       "title": "GLM-5.3: Frontier coding with emergent cyber capabilities",
       "description": "",
       "url": "https://z.ai/blog/glm-5.3",
       "score": 1166,
-      "comments": 581,
+      "comments": 582,
       "owner": "pella"
+    },
+    {
+      "title": "OpenLogi",
+      "description": "",
+      "url": "https://openlogi.org/en",
+      "score": 1135,
+      "comments": 322,
+      "owner": "amatheus"
     },
     {
       "title": "AI;DR (AI; Didn't Read)",
       "description": "",
       "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
-      "score": 1063,
-      "comments": 668,
+      "score": 1082,
+      "comments": 678,
       "owner": "mooreds"
     },
     {
@@ -51,40 +59,24 @@
       "description": "<a href=\"https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;models&#x2F;deepseek-v4-pro\" rel=\"nofollow\">https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;models&#x2F;deepseek-v4-pro</a><p><a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;ChrisGPT&#x2F;status&#x2F;2087572834650407024\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;ChrisGPT&#x2F;status&#x2F;2087572834650407024</a>, <a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;ChrisGPT&#x2F;status&#x2F;2087572834650407024\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;ChrisGPT&#x2F;status&#x2F;2087572834650407024</a>",
       "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
       "score": 1039,
-      "comments": 451,
+      "comments": 452,
       "owner": "explosion-s"
     },
     {
       "title": "Israel creates fake think tank in likely attempt to dupe AI chatbots",
       "description": "",
       "url": "https://responsiblestatecraft.org/israel-influence-chatgpt/",
-      "score": 1016,
-      "comments": 735,
+      "score": 1031,
+      "comments": 784,
       "owner": "DeepLogin"
-    },
-    {
-      "title": "AI is removing the middle class of software engineering?",
-      "description": "",
-      "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
-      "score": 1005,
-      "comments": 935,
-      "owner": "florianherrengt"
     },
     {
       "title": "Why does Opus 5 feel worse to work with?",
       "description": "",
       "url": "https://mun-logadan.github.io/why-does-opus-5-feel-worse/",
-      "score": 982,
+      "score": 984,
       "comments": 868,
       "owner": "numeri"
-    },
-    {
-      "title": "The Amazon tax",
-      "description": "",
-      "url": "https://seths.blog/2026/08/the-amazon-tax/",
-      "score": 975,
-      "comments": 564,
-      "owner": "herbertl"
     },
     {
       "title": "Gemini 3.7 Flash",
@@ -98,65 +90,65 @@
       "title": "Every Fucking Website (2020)",
       "description": "",
       "url": "https://lxe.github.io/everywebsite/",
-      "score": 867,
-      "comments": 496,
+      "score": 869,
+      "comments": 498,
       "owner": "doubletwoyou"
+    },
+    {
+      "title": "Universal health coverage could save $1T and 114k lives a year: study",
+      "description": "Paper: <a href=\"https:&#x2F;&#x2F;www.medrxiv.org&#x2F;content&#x2F;10.64898&#x2F;2026.07.22.26358689v1.full.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;www.medrxiv.org&#x2F;content&#x2F;10.64898&#x2F;2026.07.22.26358689...</a>",
+      "url": "https://ysph.yale.edu/news-article/universal-health-coverage-could-save-one-trillion-dollars-and-114000-lives-every-year/",
+      "score": 863,
+      "comments": 898,
+      "owner": "karakoram"
     },
     {
       "title": "Anthropic's ‘watermark’ text adulteration in Claude is a perversion of writing",
       "description": "",
       "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
-      "score": 814,
-      "comments": 717,
+      "score": 816,
+      "comments": 726,
       "owner": "ropbear"
     },
     {
       "title": "Qwen 3.8 27B is excellent, but it defaults to overthinking things",
       "description": "",
       "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
-      "score": 784,
-      "comments": 376,
+      "score": 790,
+      "comments": 379,
       "owner": "bilsbie"
     },
     {
       "title": "Claude: System Prompts",
       "description": "",
       "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
-      "score": 755,
-      "comments": 282,
+      "score": 756,
+      "comments": 283,
       "owner": "tosh"
-    },
-    {
-      "title": "Universal health coverage could save $1T and 114k lives a year: study",
-      "description": "",
-      "url": "https://ysph.yale.edu/news-article/universal-health-coverage-could-save-one-trillion-dollars-and-114000-lives-every-year/",
-      "score": 744,
-      "comments": 813,
-      "owner": "karakoram"
     },
     {
       "title": "DeepSeek Harness developer preview",
       "description": "<a href=\"https:&#x2F;&#x2F;github.com&#x2F;deepseek-ai&#x2F;deepseek-harness\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;deepseek-ai&#x2F;deepseek-harness</a><p><a href=\"https:&#x2F;&#x2F;deepseek-harness.github.io&#x2F;deepseek-harness&#x2F;en&#x2F;guide&#x2F;quickstart\" rel=\"nofollow\">https:&#x2F;&#x2F;deepseek-harness.github.io&#x2F;deepseek-harness&#x2F;en&#x2F;guide...</a>",
       "url": "https://deepseek.com/harness/en/",
-      "score": 739,
-      "comments": 309,
+      "score": 740,
+      "comments": 310,
       "owner": "bjin"
-    },
-    {
-      "title": "uBlock Origin is giving up the fight to keep ads off Facebook",
-      "description": "<a href=\"https:&#x2F;&#x2F;reddit.com&#x2F;r&#x2F;uBlockOrigin&#x2F;comments&#x2F;1vgcjg5&#x2F;about_disgusting_facebook_devs&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;reddit.com&#x2F;r&#x2F;uBlockOrigin&#x2F;comments&#x2F;1vgcjg5&#x2F;about_dis...</a><p><a href=\"https:&#x2F;&#x2F;www.neowin.net&#x2F;news&#x2F;facebook-ads-are-so-hard-to-block-that-ublock-origin-stopped-filtering-them&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.neowin.net&#x2F;news&#x2F;facebook-ads-are-so-hard-to-bloc...</a>",
-      "url": "https://digitalescapetools.com/2026/08/ublock-origin-stops-chasing-facebook-ads.html",
-      "score": 724,
-      "comments": 918,
-      "owner": "Markoff"
     },
     {
       "title": "Incident with Github.com",
       "description": "",
       "url": "https://www.githubstatus.com/incidents/zkxwbgr0cnmx",
-      "score": 715,
+      "score": 718,
       "comments": 2,
       "owner": "kevcampb"
+    },
+    {
+      "title": "Being ambitious and being a dad",
+      "description": "",
+      "url": "https://nicholascharriere.com/blog/being-ambitious-and-being-a-dad/",
+      "score": 714,
+      "comments": 536,
+      "owner": "nichochar"
     },
     {
       "title": "Spaghettifying DRAM",
@@ -165,6 +157,14 @@
       "score": 714,
       "comments": 175,
       "owner": "matt_d"
+    },
+    {
+      "title": "Accelerating GPT-5.6 Sol Ultrafast",
+      "description": "",
+      "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
+      "score": 712,
+      "comments": 279,
+      "owner": "pr337h4m"
     }
   ]
 }
