@@ -1,200 +1,190 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-08-18T18:52:38Z",
+  "savedAt": "2026-08-19T01:48:25Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-18，共 19 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-19，共 18 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
-  "fetchedDate": "2026-08-18",
+  "fetchedDate": "2026-08-19",
   "items": [
+    {
+      "title": "四川一升学宴突发事故5人死亡",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%9B%9B%E5%B7%9D%E4%B8%80%E5%8D%87%E5%AD%A6%E5%AE%B4%E7%AA%81%E5%8F%91%E4%BA%8B%E6%95%855%E4%BA%BA%E6%AD%BB%E4%BA%A1%23&t=31&band_rank=1&Refer=top",
+      "score": 3571278,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1787102122
+    },
+    {
+      "title": "朱雀三号",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E6%9C%B1%E9%9B%80%E4%B8%89%E5%8F%B7&t=31&band_rank=1&Refer=top",
+      "score": 1219149,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1787096900
+    },
+    {
+      "title": "公积金用途又多了",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%85%AC%E7%A7%AF%E9%87%91%E7%94%A8%E9%80%94%E5%8F%88%E5%A4%9A%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 887839,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1787056881
+    },
     {
       "title": "七夕",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%E4%B8%83%E5%A4%95&t=31&band_rank=1&Refer=top",
-      "score": 82152,
+      "score": 766875,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1787066483
     },
     {
-      "title": "9部门发文活跃县域消费",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%239%E9%83%A8%E9%97%A8%E5%8F%91%E6%96%87%E6%B4%BB%E8%B7%83%E5%8E%BF%E5%9F%9F%E6%B6%88%E8%B4%B9%23&t=31&band_rank=1&Refer=top",
-      "score": 82089,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1787056641
-    },
-    {
       "title": "胖东来招聘不包含性侵犯罪人员",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E8%83%96%E4%B8%9C%E6%9D%A5%E6%8B%9B%E8%81%98%E4%B8%8D%E5%8C%85%E5%90%AB%E6%80%A7%E4%BE%B5%E7%8A%AF%E7%BD%AA%E4%BA%BA%E5%91%98%23&t=31&band_rank=1&Refer=top",
-      "score": 82057,
+      "score": 500865,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1787064144
     },
     {
-      "title": "公积金新规 通俗解读",
+      "title": "库迪 免单",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%BA%93%E8%BF%AA%20%E5%85%8D%E5%8D%95&t=31&band_rank=1&Refer=top",
+      "score": 437840,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1787102541
+    },
+    {
+      "title": "中国重复使用火箭陆地回收成功",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%85%AC%E7%A7%AF%E9%87%91%E6%96%B0%E8%A7%84%20%E9%80%9A%E4%BF%97%E8%A7%A3%E8%AF%BB&t=31&band_rank=1&Refer=top",
-      "score": 81835,
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E9%87%8D%E5%A4%8D%E4%BD%BF%E7%94%A8%E7%81%AB%E7%AE%AD%E9%99%86%E5%9C%B0%E5%9B%9E%E6%94%B6%E6%88%90%E5%8A%9F%23&t=31&band_rank=1&Refer=top",
+      "score": 388741,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1787057962
+      "onboardTime": 1787097861
+    },
+    {
+      "title": "反诈老陈宣布停更7天挣生活费",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8F%8D%E8%AF%88%E8%80%81%E9%99%88%E5%AE%A3%E5%B8%83%E5%81%9C%E6%9B%B47%E5%A4%A9%E6%8C%A3%E7%94%9F%E6%B4%BB%E8%B4%B9%23&t=31&band_rank=1&Refer=top",
+      "score": 382623,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1787100980
+    },
+    {
+      "title": "女子开门杀反遭关门杀",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E5%BC%80%E9%97%A8%E6%9D%80%E5%8F%8D%E9%81%AD%E5%85%B3%E9%97%A8%E6%9D%80%23&t=31&band_rank=1&Refer=top",
+      "score": 372113,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1787073917
     },
     {
       "title": "公积金 强制缴纳",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%E5%85%AC%E7%A7%AF%E9%87%91%20%E5%BC%BA%E5%88%B6%E7%BC%B4%E7%BA%B3&t=31&band_rank=1&Refer=top",
-      "score": 81699,
+      "score": 367348,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1787064205
     },
     {
-      "title": "女子开门杀反遭关门杀",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E5%BC%80%E9%97%A8%E6%9D%80%E5%8F%8D%E9%81%AD%E5%85%B3%E9%97%A8%E6%9D%80%23&t=31&band_rank=1&Refer=top",
-      "score": 81611,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1787073917
-    },
-    {
-      "title": "外卖备注孩子化疗收到100元现金",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%96%E5%8D%96%E5%A4%87%E6%B3%A8%E5%AD%A9%E5%AD%90%E5%8C%96%E7%96%97%E6%94%B6%E5%88%B0100%E5%85%83%E7%8E%B0%E9%87%91%23&t=31&band_rank=1&Refer=top",
-      "score": 81486,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1787071459
-    },
-    {
-      "title": "全国首例反强拆致死判正当防卫案",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%85%A8%E5%9B%BD%E9%A6%96%E4%BE%8B%E5%8F%8D%E5%BC%BA%E6%8B%86%E8%87%B4%E6%AD%BB%E5%88%A4%E6%AD%A3%E5%BD%93%E9%98%B2%E5%8D%AB%E6%A1%88%23&t=31&band_rank=1&Refer=top",
-      "score": 81397,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1787071039
-    },
-    {
-      "title": "杭州酒局事件嫌疑人会被判多久",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%AD%E5%B7%9E%E9%85%92%E5%B1%80%E4%BA%8B%E4%BB%B6%E5%AB%8C%E7%96%91%E4%BA%BA%E4%BC%9A%E8%A2%AB%E5%88%A4%E5%A4%9A%E4%B9%85%23&t=31&band_rank=1&Refer=top",
-      "score": 81320,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1787068643
-    },
-    {
-      "title": "保送中南大学的女孩因蓝发走红",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%BF%9D%E9%80%81%E4%B8%AD%E5%8D%97%E5%A4%A7%E5%AD%A6%E7%9A%84%E5%A5%B3%E5%AD%A9%E5%9B%A0%E8%93%9D%E5%8F%91%E8%B5%B0%E7%BA%A2%23&t=31&band_rank=1&Refer=top",
-      "score": 81064,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1787062642
-    },
-    {
       "title": "调查组通报杭州酒局事件",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E8%B0%83%E6%9F%A5%E7%BB%84%E9%80%9A%E6%8A%A5%E6%9D%AD%E5%B7%9E%E9%85%92%E5%B1%80%E4%BA%8B%E4%BB%B6%23&t=31&band_rank=1&Refer=top",
-      "score": 80964,
+      "score": 343571,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1787043260
     },
     {
-      "title": "旅客带充气床住酒店惊呆工作人员",
+      "title": "全国首例反强拆致死判正当防卫案",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%97%85%E5%AE%A2%E5%B8%A6%E5%85%85%E6%B0%94%E5%BA%8A%E4%BD%8F%E9%85%92%E5%BA%97%E6%83%8A%E5%91%86%E5%B7%A5%E4%BD%9C%E4%BA%BA%E5%91%98%23&t=31&band_rank=1&Refer=top",
-      "score": 80777,
+      "url": "https://s.weibo.com/weibo?q=%E5%85%A8%E5%9B%BD%E9%A6%96%E4%BE%8B%E5%8F%8D%E5%BC%BA%E6%8B%86%E8%87%B4%E6%AD%BB%E5%88%A4%E6%AD%A3%E5%BD%93%E9%98%B2%E5%8D%AB%E6%A1%88&t=31&band_rank=1&Refer=top",
+      "score": 335941,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1787073316
-    },
-    {
-      "title": "上海2026社保基数公布",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E4%B8%8A%E6%B5%B72026%E7%A4%BE%E4%BF%9D%E5%9F%BA%E6%95%B0%E5%85%AC%E5%B8%83&t=31&band_rank=1&Refer=top",
-      "score": 80673,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1787067383
-    },
-    {
-      "title": "75岁王石再度创业",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%2375%E5%B2%81%E7%8E%8B%E7%9F%B3%E5%86%8D%E5%BA%A6%E5%88%9B%E4%B8%9A%23&t=31&band_rank=1&Refer=top",
-      "score": 80599,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1787072419
-    },
-    {
-      "title": "一餐馆未打码曝光多名逃单顾客照片",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%80%E9%A4%90%E9%A6%86%E6%9C%AA%E6%89%93%E7%A0%81%E6%9B%9D%E5%85%89%E5%A4%9A%E5%90%8D%E9%80%83%E5%8D%95%E9%A1%BE%E5%AE%A2%E7%85%A7%E7%89%87%23&t=31&band_rank=1&Refer=top",
-      "score": 80459,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1787069841
+      "onboardTime": 1787071039
     },
     {
       "title": "公积金",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%E5%85%AC%E7%A7%AF%E9%87%91&t=31&band_rank=1&Refer=top",
-      "score": 80344,
+      "score": 332901,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1787048901
     },
     {
-      "title": "公积金条例修改",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%85%AC%E7%A7%AF%E9%87%91%E6%9D%A1%E4%BE%8B%E4%BF%AE%E6%94%B9&t=31&band_rank=1&Refer=top",
-      "score": 80293,
+      "title": "我国重复使用火箭重大突破",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%88%91%E5%9B%BD%E9%87%8D%E5%A4%8D%E4%BD%BF%E7%94%A8%E7%81%AB%E7%AE%AD%E9%87%8D%E5%A4%A7%E7%AA%81%E7%A0%B4%23&t=31&band_rank=1&Refer=top",
+      "score": 332767,
       "owner": "微博同城",
-      "label": "",
+      "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1787051181
+      "onboardTime": 1787101521
     },
     {
-      "title": "住房公积金新政来了",
+      "title": "保送中南大学的女孩因蓝发走红",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%BD%8F%E6%88%BF%E5%85%AC%E7%A7%AF%E9%87%91%E6%96%B0%E6%94%BF%E6%9D%A5%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 80190,
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BF%9D%E9%80%81%E4%B8%AD%E5%8D%97%E5%A4%A7%E5%AD%A6%E7%9A%84%E5%A5%B3%E5%AD%A9%E5%9B%A0%E8%93%9D%E5%8F%91%E8%B5%B0%E7%BA%A2%23&t=31&band_rank=1&Refer=top",
+      "score": 330049,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1787049620
+      "onboardTime": 1787062642
     },
     {
-      "title": "男子猝死后同居女友被索赔27万",
+      "title": "一餐馆未打码曝光多名逃单顾客照片",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E7%8C%9D%E6%AD%BB%E5%90%8E%E5%90%8C%E5%B1%85%E5%A5%B3%E5%8F%8B%E8%A2%AB%E7%B4%A2%E8%B5%9427%E4%B8%87%23&t=31&band_rank=1&Refer=top",
-      "score": 80051,
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%80%E9%A4%90%E9%A6%86%E6%9C%AA%E6%89%93%E7%A0%81%E6%9B%9D%E5%85%89%E5%A4%9A%E5%90%8D%E9%80%83%E5%8D%95%E9%A1%BE%E5%AE%A2%E7%85%A7%E7%89%87%23&t=31&band_rank=1&Refer=top",
+      "score": 327342,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1787061502
+      "onboardTime": 1787069841
+    },
+    {
+      "title": "顶替案哥哥称看弟弟状态憔悴很心疼",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%A1%B6%E6%9B%BF%E6%A1%88%E5%93%A5%E5%93%A5%E7%A7%B0%E7%9C%8B%E5%BC%9F%E5%BC%9F%E7%8A%B6%E6%80%81%E6%86%94%E6%82%B4%E5%BE%88%E5%BF%83%E7%96%BC%23&t=31&band_rank=1&Refer=top",
+      "score": 321032,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1787099240
+    },
+    {
+      "title": "女子下车被电动车撞回车内双方发声",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E4%B8%8B%E8%BD%A6%E8%A2%AB%E7%94%B5%E5%8A%A8%E8%BD%A6%E6%92%9E%E5%9B%9E%E8%BD%A6%E5%86%85%E5%8F%8C%E6%96%B9%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
+      "score": 307044,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1787091495
     }
   ]
 }
