@@ -1,12 +1,32 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-08-20T03:14:13Z",
+  "savedAt": "2026-08-20T14:59:32Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "96e41d3348748796c239cf5cb85bd947e5b02d38",
+  "latestSha": "745c5f38d1b4a0600bd2f5f5682e394a34fc28b2",
   "items": [
+    {
+      "title": "feat: add multi-panel evidence architecture guidance (#203)",
+      "description": "feat: add multi-panel evidence architecture guidance (#203)",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/745c5f38d1b4a0600bd2f5f5682e394a34fc28b2",
+      "sha": "745c5f3",
+      "fullSha": "745c5f38d1b4a0600bd2f5f5682e394a34fc28b2",
+      "owner": "Travisma2233",
+      "published": "2026-08-20",
+      "label": "commit"
+    },
+    {
+      "title": "feat: add Nature-wide evidence-chain writing guidance (#202)",
+      "description": "feat: add Nature-wide evidence-chain writing guidance (#202)",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/14f8cdba07e5a14748bd4f864d1881f96ee0128c",
+      "sha": "14f8cdb",
+      "fullSha": "14f8cdba07e5a14748bd4f864d1881f96ee0128c",
+      "owner": "Travisma2233",
+      "published": "2026-08-20",
+      "label": "commit"
+    },
     {
       "title": "chore: update star history",
       "description": "chore: update star history",
@@ -135,26 +155,6 @@
       "fullSha": "c79c1c5203a4cc4ca6553d0348e25a3af948ff81",
       "owner": "Travisma2233",
       "published": "2026-08-14",
-      "label": "commit"
-    },
-    {
-      "title": "chore: update star history",
-      "description": "chore: update star history",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/d1fb103c635e63288c0f2174460276b1ab7582d8",
-      "sha": "d1fb103",
-      "fullSha": "d1fb103c635e63288c0f2174460276b1ab7582d8",
-      "owner": "github-actions",
-      "published": "2026-08-13",
-      "label": "commit"
-    },
-    {
-      "title": "Add Nature Machine Intelligence submission requirements (#195)",
-      "description": "Add Nature Machine Intelligence submission requirements (#195)\n\n* feat: add Nature Machine Intelligence submission contract\n\n* docs: document NMI submission support",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/fe7f972c8d5d1c7e08f5ee742dc49fa493614930",
-      "sha": "fe7f972",
-      "fullSha": "fe7f972c8d5d1c7e08f5ee742dc49fa493614930",
-      "owner": "Travisma2233",
-      "published": "2026-08-12",
       "label": "commit"
     }
   ]

@@ -1,20 +1,30 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-08-20T03:14:13Z",
+  "changed": true,
+  "fetchedAt": "2026-08-20T14:59:32Z",
   "previousSha": "96e41d3348748796c239cf5cb85bd947e5b02d38",
-  "latestSha": "96e41d3348748796c239cf5cb85bd947e5b02d38",
+  "latestSha": "745c5f38d1b4a0600bd2f5f5682e394a34fc28b2",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "chore: update star history",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/96e41d3348748796c239cf5cb85bd947e5b02d38",
-    "sha": "96e41d3",
-    "published": "2026-08-19"
+    "title": "feat: add multi-panel evidence architecture guidance (#203)",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/745c5f38d1b4a0600bd2f5f5682e394a34fc28b2",
+    "sha": "745c5f3",
+    "published": "2026-08-20"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "feat: add multi-panel evidence architecture guidance (#203)",
+      "sha": "745c5f3",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/745c5f38d1b4a0600bd2f5f5682e394a34fc28b2"
+    },
+    {
+      "title": "feat: add Nature-wide evidence-chain writing guidance (#202)",
+      "sha": "14f8cdb",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/14f8cdba07e5a14748bd4f864d1881f96ee0128c"
+    },
     {
       "title": "chore: update star history",
       "sha": "96e41d3",
@@ -29,16 +39,6 @@
       "title": "Merge pull request #200 from Paul-Jeo/agent/english-image2ppt-descrip…",
       "sha": "44defbc",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/44defbcce0b8534f9a0a4734f56c40e4f703bbf4"
-    },
-    {
-      "title": "ci: install LibreOffice for Image2PPT tests",
-      "sha": "9729295",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/9729295f7e3cfe33762ed96664d6532ac4708fe5"
-    },
-    {
-      "title": "chore: use English Image2PPT short description",
-      "sha": "8ec7971",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/8ec797169f1667f7aca8368d9a4b4d9475c2048b"
     }
   ]
 }
