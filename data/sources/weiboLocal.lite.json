@@ -1,100 +1,110 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-08-20T13:06:28Z",
+  "savedAt": "2026-08-20T18:54:24Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-20，共 9 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-20，共 10 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-08-20",
   "items": [
     {
+      "title": "女子用公用瑜伽垫后感染HPV",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E7%94%A8%E5%85%AC%E7%94%A8%E7%91%9C%E4%BC%BD%E5%9E%AB%E5%90%8E%E6%84%9F%E6%9F%93HPV%23&t=31&band_rank=1&Refer=top",
+      "score": 122373,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1787241080
+    },
+    {
+      "title": "中国铁路加速驶入AI赋能新阶段",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E9%93%81%E8%B7%AF%E5%8A%A0%E9%80%9F%E9%A9%B6%E5%85%A5AI%E8%B5%8B%E8%83%BD%E6%96%B0%E9%98%B6%E6%AE%B5%23&t=31&band_rank=1&Refer=top",
+      "score": 95555,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1787229560
+    },
+    {
+      "title": "医院能办结婚证了",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8C%BB%E9%99%A2%E8%83%BD%E5%8A%9E%E7%BB%93%E5%A9%9A%E8%AF%81%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 88976,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1787234062
+    },
+    {
+      "title": "我国气候异常",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%88%91%E5%9B%BD%E6%B0%94%E5%80%99%E5%BC%82%E5%B8%B8%23&t=31&band_rank=1&Refer=top",
+      "score": 87749,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1787244978
+    },
+    {
+      "title": "致孕妇误服液体医生被停职",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%87%B4%E5%AD%95%E5%A6%87%E8%AF%AF%E6%9C%8D%E6%B6%B2%E4%BD%93%E5%8C%BB%E7%94%9F%E8%A2%AB%E5%81%9C%E8%81%8C%23&t=31&band_rank=1&Refer=top",
+      "score": 79232,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1787232862
+    },
+    {
+      "title": "女子发现孩子没出地铁强行往车厢挤",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E5%8F%91%E7%8E%B0%E5%AD%A9%E5%AD%90%E6%B2%A1%E5%87%BA%E5%9C%B0%E9%93%81%E5%BC%BA%E8%A1%8C%E5%BE%80%E8%BD%A6%E5%8E%A2%E6%8C%A4%23&t=31&band_rank=1&Refer=top",
+      "score": 76077,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1787237421
+    },
+    {
       "title": "日本网友家里摆满中国东西",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%E6%97%A5%E6%9C%AC%E7%BD%91%E5%8F%8B%E5%AE%B6%E9%87%8C%E6%91%86%E6%BB%A1%E4%B8%AD%E5%9B%BD%E4%B8%9C%E8%A5%BF&t=31&band_rank=1&Refer=top",
-      "score": 806546,
+      "score": 74186,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1787223981
     },
     {
-      "title": "县域消费跑出加速度",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8E%BF%E5%9F%9F%E6%B6%88%E8%B4%B9%E8%B7%91%E5%87%BA%E5%8A%A0%E9%80%9F%E5%BA%A6%23&t=31&band_rank=1&Refer=top",
-      "score": 595508,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1787229801
-    },
-    {
-      "title": "摊主住院100多天生意没断过",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%91%8A%E4%B8%BB%E4%BD%8F%E9%99%A2100%E5%A4%9A%E5%A4%A9%E7%94%9F%E6%84%8F%E6%B2%A1%E6%96%AD%E8%BF%87%23&t=31&band_rank=1&Refer=top",
-      "score": 449479,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1787230400
-    },
-    {
-      "title": "父女黄河大堤失踪车上录音曝光",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%88%B6%E5%A5%B3%E9%BB%84%E6%B2%B3%E5%A4%A7%E5%A0%A4%E5%A4%B1%E8%B8%AA%E8%BD%A6%E4%B8%8A%E5%BD%95%E9%9F%B3%E6%9B%9D%E5%85%89%23&t=31&band_rank=1&Refer=top",
-      "score": 441527,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1787228121
-    },
-    {
-      "title": "美甲贴 性早熟",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E7%BE%8E%E7%94%B2%E8%B4%B4%20%E6%80%A7%E6%97%A9%E7%86%9F&t=31&band_rank=1&Refer=top",
-      "score": 354055,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1787222182
-    },
-    {
-      "title": "合肥外卖店 我上网就是为了看这些",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%90%88%E8%82%A5%E5%A4%96%E5%8D%96%E5%BA%97%20%E6%88%91%E4%B8%8A%E7%BD%91%E5%B0%B1%E6%98%AF%E4%B8%BA%E4%BA%86%E7%9C%8B%E8%BF%99%E4%BA%9B&t=31&band_rank=1&Refer=top",
-      "score": 351873,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1787221281
-    },
-    {
-      "title": "孕妇误服甲醇前曾反复向医生确认",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AD%95%E5%A6%87%E8%AF%AF%E6%9C%8D%E7%94%B2%E9%86%87%E5%89%8D%E6%9B%BE%E5%8F%8D%E5%A4%8D%E5%90%91%E5%8C%BB%E7%94%9F%E7%A1%AE%E8%AE%A4%23&t=31&band_rank=1&Refer=top",
-      "score": 347385,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1787221879
-    },
-    {
       "title": "婆婆背后蛐蛐儿媳被孙子回怼",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E5%A9%86%E5%A9%86%E8%83%8C%E5%90%8E%E8%9B%90%E8%9B%90%E5%84%BF%E5%AA%B3%E8%A2%AB%E5%AD%99%E5%AD%90%E5%9B%9E%E6%80%BC%23&t=31&band_rank=1&Refer=top",
-      "score": 321973,
+      "score": 73933,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1787220561
     },
     {
-      "title": "妇炎洁回应私处护理液添加云母",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A6%87%E7%82%8E%E6%B4%81%E5%9B%9E%E5%BA%94%E7%A7%81%E5%A4%84%E6%8A%A4%E7%90%86%E6%B6%B2%E6%B7%BB%E5%8A%A0%E4%BA%91%E6%AF%8D%23&t=31&band_rank=1&Refer=top",
-      "score": 317426,
+      "title": "父女黄河大堤失踪车上录音曝光",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%88%B6%E5%A5%B3%E9%BB%84%E6%B2%B3%E5%A4%A7%E5%A0%A4%E5%A4%B1%E8%B8%AA%E8%BD%A6%E4%B8%8A%E5%BD%95%E9%9F%B3%E6%9B%9D%E5%85%89%23&t=31&band_rank=1&Refer=top",
+      "score": 73631,
       "owner": "微博同城",
-      "label": "新",
+      "label": "",
       "category": "民生新闻",
-      "onboardTime": 1787229502
+      "onboardTime": 1787228121
+    },
+    {
+      "title": "女生吵架扔礼物内含手机金项链",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E7%94%9F%E5%90%B5%E6%9E%B6%E6%89%94%E7%A4%BC%E7%89%A9%E5%86%85%E5%90%AB%E6%89%8B%E6%9C%BA%E9%87%91%E9%A1%B9%E9%93%BE%23&t=31&band_rank=1&Refer=top",
+      "score": 73154,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1787232261
     }
   ]
 }
