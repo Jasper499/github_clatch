@@ -1,24 +1,32 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-08-19T14:37:53Z",
+  "savedAt": "2026-08-20T03:00:16Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-08-19，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-08-20，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-08-19",
+  "fetchedDate": "2026-08-20",
   "items": [
     {
       "title": "Firefox is now the last major browser that still supports uBlock Origin",
       "description": "",
       "url": "https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html",
-      "score": 1747,
-      "comments": 713,
+      "score": 1751,
+      "comments": 714,
       "owner": "DemiGuru"
+    },
+    {
+      "title": "OpenLogi",
+      "description": "",
+      "url": "https://openlogi.org/en",
+      "score": 1518,
+      "comments": 405,
+      "owner": "amatheus"
     },
     {
       "title": "Qwen 3.8 27B",
       "description": "",
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
-      "score": 1431,
+      "score": 1432,
       "comments": 791,
       "owner": "erdaltoprak"
     },
@@ -26,55 +34,39 @@
       "title": "The Amazon tax",
       "description": "",
       "url": "https://seths.blog/2026/08/the-amazon-tax/",
-      "score": 1279,
-      "comments": 649,
+      "score": 1351,
+      "comments": 682,
       "owner": "herbertl"
     },
     {
       "title": "GLM-5.3: Frontier coding with emergent cyber capabilities",
       "description": "",
       "url": "https://z.ai/blog/glm-5.3",
-      "score": 1166,
+      "score": 1168,
       "comments": 582,
       "owner": "pella"
-    },
-    {
-      "title": "OpenLogi",
-      "description": "",
-      "url": "https://openlogi.org/en",
-      "score": 1135,
-      "comments": 322,
-      "owner": "amatheus"
     },
     {
       "title": "AI;DR (AI; Didn't Read)",
       "description": "",
       "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
-      "score": 1082,
-      "comments": 678,
+      "score": 1087,
+      "comments": 686,
       "owner": "mooreds"
-    },
-    {
-      "title": "DeepSeek V4 Pro 0813",
-      "description": "<a href=\"https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;models&#x2F;deepseek-v4-pro\" rel=\"nofollow\">https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;models&#x2F;deepseek-v4-pro</a><p><a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;ChrisGPT&#x2F;status&#x2F;2087572834650407024\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;ChrisGPT&#x2F;status&#x2F;2087572834650407024</a>, <a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;ChrisGPT&#x2F;status&#x2F;2087572834650407024\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;ChrisGPT&#x2F;status&#x2F;2087572834650407024</a>",
-      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
-      "score": 1039,
-      "comments": 452,
-      "owner": "explosion-s"
     },
     {
       "title": "Israel creates fake think tank in likely attempt to dupe AI chatbots",
       "description": "",
       "url": "https://responsiblestatecraft.org/israel-influence-chatgpt/",
-      "score": 1031,
-      "comments": 784,
+      "score": 1043,
+      "comments": 816,
       "owner": "DeepLogin"
     },
     {
       "title": "Why does Opus 5 feel worse to work with?",
       "description": "",
       "url": "https://mun-logadan.github.io/why-does-opus-5-feel-worse/",
-      "score": 984,
+      "score": 987,
       "comments": 868,
       "owner": "numeri"
     },
@@ -83,8 +75,24 @@
       "description": "<a href=\"https:&#x2F;&#x2F;ai.google.dev&#x2F;gemini-api&#x2F;docs&#x2F;models&#x2F;gemini-3.7-flash\" rel=\"nofollow\">https:&#x2F;&#x2F;ai.google.dev&#x2F;gemini-api&#x2F;docs&#x2F;models&#x2F;gemini-3.7-flas...</a>",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
       "score": 967,
-      "comments": 494,
+      "comments": 495,
       "owner": "thisisauserid"
+    },
+    {
+      "title": "Being ambitious and being a dad",
+      "description": "",
+      "url": "https://nicholascharriere.com/blog/being-ambitious-and-being-a-dad/",
+      "score": 905,
+      "comments": 707,
+      "owner": "nichochar"
+    },
+    {
+      "title": "Universal health coverage could save $1T and 114k lives a year: study",
+      "description": "Paper: <a href=\"https:&#x2F;&#x2F;www.medrxiv.org&#x2F;content&#x2F;10.64898&#x2F;2026.07.22.26358689v1.full.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;www.medrxiv.org&#x2F;content&#x2F;10.64898&#x2F;2026.07.22.26358689...</a>",
+      "url": "https://ysph.yale.edu/news-article/universal-health-coverage-could-save-one-trillion-dollars-and-114000-lives-every-year/",
+      "score": 880,
+      "comments": 947,
+      "owner": "karakoram"
     },
     {
       "title": "Every Fucking Website (2020)",
@@ -95,42 +103,42 @@
       "owner": "doubletwoyou"
     },
     {
-      "title": "Universal health coverage could save $1T and 114k lives a year: study",
-      "description": "Paper: <a href=\"https:&#x2F;&#x2F;www.medrxiv.org&#x2F;content&#x2F;10.64898&#x2F;2026.07.22.26358689v1.full.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;www.medrxiv.org&#x2F;content&#x2F;10.64898&#x2F;2026.07.22.26358689...</a>",
-      "url": "https://ysph.yale.edu/news-article/universal-health-coverage-could-save-one-trillion-dollars-and-114000-lives-every-year/",
-      "score": 863,
-      "comments": 898,
-      "owner": "karakoram"
-    },
-    {
       "title": "Anthropic's ‘watermark’ text adulteration in Claude is a perversion of writing",
       "description": "",
       "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
-      "score": 816,
-      "comments": 726,
+      "score": 818,
+      "comments": 727,
       "owner": "ropbear"
     },
     {
       "title": "Qwen 3.8 27B is excellent, but it defaults to overthinking things",
       "description": "",
       "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
-      "score": 790,
-      "comments": 379,
+      "score": 792,
+      "comments": 382,
       "owner": "bilsbie"
+    },
+    {
+      "title": "A joke domain purchase turned in geopolitical warfare",
+      "description": "",
+      "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/",
+      "score": 781,
+      "comments": 121,
+      "owner": "kareiva"
     },
     {
       "title": "Claude: System Prompts",
       "description": "",
       "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
-      "score": 756,
-      "comments": 283,
+      "score": 757,
+      "comments": 285,
       "owner": "tosh"
     },
     {
       "title": "DeepSeek Harness developer preview",
       "description": "<a href=\"https:&#x2F;&#x2F;github.com&#x2F;deepseek-ai&#x2F;deepseek-harness\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;deepseek-ai&#x2F;deepseek-harness</a><p><a href=\"https:&#x2F;&#x2F;deepseek-harness.github.io&#x2F;deepseek-harness&#x2F;en&#x2F;guide&#x2F;quickstart\" rel=\"nofollow\">https:&#x2F;&#x2F;deepseek-harness.github.io&#x2F;deepseek-harness&#x2F;en&#x2F;guide...</a>",
       "url": "https://deepseek.com/harness/en/",
-      "score": 740,
+      "score": 741,
       "comments": 310,
       "owner": "bjin"
     },
@@ -141,14 +149,6 @@
       "score": 718,
       "comments": 2,
       "owner": "kevcampb"
-    },
-    {
-      "title": "Being ambitious and being a dad",
-      "description": "",
-      "url": "https://nicholascharriere.com/blog/being-ambitious-and-being-a-dad/",
-      "score": 714,
-      "comments": 536,
-      "owner": "nichochar"
     },
     {
       "title": "Spaghettifying DRAM",
