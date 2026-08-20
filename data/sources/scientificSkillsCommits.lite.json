@@ -1,12 +1,34 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-08-19T15:06:03Z",
+  "savedAt": "2026-08-20T03:27:52Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "48dc1cf173f01aea114a62d634066f6b272aaaf1",
+  "latestSha": "390f5146bf3c1877cf15636a3dd7b775e4f0f185",
   "items": [
+    {
+      "title": "Enhance README with webinar announcement for K-Dense BYOK",
+      "description": "Enhance README with webinar announcement for K-Dense BYOK\n\n- Added details about an upcoming live webinar titled &quot;Getting Started with K-Dense BYOK,&quot; including date, time, and registration link.\n- This addition aims to provide users with a hands-on walkthrough of the K-Dense BYOK setup and features.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/390f5146bf3c1877cf15636a3dd7b775e4f0f185",
+      "sha": "390f514",
+      "fullSha": "390f5146bf3c1877cf15636a3dd7b775e4f0f185",
+      "owner": "TKassis",
+      "published": "2026-08-19",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Update AGENTS.md to clarify optional nature of skill diagrams and str…",
+      "description": "Update AGENTS.md to clarify optional nature of skill diagrams and streamline related instructions\n\n- Revised language to indicate that diagrams are optional for skills and not required for changes.\n- Removed outdated commands related to diagram generation from the main instructions.\n- Emphasized the importance of regenerating diagrams when skill workflows change to maintain accuracy.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/de66e10cd0c89b010ca1c3e74c4ab0c6db8b365b",
+      "sha": "de66e10",
+      "fullSha": "de66e10cd0c89b010ca1c3e74c4ab0c6db8b365b",
+      "owner": "TKassis",
+      "published": "2026-08-19",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "docs: add tutorials table to README (#226)",
       "description": "docs: add tutorials table to README (#226)\n\nCo-authored-by: Claude Opus 5 (1M context) &lt;noreply@anthropic.com&gt;",
@@ -147,28 +169,6 @@
       "fullSha": "5f3de01dba3dbfe3f63e3928aade592891819859",
       "owner": "TKassis",
       "published": "2026-08-13",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Update documentation and versioning for Agent Plugins compliance",
-      "description": "Update documentation and versioning for Agent Plugins compliance\n\n- Enhanced AGENTS.md and CONTRIBUTING.md to clarify the structure and requirements for the Agent Plugins package, including the need for `plugin.json` to be schema-valid and version-synced with `pyproject.toml`.\n- Updated README.md to reflect the new version 2.63.0 and added details about the repository being a portable Agent Plugins package.\n- Added tests in test_repo_contract.py to ensure compliance with the Agent Plugins manifest schema and discoverability of skills.\n\nThis update ensures better adherence to the Agent Plugins standard and improves the overall documentation for contributors.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/5ad4aae76bc40257b914367afacc6fd686a282d5",
-      "sha": "5ad4aae",
-      "fullSha": "5ad4aae76bc40257b914367afacc6fd686a282d5",
-      "owner": "TKassis",
-      "published": "2026-08-12",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Remove Star History chart from README.",
-      "description": "Remove Star History chart from README.\n\nCo-authored-by: Cursor &lt;cursoragent@cursor.com&gt;",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/f2f77ff889e0454e2bbdf0729f811ba7da3d40ff",
-      "sha": "f2f77ff",
-      "fullSha": "f2f77ff889e0454e2bbdf0729f811ba7da3d40ff",
-      "owner": "TKassis",
-      "published": "2026-08-11",
       "label": "commit",
       "repo": "K-Dense-AI/scientific-agent-skills"
     }

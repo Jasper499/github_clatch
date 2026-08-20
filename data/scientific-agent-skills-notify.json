@@ -1,20 +1,30 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-08-19T15:06:03Z",
+  "changed": true,
+  "fetchedAt": "2026-08-20T03:27:52Z",
   "previousSha": "48dc1cf173f01aea114a62d634066f6b272aaaf1",
-  "latestSha": "48dc1cf173f01aea114a62d634066f6b272aaaf1",
+  "latestSha": "390f5146bf3c1877cf15636a3dd7b775e4f0f185",
   "repo": "K-Dense-AI/scientific-agent-skills",
   "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "stars": 0,
   "skillCount": 163,
   "latestCommit": {
-    "title": "docs: add tutorials table to README (#226)",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/48dc1cf173f01aea114a62d634066f6b272aaaf1",
-    "sha": "48dc1cf",
-    "published": "2026-08-18"
+    "title": "Enhance README with webinar announcement for K-Dense BYOK",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/390f5146bf3c1877cf15636a3dd7b775e4f0f185",
+    "sha": "390f514",
+    "published": "2026-08-19"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "Enhance README with webinar announcement for K-Dense BYOK",
+      "sha": "390f514",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/390f5146bf3c1877cf15636a3dd7b775e4f0f185"
+    },
+    {
+      "title": "Update AGENTS.md to clarify optional nature of skill diagrams and str…",
+      "sha": "de66e10",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/de66e10cd0c89b010ca1c3e74c4ab0c6db8b365b"
+    },
     {
       "title": "docs: add tutorials table to README (#226)",
       "sha": "48dc1cf",
@@ -29,16 +39,6 @@
       "title": "Update version to 2.64.0 and enhance README with skill count increase",
       "sha": "9e8b0cb",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/9e8b0cb0b09059f2fd4505e57ab4e00c8be1cef6"
-    },
-    {
-      "title": "Add waypoint skill",
-      "sha": "204eef5",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/204eef574c7a2b81fe72802af650c5226182ad44"
-    },
-    {
-      "title": "Update README to include Star History chart",
-      "sha": "4934681",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/4934681cd273d1d41bffe40d3bed0e769dce6ab6"
     }
   ]
 }
