@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-08-21T03:06:14Z",
+  "savedAt": "2026-08-21T14:38:59Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-08-21，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,23 +10,31 @@
       "title": "Firefox is now the last major browser that still supports uBlock Origin",
       "description": "",
       "url": "https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html",
-      "score": 1759,
-      "comments": 714,
+      "score": 1761,
+      "comments": 715,
       "owner": "DemiGuru"
     },
     {
       "title": "OpenLogi",
       "description": "",
       "url": "https://openlogi.org/en",
-      "score": 1608,
+      "score": 1612,
       "comments": 425,
       "owner": "amatheus"
+    },
+    {
+      "title": "Aaron Swartz was prosecuted for scraping, while Meta does it without consequence",
+      "description": "",
+      "url": "https://blog.curiousquail.com/im-upset-again-about-a-co-creator-of-rss-being-prosecuted-for-something-meta-is-doing-with-little-consequence/",
+      "score": 1545,
+      "comments": 345,
+      "owner": "speckx"
     },
     {
       "title": "Qwen 3.8 27B",
       "description": "",
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
-      "score": 1436,
+      "score": 1437,
       "comments": 792,
       "owner": "erdaltoprak"
     },
@@ -34,137 +42,129 @@
       "title": "The Amazon tax",
       "description": "",
       "url": "https://seths.blog/2026/08/the-amazon-tax/",
-      "score": 1387,
-      "comments": 692,
+      "score": 1393,
+      "comments": 695,
       "owner": "herbertl"
-    },
-    {
-      "title": "GLM-5.3: Frontier coding with emergent cyber capabilities",
-      "description": "",
-      "url": "https://z.ai/blog/glm-5.3",
-      "score": 1170,
-      "comments": 582,
-      "owner": "pella"
-    },
-    {
-      "title": "Aaron Swartz was prosecuted for scraping, while Meta does it without consequence",
-      "description": "",
-      "url": "https://blog.curiousquail.com/im-upset-again-about-a-co-creator-of-rss-being-prosecuted-for-something-meta-is-doing-with-little-consequence/",
-      "score": 1120,
-      "comments": 245,
-      "owner": "speckx"
     },
     {
       "title": "AI;DR (AI; Didn't Read)",
       "description": "",
       "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
-      "score": 1097,
-      "comments": 688,
+      "score": 1101,
+      "comments": 689,
       "owner": "mooreds"
     },
     {
       "title": "Israel creates fake think tank in likely attempt to dupe AI chatbots",
       "description": "",
       "url": "https://responsiblestatecraft.org/israel-influence-chatgpt/",
-      "score": 1052,
-      "comments": 840,
+      "score": 1053,
+      "comments": 855,
       "owner": "DeepLogin"
-    },
-    {
-      "title": "A joke domain purchase turned in geopolitical warfare",
-      "description": "",
-      "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/",
-      "score": 1005,
-      "comments": 169,
-      "owner": "kareiva"
     },
     {
       "title": "Don't paste the AI, please",
       "description": "",
       "url": "https://dontpastetheai.com/",
-      "score": 992,
-      "comments": 544,
+      "score": 1022,
+      "comments": 569,
       "owner": "pjerem"
     },
     {
-      "title": "Why does Opus 5 feel worse to work with?",
+      "title": "A joke domain purchase turned in geopolitical warfare",
       "description": "",
-      "url": "https://mun-logadan.github.io/why-does-opus-5-feel-worse/",
-      "score": 991,
-      "comments": 869,
-      "owner": "numeri"
+      "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/",
+      "score": 1017,
+      "comments": 171,
+      "owner": "kareiva"
+    },
+    {
+      "title": "AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint",
+      "description": "",
+      "url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
+      "score": 990,
+      "comments": 318,
+      "owner": "emctech"
     },
     {
       "title": "OpenRouter is joining Stripe",
       "description": "Previously: Stripe will reportedly acquire OpenRouter for $7B+ <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49323381\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49323381</a>",
       "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
-      "score": 943,
-      "comments": 479,
+      "score": 951,
+      "comments": 489,
       "owner": "rvz"
     },
     {
       "title": "Being ambitious and being a dad",
       "description": "",
       "url": "https://nicholascharriere.com/blog/being-ambitious-and-being-a-dad/",
-      "score": 940,
-      "comments": 751,
+      "score": 943,
+      "comments": 757,
       "owner": "nichochar"
     },
     {
-      "title": "AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint",
+      "title": "HTML Can Do That",
       "description": "",
-      "url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
-      "score": 912,
-      "comments": 295,
-      "owner": "emctech"
+      "url": "https://chrisburnell.com/html-can-do-that/",
+      "score": 936,
+      "comments": 212,
+      "owner": "encyclopedism"
     },
     {
       "title": "Universal health coverage could save $1T and 114k lives a year: study",
       "description": "Paper: <a href=\"https:&#x2F;&#x2F;www.medrxiv.org&#x2F;content&#x2F;10.64898&#x2F;2026.07.22.26358689v1.full.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;www.medrxiv.org&#x2F;content&#x2F;10.64898&#x2F;2026.07.22.26358689...</a>",
       "url": "https://ysph.yale.edu/news-article/universal-health-coverage-could-save-one-trillion-dollars-and-114000-lives-every-year/",
-      "score": 893,
-      "comments": 960,
+      "score": 896,
+      "comments": 963,
       "owner": "karakoram"
-    },
-    {
-      "title": "Every Fucking Website (2020)",
-      "description": "",
-      "url": "https://lxe.github.io/everywebsite/",
-      "score": 870,
-      "comments": 497,
-      "owner": "doubletwoyou"
     },
     {
       "title": "Anthropic's ‘watermark’ text adulteration in Claude is a perversion of writing",
       "description": "",
       "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
-      "score": 821,
-      "comments": 727,
+      "score": 822,
+      "comments": 728,
       "owner": "ropbear"
     },
     {
-      "title": "Qwen 3.8 27B is excellent, but it defaults to overthinking things",
+      "title": "I like 'em thick: an apology to my English teachers",
       "description": "",
-      "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
-      "score": 795,
-      "comments": 383,
-      "owner": "bilsbie"
+      "url": "https://www.experimental-history.com/p/i-like-em-thick",
+      "score": 817,
+      "comments": 327,
+      "owner": "Ariarule"
     },
     {
       "title": "Google has stopped pushing Git tags for some Android source code",
       "description": "",
       "url": "https://grapheneos.social/@GrapheneOS/117057099753905023",
-      "score": 789,
-      "comments": 308,
+      "score": 809,
+      "comments": 331,
       "owner": "Animux"
+    },
+    {
+      "title": "Qwen 3.8 27B is excellent, but it defaults to overthinking things",
+      "description": "",
+      "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+      "score": 798,
+      "comments": 383,
+      "owner": "bilsbie"
     },
     {
       "title": "Claude: System Prompts",
       "description": "",
       "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
-      "score": 758,
+      "score": 759,
       "comments": 285,
       "owner": "tosh"
+    },
+    {
+      "title": "Go 1.27",
+      "description": "",
+      "url": "https://go.dev/blog/go1.27",
+      "score": 745,
+      "comments": 262,
+      "owner": "database64128"
     }
   ]
 }
