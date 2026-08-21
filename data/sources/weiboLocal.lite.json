@@ -1,130 +1,110 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-08-21T07:02:38Z",
+  "savedAt": "2026-08-21T13:05:30Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-21，共 12 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-21，共 10 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-08-21",
   "items": [
     {
-      "title": "工业新动能持续释放发展活力",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%B7%A5%E4%B8%9A%E6%96%B0%E5%8A%A8%E8%83%BD%E6%8C%81%E7%BB%AD%E9%87%8A%E6%94%BE%E5%8F%91%E5%B1%95%E6%B4%BB%E5%8A%9B%23&t=31&band_rank=1&Refer=top",
-      "score": 852230,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1787295501
-    },
-    {
-      "title": "河北代孕 取卵不打麻药",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E6%B2%B3%E5%8C%97%E4%BB%A3%E5%AD%95%20%E5%8F%96%E5%8D%B5%E4%B8%8D%E6%89%93%E9%BA%BB%E8%8D%AF&t=31&band_rank=1&Refer=top",
-      "score": 831045,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1787292740
-    },
-    {
-      "title": "绍兴 六月欣",
+      "title": "影院午睡2.5小时仅1元多",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E7%BB%8D%E5%85%B4%20%E5%85%AD%E6%9C%88%E6%AC%A3&t=31&band_rank=1&Refer=top",
-      "score": 665474,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%BD%B1%E9%99%A2%E5%8D%88%E7%9D%A12.5%E5%B0%8F%E6%97%B6%E4%BB%851%E5%85%83%E5%A4%9A%23&t=31&band_rank=1&Refer=top",
+      "score": 845389,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1787288301
+      "onboardTime": 1787306482
     },
     {
-      "title": "唐狗咬死女子",
+      "title": "地质灾害避险指南请收好",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%94%90%E7%8B%97%E5%92%AC%E6%AD%BB%E5%A5%B3%E5%AD%90&t=31&band_rank=1&Refer=top",
-      "score": 662511,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%9C%B0%E8%B4%A8%E7%81%BE%E5%AE%B3%E9%81%BF%E9%99%A9%E6%8C%87%E5%8D%97%E8%AF%B7%E6%94%B6%E5%A5%BD%23&t=31&band_rank=1&Refer=top",
+      "score": 818428,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1787292801
+      "onboardTime": 1787317101
     },
     {
-      "title": "网购水果骗局",
+      "title": "女子游泳馆内偷拍他人洗澡发给丈夫",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E7%BD%91%E8%B4%AD%E6%B0%B4%E6%9E%9C%E9%AA%97%E5%B1%80&t=31&band_rank=1&Refer=top",
-      "score": 294743,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E6%B8%B8%E6%B3%B3%E9%A6%86%E5%86%85%E5%81%B7%E6%8B%8D%E4%BB%96%E4%BA%BA%E6%B4%97%E6%BE%A1%E5%8F%91%E7%BB%99%E4%B8%88%E5%A4%AB%23&t=31&band_rank=1&Refer=top",
+      "score": 369986,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1787271201
+      "onboardTime": 1787305821
     },
     {
-      "title": "北大教授称灵活就业是福利",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%8C%97%E5%A4%A7%E6%95%99%E6%8E%88%E7%A7%B0%E7%81%B5%E6%B4%BB%E5%B0%B1%E4%B8%9A%E6%98%AF%E7%A6%8F%E5%88%A9&t=31&band_rank=1&Refer=top",
-      "score": 292592,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1787282901
-    },
-    {
-      "title": "LV老花源自中国千年传统纹样",
+      "title": "4人在高速上80码行驶遇刹车失灵",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=LV%E8%80%81%E8%8A%B1%E6%BA%90%E8%87%AA%E4%B8%AD%E5%9B%BD%E5%8D%83%E5%B9%B4%E4%BC%A0%E7%BB%9F%E7%BA%B9%E6%A0%B7&t=31&band_rank=1&Refer=top",
-      "score": 284724,
+      "url": "https://s.weibo.com/weibo?q=%234%E4%BA%BA%E5%9C%A8%E9%AB%98%E9%80%9F%E4%B8%8A80%E7%A0%81%E8%A1%8C%E9%A9%B6%E9%81%87%E5%88%B9%E8%BD%A6%E5%A4%B1%E7%81%B5%23&t=31&band_rank=1&Refer=top",
+      "score": 322538,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1787292320
+      "onboardTime": 1787316680
     },
     {
-      "title": "美莎克致广西两地159死10失联",
-      "description": "突发/灾害",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%BE%8E%E8%8E%8E%E5%85%8B%E8%87%B4%E5%B9%BF%E8%A5%BF%E4%B8%A4%E5%9C%B0159%E6%AD%BB10%E5%A4%B1%E8%81%94%23&t=31&band_rank=1&Refer=top",
-      "score": 270082,
+      "title": "如是书院课程洗脑提出异议会被打",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A6%82%E6%98%AF%E4%B9%A6%E9%99%A2%E8%AF%BE%E7%A8%8B%E6%B4%97%E8%84%91%E6%8F%90%E5%87%BA%E5%BC%82%E8%AE%AE%E4%BC%9A%E8%A2%AB%E6%89%93%23&t=31&band_rank=1&Refer=top",
+      "score": 317793,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1787316981
+    },
+    {
+      "title": "女子暗恋8年终等来回应",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E6%9A%97%E6%81%8B8%E5%B9%B4%E7%BB%88%E7%AD%89%E6%9D%A5%E5%9B%9E%E5%BA%94%23&t=31&band_rank=1&Refer=top",
+      "score": 287095,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1787314820
+    },
+    {
+      "title": "62岁女子生下6斤重婴儿",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%2362%E5%B2%81%E5%A5%B3%E5%AD%90%E7%94%9F%E4%B8%8B6%E6%96%A4%E9%87%8D%E5%A9%B4%E5%84%BF%23&t=31&band_rank=1&Refer=top",
+      "score": 242636,
       "owner": "微博同城",
       "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1787306841
+    },
+    {
+      "title": "妻子偷拍女子洗澡丈夫负责点评",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A6%BB%E5%AD%90%E5%81%B7%E6%8B%8D%E5%A5%B3%E5%AD%90%E6%B4%97%E6%BE%A1%E4%B8%88%E5%A4%AB%E8%B4%9F%E8%B4%A3%E7%82%B9%E8%AF%84%23&t=31&band_rank=1&Refer=top",
+      "score": 220198,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1787317221
+    },
+    {
+      "title": "各地重大工程提速夯实高质量发展底盘",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%90%84%E5%9C%B0%E9%87%8D%E5%A4%A7%E5%B7%A5%E7%A8%8B%E6%8F%90%E9%80%9F%E5%A4%AF%E5%AE%9E%E9%AB%98%E8%B4%A8%E9%87%8F%E5%8F%91%E5%B1%95%E5%BA%95%E7%9B%98%23&t=31&band_rank=1&Refer=top",
+      "score": 213405,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1787316742
+    },
+    {
+      "title": "登记为唐狗犬只被曝含格斗犬血统",
+      "description": "新 · 突发/灾害",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%99%BB%E8%AE%B0%E4%B8%BA%E5%94%90%E7%8B%97%E7%8A%AC%E5%8F%AA%E8%A2%AB%E6%9B%9D%E5%90%AB%E6%A0%BC%E6%96%97%E7%8A%AC%E8%A1%80%E7%BB%9F%23&t=31&band_rank=1&Refer=top",
+      "score": 212569,
+      "owner": "微博同城",
+      "label": "新",
       "category": "突发/灾害",
-      "onboardTime": 1787285660
-    },
-    {
-      "title": "今年以旧换新已惠及1.78亿人次",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%BB%8A%E5%B9%B4%E4%BB%A5%E6%97%A7%E6%8D%A2%E6%96%B0%E5%B7%B2%E6%83%A0%E5%8F%8A1.78%E4%BA%BF%E4%BA%BA%E6%AC%A1%23&t=31&band_rank=1&Refer=top",
-      "score": 269214,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1787294901
-    },
-    {
-      "title": "大不了送外卖暴露了什么",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%A7%E4%B8%8D%E4%BA%86%E9%80%81%E5%A4%96%E5%8D%96%E6%9A%B4%E9%9C%B2%E4%BA%86%E4%BB%80%E4%B9%88%23&t=31&band_rank=1&Refer=top",
-      "score": 206705,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1787295680
-    },
-    {
-      "title": "台风沙德尔",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E%E6%B2%99%E5%BE%B7%E5%B0%94&t=31&band_rank=1&Refer=top",
-      "score": 192820,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1787287280
-    },
-    {
-      "title": "王者荣耀 国服孙策",
-      "description": "民生新闻,游戏",
-      "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80%20%E5%9B%BD%E6%9C%8D%E5%AD%99%E7%AD%96&t=31&band_rank=1&Refer=top",
-      "score": 143809,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻,游戏",
-      "onboardTime": 1787283801
+      "onboardTime": 1787317101
     }
   ]
 }
