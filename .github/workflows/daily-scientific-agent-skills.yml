@@ -122,6 +122,11 @@ jobs:
           Path("/tmp/scientific-agent-skills-notify.md").write_text("\n".join(lines), encoding="utf-8")
           print("Notification body prepared.")
           PY
+          # Python exit 0 on skip does not stop the shell; only create an issue when body exists.
+          if [ ! -f /tmp/scientific-agent-skills-notify.md ]; then
+            echo "No notification body; skipping issue create."
+            exit 0
+          fi
           TITLE="Scientific Agent Skills update $(date -u +%Y-%m-%d)"
           gh issue create \
             --title "$TITLE" \
