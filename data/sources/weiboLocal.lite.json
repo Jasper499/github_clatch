@@ -1,160 +1,130 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-08-21T01:52:50Z",
+  "savedAt": "2026-08-21T07:02:38Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-21，共 15 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-21，共 12 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-08-21",
   "items": [
     {
-      "title": "张雪说送到统一为止",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%BC%A0%E9%9B%AA%E8%AF%B4%E9%80%81%E5%88%B0%E7%BB%9F%E4%B8%80%E4%B8%BA%E6%AD%A2%23&t=31&band_rank=1&Refer=top",
-      "score": 1156182,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1787270480
-    },
-    {
-      "title": "男子捡3根金条以为假的随手扔掉",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E6%8D%A13%E6%A0%B9%E9%87%91%E6%9D%A1%E4%BB%A5%E4%B8%BA%E5%81%87%E7%9A%84%E9%9A%8F%E6%89%8B%E6%89%94%E6%8E%89%23&t=31&band_rank=1&Refer=top",
-      "score": 826583,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1787268317
-    },
-    {
-      "title": "中国铁路加速驶入AI赋能新阶段",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E9%93%81%E8%B7%AF%E5%8A%A0%E9%80%9F%E9%A9%B6%E5%85%A5AI%E8%B5%8B%E8%83%BD%E6%96%B0%E9%98%B6%E6%AE%B5%23&t=31&band_rank=1&Refer=top",
-      "score": 693610,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1787229560
-    },
-    {
-      "title": "女子明知身患艾滋病仍卖淫50次",
+      "title": "工业新动能持续释放发展活力",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E6%98%8E%E7%9F%A5%E8%BA%AB%E6%82%A3%E8%89%BE%E6%BB%8B%E7%97%85%E4%BB%8D%E5%8D%96%E6%B7%AB50%E6%AC%A1%23&t=31&band_rank=1&Refer=top",
-      "score": 693127,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%B7%A5%E4%B8%9A%E6%96%B0%E5%8A%A8%E8%83%BD%E6%8C%81%E7%BB%AD%E9%87%8A%E6%94%BE%E5%8F%91%E5%B1%95%E6%B4%BB%E5%8A%9B%23&t=31&band_rank=1&Refer=top",
+      "score": 852230,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1787275340
+      "onboardTime": 1787295501
     },
     {
-      "title": "我国气候异常",
+      "title": "河北代孕 取卵不打麻药",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E6%B2%B3%E5%8C%97%E4%BB%A3%E5%AD%95%20%E5%8F%96%E5%8D%B5%E4%B8%8D%E6%89%93%E9%BA%BB%E8%8D%AF&t=31&band_rank=1&Refer=top",
+      "score": 831045,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1787292740
+    },
+    {
+      "title": "绍兴 六月欣",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%88%91%E5%9B%BD%E6%B0%94%E5%80%99%E5%BC%82%E5%B8%B8%23&t=31&band_rank=1&Refer=top",
-      "score": 346945,
+      "url": "https://s.weibo.com/weibo?q=%E7%BB%8D%E5%85%B4%20%E5%85%AD%E6%9C%88%E6%AC%A3&t=31&band_rank=1&Refer=top",
+      "score": 665474,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1787244978
+      "onboardTime": 1787288301
+    },
+    {
+      "title": "唐狗咬死女子",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%94%90%E7%8B%97%E5%92%AC%E6%AD%BB%E5%A5%B3%E5%AD%90&t=31&band_rank=1&Refer=top",
+      "score": 662511,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1787292801
     },
     {
       "title": "网购水果骗局",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%E7%BD%91%E8%B4%AD%E6%B0%B4%E6%9E%9C%E9%AA%97%E5%B1%80&t=31&band_rank=1&Refer=top",
-      "score": 339831,
+      "score": 294743,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1787271201
     },
     {
-      "title": "上海餐厅 必须用ig预定",
+      "title": "北大教授称灵活就业是福利",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E4%B8%8A%E6%B5%B7%E9%A4%90%E5%8E%85%20%E5%BF%85%E9%A1%BB%E7%94%A8ig%E9%A2%84%E5%AE%9A&t=31&band_rank=1&Refer=top",
-      "score": 273167,
+      "url": "https://s.weibo.com/weibo?q=%E5%8C%97%E5%A4%A7%E6%95%99%E6%8E%88%E7%A7%B0%E7%81%B5%E6%B4%BB%E5%B0%B1%E4%B8%9A%E6%98%AF%E7%A6%8F%E5%88%A9&t=31&band_rank=1&Refer=top",
+      "score": 292592,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1787270539
+      "onboardTime": 1787282901
     },
     {
-      "title": "多方回应女子穿睡衣站高楼窗沿",
+      "title": "LV老花源自中国千年传统纹样",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=LV%E8%80%81%E8%8A%B1%E6%BA%90%E8%87%AA%E4%B8%AD%E5%9B%BD%E5%8D%83%E5%B9%B4%E4%BC%A0%E7%BB%9F%E7%BA%B9%E6%A0%B7&t=31&band_rank=1&Refer=top",
+      "score": 284724,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1787292320
+    },
+    {
+      "title": "美莎克致广西两地159死10失联",
       "description": "突发/灾害",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%9A%E6%96%B9%E5%9B%9E%E5%BA%94%E5%A5%B3%E5%AD%90%E7%A9%BF%E7%9D%A1%E8%A1%A3%E7%AB%99%E9%AB%98%E6%A5%BC%E7%AA%97%E6%B2%BF%23&t=31&band_rank=1&Refer=top",
-      "score": 245843,
+      "url": "https://s.weibo.com/weibo?q=%23%E7%BE%8E%E8%8E%8E%E5%85%8B%E8%87%B4%E5%B9%BF%E8%A5%BF%E4%B8%A4%E5%9C%B0159%E6%AD%BB10%E5%A4%B1%E8%81%94%23&t=31&band_rank=1&Refer=top",
+      "score": 270082,
       "owner": "微博同城",
       "label": "",
       "category": "突发/灾害",
-      "onboardTime": 1787271741
+      "onboardTime": 1787285660
     },
     {
-      "title": "失业男子饿20天致肾衰竭",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%B1%E4%B8%9A%E7%94%B7%E5%AD%90%E9%A5%BF20%E5%A4%A9%E8%87%B4%E8%82%BE%E8%A1%B0%E7%AB%AD%23&t=31&band_rank=1&Refer=top",
-      "score": 244769,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1787266997
-    },
-    {
-      "title": "男子在天门山电梯击掌获热情回应",
+      "title": "今年以旧换新已惠及1.78亿人次",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E5%9C%A8%E5%A4%A9%E9%97%A8%E5%B1%B1%E7%94%B5%E6%A2%AF%E5%87%BB%E6%8E%8C%E8%8E%B7%E7%83%AD%E6%83%85%E5%9B%9E%E5%BA%94%23&t=31&band_rank=1&Refer=top",
-      "score": 240259,
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BB%8A%E5%B9%B4%E4%BB%A5%E6%97%A7%E6%8D%A2%E6%96%B0%E5%B7%B2%E6%83%A0%E5%8F%8A1.78%E4%BA%BF%E4%BA%BA%E6%AC%A1%23&t=31&band_rank=1&Refer=top",
+      "score": 269214,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1787275939
+      "onboardTime": 1787294901
     },
     {
-      "title": "女子因与人约会被前夫殴打致37处伤",
+      "title": "大不了送外卖暴露了什么",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E5%9B%A0%E4%B8%8E%E4%BA%BA%E7%BA%A6%E4%BC%9A%E8%A2%AB%E5%89%8D%E5%A4%AB%E6%AE%B4%E6%89%93%E8%87%B437%E5%A4%84%E4%BC%A4%23&t=31&band_rank=1&Refer=top",
-      "score": 239541,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%A7%E4%B8%8D%E4%BA%86%E9%80%81%E5%A4%96%E5%8D%96%E6%9A%B4%E9%9C%B2%E4%BA%86%E4%BB%80%E4%B9%88%23&t=31&band_rank=1&Refer=top",
+      "score": 206705,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1787275939
+      "onboardTime": 1787295680
     },
     {
-      "title": "仅退款的风吹到了医疗界",
+      "title": "台风沙德尔",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%BB%85%E9%80%80%E6%AC%BE%E7%9A%84%E9%A3%8E%E5%90%B9%E5%88%B0%E4%BA%86%E5%8C%BB%E7%96%97%E7%95%8C%23&t=31&band_rank=1&Refer=top",
-      "score": 234900,
+      "url": "https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E%E6%B2%99%E5%BE%B7%E5%B0%94&t=31&band_rank=1&Refer=top",
+      "score": 192820,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1787271500
+      "onboardTime": 1787287280
     },
     {
-      "title": "女子发现孩子没出地铁强行往车厢挤",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E5%8F%91%E7%8E%B0%E5%AD%A9%E5%AD%90%E6%B2%A1%E5%87%BA%E5%9C%B0%E9%93%81%E5%BC%BA%E8%A1%8C%E5%BE%80%E8%BD%A6%E5%8E%A2%E6%8C%A4%23&t=31&band_rank=1&Refer=top",
-      "score": 229353,
+      "title": "王者荣耀 国服孙策",
+      "description": "民生新闻,游戏",
+      "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80%20%E5%9B%BD%E6%9C%8D%E5%AD%99%E7%AD%96&t=31&band_rank=1&Refer=top",
+      "score": 143809,
       "owner": "微博同城",
       "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1787237421
-    },
-    {
-      "title": "医院能办结婚证了",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8C%BB%E9%99%A2%E8%83%BD%E5%8A%9E%E7%BB%93%E5%A9%9A%E8%AF%81%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 227538,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1787234062
-    },
-    {
-      "title": "广州地铁回应母亲为孩子硬挤屏蔽门",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%B9%BF%E5%B7%9E%E5%9C%B0%E9%93%81%E5%9B%9E%E5%BA%94%E6%AF%8D%E4%BA%B2%E4%B8%BA%E5%AD%A9%E5%AD%90%E7%A1%AC%E6%8C%A4%E5%B1%8F%E8%94%BD%E9%97%A8%23&t=31&band_rank=1&Refer=top",
-      "score": 214300,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1787266636
+      "category": "民生新闻,游戏",
+      "onboardTime": 1787283801
     }
   ]
 }
