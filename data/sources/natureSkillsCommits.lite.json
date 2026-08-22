@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-08-21T14:57:58Z",
+  "savedAt": "2026-08-22T03:11:15Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "745c5f38d1b4a0600bd2f5f5682e394a34fc28b2",
+  "latestSha": "a6e6f3456f2065eb555afe8ed2c28637f3cd4e1b",
   "items": [
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/a6e6f3456f2065eb555afe8ed2c28637f3cd4e1b",
+      "sha": "a6e6f34",
+      "fullSha": "a6e6f3456f2065eb555afe8ed2c28637f3cd4e1b",
+      "owner": "github-actions",
+      "published": "2026-08-22",
+      "label": "commit"
+    },
     {
       "title": "feat: add multi-panel evidence architecture guidance (#203)",
       "description": "feat: add multi-panel evidence architecture guidance (#203)",
@@ -145,16 +155,6 @@
       "fullSha": "4ceb19c9462111d70688729fbc9b6affd07646c3",
       "owner": "Travisma2233",
       "published": "2026-08-15",
-      "label": "commit"
-    },
-    {
-      "title": "Clarify NMI figure legend word guidance (#196)",
-      "description": "Clarify NMI figure legend word guidance (#196)\n\n* fix: clarify NMI figure legend word guidance\n\n* docs: explain NMI legend advisory ceiling",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c79c1c5203a4cc4ca6553d0348e25a3af948ff81",
-      "sha": "c79c1c5",
-      "fullSha": "c79c1c5203a4cc4ca6553d0348e25a3af948ff81",
-      "owner": "Travisma2233",
-      "published": "2026-08-14",
       "label": "commit"
     }
   ]
