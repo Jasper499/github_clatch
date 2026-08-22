@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-08-22T02:57:08Z",
+  "savedAt": "2026-08-22T14:25:07Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-08-22，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,31 +10,39 @@
       "title": "Aaron Swartz was prosecuted for scraping, while Meta does it without consequence",
       "description": "",
       "url": "https://blog.curiousquail.com/im-upset-again-about-a-co-creator-of-rss-being-prosecuted-for-something-meta-is-doing-with-little-consequence/",
-      "score": 1623,
-      "comments": 374,
+      "score": 1644,
+      "comments": 385,
       "owner": "speckx"
     },
     {
       "title": "OpenLogi",
       "description": "",
       "url": "https://openlogi.org/en",
-      "score": 1615,
-      "comments": 425,
+      "score": 1619,
+      "comments": 427,
       "owner": "amatheus"
     },
     {
       "title": "The Amazon tax",
       "description": "",
       "url": "https://seths.blog/2026/08/the-amazon-tax/",
-      "score": 1396,
-      "comments": 697,
+      "score": 1399,
+      "comments": 698,
       "owner": "herbertl"
+    },
+    {
+      "title": "Kagi added a setting for removing paywalled links from search results",
+      "description": "",
+      "url": "https://kagi.com/changelog#11296",
+      "score": 1182,
+      "comments": 371,
+      "owner": "speckx"
     },
     {
       "title": "AI;DR (AI; Didn't Read)",
       "description": "",
       "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
-      "score": 1103,
+      "score": 1105,
       "comments": 690,
       "owner": "mooreds"
     },
@@ -50,23 +58,15 @@
       "title": "Don't paste the AI, please",
       "description": "",
       "url": "https://dontpastetheai.com/",
-      "score": 1031,
-      "comments": 575,
+      "score": 1040,
+      "comments": 578,
       "owner": "pjerem"
-    },
-    {
-      "title": "Kagi added a setting for removing paywalled links from search results",
-      "description": "",
-      "url": "https://kagi.com/changelog#11296",
-      "score": 1029,
-      "comments": 346,
-      "owner": "speckx"
     },
     {
       "title": "A joke domain purchase turned in geopolitical warfare",
       "description": "",
       "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/",
-      "score": 1022,
+      "score": 1025,
       "comments": 169,
       "owner": "kareiva"
     },
@@ -74,23 +74,23 @@
       "title": "AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint",
       "description": "",
       "url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
-      "score": 1011,
-      "comments": 326,
+      "score": 1016,
+      "comments": 329,
       "owner": "emctech"
     },
     {
       "title": "HTML Can Do That",
       "description": "",
       "url": "https://chrisburnell.com/html-can-do-that/",
-      "score": 979,
-      "comments": 226,
+      "score": 990,
+      "comments": 229,
       "owner": "encyclopedism"
     },
     {
       "title": "OpenRouter is joining Stripe",
       "description": "Previously: Stripe will reportedly acquire OpenRouter for $7B+ <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49323381\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49323381</a>",
       "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
-      "score": 953,
+      "score": 954,
       "comments": 495,
       "owner": "rvz"
     },
@@ -98,7 +98,7 @@
       "title": "Being ambitious and being a dad",
       "description": "",
       "url": "https://nicholascharriere.com/blog/being-ambitious-and-being-a-dad/",
-      "score": 949,
+      "score": 950,
       "comments": 760,
       "owner": "nichochar"
     },
@@ -106,16 +106,24 @@
       "title": "Universal health coverage could save $1T and 114k lives a year: study",
       "description": "Paper: <a href=\"https:&#x2F;&#x2F;www.medrxiv.org&#x2F;content&#x2F;10.64898&#x2F;2026.07.22.26358689v1.full.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;www.medrxiv.org&#x2F;content&#x2F;10.64898&#x2F;2026.07.22.26358689...</a>",
       "url": "https://ysph.yale.edu/news-article/universal-health-coverage-could-save-one-trillion-dollars-and-114000-lives-every-year/",
-      "score": 897,
-      "comments": 968,
+      "score": 900,
+      "comments": 969,
       "owner": "karakoram"
+    },
+    {
+      "title": "Felony charges for citizen deleting phone data at US Border",
+      "description": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;SflVC\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;SflVC</a><p><a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=_2rokxux5cU\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=_2rokxux5cU</a>",
+      "url": "https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html",
+      "score": 893,
+      "comments": 1066,
+      "owner": "floathub"
     },
     {
       "title": "I like 'em thick: an apology to my English teachers",
       "description": "",
       "url": "https://www.experimental-history.com/p/i-like-em-thick",
-      "score": 849,
-      "comments": 336,
+      "score": 852,
+      "comments": 337,
       "owner": "Ariarule"
     },
     {
@@ -123,14 +131,14 @@
       "description": "",
       "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
       "score": 822,
-      "comments": 729,
+      "comments": 728,
       "owner": "ropbear"
     },
     {
       "title": "Google has stopped pushing Git tags for some Android source code",
       "description": "",
       "url": "https://grapheneos.social/@GrapheneOS/117057099753905023",
-      "score": 816,
+      "score": 817,
       "comments": 331,
       "owner": "Animux"
     },
@@ -139,32 +147,24 @@
       "description": "",
       "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
       "score": 798,
-      "comments": 383,
+      "comments": 384,
       "owner": "bilsbie"
+    },
+    {
+      "title": "Felony Bench",
+      "description": "",
+      "url": "https://www.felonybench.com/",
+      "score": 769,
+      "comments": 302,
+      "owner": "colinprince"
     },
     {
       "title": "Claude: System Prompts",
       "description": "",
       "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
-      "score": 759,
+      "score": 760,
       "comments": 284,
       "owner": "tosh"
-    },
-    {
-      "title": "Go 1.27",
-      "description": "",
-      "url": "https://go.dev/blog/go1.27",
-      "score": 747,
-      "comments": 265,
-      "owner": "database64128"
-    },
-    {
-      "title": "Incident with Github.com",
-      "description": "",
-      "url": "https://www.githubstatus.com/incidents/zkxwbgr0cnmx",
-      "score": 719,
-      "comments": 2,
-      "owner": "kevcampb"
     }
   ]
 }
