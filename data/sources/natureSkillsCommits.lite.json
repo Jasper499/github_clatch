@@ -1,12 +1,32 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-08-23T03:26:02Z",
+  "savedAt": "2026-08-23T14:44:46Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "a6e6f3456f2065eb555afe8ed2c28637f3cd4e1b",
+  "latestSha": "552af66976bec65021371d7563103f2103450f6e",
   "items": [
+    {
+      "title": "feat(image2ppt): add provider-neutral image backend (#204)",
+      "description": "feat(image2ppt): add provider-neutral image backend (#204)\n\nAdd auto/codex-oauth/openai-compatible-api backends so OpenAI Images-compatible providers can be used without hard-coding a vendor or sending Codex OAuth credentials to third-party endpoints.\n\nMade-with: Cursor\n\nCo-authored-by: jarxunlai &lt;199478724+jarxunlai@users.noreply.github.com&gt;",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/552af66976bec65021371d7563103f2103450f6e",
+      "sha": "552af66",
+      "fullSha": "552af66976bec65021371d7563103f2103450f6e",
+      "owner": "jarxunlai",
+      "published": "2026-08-23",
+      "label": "commit"
+    },
+    {
+      "title": "修复零星标仓库的历史图生成 (#205)",
+      "description": "修复零星标仓库的历史图生成 (#205)",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/8ed584c3d077846c1788f6933a7047efe84bba79",
+      "sha": "8ed584c",
+      "fullSha": "8ed584c3d077846c1788f6933a7047efe84bba79",
+      "owner": "zpf2234",
+      "published": "2026-08-23",
+      "label": "commit"
+    },
     {
       "title": "chore: update star history",
       "description": "chore: update star history",
@@ -135,26 +155,6 @@
       "fullSha": "bfd02c8fce2c1decf065e79339ce3f65de48f1aa",
       "owner": "Flyme886",
       "published": "2026-08-16",
-      "label": "commit"
-    },
-    {
-      "title": "chore: update star history",
-      "description": "chore: update star history",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/7316aff80302f105c5703cf8d7dfd0f608a9b411",
-      "sha": "7316aff",
-      "fullSha": "7316aff80302f105c5703cf8d7dfd0f608a9b411",
-      "owner": "github-actions",
-      "published": "2026-08-16",
-      "label": "commit"
-    },
-    {
-      "title": "feat: add AI graphical abstract workflow (#197)",
-      "description": "feat: add AI graphical abstract workflow (#197)",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/4ceb19c9462111d70688729fbc9b6affd07646c3",
-      "sha": "4ceb19c",
-      "fullSha": "4ceb19c9462111d70688729fbc9b6affd07646c3",
-      "owner": "Travisma2233",
-      "published": "2026-08-15",
       "label": "commit"
     }
   ]
