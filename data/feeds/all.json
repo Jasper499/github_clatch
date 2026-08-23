@@ -6,148 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%233%E5%A7%90%E5%BC%9F%E5%A4%AA%E9%A5%BF%E6%8A%A5%E8%AD%A6%E6%B1%82%E5%8A%A9%E6%B0%91%E8%AD%A6%E4%B8%8A%E9%97%A8%E5%81%9A%E9%A5%AD%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%233%E5%A7%90%E5%BC%9F%E5%A4%AA%E9%A5%BF%E6%8A%A5%E8%AD%A6%E6%B1%82%E5%8A%A9%E6%B0%91%E8%AD%A6%E4%B8%8A%E9%97%A8%E5%81%9A%E9%A5%AD%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 3姐弟太饿报警求助民警上门做饭",
-      "date_published": "2026-08-23T12:57:45Z"
+      "id": "hackernews:https://blog.curiousquail.com/im-upset-again-about-a-co-creator-of-rss-being-prosecuted-for-something-meta-is-doing-with-little-consequence/",
+      "url": "https://blog.curiousquail.com/im-upset-again-about-a-co-creator-of-rss-being-prosecuted-for-something-meta-is-doing-with-little-consequence/",
+      "title": "[Hacker News 热门] Aaron Swartz was prosecuted for scraping, while Meta does it without consequence",
+      "date_published": "2026-08-23T14:27:00Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E5%BF%83%E5%8A%A8%E7%9A%84%E4%BF%A1%E5%8F%B79&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%BF%83%E5%8A%A8%E7%9A%84%E4%BF%A1%E5%8F%B79&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 心动的信号9",
-      "date_published": "2026-08-23T12:57:45Z"
+      "id": "hackernews:https://openlogi.org/en",
+      "url": "https://openlogi.org/en",
+      "title": "[Hacker News 热门] OpenLogi",
+      "date_published": "2026-08-23T14:27:00Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%232%E4%B8%87%E4%BB%B6%E4%B8%AD%E5%A4%AE%E6%95%91%E7%81%BE%E7%89%A9%E8%B5%84%E6%94%AF%E6%8C%81%E5%B9%BF%E8%A5%BF%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%232%E4%B8%87%E4%BB%B6%E4%B8%AD%E5%A4%AE%E6%95%91%E7%81%BE%E7%89%A9%E8%B5%84%E6%94%AF%E6%8C%81%E5%B9%BF%E8%A5%BF%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 2万件中央救灾物资支持广西",
-      "date_published": "2026-08-23T12:57:45Z"
+      "id": "hackernews:https://seths.blog/2026/08/the-amazon-tax/",
+      "url": "https://seths.blog/2026/08/the-amazon-tax/",
+      "title": "[Hacker News 热门] The Amazon tax",
+      "date_published": "2026-08-23T14:27:00Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E5%B9%B4%E8%BD%BB%E6%97%B6%E5%81%9A%E4%BB%80%E4%B9%88%E5%AF%B9%E5%90%8E%E5%8D%8A%E7%94%9F%E6%9C%89%E5%B7%A8%E5%A4%A7%E5%A5%BD%E5%A4%84&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%B9%B4%E8%BD%BB%E6%97%B6%E5%81%9A%E4%BB%80%E4%B9%88%E5%AF%B9%E5%90%8E%E5%8D%8A%E7%94%9F%E6%9C%89%E5%B7%A8%E5%A4%A7%E5%A5%BD%E5%A4%84&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 年轻时做什么对后半生有巨大好处",
-      "date_published": "2026-08-23T12:57:45Z"
+      "id": "hackernews:https://kagi.com/changelog#11296",
+      "url": "https://kagi.com/changelog#11296",
+      "title": "[Hacker News 热门] Kagi added a setting for removing paywalled links from search results",
+      "date_published": "2026-08-23T14:27:00Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%94%90%E5%B8%88%E6%9B%BE%E5%8E%BB%E4%B8%96%E5%89%8D%E7%99%BD%E8%A1%80%E7%90%83%E5%87%A0%E4%B9%8E%E4%B8%BA%E9%9B%B6%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%94%90%E5%B8%88%E6%9B%BE%E5%8E%BB%E4%B8%96%E5%89%8D%E7%99%BD%E8%A1%80%E7%90%83%E5%87%A0%E4%B9%8E%E4%B8%BA%E9%9B%B6%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 唐师曾去世前白血球几乎为零",
-      "date_published": "2026-08-23T12:57:45Z"
+      "id": "hackernews:https://www.rickmanelius.com/p/aidr-ai-didnt-read",
+      "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
+      "title": "[Hacker News 热门] AI;DR (AI; Didn't Read)",
+      "date_published": "2026-08-23T14:27:00Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E9%87%8D%E5%99%A8&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E9%87%8D%E5%99%A8&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 重器",
-      "date_published": "2026-08-23T12:57:45Z"
+      "id": "hackernews:https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html",
+      "url": "https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html",
+      "title": "[Hacker News 热门] Felony charges for citizen deleting phone data at US Border",
+      "date_published": "2026-08-23T14:27:00Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E6%BB%94%E6%90%8F%20%E5%8F%AA%E8%A6%81%E5%90%83%E8%BD%AF%E9%A5%AD%E5%B0%B1%E4%BC%9A%E6%9C%89%E5%90%83%E4%B8%8D%E5%AE%8C%E7%9A%84%E8%BD%AF%E9%A5%AD&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E6%BB%94%E6%90%8F%20%E5%8F%AA%E8%A6%81%E5%90%83%E8%BD%AF%E9%A5%AD%E5%B0%B1%E4%BC%9A%E6%9C%89%E5%90%83%E4%B8%8D%E5%AE%8C%E7%9A%84%E8%BD%AF%E9%A5%AD&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 滔搏 只要吃软饭就会有吃不完的软饭",
-      "date_published": "2026-08-23T12:57:45Z"
+      "id": "hackernews:https://responsiblestatecraft.org/israel-influence-chatgpt/",
+      "url": "https://responsiblestatecraft.org/israel-influence-chatgpt/",
+      "title": "[Hacker News 热门] Israel creates fake think tank in likely attempt to dupe AI chatbots",
+      "date_published": "2026-08-23T14:27:00Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E8%8A%B1%E5%BC%80%E9%94%A6%E7%BB%A3&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E8%8A%B1%E5%BC%80%E9%94%A6%E7%BB%A3&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 花开锦绣",
-      "date_published": "2026-08-23T12:57:45Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=AG%E6%88%98%E8%83%9CWB&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=AG%E6%88%98%E8%83%9CWB&t=31&band_rank=1&Refer=top",
-      "title": "[实时] AG战胜WB",
-      "date_published": "2026-08-23T12:57:45Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E5%BF%83%E5%8A%A8%E7%9A%84%E4%BF%A1%E5%8F%B79&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%BF%83%E5%8A%A8%E7%9A%84%E4%BF%A1%E5%8F%B79&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 心动的信号9",
-      "date_published": "2026-08-23T12:57:45Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E4%B8%80%E4%BB%A3%E4%BA%BA%E6%9C%89%E4%B8%80%E4%BB%A3%E4%BA%BA%E7%9A%84%E9%9A%90%E5%BD%A2%E5%AE%B6%E5%8A%A1&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E4%BB%A3%E4%BA%BA%E6%9C%89%E4%B8%80%E4%BB%A3%E4%BA%BA%E7%9A%84%E9%9A%90%E5%BD%A2%E5%AE%B6%E5%8A%A1&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 一代人有一代人的隐形家务",
-      "date_published": "2026-08-23T12:57:45Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%AB%A6%E5%A8%A5%E4%B8%83%E5%8F%B7%E4%BB%BB%E5%8A%A1%E4%B8%8D%E6%BB%A1%E8%B6%B3%E5%8F%91%E5%B0%84%E6%9D%A1%E4%BB%B6%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AB%A6%E5%A8%A5%E4%B8%83%E5%8F%B7%E4%BB%BB%E5%8A%A1%E4%B8%8D%E6%BB%A1%E8%B6%B3%E5%8F%91%E5%B0%84%E6%9D%A1%E4%BB%B6%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 嫦娥七号任务不满足发射条件",
-      "date_published": "2026-08-23T12:57:45Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E6%B0%B8%E5%BA%B7%E5%85%AC%E5%8E%95%E8%A2%AB%E6%89%93%E5%A5%B3%E5%AD%90%E5%8F%91%E5%A3%B0&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E6%B0%B8%E5%BA%B7%E5%85%AC%E5%8E%95%E8%A2%AB%E6%89%93%E5%A5%B3%E5%AD%90%E5%8F%91%E5%A3%B0&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 永康公厕被打女子发声",
-      "date_published": "2026-08-23T12:57:45Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E5%AB%A6%E5%A8%A5%E4%B8%83%E5%8F%B7%E5%8F%91%E5%B0%84%E6%8E%A8%E8%BF%9F%E8%87%B3%E6%98%8E%E5%B9%B4&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%AB%A6%E5%A8%A5%E4%B8%83%E5%8F%B7%E5%8F%91%E5%B0%84%E6%8E%A8%E8%BF%9F%E8%87%B3%E6%98%8E%E5%B9%B4&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 嫦娥七号发射推迟至明年",
-      "date_published": "2026-08-23T12:57:45Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E8%AF%B7%E6%AC%A3%E8%B5%8F%E4%B8%80%E4%BD%8D%E8%B7%91%E5%BE%97%E5%BE%88%E7%BE%9E%E6%B6%A9%E7%9A%84%E6%9C%BA%E5%99%A8%E4%BA%BA%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%AF%B7%E6%AC%A3%E8%B5%8F%E4%B8%80%E4%BD%8D%E8%B7%91%E5%BE%97%E5%BE%88%E7%BE%9E%E6%B6%A9%E7%9A%84%E6%9C%BA%E5%99%A8%E4%BA%BA%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 请欣赏一位跑得很羞涩的机器人",
-      "date_published": "2026-08-23T12:57:45Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E6%9E%97%E4%B8%80%E6%B2%A1%E7%A9%BF%E9%9E%8B%E5%B0%B1%E8%B7%91%E5%8E%BB%E7%9C%8B%E7%98%A6%E4%BA%86%E7%9A%84%E9%83%AD%E4%BA%AC%E9%A3%9E%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9E%97%E4%B8%80%E6%B2%A1%E7%A9%BF%E9%9E%8B%E5%B0%B1%E8%B7%91%E5%8E%BB%E7%9C%8B%E7%98%A6%E4%BA%86%E7%9A%84%E9%83%AD%E4%BA%AC%E9%A3%9E%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 林一没穿鞋就跑去看瘦了的郭京飞",
-      "date_published": "2026-08-23T12:57:45Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%233%E5%A7%90%E5%BC%9F%E5%A4%AA%E9%A5%BF%E6%8A%A5%E8%AD%A6%E6%B1%82%E5%8A%A9%E6%B0%91%E8%AD%A6%E4%B8%8A%E9%97%A8%E5%81%9A%E9%A5%AD%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%233%E5%A7%90%E5%BC%9F%E5%A4%AA%E9%A5%BF%E6%8A%A5%E8%AD%A6%E6%B1%82%E5%8A%A9%E6%B0%91%E8%AD%A6%E4%B8%8A%E9%97%A8%E5%81%9A%E9%A5%AD%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 3姐弟太饿报警求助民警上门做饭",
-      "date_published": "2026-08-23T12:57:45Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%232%E4%B8%87%E4%BB%B6%E4%B8%AD%E5%A4%AE%E6%95%91%E7%81%BE%E7%89%A9%E8%B5%84%E6%94%AF%E6%8C%81%E5%B9%BF%E8%A5%BF%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%232%E4%B8%87%E4%BB%B6%E4%B8%AD%E5%A4%AE%E6%95%91%E7%81%BE%E7%89%A9%E8%B5%84%E6%94%AF%E6%8C%81%E5%B9%BF%E8%A5%BF%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 2万件中央救灾物资支持广西",
-      "date_published": "2026-08-23T12:57:45Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%94%90%E5%B8%88%E6%9B%BE%E5%8E%BB%E4%B8%96%E5%89%8D%E7%99%BD%E8%A1%80%E7%90%83%E5%87%A0%E4%B9%8E%E4%B8%BA%E9%9B%B6%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%94%90%E5%B8%88%E6%9B%BE%E5%8E%BB%E4%B8%96%E5%89%8D%E7%99%BD%E8%A1%80%E7%90%83%E5%87%A0%E4%B9%8E%E4%B8%BA%E9%9B%B6%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 唐师曾去世前白血球几乎为零",
-      "date_published": "2026-08-23T12:57:45Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%AB%A6%E5%A8%A5%E4%B8%83%E5%8F%B7%E4%BB%BB%E5%8A%A1%E4%B8%8D%E6%BB%A1%E8%B6%B3%E5%8F%91%E5%B0%84%E6%9D%A1%E4%BB%B6%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AB%A6%E5%A8%A5%E4%B8%83%E5%8F%B7%E4%BB%BB%E5%8A%A1%E4%B8%8D%E6%BB%A1%E8%B6%B3%E5%8F%91%E5%B0%84%E6%9D%A1%E4%BB%B6%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 嫦娥七号任务不满足发射条件",
-      "date_published": "2026-08-23T12:57:45Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E8%8B%8F%E5%B7%9E%E9%81%9B%E7%8B%97%E4%B8%8D%E6%8B%B4%E7%BB%B3%E5%92%AC%E4%BC%A4%E4%B8%A4%E5%90%8D%E5%B9%BC%E7%AB%A5&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E8%8B%8F%E5%B7%9E%E9%81%9B%E7%8B%97%E4%B8%8D%E6%8B%B4%E7%BB%B3%E5%92%AC%E4%BC%A4%E4%B8%A4%E5%90%8D%E5%B9%BC%E7%AB%A5&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 苏州遛狗不拴绳咬伤两名幼童",
-      "date_published": "2026-08-23T12:57:45Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E5%AB%A6%E5%A8%A5%E4%B8%83%E5%8F%B7%E5%8F%91%E5%B0%84%E6%8E%A8%E8%BF%9F%E8%87%B3%E6%98%8E%E5%B9%B4&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%AB%A6%E5%A8%A5%E4%B8%83%E5%8F%B7%E5%8F%91%E5%B0%84%E6%8E%A8%E8%BF%9F%E8%87%B3%E6%98%8E%E5%B9%B4&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 嫦娥七号发射推迟至明年",
-      "date_published": "2026-08-23T12:57:45Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E7%88%B7%E7%88%B7%E4%B8%AD%E9%A3%8E2%E5%B2%81%E5%AE%9D%E5%AE%9D%E5%93%AD%E7%9D%80%E6%8C%A8%E4%B8%AA%E5%8E%BB%E9%82%BB%E5%B1%85%E5%AE%B6%E6%B1%82%E6%95%91%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%88%B7%E7%88%B7%E4%B8%AD%E9%A3%8E2%E5%B2%81%E5%AE%9D%E5%AE%9D%E5%93%AD%E7%9D%80%E6%8C%A8%E4%B8%AA%E5%8E%BB%E9%82%BB%E5%B1%85%E5%AE%B6%E6%B1%82%E6%95%91%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 爷爷中风2岁宝宝哭着挨个去邻居家求救",
-      "date_published": "2026-08-23T12:57:45Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E4%BE%9D%E6%B3%95%E4%BB%8E%E4%B8%A5%E4%BB%8E%E5%BF%AB%E5%A4%84%E7%BD%AE%E7%94%B2%E9%86%9B%E7%99%BD%E8%8F%9C%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%BE%9D%E6%B3%95%E4%BB%8E%E4%B8%A5%E4%BB%8E%E5%BF%AB%E5%A4%84%E7%BD%AE%E7%94%B2%E9%86%9B%E7%99%BD%E8%8F%9C%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 依法从严从快处置甲醛白菜",
-      "date_published": "2026-08-23T12:57:45Z"
+      "id": "hackernews:https://dontpastetheai.com/",
+      "url": "https://dontpastetheai.com/",
+      "title": "[Hacker News 热门] Don't paste the AI, please",
+      "date_published": "2026-08-23T14:27:00Z"
     }
   ]
 }
