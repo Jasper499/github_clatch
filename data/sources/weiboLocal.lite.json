@@ -1,120 +1,150 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-08-23T18:44:04Z",
+  "savedAt": "2026-08-24T01:53:52Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-23，共 11 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-24，共 14 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
-  "fetchedDate": "2026-08-23",
+  "fetchedDate": "2026-08-24",
   "items": [
     {
-      "title": "韩红基金会救护车供应商大门紧闭",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%9F%A9%E7%BA%A2%E5%9F%BA%E9%87%91%E4%BC%9A%E6%95%91%E6%8A%A4%E8%BD%A6%E4%BE%9B%E5%BA%94%E5%95%86%E5%A4%A7%E9%97%A8%E7%B4%A7%E9%97%AD%23&t=31&band_rank=1&Refer=top",
-      "score": 222195,
+      "title": "四川长宁地震",
+      "description": "新 · 突发/灾害",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%9B%9B%E5%B7%9D%E9%95%BF%E5%AE%81%E5%9C%B0%E9%9C%87%23&t=31&band_rank=1&Refer=top",
+      "score": 3087141,
       "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1787496682
+      "label": "新",
+      "category": "突发/灾害",
+      "onboardTime": 1787531962
     },
     {
       "title": "2万件中央救灾物资支持广西",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%232%E4%B8%87%E4%BB%B6%E4%B8%AD%E5%A4%AE%E6%95%91%E7%81%BE%E7%89%A9%E8%B5%84%E6%94%AF%E6%8C%81%E5%B9%BF%E8%A5%BF%23&t=31&band_rank=1&Refer=top",
-      "score": 207008,
+      "score": 1598739,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1787488401
     },
     {
-      "title": "公厕被殴案施暴男子已出狱",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%85%AC%E5%8E%95%E8%A2%AB%E6%AE%B4%E6%A1%88%E6%96%BD%E6%9A%B4%E7%94%B7%E5%AD%90%E5%B7%B2%E5%87%BA%E7%8B%B1%23&t=31&band_rank=1&Refer=top",
-      "score": 84300,
+      "title": "长宁地震预警误报",
+      "description": "新 · 突发/灾害",
+      "url": "https://s.weibo.com/weibo?q=%E9%95%BF%E5%AE%81%E5%9C%B0%E9%9C%87%E9%A2%84%E8%AD%A6%E8%AF%AF%E6%8A%A5&t=31&band_rank=1&Refer=top",
+      "score": 1438797,
       "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1787500159
+      "label": "新",
+      "category": "突发/灾害",
+      "onboardTime": 1787534301
     },
     {
-      "title": "老人店内离世店主协商赔偿1.9万元",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%80%81%E4%BA%BA%E5%BA%97%E5%86%85%E7%A6%BB%E4%B8%96%E5%BA%97%E4%B8%BB%E5%8D%8F%E5%95%86%E8%B5%94%E5%81%BF1.9%E4%B8%87%E5%85%83%23&t=31&band_rank=1&Refer=top",
-      "score": 77872,
+      "title": "无座票为何和二等座同价",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E6%97%A0%E5%BA%A7%E7%A5%A8%E4%B8%BA%E4%BD%95%E5%92%8C%E4%BA%8C%E7%AD%89%E5%BA%A7%E5%90%8C%E4%BB%B7&t=31&band_rank=1&Refer=top",
+      "score": 1055627,
       "owner": "微博同城",
-      "label": "",
+      "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1787500280
+      "onboardTime": 1787535199
     },
     {
-      "title": "金季酒店老板娘发声",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%87%91%E5%AD%A3%E9%85%92%E5%BA%97%E8%80%81%E6%9D%BF%E5%A8%98%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
-      "score": 64473,
+      "title": "官方回应长宁地震预警偏差",
+      "description": "新 · 突发/灾害",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%AE%98%E6%96%B9%E5%9B%9E%E5%BA%94%E9%95%BF%E5%AE%81%E5%9C%B0%E9%9C%87%E9%A2%84%E8%AD%A6%E5%81%8F%E5%B7%AE%23&t=31&band_rank=1&Refer=top",
+      "score": 572372,
       "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1787504599
+      "label": "新",
+      "category": "突发/灾害",
+      "onboardTime": 1787535561
     },
     {
-      "title": "买票占座规则明确了然后呢",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B9%B0%E7%A5%A8%E5%8D%A0%E5%BA%A7%E8%A7%84%E5%88%99%E6%98%8E%E7%A1%AE%E4%BA%86%E7%84%B6%E5%90%8E%E5%91%A2%23&t=31&band_rank=1&Refer=top",
-      "score": 59512,
+      "title": "地震预警 吓晕",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%9C%B0%E9%9C%87%E9%A2%84%E8%AD%A6%20%E5%90%93%E6%99%95&t=31&band_rank=1&Refer=top",
+      "score": 540393,
       "owner": "微博同城",
-      "label": "",
+      "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1787501180
+      "onboardTime": 1787535801
     },
     {
-      "title": "3姐弟太饿报警求助民警上门做饭",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%233%E5%A7%90%E5%BC%9F%E5%A4%AA%E9%A5%BF%E6%8A%A5%E8%AD%A6%E6%B1%82%E5%8A%A9%E6%B0%91%E8%AD%A6%E4%B8%8A%E9%97%A8%E5%81%9A%E9%A5%AD%23&t=31&band_rank=1&Refer=top",
-      "score": 57611,
+      "title": "被裁硕士生称一天要打五六千个螺丝",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%A2%AB%E8%A3%81%E7%A1%95%E5%A3%AB%E7%94%9F%E7%A7%B0%E4%B8%80%E5%A4%A9%E8%A6%81%E6%89%93%E4%BA%94%E5%85%AD%E5%8D%83%E4%B8%AA%E8%9E%BA%E4%B8%9D%23&t=31&band_rank=1&Refer=top",
+      "score": 442693,
       "owner": "微博同城",
-      "label": "",
+      "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1787477721
+      "onboardTime": 1787532323
     },
     {
-      "title": "超强台风沙德尔不到24小时连跳2级",
+      "title": "千万不要冲动买养老房",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%8D%83%E4%B8%87%E4%B8%8D%E8%A6%81%E5%86%B2%E5%8A%A8%E4%B9%B0%E5%85%BB%E8%80%81%E6%88%BF&t=31&band_rank=1&Refer=top",
+      "score": 237308,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1787534063
+    },
+    {
+      "title": "地震预警",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%9C%B0%E9%9C%87%E9%A2%84%E8%AD%A6&t=31&band_rank=1&Refer=top",
+      "score": 237254,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1787531962
+    },
+    {
+      "title": "台风",
       "description": "突发/灾害",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%B6%85%E5%BC%BA%E5%8F%B0%E9%A3%8E%E6%B2%99%E5%BE%B7%E5%B0%94%E4%B8%8D%E5%88%B024%E5%B0%8F%E6%97%B6%E8%BF%9E%E8%B7%B32%E7%BA%A7%23&t=31&band_rank=1&Refer=top",
-      "score": 57552,
+      "url": "https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E&t=31&band_rank=1&Refer=top",
+      "score": 236916,
       "owner": "微博同城",
       "label": "",
       "category": "突发/灾害",
-      "onboardTime": 1787504537
+      "onboardTime": 1787528538
     },
     {
-      "title": "唐师曾生前病床上握相机称是我的AK47",
+      "title": "扶老人遭索赔10万女子身体严重不适",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E5%A5%B3%E5%AD%90%E8%BA%AB%E4%BD%93%E4%B8%A5%E9%87%8D%E4%B8%8D%E9%80%82%23&t=31&band_rank=1&Refer=top",
+      "score": 216228,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1787533521
+    },
+    {
+      "title": "韩红基金会救护车供应商大门紧闭",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%94%90%E5%B8%88%E6%9B%BE%E7%94%9F%E5%89%8D%E7%97%85%E5%BA%8A%E4%B8%8A%E6%8F%A1%E7%9B%B8%E6%9C%BA%E7%A7%B0%E6%98%AF%E6%88%91%E7%9A%84AK47%23&t=31&band_rank=1&Refer=top",
-      "score": 57475,
+      "url": "https://s.weibo.com/weibo?q=%23%E9%9F%A9%E7%BA%A2%E5%9F%BA%E9%87%91%E4%BC%9A%E6%95%91%E6%8A%A4%E8%BD%A6%E4%BE%9B%E5%BA%94%E5%95%86%E5%A4%A7%E9%97%A8%E7%B4%A7%E9%97%AD%23&t=31&band_rank=1&Refer=top",
+      "score": 188340,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1787497581
+      "onboardTime": 1787496682
     },
     {
-      "title": "小孩哥用麻将搭了个磁悬浮列车",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%B0%8F%E5%AD%A9%E5%93%A5%E7%94%A8%E9%BA%BB%E5%B0%86%E6%90%AD%E4%BA%86%E4%B8%AA%E7%A3%81%E6%82%AC%E6%B5%AE%E5%88%97%E8%BD%A6%23&t=31&band_rank=1&Refer=top",
-      "score": 57382,
+      "title": "家长想换座被拒后指责女生书白读了",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%AE%B6%E9%95%BF%E6%83%B3%E6%8D%A2%E5%BA%A7%E8%A2%AB%E6%8B%92%E5%90%8E%E6%8C%87%E8%B4%A3%E5%A5%B3%E7%94%9F%E4%B9%A6%E7%99%BD%E8%AF%BB%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 150723,
       "owner": "微博同城",
-      "label": "",
+      "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1787494402
+      "onboardTime": 1787536341
     },
     {
-      "title": "男子乘车时充电宝爆燃扔给司机",
-      "description": "突发/灾害",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E4%B9%98%E8%BD%A6%E6%97%B6%E5%85%85%E7%94%B5%E5%AE%9D%E7%88%86%E7%87%83%E6%89%94%E7%BB%99%E5%8F%B8%E6%9C%BA%23&t=31&band_rank=1&Refer=top",
-      "score": 57234,
+      "title": "成都震感",
+      "description": "新 · 突发/灾害",
+      "url": "https://s.weibo.com/weibo?q=%E6%88%90%E9%83%BD%E9%9C%87%E6%84%9F&t=31&band_rank=1&Refer=top",
+      "score": 135985,
       "owner": "微博同城",
-      "label": "",
+      "label": "新",
       "category": "突发/灾害",
-      "onboardTime": 1787494701
+      "onboardTime": 1787532023
     }
   ]
 }
