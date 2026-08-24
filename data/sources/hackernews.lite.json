@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-08-24T03:06:36Z",
+  "savedAt": "2026-08-24T14:46:40Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-08-24，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -143,28 +143,28 @@
       "owner": "database64128"
     },
     {
-      "title": "Incident with Github.com",
-      "description": "",
-      "url": "https://www.githubstatus.com/incidents/zkxwbgr0cnmx",
-      "score": 719,
-      "comments": 2,
-      "owner": "kevcampb"
-    },
-    {
-      "title": "A Preview of DuckDB v2.0",
-      "description": "",
-      "url": "https://duckdb.org/2026/08/17/duckdb-20-highlights",
-      "score": 718,
-      "comments": 132,
-      "owner": "ibotty"
-    },
-    {
       "title": "How Bluesky draws its logo on screenshots",
       "description": "",
       "url": "https://timmarinin.net/2026/bluesky-screenshots/",
       "score": 710,
       "comments": 439,
       "owner": "gavide"
+    },
+    {
+      "title": "Grand jury declines to indict Ohio man charged with destroying Flock camera",
+      "description": "",
+      "url": "https://san.com/cc/grand-jury-declines-to-indict-ohio-man-charged-with-destroying-flock-camera/",
+      "score": 699,
+      "comments": 395,
+      "owner": "throw7"
+    },
+    {
+      "title": "Memory prices climb 500% in 12 months",
+      "description": "",
+      "url": "https://www.tomshardware.com/pc-components/ram/memory-prices-climb-500-percent-in-12-months-up-to-10x-the-lowest-ever-tracked-prices-128gb-of-ddr5-now-usd3-399",
+      "score": 674,
+      "comments": 563,
+      "owner": "haunter"
     }
   ]
 }
