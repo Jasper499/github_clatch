@@ -1,12 +1,23 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-08-24T03:36:55Z",
+  "savedAt": "2026-08-24T15:20:57Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "390f5146bf3c1877cf15636a3dd7b775e4f0f185",
+  "latestSha": "36d8f13a1e754618794bf42f417884940077b4ae",
   "items": [
+    {
+      "title": "chore: update security scan report [skip ci]",
+      "description": "chore: update security scan report [skip ci]",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/36d8f13a1e754618794bf42f417884940077b4ae",
+      "sha": "36d8f13",
+      "fullSha": "36d8f13a1e754618794bf42f417884940077b4ae",
+      "owner": "github-actions",
+      "published": "2026-08-24",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "Enhance README with webinar announcement for K-Dense BYOK",
       "description": "Enhance README with webinar announcement for K-Dense BYOK\n\n- Added details about an upcoming live webinar titled &quot;Getting Started with K-Dense BYOK,&quot; including date, time, and registration link.\n- This addition aims to provide users with a hands-on walkthrough of the K-Dense BYOK setup and features.",
@@ -156,17 +167,6 @@
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/13385c7c4db02fdcc84a020752c07cce91ef780e",
       "sha": "13385c7",
       "fullSha": "13385c7c4db02fdcc84a020752c07cce91ef780e",
-      "owner": "TKassis",
-      "published": "2026-08-13",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Update review model to version 3.7 across multiple scripts",
-      "description": "Update review model to version 3.7 across multiple scripts\n\n- Changed the review model from &quot;google/gemini-3.6-flash&quot; to &quot;google/gemini-3.7-flash&quot; in the following scripts:\n  - generate_infographic_ai.py\n  - generate_schematic_ai.py (in latex-posters, literature-review, scientific-schematics, and scientific-slides)\n  - generate_slide_image_ai.py\n- Updated documentation to reflect the new review model version in iterative_refinement.md.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/5f3de01dba3dbfe3f63e3928aade592891819859",
-      "sha": "5f3de01",
-      "fullSha": "5f3de01dba3dbfe3f63e3928aade592891819859",
       "owner": "TKassis",
       "published": "2026-08-13",
       "label": "commit",
