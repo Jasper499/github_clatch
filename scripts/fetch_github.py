@@ -109,7 +109,7 @@ def fetch_repo_readme(full_name: str) -> dict | None:
 
 
 def fetch_github_repos(query_suffix: str, since: str, limit: int = 20) -> list[dict]:
-    q = f"{query_suffix} stars:>10"
+    q = f"{query_suffix} stars:>10 is:public"
     params = urllib.parse.urlencode(
         {
             "q": q,
@@ -131,7 +131,11 @@ def fetch_github_repos(query_suffix: str, since: str, limit: int = 20) -> list[d
 
     has_token = bool(os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN"))
     items = []
-    for repo in data.get("items", [])[:limit]:
+    for repo in data.get("items", []):
+        if len(items) >= limit:
+            break
+        if repo.get("private"):
+            continue
         full_name = repo.get("full_name") or repo.get("name", "unknown")
         item = {
             "title": full_name,
