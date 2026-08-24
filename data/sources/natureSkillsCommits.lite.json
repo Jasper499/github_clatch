@@ -1,12 +1,32 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-08-24T03:27:28Z",
+  "savedAt": "2026-08-24T15:05:09Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "552af66976bec65021371d7563103f2103450f6e",
+  "latestSha": "558eae555d64e09b152efc449ca274bbd7747947",
   "items": [
+    {
+      "title": "fix: prefer modern PyMuPDF import (#207)",
+      "description": "fix: prefer modern PyMuPDF import (#207)",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/558eae555d64e09b152efc449ca274bbd7747947",
+      "sha": "558eae5",
+      "fullSha": "558eae555d64e09b152efc449ca274bbd7747947",
+      "owner": "Travisma2233",
+      "published": "2026-08-24",
+      "label": "commit"
+    },
+    {
+      "title": "feat: add automatic rendered figure collision audit (#206)",
+      "description": "feat: add automatic rendered figure collision audit (#206)",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/dd0263aeedb2eb2ebb2eef25775b44ae37b8a988",
+      "sha": "dd0263a",
+      "fullSha": "dd0263aeedb2eb2ebb2eef25775b44ae37b8a988",
+      "owner": "Travisma2233",
+      "published": "2026-08-24",
+      "label": "commit"
+    },
     {
       "title": "feat(image2ppt): add provider-neutral image backend (#204)",
       "description": "feat(image2ppt): add provider-neutral image backend (#204)\n\nAdd auto/codex-oauth/openai-compatible-api backends so OpenAI Images-compatible providers can be used without hard-coding a vendor or sending Codex OAuth credentials to third-party endpoints.\n\nMade-with: Cursor\n\nCo-authored-by: jarxunlai &lt;199478724+jarxunlai@users.noreply.github.com&gt;",
@@ -135,26 +155,6 @@
       "fullSha": "ffd2674eb043448fcde281b2e999c072b4538e88",
       "owner": "Paul-Jeo",
       "published": "2026-08-18",
-      "label": "commit"
-    },
-    {
-      "title": "feat: enforce main-text discipline (#198)",
-      "description": "feat: enforce main-text discipline (#198)",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c171989db699bd601d4373912b3fb8db96ecc95b",
-      "sha": "c171989",
-      "fullSha": "c171989db699bd601d4373912b3fb8db96ecc95b",
-      "owner": "Travisma2233",
-      "published": "2026-08-16",
-      "label": "commit"
-    },
-    {
-      "title": "Update image in README",
-      "description": "Update image in README\n\nReplaced an image in the README with a new one.",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/bfd02c8fce2c1decf065e79339ce3f65de48f1aa",
-      "sha": "bfd02c8",
-      "fullSha": "bfd02c8fce2c1decf065e79339ce3f65de48f1aa",
-      "owner": "Flyme886",
-      "published": "2026-08-16",
       "label": "commit"
     }
   ]

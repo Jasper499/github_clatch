@@ -1,20 +1,30 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-08-24T03:27:28Z",
+  "changed": true,
+  "fetchedAt": "2026-08-24T15:05:09Z",
   "previousSha": "552af66976bec65021371d7563103f2103450f6e",
-  "latestSha": "552af66976bec65021371d7563103f2103450f6e",
+  "latestSha": "558eae555d64e09b152efc449ca274bbd7747947",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "feat(image2ppt): add provider-neutral image backend (#204)",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/552af66976bec65021371d7563103f2103450f6e",
-    "sha": "552af66",
-    "published": "2026-08-23"
+    "title": "fix: prefer modern PyMuPDF import (#207)",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/558eae555d64e09b152efc449ca274bbd7747947",
+    "sha": "558eae5",
+    "published": "2026-08-24"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "fix: prefer modern PyMuPDF import (#207)",
+      "sha": "558eae5",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/558eae555d64e09b152efc449ca274bbd7747947"
+    },
+    {
+      "title": "feat: add automatic rendered figure collision audit (#206)",
+      "sha": "dd0263a",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/dd0263aeedb2eb2ebb2eef25775b44ae37b8a988"
+    },
     {
       "title": "feat(image2ppt): add provider-neutral image backend (#204)",
       "sha": "552af66",
@@ -29,16 +39,6 @@
       "title": "chore: update star history",
       "sha": "a6e6f34",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/a6e6f3456f2065eb555afe8ed2c28637f3cd4e1b"
-    },
-    {
-      "title": "feat: add multi-panel evidence architecture guidance (#203)",
-      "sha": "745c5f3",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/745c5f38d1b4a0600bd2f5f5682e394a34fc28b2"
-    },
-    {
-      "title": "feat: add Nature-wide evidence-chain writing guidance (#202)",
-      "sha": "14f8cdb",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/14f8cdba07e5a14748bd4f864d1881f96ee0128c"
     }
   ]
 }
