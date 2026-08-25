@@ -1,140 +1,120 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-08-25T01:47:50Z",
+  "savedAt": "2026-08-25T07:03:51Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-25，共 13 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-25，共 11 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-08-25",
   "items": [
     {
-      "title": "官方确认帮扶老人遭索赔店主不担责",
+      "title": "德芙文案 翻车",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%BE%B7%E8%8A%99%E6%96%87%E6%A1%88%20%E7%BF%BB%E8%BD%A6&t=31&band_rank=1&Refer=top",
+      "score": 1355116,
+      "owner": "微博同城",
+      "label": "热",
+      "category": "民生新闻",
+      "onboardTime": 1787627000
+    },
+    {
+      "title": "神23乘组天宫vlog上新",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AE%98%E6%96%B9%E7%A1%AE%E8%AE%A4%E5%B8%AE%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%94%E5%BA%97%E4%B8%BB%E4%B8%8D%E6%8B%85%E8%B4%A3%23&t=31&band_rank=1&Refer=top",
-      "score": 1466777,
+      "url": "https://s.weibo.com/weibo?q=%23%E7%A5%9E23%E4%B9%98%E7%BB%84%E5%A4%A9%E5%AE%ABvlog%E4%B8%8A%E6%96%B0%23&t=31&band_rank=1&Refer=top",
+      "score": 684449,
       "owner": "微博同城",
       "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1787629101
+    },
+    {
+      "title": "官方确认帮扶老人遭索赔店主不担责",
+      "description": "沸 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%AE%98%E6%96%B9%E7%A1%AE%E8%AE%A4%E5%B8%AE%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%94%E5%BA%97%E4%B8%BB%E4%B8%8D%E6%8B%85%E8%B4%A3%23&t=31&band_rank=1&Refer=top",
+      "score": 391786,
+      "owner": "微博同城",
+      "label": "沸",
       "category": "民生新闻",
       "onboardTime": 1787581282
     },
     {
-      "title": "18名中国船员失联家属发声",
-      "description": "突发/灾害",
-      "url": "https://s.weibo.com/weibo?q=%2318%E5%90%8D%E4%B8%AD%E5%9B%BD%E8%88%B9%E5%91%98%E5%A4%B1%E8%81%94%E5%AE%B6%E5%B1%9E%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
-      "score": 907286,
+      "title": "成都蛋烘糕奶奶儿子已因病去世",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%88%90%E9%83%BD%E8%9B%8B%E7%83%98%E7%B3%95%E5%A5%B6%E5%A5%B6%E5%84%BF%E5%AD%90%E5%B7%B2%E5%9B%A0%E7%97%85%E5%8E%BB%E4%B8%96%23&t=31&band_rank=1&Refer=top",
+      "score": 389072,
       "owner": "微博同城",
       "label": "",
-      "category": "突发/灾害",
-      "onboardTime": 1787614039
+      "category": "民生新闻",
+      "onboardTime": 1787633242
     },
     {
-      "title": "人民日报谈青岛男子辱骂女游客",
+      "title": "房东称帮扶老人店主可能会转让门店",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%88%BF%E4%B8%9C%E7%A7%B0%E5%B8%AE%E6%89%B6%E8%80%81%E4%BA%BA%E5%BA%97%E4%B8%BB%E5%8F%AF%E8%83%BD%E4%BC%9A%E8%BD%AC%E8%AE%A9%E9%97%A8%E5%BA%97%23&t=31&band_rank=1&Refer=top",
+      "score": 378165,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1787632100
+    },
+    {
+      "title": "老人家属抬遗体堵门涉嫌寻衅滋事",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%80%81%E4%BA%BA%E5%AE%B6%E5%B1%9E%E6%8A%AC%E9%81%97%E4%BD%93%E5%A0%B5%E9%97%A8%E6%B6%89%E5%AB%8C%E5%AF%BB%E8%A1%85%E6%BB%8B%E4%BA%8B%23&t=31&band_rank=1&Refer=top",
+      "score": 377717,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1787631741
+    },
+    {
+      "title": "监控拍下男子割喉杀害前女友过程",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%E8%B0%88%E9%9D%92%E5%B2%9B%E7%94%B7%E5%AD%90%E8%BE%B1%E9%AA%82%E5%A5%B3%E6%B8%B8%E5%AE%A2%23&t=31&band_rank=1&Refer=top",
-      "score": 539527,
+      "url": "https://s.weibo.com/weibo?q=%23%E7%9B%91%E6%8E%A7%E6%8B%8D%E4%B8%8B%E7%94%B7%E5%AD%90%E5%89%B2%E5%96%89%E6%9D%80%E5%AE%B3%E5%89%8D%E5%A5%B3%E5%8F%8B%E8%BF%87%E7%A8%8B%23&t=31&band_rank=1&Refer=top",
+      "score": 368615,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1787619561
+      "onboardTime": 1787637621
     },
     {
-      "title": "台风紫檀",
+      "title": "网传1.9万获返还遭索赔家属称不知情",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E%E7%B4%AB%E6%AA%80&t=31&band_rank=1&Refer=top",
-      "score": 348949,
+      "url": "https://s.weibo.com/weibo?q=%23%E7%BD%91%E4%BC%A01.9%E4%B8%87%E8%8E%B7%E8%BF%94%E8%BF%98%E9%81%AD%E7%B4%A2%E8%B5%94%E5%AE%B6%E5%B1%9E%E7%A7%B0%E4%B8%8D%E7%9F%A5%E6%83%85%23&t=31&band_rank=1&Refer=top",
+      "score": 361997,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1787618721
+      "onboardTime": 1787640200
     },
     {
-      "title": "湖北长阳通报韩红基金会救护车",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B9%96%E5%8C%97%E9%95%BF%E9%98%B3%E9%80%9A%E6%8A%A5%E9%9F%A9%E7%BA%A2%E5%9F%BA%E9%87%91%E4%BC%9A%E6%95%91%E6%8A%A4%E8%BD%A6%23&t=31&band_rank=1&Refer=top",
-      "score": 226720,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1787582783
-    },
-    {
-      "title": "台风紫檀即将登陆",
+      "title": "85岁爷爷把8岁自闭孙子当正常娃带",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8F%B0%E9%A3%8E%E7%B4%AB%E6%AA%80%E5%8D%B3%E5%B0%86%E7%99%BB%E9%99%86%23&t=31&band_rank=1&Refer=top",
-      "score": 138166,
+      "url": "https://s.weibo.com/weibo?q=%2385%E5%B2%81%E7%88%B7%E7%88%B7%E6%8A%8A8%E5%B2%81%E8%87%AA%E9%97%AD%E5%AD%99%E5%AD%90%E5%BD%93%E6%AD%A3%E5%B8%B8%E5%A8%83%E5%B8%A6%23&t=31&band_rank=1&Refer=top",
+      "score": 345699,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1787618300
+      "onboardTime": 1787637982
     },
     {
-      "title": "央视网评湖南扶老人被索赔事件",
+      "title": "女子7年没拔洗衣机插头引发火灾",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%AE%E8%A7%86%E7%BD%91%E8%AF%84%E6%B9%96%E5%8D%97%E6%89%B6%E8%80%81%E4%BA%BA%E8%A2%AB%E7%B4%A2%E8%B5%94%E4%BA%8B%E4%BB%B6%23&t=31&band_rank=1&Refer=top",
-      "score": 137748,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%907%E5%B9%B4%E6%B2%A1%E6%8B%94%E6%B4%97%E8%A1%A3%E6%9C%BA%E6%8F%92%E5%A4%B4%E5%BC%95%E5%8F%91%E7%81%AB%E7%81%BE%23&t=31&band_rank=1&Refer=top",
+      "score": 262394,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1787576722
+      "onboardTime": 1787631560
     },
     {
-      "title": "男子求复合遭拒割喉前女友捅数十刀",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E6%B1%82%E5%A4%8D%E5%90%88%E9%81%AD%E6%8B%92%E5%89%B2%E5%96%89%E5%89%8D%E5%A5%B3%E5%8F%8B%E6%8D%85%E6%95%B0%E5%8D%81%E5%88%80%23&t=31&band_rank=1&Refer=top",
-      "score": 137193,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1787620939
-    },
-    {
-      "title": "郭二娃死刑",
+      "title": "店家支付的1.9万元或获补贴返还",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%83%AD%E4%BA%8C%E5%A8%83%E6%AD%BB%E5%88%91%23&t=31&band_rank=1&Refer=top",
-      "score": 136403,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%BA%97%E5%AE%B6%E6%94%AF%E4%BB%98%E7%9A%841.9%E4%B8%87%E5%85%83%E6%88%96%E8%8E%B7%E8%A1%A5%E8%B4%B4%E8%BF%94%E8%BF%98%23&t=31&band_rank=1&Refer=top",
+      "score": 241079,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1787569281
-    },
-    {
-      "title": "台风沙德尔生成",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E%E6%B2%99%E5%BE%B7%E5%B0%94%E7%94%9F%E6%88%90&t=31&band_rank=1&Refer=top",
-      "score": 135063,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1787614218
-    },
-    {
-      "title": "女子下楼梯时玩手机直接摔下去",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E4%B8%8B%E6%A5%BC%E6%A2%AF%E6%97%B6%E7%8E%A9%E6%89%8B%E6%9C%BA%E7%9B%B4%E6%8E%A5%E6%91%94%E4%B8%8B%E5%8E%BB%23&t=31&band_rank=1&Refer=top",
-      "score": 132920,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1787595136
-    },
-    {
-      "title": "同居3年娃2岁男子诉还21万被驳回",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%90%8C%E5%B1%853%E5%B9%B4%E5%A8%832%E5%B2%81%E7%94%B7%E5%AD%90%E8%AF%89%E8%BF%9821%E4%B8%87%E8%A2%AB%E9%A9%B3%E5%9B%9E&t=31&band_rank=1&Refer=top",
-      "score": 131836,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1787616618
-    },
-    {
-      "title": "家属称割喉杀害前女友男子欠债脾气差",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AE%B6%E5%B1%9E%E7%A7%B0%E5%89%B2%E5%96%89%E6%9D%80%E5%AE%B3%E5%89%8D%E5%A5%B3%E5%8F%8B%E7%94%B7%E5%AD%90%E6%AC%A0%E5%80%BA%E8%84%BE%E6%B0%94%E5%B7%AE%23&t=31&band_rank=1&Refer=top",
-      "score": 130528,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1787619381
+      "onboardTime": 1787630542
     }
   ]
 }
