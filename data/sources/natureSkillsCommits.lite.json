@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-08-24T15:05:09Z",
+  "savedAt": "2026-08-25T03:15:56Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "558eae555d64e09b152efc449ca274bbd7747947",
+  "latestSha": "3817cd194c31010febb1312ab786e53cd8154333",
   "items": [
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/3817cd194c31010febb1312ab786e53cd8154333",
+      "sha": "3817cd1",
+      "fullSha": "3817cd194c31010febb1312ab786e53cd8154333",
+      "owner": "github-actions",
+      "published": "2026-08-25",
+      "label": "commit"
+    },
     {
       "title": "fix: prefer modern PyMuPDF import (#207)",
       "description": "fix: prefer modern PyMuPDF import (#207)",
@@ -143,16 +153,6 @@
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/9b8a955ff1fa402de85c1fdc4b7d0baabe7c8771",
       "sha": "9b8a955",
       "fullSha": "9b8a955ff1fa402de85c1fdc4b7d0baabe7c8771",
-      "owner": "Paul-Jeo",
-      "published": "2026-08-18",
-      "label": "commit"
-    },
-    {
-      "title": "feat: add nature-image2ppt skill",
-      "description": "feat: add nature-image2ppt skill",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/ffd2674eb043448fcde281b2e999c072b4538e88",
-      "sha": "ffd2674",
-      "fullSha": "ffd2674eb043448fcde281b2e999c072b4538e88",
       "owner": "Paul-Jeo",
       "published": "2026-08-18",
       "label": "commit"
