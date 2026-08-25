@@ -1,82 +1,82 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-08-24T14:46:40Z",
+  "savedAt": "2026-08-25T03:02:09Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-08-24，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-08-25，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-08-24",
+  "fetchedDate": "2026-08-25",
   "items": [
     {
       "title": "Aaron Swartz was prosecuted for scraping, while Meta does it without consequence",
       "description": "",
       "url": "https://blog.curiousquail.com/im-upset-again-about-a-co-creator-of-rss-being-prosecuted-for-something-meta-is-doing-with-little-consequence/",
-      "score": 1671,
-      "comments": 390,
+      "score": 1687,
+      "comments": 396,
       "owner": "speckx"
     },
     {
       "title": "OpenLogi",
       "description": "",
       "url": "https://openlogi.org/en",
-      "score": 1624,
-      "comments": 429,
+      "score": 1633,
+      "comments": 431,
       "owner": "amatheus"
     },
     {
       "title": "The Amazon tax",
       "description": "",
       "url": "https://seths.blog/2026/08/the-amazon-tax/",
-      "score": 1404,
-      "comments": 699,
+      "score": 1409,
+      "comments": 701,
       "owner": "herbertl"
+    },
+    {
+      "title": "Everything I own, owned",
+      "description": "<a href=\"https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20260823225933&#x2F;https:&#x2F;&#x2F;schlarp.com&#x2F;posts&#x2F;everything-i-own-owned&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20260823225933&#x2F;https:&#x2F;&#x2F;schlarp.c...</a>",
+      "url": "https://schlarp.com/posts/everything-i-own-owned/",
+      "score": 1365,
+      "comments": 337,
+      "owner": "schlarpc"
     },
     {
       "title": "Kagi added a setting for removing paywalled links from search results",
       "description": "",
       "url": "https://kagi.com/changelog#11296",
-      "score": 1252,
-      "comments": 394,
+      "score": 1263,
+      "comments": 396,
       "owner": "speckx"
-    },
-    {
-      "title": "AI;DR (AI; Didn't Read)",
-      "description": "",
-      "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
-      "score": 1111,
-      "comments": 690,
-      "owner": "mooreds"
     },
     {
       "title": "Felony charges for citizen deleting phone data at US Border",
       "description": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;SflVC\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;SflVC</a><p><a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=_2rokxux5cU\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=_2rokxux5cU</a>",
       "url": "https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html",
-      "score": 1076,
-      "comments": 1323,
+      "score": 1103,
+      "comments": 1370,
       "owner": "floathub"
     },
     {
-      "title": "Israel creates fake think tank in likely attempt to dupe AI chatbots",
+      "title": "How Europe is killing makers and micro-entrepreneurs",
       "description": "",
-      "url": "https://responsiblestatecraft.org/israel-influence-chatgpt/",
-      "score": 1054,
-      "comments": 868,
-      "owner": "DeepLogin"
-    },
-    {
-      "title": "Don't paste the AI, please",
-      "description": "",
-      "url": "https://dontpastetheai.com/",
-      "score": 1044,
-      "comments": 579,
-      "owner": "pjerem"
+      "url": "https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs",
+      "score": 1091,
+      "comments": 673,
+      "owner": "l-one-lone"
     },
     {
       "title": "AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint",
       "description": "",
       "url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
-      "score": 1032,
-      "comments": 333,
+      "score": 1053,
+      "comments": 337,
       "owner": "emctech"
+    },
+    {
+      "title": "Don't paste the AI, please",
+      "description": "",
+      "url": "https://dontpastetheai.com/",
+      "score": 1051,
+      "comments": 581,
+      "owner": "pjerem"
     },
     {
       "title": "A joke domain purchase turned in geopolitical warfare",
@@ -90,7 +90,7 @@
       "title": "HTML Can Do That",
       "description": "",
       "url": "https://chrisburnell.com/html-can-do-that/",
-      "score": 1004,
+      "score": 1016,
       "comments": 229,
       "owner": "encyclopedism"
     },
@@ -98,32 +98,24 @@
       "title": "OpenRouter is joining Stripe",
       "description": "Previously: Stripe will reportedly acquire OpenRouter for $7B+ <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49323381\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49323381</a>",
       "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
-      "score": 957,
+      "score": 962,
       "comments": 497,
       "owner": "rvz"
-    },
-    {
-      "title": "Universal health coverage could save $1T and 114k lives a year: study",
-      "description": "Paper: <a href=\"https:&#x2F;&#x2F;www.medrxiv.org&#x2F;content&#x2F;10.64898&#x2F;2026.07.22.26358689v1.full.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;www.medrxiv.org&#x2F;content&#x2F;10.64898&#x2F;2026.07.22.26358689...</a>",
-      "url": "https://ysph.yale.edu/news-article/universal-health-coverage-could-save-one-trillion-dollars-and-114000-lives-every-year/",
-      "score": 901,
-      "comments": 972,
-      "owner": "karakoram"
     },
     {
       "title": "I like 'em thick: an apology to my English teachers",
       "description": "",
       "url": "https://www.experimental-history.com/p/i-like-em-thick",
-      "score": 859,
-      "comments": 338,
+      "score": 866,
+      "comments": 341,
       "owner": "Ariarule"
     },
     {
       "title": "Felony Bench",
       "description": "",
       "url": "https://www.felonybench.com/",
-      "score": 832,
-      "comments": 338,
+      "score": 845,
+      "comments": 345,
       "owner": "colinprince"
     },
     {
@@ -135,36 +127,44 @@
       "owner": "Animux"
     },
     {
+      "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+      "description": "",
+      "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
+      "score": 767,
+      "comments": 678,
+      "owner": "naves"
+    },
+    {
       "title": "Go 1.27",
       "description": "",
       "url": "https://go.dev/blog/go1.27",
-      "score": 751,
+      "score": 756,
       "comments": 265,
       "owner": "database64128"
     },
     {
-      "title": "How Bluesky draws its logo on screenshots",
-      "description": "",
-      "url": "https://timmarinin.net/2026/bluesky-screenshots/",
-      "score": 710,
-      "comments": 439,
-      "owner": "gavide"
+      "title": "Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded",
+      "description": "<a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;lemire&#x2F;status&#x2F;2091894299289874926\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;lemire&#x2F;status&#x2F;2091894299289874926</a>",
+      "url": "https://twitter.com/lemire/status/2091894299289874926",
+      "score": 747,
+      "comments": 506,
+      "owner": "tosh"
+    },
+    {
+      "title": "Canada will match US tariffs 'dollar for dollar' as trade talks break down",
+      "description": "<a href=\"https:&#x2F;&#x2F;www.pm.gc.ca&#x2F;en&#x2F;news&#x2F;statements&#x2F;2026&#x2F;08&#x2F;21&#x2F;statement-prime-minister-carney-canada-us-trade-negotiations\" rel=\"nofollow\">https:&#x2F;&#x2F;www.pm.gc.ca&#x2F;en&#x2F;news&#x2F;statements&#x2F;2026&#x2F;08&#x2F;21&#x2F;statement...</a>",
+      "url": "https://www.bbc.com/news/articles/cvgvyy4x2mvo",
+      "score": 719,
+      "comments": 1658,
+      "owner": "tartoran"
     },
     {
       "title": "Grand jury declines to indict Ohio man charged with destroying Flock camera",
       "description": "",
       "url": "https://san.com/cc/grand-jury-declines-to-indict-ohio-man-charged-with-destroying-flock-camera/",
-      "score": 699,
-      "comments": 395,
+      "score": 711,
+      "comments": 400,
       "owner": "throw7"
-    },
-    {
-      "title": "Memory prices climb 500% in 12 months",
-      "description": "",
-      "url": "https://www.tomshardware.com/pc-components/ram/memory-prices-climb-500-percent-in-12-months-up-to-10x-the-lowest-ever-tracked-prices-128gb-of-ddr5-now-usd3-399",
-      "score": 674,
-      "comments": 563,
-      "owner": "haunter"
     }
   ]
 }
