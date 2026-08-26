@@ -1,48 +1,48 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-08-25T14:50:13Z",
+  "savedAt": "2026-08-26T03:08:54Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-08-25，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-08-26，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-08-25",
+  "fetchedDate": "2026-08-26",
   "items": [
     {
       "title": "Aaron Swartz was prosecuted for scraping, while Meta does it without consequence",
       "description": "",
       "url": "https://blog.curiousquail.com/im-upset-again-about-a-co-creator-of-rss-being-prosecuted-for-something-meta-is-doing-with-little-consequence/",
-      "score": 1692,
+      "score": 1696,
       "comments": 398,
       "owner": "speckx"
-    },
-    {
-      "title": "OpenLogi",
-      "description": "",
-      "url": "https://openlogi.org/en",
-      "score": 1634,
-      "comments": 431,
-      "owner": "amatheus"
     },
     {
       "title": "How Europe is killing makers and micro-entrepreneurs",
       "description": "",
       "url": "https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs",
-      "score": 1522,
-      "comments": 951,
+      "score": 1601,
+      "comments": 1002,
       "owner": "l-one-lone"
     },
     {
       "title": "Everything I own, owned",
       "description": "<a href=\"https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20260823225933&#x2F;https:&#x2F;&#x2F;schlarp.com&#x2F;posts&#x2F;everything-i-own-owned&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20260823225933&#x2F;https:&#x2F;&#x2F;schlarp.c...</a>",
       "url": "https://schlarp.com/posts/everything-i-own-owned/",
-      "score": 1402,
-      "comments": 344,
+      "score": 1418,
+      "comments": 347,
       "owner": "schlarpc"
+    },
+    {
+      "title": "Dolly Parton has died",
+      "description": "<a href=\"https:&#x2F;&#x2F;www.cnn.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;entertainment&#x2F;dolly-parton-death\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cnn.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;entertainment&#x2F;dolly-parton-de...</a><p><a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;arts&#x2F;music&#x2F;dolly-parton-dead.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nytimes.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;arts&#x2F;music&#x2F;dolly-parton-d...</a>, <a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;w4vsE\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;w4vsE</a><p><a href=\"https:&#x2F;&#x2F;www.hollywoodreporter.com&#x2F;music&#x2F;music-news&#x2F;dolly-parton-dead-country-music-1236680877&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.hollywoodreporter.com&#x2F;music&#x2F;music-news&#x2F;dolly-par...</a>",
+      "url": "https://www.theguardian.com/music/2026/aug/25/dolly-parton-country-singer-dead",
+      "score": 1287,
+      "comments": 195,
+      "owner": "helsinkiandrew"
     },
     {
       "title": "Kagi added a setting for removing paywalled links from search results",
       "description": "",
       "url": "https://kagi.com/changelog#11296",
-      "score": 1264,
+      "score": 1267,
       "comments": 391,
       "owner": "speckx"
     },
@@ -51,7 +51,7 @@
       "description": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;SflVC\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;SflVC</a><p><a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=_2rokxux5cU\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=_2rokxux5cU</a>",
       "url": "https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html",
       "score": 1104,
-      "comments": 1370,
+      "comments": 1376,
       "owner": "floathub"
     },
     {
@@ -66,7 +66,7 @@
       "title": "Don't paste the AI, please",
       "description": "",
       "url": "https://dontpastetheai.com/",
-      "score": 1051,
+      "score": 1054,
       "comments": 581,
       "owner": "pjerem"
     },
@@ -82,9 +82,25 @@
       "title": "HTML Can Do That",
       "description": "",
       "url": "https://chrisburnell.com/html-can-do-that/",
-      "score": 1017,
+      "score": 1019,
       "comments": 229,
       "owner": "encyclopedism"
+    },
+    {
+      "title": "Apple introduces M6 and M5 Ultra",
+      "description": "<a href=\"https:&#x2F;&#x2F;techcrunch.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;apple-debuts-its-most-powerful-chip-ever-in-m5-ultra-and-m6&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;techcrunch.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;apple-debuts-its-most-powe...</a><p><a href=\"https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;m6-mac-mini-vs-m4-mac-mini-here-are-all-the-new-features&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;m6-mac-mini-vs-m4-mac-mini-he...</a>",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
+      "score": 992,
+      "comments": 928,
+      "owner": "interpol_p"
+    },
+    {
+      "title": "Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded",
+      "description": "<a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;lemire&#x2F;status&#x2F;2091894299289874926\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;lemire&#x2F;status&#x2F;2091894299289874926</a>",
+      "url": "https://twitter.com/lemire/status/2091894299289874926",
+      "score": 979,
+      "comments": 715,
+      "owner": "tosh"
     },
     {
       "title": "OpenRouter is joining Stripe",
@@ -95,28 +111,20 @@
       "owner": "rvz"
     },
     {
-      "title": "Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded",
-      "description": "<a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;lemire&#x2F;status&#x2F;2091894299289874926\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;lemire&#x2F;status&#x2F;2091894299289874926</a>",
-      "url": "https://twitter.com/lemire/status/2091894299289874926",
-      "score": 935,
-      "comments": 670,
-      "owner": "tosh"
-    },
-    {
-      "title": "I like 'em thick: an apology to my English teachers",
-      "description": "",
-      "url": "https://www.experimental-history.com/p/i-like-em-thick",
-      "score": 866,
-      "comments": 341,
-      "owner": "Ariarule"
-    },
-    {
       "title": "Felony Bench",
       "description": "",
       "url": "https://www.felonybench.com/",
-      "score": 846,
-      "comments": 345,
+      "score": 848,
+      "comments": 346,
       "owner": "colinprince"
+    },
+    {
+      "title": "MS Paint and Photos inivisibly watermark even locally generated output with GUID",
+      "description": "",
+      "url": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/",
+      "score": 840,
+      "comments": 425,
+      "owner": "ComputerGuru"
     },
     {
       "title": "Google has stopped pushing Git tags for some Android source code",
@@ -130,17 +138,9 @@
       "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
       "description": "",
       "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
-      "score": 794,
-      "comments": 694,
+      "score": 808,
+      "comments": 698,
       "owner": "naves"
-    },
-    {
-      "title": "MS Paint and Photos inivisibly watermark even locally generated output with GUID",
-      "description": "",
-      "url": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/",
-      "score": 793,
-      "comments": 394,
-      "owner": "ComputerGuru"
     },
     {
       "title": "Go 1.27",
@@ -151,20 +151,20 @@
       "owner": "database64128"
     },
     {
-      "title": "Canada will match US tariffs 'dollar for dollar' as trade talks break down",
-      "description": "<a href=\"https:&#x2F;&#x2F;www.pm.gc.ca&#x2F;en&#x2F;news&#x2F;statements&#x2F;2026&#x2F;08&#x2F;21&#x2F;statement-prime-minister-carney-canada-us-trade-negotiations\" rel=\"nofollow\">https:&#x2F;&#x2F;www.pm.gc.ca&#x2F;en&#x2F;news&#x2F;statements&#x2F;2026&#x2F;08&#x2F;21&#x2F;statement...</a>",
-      "url": "https://www.bbc.com/news/articles/cvgvyy4x2mvo",
-      "score": 721,
-      "comments": 1673,
-      "owner": "tartoran"
-    },
-    {
       "title": "Andreessen Horowitz is investing billions into a bleak future",
       "description": "",
       "url": "https://www.modelrepublic.org/articles/a16z-portfolio",
-      "score": 715,
-      "comments": 389,
+      "score": 729,
+      "comments": 409,
       "owner": "reasonableklout"
+    },
+    {
+      "title": "Canada will match US tariffs 'dollar for dollar' as trade talks break down",
+      "description": "<a href=\"https:&#x2F;&#x2F;www.pm.gc.ca&#x2F;en&#x2F;news&#x2F;statements&#x2F;2026&#x2F;08&#x2F;21&#x2F;statement-prime-minister-carney-canada-us-trade-negotiations\" rel=\"nofollow\">https:&#x2F;&#x2F;www.pm.gc.ca&#x2F;en&#x2F;news&#x2F;statements&#x2F;2026&#x2F;08&#x2F;21&#x2F;statement...</a>",
+      "url": "https://www.bbc.com/news/articles/cvgvyy4x2mvo",
+      "score": 723,
+      "comments": 1682,
+      "owner": "tartoran"
     }
   ]
 }
