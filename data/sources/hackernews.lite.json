@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-08-26T03:08:54Z",
+  "savedAt": "2026-08-26T14:48:13Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-08-26，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -18,33 +18,41 @@
       "title": "How Europe is killing makers and micro-entrepreneurs",
       "description": "",
       "url": "https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs",
-      "score": 1601,
-      "comments": 1002,
+      "score": 1617,
+      "comments": 1012,
       "owner": "l-one-lone"
-    },
-    {
-      "title": "Everything I own, owned",
-      "description": "<a href=\"https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20260823225933&#x2F;https:&#x2F;&#x2F;schlarp.com&#x2F;posts&#x2F;everything-i-own-owned&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20260823225933&#x2F;https:&#x2F;&#x2F;schlarp.c...</a>",
-      "url": "https://schlarp.com/posts/everything-i-own-owned/",
-      "score": 1418,
-      "comments": 347,
-      "owner": "schlarpc"
     },
     {
       "title": "Dolly Parton has died",
       "description": "<a href=\"https:&#x2F;&#x2F;www.cnn.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;entertainment&#x2F;dolly-parton-death\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cnn.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;entertainment&#x2F;dolly-parton-de...</a><p><a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;arts&#x2F;music&#x2F;dolly-parton-dead.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nytimes.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;arts&#x2F;music&#x2F;dolly-parton-d...</a>, <a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;w4vsE\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;w4vsE</a><p><a href=\"https:&#x2F;&#x2F;www.hollywoodreporter.com&#x2F;music&#x2F;music-news&#x2F;dolly-parton-dead-country-music-1236680877&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.hollywoodreporter.com&#x2F;music&#x2F;music-news&#x2F;dolly-par...</a>",
       "url": "https://www.theguardian.com/music/2026/aug/25/dolly-parton-country-singer-dead",
-      "score": 1287,
-      "comments": 195,
+      "score": 1519,
+      "comments": 232,
       "owner": "helsinkiandrew"
+    },
+    {
+      "title": "Everything I own, owned",
+      "description": "<a href=\"https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20260823225933&#x2F;https:&#x2F;&#x2F;schlarp.com&#x2F;posts&#x2F;everything-i-own-owned&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20260823225933&#x2F;https:&#x2F;&#x2F;schlarp.c...</a>",
+      "url": "https://schlarp.com/posts/everything-i-own-owned/",
+      "score": 1427,
+      "comments": 347,
+      "owner": "schlarpc"
     },
     {
       "title": "Kagi added a setting for removing paywalled links from search results",
       "description": "",
       "url": "https://kagi.com/changelog#11296",
-      "score": 1267,
+      "score": 1269,
       "comments": 391,
       "owner": "speckx"
+    },
+    {
+      "title": "Apple introduces M6 and M5 Ultra",
+      "description": "<a href=\"https:&#x2F;&#x2F;techcrunch.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;apple-debuts-its-most-powerful-chip-ever-in-m5-ultra-and-m6&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;techcrunch.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;apple-debuts-its-most-powe...</a><p><a href=\"https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;m6-mac-mini-vs-m4-mac-mini-here-are-all-the-new-features&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;m6-mac-mini-vs-m4-mac-mini-he...</a>",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
+      "score": 1251,
+      "comments": 1193,
+      "owner": "interpol_p"
     },
     {
       "title": "Felony charges for citizen deleting phone data at US Border",
@@ -53,6 +61,14 @@
       "score": 1104,
       "comments": 1376,
       "owner": "floathub"
+    },
+    {
+      "title": "Nitter and XCancel receive cease and desist notices",
+      "description": "<a href=\"https:&#x2F;&#x2F;github.com&#x2F;zedeus&#x2F;nitter&#x2F;issues&#x2F;1442\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;zedeus&#x2F;nitter&#x2F;issues&#x2F;1442</a><p><a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;</a>",
+      "url": "https://github.com/zedeus/nitter/issues/1442",
+      "score": 1080,
+      "comments": 912,
+      "owner": "Banditoz"
     },
     {
       "title": "AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint",
@@ -71,35 +87,19 @@
       "owner": "pjerem"
     },
     {
-      "title": "A joke domain purchase turned in geopolitical warfare",
-      "description": "",
-      "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/",
-      "score": 1033,
-      "comments": 169,
-      "owner": "kareiva"
-    },
-    {
       "title": "HTML Can Do That",
       "description": "",
       "url": "https://chrisburnell.com/html-can-do-that/",
-      "score": 1019,
-      "comments": 229,
+      "score": 1020,
+      "comments": 230,
       "owner": "encyclopedism"
-    },
-    {
-      "title": "Apple introduces M6 and M5 Ultra",
-      "description": "<a href=\"https:&#x2F;&#x2F;techcrunch.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;apple-debuts-its-most-powerful-chip-ever-in-m5-ultra-and-m6&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;techcrunch.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;apple-debuts-its-most-powe...</a><p><a href=\"https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;m6-mac-mini-vs-m4-mac-mini-here-are-all-the-new-features&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;m6-mac-mini-vs-m4-mac-mini-he...</a>",
-      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
-      "score": 992,
-      "comments": 928,
-      "owner": "interpol_p"
     },
     {
       "title": "Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded",
       "description": "<a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;lemire&#x2F;status&#x2F;2091894299289874926\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;lemire&#x2F;status&#x2F;2091894299289874926</a>",
       "url": "https://twitter.com/lemire/status/2091894299289874926",
-      "score": 979,
-      "comments": 715,
+      "score": 994,
+      "comments": 726,
       "owner": "tosh"
     },
     {
@@ -107,30 +107,30 @@
       "description": "Previously: Stripe will reportedly acquire OpenRouter for $7B+ <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49323381\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49323381</a>",
       "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
       "score": 962,
-      "comments": 497,
+      "comments": 498,
       "owner": "rvz"
     },
     {
       "title": "Felony Bench",
       "description": "",
       "url": "https://www.felonybench.com/",
-      "score": 848,
-      "comments": 346,
+      "score": 849,
+      "comments": 347,
       "owner": "colinprince"
     },
     {
       "title": "MS Paint and Photos inivisibly watermark even locally generated output with GUID",
       "description": "",
       "url": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/",
-      "score": 840,
-      "comments": 425,
+      "score": 848,
+      "comments": 430,
       "owner": "ComputerGuru"
     },
     {
       "title": "Google has stopped pushing Git tags for some Android source code",
       "description": "",
       "url": "https://grapheneos.social/@GrapheneOS/117057099753905023",
-      "score": 826,
+      "score": 827,
       "comments": 336,
       "owner": "Animux"
     },
@@ -138,9 +138,17 @@
       "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
       "description": "",
       "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
-      "score": 808,
-      "comments": 698,
+      "score": 813,
+      "comments": 700,
       "owner": "naves"
+    },
+    {
+      "title": "New Mac Studio with M5 Max and M5 Ultra",
+      "description": "",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/",
+      "score": 804,
+      "comments": 535,
+      "owner": "interpol_p"
     },
     {
       "title": "Go 1.27",
@@ -154,17 +162,9 @@
       "title": "Andreessen Horowitz is investing billions into a bleak future",
       "description": "",
       "url": "https://www.modelrepublic.org/articles/a16z-portfolio",
-      "score": 729,
-      "comments": 409,
+      "score": 737,
+      "comments": 412,
       "owner": "reasonableklout"
-    },
-    {
-      "title": "Canada will match US tariffs 'dollar for dollar' as trade talks break down",
-      "description": "<a href=\"https:&#x2F;&#x2F;www.pm.gc.ca&#x2F;en&#x2F;news&#x2F;statements&#x2F;2026&#x2F;08&#x2F;21&#x2F;statement-prime-minister-carney-canada-us-trade-negotiations\" rel=\"nofollow\">https:&#x2F;&#x2F;www.pm.gc.ca&#x2F;en&#x2F;news&#x2F;statements&#x2F;2026&#x2F;08&#x2F;21&#x2F;statement...</a>",
-      "url": "https://www.bbc.com/news/articles/cvgvyy4x2mvo",
-      "score": 723,
-      "comments": 1682,
-      "owner": "tartoran"
     }
   ]
 }
