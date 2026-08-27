@@ -1,57 +1,49 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-08-27T12:37:05Z",
+  "savedAt": "2026-08-27T23:40:08Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-08-27，共 20 条）",
   "updateFrequency": "twice-daily",
   "fetchedDate": "2026-08-27",
   "items": [
     {
-      "title": "Aaron Swartz was prosecuted for scraping, while Meta does it without consequence",
-      "description": "",
-      "url": "https://blog.curiousquail.com/im-upset-again-about-a-co-creator-of-rss-being-prosecuted-for-something-meta-is-doing-with-little-consequence/",
-      "score": 1697,
-      "comments": 400,
-      "owner": "speckx"
+      "title": "Nvidia agrees to acquire Hugging Face for $13B",
+      "description": "<a href=\"https:&#x2F;&#x2F;www.theinformation.com&#x2F;articles&#x2F;nvidia-agrees-buy-open-source-model-repository-hugging-face-12-9-billion?utm_campaign=article_email&amp;utm_content=article-17723\" rel=\"nofollow\">https:&#x2F;&#x2F;www.theinformation.com&#x2F;articles&#x2F;nvidia-agrees-buy-op...</a> (paywalled)<p><a href=\"https:&#x2F;&#x2F;techcrunch.com&#x2F;2026&#x2F;08&#x2F;24&#x2F;hugging-face-reportedly-in-talks-to-be-acquired-for-13b&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;techcrunch.com&#x2F;2026&#x2F;08&#x2F;24&#x2F;hugging-face-reportedly-in...</a>",
+      "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
+      "score": 1814,
+      "comments": 852,
+      "owner": "mfiguiere"
     },
     {
       "title": "How Europe is killing makers and micro-entrepreneurs",
       "description": "",
       "url": "https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs",
-      "score": 1626,
-      "comments": 1025,
+      "score": 1628,
+      "comments": 1027,
       "owner": "l-one-lone"
     },
     {
       "title": "Dolly Parton has died",
       "description": "<a href=\"https:&#x2F;&#x2F;www.cnn.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;entertainment&#x2F;dolly-parton-death\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cnn.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;entertainment&#x2F;dolly-parton-de...</a><p><a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;arts&#x2F;music&#x2F;dolly-parton-dead.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nytimes.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;arts&#x2F;music&#x2F;dolly-parton-d...</a>, <a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;w4vsE\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;w4vsE</a><p><a href=\"https:&#x2F;&#x2F;www.hollywoodreporter.com&#x2F;music&#x2F;music-news&#x2F;dolly-parton-dead-country-music-1236680877&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.hollywoodreporter.com&#x2F;music&#x2F;music-news&#x2F;dolly-par...</a>",
       "url": "https://www.theguardian.com/music/2026/aug/25/dolly-parton-country-singer-dead",
-      "score": 1576,
-      "comments": 244,
+      "score": 1586,
+      "comments": 245,
       "owner": "helsinkiandrew"
     },
     {
       "title": "Everything I own, owned",
       "description": "<a href=\"https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20260823225933&#x2F;https:&#x2F;&#x2F;schlarp.com&#x2F;posts&#x2F;everything-i-own-owned&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20260823225933&#x2F;https:&#x2F;&#x2F;schlarp.c...</a>",
       "url": "https://schlarp.com/posts/everything-i-own-owned/",
-      "score": 1434,
+      "score": 1438,
       "comments": 349,
       "owner": "schlarpc"
-    },
-    {
-      "title": "Nvidia agrees to acquire Hugging Face for $13B",
-      "description": "<a href=\"https:&#x2F;&#x2F;www.theinformation.com&#x2F;articles&#x2F;nvidia-agrees-buy-open-source-model-repository-hugging-face-12-9-billion?utm_campaign=article_email&amp;utm_content=article-17723\" rel=\"nofollow\">https:&#x2F;&#x2F;www.theinformation.com&#x2F;articles&#x2F;nvidia-agrees-buy-op...</a> (paywalled)<p><a href=\"https:&#x2F;&#x2F;techcrunch.com&#x2F;2026&#x2F;08&#x2F;24&#x2F;hugging-face-reportedly-in-talks-to-be-acquired-for-13b&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;techcrunch.com&#x2F;2026&#x2F;08&#x2F;24&#x2F;hugging-face-reportedly-in...</a>",
-      "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
-      "score": 1327,
-      "comments": 594,
-      "owner": "mfiguiere"
     },
     {
       "title": "Apple introduces M6 and M5 Ultra",
       "description": "<a href=\"https:&#x2F;&#x2F;techcrunch.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;apple-debuts-its-most-powerful-chip-ever-in-m5-ultra-and-m6&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;techcrunch.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;apple-debuts-its-most-powe...</a><p><a href=\"https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;m6-mac-mini-vs-m4-mac-mini-here-are-all-the-new-features&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;m6-mac-mini-vs-m4-mac-mini-he...</a>",
       "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
-      "score": 1298,
-      "comments": 1277,
+      "score": 1302,
+      "comments": 1282,
       "owner": "interpol_p"
     },
     {
@@ -66,48 +58,56 @@
       "title": "Nitter and XCancel receive cease and desist notices",
       "description": "<a href=\"https:&#x2F;&#x2F;github.com&#x2F;zedeus&#x2F;nitter&#x2F;issues&#x2F;1442\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;zedeus&#x2F;nitter&#x2F;issues&#x2F;1442</a><p><a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;</a>",
       "url": "https://github.com/zedeus/nitter/issues/1442",
-      "score": 1174,
-      "comments": 1116,
+      "score": 1189,
+      "comments": 1319,
       "owner": "Banditoz"
     },
     {
       "title": "Felony charges for citizen deleting phone data at US Border",
       "description": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;SflVC\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;SflVC</a><p><a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=_2rokxux5cU\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=_2rokxux5cU</a>",
       "url": "https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html",
-      "score": 1104,
-      "comments": 1379,
+      "score": 1105,
+      "comments": 1380,
       "owner": "floathub"
     },
     {
       "title": "GLM-5.3-Flash",
       "description": "<a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49450353\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49450353</a>",
       "url": "https://z.ai/blog/glm-5.3-flash",
-      "score": 1064,
-      "comments": 537,
+      "score": 1103,
+      "comments": 554,
       "owner": "Philpax"
     },
     {
       "title": "AWS Acquires DuckLabs",
       "description": "",
       "url": "https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws",
-      "score": 1062,
-      "comments": 307,
+      "score": 1079,
+      "comments": 312,
       "owner": "onderkalaci"
     },
     {
       "title": "Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded",
       "description": "<a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;lemire&#x2F;status&#x2F;2091894299289874926\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;lemire&#x2F;status&#x2F;2091894299289874926</a>",
       "url": "https://twitter.com/lemire/status/2091894299289874926",
-      "score": 998,
-      "comments": 735,
+      "score": 1001,
+      "comments": 736,
       "owner": "tosh"
+    },
+    {
+      "title": "CEO fired developers to make room for AI. Developers create open source AI CEO",
+      "description": "",
+      "url": "https://github.com/SenteLabsAI/OpenExecutive",
+      "score": 931,
+      "comments": 638,
+      "owner": "GrumpySciGuy"
     },
     {
       "title": "MS Paint and Photos inivisibly watermark even locally generated output with GUID",
       "description": "",
       "url": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/",
-      "score": 852,
-      "comments": 432,
+      "score": 853,
+      "comments": 433,
       "owner": "ComputerGuru"
     },
     {
@@ -115,15 +115,15 @@
       "description": "",
       "url": "https://www.felonybench.com/",
       "score": 849,
-      "comments": 347,
+      "comments": 348,
       "owner": "colinprince"
     },
     {
       "title": "New Mac Studio with M5 Max and M5 Ultra",
       "description": "",
       "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/",
-      "score": 820,
-      "comments": 552,
+      "score": 821,
+      "comments": 554,
       "owner": "interpol_p"
     },
     {
@@ -135,11 +135,19 @@
       "owner": "naves"
     },
     {
+      "title": "U.S. State Department pauses immigrant visa applications",
+      "description": "",
+      "url": "https://www.wsj.com/politics/policy/u-s-state-department-pauses-immigrant-visa-applications-25b31b23",
+      "score": 784,
+      "comments": 1280,
+      "owner": "sss111"
+    },
+    {
       "title": "Andreessen Horowitz is investing billions into a bleak future",
       "description": "",
       "url": "https://www.modelrepublic.org/articles/a16z-portfolio",
-      "score": 746,
-      "comments": 417,
+      "score": 748,
+      "comments": 424,
       "owner": "reasonableklout"
     },
     {
@@ -147,7 +155,7 @@
       "description": "<a href=\"https:&#x2F;&#x2F;www.pm.gc.ca&#x2F;en&#x2F;news&#x2F;statements&#x2F;2026&#x2F;08&#x2F;21&#x2F;statement-prime-minister-carney-canada-us-trade-negotiations\" rel=\"nofollow\">https:&#x2F;&#x2F;www.pm.gc.ca&#x2F;en&#x2F;news&#x2F;statements&#x2F;2026&#x2F;08&#x2F;21&#x2F;statement...</a>",
       "url": "https://www.bbc.com/news/articles/cvgvyy4x2mvo",
       "score": 724,
-      "comments": 1692,
+      "comments": 1693,
       "owner": "tartoran"
     },
     {
@@ -157,14 +165,6 @@
       "score": 713,
       "comments": 402,
       "owner": "throw7"
-    },
-    {
-      "title": "CEO fired developers to make room for AI. Developers create open source AI CEO",
-      "description": "",
-      "url": "https://github.com/SenteLabsAI/OpenExecutive",
-      "score": 709,
-      "comments": 477,
-      "owner": "GrumpySciGuy"
     }
   ]
 }
