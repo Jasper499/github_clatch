@@ -1,12 +1,32 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-08-26T15:55:35Z",
+  "savedAt": "2026-08-27T12:54:33Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "3817cd194c31010febb1312ab786e53cd8154333",
+  "latestSha": "205ed18839181b0fe67323c7e42077a0807d8b03",
   "items": [
+    {
+      "title": "feat(writing): add discussion argument and modality guidance (#209)",
+      "description": "feat(writing): add discussion argument and modality guidance (#209)",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/205ed18839181b0fe67323c7e42077a0807d8b03",
+      "sha": "205ed18",
+      "fullSha": "205ed18839181b0fe67323c7e42077a0807d8b03",
+      "owner": "Travisma2233",
+      "published": "2026-08-27",
+      "label": "commit"
+    },
+    {
+      "title": "feat(nature-figure): add render-time panel alignment gate (#208)",
+      "description": "feat(nature-figure): add render-time panel alignment gate (#208)",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/8630593a086755d2003cbd1a79cd1118c6963202",
+      "sha": "8630593",
+      "fullSha": "8630593a086755d2003cbd1a79cd1118c6963202",
+      "owner": "Travisma2233",
+      "published": "2026-08-27",
+      "label": "commit"
+    },
     {
       "title": "chore: update star history",
       "description": "chore: update star history",
@@ -133,26 +153,6 @@
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/8ec797169f1667f7aca8368d9a4b4d9475c2048b",
       "sha": "8ec7971",
       "fullSha": "8ec797169f1667f7aca8368d9a4b4d9475c2048b",
-      "owner": "Paul-Jeo",
-      "published": "2026-08-18",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #199 from Paul-Jeo/agent/add-nature-image2ppt",
-      "description": "Merge pull request #199 from Paul-Jeo/agent/add-nature-image2ppt\n\nfeat: add nature-image2ppt skill",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/07732a4b07a6e1a060a144ed8e21d98473b3c242",
-      "sha": "07732a4",
-      "fullSha": "07732a4b07a6e1a060a144ed8e21d98473b3c242",
-      "owner": "Yuan1z0825",
-      "published": "2026-08-18",
-      "label": "commit"
-    },
-    {
-      "title": "fix: sync Image2PPT ownership safeguards",
-      "description": "fix: sync Image2PPT ownership safeguards",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/9b8a955ff1fa402de85c1fdc4b7d0baabe7c8771",
-      "sha": "9b8a955",
-      "fullSha": "9b8a955ff1fa402de85c1fdc4b7d0baabe7c8771",
       "owner": "Paul-Jeo",
       "published": "2026-08-18",
       "label": "commit"

@@ -1,20 +1,30 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-08-26T15:55:35Z",
+  "changed": true,
+  "fetchedAt": "2026-08-27T12:54:32Z",
   "previousSha": "3817cd194c31010febb1312ab786e53cd8154333",
-  "latestSha": "3817cd194c31010febb1312ab786e53cd8154333",
+  "latestSha": "205ed18839181b0fe67323c7e42077a0807d8b03",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "chore: update star history",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/3817cd194c31010febb1312ab786e53cd8154333",
-    "sha": "3817cd1",
-    "published": "2026-08-25"
+    "title": "feat(writing): add discussion argument and modality guidance (#209)",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/205ed18839181b0fe67323c7e42077a0807d8b03",
+    "sha": "205ed18",
+    "published": "2026-08-27"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "feat(writing): add discussion argument and modality guidance (#209)",
+      "sha": "205ed18",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/205ed18839181b0fe67323c7e42077a0807d8b03"
+    },
+    {
+      "title": "feat(nature-figure): add render-time panel alignment gate (#208)",
+      "sha": "8630593",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/8630593a086755d2003cbd1a79cd1118c6963202"
+    },
     {
       "title": "chore: update star history",
       "sha": "3817cd1",
@@ -29,16 +39,6 @@
       "title": "feat: add automatic rendered figure collision audit (#206)",
       "sha": "dd0263a",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/dd0263aeedb2eb2ebb2eef25775b44ae37b8a988"
-    },
-    {
-      "title": "feat(image2ppt): add provider-neutral image backend (#204)",
-      "sha": "552af66",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/552af66976bec65021371d7563103f2103450f6e"
-    },
-    {
-      "title": "修复零星标仓库的历史图生成 (#205)",
-      "sha": "8ed584c",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/8ed584c3d077846c1788f6933a7047efe84bba79"
     }
   ]
 }
