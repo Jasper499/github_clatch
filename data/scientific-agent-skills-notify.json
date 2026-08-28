@@ -1,20 +1,25 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-08-28T14:34:52Z",
+  "changed": true,
+  "fetchedAt": "2026-08-28T23:40:06Z",
   "previousSha": "36d8f13a1e754618794bf42f417884940077b4ae",
-  "latestSha": "36d8f13a1e754618794bf42f417884940077b4ae",
+  "latestSha": "895b4be37ef0ca1cd55c6e628e7ff937ba5a1cf1",
   "repo": "K-Dense-AI/scientific-agent-skills",
   "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "stars": 0,
   "skillCount": 163,
   "latestCommit": {
-    "title": "chore: update security scan report [skip ci]",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/36d8f13a1e754618794bf42f417884940077b4ae",
-    "sha": "36d8f13",
-    "published": "2026-08-24"
+    "title": "Update README to replace live webinar announcement with recording lin…",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/895b4be37ef0ca1cd55c6e628e7ff937ba5a1cf1",
+    "sha": "895b4be",
+    "published": "2026-08-28"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "Update README to replace live webinar announcement with recording lin…",
+      "sha": "895b4be",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/895b4be37ef0ca1cd55c6e628e7ff937ba5a1cf1"
+    },
     {
       "title": "chore: update security scan report [skip ci]",
       "sha": "36d8f13",
@@ -34,11 +39,6 @@
       "title": "docs: add tutorials table to README (#226)",
       "sha": "48dc1cf",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/48dc1cf173f01aea114a62d634066f6b272aaaf1"
-    },
-    {
-      "title": "Enhance README with new blog entries and skills",
-      "sha": "5e50e08",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/5e50e088851c9b85744e483376276c88c9fc0233"
     }
   ]
 }

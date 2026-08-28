@@ -1,12 +1,23 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-08-28T14:34:52Z",
+  "savedAt": "2026-08-28T23:40:06Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "36d8f13a1e754618794bf42f417884940077b4ae",
+  "latestSha": "895b4be37ef0ca1cd55c6e628e7ff937ba5a1cf1",
   "items": [
+    {
+      "title": "Update README to replace live webinar announcement with recording lin…",
+      "description": "Update README to replace live webinar announcement with recording link for K-Dense BYOK\n\n- Changed the webinar announcement to a link for the recorded session of &quot;Getting Started with K-Dense BYOK.&quot;\n- Updated the description to reflect the content covered in the recording, ensuring users can access the walkthrough at their convenience.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/895b4be37ef0ca1cd55c6e628e7ff937ba5a1cf1",
+      "sha": "895b4be",
+      "fullSha": "895b4be37ef0ca1cd55c6e628e7ff937ba5a1cf1",
+      "owner": "TKassis",
+      "published": "2026-08-28",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "chore: update security scan report [skip ci]",
       "description": "chore: update security scan report [skip ci]",
@@ -158,17 +169,6 @@
       "fullSha": "980e4f0bb2a73f26fc66254c1edbbe7b7985f5e1",
       "owner": "TKassis",
       "published": "2026-08-14",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Add new blog entries to README for AI co-scientists and workflow impo…",
-      "description": "Add new blog entries to README for AI co-scientists and workflow importance\n\n- Included a new section on AI co-scientists with a link to a live Q&amp;A session addressing practical concerns for researchers.\n- Added multiple entries discussing the significance of workflow in scientific research, emphasizing verification and reproducibility in AI applications.\n- Updated the README to enhance the resourcefulness of the documentation for users exploring AI in scientific contexts.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/13385c7c4db02fdcc84a020752c07cce91ef780e",
-      "sha": "13385c7",
-      "fullSha": "13385c7c4db02fdcc84a020752c07cce91ef780e",
-      "owner": "TKassis",
-      "published": "2026-08-13",
       "label": "commit",
       "repo": "K-Dense-AI/scientific-agent-skills"
     }
