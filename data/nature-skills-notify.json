@@ -1,20 +1,25 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-08-27T23:49:36Z",
+  "changed": true,
+  "fetchedAt": "2026-08-28T14:25:34Z",
   "previousSha": "205ed18839181b0fe67323c7e42077a0807d8b03",
-  "latestSha": "205ed18839181b0fe67323c7e42077a0807d8b03",
+  "latestSha": "bd4e415c1dcaf6df4ca701f8f8492a97e4b49921",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "feat(writing): add discussion argument and modality guidance (#209)",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/205ed18839181b0fe67323c7e42077a0807d8b03",
-    "sha": "205ed18",
-    "published": "2026-08-27"
+    "title": "chore: update star history",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/bd4e415c1dcaf6df4ca701f8f8492a97e4b49921",
+    "sha": "bd4e415",
+    "published": "2026-08-28"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "chore: update star history",
+      "sha": "bd4e415",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/bd4e415c1dcaf6df4ca701f8f8492a97e4b49921"
+    },
     {
       "title": "feat(writing): add discussion argument and modality guidance (#209)",
       "sha": "205ed18",
@@ -34,11 +39,6 @@
       "title": "fix: prefer modern PyMuPDF import (#207)",
       "sha": "558eae5",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/558eae555d64e09b152efc449ca274bbd7747947"
-    },
-    {
-      "title": "feat: add automatic rendered figure collision audit (#206)",
-      "sha": "dd0263a",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/dd0263aeedb2eb2ebb2eef25775b44ae37b8a988"
     }
   ]
 }

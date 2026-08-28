@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-08-27T23:49:36Z",
+  "savedAt": "2026-08-28T14:25:34Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "205ed18839181b0fe67323c7e42077a0807d8b03",
+  "latestSha": "bd4e415c1dcaf6df4ca701f8f8492a97e4b49921",
   "items": [
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/bd4e415c1dcaf6df4ca701f8f8492a97e4b49921",
+      "sha": "bd4e415",
+      "fullSha": "bd4e415c1dcaf6df4ca701f8f8492a97e4b49921",
+      "owner": "github-actions",
+      "published": "2026-08-28",
+      "label": "commit"
+    },
     {
       "title": "feat(writing): add discussion argument and modality guidance (#209)",
       "description": "feat(writing): add discussion argument and modality guidance (#209)",
@@ -143,16 +153,6 @@
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/9729295f7e3cfe33762ed96664d6532ac4708fe5",
       "sha": "9729295",
       "fullSha": "9729295f7e3cfe33762ed96664d6532ac4708fe5",
-      "owner": "Paul-Jeo",
-      "published": "2026-08-18",
-      "label": "commit"
-    },
-    {
-      "title": "chore: use English Image2PPT short description",
-      "description": "chore: use English Image2PPT short description",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/8ec797169f1667f7aca8368d9a4b4d9475c2048b",
-      "sha": "8ec7971",
-      "fullSha": "8ec797169f1667f7aca8368d9a4b4d9475c2048b",
       "owner": "Paul-Jeo",
       "published": "2026-08-18",
       "label": "commit"
