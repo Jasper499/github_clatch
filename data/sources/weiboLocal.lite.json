@@ -1,8 +1,8 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-08-29T16:40:01Z",
+  "savedAt": "2026-08-29T20:51:45Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-29，共 11 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-08-29，共 13 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-08-29",
   "items": [
@@ -10,111 +10,131 @@
       "title": "吉隆口岸小邬警官确认平安",
       "description": "突发/灾害",
       "url": "https://s.weibo.com/weibo?q=%23%E5%90%89%E9%9A%86%E5%8F%A3%E5%B2%B8%E5%B0%8F%E9%82%AC%E8%AD%A6%E5%AE%98%E7%A1%AE%E8%AE%A4%E5%B9%B3%E5%AE%89%23&t=31&band_rank=1&Refer=top",
-      "score": 1305110,
+      "score": 97239,
       "owner": "微博同城",
       "label": "",
       "category": "突发/灾害",
       "onboardTime": 1788010764
     },
     {
-      "title": "原来真的有人住在里面",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8E%9F%E6%9D%A5%E7%9C%9F%E7%9A%84%E6%9C%89%E4%BA%BA%E4%BD%8F%E5%9C%A8%E9%87%8C%E9%9D%A2%23&t=31&band_rank=1&Refer=top",
-      "score": 265193,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1788015925
-    },
-    {
-      "title": "吉隆口岸入警1年樊乐乐失联",
+      "title": "吉隆口岸沿途挂满衣物碎片",
       "description": "突发/灾害",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%90%89%E9%9A%86%E5%8F%A3%E5%B2%B8%E5%85%A5%E8%AD%A61%E5%B9%B4%E6%A8%8A%E4%B9%90%E4%B9%90%E5%A4%B1%E8%81%94%23&t=31&band_rank=1&Refer=top",
-      "score": 212524,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%90%89%E9%9A%86%E5%8F%A3%E5%B2%B8%E6%B2%BF%E9%80%94%E6%8C%82%E6%BB%A1%E8%A1%A3%E7%89%A9%E7%A2%8E%E7%89%87%23&t=31&band_rank=1&Refer=top",
+      "score": 55922,
       "owner": "微博同城",
       "label": "",
       "category": "突发/灾害",
-      "onboardTime": 1788009202
+      "onboardTime": 1788020000
+    },
+    {
+      "title": "女乘客航班上遭邻座暴力殴打",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E4%B9%98%E5%AE%A2%E8%88%AA%E7%8F%AD%E4%B8%8A%E9%81%AD%E9%82%BB%E5%BA%A7%E6%9A%B4%E5%8A%9B%E6%AE%B4%E6%89%93%23&t=31&band_rank=1&Refer=top",
+      "score": 55382,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1788024199
     },
     {
       "title": "尼泊尔幸存者称根本来不及逃生",
       "description": "突发/灾害",
       "url": "https://s.weibo.com/weibo?q=%23%E5%B0%BC%E6%B3%8A%E5%B0%94%E5%B9%B8%E5%AD%98%E8%80%85%E7%A7%B0%E6%A0%B9%E6%9C%AC%E6%9D%A5%E4%B8%8D%E5%8F%8A%E9%80%83%E7%94%9F%23&t=31&band_rank=1&Refer=top",
-      "score": 185832,
+      "score": 55293,
       "owner": "微博同城",
       "label": "",
       "category": "突发/灾害",
       "onboardTime": 1788014664
     },
     {
-      "title": "央视曝光保温杯造假套路",
+      "title": "官方通报博主称拔钉被以扬尘叫停",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E4%BF%9D%E6%B8%A9%E6%9D%AF%E9%80%A0%E5%81%87%E5%A5%97%E8%B7%AF&t=31&band_rank=1&Refer=top",
-      "score": 184784,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%AE%98%E6%96%B9%E9%80%9A%E6%8A%A5%E5%8D%9A%E4%B8%BB%E7%A7%B0%E6%8B%94%E9%92%89%E8%A2%AB%E4%BB%A5%E6%89%AC%E5%B0%98%E5%8F%AB%E5%81%9C%23&t=31&band_rank=1&Refer=top",
+      "score": 55098,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1788005842
+      "onboardTime": 1788017784
     },
     {
-      "title": "吉隆口岸大楼只剩钢筋骨架",
+      "title": "吉隆口岸入警1年樊乐乐失联",
       "description": "突发/灾害",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%90%89%E9%9A%86%E5%8F%A3%E5%B2%B8%E5%A4%A7%E6%A5%BC%E5%8F%AA%E5%89%A9%E9%92%A2%E7%AD%8B%E9%AA%A8%E6%9E%B6%23&t=31&band_rank=1&Refer=top",
-      "score": 178037,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%90%89%E9%9A%86%E5%8F%A3%E5%B2%B8%E5%85%A5%E8%AD%A61%E5%B9%B4%E6%A8%8A%E4%B9%90%E4%B9%90%E5%A4%B1%E8%81%94%23&t=31&band_rank=1&Refer=top",
+      "score": 54886,
       "owner": "微博同城",
       "label": "",
       "category": "突发/灾害",
-      "onboardTime": 1787986942
+      "onboardTime": 1788009202
     },
     {
-      "title": "吉隆口岸沿途挂满衣物碎片",
-      "description": "新 · 突发/灾害",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%90%89%E9%9A%86%E5%8F%A3%E5%B2%B8%E6%B2%BF%E9%80%94%E6%8C%82%E6%BB%A1%E8%A1%A3%E7%89%A9%E7%A2%8E%E7%89%87%23&t=31&band_rank=1&Refer=top",
-      "score": 166639,
+      "title": "原来真的有人住在里面",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8E%9F%E6%9D%A5%E7%9C%9F%E7%9A%84%E6%9C%89%E4%BA%BA%E4%BD%8F%E5%9C%A8%E9%87%8C%E9%9D%A2%23&t=31&band_rank=1&Refer=top",
+      "score": 54866,
       "owner": "微博同城",
-      "label": "新",
-      "category": "突发/灾害",
-      "onboardTime": 1788020000
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1788015925
+    },
+    {
+      "title": "男子婚后第三天自愿给房子加妻子名字",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E5%A9%9A%E5%90%8E%E7%AC%AC%E4%B8%89%E5%A4%A9%E8%87%AA%E6%84%BF%E7%BB%99%E6%88%BF%E5%AD%90%E5%8A%A0%E5%A6%BB%E5%AD%90%E5%90%8D%E5%AD%97%23&t=31&band_rank=1&Refer=top",
+      "score": 54812,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1788003382
     },
     {
       "title": "西藏泥石流救援",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E8%A5%BF%E8%97%8F%E6%B3%A5%E7%9F%B3%E6%B5%81%E6%95%91%E6%8F%B4%23&t=31&band_rank=1&Refer=top",
-      "score": 153477,
+      "score": 54610,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1788002002
     },
     {
-      "title": "山姆回应女子用脱毛仪样品脱腋毛",
+      "title": "家长轻信偏方7岁女童全身皮肤糜烂",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%B1%B1%E5%A7%86%E5%9B%9E%E5%BA%94%E5%A5%B3%E5%AD%90%E7%94%A8%E8%84%B1%E6%AF%9B%E4%BB%AA%E6%A0%B7%E5%93%81%E8%84%B1%E8%85%8B%E6%AF%9B%23&t=31&band_rank=1&Refer=top",
-      "score": 139002,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%AE%B6%E9%95%BF%E8%BD%BB%E4%BF%A1%E5%81%8F%E6%96%B97%E5%B2%81%E5%A5%B3%E7%AB%A5%E5%85%A8%E8%BA%AB%E7%9A%AE%E8%82%A4%E7%B3%9C%E7%83%82%23&t=31&band_rank=1&Refer=top",
+      "score": 54558,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1788009263
+      "onboardTime": 1788030375
     },
     {
-      "title": "孕妈吃2斤小龙虾感染紧急剖宫产",
+      "title": "央视曝光保温杯造假套路",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AD%95%E5%A6%88%E5%90%832%E6%96%A4%E5%B0%8F%E9%BE%99%E8%99%BE%E6%84%9F%E6%9F%93%E7%B4%A7%E6%80%A5%E5%89%96%E5%AE%AB%E4%BA%A7%23&t=31&band_rank=1&Refer=top",
-      "score": 125890,
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E4%BF%9D%E6%B8%A9%E6%9D%AF%E9%80%A0%E5%81%87%E5%A5%97%E8%B7%AF&t=31&band_rank=1&Refer=top",
+      "score": 54543,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1788001582
+      "onboardTime": 1788005842
     },
     {
       "title": "90后守国门警花文燕仍无音信",
-      "description": "新 · 突发/灾害",
+      "description": "突发/灾害",
       "url": "https://s.weibo.com/weibo?q=%2390%E5%90%8E%E5%AE%88%E5%9B%BD%E9%97%A8%E8%AD%A6%E8%8A%B1%E6%96%87%E7%87%95%E4%BB%8D%E6%97%A0%E9%9F%B3%E4%BF%A1%23&t=31&band_rank=1&Refer=top",
-      "score": 124682,
+      "score": 54495,
       "owner": "微博同城",
-      "label": "新",
+      "label": "",
       "category": "突发/灾害",
       "onboardTime": 1788018083
+    },
+    {
+      "title": "首批救援队在吉隆山头彻夜坚守",
+      "description": "突发/灾害",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%A6%96%E6%89%B9%E6%95%91%E6%8F%B4%E9%98%9F%E5%9C%A8%E5%90%89%E9%9A%86%E5%B1%B1%E5%A4%B4%E5%BD%BB%E5%A4%9C%E5%9D%9A%E5%AE%88%23&t=31&band_rank=1&Refer=top",
+      "score": 54480,
+      "owner": "微博同城",
+      "label": "",
+      "category": "突发/灾害",
+      "onboardTime": 1788024978
     }
   ]
 }
