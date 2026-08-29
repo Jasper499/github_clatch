@@ -1,12 +1,34 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-08-29T09:21:53Z",
+  "savedAt": "2026-08-29T17:53:01Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "895b4be37ef0ca1cd55c6e628e7ff937ba5a1cf1",
+  "latestSha": "72d742e153a282b4660bbddd807e18ccb0ee689e",
   "items": [
+    {
+      "title": "fix(stable-baselines3): repair broken API reference links (#233)",
+      "description": "fix(stable-baselines3): repair broken API reference links (#233)\n\nThe &quot;API Reference&quot; bullets in references/callbacks.md and\nreferences/vectorized_envs.md pointed at\n`/en/master/common/callbacks.html` and `/en/master/common/vec_env.html`,\nwhich both return 404. Upstream Stable-Baselines3 documents the\n`stable_baselines3.common.callbacks` and `stable_baselines3.common.vec_env`\nmodules on the same pages as their narrative guides, not under `common/`.\n\nRepoint both links at the module anchors on the guide pages:\n\n- guide/callbacks.html#module-stable_baselines3.common.callbacks\n- guide/vec_envs.html#module-stable_baselines3.common.vec_env\n\nBoth targets and both anchors were verified against the live docs and the\nupstream genindex. The &quot;Official ... Guide&quot; bullet directly above each one\nalready used the correct `guide/` path, so the two `common/` URLs were\ninconsistent within their own files.\n\nBump metadata.version to &quot;1.2&quot;.\n\nCo-authored-by: Claude Opus 5 &lt;noreply@anthropic.com&gt;",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/72d742e153a282b4660bbddd807e18ccb0ee689e",
+      "sha": "72d742e",
+      "fullSha": "72d742e153a282b4660bbddd807e18ccb0ee689e",
+      "owner": "BriceZemba",
+      "published": "2026-08-29",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Fix Rowan examples for SDK 3.1.13 (#237)",
+      "description": "Fix Rowan examples for SDK 3.1.13 (#237)",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/7b0386d91750c5b97fc071513a941b6f92ef4616",
+      "sha": "7b0386d",
+      "fullSha": "7b0386d91750c5b97fc071513a941b6f92ef4616",
+      "owner": "aubcake",
+      "published": "2026-08-29",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "Update README to replace live webinar announcement with recording lin…",
       "description": "Update README to replace live webinar announcement with recording link for K-Dense BYOK\n\n- Changed the webinar announcement to a link for the recorded session of &quot;Getting Started with K-Dense BYOK.&quot;\n- Updated the description to reflect the content covered in the recording, ensuring users can access the walkthrough at their convenience.",
@@ -145,28 +167,6 @@
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/b2a92ba052dcae4ef48e850b9e31ebf75706be48",
       "sha": "b2a92ba",
       "fullSha": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
-      "owner": "TKassis",
-      "published": "2026-08-14",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Update examples and skills documentation",
-      "description": "Update examples and skills documentation\n\n- Added a new example for virtual spatial transcriptomics from archival H&amp;E slides, detailing objectives, disciplines, skills used, and workflow steps.\n- Introduced the NCATS ARAX skill for querying biomedical knowledge-graph relationships, including detailed usage instructions and capabilities.\n- Updated the examples list to reflect the new addition and ensure comprehensive coverage of relevant topics.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/3c8fc0fd16d6408e5185e086cc75564888e51d41",
-      "sha": "3c8fc0f",
-      "fullSha": "3c8fc0fd16d6408e5185e086cc75564888e51d41",
-      "owner": "TKassis",
-      "published": "2026-08-14",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Add CAD skill for lab hardware",
-      "description": "Add CAD skill for lab hardware",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/980e4f0bb2a73f26fc66254c1edbbe7b7985f5e1",
-      "sha": "980e4f0",
-      "fullSha": "980e4f0bb2a73f26fc66254c1edbbe7b7985f5e1",
       "owner": "TKassis",
       "published": "2026-08-14",
       "label": "commit",

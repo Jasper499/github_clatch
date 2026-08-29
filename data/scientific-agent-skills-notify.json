@@ -1,20 +1,30 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-08-29T09:21:53Z",
+  "changed": true,
+  "fetchedAt": "2026-08-29T17:53:01Z",
   "previousSha": "895b4be37ef0ca1cd55c6e628e7ff937ba5a1cf1",
-  "latestSha": "895b4be37ef0ca1cd55c6e628e7ff937ba5a1cf1",
+  "latestSha": "72d742e153a282b4660bbddd807e18ccb0ee689e",
   "repo": "K-Dense-AI/scientific-agent-skills",
   "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "stars": 0,
   "skillCount": 163,
   "latestCommit": {
-    "title": "Update README to replace live webinar announcement with recording lin…",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/895b4be37ef0ca1cd55c6e628e7ff937ba5a1cf1",
-    "sha": "895b4be",
-    "published": "2026-08-28"
+    "title": "fix(stable-baselines3): repair broken API reference links (#233)",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/72d742e153a282b4660bbddd807e18ccb0ee689e",
+    "sha": "72d742e",
+    "published": "2026-08-29"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "fix(stable-baselines3): repair broken API reference links (#233)",
+      "sha": "72d742e",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/72d742e153a282b4660bbddd807e18ccb0ee689e"
+    },
+    {
+      "title": "Fix Rowan examples for SDK 3.1.13 (#237)",
+      "sha": "7b0386d",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/7b0386d91750c5b97fc071513a941b6f92ef4616"
+    },
     {
       "title": "Update README to replace live webinar announcement with recording lin…",
       "sha": "895b4be",
@@ -29,16 +39,6 @@
       "title": "Enhance README with webinar announcement for K-Dense BYOK",
       "sha": "390f514",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/390f5146bf3c1877cf15636a3dd7b775e4f0f185"
-    },
-    {
-      "title": "Update AGENTS.md to clarify optional nature of skill diagrams and str…",
-      "sha": "de66e10",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/de66e10cd0c89b010ca1c3e74c4ab0c6db8b365b"
-    },
-    {
-      "title": "docs: add tutorials table to README (#226)",
-      "sha": "48dc1cf",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/48dc1cf173f01aea114a62d634066f6b272aaaf1"
     }
   ]
 }
