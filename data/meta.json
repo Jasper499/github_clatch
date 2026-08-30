@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T08:31:52Z",
+  "updatedAt": "2026-08-30T08:57:16Z",
   "periodDays": 7,
   "weekLabel": "2026-08-17 ~ 2026-08-24",
   "githubUpdatedAt": "2026-08-24T02:21:10Z",
@@ -201,13 +201,13 @@
     },
     "chinaDaily": {
       "label": "China Daily 热门",
-      "description": "China Daily Most Viewed / 首页热门（2026-08-29，共 20 条，每天更新）",
+      "description": "China Daily Most Viewed / 首页热门（2026-08-30，共 20 条，每天更新）",
       "updateFrequency": "daily",
-      "fetchedDate": "2026-08-29",
+      "fetchedDate": "2026-08-30",
       "itemCount": 20
     }
   },
-  "generatedAt": "2026-08-30T08:31:52Z",
+  "generatedAt": "2026-08-30T08:57:16Z",
   "journalsPeriod": "2026-07-01 ~ 2026-08-15",
-  "chinaDailyUpdatedAt": "2026-08-29T09:46:03Z"
+  "chinaDailyUpdatedAt": "2026-08-30T08:57:16Z"
 }
