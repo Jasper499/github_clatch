@@ -1,20 +1,25 @@
 {
   "changed": true,
-  "fetchedAt": "2026-08-29T17:53:01Z",
-  "previousSha": "895b4be37ef0ca1cd55c6e628e7ff937ba5a1cf1",
-  "latestSha": "72d742e153a282b4660bbddd807e18ccb0ee689e",
+  "fetchedAt": "2026-08-30T08:31:52Z",
+  "previousSha": "72d742e153a282b4660bbddd807e18ccb0ee689e",
+  "latestSha": "f6fcafeb1cc8c82eca0160a18bc41c38427b8e0f",
   "repo": "K-Dense-AI/scientific-agent-skills",
   "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "stars": 0,
   "skillCount": 163,
   "latestCommit": {
-    "title": "fix(stable-baselines3): repair broken API reference links (#233)",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/72d742e153a282b4660bbddd807e18ccb0ee689e",
-    "sha": "72d742e",
+    "title": "Update version to 2.65.0 and reflect skill count increase in README",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/f6fcafeb1cc8c82eca0160a18bc41c38427b8e0f",
+    "sha": "f6fcafe",
     "published": "2026-08-29"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "Update version to 2.65.0 and reflect skill count increase in README",
+      "sha": "f6fcafe",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/f6fcafeb1cc8c82eca0160a18bc41c38427b8e0f"
+    },
     {
       "title": "fix(stable-baselines3): repair broken API reference links (#233)",
       "sha": "72d742e",
@@ -34,11 +39,6 @@
       "title": "chore: update security scan report [skip ci]",
       "sha": "36d8f13",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/36d8f13a1e754618794bf42f417884940077b4ae"
-    },
-    {
-      "title": "Enhance README with webinar announcement for K-Dense BYOK",
-      "sha": "390f514",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/390f5146bf3c1877cf15636a3dd7b775e4f0f185"
     }
   ]
 }

@@ -1,12 +1,23 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-08-29T17:53:01Z",
+  "savedAt": "2026-08-30T08:31:52Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "72d742e153a282b4660bbddd807e18ccb0ee689e",
+  "latestSha": "f6fcafeb1cc8c82eca0160a18bc41c38427b8e0f",
   "items": [
+    {
+      "title": "Update version to 2.65.0 and reflect skill count increase in README",
+      "description": "Update version to 2.65.0 and reflect skill count increase in README\n\n- Bumped version number in plugin.json and pyproject.toml to 2.65.0.\n- Updated README to indicate an increase in the number of available skills from 161 to 163.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/f6fcafeb1cc8c82eca0160a18bc41c38427b8e0f",
+      "sha": "f6fcafe",
+      "fullSha": "f6fcafeb1cc8c82eca0160a18bc41c38427b8e0f",
+      "owner": "TKassis",
+      "published": "2026-08-29",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "fix(stable-baselines3): repair broken API reference links (#233)",
       "description": "fix(stable-baselines3): repair broken API reference links (#233)\n\nThe &quot;API Reference&quot; bullets in references/callbacks.md and\nreferences/vectorized_envs.md pointed at\n`/en/master/common/callbacks.html` and `/en/master/common/vec_env.html`,\nwhich both return 404. Upstream Stable-Baselines3 documents the\n`stable_baselines3.common.callbacks` and `stable_baselines3.common.vec_env`\nmodules on the same pages as their narrative guides, not under `common/`.\n\nRepoint both links at the module anchors on the guide pages:\n\n- guide/callbacks.html#module-stable_baselines3.common.callbacks\n- guide/vec_envs.html#module-stable_baselines3.common.vec_env\n\nBoth targets and both anchors were verified against the live docs and the\nupstream genindex. The &quot;Official ... Guide&quot; bullet directly above each one\nalready used the correct `guide/` path, so the two `common/` URLs were\ninconsistent within their own files.\n\nBump metadata.version to &quot;1.2&quot;.\n\nCo-authored-by: Claude Opus 5 &lt;noreply@anthropic.com&gt;",
@@ -158,17 +169,6 @@
       "fullSha": "43a3e619a1dd8f053abdeb258c87ce81c53b424f",
       "owner": "TKassis",
       "published": "2026-08-15",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Update pi-agent skill",
-      "description": "Update pi-agent skill",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/b2a92ba052dcae4ef48e850b9e31ebf75706be48",
-      "sha": "b2a92ba",
-      "fullSha": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
-      "owner": "TKassis",
-      "published": "2026-08-14",
       "label": "commit",
       "repo": "K-Dense-AI/scientific-agent-skills"
     }
