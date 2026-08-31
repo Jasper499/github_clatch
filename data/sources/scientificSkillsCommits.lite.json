@@ -1,12 +1,34 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-08-31T08:53:43Z",
+  "savedAt": "2026-08-31T20:21:59Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "f6fcafeb1cc8c82eca0160a18bc41c38427b8e0f",
+  "latestSha": "1dd0fccf46fc3c9855c4a0c313a0c57fe4319883",
   "items": [
+    {
+      "title": "Remove Star History section from README.md to streamline content and …",
+      "description": "Remove Star History section from README.md to streamline content and focus on essential information.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/1dd0fccf46fc3c9855c4a0c313a0c57fe4319883",
+      "sha": "1dd0fcc",
+      "fullSha": "1dd0fccf46fc3c9855c4a0c313a0c57fe4319883",
+      "owner": "TKassis",
+      "published": "2026-08-31",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "chore: update security scan report [skip ci]",
+      "description": "chore: update security scan report [skip ci]",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/cc37669ed0f354619b1ae586e958609a87680718",
+      "sha": "cc37669",
+      "fullSha": "cc37669ed0f354619b1ae586e958609a87680718",
+      "owner": "github-actions",
+      "published": "2026-08-31",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "Update version to 2.65.0 and reflect skill count increase in README",
       "description": "Update version to 2.65.0 and reflect skill count increase in README\n\n- Bumped version number in plugin.json and pyproject.toml to 2.65.0.\n- Updated README to indicate an increase in the number of available skills from 161 to 163.",
@@ -147,28 +169,6 @@
       "fullSha": "28f5603bc2b57ca6e2856e87af2e98686b65071f",
       "owner": "github-actions",
       "published": "2026-08-17",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Update lab hardware CAD skill documentation and standards",
-      "description": "Update lab hardware CAD skill documentation and standards\n\n- Bumped version to 1.2 and updated last-reviewed date in SKILL.md.\n- Enhanced standards.json with updated notes and additional dimensions for clarity.\n- Expanded build123d-patterns.md to include detailed geometry checks and their semantics.\n- Improved fabrication-limits.md with laser cutting guidelines and corner radius considerations.\n- Updated validation.md to clarify checks for declared interfaces and geometry.\n- Added new geometry checks functionality in scripts to validate model geometry against built solids.\n- Adjusted check.py to include geometry evaluation commands for better verification processes.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/336c4f838a6c21b54e1e1f58cbbeae143d151fe2",
-      "sha": "336c4f8",
-      "fullSha": "336c4f838a6c21b54e1e1f58cbbeae143d151fe2",
-      "owner": "TKassis",
-      "published": "2026-08-16",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Update README to include Reddit link and enhance user engagement",
-      "description": "Update README to include Reddit link and enhance user engagement\n\n- Added a Reddit badge and link to the README for broader community engagement.\n- Updated the &quot;Stay up to date&quot; section to include Reddit alongside existing social media links for new skills and updates.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/43a3e619a1dd8f053abdeb258c87ce81c53b424f",
-      "sha": "43a3e61",
-      "fullSha": "43a3e619a1dd8f053abdeb258c87ce81c53b424f",
-      "owner": "TKassis",
-      "published": "2026-08-15",
       "label": "commit",
       "repo": "K-Dense-AI/scientific-agent-skills"
     }

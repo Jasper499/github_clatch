@@ -1,20 +1,30 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-08-31T08:53:43Z",
+  "changed": true,
+  "fetchedAt": "2026-08-31T20:21:59Z",
   "previousSha": "f6fcafeb1cc8c82eca0160a18bc41c38427b8e0f",
-  "latestSha": "f6fcafeb1cc8c82eca0160a18bc41c38427b8e0f",
+  "latestSha": "1dd0fccf46fc3c9855c4a0c313a0c57fe4319883",
   "repo": "K-Dense-AI/scientific-agent-skills",
   "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "stars": 0,
   "skillCount": 163,
   "latestCommit": {
-    "title": "Update version to 2.65.0 and reflect skill count increase in README",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/f6fcafeb1cc8c82eca0160a18bc41c38427b8e0f",
-    "sha": "f6fcafe",
-    "published": "2026-08-29"
+    "title": "Remove Star History section from README.md to streamline content and …",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/1dd0fccf46fc3c9855c4a0c313a0c57fe4319883",
+    "sha": "1dd0fcc",
+    "published": "2026-08-31"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "Remove Star History section from README.md to streamline content and …",
+      "sha": "1dd0fcc",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/1dd0fccf46fc3c9855c4a0c313a0c57fe4319883"
+    },
+    {
+      "title": "chore: update security scan report [skip ci]",
+      "sha": "cc37669",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/cc37669ed0f354619b1ae586e958609a87680718"
+    },
     {
       "title": "Update version to 2.65.0 and reflect skill count increase in README",
       "sha": "f6fcafe",
@@ -29,16 +39,6 @@
       "title": "Fix Rowan examples for SDK 3.1.13 (#237)",
       "sha": "7b0386d",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/7b0386d91750c5b97fc071513a941b6f92ef4616"
-    },
-    {
-      "title": "Update README to replace live webinar announcement with recording lin…",
-      "sha": "895b4be",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/895b4be37ef0ca1cd55c6e628e7ff937ba5a1cf1"
-    },
-    {
-      "title": "chore: update security scan report [skip ci]",
-      "sha": "36d8f13",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/36d8f13a1e754618794bf42f417884940077b4ae"
     }
   ]
 }
