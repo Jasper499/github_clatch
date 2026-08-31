@@ -6,100 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "github:https://github.com/sapientinc/PRAXIST",
-      "url": "https://github.com/sapientinc/PRAXIST",
-      "title": "[GitHub 热门新项目] sapientinc/PRAXIST",
-      "date_published": "2026-08-31T06:38:14Z"
+      "id": "hackernews:https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
+      "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
+      "title": "[Hacker News 热门] Nvidia agrees to acquire Hugging Face for $13B",
+      "date_published": "2026-08-31T08:23:01Z"
     },
     {
-      "id": "github:https://github.com/HEJustinSun/my-girlfriend-jingtian-latex",
-      "url": "https://github.com/HEJustinSun/my-girlfriend-jingtian-latex",
-      "title": "[GitHub 热门新项目] HEJustinSun/my-girlfriend-jingtian-latex",
-      "date_published": "2026-08-31T06:38:14Z"
+      "id": "hackernews:https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs",
+      "url": "https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs",
+      "title": "[Hacker News 热门] How Europe is killing makers and micro-entrepreneurs",
+      "date_published": "2026-08-31T08:23:01Z"
     },
     {
-      "id": "github:https://github.com/XiaoDuoYa/codex-with-chatgpt",
-      "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
-      "title": "[GitHub 热门新项目] XiaoDuoYa/codex-with-chatgpt",
-      "date_published": "2026-08-31T06:38:14Z"
+      "id": "hackernews:https://www.theguardian.com/music/2026/aug/25/dolly-parton-country-singer-dead",
+      "url": "https://www.theguardian.com/music/2026/aug/25/dolly-parton-country-singer-dead",
+      "title": "[Hacker News 热门] Dolly Parton has died",
+      "date_published": "2026-08-31T08:23:01Z"
     },
     {
-      "id": "github:https://github.com/MetaMask-AI/metamask-desktop",
-      "url": "https://github.com/MetaMask-AI/metamask-desktop",
-      "title": "[GitHub 热门新项目] MetaMask-AI/metamask-desktop",
-      "date_published": "2026-08-31T06:38:14Z"
+      "id": "hackernews:https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
+      "title": "[Hacker News 热门] Apple introduces M6 and M5 Ultra",
+      "date_published": "2026-08-31T08:23:01Z"
     },
     {
-      "id": "github:https://github.com/wide-trace/open-higgsfield",
-      "url": "https://github.com/wide-trace/open-higgsfield",
-      "title": "[GitHub 热门新项目] wide-trace/open-higgsfield",
-      "date_published": "2026-08-31T06:38:14Z"
+      "id": "hackernews:https://github.com/zedeus/nitter/issues/1442",
+      "url": "https://github.com/zedeus/nitter/issues/1442",
+      "title": "[Hacker News 热门] Nitter and XCancel receive cease and desist notices",
+      "date_published": "2026-08-31T08:23:01Z"
     },
     {
-      "id": "github:https://github.com/Nanako0129/sepia",
-      "url": "https://github.com/Nanako0129/sepia",
-      "title": "[GitHub 热门新项目] Nanako0129/sepia",
-      "date_published": "2026-08-31T06:38:14Z"
+      "id": "hackernews:https://z.ai/blog/glm-5.3-flash",
+      "url": "https://z.ai/blog/glm-5.3-flash",
+      "title": "[Hacker News 热门] GLM-5.3-Flash",
+      "date_published": "2026-08-31T08:23:01Z"
     },
     {
-      "id": "github:https://github.com/Tencent/WeMM-Embedding",
-      "url": "https://github.com/Tencent/WeMM-Embedding",
-      "title": "[GitHub 热门新项目] Tencent/WeMM-Embedding",
-      "date_published": "2026-08-31T06:38:14Z"
+      "id": "hackernews:https://people.kernel.org/monsieuricon/creepy-crawlies",
+      "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
+      "title": "[Hacker News 热门] Creepy Crawlies",
+      "date_published": "2026-08-31T08:23:01Z"
     },
     {
-      "id": "github:https://github.com/tradecatlabs/shulihuazixuecongshu",
-      "url": "https://github.com/tradecatlabs/shulihuazixuecongshu",
-      "title": "[GitHub 热门新项目] tradecatlabs/shulihuazixuecongshu",
-      "date_published": "2026-08-31T06:38:14Z"
-    },
-    {
-      "id": "githubActive:https://github.com/public-apis/public-apis",
-      "url": "https://github.com/public-apis/public-apis",
-      "title": "[GitHub 活跃项目] public-apis/public-apis",
-      "date_published": "2026-08-31T06:38:14Z"
-    },
-    {
-      "id": "githubActive:https://github.com/freeCodeCamp/freeCodeCamp",
-      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "title": "[GitHub 活跃项目] freeCodeCamp/freeCodeCamp",
-      "date_published": "2026-08-31T06:38:14Z"
-    },
-    {
-      "id": "githubActive:https://github.com/EbookFoundation/free-programming-books",
-      "url": "https://github.com/EbookFoundation/free-programming-books",
-      "title": "[GitHub 活跃项目] EbookFoundation/free-programming-books",
-      "date_published": "2026-08-31T06:38:14Z"
-    },
-    {
-      "id": "githubActive:https://github.com/openclaw/openclaw",
-      "url": "https://github.com/openclaw/openclaw",
-      "title": "[GitHub 活跃项目] openclaw/openclaw",
-      "date_published": "2026-08-31T06:38:14Z"
-    },
-    {
-      "id": "githubActive:https://github.com/vinta/awesome-python",
-      "url": "https://github.com/vinta/awesome-python",
-      "title": "[GitHub 活跃项目] vinta/awesome-python",
-      "date_published": "2026-08-31T06:38:14Z"
-    },
-    {
-      "id": "githubActive:https://github.com/awesome-selfhosted/awesome-selfhosted",
-      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-      "title": "[GitHub 活跃项目] awesome-selfhosted/awesome-selfhosted",
-      "date_published": "2026-08-31T06:38:14Z"
-    },
-    {
-      "id": "githubActive:https://github.com/obra/superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "title": "[GitHub 活跃项目] obra/superpowers",
-      "date_published": "2026-08-31T06:38:14Z"
-    },
-    {
-      "id": "githubActive:https://github.com/react/react",
-      "url": "https://github.com/react/react",
-      "title": "[GitHub 活跃项目] react/react",
-      "date_published": "2026-08-31T06:38:14Z"
+      "id": "hackernews:https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws",
+      "url": "https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws",
+      "title": "[Hacker News 热门] AWS Acquires DuckLabs",
+      "date_published": "2026-08-31T08:23:01Z"
     }
   ]
 }

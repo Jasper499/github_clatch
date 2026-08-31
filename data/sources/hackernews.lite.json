@@ -1,24 +1,24 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-08-30T17:58:54Z",
+  "savedAt": "2026-08-31T08:23:01Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-08-30，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-08-31，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-08-30",
+  "fetchedDate": "2026-08-31",
   "items": [
     {
       "title": "Nvidia agrees to acquire Hugging Face for $13B",
       "description": "<a href=\"https:&#x2F;&#x2F;www.theinformation.com&#x2F;articles&#x2F;nvidia-agrees-buy-open-source-model-repository-hugging-face-12-9-billion?utm_campaign=article_email&amp;utm_content=article-17723\" rel=\"nofollow\">https:&#x2F;&#x2F;www.theinformation.com&#x2F;articles&#x2F;nvidia-agrees-buy-op...</a> (paywalled)<p><a href=\"https:&#x2F;&#x2F;techcrunch.com&#x2F;2026&#x2F;08&#x2F;24&#x2F;hugging-face-reportedly-in-talks-to-be-acquired-for-13b&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;techcrunch.com&#x2F;2026&#x2F;08&#x2F;24&#x2F;hugging-face-reportedly-in...</a>",
       "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
-      "score": 1970,
-      "comments": 908,
+      "score": 1973,
+      "comments": 910,
       "owner": "mfiguiere"
     },
     {
       "title": "How Europe is killing makers and micro-entrepreneurs",
       "description": "",
       "url": "https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs",
-      "score": 1642,
+      "score": 1644,
       "comments": 1030,
       "owner": "l-one-lone"
     },
@@ -29,14 +29,6 @@
       "score": 1602,
       "comments": 248,
       "owner": "helsinkiandrew"
-    },
-    {
-      "title": "Everything I own, owned",
-      "description": "<a href=\"https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20260823225933&#x2F;https:&#x2F;&#x2F;schlarp.com&#x2F;posts&#x2F;everything-i-own-owned&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20260823225933&#x2F;https:&#x2F;&#x2F;schlarp.c...</a>",
-      "url": "https://schlarp.com/posts/everything-i-own-owned/",
-      "score": 1448,
-      "comments": 348,
-      "owner": "schlarpc"
     },
     {
       "title": "Apple introduces M6 and M5 Ultra",
@@ -50,23 +42,31 @@
       "title": "Nitter and XCancel receive cease and desist notices",
       "description": "<a href=\"https:&#x2F;&#x2F;github.com&#x2F;zedeus&#x2F;nitter&#x2F;issues&#x2F;1442\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;zedeus&#x2F;nitter&#x2F;issues&#x2F;1442</a><p><a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;</a>",
       "url": "https://github.com/zedeus/nitter/issues/1442",
-      "score": 1202,
-      "comments": 1343,
+      "score": 1207,
+      "comments": 1346,
       "owner": "Banditoz"
     },
     {
       "title": "GLM-5.3-Flash",
       "description": "<a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49450353\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49450353</a>",
       "url": "https://z.ai/blog/glm-5.3-flash",
-      "score": 1128,
-      "comments": 575,
+      "score": 1130,
+      "comments": 576,
       "owner": "Philpax"
+    },
+    {
+      "title": "Creepy Crawlies",
+      "description": "",
+      "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
+      "score": 1107,
+      "comments": 548,
+      "owner": "zdw"
     },
     {
       "title": "AWS Acquires DuckLabs",
       "description": "",
       "url": "https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws",
-      "score": 1101,
+      "score": 1102,
       "comments": 316,
       "owner": "onderkalaci"
     },
@@ -74,16 +74,16 @@
       "title": "GUIs should be fully keyboard-driven",
       "description": "",
       "url": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
-      "score": 1036,
-      "comments": 509,
+      "score": 1041,
+      "comments": 514,
       "owner": "ckardaris"
     },
     {
       "title": "CEO fired developers to make room for AI. Developers create open source AI CEO",
       "description": "",
       "url": "https://github.com/SenteLabsAI/OpenExecutive",
-      "score": 1024,
-      "comments": 713,
+      "score": 1028,
+      "comments": 715,
       "owner": "GrumpySciGuy"
     },
     {
@@ -98,33 +98,33 @@
       "title": "Saving 100 terabytes of memory by optimizing 1.1.1.1's DNS cache",
       "description": "",
       "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
-      "score": 913,
-      "comments": 282,
+      "score": 919,
+      "comments": 283,
       "owner": "TangerineDream"
     },
     {
       "title": "MS Paint and Photos inivisibly watermark even locally generated output with GUID",
       "description": "",
       "url": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/",
-      "score": 859,
-      "comments": 435,
+      "score": 860,
+      "comments": 436,
       "owner": "ComputerGuru"
-    },
-    {
-      "title": "U.S. State Department pauses immigrant visa applications",
-      "description": "",
-      "url": "https://www.wsj.com/politics/policy/u-s-state-department-pauses-immigrant-visa-applications-25b31b23",
-      "score": 833,
-      "comments": 1427,
-      "owner": "sss111"
     },
     {
       "title": "Our decision on Cursor following its acquisition by SpaceX",
       "description": "",
       "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
-      "score": 826,
-      "comments": 516,
+      "score": 838,
+      "comments": 526,
       "owner": "meetpateltech"
+    },
+    {
+      "title": "U.S. State Department pauses immigrant visa applications",
+      "description": "",
+      "url": "https://www.wsj.com/politics/policy/u-s-state-department-pauses-immigrant-visa-applications-25b31b23",
+      "score": 837,
+      "comments": 1434,
+      "owner": "sss111"
     },
     {
       "title": "New Mac Studio with M5 Max and M5 Ultra",
@@ -135,36 +135,36 @@
       "owner": "interpol_p"
     },
     {
-      "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
-      "description": "",
-      "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
-      "score": 819,
-      "comments": 702,
-      "owner": "naves"
-    },
-    {
       "title": "Htmx 4.0",
       "description": "",
       "url": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
-      "score": 813,
-      "comments": 225,
+      "score": 817,
+      "comments": 232,
       "owner": "rmsaksida"
     },
     {
       "title": "GLM-5.3 is now open-weight",
       "description": "<a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;Zai_org&#x2F;status&#x2F;2093354097122455713\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;Zai_org&#x2F;status&#x2F;2093354097122455713</a><p><a href=\"https:&#x2F;&#x2F;z.ai&#x2F;blog&#x2F;glm-5.3\" rel=\"nofollow\">https:&#x2F;&#x2F;z.ai&#x2F;blog&#x2F;glm-5.3</a>",
       "url": "https://huggingface.co/zai-org/GLM-5.3",
-      "score": 796,
-      "comments": 277,
+      "score": 800,
+      "comments": 280,
       "owner": "jeudesprits"
     },
     {
       "title": "Small Models Have Arrived",
       "description": "",
       "url": "https://calv.info/small-models-have-arrived",
-      "score": 794,
-      "comments": 346,
+      "score": 796,
+      "comments": 348,
       "owner": "tosh"
+    },
+    {
+      "title": "Microduck",
+      "description": "",
+      "url": "https://pollen-robotics.com/microduck/",
+      "score": 774,
+      "comments": 247,
+      "owner": "robotswantdata"
     }
   ]
 }
