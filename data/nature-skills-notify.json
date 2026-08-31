@@ -1,20 +1,30 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-08-30T18:05:53Z",
+  "changed": true,
+  "fetchedAt": "2026-08-31T08:43:58Z",
   "previousSha": "bd4e415c1dcaf6df4ca701f8f8492a97e4b49921",
-  "latestSha": "bd4e415c1dcaf6df4ca701f8f8492a97e4b49921",
+  "latestSha": "2fc270f1ab43826ebff618dff9853a1c0a58f597",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "chore: update star history",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/bd4e415c1dcaf6df4ca701f8f8492a97e4b49921",
-    "sha": "bd4e415",
-    "published": "2026-08-28"
+    "title": "feat: 添加 Codex 插件页面 (#210)",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/2fc270f1ab43826ebff618dff9853a1c0a58f597",
+    "sha": "2fc270f",
+    "published": "2026-08-31"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "feat: 添加 Codex 插件页面 (#210)",
+      "sha": "2fc270f",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/2fc270f1ab43826ebff618dff9853a1c0a58f597"
+    },
+    {
+      "title": "chore: update star history",
+      "sha": "133ad60",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/133ad6044c09dff9f18149518d2ac31355e29e80"
+    },
     {
       "title": "chore: update star history",
       "sha": "bd4e415",
@@ -29,16 +39,6 @@
       "title": "feat(nature-figure): add render-time panel alignment gate (#208)",
       "sha": "8630593",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/8630593a086755d2003cbd1a79cd1118c6963202"
-    },
-    {
-      "title": "chore: update star history",
-      "sha": "3817cd1",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/3817cd194c31010febb1312ab786e53cd8154333"
-    },
-    {
-      "title": "fix: prefer modern PyMuPDF import (#207)",
-      "sha": "558eae5",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/558eae555d64e09b152efc449ca274bbd7747947"
     }
   ]
 }

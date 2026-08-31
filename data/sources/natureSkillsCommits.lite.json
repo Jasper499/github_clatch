@@ -1,12 +1,32 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-08-30T18:05:53Z",
+  "savedAt": "2026-08-31T08:43:58Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "bd4e415c1dcaf6df4ca701f8f8492a97e4b49921",
+  "latestSha": "2fc270f1ab43826ebff618dff9853a1c0a58f597",
   "items": [
+    {
+      "title": "feat: 添加 Codex 插件页面 (#210)",
+      "description": "feat: 添加 Codex 插件页面 (#210)",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/2fc270f1ab43826ebff618dff9853a1c0a58f597",
+      "sha": "2fc270f",
+      "fullSha": "2fc270f1ab43826ebff618dff9853a1c0a58f597",
+      "owner": "JHees",
+      "published": "2026-08-31",
+      "label": "commit"
+    },
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/133ad6044c09dff9f18149518d2ac31355e29e80",
+      "sha": "133ad60",
+      "fullSha": "133ad6044c09dff9f18149518d2ac31355e29e80",
+      "owner": "github-actions",
+      "published": "2026-08-31",
+      "label": "commit"
+    },
     {
       "title": "chore: update star history",
       "description": "chore: update star history",
@@ -134,26 +154,6 @@
       "sha": "8349383",
       "fullSha": "83493833404c402dce8c81d1d2eba26bd253aa13",
       "owner": "Travisma2233",
-      "published": "2026-08-18",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #200 from Paul-Jeo/agent/english-image2ppt-descrip…",
-      "description": "Merge pull request #200 from Paul-Jeo/agent/english-image2ppt-description\n\nchore: align Image2PPT metadata and CI dependencies",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/44defbcce0b8534f9a0a4734f56c40e4f703bbf4",
-      "sha": "44defbc",
-      "fullSha": "44defbcce0b8534f9a0a4734f56c40e4f703bbf4",
-      "owner": "Yuan1z0825",
-      "published": "2026-08-18",
-      "label": "commit"
-    },
-    {
-      "title": "ci: install LibreOffice for Image2PPT tests",
-      "description": "ci: install LibreOffice for Image2PPT tests",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/9729295f7e3cfe33762ed96664d6532ac4708fe5",
-      "sha": "9729295",
-      "fullSha": "9729295f7e3cfe33762ed96664d6532ac4708fe5",
-      "owner": "Paul-Jeo",
       "published": "2026-08-18",
       "label": "commit"
     }
