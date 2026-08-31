@@ -6,148 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E7%94%B7%E7%AF%AEvs%E9%BB%8E%E5%B7%B4%E5%AB%A9%E7%94%B7%E7%AF%AE&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E7%94%B7%E7%AF%AEvs%E9%BB%8E%E5%B7%B4%E5%AB%A9%E7%94%B7%E7%AF%AE&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 中国男篮vs黎巴嫩男篮",
-      "date_published": "2026-08-31T13:34:34Z"
+      "id": "hackernews:https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
+      "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
+      "title": "[Hacker News 热门] Nvidia agrees to acquire Hugging Face for $13B",
+      "date_published": "2026-08-31T19:52:34Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E6%9D%A8%E7%80%9A%E6%A3%AE%E7%BB%9D%E6%9D%80%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%A8%E7%80%9A%E6%A3%AE%E7%BB%9D%E6%9D%80%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 杨瀚森绝杀",
-      "date_published": "2026-08-31T13:34:34Z"
+      "id": "hackernews:https://www.theguardian.com/music/2026/aug/25/dolly-parton-country-singer-dead",
+      "url": "https://www.theguardian.com/music/2026/aug/25/dolly-parton-country-singer-dead",
+      "title": "[Hacker News 热门] Dolly Parton has died",
+      "date_published": "2026-08-31T19:52:34Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%A4%9A%E6%9E%B6%E6%AC%A1%E7%9B%B4%E5%8D%87%E6%9C%BA%E9%A9%B0%E6%8F%B4%E5%90%89%E9%9A%86%E7%81%BE%E5%8C%BA%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%9A%E6%9E%B6%E6%AC%A1%E7%9B%B4%E5%8D%87%E6%9C%BA%E9%A9%B0%E6%8F%B4%E5%90%89%E9%9A%86%E7%81%BE%E5%8C%BA%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 多架次直升机驰援吉隆灾区",
-      "date_published": "2026-08-31T13:34:34Z"
+      "id": "hackernews:https://people.kernel.org/monsieuricon/creepy-crawlies",
+      "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
+      "title": "[Hacker News 热门] Creepy Crawlies",
+      "date_published": "2026-08-31T19:52:34Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E8%BF%98%E6%88%91%E5%AD%A3%E6%B4%81&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E8%BF%98%E6%88%91%E5%AD%A3%E6%B4%81&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 还我季洁",
-      "date_published": "2026-08-31T13:34:34Z"
+      "id": "hackernews:https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
+      "title": "[Hacker News 热门] Apple introduces M6 and M5 Ultra",
+      "date_published": "2026-08-31T19:52:34Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E6%9D%A8%E7%80%9A%E6%A3%AE%E7%8A%B6%E6%80%81&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E6%9D%A8%E7%80%9A%E6%A3%AE%E7%8A%B6%E6%80%81&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 杨瀚森状态",
-      "date_published": "2026-08-31T13:34:34Z"
+      "id": "hackernews:https://github.com/zedeus/nitter/issues/1442",
+      "url": "https://github.com/zedeus/nitter/issues/1442",
+      "title": "[Hacker News 热门] Nitter and XCancel receive cease and desist notices",
+      "date_published": "2026-08-31T19:52:34Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%90%89%E9%9A%86%E5%8F%A3%E5%B2%B8%E5%94%AF%E4%B8%80%E8%83%BD%E7%9C%8B%E5%88%B0%E7%9A%84%E5%BB%BA%E7%AD%91%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%90%89%E9%9A%86%E5%8F%A3%E5%B2%B8%E5%94%AF%E4%B8%80%E8%83%BD%E7%9C%8B%E5%88%B0%E7%9A%84%E5%BB%BA%E7%AD%91%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 吉隆口岸唯一能看到的建筑",
-      "date_published": "2026-08-31T13:34:34Z"
+      "id": "hackernews:https://unsung.aresluna.org/i-just-chose-words-carefully/",
+      "url": "https://unsung.aresluna.org/i-just-chose-words-carefully/",
+      "title": "[Hacker News 热门] “I just chose words carefully”",
+      "date_published": "2026-08-31T19:52:34Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%AD%90%E6%B6%B5%E6%A2%93%E8%90%B1%E7%9A%84%E6%97%B6%E4%BB%A3%E5%B7%B2%E6%88%90%E8%BF%87%E5%8E%BB%E5%BC%8F%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AD%90%E6%B6%B5%E6%A2%93%E8%90%B1%E7%9A%84%E6%97%B6%E4%BB%A3%E5%B7%B2%E6%88%90%E8%BF%87%E5%8E%BB%E5%BC%8F%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 子涵梓萱的时代已成过去式",
-      "date_published": "2026-08-31T13:34:34Z"
+      "id": "hackernews:https://z.ai/blog/glm-5.3-flash",
+      "url": "https://z.ai/blog/glm-5.3-flash",
+      "title": "[Hacker News 热门] GLM-5.3-Flash",
+      "date_published": "2026-08-31T19:52:34Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E9%87%8D%E6%A1%88%E5%85%AD%E7%BB%84&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E9%87%8D%E6%A1%88%E5%85%AD%E7%BB%84&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 重案六组",
-      "date_published": "2026-08-31T13:34:34Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E7%94%B7%E7%AF%AE%E5%8D%8A%E5%9C%BA%E9%A2%86%E5%85%88%E9%BB%8E%E5%B7%B4%E5%AB%A9%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E7%94%B7%E7%AF%AE%E5%8D%8A%E5%9C%BA%E9%A2%86%E5%85%88%E9%BB%8E%E5%B7%B4%E5%AB%A9%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 中国男篮半场领先黎巴嫩",
-      "date_published": "2026-08-31T13:34:34Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E5%8D%8A%E6%98%AF%E8%9C%9C%E7%B3%96%E5%8D%8A%E6%98%AF%E4%BC%A4%20%E4%BA%8E%E4%B8%AD%E4%B8%AD%E5%B7%85%E5%B3%B0&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%8D%8A%E6%98%AF%E8%9C%9C%E7%B3%96%E5%8D%8A%E6%98%AF%E4%BC%A4%20%E4%BA%8E%E4%B8%AD%E4%B8%AD%E5%B7%85%E5%B3%B0&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 半是蜜糖半是伤 于中中巅峰",
-      "date_published": "2026-08-31T13:34:34Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E6%9D%A8%E7%80%9A%E6%A3%AE%E7%BB%9D%E6%9D%80%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%A8%E7%80%9A%E6%A3%AE%E7%BB%9D%E6%9D%80%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 杨瀚森绝杀",
-      "date_published": "2026-08-31T13:34:34Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%B7%A9%E4%BF%90%E8%A2%AB%E6%98%93%E7%83%8A%E5%8D%83%E7%8E%BA%E9%80%97%E7%AC%91%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%B7%A9%E4%BF%90%E8%A2%AB%E6%98%93%E7%83%8A%E5%8D%83%E7%8E%BA%E9%80%97%E7%AC%91%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 巩俐被易烊千玺逗笑",
-      "date_published": "2026-08-31T13:34:34Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E6%9D%A8%E7%80%9A%E6%A3%AE%E7%8A%B6%E6%80%81&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E6%9D%A8%E7%80%9A%E6%A3%AE%E7%8A%B6%E6%80%81&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 杨瀚森状态",
-      "date_published": "2026-08-31T13:34:34Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E4%B9%9D%E5%B0%BE%E7%9A%84plog%E6%98%AF%E4%BC%9A%E5%8A%A8%E7%9A%84&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E4%B9%9D%E5%B0%BE%E7%9A%84plog%E6%98%AF%E4%BC%9A%E5%8A%A8%E7%9A%84&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 九尾的plog是会动的",
-      "date_published": "2026-08-31T13:34:34Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E4%B8%83%E6%97%AC%E8%80%81%E4%BA%BA2%E5%A4%A9%E8%A2%AB%E6%8B%94%E9%99%A421%E9%A2%97%E7%89%99%E9%BD%BF%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%83%E6%97%AC%E8%80%81%E4%BA%BA2%E5%A4%A9%E8%A2%AB%E6%8B%94%E9%99%A421%E9%A2%97%E7%89%99%E9%BD%BF%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 七旬老人2天被拔除21颗牙齿",
-      "date_published": "2026-08-31T13:34:34Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E5%BD%B1%E5%9D%9B%E6%9C%80%E6%8B%85%E5%BF%83%E7%9A%84%E4%BA%8B%E6%9D%A5%E4%BA%86&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E5%BD%B1%E5%9D%9B%E6%9C%80%E6%8B%85%E5%BF%83%E7%9A%84%E4%BA%8B%E6%9D%A5%E4%BA%86&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 中国影坛最担心的事来了",
-      "date_published": "2026-08-31T13:34:34Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%A4%9A%E6%9E%B6%E6%AC%A1%E7%9B%B4%E5%8D%87%E6%9C%BA%E9%A9%B0%E6%8F%B4%E5%90%89%E9%9A%86%E7%81%BE%E5%8C%BA%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%9A%E6%9E%B6%E6%AC%A1%E7%9B%B4%E5%8D%87%E6%9C%BA%E9%A9%B0%E6%8F%B4%E5%90%89%E9%9A%86%E7%81%BE%E5%8C%BA%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 多架次直升机驰援吉隆灾区",
-      "date_published": "2026-08-31T13:34:34Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%90%89%E9%9A%86%E5%8F%A3%E5%B2%B8%E5%94%AF%E4%B8%80%E8%83%BD%E7%9C%8B%E5%88%B0%E7%9A%84%E5%BB%BA%E7%AD%91%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%90%89%E9%9A%86%E5%8F%A3%E5%B2%B8%E5%94%AF%E4%B8%80%E8%83%BD%E7%9C%8B%E5%88%B0%E7%9A%84%E5%BB%BA%E7%AD%91%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 吉隆口岸唯一能看到的建筑",
-      "date_published": "2026-08-31T13:34:34Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%AD%90%E6%B6%B5%E6%A2%93%E8%90%B1%E7%9A%84%E6%97%B6%E4%BB%A3%E5%B7%B2%E6%88%90%E8%BF%87%E5%8E%BB%E5%BC%8F%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AD%90%E6%B6%B5%E6%A2%93%E8%90%B1%E7%9A%84%E6%97%B6%E4%BB%A3%E5%B7%B2%E6%88%90%E8%BF%87%E5%8E%BB%E5%BC%8F%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 子涵梓萱的时代已成过去式",
-      "date_published": "2026-08-31T13:34:34Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%B1%B1%E5%A7%869%E4%B8%AA%E6%9C%88%E5%8D%96%E4%BA%86100%E4%B8%87%E4%B8%AA%E4%BC%9A%E5%91%98%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%B1%B1%E5%A7%869%E4%B8%AA%E6%9C%88%E5%8D%96%E4%BA%86100%E4%B8%87%E4%B8%AA%E4%BC%9A%E5%91%98%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 山姆9个月卖了100万个会员",
-      "date_published": "2026-08-31T13:34:34Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E7%BD%91%E7%BA%A2%E5%BA%97%E5%9B%9E%E5%BA%94%E4%B8%A4%E5%9D%97%E6%A6%B4%E8%8E%B2370%E5%85%83%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%BD%91%E7%BA%A2%E5%BA%97%E5%9B%9E%E5%BA%94%E4%B8%A4%E5%9D%97%E6%A6%B4%E8%8E%B2370%E5%85%83%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 网红店回应两块榴莲370元",
-      "date_published": "2026-08-31T13:34:34Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E4%B8%83%E6%97%AC%E8%80%81%E4%BA%BA2%E5%A4%A9%E8%A2%AB%E6%8B%94%E9%99%A421%E9%A2%97%E7%89%99%E9%BD%BF%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%83%E6%97%AC%E8%80%81%E4%BA%BA2%E5%A4%A9%E8%A2%AB%E6%8B%94%E9%99%A421%E9%A2%97%E7%89%99%E9%BD%BF%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 七旬老人2天被拔除21颗牙齿",
-      "date_published": "2026-08-31T13:34:34Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E5%87%BA%E7%94%9F%E4%BA%BA%E5%8F%A3%20%E5%8F%8C%E4%BC%91%E8%90%BD%E5%AE%9E&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%87%BA%E7%94%9F%E4%BA%BA%E5%8F%A3%20%E5%8F%8C%E4%BC%91%E8%90%BD%E5%AE%9E&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 出生人口 双休落实",
-      "date_published": "2026-08-31T13:34:34Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E4%B8%89%E7%94%B2%E5%8C%BB%E9%99%A2%20%E8%A7%A3%E8%81%98&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E4%B8%89%E7%94%B2%E5%8C%BB%E9%99%A2%20%E8%A7%A3%E8%81%98&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 三甲医院 解聘",
-      "date_published": "2026-08-31T13:34:34Z"
+      "id": "hackernews:https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws",
+      "url": "https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws",
+      "title": "[Hacker News 热门] AWS Acquires DuckLabs",
+      "date_published": "2026-08-31T19:52:34Z"
     }
   ]
 }
