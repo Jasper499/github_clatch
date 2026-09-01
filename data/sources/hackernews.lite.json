@@ -1,17 +1,17 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-08-31T19:52:34Z",
+  "savedAt": "2026-09-01T07:30:57Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-08-31，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-09-01，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-08-31",
+  "fetchedDate": "2026-09-01",
   "items": [
     {
       "title": "Nvidia agrees to acquire Hugging Face for $13B",
       "description": "<a href=\"https:&#x2F;&#x2F;www.theinformation.com&#x2F;articles&#x2F;nvidia-agrees-buy-open-source-model-repository-hugging-face-12-9-billion?utm_campaign=article_email&amp;utm_content=article-17723\" rel=\"nofollow\">https:&#x2F;&#x2F;www.theinformation.com&#x2F;articles&#x2F;nvidia-agrees-buy-op...</a> (paywalled)<p><a href=\"https:&#x2F;&#x2F;techcrunch.com&#x2F;2026&#x2F;08&#x2F;24&#x2F;hugging-face-reportedly-in-talks-to-be-acquired-for-13b&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;techcrunch.com&#x2F;2026&#x2F;08&#x2F;24&#x2F;hugging-face-reportedly-in...</a>",
       "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
-      "score": 1977,
-      "comments": 911,
+      "score": 1979,
+      "comments": 917,
       "owner": "mfiguiere"
     },
     {
@@ -26,23 +26,23 @@
       "title": "Creepy Crawlies",
       "description": "",
       "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
-      "score": 1321,
-      "comments": 663,
+      "score": 1336,
+      "comments": 687,
       "owner": "zdw"
     },
     {
       "title": "Apple introduces M6 and M5 Ultra",
       "description": "<a href=\"https:&#x2F;&#x2F;techcrunch.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;apple-debuts-its-most-powerful-chip-ever-in-m5-ultra-and-m6&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;techcrunch.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;apple-debuts-its-most-powe...</a><p><a href=\"https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;m6-mac-mini-vs-m4-mac-mini-here-are-all-the-new-features&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;m6-mac-mini-vs-m4-mac-mini-he...</a>",
       "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
-      "score": 1310,
-      "comments": 1299,
+      "score": 1311,
+      "comments": 1300,
       "owner": "interpol_p"
     },
     {
       "title": "Nitter and XCancel receive cease and desist notices",
       "description": "<a href=\"https:&#x2F;&#x2F;github.com&#x2F;zedeus&#x2F;nitter&#x2F;issues&#x2F;1442\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;zedeus&#x2F;nitter&#x2F;issues&#x2F;1442</a><p><a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;</a>",
       "url": "https://github.com/zedeus/nitter/issues/1442",
-      "score": 1209,
+      "score": 1210,
       "comments": 1348,
       "owner": "Banditoz"
     },
@@ -50,8 +50,8 @@
       "title": "“I just chose words carefully”",
       "description": "",
       "url": "https://unsung.aresluna.org/i-just-chose-words-carefully/",
-      "score": 1147,
-      "comments": 335,
+      "score": 1197,
+      "comments": 343,
       "owner": "zdw"
     },
     {
@@ -59,7 +59,7 @@
       "description": "<a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49450353\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49450353</a>",
       "url": "https://z.ai/blog/glm-5.3-flash",
       "score": 1130,
-      "comments": 576,
+      "comments": 577,
       "owner": "Philpax"
     },
     {
@@ -67,14 +67,14 @@
       "description": "",
       "url": "https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws",
       "score": 1102,
-      "comments": 316,
+      "comments": 317,
       "owner": "onderkalaci"
     },
     {
       "title": "GUIs should be fully keyboard-driven",
       "description": "",
       "url": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
-      "score": 1045,
+      "score": 1046,
       "comments": 517,
       "owner": "ckardaris"
     },
@@ -82,7 +82,7 @@
       "title": "CEO fired developers to make room for AI. Developers create open source AI CEO",
       "description": "",
       "url": "https://github.com/SenteLabsAI/OpenExecutive",
-      "score": 1029,
+      "score": 1030,
       "comments": 717,
       "owner": "GrumpySciGuy"
     },
@@ -90,8 +90,8 @@
       "title": "Saving 100 terabytes of memory by optimizing 1.1.1.1's DNS cache",
       "description": "",
       "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
-      "score": 920,
-      "comments": 283,
+      "score": 921,
+      "comments": 284,
       "owner": "TangerineDream"
     },
     {
@@ -99,7 +99,7 @@
       "description": "",
       "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
       "score": 844,
-      "comments": 534,
+      "comments": 537,
       "owner": "meetpateltech"
     },
     {
@@ -107,7 +107,7 @@
       "description": "",
       "url": "https://www.wsj.com/politics/policy/u-s-state-department-pauses-immigrant-visa-applications-25b31b23",
       "score": 838,
-      "comments": 1437,
+      "comments": 1440,
       "owner": "sss111"
     },
     {
@@ -115,22 +115,22 @@
       "description": "",
       "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/",
       "score": 823,
-      "comments": 559,
+      "comments": 560,
       "owner": "interpol_p"
     },
     {
       "title": "Htmx 4.0",
       "description": "",
       "url": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
-      "score": 821,
-      "comments": 240,
+      "score": 822,
+      "comments": 241,
       "owner": "rmsaksida"
     },
     {
       "title": "GLM-5.3 is now open-weight",
       "description": "<a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;Zai_org&#x2F;status&#x2F;2093354097122455713\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;Zai_org&#x2F;status&#x2F;2093354097122455713</a><p><a href=\"https:&#x2F;&#x2F;z.ai&#x2F;blog&#x2F;glm-5.3\" rel=\"nofollow\">https:&#x2F;&#x2F;z.ai&#x2F;blog&#x2F;glm-5.3</a>",
       "url": "https://huggingface.co/zai-org/GLM-5.3",
-      "score": 802,
+      "score": 803,
       "comments": 281,
       "owner": "jeudesprits"
     },
@@ -146,15 +146,15 @@
       "title": "California lawmakers unanimously pass Linux exemption from age-verification law",
       "description": "",
       "url": "https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt",
-      "score": 779,
-      "comments": 391,
+      "score": 791,
+      "comments": 399,
       "owner": "shscs911"
     },
     {
       "title": "Microduck",
       "description": "",
       "url": "https://pollen-robotics.com/microduck/",
-      "score": 777,
+      "score": 780,
       "comments": 252,
       "owner": "robotswantdata"
     },
@@ -162,7 +162,7 @@
       "title": "Get your Windows license refund",
       "description": "",
       "url": "https://en.refund4freedom.org/",
-      "score": 734,
+      "score": 735,
       "comments": 337,
       "owner": "smartmic"
     }
