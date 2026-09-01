@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-08-31T20:12:12Z",
+  "savedAt": "2026-09-01T07:52:52Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "2fc270f1ab43826ebff618dff9853a1c0a58f597",
+  "latestSha": "ebd722e18808442688bd205917a3e774195c258f",
   "items": [
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/ebd722e18808442688bd205917a3e774195c258f",
+      "sha": "ebd722e",
+      "fullSha": "ebd722e18808442688bd205917a3e774195c258f",
+      "owner": "github-actions",
+      "published": "2026-09-01",
+      "label": "commit"
+    },
     {
       "title": "feat: 添加 Codex 插件页面 (#210)",
       "description": "feat: 添加 Codex 插件页面 (#210)",
@@ -145,16 +155,6 @@
       "fullSha": "96e41d3348748796c239cf5cb85bd947e5b02d38",
       "owner": "github-actions",
       "published": "2026-08-19",
-      "label": "commit"
-    },
-    {
-      "title": "fix: harden Image2PPT validation boundaries (#201)",
-      "description": "fix: harden Image2PPT validation boundaries (#201)\n\n* fix: make image2ppt runtime reproducible\n\n* fix: harden image2ppt validation boundaries\n\n* fix: separate portable and rendering tests\n\n* test: restore visual evidence helper",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/83493833404c402dce8c81d1d2eba26bd253aa13",
-      "sha": "8349383",
-      "fullSha": "83493833404c402dce8c81d1d2eba26bd253aa13",
-      "owner": "Travisma2233",
-      "published": "2026-08-18",
       "label": "commit"
     }
   ]
