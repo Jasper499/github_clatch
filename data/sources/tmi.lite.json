@@ -1,8 +1,8 @@
 {
   "sourceKey": "tmi",
-  "savedAt": "2026-08-15T02:43:06Z",
+  "savedAt": "2026-09-01T06:53:55Z",
   "label": "IEEE Transactions on Medical Imaging",
-  "description": "近 45 天 TMI 期刊 MRI 相关论文（2026-07-01 ~ 2026-08-15，共 6 篇，本地已存 OA PDF 2 篇）",
+  "description": "近 45 天 TMI 期刊 MRI 相关论文（2026-07-18 ~ 2026-09-01，共 6 篇，本地已存 OA PDF 2 篇）",
   "updateFrequency": "biweekly",
   "items": [
     {
@@ -48,20 +48,6 @@
       "pdfSourceUrl": "https://arxiv.org/pdf/2506.17501"
     },
     {
-      "title": "Modeling Aleatoric Uncertainty in Cardiac MRI Segmentation: Probabilistic Detection and Contour Regression",
-      "description": "Accurate segmentation of cardiac MRI is essential for assessment of cardiac function through biomarkers such as the left and right ventricular ejection fraction (LVEF, RVEF). Although AI methods have achieved high average segmentation accuracy, the precision of biomarkers for individual patients–quantified by estimatio…",
-      "url": "https://doi.org/10.1109/tmi.2026.3702822",
-      "doi": "10.1109/tmi.2026.3702822",
-      "authors": "Yidong Zhao, Yi Zhang, Joao Tourais, Sebastian Weingartner, et al.",
-      "published": "2026-08-01",
-      "journal": "TMI",
-      "owner": "TMI",
-      "isOpenAccess": true,
-      "pdfAvailable": false,
-      "pdfUrl": null,
-      "pdfSourceUrl": "https://doi.org/10.1109/tmi.2026.3702822"
-    },
-    {
       "title": "Self-Supervised T2WI-Bridged Framework for Liver Segmentation and PDFF Prediction From US Images",
       "description": "Proton Density Fat Fraction (PDFF) is the gold standard for non-invasive fatty liver diagnosis, but its reliance on Magnetic Resonance Imaging (MRI) limits broad clinical applicability. Motivated by the accessibility of B-mode Ultrasound (US) in fatty liver assessment, we propose a novel framework for liver segmentatio…",
       "url": "https://doi.org/10.1109/tmi.2026.3698415",
@@ -74,6 +60,20 @@
       "pdfAvailable": false,
       "pdfUrl": null,
       "pdfSourceUrl": ""
+    },
+    {
+      "title": "Modeling Aleatoric Uncertainty in Cardiac MRI Segmentation: Probabilistic Detection and Contour Regression",
+      "description": "Accurate segmentation of cardiac MRI is essential for assessment of cardiac function through biomarkers such as the left and right ventricular ejection fraction (LVEF, RVEF). Although AI methods have achieved high average segmentation accuracy, the precision of biomarkers for individual patients–quantified by estimatio…",
+      "url": "https://doi.org/10.1109/tmi.2026.3702822",
+      "doi": "10.1109/tmi.2026.3702822",
+      "authors": "Yidong Zhao, Yi Zhang, Joao Tourais, Sebastian Weingartner, et al.",
+      "published": "2026-08-01",
+      "journal": "TMI",
+      "owner": "TMI",
+      "isOpenAccess": true,
+      "pdfAvailable": false,
+      "pdfUrl": null,
+      "pdfSourceUrl": "https://doi.org/10.1109/tmi.2026.3702822"
     },
     {
       "title": "MotionDPS: Motion-Compensated 3-D Brain MRI Reconstruction",
