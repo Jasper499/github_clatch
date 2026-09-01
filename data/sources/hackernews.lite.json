@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-09-01T07:30:57Z",
+  "savedAt": "2026-09-01T17:42:50Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-09-01，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,8 +10,8 @@
       "title": "Nvidia agrees to acquire Hugging Face for $13B",
       "description": "<a href=\"https:&#x2F;&#x2F;www.theinformation.com&#x2F;articles&#x2F;nvidia-agrees-buy-open-source-model-repository-hugging-face-12-9-billion?utm_campaign=article_email&amp;utm_content=article-17723\" rel=\"nofollow\">https:&#x2F;&#x2F;www.theinformation.com&#x2F;articles&#x2F;nvidia-agrees-buy-op...</a> (paywalled)<p><a href=\"https:&#x2F;&#x2F;techcrunch.com&#x2F;2026&#x2F;08&#x2F;24&#x2F;hugging-face-reportedly-in-talks-to-be-acquired-for-13b&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;techcrunch.com&#x2F;2026&#x2F;08&#x2F;24&#x2F;hugging-face-reportedly-in...</a>",
       "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
-      "score": 1979,
-      "comments": 917,
+      "score": 1980,
+      "comments": 922,
       "owner": "mfiguiere"
     },
     {
@@ -26,32 +26,16 @@
       "title": "Creepy Crawlies",
       "description": "",
       "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
-      "score": 1336,
-      "comments": 687,
+      "score": 1350,
+      "comments": 698,
       "owner": "zdw"
-    },
-    {
-      "title": "Apple introduces M6 and M5 Ultra",
-      "description": "<a href=\"https:&#x2F;&#x2F;techcrunch.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;apple-debuts-its-most-powerful-chip-ever-in-m5-ultra-and-m6&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;techcrunch.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;apple-debuts-its-most-powe...</a><p><a href=\"https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;m6-mac-mini-vs-m4-mac-mini-here-are-all-the-new-features&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;m6-mac-mini-vs-m4-mac-mini-he...</a>",
-      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
-      "score": 1311,
-      "comments": 1300,
-      "owner": "interpol_p"
-    },
-    {
-      "title": "Nitter and XCancel receive cease and desist notices",
-      "description": "<a href=\"https:&#x2F;&#x2F;github.com&#x2F;zedeus&#x2F;nitter&#x2F;issues&#x2F;1442\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;zedeus&#x2F;nitter&#x2F;issues&#x2F;1442</a><p><a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;</a>",
-      "url": "https://github.com/zedeus/nitter/issues/1442",
-      "score": 1210,
-      "comments": 1348,
-      "owner": "Banditoz"
     },
     {
       "title": "“I just chose words carefully”",
       "description": "",
       "url": "https://unsung.aresluna.org/i-just-chose-words-carefully/",
-      "score": 1197,
-      "comments": 343,
+      "score": 1222,
+      "comments": 350,
       "owner": "zdw"
     },
     {
@@ -59,7 +43,7 @@
       "description": "<a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49450353\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49450353</a>",
       "url": "https://z.ai/blog/glm-5.3-flash",
       "score": 1130,
-      "comments": 577,
+      "comments": 578,
       "owner": "Philpax"
     },
     {
@@ -74,15 +58,15 @@
       "title": "GUIs should be fully keyboard-driven",
       "description": "",
       "url": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
-      "score": 1046,
-      "comments": 517,
+      "score": 1048,
+      "comments": 522,
       "owner": "ckardaris"
     },
     {
       "title": "CEO fired developers to make room for AI. Developers create open source AI CEO",
       "description": "",
       "url": "https://github.com/SenteLabsAI/OpenExecutive",
-      "score": 1030,
+      "score": 1031,
       "comments": 717,
       "owner": "GrumpySciGuy"
     },
@@ -90,7 +74,7 @@
       "title": "Saving 100 terabytes of memory by optimizing 1.1.1.1's DNS cache",
       "description": "",
       "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
-      "score": 921,
+      "score": 923,
       "comments": 284,
       "owner": "TangerineDream"
     },
@@ -98,31 +82,23 @@
       "title": "Our decision on Cursor following its acquisition by SpaceX",
       "description": "",
       "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
-      "score": 844,
-      "comments": 537,
+      "score": 845,
+      "comments": 539,
       "owner": "meetpateltech"
     },
     {
       "title": "U.S. State Department pauses immigrant visa applications",
       "description": "",
       "url": "https://www.wsj.com/politics/policy/u-s-state-department-pauses-immigrant-visa-applications-25b31b23",
-      "score": 838,
-      "comments": 1440,
+      "score": 839,
+      "comments": 1446,
       "owner": "sss111"
-    },
-    {
-      "title": "New Mac Studio with M5 Max and M5 Ultra",
-      "description": "",
-      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/",
-      "score": 823,
-      "comments": 560,
-      "owner": "interpol_p"
     },
     {
       "title": "Htmx 4.0",
       "description": "",
       "url": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
-      "score": 822,
+      "score": 824,
       "comments": 241,
       "owner": "rmsaksida"
     },
@@ -130,31 +106,31 @@
       "title": "GLM-5.3 is now open-weight",
       "description": "<a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;Zai_org&#x2F;status&#x2F;2093354097122455713\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;Zai_org&#x2F;status&#x2F;2093354097122455713</a><p><a href=\"https:&#x2F;&#x2F;z.ai&#x2F;blog&#x2F;glm-5.3\" rel=\"nofollow\">https:&#x2F;&#x2F;z.ai&#x2F;blog&#x2F;glm-5.3</a>",
       "url": "https://huggingface.co/zai-org/GLM-5.3",
-      "score": 803,
+      "score": 804,
       "comments": 281,
       "owner": "jeudesprits"
-    },
-    {
-      "title": "Small Models Have Arrived",
-      "description": "",
-      "url": "https://calv.info/small-models-have-arrived",
-      "score": 796,
-      "comments": 348,
-      "owner": "tosh"
     },
     {
       "title": "California lawmakers unanimously pass Linux exemption from age-verification law",
       "description": "",
       "url": "https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt",
-      "score": 791,
-      "comments": 399,
+      "score": 798,
+      "comments": 400,
       "owner": "shscs911"
+    },
+    {
+      "title": "Small Models Have Arrived",
+      "description": "",
+      "url": "https://calv.info/small-models-have-arrived",
+      "score": 798,
+      "comments": 348,
+      "owner": "tosh"
     },
     {
       "title": "Microduck",
       "description": "",
       "url": "https://pollen-robotics.com/microduck/",
-      "score": 780,
+      "score": 781,
       "comments": 252,
       "owner": "robotswantdata"
     },
@@ -163,8 +139,32 @@
       "description": "",
       "url": "https://en.refund4freedom.org/",
       "score": 735,
-      "comments": 337,
+      "comments": 346,
       "owner": "smartmic"
+    },
+    {
+      "title": "Google Has Removed MV2 Extensions from the Chrome Web Store, Including UBO",
+      "description": "",
+      "url": "https://webiterate.dev/google-removed-extensions-ublock-origin-108/",
+      "score": 726,
+      "comments": 561,
+      "owner": "twapi"
+    },
+    {
+      "title": "Fastpotify",
+      "description": "",
+      "url": "https://fastpotify.rocks/",
+      "score": 723,
+      "comments": 462,
+      "owner": "nreece"
+    },
+    {
+      "title": "Tim Curry has died",
+      "description": "",
+      "url": "https://www.theguardian.com/film/2026/aug/26/tim-curry-dies-rocky-horror-show-stephen-king-it-legend-film",
+      "score": 723,
+      "comments": 236,
+      "owner": "mykowebhn"
     }
   ]
 }
