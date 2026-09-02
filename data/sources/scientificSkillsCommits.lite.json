@@ -1,12 +1,34 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-09-02T07:18:52Z",
+  "savedAt": "2026-09-02T18:02:14Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "1dd0fccf46fc3c9855c4a0c313a0c57fe4319883",
+  "latestSha": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
   "items": [
+    {
+      "title": "Update version numbers and enhance skill documentation",
+      "description": "Update version numbers and enhance skill documentation\n\n- Bumped version in plugin.json and pyproject.toml to 2.66.0.\n- Updated skill metadata versions across multiple skills, reflecting improvements and new features.\n- Added citation guidelines to various skill documentation to ensure proper referencing of the &quot;Scientific Agent Skills&quot; paper.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/1e5eeffbdad3749125afe7ab48a39694e27f181c",
+      "sha": "1e5eeff",
+      "fullSha": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+      "owner": "TKassis",
+      "published": "2026-09-02",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Enhance README.md with additional citation details and paper reference",
+      "description": "Enhance README.md with additional citation details and paper reference\n\n- Added a new badge linking to the arXiv paper.\n- Updated the citation section to include the full citation for the paper &quot;Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents.&quot;\n- Clarified the importance of citing the paper alongside individual skills used in research.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/bdf385bad5490dc9254bf2050d9ebde1088e9e5b",
+      "sha": "bdf385b",
+      "fullSha": "bdf385bad5490dc9254bf2050d9ebde1088e9e5b",
+      "owner": "TKassis",
+      "published": "2026-09-02",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "Remove Star History section from README.md to streamline content and …",
       "description": "Remove Star History section from README.md to streamline content and focus on essential information.",
@@ -146,28 +168,6 @@
       "sha": "204eef5",
       "fullSha": "204eef574c7a2b81fe72802af650c5226182ad44",
       "owner": "TKassis",
-      "published": "2026-08-17",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Update README to include Star History chart",
-      "description": "Update README to include Star History chart\n\n- Added a new section for Star History with an embedded chart to visualize the repository&#39;s star growth over time.\n- This addition enhances the README by providing insights into the project&#39;s popularity and community engagement.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/4934681cd273d1d41bffe40d3bed0e769dce6ab6",
-      "sha": "4934681",
-      "fullSha": "4934681cd273d1d41bffe40d3bed0e769dce6ab6",
-      "owner": "TKassis",
-      "published": "2026-08-17",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "chore: update security scan report [skip ci]",
-      "description": "chore: update security scan report [skip ci]",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/28f5603bc2b57ca6e2856e87af2e98686b65071f",
-      "sha": "28f5603",
-      "fullSha": "28f5603bc2b57ca6e2856e87af2e98686b65071f",
-      "owner": "github-actions",
       "published": "2026-08-17",
       "label": "commit",
       "repo": "K-Dense-AI/scientific-agent-skills"
