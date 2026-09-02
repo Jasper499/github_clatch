@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-09-02T06:57:07Z",
+  "savedAt": "2026-09-02T17:44:53Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-09-02，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -11,55 +11,39 @@
       "description": "<a href=\"https:&#x2F;&#x2F;www.theinformation.com&#x2F;articles&#x2F;nvidia-agrees-buy-open-source-model-repository-hugging-face-12-9-billion?utm_campaign=article_email&amp;utm_content=article-17723\" rel=\"nofollow\">https:&#x2F;&#x2F;www.theinformation.com&#x2F;articles&#x2F;nvidia-agrees-buy-op...</a> (paywalled)<p><a href=\"https:&#x2F;&#x2F;techcrunch.com&#x2F;2026&#x2F;08&#x2F;24&#x2F;hugging-face-reportedly-in-talks-to-be-acquired-for-13b&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;techcrunch.com&#x2F;2026&#x2F;08&#x2F;24&#x2F;hugging-face-reportedly-in...</a>",
       "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
       "score": 1981,
-      "comments": 922,
+      "comments": 923,
       "owner": "mfiguiere"
     },
     {
       "title": "Creepy Crawlies",
       "description": "",
       "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
-      "score": 1359,
+      "score": 1363,
       "comments": 705,
-      "owner": "zdw"
-    },
-    {
-      "title": "“I just chose words carefully”",
-      "description": "",
-      "url": "https://unsung.aresluna.org/i-just-chose-words-carefully/",
-      "score": 1239,
-      "comments": 353,
       "owner": "zdw"
     },
     {
       "title": "Claude Fable 5.1 and Claude Mythos 5.1",
       "description": "What&#x27;s new in Claude Fable 5.1\n – <a href=\"https:&#x2F;&#x2F;platform.claude.com&#x2F;docs&#x2F;en&#x2F;models&#x2F;fable-5-1&#x2F;whats-new-fable-5-1\" rel=\"nofollow\">https:&#x2F;&#x2F;platform.claude.com&#x2F;docs&#x2F;en&#x2F;models&#x2F;fable-5-1&#x2F;whats-n...</a><p>System Card: <a href=\"https:&#x2F;&#x2F;www-cdn.anthropic.com&#x2F;0339e6a7c5c7b87f5c07798616dc32c215d14235&#x2F;Claude%20Fable%205.1%20&amp;%20Claude%20Mythos%205.1%20System%20Card.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;www-cdn.anthropic.com&#x2F;0339e6a7c5c7b87f5c07798616dc32...</a>",
       "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-      "score": 1134,
-      "comments": 1049,
+      "score": 1358,
+      "comments": 1311,
       "owner": "denysvitali"
     },
     {
-      "title": "GLM-5.3-Flash",
-      "description": "<a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49450353\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49450353</a>",
-      "url": "https://z.ai/blog/glm-5.3-flash",
-      "score": 1130,
-      "comments": 579,
-      "owner": "Philpax"
-    },
-    {
-      "title": "AWS Acquires DuckLabs",
+      "title": "“I just chose words carefully”",
       "description": "",
-      "url": "https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws",
-      "score": 1102,
-      "comments": 317,
-      "owner": "onderkalaci"
+      "url": "https://unsung.aresluna.org/i-just-chose-words-carefully/",
+      "score": 1241,
+      "comments": 354,
+      "owner": "zdw"
     },
     {
       "title": "GUIs should be fully keyboard-driven",
       "description": "",
       "url": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
-      "score": 1049,
-      "comments": 524,
+      "score": 1051,
+      "comments": 525,
       "owner": "ckardaris"
     },
     {
@@ -75,48 +59,56 @@
       "description": "",
       "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
       "score": 924,
-      "comments": 284,
+      "comments": 285,
       "owner": "TangerineDream"
+    },
+    {
+      "title": "Hang on to Your Firefox",
+      "description": "",
+      "url": "https://www.newsonaut.com/articles/hang-on-to-your-firefox",
+      "score": 906,
+      "comments": 487,
+      "owner": "speckx"
     },
     {
       "title": "AnkiDroid: Google Play no longer allowing Open Collective donation link",
       "description": "",
       "url": "https://github.com/ankidroid/Anki-Android/issues/21656",
-      "score": 868,
-      "comments": 256,
+      "score": 899,
+      "comments": 272,
       "owner": "hexa555"
     },
     {
       "title": "Our decision on Cursor following its acquisition by SpaceX",
       "description": "",
       "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
-      "score": 845,
+      "score": 847,
       "comments": 540,
       "owner": "meetpateltech"
     },
     {
-      "title": "U.S. State Department pauses immigrant visa applications",
+      "title": "Fastpotify",
       "description": "",
-      "url": "https://www.wsj.com/politics/policy/u-s-state-department-pauses-immigrant-visa-applications-25b31b23",
-      "score": 839,
-      "comments": 1449,
-      "owner": "sss111"
+      "url": "https://fastpotify.rocks/",
+      "score": 831,
+      "comments": 552,
+      "owner": "nreece"
+    },
+    {
+      "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
+      "description": "",
+      "url": "https://danluu.com/zitron/",
+      "score": 825,
+      "comments": 950,
+      "owner": "jatins"
     },
     {
       "title": "Htmx 4.0",
       "description": "",
       "url": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
       "score": 824,
-      "comments": 244,
+      "comments": 248,
       "owner": "rmsaksida"
-    },
-    {
-      "title": "Fastpotify",
-      "description": "",
-      "url": "https://fastpotify.rocks/",
-      "score": 817,
-      "comments": 539,
-      "owner": "nreece"
     },
     {
       "title": "GLM-5.3 is now open-weight",
@@ -130,7 +122,7 @@
       "title": "California lawmakers unanimously pass Linux exemption from age-verification law",
       "description": "",
       "url": "https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt",
-      "score": 800,
+      "score": 801,
       "comments": 402,
       "owner": "shscs911"
     },
@@ -151,20 +143,28 @@
       "owner": "robotswantdata"
     },
     {
-      "title": "Hang on to Your Firefox",
-      "description": "",
-      "url": "https://www.newsonaut.com/articles/hang-on-to-your-firefox",
-      "score": 776,
-      "comments": 401,
-      "owner": "speckx"
-    },
-    {
       "title": "Google Has Removed MV2 Extensions from the Chrome Web Store, Including UBO",
       "description": "",
       "url": "https://webiterate.dev/google-removed-extensions-ublock-origin-108/",
-      "score": 747,
-      "comments": 595,
+      "score": 754,
+      "comments": 607,
       "owner": "twapi"
+    },
+    {
+      "title": "Playa Phone",
+      "description": "",
+      "url": "https://playaphone.com/",
+      "score": 747,
+      "comments": 228,
+      "owner": "cutoff"
+    },
+    {
+      "title": "Get your Windows license refund",
+      "description": "",
+      "url": "https://en.refund4freedom.org/",
+      "score": 737,
+      "comments": 349,
+      "owner": "smartmic"
     }
   ]
 }
