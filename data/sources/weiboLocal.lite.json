@@ -1,110 +1,130 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-09-02T16:29:45Z",
+  "savedAt": "2026-09-02T20:57:53Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-09-02，共 10 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-09-02，共 12 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-09-02",
   "items": [
     {
-      "title": "家长在班级群自报干部身份",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AE%B6%E9%95%BF%E5%9C%A8%E7%8F%AD%E7%BA%A7%E7%BE%A4%E8%87%AA%E6%8A%A5%E5%B9%B2%E9%83%A8%E8%BA%AB%E4%BB%BD%23&t=31&band_rank=1&Refer=top",
-      "score": 889945,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1788365420
-    },
-    {
-      "title": "张雪惊讶97岁李锦记掌门人喝冰可乐",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%BC%A0%E9%9B%AA%E6%83%8A%E8%AE%B697%E5%B2%81%E6%9D%8E%E9%94%A6%E8%AE%B0%E6%8E%8C%E9%97%A8%E4%BA%BA%E5%96%9D%E5%86%B0%E5%8F%AF%E4%B9%90%23&t=31&band_rank=1&Refer=top",
-      "score": 262228,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1788354861
-    },
-    {
       "title": "吉隆泥石流遇难21人失联541人",
       "description": "突发/灾害",
       "url": "https://s.weibo.com/weibo?q=%23%E5%90%89%E9%9A%86%E6%B3%A5%E7%9F%B3%E6%B5%81%E9%81%87%E9%9A%BE21%E4%BA%BA%E5%A4%B1%E8%81%94541%E4%BA%BA%23&t=31&band_rank=1&Refer=top",
-      "score": 211939,
+      "score": 34132,
       "owner": "微博同城",
       "label": "",
       "category": "突发/灾害",
       "onboardTime": 1788351981
     },
     {
-      "title": "没有性生活也有必要打HPV疫苗",
-      "description": "热 · 民生新闻,健康医疗",
-      "url": "https://s.weibo.com/weibo?q=%E6%B2%A1%E6%9C%89%E6%80%A7%E7%94%9F%E6%B4%BB%E4%B9%9F%E6%9C%89%E5%BF%85%E8%A6%81%E6%89%93HPV%E7%96%AB%E8%8B%97&t=31&band_rank=1&Refer=top",
-      "score": 195094,
+      "title": "家长在班级群自报干部身份",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%AE%B6%E9%95%BF%E5%9C%A8%E7%8F%AD%E7%BA%A7%E7%BE%A4%E8%87%AA%E6%8A%A5%E5%B9%B2%E9%83%A8%E8%BA%AB%E4%BB%BD%23&t=31&band_rank=1&Refer=top",
+      "score": 29474,
       "owner": "微博同城",
       "label": "热",
-      "category": "民生新闻,健康医疗",
-      "onboardTime": 1788345981
-    },
-    {
-      "title": "一针99万元外国人来中国抗癌",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%80%E9%92%8899%E4%B8%87%E5%85%83%E5%A4%96%E5%9B%BD%E4%BA%BA%E6%9D%A5%E4%B8%AD%E5%9B%BD%E6%8A%97%E7%99%8C%23&t=31&band_rank=1&Refer=top",
-      "score": 174405,
-      "owner": "微博同城",
-      "label": "",
       "category": "民生新闻",
-      "onboardTime": 1788357141
+      "onboardTime": 1788365420
     },
     {
       "title": "幼儿园上午开学下午停办",
-      "description": "新 · 民生新闻",
+      "description": "热 · 民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E5%B9%BC%E5%84%BF%E5%9B%AD%E4%B8%8A%E5%8D%88%E5%BC%80%E5%AD%A6%E4%B8%8B%E5%8D%88%E5%81%9C%E5%8A%9E%23&t=31&band_rank=1&Refer=top",
-      "score": 174039,
+      "score": 29130,
       "owner": "微博同城",
-      "label": "新",
+      "label": "热",
       "category": "民生新闻",
       "onboardTime": 1788366078
     },
     {
-      "title": "港交所核查星宇批量劝退应届生",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B8%AF%E4%BA%A4%E6%89%80%E6%A0%B8%E6%9F%A5%E6%98%9F%E5%AE%87%E6%89%B9%E9%87%8F%E5%8A%9D%E9%80%80%E5%BA%94%E5%B1%8A%E7%94%9F%23&t=31&band_rank=1&Refer=top",
-      "score": 137756,
+      "title": "没有性生活也有必要打HPV疫苗",
+      "description": "民生新闻,健康医疗",
+      "url": "https://s.weibo.com/weibo?q=%E6%B2%A1%E6%9C%89%E6%80%A7%E7%94%9F%E6%B4%BB%E4%B9%9F%E6%9C%89%E5%BF%85%E8%A6%81%E6%89%93HPV%E7%96%AB%E8%8B%97&t=31&band_rank=1&Refer=top",
+      "score": 25779,
       "owner": "微博同城",
-      "label": "新",
+      "label": "",
+      "category": "民生新闻,健康医疗",
+      "onboardTime": 1788345981
+    },
+    {
+      "title": "张雪惊讶97岁李锦记掌门人喝冰可乐",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%BC%A0%E9%9B%AA%E6%83%8A%E8%AE%B697%E5%B2%81%E6%9D%8E%E9%94%A6%E8%AE%B0%E6%8E%8C%E9%97%A8%E4%BA%BA%E5%96%9D%E5%86%B0%E5%8F%AF%E4%B9%90%23&t=31&band_rank=1&Refer=top",
+      "score": 25393,
+      "owner": "微博同城",
+      "label": "",
       "category": "民生新闻",
-      "onboardTime": 1788364101
+      "onboardTime": 1788354861
     },
     {
       "title": "爸爸牺牲妈妈瞒10年儿子考上军校",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E7%88%B8%E7%88%B8%E7%89%BA%E7%89%B2%E5%A6%88%E5%A6%88%E7%9E%9210%E5%B9%B4%E5%84%BF%E5%AD%90%E8%80%83%E4%B8%8A%E5%86%9B%E6%A0%A1%23&t=31&band_rank=1&Refer=top",
-      "score": 124608,
+      "score": 25015,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1788356842
     },
     {
-      "title": "女子喝冰冻可乐瞬间满嘴血",
+      "title": "温州停课",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E5%96%9D%E5%86%B0%E5%86%BB%E5%8F%AF%E4%B9%90%E7%9E%AC%E9%97%B4%E6%BB%A1%E5%98%B4%E8%A1%80%23&t=31&band_rank=1&Refer=top",
-      "score": 108931,
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B8%A9%E5%B7%9E%E5%81%9C%E8%AF%BE%23&t=31&band_rank=1&Refer=top",
+      "score": 24976,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1788340520
+      "onboardTime": 1788369557
+    },
+    {
+      "title": "每个中国人都该记住0903",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E6%AF%8F%E4%B8%AA%E4%B8%AD%E5%9B%BD%E4%BA%BA%E9%83%BD%E8%AF%A5%E8%AE%B0%E4%BD%8F0903&t=31&band_rank=1&Refer=top",
+      "score": 24959,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1788368057
     },
     {
       "title": "爸爸以为妈妈接住了不料宝宝摔落在地",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E7%88%B8%E7%88%B8%E4%BB%A5%E4%B8%BA%E5%A6%88%E5%A6%88%E6%8E%A5%E4%BD%8F%E4%BA%86%E4%B8%8D%E6%96%99%E5%AE%9D%E5%AE%9D%E6%91%94%E8%90%BD%E5%9C%A8%E5%9C%B0%23&t=31&band_rank=1&Refer=top",
-      "score": 108030,
+      "score": 22194,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1788347961
+    },
+    {
+      "title": "一针99万元外国人来中国抗癌",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%80%E9%92%8899%E4%B8%87%E5%85%83%E5%A4%96%E5%9B%BD%E4%BA%BA%E6%9D%A5%E4%B8%AD%E5%9B%BD%E6%8A%97%E7%99%8C%23&t=31&band_rank=1&Refer=top",
+      "score": 22192,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1788357141
+    },
+    {
+      "title": "胡锡进称星宇道歉不够",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%83%A1%E9%94%A1%E8%BF%9B%E7%A7%B0%E6%98%9F%E5%AE%87%E9%81%93%E6%AD%89%E4%B8%8D%E5%A4%9F%23&t=31&band_rank=1&Refer=top",
+      "score": 22192,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1788368896
+    },
+    {
+      "title": "消防员说吉隆救援途中遇熊和狼",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B6%88%E9%98%B2%E5%91%98%E8%AF%B4%E5%90%89%E9%9A%86%E6%95%91%E6%8F%B4%E9%80%94%E4%B8%AD%E9%81%87%E7%86%8A%E5%92%8C%E7%8B%BC%23&t=31&band_rank=1&Refer=top",
+      "score": 22190,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1788368419
     }
   ]
 }
