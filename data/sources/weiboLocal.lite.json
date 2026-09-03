@@ -1,46 +1,36 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-09-03T16:20:28Z",
+  "savedAt": "2026-09-03T20:56:39Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-09-03，共 9 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-09-03，共 14 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-09-03",
   "items": [
     {
-      "title": "武大被举报女教授与博导共申多项专利",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%AD%A6%E5%A4%A7%E8%A2%AB%E4%B8%BE%E6%8A%A5%E5%A5%B3%E6%95%99%E6%8E%88%E4%B8%8E%E5%8D%9A%E5%AF%BC%E5%85%B1%E7%94%B3%E5%A4%9A%E9%A1%B9%E4%B8%93%E5%88%A9%23&t=31&band_rank=1&Refer=top",
-      "score": 251876,
+      "title": "青海5.1级地震",
+      "description": "突发/灾害",
+      "url": "https://s.weibo.com/weibo?q=%E9%9D%92%E6%B5%B75.1%E7%BA%A7%E5%9C%B0%E9%9C%87&t=31&band_rank=1&Refer=top",
+      "score": 38669,
       "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1788450081
+      "label": "",
+      "category": "突发/灾害",
+      "onboardTime": 1788457397
     },
     {
       "title": "四川地震",
       "description": "突发/灾害",
       "url": "https://s.weibo.com/weibo?q=%E5%9B%9B%E5%B7%9D%E5%9C%B0%E9%9C%87&t=31&band_rank=1&Refer=top",
-      "score": 245253,
+      "score": 38285,
       "owner": "微博同城",
       "label": "",
       "category": "突发/灾害",
       "onboardTime": 1788435982
     },
     {
-      "title": "吉隆口岸救援人员吃上热乎饭",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%90%89%E9%9A%86%E5%8F%A3%E5%B2%B8%E6%95%91%E6%8F%B4%E4%BA%BA%E5%91%98%E5%90%83%E4%B8%8A%E7%83%AD%E4%B9%8E%E9%A5%AD%23&t=31&band_rank=1&Refer=top",
-      "score": 241469,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1788444982
-    },
-    {
       "title": "美国癌症治疗",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%E7%BE%8E%E5%9B%BD%E7%99%8C%E7%97%87%E6%B2%BB%E7%96%97&t=31&band_rank=1&Refer=top",
-      "score": 232963,
+      "score": 37684,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
@@ -48,53 +38,113 @@
     },
     {
       "title": "山东一产妇剖宫产身亡",
-      "description": "热 · 民生新闻",
+      "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E5%B1%B1%E4%B8%9C%E4%B8%80%E4%BA%A7%E5%A6%87%E5%89%96%E5%AE%AB%E4%BA%A7%E8%BA%AB%E4%BA%A1%23&t=31&band_rank=1&Refer=top",
-      "score": 230584,
+      "score": 36714,
       "owner": "微博同城",
-      "label": "热",
+      "label": "",
       "category": "民生新闻",
       "onboardTime": 1788429680
-    },
-    {
-      "title": "上海女子住300平大平层花11万收纳",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%8A%E6%B5%B7%E5%A5%B3%E5%AD%90%E4%BD%8F300%E5%B9%B3%E5%A4%A7%E5%B9%B3%E5%B1%82%E8%8A%B111%E4%B8%87%E6%94%B6%E7%BA%B3%23&t=31&band_rank=1&Refer=top",
-      "score": 218487,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1788447262
-    },
-    {
-      "title": "一家三口吃水洗鸡蛋后集体中毒",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%80%E5%AE%B6%E4%B8%89%E5%8F%A3%E5%90%83%E6%B0%B4%E6%B4%97%E9%B8%A1%E8%9B%8B%E5%90%8E%E9%9B%86%E4%BD%93%E4%B8%AD%E6%AF%92%23&t=31&band_rank=1&Refer=top",
-      "score": 216652,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1788451821
     },
     {
       "title": "3岁男童长期吃隔夜菜中毒住进PICU",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%233%E5%B2%81%E7%94%B7%E7%AB%A5%E9%95%BF%E6%9C%9F%E5%90%83%E9%9A%94%E5%A4%9C%E8%8F%9C%E4%B8%AD%E6%AF%92%E4%BD%8F%E8%BF%9BPICU%23&t=31&band_rank=1&Refer=top",
-      "score": 212408,
+      "score": 36682,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1788445401
     },
     {
+      "title": "14岁男孩和妈妈吵架点燃床铺后离家",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%2314%E5%B2%81%E7%94%B7%E5%AD%A9%E5%92%8C%E5%A6%88%E5%A6%88%E5%90%B5%E6%9E%B6%E7%82%B9%E7%87%83%E5%BA%8A%E9%93%BA%E5%90%8E%E7%A6%BB%E5%AE%B6%23&t=31&band_rank=1&Refer=top",
+      "score": 36638,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1788464834
+    },
+    {
+      "title": "一家三口吃水洗鸡蛋后集体中毒",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%80%E5%AE%B6%E4%B8%89%E5%8F%A3%E5%90%83%E6%B0%B4%E6%B4%97%E9%B8%A1%E8%9B%8B%E5%90%8E%E9%9B%86%E4%BD%93%E4%B8%AD%E6%AF%92%23&t=31&band_rank=1&Refer=top",
+      "score": 36629,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1788451821
+    },
+    {
+      "title": "上海女子住300平大平层花11万收纳",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%8A%E6%B5%B7%E5%A5%B3%E5%AD%90%E4%BD%8F300%E5%B9%B3%E5%A4%A7%E5%B9%B3%E5%B1%82%E8%8A%B111%E4%B8%87%E6%94%B6%E7%BA%B3%23&t=31&band_rank=1&Refer=top",
+      "score": 36530,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1788447262
+    },
+    {
+      "title": "上帝视角带你看离岸流有多可怕",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%8A%E5%B8%9D%E8%A7%86%E8%A7%92%E5%B8%A6%E4%BD%A0%E7%9C%8B%E7%A6%BB%E5%B2%B8%E6%B5%81%E6%9C%89%E5%A4%9A%E5%8F%AF%E6%80%95&t=31&band_rank=1&Refer=top",
+      "score": 36515,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1788454817
+    },
+    {
+      "title": "剖宫产身亡3名涉事医生停职7至9个月",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%89%96%E5%AE%AB%E4%BA%A7%E8%BA%AB%E4%BA%A13%E5%90%8D%E6%B6%89%E4%BA%8B%E5%8C%BB%E7%94%9F%E5%81%9C%E8%81%8C7%E8%87%B39%E4%B8%AA%E6%9C%88%23&t=31&band_rank=1&Refer=top",
+      "score": 36477,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1788449720
+    },
+    {
+      "title": "广州取消中小学校服统一订购",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%B9%BF%E5%B7%9E%E5%8F%96%E6%B6%88%E4%B8%AD%E5%B0%8F%E5%AD%A6%E6%A0%A1%E6%9C%8D%E7%BB%9F%E4%B8%80%E8%AE%A2%E8%B4%AD%23&t=31&band_rank=1&Refer=top",
+      "score": 36453,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1788449001
+    },
+    {
       "title": "宝妈回应11个月宝宝凌晨偷玩手机",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E5%AE%9D%E5%A6%88%E5%9B%9E%E5%BA%9411%E4%B8%AA%E6%9C%88%E5%AE%9D%E5%AE%9D%E5%87%8C%E6%99%A8%E5%81%B7%E7%8E%A9%E6%89%8B%E6%9C%BA%23&t=31&band_rank=1&Refer=top",
-      "score": 212384,
+      "score": 36426,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1788444322
+    },
+    {
+      "title": "男子在夜市被5位大妈按摩按到发红",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E5%9C%A8%E5%A4%9C%E5%B8%82%E8%A2%AB5%E4%BD%8D%E5%A4%A7%E5%A6%88%E6%8C%89%E6%91%A9%E6%8C%89%E5%88%B0%E5%8F%91%E7%BA%A2%23&t=31&band_rank=1&Refer=top",
+      "score": 36422,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1788461474
+    },
+    {
+      "title": "吉隆口岸救援人员吃上热乎饭",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%90%89%E9%9A%86%E5%8F%A3%E5%B2%B8%E6%95%91%E6%8F%B4%E4%BA%BA%E5%91%98%E5%90%83%E4%B8%8A%E7%83%AD%E4%B9%8E%E9%A5%AD%23&t=31&band_rank=1&Refer=top",
+      "score": 36374,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1788444982
     }
   ]
 }
