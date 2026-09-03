@@ -6,52 +6,100 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "hackernews:https://www.anthropic.com/claude-fable-and-mythos-5-1",
-      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-      "title": "[Hacker News 热门] Claude Fable 5.1 and Claude Mythos 5.1",
-      "date_published": "2026-09-03T17:40:31Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills",
+      "url": "https://github.com/Yuan1z0825/nature-skills",
+      "title": "[Skills 清单] Yuan1z0825/nature-skills · 仓库总览",
+      "date_published": "2026-09-03T17:54:06Z"
     },
     {
-      "id": "hackernews:https://people.kernel.org/monsieuricon/creepy-crawlies",
-      "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
-      "title": "[Hacker News 热门] Creepy Crawlies",
-      "date_published": "2026-09-03T17:40:31Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-academic-search",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-academic-search",
+      "title": "[Skills 清单] nature-academic-search",
+      "date_published": "2026-09-03T17:54:06Z"
     },
     {
-      "id": "hackernews:https://unsung.aresluna.org/i-just-chose-words-carefully/",
-      "url": "https://unsung.aresluna.org/i-just-chose-words-carefully/",
-      "title": "[Hacker News 热门] “I just chose words carefully”",
-      "date_published": "2026-09-03T17:40:31Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-citation",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-citation",
+      "title": "[Skills 清单] nature-citation",
+      "date_published": "2026-09-03T17:54:06Z"
     },
     {
-      "id": "hackernews:https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-      "title": "[Hacker News 热门] Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "date_published": "2026-09-03T17:40:31Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-data",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-data",
+      "title": "[Skills 清单] nature-data",
+      "date_published": "2026-09-03T17:54:06Z"
     },
     {
-      "id": "hackernews:https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
-      "url": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
-      "title": "[Hacker News 热门] GUIs should be fully keyboard-driven",
-      "date_published": "2026-09-03T17:40:31Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-downloader",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-downloader",
+      "title": "[Skills 清单] nature-downloader",
+      "date_published": "2026-09-03T17:54:06Z"
     },
     {
-      "id": "hackernews:https://www.newsonaut.com/articles/hang-on-to-your-firefox",
-      "url": "https://www.newsonaut.com/articles/hang-on-to-your-firefox",
-      "title": "[Hacker News 热门] Hang on to Your Firefox",
-      "date_published": "2026-09-03T17:40:31Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-experiment-log",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-experiment-log",
+      "title": "[Skills 清单] nature-experiment-log",
+      "date_published": "2026-09-03T17:54:06Z"
     },
     {
-      "id": "hackernews:https://github.com/ankidroid/Anki-Android/issues/21656",
-      "url": "https://github.com/ankidroid/Anki-Android/issues/21656",
-      "title": "[Hacker News 热门] AnkiDroid: Google Play no longer allowing Open Collective donation link",
-      "date_published": "2026-09-03T17:40:31Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-figure",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-figure",
+      "title": "[Skills 清单] nature-figure",
+      "date_published": "2026-09-03T17:54:06Z"
     },
     {
-      "id": "hackernews:https://danluu.com/zitron/",
-      "url": "https://danluu.com/zitron/",
-      "title": "[Hacker News 热门] How accurate have Ed Zitron's AI skeptic predictions been?",
-      "date_published": "2026-09-03T17:40:31Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-literature-pipeline",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-literature-pipeline",
+      "title": "[Skills 清单] nature-literature-pipeline",
+      "date_published": "2026-09-03T17:54:06Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/596f65ba8220e15d76dcbc53fd9bc8ae71448a23",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/596f65ba8220e15d76dcbc53fd9bc8ae71448a23",
+      "title": "[最近提交] Merge pull request #211 from zpf2234/ci/complete-test-coverage",
+      "date_published": "2026-09-03T17:54:06Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/a93f8df683abceaf30f59e8b7913addd882ec7db",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/a93f8df683abceaf30f59e8b7913addd882ec7db",
+      "title": "[最近提交] Merge pull request #212 from zpf2234/fix/windows-mermaid-command",
+      "date_published": "2026-09-03T17:54:06Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/0e3f1bc074314e21f8309dc356bd05e1c1ca09f9",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/0e3f1bc074314e21f8309dc356bd05e1c1ca09f9",
+      "title": "[最近提交] fix: 修复 Windows Mermaid 路径引用",
+      "date_published": "2026-09-03T17:54:06Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/1d650bbd9a7fa595500cf9bc6c079d96ad21188f",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/1d650bbd9a7fa595500cf9bc6c079d96ad21188f",
+      "title": "[最近提交] ci: 补齐技能与内容契约测试",
+      "date_published": "2026-09-03T17:54:06Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/ebd722e18808442688bd205917a3e774195c258f",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/ebd722e18808442688bd205917a3e774195c258f",
+      "title": "[最近提交] chore: update star history",
+      "date_published": "2026-09-03T17:54:06Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/2fc270f1ab43826ebff618dff9853a1c0a58f597",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/2fc270f1ab43826ebff618dff9853a1c0a58f597",
+      "title": "[最近提交] feat: 添加 Codex 插件页面 (#210)",
+      "date_published": "2026-09-03T17:54:06Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/133ad6044c09dff9f18149518d2ac31355e29e80",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/133ad6044c09dff9f18149518d2ac31355e29e80",
+      "title": "[最近提交] chore: update star history",
+      "date_published": "2026-09-03T17:54:06Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/bd4e415c1dcaf6df4ca701f8f8492a97e4b49921",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/bd4e415c1dcaf6df4ca701f8f8492a97e4b49921",
+      "title": "[最近提交] chore: update star history",
+      "date_published": "2026-09-03T17:54:06Z"
     }
   ]
 }
