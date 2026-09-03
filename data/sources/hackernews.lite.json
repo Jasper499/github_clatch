@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-09-03T07:00:28Z",
+  "savedAt": "2026-09-03T17:40:31Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-09-03，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,15 +10,15 @@
       "title": "Claude Fable 5.1 and Claude Mythos 5.1",
       "description": "What&#x27;s new in Claude Fable 5.1\n – <a href=\"https:&#x2F;&#x2F;platform.claude.com&#x2F;docs&#x2F;en&#x2F;models&#x2F;fable-5-1&#x2F;whats-new-fable-5-1\" rel=\"nofollow\">https:&#x2F;&#x2F;platform.claude.com&#x2F;docs&#x2F;en&#x2F;models&#x2F;fable-5-1&#x2F;whats-n...</a><p>System Card: <a href=\"https:&#x2F;&#x2F;www-cdn.anthropic.com&#x2F;0339e6a7c5c7b87f5c07798616dc32c215d14235&#x2F;Claude%20Fable%205.1%20&amp;%20Claude%20Mythos%205.1%20System%20Card.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;www-cdn.anthropic.com&#x2F;0339e6a7c5c7b87f5c07798616dc32...</a>",
       "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-      "score": 1386,
-      "comments": 1346,
+      "score": 1401,
+      "comments": 1365,
       "owner": "denysvitali"
     },
     {
       "title": "Creepy Crawlies",
       "description": "",
       "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
-      "score": 1371,
+      "score": 1378,
       "comments": 707,
       "owner": "zdw"
     },
@@ -26,9 +26,17 @@
       "title": "“I just chose words carefully”",
       "description": "",
       "url": "https://unsung.aresluna.org/i-just-chose-words-carefully/",
-      "score": 1247,
+      "score": 1252,
       "comments": 353,
       "owner": "zdw"
+    },
+    {
+      "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "description": "<a href=\"https:&#x2F;&#x2F;deepmind.google&#x2F;models&#x2F;model-cards&#x2F;gemini-3-8-flash&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;deepmind.google&#x2F;models&#x2F;model-cards&#x2F;gemini-3-8-flash&#x2F;</a>",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+      "score": 1133,
+      "comments": 640,
+      "owner": "bratao"
     },
     {
       "title": "GUIs should be fully keyboard-driven",
@@ -39,60 +47,52 @@
       "owner": "ckardaris"
     },
     {
-      "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "description": "<a href=\"https:&#x2F;&#x2F;deepmind.google&#x2F;models&#x2F;model-cards&#x2F;gemini-3-8-flash&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;deepmind.google&#x2F;models&#x2F;model-cards&#x2F;gemini-3-8-flash&#x2F;</a>",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-      "score": 958,
-      "comments": 543,
-      "owner": "bratao"
-    },
-    {
       "title": "Hang on to Your Firefox",
       "description": "",
       "url": "https://www.newsonaut.com/articles/hang-on-to-your-firefox",
-      "score": 939,
-      "comments": 513,
+      "score": 957,
+      "comments": 521,
       "owner": "speckx"
-    },
-    {
-      "title": "Saving 100 terabytes of memory by optimizing 1.1.1.1's DNS cache",
-      "description": "",
-      "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
-      "score": 924,
-      "comments": 285,
-      "owner": "TangerineDream"
     },
     {
       "title": "AnkiDroid: Google Play no longer allowing Open Collective donation link",
       "description": "",
       "url": "https://github.com/ankidroid/Anki-Android/issues/21656",
-      "score": 909,
-      "comments": 274,
+      "score": 917,
+      "comments": 277,
       "owner": "hexa555"
-    },
-    {
-      "title": "Our decision on Cursor following its acquisition by SpaceX",
-      "description": "",
-      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
-      "score": 847,
-      "comments": 540,
-      "owner": "meetpateltech"
     },
     {
       "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
       "description": "",
       "url": "https://danluu.com/zitron/",
-      "score": 843,
-      "comments": 1012,
+      "score": 859,
+      "comments": 1033,
       "owner": "jatins"
+    },
+    {
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "description": "",
+      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
+      "score": 848,
+      "comments": 541,
+      "owner": "meetpateltech"
     },
     {
       "title": "Fastpotify",
       "description": "",
       "url": "https://fastpotify.rocks/",
-      "score": 841,
-      "comments": 556,
+      "score": 847,
+      "comments": 560,
       "owner": "nreece"
+    },
+    {
+      "title": "Audacity 4.0",
+      "description": "",
+      "url": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0",
+      "score": 846,
+      "comments": 187,
+      "owner": "ClydeN"
     },
     {
       "title": "Htmx 4.0",
@@ -114,31 +114,15 @@
       "title": "California lawmakers unanimously pass Linux exemption from age-verification law",
       "description": "",
       "url": "https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt",
-      "score": 802,
+      "score": 803,
       "comments": 405,
       "owner": "shscs911"
-    },
-    {
-      "title": "Small Models Have Arrived",
-      "description": "",
-      "url": "https://calv.info/small-models-have-arrived",
-      "score": 799,
-      "comments": 348,
-      "owner": "tosh"
-    },
-    {
-      "title": "Microduck",
-      "description": "",
-      "url": "https://pollen-robotics.com/microduck/",
-      "score": 782,
-      "comments": 252,
-      "owner": "robotswantdata"
     },
     {
       "title": "Google Has Removed MV2 Extensions from the Chrome Web Store, Including UBO",
       "description": "",
       "url": "https://webiterate.dev/google-removed-extensions-ublock-origin-108/",
-      "score": 754,
+      "score": 755,
       "comments": 611,
       "owner": "twapi"
     },
@@ -159,12 +143,28 @@
       "owner": "smartmic"
     },
     {
+      "title": "A note on subscription prices from LWN",
+      "description": "",
+      "url": "https://lwn.net/Articles/1090585/",
+      "score": 715,
+      "comments": 146,
+      "owner": "rwky"
+    },
+    {
       "title": "“It works better in the app”",
       "description": "",
       "url": "https://shkspr.mobi/blog/2026/08/it-works-better-in-the-app/",
       "score": 714,
       "comments": 480,
       "owner": "blenderob"
+    },
+    {
+      "title": "U.S. sanctions against the A/I Collective",
+      "description": "Earlier:<p><i>US Government designates host of noblogs.org a &quot;global terrorist&quot;</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49464391\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49464391</a> -  (131 comments)<p><i>US sanctions Italian hosting provider Autistici Inventati</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49451343\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49451343</a> - (219 comments)",
+      "url": "https://www.inventati.org/",
+      "score": 710,
+      "comments": 772,
+      "owner": "exiguus"
     }
   ]
 }
