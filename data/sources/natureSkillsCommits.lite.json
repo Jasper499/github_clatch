@@ -1,12 +1,52 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-09-02T17:56:45Z",
+  "savedAt": "2026-09-03T07:14:54Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "ebd722e18808442688bd205917a3e774195c258f",
+  "latestSha": "596f65ba8220e15d76dcbc53fd9bc8ae71448a23",
   "items": [
+    {
+      "title": "Merge pull request #211 from zpf2234/ci/complete-test-coverage",
+      "description": "Merge pull request #211 from zpf2234/ci/complete-test-coverage\n\n补齐技能与内容契约测试覆盖",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/596f65ba8220e15d76dcbc53fd9bc8ae71448a23",
+      "sha": "596f65b",
+      "fullSha": "596f65ba8220e15d76dcbc53fd9bc8ae71448a23",
+      "owner": "Yuan1z0825",
+      "published": "2026-09-03",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #212 from zpf2234/fix/windows-mermaid-command",
+      "description": "Merge pull request #212 from zpf2234/fix/windows-mermaid-command\n\n修复 Windows 下 Mermaid 路径含空格时的渲染失败",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/a93f8df683abceaf30f59e8b7913addd882ec7db",
+      "sha": "a93f8df",
+      "fullSha": "a93f8df683abceaf30f59e8b7913addd882ec7db",
+      "owner": "Yuan1z0825",
+      "published": "2026-09-03",
+      "label": "commit"
+    },
+    {
+      "title": "fix: 修复 Windows Mermaid 路径引用",
+      "description": "fix: 修复 Windows Mermaid 路径引用",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/0e3f1bc074314e21f8309dc356bd05e1c1ca09f9",
+      "sha": "0e3f1bc",
+      "fullSha": "0e3f1bc074314e21f8309dc356bd05e1c1ca09f9",
+      "owner": "zpf2234",
+      "published": "2026-09-03",
+      "label": "commit"
+    },
+    {
+      "title": "ci: 补齐技能与内容契约测试",
+      "description": "ci: 补齐技能与内容契约测试",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/1d650bbd9a7fa595500cf9bc6c079d96ad21188f",
+      "sha": "1d650bb",
+      "fullSha": "1d650bbd9a7fa595500cf9bc6c079d96ad21188f",
+      "owner": "zpf2234",
+      "published": "2026-09-03",
+      "label": "commit"
+    },
     {
       "title": "chore: update star history",
       "description": "chore: update star history",
@@ -115,46 +155,6 @@
       "fullSha": "8ed584c3d077846c1788f6933a7047efe84bba79",
       "owner": "zpf2234",
       "published": "2026-08-23",
-      "label": "commit"
-    },
-    {
-      "title": "chore: update star history",
-      "description": "chore: update star history",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/a6e6f3456f2065eb555afe8ed2c28637f3cd4e1b",
-      "sha": "a6e6f34",
-      "fullSha": "a6e6f3456f2065eb555afe8ed2c28637f3cd4e1b",
-      "owner": "github-actions",
-      "published": "2026-08-22",
-      "label": "commit"
-    },
-    {
-      "title": "feat: add multi-panel evidence architecture guidance (#203)",
-      "description": "feat: add multi-panel evidence architecture guidance (#203)",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/745c5f38d1b4a0600bd2f5f5682e394a34fc28b2",
-      "sha": "745c5f3",
-      "fullSha": "745c5f38d1b4a0600bd2f5f5682e394a34fc28b2",
-      "owner": "Travisma2233",
-      "published": "2026-08-20",
-      "label": "commit"
-    },
-    {
-      "title": "feat: add Nature-wide evidence-chain writing guidance (#202)",
-      "description": "feat: add Nature-wide evidence-chain writing guidance (#202)",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/14f8cdba07e5a14748bd4f864d1881f96ee0128c",
-      "sha": "14f8cdb",
-      "fullSha": "14f8cdba07e5a14748bd4f864d1881f96ee0128c",
-      "owner": "Travisma2233",
-      "published": "2026-08-20",
-      "label": "commit"
-    },
-    {
-      "title": "chore: update star history",
-      "description": "chore: update star history",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/96e41d3348748796c239cf5cb85bd947e5b02d38",
-      "sha": "96e41d3",
-      "fullSha": "96e41d3348748796c239cf5cb85bd947e5b02d38",
-      "owner": "github-actions",
-      "published": "2026-08-19",
       "label": "commit"
     }
   ]

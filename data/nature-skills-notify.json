@@ -1,44 +1,44 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-09-02T17:56:45Z",
+  "changed": true,
+  "fetchedAt": "2026-09-03T07:14:54Z",
   "previousSha": "ebd722e18808442688bd205917a3e774195c258f",
-  "latestSha": "ebd722e18808442688bd205917a3e774195c258f",
+  "latestSha": "596f65ba8220e15d76dcbc53fd9bc8ae71448a23",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "chore: update star history",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/ebd722e18808442688bd205917a3e774195c258f",
-    "sha": "ebd722e",
-    "published": "2026-09-01"
+    "title": "Merge pull request #211 from zpf2234/ci/complete-test-coverage",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/596f65ba8220e15d76dcbc53fd9bc8ae71448a23",
+    "sha": "596f65b",
+    "published": "2026-09-03"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
     {
+      "title": "Merge pull request #211 from zpf2234/ci/complete-test-coverage",
+      "sha": "596f65b",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/596f65ba8220e15d76dcbc53fd9bc8ae71448a23"
+    },
+    {
+      "title": "Merge pull request #212 from zpf2234/fix/windows-mermaid-command",
+      "sha": "a93f8df",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/a93f8df683abceaf30f59e8b7913addd882ec7db"
+    },
+    {
+      "title": "fix: 修复 Windows Mermaid 路径引用",
+      "sha": "0e3f1bc",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/0e3f1bc074314e21f8309dc356bd05e1c1ca09f9"
+    },
+    {
+      "title": "ci: 补齐技能与内容契约测试",
+      "sha": "1d650bb",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/1d650bbd9a7fa595500cf9bc6c079d96ad21188f"
+    },
+    {
       "title": "chore: update star history",
       "sha": "ebd722e",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/ebd722e18808442688bd205917a3e774195c258f"
-    },
-    {
-      "title": "feat: 添加 Codex 插件页面 (#210)",
-      "sha": "2fc270f",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/2fc270f1ab43826ebff618dff9853a1c0a58f597"
-    },
-    {
-      "title": "chore: update star history",
-      "sha": "133ad60",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/133ad6044c09dff9f18149518d2ac31355e29e80"
-    },
-    {
-      "title": "chore: update star history",
-      "sha": "bd4e415",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/bd4e415c1dcaf6df4ca701f8f8492a97e4b49921"
-    },
-    {
-      "title": "feat(writing): add discussion argument and modality guidance (#209)",
-      "sha": "205ed18",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/205ed18839181b0fe67323c7e42077a0807d8b03"
     }
   ]
 }
