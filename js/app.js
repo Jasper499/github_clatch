@@ -7,7 +7,19 @@ const DATES_STORAGE_KEY = "hjl-source-dates";
 const SEEN_STORAGE_KEY = "hjl-seen-v1";
 const SEEN_MAX_PER_SOURCE = 400;
 const PINS_STORAGE_KEY = "hjl-pins-v1";
+const WORKSTATION_KEY = "hjl-workstation";
+const DENSITY_KEY = "hjl-density";
+const FOCUS_KEY = "hjl-focus";
 const WEIBO_REALTIME_KEY = "weiboRealtime";
+const BOARD_SHORTCUTS = [
+  "github",
+  "hackernews",
+  "weibo",
+  "chinaDaily",
+  "journals",
+  "natureSkills",
+  "scientificSkills",
+];
 
 /** @type {Record<string, string>} */
 let liveEndpoints = {};
@@ -200,6 +212,9 @@ function highlightMetaPlatform(platformId) {
   document.querySelectorAll(".meta-sync-item").forEach((item) => {
     item.classList.toggle("active", item.dataset.platform === platformId);
   });
+  document.querySelectorAll(".ws-chip").forEach((item) => {
+    item.classList.toggle("is-active", item.dataset.parentId === platformId);
+  });
 }
 
 function resolveMetaTimestamp(data, field) {
@@ -381,20 +396,132 @@ function platformForSource(parentId, sourceKey) {
   );
 }
 
+function isWorkstation() {
+  return document.documentElement.getAttribute("data-workstation") !== "0";
+}
+
+function setWorkstation(on) {
+  document.documentElement.setAttribute("data-workstation", on ? "1" : "0");
+  try {
+    localStorage.setItem(WORKSTATION_KEY, on ? "1" : "0");
+  } catch (_) {}
+  syncWorkstationButtons();
+}
+
+function getDensity() {
+  return document.documentElement.getAttribute("data-density") === "comfortable"
+    ? "comfortable"
+    : "compact";
+}
+
+function setDensity(mode) {
+  const next = mode === "comfortable" ? "comfortable" : "compact";
+  document.documentElement.setAttribute("data-density", next);
+  try {
+    localStorage.setItem(DENSITY_KEY, next);
+  } catch (_) {}
+  syncWorkstationButtons();
+}
+
+function isFocusMode() {
+  return document.documentElement.getAttribute("data-focus") === "1";
+}
+
+function setFocusMode(on) {
+  if (on) document.documentElement.setAttribute("data-focus", "1");
+  else document.documentElement.removeAttribute("data-focus");
+  try {
+    localStorage.setItem(FOCUS_KEY, on ? "1" : "0");
+  } catch (_) {}
+  syncWorkstationButtons();
+}
+
+function syncWorkstationButtons() {
+  const layoutBtn = document.getElementById("ws-layout-btn");
+  const focusBtn = document.getElementById("ws-focus-btn");
+  const densityBtn = document.getElementById("ws-density-btn");
+  const on = isWorkstation();
+  if (layoutBtn) {
+    layoutBtn.textContent = on ? "工作站" : "经典";
+    layoutBtn.setAttribute("aria-pressed", on ? "true" : "false");
+  }
+  if (focusBtn) {
+    const focus = isFocusMode();
+    focusBtn.setAttribute("aria-pressed", focus ? "true" : "false");
+    focusBtn.textContent = focus ? "退出专注" : "专注";
+  }
+  if (densityBtn) {
+    densityBtn.textContent = getDensity() === "compact" ? "紧凑" : "舒适";
+  }
+}
+
+function firstSourceForParent(data, parentId) {
+  const parent = getCatalog(data).find((node) => node.id === parentId);
+  return parent?.children?.[0]?.sourceKey || parentId;
+}
+
+function flattenCatalogSources(data) {
+  const keys = [];
+  getCatalog(data).forEach((parent) => {
+    parent.children?.forEach((child) => keys.push(child.sourceKey));
+  });
+  return keys;
+}
+
+function jumpToSource(data, sourceKey) {
+  const meta = findSourceMeta(data, sourceKey);
+  if (!meta) return;
+  activeParentId = meta.parentId;
+  activeSourceKey = sourceKey;
+  clearSearchInputs();
+  activeItemIndex = 0;
+  renderTree(data);
+  renderMobileNav(data);
+  renderMobileSubnav(data);
+  updatePinButton();
+  void syncPanel(data, { preserveItemIndex: false });
+}
+
+function cycleSource(data, delta) {
+  const keys = flattenCatalogSources(data);
+  if (!keys.length) return;
+  const idx = keys.indexOf(activeSourceKey);
+  const next = keys[(Math.max(idx, 0) + delta + keys.length) % keys.length];
+  jumpToSource(data, next);
+}
+
 function renderHealth(data) {
   const list = document.getElementById("health-list");
-  if (!list) return;
-  list.innerHTML = META_SYNC_PLATFORMS.map((platform) => {
+  if (list) {
+    list.innerHTML = META_SYNC_PLATFORMS.map((platform) => {
+      const iso = resolveMetaTimestamp(data, platform.field);
+      const status = healthStatus(iso, platform.maxAgeHours || 48);
+      const time = iso ? formatDate(iso) : "暂无记录";
+      return `<li class="health-item health-${status.level}">
+        <span class="health-dot" aria-hidden="true"></span>
+        <span class="health-label">${escapeHtml(platform.label)}</span>
+        <span class="health-status">${escapeHtml(status.label)}</span>
+        <span class="health-time">${escapeHtml(time)}</span>
+      </li>`;
+    }).join("");
+  }
+
+  const rail = document.getElementById("ws-status");
+  if (!rail) return;
+  rail.innerHTML = META_SYNC_PLATFORMS.map((platform) => {
     const iso = resolveMetaTimestamp(data, platform.field);
     const status = healthStatus(iso, platform.maxAgeHours || 48);
-    const time = iso ? formatDate(iso) : "暂无记录";
-    return `<li class="health-item health-${status.level}">
-      <span class="health-dot" aria-hidden="true"></span>
-      <span class="health-label">${escapeHtml(platform.label)}</span>
-      <span class="health-status">${escapeHtml(status.label)}</span>
-      <span class="health-time">${escapeHtml(time)}</span>
-    </li>`;
+    const active = activeParentId === platform.id ? " is-active" : "";
+    return `<button type="button" class="ws-chip health-${status.level}${active}" data-parent-id="${platform.id}" title="${escapeHtml(platform.label)} · ${escapeHtml(status.label)}">
+      <span class="ws-chip-dot" aria-hidden="true"></span>
+      <span>${escapeHtml(platform.label)}</span>
+    </button>`;
   }).join("");
+  rail.querySelectorAll("[data-parent-id]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      jumpToSource(data, firstSourceForParent(data, btn.dataset.parentId));
+    });
+  });
 }
 
 function updateNewHints(sourceKey, items) {
@@ -1267,8 +1394,10 @@ function renderHeaderMotto() {
   const quote = pickQuote(WORKPLACE_QUOTES, "header");
   const textEl = document.getElementById("header-motto-text");
   const byEl = document.getElementById("header-motto-by");
+  const ticker = document.getElementById("ws-ticker");
   if (textEl) textEl.textContent = `“${quote.text}”`;
   if (byEl) byEl.textContent = `— ${quote.by}`;
+  if (ticker) ticker.textContent = `“${quote.text}”`;
 }
 
 function renderMottoBar() {
@@ -1327,7 +1456,7 @@ function renderTree(data) {
 
   const catalogHtml = `
     ${pinnedBlock}
-    ${renderMottoBar()}
+    ${isWorkstation() ? "" : renderMottoBar()}
     <div class="sidebar-title">内容目录</div>
     <div class="tree-children tree-children--root">
       ${catalog
@@ -2607,32 +2736,27 @@ async function buildDigest(data) {
 
   body.querySelectorAll(".digest-jump").forEach((btn) => {
     btn.addEventListener("click", () => {
-      const sourceKey = btn.dataset.sourceKey;
-      const meta = findSourceMeta(data, sourceKey);
-      if (!meta) return;
-      activeParentId = meta.parentId;
-      activeSourceKey = sourceKey;
-      clearSearchInputs();
-      activeItemIndex = 0;
       document.getElementById("digest-dialog")?.close();
-      renderTree(data);
-      renderMobileNav(data);
-      renderMobileSubnav(data);
-      updatePinButton();
-      void syncPanel(data, { preserveItemIndex: false });
+      jumpToSource(data, btn.dataset.sourceKey);
     });
   });
 }
 
 function bindDigest(data) {
-  const openBtn = document.getElementById("open-digest-btn");
+  const openBtns = [
+    document.getElementById("open-digest-btn"),
+    document.getElementById("ws-digest-btn"),
+  ].filter(Boolean);
   const dialog = document.getElementById("digest-dialog");
   const closeBtn = document.getElementById("digest-close-btn");
-  if (!openBtn || !dialog || openBtn.dataset.bound === "1") return;
-  openBtn.dataset.bound = "1";
-  openBtn.addEventListener("click", () => {
-    dialog.showModal();
-    void buildDigest(data);
+  if (!dialog || !openBtns.length) return;
+  openBtns.forEach((openBtn) => {
+    if (openBtn.dataset.bound === "1") return;
+    openBtn.dataset.bound = "1";
+    openBtn.addEventListener("click", () => {
+      dialog.showModal();
+      void buildDigest(data);
+    });
   });
   closeBtn?.addEventListener("click", () => dialog.close());
   dialog.addEventListener("click", (event) => {
@@ -2671,13 +2795,18 @@ async function forceRefreshSiteData() {
 }
 
 function bindForceRefresh() {
-  const btn = document.getElementById("force-refresh-btn");
-  if (!btn || btn.dataset.bound === "1") return;
-  btn.dataset.bound = "1";
-  btn.addEventListener("click", () => {
-    btn.disabled = true;
-    btn.textContent = "刷新中…";
-    void forceRefreshSiteData();
+  const btns = [
+    document.getElementById("force-refresh-btn"),
+    document.getElementById("ws-refresh-btn"),
+  ].filter(Boolean);
+  btns.forEach((btn) => {
+    if (btn.dataset.bound === "1") return;
+    btn.dataset.bound = "1";
+    btn.addEventListener("click", () => {
+      btn.disabled = true;
+      btn.textContent = "刷新中…";
+      void forceRefreshSiteData();
+    });
   });
 }
 
@@ -2708,12 +2837,190 @@ function openActiveItem() {
   }
 }
 
-function bindKeyboard() {
+function commandPaletteItems(data) {
+  const items = [];
+  getCatalog(data).forEach((parent) => {
+    parent.children?.forEach((child) => {
+      const source = getSource(data, child.sourceKey);
+      items.push({
+        id: `go:${child.sourceKey}`,
+        title: `${parent.label} / ${source?.label || child.id}`,
+        hint: child.sourceKey,
+        run: () => jumpToSource(data, child.sourceKey),
+      });
+    });
+  });
+  items.push(
+    {
+      id: "act:digest",
+      title: "打开今日摘要",
+      hint: "摘要",
+      run: () => {
+        const dialog = document.getElementById("digest-dialog");
+        dialog?.showModal();
+        void buildDigest(data);
+      },
+    },
+    {
+      id: "act:focus",
+      title: isFocusMode() ? "退出专注模式" : "进入专注模式",
+      hint: "F",
+      run: () => setFocusMode(!isFocusMode()),
+    },
+    {
+      id: "act:density",
+      title: getDensity() === "compact" ? "切换为舒适密度" : "切换为紧凑密度",
+      hint: "D",
+      run: () => setDensity(getDensity() === "compact" ? "comfortable" : "compact"),
+    },
+    {
+      id: "act:layout",
+      title: isWorkstation() ? "切换为经典布局" : "切换为工作站布局",
+      hint: "布局",
+      run: () => {
+        setWorkstation(!isWorkstation());
+        renderTree(data);
+      },
+    },
+    {
+      id: "act:refresh",
+      title: "强制刷新数据",
+      hint: "刷新",
+      run: () => void forceRefreshSiteData(),
+    }
+  );
+  return items;
+}
+
+function bindCommandPalette(data) {
+  const dialog = document.getElementById("command-palette");
+  const input = document.getElementById("command-palette-input");
+  const list = document.getElementById("command-palette-list");
+  const openBtn = document.getElementById("ws-command-btn");
+  if (!dialog || !input || !list || dialog.dataset.bound === "1") return;
+  dialog.dataset.bound = "1";
+
+  let filtered = [];
+  let selected = 0;
+
+  const renderList = () => {
+    const q = (input.value || "").trim().toLowerCase();
+    filtered = commandPaletteItems(data).filter((item) => {
+      if (!q) return true;
+      return `${item.title} ${item.hint} ${item.id}`.toLowerCase().includes(q);
+    });
+    if (selected >= filtered.length) selected = Math.max(0, filtered.length - 1);
+    list.innerHTML = filtered.length
+      ? filtered
+          .map(
+            (item, idx) => `
+      <li>
+        <button type="button" class="command-palette-item" role="option" aria-selected="${idx === selected}" data-index="${idx}">
+          <span>${escapeHtml(item.title)}</span>
+          <small>${escapeHtml(item.hint || "")}</small>
+        </button>
+      </li>`
+          )
+          .join("")
+      : `<li class="command-palette-item">无匹配命令</li>`;
+    list.querySelectorAll(".command-palette-item[data-index]").forEach((btn) => {
+      btn.addEventListener("click", () => runIndex(Number(btn.dataset.index)));
+    });
+  };
+
+  const runIndex = (idx) => {
+    const item = filtered[idx];
+    if (!item) return;
+    dialog.close();
+    item.run();
+  };
+
+  const openPalette = () => {
+    input.value = "";
+    selected = 0;
+    renderList();
+    dialog.showModal();
+    input.focus();
+  };
+
+  openBtn?.addEventListener("click", openPalette);
+  input.addEventListener("input", () => {
+    selected = 0;
+    renderList();
+  });
+  input.addEventListener("keydown", (event) => {
+    if (event.key === "ArrowDown") {
+      event.preventDefault();
+      selected = Math.min(selected + 1, Math.max(0, filtered.length - 1));
+      renderList();
+    } else if (event.key === "ArrowUp") {
+      event.preventDefault();
+      selected = Math.max(0, selected - 1);
+      renderList();
+    } else if (event.key === "Enter") {
+      event.preventDefault();
+      runIndex(selected);
+    }
+  });
+  dialog.addEventListener("click", (event) => {
+    if (event.target === dialog) dialog.close();
+  });
+
+  window.__hjlOpenPalette = openPalette;
+}
+
+function bindShortcutsDialog() {
+  const dialog = document.getElementById("shortcuts-dialog");
+  const openBtn = document.getElementById("ws-help-btn");
+  const closeBtn = document.getElementById("shortcuts-close-btn");
+  if (!dialog || dialog.dataset.bound === "1") return;
+  dialog.dataset.bound = "1";
+  openBtn?.addEventListener("click", () => dialog.showModal());
+  closeBtn?.addEventListener("click", () => dialog.close());
+  dialog.addEventListener("click", (event) => {
+    if (event.target === dialog) dialog.close();
+  });
+}
+
+function bindWorkstationShell(data) {
+  syncWorkstationButtons();
+  const layoutBtn = document.getElementById("ws-layout-btn");
+  const focusBtn = document.getElementById("ws-focus-btn");
+  const densityBtn = document.getElementById("ws-density-btn");
+  if (layoutBtn && layoutBtn.dataset.bound !== "1") {
+    layoutBtn.dataset.bound = "1";
+    layoutBtn.addEventListener("click", () => {
+      setWorkstation(!isWorkstation());
+      renderTree(data);
+    });
+  }
+  if (focusBtn && focusBtn.dataset.bound !== "1") {
+    focusBtn.dataset.bound = "1";
+    focusBtn.addEventListener("click", () => setFocusMode(!isFocusMode()));
+  }
+  if (densityBtn && densityBtn.dataset.bound !== "1") {
+    densityBtn.dataset.bound = "1";
+    densityBtn.addEventListener("click", () => {
+      setDensity(getDensity() === "compact" ? "comfortable" : "compact");
+    });
+  }
+  bindCommandPalette(data);
+  bindShortcutsDialog();
+}
+
+function bindKeyboard(data) {
   if (window.__hjlKeysBound) return;
   window.__hjlKeysBound = true;
   document.addEventListener("keydown", (event) => {
+    if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k") {
+      event.preventDefault();
+      window.__hjlOpenPalette?.();
+      return;
+    }
     if (event.metaKey || event.ctrlKey || event.altKey) return;
     const typing = isTypingTarget(event.target);
+    const palette = document.getElementById("command-palette");
+    if (palette?.open) return;
 
     if (event.key === "/" && !typing) {
       event.preventDefault();
@@ -2729,6 +3036,8 @@ function bindKeyboard() {
       return;
     }
     if (event.key === "Escape") {
+      document.getElementById("command-palette")?.close();
+      document.getElementById("shortcuts-dialog")?.close();
       const panel = document.getElementById("panel-content");
       if (panel?.classList.contains("is-mobile-detail") && !typing) {
         event.preventDefault();
@@ -2753,6 +3062,32 @@ function bindKeyboard() {
       return;
     }
     if (typing) return;
+    if (event.key === "?") {
+      event.preventDefault();
+      document.getElementById("shortcuts-dialog")?.showModal();
+      return;
+    }
+    if (event.key === "f" || event.key === "F") {
+      event.preventDefault();
+      setFocusMode(!isFocusMode());
+      return;
+    }
+    if (event.key === "d" || event.key === "D") {
+      event.preventDefault();
+      setDensity(getDensity() === "compact" ? "comfortable" : "compact");
+      return;
+    }
+    if (event.key === "[" || event.key === "]") {
+      event.preventDefault();
+      cycleSource(data, event.key === "]" ? 1 : -1);
+      return;
+    }
+    if (/^[1-7]$/.test(event.key)) {
+      event.preventDefault();
+      const parentId = BOARD_SHORTCUTS[Number(event.key) - 1];
+      if (parentId) jumpToSource(data, firstSourceForParent(data, parentId));
+      return;
+    }
     if (event.key === "j" || event.key === "J") {
       event.preventDefault();
       moveSelection(1);
@@ -2810,7 +3145,8 @@ async function loadContent() {
     bindForceRefresh();
     bindHistoryCompare(appData);
     bindMobileDetailNav();
-    bindKeyboard();
+    bindWorkstationShell(appData);
+    bindKeyboard(appData);
     updatePinButton();
     registerServiceWorker();
     await syncPanel(appData, { preserveItemIndex: Boolean(route) });

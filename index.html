@@ -32,13 +32,21 @@
         var theme = saved || (matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
         document.documentElement.setAttribute("data-theme", theme);
         document.documentElement.setAttribute("data-platform", "github");
+        var ws = localStorage.getItem("hjl-workstation");
+        document.documentElement.setAttribute("data-workstation", ws === "0" ? "0" : "1");
+        document.documentElement.setAttribute("data-density", localStorage.getItem("hjl-density") || "compact");
+        if (localStorage.getItem("hjl-focus") === "1") {
+          document.documentElement.setAttribute("data-focus", "1");
+        }
       } catch (e) {
         document.documentElement.setAttribute("data-theme", "dark");
         document.documentElement.setAttribute("data-platform", "github");
+        document.documentElement.setAttribute("data-workstation", "1");
+        document.documentElement.setAttribute("data-density", "compact");
       }
     })();
   </script>
-  <link rel="stylesheet" href="css/style.css?v=21">
+  <link rel="stylesheet" href="css/style.css?v=22">
 </head>
 <body>
   <script>
@@ -54,6 +62,23 @@
     }
   </script>
   <a class="skip-link" href="#content-panel">跳到内容</a>
+  <header class="ws-bar" id="ws-bar" aria-label="工作站控制台">
+    <div class="ws-brand">
+      <strong>HJL Clatch</strong>
+      <span class="ws-brand-sub">工作站</span>
+    </div>
+    <nav class="ws-status" id="ws-status" aria-label="栏目健康"></nav>
+    <p class="ws-ticker" id="ws-ticker" aria-label="今日一句"></p>
+    <div class="ws-actions">
+      <button type="button" id="ws-command-btn" class="ws-btn" title="命令面板（Ctrl/⌘ K）">跳转</button>
+      <button type="button" id="ws-digest-btn" class="ws-btn">摘要</button>
+      <button type="button" id="ws-focus-btn" class="ws-btn" aria-pressed="false" title="专注模式（F）">专注</button>
+      <button type="button" id="ws-density-btn" class="ws-btn" title="信息密度（D）">紧凑</button>
+      <button type="button" id="ws-help-btn" class="ws-btn" title="快捷键（?）">?</button>
+      <button type="button" id="ws-refresh-btn" class="ws-btn" title="清除缓存并重新拉取">刷新</button>
+      <button type="button" id="ws-layout-btn" class="ws-btn" aria-pressed="true" title="切换经典布局">工作站</button>
+    </div>
+  </header>
   <div class="page-bg" aria-hidden="true">
     <div class="page-bg__orb page-bg__orb--1"></div>
     <div class="page-bg__orb page-bg__orb--2"></div>
@@ -303,7 +328,7 @@
               <div class="list-toolbar-right">
                 <button type="button" id="pin-source-btn" class="btn-text" aria-pressed="false">钉选栏目</button>
                 <button type="button" id="mark-read-btn" class="btn-text" hidden>全部标为已读</button>
-                <span class="kbd-hint" title="键盘快捷键">j/k · Enter · /</span>
+                <span class="kbd-hint" title="键盘快捷键">j/k · Enter · / · ⌘K</span>
               </div>
             </div>
             <ul id="compact-list" class="compact-list compact-list--primary" role="listbox" aria-label="条目"></ul>
@@ -338,6 +363,40 @@
     </footer>
   </div>
 
+  <dialog id="command-palette" class="command-palette" aria-labelledby="command-palette-title">
+    <h2 id="command-palette-title" class="visually-hidden">命令面板</h2>
+    <input
+      id="command-palette-input"
+      class="command-palette-input"
+      type="search"
+      placeholder="跳转栏目、打开摘要、切换布局…"
+      autocomplete="off"
+    />
+    <ul id="command-palette-list" class="command-palette-list" role="listbox" aria-label="命令"></ul>
+    <p class="command-palette-hint">↑↓ 选择 · Enter 执行 · Esc 关闭</p>
+  </dialog>
+
+  <dialog id="shortcuts-dialog" class="digest-dialog shortcuts-dialog" aria-labelledby="shortcuts-title">
+    <div class="digest-header">
+      <h2 id="shortcuts-title">工作站快捷键</h2>
+      <button type="button" id="shortcuts-close-btn" class="btn-text" aria-label="关闭">关闭</button>
+    </div>
+    <div class="digest-body shortcuts-body">
+      <ul class="shortcuts-list">
+        <li><kbd>Ctrl</kbd>/<kbd>⌘</kbd>+<kbd>K</kbd> 命令面板</li>
+        <li><kbd>j</kbd> / <kbd>k</kbd> 下一条 / 上一条</li>
+        <li><kbd>Enter</kbd> 打开当前条目</li>
+        <li><kbd>/</kbd> 过滤列表</li>
+        <li><kbd>1</kbd>–<kbd>7</kbd> 切换主板块</li>
+        <li><kbd>[</kbd> / <kbd>]</kbd> 上一个 / 下一个栏目</li>
+        <li><kbd>f</kbd> 专注模式</li>
+        <li><kbd>d</kbd> 紧凑 / 舒适密度</li>
+        <li><kbd>?</kbd> 本说明</li>
+        <li><kbd>Esc</kbd> 关闭面板 / 清空搜索</li>
+      </ul>
+    </div>
+  </dialog>
+
   <dialog id="digest-dialog" class="digest-dialog" aria-labelledby="digest-title">
     <div class="digest-header">
       <h2 id="digest-title">今日摘要</h2>
@@ -358,7 +417,7 @@
     integrity="sha384-piCcpDdJ7qVeK4Tv8Z6Hpcr3ZBIgP16TxQTPVfsLFdZ5uDgwc3Y8Ho7oUnqf12qu"
     crossorigin="anonymous"
   ></script>
-  <script src="js/icons.js?v=21"></script>
-  <script src="js/app.js?v=21"></script>
+  <script src="js/icons.js?v=22"></script>
+  <script src="js/app.js?v=22"></script>
 </body>
 </html>
