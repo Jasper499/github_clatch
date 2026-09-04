@@ -5092,13 +5092,18 @@ html[data-workstation="0"] .ws-actions .ws-btn:not(#ws-layout-btn) {
   letter-spacing: 0.08em;
 }
 
+html[data-workstation="1"] .ws-bar {
+  flex-wrap: wrap;
+  row-gap: 0.28rem;
+}
+
 .ws-status {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 0.3rem;
+  flex: 1 1 16rem;
   min-width: 0;
-  overflow-x: auto;
-  scrollbar-width: none;
+  overflow: visible;
 }
 
 .ws-status::-webkit-scrollbar {
@@ -5118,6 +5123,7 @@ html[data-workstation="0"] .ws-actions .ws-btn:not(#ws-layout-btn) {
   font-size: 0.64rem;
   font-family: var(--font-mono);
   cursor: pointer;
+  text-decoration: none;
 }
 
 .ws-chip.is-active {

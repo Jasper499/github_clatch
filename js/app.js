@@ -95,6 +95,7 @@ let suppressHashWrite = false;
 let seenStore = {};
 let pinStore = [];
 let currentSourceRef = null;
+let panelSyncSeq = 0;
 
 const PLATFORM_META = {
   github: { theme: "theme-github", short: "GH", name: "GitHub" },
@@ -469,10 +470,15 @@ function flattenCatalogSources(data) {
 }
 
 function jumpToSource(data, sourceKey) {
-  const meta = findSourceMeta(data, sourceKey);
+  let targetKey = sourceKey;
+  let meta = findSourceMeta(data, targetKey);
+  if (!meta && targetKey) {
+    targetKey = firstSourceForParent(data, targetKey);
+    meta = findSourceMeta(data, targetKey);
+  }
   if (!meta) return;
   activeParentId = meta.parentId;
-  activeSourceKey = sourceKey;
+  activeSourceKey = meta.sourceKey;
   clearSearchInputs();
   activeItemIndex = 0;
   renderTree(data);
@@ -511,17 +517,22 @@ function renderHealth(data) {
   rail.innerHTML = META_SYNC_PLATFORMS.map((platform) => {
     const iso = resolveMetaTimestamp(data, platform.field);
     const status = healthStatus(iso, platform.maxAgeHours || 48);
+    const sourceKey = firstSourceForParent(data, platform.id);
     const active = activeParentId === platform.id ? " is-active" : "";
-    return `<button type="button" class="ws-chip health-${status.level}${active}" data-parent-id="${platform.id}" title="${escapeHtml(platform.label)} · ${escapeHtml(status.label)}">
+    return `<a class="ws-chip health-${status.level}${active}" href="#/${encodeURIComponent(sourceKey)}" data-source-key="${sourceKey}" data-parent-id="${platform.id}" title="${escapeHtml(platform.label)} · ${escapeHtml(status.label)}">
       <span class="ws-chip-dot" aria-hidden="true"></span>
       <span>${escapeHtml(platform.label)}</span>
-    </button>`;
+    </a>`;
   }).join("");
-  rail.querySelectorAll("[data-parent-id]").forEach((btn) => {
-    btn.addEventListener("click", () => {
-      jumpToSource(data, firstSourceForParent(data, btn.dataset.parentId));
+  if (rail.dataset.bound !== "1") {
+    rail.dataset.bound = "1";
+    rail.addEventListener("click", (event) => {
+      const chip = event.target.closest("[data-source-key]");
+      if (!chip || !rail.contains(chip)) return;
+      event.preventDefault();
+      jumpToSource(data, chip.getAttribute("data-source-key"));
     });
-  });
+  }
 }
 
 function updateNewHints(sourceKey, items) {
@@ -1502,15 +1513,20 @@ function renderTree(data) {
 
   tree.querySelectorAll(".tree-leaf").forEach((btn) => {
     btn.addEventListener("click", () => {
-      activeParentId = btn.dataset.parentId;
-      activeSourceKey = btn.dataset.sourceKey;
-      clearSearchInputs();
-      activeItemIndex = 0;
-      renderTree(data);
-      renderMobileNav(data);
-      renderMobileSubnav(data);
-      updatePinButton();
-      void syncPanel(data, { preserveItemIndex: false });
+      jumpToSource(data, btn.dataset.sourceKey);
+    });
+  });
+
+  tree.querySelectorAll(".tree-node").forEach((node) => {
+    const summary = node.querySelector(":scope > summary");
+    if (!summary) return;
+    summary.addEventListener("click", (event) => {
+      const parentId = node.dataset.parentId;
+      const sourceKey = firstSourceForParent(data, parentId);
+      if (!sourceKey) return;
+      if (activeParentId === parentId && activeSourceKey === sourceKey) return;
+      event.preventDefault();
+      jumpToSource(data, sourceKey);
     });
   });
 }
@@ -2536,71 +2552,105 @@ function renderCompactList(source, activeIndex) {
 }
 
 async function syncPanel(data, { preserveItemIndex = true } = {}) {
-  let source;
-  applyFeedLayout(getFeedMode());
+  const seq = ++panelSyncSeq;
+  const sourceKey = activeSourceKey;
+  applyFeedLayout(getFeedMode(sourceKey));
+  applyPanelTheme();
+  highlightMetaPlatform(activeParentId);
+  fillCategorySelect(data);
+  fillDateSelect(data);
+  renderBreadcrumb(data, getSource(data, sourceKey) || { label: sourceKey });
+  writeHashRoute();
+  const stub = getSource(data, sourceKey);
+  const descEl = document.getElementById("section-desc");
+  if (descEl) {
+    descEl.textContent = stub?.description || "加载中…";
+    descEl.classList.remove("section-desc--history");
+  }
+  const listEl = document.getElementById("compact-list");
+  if (listEl) listEl.innerHTML = `<li class="compact-empty">加载中…</li>`;
+  const countEl = document.getElementById("item-count");
+  if (countEl) countEl.textContent = "…";
+  const detailEl = document.getElementById("item-detail");
+  if (detailEl) {
+    detailEl.innerHTML = `<div class="detail-body"><p class="muted">加载中…</p></div>`;
+  }
+
+  const paint = (source) => {
+    if (seq !== panelSyncSeq || activeSourceKey !== sourceKey) return false;
+    const items = source?.items || [];
+    currentSourceRef = source;
+    bootstrapSeenIfNeeded(sourceKey, items);
+    const previousIndex = preserveItemIndex ? activeItemIndex : 0;
+    const dateKey = selectedDates[sourceKey] || "latest";
+
+    renderBreadcrumb(data, source);
+    fillCategorySelect(data);
+    fillDateSelect(data);
+
+    let desc = source?.description || "";
+    if (dateKey !== "latest") {
+      desc = `【历史快照 ${formatSnapshotLabel(dateKey)}】${desc ? ` ${desc}` : ""}`;
+    } else if (sourceKey === WEIBO_REALTIME_KEY) {
+      const hint = weiboRealtimeLiveHint();
+      if (hint) desc = `${hint}${desc ? ` ${desc}` : ""}`;
+    }
+    const descEl = document.getElementById("section-desc");
+    descEl.textContent = desc;
+    descEl.classList.toggle("section-desc--history", dateKey !== "latest");
+
+    renderJournalStats(data, source);
+    renderMobileSubnav(data);
+
+    const searchInput = document.getElementById("search-input");
+    if (searchInput && searchInput.value !== searchQuery) {
+      searchInput.value = searchQuery;
+    }
+    const ghSearch = document.getElementById("gh-chrome-search");
+    if (ghSearch && ghSearch.value !== searchQuery) {
+      ghSearch.value = searchQuery;
+    }
+
+    activeItemIndex = fillItemSelect(source, previousIndex);
+    const filtered = filterItems(items);
+    if (filtered.length && !filtered.some(({ index }) => index === activeItemIndex)) {
+      activeItemIndex = filtered[0].index;
+    }
+
+    updateNewHints(sourceKey, items);
+    updatePinButton();
+    renderActiveDetail(items[activeItemIndex], activeItemIndex);
+    renderActiveList(source, activeItemIndex);
+    writeHashRoute();
+    triggerPanelFade();
+    if (preserveItemIndex && items.length) {
+      openMobileDetailIfNeeded();
+    }
+    return true;
+  };
+
+  const dateKey = selectedDates[sourceKey] || "latest";
+  const preferLite = dateKey === "latest" && sourceKey !== WEIBO_REALTIME_KEY;
 
   try {
-    source = await resolveSource(data, activeSourceKey);
+    const first = await resolveSource(data, sourceKey, { lite: preferLite });
+    if (!paint(first)) return;
+    if (preferLite && isReadmeSource(sourceKey)) {
+      const full = await resolveSource(data, sourceKey, { lite: false });
+      if (seq !== panelSyncSeq || activeSourceKey !== sourceKey) return;
+      currentSourceRef = full;
+      const item = full?.items?.[activeItemIndex];
+      renderActiveDetail(item, activeItemIndex);
+    }
   } catch (err) {
+    if (seq !== panelSyncSeq || activeSourceKey !== sourceKey) return;
     document.getElementById("section-desc").textContent = err.message;
     document.getElementById("item-count").textContent = "0";
     document.getElementById("compact-list").innerHTML = `<li class="compact-empty">暂无条目</li>`;
     document.getElementById("item-detail").innerHTML =
       `<div class="detail-body"><div class="empty-state"><p>${escapeHtml(err.message)}</p></div></div>`;
-    updateNewHints(activeSourceKey, []);
+    updateNewHints(sourceKey, []);
     writeHashRoute();
-    return;
-  }
-
-  const items = source?.items || [];
-  currentSourceRef = source;
-  bootstrapSeenIfNeeded(activeSourceKey, items);
-  const previousIndex = preserveItemIndex ? activeItemIndex : 0;
-  const dateKey = selectedDates[activeSourceKey] || "latest";
-
-  renderBreadcrumb(data, source);
-  fillCategorySelect(data);
-  fillDateSelect(data);
-  applyPanelTheme();
-  highlightMetaPlatform(activeParentId);
-
-  let desc = source?.description || "";
-  if (dateKey !== "latest") {
-    desc = `【历史快照 ${formatSnapshotLabel(dateKey)}】${desc ? ` ${desc}` : ""}`;
-  } else if (activeSourceKey === WEIBO_REALTIME_KEY) {
-    const hint = weiboRealtimeLiveHint();
-    if (hint) desc = `${hint}${desc ? ` ${desc}` : ""}`;
-  }
-  const descEl = document.getElementById("section-desc");
-  descEl.textContent = desc;
-  descEl.classList.toggle("section-desc--history", dateKey !== "latest");
-
-  renderJournalStats(data, source);
-  renderMobileSubnav(data);
-
-  const searchInput = document.getElementById("search-input");
-  if (searchInput && searchInput.value !== searchQuery) {
-    searchInput.value = searchQuery;
-  }
-  const ghSearch = document.getElementById("gh-chrome-search");
-  if (ghSearch && ghSearch.value !== searchQuery) {
-    ghSearch.value = searchQuery;
-  }
-
-  activeItemIndex = fillItemSelect(source, previousIndex);
-  const filtered = filterItems(items);
-  if (filtered.length && !filtered.some(({ index }) => index === activeItemIndex)) {
-    activeItemIndex = filtered[0].index;
-  }
-
-  updateNewHints(activeSourceKey, items);
-  updatePinButton();
-  renderActiveDetail(items[activeItemIndex], activeItemIndex);
-  renderActiveList(source, activeItemIndex);
-  writeHashRoute();
-  triggerPanelFade();
-  if (preserveItemIndex && items.length) {
-    openMobileDetailIfNeeded();
   }
 }
 
@@ -3026,9 +3076,10 @@ function bindKeyboard(data) {
       event.preventDefault();
       const platform = document.documentElement.getAttribute("data-platform");
       const preferGh =
-        platform === "github" ||
-        platform === "natureSkills" ||
-        platform === "scientificSkills";
+        !isWorkstation() &&
+        (platform === "github" ||
+          platform === "natureSkills" ||
+          platform === "scientificSkills");
       (preferGh
         ? document.getElementById("gh-chrome-search")
         : document.getElementById("search-input")
