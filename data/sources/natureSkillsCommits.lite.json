@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-09-03T17:54:06Z",
+  "savedAt": "2026-09-04T07:18:02Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "596f65ba8220e15d76dcbc53fd9bc8ae71448a23",
+  "latestSha": "b1a37a2bf881feb6d71e2587c70f0e4e70b72548",
   "items": [
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/b1a37a2bf881feb6d71e2587c70f0e4e70b72548",
+      "sha": "b1a37a2",
+      "fullSha": "b1a37a2bf881feb6d71e2587c70f0e4e70b72548",
+      "owner": "github-actions",
+      "published": "2026-09-04",
+      "label": "commit"
+    },
     {
       "title": "Merge pull request #211 from zpf2234/ci/complete-test-coverage",
       "description": "Merge pull request #211 from zpf2234/ci/complete-test-coverage\n\n补齐技能与内容契约测试覆盖",
@@ -144,16 +154,6 @@
       "sha": "552af66",
       "fullSha": "552af66976bec65021371d7563103f2103450f6e",
       "owner": "jarxunlai",
-      "published": "2026-08-23",
-      "label": "commit"
-    },
-    {
-      "title": "修复零星标仓库的历史图生成 (#205)",
-      "description": "修复零星标仓库的历史图生成 (#205)",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/8ed584c3d077846c1788f6933a7047efe84bba79",
-      "sha": "8ed584c",
-      "fullSha": "8ed584c3d077846c1788f6933a7047efe84bba79",
-      "owner": "zpf2234",
       "published": "2026-08-23",
       "label": "commit"
     }

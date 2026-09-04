@@ -1,20 +1,25 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-09-03T17:54:06Z",
+  "changed": true,
+  "fetchedAt": "2026-09-04T07:18:02Z",
   "previousSha": "596f65ba8220e15d76dcbc53fd9bc8ae71448a23",
-  "latestSha": "596f65ba8220e15d76dcbc53fd9bc8ae71448a23",
+  "latestSha": "b1a37a2bf881feb6d71e2587c70f0e4e70b72548",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "Merge pull request #211 from zpf2234/ci/complete-test-coverage",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/596f65ba8220e15d76dcbc53fd9bc8ae71448a23",
-    "sha": "596f65b",
-    "published": "2026-09-03"
+    "title": "chore: update star history",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/b1a37a2bf881feb6d71e2587c70f0e4e70b72548",
+    "sha": "b1a37a2",
+    "published": "2026-09-04"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "chore: update star history",
+      "sha": "b1a37a2",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/b1a37a2bf881feb6d71e2587c70f0e4e70b72548"
+    },
     {
       "title": "Merge pull request #211 from zpf2234/ci/complete-test-coverage",
       "sha": "596f65b",
@@ -34,11 +39,6 @@
       "title": "ci: 补齐技能与内容契约测试",
       "sha": "1d650bb",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/1d650bbd9a7fa595500cf9bc6c079d96ad21188f"
-    },
-    {
-      "title": "chore: update star history",
-      "sha": "ebd722e",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/ebd722e18808442688bd205917a3e774195c258f"
     }
   ]
 }
