@@ -1,110 +1,140 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-09-04T04:21:42Z",
+  "savedAt": "2026-09-04T11:09:44Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-09-04，共 10 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-09-04，共 13 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-09-04",
   "items": [
     {
-      "title": "武大举报事件男方为安徽大学副校长",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%AD%A6%E5%A4%A7%E4%B8%BE%E6%8A%A5%E4%BA%8B%E4%BB%B6%E7%94%B7%E6%96%B9%E4%B8%BA%E5%AE%89%E5%BE%BD%E5%A4%A7%E5%AD%A6%E5%89%AF%E6%A0%A1%E9%95%BF%23&t=31&band_rank=1&Refer=top",
-      "score": 1978619,
+      "title": "吉隆口岸临时供电线路已抢通",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%90%89%E9%9A%86%E5%8F%A3%E5%B2%B8%E4%B8%B4%E6%97%B6%E4%BE%9B%E7%94%B5%E7%BA%BF%E8%B7%AF%E5%B7%B2%E6%8A%A2%E9%80%9A%23&t=31&band_rank=1&Refer=top",
+      "score": 605635,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1788506180
+    },
+    {
+      "title": "福建受灾严重",
+      "description": "新 · 突发/灾害",
+      "url": "https://s.weibo.com/weibo?q=%E7%A6%8F%E5%BB%BA%E5%8F%97%E7%81%BE%E4%B8%A5%E9%87%8D&t=31&band_rank=1&Refer=top",
+      "score": 559364,
       "owner": "微博同城",
       "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1788492921
+      "category": "突发/灾害",
+      "onboardTime": 1788515960
     },
     {
-      "title": "吉隆泥石流灾害核心区恢复供电",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%90%89%E9%9A%86%E6%B3%A5%E7%9F%B3%E6%B5%81%E7%81%BE%E5%AE%B3%E6%A0%B8%E5%BF%83%E5%8C%BA%E6%81%A2%E5%A4%8D%E4%BE%9B%E7%94%B5%23&t=31&band_rank=1&Refer=top",
-      "score": 1373637,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1788488599
-    },
-    {
-      "title": "男子欠债想轻生学胖东来还清105万",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E6%AC%A0%E5%80%BA%E6%83%B3%E8%BD%BB%E7%94%9F%E5%AD%A6%E8%83%96%E4%B8%9C%E6%9D%A5%E8%BF%98%E6%B8%85105%E4%B8%87%23&t=31&band_rank=1&Refer=top",
-      "score": 1226299,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1788487940
-    },
-    {
-      "title": "婚外胚胎案",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%A9%9A%E5%A4%96%E8%83%9A%E8%83%8E%E6%A1%88&t=31&band_rank=1&Refer=top",
-      "score": 1112077,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1788489979
-    },
-    {
-      "title": "女子在寿司郎餐桌上给孩子接小便",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E5%9C%A8%E5%AF%BF%E5%8F%B8%E9%83%8E%E9%A4%90%E6%A1%8C%E4%B8%8A%E7%BB%99%E5%AD%A9%E5%AD%90%E6%8E%A5%E5%B0%8F%E4%BE%BF%23&t=31&band_rank=1&Refer=top",
-      "score": 331120,
+      "title": "莆田内涝",
+      "description": "新 · 突发/灾害",
+      "url": "https://s.weibo.com/weibo?q=%E8%8E%86%E7%94%B0%E5%86%85%E6%B6%9D&t=31&band_rank=1&Refer=top",
+      "score": 449019,
       "owner": "微博同城",
       "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1788495441
+      "category": "突发/灾害",
+      "onboardTime": 1788514940
     },
     {
-      "title": "孕5月女子肛门剧痛未就医不幸流产",
+      "title": "灵活就业人员医保新政来了",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%81%B5%E6%B4%BB%E5%B0%B1%E4%B8%9A%E4%BA%BA%E5%91%98%E5%8C%BB%E4%BF%9D%E6%96%B0%E6%94%BF%E6%9D%A5%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 448764,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1788506542
+    },
+    {
+      "title": "县城婆罗门现象",
       "description": "热 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AD%955%E6%9C%88%E5%A5%B3%E5%AD%90%E8%82%9B%E9%97%A8%E5%89%A7%E7%97%9B%E6%9C%AA%E5%B0%B1%E5%8C%BB%E4%B8%8D%E5%B9%B8%E6%B5%81%E4%BA%A7%23&t=31&band_rank=1&Refer=top",
-      "score": 327924,
+      "url": "https://s.weibo.com/weibo?q=%E5%8E%BF%E5%9F%8E%E5%A9%86%E7%BD%97%E9%97%A8%E7%8E%B0%E8%B1%A1&t=31&band_rank=1&Refer=top",
+      "score": 447696,
       "owner": "微博同城",
       "label": "热",
       "category": "民生新闻",
-      "onboardTime": 1788490280
+      "onboardTime": 1788513380
     },
     {
-      "title": "武大举报案中男方调任不等于免责",
+      "title": "拍下寿司郎儿童小便当事人再发声",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%8B%8D%E4%B8%8B%E5%AF%BF%E5%8F%B8%E9%83%8E%E5%84%BF%E7%AB%A5%E5%B0%8F%E4%BE%BF%E5%BD%93%E4%BA%8B%E4%BA%BA%E5%86%8D%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
+      "score": 446578,
+      "owner": "微博同城",
+      "label": "热",
+      "category": "民生新闻",
+      "onboardTime": 1788511700
+    },
+    {
+      "title": "多个强二线城市房价腰斩",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%AD%A6%E5%A4%A7%E4%B8%BE%E6%8A%A5%E6%A1%88%E4%B8%AD%E7%94%B7%E6%96%B9%E8%B0%83%E4%BB%BB%E4%B8%8D%E7%AD%89%E4%BA%8E%E5%85%8D%E8%B4%A3%23&t=31&band_rank=1&Refer=top",
-      "score": 236189,
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%9A%E4%B8%AA%E5%BC%BA%E4%BA%8C%E7%BA%BF%E5%9F%8E%E5%B8%82%E6%88%BF%E4%BB%B7%E8%85%B0%E6%96%A9&t=31&band_rank=1&Refer=top",
+      "score": 443851,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1788491420
+      "onboardTime": 1788515361
     },
     {
-      "title": "400万豪车停地库一年成空壳",
+      "title": "小黄豆辟谣一天挣2点5亿",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23400%E4%B8%87%E8%B1%AA%E8%BD%A6%E5%81%9C%E5%9C%B0%E5%BA%93%E4%B8%80%E5%B9%B4%E6%88%90%E7%A9%BA%E5%A3%B3%23&t=31&band_rank=1&Refer=top",
-      "score": 206863,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%B0%8F%E9%BB%84%E8%B1%86%E8%BE%9F%E8%B0%A3%E4%B8%80%E5%A4%A9%E6%8C%A32%E7%82%B95%E4%BA%BF%23&t=31&band_rank=1&Refer=top",
+      "score": 347153,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1788490822
+      "onboardTime": 1788517040
     },
     {
-      "title": "浙江一小学被质疑班费乱花",
+      "title": "寿司郎 无权制止餐桌小便",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%AF%BF%E5%8F%B8%E9%83%8E%20%E6%97%A0%E6%9D%83%E5%88%B6%E6%AD%A2%E9%A4%90%E6%A1%8C%E5%B0%8F%E4%BE%BF&t=31&band_rank=1&Refer=top",
+      "score": 203142,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1788500002
+    },
+    {
+      "title": "莆田暴雨一辆SUV开上人行天桥",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B5%99%E6%B1%9F%E4%B8%80%E5%B0%8F%E5%AD%A6%E8%A2%AB%E8%B4%A8%E7%96%91%E7%8F%AD%E8%B4%B9%E4%B9%B1%E8%8A%B1%23&t=31&band_rank=1&Refer=top",
-      "score": 203250,
+      "url": "https://s.weibo.com/weibo?q=%23%E8%8E%86%E7%94%B0%E6%9A%B4%E9%9B%A8%E4%B8%80%E8%BE%86SUV%E5%BC%80%E4%B8%8A%E4%BA%BA%E8%A1%8C%E5%A4%A9%E6%A1%A5%23&t=31&band_rank=1&Refer=top",
+      "score": 175051,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1788494722
+      "onboardTime": 1788518541
     },
     {
-      "title": "婚外胚胎案应成弥补法律漏洞契机",
+      "title": "男子肚子疼被误诊胃癌全胃切除",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E8%82%9A%E5%AD%90%E7%96%BC%E8%A2%AB%E8%AF%AF%E8%AF%8A%E8%83%83%E7%99%8C%E5%85%A8%E8%83%83%E5%88%87%E9%99%A4%23&t=31&band_rank=1&Refer=top",
+      "score": 155528,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1788508821
+    },
+    {
+      "title": "在德国看展一半是中国牌子",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A9%9A%E5%A4%96%E8%83%9A%E8%83%8E%E6%A1%88%E5%BA%94%E6%88%90%E5%BC%A5%E8%A1%A5%E6%B3%95%E5%BE%8B%E6%BC%8F%E6%B4%9E%E5%A5%91%E6%9C%BA%23&t=31&band_rank=1&Refer=top",
-      "score": 172185,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%9C%A8%E5%BE%B7%E5%9B%BD%E7%9C%8B%E5%B1%95%E4%B8%80%E5%8D%8A%E6%98%AF%E4%B8%AD%E5%9B%BD%E7%89%8C%E5%AD%90%23&t=31&band_rank=1&Refer=top",
+      "score": 152829,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1788494239
+      "onboardTime": 1788516740
+    },
+    {
+      "title": "孙海洋回应人贩子将出狱担心家人安全",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%AD%99%E6%B5%B7%E6%B4%8B%E5%9B%9E%E5%BA%94%E4%BA%BA%E8%B4%A9%E5%AD%90%E5%B0%86%E5%87%BA%E7%8B%B1%E6%8B%85%E5%BF%83%E5%AE%B6%E4%BA%BA%E5%AE%89%E5%85%A8%23&t=31&band_rank=1&Refer=top",
+      "score": 147876,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1788519199
     }
   ]
 }
