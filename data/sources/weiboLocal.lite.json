@@ -1,110 +1,110 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-09-04T20:42:39Z",
+  "savedAt": "2026-09-05T04:17:15Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-09-04，共 10 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-09-05，共 10 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
-  "fetchedDate": "2026-09-04",
+  "fetchedDate": "2026-09-05",
   "items": [
     {
-      "title": "全国多地迎来丰收季",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%85%A8%E5%9B%BD%E5%A4%9A%E5%9C%B0%E8%BF%8E%E6%9D%A5%E4%B8%B0%E6%94%B6%E5%AD%A3%23&t=31&band_rank=1&Refer=top",
-      "score": 90681,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1788524840
-    },
-    {
-      "title": "日本请求俄拆纪念碑菊花纹章遭拒",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E6%97%A5%E6%9C%AC%E8%AF%B7%E6%B1%82%E4%BF%84%E6%8B%86%E7%BA%AA%E5%BF%B5%E7%A2%91%E8%8F%8A%E8%8A%B1%E7%BA%B9%E7%AB%A0%E9%81%AD%E6%8B%92&t=31&band_rank=1&Refer=top",
-      "score": 77077,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1788538822
-    },
-    {
-      "title": "莆田暴雨亲历者饿得受不了",
-      "description": "热 · 突发/灾害",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%8E%86%E7%94%B0%E6%9A%B4%E9%9B%A8%E4%BA%B2%E5%8E%86%E8%80%85%E9%A5%BF%E5%BE%97%E5%8F%97%E4%B8%8D%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 55987,
-      "owner": "微博同城",
-      "label": "热",
-      "category": "突发/灾害",
-      "onboardTime": 1788533182
-    },
-    {
-      "title": "2岁男童把家中百草枯当饮料喝下",
+      "title": "1岁裸体男童沙漠走失12小时",
       "description": "热 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%232%E5%B2%81%E7%94%B7%E7%AB%A5%E6%8A%8A%E5%AE%B6%E4%B8%AD%E7%99%BE%E8%8D%89%E6%9E%AF%E5%BD%93%E9%A5%AE%E6%96%99%E5%96%9D%E4%B8%8B%23&t=31&band_rank=1&Refer=top",
-      "score": 39836,
+      "url": "https://s.weibo.com/weibo?q=%231%E5%B2%81%E8%A3%B8%E4%BD%93%E7%94%B7%E7%AB%A5%E6%B2%99%E6%BC%A0%E8%B5%B0%E5%A4%B112%E5%B0%8F%E6%97%B6%23&t=31&band_rank=1&Refer=top",
+      "score": 1508558,
       "owner": "微博同城",
       "label": "热",
       "category": "民生新闻",
-      "onboardTime": 1788538939
+      "onboardTime": 1788573019
     },
     {
-      "title": "寿司郎给孩子接小便的家长回应",
+      "title": "汤家凤呼吁取消英语主科地位",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AF%BF%E5%8F%B8%E9%83%8E%E7%BB%99%E5%AD%A9%E5%AD%90%E6%8E%A5%E5%B0%8F%E4%BE%BF%E7%9A%84%E5%AE%B6%E9%95%BF%E5%9B%9E%E5%BA%94%23&t=31&band_rank=1&Refer=top",
-      "score": 39336,
+      "url": "https://s.weibo.com/weibo?q=%E6%B1%A4%E5%AE%B6%E5%87%A4%E5%91%BC%E5%90%81%E5%8F%96%E6%B6%88%E8%8B%B1%E8%AF%AD%E4%B8%BB%E7%A7%91%E5%9C%B0%E4%BD%8D&t=31&band_rank=1&Refer=top",
+      "score": 870393,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1788536959
+      "onboardTime": 1788571519
     },
     {
-      "title": "妈妈震惊女儿发箍标价1490元",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A6%88%E5%A6%88%E9%9C%87%E6%83%8A%E5%A5%B3%E5%84%BF%E5%8F%91%E7%AE%8D%E6%A0%87%E4%BB%B71490%E5%85%83%23&t=31&band_rank=1&Refer=top",
-      "score": 34939,
+      "title": "剧本杀 色情服务",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%89%A7%E6%9C%AC%E6%9D%80%20%E8%89%B2%E6%83%85%E6%9C%8D%E5%8A%A1&t=31&band_rank=1&Refer=top",
+      "score": 268542,
       "owner": "微博同城",
-      "label": "",
+      "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1788542296
+      "onboardTime": 1788578721
     },
     {
-      "title": "莆田部分区域严重内涝停水停电",
+      "title": "江西吉安山体滑坡十余人被埋",
       "description": "新 · 突发/灾害",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%8E%86%E7%94%B0%E9%83%A8%E5%88%86%E5%8C%BA%E5%9F%9F%E4%B8%A5%E9%87%8D%E5%86%85%E6%B6%9D%E5%81%9C%E6%B0%B4%E5%81%9C%E7%94%B5%23&t=31&band_rank=1&Refer=top",
-      "score": 29295,
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B1%9F%E8%A5%BF%E5%90%89%E5%AE%89%E5%B1%B1%E4%BD%93%E6%BB%91%E5%9D%A1%E5%8D%81%E4%BD%99%E4%BA%BA%E8%A2%AB%E5%9F%8B%23&t=31&band_rank=1&Refer=top",
+      "score": 265970,
       "owner": "微博同城",
       "label": "新",
       "category": "突发/灾害",
-      "onboardTime": 1788549554
+      "onboardTime": 1788581180
     },
     {
-      "title": "韩国学校挂明星不挂科学家",
+      "title": "超1万册永乐大典副本下落不明",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E9%9F%A9%E5%9B%BD%E5%AD%A6%E6%A0%A1%E6%8C%82%E6%98%8E%E6%98%9F%E4%B8%8D%E6%8C%82%E7%A7%91%E5%AD%A6%E5%AE%B6&t=31&band_rank=1&Refer=top",
-      "score": 28904,
+      "url": "https://s.weibo.com/weibo?q=%23%E8%B6%851%E4%B8%87%E5%86%8C%E6%B0%B8%E4%B9%90%E5%A4%A7%E5%85%B8%E5%89%AF%E6%9C%AC%E4%B8%8B%E8%90%BD%E4%B8%8D%E6%98%8E%23&t=31&band_rank=1&Refer=top",
+      "score": 239909,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1788532162
+      "onboardTime": 1788568401
     },
     {
-      "title": "配型发现非亲生女儿称妈妈常问我死了吗",
+      "title": "女生晒400万香港豪宅仅20平",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%85%8D%E5%9E%8B%E5%8F%91%E7%8E%B0%E9%9D%9E%E4%BA%B2%E7%94%9F%E5%A5%B3%E5%84%BF%E7%A7%B0%E5%A6%88%E5%A6%88%E5%B8%B8%E9%97%AE%E6%88%91%E6%AD%BB%E4%BA%86%E5%90%97%23&t=31&band_rank=1&Refer=top",
-      "score": 24491,
+      "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E7%94%9F%E6%99%92400%E4%B8%87%E9%A6%99%E6%B8%AF%E8%B1%AA%E5%AE%85%E4%BB%8520%E5%B9%B3&t=31&band_rank=1&Refer=top",
+      "score": 216894,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1788532522
+      "onboardTime": 1788574340
     },
     {
-      "title": "莆田一村庄被淹断水断电村民被困",
-      "description": "新 · 突发/灾害",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%8E%86%E7%94%B0%E4%B8%80%E6%9D%91%E5%BA%84%E8%A2%AB%E6%B7%B9%E6%96%AD%E6%B0%B4%E6%96%AD%E7%94%B5%E6%9D%91%E6%B0%91%E8%A2%AB%E5%9B%B0%23&t=31&band_rank=1&Refer=top",
-      "score": 24487,
+      "title": "葫芦娃爷爷30天后要拆掉葫芦",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%91%AB%E8%8A%A6%E5%A8%83%E7%88%B7%E7%88%B730%E5%A4%A9%E5%90%8E%E8%A6%81%E6%8B%86%E6%8E%89%E8%91%AB%E8%8A%A6%23&t=31&band_rank=1&Refer=top",
+      "score": 214887,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1788567199
+    },
+    {
+      "title": "寿司郎 儿童小便",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%AF%BF%E5%8F%B8%E9%83%8E%20%E5%84%BF%E7%AB%A5%E5%B0%8F%E4%BE%BF&t=31&band_rank=1&Refer=top",
+      "score": 214769,
       "owner": "微博同城",
       "label": "新",
-      "category": "突发/灾害",
-      "onboardTime": 1788554413
+      "category": "民生新闻",
+      "onboardTime": 1788576798
+    },
+    {
+      "title": "工人因赊1碗面后连续吃121天",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%B7%A5%E4%BA%BA%E5%9B%A0%E8%B5%8A1%E7%A2%97%E9%9D%A2%E5%90%8E%E8%BF%9E%E7%BB%AD%E5%90%83121%E5%A4%A9%23&t=31&band_rank=1&Refer=top",
+      "score": 196478,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1788570440
+    },
+    {
+      "title": "少年被同学勒索拘禁10小时跳楼逃走",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%B0%91%E5%B9%B4%E8%A2%AB%E5%90%8C%E5%AD%A6%E5%8B%92%E7%B4%A2%E6%8B%98%E7%A6%8110%E5%B0%8F%E6%97%B6%E8%B7%B3%E6%A5%BC%E9%80%83%E8%B5%B0%23&t=31&band_rank=1&Refer=top",
+      "score": 166366,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1788576798
     }
   ]
 }
