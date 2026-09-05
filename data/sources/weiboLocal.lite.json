@@ -1,120 +1,120 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-09-05T15:05:52Z",
+  "savedAt": "2026-09-05T20:16:55Z",
   "label": "同城",
   "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-09-05，共 11 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-09-05",
   "items": [
     {
+      "title": "葫芦娃爷爷把葫芦剪掉了目击者发声",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%91%AB%E8%8A%A6%E5%A8%83%E7%88%B7%E7%88%B7%E6%8A%8A%E8%91%AB%E8%8A%A6%E5%89%AA%E6%8E%89%E4%BA%86%E7%9B%AE%E5%87%BB%E8%80%85%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
+      "score": 247589,
+      "owner": "微博同城",
+      "label": "热",
+      "category": "民生新闻",
+      "onboardTime": 1788624201
+    },
+    {
       "title": "避孕药 血栓",
       "description": "热 · 民生新闻",
       "url": "https://s.weibo.com/weibo?q=%E9%81%BF%E5%AD%95%E8%8D%AF%20%E8%A1%80%E6%A0%93&t=31&band_rank=1&Refer=top",
-      "score": 1198410,
+      "score": 102108,
       "owner": "微博同城",
       "label": "热",
       "category": "民生新闻",
       "onboardTime": 1788608780
     },
     {
-      "title": "汤家凤邀请胡锡进公开辩论",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E6%B1%A4%E5%AE%B6%E5%87%A4%E9%82%80%E8%AF%B7%E8%83%A1%E9%94%A1%E8%BF%9B%E5%85%AC%E5%BC%80%E8%BE%A9%E8%AE%BA&t=31&band_rank=1&Refer=top",
-      "score": 1174074,
+      "title": "贵中医二附院被捅伤医生仍在抢救",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%B4%B5%E4%B8%AD%E5%8C%BB%E4%BA%8C%E9%99%84%E9%99%A2%E8%A2%AB%E6%8D%85%E4%BC%A4%E5%8C%BB%E7%94%9F%E4%BB%8D%E5%9C%A8%E6%8A%A2%E6%95%91%23&t=31&band_rank=1&Refer=top",
+      "score": 58695,
       "owner": "微博同城",
-      "label": "新",
+      "label": "热",
       "category": "民生新闻",
-      "onboardTime": 1788619222
+      "onboardTime": 1788621082
     },
     {
       "title": "剧本杀 色情服务",
       "description": "热 · 民生新闻",
       "url": "https://s.weibo.com/weibo?q=%E5%89%A7%E6%9C%AC%E6%9D%80%20%E8%89%B2%E6%83%85%E6%9C%8D%E5%8A%A1&t=31&band_rank=1&Refer=top",
-      "score": 594777,
+      "score": 58272,
       "owner": "微博同城",
       "label": "热",
       "category": "民生新闻",
       "onboardTime": 1788578721
     },
     {
-      "title": "贵中医二附院一医生疑被患者捅伤",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%B4%B5%E4%B8%AD%E5%8C%BB%E4%BA%8C%E9%99%84%E9%99%A2%E4%B8%80%E5%8C%BB%E7%94%9F%E7%96%91%E8%A2%AB%E6%82%A3%E8%80%85%E6%8D%85%E4%BC%A4%23&t=31&band_rank=1&Refer=top",
-      "score": 555205,
+      "title": "获救中国公民爬到了隧道最高处",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%8E%B7%E6%95%91%E4%B8%AD%E5%9B%BD%E5%85%AC%E6%B0%91%E7%88%AC%E5%88%B0%E4%BA%86%E9%9A%A7%E9%81%93%E6%9C%80%E9%AB%98%E5%A4%84%23&t=31&band_rank=1&Refer=top",
+      "score": 55606,
       "owner": "微博同城",
-      "label": "新",
+      "label": "",
       "category": "民生新闻",
-      "onboardTime": 1788620362
+      "onboardTime": 1788619162
+    },
+    {
+      "title": "尼泊尔被救中国公民曾多次求援未果",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%B0%BC%E6%B3%8A%E5%B0%94%E8%A2%AB%E6%95%91%E4%B8%AD%E5%9B%BD%E5%85%AC%E6%B0%91%E6%9B%BE%E5%A4%9A%E6%AC%A1%E6%B1%82%E6%8F%B4%E6%9C%AA%E6%9E%9C%23&t=31&band_rank=1&Refer=top",
+      "score": 44129,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1788625161
+    },
+    {
+      "title": "前阿里高管在美失联身亡警方介入",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%89%8D%E9%98%BF%E9%87%8C%E9%AB%98%E7%AE%A1%E5%9C%A8%E7%BE%8E%E5%A4%B1%E8%81%94%E8%BA%AB%E4%BA%A1%E8%AD%A6%E6%96%B9%E4%BB%8B%E5%85%A5%23&t=31&band_rank=1&Refer=top",
+      "score": 42481,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1788620601
+    },
+    {
+      "title": "贵中医二附院医生被捅伤警方已介入",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%B4%B5%E4%B8%AD%E5%8C%BB%E4%BA%8C%E9%99%84%E9%99%A2%E5%8C%BB%E7%94%9F%E8%A2%AB%E6%8D%85%E4%BC%A4%E8%AD%A6%E6%96%B9%E5%B7%B2%E4%BB%8B%E5%85%A5%23&t=31&band_rank=1&Refer=top",
+      "score": 42480,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1788623481
     },
     {
       "title": "小县城的房子买了没人住",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E5%8E%BF%E5%9F%8E%E7%9A%84%E6%88%BF%E5%AD%90%E4%B9%B0%E4%BA%86%E6%B2%A1%E4%BA%BA%E4%BD%8F&t=31&band_rank=1&Refer=top",
-      "score": 407761,
+      "score": 42204,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1788611180
     },
     {
-      "title": "被困11天中国公民获救原因曝光",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%A2%AB%E5%9B%B011%E5%A4%A9%E4%B8%AD%E5%9B%BD%E5%85%AC%E6%B0%91%E8%8E%B7%E6%95%91%E5%8E%9F%E5%9B%A0%E6%9B%9D%E5%85%89%23&t=31&band_rank=1&Refer=top",
-      "score": 390298,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1788619821
-    },
-    {
       "title": "女子停捐不到一个月被催捐",
-      "description": "热 · 民生新闻",
+      "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%90%E5%81%9C%E6%8D%90%E4%B8%8D%E5%88%B0%E4%B8%80%E4%B8%AA%E6%9C%88%E8%A2%AB%E5%82%AC%E6%8D%90&t=31&band_rank=1&Refer=top",
-      "score": 381559,
+      "score": 42096,
       "owner": "微博同城",
-      "label": "热",
+      "label": "",
       "category": "民生新闻",
       "onboardTime": 1788600320
     },
     {
-      "title": "前阿里高管在美失联身亡警方介入",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%89%8D%E9%98%BF%E9%87%8C%E9%AB%98%E7%AE%A1%E5%9C%A8%E7%BE%8E%E5%A4%B1%E8%81%94%E8%BA%AB%E4%BA%A1%E8%AD%A6%E6%96%B9%E4%BB%8B%E5%85%A5%23&t=31&band_rank=1&Refer=top",
-      "score": 324742,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1788620601
-    },
-    {
-      "title": "获救中国公民爬到了隧道最高处",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%8E%B7%E6%95%91%E4%B8%AD%E5%9B%BD%E5%85%AC%E6%B0%91%E7%88%AC%E5%88%B0%E4%BA%86%E9%9A%A7%E9%81%93%E6%9C%80%E9%AB%98%E5%A4%84%23&t=31&band_rank=1&Refer=top",
-      "score": 306345,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1788619162
-    },
-    {
-      "title": "尼泊尔泥石流获救中国公民家属发声",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%B0%BC%E6%B3%8A%E5%B0%94%E6%B3%A5%E7%9F%B3%E6%B5%81%E8%8E%B7%E6%95%91%E4%B8%AD%E5%9B%BD%E5%85%AC%E6%B0%91%E5%AE%B6%E5%B1%9E%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
-      "score": 278861,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1788620483
-    },
-    {
-      "title": "羽衣甘蓝 农药",
+      "title": "1岁男童沙漠走失母亲哽咽求救",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E7%BE%BD%E8%A1%A3%E7%94%98%E8%93%9D%20%E5%86%9C%E8%8D%AF&t=31&band_rank=1&Refer=top",
-      "score": 262573,
+      "url": "https://s.weibo.com/weibo?q=%231%E5%B2%81%E7%94%B7%E7%AB%A5%E6%B2%99%E6%BC%A0%E8%B5%B0%E5%A4%B1%E6%AF%8D%E4%BA%B2%E5%93%BD%E5%92%BD%E6%B1%82%E6%95%91%23&t=31&band_rank=1&Refer=top",
+      "score": 42052,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1788594079
+      "onboardTime": 1788628277
     }
   ]
 }
