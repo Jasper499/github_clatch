@@ -1,170 +1,160 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-09-06T04:27:33Z",
+  "savedAt": "2026-09-06T10:49:05Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-09-06，共 16 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-09-06，共 15 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-09-06",
   "items": [
     {
-      "title": "葫芦娃爷爷把葫芦剪掉了目击者发声",
+      "title": "本周这些数据值得关注",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%91%AB%E8%8A%A6%E5%A8%83%E7%88%B7%E7%88%B7%E6%8A%8A%E8%91%AB%E8%8A%A6%E5%89%AA%E6%8E%89%E4%BA%86%E7%9B%AE%E5%87%BB%E8%80%85%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
-      "score": 1093589,
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9C%AC%E5%91%A8%E8%BF%99%E4%BA%9B%E6%95%B0%E6%8D%AE%E5%80%BC%E5%BE%97%E5%85%B3%E6%B3%A8%23&t=31&band_rank=1&Refer=top",
+      "score": 711387,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1788624201
+      "onboardTime": 1788681560
     },
     {
-      "title": "绍兴文旅回应葫芦娃爷爷剪掉葫芦",
+      "title": "内蒙古婚内强奸案件最新进展",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%BB%8D%E5%85%B4%E6%96%87%E6%97%85%E5%9B%9E%E5%BA%94%E8%91%AB%E8%8A%A6%E5%A8%83%E7%88%B7%E7%88%B7%E5%89%AA%E6%8E%89%E8%91%AB%E8%8A%A6%23&t=31&band_rank=1&Refer=top",
-      "score": 814873,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%86%85%E8%92%99%E5%8F%A4%E5%A9%9A%E5%86%85%E5%BC%BA%E5%A5%B8%E6%A1%88%E4%BB%B6%E6%9C%80%E6%96%B0%E8%BF%9B%E5%B1%95%23&t=31&band_rank=1&Refer=top",
+      "score": 709188,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1788657258
+      "onboardTime": 1788685040
     },
     {
-      "title": "地质灾害发生有哪些前兆",
+      "title": "提前剪掉的7个葫芦讽刺了谁",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%9C%B0%E8%B4%A8%E7%81%BE%E5%AE%B3%E5%8F%91%E7%94%9F%E6%9C%89%E5%93%AA%E4%BA%9B%E5%89%8D%E5%85%86%23&t=31&band_rank=1&Refer=top",
-      "score": 606218,
+      "url": "https://s.weibo.com/weibo?q=%23%E6%8F%90%E5%89%8D%E5%89%AA%E6%8E%89%E7%9A%847%E4%B8%AA%E8%91%AB%E8%8A%A6%E8%AE%BD%E5%88%BA%E4%BA%86%E8%B0%81%23&t=31&band_rank=1&Refer=top",
+      "score": 356642,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1788660560
+      "onboardTime": 1788667100
     },
     {
-      "title": "葫芦娃爷爷 流量时代的恐怖故事",
+      "title": "离婚冷静期分居期间遭强奸",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E8%91%AB%E8%8A%A6%E5%A8%83%E7%88%B7%E7%88%B7%20%E6%B5%81%E9%87%8F%E6%97%B6%E4%BB%A3%E7%9A%84%E6%81%90%E6%80%96%E6%95%85%E4%BA%8B&t=31&band_rank=1&Refer=top",
-      "score": 503548,
+      "url": "https://s.weibo.com/weibo?q=%23%E7%A6%BB%E5%A9%9A%E5%86%B7%E9%9D%99%E6%9C%9F%E5%88%86%E5%B1%85%E6%9C%9F%E9%97%B4%E9%81%AD%E5%BC%BA%E5%A5%B8%23&t=31&band_rank=1&Refer=top",
+      "score": 247601,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1788663981
+      "onboardTime": 1788688519
     },
     {
-      "title": "深圳富豪不伦恋女孩被判14年",
-      "description": "热 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E6%B7%B1%E5%9C%B3%E5%AF%8C%E8%B1%AA%E4%B8%8D%E4%BC%A6%E6%81%8B%E5%A5%B3%E5%AD%A9%E8%A2%AB%E5%88%A414%E5%B9%B4&t=31&band_rank=1&Refer=top",
-      "score": 314911,
-      "owner": "微博同城",
-      "label": "热",
-      "category": "民生新闻",
-      "onboardTime": 1788662480
-    },
-    {
-      "title": "葫芦娃爷爷事件 变味",
+      "title": "气温预报图上北方由黄变绿",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E8%91%AB%E8%8A%A6%E5%A8%83%E7%88%B7%E7%88%B7%E4%BA%8B%E4%BB%B6%20%E5%8F%98%E5%91%B3&t=31&band_rank=1&Refer=top",
-      "score": 313829,
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B0%94%E6%B8%A9%E9%A2%84%E6%8A%A5%E5%9B%BE%E4%B8%8A%E5%8C%97%E6%96%B9%E7%94%B1%E9%BB%84%E5%8F%98%E7%BB%BF%23&t=31&band_rank=1&Refer=top",
+      "score": 246345,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1788665300
+      "onboardTime": 1788691280
+    },
+    {
+      "title": "顾客店内拆箱调换山姆礼盒水果",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%A1%BE%E5%AE%A2%E5%BA%97%E5%86%85%E6%8B%86%E7%AE%B1%E8%B0%83%E6%8D%A2%E5%B1%B1%E5%A7%86%E7%A4%BC%E7%9B%92%E6%B0%B4%E6%9E%9C%23&t=31&band_rank=1&Refer=top",
+      "score": 237068,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1788690859
+    },
+    {
+      "title": "剧本杀 网贷",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%89%A7%E6%9C%AC%E6%9D%80%20%E7%BD%91%E8%B4%B7&t=31&band_rank=1&Refer=top",
+      "score": 234244,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1788679941
+    },
+    {
+      "title": "医生淘洗粪便3小时找到肝吸虫",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8C%BB%E7%94%9F%E6%B7%98%E6%B4%97%E7%B2%AA%E4%BE%BF3%E5%B0%8F%E6%97%B6%E6%89%BE%E5%88%B0%E8%82%9D%E5%90%B8%E8%99%AB%23&t=31&band_rank=1&Refer=top",
+      "score": 232936,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1788678500
+    },
+    {
+      "title": "研究生卖黄金所得12.4万被跨省冻结",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%A0%94%E7%A9%B6%E7%94%9F%E5%8D%96%E9%BB%84%E9%87%91%E6%89%80%E5%BE%9712.4%E4%B8%87%E8%A2%AB%E8%B7%A8%E7%9C%81%E5%86%BB%E7%BB%93%23&t=31&band_rank=1&Refer=top",
+      "score": 229728,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1788669142
     },
     {
       "title": "去香港看演唱会被取消低保",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%E5%8E%BB%E9%A6%99%E6%B8%AF%E7%9C%8B%E6%BC%94%E5%94%B1%E4%BC%9A%E8%A2%AB%E5%8F%96%E6%B6%88%E4%BD%8E%E4%BF%9D&t=31&band_rank=1&Refer=top",
-      "score": 309057,
+      "score": 225159,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1788657379
     },
     {
-      "title": "小县城 瘦身",
-      "description": "热 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E5%8E%BF%E5%9F%8E%20%E7%98%A6%E8%BA%AB&t=31&band_rank=1&Refer=top",
-      "score": 308759,
+      "title": "恋陪本 日本牛郎",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E6%81%8B%E9%99%AA%E6%9C%AC%20%E6%97%A5%E6%9C%AC%E7%89%9B%E9%83%8E&t=31&band_rank=1&Refer=top",
+      "score": 210075,
       "owner": "微博同城",
-      "label": "热",
+      "label": "",
       "category": "民生新闻",
-      "onboardTime": 1788661158
+      "onboardTime": 1788681560
     },
     {
-      "title": "葫芦娃爷爷剪掉葫芦后游客变少",
+      "title": "葫芦娃爷爷家附近居民发声",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%91%AB%E8%8A%A6%E5%A8%83%E7%88%B7%E7%88%B7%E5%AE%B6%E9%99%84%E8%BF%91%E5%B1%85%E6%B0%91%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
+      "score": 191999,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1788672140
+    },
+    {
+      "title": "北京警方认定卖黄金研究生未犯罪",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%91%AB%E8%8A%A6%E5%A8%83%E7%88%B7%E7%88%B7%E5%89%AA%E6%8E%89%E8%91%AB%E8%8A%A6%E5%90%8E%E6%B8%B8%E5%AE%A2%E5%8F%98%E5%B0%91%23&t=31&band_rank=1&Refer=top",
-      "score": 303919,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8C%97%E4%BA%AC%E8%AD%A6%E6%96%B9%E8%AE%A4%E5%AE%9A%E5%8D%96%E9%BB%84%E9%87%91%E7%A0%94%E7%A9%B6%E7%94%9F%E6%9C%AA%E7%8A%AF%E7%BD%AA%23&t=31&band_rank=1&Refer=top",
+      "score": 169652,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1788668120
+      "onboardTime": 1788688221
     },
     {
-      "title": "张雪机车 台湾没收一部送一部",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E9%9B%AA%E6%9C%BA%E8%BD%A6%20%E5%8F%B0%E6%B9%BE%E6%B2%A1%E6%94%B6%E4%B8%80%E9%83%A8%E9%80%81%E4%B8%80%E9%83%A8&t=31&band_rank=1&Refer=top",
-      "score": 301448,
+      "title": "莆田鞋厂老板回忆洪水水位比人高",
+      "description": "新 · 突发/灾害",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%8E%86%E7%94%B0%E9%9E%8B%E5%8E%82%E8%80%81%E6%9D%BF%E5%9B%9E%E5%BF%86%E6%B4%AA%E6%B0%B4%E6%B0%B4%E4%BD%8D%E6%AF%94%E4%BA%BA%E9%AB%98%23&t=31&band_rank=1&Refer=top",
+      "score": 144256,
       "owner": "微博同城",
       "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1788665300
+      "category": "突发/灾害",
+      "onboardTime": 1788690500
     },
     {
-      "title": "印度女子险遭性侵被流浪狗所救",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%8D%B0%E5%BA%A6%E5%A5%B3%E5%AD%90%E9%99%A9%E9%81%AD%E6%80%A7%E4%BE%B5%E8%A2%AB%E6%B5%81%E6%B5%AA%E7%8B%97%E6%89%80%E6%95%91&t=31&band_rank=1&Refer=top",
-      "score": 272028,
+      "title": "女子买海鲜混入剧毒红斑斗蟹差点误食",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E4%B9%B0%E6%B5%B7%E9%B2%9C%E6%B7%B7%E5%85%A5%E5%89%A7%E6%AF%92%E7%BA%A2%E6%96%91%E6%96%97%E8%9F%B9%E5%B7%AE%E7%82%B9%E8%AF%AF%E9%A3%9F%23&t=31&band_rank=1&Refer=top",
+      "score": 135167,
       "owner": "微博同城",
-      "label": "新",
+      "label": "",
       "category": "民生新闻",
-      "onboardTime": 1788666861
-    },
-    {
-      "title": "提前剪掉的7个葫芦讽刺了谁",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%8F%90%E5%89%8D%E5%89%AA%E6%8E%89%E7%9A%847%E4%B8%AA%E8%91%AB%E8%8A%A6%E8%AE%BD%E5%88%BA%E4%BA%86%E8%B0%81%23&t=31&band_rank=1&Refer=top",
-      "score": 259278,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1788667100
-    },
-    {
-      "title": "宠物店给狗备注土狗洗澡",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%AE%A0%E7%89%A9%E5%BA%97%E7%BB%99%E7%8B%97%E5%A4%87%E6%B3%A8%E5%9C%9F%E7%8B%97%E6%B4%97%E6%BE%A1&t=31&band_rank=1&Refer=top",
-      "score": 242818,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1788665781
-    },
-    {
-      "title": "婚外胚胎案21年换5天",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%A9%9A%E5%A4%96%E8%83%9A%E8%83%8E%E6%A1%8821%E5%B9%B4%E6%8D%A25%E5%A4%A9&t=31&band_rank=1&Refer=top",
-      "score": 238871,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1788663622
-    },
-    {
-      "title": "葫芦娃爷爷因安全或不再种葫芦",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%91%AB%E8%8A%A6%E5%A8%83%E7%88%B7%E7%88%B7%E5%9B%A0%E5%AE%89%E5%85%A8%E6%88%96%E4%B8%8D%E5%86%8D%E7%A7%8D%E8%91%AB%E8%8A%A6%23&t=31&band_rank=1&Refer=top",
-      "score": 185980,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1788668840
-    },
-    {
-      "title": "卫健委要求女子提供医院抱错证据",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8D%AB%E5%81%A5%E5%A7%94%E8%A6%81%E6%B1%82%E5%A5%B3%E5%AD%90%E6%8F%90%E4%BE%9B%E5%8C%BB%E9%99%A2%E6%8A%B1%E9%94%99%E8%AF%81%E6%8D%AE%23&t=31&band_rank=1&Refer=top",
-      "score": 167353,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1788667580
+      "onboardTime": 1788674059
     }
   ]
 }
