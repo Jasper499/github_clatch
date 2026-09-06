@@ -1,12 +1,32 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-09-05T16:52:30Z",
+  "savedAt": "2026-09-06T07:11:44Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "b1a37a2bf881feb6d71e2587c70f0e4e70b72548",
+  "latestSha": "28150f30f8b4017991fca8c7b2839f02c6586d2f",
   "items": [
+    {
+      "title": "Clarify task-scoped figure choices and nonblocking manuscript edits (…",
+      "description": "Clarify task-scoped figure choices and nonblocking manuscript edits (#213)",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/28150f30f8b4017991fca8c7b2839f02c6586d2f",
+      "sha": "28150f3",
+      "fullSha": "28150f30f8b4017991fca8c7b2839f02c6586d2f",
+      "owner": "hurry060215-tech",
+      "published": "2026-09-06",
+      "label": "commit"
+    },
+    {
+      "title": "fix(academic-search): use ESummary JSON for MeSH lookup (#214)",
+      "description": "fix(academic-search): use ESummary JSON for MeSH lookup (#214)\n\nCo-authored-by: sj1985553-lab &lt;273625246+sj1985553-lab@users.noreply.github.com&gt;",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/6c39b20fe8f6033090d227c616ee3152de70490e",
+      "sha": "6c39b20",
+      "fullSha": "6c39b20fe8f6033090d227c616ee3152de70490e",
+      "owner": "sj1985553-lab",
+      "published": "2026-09-06",
+      "label": "commit"
+    },
     {
       "title": "chore: update star history",
       "description": "chore: update star history",
@@ -135,26 +155,6 @@
       "fullSha": "558eae555d64e09b152efc449ca274bbd7747947",
       "owner": "Travisma2233",
       "published": "2026-08-24",
-      "label": "commit"
-    },
-    {
-      "title": "feat: add automatic rendered figure collision audit (#206)",
-      "description": "feat: add automatic rendered figure collision audit (#206)",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/dd0263aeedb2eb2ebb2eef25775b44ae37b8a988",
-      "sha": "dd0263a",
-      "fullSha": "dd0263aeedb2eb2ebb2eef25775b44ae37b8a988",
-      "owner": "Travisma2233",
-      "published": "2026-08-24",
-      "label": "commit"
-    },
-    {
-      "title": "feat(image2ppt): add provider-neutral image backend (#204)",
-      "description": "feat(image2ppt): add provider-neutral image backend (#204)\n\nAdd auto/codex-oauth/openai-compatible-api backends so OpenAI Images-compatible providers can be used without hard-coding a vendor or sending Codex OAuth credentials to third-party endpoints.\n\nMade-with: Cursor\n\nCo-authored-by: jarxunlai &lt;199478724+jarxunlai@users.noreply.github.com&gt;",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/552af66976bec65021371d7563103f2103450f6e",
-      "sha": "552af66",
-      "fullSha": "552af66976bec65021371d7563103f2103450f6e",
-      "owner": "jarxunlai",
-      "published": "2026-08-23",
       "label": "commit"
     }
   ]

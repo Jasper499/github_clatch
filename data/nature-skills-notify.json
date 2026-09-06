@@ -1,20 +1,30 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-09-05T16:52:30Z",
+  "changed": true,
+  "fetchedAt": "2026-09-06T07:11:44Z",
   "previousSha": "b1a37a2bf881feb6d71e2587c70f0e4e70b72548",
-  "latestSha": "b1a37a2bf881feb6d71e2587c70f0e4e70b72548",
+  "latestSha": "28150f30f8b4017991fca8c7b2839f02c6586d2f",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "chore: update star history",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/b1a37a2bf881feb6d71e2587c70f0e4e70b72548",
-    "sha": "b1a37a2",
-    "published": "2026-09-04"
+    "title": "Clarify task-scoped figure choices and nonblocking manuscript edits (…",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/28150f30f8b4017991fca8c7b2839f02c6586d2f",
+    "sha": "28150f3",
+    "published": "2026-09-06"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "Clarify task-scoped figure choices and nonblocking manuscript edits (…",
+      "sha": "28150f3",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/28150f30f8b4017991fca8c7b2839f02c6586d2f"
+    },
+    {
+      "title": "fix(academic-search): use ESummary JSON for MeSH lookup (#214)",
+      "sha": "6c39b20",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/6c39b20fe8f6033090d227c616ee3152de70490e"
+    },
     {
       "title": "chore: update star history",
       "sha": "b1a37a2",
@@ -29,16 +39,6 @@
       "title": "Merge pull request #212 from zpf2234/fix/windows-mermaid-command",
       "sha": "a93f8df",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/a93f8df683abceaf30f59e8b7913addd882ec7db"
-    },
-    {
-      "title": "fix: 修复 Windows Mermaid 路径引用",
-      "sha": "0e3f1bc",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/0e3f1bc074314e21f8309dc356bd05e1c1ca09f9"
-    },
-    {
-      "title": "ci: 补齐技能与内容契约测试",
-      "sha": "1d650bb",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/1d650bbd9a7fa595500cf9bc6c079d96ad21188f"
     }
   ]
 }
