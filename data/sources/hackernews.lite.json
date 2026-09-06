@@ -1,50 +1,42 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-09-05T16:39:23Z",
+  "savedAt": "2026-09-06T06:58:43Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-09-05，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-09-06，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-09-05",
+  "fetchedDate": "2026-09-06",
   "items": [
     {
       "title": "GPT-6 Astra",
       "description": "System Card: <a href=\"https:&#x2F;&#x2F;deploymentsafety.openai.com&#x2F;gpt-6-astra\" rel=\"nofollow\">https:&#x2F;&#x2F;deploymentsafety.openai.com&#x2F;gpt-6-astra</a><p>Related ongoing threads:<p><i>OpenAI&#x27;s GPT-6 Astra on ARC-AGI-3</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49555691\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49555691</a><p><i>GPT-6 Astra makes major gains in the Artificial Analysis Coding Agent Index</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49556147\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49556147</a>",
       "url": "https://openai.com/index/gpt-6-astra/",
-      "score": 2206,
-      "comments": 2019,
+      "score": 2225,
+      "comments": 2044,
       "owner": "kibae"
     },
     {
       "title": ".name Termination",
       "description": "",
       "url": "https://neil.fraser.name/news/2026/09/03/",
-      "score": 2183,
-      "comments": 535,
+      "score": 2200,
+      "comments": 536,
       "owner": "pavel_lishin"
     },
     {
       "title": "Discovery of a new OpenAI agent message board",
       "description": "<a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;world&#x2F;europe&#x2F;openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;world&#x2F;europe&#x2F;openai-agents-hijacked-...</a>",
       "url": "https://collusion.wiki/",
-      "score": 1898,
-      "comments": 1447,
+      "score": 2161,
+      "comments": 1536,
       "owner": "moultano"
     },
     {
       "title": "Claude Fable 5.1 and Claude Mythos 5.1",
       "description": "What&#x27;s new in Claude Fable 5.1\n – <a href=\"https:&#x2F;&#x2F;platform.claude.com&#x2F;docs&#x2F;en&#x2F;models&#x2F;fable-5-1&#x2F;whats-new-fable-5-1\" rel=\"nofollow\">https:&#x2F;&#x2F;platform.claude.com&#x2F;docs&#x2F;en&#x2F;models&#x2F;fable-5-1&#x2F;whats-n...</a><p>System Card: <a href=\"https:&#x2F;&#x2F;www-cdn.anthropic.com&#x2F;0339e6a7c5c7b87f5c07798616dc32c215d14235&#x2F;Claude%20Fable%205.1%20&amp;%20Claude%20Mythos%205.1%20System%20Card.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;www-cdn.anthropic.com&#x2F;0339e6a7c5c7b87f5c07798616dc32...</a>",
       "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-      "score": 1412,
-      "comments": 1383,
+      "score": 1414,
+      "comments": 1384,
       "owner": "denysvitali"
-    },
-    {
-      "title": "Creepy Crawlies",
-      "description": "",
-      "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
-      "score": 1385,
-      "comments": 708,
-      "owner": "zdw"
     },
     {
       "title": "“I just chose words carefully”",
@@ -59,23 +51,23 @@
       "description": "<a href=\"https:&#x2F;&#x2F;deepmind.google&#x2F;models&#x2F;model-cards&#x2F;gemini-3-8-flash&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;deepmind.google&#x2F;models&#x2F;model-cards&#x2F;gemini-3-8-flash&#x2F;</a>",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
       "score": 1154,
-      "comments": 662,
+      "comments": 663,
       "owner": "bratao"
     },
     {
       "title": "Audacity 4.0",
       "description": "",
       "url": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0",
-      "score": 1145,
-      "comments": 262,
+      "score": 1150,
+      "comments": 264,
       "owner": "ClydeN"
     },
     {
       "title": "Hang on to Your Firefox",
       "description": "",
       "url": "https://www.newsonaut.com/articles/hang-on-to-your-firefox",
-      "score": 977,
-      "comments": 531,
+      "score": 983,
+      "comments": 533,
       "owner": "speckx"
     },
     {
@@ -91,32 +83,40 @@
       "description": "",
       "url": "https://danluu.com/zitron/",
       "score": 872,
-      "comments": 1046,
+      "comments": 1051,
       "owner": "jatins"
     },
     {
       "title": "Fastpotify",
       "description": "",
       "url": "https://fastpotify.rocks/",
-      "score": 853,
+      "score": 854,
       "comments": 566,
       "owner": "nreece"
     },
     {
-      "title": "California lawmakers unanimously pass Linux exemption from age-verification law",
+      "title": "Actively exploited sandbox RCE in all Chromium versions",
       "description": "",
-      "url": "https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt",
-      "score": 805,
-      "comments": 408,
-      "owner": "shscs911"
+      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-85046",
+      "score": 769,
+      "comments": 458,
+      "owner": "negura"
     },
     {
       "title": "Google Has Removed MV2 Extensions from the Chrome Web Store, Including UBO",
       "description": "",
       "url": "https://webiterate.dev/google-removed-extensions-ublock-origin-108/",
-      "score": 757,
-      "comments": 615,
+      "score": 758,
+      "comments": 618,
       "owner": "twapi"
+    },
+    {
+      "title": "Formalizing Fermat's Last Theorem",
+      "description": "<a href=\"https:&#x2F;&#x2F;xenaproject.wordpress.com&#x2F;2026&#x2F;09&#x2F;04&#x2F;flt-anthropic-has-beaten-me-to-it&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;xenaproject.wordpress.com&#x2F;2026&#x2F;09&#x2F;04&#x2F;flt-anthropic-h...</a>",
+      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+      "score": 753,
+      "comments": 488,
+      "owner": "jlebar"
     },
     {
       "title": "Playa Phone",
@@ -130,23 +130,15 @@
       "title": "A note on subscription prices from LWN",
       "description": "",
       "url": "https://lwn.net/Articles/1090585/",
-      "score": 730,
+      "score": 731,
       "comments": 150,
       "owner": "rwky"
-    },
-    {
-      "title": "Formalizing Fermat's Last Theorem",
-      "description": "<a href=\"https:&#x2F;&#x2F;xenaproject.wordpress.com&#x2F;2026&#x2F;09&#x2F;04&#x2F;flt-anthropic-has-beaten-me-to-it&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;xenaproject.wordpress.com&#x2F;2026&#x2F;09&#x2F;04&#x2F;flt-anthropic-h...</a>",
-      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
-      "score": 696,
-      "comments": 434,
-      "owner": "jlebar"
     },
     {
       "title": "Muse Spark 1.3",
       "description": "<a href=\"https:&#x2F;&#x2F;research.meta.ai&#x2F;blog&#x2F;introducing-muse-spark-1-3\" rel=\"nofollow\">https:&#x2F;&#x2F;research.meta.ai&#x2F;blog&#x2F;introducing-muse-spark-1-3</a>",
       "url": "https://developer.meta.com/ai/models/muse-spark/",
-      "score": 686,
+      "score": 687,
       "comments": 448,
       "owner": "bvaldivielso"
     },
@@ -154,17 +146,25 @@
       "title": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
       "description": "",
       "url": "https://inference-docs.cerebras.ai/models/overview",
-      "score": 683,
-      "comments": 224,
+      "score": 685,
+      "comments": 225,
       "owner": "altertable"
     },
     {
       "title": "I trained a small transformer in 1.5hrs and it beats many LLMs",
       "description": "",
       "url": "https://mvakde.github.io/blog/44-on-arc-1/",
-      "score": 667,
+      "score": 668,
       "comments": 166,
       "owner": "porridgeraisin"
+    },
+    {
+      "title": "Nitter has more working instances than before the takedowns",
+      "description": "",
+      "url": "https://codeberg.org/mv12star/shitter/wiki/Instances",
+      "score": 663,
+      "comments": 321,
+      "owner": "Cider9986"
     }
   ]
 }
