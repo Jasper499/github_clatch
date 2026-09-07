@@ -1,20 +1,25 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-09-06T17:08:47Z",
+  "changed": true,
+  "fetchedAt": "2026-09-07T07:24:09Z",
   "previousSha": "28150f30f8b4017991fca8c7b2839f02c6586d2f",
-  "latestSha": "28150f30f8b4017991fca8c7b2839f02c6586d2f",
+  "latestSha": "287ee37542620711a56c7c58a73f44ef5c2bede0",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "Clarify task-scoped figure choices and nonblocking manuscript edits (…",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/28150f30f8b4017991fca8c7b2839f02c6586d2f",
-    "sha": "28150f3",
-    "published": "2026-09-06"
+    "title": "chore: update star history",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/287ee37542620711a56c7c58a73f44ef5c2bede0",
+    "sha": "287ee37",
+    "published": "2026-09-07"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "chore: update star history",
+      "sha": "287ee37",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/287ee37542620711a56c7c58a73f44ef5c2bede0"
+    },
     {
       "title": "Clarify task-scoped figure choices and nonblocking manuscript edits (…",
       "sha": "28150f3",
@@ -34,11 +39,6 @@
       "title": "Merge pull request #211 from zpf2234/ci/complete-test-coverage",
       "sha": "596f65b",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/596f65ba8220e15d76dcbc53fd9bc8ae71448a23"
-    },
-    {
-      "title": "Merge pull request #212 from zpf2234/fix/windows-mermaid-command",
-      "sha": "a93f8df",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/a93f8df683abceaf30f59e8b7913addd882ec7db"
     }
   ]
 }

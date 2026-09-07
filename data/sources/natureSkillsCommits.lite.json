@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-09-06T17:08:47Z",
+  "savedAt": "2026-09-07T07:24:09Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "28150f30f8b4017991fca8c7b2839f02c6586d2f",
+  "latestSha": "287ee37542620711a56c7c58a73f44ef5c2bede0",
   "items": [
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/287ee37542620711a56c7c58a73f44ef5c2bede0",
+      "sha": "287ee37",
+      "fullSha": "287ee37542620711a56c7c58a73f44ef5c2bede0",
+      "owner": "github-actions",
+      "published": "2026-09-07",
+      "label": "commit"
+    },
     {
       "title": "Clarify task-scoped figure choices and nonblocking manuscript edits (…",
       "description": "Clarify task-scoped figure choices and nonblocking manuscript edits (#213)",
@@ -145,16 +155,6 @@
       "fullSha": "3817cd194c31010febb1312ab786e53cd8154333",
       "owner": "github-actions",
       "published": "2026-08-25",
-      "label": "commit"
-    },
-    {
-      "title": "fix: prefer modern PyMuPDF import (#207)",
-      "description": "fix: prefer modern PyMuPDF import (#207)",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/558eae555d64e09b152efc449ca274bbd7747947",
-      "sha": "558eae5",
-      "fullSha": "558eae555d64e09b152efc449ca274bbd7747947",
-      "owner": "Travisma2233",
-      "published": "2026-08-24",
       "label": "commit"
     }
   ]
