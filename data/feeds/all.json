@@ -6,100 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "github:https://github.com/lnkiai/m3e-canvas",
-      "url": "https://github.com/lnkiai/m3e-canvas",
-      "title": "[GitHub 热门新项目] lnkiai/m3e-canvas",
-      "date_published": "2026-09-07T05:39:28Z"
+      "id": "hackernews:https://collusion.wiki/",
+      "url": "https://collusion.wiki/",
+      "title": "[Hacker News 热门] Discovery of a new OpenAI agent message board",
+      "date_published": "2026-09-07T07:09:29Z"
     },
     {
-      "id": "github:https://github.com/anthropics/commerce-agents",
-      "url": "https://github.com/anthropics/commerce-agents",
-      "title": "[GitHub 热门新项目] anthropics/commerce-agents",
-      "date_published": "2026-09-07T05:39:28Z"
+      "id": "hackernews:https://openai.com/index/gpt-6-astra/",
+      "url": "https://openai.com/index/gpt-6-astra/",
+      "title": "[Hacker News 热门] GPT-6 Astra",
+      "date_published": "2026-09-07T07:09:29Z"
     },
     {
-      "id": "github:https://github.com/ashemag/human-atlas",
-      "url": "https://github.com/ashemag/human-atlas",
-      "title": "[GitHub 热门新项目] ashemag/human-atlas",
-      "date_published": "2026-09-07T05:39:28Z"
+      "id": "hackernews:https://neil.fraser.name/news/2026/09/03/",
+      "url": "https://neil.fraser.name/news/2026/09/03/",
+      "title": "[Hacker News 热门] .name Termination",
+      "date_published": "2026-09-07T07:09:29Z"
     },
     {
-      "id": "github:https://github.com/Rion-Wu-tech/wechat-intelligence-hub",
-      "url": "https://github.com/Rion-Wu-tech/wechat-intelligence-hub",
-      "title": "[GitHub 热门新项目] Rion-Wu-tech/wechat-intelligence-hub",
-      "date_published": "2026-09-07T05:39:28Z"
+      "id": "hackernews:https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "title": "[Hacker News 热门] Claude Fable 5.1 and Claude Mythos 5.1",
+      "date_published": "2026-09-07T07:09:29Z"
     },
     {
-      "id": "github:https://github.com/pierrenade/short-video-generator-AI",
-      "url": "https://github.com/pierrenade/short-video-generator-AI",
-      "title": "[GitHub 热门新项目] pierrenade/short-video-generator-AI",
-      "date_published": "2026-09-07T05:39:28Z"
+      "id": "hackernews:https://beige.party/@intransitivelie/117057396732763183",
+      "url": "https://beige.party/@intransitivelie/117057396732763183",
+      "title": "[Hacker News 热门] QBittorrent breaks out of sandbox to commit crimes",
+      "date_published": "2026-09-07T07:09:29Z"
     },
     {
-      "id": "github:https://github.com/anthropics/fermats-last-theorem",
-      "url": "https://github.com/anthropics/fermats-last-theorem",
-      "title": "[GitHub 热门新项目] anthropics/fermats-last-theorem",
-      "date_published": "2026-09-07T05:39:28Z"
+      "id": "hackernews:https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0",
+      "url": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0",
+      "title": "[Hacker News 热门] Audacity 4.0",
+      "date_published": "2026-09-07T07:09:29Z"
     },
     {
-      "id": "github:https://github.com/yczz/oc-english",
-      "url": "https://github.com/yczz/oc-english",
-      "title": "[GitHub 热门新项目] yczz/oc-english",
-      "date_published": "2026-09-07T05:39:28Z"
+      "id": "hackernews:https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+      "title": "[Hacker News 热门] Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "date_published": "2026-09-07T07:09:29Z"
     },
     {
-      "id": "github:https://github.com/danielblnc/DLSS-NR-on-AMD",
-      "url": "https://github.com/danielblnc/DLSS-NR-on-AMD",
-      "title": "[GitHub 热门新项目] danielblnc/DLSS-NR-on-AMD",
-      "date_published": "2026-09-07T05:39:28Z"
-    },
-    {
-      "id": "githubActive:https://github.com/sindresorhus/awesome",
-      "url": "https://github.com/sindresorhus/awesome",
-      "title": "[GitHub 活跃项目] sindresorhus/awesome",
-      "date_published": "2026-09-07T05:39:28Z"
-    },
-    {
-      "id": "githubActive:https://github.com/public-apis/public-apis",
-      "url": "https://github.com/public-apis/public-apis",
-      "title": "[GitHub 活跃项目] public-apis/public-apis",
-      "date_published": "2026-09-07T05:39:28Z"
-    },
-    {
-      "id": "githubActive:https://github.com/freeCodeCamp/freeCodeCamp",
-      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "title": "[GitHub 活跃项目] freeCodeCamp/freeCodeCamp",
-      "date_published": "2026-09-07T05:39:28Z"
-    },
-    {
-      "id": "githubActive:https://github.com/EbookFoundation/free-programming-books",
-      "url": "https://github.com/EbookFoundation/free-programming-books",
-      "title": "[GitHub 活跃项目] EbookFoundation/free-programming-books",
-      "date_published": "2026-09-07T05:39:28Z"
-    },
-    {
-      "id": "githubActive:https://github.com/openclaw/openclaw",
-      "url": "https://github.com/openclaw/openclaw",
-      "title": "[GitHub 活跃项目] openclaw/openclaw",
-      "date_published": "2026-09-07T05:39:28Z"
-    },
-    {
-      "id": "githubActive:https://github.com/nilbuild/developer-roadmap",
-      "url": "https://github.com/nilbuild/developer-roadmap",
-      "title": "[GitHub 活跃项目] nilbuild/developer-roadmap",
-      "date_published": "2026-09-07T05:39:28Z"
-    },
-    {
-      "id": "githubActive:https://github.com/vinta/awesome-python",
-      "url": "https://github.com/vinta/awesome-python",
-      "title": "[GitHub 活跃项目] vinta/awesome-python",
-      "date_published": "2026-09-07T05:39:28Z"
-    },
-    {
-      "id": "githubActive:https://github.com/awesome-selfhosted/awesome-selfhosted",
-      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-      "title": "[GitHub 活跃项目] awesome-selfhosted/awesome-selfhosted",
-      "date_published": "2026-09-07T05:39:28Z"
+      "id": "hackernews:https://www.newsonaut.com/articles/hang-on-to-your-firefox",
+      "url": "https://www.newsonaut.com/articles/hang-on-to-your-firefox",
+      "title": "[Hacker News 热门] Hang on to Your Firefox",
+      "date_published": "2026-09-07T07:09:29Z"
     }
   ]
 }

@@ -1,32 +1,32 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-09-06T16:46:46Z",
+  "savedAt": "2026-09-07T07:09:29Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-09-06，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-09-07，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-09-06",
+  "fetchedDate": "2026-09-07",
   "items": [
-    {
-      "title": "GPT-6 Astra",
-      "description": "System Card: <a href=\"https:&#x2F;&#x2F;deploymentsafety.openai.com&#x2F;gpt-6-astra\" rel=\"nofollow\">https:&#x2F;&#x2F;deploymentsafety.openai.com&#x2F;gpt-6-astra</a><p>Related ongoing threads:<p><i>OpenAI&#x27;s GPT-6 Astra on ARC-AGI-3</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49555691\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49555691</a><p><i>GPT-6 Astra makes major gains in the Artificial Analysis Coding Agent Index</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49556147\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49556147</a>",
-      "url": "https://openai.com/index/gpt-6-astra/",
-      "score": 2243,
-      "comments": 2050,
-      "owner": "kibae"
-    },
     {
       "title": "Discovery of a new OpenAI agent message board",
       "description": "<a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;world&#x2F;europe&#x2F;openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;world&#x2F;europe&#x2F;openai-agents-hijacked-...</a>",
       "url": "https://collusion.wiki/",
-      "score": 2241,
-      "comments": 1567,
+      "score": 2272,
+      "comments": 1581,
       "owner": "moultano"
+    },
+    {
+      "title": "GPT-6 Astra",
+      "description": "System Card: <a href=\"https:&#x2F;&#x2F;deploymentsafety.openai.com&#x2F;gpt-6-astra\" rel=\"nofollow\">https:&#x2F;&#x2F;deploymentsafety.openai.com&#x2F;gpt-6-astra</a><p>Related ongoing threads:<p><i>OpenAI&#x27;s GPT-6 Astra on ARC-AGI-3</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49555691\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49555691</a><p><i>GPT-6 Astra makes major gains in the Artificial Analysis Coding Agent Index</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49556147\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49556147</a>",
+      "url": "https://openai.com/index/gpt-6-astra/",
+      "score": 2251,
+      "comments": 2061,
+      "owner": "kibae"
     },
     {
       "title": ".name Termination",
       "description": "",
       "url": "https://neil.fraser.name/news/2026/09/03/",
-      "score": 2207,
+      "score": 2216,
       "comments": 538,
       "owner": "pavel_lishin"
     },
@@ -35,38 +35,38 @@
       "description": "What&#x27;s new in Claude Fable 5.1\n – <a href=\"https:&#x2F;&#x2F;platform.claude.com&#x2F;docs&#x2F;en&#x2F;models&#x2F;fable-5-1&#x2F;whats-new-fable-5-1\" rel=\"nofollow\">https:&#x2F;&#x2F;platform.claude.com&#x2F;docs&#x2F;en&#x2F;models&#x2F;fable-5-1&#x2F;whats-n...</a><p>System Card: <a href=\"https:&#x2F;&#x2F;www-cdn.anthropic.com&#x2F;0339e6a7c5c7b87f5c07798616dc32c215d14235&#x2F;Claude%20Fable%205.1%20&amp;%20Claude%20Mythos%205.1%20System%20Card.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;www-cdn.anthropic.com&#x2F;0339e6a7c5c7b87f5c07798616dc32...</a>",
       "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
       "score": 1415,
-      "comments": 1389,
+      "comments": 1392,
       "owner": "denysvitali"
     },
     {
-      "title": "“I just chose words carefully”",
+      "title": "QBittorrent breaks out of sandbox to commit crimes",
       "description": "",
-      "url": "https://unsung.aresluna.org/i-just-chose-words-carefully/",
-      "score": 1254,
-      "comments": 354,
-      "owner": "zdw"
-    },
-    {
-      "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "description": "<a href=\"https:&#x2F;&#x2F;deepmind.google&#x2F;models&#x2F;model-cards&#x2F;gemini-3-8-flash&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;deepmind.google&#x2F;models&#x2F;model-cards&#x2F;gemini-3-8-flash&#x2F;</a>",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-      "score": 1156,
-      "comments": 664,
-      "owner": "bratao"
+      "url": "https://beige.party/@intransitivelie/117057396732763183",
+      "score": 1249,
+      "comments": 273,
+      "owner": "mraniki"
     },
     {
       "title": "Audacity 4.0",
       "description": "",
       "url": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0",
-      "score": 1156,
+      "score": 1160,
       "comments": 263,
       "owner": "ClydeN"
+    },
+    {
+      "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "description": "<a href=\"https:&#x2F;&#x2F;deepmind.google&#x2F;models&#x2F;model-cards&#x2F;gemini-3-8-flash&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;deepmind.google&#x2F;models&#x2F;model-cards&#x2F;gemini-3-8-flash&#x2F;</a>",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+      "score": 1157,
+      "comments": 665,
+      "owner": "bratao"
     },
     {
       "title": "Hang on to Your Firefox",
       "description": "",
       "url": "https://www.newsonaut.com/articles/hang-on-to-your-firefox",
-      "score": 987,
+      "score": 988,
       "comments": 534,
       "owner": "speckx"
     },
@@ -74,7 +74,7 @@
       "title": "AnkiDroid: Google Play no longer allowing Open Collective donation link",
       "description": "",
       "url": "https://github.com/ankidroid/Anki-Android/issues/21656",
-      "score": 921,
+      "score": 923,
       "comments": 279,
       "owner": "hexa555"
     },
@@ -82,8 +82,8 @@
       "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
       "description": "",
       "url": "https://danluu.com/zitron/",
-      "score": 873,
-      "comments": 1052,
+      "score": 875,
+      "comments": 1054,
       "owner": "jatins"
     },
     {
@@ -91,39 +91,39 @@
       "description": "",
       "url": "https://fastpotify.rocks/",
       "score": 854,
-      "comments": 566,
+      "comments": 567,
       "owner": "nreece"
     },
     {
       "title": "Actively exploited sandbox RCE in all Chromium versions",
       "description": "",
       "url": "https://nvd.nist.gov/vuln/detail/cve-2026-85046",
-      "score": 788,
-      "comments": 481,
+      "score": 795,
+      "comments": 492,
       "owner": "negura"
-    },
-    {
-      "title": "Google Has Removed MV2 Extensions from the Chrome Web Store, Including UBO",
-      "description": "",
-      "url": "https://webiterate.dev/google-removed-extensions-ublock-origin-108/",
-      "score": 760,
-      "comments": 620,
-      "owner": "twapi"
     },
     {
       "title": "Formalizing Fermat's Last Theorem",
       "description": "<a href=\"https:&#x2F;&#x2F;xenaproject.wordpress.com&#x2F;2026&#x2F;09&#x2F;04&#x2F;flt-anthropic-has-beaten-me-to-it&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;xenaproject.wordpress.com&#x2F;2026&#x2F;09&#x2F;04&#x2F;flt-anthropic-h...</a>",
       "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
-      "score": 760,
-      "comments": 496,
+      "score": 764,
+      "comments": 504,
       "owner": "jlebar"
+    },
+    {
+      "title": "Google Has Removed MV2 Extensions from the Chrome Web Store, Including UBO",
+      "description": "",
+      "url": "https://webiterate.dev/google-removed-extensions-ublock-origin-108/",
+      "score": 761,
+      "comments": 620,
+      "owner": "twapi"
     },
     {
       "title": "Playa Phone",
       "description": "",
       "url": "https://playaphone.com/",
       "score": 751,
-      "comments": 233,
+      "comments": 234,
       "owner": "cutoff"
     },
     {
@@ -131,15 +131,23 @@
       "description": "",
       "url": "https://lwn.net/Articles/1090585/",
       "score": 731,
-      "comments": 150,
+      "comments": 151,
       "owner": "rwky"
+    },
+    {
+      "title": "Private German rocket makes history, reaches orbit from European soil",
+      "description": "",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket",
+      "score": 717,
+      "comments": 408,
+      "owner": "bookmtn"
     },
     {
       "title": "Nitter has more working instances than before the takedowns",
       "description": "",
       "url": "https://codeberg.org/mv12star/shitter/wiki/Instances",
-      "score": 697,
-      "comments": 373,
+      "score": 715,
+      "comments": 390,
       "owner": "Cider9986"
     },
     {
@@ -147,24 +155,16 @@
       "description": "<a href=\"https:&#x2F;&#x2F;research.meta.ai&#x2F;blog&#x2F;introducing-muse-spark-1-3\" rel=\"nofollow\">https:&#x2F;&#x2F;research.meta.ai&#x2F;blog&#x2F;introducing-muse-spark-1-3</a>",
       "url": "https://developer.meta.com/ai/models/muse-spark/",
       "score": 690,
-      "comments": 450,
+      "comments": 454,
       "owner": "bvaldivielso"
     },
     {
       "title": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
       "description": "",
       "url": "https://inference-docs.cerebras.ai/models/overview",
-      "score": 688,
-      "comments": 226,
+      "score": 689,
+      "comments": 227,
       "owner": "altertable"
-    },
-    {
-      "title": "Private German rocket makes history, reaches orbit from European soil",
-      "description": "",
-      "url": "https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket",
-      "score": 684,
-      "comments": 367,
-      "owner": "bookmtn"
     }
   ]
 }
