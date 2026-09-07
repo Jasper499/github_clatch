@@ -1,130 +1,150 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-09-07T04:26:30Z",
+  "savedAt": "2026-09-07T12:20:10Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-09-07，共 12 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-09-07，共 14 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-09-07",
   "items": [
     {
-      "title": "星宇车灯处罚公告",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%98%9F%E5%AE%87%E8%BD%A6%E7%81%AF%E5%A4%84%E7%BD%9A%E5%85%AC%E5%91%8A%23&t=31&band_rank=1&Refer=top",
-      "score": 1223696,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1788750559
-    },
-    {
-      "title": "中秋放假3天不调休高速不免费",
+      "title": "赵一鸣致歉",
       "description": "热 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E7%A7%8B%E6%94%BE%E5%81%873%E5%A4%A9%E4%B8%8D%E8%B0%83%E4%BC%91%E9%AB%98%E9%80%9F%E4%B8%8D%E5%85%8D%E8%B4%B9%23&t=31&band_rank=1&Refer=top",
-      "score": 1044551,
+      "url": "https://s.weibo.com/weibo?q=%23%E8%B5%B5%E4%B8%80%E9%B8%A3%E8%87%B4%E6%AD%89%23&t=31&band_rank=1&Refer=top",
+      "score": 1970905,
       "owner": "微博同城",
       "label": "热",
       "category": "民生新闻",
-      "onboardTime": 1788747919
+      "onboardTime": 1788777802
     },
     {
-      "title": "官方回应赴港看演唱会被取消全家低保",
-      "description": "沸 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AE%98%E6%96%B9%E5%9B%9E%E5%BA%94%E8%B5%B4%E6%B8%AF%E7%9C%8B%E6%BC%94%E5%94%B1%E4%BC%9A%E8%A2%AB%E5%8F%96%E6%B6%88%E5%85%A8%E5%AE%B6%E4%BD%8E%E4%BF%9D%23&t=31&band_rank=1&Refer=top",
-      "score": 1003146,
-      "owner": "微博同城",
-      "label": "沸",
-      "category": "民生新闻",
-      "onboardTime": 1788728653
-    },
-    {
-      "title": "单亲妈妈说没钱再捐后公益机构笑了",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8D%95%E4%BA%B2%E5%A6%88%E5%A6%88%E8%AF%B4%E6%B2%A1%E9%92%B1%E5%86%8D%E6%8D%90%E5%90%8E%E5%85%AC%E7%9B%8A%E6%9C%BA%E6%9E%84%E7%AC%91%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 450578,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1788745098
-    },
-    {
-      "title": "葫芦娃爷爷隔壁咖啡店挂了7个葫芦",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%91%AB%E8%8A%A6%E5%A8%83%E7%88%B7%E7%88%B7%E9%9A%94%E5%A3%81%E5%92%96%E5%95%A1%E5%BA%97%E6%8C%82%E4%BA%867%E4%B8%AA%E8%91%AB%E8%8A%A6%23&t=31&band_rank=1&Refer=top",
-      "score": 407571,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1788749540
-    },
-    {
-      "title": "和贫困生喝咖啡一样的困境",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%92%8C%E8%B4%AB%E5%9B%B0%E7%94%9F%E5%96%9D%E5%92%96%E5%95%A1%E4%B8%80%E6%A0%B7%E7%9A%84%E5%9B%B0%E5%A2%83&t=31&band_rank=1&Refer=top",
-      "score": 400996,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1788744020
-    },
-    {
-      "title": "母亲哄睡3岁儿子外出喝酒儿子坠亡",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%AF%8D%E4%BA%B2%E5%93%84%E7%9D%A13%E5%B2%81%E5%84%BF%E5%AD%90%E5%A4%96%E5%87%BA%E5%96%9D%E9%85%92%E5%84%BF%E5%AD%90%E5%9D%A0%E4%BA%A1%23&t=31&band_rank=1&Refer=top",
-      "score": 395850,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1788743958
-    },
-    {
-      "title": "7个采水点没采集一滴真实地下水",
+      "title": "葫芦娃爷爷隔壁咖啡店遭大量差评",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%237%E4%B8%AA%E9%87%87%E6%B0%B4%E7%82%B9%E6%B2%A1%E9%87%87%E9%9B%86%E4%B8%80%E6%BB%B4%E7%9C%9F%E5%AE%9E%E5%9C%B0%E4%B8%8B%E6%B0%B4%23&t=31&band_rank=1&Refer=top",
-      "score": 376362,
+      "url": "https://s.weibo.com/weibo?q=%23%E8%91%AB%E8%8A%A6%E5%A8%83%E7%88%B7%E7%88%B7%E9%9A%94%E5%A3%81%E5%92%96%E5%95%A1%E5%BA%97%E9%81%AD%E5%A4%A7%E9%87%8F%E5%B7%AE%E8%AF%84%23&t=31&band_rank=1&Refer=top",
+      "score": 971227,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1788754882
+      "onboardTime": 1788780200
     },
     {
-      "title": "星宇人力资源总监免职",
+      "title": "院士寄语当代青年",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%98%9F%E5%AE%87%E4%BA%BA%E5%8A%9B%E8%B5%84%E6%BA%90%E6%80%BB%E7%9B%91%E5%85%8D%E8%81%8C%23&t=31&band_rank=1&Refer=top",
-      "score": 371433,
+      "url": "https://s.weibo.com/weibo?q=%23%E9%99%A2%E5%A3%AB%E5%AF%84%E8%AF%AD%E5%BD%93%E4%BB%A3%E9%9D%92%E5%B9%B4%23&t=31&band_rank=1&Refer=top",
+      "score": 770210,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1788750620
+      "onboardTime": 1788781581
     },
     {
-      "title": "内蒙古婚内强奸案细节曝光",
+      "title": "贫困生追星错在哪",
+      "description": "热 · 民生新闻,演出",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%B4%AB%E5%9B%B0%E7%94%9F%E8%BF%BD%E6%98%9F%E9%94%99%E5%9C%A8%E5%93%AA%23&t=31&band_rank=1&Refer=top",
+      "score": 323832,
+      "owner": "微博同城",
+      "label": "热",
+      "category": "民生新闻,演出",
+      "onboardTime": 1788775760
+    },
+    {
+      "title": "南宁站跳轨 司机心理阴影",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%8D%97%E5%AE%81%E7%AB%99%E8%B7%B3%E8%BD%A8%20%E5%8F%B8%E6%9C%BA%E5%BF%83%E7%90%86%E9%98%B4%E5%BD%B1&t=31&band_rank=1&Refer=top",
+      "score": 322719,
+      "owner": "微博同城",
+      "label": "热",
+      "category": "民生新闻",
+      "onboardTime": 1788777321
+    },
+    {
+      "title": "飞机上一拳打没全家美国签证",
+      "description": "民生新闻,议题讨论",
+      "url": "https://s.weibo.com/weibo?q=%E9%A3%9E%E6%9C%BA%E4%B8%8A%E4%B8%80%E6%8B%B3%E6%89%93%E6%B2%A1%E5%85%A8%E5%AE%B6%E7%BE%8E%E5%9B%BD%E7%AD%BE%E8%AF%81&t=31&band_rank=1&Refer=top",
+      "score": 322205,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻,议题讨论",
+      "onboardTime": 1788773002
+    },
+    {
+      "title": "爸爸含泪举报女儿吸9小时笑气",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%86%85%E8%92%99%E5%8F%A4%E5%A9%9A%E5%86%85%E5%BC%BA%E5%A5%B8%E6%A1%88%E7%BB%86%E8%8A%82%E6%9B%9D%E5%85%89%23&t=31&band_rank=1&Refer=top",
-      "score": 213961,
+      "url": "https://s.weibo.com/weibo?q=%23%E7%88%B8%E7%88%B8%E5%90%AB%E6%B3%AA%E4%B8%BE%E6%8A%A5%E5%A5%B3%E5%84%BF%E5%90%B89%E5%B0%8F%E6%97%B6%E7%AC%91%E6%B0%94%23&t=31&band_rank=1&Refer=top",
+      "score": 319389,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1788752001
+      "onboardTime": 1788782660
     },
     {
-      "title": "金灿荣为人口问题发声",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E9%87%91%E7%81%BF%E8%8D%A3%E4%B8%BA%E4%BA%BA%E5%8F%A3%E9%97%AE%E9%A2%98%E5%8F%91%E5%A3%B0&t=31&band_rank=1&Refer=top",
-      "score": 202637,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1788751581
-    },
-    {
-      "title": "官方正核查女生追星全家取消低保",
+      "title": "快递员弄丢400多克黄金4天后发现",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AE%98%E6%96%B9%E6%AD%A3%E6%A0%B8%E6%9F%A5%E5%A5%B3%E7%94%9F%E8%BF%BD%E6%98%9F%E5%85%A8%E5%AE%B6%E5%8F%96%E6%B6%88%E4%BD%8E%E4%BF%9D%23&t=31&band_rank=1&Refer=top",
-      "score": 183807,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%BF%AB%E9%80%92%E5%91%98%E5%BC%84%E4%B8%A2400%E5%A4%9A%E5%85%8B%E9%BB%84%E9%87%914%E5%A4%A9%E5%90%8E%E5%8F%91%E7%8E%B0%23&t=31&band_rank=1&Refer=top",
+      "score": 317209,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1788747679
+      "onboardTime": 1788777740
+    },
+    {
+      "title": "南宁铁路通报男子跳轨身亡",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8D%97%E5%AE%81%E9%93%81%E8%B7%AF%E9%80%9A%E6%8A%A5%E7%94%B7%E5%AD%90%E8%B7%B3%E8%BD%A8%E8%BA%AB%E4%BA%A1%23&t=31&band_rank=1&Refer=top",
+      "score": 316473,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1788771681
+    },
+    {
+      "title": "女孩看演出家属担心取消低保发文求助",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%A9%E7%9C%8B%E6%BC%94%E5%87%BA%E5%AE%B6%E5%B1%9E%E6%8B%85%E5%BF%83%E5%8F%96%E6%B6%88%E4%BD%8E%E4%BF%9D%E5%8F%91%E6%96%87%E6%B1%82%E5%8A%A9%23&t=31&band_rank=1&Refer=top",
+      "score": 312379,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1788777380
+    },
+    {
+      "title": "26岁女生把外卖当饭吃进ICU",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%2326%E5%B2%81%E5%A5%B3%E7%94%9F%E6%8A%8A%E5%A4%96%E5%8D%96%E5%BD%93%E9%A5%AD%E5%90%83%E8%BF%9BICU%23&t=31&band_rank=1&Refer=top",
+      "score": 306363,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1788782480
+    },
+    {
+      "title": "幼童商场开恐龙车撞碎陶瓷家长拒赔",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%B9%BC%E7%AB%A5%E5%95%86%E5%9C%BA%E5%BC%80%E6%81%90%E9%BE%99%E8%BD%A6%E6%92%9E%E7%A2%8E%E9%99%B6%E7%93%B7%E5%AE%B6%E9%95%BF%E6%8B%92%E8%B5%94%23&t=31&band_rank=1&Refer=top",
+      "score": 290041,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1788778761
+    },
+    {
+      "title": "赴港追星女孩暂未被取消低保",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%B5%B4%E6%B8%AF%E8%BF%BD%E6%98%9F%E5%A5%B3%E5%AD%A9%E6%9A%82%E6%9C%AA%E8%A2%AB%E5%8F%96%E6%B6%88%E4%BD%8E%E4%BF%9D%23&t=31&band_rank=1&Refer=top",
+      "score": 274585,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1788780141
+    },
+    {
+      "title": "韩国救援队找到中国幸存者陆海涛",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%9F%A9%E5%9B%BD%E6%95%91%E6%8F%B4%E9%98%9F%E6%89%BE%E5%88%B0%E4%B8%AD%E5%9B%BD%E5%B9%B8%E5%AD%98%E8%80%85%E9%99%86%E6%B5%B7%E6%B6%9B%23&t=31&band_rank=1&Refer=top",
+      "score": 260752,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1788783441
     }
   ]
 }
