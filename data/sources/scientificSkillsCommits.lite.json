@@ -1,12 +1,23 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-09-07T07:32:15Z",
+  "savedAt": "2026-09-07T18:51:12Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+  "latestSha": "9cf7d9aea7d84754db4c167ab04b299d33c444bc",
   "items": [
+    {
+      "title": "chore: update security scan report [skip ci]",
+      "description": "chore: update security scan report [skip ci]",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/9cf7d9aea7d84754db4c167ab04b299d33c444bc",
+      "sha": "9cf7d9a",
+      "fullSha": "9cf7d9aea7d84754db4c167ab04b299d33c444bc",
+      "owner": "github-actions",
+      "published": "2026-09-07",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "Update version numbers and enhance skill documentation",
       "description": "Update version numbers and enhance skill documentation\n\n- Bumped version in plugin.json and pyproject.toml to 2.66.0.\n- Updated skill metadata versions across multiple skills, reflecting improvements and new features.\n- Added citation guidelines to various skill documentation to ensure proper referencing of the &quot;Scientific Agent Skills&quot; paper.",
@@ -156,17 +167,6 @@
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/9e8b0cb0b09059f2fd4505e57ab4e00c8be1cef6",
       "sha": "9e8b0cb",
       "fullSha": "9e8b0cb0b09059f2fd4505e57ab4e00c8be1cef6",
-      "owner": "TKassis",
-      "published": "2026-08-17",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Add waypoint skill",
-      "description": "Add waypoint skill",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/204eef574c7a2b81fe72802af650c5226182ad44",
-      "sha": "204eef5",
-      "fullSha": "204eef574c7a2b81fe72802af650c5226182ad44",
       "owner": "TKassis",
       "published": "2026-08-17",
       "label": "commit",
