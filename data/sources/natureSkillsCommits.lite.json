@@ -1,12 +1,52 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-09-07T18:46:12Z",
+  "savedAt": "2026-09-08T07:18:33Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "287ee37542620711a56c7c58a73f44ef5c2bede0",
+  "latestSha": "7e626a86a0ac8d078be224e0a76aa1327875b0a1",
   "items": [
+    {
+      "title": "Merge pull request #216 from zpf2234/fix/patent-omml-superscript-element",
+      "description": "Merge pull request #216 from zpf2234/fix/patent-omml-superscript-element\n\n修正 Word 公式的上标结构",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/7e626a86a0ac8d078be224e0a76aa1327875b0a1",
+      "sha": "7e626a8",
+      "fullSha": "7e626a86a0ac8d078be224e0a76aa1327875b0a1",
+      "owner": "Yuan1z0825",
+      "published": "2026-09-08",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #217 from zpf2234/fix/atomic-image2ppt-config",
+      "description": "Merge pull request #217 from zpf2234/fix/atomic-image2ppt-config\n\n避免配置写入失败时丢失 Image2PPT 原配置",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/12af141be10a790082a9fe99f0105831cd473ad4",
+      "sha": "12af141",
+      "fullSha": "12af141be10a790082a9fe99f0105831cd473ad4",
+      "owner": "Yuan1z0825",
+      "published": "2026-09-08",
+      "label": "commit"
+    },
+    {
+      "title": "fix: 修正 Office Math 上标节点",
+      "description": "fix: 修正 Office Math 上标节点",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/dc6582596c0b20e207bdd433196cec8ad5c9c9b4",
+      "sha": "dc65825",
+      "fullSha": "dc6582596c0b20e207bdd433196cec8ad5c9c9b4",
+      "owner": "zpf2234",
+      "published": "2026-09-08",
+      "label": "commit"
+    },
+    {
+      "title": "fix: 原子更新 Image2PPT 配置",
+      "description": "fix: 原子更新 Image2PPT 配置",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/456ca27ce3edb8efde423d866b36b17ddc8a14a8",
+      "sha": "456ca27",
+      "fullSha": "456ca27ce3edb8efde423d866b36b17ddc8a14a8",
+      "owner": "zpf2234",
+      "published": "2026-09-08",
+      "label": "commit"
+    },
     {
       "title": "chore: update star history",
       "description": "chore: update star history",
@@ -115,46 +155,6 @@
       "fullSha": "133ad6044c09dff9f18149518d2ac31355e29e80",
       "owner": "github-actions",
       "published": "2026-08-31",
-      "label": "commit"
-    },
-    {
-      "title": "chore: update star history",
-      "description": "chore: update star history",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/bd4e415c1dcaf6df4ca701f8f8492a97e4b49921",
-      "sha": "bd4e415",
-      "fullSha": "bd4e415c1dcaf6df4ca701f8f8492a97e4b49921",
-      "owner": "github-actions",
-      "published": "2026-08-28",
-      "label": "commit"
-    },
-    {
-      "title": "feat(writing): add discussion argument and modality guidance (#209)",
-      "description": "feat(writing): add discussion argument and modality guidance (#209)",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/205ed18839181b0fe67323c7e42077a0807d8b03",
-      "sha": "205ed18",
-      "fullSha": "205ed18839181b0fe67323c7e42077a0807d8b03",
-      "owner": "Travisma2233",
-      "published": "2026-08-27",
-      "label": "commit"
-    },
-    {
-      "title": "feat(nature-figure): add render-time panel alignment gate (#208)",
-      "description": "feat(nature-figure): add render-time panel alignment gate (#208)",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/8630593a086755d2003cbd1a79cd1118c6963202",
-      "sha": "8630593",
-      "fullSha": "8630593a086755d2003cbd1a79cd1118c6963202",
-      "owner": "Travisma2233",
-      "published": "2026-08-27",
-      "label": "commit"
-    },
-    {
-      "title": "chore: update star history",
-      "description": "chore: update star history",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/3817cd194c31010febb1312ab786e53cd8154333",
-      "sha": "3817cd1",
-      "fullSha": "3817cd194c31010febb1312ab786e53cd8154333",
-      "owner": "github-actions",
-      "published": "2026-08-25",
       "label": "commit"
     }
   ]

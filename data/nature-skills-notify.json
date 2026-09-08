@@ -1,44 +1,44 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-09-07T18:46:12Z",
+  "changed": true,
+  "fetchedAt": "2026-09-08T07:18:33Z",
   "previousSha": "287ee37542620711a56c7c58a73f44ef5c2bede0",
-  "latestSha": "287ee37542620711a56c7c58a73f44ef5c2bede0",
+  "latestSha": "7e626a86a0ac8d078be224e0a76aa1327875b0a1",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "chore: update star history",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/287ee37542620711a56c7c58a73f44ef5c2bede0",
-    "sha": "287ee37",
-    "published": "2026-09-07"
+    "title": "Merge pull request #216 from zpf2234/fix/patent-omml-superscript-element",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/7e626a86a0ac8d078be224e0a76aa1327875b0a1",
+    "sha": "7e626a8",
+    "published": "2026-09-08"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
     {
+      "title": "Merge pull request #216 from zpf2234/fix/patent-omml-superscript-element",
+      "sha": "7e626a8",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/7e626a86a0ac8d078be224e0a76aa1327875b0a1"
+    },
+    {
+      "title": "Merge pull request #217 from zpf2234/fix/atomic-image2ppt-config",
+      "sha": "12af141",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/12af141be10a790082a9fe99f0105831cd473ad4"
+    },
+    {
+      "title": "fix: 修正 Office Math 上标节点",
+      "sha": "dc65825",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/dc6582596c0b20e207bdd433196cec8ad5c9c9b4"
+    },
+    {
+      "title": "fix: 原子更新 Image2PPT 配置",
+      "sha": "456ca27",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/456ca27ce3edb8efde423d866b36b17ddc8a14a8"
+    },
+    {
       "title": "chore: update star history",
       "sha": "287ee37",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/287ee37542620711a56c7c58a73f44ef5c2bede0"
-    },
-    {
-      "title": "Clarify task-scoped figure choices and nonblocking manuscript edits (…",
-      "sha": "28150f3",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/28150f30f8b4017991fca8c7b2839f02c6586d2f"
-    },
-    {
-      "title": "fix(academic-search): use ESummary JSON for MeSH lookup (#214)",
-      "sha": "6c39b20",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/6c39b20fe8f6033090d227c616ee3152de70490e"
-    },
-    {
-      "title": "chore: update star history",
-      "sha": "b1a37a2",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/b1a37a2bf881feb6d71e2587c70f0e4e70b72548"
-    },
-    {
-      "title": "Merge pull request #211 from zpf2234/ci/complete-test-coverage",
-      "sha": "596f65b",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/596f65ba8220e15d76dcbc53fd9bc8ae71448a23"
     }
   ]
 }
