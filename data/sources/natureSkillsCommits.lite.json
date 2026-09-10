@@ -1,12 +1,32 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-09-09T17:52:13Z",
+  "savedAt": "2026-09-10T07:23:01Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "7e626a86a0ac8d078be224e0a76aa1327875b0a1",
+  "latestSha": "c4e4c99fbeaf0168cda090f8739e1508017a610e",
   "items": [
+    {
+      "title": "Merge pull request #219 from Flyme886/codex/swap-service-community-se…",
+      "description": "Merge pull request #219 from Flyme886/codex/swap-service-community-sections\n\ndocs: swap community and service sections",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c4e4c99fbeaf0168cda090f8739e1508017a610e",
+      "sha": "c4e4c99",
+      "fullSha": "c4e4c99fbeaf0168cda090f8739e1508017a610e",
+      "owner": "Flyme886",
+      "published": "2026-09-10",
+      "label": "commit"
+    },
+    {
+      "title": "docs: swap community and service sections",
+      "description": "docs: swap community and service sections",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/478e2999aeb41218784525d008951fa5995ed059",
+      "sha": "478e299",
+      "fullSha": "478e2999aeb41218784525d008951fa5995ed059",
+      "owner": "Flyme886",
+      "published": "2026-09-10",
+      "label": "commit"
+    },
     {
       "title": "Merge pull request #216 from zpf2234/fix/patent-omml-superscript-element",
       "description": "Merge pull request #216 from zpf2234/fix/patent-omml-superscript-element\n\n修正 Word 公式的上标结构",
@@ -135,26 +155,6 @@
       "fullSha": "ebd722e18808442688bd205917a3e774195c258f",
       "owner": "github-actions",
       "published": "2026-09-01",
-      "label": "commit"
-    },
-    {
-      "title": "feat: 添加 Codex 插件页面 (#210)",
-      "description": "feat: 添加 Codex 插件页面 (#210)",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/2fc270f1ab43826ebff618dff9853a1c0a58f597",
-      "sha": "2fc270f",
-      "fullSha": "2fc270f1ab43826ebff618dff9853a1c0a58f597",
-      "owner": "JHees",
-      "published": "2026-08-31",
-      "label": "commit"
-    },
-    {
-      "title": "chore: update star history",
-      "description": "chore: update star history",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/133ad6044c09dff9f18149518d2ac31355e29e80",
-      "sha": "133ad60",
-      "fullSha": "133ad6044c09dff9f18149518d2ac31355e29e80",
-      "owner": "github-actions",
-      "published": "2026-08-31",
       "label": "commit"
     }
   ]

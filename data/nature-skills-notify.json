@@ -1,20 +1,30 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-09-09T17:52:13Z",
+  "changed": true,
+  "fetchedAt": "2026-09-10T07:23:01Z",
   "previousSha": "7e626a86a0ac8d078be224e0a76aa1327875b0a1",
-  "latestSha": "7e626a86a0ac8d078be224e0a76aa1327875b0a1",
+  "latestSha": "c4e4c99fbeaf0168cda090f8739e1508017a610e",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "Merge pull request #216 from zpf2234/fix/patent-omml-superscript-element",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/7e626a86a0ac8d078be224e0a76aa1327875b0a1",
-    "sha": "7e626a8",
-    "published": "2026-09-08"
+    "title": "Merge pull request #219 from Flyme886/codex/swap-service-community-se…",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/c4e4c99fbeaf0168cda090f8739e1508017a610e",
+    "sha": "c4e4c99",
+    "published": "2026-09-10"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "Merge pull request #219 from Flyme886/codex/swap-service-community-se…",
+      "sha": "c4e4c99",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c4e4c99fbeaf0168cda090f8739e1508017a610e"
+    },
+    {
+      "title": "docs: swap community and service sections",
+      "sha": "478e299",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/478e2999aeb41218784525d008951fa5995ed059"
+    },
     {
       "title": "Merge pull request #216 from zpf2234/fix/patent-omml-superscript-element",
       "sha": "7e626a8",
@@ -29,16 +39,6 @@
       "title": "fix: 修正 Office Math 上标节点",
       "sha": "dc65825",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/dc6582596c0b20e207bdd433196cec8ad5c9c9b4"
-    },
-    {
-      "title": "fix: 原子更新 Image2PPT 配置",
-      "sha": "456ca27",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/456ca27ce3edb8efde423d866b36b17ddc8a14a8"
-    },
-    {
-      "title": "chore: update star history",
-      "sha": "287ee37",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/287ee37542620711a56c7c58a73f44ef5c2bede0"
     }
   ]
 }
