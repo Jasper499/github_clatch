@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-09-10T07:08:53Z",
+  "savedAt": "2026-09-10T17:34:46Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-09-10，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -11,119 +11,103 @@
       "description": "<a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;world&#x2F;europe&#x2F;openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;world&#x2F;europe&#x2F;openai-agents-hijacked-...</a>",
       "url": "https://collusion.wiki/",
       "score": 2298,
-      "comments": 1599,
+      "comments": 1601,
       "owner": "moultano"
     },
     {
       "title": "GPT-6 Astra",
       "description": "System Card: <a href=\"https:&#x2F;&#x2F;deploymentsafety.openai.com&#x2F;gpt-6-astra\" rel=\"nofollow\">https:&#x2F;&#x2F;deploymentsafety.openai.com&#x2F;gpt-6-astra</a><p>Related ongoing threads:<p><i>OpenAI&#x27;s GPT-6 Astra on ARC-AGI-3</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49555691\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49555691</a><p><i>GPT-6 Astra makes major gains in the Artificial Analysis Coding Agent Index</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49556147\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49556147</a>",
       "url": "https://openai.com/index/gpt-6-astra/",
-      "score": 2274,
-      "comments": 2077,
+      "score": 2275,
+      "comments": 2078,
       "owner": "kibae"
-    },
-    {
-      "title": ".name Termination",
-      "description": "",
-      "url": "https://neil.fraser.name/news/2026/09/03/",
-      "score": 2226,
-      "comments": 546,
-      "owner": "pavel_lishin"
     },
     {
       "title": "Navier-Stokes – Tristan Buckmaster [pdf]",
       "description": "Further discussion: <a href=\"https:&#x2F;&#x2F;simonwillison.net&#x2F;2026&#x2F;Sep&#x2F;8&#x2F;on-navier-stokes&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;simonwillison.net&#x2F;2026&#x2F;Sep&#x2F;8&#x2F;on-navier-stokes&#x2F;</a>, <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49621697\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49621697</a>",
       "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
-      "score": 2006,
-      "comments": 814,
+      "score": 2024,
+      "comments": 818,
       "owner": "procedurecall"
     },
     {
       "title": "QBittorrent breaks out of sandbox to commit crimes",
       "description": "",
       "url": "https://beige.party/@intransitivelie/117057396732763183",
-      "score": 1348,
+      "score": 1350,
       "comments": 292,
       "owner": "mraniki"
+    },
+    {
+      "title": "iPhone Duo",
+      "description": "",
+      "url": "https://www.apple.com/iphone-duo/",
+      "score": 1347,
+      "comments": 2349,
+      "owner": "thecosmicfrog"
     },
     {
       "title": "On the Navier–Stokes Millennium Prize Problem",
       "description": "Further discussion:<p><a href=\"https:&#x2F;&#x2F;simonwillison.net&#x2F;2026&#x2F;Sep&#x2F;8&#x2F;on-navier-stokes&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;simonwillison.net&#x2F;2026&#x2F;Sep&#x2F;8&#x2F;on-navier-stokes&#x2F;</a>, <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49621697\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49621697</a><p><a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;sama&#x2F;status&#x2F;2097385167002415140\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;sama&#x2F;status&#x2F;2097385167002415140</a>, <a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;sama&#x2F;status&#x2F;2097385167002415140\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;sama&#x2F;status&#x2F;2097385167002415140</a>",
       "url": "https://openai.com/index/navier-stokes-solution/",
-      "score": 1328,
-      "comments": 1116,
+      "score": 1333,
+      "comments": 1129,
       "owner": "tedsanders"
     },
     {
       "title": "LG smart TVs caught logging audio with screen off and snooping on local devices",
       "description": "<a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=6IFVTcM28KA\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=6IFVTcM28KA</a>",
       "url": "https://www.notebookcheck.net/LG-smart-TVs-caught-logging-audio-with-screen-off-and-snooping-on-local-devices.1391214.0.html",
-      "score": 1196,
+      "score": 1198,
       "comments": 3,
       "owner": "chris_overseas"
-    },
-    {
-      "title": "Audacity 4.0",
-      "description": "",
-      "url": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0",
-      "score": 1163,
-      "comments": 264,
-      "owner": "ClydeN"
-    },
-    {
-      "title": "iPhone Duo",
-      "description": "",
-      "url": "https://www.apple.com/iphone-duo/",
-      "score": 1136,
-      "comments": 1981,
-      "owner": "thecosmicfrog"
     },
     {
       "title": "Claude, change the “Add to Cart” button to blue",
       "description": "",
       "url": "https://opusfived.dev/",
-      "score": 1098,
-      "comments": 423,
+      "score": 1150,
+      "comments": 443,
       "owner": "matthieu_bl"
-    },
-    {
-      "title": "Keep Our Servers Running",
-      "description": "",
-      "url": "https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/",
-      "score": 1043,
-      "comments": 279,
-      "owner": "sonicrocketman"
     },
     {
       "title": "Shopify acquires Tailwind",
       "description": "",
       "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
-      "score": 996,
-      "comments": 384,
+      "score": 1110,
+      "comments": 435,
       "owner": "EdwinHoksberg"
     },
     {
-      "title": "Nitter and XCancel resume service after legal advice",
-      "description": "<a href=\"https:&#x2F;&#x2F;github.com&#x2F;zedeus&#x2F;nitter\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;zedeus&#x2F;nitter</a><p><a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;cdclegal\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;cdclegal</a><p><a href=\"https:&#x2F;&#x2F;nitter.net&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;nitter.net&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;</a>",
-      "url": "https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3",
-      "score": 918,
-      "comments": 408,
-      "owner": "zImPatrick"
+      "title": "Keep Our Servers Running",
+      "description": "",
+      "url": "https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/",
+      "score": 1046,
+      "comments": 279,
+      "owner": "sonicrocketman"
     },
     {
       "title": "216M Spy TVs – The LG Smart TV Problem [video]",
       "description": "<a href=\"https:&#x2F;&#x2F;www.notebookcheck.net&#x2F;LG-smart-TVs-caught-logging-audio-with-screen-off-and-snooping-on-local-devices.1391214.0.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.notebookcheck.net&#x2F;LG-smart-TVs-caught-logging-au...</a>",
       "url": "https://www.youtube.com/watch?v=6IFVTcM28KA",
-      "score": 913,
+      "score": 921,
       "comments": 1007,
       "owner": "treve"
+    },
+    {
+      "title": "Nitter and XCancel resume service after legal advice",
+      "description": "<a href=\"https:&#x2F;&#x2F;github.com&#x2F;zedeus&#x2F;nitter\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;zedeus&#x2F;nitter</a><p><a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;cdclegal\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;cdclegal</a><p><a href=\"https:&#x2F;&#x2F;nitter.net&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;nitter.net&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;</a>",
+      "url": "https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3",
+      "score": 920,
+      "comments": 409,
+      "owner": "zImPatrick"
     },
     {
       "title": "Mistral raises €3B",
       "description": "",
       "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
-      "score": 841,
-      "comments": 594,
+      "score": 843,
+      "comments": 597,
       "owner": "kuberwastaken"
     },
     {
@@ -135,10 +119,18 @@
       "owner": "negura"
     },
     {
+      "title": "DeepSeek v4.1 Flash",
+      "description": "<a href=\"https:&#x2F;&#x2F;huggingface.co&#x2F;deepseek-ai&#x2F;DeepSeek-V4.1-Flash\" rel=\"nofollow\">https:&#x2F;&#x2F;huggingface.co&#x2F;deepseek-ai&#x2F;DeepSeek-V4.1-Flash</a>",
+      "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
+      "score": 787,
+      "comments": 426,
+      "owner": "Liwink"
+    },
+    {
       "title": "Formalizing Fermat's Last Theorem",
       "description": "<a href=\"https:&#x2F;&#x2F;xenaproject.wordpress.com&#x2F;2026&#x2F;09&#x2F;04&#x2F;flt-anthropic-has-beaten-me-to-it&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;xenaproject.wordpress.com&#x2F;2026&#x2F;09&#x2F;04&#x2F;flt-anthropic-h...</a>",
       "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
-      "score": 771,
+      "score": 772,
       "comments": 511,
       "owner": "jlebar"
     },
@@ -165,6 +157,14 @@
       "score": 728,
       "comments": 433,
       "owner": "cyb0rg0"
+    },
+    {
+      "title": "I resigned from Anthropic today",
+      "description": "<a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;hilbertspaess&#x2F;status&#x2F;2097476196791709843#m\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;hilbertspaess&#x2F;status&#x2F;2097476196791709843...</a>",
+      "url": "https://twitter.com/hilbertspaess/status/2097476196791709843#m",
+      "score": 716,
+      "comments": 998,
+      "owner": "yurivish"
     }
   ]
 }
