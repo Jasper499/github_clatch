@@ -431,6 +431,10 @@ body {
   opacity: 0.55;
 }
 
+.page-bg__scene {
+  display: none;
+}
+
 @keyframes orb-drift-1 {
   0%, 100% { transform: translate(0, 0) scale(1); }
   50% { transform: translate(4%, 6%) scale(1.06); }
@@ -444,6 +448,12 @@ body {
 @keyframes orb-drift-3 {
   0%, 100% { transform: translate(0, 0) scale(1); }
   50% { transform: translate(3%, -5%) scale(1.05); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page-bg__orb {
+    animation: none;
+  }
 }
 
 body::before {
@@ -5197,7 +5207,91 @@ html[data-workstation="1"] .site-footer {
 }
 
 html[data-workstation="1"] .page-bg__orb {
-  opacity: 0.2;
+  opacity: 0.08;
+  filter: blur(100px);
+  animation: none;
+}
+
+html[data-workstation="1"] .page-bg__mesh {
+  opacity: 0.18;
+  background-image: url("../img/ws-grid.svg");
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse 90% 75% at 50% 40%, black 20%, transparent 80%);
+}
+
+html[data-workstation="1"] .page-bg__scene {
+  display: block;
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 70% 45% at 50% 0%, color-mix(in srgb, var(--accent) 16%, transparent), transparent 62%),
+    url("../img/ws-scene.svg") center / cover no-repeat;
+  opacity: 0.42;
+}
+
+html[data-theme="light"][data-workstation="1"] .page-bg__scene {
+  opacity: 0.22;
+  filter: invert(1) hue-rotate(185deg) saturate(0.45) brightness(1.35);
+}
+
+html[data-theme="light"][data-workstation="1"] .page-bg__mesh {
+  opacity: 0.22;
+  filter: invert(1);
+}
+
+html[data-workstation="1"] body::before {
+  opacity: 0.35;
+}
+
+html[data-workstation="1"] body::after {
+  opacity: 0.18;
+}
+
+html[data-workstation="1"] {
+  --radius: 10px;
+  --radius-sm: 6px;
+  --glass-blur: 10px;
+}
+
+html[data-workstation="1"] .ws-bar {
+  background: color-mix(in srgb, var(--bg-elevated) 94%, transparent);
+  border-bottom: 1px solid var(--border);
+  box-shadow: inset 0 -1px 0 color-mix(in srgb, #fff 4%, transparent);
+}
+
+html[data-workstation="1"] .sidebar,
+html[data-workstation="1"] .content-panel {
+  background: color-mix(in srgb, var(--bg-elevated) 92%, transparent);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: none;
+}
+
+html[data-workstation="1"] .list-pane,
+html[data-workstation="1"] .item-detail {
+  background: var(--bg-elevated);
+  backdrop-filter: none;
+}
+
+html[data-workstation="1"][data-platform="github"] .page-bg,
+html[data-workstation="1"][data-platform="natureSkills"] .page-bg,
+html[data-workstation="1"][data-platform="scientificSkills"] .page-bg,
+html[data-workstation="1"][data-platform="journals"] .page-bg {
+  opacity: 1;
+}
+
+html[data-workstation="1"][data-platform="github"] .page-bg .page-bg__orb,
+html[data-workstation="1"][data-platform="natureSkills"] .page-bg .page-bg__orb,
+html[data-workstation="1"][data-platform="scientificSkills"] .page-bg .page-bg__orb {
+  opacity: 0.08;
+}
+
+html[data-workstation="1"][data-platform="hackernews"] .page-bg__scene,
+html[data-workstation="1"][data-platform="hackernews"] .page-bg__mesh,
+html[data-workstation="1"][data-platform="hackernews"] .page-bg__orb,
+html[data-workstation="1"][data-platform="chinaDaily"] .page-bg__scene,
+html[data-workstation="1"][data-platform="weibo"] .page-bg__scene {
+  opacity: 0;
 }
 
 html[data-workstation="1"] .container {
