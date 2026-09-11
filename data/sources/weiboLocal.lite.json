@@ -1,160 +1,140 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-09-11T11:10:35Z",
+  "savedAt": "2026-09-11T16:22:55Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-09-11，共 15 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-09-11，共 13 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-09-11",
   "items": [
     {
-      "title": "男子编造停捐遭威胁事件被抓",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E7%BC%96%E9%80%A0%E5%81%9C%E6%8D%90%E9%81%AD%E5%A8%81%E8%83%81%E4%BA%8B%E4%BB%B6%E8%A2%AB%E6%8A%93%23&t=31&band_rank=1&Refer=top",
-      "score": 1133501,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1789117820
-    },
-    {
-      "title": "打假网红铁头一审获刑8年",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%89%93%E5%81%87%E7%BD%91%E7%BA%A2%E9%93%81%E5%A4%B4%E4%B8%80%E5%AE%A1%E8%8E%B7%E5%88%918%E5%B9%B4%23&t=31&band_rank=1&Refer=top",
-      "score": 809827,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1789115240
-    },
-    {
-      "title": "服贸会上一眼未来",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9C%8D%E8%B4%B8%E4%BC%9A%E4%B8%8A%E4%B8%80%E7%9C%BC%E6%9C%AA%E6%9D%A5%23&t=31&band_rank=1&Refer=top",
-      "score": 670585,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1789112300
-    },
-    {
-      "title": "7岁半性早熟女童家里是开炸鸡店的",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%237%E5%B2%81%E5%8D%8A%E6%80%A7%E6%97%A9%E7%86%9F%E5%A5%B3%E7%AB%A5%E5%AE%B6%E9%87%8C%E6%98%AF%E5%BC%80%E7%82%B8%E9%B8%A1%E5%BA%97%E7%9A%84%23&t=31&band_rank=1&Refer=top",
-      "score": 385275,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1789117221
-    },
-    {
-      "title": "香蕉地喷3天农药毒死隔壁5万斤牛蛙",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%A6%99%E8%95%89%E5%9C%B0%E5%96%B73%E5%A4%A9%E5%86%9C%E8%8D%AF%E6%AF%92%E6%AD%BB%E9%9A%94%E5%A3%815%E4%B8%87%E6%96%A4%E7%89%9B%E8%9B%99%23&t=31&band_rank=1&Refer=top",
-      "score": 379072,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1789111520
-    },
-    {
-      "title": "货拉拉跳车案",
+      "title": "网红铁头退庭时辱骂法庭",
       "description": "热 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E8%B4%A7%E6%8B%89%E6%8B%89%E8%B7%B3%E8%BD%A6%E6%A1%88&t=31&band_rank=1&Refer=top",
-      "score": 345384,
+      "url": "https://s.weibo.com/weibo?q=%23%E7%BD%91%E7%BA%A2%E9%93%81%E5%A4%B4%E9%80%80%E5%BA%AD%E6%97%B6%E8%BE%B1%E9%AA%82%E6%B3%95%E5%BA%AD%23&t=31&band_rank=1&Refer=top",
+      "score": 1065188,
       "owner": "微博同城",
       "label": "热",
       "category": "民生新闻",
-      "onboardTime": 1789118900
+      "onboardTime": 1789136302
     },
     {
-      "title": "劳务派遣乱象重灾区",
+      "title": "我国发现世界级规模深海矿床",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%88%91%E5%9B%BD%E5%8F%91%E7%8E%B0%E4%B8%96%E7%95%8C%E7%BA%A7%E8%A7%84%E6%A8%A1%E6%B7%B1%E6%B5%B7%E7%9F%BF%E5%BA%8A%23&t=31&band_rank=1&Refer=top",
+      "score": 589196,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1789127359
+    },
+    {
+      "title": "男子投150万开火锅店4个多月赔光",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E6%8A%95150%E4%B8%87%E5%BC%80%E7%81%AB%E9%94%85%E5%BA%974%E4%B8%AA%E5%A4%9A%E6%9C%88%E8%B5%94%E5%85%89%23&t=31&band_rank=1&Refer=top",
+      "score": 421595,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1789131861
+    },
+    {
+      "title": "长沙查封代孕手术室执法图流入代孕群",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%8A%B3%E5%8A%A1%E6%B4%BE%E9%81%A3%E4%B9%B1%E8%B1%A1%E9%87%8D%E7%81%BE%E5%8C%BA&t=31&band_rank=1&Refer=top",
-      "score": 341256,
+      "url": "https://s.weibo.com/weibo?q=%E9%95%BF%E6%B2%99%E6%9F%A5%E5%B0%81%E4%BB%A3%E5%AD%95%E6%89%8B%E6%9C%AF%E5%AE%A4%E6%89%A7%E6%B3%95%E5%9B%BE%E6%B5%81%E5%85%A5%E4%BB%A3%E5%AD%95%E7%BE%A4&t=31&band_rank=1&Refer=top",
+      "score": 321713,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1789122440
+      "onboardTime": 1789140140
     },
     {
-      "title": "考公失败后旅行6国男生回应啃老",
-      "description": "新 · 民生新闻,教育",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%80%83%E5%85%AC%E5%A4%B1%E8%B4%A5%E5%90%8E%E6%97%85%E8%A1%8C6%E5%9B%BD%E7%94%B7%E7%94%9F%E5%9B%9E%E5%BA%94%E5%95%83%E8%80%81%23&t=31&band_rank=1&Refer=top",
-      "score": 331765,
+      "title": "半夜宝爸将宝妈抱摔下床泡奶",
+      "description": "新 · 民生新闻,母婴育儿",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8D%8A%E5%A4%9C%E5%AE%9D%E7%88%B8%E5%B0%86%E5%AE%9D%E5%A6%88%E6%8A%B1%E6%91%94%E4%B8%8B%E5%BA%8A%E6%B3%A1%E5%A5%B6%23&t=31&band_rank=1&Refer=top",
+      "score": 305632,
       "owner": "微博同城",
       "label": "新",
-      "category": "民生新闻,教育",
-      "onboardTime": 1789124481
+      "category": "民生新闻,母婴育儿",
+      "onboardTime": 1789140441
     },
     {
-      "title": "优衣库 上厕所只给5分钟",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E4%BC%98%E8%A1%A3%E5%BA%93%20%E4%B8%8A%E5%8E%95%E6%89%80%E5%8F%AA%E7%BB%995%E5%88%86%E9%92%9F&t=31&band_rank=1&Refer=top",
-      "score": 326123,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1789119500
-    },
-    {
-      "title": "梅姨",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E6%A2%85%E5%A7%A8&t=31&band_rank=1&Refer=top",
-      "score": 320317,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1789115119
-    },
-    {
-      "title": "民政局回应男子停助学资助遭威胁",
+      "title": "太子奶案追责",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B0%91%E6%94%BF%E5%B1%80%E5%9B%9E%E5%BA%94%E7%94%B7%E5%AD%90%E5%81%9C%E5%8A%A9%E5%AD%A6%E8%B5%84%E5%8A%A9%E9%81%AD%E5%A8%81%E8%83%81%23&t=31&band_rank=1&Refer=top",
-      "score": 314566,
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%AA%E5%AD%90%E5%A5%B6%E6%A1%88%E8%BF%BD%E8%B4%A3&t=31&band_rank=1&Refer=top",
+      "score": 302261,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1789124300
+      "onboardTime": 1789140680
     },
     {
-      "title": "28岁智障女孩多次生子后离世",
+      "title": "官方通报男子编造女生催资助",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%2328%E5%B2%81%E6%99%BA%E9%9A%9C%E5%A5%B3%E5%AD%A9%E5%A4%9A%E6%AC%A1%E7%94%9F%E5%AD%90%E5%90%8E%E7%A6%BB%E4%B8%96%23&t=31&band_rank=1&Refer=top",
-      "score": 305228,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%AE%98%E6%96%B9%E9%80%9A%E6%8A%A5%E7%94%B7%E5%AD%90%E7%BC%96%E9%80%A0%E5%A5%B3%E7%94%9F%E5%82%AC%E8%B5%84%E5%8A%A9%23&t=31&band_rank=1&Refer=top",
+      "score": 282869,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1789107080
+      "onboardTime": 1789126220
     },
     {
-      "title": "妇联回应女孩被父母跨省逼婚",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A6%87%E8%81%94%E5%9B%9E%E5%BA%94%E5%A5%B3%E5%AD%A9%E8%A2%AB%E7%88%B6%E6%AF%8D%E8%B7%A8%E7%9C%81%E9%80%BC%E5%A9%9A%23&t=31&band_rank=1&Refer=top",
-      "score": 295670,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1789117279
-    },
-    {
-      "title": "翁帆50岁状态",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E7%BF%81%E5%B8%8650%E5%B2%81%E7%8A%B6%E6%80%81&t=31&band_rank=1&Refer=top",
-      "score": 292593,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1789106600
-    },
-    {
-      "title": "胡锡进谈网红铁头一审获刑8年",
+      "title": "儿子让父亲不要再对外讲与梅姨过往",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%83%A1%E9%94%A1%E8%BF%9B%E8%B0%88%E7%BD%91%E7%BA%A2%E9%93%81%E5%A4%B4%E4%B8%80%E5%AE%A1%E8%8E%B7%E5%88%918%E5%B9%B4%23&t=31&band_rank=1&Refer=top",
-      "score": 285527,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%84%BF%E5%AD%90%E8%AE%A9%E7%88%B6%E4%BA%B2%E4%B8%8D%E8%A6%81%E5%86%8D%E5%AF%B9%E5%A4%96%E8%AE%B2%E4%B8%8E%E6%A2%85%E5%A7%A8%E8%BF%87%E5%BE%80%23&t=31&band_rank=1&Refer=top",
+      "score": 279509,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1789124900
+      "onboardTime": 1789143260
+    },
+    {
+      "title": "太子奶案",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%AA%E5%AD%90%E5%A5%B6%E6%A1%88&t=31&band_rank=1&Refer=top",
+      "score": 228994,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1789130479
+    },
+    {
+      "title": "葫芦爷爷重新调整了位置间距",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%91%AB%E8%8A%A6%E7%88%B7%E7%88%B7%E9%87%8D%E6%96%B0%E8%B0%83%E6%95%B4%E4%BA%86%E4%BD%8D%E7%BD%AE%E9%97%B4%E8%B7%9D%23&t=31&band_rank=1&Refer=top",
+      "score": 192229,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1789138521
+    },
+    {
+      "title": "胖东来不收彩礼结婚奖励5万",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E8%83%96%E4%B8%9C%E6%9D%A5%E4%B8%8D%E6%94%B6%E5%BD%A9%E7%A4%BC%E7%BB%93%E5%A9%9A%E5%A5%96%E5%8A%B15%E4%B8%87&t=31&band_rank=1&Refer=top",
+      "score": 143415,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1789137439
+    },
+    {
+      "title": "梅姨深夜出没几乎不与人打交道",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E6%A2%85%E5%A7%A8%E6%B7%B1%E5%A4%9C%E5%87%BA%E6%B2%A1%E5%87%A0%E4%B9%8E%E4%B8%8D%E4%B8%8E%E4%BA%BA%E6%89%93%E4%BA%A4%E9%81%93&t=31&band_rank=1&Refer=top",
+      "score": 125601,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1789142480
+    },
+    {
+      "title": "专门设置班主任岗位",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%93%E9%97%A8%E8%AE%BE%E7%BD%AE%E7%8F%AD%E4%B8%BB%E4%BB%BB%E5%B2%97%E4%BD%8D&t=31&band_rank=1&Refer=top",
+      "score": 118855,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1789135281
     }
   ]
 }
