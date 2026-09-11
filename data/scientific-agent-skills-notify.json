@@ -1,44 +1,44 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-09-10T17:52:12Z",
+  "changed": true,
+  "fetchedAt": "2026-09-11T07:28:25Z",
   "previousSha": "9cf7d9aea7d84754db4c167ab04b299d33c444bc",
-  "latestSha": "9cf7d9aea7d84754db4c167ab04b299d33c444bc",
+  "latestSha": "15e77e6215425bd9a498ca54e049a06176277189",
   "repo": "K-Dense-AI/scientific-agent-skills",
   "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "stars": 0,
-  "skillCount": 163,
+  "skillCount": 164,
   "latestCommit": {
-    "title": "chore: update security scan report [skip ci]",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/9cf7d9aea7d84754db4c167ab04b299d33c444bc",
-    "sha": "9cf7d9a",
-    "published": "2026-09-07"
+    "title": "Close two gaps in the skill link contract, and fix what they surface …",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/15e77e6215425bd9a498ca54e049a06176277189",
+    "sha": "15e77e6",
+    "published": "2026-09-10"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
     {
-      "title": "chore: update security scan report [skip ci]",
-      "sha": "9cf7d9a",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/9cf7d9aea7d84754db4c167ab04b299d33c444bc"
+      "title": "Close two gaps in the skill link contract, and fix what they surface …",
+      "sha": "15e77e6",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/15e77e6215425bd9a498ca54e049a06176277189"
     },
     {
-      "title": "Update version numbers and enhance skill documentation",
-      "sha": "1e5eeff",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/1e5eeffbdad3749125afe7ab48a39694e27f181c"
+      "title": "chore: post-merge follow-ups for #201, #227, #245, #250, #259 and #25…",
+      "sha": "27e3483",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/27e34837af12fa8bac18511c5e29106caa2852de"
     },
     {
-      "title": "Enhance README.md with additional citation details and paper reference",
-      "sha": "bdf385b",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/bdf385bad5490dc9254bf2050d9ebde1088e9e5b"
+      "title": "statsmodels skill: fix invalid causal inference example, use real Tre…",
+      "sha": "60c7aca",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/60c7aca07880dbb4c5f6adba834b3ad1f756c465"
     },
     {
-      "title": "Remove Star History section from README.md to streamline content and …",
-      "sha": "1dd0fcc",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/1dd0fccf46fc3c9855c4a0c313a0c57fe4319883"
+      "title": "fix(database-lookup): retire dead PatentsView search API for ODP (#245)",
+      "sha": "b369c26",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/b369c261f599b027c10dc37325b45c82010f35e8"
     },
     {
-      "title": "chore: update security scan report [skip ci]",
-      "sha": "cc37669",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/cc37669ed0f354619b1ae586e958609a87680718"
+      "title": "fix(usfiscaldata): correct nonexistent Treasury auctions_query field …",
+      "sha": "5628f09",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/5628f09d43f0a7beae7de6e014fa0be61d84cf36"
     }
   ]
 }
