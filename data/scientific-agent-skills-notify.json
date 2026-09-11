@@ -1,44 +1,44 @@
 {
   "changed": true,
-  "fetchedAt": "2026-09-11T07:28:25Z",
-  "previousSha": "9cf7d9aea7d84754db4c167ab04b299d33c444bc",
-  "latestSha": "15e77e6215425bd9a498ca54e049a06176277189",
+  "fetchedAt": "2026-09-11T17:54:11Z",
+  "previousSha": "15e77e6215425bd9a498ca54e049a06176277189",
+  "latestSha": "515742b7ed522c78f19bb9b61f346a0435785302",
   "repo": "K-Dense-AI/scientific-agent-skills",
   "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "stars": 0,
-  "skillCount": 164,
+  "skillCount": 165,
   "latestCommit": {
-    "title": "Close two gaps in the skill link contract, and fix what they surface …",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/15e77e6215425bd9a498ca54e049a06176277189",
-    "sha": "15e77e6",
-    "published": "2026-09-10"
+    "title": "Revert \"chore: post-merge follow-ups for #252\"",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/515742b7ed522c78f19bb9b61f346a0435785302",
+    "sha": "515742b",
+    "published": "2026-09-11"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
     {
-      "title": "Close two gaps in the skill link contract, and fix what they surface …",
-      "sha": "15e77e6",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/15e77e6215425bd9a498ca54e049a06176277189"
+      "title": "Revert \"chore: post-merge follow-ups for #252\"",
+      "sha": "515742b",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/515742b7ed522c78f19bb9b61f346a0435785302"
     },
     {
-      "title": "chore: post-merge follow-ups for #201, #227, #245, #250, #259 and #25…",
-      "sha": "27e3483",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/27e34837af12fa8bac18511c5e29106caa2852de"
+      "title": "genomic-intelligence: annotation sync limit and the splice orientatio…",
+      "sha": "ca2620d",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/ca2620db24ce3603fea04b7abe28c2811884a209"
     },
     {
-      "title": "statsmodels skill: fix invalid causal inference example, use real Tre…",
-      "sha": "60c7aca",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/60c7aca07880dbb4c5f6adba834b3ad1f756c465"
+      "title": "genomic-intelligence: reconcile the skill against the live /v1 contra…",
+      "sha": "45af7ae",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/45af7aefb40e0ef12fda62c6f01d1067ea1e1222"
     },
     {
-      "title": "fix(database-lookup): retire dead PatentsView search API for ODP (#245)",
-      "sha": "b369c26",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/b369c261f599b027c10dc37325b45c82010f35e8"
+      "title": "chore: post-merge follow-ups for #252",
+      "sha": "c23b718",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/c23b718f751322c0832af0a823df6356a3d14433"
     },
     {
-      "title": "fix(usfiscaldata): correct nonexistent Treasury auctions_query field …",
-      "sha": "5628f09",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/5628f09d43f0a7beae7de6e014fa0be61d84cf36"
+      "title": "chore: post-merge follow-ups for #232",
+      "sha": "049ae89",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/049ae892b564d6de5e3286ded5dc968350426729"
     }
   ]
 }
