@@ -1,33 +1,25 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-09-11T07:08:21Z",
+  "savedAt": "2026-09-11T17:37:49Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-09-11，共 20 条）",
   "updateFrequency": "twice-daily",
   "fetchedDate": "2026-09-11",
   "items": [
     {
-      "title": "Discovery of a new OpenAI agent message board",
-      "description": "<a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;world&#x2F;europe&#x2F;openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;world&#x2F;europe&#x2F;openai-agents-hijacked-...</a>",
-      "url": "https://collusion.wiki/",
-      "score": 2298,
-      "comments": 1602,
-      "owner": "moultano"
-    },
-    {
       "title": "Navier-Stokes – Tristan Buckmaster [pdf]",
       "description": "Further discussion: <a href=\"https:&#x2F;&#x2F;simonwillison.net&#x2F;2026&#x2F;Sep&#x2F;8&#x2F;on-navier-stokes&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;simonwillison.net&#x2F;2026&#x2F;Sep&#x2F;8&#x2F;on-navier-stokes&#x2F;</a>, <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49621697\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49621697</a>",
       "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
-      "score": 2033,
-      "comments": 820,
+      "score": 2035,
+      "comments": 825,
       "owner": "procedurecall"
     },
     {
       "title": "iPhone Duo",
       "description": "",
       "url": "https://www.apple.com/iphone-duo/",
-      "score": 1439,
-      "comments": 2475,
+      "score": 1461,
+      "comments": 2506,
       "owner": "thecosmicfrog"
     },
     {
@@ -42,9 +34,17 @@
       "title": "On the Navier–Stokes Millennium Prize Problem",
       "description": "Further discussion:<p><a href=\"https:&#x2F;&#x2F;simonwillison.net&#x2F;2026&#x2F;Sep&#x2F;8&#x2F;on-navier-stokes&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;simonwillison.net&#x2F;2026&#x2F;Sep&#x2F;8&#x2F;on-navier-stokes&#x2F;</a>, <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49621697\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49621697</a><p><a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;sama&#x2F;status&#x2F;2097385167002415140\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;sama&#x2F;status&#x2F;2097385167002415140</a>, <a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;sama&#x2F;status&#x2F;2097385167002415140\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;sama&#x2F;status&#x2F;2097385167002415140</a>",
       "url": "https://openai.com/index/navier-stokes-solution/",
-      "score": 1336,
+      "score": 1337,
       "comments": 1132,
       "owner": "tedsanders"
+    },
+    {
+      "title": "Shopify is moving from React Native back to Swift and Kotlin",
+      "description": "",
+      "url": "https://shopify.engineering/back-to-native",
+      "score": 1205,
+      "comments": 900,
+      "owner": "fnthawar2"
     },
     {
       "title": "LG smart TVs caught logging audio with screen off and snooping on local devices",
@@ -58,47 +58,39 @@
       "title": "Claude, change the “Add to Cart” button to blue",
       "description": "",
       "url": "https://opusfived.dev/",
-      "score": 1172,
-      "comments": 447,
+      "score": 1185,
+      "comments": 448,
       "owner": "matthieu_bl"
     },
     {
       "title": "Shopify acquires Tailwind",
       "description": "",
       "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
-      "score": 1124,
-      "comments": 439,
+      "score": 1130,
+      "comments": 443,
       "owner": "EdwinHoksberg"
     },
     {
       "title": "Keep Our Servers Running",
       "description": "",
       "url": "https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/",
-      "score": 1049,
-      "comments": 279,
+      "score": 1050,
+      "comments": 280,
       "owner": "sonicrocketman"
-    },
-    {
-      "title": "Shopify is moving from React Native back to Swift and Kotlin",
-      "description": "",
-      "url": "https://shopify.engineering/back-to-native",
-      "score": 985,
-      "comments": 669,
-      "owner": "fnthawar2"
     },
     {
       "title": "DeepSeek v4.1 Flash",
       "description": "<a href=\"https:&#x2F;&#x2F;huggingface.co&#x2F;deepseek-ai&#x2F;DeepSeek-V4.1-Flash\" rel=\"nofollow\">https:&#x2F;&#x2F;huggingface.co&#x2F;deepseek-ai&#x2F;DeepSeek-V4.1-Flash</a>",
       "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
-      "score": 962,
-      "comments": 539,
+      "score": 982,
+      "comments": 561,
       "owner": "Liwink"
     },
     {
       "title": "216M Spy TVs – The LG Smart TV Problem [video]",
       "description": "<a href=\"https:&#x2F;&#x2F;www.notebookcheck.net&#x2F;LG-smart-TVs-caught-logging-audio-with-screen-off-and-snooping-on-local-devices.1391214.0.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.notebookcheck.net&#x2F;LG-smart-TVs-caught-logging-au...</a>",
       "url": "https://www.youtube.com/watch?v=6IFVTcM28KA",
-      "score": 923,
+      "score": 927,
       "comments": 1007,
       "owner": "treve"
     },
@@ -109,6 +101,14 @@
       "score": 921,
       "comments": 409,
       "owner": "zImPatrick"
+    },
+    {
+      "title": "More questions about whether researchers can trust OpenAI with unpublished math",
+      "description": "<a href=\"https:&#x2F;&#x2F;mathstodon.xyz&#x2F;@andreasthom&#x2F;117240536885387540\" rel=\"nofollow\">https:&#x2F;&#x2F;mathstodon.xyz&#x2F;@andreasthom&#x2F;117240536885387540</a><p><a href=\"https:&#x2F;&#x2F;mathstodon.xyz&#x2F;@andreasthom&#x2F;117240537520615623\" rel=\"nofollow\">https:&#x2F;&#x2F;mathstodon.xyz&#x2F;@andreasthom&#x2F;117240537520615623</a><p><a href=\"https:&#x2F;&#x2F;x.com&#x2F;ValerioCapraro&#x2F;status&#x2F;2097791836269977996\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;ValerioCapraro&#x2F;status&#x2F;2097791836269977996</a>, <a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;ValerioCapraro&#x2F;status&#x2F;2097791836269977996\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;ValerioCapraro&#x2F;status&#x2F;209779183626997799...</a><p><a href=\"https:&#x2F;&#x2F;bsky.app&#x2F;profile&#x2F;did:plc:ckaz32jwl6t2cno6fmuw2nhn&#x2F;post&#x2F;3mv4mt4ikss2d\" rel=\"nofollow\">https:&#x2F;&#x2F;bsky.app&#x2F;profile&#x2F;did:plc:ckaz32jwl6t2cno6fmuw2nhn&#x2F;po...</a>",
+      "url": "https://mathstodon.xyz/@andreasthom/117240535270608201",
+      "score": 851,
+      "comments": 790,
+      "owner": "pred_"
     },
     {
       "title": "Mistral raises €3B",
@@ -127,19 +127,11 @@
       "owner": "negura"
     },
     {
-      "title": "More questions about whether researchers can trust OpenAI with unpublished math",
-      "description": "<a href=\"https:&#x2F;&#x2F;mathstodon.xyz&#x2F;@andreasthom&#x2F;117240536885387540\" rel=\"nofollow\">https:&#x2F;&#x2F;mathstodon.xyz&#x2F;@andreasthom&#x2F;117240536885387540</a><p><a href=\"https:&#x2F;&#x2F;mathstodon.xyz&#x2F;@andreasthom&#x2F;117240537520615623\" rel=\"nofollow\">https:&#x2F;&#x2F;mathstodon.xyz&#x2F;@andreasthom&#x2F;117240537520615623</a><p><a href=\"https:&#x2F;&#x2F;x.com&#x2F;ValerioCapraro&#x2F;status&#x2F;2097791836269977996\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;ValerioCapraro&#x2F;status&#x2F;2097791836269977996</a>, <a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;ValerioCapraro&#x2F;status&#x2F;2097791836269977996\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;ValerioCapraro&#x2F;status&#x2F;209779183626997799...</a><p><a href=\"https:&#x2F;&#x2F;bsky.app&#x2F;profile&#x2F;did:plc:ckaz32jwl6t2cno6fmuw2nhn&#x2F;post&#x2F;3mv4mt4ikss2d\" rel=\"nofollow\">https:&#x2F;&#x2F;bsky.app&#x2F;profile&#x2F;did:plc:ckaz32jwl6t2cno6fmuw2nhn&#x2F;po...</a>",
-      "url": "https://mathstodon.xyz/@andreasthom/117240535270608201",
-      "score": 779,
-      "comments": 719,
-      "owner": "pred_"
-    },
-    {
       "title": "Formalizing Fermat's Last Theorem",
       "description": "<a href=\"https:&#x2F;&#x2F;xenaproject.wordpress.com&#x2F;2026&#x2F;09&#x2F;04&#x2F;flt-anthropic-has-beaten-me-to-it&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;xenaproject.wordpress.com&#x2F;2026&#x2F;09&#x2F;04&#x2F;flt-anthropic-h...</a>",
       "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
       "score": 772,
-      "comments": 511,
+      "comments": 512,
       "owner": "jlebar"
     },
     {
@@ -157,6 +149,14 @@
       "score": 732,
       "comments": 403,
       "owner": "Cider9986"
+    },
+    {
+      "title": "Don't let anyone take away your big box of cables",
+      "description": "",
+      "url": "https://blog.jim-nielsen.com/2026/hands-off-my-cables/",
+      "score": 728,
+      "comments": 436,
+      "owner": "Brajeshwar"
     },
     {
       "title": "Your intellectual fly is open when you use an LLM to author a post (2025)",
