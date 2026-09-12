@@ -1,20 +1,25 @@
 {
   "changed": true,
-  "fetchedAt": "2026-09-11T17:54:11Z",
-  "previousSha": "15e77e6215425bd9a498ca54e049a06176277189",
-  "latestSha": "515742b7ed522c78f19bb9b61f346a0435785302",
+  "fetchedAt": "2026-09-12T07:20:20Z",
+  "previousSha": "515742b7ed522c78f19bb9b61f346a0435785302",
+  "latestSha": "c1ed16d97dd61ff50a3bd46dd353e4a55fd77f34",
   "repo": "K-Dense-AI/scientific-agent-skills",
   "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "stars": 0,
   "skillCount": 165,
   "latestCommit": {
-    "title": "Revert \"chore: post-merge follow-ups for #252\"",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/515742b7ed522c78f19bb9b61f346a0435785302",
-    "sha": "515742b",
-    "published": "2026-09-11"
+    "title": "Add companion identifier APIs to ontology-term-resolution (#262)",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/c1ed16d97dd61ff50a3bd46dd353e4a55fd77f34",
+    "sha": "c1ed16d",
+    "published": "2026-09-12"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "Add companion identifier APIs to ontology-term-resolution (#262)",
+      "sha": "c1ed16d",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/c1ed16d97dd61ff50a3bd46dd353e4a55fd77f34"
+    },
     {
       "title": "Revert \"chore: post-merge follow-ups for #252\"",
       "sha": "515742b",
@@ -34,11 +39,6 @@
       "title": "chore: post-merge follow-ups for #252",
       "sha": "c23b718",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/c23b718f751322c0832af0a823df6356a3d14433"
-    },
-    {
-      "title": "chore: post-merge follow-ups for #232",
-      "sha": "049ae89",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/049ae892b564d6de5e3286ded5dc968350426729"
     }
   ]
 }

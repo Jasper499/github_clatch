@@ -1,12 +1,23 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-09-11T17:54:11Z",
+  "savedAt": "2026-09-12T07:20:20Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "515742b7ed522c78f19bb9b61f346a0435785302",
+  "latestSha": "c1ed16d97dd61ff50a3bd46dd353e4a55fd77f34",
   "items": [
+    {
+      "title": "Add companion identifier APIs to ontology-term-resolution (#262)",
+      "description": "Add companion identifier APIs to ontology-term-resolution (#262)\n\n* Add companion identifier APIs to ontology-term-resolution.\n\nOLS stays the emit/validate authority. Prefix shape, landing pages, and lab shorthand now have scripts so agents do not invent CURIEs or call ZOOMA unfiltered.\n\nCo-authored-by: Cursor &lt;cursoragent@cursor.com&gt;\n\n* Emit only resolvable landing-page URLs from Bioregistry mappings.\n\npreferred_prefix is not the Identifiers.org namespace, so templating it\nprinted dead ORPHA/OBA links next to the rejection note.\n\nCo-authored-by: Cursor &lt;cursoragent@cursor.com&gt;\n\n---------\n\nCo-authored-by: Cursor &lt;cursoragent@cursor.com&gt;",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/c1ed16d97dd61ff50a3bd46dd353e4a55fd77f34",
+      "sha": "c1ed16d",
+      "fullSha": "c1ed16d97dd61ff50a3bd46dd353e4a55fd77f34",
+      "owner": "aubcake",
+      "published": "2026-09-12",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "Revert \"chore: post-merge follow-ups for #252\"",
       "description": "Revert &quot;chore: post-merge follow-ups for #252&quot;\n\nThis reverts commit c23b718. The squash merge of #252 was refused by\nGitHub on a README conflict, so the skill never landed and the README\nand collection version were bumped for a skill that is not in the tree.\nBack to 165 skills / 2.68.0 until #252 is rebased and merged.\n\nCo-Authored-By: Claude Fable 5.1 &lt;noreply@anthropic.com&gt;",
@@ -157,17 +168,6 @@
       "sha": "5628f09",
       "fullSha": "5628f09d43f0a7beae7de6e014fa0be61d84cf36",
       "owner": "janosk21",
-      "published": "2026-09-10",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "fix(simpy): report a non-UTF-8 resource CSV as unreadable, not as a b…",
-      "description": "fix(simpy): report a non-UTF-8 resource CSV as unreadable, not as a bad integer (#259)\n\nUnicodeError is a ValueError subclass, so the &#39;invalid integer&#39; handler was catching decode failures first. Swap the two except clauses so a non-UTF-8 CSV is reported as unreadable.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/cfefe8b84f7848044df3fd6570fbc7079ab2155b",
-      "sha": "cfefe8b",
-      "fullSha": "cfefe8b84f7848044df3fd6570fbc7079ab2155b",
-      "owner": "Anai-Guo",
       "published": "2026-09-10",
       "label": "commit",
       "repo": "K-Dense-AI/scientific-agent-skills"
