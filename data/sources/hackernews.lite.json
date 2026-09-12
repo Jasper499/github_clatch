@@ -1,25 +1,25 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-09-11T17:37:49Z",
+  "savedAt": "2026-09-12T07:00:01Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-09-11，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-09-12，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-09-11",
+  "fetchedDate": "2026-09-12",
   "items": [
     {
       "title": "Navier-Stokes – Tristan Buckmaster [pdf]",
       "description": "Further discussion: <a href=\"https:&#x2F;&#x2F;simonwillison.net&#x2F;2026&#x2F;Sep&#x2F;8&#x2F;on-navier-stokes&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;simonwillison.net&#x2F;2026&#x2F;Sep&#x2F;8&#x2F;on-navier-stokes&#x2F;</a>, <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49621697\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49621697</a>",
       "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
-      "score": 2035,
-      "comments": 825,
+      "score": 2037,
+      "comments": 826,
       "owner": "procedurecall"
     },
     {
       "title": "iPhone Duo",
       "description": "",
       "url": "https://www.apple.com/iphone-duo/",
-      "score": 1461,
-      "comments": 2506,
+      "score": 1469,
+      "comments": 2518,
       "owner": "thecosmicfrog"
     },
     {
@@ -27,23 +27,23 @@
       "description": "",
       "url": "https://beige.party/@intransitivelie/117057396732763183",
       "score": 1352,
-      "comments": 292,
+      "comments": 293,
       "owner": "mraniki"
     },
     {
       "title": "On the Navier–Stokes Millennium Prize Problem",
       "description": "Further discussion:<p><a href=\"https:&#x2F;&#x2F;simonwillison.net&#x2F;2026&#x2F;Sep&#x2F;8&#x2F;on-navier-stokes&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;simonwillison.net&#x2F;2026&#x2F;Sep&#x2F;8&#x2F;on-navier-stokes&#x2F;</a>, <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49621697\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49621697</a><p><a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;sama&#x2F;status&#x2F;2097385167002415140\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;sama&#x2F;status&#x2F;2097385167002415140</a>, <a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;sama&#x2F;status&#x2F;2097385167002415140\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;sama&#x2F;status&#x2F;2097385167002415140</a>",
       "url": "https://openai.com/index/navier-stokes-solution/",
-      "score": 1337,
-      "comments": 1132,
+      "score": 1338,
+      "comments": 1133,
       "owner": "tedsanders"
     },
     {
       "title": "Shopify is moving from React Native back to Swift and Kotlin",
       "description": "",
       "url": "https://shopify.engineering/back-to-native",
-      "score": 1205,
-      "comments": 900,
+      "score": 1233,
+      "comments": 923,
       "owner": "fnthawar2"
     },
     {
@@ -58,7 +58,7 @@
       "title": "Claude, change the “Add to Cart” button to blue",
       "description": "",
       "url": "https://opusfived.dev/",
-      "score": 1185,
+      "score": 1191,
       "comments": 448,
       "owner": "matthieu_bl"
     },
@@ -66,39 +66,39 @@
       "title": "Shopify acquires Tailwind",
       "description": "",
       "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
-      "score": 1130,
-      "comments": 443,
+      "score": 1136,
+      "comments": 444,
       "owner": "EdwinHoksberg"
     },
     {
       "title": "Keep Our Servers Running",
       "description": "",
       "url": "https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/",
-      "score": 1050,
-      "comments": 280,
+      "score": 1053,
+      "comments": 283,
       "owner": "sonicrocketman"
     },
     {
       "title": "DeepSeek v4.1 Flash",
       "description": "<a href=\"https:&#x2F;&#x2F;huggingface.co&#x2F;deepseek-ai&#x2F;DeepSeek-V4.1-Flash\" rel=\"nofollow\">https:&#x2F;&#x2F;huggingface.co&#x2F;deepseek-ai&#x2F;DeepSeek-V4.1-Flash</a>",
       "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
-      "score": 982,
-      "comments": 561,
+      "score": 997,
+      "comments": 569,
       "owner": "Liwink"
     },
     {
       "title": "216M Spy TVs – The LG Smart TV Problem [video]",
       "description": "<a href=\"https:&#x2F;&#x2F;www.notebookcheck.net&#x2F;LG-smart-TVs-caught-logging-audio-with-screen-off-and-snooping-on-local-devices.1391214.0.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.notebookcheck.net&#x2F;LG-smart-TVs-caught-logging-au...</a>",
       "url": "https://www.youtube.com/watch?v=6IFVTcM28KA",
-      "score": 927,
-      "comments": 1007,
+      "score": 931,
+      "comments": 1009,
       "owner": "treve"
     },
     {
       "title": "Nitter and XCancel resume service after legal advice",
       "description": "<a href=\"https:&#x2F;&#x2F;github.com&#x2F;zedeus&#x2F;nitter\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;zedeus&#x2F;nitter</a><p><a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;cdclegal\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;cdclegal</a><p><a href=\"https:&#x2F;&#x2F;nitter.net&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;nitter.net&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;</a>",
       "url": "https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3",
-      "score": 921,
+      "score": 923,
       "comments": 409,
       "owner": "zImPatrick"
     },
@@ -106,57 +106,57 @@
       "title": "More questions about whether researchers can trust OpenAI with unpublished math",
       "description": "<a href=\"https:&#x2F;&#x2F;mathstodon.xyz&#x2F;@andreasthom&#x2F;117240536885387540\" rel=\"nofollow\">https:&#x2F;&#x2F;mathstodon.xyz&#x2F;@andreasthom&#x2F;117240536885387540</a><p><a href=\"https:&#x2F;&#x2F;mathstodon.xyz&#x2F;@andreasthom&#x2F;117240537520615623\" rel=\"nofollow\">https:&#x2F;&#x2F;mathstodon.xyz&#x2F;@andreasthom&#x2F;117240537520615623</a><p><a href=\"https:&#x2F;&#x2F;x.com&#x2F;ValerioCapraro&#x2F;status&#x2F;2097791836269977996\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;ValerioCapraro&#x2F;status&#x2F;2097791836269977996</a>, <a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;ValerioCapraro&#x2F;status&#x2F;2097791836269977996\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;ValerioCapraro&#x2F;status&#x2F;209779183626997799...</a><p><a href=\"https:&#x2F;&#x2F;bsky.app&#x2F;profile&#x2F;did:plc:ckaz32jwl6t2cno6fmuw2nhn&#x2F;post&#x2F;3mv4mt4ikss2d\" rel=\"nofollow\">https:&#x2F;&#x2F;bsky.app&#x2F;profile&#x2F;did:plc:ckaz32jwl6t2cno6fmuw2nhn&#x2F;po...</a>",
       "url": "https://mathstodon.xyz/@andreasthom/117240535270608201",
-      "score": 851,
-      "comments": 790,
+      "score": 861,
+      "comments": 806,
       "owner": "pred_"
     },
     {
       "title": "Mistral raises €3B",
       "description": "",
       "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
-      "score": 844,
-      "comments": 599,
+      "score": 847,
+      "comments": 600,
       "owner": "kuberwastaken"
     },
     {
-      "title": "Actively exploited sandbox RCE in all Chromium versions",
-      "description": "",
-      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-85046",
-      "score": 805,
-      "comments": 511,
-      "owner": "negura"
+      "title": "A misalignment of AI in mathematics",
+      "description": "<a href=\"https:&#x2F;&#x2F;terrytao.wordpress.com&#x2F;2026&#x2F;09&#x2F;11&#x2F;a-severe-misalignment-of-ai-in-mathematics&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;terrytao.wordpress.com&#x2F;2026&#x2F;09&#x2F;11&#x2F;a-severe-misalignm...</a><p><a href=\"https:&#x2F;&#x2F;www.economist.com&#x2F;science-and-technology&#x2F;2026&#x2F;09&#x2F;11&#x2F;top-mathematicians-are-outraged-by-openais-methods\" rel=\"nofollow\">https:&#x2F;&#x2F;www.economist.com&#x2F;science-and-technology&#x2F;2026&#x2F;09&#x2F;11&#x2F;...</a>, <a href=\"https:&#x2F;&#x2F;unwall.app&#x2F;www.economist.com&#x2F;science-and-technology&#x2F;2026&#x2F;09&#x2F;11&#x2F;top-mathematicians-are-outraged-by-openais-methods\" rel=\"nofollow\">https:&#x2F;&#x2F;unwall.app&#x2F;www.economist.com&#x2F;science-and-technology&#x2F;...</a>",
+      "url": "https://mathandai.org/",
+      "score": 831,
+      "comments": 820,
+      "owner": "meredydd"
     },
     {
-      "title": "Formalizing Fermat's Last Theorem",
-      "description": "<a href=\"https:&#x2F;&#x2F;xenaproject.wordpress.com&#x2F;2026&#x2F;09&#x2F;04&#x2F;flt-anthropic-has-beaten-me-to-it&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;xenaproject.wordpress.com&#x2F;2026&#x2F;09&#x2F;04&#x2F;flt-anthropic-h...</a>",
-      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
-      "score": 772,
-      "comments": 512,
-      "owner": "jlebar"
-    },
-    {
-      "title": "Private German rocket makes history, reaches orbit from European soil",
-      "description": "",
-      "url": "https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket",
-      "score": 748,
-      "comments": 436,
-      "owner": "bookmtn"
-    },
-    {
-      "title": "Nitter has more working instances than before the takedowns",
-      "description": "",
-      "url": "https://codeberg.org/mv12star/shitter/wiki/Instances",
-      "score": 732,
-      "comments": 403,
-      "owner": "Cider9986"
+      "title": "Ask HN: Can we please limit the AI news flood?",
+      "description": "Over past couple months I noticed that HN feed is almost exclusively AI or AI-adjacent news. Meanwhile the legitimately, broadly-hacker stuff gets left out for the most part.<p>I noticed that because the things I find genuinely interesting that I post here now get zero traction, which is the stuff that I believe would previously be met with some discussion.<p>Note that I don&#x27;t care that my submissions were ignored, I don&#x27;t need that validation. Problem is that if my stuff gains no traction, I am myself not seeing similar stuff posted by others, stuff I am genuinely <i>also</i> interested in and would want to hear about from this community.<p>Here are two most recent examples:<p>- Lenovo showed a model that incorporates solid-state air cooling. That technology has been around for a while but it looks like it matured and is production-ready. This allows for super-light and slim designs, which, in turn, should allow for bigger batteries installed and I think it&#x27;s some sort of breakthrough:  \nhttps:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49580229<p>- Brax Industries devices, genuinely interesting, open-soruce and innovative, especially the wall display, with its modularity and on-device processing compatible with Home Assistant. I also appreciate the very clean design:  \nhttps:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49643215<p>As said, I honestly believe this would gain some traction here on HN a year or two ago. I no longer find HN a good source of &quot;what&#x27;s new&quot; in the industry, it&#x27;s almost exclusively AI talk now.<p>So I think the point I am trying to make is that maybe YC could start curating the content somehow to give those easily-drowned-out articles a visibility bump?<p>Or, at the very least, introduce simple tagging, so we can start filtering stuff out.",
+      "url": "https://news.ycombinator.com/item?id=49657850",
+      "score": 779,
+      "comments": 365,
+      "owner": "cromka"
     },
     {
       "title": "Don't let anyone take away your big box of cables",
       "description": "",
       "url": "https://blog.jim-nielsen.com/2026/hands-off-my-cables/",
-      "score": 728,
-      "comments": 436,
+      "score": 751,
+      "comments": 457,
       "owner": "Brajeshwar"
+    },
+    {
+      "title": "Private German rocket makes history, reaches orbit from European soil",
+      "description": "",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket",
+      "score": 749,
+      "comments": 436,
+      "owner": "bookmtn"
+    },
+    {
+      "title": "I resigned from Anthropic today",
+      "description": "<a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;hilbertspaess&#x2F;status&#x2F;2097476196791709843#m\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;hilbertspaess&#x2F;status&#x2F;2097476196791709843...</a>",
+      "url": "https://twitter.com/hilbertspaess/status/2097476196791709843#m",
+      "score": 730,
+      "comments": 1006,
+      "owner": "yurivish"
     },
     {
       "title": "Your intellectual fly is open when you use an LLM to author a post (2025)",

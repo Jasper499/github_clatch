@@ -6,148 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E6%94%AF%E4%BB%98%E5%AE%9D%20%E5%81%87APP&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E6%94%AF%E4%BB%98%E5%AE%9D%20%E5%81%87APP&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 支付宝 假APP",
-      "date_published": "2026-09-12T04:26:17Z"
+      "id": "hackernews:https://cims.nyu.edu/~tristanb/statement.pdf",
+      "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
+      "title": "[Hacker News 热门] Navier-Stokes – Tristan Buckmaster [pdf]",
+      "date_published": "2026-09-12T07:00:01Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%AE%81%E6%B3%A2%E5%A4%A7%E5%AD%A6%E5%BC%80%E5%AD%A6%E5%85%B8%E7%A4%BC%E7%AA%81%E9%99%8D%E6%9A%B4%E9%9B%A8%E6%A0%A1%E9%95%BF%E5%8F%AA%E8%AE%B23%E5%8F%A5%E8%AF%9D%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AE%81%E6%B3%A2%E5%A4%A7%E5%AD%A6%E5%BC%80%E5%AD%A6%E5%85%B8%E7%A4%BC%E7%AA%81%E9%99%8D%E6%9A%B4%E9%9B%A8%E6%A0%A1%E9%95%BF%E5%8F%AA%E8%AE%B23%E5%8F%A5%E8%AF%9D%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 宁波大学开学典礼突降暴雨校长只讲3句话",
-      "date_published": "2026-09-12T04:26:17Z"
+      "id": "hackernews:https://www.apple.com/iphone-duo/",
+      "url": "https://www.apple.com/iphone-duo/",
+      "title": "[Hacker News 热门] iPhone Duo",
+      "date_published": "2026-09-12T07:00:01Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E4%B8%A4%E5%9C%BA%E5%B1%95%E4%BC%9A%E7%9C%8B%E4%B8%AD%E5%9B%BD%E6%9C%BA%E9%81%87%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%A4%E5%9C%BA%E5%B1%95%E4%BC%9A%E7%9C%8B%E4%B8%AD%E5%9B%BD%E6%9C%BA%E9%81%87%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 两场展会看中国机遇",
-      "date_published": "2026-09-12T04:26:17Z"
+      "id": "hackernews:https://beige.party/@intransitivelie/117057396732763183",
+      "url": "https://beige.party/@intransitivelie/117057396732763183",
+      "title": "[Hacker News 热门] QBittorrent breaks out of sandbox to commit crimes",
+      "date_published": "2026-09-12T07:00:01Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E6%B3%95%E8%80%83&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E6%B3%95%E8%80%83&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 法考",
-      "date_published": "2026-09-12T04:26:17Z"
+      "id": "hackernews:https://openai.com/index/navier-stokes-solution/",
+      "url": "https://openai.com/index/navier-stokes-solution/",
+      "title": "[Hacker News 热门] On the Navier–Stokes Millennium Prize Problem",
+      "date_published": "2026-09-12T07:00:01Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E7%9F%AD%E5%89%A7%E7%89%88%E5%B7%A6%E8%80%B3%E5%A5%B3%E4%B8%BB%E6%98%AF%E9%BB%8E%E5%90%A7%E5%95%A6%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%9F%AD%E5%89%A7%E7%89%88%E5%B7%A6%E8%80%B3%E5%A5%B3%E4%B8%BB%E6%98%AF%E9%BB%8E%E5%90%A7%E5%95%A6%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 短剧版左耳女主是黎吧啦",
-      "date_published": "2026-09-12T04:26:17Z"
+      "id": "hackernews:https://shopify.engineering/back-to-native",
+      "url": "https://shopify.engineering/back-to-native",
+      "title": "[Hacker News 热门] Shopify is moving from React Native back to Swift and Kotlin",
+      "date_published": "2026-09-12T07:00:01Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E8%8F%B2%E5%B0%94%E5%85%B9%E5%A5%96%E5%BE%97%E4%B8%BB%E7%A7%B0AI%E4%B8%8E%E6%95%B0%E5%AD%A6%E6%AD%A3%E4%B8%A5%E9%87%8D%E9%94%99%E4%BD%8D%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%8F%B2%E5%B0%94%E5%85%B9%E5%A5%96%E5%BE%97%E4%B8%BB%E7%A7%B0AI%E4%B8%8E%E6%95%B0%E5%AD%A6%E6%AD%A3%E4%B8%A5%E9%87%8D%E9%94%99%E4%BD%8D%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 菲尔兹奖得主称AI与数学正严重错位",
-      "date_published": "2026-09-12T04:26:17Z"
+      "id": "hackernews:https://www.notebookcheck.net/LG-smart-TVs-caught-logging-audio-with-screen-off-and-snooping-on-local-devices.1391214.0.html",
+      "url": "https://www.notebookcheck.net/LG-smart-TVs-caught-logging-audio-with-screen-off-and-snooping-on-local-devices.1391214.0.html",
+      "title": "[Hacker News 热门] LG smart TVs caught logging audio with screen off and snooping on local devices",
+      "date_published": "2026-09-12T07:00:01Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E9%BB%8E%E5%90%A7%E5%95%A6%E8%AE%B8%E5%BC%8B%E4%BA%8C%E6%90%AD%E6%BC%94%E5%91%98%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%BB%8E%E5%90%A7%E5%95%A6%E8%AE%B8%E5%BC%8B%E4%BA%8C%E6%90%AD%E6%BC%94%E5%91%98%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 黎吧啦许弋二搭演员",
-      "date_published": "2026-09-12T04:26:17Z"
+      "id": "hackernews:https://opusfived.dev/",
+      "url": "https://opusfived.dev/",
+      "title": "[Hacker News 热门] Claude, change the “Add to Cart” button to blue",
+      "date_published": "2026-09-12T07:00:01Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%8D%8E%E4%B8%BAMateXT2%E5%BC%80%E5%94%AE%E5%8D%B3%E5%94%AE%E7%BD%84%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8D%8E%E4%B8%BAMateXT2%E5%BC%80%E5%94%AE%E5%8D%B3%E5%94%AE%E7%BD%84%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 华为MateXT2开售即售罄",
-      "date_published": "2026-09-12T04:26:17Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E6%9D%A8%E5%B9%82%E5%9B%9E%E5%A4%8D%E5%BC%A0%E5%BD%AC%E5%BD%AC%E7%A5%9D%E5%93%A5%E6%8A%AB%E8%8D%86%E6%96%A9%E6%A3%98%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%A8%E5%B9%82%E5%9B%9E%E5%A4%8D%E5%BC%A0%E5%BD%AC%E5%BD%AC%E7%A5%9D%E5%93%A5%E6%8A%AB%E8%8D%86%E6%96%A9%E6%A3%98%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 杨幂回复张彬彬祝哥披荆斩棘",
-      "date_published": "2026-09-12T04:26:17Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E8%B0%A2%E5%B0%94%E9%A1%BF%E6%99%8B%E7%BA%A7%E7%BE%8E%E7%BD%91%E5%86%B3%E8%B5%9B%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%B0%A2%E5%B0%94%E9%A1%BF%E6%99%8B%E7%BA%A7%E7%BE%8E%E7%BD%91%E5%86%B3%E8%B5%9B%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 谢尔顿晋级美网决赛",
-      "date_published": "2026-09-12T04:26:17Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%8D%A2%E6%98%B1%E6%99%93%E5%BC%A0%E5%87%8C%E8%B5%AB%E8%BA%AB%E9%AB%98%E5%B7%AE%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8D%A2%E6%98%B1%E6%99%93%E5%BC%A0%E5%87%8C%E8%B5%AB%E8%BA%AB%E9%AB%98%E5%B7%AE%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 卢昱晓张凌赫身高差",
-      "date_published": "2026-09-12T04:26:17Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E6%A0%BE%E5%BF%B5%E6%8A%BD%E7%83%9F%E8%8A%B1%E7%B5%AE%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%A0%BE%E5%BF%B5%E6%8A%BD%E7%83%9F%E8%8A%B1%E7%B5%AE%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 栾念抽烟花絮",
-      "date_published": "2026-09-12T04:26:17Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E8%83%A1%E5%A1%9E%E6%AD%A6%E8%A3%85%E7%BC%B4%E8%8E%B7%E5%A4%A7%E6%89%B9%E7%BE%8E%E5%88%B6%E8%A3%85%E7%94%B2%E8%BD%A6%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%83%A1%E5%A1%9E%E6%AD%A6%E8%A3%85%E7%BC%B4%E8%8E%B7%E5%A4%A7%E6%89%B9%E7%BE%8E%E5%88%B6%E8%A3%85%E7%94%B2%E8%BD%A6%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 胡塞武装缴获大批美制装甲车",
-      "date_published": "2026-09-12T04:26:17Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23LadyGaga%E7%96%91%E4%BC%BC%E4%BB%A3%E5%AD%95%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23LadyGaga%E7%96%91%E4%BC%BC%E4%BB%A3%E5%AD%95%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] LadyGaga疑似代孕",
-      "date_published": "2026-09-12T04:26:17Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%AA%B3%E5%A6%87%E5%87%BA%E9%97%A8%E5%89%8D%E5%90%8E%E7%8A%B6%E6%80%81%E5%8F%8D%E5%B7%AE%E5%AE%9E%E5%9C%A8%E5%A4%AA%E5%A4%A7%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AA%B3%E5%A6%87%E5%87%BA%E9%97%A8%E5%89%8D%E5%90%8E%E7%8A%B6%E6%80%81%E5%8F%8D%E5%B7%AE%E5%AE%9E%E5%9C%A8%E5%A4%AA%E5%A4%A7%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 媳妇出门前后状态反差实在太大",
-      "date_published": "2026-09-12T04:26:17Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E7%A7%B0%E9%81%AD%E5%85%AC%E8%81%8C%E4%BA%BA%E5%91%98%E6%80%A7%E4%BE%B5%E5%A5%B3%E5%AD%90%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%A7%B0%E9%81%AD%E5%85%AC%E8%81%8C%E4%BA%BA%E5%91%98%E6%80%A7%E4%BE%B5%E5%A5%B3%E5%AD%90%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 称遭公职人员性侵女子发声",
-      "date_published": "2026-09-12T04:26:17Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%AE%81%E6%B3%A2%E5%A4%A7%E5%AD%A6%E5%BC%80%E5%AD%A6%E5%85%B8%E7%A4%BC%E7%AA%81%E9%99%8D%E6%9A%B4%E9%9B%A8%E6%A0%A1%E9%95%BF%E5%8F%AA%E8%AE%B23%E5%8F%A5%E8%AF%9D%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AE%81%E6%B3%A2%E5%A4%A7%E5%AD%A6%E5%BC%80%E5%AD%A6%E5%85%B8%E7%A4%BC%E7%AA%81%E9%99%8D%E6%9A%B4%E9%9B%A8%E6%A0%A1%E9%95%BF%E5%8F%AA%E8%AE%B23%E5%8F%A5%E8%AF%9D%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 宁波大学开学典礼突降暴雨校长只讲3句话",
-      "date_published": "2026-09-12T04:26:17Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E4%B8%A4%E5%9C%BA%E5%B1%95%E4%BC%9A%E7%9C%8B%E4%B8%AD%E5%9B%BD%E6%9C%BA%E9%81%87%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%A4%E5%9C%BA%E5%B1%95%E4%BC%9A%E7%9C%8B%E4%B8%AD%E5%9B%BD%E6%9C%BA%E9%81%87%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 两场展会看中国机遇",
-      "date_published": "2026-09-12T04:26:17Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%89%8D%E5%A6%BB%E6%9B%9D%E9%A9%AC%E6%96%AF%E5%85%8B%E5%B1%85%E9%AB%98%E4%B8%B4%E4%B8%8B%E5%BF%83%E7%90%86%E6%93%8D%E6%8E%A7%E8%87%AA%E5%B7%B1%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%89%8D%E5%A6%BB%E6%9B%9D%E9%A9%AC%E6%96%AF%E5%85%8B%E5%B1%85%E9%AB%98%E4%B8%B4%E4%B8%8B%E5%BF%83%E7%90%86%E6%93%8D%E6%8E%A7%E8%87%AA%E5%B7%B1%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 前妻曝马斯克居高临下心理操控自己",
-      "date_published": "2026-09-12T04:26:17Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%8D%8A%E5%A4%9C%E5%AE%9D%E7%88%B8%E5%B0%86%E5%AE%9D%E5%A6%88%E6%8A%B1%E6%91%94%E4%B8%8B%E5%BA%8A%E6%B3%A1%E5%A5%B6%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8D%8A%E5%A4%9C%E5%AE%9D%E7%88%B8%E5%B0%86%E5%AE%9D%E5%A6%88%E6%8A%B1%E6%91%94%E4%B8%8B%E5%BA%8A%E6%B3%A1%E5%A5%B6%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 半夜宝爸将宝妈抱摔下床泡奶",
-      "date_published": "2026-09-12T04:26:17Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E9%95%BF%E6%B2%99%E6%9F%A5%E5%B0%81%E4%BB%A3%E5%AD%95%E6%89%8B%E6%9C%AF%E5%AE%A4%E6%89%A7%E6%B3%95%E5%9B%BE%E6%B5%81%E5%85%A5%E4%BB%A3%E5%AD%95%E7%BE%A4&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E9%95%BF%E6%B2%99%E6%9F%A5%E5%B0%81%E4%BB%A3%E5%AD%95%E6%89%8B%E6%9C%AF%E5%AE%A4%E6%89%A7%E6%B3%95%E5%9B%BE%E6%B5%81%E5%85%A5%E4%BB%A3%E5%AD%95%E7%BE%A4&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 长沙查封代孕手术室执法图流入代孕群",
-      "date_published": "2026-09-12T04:26:17Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%A5%B3%E6%BC%94%E5%91%98%E8%A2%AB%E6%8C%87%E5%8D%96%E9%9F%AD%E8%8F%9C%E7%9B%92%E5%AD%90%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E6%BC%94%E5%91%98%E8%A2%AB%E6%8C%87%E5%8D%96%E9%9F%AD%E8%8F%9C%E7%9B%92%E5%AD%90%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 女演员被指卖韭菜盒子",
-      "date_published": "2026-09-12T04:26:17Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E7%A7%B0%E9%81%AD%E5%85%AC%E8%81%8C%E4%BA%BA%E5%91%98%E6%80%A7%E4%BE%B5%E5%A5%B3%E5%AD%90%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%A7%B0%E9%81%AD%E5%85%AC%E8%81%8C%E4%BA%BA%E5%91%98%E6%80%A7%E4%BE%B5%E5%A5%B3%E5%AD%90%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 称遭公职人员性侵女子发声",
-      "date_published": "2026-09-12T04:26:17Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%AE%9C%E5%AE%BE%E8%AD%A6%E6%96%B9%E5%A4%8D%E6%A0%B8%E9%95%87%E5%B9%B2%E9%83%A8%E8%A2%AB%E6%8C%87%E5%BC%BA%E5%A5%B8%E6%A1%88%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AE%9C%E5%AE%BE%E8%AD%A6%E6%96%B9%E5%A4%8D%E6%A0%B8%E9%95%87%E5%B9%B2%E9%83%A8%E8%A2%AB%E6%8C%87%E5%BC%BA%E5%A5%B8%E6%A1%88%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 宜宾警方复核镇干部被指强奸案",
-      "date_published": "2026-09-12T04:26:17Z"
+      "id": "hackernews:https://tailwindcss.com/blog/tailwind-is-joining-shopify",
+      "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
+      "title": "[Hacker News 热门] Shopify acquires Tailwind",
+      "date_published": "2026-09-12T07:00:01Z"
     }
   ]
 }
