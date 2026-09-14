@@ -1,12 +1,23 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-09-14T08:06:03Z",
+  "savedAt": "2026-09-14T19:35:05Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "0b2afe68a5f9379097ad815e028af664f1e222b7",
+  "latestSha": "330c8e764435a731eff571e3efdda70b363d0792",
   "items": [
+    {
+      "title": "chore: update security scan report [skip ci]",
+      "description": "chore: update security scan report [skip ci]",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/330c8e764435a731eff571e3efdda70b363d0792",
+      "sha": "330c8e7",
+      "fullSha": "330c8e764435a731eff571e3efdda70b363d0792",
+      "owner": "github-actions",
+      "published": "2026-09-14",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "Add new images for AlphaGenome, Folklore variant evidence, and Genomi…",
       "description": "Add new images for AlphaGenome, Folklore variant evidence, and Genomic intelligence\n\n- Introduced three new PNG images: `alphagenome.png`, `folklore-variant-evidence.png`, and `genomic-intelligence.png` to enhance documentation and visual representation of skills.",
@@ -158,17 +169,6 @@
       "fullSha": "30e0910c2176faf688df096201a7afe6040f2434",
       "owner": "TKassis",
       "published": "2026-09-11",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "Close two gaps in the skill link contract, and fix what they surface …",
-      "description": "Close two gaps in the skill link contract, and fix what they surface (#258)\n\nlink_problems now scans assets/*.md and matches bare command-position paths (python scripts/x.py) inside fenced blocks, and the meta suite applies the document rules to doc-only skills as well as script-bearing ones. Fixes the eight broken references this surfaced in nextflow, research-grants, scientific-critical-thinking and scientific-slides, with version bumps for each.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/15e77e6215425bd9a498ca54e049a06176277189",
-      "sha": "15e77e6",
-      "fullSha": "15e77e6215425bd9a498ca54e049a06176277189",
-      "owner": "vin-bio",
-      "published": "2026-09-10",
       "label": "commit",
       "repo": "K-Dense-AI/scientific-agent-skills"
     }

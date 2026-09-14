@@ -1,20 +1,25 @@
 {
   "changed": true,
-  "fetchedAt": "2026-09-14T08:06:03Z",
-  "previousSha": "c1ed16d97dd61ff50a3bd46dd353e4a55fd77f34",
-  "latestSha": "0b2afe68a5f9379097ad815e028af664f1e222b7",
+  "fetchedAt": "2026-09-14T19:35:05Z",
+  "previousSha": "0b2afe68a5f9379097ad815e028af664f1e222b7",
+  "latestSha": "330c8e764435a731eff571e3efdda70b363d0792",
   "repo": "K-Dense-AI/scientific-agent-skills",
   "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "stars": 0,
   "skillCount": 166,
   "latestCommit": {
-    "title": "Add new images for AlphaGenome, Folklore variant evidence, and Genomi…",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/0b2afe68a5f9379097ad815e028af664f1e222b7",
-    "sha": "0b2afe6",
-    "published": "2026-09-13"
+    "title": "chore: update security scan report [skip ci]",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/330c8e764435a731eff571e3efdda70b363d0792",
+    "sha": "330c8e7",
+    "published": "2026-09-14"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "chore: update security scan report [skip ci]",
+      "sha": "330c8e7",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/330c8e764435a731eff571e3efdda70b363d0792"
+    },
     {
       "title": "Add new images for AlphaGenome, Folklore variant evidence, and Genomi…",
       "sha": "0b2afe6",
@@ -34,11 +39,6 @@
       "title": "Update documentation and security reports; add new examples and skills",
       "sha": "fa66f48",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/fa66f483619e36827a9521302666067821e052c9"
-    },
-    {
-      "title": "Add companion identifier APIs to ontology-term-resolution (#262)",
-      "sha": "c1ed16d",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/c1ed16d97dd61ff50a3bd46dd353e4a55fd77f34"
     }
   ]
 }
