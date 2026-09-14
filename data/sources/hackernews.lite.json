@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-09-14T07:43:34Z",
+  "savedAt": "2026-09-14T19:07:08Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-09-14，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,7 +10,7 @@
       "title": "Navier-Stokes – Tristan Buckmaster [pdf]",
       "description": "Further discussion: <a href=\"https:&#x2F;&#x2F;simonwillison.net&#x2F;2026&#x2F;Sep&#x2F;8&#x2F;on-navier-stokes&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;simonwillison.net&#x2F;2026&#x2F;Sep&#x2F;8&#x2F;on-navier-stokes&#x2F;</a>, <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49621697\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49621697</a>",
       "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
-      "score": 2048,
+      "score": 2049,
       "comments": 829,
       "owner": "procedurecall"
     },
@@ -18,8 +18,8 @@
       "title": "iPhone Duo",
       "description": "",
       "url": "https://www.apple.com/iphone-duo/",
-      "score": 1479,
-      "comments": 2532,
+      "score": 1481,
+      "comments": 2540,
       "owner": "thecosmicfrog"
     },
     {
@@ -34,16 +34,16 @@
       "title": "Shopify is moving from React Native back to Swift and Kotlin",
       "description": "",
       "url": "https://shopify.engineering/back-to-native",
-      "score": 1267,
-      "comments": 951,
+      "score": 1271,
+      "comments": 955,
       "owner": "fnthawar2"
     },
     {
       "title": "A misalignment of AI in mathematics",
       "description": "<a href=\"https:&#x2F;&#x2F;terrytao.wordpress.com&#x2F;2026&#x2F;09&#x2F;11&#x2F;a-severe-misalignment-of-ai-in-mathematics&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;terrytao.wordpress.com&#x2F;2026&#x2F;09&#x2F;11&#x2F;a-severe-misalignm...</a><p><a href=\"https:&#x2F;&#x2F;www.economist.com&#x2F;science-and-technology&#x2F;2026&#x2F;09&#x2F;11&#x2F;top-mathematicians-are-outraged-by-openais-methods\" rel=\"nofollow\">https:&#x2F;&#x2F;www.economist.com&#x2F;science-and-technology&#x2F;2026&#x2F;09&#x2F;11&#x2F;...</a>, <a href=\"https:&#x2F;&#x2F;unwall.app&#x2F;www.economist.com&#x2F;science-and-technology&#x2F;2026&#x2F;09&#x2F;11&#x2F;top-mathematicians-are-outraged-by-openais-methods\" rel=\"nofollow\">https:&#x2F;&#x2F;unwall.app&#x2F;www.economist.com&#x2F;science-and-technology&#x2F;...</a>",
       "url": "https://mathandai.org/",
-      "score": 1225,
-      "comments": 1201,
+      "score": 1228,
+      "comments": 1211,
       "owner": "meredydd"
     },
     {
@@ -53,6 +53,14 @@
       "score": 1207,
       "comments": 451,
       "owner": "matthieu_bl"
+    },
+    {
+      "title": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
+      "description": "",
+      "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
+      "score": 1159,
+      "comments": 532,
+      "owner": "u1hcw9nx"
     },
     {
       "title": "Shopify acquires Tailwind",
@@ -74,17 +82,33 @@
       "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
       "description": "<a href=\"https:&#x2F;&#x2F;simonwillison.net&#x2F;2026&#x2F;Sep&#x2F;12&#x2F;openai-agents-rubygems&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;simonwillison.net&#x2F;2026&#x2F;Sep&#x2F;12&#x2F;openai-agents-rubygems...</a>",
       "url": "https://www.rubyhack.ai/",
-      "score": 954,
-      "comments": 596,
+      "score": 961,
+      "comments": 602,
       "owner": "chao-"
+    },
+    {
+      "title": "Why is Google still serving dodgy ads?",
+      "description": "",
+      "url": "https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads",
+      "score": 916,
+      "comments": 393,
+      "owner": "iamflimflam1"
     },
     {
       "title": "More questions about whether researchers can trust OpenAI with unpublished math",
       "description": "<a href=\"https:&#x2F;&#x2F;mathstodon.xyz&#x2F;@andreasthom&#x2F;117240536885387540\" rel=\"nofollow\">https:&#x2F;&#x2F;mathstodon.xyz&#x2F;@andreasthom&#x2F;117240536885387540</a><p><a href=\"https:&#x2F;&#x2F;mathstodon.xyz&#x2F;@andreasthom&#x2F;117240537520615623\" rel=\"nofollow\">https:&#x2F;&#x2F;mathstodon.xyz&#x2F;@andreasthom&#x2F;117240537520615623</a><p><a href=\"https:&#x2F;&#x2F;x.com&#x2F;ValerioCapraro&#x2F;status&#x2F;2097791836269977996\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;ValerioCapraro&#x2F;status&#x2F;2097791836269977996</a>, <a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;ValerioCapraro&#x2F;status&#x2F;2097791836269977996\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;ValerioCapraro&#x2F;status&#x2F;209779183626997799...</a><p><a href=\"https:&#x2F;&#x2F;bsky.app&#x2F;profile&#x2F;did:plc:ckaz32jwl6t2cno6fmuw2nhn&#x2F;post&#x2F;3mv4mt4ikss2d\" rel=\"nofollow\">https:&#x2F;&#x2F;bsky.app&#x2F;profile&#x2F;did:plc:ckaz32jwl6t2cno6fmuw2nhn&#x2F;po...</a>",
       "url": "https://mathstodon.xyz/@andreasthom/117240535270608201",
       "score": 866,
-      "comments": 816,
+      "comments": 817,
       "owner": "pred_"
+    },
+    {
+      "title": "Ask HN: Can we please limit the AI news flood?",
+      "description": "Over past couple months I noticed that HN feed is almost exclusively AI or AI-adjacent news. Meanwhile the legitimately, broadly-hacker stuff gets left out for the most part.<p>I noticed that because the things I find genuinely interesting that I post here now get zero traction, which is the stuff that I believe would previously be met with some discussion.<p>Note that I don&#x27;t care that my submissions were ignored, I don&#x27;t need that validation. Problem is that if my stuff gains no traction, I am myself not seeing similar stuff posted by others, stuff I am genuinely <i>also</i> interested in and would want to hear about from this community.<p>Here are two most recent examples:<p>- Lenovo showed a model that incorporates solid-state air cooling. That technology has been around for a while but it looks like it matured and is production-ready. This allows for super-light and slim designs, which, in turn, should allow for bigger batteries installed and I think it&#x27;s some sort of breakthrough:  \nhttps:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49580229<p>- Brax Industries devices, genuinely interesting, open-soruce and innovative, especially the wall display, with its modularity and on-device processing compatible with Home Assistant. I also appreciate the very clean design:  \nhttps:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49643215<p>As said, I honestly believe this would gain some traction here on HN a year or two ago. I no longer find HN a good source of &quot;what&#x27;s new&quot; in the industry, it&#x27;s almost exclusively AI talk now.<p>So I think the point I am trying to make is that maybe YC could start curating the content somehow to give those easily-drowned-out articles a visibility bump?<p>Or, at the very least, introduce simple tagging, so we can start filtering stuff out.",
+      "url": "https://news.ycombinator.com/item?id=49657850",
+      "score": 855,
+      "comments": 394,
+      "owner": "cromka"
     },
     {
       "title": "Mistral raises €3B",
@@ -95,50 +119,26 @@
       "owner": "kuberwastaken"
     },
     {
-      "title": "Ask HN: Can we please limit the AI news flood?",
-      "description": "Over past couple months I noticed that HN feed is almost exclusively AI or AI-adjacent news. Meanwhile the legitimately, broadly-hacker stuff gets left out for the most part.<p>I noticed that because the things I find genuinely interesting that I post here now get zero traction, which is the stuff that I believe would previously be met with some discussion.<p>Note that I don&#x27;t care that my submissions were ignored, I don&#x27;t need that validation. Problem is that if my stuff gains no traction, I am myself not seeing similar stuff posted by others, stuff I am genuinely <i>also</i> interested in and would want to hear about from this community.<p>Here are two most recent examples:<p>- Lenovo showed a model that incorporates solid-state air cooling. That technology has been around for a while but it looks like it matured and is production-ready. This allows for super-light and slim designs, which, in turn, should allow for bigger batteries installed and I think it&#x27;s some sort of breakthrough:  \nhttps:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49580229<p>- Brax Industries devices, genuinely interesting, open-soruce and innovative, especially the wall display, with its modularity and on-device processing compatible with Home Assistant. I also appreciate the very clean design:  \nhttps:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49643215<p>As said, I honestly believe this would gain some traction here on HN a year or two ago. I no longer find HN a good source of &quot;what&#x27;s new&quot; in the industry, it&#x27;s almost exclusively AI talk now.<p>So I think the point I am trying to make is that maybe YC could start curating the content somehow to give those easily-drowned-out articles a visibility bump?<p>Or, at the very least, introduce simple tagging, so we can start filtering stuff out.",
-      "url": "https://news.ycombinator.com/item?id=49657850",
-      "score": 850,
-      "comments": 392,
-      "owner": "cromka"
-    },
-    {
-      "title": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
+      "title": "Everyone should slow down AI development except for me",
       "description": "",
-      "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
-      "score": 807,
-      "comments": 340,
-      "owner": "u1hcw9nx"
+      "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
+      "score": 790,
+      "comments": 450,
+      "owner": "xena"
     },
     {
       "title": "Don't let anyone take away your big box of cables",
       "description": "",
       "url": "https://blog.jim-nielsen.com/2026/hands-off-my-cables/",
-      "score": 775,
-      "comments": 459,
+      "score": 778,
+      "comments": 461,
       "owner": "Brajeshwar"
-    },
-    {
-      "title": "Why is Google still serving dodgy ads?",
-      "description": "",
-      "url": "https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads",
-      "score": 772,
-      "comments": 347,
-      "owner": "iamflimflam1"
-    },
-    {
-      "title": "Everyone should slow down AI development except for me",
-      "description": "",
-      "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
-      "score": 766,
-      "comments": 442,
-      "owner": "xena"
     },
     {
       "title": "So you want to use OpenRouter?",
       "description": "",
       "url": "https://mmoustafa.com/blog/so-you-want-to-use-openrouter/",
-      "score": 754,
+      "score": 759,
       "comments": 202,
       "owner": "player85"
     },
@@ -146,16 +146,16 @@
       "title": "I spent $220 on Google app ads and 60% of the installs were robots",
       "description": "",
       "url": "https://dayzlegame.com/blog/google-ads-bot-farm/",
-      "score": 752,
-      "comments": 427,
+      "score": 757,
+      "comments": 429,
       "owner": "nickabe"
     },
     {
       "title": "We must pace the frontier",
       "description": "",
       "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
-      "score": 739,
-      "comments": 1021,
+      "score": 744,
+      "comments": 1036,
       "owner": "apsec112"
     },
     {
