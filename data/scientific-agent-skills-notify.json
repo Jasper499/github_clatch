@@ -1,44 +1,44 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-09-12T17:25:45Z",
+  "changed": true,
+  "fetchedAt": "2026-09-14T08:06:03Z",
   "previousSha": "c1ed16d97dd61ff50a3bd46dd353e4a55fd77f34",
-  "latestSha": "c1ed16d97dd61ff50a3bd46dd353e4a55fd77f34",
+  "latestSha": "0b2afe68a5f9379097ad815e028af664f1e222b7",
   "repo": "K-Dense-AI/scientific-agent-skills",
   "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "stars": 0,
-  "skillCount": 165,
+  "skillCount": 166,
   "latestCommit": {
-    "title": "Add companion identifier APIs to ontology-term-resolution (#262)",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/c1ed16d97dd61ff50a3bd46dd353e4a55fd77f34",
-    "sha": "c1ed16d",
-    "published": "2026-09-12"
+    "title": "Add new images for AlphaGenome, Folklore variant evidence, and Genomi…",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/0b2afe68a5f9379097ad815e028af664f1e222b7",
+    "sha": "0b2afe6",
+    "published": "2026-09-13"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
     {
+      "title": "Add new images for AlphaGenome, Folklore variant evidence, and Genomi…",
+      "sha": "0b2afe6",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/0b2afe68a5f9379097ad815e028af664f1e222b7"
+    },
+    {
+      "title": "Add skill image generation script and update .gitignore",
+      "sha": "4d23349",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/4d23349c7bd9d68e8a17977a8dc2f666521f505c"
+    },
+    {
+      "title": "Add AlphaGenome",
+      "sha": "97c5902",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/97c59021d34e7813e46299aa0cb6c790565fbf57"
+    },
+    {
+      "title": "Update documentation and security reports; add new examples and skills",
+      "sha": "fa66f48",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/fa66f483619e36827a9521302666067821e052c9"
+    },
+    {
       "title": "Add companion identifier APIs to ontology-term-resolution (#262)",
       "sha": "c1ed16d",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/c1ed16d97dd61ff50a3bd46dd353e4a55fd77f34"
-    },
-    {
-      "title": "Revert \"chore: post-merge follow-ups for #252\"",
-      "sha": "515742b",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/515742b7ed522c78f19bb9b61f346a0435785302"
-    },
-    {
-      "title": "genomic-intelligence: annotation sync limit and the splice orientatio…",
-      "sha": "ca2620d",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/ca2620db24ce3603fea04b7abe28c2811884a209"
-    },
-    {
-      "title": "genomic-intelligence: reconcile the skill against the live /v1 contra…",
-      "sha": "45af7ae",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/45af7aefb40e0ef12fda62c6f01d1067ea1e1222"
-    },
-    {
-      "title": "chore: post-merge follow-ups for #252",
-      "sha": "c23b718",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/c23b718f751322c0832af0a823df6356a3d14433"
     }
   ]
 }

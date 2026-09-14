@@ -1,12 +1,56 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-09-12T17:25:45Z",
+  "savedAt": "2026-09-14T08:06:03Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "c1ed16d97dd61ff50a3bd46dd353e4a55fd77f34",
+  "latestSha": "0b2afe68a5f9379097ad815e028af664f1e222b7",
   "items": [
+    {
+      "title": "Add new images for AlphaGenome, Folklore variant evidence, and Genomi…",
+      "description": "Add new images for AlphaGenome, Folklore variant evidence, and Genomic intelligence\n\n- Introduced three new PNG images: `alphagenome.png`, `folklore-variant-evidence.png`, and `genomic-intelligence.png` to enhance documentation and visual representation of skills.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/0b2afe68a5f9379097ad815e028af664f1e222b7",
+      "sha": "0b2afe6",
+      "fullSha": "0b2afe68a5f9379097ad815e028af664f1e222b7",
+      "owner": "TKassis",
+      "published": "2026-09-13",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Add skill image generation script and update .gitignore",
+      "description": "Add skill image generation script and update .gitignore\n\n- Introduced `generate_skill_image.py`, a script for rendering skill workflows as diagrams using the OpenRouter Image API.\n- Updated `.gitignore` to remove the exclusion of the `scripts/` directory, allowing for better management of local tooling files.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/4d23349c7bd9d68e8a17977a8dc2f666521f505c",
+      "sha": "4d23349",
+      "fullSha": "4d23349c7bd9d68e8a17977a8dc2f666521f505c",
+      "owner": "TKassis",
+      "published": "2026-09-13",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Add AlphaGenome",
+      "description": "Add AlphaGenome",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/97c59021d34e7813e46299aa0cb6c790565fbf57",
+      "sha": "97c5902",
+      "fullSha": "97c59021d34e7813e46299aa0cb6c790565fbf57",
+      "owner": "TKassis",
+      "published": "2026-09-13",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Update documentation and security reports; add new examples and skills",
+      "description": "Update documentation and security reports; add new examples and skills\n\n- Enhanced `examples.md` with new illustrative research prompts and detailed workflows for variant evidence and cancer subtype classification.\n- Updated `open-source-sponsors.md` to reflect current projects and contributions, including new entries for DataLad and Waypoint.\n- Revised `security-report.json` and `security-report.md` to include the latest scan results, showing an increase in scanned skills and findings.\n- Expanded `security-triage.md` with current findings and assessments from the latest security scan.\n- Updated `skills.md` to reflect the latest catalog review and added descriptions for new skills.\n- Added and updated images related to database lookup and ontology term resolution.\n\nThis commit ensures that documentation is up-to-date with the latest skills and security assessments, enhancing clarity and usability for users.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/fa66f483619e36827a9521302666067821e052c9",
+      "sha": "fa66f48",
+      "fullSha": "fa66f483619e36827a9521302666067821e052c9",
+      "owner": "TKassis",
+      "published": "2026-09-13",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "Add companion identifier APIs to ontology-term-resolution (#262)",
       "description": "Add companion identifier APIs to ontology-term-resolution (#262)\n\n* Add companion identifier APIs to ontology-term-resolution.\n\nOLS stays the emit/validate authority. Prefix shape, landing pages, and lab shorthand now have scripts so agents do not invent CURIEs or call ZOOMA unfiltered.\n\nCo-authored-by: Cursor &lt;cursoragent@cursor.com&gt;\n\n* Emit only resolvable landing-page URLs from Bioregistry mappings.\n\npreferred_prefix is not the Identifiers.org namespace, so templating it\nprinted dead ORPHA/OBA links next to the rejection note.\n\nCo-authored-by: Cursor &lt;cursoragent@cursor.com&gt;\n\n---------\n\nCo-authored-by: Cursor &lt;cursoragent@cursor.com&gt;",
@@ -124,50 +168,6 @@
       "sha": "15e77e6",
       "fullSha": "15e77e6215425bd9a498ca54e049a06176277189",
       "owner": "vin-bio",
-      "published": "2026-09-10",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "chore: post-merge follow-ups for #201, #227, #245, #250, #259 and #25…",
-      "description": "chore: post-merge follow-ups for #201, #227, #245, #250, #259 and #258 prereq\n\n- usfiscaldata: total_accepted_amt -&gt; total_accepted (absent from the live\n  auctions_query schema), derive the indirect-bidder percentage in the example\n  since indirect_bidder_accepted is a USD amount; bump to 1.3\n- simpy: bump to 1.4 for the CSV error-handler fix (#259)\n- database-lookup: bump to 1.5 (#245 landed on a 1.4 main)\n- statsmodels: the six-parameter selection-model limit applies to 0.14.6 as\n  well as 0.15; point the &quot;also available&quot; line at the caveat (#250)\n- cobrapy, umap-learn: move Key Concepts / AlignedUMAP detail into their\n  existing references so both SKILL.md files sit under the 500-line limit\n  that #258 starts enforcing for doc-only skills; bump each to 1.3\n- collection 2.66.0 -&gt; 2.67.0 for the new datalad skill; README badge follows,\n  install pin points at the latest existing tag (v2.66.0)\n- drop the unused firecrawl-py dependency from pyproject.toml\n\nCo-Authored-By: Claude Fable 5.1 &lt;noreply@anthropic.com&gt;",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/27e34837af12fa8bac18511c5e29106caa2852de",
-      "sha": "27e3483",
-      "fullSha": "27e34837af12fa8bac18511c5e29106caa2852de",
-      "owner": "TKassis",
-      "published": "2026-09-10",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "statsmodels skill: fix invalid causal inference example, use real Tre…",
-      "description": "statsmodels skill: fix invalid causal inference example, use real TreatmentEffect API (#250)\n\nstatsmodels.treatment.propensity_score does not exist and the old example mislabelled a logistic fit as matching. Replace it with statsmodels.treatment.treatment_effects.TreatmentEffect (IPW, RA, AIPW), keep propensity estimation as a separate diagnostic snippet, add causal caveats (effect_group, OLS-only outcome, params[-6:] shape error and return_results=False), and bump to 1.3.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/60c7aca07880dbb4c5f6adba834b3ad1f756c465",
-      "sha": "60c7aca",
-      "fullSha": "60c7aca07880dbb4c5f6adba834b3ad1f756c465",
-      "owner": "kirilklein",
-      "published": "2026-09-10",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "fix(database-lookup): retire dead PatentsView search API for ODP (#245)",
-      "description": "fix(database-lookup): retire dead PatentsView search API for ODP (#245)\n\nsearch.patentsview.org is NXDOMAIN after USPTO&#39;s 2026-03-20 Open Data Portal migration. Rewrite the PatentsView section around the ODP transition guide and bulk datasets, swap credentials to USPTO_ODP_API_KEY, note the pause in the selection guide, and replace the 404 ClinicalTrials AllAPIJSON.zip with the working AllPublicXML.zip path.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/b369c261f599b027c10dc37325b45c82010f35e8",
-      "sha": "b369c26",
-      "fullSha": "b369c261f599b027c10dc37325b45c82010f35e8",
-      "owner": "Divyansh151005",
-      "published": "2026-09-10",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "fix(usfiscaldata): correct nonexistent Treasury auctions_query field …",
-      "description": "fix(usfiscaldata): correct nonexistent Treasury auctions_query field names (#201)\n\naccepted_comp_bid_rate_amt and indirect_bid_pct_accepted do not exist in the live Fiscal Data auctions_query schema; use high_yield / int_rate and indirect_bidder_accepted (a USD amount).",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/5628f09d43f0a7beae7de6e014fa0be61d84cf36",
-      "sha": "5628f09",
-      "fullSha": "5628f09d43f0a7beae7de6e014fa0be61d84cf36",
-      "owner": "janosk21",
       "published": "2026-09-10",
       "label": "commit",
       "repo": "K-Dense-AI/scientific-agent-skills"
