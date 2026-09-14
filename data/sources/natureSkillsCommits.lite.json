@@ -1,12 +1,52 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-09-12T17:16:38Z",
+  "savedAt": "2026-09-14T07:58:10Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "c4e4c99fbeaf0168cda090f8739e1508017a610e",
+  "latestSha": "9ea7330a17813a15421fe843778a776c258b9001",
   "items": [
+    {
+      "title": "docs: add Chatbox installation and usage guide (#218)",
+      "description": "docs: add Chatbox installation and usage guide (#218)\n\n* docs: add Chatbox installation and usage guide\n\n* docs: place Chatbox before other agent scenarios",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/9ea7330a17813a15421fe843778a776c258b9001",
+      "sha": "9ea7330",
+      "fullSha": "9ea7330a17813a15421fe843778a776c258b9001",
+      "owner": "themez",
+      "published": "2026-09-14",
+      "label": "commit"
+    },
+    {
+      "title": "Trim skill discovery prompts and scope follow-up workflows (#215)",
+      "description": "Trim skill discovery prompts and scope follow-up workflows (#215)\n\n* Clarify scoped writing edits and shorten skill discovery prompts\n\n* Trim discovery metadata and scope reader, citation, and artifact follow-ups",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/35eb0bcd33a5d2239620db29dc00d825faa4d5c0",
+      "sha": "35eb0bc",
+      "fullSha": "35eb0bcd33a5d2239620db29dc00d825faa4d5c0",
+      "owner": "hurry060215-tech",
+      "published": "2026-09-14",
+      "label": "commit"
+    },
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/2661b53150b537534159a2d4c6e35b1c9056f1e4",
+      "sha": "2661b53",
+      "fullSha": "2661b53150b537534159a2d4c6e35b1c9056f1e4",
+      "owner": "github-actions",
+      "published": "2026-09-13",
+      "label": "commit"
+    },
+    {
+      "title": "fix: paginate star history beyond 400 pages (#220)",
+      "description": "fix: paginate star history beyond 400 pages (#220)",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/77ccd7346a7ccf76d9df66c30f3342e04fcb0657",
+      "sha": "77ccd73",
+      "fullSha": "77ccd7346a7ccf76d9df66c30f3342e04fcb0657",
+      "owner": "Travisma2233",
+      "published": "2026-09-13",
+      "label": "commit"
+    },
     {
       "title": "Merge pull request #219 from Flyme886/codex/swap-service-community-se…",
       "description": "Merge pull request #219 from Flyme886/codex/swap-service-community-sections\n\ndocs: swap community and service sections",
@@ -115,46 +155,6 @@
       "fullSha": "596f65ba8220e15d76dcbc53fd9bc8ae71448a23",
       "owner": "Yuan1z0825",
       "published": "2026-09-03",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #212 from zpf2234/fix/windows-mermaid-command",
-      "description": "Merge pull request #212 from zpf2234/fix/windows-mermaid-command\n\n修复 Windows 下 Mermaid 路径含空格时的渲染失败",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/a93f8df683abceaf30f59e8b7913addd882ec7db",
-      "sha": "a93f8df",
-      "fullSha": "a93f8df683abceaf30f59e8b7913addd882ec7db",
-      "owner": "Yuan1z0825",
-      "published": "2026-09-03",
-      "label": "commit"
-    },
-    {
-      "title": "fix: 修复 Windows Mermaid 路径引用",
-      "description": "fix: 修复 Windows Mermaid 路径引用",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/0e3f1bc074314e21f8309dc356bd05e1c1ca09f9",
-      "sha": "0e3f1bc",
-      "fullSha": "0e3f1bc074314e21f8309dc356bd05e1c1ca09f9",
-      "owner": "zpf2234",
-      "published": "2026-09-03",
-      "label": "commit"
-    },
-    {
-      "title": "ci: 补齐技能与内容契约测试",
-      "description": "ci: 补齐技能与内容契约测试",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/1d650bbd9a7fa595500cf9bc6c079d96ad21188f",
-      "sha": "1d650bb",
-      "fullSha": "1d650bbd9a7fa595500cf9bc6c079d96ad21188f",
-      "owner": "zpf2234",
-      "published": "2026-09-03",
-      "label": "commit"
-    },
-    {
-      "title": "chore: update star history",
-      "description": "chore: update star history",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/ebd722e18808442688bd205917a3e774195c258f",
-      "sha": "ebd722e",
-      "fullSha": "ebd722e18808442688bd205917a3e774195c258f",
-      "owner": "github-actions",
-      "published": "2026-09-01",
       "label": "commit"
     }
   ]
