@@ -6,100 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "github:https://github.com/openai/NavierStokesAndEuler",
-      "url": "https://github.com/openai/NavierStokesAndEuler",
-      "title": "[GitHub 热门新项目] openai/NavierStokesAndEuler",
-      "date_published": "2026-09-14T05:45:41Z"
+      "id": "hackernews:https://cims.nyu.edu/~tristanb/statement.pdf",
+      "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
+      "title": "[Hacker News 热门] Navier-Stokes – Tristan Buckmaster [pdf]",
+      "date_published": "2026-09-14T07:43:34Z"
     },
     {
-      "id": "github:https://github.com/Edge0-AI/Edge0",
-      "url": "https://github.com/Edge0-AI/Edge0",
-      "title": "[GitHub 热门新项目] Edge0-AI/Edge0",
-      "date_published": "2026-09-14T05:45:41Z"
+      "id": "hackernews:https://www.apple.com/iphone-duo/",
+      "url": "https://www.apple.com/iphone-duo/",
+      "title": "[Hacker News 热门] iPhone Duo",
+      "date_published": "2026-09-14T07:43:34Z"
     },
     {
-      "id": "github:https://github.com/Vincentwei1021/anything2explainer",
-      "url": "https://github.com/Vincentwei1021/anything2explainer",
-      "title": "[GitHub 热门新项目] Vincentwei1021/anything2explainer",
-      "date_published": "2026-09-14T05:45:41Z"
+      "id": "hackernews:https://openai.com/index/navier-stokes-solution/",
+      "url": "https://openai.com/index/navier-stokes-solution/",
+      "title": "[Hacker News 热门] On the Navier–Stokes Millennium Prize Problem",
+      "date_published": "2026-09-14T07:43:34Z"
     },
     {
-      "id": "github:https://github.com/gazijarin/itsgiving",
-      "url": "https://github.com/gazijarin/itsgiving",
-      "title": "[GitHub 热门新项目] gazijarin/itsgiving",
-      "date_published": "2026-09-14T05:45:41Z"
+      "id": "hackernews:https://shopify.engineering/back-to-native",
+      "url": "https://shopify.engineering/back-to-native",
+      "title": "[Hacker News 热门] Shopify is moving from React Native back to Swift and Kotlin",
+      "date_published": "2026-09-14T07:43:34Z"
     },
     {
-      "id": "github:https://github.com/sumimakito/Mac-Duo",
-      "url": "https://github.com/sumimakito/Mac-Duo",
-      "title": "[GitHub 热门新项目] sumimakito/Mac-Duo",
-      "date_published": "2026-09-14T05:45:41Z"
+      "id": "hackernews:https://mathandai.org/",
+      "url": "https://mathandai.org/",
+      "title": "[Hacker News 热门] A misalignment of AI in mathematics",
+      "date_published": "2026-09-14T07:43:34Z"
     },
     {
-      "id": "github:https://github.com/SpaceDudem/text-humanizer",
-      "url": "https://github.com/SpaceDudem/text-humanizer",
-      "title": "[GitHub 热门新项目] SpaceDudem/text-humanizer",
-      "date_published": "2026-09-14T05:45:41Z"
+      "id": "hackernews:https://opusfived.dev/",
+      "url": "https://opusfived.dev/",
+      "title": "[Hacker News 热门] Claude, change the “Add to Cart” button to blue",
+      "date_published": "2026-09-14T07:43:34Z"
     },
     {
-      "id": "github:https://github.com/Colafornia/short-video-generator-AI",
-      "url": "https://github.com/Colafornia/short-video-generator-AI",
-      "title": "[GitHub 热门新项目] Colafornia/short-video-generator-AI",
-      "date_published": "2026-09-14T05:45:41Z"
+      "id": "hackernews:https://tailwindcss.com/blog/tailwind-is-joining-shopify",
+      "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
+      "title": "[Hacker News 热门] Shopify acquires Tailwind",
+      "date_published": "2026-09-14T07:43:34Z"
     },
     {
-      "id": "github:https://github.com/angusdevgo/IDM_Pro_Tool",
-      "url": "https://github.com/angusdevgo/IDM_Pro_Tool",
-      "title": "[GitHub 热门新项目] angusdevgo/IDM_Pro_Tool",
-      "date_published": "2026-09-14T05:45:41Z"
-    },
-    {
-      "id": "githubActive:https://github.com/public-apis/public-apis",
-      "url": "https://github.com/public-apis/public-apis",
-      "title": "[GitHub 活跃项目] public-apis/public-apis",
-      "date_published": "2026-09-14T05:45:41Z"
-    },
-    {
-      "id": "githubActive:https://github.com/freeCodeCamp/freeCodeCamp",
-      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "title": "[GitHub 活跃项目] freeCodeCamp/freeCodeCamp",
-      "date_published": "2026-09-14T05:45:41Z"
-    },
-    {
-      "id": "githubActive:https://github.com/EbookFoundation/free-programming-books",
-      "url": "https://github.com/EbookFoundation/free-programming-books",
-      "title": "[GitHub 活跃项目] EbookFoundation/free-programming-books",
-      "date_published": "2026-09-14T05:45:41Z"
-    },
-    {
-      "id": "githubActive:https://github.com/openclaw/openclaw",
-      "url": "https://github.com/openclaw/openclaw",
-      "title": "[GitHub 活跃项目] openclaw/openclaw",
-      "date_published": "2026-09-14T05:45:41Z"
-    },
-    {
-      "id": "githubActive:https://github.com/nilbuild/developer-roadmap",
-      "url": "https://github.com/nilbuild/developer-roadmap",
-      "title": "[GitHub 活跃项目] nilbuild/developer-roadmap",
-      "date_published": "2026-09-14T05:45:41Z"
-    },
-    {
-      "id": "githubActive:https://github.com/vinta/awesome-python",
-      "url": "https://github.com/vinta/awesome-python",
-      "title": "[GitHub 活跃项目] vinta/awesome-python",
-      "date_published": "2026-09-14T05:45:41Z"
-    },
-    {
-      "id": "githubActive:https://github.com/awesome-selfhosted/awesome-selfhosted",
-      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-      "title": "[GitHub 活跃项目] awesome-selfhosted/awesome-selfhosted",
-      "date_published": "2026-09-14T05:45:41Z"
-    },
-    {
-      "id": "githubActive:https://github.com/obra/superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "title": "[GitHub 活跃项目] obra/superpowers",
-      "date_published": "2026-09-14T05:45:41Z"
+      "id": "hackernews:https://twitter.com/deepseek_ai/status/2097930608790167907",
+      "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
+      "title": "[Hacker News 热门] DeepSeek v4.1 Flash",
+      "date_published": "2026-09-14T07:43:34Z"
     }
   ]
 }
