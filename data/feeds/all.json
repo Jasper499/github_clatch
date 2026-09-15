@@ -6,148 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "mrm:https://doi.org/10.1002/mrm.70579",
-      "url": "https://doi.org/10.1002/mrm.70579",
-      "title": "[Magnetic Resonance in Medicine] Optimizing\n                    <scp>IMPULSED</scp>\n                    Acquisition Protocols for Clinical\n                    <scp>3T</scp>\n                    Scanners Through Bayesian Experimental Design",
-      "date_published": "2026-09-15T06:51:31Z"
+      "id": "hackernews:https://www.apple.com/iphone-duo/",
+      "url": "https://www.apple.com/iphone-duo/",
+      "title": "[Hacker News 热门] iPhone Duo",
+      "date_published": "2026-09-15T07:27:09Z"
     },
     {
-      "id": "mrm:https://doi.org/10.1002/mrm.70567",
-      "url": "https://doi.org/10.1002/mrm.70567",
-      "title": "[Magnetic Resonance in Medicine] Highly Accelerating Joint Intracranial and Carotid Vessel Wall Imaging Using\n                    <scp>ESPIRiT</scp>\n                    ‐Driven Diffusion Model Reconstruction",
-      "date_published": "2026-09-15T06:51:31Z"
+      "id": "hackernews:https://openai.com/index/navier-stokes-solution/",
+      "url": "https://openai.com/index/navier-stokes-solution/",
+      "title": "[Hacker News 热门] On the Navier–Stokes Millennium Prize Problem",
+      "date_published": "2026-09-15T07:27:09Z"
     },
     {
-      "id": "mrm:https://doi.org/10.1002/mrm.70530",
-      "url": "https://doi.org/10.1002/mrm.70530",
-      "title": "[Magnetic Resonance in Medicine] Toward Inter‐Sonication Monitoring of Skull and Brain Temperatures in Transcranial\n                    <scp>MRgFUS</scp>\n                    Using a\n                    <scp>3D</scp>\n                    Stack‐of‐Spirals Sequence",
-      "date_published": "2026-09-15T06:51:31Z"
+      "id": "hackernews:https://shopify.engineering/back-to-native",
+      "url": "https://shopify.engineering/back-to-native",
+      "title": "[Hacker News 热门] Shopify is moving from React Native back to Swift and Kotlin",
+      "date_published": "2026-09-15T07:27:09Z"
     },
     {
-      "id": "mrm:https://doi.org/10.1002/mrm.70589",
-      "url": "https://doi.org/10.1002/mrm.70589",
-      "title": "[Magnetic Resonance in Medicine] A Rapid\n                    <scp>\n                      T\n                      <sub>1</sub>\n                    </scp>\n                    ‐Independent Sequence for Cerebrospinal Fluid Water Standard Correction: Application to Improved Proton Density Mapping in Brain",
-      "date_published": "2026-09-15T06:51:31Z"
+      "id": "hackernews:https://mathandai.org/",
+      "url": "https://mathandai.org/",
+      "title": "[Hacker News 热门] A misalignment of AI in mathematics",
+      "date_published": "2026-09-15T07:27:09Z"
     },
     {
-      "id": "mrm:https://doi.org/10.1002/mrm.70592",
-      "url": "https://doi.org/10.1002/mrm.70592",
-      "title": "[Magnetic Resonance in Medicine] Spatially Aware Acquisition‐Independent Deep Learning for\n                    <scp>IVIM MRI</scp>\n                    Parameter Estimation in Patients With Esophageal Cancer",
-      "date_published": "2026-09-15T06:51:31Z"
+      "id": "hackernews:https://opusfived.dev/",
+      "url": "https://opusfived.dev/",
+      "title": "[Hacker News 热门] Claude, change the “Add to Cart” button to blue",
+      "date_published": "2026-09-15T07:27:09Z"
     },
     {
-      "id": "mrm:https://doi.org/10.1002/mrm.70588",
-      "url": "https://doi.org/10.1002/mrm.70588",
-      "title": "[Magnetic Resonance in Medicine] Whole‐Brain Diffusion MRI at 7T With Universal Multiband GRAPE pTx Pulses",
-      "date_published": "2026-09-15T06:51:31Z"
+      "id": "hackernews:https://www.vals.ai/blogs/fable-solves-cyphral-distich",
+      "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
+      "title": "[Hacker News 热门] Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
+      "date_published": "2026-09-15T07:27:09Z"
     },
     {
-      "id": "mrm:https://doi.org/10.1002/mrm.70595",
-      "url": "https://doi.org/10.1002/mrm.70595",
-      "title": "[Magnetic Resonance in Medicine] Predicting Mesoscopic Larmor Frequency Shifts in Ex Vivo Porcine Optic Nerve",
-      "date_published": "2026-09-15T06:51:31Z"
+      "id": "hackernews:https://tailwindcss.com/blog/tailwind-is-joining-shopify",
+      "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
+      "title": "[Hacker News 热门] Shopify acquires Tailwind",
+      "date_published": "2026-09-15T07:27:09Z"
     },
     {
-      "id": "mrm:https://doi.org/10.1002/mrm.70585",
-      "url": "https://doi.org/10.1002/mrm.70585",
-      "title": "[Magnetic Resonance in Medicine] Design of an In Vivo‐Like Phantom for Quantitative Body\n                    <scp>CEST MRI</scp>",
-      "date_published": "2026-09-15T06:51:31Z"
-    },
-    {
-      "id": "tmi:https://doi.org/10.1109/tmi.2026.3710133",
-      "url": "https://doi.org/10.1109/tmi.2026.3710133",
-      "title": "[IEEE Transactions on Medical Imaging] Volumetric Functional Ultrasound Imaging in Macaques",
-      "date_published": "2026-09-15T06:51:31Z"
-    },
-    {
-      "id": "tmi:https://doi.org/10.1109/tmi.2025.3642381",
-      "url": "https://doi.org/10.1109/tmi.2025.3642381",
-      "title": "[IEEE Transactions on Medical Imaging] Polar Subarea-Aware Fusion Net for Posterior Eyeball Shape Reconstruction",
-      "date_published": "2026-09-15T06:51:31Z"
-    },
-    {
-      "id": "tmi:https://doi.org/10.1109/tmi.2026.3712008",
-      "url": "https://doi.org/10.1109/tmi.2026.3712008",
-      "title": "[IEEE Transactions on Medical Imaging] Retrieval-Augmented Representation for Semi-Supervised Medical Image Segmentation",
-      "date_published": "2026-09-15T06:51:31Z"
-    },
-    {
-      "id": "tmi:https://doi.org/10.1109/tmi.2026.3709646",
-      "url": "https://doi.org/10.1109/tmi.2026.3709646",
-      "title": "[IEEE Transactions on Medical Imaging] BrainCL: Transformer-Based Brain Network Contrastive Learning With Multi-Order Topology and Salience Masking",
-      "date_published": "2026-09-15T06:51:31Z"
-    },
-    {
-      "id": "tmi:https://doi.org/10.1109/tmi.2026.3709056",
-      "url": "https://doi.org/10.1109/tmi.2026.3709056",
-      "title": "[IEEE Transactions on Medical Imaging] The Ritz Adjoint Method for MRI Pulse Design",
-      "date_published": "2026-09-15T06:51:31Z"
-    },
-    {
-      "id": "tmi:https://doi.org/10.1109/tmi.2026.3711975",
-      "url": "https://doi.org/10.1109/tmi.2026.3711975",
-      "title": "[IEEE Transactions on Medical Imaging] UniTransAD: Unified Translation Framework for Anomaly Detection in Brain MRI",
-      "date_published": "2026-09-15T06:51:31Z"
-    },
-    {
-      "id": "tmi:https://doi.org/10.1109/tmi.2026.3705770",
-      "url": "https://doi.org/10.1109/tmi.2026.3705770",
-      "title": "[IEEE Transactions on Medical Imaging] Medical Referring Image Segmentation via Next-Token Mask Prediction",
-      "date_published": "2026-09-15T06:51:31Z"
-    },
-    {
-      "id": "tmi:https://doi.org/10.1109/tmi.2026.3700967",
-      "url": "https://doi.org/10.1109/tmi.2026.3700967",
-      "title": "[IEEE Transactions on Medical Imaging] PathRWKV: Enhancing Whole Slide Image Inference With Asymmetric Recurrent Modeling",
-      "date_published": "2026-09-15T06:51:31Z"
-    },
-    {
-      "id": "media:https://doi.org/10.1016/j.media.2026.104296",
-      "url": "https://doi.org/10.1016/j.media.2026.104296",
-      "title": "[Medical Image Analysis] Learning efficient non-rigid registration in k-space for accelerated Magnetic Resonance Imaging",
-      "date_published": "2026-09-15T06:51:31Z"
-    },
-    {
-      "id": "media:https://doi.org/10.1016/j.media.2026.104280",
-      "url": "https://doi.org/10.1016/j.media.2026.104280",
-      "title": "[Medical Image Analysis] DIPOG: A dynamic pooling graph neural network with spatial–temporal-frequency awareness for diagnosis of Alzheimer’s disease",
-      "date_published": "2026-09-15T06:51:31Z"
-    },
-    {
-      "id": "media:https://doi.org/10.1016/j.media.2026.104301",
-      "url": "https://doi.org/10.1016/j.media.2026.104301",
-      "title": "[Medical Image Analysis] BrainCast: A spatio-temporal forecasting model for whole-brain fMRI time series prediction",
-      "date_published": "2026-09-15T06:51:31Z"
-    },
-    {
-      "id": "media:https://doi.org/10.1016/j.media.2026.104295",
-      "url": "https://doi.org/10.1016/j.media.2026.104295",
-      "title": "[Medical Image Analysis] Quantitative mapping from conventional MRI using self-supervised physics-guided deep learning: Applications to a large-scale, clinically heterogeneous dataset",
-      "date_published": "2026-09-15T06:51:31Z"
-    },
-    {
-      "id": "media:https://doi.org/10.1016/j.media.2026.104241",
-      "url": "https://doi.org/10.1016/j.media.2026.104241",
-      "title": "[Medical Image Analysis] MI2-Net: A Mamba-based network for joint incomplete multi-modal and incomplete label MRI image segmentation",
-      "date_published": "2026-09-15T06:51:31Z"
-    },
-    {
-      "id": "media:https://doi.org/10.1016/j.media.2026.104250",
-      "url": "https://doi.org/10.1016/j.media.2026.104250",
-      "title": "[Medical Image Analysis] Topology-constrained graph transformer network for structural and functional brain organization",
-      "date_published": "2026-09-15T06:51:31Z"
-    },
-    {
-      "id": "media:https://doi.org/10.1016/j.media.2026.104240",
-      "url": "https://doi.org/10.1016/j.media.2026.104240",
-      "title": "[Medical Image Analysis] Self-supervised reconstruction framework via motion- and physics-informed learning for four-dimensional magnetic resonance fingerprinting",
-      "date_published": "2026-09-15T06:51:31Z"
-    },
-    {
-      "id": "media:https://doi.org/10.1016/j.media.2026.104243",
-      "url": "https://doi.org/10.1016/j.media.2026.104243",
-      "title": "[Medical Image Analysis] From voxel discovery to regional interaction: A multi-level interpretable framework for Alzheimer’s disease diagnosis",
-      "date_published": "2026-09-15T06:51:31Z"
+      "id": "hackernews:https://twitter.com/deepseek_ai/status/2097930608790167907",
+      "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
+      "title": "[Hacker News 热门] DeepSeek v4.1 Flash",
+      "date_published": "2026-09-15T07:27:09Z"
     }
   ]
 }
