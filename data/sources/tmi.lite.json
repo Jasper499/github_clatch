@@ -1,10 +1,94 @@
 {
   "sourceKey": "tmi",
-  "savedAt": "2026-09-01T06:53:55Z",
+  "savedAt": "2026-09-15T06:51:31Z",
   "label": "IEEE Transactions on Medical Imaging",
-  "description": "近 45 天 TMI 期刊 MRI 相关论文（2026-07-18 ~ 2026-09-01，共 6 篇，本地已存 OA PDF 2 篇）",
+  "description": "近 45 天 TMI 期刊 MRI 相关论文（2026-08-01 ~ 2026-09-15，共 11 篇，本地已存 OA PDF 2 篇）",
   "updateFrequency": "biweekly",
   "items": [
+    {
+      "title": "Volumetric Functional Ultrasound Imaging in Macaques",
+      "description": "Linking circuit level activity to large scale functional organization requires imaging methods combining high spatial resolution, broad coverage, and single trial sensitivity. We present volumetric functional ultrasound imaging (3D-fUS) in behaving macaques, enabling imaging of ~1 cm3 cortical volumes at high spatiotem…",
+      "url": "https://doi.org/10.1109/tmi.2026.3710133",
+      "doi": "10.1109/tmi.2026.3710133",
+      "authors": "Nora E. Fitzgerald, Gabriel Montaldo, Mathilda Froesel, Alan Urban, et al.",
+      "published": "2026-09-01",
+      "journal": "TMI",
+      "owner": "TMI",
+      "isOpenAccess": true,
+      "pdfAvailable": false,
+      "pdfUrl": null,
+      "pdfSourceUrl": "https://doi.org/10.1109/tmi.2026.3710133"
+    },
+    {
+      "title": "Polar Subarea-Aware Fusion Net for Posterior Eyeball Shape Reconstruction",
+      "description": "High-fidelity reconstruction of the Posterior Eyeball Shape (PES) is crucial for early diagnosis and timely intervention of sight-threatening diseases such as high myopia, diabetic retinopathy, and glaucoma. However, existing magnetic resonance imaging (MRI)- and optical coherence tomography (OCT)-based methods either …",
+      "url": "https://doi.org/10.1109/tmi.2025.3642381",
+      "doi": "10.1109/tmi.2025.3642381",
+      "authors": "Jiaqi Zhang, Xiuzhe Wu, Jiahui Liu, Chunyu Zou, et al.",
+      "published": "2026-09-01",
+      "journal": "TMI",
+      "owner": "TMI",
+      "isOpenAccess": false,
+      "pdfAvailable": false,
+      "pdfUrl": null,
+      "pdfSourceUrl": ""
+    },
+    {
+      "title": "Retrieval-Augmented Representation for Semi-Supervised Medical Image Segmentation",
+      "description": "Semi-supervised learning (SSL) offers a promising solution to reduce annotation costs in medical image segmentation. Recent text-enhanced SSL methods incorporate domain-specific textual cues to improve representation learning. However, they often overemphasize language priors and neglect the importance of visual featur…",
+      "url": "https://doi.org/10.1109/tmi.2026.3712008",
+      "doi": "10.1109/tmi.2026.3712008",
+      "authors": "Huan Luo, Qingjie Zeng, Yanning Zhang, Yong Xia",
+      "published": "2026-09-01",
+      "journal": "TMI",
+      "owner": "TMI",
+      "isOpenAccess": false,
+      "pdfAvailable": false,
+      "pdfUrl": null,
+      "pdfSourceUrl": ""
+    },
+    {
+      "title": "BrainCL: Transformer-Based Brain Network Contrastive Learning With Multi-Order Topology and Salience Masking",
+      "description": "Brain network analysis based on functional magnetic resonance imaging (fMRI) is crucial for the diagnosis of neurological disorders. Recently, Transformers have been adopted for brain network analysis to mitigate the over-smoothing issue in GNNs. However, they often fail to account for complex topological properties of…",
+      "url": "https://doi.org/10.1109/tmi.2026.3709646",
+      "doi": "10.1109/tmi.2026.3709646",
+      "authors": "Yongliang Zhang, Haochen Qian, Jinbo Yang, Fangfang Chen, et al.",
+      "published": "2026-09-01",
+      "journal": "TMI",
+      "owner": "TMI",
+      "isOpenAccess": false,
+      "pdfAvailable": false,
+      "pdfUrl": null,
+      "pdfSourceUrl": ""
+    },
+    {
+      "title": "The Ritz Adjoint Method for MRI Pulse Design",
+      "description": "High-field magnetic resonance imaging (MRI) suffers from pronounced magnetic field inhomogeneities and subject-specific field variations, motivating the in-scanner design of individually tailored excitation pulses to exploit the full capabilities of high-field MRI. Contemporary methods may employ piecewise-constant (PW…",
+      "url": "https://doi.org/10.1109/tmi.2026.3709056",
+      "doi": "10.1109/tmi.2026.3709056",
+      "authors": "John M. Drago, Georgy D. Guryev, Nicolas Arango, Elfar Adalsteinsson, et al.",
+      "published": "2026-09-01",
+      "journal": "TMI",
+      "owner": "TMI",
+      "isOpenAccess": true,
+      "pdfAvailable": false,
+      "pdfUrl": null,
+      "pdfSourceUrl": "https://doi.org/10.1109/tmi.2026.3709056"
+    },
+    {
+      "title": "UniTransAD: Unified Translation Framework for Anomaly Detection in Brain MRI",
+      "description": "Unsupervised anomaly detection (UAD) in brain MRI is crucial for early diagnosis, yet generalizing existing methods across diverse diseases, sequences, and missing data scenarios remains a significant challenge. Current reconstruction-based methods often fail to detect subtle anomalies, while conventional translation m…",
+      "url": "https://doi.org/10.1109/tmi.2026.3711975",
+      "doi": "10.1109/tmi.2026.3711975",
+      "authors": "Qi Zhang, Xia Li, Yibo Hu, Jianqi Sun",
+      "published": "2026-09-01",
+      "journal": "TMI",
+      "owner": "TMI",
+      "isOpenAccess": false,
+      "pdfAvailable": false,
+      "pdfUrl": null,
+      "pdfSourceUrl": ""
+    },
     {
       "title": "Medical Referring Image Segmentation via Next-Token Mask Prediction",
       "description": "Medical Referring Image Segmentation (MRIS) involves segmenting target regions in medical images based on natural language descriptions. While achieving promising results, recent approaches usually involve complex design of multimodal fusion or multi-stage decoders. In this work, we propose NTP-MRISeg, a novel framewor…",
@@ -74,20 +158,6 @@
       "pdfAvailable": false,
       "pdfUrl": null,
       "pdfSourceUrl": "https://doi.org/10.1109/tmi.2026.3702822"
-    },
-    {
-      "title": "MotionDPS: Motion-Compensated 3-D Brain MRI Reconstruction",
-      "description": "Magnetic resonance imaging (MRI) is highly susceptible to patient motion due to its relatively long acquisition times and the fact that data are acquired sequentially in k-space. Even small patient movements introduce phase inconsistencies across measurements, leading to severe artifacts such as blurring, ghosting, and…",
-      "url": "https://doi.org/10.1109/tmi.2026.3705847",
-      "doi": "10.1109/tmi.2026.3705847",
-      "authors": "Antonio Ortiz-Gonzalez, Erich Kobler, Lukas Schletter, Alexander Effland",
-      "published": "2026-08-01",
-      "journal": "TMI",
-      "owner": "TMI",
-      "isOpenAccess": true,
-      "pdfAvailable": false,
-      "pdfUrl": null,
-      "pdfSourceUrl": "https://doi.org/10.1109/tmi.2026.3705847"
     }
   ]
 }

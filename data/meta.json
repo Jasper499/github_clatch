@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-09-15T04:45:50Z",
+  "updatedAt": "2026-09-15T06:51:31Z",
   "periodDays": 7,
   "weekLabel": "2026-09-07 ~ 2026-09-14",
   "githubUpdatedAt": "2026-09-14T05:45:41Z",
   "hackernewsUpdatedAt": "2026-09-14T19:07:08Z",
   "weiboUpdatedAt": "2026-09-15T04:45:50Z",
-  "journalsUpdatedAt": "2026-09-01T06:53:55Z",
+  "journalsUpdatedAt": "2026-09-15T06:51:31Z",
   "natureSkillsUpdatedAt": "2026-09-14T19:29:11Z",
   "scientificSkillsUpdatedAt": "2026-09-14T19:35:05Z",
   "natureSkillsLatestSha": "9ea7330a17813a15421fe843778a776c258b9001",
@@ -137,21 +137,21 @@
     },
     "mrm": {
       "label": "Magnetic Resonance in Medicine",
-      "description": "近 45 天 MRM 期刊 MRI 相关论文（2026-07-18 ~ 2026-09-01，共 15 篇，暂无可用 OA PDF 链接）",
+      "description": "近 45 天 MRM 期刊 MRI 相关论文（2026-08-01 ~ 2026-09-15，共 15 篇，暂无可用 OA PDF 链接）",
       "updateFrequency": "biweekly",
       "itemCount": 15
     },
     "tmi": {
       "label": "IEEE Transactions on Medical Imaging",
-      "description": "近 45 天 TMI 期刊 MRI 相关论文（2026-07-18 ~ 2026-09-01，共 6 篇，本地已存 OA PDF 2 篇）",
+      "description": "近 45 天 TMI 期刊 MRI 相关论文（2026-08-01 ~ 2026-09-15，共 11 篇，本地已存 OA PDF 2 篇）",
       "updateFrequency": "biweekly",
-      "itemCount": 6
+      "itemCount": 11
     },
     "media": {
       "label": "Medical Image Analysis",
-      "description": "近 45 天 MedIA 期刊 MRI 相关论文（2026-07-18 ~ 2026-09-01，共 13 篇，暂无可用 OA PDF 链接）",
+      "description": "近 45 天 MedIA 期刊 MRI 相关论文（2026-08-01 ~ 2026-09-15，共 10 篇，暂无可用 OA PDF 链接）",
       "updateFrequency": "biweekly",
-      "itemCount": 13
+      "itemCount": 10
     },
     "natureSkills": {
       "label": "Skills 清单",
@@ -207,7 +207,7 @@
       "itemCount": 20
     }
   },
-  "generatedAt": "2026-09-15T04:45:50Z",
-  "journalsPeriod": "2026-07-18 ~ 2026-09-01",
+  "generatedAt": "2026-09-15T06:51:31Z",
+  "journalsPeriod": "2026-08-01 ~ 2026-09-15",
   "chinaDailyUpdatedAt": "2026-09-14T08:36:13Z"
 }
