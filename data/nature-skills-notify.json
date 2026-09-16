@@ -1,20 +1,30 @@
 {
   "changed": true,
-  "fetchedAt": "2026-09-16T07:45:57Z",
-  "previousSha": "9ea7330a17813a15421fe843778a776c258b9001",
-  "latestSha": "c17a4c9299a17f89ed40439b71d9200255a2818b",
+  "fetchedAt": "2026-09-16T18:14:52Z",
+  "previousSha": "c17a4c9299a17f89ed40439b71d9200255a2818b",
+  "latestSha": "2375e0abdf42158ef149256f2c64b1f759a0d274",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "Merge pull request #222 from anupamme/fix-repo-nature-skills-gitlab-b…",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/c17a4c9299a17f89ed40439b71d9200255a2818b",
-    "sha": "c17a4c9",
+    "title": "Merge pull request #224 from anupamme/fix-repo-nature-skills-pubmed-x…",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/2375e0abdf42158ef149256f2c64b1f759a0d274",
+    "sha": "2375e0a",
     "published": "2026-09-16"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "Merge pull request #224 from anupamme/fix-repo-nature-skills-pubmed-x…",
+      "sha": "2375e0a",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/2375e0abdf42158ef149256f2c64b1f759a0d274"
+    },
+    {
+      "title": "fix: gitlab.bandit.B313.B314.B315.B316.B318.B319.B320.B405.B406.B407.…",
+      "sha": "bcd9492",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/bcd9492db820905a6c1d7cfdeb4599e297326e76"
+    },
     {
       "title": "Merge pull request #222 from anupamme/fix-repo-nature-skills-gitlab-b…",
       "sha": "c17a4c9",
@@ -29,16 +39,6 @@
       "title": "chore: update star history",
       "sha": "bfb0daa",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/bfb0daabe02c4a1e7971bf39769490abcbdcc61a"
-    },
-    {
-      "title": "fix: V-003 security vulnerability",
-      "sha": "1f2060e",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/1f2060ebf5aaabc6b818a4cbcb8c1fa8e3a7329a"
-    },
-    {
-      "title": "harden: disable external XML entity processing in arxiv.py",
-      "sha": "08775de",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/08775de93107cdd729b974d1c55d1efade16c8f3"
     }
   ]
 }
