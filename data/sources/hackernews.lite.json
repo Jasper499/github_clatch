@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-09-16T07:26:02Z",
+  "savedAt": "2026-09-16T18:00:56Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-09-16，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,9 +10,17 @@
       "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
       "description": "See also: <i>Avian Visitors</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48343424\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48343424</a> - May 2026 (20 comments)",
       "url": "https://github.com/arnegiacomo/fugleramme",
-      "score": 1553,
-      "comments": 194,
+      "score": 1895,
+      "comments": 224,
       "owner": "arnemunthekaas"
+    },
+    {
+      "title": "Introducing System One Models and Jev",
+      "description": "",
+      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "score": 1728,
+      "comments": 463,
+      "owner": "albelfio"
     },
     {
       "title": "iPhone Duo",
@@ -39,50 +47,26 @@
       "owner": "meredydd"
     },
     {
-      "title": "Introducing System One Models and Jev",
-      "description": "",
-      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
-      "score": 1213,
-      "comments": 357,
-      "owner": "albelfio"
-    },
-    {
       "title": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
       "description": "",
       "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
-      "score": 1208,
+      "score": 1210,
       "comments": 567,
       "owner": "u1hcw9nx"
-    },
-    {
-      "title": "Claude, change the “Add to Cart” button to blue",
-      "description": "",
-      "url": "https://opusfived.dev/",
-      "score": 1208,
-      "comments": 453,
-      "owner": "matthieu_bl"
-    },
-    {
-      "title": "Shopify acquires Tailwind",
-      "description": "",
-      "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
-      "score": 1146,
-      "comments": 446,
-      "owner": "EdwinHoksberg"
     },
     {
       "title": "I can't stop thinking about Papua New Guinea",
       "description": "",
       "url": "https://notnottalmud.substack.com/p/why-i-cant-stop-thinking-about-papua",
-      "score": 1047,
-      "comments": 444,
+      "score": 1097,
+      "comments": 457,
       "owner": "networked"
     },
     {
       "title": "DeepSeek v4.1 Flash",
       "description": "<a href=\"https:&#x2F;&#x2F;huggingface.co&#x2F;deepseek-ai&#x2F;DeepSeek-V4.1-Flash\" rel=\"nofollow\">https:&#x2F;&#x2F;huggingface.co&#x2F;deepseek-ai&#x2F;DeepSeek-V4.1-Flash</a>",
       "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
-      "score": 1013,
+      "score": 1014,
       "comments": 576,
       "owner": "Liwink"
     },
@@ -90,17 +74,25 @@
       "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
       "description": "<a href=\"https:&#x2F;&#x2F;simonwillison.net&#x2F;2026&#x2F;Sep&#x2F;12&#x2F;openai-agents-rubygems&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;simonwillison.net&#x2F;2026&#x2F;Sep&#x2F;12&#x2F;openai-agents-rubygems...</a>",
       "url": "https://www.rubyhack.ai/",
-      "score": 966,
-      "comments": 606,
+      "score": 968,
+      "comments": 607,
       "owner": "chao-"
     },
     {
       "title": "Why is Google still serving dodgy ads?",
       "description": "",
       "url": "https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads",
-      "score": 951,
+      "score": 955,
       "comments": 404,
       "owner": "iamflimflam1"
+    },
+    {
+      "title": "25 years of mass surveillance is enough",
+      "description": "",
+      "url": "https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html",
+      "score": 901,
+      "comments": 334,
+      "owner": "iamnothere"
     },
     {
       "title": "More questions about whether researchers can trust OpenAI with unpublished math",
@@ -115,23 +107,15 @@
       "description": "Over past couple months I noticed that HN feed is almost exclusively AI or AI-adjacent news. Meanwhile the legitimately, broadly-hacker stuff gets left out for the most part.<p>I noticed that because the things I find genuinely interesting that I post here now get zero traction, which is the stuff that I believe would previously be met with some discussion.<p>Note that I don&#x27;t care that my submissions were ignored, I don&#x27;t need that validation. Problem is that if my stuff gains no traction, I am myself not seeing similar stuff posted by others, stuff I am genuinely <i>also</i> interested in and would want to hear about from this community.<p>Here are two most recent examples:<p>- Lenovo showed a model that incorporates solid-state air cooling. That technology has been around for a while but it looks like it matured and is production-ready. This allows for super-light and slim designs, which, in turn, should allow for bigger batteries installed and I think it&#x27;s some sort of breakthrough:  \nhttps:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49580229<p>- Brax Industries devices, genuinely interesting, open-soruce and innovative, especially the wall display, with its modularity and on-device processing compatible with Home Assistant. I also appreciate the very clean design:  \nhttps:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49643215<p>As said, I honestly believe this would gain some traction here on HN a year or two ago. I no longer find HN a good source of &quot;what&#x27;s new&quot; in the industry, it&#x27;s almost exclusively AI talk now.<p>So I think the point I am trying to make is that maybe YC could start curating the content somehow to give those easily-drowned-out articles a visibility bump?<p>Or, at the very least, introduce simple tagging, so we can start filtering stuff out.",
       "url": "https://news.ycombinator.com/item?id=49657850",
       "score": 860,
-      "comments": 400,
+      "comments": 401,
       "owner": "cromka"
-    },
-    {
-      "title": "25 years of mass surveillance is enough",
-      "description": "",
-      "url": "https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html",
-      "score": 841,
-      "comments": 311,
-      "owner": "iamnothere"
     },
     {
       "title": "Everyone should slow down AI development except for me",
       "description": "",
       "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
       "score": 810,
-      "comments": 452,
+      "comments": 454,
       "owner": "xena"
     },
     {
@@ -147,24 +131,40 @@
       "description": "",
       "url": "https://dayzlegame.com/blog/google-ads-bot-farm/",
       "score": 760,
-      "comments": 432,
+      "comments": 433,
       "owner": "nickabe"
     },
     {
       "title": "XCancel service is suspended until further notice",
       "description": "",
       "url": "https://xcancel.com/#",
-      "score": 751,
-      "comments": 1019,
+      "score": 758,
+      "comments": 1036,
       "owner": "gaganyaan"
     },
     {
       "title": "We must pace the frontier",
       "description": "",
       "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
-      "score": 746,
-      "comments": 1045,
+      "score": 747,
+      "comments": 1046,
       "owner": "apsec112"
+    },
+    {
+      "title": "Steam Frame starts at $1059",
+      "description": "",
+      "url": "https://store.steampowered.com/hardware/steamframe",
+      "score": 734,
+      "comments": 634,
+      "owner": "bsimpson"
+    },
+    {
+      "title": "Rust is tier-1 language at Microsoft",
+      "description": "",
+      "url": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/",
+      "score": 726,
+      "comments": 518,
+      "owner": "mmastrac"
     }
   ]
 }
