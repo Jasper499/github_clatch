@@ -1,140 +1,180 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-09-16T16:45:53Z",
+  "savedAt": "2026-09-16T21:13:51Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-09-16，共 13 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-09-16，共 17 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-09-16",
   "items": [
     {
-      "title": "第一批穿德训鞋的受害者出现了",
-      "description": "热 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%AC%AC%E4%B8%80%E6%89%B9%E7%A9%BF%E5%BE%B7%E8%AE%AD%E9%9E%8B%E7%9A%84%E5%8F%97%E5%AE%B3%E8%80%85%E5%87%BA%E7%8E%B0%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 878203,
-      "owner": "微博同城",
-      "label": "热",
-      "category": "民生新闻",
-      "onboardTime": 1789551141
-    },
-    {
-      "title": "一组关键词看平陆运河硬核实力",
+      "title": "9图读懂平陆运河核心看点",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%80%E7%BB%84%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9C%8B%E5%B9%B3%E9%99%86%E8%BF%90%E6%B2%B3%E7%A1%AC%E6%A0%B8%E5%AE%9E%E5%8A%9B%23&t=31&band_rank=1&Refer=top",
-      "score": 454886,
+      "url": "https://s.weibo.com/weibo?q=%239%E5%9B%BE%E8%AF%BB%E6%87%82%E5%B9%B3%E9%99%86%E8%BF%90%E6%B2%B3%E6%A0%B8%E5%BF%83%E7%9C%8B%E7%82%B9%23&t=31&band_rank=1&Refer=top",
+      "score": 95260,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1789564342
+      "onboardTime": 1789561643
     },
     {
       "title": "南医大坠亡事件导师学生聊天记录",
-      "description": "沸 · 民生新闻",
+      "description": "热 · 民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E5%8D%97%E5%8C%BB%E5%A4%A7%E5%9D%A0%E4%BA%A1%E4%BA%8B%E4%BB%B6%E5%AF%BC%E5%B8%88%E5%AD%A6%E7%94%9F%E8%81%8A%E5%A4%A9%E8%AE%B0%E5%BD%95%23&t=31&band_rank=1&Refer=top",
-      "score": 352914,
+      "score": 62165,
       "owner": "微博同城",
-      "label": "沸",
+      "label": "热",
       "category": "民生新闻",
       "onboardTime": 1789562841
     },
     {
-      "title": "坠亡学生姐姐发声",
+      "title": "南医大事件涉事导师门诊已约满",
       "description": "热 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%9D%A0%E4%BA%A1%E5%AD%A6%E7%94%9F%E5%A7%90%E5%A7%90%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
-      "score": 228838,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8D%97%E5%8C%BB%E5%A4%A7%E4%BA%8B%E4%BB%B6%E6%B6%89%E4%BA%8B%E5%AF%BC%E5%B8%88%E9%97%A8%E8%AF%8A%E5%B7%B2%E7%BA%A6%E6%BB%A1%23&t=31&band_rank=1&Refer=top",
+      "score": 48564,
       "owner": "微博同城",
       "label": "热",
       "category": "民生新闻",
+      "onboardTime": 1789577416
+    },
+    {
+      "title": "父亲遛狗2岁幼童从18楼坠亡",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%88%B6%E4%BA%B2%E9%81%9B%E7%8B%972%E5%B2%81%E5%B9%BC%E7%AB%A5%E4%BB%8E18%E6%A5%BC%E5%9D%A0%E4%BA%A1%23&t=31&band_rank=1&Refer=top",
+      "score": 47050,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1789576878
+    },
+    {
+      "title": "第一批穿德训鞋的受害者出现了",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%AC%AC%E4%B8%80%E6%89%B9%E7%A9%BF%E5%BE%B7%E8%AE%AD%E9%9E%8B%E7%9A%84%E5%8F%97%E5%AE%B3%E8%80%85%E5%87%BA%E7%8E%B0%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 46226,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1789551141
+    },
+    {
+      "title": "坠亡学生姐姐发声",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%9D%A0%E4%BA%A1%E5%AD%A6%E7%94%9F%E5%A7%90%E5%A7%90%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
+      "score": 42650,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
       "onboardTime": 1789564041
+    },
+    {
+      "title": "幼童坠亡事发房间监控未插电",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%B9%BC%E7%AB%A5%E5%9D%A0%E4%BA%A1%E4%BA%8B%E5%8F%91%E6%88%BF%E9%97%B4%E7%9B%91%E6%8E%A7%E6%9C%AA%E6%8F%92%E7%94%B5%23&t=31&band_rank=1&Refer=top",
+      "score": 40134,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1789572441
+    },
+    {
+      "title": "南京博物院 徐湖平",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%8D%97%E4%BA%AC%E5%8D%9A%E7%89%A9%E9%99%A2%20%E5%BE%90%E6%B9%96%E5%B9%B3&t=31&band_rank=1&Refer=top",
+      "score": 37715,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1789589474
+    },
+    {
+      "title": "一点点 威胁员工",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E7%82%B9%E7%82%B9%20%E5%A8%81%E8%83%81%E5%91%98%E5%B7%A5&t=31&band_rank=1&Refer=top",
+      "score": 37385,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1789541360
+    },
+    {
+      "title": "2岁幼童18楼坠亡警方认定意外",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%232%E5%B2%81%E5%B9%BC%E7%AB%A518%E6%A5%BC%E5%9D%A0%E4%BA%A1%E8%AD%A6%E6%96%B9%E8%AE%A4%E5%AE%9A%E6%84%8F%E5%A4%96%23&t=31&band_rank=1&Refer=top",
+      "score": 36283,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1789589234
+    },
+    {
+      "title": "坠亡幼童父亲被妻子打后扬言要报警",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%9D%A0%E4%BA%A1%E5%B9%BC%E7%AB%A5%E7%88%B6%E4%BA%B2%E8%A2%AB%E5%A6%BB%E5%AD%90%E6%89%93%E5%90%8E%E6%89%AC%E8%A8%80%E8%A6%81%E6%8A%A5%E8%AD%A6%23&t=31&band_rank=1&Refer=top",
+      "score": 25942,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1789579577
+    },
+    {
+      "title": "男生坠亡前发生了什么",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E7%94%9F%E5%9D%A0%E4%BA%A1%E5%89%8D%E5%8F%91%E7%94%9F%E4%BA%86%E4%BB%80%E4%B9%88%23&t=31&band_rank=1&Refer=top",
+      "score": 25806,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1789578557
+    },
+    {
+      "title": "南方医科大学坠亡事件敲醒关怀警钟",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8D%97%E6%96%B9%E5%8C%BB%E7%A7%91%E5%A4%A7%E5%AD%A6%E5%9D%A0%E4%BA%A1%E4%BA%8B%E4%BB%B6%E6%95%B2%E9%86%92%E5%85%B3%E6%80%80%E8%AD%A6%E9%92%9F%23&t=31&band_rank=1&Refer=top",
+      "score": 24077,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1789589833
     },
     {
       "title": "导师曾给坠亡医学生转账2.2万",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E5%AF%BC%E5%B8%88%E6%9B%BE%E7%BB%99%E5%9D%A0%E4%BA%A1%E5%8C%BB%E5%AD%A6%E7%94%9F%E8%BD%AC%E8%B4%A62.2%E4%B8%87%23&t=31&band_rank=1&Refer=top",
-      "score": 194635,
+      "score": 23239,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1789563863
     },
     {
-      "title": "一点点 威胁员工",
-      "description": "沸 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E7%82%B9%E7%82%B9%20%E5%A8%81%E8%83%81%E5%91%98%E5%B7%A5&t=31&band_rank=1&Refer=top",
-      "score": 187733,
+      "title": "一点点提两箱牛奶上门沟通",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%80%E7%82%B9%E7%82%B9%E6%8F%90%E4%B8%A4%E7%AE%B1%E7%89%9B%E5%A5%B6%E4%B8%8A%E9%97%A8%E6%B2%9F%E9%80%9A%23&t=31&band_rank=1&Refer=top",
+      "score": 21334,
       "owner": "微博同城",
-      "label": "沸",
+      "label": "",
       "category": "民生新闻",
-      "onboardTime": 1789541360
+      "onboardTime": 1789587015
     },
     {
-      "title": "幼童坠亡事发房间监控未插电",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%B9%BC%E7%AB%A5%E5%9D%A0%E4%BA%A1%E4%BA%8B%E5%8F%91%E6%88%BF%E9%97%B4%E7%9B%91%E6%8E%A7%E6%9C%AA%E6%8F%92%E7%94%B5%23&t=31&band_rank=1&Refer=top",
-      "score": 145191,
+      "title": "孙子无血缘再审听证会奶奶当场晕倒",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%AD%99%E5%AD%90%E6%97%A0%E8%A1%80%E7%BC%98%E5%86%8D%E5%AE%A1%E5%90%AC%E8%AF%81%E4%BC%9A%E5%A5%B6%E5%A5%B6%E5%BD%93%E5%9C%BA%E6%99%95%E5%80%92%23&t=31&band_rank=1&Refer=top",
+      "score": 21332,
       "owner": "微博同城",
-      "label": "新",
+      "label": "",
       "category": "民生新闻",
-      "onboardTime": 1789572441
+      "onboardTime": 1789573580
     },
     {
       "title": "上海干湿垃圾还在分吗",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%E4%B8%8A%E6%B5%B7%E5%B9%B2%E6%B9%BF%E5%9E%83%E5%9C%BE%E8%BF%98%E5%9C%A8%E5%88%86%E5%90%97&t=31&band_rank=1&Refer=top",
-      "score": 134756,
+      "score": 21331,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1789569921
-    },
-    {
-      "title": "孙子无血缘再审听证会奶奶当场晕倒",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AD%99%E5%AD%90%E6%97%A0%E8%A1%80%E7%BC%98%E5%86%8D%E5%AE%A1%E5%90%AC%E8%AF%81%E4%BC%9A%E5%A5%B6%E5%A5%B6%E5%BD%93%E5%9C%BA%E6%99%95%E5%80%92%23&t=31&band_rank=1&Refer=top",
-      "score": 107891,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1789573580
-    },
-    {
-      "title": "女演员成植物人5年后康复回归拍戏",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E6%BC%94%E5%91%98%E6%88%90%E6%A4%8D%E7%89%A9%E4%BA%BA5%E5%B9%B4%E5%90%8E%E5%BA%B7%E5%A4%8D%E5%9B%9E%E5%BD%92%E6%8B%8D%E6%88%8F%23&t=31&band_rank=1&Refer=top",
-      "score": 107474,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1789573101
-    },
-    {
-      "title": "大学毕业生举报资助人是间谍",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%A7%E5%AD%A6%E6%AF%95%E4%B8%9A%E7%94%9F%E4%B8%BE%E6%8A%A5%E8%B5%84%E5%8A%A9%E4%BA%BA%E6%98%AF%E9%97%B4%E8%B0%8D%23&t=31&band_rank=1&Refer=top",
-      "score": 103857,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1789552042
-    },
-    {
-      "title": "父亲遛狗2岁幼童从18楼坠亡",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%88%B6%E4%BA%B2%E9%81%9B%E7%8B%972%E5%B2%81%E5%B9%BC%E7%AB%A5%E4%BB%8E18%E6%A5%BC%E5%9D%A0%E4%BA%A1%23&t=31&band_rank=1&Refer=top",
-      "score": 88196,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1789576878
-    },
-    {
-      "title": "拆迁查户口发现父亲有个16岁私生子",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%8B%86%E8%BF%81%E6%9F%A5%E6%88%B7%E5%8F%A3%E5%8F%91%E7%8E%B0%E7%88%B6%E4%BA%B2%E6%9C%89%E4%B8%AA16%E5%B2%81%E7%A7%81%E7%94%9F%E5%AD%90%23&t=31&band_rank=1&Refer=top",
-      "score": 87348,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1789560080
     }
   ]
 }
