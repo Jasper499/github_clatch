@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-09-17T07:23:14Z",
+  "savedAt": "2026-09-17T18:02:16Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-09-17，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,39 +10,31 @@
       "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
       "description": "See also: <i>Avian Visitors</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48343424\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48343424</a> - May 2026 (20 comments)",
       "url": "https://github.com/arnegiacomo/fugleramme",
-      "score": 2143,
-      "comments": 243,
+      "score": 2255,
+      "comments": 253,
       "owner": "arnemunthekaas"
     },
     {
       "title": "Introducing System One Models and Jev",
       "description": "",
       "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
-      "score": 1813,
-      "comments": 478,
+      "score": 1845,
+      "comments": 485,
       "owner": "albelfio"
-    },
-    {
-      "title": "Shopify is moving from React Native back to Swift and Kotlin",
-      "description": "",
-      "url": "https://shopify.engineering/back-to-native",
-      "score": 1272,
-      "comments": 958,
-      "owner": "fnthawar2"
     },
     {
       "title": "A misalignment of AI in mathematics",
       "description": "<a href=\"https:&#x2F;&#x2F;terrytao.wordpress.com&#x2F;2026&#x2F;09&#x2F;11&#x2F;a-severe-misalignment-of-ai-in-mathematics&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;terrytao.wordpress.com&#x2F;2026&#x2F;09&#x2F;11&#x2F;a-severe-misalignm...</a><p><a href=\"https:&#x2F;&#x2F;www.economist.com&#x2F;science-and-technology&#x2F;2026&#x2F;09&#x2F;11&#x2F;top-mathematicians-are-outraged-by-openais-methods\" rel=\"nofollow\">https:&#x2F;&#x2F;www.economist.com&#x2F;science-and-technology&#x2F;2026&#x2F;09&#x2F;11&#x2F;...</a>, <a href=\"https:&#x2F;&#x2F;unwall.app&#x2F;www.economist.com&#x2F;science-and-technology&#x2F;2026&#x2F;09&#x2F;11&#x2F;top-mathematicians-are-outraged-by-openais-methods\" rel=\"nofollow\">https:&#x2F;&#x2F;unwall.app&#x2F;www.economist.com&#x2F;science-and-technology&#x2F;...</a>",
       "url": "https://mathandai.org/",
-      "score": 1238,
-      "comments": 1210,
+      "score": 1239,
+      "comments": 1211,
       "owner": "meredydd"
     },
     {
       "title": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
       "description": "",
       "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
-      "score": 1212,
+      "score": 1214,
       "comments": 568,
       "owner": "u1hcw9nx"
     },
@@ -50,23 +42,23 @@
       "title": "I can't stop thinking about Papua New Guinea",
       "description": "",
       "url": "https://notnottalmud.substack.com/p/why-i-cant-stop-thinking-about-papua",
-      "score": 1124,
-      "comments": 471,
+      "score": 1134,
+      "comments": 475,
       "owner": "networked"
     },
     {
       "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
       "description": "<a href=\"https:&#x2F;&#x2F;simonwillison.net&#x2F;2026&#x2F;Sep&#x2F;12&#x2F;openai-agents-rubygems&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;simonwillison.net&#x2F;2026&#x2F;Sep&#x2F;12&#x2F;openai-agents-rubygems...</a>",
       "url": "https://www.rubyhack.ai/",
-      "score": 968,
-      "comments": 610,
+      "score": 970,
+      "comments": 611,
       "owner": "chao-"
     },
     {
       "title": "Why is Google still serving dodgy ads?",
       "description": "",
       "url": "https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads",
-      "score": 956,
+      "score": 958,
       "comments": 404,
       "owner": "iamflimflam1"
     },
@@ -74,9 +66,17 @@
       "title": "25 years of mass surveillance is enough",
       "description": "",
       "url": "https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html",
-      "score": 923,
-      "comments": 347,
+      "score": 936,
+      "comments": 353,
       "owner": "iamnothere"
+    },
+    {
+      "title": "Nvidia announces native GPU programming in Rust",
+      "description": "",
+      "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
+      "score": 899,
+      "comments": 356,
+      "owner": "nonmaskable"
     },
     {
       "title": "Ask HN: Can we please limit the AI news flood?",
@@ -95,12 +95,12 @@
       "owner": "xena"
     },
     {
-      "title": "Don't let anyone take away your big box of cables",
+      "title": "XCancel service is suspended until further notice",
       "description": "",
-      "url": "https://blog.jim-nielsen.com/2026/hands-off-my-cables/",
-      "score": 780,
-      "comments": 464,
-      "owner": "Brajeshwar"
+      "url": "https://xcancel.com/#",
+      "score": 763,
+      "comments": 1048,
+      "owner": "gaganyaan"
     },
     {
       "title": "I spent $220 on Google app ads and 60% of the installs were robots",
@@ -109,14 +109,6 @@
       "score": 761,
       "comments": 433,
       "owner": "nickabe"
-    },
-    {
-      "title": "XCancel service is suspended until further notice",
-      "description": "",
-      "url": "https://xcancel.com/#",
-      "score": 760,
-      "comments": 1042,
-      "owner": "gaganyaan"
     },
     {
       "title": "We must pace the frontier",
@@ -135,19 +127,11 @@
       "owner": "bsimpson"
     },
     {
-      "title": "Rust is tier-1 language at Microsoft",
-      "description": "",
-      "url": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/",
-      "score": 726,
-      "comments": 518,
-      "owner": "mmastrac"
-    },
-    {
       "title": "iOS 27, iPadOS 27, and macOS 27",
       "description": "",
       "url": "https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/",
-      "score": 711,
-      "comments": 850,
+      "score": 712,
+      "comments": 851,
       "owner": "throw0101d"
     },
     {
@@ -157,6 +141,22 @@
       "score": 679,
       "comments": 553,
       "owner": "1e1a"
+    },
+    {
+      "title": "EU chief opens door for Canada to become 'associate member'",
+      "description": "",
+      "url": "https://www.bbc.com/news/articles/cjwyzrr9d3dko",
+      "score": 678,
+      "comments": 873,
+      "owner": "hackernj"
+    },
+    {
+      "title": "A single firm is behind OpenAI, Anthropic, and Meta hacking scandals",
+      "description": "",
+      "url": "https://www.effort.news/irregular",
+      "score": 677,
+      "comments": 247,
+      "owner": "yusufozkan"
     },
     {
       "title": "Claude is only available to people over 18 years",
