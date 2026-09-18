@@ -1,25 +1,25 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-09-17T18:02:16Z",
+  "savedAt": "2026-09-18T07:12:53Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-09-17，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-09-18，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-09-17",
+  "fetchedDate": "2026-09-18",
   "items": [
     {
       "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
       "description": "See also: <i>Avian Visitors</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48343424\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48343424</a> - May 2026 (20 comments)",
       "url": "https://github.com/arnegiacomo/fugleramme",
-      "score": 2255,
-      "comments": 253,
+      "score": 2282,
+      "comments": 255,
       "owner": "arnemunthekaas"
     },
     {
       "title": "Introducing System One Models and Jev",
       "description": "",
       "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
-      "score": 1845,
-      "comments": 485,
+      "score": 1867,
+      "comments": 491,
       "owner": "albelfio"
     },
     {
@@ -34,7 +34,7 @@
       "title": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
       "description": "",
       "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
-      "score": 1214,
+      "score": 1215,
       "comments": 568,
       "owner": "u1hcw9nx"
     },
@@ -42,8 +42,8 @@
       "title": "I can't stop thinking about Papua New Guinea",
       "description": "",
       "url": "https://notnottalmud.substack.com/p/why-i-cant-stop-thinking-about-papua",
-      "score": 1134,
-      "comments": 475,
+      "score": 1135,
+      "comments": 480,
       "owner": "networked"
     },
     {
@@ -58,7 +58,7 @@
       "title": "Why is Google still serving dodgy ads?",
       "description": "",
       "url": "https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads",
-      "score": 958,
+      "score": 959,
       "comments": 404,
       "owner": "iamflimflam1"
     },
@@ -66,23 +66,23 @@
       "title": "25 years of mass surveillance is enough",
       "description": "",
       "url": "https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html",
-      "score": 936,
-      "comments": 353,
+      "score": 943,
+      "comments": 354,
       "owner": "iamnothere"
     },
     {
       "title": "Nvidia announces native GPU programming in Rust",
       "description": "",
       "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
-      "score": 899,
-      "comments": 356,
+      "score": 940,
+      "comments": 393,
       "owner": "nonmaskable"
     },
     {
       "title": "Ask HN: Can we please limit the AI news flood?",
       "description": "Over past couple months I noticed that HN feed is almost exclusively AI or AI-adjacent news. Meanwhile the legitimately, broadly-hacker stuff gets left out for the most part.<p>I noticed that because the things I find genuinely interesting that I post here now get zero traction, which is the stuff that I believe would previously be met with some discussion.<p>Note that I don&#x27;t care that my submissions were ignored, I don&#x27;t need that validation. Problem is that if my stuff gains no traction, I am myself not seeing similar stuff posted by others, stuff I am genuinely <i>also</i> interested in and would want to hear about from this community.<p>Here are two most recent examples:<p>- Lenovo showed a model that incorporates solid-state air cooling. That technology has been around for a while but it looks like it matured and is production-ready. This allows for super-light and slim designs, which, in turn, should allow for bigger batteries installed and I think it&#x27;s some sort of breakthrough:  \nhttps:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49580229<p>- Brax Industries devices, genuinely interesting, open-soruce and innovative, especially the wall display, with its modularity and on-device processing compatible with Home Assistant. I also appreciate the very clean design:  \nhttps:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49643215<p>As said, I honestly believe this would gain some traction here on HN a year or two ago. I no longer find HN a good source of &quot;what&#x27;s new&quot; in the industry, it&#x27;s almost exclusively AI talk now.<p>So I think the point I am trying to make is that maybe YC could start curating the content somehow to give those easily-drowned-out articles a visibility bump?<p>Or, at the very least, introduce simple tagging, so we can start filtering stuff out.",
       "url": "https://news.ycombinator.com/item?id=49657850",
-      "score": 860,
+      "score": 861,
       "comments": 402,
       "owner": "cromka"
     },
@@ -99,7 +99,7 @@
       "description": "",
       "url": "https://xcancel.com/#",
       "score": 763,
-      "comments": 1048,
+      "comments": 1049,
       "owner": "gaganyaan"
     },
     {
@@ -107,7 +107,7 @@
       "description": "",
       "url": "https://dayzlegame.com/blog/google-ads-bot-farm/",
       "score": 761,
-      "comments": 433,
+      "comments": 434,
       "owner": "nickabe"
     },
     {
@@ -115,7 +115,7 @@
       "description": "",
       "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
       "score": 748,
-      "comments": 1048,
+      "comments": 1049,
       "owner": "apsec112"
     },
     {
@@ -123,7 +123,7 @@
       "description": "",
       "url": "https://store.steampowered.com/hardware/steamframe",
       "score": 735,
-      "comments": 640,
+      "comments": 642,
       "owner": "bsimpson"
     },
     {
@@ -135,6 +135,14 @@
       "owner": "throw0101d"
     },
     {
+      "title": "EU chief opens door for Canada to become 'associate member'",
+      "description": "",
+      "url": "https://www.bbc.com/news/articles/cjwyzrr9d3dko",
+      "score": 685,
+      "comments": 879,
+      "owner": "hackernj"
+    },
+    {
       "title": "google.com/goto: Google's anti-scraping update",
       "description": "",
       "url": "https://www.autom.dev/blog/google-search-goto-links",
@@ -143,28 +151,20 @@
       "owner": "1e1a"
     },
     {
-      "title": "EU chief opens door for Canada to become 'associate member'",
+      "title": "An update on Wayback Machine access",
       "description": "",
-      "url": "https://www.bbc.com/news/articles/cjwyzrr9d3dko",
+      "url": "https://blog.archive.org/2026/09/15/an-update-on-wayback-machine-access/",
       "score": 678,
-      "comments": 873,
-      "owner": "hackernj"
+      "comments": 357,
+      "owner": "ChrisArchitect"
     },
     {
       "title": "A single firm is behind OpenAI, Anthropic, and Meta hacking scandals",
       "description": "",
       "url": "https://www.effort.news/irregular",
-      "score": 677,
-      "comments": 247,
+      "score": 678,
+      "comments": 251,
       "owner": "yusufozkan"
-    },
-    {
-      "title": "Claude is only available to people over 18 years",
-      "description": "",
-      "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
-      "score": 674,
-      "comments": 670,
-      "owner": "Muhammad523"
     }
   ]
 }
