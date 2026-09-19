@@ -1,100 +1,100 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-09-18T20:50:22Z",
+  "savedAt": "2026-09-19T04:30:17Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-09-18，共 9 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-09-19，共 9 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
-  "fetchedDate": "2026-09-18",
+  "fetchedDate": "2026-09-19",
   "items": [
     {
-      "title": "斑驳旧物铭刻90多年前不屈抗争",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%96%91%E9%A9%B3%E6%97%A7%E7%89%A9%E9%93%AD%E5%88%BB90%E5%A4%9A%E5%B9%B4%E5%89%8D%E4%B8%8D%E5%B1%88%E6%8A%97%E4%BA%89%23&t=31&band_rank=1&Refer=top",
-      "score": 65735,
+      "title": "浙江商K大面积关门",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E6%B5%99%E6%B1%9F%E5%95%86K%E5%A4%A7%E9%9D%A2%E7%A7%AF%E5%85%B3%E9%97%A8&t=31&band_rank=1&Refer=top",
+      "score": 295928,
       "owner": "微博同城",
-      "label": "",
+      "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1789734141
+      "onboardTime": 1789788919
     },
     {
       "title": "中国的小偷为何断崖式下降",
-      "description": "热 · 民生新闻",
+      "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E7%9A%84%E5%B0%8F%E5%81%B7%E4%B8%BA%E4%BD%95%E6%96%AD%E5%B4%96%E5%BC%8F%E4%B8%8B%E9%99%8D&t=31&band_rank=1&Refer=top",
-      "score": 45524,
+      "score": 290549,
       "owner": "微博同城",
-      "label": "热",
+      "label": "",
       "category": "民生新闻",
       "onboardTime": 1789738461
     },
     {
-      "title": "物业暴力阻拦业主回家",
+      "title": "数学老师投300万拍电影票房不足3万",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E7%89%A9%E4%B8%9A%E6%9A%B4%E5%8A%9B%E9%98%BB%E6%8B%A6%E4%B8%9A%E4%B8%BB%E5%9B%9E%E5%AE%B6&t=31&band_rank=1&Refer=top",
-      "score": 45327,
+      "url": "https://s.weibo.com/weibo?q=%23%E6%95%B0%E5%AD%A6%E8%80%81%E5%B8%88%E6%8A%95300%E4%B8%87%E6%8B%8D%E7%94%B5%E5%BD%B1%E7%A5%A8%E6%88%BF%E4%B8%8D%E8%B6%B33%E4%B8%87%23&t=31&band_rank=1&Refer=top",
+      "score": 180754,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1789750578
+      "onboardTime": 1789781660
     },
     {
-      "title": "人民网评罗永浩说野人先生难吃",
+      "title": "亲子鉴定规则被指双标",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E4%BA%B2%E5%AD%90%E9%89%B4%E5%AE%9A%E8%A7%84%E5%88%99%E8%A2%AB%E6%8C%87%E5%8F%8C%E6%A0%87&t=31&band_rank=1&Refer=top",
+      "score": 150220,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1789791740
+    },
+    {
+      "title": "上海防空警报",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%8A%E6%B5%B7%E9%98%B2%E7%A9%BA%E8%AD%A6%E6%8A%A5&t=31&band_rank=1&Refer=top",
+      "score": 149513,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1789791020
+    },
+    {
+      "title": "于东来正被自己的人设绑架",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BA%8E%E4%B8%9C%E6%9D%A5%E6%AD%A3%E8%A2%AB%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BA%BA%E8%AE%BE%E7%BB%91%E6%9E%B6%23&t=31&band_rank=1&Refer=top",
+      "score": 148033,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1789788500
+    },
+    {
+      "title": "北京 防空警报",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%BA%BA%E6%B0%91%E7%BD%91%E8%AF%84%E7%BD%97%E6%B0%B8%E6%B5%A9%E8%AF%B4%E9%87%8E%E4%BA%BA%E5%85%88%E7%94%9F%E9%9A%BE%E5%90%83%23&t=31&band_rank=1&Refer=top",
-      "score": 45191,
+      "url": "https://s.weibo.com/weibo?q=%E5%8C%97%E4%BA%AC%20%E9%98%B2%E7%A9%BA%E8%AD%A6%E6%8A%A5&t=31&band_rank=1&Refer=top",
+      "score": 138906,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1789721180
+      "onboardTime": 1789784540
     },
     {
-      "title": "女子称失踪闺蜜托梦暗示尸骸位置",
+      "title": "防空警报试鸣日期疑问",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E9%98%B2%E7%A9%BA%E8%AD%A6%E6%8A%A5%E8%AF%95%E9%B8%A3%E6%97%A5%E6%9C%9F%E7%96%91%E9%97%AE&t=31&band_rank=1&Refer=top",
+      "score": 122870,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1789791499
+    },
+    {
+      "title": "啄木鸟修1个开关2800已全额退还",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E7%A7%B0%E5%A4%B1%E8%B8%AA%E9%97%BA%E8%9C%9C%E6%89%98%E6%A2%A6%E6%9A%97%E7%A4%BA%E5%B0%B8%E9%AA%B8%E4%BD%8D%E7%BD%AE%23&t=31&band_rank=1&Refer=top",
-      "score": 44785,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%95%84%E6%9C%A8%E9%B8%9F%E4%BF%AE1%E4%B8%AA%E5%BC%80%E5%85%B32800%E5%B7%B2%E5%85%A8%E9%A2%9D%E9%80%80%E8%BF%98%23&t=31&band_rank=1&Refer=top",
+      "score": 109212,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1789738942
-    },
-    {
-      "title": "联合早报",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E8%81%94%E5%90%88%E6%97%A9%E6%8A%A5&t=31&band_rank=1&Refer=top",
-      "score": 44707,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1789730901
-    },
-    {
-      "title": "亲子鉴定 医保",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E4%BA%B2%E5%AD%90%E9%89%B4%E5%AE%9A%20%E5%8C%BB%E4%BF%9D&t=31&band_rank=1&Refer=top",
-      "score": 44527,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1789739721
-    },
-    {
-      "title": "警方回应女子被情人杀害失踪7年",
-      "description": "突发/灾害",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%AD%A6%E6%96%B9%E5%9B%9E%E5%BA%94%E5%A5%B3%E5%AD%90%E8%A2%AB%E6%83%85%E4%BA%BA%E6%9D%80%E5%AE%B3%E5%A4%B1%E8%B8%AA7%E5%B9%B4%23&t=31&band_rank=1&Refer=top",
-      "score": 44491,
-      "owner": "微博同城",
-      "label": "",
-      "category": "突发/灾害",
-      "onboardTime": 1789755315
-    },
-    {
-      "title": "贾国龙西贝焖面开业4个月倒闭了",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%B4%BE%E5%9B%BD%E9%BE%99%E8%A5%BF%E8%B4%9D%E7%84%96%E9%9D%A2%E5%BC%80%E4%B8%9A4%E4%B8%AA%E6%9C%88%E5%80%92%E9%97%AD%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 44448,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1789745300
+      "onboardTime": 1789781660
     }
   ]
 }
