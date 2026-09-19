@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-09-18T17:44:22Z",
+  "savedAt": "2026-09-19T07:24:26Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "2375e0abdf42158ef149256f2c64b1f759a0d274",
+  "latestSha": "9cecfef6ac683fa59d7d15d2e22f98fa71dacaf5",
   "items": [
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/9cecfef6ac683fa59d7d15d2e22f98fa71dacaf5",
+      "sha": "9cecfef",
+      "fullSha": "9cecfef6ac683fa59d7d15d2e22f98fa71dacaf5",
+      "owner": "github-actions",
+      "published": "2026-09-19",
+      "label": "commit"
+    },
     {
       "title": "Merge pull request #224 from anupamme/fix-repo-nature-skills-pubmed-x…",
       "description": "Merge pull request #224 from anupamme/fix-repo-nature-skills-pubmed-xxe-defusedxml\n\nharden: disable external XML entity processing in pubmed.py",
@@ -143,16 +153,6 @@
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/7e626a86a0ac8d078be224e0a76aa1327875b0a1",
       "sha": "7e626a8",
       "fullSha": "7e626a86a0ac8d078be224e0a76aa1327875b0a1",
-      "owner": "Yuan1z0825",
-      "published": "2026-09-08",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #217 from zpf2234/fix/atomic-image2ppt-config",
-      "description": "Merge pull request #217 from zpf2234/fix/atomic-image2ppt-config\n\n避免配置写入失败时丢失 Image2PPT 原配置",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/12af141be10a790082a9fe99f0105831cd473ad4",
-      "sha": "12af141",
-      "fullSha": "12af141be10a790082a9fe99f0105831cd473ad4",
       "owner": "Yuan1z0825",
       "published": "2026-09-08",
       "label": "commit"
