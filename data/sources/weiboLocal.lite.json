@@ -1,130 +1,90 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-09-20T11:13:53Z",
+  "savedAt": "2026-09-20T15:58:28Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-09-20，共 12 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-09-20，共 8 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-09-20",
   "items": [
     {
-      "title": "秦始皇陵水银来源被找到",
+      "title": "母亲赶到家时两兄妹已被胡蜂蜇亡",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%A7%A6%E5%A7%8B%E7%9A%87%E9%99%B5%E6%B0%B4%E9%93%B6%E6%9D%A5%E6%BA%90%E8%A2%AB%E6%89%BE%E5%88%B0%23&t=31&band_rank=1&Refer=top",
-      "score": 688802,
+      "url": "https://s.weibo.com/weibo?q=%23%E6%AF%8D%E4%BA%B2%E8%B5%B6%E5%88%B0%E5%AE%B6%E6%97%B6%E4%B8%A4%E5%85%84%E5%A6%B9%E5%B7%B2%E8%A2%AB%E8%83%A1%E8%9C%82%E8%9C%87%E4%BA%A1%23&t=31&band_rank=1&Refer=top",
+      "score": 772813,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1789889420
+      "onboardTime": 1789914263
+    },
+    {
+      "title": "打击商K 连锁反应",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E6%89%93%E5%87%BB%E5%95%86K%20%E8%BF%9E%E9%94%81%E5%8F%8D%E5%BA%94&t=31&band_rank=1&Refer=top",
+      "score": 709550,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1789903220
     },
     {
       "title": "已婚女子与男子开房次日全裸身亡",
-      "description": "新 · 民生新闻",
+      "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E5%B7%B2%E5%A9%9A%E5%A5%B3%E5%AD%90%E4%B8%8E%E7%94%B7%E5%AD%90%E5%BC%80%E6%88%BF%E6%AC%A1%E6%97%A5%E5%85%A8%E8%A3%B8%E8%BA%AB%E4%BA%A1%23&t=31&band_rank=1&Refer=top",
-      "score": 505330,
+      "score": 694315,
       "owner": "微博同城",
-      "label": "新",
+      "label": "",
       "category": "民生新闻",
       "onboardTime": 1789900642
     },
     {
-      "title": "三甲医生回应60岁产妇3年内生2子",
+      "title": "曝光不给实习生放假疑遭医院威胁",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%89%E7%94%B2%E5%8C%BB%E7%94%9F%E5%9B%9E%E5%BA%9460%E5%B2%81%E4%BA%A7%E5%A6%873%E5%B9%B4%E5%86%85%E7%94%9F2%E5%AD%90%23&t=31&band_rank=1&Refer=top",
-      "score": 419574,
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E5%85%89%E4%B8%8D%E7%BB%99%E5%AE%9E%E4%B9%A0%E7%94%9F%E6%94%BE%E5%81%87%E7%96%91%E9%81%AD%E5%8C%BB%E9%99%A2%E5%A8%81%E8%83%81%23&t=31&band_rank=1&Refer=top",
+      "score": 690122,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1789901480
+      "onboardTime": 1789918881
     },
     {
-      "title": "尔康真的娶到了紫薇",
-      "description": "热 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%B0%94%E5%BA%B7%E7%9C%9F%E7%9A%84%E5%A8%B6%E5%88%B0%E4%BA%86%E7%B4%AB%E8%96%87%23&t=31&band_rank=1&Refer=top",
-      "score": 404169,
-      "owner": "微博同城",
-      "label": "热",
-      "category": "民生新闻",
-      "onboardTime": 1789893981
-    },
-    {
-      "title": "老人误饮车内农药家属索赔47.8万",
-      "description": "民生新闻,议题讨论",
-      "url": "https://s.weibo.com/weibo?q=%E8%80%81%E4%BA%BA%E8%AF%AF%E9%A5%AE%E8%BD%A6%E5%86%85%E5%86%9C%E8%8D%AF%E5%AE%B6%E5%B1%9E%E7%B4%A2%E8%B5%9447.8%E4%B8%87&t=31&band_rank=1&Refer=top",
-      "score": 298165,
+      "title": "彩礼18.8万快成全国统一价了",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%BD%A9%E7%A4%BC18.8%E4%B8%87%E5%BF%AB%E6%88%90%E5%85%A8%E5%9B%BD%E7%BB%9F%E4%B8%80%E4%BB%B7%E4%BA%86&t=31&band_rank=1&Refer=top",
+      "score": 675373,
       "owner": "微博同城",
       "label": "",
-      "category": "民生新闻,议题讨论",
-      "onboardTime": 1789896621
+      "category": "民生新闻",
+      "onboardTime": 1789903281
     },
     {
-      "title": "床底藏大量避孕套酒店称阿姨忘了扫",
+      "title": "肯德基 消费者觉得好吃就下架",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%BA%8A%E5%BA%95%E8%97%8F%E5%A4%A7%E9%87%8F%E9%81%BF%E5%AD%95%E5%A5%97%E9%85%92%E5%BA%97%E7%A7%B0%E9%98%BF%E5%A7%A8%E5%BF%98%E4%BA%86%E6%89%AB%23&t=31&band_rank=1&Refer=top",
-      "score": 289274,
+      "url": "https://s.weibo.com/weibo?q=%E8%82%AF%E5%BE%B7%E5%9F%BA%20%E6%B6%88%E8%B4%B9%E8%80%85%E8%A7%89%E5%BE%97%E5%A5%BD%E5%90%83%E5%B0%B1%E4%B8%8B%E6%9E%B6&t=31&band_rank=1&Refer=top",
+      "score": 444426,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1789902321
+      "onboardTime": 1789916843
     },
     {
-      "title": "市监局将严查恶意低价竞争",
+      "title": "让ChatGPT预测房价哪年见底",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%B8%82%E7%9B%91%E5%B1%80%E5%B0%86%E4%B8%A5%E6%9F%A5%E6%81%B6%E6%84%8F%E4%BD%8E%E4%BB%B7%E7%AB%9E%E4%BA%89%23&t=31&band_rank=1&Refer=top",
-      "score": 256510,
+      "url": "https://s.weibo.com/weibo?q=%E8%AE%A9ChatGPT%E9%A2%84%E6%B5%8B%E6%88%BF%E4%BB%B7%E5%93%AA%E5%B9%B4%E8%A7%81%E5%BA%95&t=31&band_rank=1&Refer=top",
+      "score": 217283,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1789901542
+      "onboardTime": 1789917622
     },
     {
-      "title": "四川大学吸烟将取消减免资格",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%9B%9B%E5%B7%9D%E5%A4%A7%E5%AD%A6%E5%90%B8%E7%83%9F%E5%B0%86%E5%8F%96%E6%B6%88%E5%87%8F%E5%85%8D%E8%B5%84%E6%A0%BC&t=31&band_rank=1&Refer=top",
-      "score": 248452,
+      "title": "县城财政收入2亿支出近20亿",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%8E%BF%E5%9F%8E%E8%B4%A2%E6%94%BF%E6%94%B6%E5%85%A52%E4%BA%BF%E6%94%AF%E5%87%BA%E8%BF%9120%E4%BA%BF&t=31&band_rank=1&Refer=top",
+      "score": 217126,
       "owner": "微博同城",
-      "label": "新",
+      "label": "",
       "category": "民生新闻",
-      "onboardTime": 1789901361
-    },
-    {
-      "title": "当英国同事来上海三个月后",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%BD%93%E8%8B%B1%E5%9B%BD%E5%90%8C%E4%BA%8B%E6%9D%A5%E4%B8%8A%E6%B5%B7%E4%B8%89%E4%B8%AA%E6%9C%88%E5%90%8E&t=31&band_rank=1&Refer=top",
-      "score": 246989,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1789897642
-    },
-    {
-      "title": "女子散步遭黑影冲脸打9针",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E6%95%A3%E6%AD%A5%E9%81%AD%E9%BB%91%E5%BD%B1%E5%86%B2%E8%84%B8%E6%89%939%E9%92%88%23&t=31&band_rank=1&Refer=top",
-      "score": 192998,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1789902080
-    },
-    {
-      "title": "博主讲述跟踪调查硫磺熏笋经过",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8D%9A%E4%B8%BB%E8%AE%B2%E8%BF%B0%E8%B7%9F%E8%B8%AA%E8%B0%83%E6%9F%A5%E7%A1%AB%E7%A3%BA%E7%86%8F%E7%AC%8B%E7%BB%8F%E8%BF%87%23&t=31&band_rank=1&Refer=top",
-      "score": 192017,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1789902080
-    },
-    {
-      "title": "唐太宗昭陵考古新发现",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%94%90%E5%A4%AA%E5%AE%97%E6%98%AD%E9%99%B5%E8%80%83%E5%8F%A4%E6%96%B0%E5%8F%91%E7%8E%B0%23&t=31&band_rank=1&Refer=top",
-      "score": 190742,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1789901361
+      "onboardTime": 1789903462
     }
   ]
 }
