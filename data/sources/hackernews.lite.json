@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-09-20T07:35:26Z",
+  "savedAt": "2026-09-20T17:20:52Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-09-20，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,25 +10,33 @@
       "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
       "description": "See also: <i>Avian Visitors</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48343424\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48343424</a> - May 2026 (20 comments)",
       "url": "https://github.com/arnegiacomo/fugleramme",
-      "score": 2362,
-      "comments": 258,
+      "score": 2372,
+      "comments": 260,
       "owner": "arnemunthekaas"
     },
     {
       "title": "Introducing System One Models and Jev",
       "description": "",
       "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
-      "score": 1917,
-      "comments": 502,
+      "score": 1924,
+      "comments": 506,
       "owner": "albelfio"
     },
     {
       "title": "AI-generated posters don’t have to be horrible",
       "description": "",
       "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
-      "score": 1541,
-      "comments": 823,
+      "score": 1733,
+      "comments": 892,
       "owner": "ereiamjh"
+    },
+    {
+      "title": "I built non-autoregressive decision models with RL a year ago",
+      "description": "",
+      "url": "https://laya.convaiinnovations.com/",
+      "score": 1274,
+      "comments": 304,
+      "owner": "nandakishor_ml"
     },
     {
       "title": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
@@ -39,35 +47,27 @@
       "owner": "u1hcw9nx"
     },
     {
-      "title": "I built non-autoregressive decision models with RL a year ago",
+      "title": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
       "description": "",
-      "url": "https://laya.convaiinnovations.com/",
-      "score": 1187,
-      "comments": 288,
-      "owner": "nandakishor_ml"
+      "url": "https://grapheneos.social/@GrapheneOS/117282080803799576",
+      "score": 1149,
+      "comments": 693,
+      "owner": "theanonymousone"
     },
     {
       "title": "I can't stop thinking about Papua New Guinea",
       "description": "",
       "url": "https://notnottalmud.substack.com/p/why-i-cant-stop-thinking-about-papua",
-      "score": 1148,
+      "score": 1149,
       "comments": 486,
       "owner": "networked"
-    },
-    {
-      "title": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
-      "description": "",
-      "url": "https://grapheneos.social/@GrapheneOS/117282080803799576",
-      "score": 1130,
-      "comments": 675,
-      "owner": "theanonymousone"
     },
     {
       "title": "Nvidia announces native GPU programming in Rust",
       "description": "",
       "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
-      "score": 964,
-      "comments": 402,
+      "score": 967,
+      "comments": 404,
       "owner": "nonmaskable"
     },
     {
@@ -90,31 +90,31 @@
       "title": "Microsoft exec called AI scraping 'the largest theft of labor in human history'",
       "description": "",
       "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
-      "score": 926,
-      "comments": 818,
+      "score": 933,
+      "comments": 823,
       "owner": "pluc"
     },
     {
       "title": "I don't like passkeys",
       "description": "",
       "url": "https://hawksley.dev/blog/i-dont-like-passkeys",
-      "score": 824,
-      "comments": 791,
+      "score": 827,
+      "comments": 799,
       "owner": "ethanhawksley"
     },
     {
       "title": "Cloudflare Quick Tunnels",
       "description": "",
       "url": "https://try.cloudflare.com/",
-      "score": 817,
-      "comments": 312,
+      "score": 826,
+      "comments": 316,
       "owner": "jcbhmr"
     },
     {
       "title": "XCancel service is suspended until further notice",
       "description": "",
       "url": "https://xcancel.com/#",
-      "score": 763,
+      "score": 764,
       "comments": 1053,
       "owner": "gaganyaan"
     },
@@ -122,31 +122,31 @@
       "title": "Steam Frame starts at $1059",
       "description": "",
       "url": "https://store.steampowered.com/hardware/steamframe",
-      "score": 741,
+      "score": 743,
       "comments": 647,
       "owner": "bsimpson"
-    },
-    {
-      "title": "Hister: A private search engine for the pages you visit and the files you keep",
-      "description": "",
-      "url": "https://github.com/asciimoo/hister",
-      "score": 721,
-      "comments": 195,
-      "owner": "bookofjoe"
     },
     {
       "title": "Claude Code now reads AGENTS.md if there is no Claude.md",
       "description": "",
       "url": "https://code.claude.com/docs/en/changelog",
-      "score": 719,
-      "comments": 271,
+      "score": 724,
+      "comments": 273,
       "owner": "datadrivenangel"
+    },
+    {
+      "title": "Hister: A private search engine for the pages you visit and the files you keep",
+      "description": "",
+      "url": "https://github.com/asciimoo/hister",
+      "score": 724,
+      "comments": 196,
+      "owner": "bookofjoe"
     },
     {
       "title": "iOS 27, iPadOS 27, and macOS 27",
       "description": "",
       "url": "https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/",
-      "score": 713,
+      "score": 714,
       "comments": 855,
       "owner": "throw0101d"
     },
@@ -154,17 +154,17 @@
       "title": "OpenJev",
       "description": "",
       "url": "https://openjev.com/",
-      "score": 703,
-      "comments": 286,
+      "score": 707,
+      "comments": 288,
       "owner": "ilreb"
     },
     {
-      "title": "Training a 4B model to produce 81% faster query plans than Postgres",
+      "title": "How to Write with an LLM",
       "description": "",
-      "url": "https://rohanbansal.com/qorl",
-      "score": 694,
-      "comments": 143,
-      "owner": "polyphilz"
+      "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+      "score": 704,
+      "comments": 398,
+      "owner": "joeriddles"
     }
   ]
 }
