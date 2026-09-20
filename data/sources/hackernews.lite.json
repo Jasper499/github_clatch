@@ -1,56 +1,72 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-09-19T17:05:00Z",
+  "savedAt": "2026-09-20T07:35:26Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-09-19，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-09-20，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-09-19",
+  "fetchedDate": "2026-09-20",
   "items": [
     {
       "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
       "description": "See also: <i>Avian Visitors</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48343424\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48343424</a> - May 2026 (20 comments)",
       "url": "https://github.com/arnegiacomo/fugleramme",
-      "score": 2340,
-      "comments": 259,
+      "score": 2362,
+      "comments": 258,
       "owner": "arnemunthekaas"
     },
     {
       "title": "Introducing System One Models and Jev",
       "description": "",
       "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
-      "score": 1907,
-      "comments": 498,
+      "score": 1917,
+      "comments": 502,
       "owner": "albelfio"
+    },
+    {
+      "title": "AI-generated posters don’t have to be horrible",
+      "description": "",
+      "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
+      "score": 1541,
+      "comments": 823,
+      "owner": "ereiamjh"
     },
     {
       "title": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
       "description": "",
       "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
       "score": 1216,
-      "comments": 569,
+      "comments": 571,
       "owner": "u1hcw9nx"
+    },
+    {
+      "title": "I built non-autoregressive decision models with RL a year ago",
+      "description": "",
+      "url": "https://laya.convaiinnovations.com/",
+      "score": 1187,
+      "comments": 288,
+      "owner": "nandakishor_ml"
     },
     {
       "title": "I can't stop thinking about Papua New Guinea",
       "description": "",
       "url": "https://notnottalmud.substack.com/p/why-i-cant-stop-thinking-about-papua",
-      "score": 1147,
-      "comments": 485,
+      "score": 1148,
+      "comments": 486,
       "owner": "networked"
     },
     {
       "title": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
       "description": "",
       "url": "https://grapheneos.social/@GrapheneOS/117282080803799576",
-      "score": 989,
-      "comments": 552,
+      "score": 1130,
+      "comments": 675,
       "owner": "theanonymousone"
     },
     {
       "title": "Nvidia announces native GPU programming in Rust",
       "description": "",
       "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
-      "score": 961,
+      "score": 964,
       "comments": 402,
       "owner": "nonmaskable"
     },
@@ -66,40 +82,32 @@
       "title": "25 years of mass surveillance is enough",
       "description": "",
       "url": "https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html",
-      "score": 952,
-      "comments": 355,
+      "score": 953,
+      "comments": 357,
       "owner": "iamnothere"
     },
     {
       "title": "Microsoft exec called AI scraping 'the largest theft of labor in human history'",
       "description": "",
       "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
-      "score": 909,
-      "comments": 807,
+      "score": 926,
+      "comments": 818,
       "owner": "pluc"
-    },
-    {
-      "title": "Everyone should slow down AI development except for me",
-      "description": "",
-      "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
-      "score": 811,
-      "comments": 455,
-      "owner": "xena"
     },
     {
       "title": "I don't like passkeys",
       "description": "",
       "url": "https://hawksley.dev/blog/i-dont-like-passkeys",
-      "score": 806,
-      "comments": 778,
+      "score": 824,
+      "comments": 791,
       "owner": "ethanhawksley"
     },
     {
       "title": "Cloudflare Quick Tunnels",
       "description": "",
       "url": "https://try.cloudflare.com/",
-      "score": 775,
-      "comments": 301,
+      "score": 817,
+      "comments": 312,
       "owner": "jcbhmr"
     },
     {
@@ -107,22 +115,14 @@
       "description": "",
       "url": "https://xcancel.com/#",
       "score": 763,
-      "comments": 1052,
+      "comments": 1053,
       "owner": "gaganyaan"
-    },
-    {
-      "title": "AI-generated posters don’t have to be horrible",
-      "description": "",
-      "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
-      "score": 762,
-      "comments": 461,
-      "owner": "ereiamjh"
     },
     {
       "title": "Steam Frame starts at $1059",
       "description": "",
       "url": "https://store.steampowered.com/hardware/steamframe",
-      "score": 740,
+      "score": 741,
       "comments": 647,
       "owner": "bsimpson"
     },
@@ -130,9 +130,17 @@
       "title": "Hister: A private search engine for the pages you visit and the files you keep",
       "description": "",
       "url": "https://github.com/asciimoo/hister",
-      "score": 716,
-      "comments": 193,
+      "score": 721,
+      "comments": 195,
       "owner": "bookofjoe"
+    },
+    {
+      "title": "Claude Code now reads AGENTS.md if there is no Claude.md",
+      "description": "",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "score": 719,
+      "comments": 271,
+      "owner": "datadrivenangel"
     },
     {
       "title": "iOS 27, iPadOS 27, and macOS 27",
@@ -143,28 +151,20 @@
       "owner": "throw0101d"
     },
     {
-      "title": "Claude Code now reads AGENTS.md if there is no Claude.md",
+      "title": "OpenJev",
       "description": "",
-      "url": "https://code.claude.com/docs/en/changelog",
-      "score": 699,
-      "comments": 261,
-      "owner": "datadrivenangel"
+      "url": "https://openjev.com/",
+      "score": 703,
+      "comments": 286,
+      "owner": "ilreb"
     },
     {
       "title": "Training a 4B model to produce 81% faster query plans than Postgres",
       "description": "",
       "url": "https://rohanbansal.com/qorl",
-      "score": 693,
+      "score": 694,
       "comments": 143,
       "owner": "polyphilz"
-    },
-    {
-      "title": "EU chief opens door for Canada to become 'associate member'",
-      "description": "",
-      "url": "https://www.bbc.com/news/articles/cjwyzrr9d3dko",
-      "score": 688,
-      "comments": 897,
-      "owner": "hackernj"
     }
   ]
 }
