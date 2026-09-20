@@ -6,52 +6,136 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "hackernews:https://github.com/arnegiacomo/fugleramme",
-      "url": "https://github.com/arnegiacomo/fugleramme",
-      "title": "[Hacker News 热门] Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
-      "date_published": "2026-09-20T17:20:52Z"
+      "id": "weibo:https://s.weibo.com/weibo?q=%23%E6%8A%8A%E9%85%8D%E6%96%99%E8%A1%A8%E4%B8%AD%E7%9A%84%E7%99%BD%E7%A0%82%E7%B3%96%E8%BF%98%E7%BB%99%E6%88%91%E4%BB%AC%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%8A%8A%E9%85%8D%E6%96%99%E8%A1%A8%E4%B8%AD%E7%9A%84%E7%99%BD%E7%A0%82%E7%B3%96%E8%BF%98%E7%BB%99%E6%88%91%E4%BB%AC%23&t=31&band_rank=1&Refer=top",
+      "title": "[热搜榜] 把配料表中的白砂糖还给我们",
+      "date_published": "2026-09-20T20:44:06Z"
     },
     {
-      "id": "hackernews:https://typesafe.ai/blog/introducing-system-one-models-and-jev",
-      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
-      "title": "[Hacker News 热门] Introducing System One Models and Jev",
-      "date_published": "2026-09-20T17:20:52Z"
+      "id": "weibo:https://s.weibo.com/weibo?q=%E6%8A%AB%E8%8D%86%E6%96%A9%E6%A3%98%E6%8E%92%E5%90%8D&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%E6%8A%AB%E8%8D%86%E6%96%A9%E6%A3%98%E6%8E%92%E5%90%8D&t=31&band_rank=1&Refer=top",
+      "title": "[热搜榜] 披荆斩棘排名",
+      "date_published": "2026-09-20T20:44:06Z"
     },
     {
-      "id": "hackernews:https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
-      "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
-      "title": "[Hacker News 热门] AI-generated posters don’t have to be horrible",
-      "date_published": "2026-09-20T17:20:52Z"
+      "id": "weibo:https://s.weibo.com/weibo?q=%23%E4%BB%8A%E8%B5%B7%E5%85%AC%E7%A7%AF%E9%87%91%E6%8F%90%E5%8F%96%E5%9C%BA%E6%99%AF6%E5%8F%989%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BB%8A%E8%B5%B7%E5%85%AC%E7%A7%AF%E9%87%91%E6%8F%90%E5%8F%96%E5%9C%BA%E6%99%AF6%E5%8F%989%23&t=31&band_rank=1&Refer=top",
+      "title": "[热搜榜] 今起公积金提取场景6变9",
+      "date_published": "2026-09-20T20:44:06Z"
     },
     {
-      "id": "hackernews:https://laya.convaiinnovations.com/",
-      "url": "https://laya.convaiinnovations.com/",
-      "title": "[Hacker News 热门] I built non-autoregressive decision models with RL a year ago",
-      "date_published": "2026-09-20T17:20:52Z"
+      "id": "weibo:https://s.weibo.com/weibo?q=%E5%8D%A1%E5%AE%B4%E9%99%8D30%E4%B8%87%E8%BF%98%E5%BE%9761%E4%B8%87&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%E5%8D%A1%E5%AE%B4%E9%99%8D30%E4%B8%87%E8%BF%98%E5%BE%9761%E4%B8%87&t=31&band_rank=1&Refer=top",
+      "title": "[热搜榜] 卡宴降30万还得61万",
+      "date_published": "2026-09-20T20:44:06Z"
     },
     {
-      "id": "hackernews:https://www.vals.ai/blogs/fable-solves-cyphral-distich",
-      "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
-      "title": "[Hacker News 热门] Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
-      "date_published": "2026-09-20T17:20:52Z"
+      "id": "weibo:https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E8%B6%B3%E7%90%83%E5%B0%8F%E5%B0%86%E7%95%99%E6%B4%8B%E8%A5%BF%E7%8F%AD%E7%89%99&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E8%B6%B3%E7%90%83%E5%B0%8F%E5%B0%86%E7%95%99%E6%B4%8B%E8%A5%BF%E7%8F%AD%E7%89%99&t=31&band_rank=1&Refer=top",
+      "title": "[热搜榜] 中国足球小将留洋西班牙",
+      "date_published": "2026-09-20T20:44:06Z"
     },
     {
-      "id": "hackernews:https://grapheneos.social/@GrapheneOS/117282080803799576",
-      "url": "https://grapheneos.social/@GrapheneOS/117282080803799576",
-      "title": "[Hacker News 热门] Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
-      "date_published": "2026-09-20T17:20:52Z"
+      "id": "weibo:https://s.weibo.com/weibo?q=%E7%AB%A0%E5%AD%90%E6%80%A1%20%E8%84%B8&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%E7%AB%A0%E5%AD%90%E6%80%A1%20%E8%84%B8&t=31&band_rank=1&Refer=top",
+      "title": "[热搜榜] 章子怡 脸",
+      "date_published": "2026-09-20T20:44:06Z"
     },
     {
-      "id": "hackernews:https://notnottalmud.substack.com/p/why-i-cant-stop-thinking-about-papua",
-      "url": "https://notnottalmud.substack.com/p/why-i-cant-stop-thinking-about-papua",
-      "title": "[Hacker News 热门] I can't stop thinking about Papua New Guinea",
-      "date_published": "2026-09-20T17:20:52Z"
+      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%86%AF%E7%A6%A7%E5%AD%99%E4%B9%90%E8%A8%80%E5%86%AF%E7%90%B3%E6%98%AF%E5%90%8C%E7%8F%AD%E5%90%8C%E5%AD%A6%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%86%AF%E7%A6%A7%E5%AD%99%E4%B9%90%E8%A8%80%E5%86%AF%E7%90%B3%E6%98%AF%E5%90%8C%E7%8F%AD%E5%90%8C%E5%AD%A6%23&t=31&band_rank=1&Refer=top",
+      "title": "[热搜榜] 冯禧孙乐言冯琳是同班同学",
+      "date_published": "2026-09-20T20:44:06Z"
     },
     {
-      "id": "hackernews:https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
-      "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
-      "title": "[Hacker News 热门] Nvidia announces native GPU programming in Rust",
-      "date_published": "2026-09-20T17:20:52Z"
+      "id": "weibo:https://s.weibo.com/weibo?q=%E5%A4%AE%E5%A6%88%E6%8A%A5%E9%81%93%E6%A8%8A%E6%8C%AF%E4%B8%9C&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%AE%E5%A6%88%E6%8A%A5%E9%81%93%E6%A8%8A%E6%8C%AF%E4%B8%9C&t=31&band_rank=1&Refer=top",
+      "title": "[热搜榜] 央妈报道樊振东",
+      "date_published": "2026-09-20T20:44:06Z"
+    },
+    {
+      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E5%A7%86%E5%B7%B4%E4%BD%A9%20%E9%A9%AC%E7%AB%9E&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%E5%A7%86%E5%B7%B4%E4%BD%A9%20%E9%A9%AC%E7%AB%9E&t=31&band_rank=1&Refer=top",
+      "title": "[实时] 姆巴佩 马竞",
+      "date_published": "2026-09-20T20:44:06Z"
+    },
+    {
+      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E5%90%95%E5%AD%9F%E6%B4%8B%E8%A5%BF%E7%8F%AD%E7%89%99%E4%BA%BA%E9%A6%96%E7%A7%80&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%E5%90%95%E5%AD%9F%E6%B4%8B%E8%A5%BF%E7%8F%AD%E7%89%99%E4%BA%BA%E9%A6%96%E7%A7%80&t=31&band_rank=1&Refer=top",
+      "title": "[实时] 吕孟洋西班牙人首秀",
+      "date_published": "2026-09-20T20:44:06Z"
+    },
+    {
+      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%BC%A0%E5%AE%B6%E9%BD%90%E5%B0%91%E5%A5%B3%E6%BC%AB%E5%89%8D%E7%A9%BA%E7%BF%BB%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%BC%A0%E5%AE%B6%E9%BD%90%E5%B0%91%E5%A5%B3%E6%BC%AB%E5%89%8D%E7%A9%BA%E7%BF%BB%23&t=31&band_rank=1&Refer=top",
+      "title": "[实时] 张家齐少女漫前空翻",
+      "date_published": "2026-09-20T20:44:06Z"
+    },
+    {
+      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E6%BD%98%E5%B1%95%E4%B9%90%E7%9B%B4%E8%A8%80%E8%B0%81%E9%83%BD%E6%83%B3%E8%A6%81%E9%82%A3%E6%9E%9A%E9%87%91%E7%89%8C%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%BD%98%E5%B1%95%E4%B9%90%E7%9B%B4%E8%A8%80%E8%B0%81%E9%83%BD%E6%83%B3%E8%A6%81%E9%82%A3%E6%9E%9A%E9%87%91%E7%89%8C%23&t=31&band_rank=1&Refer=top",
+      "title": "[实时] 潘展乐直言谁都想要那枚金牌",
+      "date_published": "2026-09-20T20:44:06Z"
+    },
+    {
+      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%86%AF%E7%A6%A7%E4%BA%8B%E4%B8%9A%E5%89%8D%E6%99%AF%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%86%AF%E7%A6%A7%E4%BA%8B%E4%B8%9A%E5%89%8D%E6%99%AF%23&t=31&band_rank=1&Refer=top",
+      "title": "[实时] 冯禧事业前景",
+      "date_published": "2026-09-20T20:44:06Z"
+    },
+    {
+      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23tank%E5%94%B1%E5%8D%83%E5%B9%B4%E6%B3%AA%E9%95%9C%E5%A4%B4%E7%BB%99%E4%BA%86%E8%83%A1%E6%AD%8C%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23tank%E5%94%B1%E5%8D%83%E5%B9%B4%E6%B3%AA%E9%95%9C%E5%A4%B4%E7%BB%99%E4%BA%86%E8%83%A1%E6%AD%8C%23&t=31&band_rank=1&Refer=top",
+      "title": "[实时] tank唱千年泪镜头给了胡歌",
+      "date_published": "2026-09-20T20:44:06Z"
+    },
+    {
+      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E5%BC%A0%E5%AE%B6%E9%BD%90%E4%BB%8E%E6%9C%AA%E8%A7%81%E8%BF%87%E5%A6%88%E5%A6%88%E9%80%81%E7%9A%84%E9%A1%B9%E9%93%BE&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E5%AE%B6%E9%BD%90%E4%BB%8E%E6%9C%AA%E8%A7%81%E8%BF%87%E5%A6%88%E5%A6%88%E9%80%81%E7%9A%84%E9%A1%B9%E9%93%BE&t=31&band_rank=1&Refer=top",
+      "title": "[实时] 张家齐从未见过妈妈送的项链",
+      "date_published": "2026-09-20T20:44:06Z"
+    },
+    {
+      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E7%8E%8B%E4%BF%8A%E5%87%AF%E9%80%80%E7%BD%91%E5%85%AD%E5%B9%B4%E7%9A%84%E7%AB%99%E5%A7%90%E5%9B%9E%E6%9D%A5%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E4%BF%8A%E5%87%AF%E9%80%80%E7%BD%91%E5%85%AD%E5%B9%B4%E7%9A%84%E7%AB%99%E5%A7%90%E5%9B%9E%E6%9D%A5%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "title": "[实时] 王俊凯退网六年的站姐回来了",
+      "date_published": "2026-09-20T20:44:06Z"
+    },
+    {
+      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E7%96%91%E9%81%AD%E7%BB%91%E6%9E%B6%E5%A5%B3%E4%B8%BB%E6%92%AD%E8%A7%86%E9%A2%91%E4%B8%AD%E7%8A%B6%E6%80%81%E6%B6%A3%E6%95%A3%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%96%91%E9%81%AD%E7%BB%91%E6%9E%B6%E5%A5%B3%E4%B8%BB%E6%92%AD%E8%A7%86%E9%A2%91%E4%B8%AD%E7%8A%B6%E6%80%81%E6%B6%A3%E6%95%A3%23&t=31&band_rank=1&Refer=top",
+      "title": "[同城] 疑遭绑架女主播视频中状态涣散",
+      "date_published": "2026-09-20T20:44:06Z"
+    },
+    {
+      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E6%89%93%E5%87%BB%E5%95%86K%20%E8%BF%9E%E9%94%81%E5%8F%8D%E5%BA%94&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%E6%89%93%E5%87%BB%E5%95%86K%20%E8%BF%9E%E9%94%81%E5%8F%8D%E5%BA%94&t=31&band_rank=1&Refer=top",
+      "title": "[同城] 打击商K 连锁反应",
+      "date_published": "2026-09-20T20:44:06Z"
+    },
+    {
+      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E5%BD%A9%E7%A4%BC18.8%E4%B8%87%E5%BF%AB%E6%88%90%E5%85%A8%E5%9B%BD%E7%BB%9F%E4%B8%80%E4%BB%B7%E4%BA%86&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%E5%BD%A9%E7%A4%BC18.8%E4%B8%87%E5%BF%AB%E6%88%90%E5%85%A8%E5%9B%BD%E7%BB%9F%E4%B8%80%E4%BB%B7%E4%BA%86&t=31&band_rank=1&Refer=top",
+      "title": "[同城] 彩礼18.8万快成全国统一价了",
+      "date_published": "2026-09-20T20:44:06Z"
+    },
+    {
+      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E8%82%AF%E5%BE%B7%E5%9F%BA%20%E6%B6%88%E8%B4%B9%E8%80%85%E8%A7%89%E5%BE%97%E5%A5%BD%E5%90%83%E5%B0%B1%E4%B8%8B%E6%9E%B6&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%E8%82%AF%E5%BE%B7%E5%9F%BA%20%E6%B6%88%E8%B4%B9%E8%80%85%E8%A7%89%E5%BE%97%E5%A5%BD%E5%90%83%E5%B0%B1%E4%B8%8B%E6%9E%B6&t=31&band_rank=1&Refer=top",
+      "title": "[同城] 肯德基 消费者觉得好吃就下架",
+      "date_published": "2026-09-20T20:44:06Z"
+    },
+    {
+      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%B7%B2%E5%A9%9A%E5%A5%B3%E5%AD%90%E4%B8%8E%E7%94%B7%E5%AD%90%E5%BC%80%E6%88%BF%E6%AC%A1%E6%97%A5%E5%85%A8%E8%A3%B8%E8%BA%AB%E4%BA%A1%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%B7%B2%E5%A9%9A%E5%A5%B3%E5%AD%90%E4%B8%8E%E7%94%B7%E5%AD%90%E5%BC%80%E6%88%BF%E6%AC%A1%E6%97%A5%E5%85%A8%E8%A3%B8%E8%BA%AB%E4%BA%A1%23&t=31&band_rank=1&Refer=top",
+      "title": "[同城] 已婚女子与男子开房次日全裸身亡",
+      "date_published": "2026-09-20T20:44:06Z"
+    },
+    {
+      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%9C%A8%E6%B3%B0%E7%96%91%E9%81%AD%E7%BB%91%E6%9E%B6%E5%A5%B3%E4%B8%BB%E6%92%AD%E5%AE%B6%E5%B1%9E%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%9C%A8%E6%B3%B0%E7%96%91%E9%81%AD%E7%BB%91%E6%9E%B6%E5%A5%B3%E4%B8%BB%E6%92%AD%E5%AE%B6%E5%B1%9E%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
+      "title": "[同城] 在泰疑遭绑架女主播家属发声",
+      "date_published": "2026-09-20T20:44:06Z"
     }
   ]
 }
