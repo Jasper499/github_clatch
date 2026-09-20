@@ -1,0 +1,260 @@
+# Holo
+
+Holo is an experimental native macOS utility that turns the desk immediately around a MacBook into four assignable tap zones. It listens through the selected Mac microphone, extracts acoustic features from short impulse windows, classifies the zone locally, and runs the action assigned to that zone.
+
+The topology is intentionally four broad zones:
+
+```text
+                  Display side
+Left Rear      ┌─────────────┐      Right Rear
+               │   MacBook   │
+Left Front     └─────────────┘      Right Front
+                  Trackpad side
+```
+
+Holo is a research prototype. Automated DSP tests pass, but useful accuracy still has to be measured on each real MacBook, desk, room, and laptop position. No physical accuracy claim is made without a saved 60-tap evaluation from that setup.
+
+The requirement-by-requirement evidence ledger is in [ACCEPTANCE.md](ACCEPTANCE.md).
+
+## What is implemented
+
+- Four fixed zones: rear and front zones on each side of the MacBook.
+- Explicitly armed calibration: ten accepted examples spread across each zone, 40 total, with clear retry guidance for weak, noisy, or clipped taps.
+- A calibration-consistency check that identifies and can redo the weakest zone before saving.
+- Adaptive streaming onset detection, sustained-sound rejection, and fixed 90 ms analysis windows.
+- Passive tap acoustics, an optional active acoustic probe, and a hybrid mode.
+- Robust feature normalization, a regularized linear zone model backed by nearest-example novelty checks, ambiguity rejection, out-of-distribution rejection, and optional negative examples.
+- Per-profile actions: visual only, play a sound, copy or speak text, open a website, run a Shortcut, open an application or item, execute a shell command, or capture a screenshot. New zones default to visual-only until the user assigns a side effect.
+- Guided 60-tap held-out evaluation with per-zone accuracy, latency, rejected-tap counts, and a confusion matrix.
+- Saved evaluation history is restored after relaunch and scoped to the desk profile that produced it.
+- Signal diagnostics, labeled feature capture, approach comparison, JSON/CSV reports, and opt-in raw debug WAV capture.
+- Sandboxed, local persistence. Raw audio is discarded by default.
+- Core Audio route validation requires the built-in microphone for every mode and the built-in speakers for Active or Hybrid sensing.
+
+## Requirements
+
+- macOS 14 or later.
+- Xcode 26 is recommended for the current project. The app uses Liquid Glass button styles on macOS 26 and native bordered controls on older supported systems.
+- [XcodeGen](https://github.com/yonaskolb/XcodeGen) to regenerate `Holo.xcodeproj` from `project.yml`.
+- A MacBook with its built-in microphone selected. External inputs are rejected rather than silently changing the calibrated signal path.
+- Active and Hybrid sensing additionally require MacBook Speakers as the selected output. Passive sensing does not emit a probe.
+
+## Build
+
+Generate the Xcode project after changing `project.yml`:
+
+```sh
+xcodegen generate
+```
+
+Then open `Holo.xcodeproj`, select the `Holo` scheme, and run it on My Mac. A new install requests microphone permission when calibration begins or when the user explicitly presses Resume; it does not prompt merely because the window opened.
+
+Use Xcode's normal **Sign to Run Locally** build when launching Holo. `CODE_SIGNING_ALLOWED=NO` is only for non-GUI verification; its stripped bundle lacks the audio-input entitlement and should not be launched. An ad-hoc local build may still need consent again after its binary changes; selecting an Apple Development team gives macOS a stable signing identity across rebuilds. Within one build, Holo coalesces concurrent microphone starts and authorization requests, and its bundle prohibits duplicate app instances.
+
+A non-signing command-line build is useful for CI or local verification:
+
+```sh
+xcodebuild \
+  -project Holo.xcodeproj \
+  -scheme Holo \
+  -configuration Debug \
+  -derivedDataPath /tmp/HoloDerived \
+  CODE_SIGNING_ALLOWED=NO \
+  build
+```
+
+## Calibration
+
+1. Put the MacBook where it will remain during use. Moving or rotating it changes the acoustic path and invalidates the profile.
+2. Open Calibration and describe the desk, surface, and MacBook position.
+3. Keep Passive tap acoustics selected unless Diagnostics has compared the approaches on this exact setup.
+4. Begin calibration. Holo prepares and arms the highlighted zone automatically.
+5. Wait for Preparing to change to Listening, then make ten natural taps with a short pause between them. Spread the taps around the highlighted area instead of repeating one exact point.
+6. Weak, masked, or clipped taps are not added; Holo explains whether to tap more firmly, wait for quiet, or use a lighter touch.
+7. The zone disarms after ten accepted samples. Move to the next highlighted zone during the short transition; Holo arms it automatically. Sounds made during the transition are ignored. If listening is paused, use the visible Arm control after resuming.
+8. Use Undo for the latest sample or Redo Zone if a set was inconsistent.
+9. Review the leave-one-out calibration agreement. If it is weak, redo the identified zone before saving.
+10. Save the 40-sample profile and assign its four actions.
+
+Talking, typing, touching the laptop, and room noise can be collected as negative examples after the four zones are complete. Talking is recommended: speak normally for a few seconds and Holo records only speech peaks that get past the impact gate. Negative examples intentionally do not have to pass the clean-tap quality gate. Only their feature vectors are persisted unless raw debug recording is separately enabled.
+
+Profiles from the obsolete six-zone and nine-zone topologies are intentionally ignored. Recalibrate rather than trying to reinterpret old samples as new physical zones.
+
+While calibration, an accuracy test, or a sensing comparison is active, unrelated sidebar destinations and profile switching are disabled. Cancel or finish the guided capture first. Pausing the microphone disarms every pending capture, including rejection training. Changing profiles never turns a paused microphone back on; explicitly starting a guided capture does resume it.
+
+## Assigning actions
+
+Actions contains exactly four rows grouped by side. Changes save to the selected profile as they are made, and each configured action has an inline Test button.
+
+- Visual only highlights the accepted zone without a side effect.
+- Play sound uses an available macOS system sound.
+- Copy text writes the configured text to the pasteboard.
+- Speak text uses the local speech synthesizer.
+- Open website accepts HTTP or HTTPS addresses.
+- Run Shortcut opens the named Shortcut through the system Shortcuts URL scheme.
+- Open or focus app stores an app-scoped security bookmark for the application selected by the user.
+- Open file or folder stores an app-scoped security bookmark for a user-selected item.
+- Run shell command executes the configured command through `/bin/zsh` with Holo's sandbox permissions.
+- Screenshot to clipboard captures the full display without saving a file.
+- Select screenshot to clipboard invokes the standard interactive area-selection tool.
+
+Actions run only for an accepted classification while Desk is selected. Calibration, profile editing, diagnostics, accuracy reports, and the Actions editor suppress automatic side effects; the editor's inline Test button remains explicit. Rejected, ambiguous, weak, clipped, or out-of-distribution events do not trigger an action. Shell commands run automatically once assigned, so commands should be safe to repeat and should not depend on an interactive terminal. macOS may request access when an action first opens a protected item or captures the screen. A Shortcut is the recommended way to compose multi-step workflows such as opening Claude and beginning a user-defined voice flow.
+
+## Supported surfaces
+
+The practical target is a stable, rigid desk where taps create repeatable resonances: solid wood, engineered wood, laminate, and similarly rigid tops are the best candidates. Glass, metal, hollow-core, very large, mechanically coupled, or heavily damped desks are experimental and require their own measured profile. Soft mats, moving laptop stands, and desks that shift under normal use are not supported assumptions.
+
+Support is determined by a completed accuracy test on the exact setup, not by material name alone. No desk material is declared supported globally.
+
+## Evaluation
+
+Evaluation is separate from calibration and uses new taps. It guides fifteen taps per zone, 60 total. Each zone must be armed, preventing movement and interface sounds from being counted before the user is ready. A detected event made while armed is included even if the classifier rejects it; rejected taps therefore count as incorrect. Response latency runs from the audio tap buffer's monotonic `AVAudioTime` host timestamp through feature extraction, the main-thread handoff, and classification.
+
+The prototype acceptance targets are:
+
+- At least 80% overall accuracy over a balanced 60-tap session.
+- Median response latency below 200 ms.
+- No crashes or unbounded memory growth during a 30-minute run.
+
+The app saves each completed evaluation as JSON and CSV. Reports include per-zone accuracy, the four-by-four confusion matrix, a rejected column, confidence, and response latency. The newest saved report for the selected profile is restored after relaunch; reports from another desk are never shown as the current result. Reports from an obsolete topology are skipped. If either file cannot be saved, the screen identifies the result as memory-only. Invalid host-clock timestamps are exported as `INVALID` and prevent the latency target from passing. Calibration cross-validation is shown only as a diagnostic; it is not a substitute for held-out evaluation.
+
+## Sensing approaches
+
+Passive tap acoustics is the default and does not play sound. The feature extractor combines temporal shape, frequency bands, log-mel/MFCC-style coefficients, and any spatial differences exposed by the selected input channels.
+
+Active acoustic probe emits a low-amplitude 15.5–21 kHz chirp every 120 ms and adds response-correlation features. Hybrid combines both feature sets. Laptop speakers, microphones, sample rates, hearing ranges, and desk geometry vary, so the probe may be filtered, ineffective, or faintly audible. It is never assumed to outperform passive sensing.
+
+Before capture starts, Holo reads the default Core Audio input/output transport types. The built-in microphone is mandatory; Active and Hybrid also require built-in speaker output. A route change that violates this policy stops capture and the probe immediately.
+
+The bottom status bar explicitly says when the speaker probe is active.
+
+Onset detection begins with a 0.75-second room-learning period, then adapts its noise floor while requiring a short, high-contrast onset. A second gate reviews the complete 90 ms candidate and rejects events whose effective duration, late energy, and weak early concentration clearly resemble sustained speech. Rejected sustained events also update the adaptive floor during their refractory period, preventing conversation from repeatedly re-arming capture. A separate low-pass path keeps the high-frequency probe from triggering its own capture. Accepted windows retain the untouched full-band channels for active-response feature extraction.
+
+Diagnostics can collect three taps per zone for each approach—36 samples total—and compare leave-one-out accuracy and DSP processing latency. Every set is explicitly armed. The highest measured score becomes the suggested strategy for the next calibration, but the result is bound to the desk profile on which it was measured and cannot silently influence another profile.
+
+## Architecture
+
+```text
+AVAudioEngine input
+  → adaptive impulse detector
+  → 90 ms multichannel window
+  → full-event impact / sustained-sound gate
+  → passive / active feature extraction
+  → regularized zone model + nearest-example rejection gates
+  → accepted four-zone decision
+  → local action dispatcher
+```
+
+- `Sources/HoloCore` contains the guided capture protocols, detector, FFT and feature extraction, classifier, persistence models, diagnostics, evaluation reporting, and WAV writer. It has no SwiftUI dependency.
+- `Sources/HoloApp` contains audio capture, app state, local action dispatch, and the native SwiftUI interface.
+- `Sources/HoloSoak` is a non-GUI synthetic DSP stress runner.
+- `Sources/HoloRouteCheck` is a non-GUI check of the current Core Audio input/output transport policy.
+- `Tests/HoloCoreTests` covers guided session totals and ordering, guided-capture quality gates, adaptive room-noise rejection, microphone-request coalescing, the chunked detector-to-classifier pipeline, injected active-probe recovery, shared-spectrum analysis, hardware-route policy, validated local-action planning, negative and ambiguity rejection, evaluation history, strict profile persistence, WAV output, and the exact four-zone topology.
+
+Each detected window uses one shared power spectrum for classification, active-response bands, and diagnostics rather than repeating the same FFT. Capture generations discard observations queued by an audio route or strategy that has already been stopped.
+
+The interface rationale and source research are in [DESIGN.md](DESIGN.md). The central rule is that system materials and Liquid Glass support navigation and controls; they are not decoration for content. The desk map uses two continuous two-zone rails instead of four floating cards. The UI deliberately avoids neon gradients, bento metric cards, excessive rounded containers, filler metrics, and continuous ornamental motion.
+
+## Privacy and storage
+
+Audio processing happens on the Mac. Holo does not upload audio, features, profiles, or reports. An assigned website or application action can of course open that external destination.
+
+By default:
+
+- The detector retains only enough in-memory audio for pre-roll and one 90 ms analysis window.
+- Raw windows are discarded after feature extraction.
+- Profiles store feature vectors and classifier parameters, not recordings.
+- Debug recording starts disabled on every launch.
+
+Holo uses one application window because there is one microphone engine and one guided-session state. Closing that window terminates Holo, preventing microphone capture from continuing without its in-app activity indicator.
+
+When Retain 90 ms debug recordings is enabled in Diagnostics, each detected window is saved locally as a float WAV until the user deletes it. The UI shows a persistent red privacy warning while retention is enabled. If captures remain after a relaunch, an orange saved-audio indicator and the delete control remain visible even though new audio is being discarded.
+
+Application Support contains:
+
+```text
+Holo/Profiles/                 feature-only profile JSON
+Holo/Evaluations/              JSON and CSV evaluation reports
+Holo/approach-comparison.json  latest sensing comparison
+Holo/DebugCaptures/            opt-in raw WAV windows only
+```
+
+Because the app is sandboxed, these paths live inside Holo's app container in normal signed builds.
+
+## Automated verification
+
+Most recent automated check on macOS 26.5.2:
+
+- Debug and Release app builds: passed with no source warnings.
+- Static analyzer: passed.
+- Unit tests: 68 passed, 0 failed, 0 skipped.
+- Accelerated mixed four-zone synthetic soak at the production confidence threshold: 5,000 events in 0.8 seconds; 4,500/4,500 zone taps correct and 500/500 weak, noisy, clipped, schema-mismatched, or out-of-distribution challenges rejected; zero false accepts; RSS 6.7 → 7.0 MB (+0.3 MB).
+- Earlier all-positive 30-minute synthetic wall-clock soak: 17,186 events; 17,186 correct, 0 rejected, 0 wrong; RSS 6.7 → 6.4 MB (−0.3 MB). This predates the current four-zone topology and is retained only as historical stability evidence.
+- Read-only route check: MacBook Pro Microphone and MacBook Pro Speakers both reported as built-in; Passive, Active, and Hybrid ready.
+
+Run the unit suite with:
+
+```sh
+xcodebuild \
+  -project Holo.xcodeproj \
+  -scheme Holo \
+  -configuration Debug \
+  -derivedDataPath /tmp/HoloDerived \
+  CODE_SIGNING_ALLOWED=NO \
+  test
+```
+
+Build and run the synthetic soak without opening the GUI:
+
+```sh
+xcodebuild \
+  -project Holo.xcodeproj \
+  -scheme HoloSoak \
+  -configuration Release \
+  -derivedDataPath /tmp/HoloSoakDerived \
+  CODE_SIGNING_ALLOWED=NO \
+  build
+
+DYLD_FRAMEWORK_PATH=/tmp/HoloSoakDerived/Build/Products/Release \
+  /tmp/HoloSoakDerived/Build/Products/Release/HoloSoak --duration 1800
+```
+
+The synthetic runner exercises feature extraction, classification, rejection gates, finite-value checks, and resident-memory behavior. It does not exercise AVAudioEngine, microphone permissions, real room noise, physical desk variability, or action dispatch.
+
+Check the current built-in hardware routes without opening Holo or requesting microphone access:
+
+```sh
+xcodebuild \
+  -project Holo.xcodeproj \
+  -scheme HoloRouteCheck \
+  -configuration Debug \
+  -derivedDataPath /tmp/HoloRouteDerived \
+  CODE_SIGNING_ALLOWED=NO \
+  build
+
+DYLD_FRAMEWORK_PATH=/tmp/HoloRouteDerived/Build/Products/Debug \
+  /tmp/HoloRouteDerived/Build/Products/Debug/HoloRouteCheck
+```
+
+## Known limitations
+
+- A profile is specific to one MacBook, surface, room arrangement, and laptop position. Holo rejects external input devices because they change the sensing path.
+- Built-in microphone APIs may expose one aggregate channel rather than independent physical array elements.
+- Soft, unstable, very large, heavily damped, or noisy surfaces may not produce separable zones.
+- Short consonants, typing, laptop touches, dropped objects, and nearby impacts can resemble taps. The sustained-sound gate and profile-specific negatives reduce false positives but cannot guarantee none.
+- Calibration quality depends on consistent natural taps. The UI prevents unarmed sounds from being added, but it cannot know whether the user tapped the intended physical location.
+- The active probe is experimental and can be filtered or audible on some hardware.
+- The 80% and 200 ms targets must still be demonstrated with a real held-out session for each target setup.
+- Automated stress results do not replace a 30-minute live microphone and action-dispatch run on the target Mac.
+
+## Before claiming the prototype is validated
+
+For every supported Mac/desk combination:
+
+1. Run Diagnostics in a representative quiet and noisy environment.
+2. Calibrate all four zones with the final MacBook position.
+3. Run a new balanced 60-tap evaluation and retain its JSON/CSV report.
+4. Confirm at least 80% overall accuracy and median response below 200 ms.
+5. Run the live app for 30 minutes with representative taps, conversation, typing, laptop touches, and background noise while monitoring crashes, false triggers, and memory.
+
+Until those physical checks are complete, Holo should be described as functional experimental software—not a proven acoustic input device.

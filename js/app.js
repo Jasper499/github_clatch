@@ -96,6 +96,10 @@ let seenStore = {};
 let pinStore = [];
 let currentSourceRef = null;
 let panelSyncSeq = 0;
+const readmeCache = {};
+const readmeInflight = {};
+let paletteItemIndex = null;
+let paletteItemPromise = null;
 
 const PLATFORM_META = {
   github: { theme: "theme-github", short: "GH", name: "GitHub" },
@@ -469,7 +473,7 @@ function flattenCatalogSources(data) {
   return keys;
 }
 
-function jumpToSource(data, sourceKey) {
+function jumpToSource(data, sourceKey, itemIndex = 0) {
   let targetKey = sourceKey;
   let meta = findSourceMeta(data, targetKey);
   if (!meta && targetKey) {
@@ -480,12 +484,12 @@ function jumpToSource(data, sourceKey) {
   activeParentId = meta.parentId;
   activeSourceKey = meta.sourceKey;
   clearSearchInputs();
-  activeItemIndex = 0;
+  activeItemIndex = Math.max(0, Number(itemIndex) || 0);
   renderTree(data);
   renderMobileNav(data);
   renderMobileSubnav(data);
   updatePinButton();
-  void syncPanel(data, { preserveItemIndex: false });
+  void syncPanel(data, { preserveItemIndex: true });
 }
 
 function cycleSource(data, delta) {
@@ -1049,6 +1053,11 @@ function renderActiveList(source, activeIndex) {
 }
 
 function renderActiveDetail(item, index) {
+  paintActiveDetail(item, index);
+  void hydrateActiveReadme(item, index);
+}
+
+function paintActiveDetail(item, index) {
   const mode = getFeedMode();
   if (mode === "weibo") return renderWeiboDetail(item, index);
   if (mode === "hn") return renderHnDetail(item, index);
@@ -1120,6 +1129,81 @@ function renderGithubMarkdown(markdown, fullName) {
   return html;
 }
 
+function githubRawReadmeUrl(item) {
+  const file = item?.readmeFile || "README.md";
+  const url = String(item?.url || "");
+  const tree = url.match(/github\.com\/([^/]+)\/([^/]+)\/tree\/([^/]+)\/(.+)$/i);
+  if (tree) {
+    return `https://raw.githubusercontent.com/${tree[1]}/${tree[2]}/${tree[3]}/${tree[4]}/${file}`;
+  }
+  const repoPage = url.match(/github\.com\/([^/]+)\/([^/]+)\/?$/i);
+  if (repoPage) {
+    return `https://raw.githubusercontent.com/${repoPage[1]}/${repoPage[2]}/HEAD/${file}`;
+  }
+  if (item?.repo) {
+    return `https://raw.githubusercontent.com/${item.repo}/HEAD/${file}`;
+  }
+  return "";
+}
+
+async function fetchItemReadme(sourceKey, item, index) {
+  if (item?.readme) return item.readme;
+  const cacheKey = `${sourceKey}:${index}`;
+  if (Object.prototype.hasOwnProperty.call(readmeCache, cacheKey)) return readmeCache[cacheKey];
+  if (readmeInflight[cacheKey]) return readmeInflight[cacheKey];
+
+  readmeInflight[cacheKey] = (async () => {
+    const localUrl = `data/readmes/${encodeURIComponent(sourceKey)}/${index}.md`;
+    try {
+      const res = await fetch(`${localUrl}?t=${Date.now()}`);
+      if (res.ok) {
+        const text = await res.text();
+        if (text.trim()) {
+          readmeCache[cacheKey] = text;
+          return text;
+        }
+      }
+    } catch (_) {}
+
+    const raw = githubRawReadmeUrl(item);
+    if (raw) {
+      try {
+        const res = await fetch(raw);
+        if (res.ok) {
+          const text = await res.text();
+          if (text.trim()) {
+            readmeCache[cacheKey] = text;
+            return text;
+          }
+        }
+      } catch (_) {}
+    }
+    readmeCache[cacheKey] = "";
+    return "";
+  })();
+
+  try {
+    return await readmeInflight[cacheKey];
+  } finally {
+    delete readmeInflight[cacheKey];
+  }
+}
+
+async function hydrateActiveReadme(item, index) {
+  if (!item || item.readme || item.readmeMissing || !isReadmeSource(activeSourceKey)) return;
+  const seq = panelSyncSeq;
+  const sourceKey = activeSourceKey;
+  const text = await fetchItemReadme(sourceKey, item, index);
+  if (seq !== panelSyncSeq || activeSourceKey !== sourceKey || activeItemIndex !== index) return;
+  if (text) {
+    item.readme = text;
+    if (currentSourceRef?.items?.[index]) currentSourceRef.items[index].readme = text;
+  } else {
+    item.readmeMissing = true;
+  }
+  paintActiveDetail(item, index);
+}
+
 function renderGithubReadmeBlock(item, repoFullName = null) {
   const fileName = item.readmeFile || "README.md";
   const markdownBase =
@@ -1127,13 +1211,16 @@ function renderGithubReadmeBlock(item, repoFullName = null) {
     (String(item.title || "").includes("/") ? String(item.title).split(" · ")[0] : null);
 
   if (!item.readme) {
+    const loading = Boolean(item.readmeFile) && !item.readmeMissing;
     return `
-      <details class="readme-panel">
+      <details class="readme-panel"${loading ? " open" : ""}>
         <summary class="readme-summary">
           <span class="readme-summary-title">${escapeHtml(fileName)}</span>
-          <span class="readme-summary-hint">暂无内容</span>
+          <span class="readme-summary-hint">${loading ? "加载中" : "暂无内容"}</span>
         </summary>
-        <p class="detail-desc muted readme-empty">该仓库未提供 README，或抓取时未能获取。</p>
+        <p class="detail-desc muted readme-empty">${
+          loading ? "正在按条加载 README…" : "该仓库未提供 README，或抓取时未能获取。"
+        }</p>
       </details>
     `;
   }
@@ -1697,7 +1784,7 @@ async function runHistoryCompare(data) {
     btn.textContent = "对比中…";
   }
   try {
-    const current = await resolveSource(data, sourceKey);
+    const current = await resolveSource(data, sourceKey, { lite: true });
     const prevUrl = `data/history/${sourceKey}/${previousKey}.json?t=${Date.now()}`;
     const prevRes = await fetch(prevUrl);
     if (!prevRes.ok) throw new Error(`上一快照加载失败 (${prevRes.status})`);
@@ -2416,7 +2503,11 @@ function renderGithubDetail(item, index, platform) {
     item.stars != null ? metaPill(`★ ${Number(item.stars).toLocaleString()}`, "star") : "",
     item.owner ? metaPill(`@${item.owner}`) : "",
     item.language ? metaPill(item.language, "lang") : "",
-    item.readme ? metaPill("README 已收录", "success") : metaPill("无 README", "default"),
+    item.readme
+      ? metaPill("README 已收录", "success")
+      : item.readmeMissing
+        ? metaPill("无 README", "default")
+        : metaPill("README 加载中", "default"),
   ]
     .filter(Boolean)
     .join("");
@@ -2454,7 +2545,7 @@ function renderTrackedSkillsDetail(item, index, platform) {
   const rankLabel = String(index + 1).padStart(2, "0");
   const repoFullName = TRACKED_SKILLS_REPO[activeSourceKey] || item.repo || "";
   const showReadme =
-    (activeSourceKey === "natureSkills" || activeSourceKey === "scientificSkills") && item.readme;
+    activeSourceKey === "natureSkills" || activeSourceKey === "scientificSkills";
   const readmeBlock = showReadme ? renderGithubReadmeBlock(item, repoFullName) : "";
   const repoUrl = repoFullName ? `https://github.com/${repoFullName}` : item.url || "#";
 
@@ -2467,7 +2558,11 @@ function renderTrackedSkillsDetail(item, index, platform) {
     item.stars != null ? metaPill(`★ ${Number(item.stars).toLocaleString()}`, "star") : "",
     item.skillCount != null ? metaPill(`${item.skillCount} skills`, "success") : "",
     item.owner ? metaPill(`@${item.owner}`) : "",
-    showReadme ? metaPill("SKILL/README 已收录", "success") : "",
+    showReadme && item.readme
+      ? metaPill("SKILL/README 已收录", "success")
+      : showReadme && !item.readmeMissing
+        ? metaPill("README 加载中", "default")
+        : "",
   ]
     .filter(Boolean)
     .join("");
@@ -2635,13 +2730,6 @@ async function syncPanel(data, { preserveItemIndex = true } = {}) {
   try {
     const first = await resolveSource(data, sourceKey, { lite: preferLite });
     if (!paint(first)) return;
-    if (preferLite && isReadmeSource(sourceKey)) {
-      const full = await resolveSource(data, sourceKey, { lite: false });
-      if (seq !== panelSyncSeq || activeSourceKey !== sourceKey) return;
-      currentSourceRef = full;
-      const item = full?.items?.[activeItemIndex];
-      renderActiveDetail(item, activeItemIndex);
-    }
   } catch (err) {
     if (seq !== panelSyncSeq || activeSourceKey !== sourceKey) return;
     document.getElementById("section-desc").textContent = err.message;
@@ -2666,7 +2754,9 @@ function bindSearch(data) {
     timer = setTimeout(() => {
       void (async () => {
         try {
-          const source = await resolveSource(data, activeSourceKey);
+          const source = await resolveSource(data, activeSourceKey, {
+            lite: activeSourceKey !== WEIBO_REALTIME_KEY,
+          });
           const filtered = filterItems(source?.items || []);
           if (filtered.length && !filtered.some(({ index }) => index === activeItemIndex)) {
             activeItemIndex = filtered[0].index;
@@ -2887,6 +2977,46 @@ function openActiveItem() {
   }
 }
 
+function itemSearchHay(item) {
+  return `${item.title || ""} ${plainText(item.description || "")} ${item.owner || ""} ${item.label || ""} ${item.language || ""} ${item.repo || ""}`.toLowerCase();
+}
+
+async function loadPaletteItemIndex(data) {
+  if (paletteItemIndex) return paletteItemIndex;
+  if (paletteItemPromise) return paletteItemPromise;
+  paletteItemPromise = (async () => {
+    const keys = flattenCatalogSources(data);
+    const rows = [];
+    await Promise.all(
+      keys.map(async (key) => {
+        try {
+          const source = await resolveSource(data, key, { lite: true });
+          const parent = findSourceMeta(data, key);
+          (source?.items || []).forEach((item, index) => {
+            rows.push({
+              id: `item:${key}:${index}`,
+              title: item.title || "(无标题)",
+              hint: `${parent?.parentLabel || getPlatformMeta(key).name} · 条目`,
+              hay: itemSearchHay(item),
+              run: () => jumpToSource(data, key, index),
+            });
+          });
+        } catch (_) {
+          /* skip a source that failed to load */
+        }
+      })
+    );
+    paletteItemIndex = rows;
+    return rows;
+  })();
+  try {
+    return await paletteItemPromise;
+  } catch (_) {
+    paletteItemPromise = null;
+    return [];
+  }
+}
+
 function commandPaletteItems(data) {
   const items = [];
   getCatalog(data).forEach((parent) => {
@@ -2896,7 +3026,7 @@ function commandPaletteItems(data) {
         id: `go:${child.sourceKey}`,
         title: `${parent.label} / ${source?.label || child.id}`,
         hint: child.sourceKey,
-        run: () => jumpToSource(data, child.sourceKey),
+        run: () => jumpToSource(data, child.sourceKey, 0),
       });
     });
   });
@@ -2952,13 +3082,10 @@ function bindCommandPalette(data) {
 
   let filtered = [];
   let selected = 0;
+  let renderSeq = 0;
 
-  const renderList = () => {
-    const q = (input.value || "").trim().toLowerCase();
-    filtered = commandPaletteItems(data).filter((item) => {
-      if (!q) return true;
-      return `${item.title} ${item.hint} ${item.id}`.toLowerCase().includes(q);
-    });
+  const paintPalette = (items) => {
+    filtered = items;
     if (selected >= filtered.length) selected = Math.max(0, filtered.length - 1);
     list.innerHTML = filtered.length
       ? filtered
@@ -2972,10 +3099,38 @@ function bindCommandPalette(data) {
       </li>`
           )
           .join("")
-      : `<li class="command-palette-item">无匹配命令</li>`;
+      : `<li class="command-palette-item">无匹配命令或条目</li>`;
     list.querySelectorAll(".command-palette-item[data-index]").forEach((btn) => {
       btn.addEventListener("click", () => runIndex(Number(btn.dataset.index)));
     });
+  };
+
+  const renderList = () => {
+    const q = (input.value || "").trim().toLowerCase();
+    const commands = commandPaletteItems(data);
+    const matchedCommands = commands.filter((item) => {
+      if (!q) return true;
+      return `${item.title} ${item.hint} ${item.id}`.toLowerCase().includes(q);
+    });
+    if (!q) {
+      paintPalette(matchedCommands);
+      return;
+    }
+    const seq = ++renderSeq;
+    if (!paletteItemIndex && !paletteItemPromise) void loadPaletteItemIndex(data);
+    const applyItems = (rows) => {
+      if (seq !== renderSeq) return;
+      const matchedItems = rows
+        .filter((row) => row.title.toLowerCase().includes(q) || row.hay.includes(q))
+        .slice(0, 12);
+      paintPalette([...matchedItems, ...matchedCommands]);
+    };
+    if (paletteItemIndex) {
+      applyItems(paletteItemIndex);
+      return;
+    }
+    paintPalette(matchedCommands);
+    void loadPaletteItemIndex(data).then(applyItems);
   };
 
   const runIndex = (idx) => {
@@ -3201,6 +3356,7 @@ async function loadContent() {
     updatePinButton();
     registerServiceWorker();
     await syncPanel(appData, { preserveItemIndex: Boolean(route) });
+    void loadPaletteItemIndex(appData);
 
     loading.style.display = "none";
     document.getElementById("mobile-nav").hidden = false;

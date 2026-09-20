@@ -1,13 +1,13 @@
 /* HJL Clatch service worker — cache shell + recent data for offline reading. */
-const CACHE_SHELL = "clatch-shell-v24";
-const CACHE_DATA = "clatch-data-v24";
+const CACHE_SHELL = "clatch-shell-v25";
+const CACHE_DATA = "clatch-data-v25";
 
 const SHELL_FILES = [
   "./",
   "./index.html",
-  "./css/style.css?v=24",
-  "./js/app.js?v=24",
-  "./js/icons.js?v=24",
+  "./css/style.css?v=25",
+  "./js/app.js?v=25",
+  "./js/icons.js?v=25",
   "./img/ws-scene.svg",
   "./img/ws-grid.svg",
   "./vendor/marked.min.js",
@@ -49,6 +49,7 @@ function isDataRequest(url) {
     url.pathname.includes("/data/meta.json") ||
     url.pathname.includes("/data/manifest.json") ||
     url.pathname.includes("/data/sources/") ||
+    url.pathname.includes("/data/readmes/") ||
     url.pathname.includes("/data/history/") ||
     url.pathname.includes("/data/feeds/")
   );

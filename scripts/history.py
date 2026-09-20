@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 HISTORY_DIR = DATA_DIR / "history"
 SOURCES_DIR = DATA_DIR / "sources"
+READMES_DIR = DATA_DIR / "readmes"
 MANIFEST_PATH = DATA_DIR / "manifest.json"
 META_PATH = DATA_DIR / "meta.json"
 MAX_SNAPSHOTS_PER_SOURCE = 120
@@ -72,6 +73,69 @@ def _slim_items_without_readme(source_data: dict) -> dict:
     return out
 
 
+def write_item_readmes(source_key: str, source_data: dict) -> int:
+    """Write one markdown file per item that has a README body.
+
+    Paths are index-based (0.md, 1.md) so the frontend can fetch a single
+    file without hydrating the full source JSON.
+    """
+    items = source_data.get("items")
+    out_dir = READMES_DIR / source_key
+    if not isinstance(items, list):
+        return 0
+
+    written = set()
+    count = 0
+    for index, item in enumerate(items):
+        if not isinstance(item, dict):
+            continue
+        body = item.get("readme")
+        if not isinstance(body, str) or not body.strip():
+            continue
+        if not count:
+            out_dir.mkdir(parents=True, exist_ok=True)
+        name = f"{index}.md"
+        (out_dir / name).write_text(body, encoding="utf-8")
+        written.add(name)
+        count += 1
+
+    if out_dir.exists():
+        for stale in out_dir.glob("*.md"):
+            if stale.name not in written:
+                try:
+                    stale.unlink()
+                except OSError:
+                    pass
+        if count == 0:
+            try:
+                next(out_dir.iterdir())
+            except StopIteration:
+                try:
+                    out_dir.rmdir()
+                except OSError:
+                    pass
+    return count
+
+
+def split_existing_source_readmes() -> int:
+    """One-shot: peel README bodies out of existing sources/*.json."""
+    total = 0
+    if not SOURCES_DIR.exists():
+        return 0
+    for path in sorted(SOURCES_DIR.glob("*.json")):
+        if path.name.endswith(".lite.json"):
+            continue
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, UnicodeDecodeError, json.JSONDecodeError):
+            continue
+        if not isinstance(data, dict):
+            continue
+        key = str(data.get("sourceKey") or path.stem)
+        total += write_item_readmes(key, data)
+    return total
+
+
 def write_latest_source(source_key: str, source_data: dict) -> Path:
     """Write data/sources/{key}.json and a README-free .lite.json companion."""
     SOURCES_DIR.mkdir(parents=True, exist_ok=True)
@@ -94,6 +158,7 @@ def write_latest_source(source_key: str, source_data: dict) -> Path:
     with lite_file.open("w", encoding="utf-8") as f:
         json.dump(lite_payload, f, ensure_ascii=False, indent=2)
         f.write("\n")
+    write_item_readmes(source_key, source_data)
     return out_file
 
 
