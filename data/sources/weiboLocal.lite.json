@@ -1,50 +1,60 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-09-22T11:27:49Z",
+  "savedAt": "2026-09-22T16:50:30Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-09-22，共 4 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-09-22，共 5 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-09-22",
   "items": [
     {
-      "title": "女孩从5楼扔快递给快递员时坠亡",
-      "description": "热 · 突发/灾害",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%A9%E4%BB%8E5%E6%A5%BC%E6%89%94%E5%BF%AB%E9%80%92%E7%BB%99%E5%BF%AB%E9%80%92%E5%91%98%E6%97%B6%E5%9D%A0%E4%BA%A1%23&t=31&band_rank=1&Refer=top",
-      "score": 378793,
-      "owner": "微博同城",
-      "label": "热",
-      "category": "突发/灾害",
-      "onboardTime": 1790068819
-    },
-    {
-      "title": "孙女整理遗物发现爽身粉罐里的秘密",
+      "title": "13岁女孩遭强奸案闺蜜被认定为共犯",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AD%99%E5%A5%B3%E6%95%B4%E7%90%86%E9%81%97%E7%89%A9%E5%8F%91%E7%8E%B0%E7%88%BD%E8%BA%AB%E7%B2%89%E7%BD%90%E9%87%8C%E7%9A%84%E7%A7%98%E5%AF%86%23&t=31&band_rank=1&Refer=top",
-      "score": 218660,
+      "url": "https://s.weibo.com/weibo?q=%2313%E5%B2%81%E5%A5%B3%E5%AD%A9%E9%81%AD%E5%BC%BA%E5%A5%B8%E6%A1%88%E9%97%BA%E8%9C%9C%E8%A2%AB%E8%AE%A4%E5%AE%9A%E4%B8%BA%E5%85%B1%E7%8A%AF%23&t=31&band_rank=1&Refer=top",
+      "score": 351687,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1790065821
+      "onboardTime": 1790090181
     },
     {
-      "title": "智能家居的邪修联动",
+      "title": "4国房价泡沫见底时间每次都一样",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=4%E5%9B%BD%E6%88%BF%E4%BB%B7%E6%B3%A1%E6%B2%AB%E8%A7%81%E5%BA%95%E6%97%B6%E9%97%B4%E6%AF%8F%E6%AC%A1%E9%83%BD%E4%B8%80%E6%A0%B7&t=31&band_rank=1&Refer=top",
+      "score": 278574,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1790089702
+    },
+    {
+      "title": "多方回应老人5次打120未接通后身亡",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%9A%E6%96%B9%E5%9B%9E%E5%BA%94%E8%80%81%E4%BA%BA5%E6%AC%A1%E6%89%93120%E6%9C%AA%E6%8E%A5%E9%80%9A%E5%90%8E%E8%BA%AB%E4%BA%A1%23&t=31&band_rank=1&Refer=top",
+      "score": 275986,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1790085322
+    },
+    {
+      "title": "女子翻出小学3年级裙子穿出礼服感",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85%E7%9A%84%E9%82%AA%E4%BF%AE%E8%81%94%E5%8A%A8&t=31&band_rank=1&Refer=top",
-      "score": 145820,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E7%BF%BB%E5%87%BA%E5%B0%8F%E5%AD%A63%E5%B9%B4%E7%BA%A7%E8%A3%99%E5%AD%90%E7%A9%BF%E5%87%BA%E7%A4%BC%E6%9C%8D%E6%84%9F%23&t=31&band_rank=1&Refer=top",
+      "score": 223067,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1790074401
+      "onboardTime": 1790090481
     },
     {
-      "title": "宁波43岁自律长跑男突发心梗",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AE%81%E6%B3%A243%E5%B2%81%E8%87%AA%E5%BE%8B%E9%95%BF%E8%B7%91%E7%94%B7%E7%AA%81%E5%8F%91%E5%BF%83%E6%A2%97%23&t=31&band_rank=1&Refer=top",
-      "score": 140696,
+      "title": "重庆市委书记赴张雪机车调研",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%87%8D%E5%BA%86%E5%B8%82%E5%A7%94%E4%B9%A6%E8%AE%B0%E8%B5%B4%E5%BC%A0%E9%9B%AA%E6%9C%BA%E8%BD%A6%E8%B0%83%E7%A0%94%23&t=31&band_rank=1&Refer=top",
+      "score": 223012,
       "owner": "微博同城",
-      "label": "新",
+      "label": "",
       "category": "民生新闻",
-      "onboardTime": 1790075060
+      "onboardTime": 1790088922
     }
   ]
 }
