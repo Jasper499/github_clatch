@@ -1,90 +1,100 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-09-21T21:56:01Z",
+  "savedAt": "2026-09-22T04:44:43Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-09-21，共 8 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-09-22，共 9 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
-  "fetchedDate": "2026-09-21",
+  "fetchedDate": "2026-09-22",
   "items": [
     {
-      "title": "两部门紧急拨付2亿支持4省救灾",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%A4%E9%83%A8%E9%97%A8%E7%B4%A7%E6%80%A5%E6%8B%A8%E4%BB%982%E4%BA%BF%E6%94%AF%E6%8C%814%E7%9C%81%E6%95%91%E7%81%BE%23&t=31&band_rank=1&Refer=top",
-      "score": 175158,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1789996041
-    },
-    {
-      "title": "16岁小伙被判强奸罪家属发声",
+      "title": "月饼 卖不动",
       "description": "热 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%2316%E5%B2%81%E5%B0%8F%E4%BC%99%E8%A2%AB%E5%88%A4%E5%BC%BA%E5%A5%B8%E7%BD%AA%E5%AE%B6%E5%B1%9E%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
-      "score": 46123,
+      "url": "https://s.weibo.com/weibo?q=%E6%9C%88%E9%A5%BC%20%E5%8D%96%E4%B8%8D%E5%8A%A8&t=31&band_rank=1&Refer=top",
+      "score": 2114819,
       "owner": "微博同城",
       "label": "热",
       "category": "民生新闻",
-      "onboardTime": 1790008578
+      "onboardTime": 1790045000
     },
     {
-      "title": "16岁少年与14岁女孩发生关系判3年",
-      "description": "热 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%2316%E5%B2%81%E5%B0%91%E5%B9%B4%E4%B8%8E14%E5%B2%81%E5%A5%B3%E5%AD%A9%E5%8F%91%E7%94%9F%E5%85%B3%E7%B3%BB%E5%88%A43%E5%B9%B4%23&t=31&band_rank=1&Refer=top",
-      "score": 45993,
+      "title": "不打折的山姆月饼反而卖爆了",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%8D%E6%89%93%E6%8A%98%E7%9A%84%E5%B1%B1%E5%A7%86%E6%9C%88%E9%A5%BC%E5%8F%8D%E8%80%8C%E5%8D%96%E7%88%86%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 1327245,
       "owner": "微博同城",
-      "label": "热",
+      "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1790003419
+      "onboardTime": 1790048481
     },
     {
-      "title": "贾国龙 公关",
+      "title": "校方称逃避军训男生正在办理退学",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E8%B4%BE%E5%9B%BD%E9%BE%99%20%E5%85%AC%E5%85%B3&t=31&band_rank=1&Refer=top",
-      "score": 35831,
+      "url": "https://s.weibo.com/weibo?q=%23%E6%A0%A1%E6%96%B9%E7%A7%B0%E9%80%83%E9%81%BF%E5%86%9B%E8%AE%AD%E7%94%B7%E7%94%9F%E6%AD%A3%E5%9C%A8%E5%8A%9E%E7%90%86%E9%80%80%E5%AD%A6%23&t=31&band_rank=1&Refer=top",
+      "score": 1084430,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1789991660
+      "onboardTime": 1790046081
     },
     {
-      "title": "闲鱼快成黄鱼了",
+      "title": "理记",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%97%B2%E9%B1%BC%E5%BF%AB%E6%88%90%E9%BB%84%E9%B1%BC%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 34121,
+      "url": "https://s.weibo.com/weibo?q=%E7%90%86%E8%AE%B0&t=31&band_rank=1&Refer=top",
+      "score": 495119,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1789980380
+      "onboardTime": 1790042960
     },
     {
-      "title": "16岁小伙涉强奸证人称双方谈恋爱",
+      "title": "美心月饼打六折卖",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%2316%E5%B2%81%E5%B0%8F%E4%BC%99%E6%B6%89%E5%BC%BA%E5%A5%B8%E8%AF%81%E4%BA%BA%E7%A7%B0%E5%8F%8C%E6%96%B9%E8%B0%88%E6%81%8B%E7%88%B1%23&t=31&band_rank=1&Refer=top",
-      "score": 31082,
+      "url": "https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%BF%83%E6%9C%88%E9%A5%BC%E6%89%93%E5%85%AD%E6%8A%98%E5%8D%96%23&t=31&band_rank=1&Refer=top",
+      "score": 399044,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1790018413
+      "onboardTime": 1790036959
     },
     {
-      "title": "校方回应男生逃避军训飞往上海旅游",
+      "title": "当14岁女孩被标价时闲鱼在推什么",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%BD%9314%E5%B2%81%E5%A5%B3%E5%AD%A9%E8%A2%AB%E6%A0%87%E4%BB%B7%E6%97%B6%E9%97%B2%E9%B1%BC%E5%9C%A8%E6%8E%A8%E4%BB%80%E4%B9%88%23&t=31&band_rank=1&Refer=top",
+      "score": 358244,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1790051541
+    },
+    {
+      "title": "官方通报幼儿园集体呕吐事件",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%AE%98%E6%96%B9%E9%80%9A%E6%8A%A5%E5%B9%BC%E5%84%BF%E5%9B%AD%E9%9B%86%E4%BD%93%E5%91%95%E5%90%90%E4%BA%8B%E4%BB%B6%23&t=31&band_rank=1&Refer=top",
+      "score": 310863,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1790050039
+    },
+    {
+      "title": "国家电网传来重磅突破",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%A0%A1%E6%96%B9%E5%9B%9E%E5%BA%94%E7%94%B7%E7%94%9F%E9%80%83%E9%81%BF%E5%86%9B%E8%AE%AD%E9%A3%9E%E5%BE%80%E4%B8%8A%E6%B5%B7%E6%97%85%E6%B8%B8%23&t=31&band_rank=1&Refer=top",
-      "score": 30339,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%9B%BD%E5%AE%B6%E7%94%B5%E7%BD%91%E4%BC%A0%E6%9D%A5%E9%87%8D%E7%A3%85%E7%AA%81%E7%A0%B4%23&t=31&band_rank=1&Refer=top",
+      "score": 198800,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1790003780
+      "onboardTime": 1790037860
     },
     {
-      "title": "柬埔寨电诈园区内部曝光",
+      "title": "女子度假险遭性侵18岁安保男子被抓",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9F%AC%E5%9F%94%E5%AF%A8%E7%94%B5%E8%AF%88%E5%9B%AD%E5%8C%BA%E5%86%85%E9%83%A8%E6%9B%9D%E5%85%89%23&t=31&band_rank=1&Refer=top",
-      "score": 30264,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E5%BA%A6%E5%81%87%E9%99%A9%E9%81%AD%E6%80%A7%E4%BE%B518%E5%B2%81%E5%AE%89%E4%BF%9D%E7%94%B7%E5%AD%90%E8%A2%AB%E6%8A%93%23&t=31&band_rank=1&Refer=top",
+      "score": 195888,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1790001021
+      "onboardTime": 1790042179
     }
   ]
 }
