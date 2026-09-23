@@ -6,52 +6,124 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "hackernews:https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
-      "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
-      "title": "[Hacker News 热门] AI-generated posters don’t have to be horrible",
-      "date_published": "2026-09-23T18:19:05Z"
+      "id": "weibo:https://s.weibo.com/weibo?q=%23%E8%8A%B1%E5%B0%912%E6%90%AC%E7%AE%B1%E5%AD%90%E6%A5%BC%E6%A2%AF%E5%AE%9E%E9%99%85%E9%95%BF%E8%BF%99%E6%A0%B7%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%8A%B1%E5%B0%912%E6%90%AC%E7%AE%B1%E5%AD%90%E6%A5%BC%E6%A2%AF%E5%AE%9E%E9%99%85%E9%95%BF%E8%BF%99%E6%A0%B7%23&t=31&band_rank=1&Refer=top",
+      "title": "[热搜榜] 花少2搬箱子楼梯实际长这样",
+      "date_published": "2026-09-23T21:26:26Z"
     },
     {
-      "id": "hackernews:https://www.anthropic.com/claude-opus-5-5",
-      "url": "https://www.anthropic.com/claude-opus-5-5",
-      "title": "[Hacker News 热门] Claude Opus 5.5",
-      "date_published": "2026-09-23T18:19:05Z"
+      "id": "weibo:https://s.weibo.com/weibo?q=%23%E9%99%8D%E5%8E%8B%E7%96%AB%E8%8B%97%E8%A6%81%E6%9D%A5%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%99%8D%E5%8E%8B%E7%96%AB%E8%8B%97%E8%A6%81%E6%9D%A5%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "title": "[热搜榜] 降压疫苗要来了",
+      "date_published": "2026-09-23T21:26:26Z"
     },
     {
-      "id": "hackernews:https://openai.com/index/introducing-gpt-6-sol-and-luna/",
-      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
-      "title": "[Hacker News 热门] GPT-6 Sol and Luna",
-      "date_published": "2026-09-23T18:19:05Z"
+      "id": "weibo:https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E5%A4%A9%E7%9C%BC%E5%AE%9E%E7%8E%B0%E4%B8%80%E6%89%B9%E5%8E%9F%E5%88%9B%E7%AA%81%E7%A0%B4%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E5%A4%A9%E7%9C%BC%E5%AE%9E%E7%8E%B0%E4%B8%80%E6%89%B9%E5%8E%9F%E5%88%9B%E7%AA%81%E7%A0%B4%23&t=31&band_rank=1&Refer=top",
+      "title": "[热搜榜] 中国天眼实现一批原创突破",
+      "date_published": "2026-09-23T21:26:26Z"
     },
     {
-      "id": "hackernews:https://laya.convaiinnovations.com/",
-      "url": "https://laya.convaiinnovations.com/",
-      "title": "[Hacker News 热门] I built non-autoregressive decision models with RL a year ago",
-      "date_published": "2026-09-23T18:19:05Z"
+      "id": "weibo:https://s.weibo.com/weibo?q=%23%E4%B8%80%E4%B8%AA%E8%A7%86%E9%A2%91%E8%A7%A3%E5%86%B3%E6%89%80%E6%9C%89%E9%93%81%E9%94%85%E7%B2%98%E9%94%85%E9%97%AE%E9%A2%98%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%80%E4%B8%AA%E8%A7%86%E9%A2%91%E8%A7%A3%E5%86%B3%E6%89%80%E6%9C%89%E9%93%81%E9%94%85%E7%B2%98%E9%94%85%E9%97%AE%E9%A2%98%23&t=31&band_rank=1&Refer=top",
+      "title": "[热搜榜] 一个视频解决所有铁锅粘锅问题",
+      "date_published": "2026-09-23T21:26:26Z"
     },
     {
-      "id": "hackernews:https://grapheneos.social/@GrapheneOS/117282080803799576",
-      "url": "https://grapheneos.social/@GrapheneOS/117282080803799576",
-      "title": "[Hacker News 热门] Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
-      "date_published": "2026-09-23T18:19:05Z"
+      "id": "weibo:https://s.weibo.com/weibo?q=%E5%B0%8F%E7%B1%B318ProMax%E9%80%8F%E6%98%8E%E7%89%88%E4%B8%8A%E6%89%8B&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%B1%B318ProMax%E9%80%8F%E6%98%8E%E7%89%88%E4%B8%8A%E6%89%8B&t=31&band_rank=1&Refer=top",
+      "title": "[热搜榜] 小米18ProMax透明版上手",
+      "date_published": "2026-09-23T21:26:26Z"
     },
     {
-      "id": "hackernews:https://mimo.xiaomi.com/mimo-v2-6",
-      "url": "https://mimo.xiaomi.com/mimo-v2-6",
-      "title": "[Hacker News 热门] MiMo v2.6",
-      "date_published": "2026-09-23T18:19:05Z"
+      "id": "weibo:https://s.weibo.com/weibo?q=%23%E6%9D%A8%E5%B9%82%E9%AA%97%E4%BA%86%E5%85%A8%E7%BD%91%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%A8%E5%B9%82%E9%AA%97%E4%BA%86%E5%85%A8%E7%BD%91%23&t=31&band_rank=1&Refer=top",
+      "title": "[热搜榜] 杨幂骗了全网",
+      "date_published": "2026-09-23T21:26:26Z"
     },
     {
-      "id": "hackernews:https://alicegg.tech/2026/09/21/attention",
-      "url": "https://alicegg.tech/2026/09/21/attention",
-      "title": "[Hacker News 热门] Attention is all you have",
-      "date_published": "2026-09-23T18:19:05Z"
+      "id": "weibo:https://s.weibo.com/weibo?q=%23%E8%B0%AD%E6%9D%BE%E9%9F%B5%E5%9B%9E%E5%BA%94%E5%85%B0%E9%A6%99%E5%A4%A7%E5%A9%9A%E6%89%87%E5%B7%B4%E6%8E%8C%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%B0%AD%E6%9D%BE%E9%9F%B5%E5%9B%9E%E5%BA%94%E5%85%B0%E9%A6%99%E5%A4%A7%E5%A9%9A%E6%89%87%E5%B7%B4%E6%8E%8C%23&t=31&band_rank=1&Refer=top",
+      "title": "[热搜榜] 谭松韵回应兰香大婚扇巴掌",
+      "date_published": "2026-09-23T21:26:26Z"
     },
     {
-      "id": "hackernews:https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/",
-      "url": "https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/",
-      "title": "[Hacker News 热门] I don't want to read what you didn't write",
-      "date_published": "2026-09-23T18:19:05Z"
+      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%86%AF%E5%B0%8F%E5%88%9A%E5%9B%9E%E5%BA%94%E5%9E%83%E5%9C%BE%E8%A7%82%E4%BC%97%E8%A8%80%E8%AE%BA%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%86%AF%E5%B0%8F%E5%88%9A%E5%9B%9E%E5%BA%94%E5%9E%83%E5%9C%BE%E8%A7%82%E4%BC%97%E8%A8%80%E8%AE%BA%23&t=31&band_rank=1&Refer=top",
+      "title": "[热搜榜] 冯小刚回应垃圾观众言论",
+      "date_published": "2026-09-23T21:26:26Z"
+    },
+    {
+      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E7%8E%8B%E7%9A%93%E6%8C%87%E5%AF%BC%E6%8A%8A%E5%8E%8B%E5%8A%9B%E5%85%A8%E5%86%99%E5%9C%A8%E8%84%B8%E4%B8%8A%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E7%9A%93%E6%8C%87%E5%AF%BC%E6%8A%8A%E5%8E%8B%E5%8A%9B%E5%85%A8%E5%86%99%E5%9C%A8%E8%84%B8%E4%B8%8A%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "title": "[实时] 王皓指导把压力全写在脸上了",
+      "date_published": "2026-09-23T21:26:26Z"
+    },
+    {
+      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E5%A5%B3%E5%9B%A2%E8%B7%B3%E9%A9%AC%E8%90%BD%E5%90%8E1.9%E5%88%86&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E5%A5%B3%E5%9B%A2%E8%B7%B3%E9%A9%AC%E8%90%BD%E5%90%8E1.9%E5%88%86&t=31&band_rank=1&Refer=top",
+      "title": "[实时] 中国女团跳马落后1.9分",
+      "date_published": "2026-09-23T21:26:26Z"
+    },
+    {
+      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%88%98%E8%80%80%E6%96%87%E5%9B%9E%E5%A4%8D%E5%AE%8B%E4%BA%9A%E8%BD%A9%E4%B8%8D%E5%96%8A%E5%93%A5%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E8%80%80%E6%96%87%E5%9B%9E%E5%A4%8D%E5%AE%8B%E4%BA%9A%E8%BD%A9%E4%B8%8D%E5%96%8A%E5%93%A5%23&t=31&band_rank=1&Refer=top",
+      "title": "[实时] 刘耀文回复宋亚轩不喊哥",
+      "date_published": "2026-09-23T21:26:26Z"
+    },
+    {
+      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E4%BA%91%E5%88%9D%E4%BB%A4&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%E4%BA%91%E5%88%9D%E4%BB%A4&t=31&band_rank=1&Refer=top",
+      "title": "[实时] 云初令",
+      "date_published": "2026-09-23T21:26:26Z"
+    },
+    {
+      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%86%8D%E7%9C%8B%E4%BA%BF%E9%81%8D%E4%B8%AD%E5%9B%BD%E5%A7%91%E5%A8%98%E4%BB%AC%E5%A4%BA%E5%86%A0%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%86%8D%E7%9C%8B%E4%BA%BF%E9%81%8D%E4%B8%AD%E5%9B%BD%E5%A7%91%E5%A8%98%E4%BB%AC%E5%A4%BA%E5%86%A0%23&t=31&band_rank=1&Refer=top",
+      "title": "[实时] 再看亿遍中国姑娘们夺冠",
+      "date_published": "2026-09-23T21:26:26Z"
+    },
+    {
+      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E6%9D%8E%E5%AE%87%E6%98%A5%E5%9B%9E%E5%BA%94%E6%96%B0%E4%B8%93%E8%BE%91%E8%BF%9B%E5%BA%A6%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E5%AE%87%E6%98%A5%E5%9B%9E%E5%BA%94%E6%96%B0%E4%B8%93%E8%BE%91%E8%BF%9B%E5%BA%A6%23&t=31&band_rank=1&Refer=top",
+      "title": "[实时] 李宇春回应新专辑进度",
+      "date_published": "2026-09-23T21:26:26Z"
+    },
+    {
+      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E7%9C%9F%E6%AD%A3%E7%9A%84%E8%83%BD%E5%8A%9B%E6%98%AF%E5%9C%A8%E6%B2%A1%E6%9C%89%E5%8F%8D%E9%A6%88%E7%9A%84%E5%9C%B0%E6%96%B9%E4%B8%8D%E6%85%8C&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%E7%9C%9F%E6%AD%A3%E7%9A%84%E8%83%BD%E5%8A%9B%E6%98%AF%E5%9C%A8%E6%B2%A1%E6%9C%89%E5%8F%8D%E9%A6%88%E7%9A%84%E5%9C%B0%E6%96%B9%E4%B8%8D%E6%85%8C&t=31&band_rank=1&Refer=top",
+      "title": "[实时] 真正的能力是在没有反馈的地方不慌",
+      "date_published": "2026-09-23T21:26:26Z"
+    },
+    {
+      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%A5%9A%E9%92%A6%E8%AF%B4%E8%83%BD%E8%B5%A2%E4%B8%BB%E8%A6%81%E6%98%AF%E4%BF%A1%E5%BF%B5%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%A5%9A%E9%92%A6%E8%AF%B4%E8%83%BD%E8%B5%A2%E4%B8%BB%E8%A6%81%E6%98%AF%E4%BF%A1%E5%BF%B5%23&t=31&band_rank=1&Refer=top",
+      "title": "[实时] 王楚钦说能赢主要是信念",
+      "date_published": "2026-09-23T21:26:26Z"
+    },
+    {
+      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E5%A4%A9%E7%9C%BC%E5%AE%9E%E7%8E%B0%E4%B8%80%E6%89%B9%E5%8E%9F%E5%88%9B%E7%AA%81%E7%A0%B4%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E5%A4%A9%E7%9C%BC%E5%AE%9E%E7%8E%B0%E4%B8%80%E6%89%B9%E5%8E%9F%E5%88%9B%E7%AA%81%E7%A0%B4%23&t=31&band_rank=1&Refer=top",
+      "title": "[同城] 中国天眼实现一批原创突破",
+      "date_published": "2026-09-23T21:26:26Z"
+    },
+    {
+      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E9%99%A2%E9%95%BF%E8%AF%B4%E5%8C%97%E4%BA%AC%E7%94%B5%E5%BD%B1%E5%AD%A6%E9%99%A2%E4%B8%8D%E7%94%9F%E4%BA%A7%E5%A4%A7%E6%98%8E%E6%98%9F%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%99%A2%E9%95%BF%E8%AF%B4%E5%8C%97%E4%BA%AC%E7%94%B5%E5%BD%B1%E5%AD%A6%E9%99%A2%E4%B8%8D%E7%94%9F%E4%BA%A7%E5%A4%A7%E6%98%8E%E6%98%9F%23&t=31&band_rank=1&Refer=top",
+      "title": "[同城] 院长说北京电影学院不生产大明星",
+      "date_published": "2026-09-23T21:26:26Z"
+    },
+    {
+      "id": "weiboLocal:https://s.weibo.com/weibo?q=%233%E5%90%8D%E4%B8%AD%E5%9B%BD%E5%A5%B3%E5%AD%90%E5%9C%A8%E6%B3%B0%E9%81%AD%E8%AF%B1%E9%AA%97%E9%94%81%E9%93%BE%E5%9B%9A%E7%A6%81%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%233%E5%90%8D%E4%B8%AD%E5%9B%BD%E5%A5%B3%E5%AD%90%E5%9C%A8%E6%B3%B0%E9%81%AD%E8%AF%B1%E9%AA%97%E9%94%81%E9%93%BE%E5%9B%9A%E7%A6%81%23&t=31&band_rank=1&Refer=top",
+      "title": "[同城] 3名中国女子在泰遭诱骗锁链囚禁",
+      "date_published": "2026-09-23T21:26:26Z"
+    },
+    {
+      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E6%B0%94%E8%B1%A1%E9%83%A8%E9%97%A8%E5%9B%9E%E5%BA%94%E6%88%90%E9%83%BD%E4%B8%8D%E6%98%8E%E9%A3%9E%E8%A1%8C%E7%89%A9%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B0%94%E8%B1%A1%E9%83%A8%E9%97%A8%E5%9B%9E%E5%BA%94%E6%88%90%E9%83%BD%E4%B8%8D%E6%98%8E%E9%A3%9E%E8%A1%8C%E7%89%A9%23&t=31&band_rank=1&Refer=top",
+      "title": "[同城] 气象部门回应成都不明飞行物",
+      "date_published": "2026-09-23T21:26:26Z"
     }
   ]
 }

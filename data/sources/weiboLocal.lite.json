@@ -1,6 +1,6 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-09-23T16:48:37Z",
+  "savedAt": "2026-09-23T21:26:26Z",
   "label": "同城",
   "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-09-23，共 4 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
@@ -10,41 +10,41 @@
       "title": "中国天眼实现一批原创突破",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E5%A4%A9%E7%9C%BC%E5%AE%9E%E7%8E%B0%E4%B8%80%E6%89%B9%E5%8E%9F%E5%88%9B%E7%AA%81%E7%A0%B4%23&t=31&band_rank=1&Refer=top",
-      "score": 416197,
+      "score": 84305,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1790166201
     },
     {
-      "title": "3名中国女子在泰遭诱骗锁链囚禁",
+      "title": "院长说北京电影学院不生产大明星",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%233%E5%90%8D%E4%B8%AD%E5%9B%BD%E5%A5%B3%E5%AD%90%E5%9C%A8%E6%B3%B0%E9%81%AD%E8%AF%B1%E9%AA%97%E9%94%81%E9%93%BE%E5%9B%9A%E7%A6%81%23&t=31&band_rank=1&Refer=top",
-      "score": 378946,
+      "url": "https://s.weibo.com/weibo?q=%23%E9%99%A2%E9%95%BF%E8%AF%B4%E5%8C%97%E4%BA%AC%E7%94%B5%E5%BD%B1%E5%AD%A6%E9%99%A2%E4%B8%8D%E7%94%9F%E4%BA%A7%E5%A4%A7%E6%98%8E%E6%98%9F%23&t=31&band_rank=1&Refer=top",
+      "score": 37616,
       "owner": "微博同城",
       "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1790182336
+    },
+    {
+      "title": "3名中国女子在泰遭诱骗锁链囚禁",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%233%E5%90%8D%E4%B8%AD%E5%9B%BD%E5%A5%B3%E5%AD%90%E5%9C%A8%E6%B3%B0%E9%81%AD%E8%AF%B1%E9%AA%97%E9%94%81%E9%93%BE%E5%9B%9A%E7%A6%81%23&t=31&band_rank=1&Refer=top",
+      "score": 29684,
+      "owner": "微博同城",
+      "label": "热",
       "category": "民生新闻",
       "onboardTime": 1790176580
     },
     {
       "title": "气象部门回应成都不明飞行物",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B0%94%E8%B1%A1%E9%83%A8%E9%97%A8%E5%9B%9E%E5%BA%94%E6%88%90%E9%83%BD%E4%B8%8D%E6%98%8E%E9%A3%9E%E8%A1%8C%E7%89%A9%23&t=31&band_rank=1&Refer=top",
-      "score": 230008,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1790178380
-    },
-    {
-      "title": "中国教育普及程度居世界前列",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E6%95%99%E8%82%B2%E6%99%AE%E5%8F%8A%E7%A8%8B%E5%BA%A6%E5%B1%85%E4%B8%96%E7%95%8C%E5%89%8D%E5%88%97%23&t=31&band_rank=1&Refer=top",
-      "score": 81606,
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B0%94%E8%B1%A1%E9%83%A8%E9%97%A8%E5%9B%9E%E5%BA%94%E6%88%90%E9%83%BD%E4%B8%8D%E6%98%8E%E9%A3%9E%E8%A1%8C%E7%89%A9%23&t=31&band_rank=1&Refer=top",
+      "score": 28258,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1790165480
+      "onboardTime": 1790178380
     }
   ]
 }
