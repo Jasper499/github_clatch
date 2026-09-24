@@ -6,148 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E4%B8%AD%E7%BE%8E%E5%85%83%E9%A6%96%E5%8D%8A%E5%B9%B4%E5%86%85%E5%AE%9E%E7%8E%B0%E5%9B%BD%E4%BA%8B%E4%BA%92%E8%AE%BF%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E7%BE%8E%E5%85%83%E9%A6%96%E5%8D%8A%E5%B9%B4%E5%86%85%E5%AE%9E%E7%8E%B0%E5%9B%BD%E4%BA%8B%E4%BA%92%E8%AE%BF%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 中美元首半年内实现国事互访",
-      "date_published": "2026-09-24T04:37:32Z"
+      "id": "hackernews:https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
+      "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
+      "title": "[Hacker News 热门] AI-generated posters don’t have to be horrible",
+      "date_published": "2026-09-24T07:25:46Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E4%BC%97%E6%98%9F%E6%82%BC%E5%BF%B5%E6%B8%B8%E6%9C%AC%E6%98%8C%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%BC%97%E6%98%9F%E6%82%BC%E5%BF%B5%E6%B8%B8%E6%9C%AC%E6%98%8C%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 众星悼念游本昌",
-      "date_published": "2026-09-24T04:37:32Z"
+      "id": "hackernews:https://www.anthropic.com/claude-opus-5-5",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "title": "[Hacker News 热门] Claude Opus 5.5",
+      "date_published": "2026-09-24T07:25:46Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%8D%AB%E6%98%9F%E4%BA%92%E8%81%94%E7%BD%91%E4%BD%8E%E8%BD%A826%E7%BB%84%E5%8D%AB%E6%98%9F%E6%88%90%E5%8A%9F%E5%8F%91%E5%B0%84%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8D%AB%E6%98%9F%E4%BA%92%E8%81%94%E7%BD%91%E4%BD%8E%E8%BD%A826%E7%BB%84%E5%8D%AB%E6%98%9F%E6%88%90%E5%8A%9F%E5%8F%91%E5%B0%84%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 卫星互联网低轨26组卫星成功发射",
-      "date_published": "2026-09-24T04:37:32Z"
+      "id": "hackernews:https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "title": "[Hacker News 热门] GPT-6 Sol and Luna",
+      "date_published": "2026-09-24T07:25:46Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E8%85%BE%E8%AE%AF%E9%BE%99%E8%99%BE%E5%AE%A3%E5%B8%83%E5%81%9C%E8%BF%90%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%85%BE%E8%AE%AF%E9%BE%99%E8%99%BE%E5%AE%A3%E5%B8%83%E5%81%9C%E8%BF%90%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 腾讯龙虾宣布停运",
-      "date_published": "2026-09-24T04:37:32Z"
+      "id": "hackernews:https://laya.convaiinnovations.com/",
+      "url": "https://laya.convaiinnovations.com/",
+      "title": "[Hacker News 热门] I built non-autoregressive decision models with RL a year ago",
+      "date_published": "2026-09-24T07:25:46Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E8%AF%BA%E8%B4%9D%E5%B0%94%E5%A5%96%E5%A5%BD%E5%83%8F%E8%83%BD%E4%BF%9D%E7%A0%94&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E8%AF%BA%E8%B4%9D%E5%B0%94%E5%A5%96%E5%A5%BD%E5%83%8F%E8%83%BD%E4%BF%9D%E7%A0%94&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 诺贝尔奖好像能保研",
-      "date_published": "2026-09-24T04:37:32Z"
+      "id": "hackernews:https://grapheneos.social/@GrapheneOS/117282080803799576",
+      "url": "https://grapheneos.social/@GrapheneOS/117282080803799576",
+      "title": "[Hacker News 热门] Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
+      "date_published": "2026-09-24T07:25:46Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E6%B8%B8%E6%9C%AC%E6%98%8C%E5%8E%BB%E4%B8%96%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B8%B8%E6%9C%AC%E6%98%8C%E5%8E%BB%E4%B8%96%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 游本昌去世",
-      "date_published": "2026-09-24T04:37:32Z"
+      "id": "hackernews:https://mimo.xiaomi.com/mimo-v2-6",
+      "url": "https://mimo.xiaomi.com/mimo-v2-6",
+      "title": "[Hacker News 热门] MiMo v2.6",
+      "date_published": "2026-09-24T07:25:46Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E8%AF%B4%E5%90%84%E9%A2%86%E5%9F%9F%E9%A2%86%E5%86%9B%E4%BA%BA%E7%89%A9%E9%83%BD%E6%83%B3%E6%9D%A5%E6%AC%A2%E8%BF%8E%E5%AE%B4%E4%BC%9A%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E8%AF%B4%E5%90%84%E9%A2%86%E5%9F%9F%E9%A2%86%E5%86%9B%E4%BA%BA%E7%89%A9%E9%83%BD%E6%83%B3%E6%9D%A5%E6%AC%A2%E8%BF%8E%E5%AE%B4%E4%BC%9A%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 特朗普说各领域领军人物都想来欢迎宴会",
-      "date_published": "2026-09-24T04:37:32Z"
+      "id": "hackernews:https://alicegg.tech/2026/09/21/attention",
+      "url": "https://alicegg.tech/2026/09/21/attention",
+      "title": "[Hacker News 热门] Attention is all you have",
+      "date_published": "2026-09-24T07:25:46Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E6%9E%97%E8%AF%97%E6%A0%8B%20%E6%89%93%E7%96%AF%E4%BA%86&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E6%9E%97%E8%AF%97%E6%A0%8B%20%E6%89%93%E7%96%AF%E4%BA%86&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 林诗栋 打疯了",
-      "date_published": "2026-09-24T04:37:32Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E8%83%A1%E6%AD%8C%E6%B8%B8%E6%9C%AC%E6%98%8C%20%E5%BF%98%E5%B9%B4%E4%BA%A4&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E8%83%A1%E6%AD%8C%E6%B8%B8%E6%9C%AC%E6%98%8C%20%E5%BF%98%E5%B9%B4%E4%BA%A4&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 胡歌游本昌 忘年交",
-      "date_published": "2026-09-24T04:37:32Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E9%83%AD%E5%AE%87%E6%AC%A3%E5%90%A6%E8%AE%A4%E8%BF%9D%E7%BA%A6%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%83%AD%E5%AE%87%E6%AC%A3%E5%90%A6%E8%AE%A4%E8%BF%9D%E7%BA%A6%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 郭宇欣否认违约",
-      "date_published": "2026-09-24T04:37:32Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%9B%BD%E7%BE%BD%E5%A5%B3%E5%9B%A22%E6%AF%940%E6%97%A5%E6%9C%AC%E5%A5%B3%E5%9B%A2%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%9B%BD%E7%BE%BD%E5%A5%B3%E5%9B%A22%E6%AF%940%E6%97%A5%E6%9C%AC%E5%A5%B3%E5%9B%A2%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 国羽女团2比0日本女团",
-      "date_published": "2026-09-24T04:37:32Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E7%BE%8E%E5%9B%A2%20%E6%8A%BD%E6%88%90&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E7%BE%8E%E5%9B%A2%20%E6%8A%BD%E6%88%90&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 美团 抽成",
-      "date_published": "2026-09-24T04:37:32Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E8%AF%BA%E8%B4%9D%E5%B0%94%E5%A5%96%E4%BF%9D%E4%B8%8D%E4%BA%86%E7%A0%94%E7%9A%84%E6%A2%97%E8%8D%92%E8%AF%9E%E5%9C%A8%E5%93%AA%E5%84%BF%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%AF%BA%E8%B4%9D%E5%B0%94%E5%A5%96%E4%BF%9D%E4%B8%8D%E4%BA%86%E7%A0%94%E7%9A%84%E6%A2%97%E8%8D%92%E8%AF%9E%E5%9C%A8%E5%93%AA%E5%84%BF%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 诺贝尔奖保不了研的梗荒诞在哪儿",
-      "date_published": "2026-09-24T04:37:32Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E4%B8%88%E5%A4%AB%E5%9B%9E%E5%BA%94%E5%A5%B3%E5%84%BF%E5%8E%BB%E4%B8%9649%E5%A4%A9%E5%A6%BB%E5%AD%90%E6%80%80%E4%BA%8C%E8%83%8E%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%88%E5%A4%AB%E5%9B%9E%E5%BA%94%E5%A5%B3%E5%84%BF%E5%8E%BB%E4%B8%9649%E5%A4%A9%E5%A6%BB%E5%AD%90%E6%80%80%E4%BA%8C%E8%83%8E%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 丈夫回应女儿去世49天妻子怀二胎",
-      "date_published": "2026-09-24T04:37:32Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E6%9C%89%E6%97%B6%E5%80%99%E6%88%91%E5%BF%98%E4%BA%86%E6%95%B2%E9%97%A8%20%E5%A5%B9%E4%BB%A5%E4%B8%BA%E6%88%91%E6%B2%A1%E6%95%B2&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E6%9C%89%E6%97%B6%E5%80%99%E6%88%91%E5%BF%98%E4%BA%86%E6%95%B2%E9%97%A8%20%E5%A5%B9%E4%BB%A5%E4%B8%BA%E6%88%91%E6%B2%A1%E6%95%B2&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 有时候我忘了敲门 她以为我没敲",
-      "date_published": "2026-09-24T04:37:32Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E6%9C%88%E9%A5%BC%E5%90%8D%E5%AD%97%E6%98%AF%E6%8A%8A%E9%85%8D%E6%96%99%E8%A1%A8%E6%8A%84%E4%B8%8A%E5%8E%BB%E4%BA%86%E5%90%97&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E6%9C%88%E9%A5%BC%E5%90%8D%E5%AD%97%E6%98%AF%E6%8A%8A%E9%85%8D%E6%96%99%E8%A1%A8%E6%8A%84%E4%B8%8A%E5%8E%BB%E4%BA%86%E5%90%97&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 月饼名字是把配料表抄上去了吗",
-      "date_published": "2026-09-24T04:37:32Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%8D%AB%E6%98%9F%E4%BA%92%E8%81%94%E7%BD%91%E4%BD%8E%E8%BD%A826%E7%BB%84%E5%8D%AB%E6%98%9F%E6%88%90%E5%8A%9F%E5%8F%91%E5%B0%84%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8D%AB%E6%98%9F%E4%BA%92%E8%81%94%E7%BD%91%E4%BD%8E%E8%BD%A826%E7%BB%84%E5%8D%AB%E6%98%9F%E6%88%90%E5%8A%9F%E5%8F%91%E5%B0%84%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 卫星互联网低轨26组卫星成功发射",
-      "date_published": "2026-09-24T04:37:32Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%84%BF%E5%8E%BB%E4%B8%9649%E5%A4%A9%E6%80%80%E4%BA%8C%E8%83%8E%E5%A5%B3%E5%AD%90%E5%9B%9E%E5%BA%94%E8%B4%A8%E7%96%91%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%84%BF%E5%8E%BB%E4%B8%9649%E5%A4%A9%E6%80%80%E4%BA%8C%E8%83%8E%E5%A5%B3%E5%AD%90%E5%9B%9E%E5%BA%94%E8%B4%A8%E7%96%91%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 女儿去世49天怀二胎女子回应质疑",
-      "date_published": "2026-09-24T04:37:32Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E8%B0%81%E6%9D%A5%E7%AE%A1%E7%AE%A1%E7%8E%B0%E5%9C%A8%E7%9A%84%E4%B8%AD%E7%A7%8B%E7%A6%8F%E5%88%A9&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E8%B0%81%E6%9D%A5%E7%AE%A1%E7%AE%A1%E7%8E%B0%E5%9C%A8%E7%9A%84%E4%B8%AD%E7%A7%8B%E7%A6%8F%E5%88%A9&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 谁来管管现在的中秋福利",
-      "date_published": "2026-09-24T04:37:32Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E6%9D%AD%E5%B7%9E%E9%A1%B6%E6%B5%81%E9%94%80%E9%87%91%E7%AA%9F%E5%BD%BB%E5%BA%95%E5%AE%89%E9%9D%99&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E6%9D%AD%E5%B7%9E%E9%A1%B6%E6%B5%81%E9%94%80%E9%87%91%E7%AA%9F%E5%BD%BB%E5%BA%95%E5%AE%89%E9%9D%99&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 杭州顶流销金窟彻底安静",
-      "date_published": "2026-09-24T04:37:32Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E9%87%8D%E5%BA%86%E8%89%BE%E6%BB%8B%E7%97%85%E5%91%8A%E7%9F%A5%E9%85%8D%E5%81%B6%E6%88%90%E6%B3%95%E5%AE%9A%E4%B9%89%E5%8A%A1&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E9%87%8D%E5%BA%86%E8%89%BE%E6%BB%8B%E7%97%85%E5%91%8A%E7%9F%A5%E9%85%8D%E5%81%B6%E6%88%90%E6%B3%95%E5%AE%9A%E4%B9%89%E5%8A%A1&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 重庆艾滋病告知配偶成法定义务",
-      "date_published": "2026-09-24T04:37:32Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E4%B8%88%E5%A4%AB%E5%9B%9E%E5%BA%94%E5%A5%B3%E5%84%BF%E5%8E%BB%E4%B8%9649%E5%A4%A9%E5%A6%BB%E5%AD%90%E6%80%80%E4%BA%8C%E8%83%8E%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%88%E5%A4%AB%E5%9B%9E%E5%BA%94%E5%A5%B3%E5%84%BF%E5%8E%BB%E4%B8%9649%E5%A4%A9%E5%A6%BB%E5%AD%90%E6%80%80%E4%BA%8C%E8%83%8E%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 丈夫回应女儿去世49天妻子怀二胎",
-      "date_published": "2026-09-24T04:37:32Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E9%BB%84%E7%89%9B%E9%80%9A%E5%AE%B5%E6%8E%92%E9%98%9F%E4%B9%B0%E6%9C%88%E9%A5%BC1%E5%A4%A9%E8%B5%9A3%E5%8D%83%E5%85%83%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%BB%84%E7%89%9B%E9%80%9A%E5%AE%B5%E6%8E%92%E9%98%9F%E4%B9%B0%E6%9C%88%E9%A5%BC1%E5%A4%A9%E8%B5%9A3%E5%8D%83%E5%85%83%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 黄牛通宵排队买月饼1天赚3千元",
-      "date_published": "2026-09-24T04:37:32Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E8%AF%BA%E8%B4%9D%E5%B0%94%E5%A5%96%E4%BF%9D%E4%B8%8D%E4%BA%86%E7%A0%94%E7%9A%84%E6%A2%97%E8%8D%92%E8%AF%9E%E5%9C%A8%E5%93%AA%E5%84%BF%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%AF%BA%E8%B4%9D%E5%B0%94%E5%A5%96%E4%BF%9D%E4%B8%8D%E4%BA%86%E7%A0%94%E7%9A%84%E6%A2%97%E8%8D%92%E8%AF%9E%E5%9C%A8%E5%93%AA%E5%84%BF%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 诺贝尔奖保不了研的梗荒诞在哪儿",
-      "date_published": "2026-09-24T04:37:32Z"
+      "id": "hackernews:https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/",
+      "url": "https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/",
+      "title": "[Hacker News 热门] I don't want to read what you didn't write",
+      "date_published": "2026-09-24T07:25:46Z"
     }
   ]
 }
