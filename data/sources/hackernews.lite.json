@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-09-27T07:49:37Z",
+  "savedAt": "2026-09-27T18:09:12Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-09-27，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,8 +10,8 @@
       "title": "Claude Opus 5.5",
       "description": "",
       "url": "https://www.anthropic.com/claude-opus-5-5",
-      "score": 1801,
-      "comments": 1127,
+      "score": 1802,
+      "comments": 1129,
       "owner": "km144"
     },
     {
@@ -26,7 +26,7 @@
       "title": "F-Droid 2.0",
       "description": "",
       "url": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
-      "score": 1455,
+      "score": 1457,
       "comments": 415,
       "owner": "daveoc64"
     },
@@ -42,47 +42,47 @@
       "title": "Attention is all you have",
       "description": "",
       "url": "https://alicegg.tech/2026/09/21/attention",
-      "score": 1079,
-      "comments": 329,
+      "score": 1080,
+      "comments": 330,
       "owner": "zer0tonin"
     },
     {
       "title": "I don't want to read what you didn't write",
       "description": "",
       "url": "https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/",
-      "score": 1067,
-      "comments": 456,
+      "score": 1068,
+      "comments": 458,
       "owner": "mooreds"
     },
     {
       "title": "Dutch governments builds alternative for Microsoft based on NixOS",
       "description": "",
       "url": "https://www.dawo.community/en/",
-      "score": 998,
-      "comments": 575,
+      "score": 1004,
+      "comments": 577,
       "owner": "fjfaase"
     },
     {
       "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
       "description": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;0V37g\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;0V37g</a>",
       "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
-      "score": 966,
-      "comments": 547,
+      "score": 969,
+      "comments": 548,
       "owner": "devonnull"
     },
     {
       "title": "Italian parliament votes for return to nuclear energy",
       "description": "",
       "url": "https://apnews.com/article/italy-nuclear-chernobyl-4891b6b7c7791ae84db6b0bf0f7cf567",
-      "score": 903,
-      "comments": 812,
+      "score": 905,
+      "comments": 814,
       "owner": "geox"
     },
     {
       "title": "I said no and Apple said yes",
       "description": "",
       "url": "https://dbushell.com/2026/09/22/apple-intelligence/",
-      "score": 877,
+      "score": 878,
       "comments": 695,
       "owner": "thatslast"
     },
@@ -90,7 +90,7 @@
       "title": "Show HN: Make cursed fonts like Times New Bastard",
       "description": "A joke tool that abuses OpenType&#x27;s ligature feature to mix fonts. It works pretty fast on client-side by loading Python in WASM.",
       "url": "https://bastardica.mitpit.com",
-      "score": 854,
+      "score": 857,
       "comments": 123,
       "owner": "MitPitt"
     },
@@ -98,7 +98,7 @@
       "title": "Apple has added persistent 'ads' to iOS, and it's driving users crazy",
       "description": "",
       "url": "https://www.techradar.com/phones/iphone/i-wish-apple-would-just-stop-that-crap-apple-has-added-persistent-ads-to-ios-and-its-driving-users-crazy",
-      "score": 814,
+      "score": 815,
       "comments": 598,
       "owner": "MC995"
     },
@@ -119,28 +119,20 @@
       "owner": "raahelb"
     },
     {
-      "title": "ChatGPT now knows what you do on other websites via ad collector",
-      "description": "",
-      "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
-      "score": 764,
-      "comments": 395,
-      "owner": "lmbbuchodi"
-    },
-    {
-      "title": "Qwen Image 2.1",
-      "description": "",
-      "url": "https://qwen.ai/blog?id=qwen-image-2.1",
-      "score": 739,
-      "comments": 199,
-      "owner": "jmillikin"
-    },
-    {
       "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
       "description": "",
       "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
       "score": 735,
-      "comments": 444,
+      "comments": 446,
       "owner": "sohkamyung"
+    },
+    {
+      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+      "description": "",
+      "url": "https://swarmtraces.org/",
+      "score": 734,
+      "comments": 461,
+      "owner": "specked-citrus"
     },
     {
       "title": "What happened to the Snowden archive",
@@ -151,20 +143,28 @@
       "owner": "EXHades"
     },
     {
-      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
-      "description": "",
-      "url": "https://swarmtraces.org/",
-      "score": 712,
-      "comments": 452,
-      "owner": "specked-citrus"
-    },
-    {
       "title": "Spymarks, not Watermarks",
       "description": "",
       "url": "https://brand.io/article/spymarks/",
-      "score": 695,
+      "score": 696,
       "comments": 171,
       "owner": "possibilistic"
+    },
+    {
+      "title": "What Sun got wrong",
+      "description": "",
+      "url": "https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/",
+      "score": 691,
+      "comments": 425,
+      "owner": "chmaynard"
+    },
+    {
+      "title": "Jev in 25 Lines of Python",
+      "description": "",
+      "url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
+      "score": 688,
+      "comments": 212,
+      "owner": "bashbjorn"
     }
   ]
 }
