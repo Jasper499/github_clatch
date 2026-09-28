@@ -1,16 +1,16 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-09-27T18:09:12Z",
+  "savedAt": "2026-09-28T08:26:50Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-09-27，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-09-28，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-09-27",
+  "fetchedDate": "2026-09-28",
   "items": [
     {
       "title": "Claude Opus 5.5",
       "description": "",
       "url": "https://www.anthropic.com/claude-opus-5-5",
-      "score": 1802,
+      "score": 1803,
       "comments": 1129,
       "owner": "km144"
     },
@@ -18,31 +18,39 @@
       "title": "GPT-6 Sol and Luna",
       "description": "",
       "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
-      "score": 1774,
-      "comments": 853,
+      "score": 1775,
+      "comments": 855,
       "owner": "OfficialTurkey"
     },
     {
       "title": "F-Droid 2.0",
       "description": "",
       "url": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
-      "score": 1457,
-      "comments": 415,
+      "score": 1461,
+      "comments": 416,
       "owner": "daveoc64"
+    },
+    {
+      "title": "When did Google get so weird?",
+      "description": "",
+      "url": "https://sancho.bearblog.dev/google-weird/",
+      "score": 1212,
+      "comments": 670,
+      "owner": "sancho-panza"
     },
     {
       "title": "MiMo v2.6",
       "description": "",
       "url": "https://mimo.xiaomi.com/mimo-v2-6",
       "score": 1130,
-      "comments": 479,
+      "comments": 480,
       "owner": "volf_"
     },
     {
       "title": "Attention is all you have",
       "description": "",
       "url": "https://alicegg.tech/2026/09/21/attention",
-      "score": 1080,
+      "score": 1083,
       "comments": 330,
       "owner": "zer0tonin"
     },
@@ -51,38 +59,38 @@
       "description": "",
       "url": "https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/",
       "score": 1068,
-      "comments": 458,
+      "comments": 459,
       "owner": "mooreds"
     },
     {
       "title": "Dutch governments builds alternative for Microsoft based on NixOS",
       "description": "",
       "url": "https://www.dawo.community/en/",
-      "score": 1004,
-      "comments": 577,
+      "score": 1009,
+      "comments": 579,
       "owner": "fjfaase"
     },
     {
       "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
       "description": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;0V37g\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;0V37g</a>",
       "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
-      "score": 969,
-      "comments": 548,
+      "score": 970,
+      "comments": 551,
       "owner": "devonnull"
     },
     {
       "title": "Italian parliament votes for return to nuclear energy",
       "description": "",
       "url": "https://apnews.com/article/italy-nuclear-chernobyl-4891b6b7c7791ae84db6b0bf0f7cf567",
-      "score": 905,
-      "comments": 814,
+      "score": 906,
+      "comments": 816,
       "owner": "geox"
     },
     {
       "title": "I said no and Apple said yes",
       "description": "",
       "url": "https://dbushell.com/2026/09/22/apple-intelligence/",
-      "score": 878,
+      "score": 880,
       "comments": 695,
       "owner": "thatslast"
     },
@@ -98,7 +106,7 @@
       "title": "Apple has added persistent 'ads' to iOS, and it's driving users crazy",
       "description": "",
       "url": "https://www.techradar.com/phones/iphone/i-wish-apple-would-just-stop-that-crap-apple-has-added-persistent-ads-to-ios-and-its-driving-users-crazy",
-      "score": 815,
+      "score": 816,
       "comments": 598,
       "owner": "MC995"
     },
@@ -115,38 +123,38 @@
       "description": "",
       "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
       "score": 780,
-      "comments": 799,
+      "comments": 802,
       "owner": "raahelb"
+    },
+    {
+      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+      "description": "",
+      "url": "https://swarmtraces.org/",
+      "score": 742,
+      "comments": 465,
+      "owner": "specked-citrus"
     },
     {
       "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
       "description": "",
       "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
       "score": 735,
-      "comments": 446,
+      "comments": 447,
       "owner": "sohkamyung"
     },
     {
-      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+      "title": "Breaking Up with Google Play: Why Conversations Is Now Free",
       "description": "",
-      "url": "https://swarmtraces.org/",
-      "score": 734,
-      "comments": 461,
-      "owner": "specked-citrus"
-    },
-    {
-      "title": "What happened to the Snowden archive",
-      "description": "",
-      "url": "https://libroot.org/posts/what-happened-to-the-snowden-archive",
-      "score": 728,
-      "comments": 597,
-      "owner": "EXHades"
+      "url": "https://gultsch.de/posts/breaking-up-with-google-play/",
+      "score": 697,
+      "comments": 292,
+      "owner": "ezst"
     },
     {
       "title": "Spymarks, not Watermarks",
       "description": "",
       "url": "https://brand.io/article/spymarks/",
-      "score": 696,
+      "score": 697,
       "comments": 171,
       "owner": "possibilistic"
     },
@@ -154,17 +162,9 @@
       "title": "What Sun got wrong",
       "description": "",
       "url": "https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/",
-      "score": 691,
-      "comments": 425,
+      "score": 692,
+      "comments": 428,
       "owner": "chmaynard"
-    },
-    {
-      "title": "Jev in 25 Lines of Python",
-      "description": "",
-      "url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
-      "score": 688,
-      "comments": 212,
-      "owner": "bashbjorn"
     }
   ]
 }
