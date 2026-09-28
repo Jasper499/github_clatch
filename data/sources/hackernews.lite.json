@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-09-28T08:26:50Z",
+  "savedAt": "2026-09-28T20:26:03Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-09-28，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,15 +10,23 @@
       "title": "Claude Opus 5.5",
       "description": "",
       "url": "https://www.anthropic.com/claude-opus-5-5",
-      "score": 1803,
+      "score": 1804,
       "comments": 1129,
       "owner": "km144"
+    },
+    {
+      "title": "When did Google get so weird?",
+      "description": "",
+      "url": "https://sancho.bearblog.dev/google-weird/",
+      "score": 1790,
+      "comments": 991,
+      "owner": "sancho-panza"
     },
     {
       "title": "GPT-6 Sol and Luna",
       "description": "",
       "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
-      "score": 1775,
+      "score": 1776,
       "comments": 855,
       "owner": "OfficialTurkey"
     },
@@ -26,33 +34,9 @@
       "title": "F-Droid 2.0",
       "description": "",
       "url": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
-      "score": 1461,
+      "score": 1462,
       "comments": 416,
       "owner": "daveoc64"
-    },
-    {
-      "title": "When did Google get so weird?",
-      "description": "",
-      "url": "https://sancho.bearblog.dev/google-weird/",
-      "score": 1212,
-      "comments": 670,
-      "owner": "sancho-panza"
-    },
-    {
-      "title": "MiMo v2.6",
-      "description": "",
-      "url": "https://mimo.xiaomi.com/mimo-v2-6",
-      "score": 1130,
-      "comments": 480,
-      "owner": "volf_"
-    },
-    {
-      "title": "Attention is all you have",
-      "description": "",
-      "url": "https://alicegg.tech/2026/09/21/attention",
-      "score": 1083,
-      "comments": 330,
-      "owner": "zer0tonin"
     },
     {
       "title": "I don't want to read what you didn't write",
@@ -63,11 +47,19 @@
       "owner": "mooreds"
     },
     {
+      "title": "Owed a billion dollars in Nvidia stock",
+      "description": "",
+      "url": "https://colo.to/nvidia-stock-narrative.html",
+      "score": 1037,
+      "comments": 436,
+      "owner": "Eric_Gullichsen"
+    },
+    {
       "title": "Dutch governments builds alternative for Microsoft based on NixOS",
       "description": "",
       "url": "https://www.dawo.community/en/",
-      "score": 1009,
-      "comments": 579,
+      "score": 1011,
+      "comments": 581,
       "owner": "fjfaase"
     },
     {
@@ -75,7 +67,7 @@
       "description": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;0V37g\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;0V37g</a>",
       "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
       "score": 970,
-      "comments": 551,
+      "comments": 552,
       "owner": "devonnull"
     },
     {
@@ -83,22 +75,22 @@
       "description": "",
       "url": "https://apnews.com/article/italy-nuclear-chernobyl-4891b6b7c7791ae84db6b0bf0f7cf567",
       "score": 906,
-      "comments": 816,
+      "comments": 817,
       "owner": "geox"
     },
     {
       "title": "I said no and Apple said yes",
       "description": "",
       "url": "https://dbushell.com/2026/09/22/apple-intelligence/",
-      "score": 880,
-      "comments": 695,
+      "score": 882,
+      "comments": 696,
       "owner": "thatslast"
     },
     {
       "title": "Show HN: Make cursed fonts like Times New Bastard",
       "description": "A joke tool that abuses OpenType&#x27;s ligature feature to mix fonts. It works pretty fast on client-side by loading Python in WASM.",
       "url": "https://bastardica.mitpit.com",
-      "score": 857,
+      "score": 859,
       "comments": 123,
       "owner": "MitPitt"
     },
@@ -106,8 +98,8 @@
       "title": "Apple has added persistent 'ads' to iOS, and it's driving users crazy",
       "description": "",
       "url": "https://www.techradar.com/phones/iphone/i-wish-apple-would-just-stop-that-crap-apple-has-added-persistent-ads-to-ios-and-its-driving-users-crazy",
-      "score": 816,
-      "comments": 598,
+      "score": 817,
+      "comments": 599,
       "owner": "MC995"
     },
     {
@@ -123,15 +115,15 @@
       "description": "",
       "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
       "score": 780,
-      "comments": 802,
+      "comments": 803,
       "owner": "raahelb"
     },
     {
       "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
       "description": "",
       "url": "https://swarmtraces.org/",
-      "score": 742,
-      "comments": 465,
+      "score": 746,
+      "comments": 467,
       "owner": "specked-citrus"
     },
     {
@@ -146,8 +138,8 @@
       "title": "Breaking Up with Google Play: Why Conversations Is Now Free",
       "description": "",
       "url": "https://gultsch.de/posts/breaking-up-with-google-play/",
-      "score": 697,
-      "comments": 292,
+      "score": 704,
+      "comments": 294,
       "owner": "ezst"
     },
     {
@@ -159,12 +151,20 @@
       "owner": "possibilistic"
     },
     {
-      "title": "What Sun got wrong",
+      "title": "Jev in 25 Lines of Python",
       "description": "",
-      "url": "https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/",
-      "score": 692,
-      "comments": 428,
-      "owner": "chmaynard"
+      "url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
+      "score": 690,
+      "comments": 212,
+      "owner": "bashbjorn"
+    },
+    {
+      "title": "Meta takes down a critical video about meta AI Glasses after filming at Meta",
+      "description": "",
+      "url": "https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/",
+      "score": 631,
+      "comments": 393,
+      "owner": "pieterr"
     }
   ]
 }
