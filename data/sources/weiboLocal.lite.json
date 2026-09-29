@@ -1,30 +1,70 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-09-29T12:42:25Z",
+  "savedAt": "2026-09-29T22:10:20Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-09-29，共 2 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-09-29，共 6 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-09-29",
   "items": [
     {
-      "title": "福建农大一教授论文数据异常已离职",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%A6%8F%E5%BB%BA%E5%86%9C%E5%A4%A7%E4%B8%80%E6%95%99%E6%8E%88%E8%AE%BA%E6%96%87%E6%95%B0%E6%8D%AE%E5%BC%82%E5%B8%B8%E5%B7%B2%E7%A6%BB%E8%81%8C%23&t=31&band_rank=1&Refer=top",
-      "score": 389153,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1790684961
-    },
-    {
-      "title": "贴息",
+      "title": "买新房贷款超一百万可获一万补贴",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E8%B4%B4%E6%81%AF&t=31&band_rank=1&Refer=top",
-      "score": 332176,
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B9%B0%E6%96%B0%E6%88%BF%E8%B4%B7%E6%AC%BE%E8%B6%85%E4%B8%80%E7%99%BE%E4%B8%87%E5%8F%AF%E8%8E%B7%E4%B8%80%E4%B8%87%E8%A1%A5%E8%B4%B4%23&t=31&band_rank=1&Refer=top",
+      "score": 95336,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1790677281
+      "onboardTime": 1790697981
+    },
+    {
+      "title": "金价下跌30岁左右年轻人成消费主力",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%87%91%E4%BB%B7%E4%B8%8B%E8%B7%8C30%E5%B2%81%E5%B7%A6%E5%8F%B3%E5%B9%B4%E8%BD%BB%E4%BA%BA%E6%88%90%E6%B6%88%E8%B4%B9%E4%B8%BB%E5%8A%9B%23&t=31&band_rank=1&Refer=top",
+      "score": 53893,
+      "owner": "微博同城",
+      "label": "热",
+      "category": "民生新闻",
+      "onboardTime": 1790695402
+    },
+    {
+      "title": "泰国洪灾后大量蛇和鳄鱼出没",
+      "description": "突发/灾害",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B3%B0%E5%9B%BD%E6%B4%AA%E7%81%BE%E5%90%8E%E5%A4%A7%E9%87%8F%E8%9B%87%E5%92%8C%E9%B3%84%E9%B1%BC%E5%87%BA%E6%B2%A1%23&t=31&band_rank=1&Refer=top",
+      "score": 38939,
+      "owner": "微博同城",
+      "label": "",
+      "category": "突发/灾害",
+      "onboardTime": 1790687423
+    },
+    {
+      "title": "00后员工拒收老板8.8万彩礼",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%2300%E5%90%8E%E5%91%98%E5%B7%A5%E6%8B%92%E6%94%B6%E8%80%81%E6%9D%BF8.8%E4%B8%87%E5%BD%A9%E7%A4%BC%23&t=31&band_rank=1&Refer=top",
+      "score": 37971,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1790702176
+    },
+    {
+      "title": "狗熊哆嗦毛示范者是前文旅部司长",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%8B%97%E7%86%8A%E5%93%86%E5%97%A6%E6%AF%9B%E7%A4%BA%E8%8C%83%E8%80%85%E6%98%AF%E5%89%8D%E6%96%87%E6%97%85%E9%83%A8%E5%8F%B8%E9%95%BF%23&t=31&band_rank=1&Refer=top",
+      "score": 37417,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1790695580
+    },
+    {
+      "title": "网传大学生替缺课老师讲课一小时",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E7%BD%91%E4%BC%A0%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%9B%BF%E7%BC%BA%E8%AF%BE%E8%80%81%E5%B8%88%E8%AE%B2%E8%AF%BE%E4%B8%80%E5%B0%8F%E6%97%B6&t=31&band_rank=1&Refer=top",
+      "score": 33143,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1790685922
     }
   ]
 }
