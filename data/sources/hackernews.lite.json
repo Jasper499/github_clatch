@@ -1,26 +1,26 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-09-28T20:26:03Z",
+  "savedAt": "2026-09-29T08:07:01Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-09-28，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-09-29，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-09-28",
+  "fetchedDate": "2026-09-29",
   "items": [
-    {
-      "title": "Claude Opus 5.5",
-      "description": "",
-      "url": "https://www.anthropic.com/claude-opus-5-5",
-      "score": 1804,
-      "comments": 1129,
-      "owner": "km144"
-    },
     {
       "title": "When did Google get so weird?",
       "description": "",
       "url": "https://sancho.bearblog.dev/google-weird/",
-      "score": 1790,
-      "comments": 991,
+      "score": 1880,
+      "comments": 1054,
       "owner": "sancho-panza"
+    },
+    {
+      "title": "Claude Opus 5.5",
+      "description": "",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "score": 1806,
+      "comments": 1129,
+      "owner": "km144"
     },
     {
       "title": "GPT-6 Sol and Luna",
@@ -34,31 +34,23 @@
       "title": "F-Droid 2.0",
       "description": "",
       "url": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
-      "score": 1462,
+      "score": 1463,
       "comments": 416,
       "owner": "daveoc64"
-    },
-    {
-      "title": "I don't want to read what you didn't write",
-      "description": "",
-      "url": "https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/",
-      "score": 1068,
-      "comments": 459,
-      "owner": "mooreds"
     },
     {
       "title": "Owed a billion dollars in Nvidia stock",
       "description": "",
       "url": "https://colo.to/nvidia-stock-narrative.html",
-      "score": 1037,
-      "comments": 436,
+      "score": 1065,
+      "comments": 447,
       "owner": "Eric_Gullichsen"
     },
     {
       "title": "Dutch governments builds alternative for Microsoft based on NixOS",
       "description": "",
       "url": "https://www.dawo.community/en/",
-      "score": 1011,
+      "score": 1014,
       "comments": 581,
       "owner": "fjfaase"
     },
@@ -77,14 +69,6 @@
       "score": 906,
       "comments": 817,
       "owner": "geox"
-    },
-    {
-      "title": "I said no and Apple said yes",
-      "description": "",
-      "url": "https://dbushell.com/2026/09/22/apple-intelligence/",
-      "score": 882,
-      "comments": 696,
-      "owner": "thatslast"
     },
     {
       "title": "Show HN: Make cursed fonts like Times New Bastard",
@@ -119,18 +103,26 @@
       "owner": "raahelb"
     },
     {
+      "title": "Sonnet 5.5",
+      "description": "",
+      "url": "https://www.anthropic.com/claude-sonnet-5-5",
+      "score": 753,
+      "comments": 503,
+      "owner": "D2OQZG8l5BI1S06"
+    },
+    {
       "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
       "description": "",
       "url": "https://swarmtraces.org/",
-      "score": 746,
-      "comments": 467,
+      "score": 750,
+      "comments": 468,
       "owner": "specked-citrus"
     },
     {
       "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
       "description": "",
       "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
-      "score": 735,
+      "score": 736,
       "comments": 447,
       "owner": "sohkamyung"
     },
@@ -141,14 +133,6 @@
       "score": 704,
       "comments": 294,
       "owner": "ezst"
-    },
-    {
-      "title": "Spymarks, not Watermarks",
-      "description": "",
-      "url": "https://brand.io/article/spymarks/",
-      "score": 697,
-      "comments": 171,
-      "owner": "possibilistic"
     },
     {
       "title": "Jev in 25 Lines of Python",
@@ -165,6 +149,22 @@
       "score": 631,
       "comments": 393,
       "owner": "pieterr"
+    },
+    {
+      "title": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
+      "description": "",
+      "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
+      "score": 626,
+      "comments": 613,
+      "owner": "papergirl"
+    },
+    {
+      "title": "Linux support is coming to Snapdragon X2 series",
+      "description": "",
+      "url": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
+      "score": 624,
+      "comments": 271,
+      "owner": "aaronday"
     }
   ]
 }
