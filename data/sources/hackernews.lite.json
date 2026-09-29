@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-09-29T08:07:01Z",
+  "savedAt": "2026-09-29T19:12:41Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-09-29，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,25 +10,9 @@
       "title": "When did Google get so weird?",
       "description": "",
       "url": "https://sancho.bearblog.dev/google-weird/",
-      "score": 1880,
-      "comments": 1054,
+      "score": 1943,
+      "comments": 1081,
       "owner": "sancho-panza"
-    },
-    {
-      "title": "Claude Opus 5.5",
-      "description": "",
-      "url": "https://www.anthropic.com/claude-opus-5-5",
-      "score": 1806,
-      "comments": 1129,
-      "owner": "km144"
-    },
-    {
-      "title": "GPT-6 Sol and Luna",
-      "description": "",
-      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
-      "score": 1776,
-      "comments": 855,
-      "owner": "OfficialTurkey"
     },
     {
       "title": "F-Droid 2.0",
@@ -42,25 +26,17 @@
       "title": "Owed a billion dollars in Nvidia stock",
       "description": "",
       "url": "https://colo.to/nvidia-stock-narrative.html",
-      "score": 1065,
-      "comments": 447,
+      "score": 1077,
+      "comments": 452,
       "owner": "Eric_Gullichsen"
     },
     {
       "title": "Dutch governments builds alternative for Microsoft based on NixOS",
       "description": "",
       "url": "https://www.dawo.community/en/",
-      "score": 1014,
+      "score": 1018,
       "comments": 581,
       "owner": "fjfaase"
-    },
-    {
-      "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
-      "description": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;0V37g\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;0V37g</a>",
-      "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
-      "score": 970,
-      "comments": 552,
-      "owner": "devonnull"
     },
     {
       "title": "Italian parliament votes for return to nuclear energy",
@@ -71,76 +47,68 @@
       "owner": "geox"
     },
     {
+      "title": "Sonnet 5.5",
+      "description": "",
+      "url": "https://www.anthropic.com/claude-sonnet-5-5",
+      "score": 860,
+      "comments": 595,
+      "owner": "D2OQZG8l5BI1S06"
+    },
+    {
       "title": "Show HN: Make cursed fonts like Times New Bastard",
       "description": "A joke tool that abuses OpenType&#x27;s ligature feature to mix fonts. It works pretty fast on client-side by loading Python in WASM.",
       "url": "https://bastardica.mitpit.com",
-      "score": 859,
+      "score": 860,
       "comments": 123,
       "owner": "MitPitt"
     },
     {
-      "title": "Apple has added persistent 'ads' to iOS, and it's driving users crazy",
+      "title": "Updated Google Maps shows destruction of the city of Rafah",
       "description": "",
-      "url": "https://www.techradar.com/phones/iphone/i-wish-apple-would-just-stop-that-crap-apple-has-added-persistent-ads-to-ios-and-its-driving-users-crazy",
-      "score": 817,
-      "comments": 599,
-      "owner": "MC995"
-    },
-    {
-      "title": "'We hacked the FBI:' Hackers say they have data on all FBI employees",
-      "description": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;96YBP\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;96YBP</a>",
-      "url": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/",
-      "score": 813,
-      "comments": 612,
-      "owner": "spenvo"
+      "url": "https://twitter.com/AliAbunimah/status/2103890594137309425",
+      "score": 855,
+      "comments": 789,
+      "owner": "slowin"
     },
     {
       "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
       "description": "",
       "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
       "score": 780,
-      "comments": 803,
+      "comments": 804,
       "owner": "raahelb"
-    },
-    {
-      "title": "Sonnet 5.5",
-      "description": "",
-      "url": "https://www.anthropic.com/claude-sonnet-5-5",
-      "score": 753,
-      "comments": 503,
-      "owner": "D2OQZG8l5BI1S06"
     },
     {
       "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
       "description": "",
       "url": "https://swarmtraces.org/",
-      "score": 750,
-      "comments": 468,
+      "score": 752,
+      "comments": 471,
       "owner": "specked-citrus"
-    },
-    {
-      "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
-      "description": "",
-      "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
-      "score": 736,
-      "comments": 447,
-      "owner": "sohkamyung"
     },
     {
       "title": "Breaking Up with Google Play: Why Conversations Is Now Free",
       "description": "",
       "url": "https://gultsch.de/posts/breaking-up-with-google-play/",
       "score": 704,
-      "comments": 294,
+      "comments": 295,
       "owner": "ezst"
     },
     {
       "title": "Jev in 25 Lines of Python",
       "description": "",
       "url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
-      "score": 690,
+      "score": 691,
       "comments": 212,
       "owner": "bashbjorn"
+    },
+    {
+      "title": "Pirating the Pirates",
+      "description": "",
+      "url": "https://mubi.com/en/notebook/posts/pirating-the-pirates",
+      "score": 680,
+      "comments": 351,
+      "owner": "piotrgrabowski"
     },
     {
       "title": "Meta takes down a critical video about meta AI Glasses after filming at Meta",
@@ -155,7 +123,7 @@
       "description": "",
       "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
       "score": 626,
-      "comments": 613,
+      "comments": 616,
       "owner": "papergirl"
     },
     {
@@ -165,6 +133,38 @@
       "score": 624,
       "comments": 271,
       "owner": "aaronday"
+    },
+    {
+      "title": "Ollaya – Ollama for open-source, Jev-style decision models",
+      "description": "",
+      "url": "https://ollaya.dev/",
+      "score": 613,
+      "comments": 145,
+      "owner": "Ardakilic"
+    },
+    {
+      "title": "You are no longer invited to dinner",
+      "description": "",
+      "url": "https://www.derekthompson.org/p/the-death-of-the-american-host",
+      "score": 604,
+      "comments": 566,
+      "owner": "barry-cotter"
+    },
+    {
+      "title": "I'm the mom in that viral Giants clip. Let me tell you about my husband",
+      "description": "",
+      "url": "https://themomoftheyear.substack.com/p/im-the-mom-in-that-viral-giants-clip",
+      "score": 603,
+      "comments": 242,
+      "owner": "minimaxir"
+    },
+    {
+      "title": "Plan mode is dead",
+      "description": "",
+      "url": "https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html",
+      "score": 586,
+      "comments": 508,
+      "owner": "jmvldz"
     }
   ]
 }
