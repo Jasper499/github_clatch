@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-09-30T08:12:14Z",
+  "savedAt": "2026-09-30T18:56:34Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-09-30，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,8 +10,8 @@
       "title": "When did Google get so weird?",
       "description": "",
       "url": "https://sancho.bearblog.dev/google-weird/",
-      "score": 1970,
-      "comments": 1095,
+      "score": 1987,
+      "comments": 1100,
       "owner": "sancho-panza"
     },
     {
@@ -26,9 +26,17 @@
       "title": "Owed a billion dollars in Nvidia stock",
       "description": "",
       "url": "https://colo.to/nvidia-stock-narrative.html",
-      "score": 1084,
-      "comments": 454,
+      "score": 1086,
+      "comments": 456,
       "owner": "Eric_Gullichsen"
+    },
+    {
+      "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+      "description": "",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+      "score": 1036,
+      "comments": 917,
+      "owner": "crorella"
     },
     {
       "title": "Dutch governments builds alternative for Microsoft based on NixOS",
@@ -39,59 +47,43 @@
       "owner": "fjfaase"
     },
     {
-      "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
-      "description": "",
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
-      "score": 907,
-      "comments": 817,
-      "owner": "crorella"
-    },
-    {
-      "title": "Italian parliament votes for return to nuclear energy",
-      "description": "",
-      "url": "https://apnews.com/article/italy-nuclear-chernobyl-4891b6b7c7791ae84db6b0bf0f7cf567",
-      "score": 907,
-      "comments": 817,
-      "owner": "geox"
-    },
-    {
       "title": "Updated Google Maps shows destruction of the city of Rafah",
       "description": "",
       "url": "https://twitter.com/AliAbunimah/status/2103890594137309425",
-      "score": 898,
-      "comments": 885,
+      "score": 920,
+      "comments": 902,
       "owner": "slowin"
     },
     {
       "title": "Sonnet 5.5",
       "description": "",
       "url": "https://www.anthropic.com/claude-sonnet-5-5",
-      "score": 875,
-      "comments": 606,
+      "score": 879,
+      "comments": 609,
       "owner": "D2OQZG8l5BI1S06"
     },
     {
       "title": "Show HN: Make cursed fonts like Times New Bastard",
       "description": "A joke tool that abuses OpenType&#x27;s ligature feature to mix fonts. It works pretty fast on client-side by loading Python in WASM.",
       "url": "https://bastardica.mitpit.com",
-      "score": 860,
+      "score": 861,
       "comments": 123,
       "owner": "MitPitt"
     },
     {
-      "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+      "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
       "description": "",
-      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-      "score": 780,
-      "comments": 804,
-      "owner": "raahelb"
+      "url": "https://github.com/ninjahawk/livenerf",
+      "score": 840,
+      "comments": 354,
+      "owner": "bryan0"
     },
     {
       "title": "Everybody’s home. No one’s coming over",
       "description": "",
       "url": "https://www.derekthompson.org/p/the-death-of-the-american-host",
-      "score": 780,
-      "comments": 692,
+      "score": 805,
+      "comments": 719,
       "owner": "barry-cotter"
     },
     {
@@ -101,6 +93,22 @@
       "score": 753,
       "comments": 471,
       "owner": "specked-citrus"
+    },
+    {
+      "title": "America.gov",
+      "description": "",
+      "url": "https://america.gov/",
+      "score": 737,
+      "comments": 671,
+      "owner": "plesiv"
+    },
+    {
+      "title": "Dots: Always-on agents",
+      "description": "",
+      "url": "https://openai.com/index/introducing-dots/",
+      "score": 725,
+      "comments": 613,
+      "owner": "alvis"
     },
     {
       "title": "Breaking Up with Google Play: Why Conversations Is Now Free",
@@ -114,8 +122,8 @@
       "title": "Pirating the Pirates",
       "description": "",
       "url": "https://mubi.com/en/notebook/posts/pirating-the-pirates",
-      "score": 691,
-      "comments": 372,
+      "score": 695,
+      "comments": 375,
       "owner": "piotrgrabowski"
     },
     {
@@ -130,8 +138,8 @@
       "title": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
       "description": "",
       "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
-      "score": 626,
-      "comments": 620,
+      "score": 627,
+      "comments": 621,
       "owner": "papergirl"
     },
     {
@@ -139,8 +147,16 @@
       "description": "",
       "url": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
       "score": 624,
-      "comments": 271,
+      "comments": 272,
       "owner": "aaronday"
+    },
+    {
+      "title": "It's Time to Investigate the AI Labs",
+      "description": "",
+      "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
+      "score": 618,
+      "comments": 275,
+      "owner": "ibobev"
     },
     {
       "title": "Ollaya – Ollama for open-source, Jev-style decision models",
@@ -149,22 +165,6 @@
       "score": 613,
       "comments": 145,
       "owner": "Ardakilic"
-    },
-    {
-      "title": "I'm the mom in that viral Giants clip. Let me tell you about my husband",
-      "description": "",
-      "url": "https://themomoftheyear.substack.com/p/im-the-mom-in-that-viral-giants-clip",
-      "score": 604,
-      "comments": 242,
-      "owner": "minimaxir"
-    },
-    {
-      "title": "It's Time to Investigate the AI Labs",
-      "description": "",
-      "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
-      "score": 603,
-      "comments": 266,
-      "owner": "ibobev"
     }
   ]
 }
