@@ -1,17 +1,17 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-09-29T19:12:41Z",
+  "savedAt": "2026-09-30T08:12:14Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-09-29，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-09-30，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-09-29",
+  "fetchedDate": "2026-09-30",
   "items": [
     {
       "title": "When did Google get so weird?",
       "description": "",
       "url": "https://sancho.bearblog.dev/google-weird/",
-      "score": 1943,
-      "comments": 1081,
+      "score": 1970,
+      "comments": 1095,
       "owner": "sancho-panza"
     },
     {
@@ -26,32 +26,48 @@
       "title": "Owed a billion dollars in Nvidia stock",
       "description": "",
       "url": "https://colo.to/nvidia-stock-narrative.html",
-      "score": 1077,
-      "comments": 452,
+      "score": 1084,
+      "comments": 454,
       "owner": "Eric_Gullichsen"
     },
     {
       "title": "Dutch governments builds alternative for Microsoft based on NixOS",
       "description": "",
       "url": "https://www.dawo.community/en/",
-      "score": 1018,
+      "score": 1019,
       "comments": 581,
       "owner": "fjfaase"
+    },
+    {
+      "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+      "description": "",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+      "score": 907,
+      "comments": 817,
+      "owner": "crorella"
     },
     {
       "title": "Italian parliament votes for return to nuclear energy",
       "description": "",
       "url": "https://apnews.com/article/italy-nuclear-chernobyl-4891b6b7c7791ae84db6b0bf0f7cf567",
-      "score": 906,
+      "score": 907,
       "comments": 817,
       "owner": "geox"
+    },
+    {
+      "title": "Updated Google Maps shows destruction of the city of Rafah",
+      "description": "",
+      "url": "https://twitter.com/AliAbunimah/status/2103890594137309425",
+      "score": 898,
+      "comments": 885,
+      "owner": "slowin"
     },
     {
       "title": "Sonnet 5.5",
       "description": "",
       "url": "https://www.anthropic.com/claude-sonnet-5-5",
-      "score": 860,
-      "comments": 595,
+      "score": 875,
+      "comments": 606,
       "owner": "D2OQZG8l5BI1S06"
     },
     {
@@ -63,14 +79,6 @@
       "owner": "MitPitt"
     },
     {
-      "title": "Updated Google Maps shows destruction of the city of Rafah",
-      "description": "",
-      "url": "https://twitter.com/AliAbunimah/status/2103890594137309425",
-      "score": 855,
-      "comments": 789,
-      "owner": "slowin"
-    },
-    {
       "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
       "description": "",
       "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
@@ -79,10 +87,18 @@
       "owner": "raahelb"
     },
     {
+      "title": "Everybody’s home. No one’s coming over",
+      "description": "",
+      "url": "https://www.derekthompson.org/p/the-death-of-the-american-host",
+      "score": 780,
+      "comments": 692,
+      "owner": "barry-cotter"
+    },
+    {
       "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
       "description": "",
       "url": "https://swarmtraces.org/",
-      "score": 752,
+      "score": 753,
       "comments": 471,
       "owner": "specked-citrus"
     },
@@ -90,24 +106,16 @@
       "title": "Breaking Up with Google Play: Why Conversations Is Now Free",
       "description": "",
       "url": "https://gultsch.de/posts/breaking-up-with-google-play/",
-      "score": 704,
+      "score": 705,
       "comments": 295,
       "owner": "ezst"
-    },
-    {
-      "title": "Jev in 25 Lines of Python",
-      "description": "",
-      "url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
-      "score": 691,
-      "comments": 212,
-      "owner": "bashbjorn"
     },
     {
       "title": "Pirating the Pirates",
       "description": "",
       "url": "https://mubi.com/en/notebook/posts/pirating-the-pirates",
-      "score": 680,
-      "comments": 351,
+      "score": 691,
+      "comments": 372,
       "owner": "piotrgrabowski"
     },
     {
@@ -115,7 +123,7 @@
       "description": "",
       "url": "https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/",
       "score": 631,
-      "comments": 393,
+      "comments": 394,
       "owner": "pieterr"
     },
     {
@@ -123,7 +131,7 @@
       "description": "",
       "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
       "score": 626,
-      "comments": 616,
+      "comments": 620,
       "owner": "papergirl"
     },
     {
@@ -143,28 +151,20 @@
       "owner": "Ardakilic"
     },
     {
-      "title": "You are no longer invited to dinner",
-      "description": "",
-      "url": "https://www.derekthompson.org/p/the-death-of-the-american-host",
-      "score": 604,
-      "comments": 566,
-      "owner": "barry-cotter"
-    },
-    {
       "title": "I'm the mom in that viral Giants clip. Let me tell you about my husband",
       "description": "",
       "url": "https://themomoftheyear.substack.com/p/im-the-mom-in-that-viral-giants-clip",
-      "score": 603,
+      "score": 604,
       "comments": 242,
       "owner": "minimaxir"
     },
     {
-      "title": "Plan mode is dead",
+      "title": "It's Time to Investigate the AI Labs",
       "description": "",
-      "url": "https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html",
-      "score": 586,
-      "comments": 508,
-      "owner": "jmvldz"
+      "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
+      "score": 603,
+      "comments": 266,
+      "owner": "ibobev"
     }
   ]
 }
