@@ -1,60 +1,60 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-10-01T05:41:32Z",
+  "savedAt": "2026-10-01T13:02:53Z",
   "label": "同城",
   "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-01，共 5 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-10-01",
   "items": [
     {
-      "title": "清澈的爱只为中国",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E6%B8%85%E6%BE%88%E7%9A%84%E7%88%B1%E5%8F%AA%E4%B8%BA%E4%B8%AD%E5%9B%BD&t=31&band_rank=1&Refer=top",
-      "score": 665067,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1790820680
-    },
-    {
-      "title": "12306回应候补成功后车已开走",
+      "title": "高速服务区新能源车充电像排队打饭",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%2312306%E5%9B%9E%E5%BA%94%E5%80%99%E8%A1%A5%E6%88%90%E5%8A%9F%E5%90%8E%E8%BD%A6%E5%B7%B2%E5%BC%80%E8%B5%B0%23&t=31&band_rank=1&Refer=top",
-      "score": 597088,
+      "url": "https://s.weibo.com/weibo?q=%23%E9%AB%98%E9%80%9F%E6%9C%8D%E5%8A%A1%E5%8C%BA%E6%96%B0%E8%83%BD%E6%BA%90%E8%BD%A6%E5%85%85%E7%94%B5%E5%83%8F%E6%8E%92%E9%98%9F%E6%89%93%E9%A5%AD%23&t=31&band_rank=1&Refer=top",
+      "score": 463865,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1790829920
+      "onboardTime": 1790855361
     },
     {
-      "title": "主持人阿丘被通报",
+      "title": "女装高退货率逼出2.4米防拆丝带",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E8%A3%85%E9%AB%98%E9%80%80%E8%B4%A7%E7%8E%87%E9%80%BC%E5%87%BA2.4%E7%B1%B3%E9%98%B2%E6%8B%86%E4%B8%9D%E5%B8%A6%23&t=31&band_rank=1&Refer=top",
+      "score": 316866,
+      "owner": "微博同城",
+      "label": "热",
+      "category": "民生新闻",
+      "onboardTime": 1790845639
+    },
+    {
+      "title": "大堵车",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%BB%E6%8C%81%E4%BA%BA%E9%98%BF%E4%B8%98%E8%A2%AB%E9%80%9A%E6%8A%A5%23&t=31&band_rank=1&Refer=top",
-      "score": 577201,
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%A7%E5%A0%B5%E8%BD%A6&t=31&band_rank=1&Refer=top",
+      "score": 315566,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1790820800
+      "onboardTime": 1790844380
     },
     {
-      "title": "2025年全国结婚登记676.5万对",
+      "title": "许家印伦敦豪宅最新现状",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E8%AE%B8%E5%AE%B6%E5%8D%B0%E4%BC%A6%E6%95%A6%E8%B1%AA%E5%AE%85%E6%9C%80%E6%96%B0%E7%8E%B0%E7%8A%B6&t=31&band_rank=1&Refer=top",
+      "score": 272264,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1790850920
+    },
+    {
+      "title": "凌晨天安门前看升旗队伍望不到头",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%232025%E5%B9%B4%E5%85%A8%E5%9B%BD%E7%BB%93%E5%A9%9A%E7%99%BB%E8%AE%B0676.5%E4%B8%87%E5%AF%B9%23&t=31&band_rank=1&Refer=top",
-      "score": 203199,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%87%8C%E6%99%A8%E5%A4%A9%E5%AE%89%E9%97%A8%E5%89%8D%E7%9C%8B%E5%8D%87%E6%97%97%E9%98%9F%E4%BC%8D%E6%9C%9B%E4%B8%8D%E5%88%B0%E5%A4%B4%23&t=31&band_rank=1&Refer=top",
+      "score": 183117,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1790831658
-    },
-    {
-      "title": "国庆节",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%9B%BD%E5%BA%86%E8%8A%82&t=31&band_rank=1&Refer=top",
-      "score": 167739,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1790783180
+      "onboardTime": 1790859682
     }
   ]
 }
