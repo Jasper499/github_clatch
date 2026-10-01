@@ -1,60 +1,90 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-10-01T13:02:53Z",
+  "savedAt": "2026-10-01T22:37:05Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-01，共 5 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-01，共 8 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-10-01",
   "items": [
     {
-      "title": "高速服务区新能源车充电像排队打饭",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%AB%98%E9%80%9F%E6%9C%8D%E5%8A%A1%E5%8C%BA%E6%96%B0%E8%83%BD%E6%BA%90%E8%BD%A6%E5%85%85%E7%94%B5%E5%83%8F%E6%8E%92%E9%98%9F%E6%89%93%E9%A5%AD%23&t=31&band_rank=1&Refer=top",
-      "score": 463865,
+      "title": "小学生被老师掌掴致耳聋警方终止调查",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%B0%8F%E5%AD%A6%E7%94%9F%E8%A2%AB%E8%80%81%E5%B8%88%E6%8E%8C%E6%8E%B4%E8%87%B4%E8%80%B3%E8%81%8B%E8%AD%A6%E6%96%B9%E7%BB%88%E6%AD%A2%E8%B0%83%E6%9F%A5%23&t=31&band_rank=1&Refer=top",
+      "score": 89544,
       "owner": "微博同城",
-      "label": "新",
+      "label": "",
       "category": "民生新闻",
-      "onboardTime": 1790855361
+      "onboardTime": 1790871380
+    },
+    {
+      "title": "高速等5个小时充电车主发声",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%AB%98%E9%80%9F%E7%AD%895%E4%B8%AA%E5%B0%8F%E6%97%B6%E5%85%85%E7%94%B5%E8%BD%A6%E4%B8%BB%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
+      "score": 82711,
+      "owner": "微博同城",
+      "label": "热",
+      "category": "民生新闻",
+      "onboardTime": 1790871799
     },
     {
       "title": "女装高退货率逼出2.4米防拆丝带",
-      "description": "热 · 民生新闻",
+      "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E8%A3%85%E9%AB%98%E9%80%80%E8%B4%A7%E7%8E%87%E9%80%BC%E5%87%BA2.4%E7%B1%B3%E9%98%B2%E6%8B%86%E4%B8%9D%E5%B8%A6%23&t=31&band_rank=1&Refer=top",
-      "score": 316866,
+      "score": 80492,
       "owner": "微博同城",
-      "label": "热",
+      "label": "",
       "category": "民生新闻",
       "onboardTime": 1790845639
     },
     {
-      "title": "大堵车",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%A4%A7%E5%A0%B5%E8%BD%A6&t=31&band_rank=1&Refer=top",
-      "score": 315566,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1790844380
-    },
-    {
-      "title": "许家印伦敦豪宅最新现状",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E8%AE%B8%E5%AE%B6%E5%8D%B0%E4%BC%A6%E6%95%A6%E8%B1%AA%E5%AE%85%E6%9C%80%E6%96%B0%E7%8E%B0%E7%8A%B6&t=31&band_rank=1&Refer=top",
-      "score": 272264,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1790850920
-    },
-    {
-      "title": "凌晨天安门前看升旗队伍望不到头",
+      "title": "国庆烟花",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%87%8C%E6%99%A8%E5%A4%A9%E5%AE%89%E9%97%A8%E5%89%8D%E7%9C%8B%E5%8D%87%E6%97%97%E9%98%9F%E4%BC%8D%E6%9C%9B%E4%B8%8D%E5%88%B0%E5%A4%B4%23&t=31&band_rank=1&Refer=top",
-      "score": 183117,
+      "url": "https://s.weibo.com/weibo?q=%E5%9B%BD%E5%BA%86%E7%83%9F%E8%8A%B1&t=31&band_rank=1&Refer=top",
+      "score": 80410,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1790859682
+      "onboardTime": 1790889795
+    },
+    {
+      "title": "30岁男子跟风垫腰睡突发截瘫",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%2330%E5%B2%81%E7%94%B7%E5%AD%90%E8%B7%9F%E9%A3%8E%E5%9E%AB%E8%85%B0%E7%9D%A1%E7%AA%81%E5%8F%91%E6%88%AA%E7%98%AB%23&t=31&band_rank=1&Refer=top",
+      "score": 80075,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1790892916
+    },
+    {
+      "title": "警察叔叔标记了一辆载具",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%AD%A6%E5%AF%9F%E5%8F%94%E5%8F%94%E6%A0%87%E8%AE%B0%E4%BA%86%E4%B8%80%E8%BE%86%E8%BD%BD%E5%85%B7%23&t=31&band_rank=1&Refer=top",
+      "score": 80042,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1790861841
+    },
+    {
+      "title": "国庆",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%9B%BD%E5%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 79980,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1790855599
+    },
+    {
+      "title": "高速服务区新能源车充电像排队打饭",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%AB%98%E9%80%9F%E6%9C%8D%E5%8A%A1%E5%8C%BA%E6%96%B0%E8%83%BD%E6%BA%90%E8%BD%A6%E5%85%85%E7%94%B5%E5%83%8F%E6%8E%92%E9%98%9F%E6%89%93%E9%A5%AD%23&t=31&band_rank=1&Refer=top",
+      "score": 79824,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1790855361
     }
   ]
 }
