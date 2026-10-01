@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-10-01T08:34:48Z",
+  "savedAt": "2026-10-01T19:20:28Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-10-01，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,64 +10,56 @@
       "title": "When did Google get so weird?",
       "description": "",
       "url": "https://sancho.bearblog.dev/google-weird/",
-      "score": 1993,
-      "comments": 1108,
+      "score": 1997,
+      "comments": 1109,
       "owner": "sancho-panza"
-    },
-    {
-      "title": "F-Droid 2.0",
-      "description": "",
-      "url": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
-      "score": 1464,
-      "comments": 416,
-      "owner": "daveoc64"
     },
     {
       "title": "Gemini 4 Argon",
       "description": "See also: <i>Gemini 4 Argon (High): Intelligence, Performance and Price Analysis</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49914236\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49914236</a>",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-      "score": 1343,
-      "comments": 859,
+      "score": 1615,
+      "comments": 1089,
       "owner": "bradleyg223"
     },
     {
       "title": "Owed a billion dollars in Nvidia stock",
       "description": "",
       "url": "https://colo.to/nvidia-stock-narrative.html",
-      "score": 1087,
-      "comments": 456,
+      "score": 1088,
+      "comments": 458,
       "owner": "Eric_Gullichsen"
     },
     {
       "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
       "description": "",
       "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
-      "score": 1053,
-      "comments": 936,
+      "score": 1058,
+      "comments": 945,
       "owner": "crorella"
     },
     {
       "title": "Dutch governments builds alternative for Microsoft based on NixOS",
       "description": "",
       "url": "https://www.dawo.community/en/",
-      "score": 1019,
-      "comments": 581,
+      "score": 1020,
+      "comments": 583,
       "owner": "fjfaase"
     },
     {
       "title": "Updated Google Maps shows destruction of the city of Rafah",
       "description": "",
       "url": "https://twitter.com/AliAbunimah/status/2103890594137309425",
-      "score": 929,
-      "comments": 912,
+      "score": 935,
+      "comments": 926,
       "owner": "slowin"
     },
     {
       "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
       "description": "",
       "url": "https://github.com/ninjahawk/livenerf",
-      "score": 894,
-      "comments": 378,
+      "score": 908,
+      "comments": 386,
       "owner": "bryan0"
     },
     {
@@ -82,17 +74,25 @@
       "title": "Everybody’s home. No one’s coming over",
       "description": "",
       "url": "https://www.derekthompson.org/p/the-death-of-the-american-host",
-      "score": 815,
-      "comments": 730,
+      "score": 819,
+      "comments": 733,
       "owner": "barry-cotter"
     },
     {
       "title": "America.gov",
       "description": "",
       "url": "https://america.gov/",
-      "score": 757,
-      "comments": 709,
+      "score": 768,
+      "comments": 728,
       "owner": "plesiv"
+    },
+    {
+      "title": "Dots: Always-on agents",
+      "description": "",
+      "url": "https://openai.com/index/introducing-dots/",
+      "score": 759,
+      "comments": 637,
+      "owner": "alvis"
     },
     {
       "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
@@ -101,14 +101,6 @@
       "score": 753,
       "comments": 472,
       "owner": "specked-citrus"
-    },
-    {
-      "title": "Dots: Always-on agents",
-      "description": "",
-      "url": "https://openai.com/index/introducing-dots/",
-      "score": 752,
-      "comments": 630,
-      "owner": "alvis"
     },
     {
       "title": "Breaking Up with Google Play: Why Conversations Is Now Free",
@@ -122,16 +114,16 @@
       "title": "Pirating the Pirates",
       "description": "",
       "url": "https://mubi.com/en/notebook/posts/pirating-the-pirates",
-      "score": 698,
-      "comments": 381,
+      "score": 699,
+      "comments": 383,
       "owner": "piotrgrabowski"
     },
     {
       "title": "You said no MCP",
       "description": "",
       "url": "https://earendil.com/posts/you-said-no-mcp/",
-      "score": 640,
-      "comments": 350,
+      "score": 658,
+      "comments": 359,
       "owner": "yarapavan"
     },
     {
@@ -139,14 +131,14 @@
       "description": "",
       "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
       "score": 627,
-      "comments": 622,
+      "comments": 623,
       "owner": "papergirl"
     },
     {
       "title": "It's Time to Investigate the AI Labs",
       "description": "",
       "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
-      "score": 620,
+      "score": 623,
       "comments": 277,
       "owner": "ibobev"
     },
@@ -162,9 +154,17 @@
       "title": "I'm the mom in that viral Giants clip. Let me tell you about my husband",
       "description": "",
       "url": "https://themomoftheyear.substack.com/p/im-the-mom-in-that-viral-giants-clip",
-      "score": 604,
+      "score": 605,
       "comments": 241,
       "owner": "minimaxir"
+    },
+    {
+      "title": "How Delhi cut electricity loss from 50 to 5 percent",
+      "description": "",
+      "url": "https://spectrum.ieee.org/delhi-electricity-loss",
+      "score": 589,
+      "comments": 329,
+      "owner": "rbanffy"
     }
   ]
 }
