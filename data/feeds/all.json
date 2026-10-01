@@ -6,136 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "mrm:https://doi.org/10.1002/mrm.70611",
-      "url": "https://doi.org/10.1002/mrm.70611",
-      "title": "[Magnetic Resonance in Medicine] Longitudinal Dynamic\n                    <scp>MRI</scp>\n                    Through Multisession Joint Reconstruction Incorporating Patient‐Specific Prior Image Information",
-      "date_published": "2026-10-01T07:54:19Z"
+      "id": "hackernews:https://sancho.bearblog.dev/google-weird/",
+      "url": "https://sancho.bearblog.dev/google-weird/",
+      "title": "[Hacker News 热门] When did Google get so weird?",
+      "date_published": "2026-10-01T08:34:48Z"
     },
     {
-      "id": "mrm:https://doi.org/10.1002/mrm.70614",
-      "url": "https://doi.org/10.1002/mrm.70614",
-      "title": "[Magnetic Resonance in Medicine] Whole‐Brain Cerebral Microvascular Pulsatility Imaging Using Dynamic\n                    <scp>pCASL MRI</scp>\n                    With Segmented Stack‐of‐Stars Golden‐Angle Radial Acquisition",
-      "date_published": "2026-10-01T07:54:19Z"
+      "id": "hackernews:https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
+      "url": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
+      "title": "[Hacker News 热门] F-Droid 2.0",
+      "date_published": "2026-10-01T08:34:48Z"
     },
     {
-      "id": "mrm:https://doi.org/10.1002/mrm.70615",
-      "url": "https://doi.org/10.1002/mrm.70615",
-      "title": "[Magnetic Resonance in Medicine] <scp>SNAPFLOW</scp>\n                    : A Novel Integrated\n                    <scp>MRI</scp>\n                    Sequence for Simultaneous Intracranial Vessel and Blood Flow Assessment",
-      "date_published": "2026-10-01T07:54:19Z"
+      "id": "hackernews:https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "title": "[Hacker News 热门] Gemini 4 Argon",
+      "date_published": "2026-10-01T08:34:48Z"
     },
     {
-      "id": "mrm:https://doi.org/10.1002/mrm.70603",
-      "url": "https://doi.org/10.1002/mrm.70603",
-      "title": "[Magnetic Resonance in Medicine] A Fast B1+‐Driven RF Co‐Simulation Optimization Method for RF Coil Arrays",
-      "date_published": "2026-10-01T07:54:19Z"
+      "id": "hackernews:https://colo.to/nvidia-stock-narrative.html",
+      "url": "https://colo.to/nvidia-stock-narrative.html",
+      "title": "[Hacker News 热门] Owed a billion dollars in Nvidia stock",
+      "date_published": "2026-10-01T08:34:48Z"
     },
     {
-      "id": "mrm:https://doi.org/10.1002/mrm.70606",
-      "url": "https://doi.org/10.1002/mrm.70606",
-      "title": "[Magnetic Resonance in Medicine] <i>p</i>\n                    ‐Brain: A Modular Open‐Source Framework for Automated Quantitative DCE‐MRI of Cerebral Perfusion, Microvasculature, and Blood–Brain Barrier Permeability",
-      "date_published": "2026-10-01T07:54:19Z"
+      "id": "hackernews:https://openai.com/index/introducing-gpt-6-1-sol/",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+      "title": "[Hacker News 热门] GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+      "date_published": "2026-10-01T08:34:48Z"
     },
     {
-      "id": "mrm:https://doi.org/10.1002/mrm.70605",
-      "url": "https://doi.org/10.1002/mrm.70605",
-      "title": "[Magnetic Resonance in Medicine] Issue Information",
-      "date_published": "2026-10-01T07:54:19Z"
+      "id": "hackernews:https://www.dawo.community/en/",
+      "url": "https://www.dawo.community/en/",
+      "title": "[Hacker News 热门] Dutch governments builds alternative for Microsoft based on NixOS",
+      "date_published": "2026-10-01T08:34:48Z"
     },
     {
-      "id": "mrm:https://doi.org/10.1002/mrm.70609",
-      "url": "https://doi.org/10.1002/mrm.70609",
-      "title": "[Magnetic Resonance in Medicine] In Memoriam: John F. Schenck (1939–2026)",
-      "date_published": "2026-10-01T07:54:19Z"
+      "id": "hackernews:https://twitter.com/AliAbunimah/status/2103890594137309425",
+      "url": "https://twitter.com/AliAbunimah/status/2103890594137309425",
+      "title": "[Hacker News 热门] Updated Google Maps shows destruction of the city of Rafah",
+      "date_published": "2026-10-01T08:34:48Z"
     },
     {
-      "id": "mrm:https://doi.org/10.1002/mrm.70596",
-      "url": "https://doi.org/10.1002/mrm.70596",
-      "title": "[Magnetic Resonance in Medicine] A Modular Hybrid Framework for\n                    <scp>CEST MRI</scp>\n                    Development and Clinical Translation Using\n                    <scp>pTx</scp>\n                    ‐Pulseq Preparation With Open‐ and Closed‐Source Readouts and\n                    <scp>ONNX</scp>\n                    Mapping",
-      "date_published": "2026-10-01T07:54:19Z"
-    },
-    {
-      "id": "tmi:https://doi.org/10.1109/tmi.2026.3710133",
-      "url": "https://doi.org/10.1109/tmi.2026.3710133",
-      "title": "[IEEE Transactions on Medical Imaging] Volumetric Functional Ultrasound Imaging in Macaques",
-      "date_published": "2026-10-01T07:54:19Z"
-    },
-    {
-      "id": "tmi:https://doi.org/10.1109/tmi.2026.3712008",
-      "url": "https://doi.org/10.1109/tmi.2026.3712008",
-      "title": "[IEEE Transactions on Medical Imaging] Retrieval-Augmented Representation for Semi-Supervised Medical Image Segmentation",
-      "date_published": "2026-10-01T07:54:19Z"
-    },
-    {
-      "id": "tmi:https://doi.org/10.1109/tmi.2025.3642381",
-      "url": "https://doi.org/10.1109/tmi.2025.3642381",
-      "title": "[IEEE Transactions on Medical Imaging] Polar Subarea-Aware Fusion Net for Posterior Eyeball Shape Reconstruction",
-      "date_published": "2026-10-01T07:54:19Z"
-    },
-    {
-      "id": "tmi:https://doi.org/10.1109/tmi.2026.3709646",
-      "url": "https://doi.org/10.1109/tmi.2026.3709646",
-      "title": "[IEEE Transactions on Medical Imaging] BrainCL: Transformer-Based Brain Network Contrastive Learning With Multi-Order Topology and Salience Masking",
-      "date_published": "2026-10-01T07:54:19Z"
-    },
-    {
-      "id": "tmi:https://doi.org/10.1109/tmi.2026.3709056",
-      "url": "https://doi.org/10.1109/tmi.2026.3709056",
-      "title": "[IEEE Transactions on Medical Imaging] The Ritz Adjoint Method for MRI Pulse Design",
-      "date_published": "2026-10-01T07:54:19Z"
-    },
-    {
-      "id": "tmi:https://doi.org/10.1109/tmi.2026.3711975",
-      "url": "https://doi.org/10.1109/tmi.2026.3711975",
-      "title": "[IEEE Transactions on Medical Imaging] UniTransAD: Unified Translation Framework for Anomaly Detection in Brain MRI",
-      "date_published": "2026-10-01T07:54:19Z"
-    },
-    {
-      "id": "media:https://doi.org/10.1016/j.media.2026.104297",
-      "url": "https://doi.org/10.1016/j.media.2026.104297",
-      "title": "[Medical Image Analysis] Multi-contrast MRI acceleration via post-reconstruction fusion",
-      "date_published": "2026-10-01T07:54:19Z"
-    },
-    {
-      "id": "media:https://doi.org/10.1016/j.media.2026.104326",
-      "url": "https://doi.org/10.1016/j.media.2026.104326",
-      "title": "[Medical Image Analysis] MoRe-3DGSMR: Motion-resolved reconstruction framework for free-breathing pulmonary MRI based on 3D Gaussian representation",
-      "date_published": "2026-10-01T07:54:19Z"
-    },
-    {
-      "id": "media:https://doi.org/10.1016/j.media.2026.104341",
-      "url": "https://doi.org/10.1016/j.media.2026.104341",
-      "title": "[Medical Image Analysis] A nested optimization framework for sound speed imaging and uncertainty estimation in ultrasound computed tomography via Mamba-regularized full waveform inversion",
-      "date_published": "2026-10-01T07:54:19Z"
-    },
-    {
-      "id": "media:https://doi.org/10.1016/j.media.2026.104296",
-      "url": "https://doi.org/10.1016/j.media.2026.104296",
-      "title": "[Medical Image Analysis] Learning efficient non-rigid registration in k-space for accelerated Magnetic Resonance Imaging",
-      "date_published": "2026-10-01T07:54:19Z"
-    },
-    {
-      "id": "media:https://doi.org/10.1016/j.media.2026.104317",
-      "url": "https://doi.org/10.1016/j.media.2026.104317",
-      "title": "[Medical Image Analysis] Multifrequency neural network-based wave inversion in MR elastography with uncertainty quantification",
-      "date_published": "2026-10-01T07:54:19Z"
-    },
-    {
-      "id": "media:https://doi.org/10.1016/j.media.2026.104316",
-      "url": "https://doi.org/10.1016/j.media.2026.104316",
-      "title": "[Medical Image Analysis] FPGL: A meta-learned implicit neural representation framework for medical image segmentation",
-      "date_published": "2026-10-01T07:54:19Z"
-    },
-    {
-      "id": "media:https://doi.org/10.1016/j.media.2026.104280",
-      "url": "https://doi.org/10.1016/j.media.2026.104280",
-      "title": "[Medical Image Analysis] DIPOG: A dynamic pooling graph neural network with spatial–temporal-frequency awareness for diagnosis of Alzheimer’s disease",
-      "date_published": "2026-10-01T07:54:19Z"
-    },
-    {
-      "id": "media:https://doi.org/10.1016/j.media.2026.104332",
-      "url": "https://doi.org/10.1016/j.media.2026.104332",
-      "title": "[Medical Image Analysis] Vertex-wise biomechanical sensitivity mapping of subcortical structures under atrophy in Parkinson’s disease",
-      "date_published": "2026-10-01T07:54:19Z"
+      "id": "hackernews:https://github.com/ninjahawk/livenerf",
+      "url": "https://github.com/ninjahawk/livenerf",
+      "title": "[Hacker News 热门] Livenerf: Has Opus 5.5 been nerfed yet?",
+      "date_published": "2026-10-01T08:34:48Z"
     }
   ]
 }

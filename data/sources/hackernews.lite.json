@@ -1,32 +1,40 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-09-30T18:56:34Z",
+  "savedAt": "2026-10-01T08:34:48Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-09-30，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-10-01，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-09-30",
+  "fetchedDate": "2026-10-01",
   "items": [
     {
       "title": "When did Google get so weird?",
       "description": "",
       "url": "https://sancho.bearblog.dev/google-weird/",
-      "score": 1987,
-      "comments": 1100,
+      "score": 1993,
+      "comments": 1108,
       "owner": "sancho-panza"
     },
     {
       "title": "F-Droid 2.0",
       "description": "",
       "url": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
-      "score": 1463,
+      "score": 1464,
       "comments": 416,
       "owner": "daveoc64"
+    },
+    {
+      "title": "Gemini 4 Argon",
+      "description": "See also: <i>Gemini 4 Argon (High): Intelligence, Performance and Price Analysis</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49914236\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49914236</a>",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "score": 1343,
+      "comments": 859,
+      "owner": "bradleyg223"
     },
     {
       "title": "Owed a billion dollars in Nvidia stock",
       "description": "",
       "url": "https://colo.to/nvidia-stock-narrative.html",
-      "score": 1086,
+      "score": 1087,
       "comments": 456,
       "owner": "Eric_Gullichsen"
     },
@@ -34,8 +42,8 @@
       "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
       "description": "",
       "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
-      "score": 1036,
-      "comments": 917,
+      "score": 1053,
+      "comments": 936,
       "owner": "crorella"
     },
     {
@@ -50,64 +58,56 @@
       "title": "Updated Google Maps shows destruction of the city of Rafah",
       "description": "",
       "url": "https://twitter.com/AliAbunimah/status/2103890594137309425",
-      "score": 920,
-      "comments": 902,
+      "score": 929,
+      "comments": 912,
       "owner": "slowin"
-    },
-    {
-      "title": "Sonnet 5.5",
-      "description": "",
-      "url": "https://www.anthropic.com/claude-sonnet-5-5",
-      "score": 879,
-      "comments": 609,
-      "owner": "D2OQZG8l5BI1S06"
-    },
-    {
-      "title": "Show HN: Make cursed fonts like Times New Bastard",
-      "description": "A joke tool that abuses OpenType&#x27;s ligature feature to mix fonts. It works pretty fast on client-side by loading Python in WASM.",
-      "url": "https://bastardica.mitpit.com",
-      "score": 861,
-      "comments": 123,
-      "owner": "MitPitt"
     },
     {
       "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
       "description": "",
       "url": "https://github.com/ninjahawk/livenerf",
-      "score": 840,
-      "comments": 354,
+      "score": 894,
+      "comments": 378,
       "owner": "bryan0"
+    },
+    {
+      "title": "Sonnet 5.5",
+      "description": "",
+      "url": "https://www.anthropic.com/claude-sonnet-5-5",
+      "score": 882,
+      "comments": 614,
+      "owner": "D2OQZG8l5BI1S06"
     },
     {
       "title": "Everybody’s home. No one’s coming over",
       "description": "",
       "url": "https://www.derekthompson.org/p/the-death-of-the-american-host",
-      "score": 805,
-      "comments": 719,
+      "score": 815,
+      "comments": 730,
       "owner": "barry-cotter"
+    },
+    {
+      "title": "America.gov",
+      "description": "",
+      "url": "https://america.gov/",
+      "score": 757,
+      "comments": 709,
+      "owner": "plesiv"
     },
     {
       "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
       "description": "",
       "url": "https://swarmtraces.org/",
       "score": 753,
-      "comments": 471,
+      "comments": 472,
       "owner": "specked-citrus"
-    },
-    {
-      "title": "America.gov",
-      "description": "",
-      "url": "https://america.gov/",
-      "score": 737,
-      "comments": 671,
-      "owner": "plesiv"
     },
     {
       "title": "Dots: Always-on agents",
       "description": "",
       "url": "https://openai.com/index/introducing-dots/",
-      "score": 725,
-      "comments": 613,
+      "score": 752,
+      "comments": 630,
       "owner": "alvis"
     },
     {
@@ -122,49 +122,49 @@
       "title": "Pirating the Pirates",
       "description": "",
       "url": "https://mubi.com/en/notebook/posts/pirating-the-pirates",
-      "score": 695,
-      "comments": 375,
+      "score": 698,
+      "comments": 381,
       "owner": "piotrgrabowski"
     },
     {
-      "title": "Meta takes down a critical video about meta AI Glasses after filming at Meta",
+      "title": "You said no MCP",
       "description": "",
-      "url": "https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/",
-      "score": 631,
-      "comments": 394,
-      "owner": "pieterr"
+      "url": "https://earendil.com/posts/you-said-no-mcp/",
+      "score": 640,
+      "comments": 350,
+      "owner": "yarapavan"
     },
     {
       "title": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
       "description": "",
       "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
       "score": 627,
-      "comments": 621,
+      "comments": 622,
       "owner": "papergirl"
-    },
-    {
-      "title": "Linux support is coming to Snapdragon X2 series",
-      "description": "",
-      "url": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
-      "score": 624,
-      "comments": 272,
-      "owner": "aaronday"
     },
     {
       "title": "It's Time to Investigate the AI Labs",
       "description": "",
       "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
-      "score": 618,
-      "comments": 275,
+      "score": 620,
+      "comments": 277,
       "owner": "ibobev"
     },
     {
       "title": "Ollaya – Ollama for open-source, Jev-style decision models",
       "description": "",
       "url": "https://ollaya.dev/",
-      "score": 613,
+      "score": 615,
       "comments": 145,
       "owner": "Ardakilic"
+    },
+    {
+      "title": "I'm the mom in that viral Giants clip. Let me tell you about my husband",
+      "description": "",
+      "url": "https://themomoftheyear.substack.com/p/im-the-mom-in-that-viral-giants-clip",
+      "score": 604,
+      "comments": 241,
+      "owner": "minimaxir"
     }
   ]
 }
