@@ -1,90 +1,100 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-10-02T05:26:16Z",
+  "savedAt": "2026-10-02T12:23:21Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-02，共 8 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-02，共 9 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-10-02",
   "items": [
     {
-      "title": "在国外被中国男演员救了一命",
-      "description": "热 · 民生新闻,艺人",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%9C%A8%E5%9B%BD%E5%A4%96%E8%A2%AB%E4%B8%AD%E5%9B%BD%E7%94%B7%E6%BC%94%E5%91%98%E6%95%91%E4%BA%86%E4%B8%80%E5%91%BD%23&t=31&band_rank=1&Refer=top",
-      "score": 1578327,
+      "title": "女子不知怀孕高速突发宫外孕大出血",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E4%B8%8D%E7%9F%A5%E6%80%80%E5%AD%95%E9%AB%98%E9%80%9F%E7%AA%81%E5%8F%91%E5%AE%AB%E5%A4%96%E5%AD%95%E5%A4%A7%E5%87%BA%E8%A1%80%23&t=31&band_rank=1&Refer=top",
+      "score": 574989,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1790940738
+    },
+    {
+      "title": "北京独居女子离世房产判归国家",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8C%97%E4%BA%AC%E7%8B%AC%E5%B1%85%E5%A5%B3%E5%AD%90%E7%A6%BB%E4%B8%96%E6%88%BF%E4%BA%A7%E5%88%A4%E5%BD%92%E5%9B%BD%E5%AE%B6%23&t=31&band_rank=1&Refer=top",
+      "score": 559654,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1790940738
+    },
+    {
+      "title": "香港名媛蔡天凤碎尸案细节",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%A6%99%E6%B8%AF%E5%90%8D%E5%AA%9B%E8%94%A1%E5%A4%A9%E5%87%A4%E7%A2%8E%E5%B0%B8%E6%A1%88%E7%BB%86%E8%8A%82%23&t=31&band_rank=1&Refer=top",
+      "score": 310593,
       "owner": "微博同城",
       "label": "热",
-      "category": "民生新闻,艺人",
-      "onboardTime": 1790911038
+      "category": "民生新闻",
+      "onboardTime": 1790928439
     },
     {
-      "title": "莫氏鸡煲总店员工从180人减至30多人",
+      "title": "蔡天凤被诱骗上车遭铁锤袭击",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%8E%AB%E6%B0%8F%E9%B8%A1%E7%85%B2%E6%80%BB%E5%BA%97%E5%91%98%E5%B7%A5%E4%BB%8E180%E4%BA%BA%E5%87%8F%E8%87%B330%E5%A4%9A%E4%BA%BA%23&t=31&band_rank=1&Refer=top",
-      "score": 372300,
+      "url": "https://s.weibo.com/weibo?q=%E8%94%A1%E5%A4%A9%E5%87%A4%E8%A2%AB%E8%AF%B1%E9%AA%97%E4%B8%8A%E8%BD%A6%E9%81%AD%E9%93%81%E9%94%A4%E8%A2%AD%E5%87%BB&t=31&band_rank=1&Refer=top",
+      "score": 309171,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1790914880
+      "onboardTime": 1790941580
     },
     {
-      "title": "高速堵车悬挂免费WiFi司机发声",
+      "title": "蒂芙尼月饼事件舆论反转",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%AB%98%E9%80%9F%E5%A0%B5%E8%BD%A6%E6%82%AC%E6%8C%82%E5%85%8D%E8%B4%B9WiFi%E5%8F%B8%E6%9C%BA%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
-      "score": 311986,
+      "url": "https://s.weibo.com/weibo?q=%E8%92%82%E8%8A%99%E5%B0%BC%E6%9C%88%E9%A5%BC%E4%BA%8B%E4%BB%B6%E8%88%86%E8%AE%BA%E5%8F%8D%E8%BD%AC&t=31&band_rank=1&Refer=top",
+      "score": 303383,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1790917519
+      "onboardTime": 1790941640
     },
     {
-      "title": "多地调配移动充电车应对高速排队",
+      "title": "赴泰失联教师手机定位曾在缅甸出现",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%9A%E5%9C%B0%E8%B0%83%E9%85%8D%E7%A7%BB%E5%8A%A8%E5%85%85%E7%94%B5%E8%BD%A6%E5%BA%94%E5%AF%B9%E9%AB%98%E9%80%9F%E6%8E%92%E9%98%9F%23&t=31&band_rank=1&Refer=top",
-      "score": 149677,
+      "url": "https://s.weibo.com/weibo?q=%23%E8%B5%B4%E6%B3%B0%E5%A4%B1%E8%81%94%E6%95%99%E5%B8%88%E6%89%8B%E6%9C%BA%E5%AE%9A%E4%BD%8D%E6%9B%BE%E5%9C%A8%E7%BC%85%E7%94%B8%E5%87%BA%E7%8E%B0%23&t=31&band_rank=1&Refer=top",
+      "score": 168843,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1790917398
+      "onboardTime": 1790942480
     },
     {
-      "title": "莫氏鸡煲候鸡亭拆了",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%8E%AB%E6%B0%8F%E9%B8%A1%E7%85%B2%E5%80%99%E9%B8%A1%E4%BA%AD%E6%8B%86%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 148234,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1790917699
-    },
-    {
-      "title": "两队老年暴走团有人互扇耳光",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E4%B8%A4%E9%98%9F%E8%80%81%E5%B9%B4%E6%9A%B4%E8%B5%B0%E5%9B%A2%E6%9C%89%E4%BA%BA%E4%BA%92%E6%89%87%E8%80%B3%E5%85%89&t=31&band_rank=1&Refer=top",
-      "score": 133182,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1790914459
-    },
-    {
-      "title": "清北硕博去余杭街道办",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E6%B8%85%E5%8C%97%E7%A1%95%E5%8D%9A%E5%8E%BB%E4%BD%99%E6%9D%AD%E8%A1%97%E9%81%93%E5%8A%9E&t=31&band_rank=1&Refer=top",
-      "score": 131736,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1790913378
-    },
-    {
-      "title": "女骑手遇交警拦停强行逃离被撞",
+      "title": "乘客称因刷剧救了一飞机人",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E9%AA%91%E6%89%8B%E9%81%87%E4%BA%A4%E8%AD%A6%E6%8B%A6%E5%81%9C%E5%BC%BA%E8%A1%8C%E9%80%83%E7%A6%BB%E8%A2%AB%E6%92%9E%23&t=31&band_rank=1&Refer=top",
-      "score": 129776,
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B9%98%E5%AE%A2%E7%A7%B0%E5%9B%A0%E5%88%B7%E5%89%A7%E6%95%91%E4%BA%86%E4%B8%80%E9%A3%9E%E6%9C%BA%E4%BA%BA%23&t=31&band_rank=1&Refer=top",
+      "score": 121970,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1790904620
+      "onboardTime": 1790930481
+    },
+    {
+      "title": "二十四道拐抗战公路被质疑圈地收费",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BA%8C%E5%8D%81%E5%9B%9B%E9%81%93%E6%8B%90%E6%8A%97%E6%88%98%E5%85%AC%E8%B7%AF%E8%A2%AB%E8%B4%A8%E7%96%91%E5%9C%88%E5%9C%B0%E6%94%B6%E8%B4%B9%23&t=31&band_rank=1&Refer=top",
+      "score": 119178,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1790943679
+    },
+    {
+      "title": "蔡天凤案 寄生式关系",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E8%94%A1%E5%A4%A9%E5%87%A4%E6%A1%88%20%E5%AF%84%E7%94%9F%E5%BC%8F%E5%85%B3%E7%B3%BB&t=31&band_rank=1&Refer=top",
+      "score": 114639,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1790936360
     }
   ]
 }
