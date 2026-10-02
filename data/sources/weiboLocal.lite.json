@@ -1,90 +1,90 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-10-01T22:37:05Z",
+  "savedAt": "2026-10-02T05:26:16Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-01，共 8 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-02，共 8 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
-  "fetchedDate": "2026-10-01",
+  "fetchedDate": "2026-10-02",
   "items": [
     {
-      "title": "小学生被老师掌掴致耳聋警方终止调查",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%B0%8F%E5%AD%A6%E7%94%9F%E8%A2%AB%E8%80%81%E5%B8%88%E6%8E%8C%E6%8E%B4%E8%87%B4%E8%80%B3%E8%81%8B%E8%AD%A6%E6%96%B9%E7%BB%88%E6%AD%A2%E8%B0%83%E6%9F%A5%23&t=31&band_rank=1&Refer=top",
-      "score": 89544,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1790871380
-    },
-    {
-      "title": "高速等5个小时充电车主发声",
-      "description": "热 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%AB%98%E9%80%9F%E7%AD%895%E4%B8%AA%E5%B0%8F%E6%97%B6%E5%85%85%E7%94%B5%E8%BD%A6%E4%B8%BB%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
-      "score": 82711,
+      "title": "在国外被中国男演员救了一命",
+      "description": "热 · 民生新闻,艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%9C%A8%E5%9B%BD%E5%A4%96%E8%A2%AB%E4%B8%AD%E5%9B%BD%E7%94%B7%E6%BC%94%E5%91%98%E6%95%91%E4%BA%86%E4%B8%80%E5%91%BD%23&t=31&band_rank=1&Refer=top",
+      "score": 1578327,
       "owner": "微博同城",
       "label": "热",
-      "category": "民生新闻",
-      "onboardTime": 1790871799
+      "category": "民生新闻,艺人",
+      "onboardTime": 1790911038
     },
     {
-      "title": "女装高退货率逼出2.4米防拆丝带",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E8%A3%85%E9%AB%98%E9%80%80%E8%B4%A7%E7%8E%87%E9%80%BC%E5%87%BA2.4%E7%B1%B3%E9%98%B2%E6%8B%86%E4%B8%9D%E5%B8%A6%23&t=31&band_rank=1&Refer=top",
-      "score": 80492,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1790845639
-    },
-    {
-      "title": "国庆烟花",
+      "title": "莫氏鸡煲总店员工从180人减至30多人",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%9B%BD%E5%BA%86%E7%83%9F%E8%8A%B1&t=31&band_rank=1&Refer=top",
-      "score": 80410,
+      "url": "https://s.weibo.com/weibo?q=%23%E8%8E%AB%E6%B0%8F%E9%B8%A1%E7%85%B2%E6%80%BB%E5%BA%97%E5%91%98%E5%B7%A5%E4%BB%8E180%E4%BA%BA%E5%87%8F%E8%87%B330%E5%A4%9A%E4%BA%BA%23&t=31&band_rank=1&Refer=top",
+      "score": 372300,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1790889795
+      "onboardTime": 1790914880
     },
     {
-      "title": "30岁男子跟风垫腰睡突发截瘫",
+      "title": "高速堵车悬挂免费WiFi司机发声",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%2330%E5%B2%81%E7%94%B7%E5%AD%90%E8%B7%9F%E9%A3%8E%E5%9E%AB%E8%85%B0%E7%9D%A1%E7%AA%81%E5%8F%91%E6%88%AA%E7%98%AB%23&t=31&band_rank=1&Refer=top",
-      "score": 80075,
+      "url": "https://s.weibo.com/weibo?q=%23%E9%AB%98%E9%80%9F%E5%A0%B5%E8%BD%A6%E6%82%AC%E6%8C%82%E5%85%8D%E8%B4%B9WiFi%E5%8F%B8%E6%9C%BA%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
+      "score": 311986,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1790892916
+      "onboardTime": 1790917519
     },
     {
-      "title": "警察叔叔标记了一辆载具",
+      "title": "多地调配移动充电车应对高速排队",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%9A%E5%9C%B0%E8%B0%83%E9%85%8D%E7%A7%BB%E5%8A%A8%E5%85%85%E7%94%B5%E8%BD%A6%E5%BA%94%E5%AF%B9%E9%AB%98%E9%80%9F%E6%8E%92%E9%98%9F%23&t=31&band_rank=1&Refer=top",
+      "score": 149677,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1790917398
+    },
+    {
+      "title": "莫氏鸡煲候鸡亭拆了",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%8E%AB%E6%B0%8F%E9%B8%A1%E7%85%B2%E5%80%99%E9%B8%A1%E4%BA%AD%E6%8B%86%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 148234,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1790917699
+    },
+    {
+      "title": "两队老年暴走团有人互扇耳光",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%A4%E9%98%9F%E8%80%81%E5%B9%B4%E6%9A%B4%E8%B5%B0%E5%9B%A2%E6%9C%89%E4%BA%BA%E4%BA%92%E6%89%87%E8%80%B3%E5%85%89&t=31&band_rank=1&Refer=top",
+      "score": 133182,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1790914459
+    },
+    {
+      "title": "清北硕博去余杭街道办",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E6%B8%85%E5%8C%97%E7%A1%95%E5%8D%9A%E5%8E%BB%E4%BD%99%E6%9D%AD%E8%A1%97%E9%81%93%E5%8A%9E&t=31&band_rank=1&Refer=top",
+      "score": 131736,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1790913378
+    },
+    {
+      "title": "女骑手遇交警拦停强行逃离被撞",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%AD%A6%E5%AF%9F%E5%8F%94%E5%8F%94%E6%A0%87%E8%AE%B0%E4%BA%86%E4%B8%80%E8%BE%86%E8%BD%BD%E5%85%B7%23&t=31&band_rank=1&Refer=top",
-      "score": 80042,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E9%AA%91%E6%89%8B%E9%81%87%E4%BA%A4%E8%AD%A6%E6%8B%A6%E5%81%9C%E5%BC%BA%E8%A1%8C%E9%80%83%E7%A6%BB%E8%A2%AB%E6%92%9E%23&t=31&band_rank=1&Refer=top",
+      "score": 129776,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1790861841
-    },
-    {
-      "title": "国庆",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%9B%BD%E5%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 79980,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1790855599
-    },
-    {
-      "title": "高速服务区新能源车充电像排队打饭",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%AB%98%E9%80%9F%E6%9C%8D%E5%8A%A1%E5%8C%BA%E6%96%B0%E8%83%BD%E6%BA%90%E8%BD%A6%E5%85%85%E7%94%B5%E5%83%8F%E6%8E%92%E9%98%9F%E6%89%93%E9%A5%AD%23&t=31&band_rank=1&Refer=top",
-      "score": 79824,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1790855361
+      "onboardTime": 1790904620
     }
   ]
 }
