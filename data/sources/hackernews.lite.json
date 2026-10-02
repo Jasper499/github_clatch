@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-10-02T08:10:28Z",
+  "savedAt": "2026-10-02T19:03:39Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-10-02，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,24 +10,24 @@
       "title": "When did Google get so weird?",
       "description": "",
       "url": "https://sancho.bearblog.dev/google-weird/",
-      "score": 2002,
-      "comments": 1110,
+      "score": 2003,
+      "comments": 1114,
       "owner": "sancho-panza"
     },
     {
       "title": "Gemini 4 Argon",
       "description": "See also: <i>Gemini 4 Argon (High): Intelligence, Performance and Price Analysis</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49914236\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49914236</a>",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-      "score": 1653,
-      "comments": 1135,
+      "score": 1682,
+      "comments": 1165,
       "owner": "bradleyg223"
     },
     {
       "title": "Pi 1.0",
       "description": "Related: <i>Pi Durable</i> - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49925969",
       "url": "https://earendil.com/posts/pi-1-0/",
-      "score": 1184,
-      "comments": 370,
+      "score": 1625,
+      "comments": 559,
       "owner": "sergiotapia"
     },
     {
@@ -42,24 +42,24 @@
       "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
       "description": "",
       "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
-      "score": 1061,
-      "comments": 947,
+      "score": 1062,
+      "comments": 949,
       "owner": "crorella"
     },
     {
       "title": "Updated Google Maps shows destruction of the city of Rafah",
       "description": "",
       "url": "https://twitter.com/AliAbunimah/status/2103890594137309425",
-      "score": 937,
-      "comments": 920,
+      "score": 938,
+      "comments": 934,
       "owner": "slowin"
     },
     {
       "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
       "description": "",
       "url": "https://github.com/ninjahawk/livenerf",
-      "score": 914,
-      "comments": 389,
+      "score": 916,
+      "comments": 390,
       "owner": "bryan0"
     },
     {
@@ -74,24 +74,24 @@
       "title": "Everybody’s home. No one’s coming over",
       "description": "",
       "url": "https://www.derekthompson.org/p/the-death-of-the-american-host",
-      "score": 819,
-      "comments": 733,
+      "score": 828,
+      "comments": 736,
       "owner": "barry-cotter"
     },
     {
       "title": "America.gov",
       "description": "",
       "url": "https://america.gov/",
-      "score": 769,
-      "comments": 732,
+      "score": 774,
+      "comments": 735,
       "owner": "plesiv"
     },
     {
       "title": "Dots: Always-on agents",
       "description": "",
       "url": "https://openai.com/index/introducing-dots/",
-      "score": 763,
-      "comments": 639,
+      "score": 764,
+      "comments": 641,
       "owner": "alvis"
     },
     {
@@ -106,7 +106,7 @@
       "title": "Breaking Up with Google Play: Why Conversations Is Now Free",
       "description": "",
       "url": "https://gultsch.de/posts/breaking-up-with-google-play/",
-      "score": 705,
+      "score": 707,
       "comments": 295,
       "owner": "ezst"
     },
@@ -114,7 +114,7 @@
       "title": "Pirating the Pirates",
       "description": "",
       "url": "https://mubi.com/en/notebook/posts/pirating-the-pirates",
-      "score": 702,
+      "score": 705,
       "comments": 385,
       "owner": "piotrgrabowski"
     },
@@ -122,15 +122,15 @@
       "title": "You said no MCP",
       "description": "",
       "url": "https://earendil.com/posts/you-said-no-mcp/",
-      "score": 671,
-      "comments": 360,
+      "score": 678,
+      "comments": 362,
       "owner": "yarapavan"
     },
     {
       "title": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
       "description": "",
       "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
-      "score": 627,
+      "score": 629,
       "comments": 623,
       "owner": "papergirl"
     },
@@ -143,28 +143,28 @@
       "owner": "ibobev"
     },
     {
-      "title": "Ollaya – Ollama for open-source, Jev-style decision models",
+      "title": "StreetComplete on iOS is now in public beta",
       "description": "",
-      "url": "https://ollaya.dev/",
-      "score": 616,
-      "comments": 145,
-      "owner": "Ardakilic"
+      "url": "https://github.com/streetcomplete/StreetComplete/issues/5421",
+      "score": 614,
+      "comments": 170,
+      "owner": "Snowly"
+    },
+    {
+      "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
+      "description": "",
+      "url": "https://blog.cloudflare.com/clef-decision-models/",
+      "score": 610,
+      "comments": 213,
+      "owner": "jasondavies"
     },
     {
       "title": "I'm the mom in that viral Giants clip. Let me tell you about my husband",
       "description": "",
       "url": "https://themomoftheyear.substack.com/p/im-the-mom-in-that-viral-giants-clip",
-      "score": 605,
+      "score": 606,
       "comments": 241,
       "owner": "minimaxir"
-    },
-    {
-      "title": "How Delhi cut electricity loss from 50 to 5 percent",
-      "description": "",
-      "url": "https://spectrum.ieee.org/delhi-electricity-loss",
-      "score": 589,
-      "comments": 332,
-      "owner": "rbanffy"
     }
   ]
 }
