@@ -1,32 +1,40 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-10-01T19:20:28Z",
+  "savedAt": "2026-10-02T08:10:28Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-10-01，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-10-02，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-10-01",
+  "fetchedDate": "2026-10-02",
   "items": [
     {
       "title": "When did Google get so weird?",
       "description": "",
       "url": "https://sancho.bearblog.dev/google-weird/",
-      "score": 1997,
-      "comments": 1109,
+      "score": 2002,
+      "comments": 1110,
       "owner": "sancho-panza"
     },
     {
       "title": "Gemini 4 Argon",
       "description": "See also: <i>Gemini 4 Argon (High): Intelligence, Performance and Price Analysis</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49914236\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49914236</a>",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-      "score": 1615,
-      "comments": 1089,
+      "score": 1653,
+      "comments": 1135,
       "owner": "bradleyg223"
+    },
+    {
+      "title": "Pi 1.0",
+      "description": "Related: <i>Pi Durable</i> - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49925969",
+      "url": "https://earendil.com/posts/pi-1-0/",
+      "score": 1184,
+      "comments": 370,
+      "owner": "sergiotapia"
     },
     {
       "title": "Owed a billion dollars in Nvidia stock",
       "description": "",
       "url": "https://colo.to/nvidia-stock-narrative.html",
-      "score": 1088,
+      "score": 1089,
       "comments": 458,
       "owner": "Eric_Gullichsen"
     },
@@ -34,39 +42,31 @@
       "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
       "description": "",
       "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
-      "score": 1058,
-      "comments": 945,
+      "score": 1061,
+      "comments": 947,
       "owner": "crorella"
-    },
-    {
-      "title": "Dutch governments builds alternative for Microsoft based on NixOS",
-      "description": "",
-      "url": "https://www.dawo.community/en/",
-      "score": 1020,
-      "comments": 583,
-      "owner": "fjfaase"
     },
     {
       "title": "Updated Google Maps shows destruction of the city of Rafah",
       "description": "",
       "url": "https://twitter.com/AliAbunimah/status/2103890594137309425",
-      "score": 935,
-      "comments": 926,
+      "score": 937,
+      "comments": 920,
       "owner": "slowin"
     },
     {
       "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
       "description": "",
       "url": "https://github.com/ninjahawk/livenerf",
-      "score": 908,
-      "comments": 386,
+      "score": 914,
+      "comments": 389,
       "owner": "bryan0"
     },
     {
       "title": "Sonnet 5.5",
       "description": "",
       "url": "https://www.anthropic.com/claude-sonnet-5-5",
-      "score": 882,
+      "score": 883,
       "comments": 614,
       "owner": "D2OQZG8l5BI1S06"
     },
@@ -82,23 +82,23 @@
       "title": "America.gov",
       "description": "",
       "url": "https://america.gov/",
-      "score": 768,
-      "comments": 728,
+      "score": 769,
+      "comments": 732,
       "owner": "plesiv"
     },
     {
       "title": "Dots: Always-on agents",
       "description": "",
       "url": "https://openai.com/index/introducing-dots/",
-      "score": 759,
-      "comments": 637,
+      "score": 763,
+      "comments": 639,
       "owner": "alvis"
     },
     {
       "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
       "description": "",
       "url": "https://swarmtraces.org/",
-      "score": 753,
+      "score": 754,
       "comments": 472,
       "owner": "specked-citrus"
     },
@@ -114,16 +114,16 @@
       "title": "Pirating the Pirates",
       "description": "",
       "url": "https://mubi.com/en/notebook/posts/pirating-the-pirates",
-      "score": 699,
-      "comments": 383,
+      "score": 702,
+      "comments": 385,
       "owner": "piotrgrabowski"
     },
     {
       "title": "You said no MCP",
       "description": "",
       "url": "https://earendil.com/posts/you-said-no-mcp/",
-      "score": 658,
-      "comments": 359,
+      "score": 671,
+      "comments": 360,
       "owner": "yarapavan"
     },
     {
@@ -138,7 +138,7 @@
       "title": "It's Time to Investigate the AI Labs",
       "description": "",
       "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
-      "score": 623,
+      "score": 626,
       "comments": 277,
       "owner": "ibobev"
     },
@@ -146,7 +146,7 @@
       "title": "Ollaya – Ollama for open-source, Jev-style decision models",
       "description": "",
       "url": "https://ollaya.dev/",
-      "score": 615,
+      "score": 616,
       "comments": 145,
       "owner": "Ardakilic"
     },
@@ -163,7 +163,7 @@
       "description": "",
       "url": "https://spectrum.ieee.org/delhi-electricity-loss",
       "score": 589,
-      "comments": 329,
+      "comments": 332,
       "owner": "rbanffy"
     }
   ]
