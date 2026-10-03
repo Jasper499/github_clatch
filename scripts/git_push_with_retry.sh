@@ -23,6 +23,12 @@ fi
 
 git commit -m "${MSG}"
 
+if [[ -n "$(git status --porcelain)" ]]; then
+  echo "Uncommitted generated files remain after commit:" >&2
+  git status --short >&2
+  exit 1
+fi
+
 for attempt in 1 2 3 4 5; do
   if git pull --rebase origin main && git push origin HEAD; then
     echo "Push succeeded on attempt ${attempt}."
