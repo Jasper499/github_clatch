@@ -3601,6 +3601,137 @@ window.addEventListener("hashchange", () => {
   suppressHashWrite = false;
 });
 
+function backgroundImageStore(operation, image) {
+  return new Promise((resolve, reject) => {
+    const request = indexedDB.open("hjl-background", 1);
+    request.onupgradeneeded = () => request.result.createObjectStore("images");
+    request.onerror = () => reject(request.error);
+    request.onblocked = () => reject(new Error("请关闭其他网站标签页后重试。"));
+    request.onsuccess = () => {
+      const db = request.result;
+      db.onversionchange = () => db.close();
+      const transaction = db.transaction("images", operation === "get" ? "readonly" : "readwrite");
+      const store = transaction.objectStore("images");
+      const result = operation === "put" ? store.put(image, "custom") : store[operation]("custom");
+      transaction.oncomplete = () => { db.close(); resolve(result.result); };
+      transaction.onabort = transaction.onerror = () => { db.close(); reject(transaction.error || new Error("图片保存失败。")); };
+    };
+  });
+}
+
+async function prepareBackgroundImage(file) {
+  if (!["image/jpeg", "image/png", "image/webp"].includes(file.type)) throw new Error("请选择 JPG、PNG 或 WebP 图片。");
+  if (!file.size || file.size > 20 * 1024 * 1024) throw new Error("图片大小需在 0 到 20 MB 之间。");
+  let bitmap;
+  try { bitmap = await createImageBitmap(file); }
+  catch (_) { throw new Error("无法读取这张图片，请更换有效图片。"); }
+  try {
+    if (bitmap.width * bitmap.height > 40000000) throw new Error("图片超过 4000 万像素，请先缩小后再上传。");
+    const scale = Math.min(1, 1920 / Math.max(bitmap.width, bitmap.height));
+    const canvas = document.createElement("canvas");
+    canvas.width = Math.max(1, Math.round(bitmap.width * scale));
+    canvas.height = Math.max(1, Math.round(bitmap.height * scale));
+    canvas.getContext("2d").drawImage(bitmap, 0, 0, canvas.width, canvas.height);
+    const blob = await new Promise(resolve => canvas.toBlob(resolve, "image/webp", 0.85));
+    if (!blob) throw new Error("图片处理失败，请更换图片重试。");
+    return blob;
+  } finally { bitmap.close(); }
+}
+
+function initBackgroundSettings() {
+  const root = document.documentElement;
+  const dialog = document.getElementById("background-dialog");
+  const range = document.getElementById("background-shade");
+  const choices = [...dialog.querySelectorAll("[data-background-choice]")];
+  const fileInput = document.getElementById("background-file");
+  const position = document.getElementById("background-position");
+  const remove = document.getElementById("background-remove");
+  const status = document.getElementById("background-save-status");
+  let imageUrl = "", revision = 0;
+  let settings = { preset: "default", shade: 45, position: "center" };
+  try {
+    const saved = JSON.parse(localStorage.getItem("hjl-background-v1") || "null");
+    if (saved && choices.some(button => button.dataset.backgroundChoice === saved.preset)) settings.preset = saved.preset;
+    if (Number.isFinite(saved?.shade) && saved.shade >= 20 && saved.shade <= 85) settings.shade = saved.shade;
+    if (["center", "top", "bottom"].includes(saved?.position)) settings.position = saved.position;
+  } catch (_) {}
+  const apply = (persist = true) => {
+    root.setAttribute("data-background", settings.preset);
+    root.style.setProperty("--background-shade", `${settings.shade}%`);
+    root.style.setProperty("--background-position", settings.position);
+    position.value = settings.position;
+    position.disabled = settings.preset !== "custom";
+    choices.find(button => button.dataset.backgroundChoice === "custom").disabled = !imageUrl;
+    remove.disabled = !imageUrl || fileInput.disabled;
+    range.value = settings.shade;
+    range.disabled = settings.preset === "default" || settings.preset === "plain";
+    document.getElementById("background-shade-value").textContent = `${settings.shade}%`;
+    choices.forEach(button => button.setAttribute("aria-pressed", String(button.dataset.backgroundChoice === settings.preset)));
+    if (persist) {
+      try {
+        localStorage.setItem("hjl-background-v1", JSON.stringify(settings));
+        document.getElementById("background-save-status").textContent = "已保存，下次打开自动应用。";
+      } catch (_) {
+        document.getElementById("background-save-status").textContent = "当前效果已应用，但浏览器未允许保存设置。";
+      }
+    }
+  };
+  const setImage = blob => {
+    if (imageUrl) URL.revokeObjectURL(imageUrl);
+    imageUrl = blob ? URL.createObjectURL(blob) : "";
+    root.style.setProperty("--custom-background-image", imageUrl ? `url("${imageUrl}")` : "none");
+  };
+  choices.forEach(button => button.onclick = () => { settings.preset = button.dataset.backgroundChoice; apply(); });
+  range.oninput = () => { settings.shade = Number(range.value); apply(); };
+  position.onchange = () => { settings.position = position.value; apply(); };
+  fileInput.onchange = async () => {
+    const file = fileInput.files[0];
+    if (!file) return;
+    revision++;
+    fileInput.disabled = remove.disabled = true;
+    status.textContent = "正在处理并保存图片…";
+    try {
+      const blob = await prepareBackgroundImage(file);
+      await backgroundImageStore("put", blob);
+      setImage(blob);
+      settings.preset = "custom";
+      apply();
+    } catch (error) { status.textContent = `未更换背景：${error.message || "浏览器存储不可用。"}`; }
+    finally { fileInput.disabled = false; remove.disabled = !imageUrl; fileInput.value = ""; }
+  };
+  remove.onclick = async () => {
+    revision++;
+    fileInput.disabled = remove.disabled = true;
+    try {
+      await backgroundImageStore("delete");
+      setImage(null);
+      if (settings.preset === "custom") settings.preset = "default";
+      apply();
+      status.textContent = "已删除浏览器中的背景图片。";
+    } catch (_) { status.textContent = "删除失败，原图片仍保留，请重试。"; }
+    finally { fileInput.disabled = false; remove.disabled = !imageUrl; }
+  };
+  document.getElementById("background-open").onclick = () => dialog.showModal();
+  document.getElementById("background-close").onclick = () => dialog.close();
+  document.getElementById("background-reset").onclick = () => { settings = { preset: "default", shade: 45, position: "center" }; apply(); };
+  apply(false);
+  backgroundImageStore("get").then(blob => {
+    if (revision) return;
+    if (blob instanceof Blob) setImage(blob);
+    else if (settings.preset === "custom") {
+      settings.preset = "default";
+      status.textContent = "保存的图片已不存在，请重新上传。";
+    }
+    apply(false);
+  }).catch(() => {
+    if (revision) return;
+    if (settings.preset === "custom") settings.preset = "default";
+    apply(false);
+    status.textContent = "浏览器图片存储不可用，仍可使用预设背景。";
+  });
+}
+
+initBackgroundSettings();
 initThemeToggle();
 renderHeaderMotto();
 loadContent();

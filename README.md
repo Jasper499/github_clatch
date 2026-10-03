@@ -73,3 +73,5 @@ python scripts/prune_history.py   # 瘦身旧 history + 重写 feeds
 - 仓库创建/推送时间、HN 讨论链接等新字段在对应板块下次抓取后显示。
 - “检查更新”读取已发布数据，不会启动 GitHub 抓取任务。
 - 回归检查：`node scripts/check_site.cjs`（需要 Node.js 18+ 与 Python 3）。
+- 顶栏“背景”支持预设、遮罩和本地图片：JPG/PNG/WebP，最大 20 MB，自动缩小至最长边 1920 像素。
+- 图片保存在浏览器 IndexedDB，不会提交至 GitHub；可调整位置、删除图片或恢复默认。清除站点数据会删除自定义背景。

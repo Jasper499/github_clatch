@@ -46,7 +46,7 @@
       }
     })();
   </script>
-  <link rel="stylesheet" href="css/style.css?v=26">
+  <link rel="stylesheet" href="css/style.css?v=28">
 </head>
 <body>
   <script>
@@ -73,6 +73,7 @@
       <button type="button" id="ws-command-btn" class="ws-btn" title="全局搜索（Ctrl/⌘ K）">搜索 / 跳转</button>
       <button type="button" id="ws-digest-btn" class="ws-btn">摘要</button>
       <button type="button" id="ws-focus-btn" class="ws-btn" aria-pressed="false" title="专注模式（F）">专注</button>
+      <button type="button" id="background-open" class="ws-btn">背景</button>
       <details class="ws-more"><summary class="ws-btn">更多</summary><div class="ws-more-menu">
       <button type="button" id="ws-density-btn" class="ws-btn" title="信息密度（D）">紧凑</button>
       <button type="button" id="ws-help-btn" class="ws-btn" title="快捷键（?）">?</button>
@@ -410,6 +411,37 @@
     </div>
   </dialog>
 
+  <dialog id="background-dialog" class="digest-dialog background-dialog" aria-labelledby="background-title">
+    <div class="digest-header">
+      <h2 id="background-title">背景设置</h2>
+      <button type="button" id="background-close" class="btn-text">关闭</button>
+    </div>
+    <div class="background-body">
+      <p class="muted">点击预设即可预览，设置仅保存在当前浏览器。</p>
+      <div class="background-options" role="group" aria-label="预设背景">
+        <button type="button" data-background-choice="default" aria-pressed="true"><span class="background-swatch swatch-default"></span>深色科技<span>原有工作站背景</span></button>
+        <button type="button" data-background-choice="aurora" aria-pressed="false"><span class="background-swatch swatch-aurora"></span>极光渐变<span>青绿与紫色的柔和光晕</span></button>
+        <button type="button" data-background-choice="cobalt" aria-pressed="false"><span class="background-swatch swatch-cobalt"></span>深海蓝<span>安静的蓝色几何空间</span></button>
+        <button type="button" data-background-choice="plain" aria-pressed="false"><span class="background-swatch swatch-plain"></span>极简纯色<span>减少装饰，专注内容</span></button>
+        <button type="button" data-background-choice="custom" aria-pressed="false" disabled><span class="background-swatch swatch-custom"></span>我的图片<span>上传后即可使用</span></button>
+      </div>
+      <label class="background-upload" for="background-file">上传本地背景图片
+        <input id="background-file" type="file" accept="image/jpeg,image/png,image/webp" />
+      </label>
+      <p class="muted">支持 JPG、PNG、WebP，最大 20 MB。自动缩小至最长边 1920 像素，只保存在当前浏览器，不上传服务器。</p>
+      <label class="background-position" for="background-position">图片位置
+        <select id="background-position" class="select" disabled><option value="center">居中</option><option value="top">顶部</option><option value="bottom">底部</option></select>
+      </label>
+      <button type="button" id="background-remove" class="ws-btn" disabled>删除已保存的图片</button>
+      <label class="background-shade" for="background-shade">背景遮罩 <output id="background-shade-value" for="background-shade">45%</output>
+        <input id="background-shade" type="range" min="20" max="85" value="45" step="5" />
+      </label>
+      <p class="muted">遮罩越高，背景越接近当前主题底色。文字区域保留阅读底色。</p>
+      <button type="button" id="background-reset" class="ws-btn">恢复默认背景</button>
+      <p id="background-save-status" class="muted" role="status"></p>
+    </div>
+  </dialog>
+
   <dialog id="digest-dialog" class="digest-dialog" aria-labelledby="digest-title">
     <div class="digest-header">
       <h2 id="digest-title">今日摘要</h2>
@@ -431,6 +463,6 @@
     crossorigin="anonymous"
   ></script>
   <script src="js/icons.js?v=25"></script>
-  <script src="js/app.js?v=26"></script>
+  <script src="js/app.js?v=28"></script>
 </body>
 </html>

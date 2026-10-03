@@ -9,6 +9,33 @@ const app = fs.readFileSync(path.join(root, 'js/app.js'), 'utf8');
 function section(start, end) { return app.slice(app.indexOf(start), app.indexOf(end, app.indexOf(start))); }
 
 (async () => {
+  const elements = new Map();
+  const element = () => ({dataset: {}, style: {setProperty(key,value) {this[key]=value;}}, setAttribute(key,value) {this[key]=value;}, showModal() {}, close() {}});
+  const choices = ['default','aurora','cobalt','plain','custom'].map(preset => Object.assign(element(), {dataset: {backgroundChoice: preset}}));
+  for (const id of ['background-dialog','background-shade','background-shade-value','background-save-status','background-open','background-close','background-reset','background-file','background-position','background-remove']) elements.set(id, element());
+  elements.get('background-dialog').querySelectorAll = () => choices;
+  const rootElement = element();
+  let stored = JSON.stringify({preset: 'invalid', shade: 999});
+  const background = {Blob, backgroundImageStore: async () => undefined, document: {documentElement: rootElement, getElementById: id => elements.get(id)}, localStorage: {getItem: () => stored, setItem: (_key,value) => {stored=value;}}};
+  vm.runInNewContext(section('function initBackgroundSettings()', '\ninitBackgroundSettings();') + '\ninitBackgroundSettings();', background);
+  assert.equal(rootElement['data-background'], 'default', 'Invalid stored presets must use the default');
+  assert.equal(elements.get('background-shade').value, 45);
+  choices[1].onclick();
+  assert.equal(rootElement['data-background'], 'aurora');
+  assert.equal(JSON.parse(stored).preset, 'aurora');
+  assert.equal(elements.get('background-shade').disabled, false);
+  elements.get('background-reset').onclick();
+  assert.equal(rootElement['data-background'], 'default');
+  let closedBitmap = false;
+  const canvas = {getContext: () => ({drawImage() {}}), toBlob: callback => callback(new Blob(['compressed'], {type:'image/webp'}))};
+  const image = {Blob, document: {createElement: () => canvas}, createImageBitmap: async () => ({width:3840,height:2160,close:()=>{closedBitmap=true;}})};
+  vm.createContext(image);
+  vm.runInContext(section('async function prepareBackgroundImage(', 'function initBackgroundSettings('), image);
+  await assert.rejects(image.prepareBackgroundImage({type:'image/svg+xml',size:100}));
+  await assert.rejects(image.prepareBackgroundImage({type:'image/png',size:21*1024*1024}));
+  assert.equal((await image.prepareBackgroundImage({type:'image/png',size:100})).type, 'image/webp');
+  assert.equal(canvas.width,1920); assert.equal(canvas.height,1080); assert(closedBitmap);
+
   const requests = [];
   const readme = { selectedDates: { github: '2026-09-14' }, readmeCache: {}, readmeInflight: {}, fetch: async url => { requests.push(url); return new Response(url.includes('versions') ? 'historical body' : 'latest body'); }, githubRawReadmeUrl: () => 'https://raw.githubusercontent.com/example/repo/HEAD/README.md' };
   vm.createContext(readme);
@@ -46,12 +73,13 @@ function section(start, end) { return app.slice(app.indexOf(start), app.indexOf(
   const sw = { self: { location: { origin: 'https://example.test' }, addEventListener() {} }, URL, AbortSignal, Promise, caches: { open: async () => cache, match: async key => store.get(key)?.clone() }, fetch: async () => new Response('fresh data') };
   vm.createContext(sw);
   vm.runInContext(fs.readFileSync(path.join(root, 'sw.js'), 'utf8'), sw);
+  const dataCacheName = vm.runInContext('CACHE_DATA', sw);
   assert.equal(sw.cacheKey({url:'https://example.test/data/meta.json?t=1'}), sw.cacheKey({url:'https://example.test/data/meta.json?t=2'}));
   assert.notEqual(sw.cacheKey({url:'https://example.test/js/app.js?v=25'}), sw.cacheKey({url:'https://example.test/js/app.js?v=26'}));
-  await sw.networkFirst({url:'https://example.test/data/meta.json?t=1'}, 'clatch-data-v26');
+  await sw.networkFirst({url:'https://example.test/data/meta.json?t=1'}, dataCacheName);
   sw.fetch = async () => { throw Error('offline'); };
-  assert.equal(await (await sw.networkFirst({url:'https://example.test/data/meta.json?t=2'}, 'clatch-data-v26')).text(), 'fresh data');
-  for (let i=0;i<125;i++) await sw.cacheResponse({url:`https://example.test/data/history/${i}.json`}, new Response('snapshot'), 'clatch-data-v26');
+  assert.equal(await (await sw.networkFirst({url:'https://example.test/data/meta.json?t=2'}, dataCacheName)).text(), 'fresh data');
+  for (let i=0;i<125;i++) await sw.cacheResponse({url:`https://example.test/data/history/${i}.json`}, new Response('snapshot'), dataCacheName);
   assert.equal(store.size, 120);
 
   const python = spawnSync('python', ['-c', `

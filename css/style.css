@@ -5638,3 +5638,36 @@ html[data-workstation="1"] body { background: var(--bg) !important; }
   html[data-workstation="1"] .item-detail { overflow: hidden; width: 100%; }
   .readme-content, .detail-body { padding: 0.85rem; }
 }
+/* Background presets: local CSS only, no external images or animation. */
+.background-dialog { width: min(620px, calc(100vw - 1.5rem)); }
+.background-body { display: grid; gap: 1rem; padding: 1.25rem; font-size: 0.85rem; }
+.background-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.75rem; }
+.background-options button { display: grid; gap: 0.4rem; padding: 0.65rem; text-align: left; color: var(--text); background: var(--bg-elevated); border: 1px solid var(--border-strong); border-radius: 10px; cursor: pointer; font: inherit; }
+.background-options button > span:last-child { color: var(--muted); font-size: 0.75rem; }
+.background-options button[aria-pressed="true"] { border-color: var(--accent); outline: 2px solid var(--accent); outline-offset: 2px; }
+.background-swatch { display: block; height: 84px; border-radius: 6px; }
+.swatch-default { background: #0d1117 url('../img/ws-scene.svg') center / cover; }
+.swatch-aurora { background: radial-gradient(ellipse at 15% 10%, #147e82, transparent 65%), radial-gradient(ellipse at 95% 80%, #64349a, transparent 65%), #0b1428; }
+.swatch-cobalt { background: repeating-linear-gradient(135deg, transparent 0 60px, #55a9ff15 60px 61px), linear-gradient(130deg, #061021, #163c6b 60%, #0b1428); }
+.swatch-plain { background: #0d1117; }
+.background-shade { display: grid; grid-template-columns: 1fr auto; gap: 0.5rem; }
+.background-shade input { grid-column: 1 / -1; width: 100%; accent-color: var(--accent); }
+html[data-background="aurora"] { --background-art: radial-gradient(ellipse at 10% 0%, #147e82, transparent 60%), radial-gradient(ellipse at 100% 95%, #64349a, transparent 65%), linear-gradient(120deg, #0b1428, #0d2232); }
+html[data-background="cobalt"] { --background-art: repeating-linear-gradient(135deg, transparent 0 120px, #55a9ff15 120px 121px), linear-gradient(130deg, #061021, #163c6b 60%, #0b1428); }
+html[data-background]:not([data-background="default"]) body { background-image: linear-gradient(color-mix(in srgb, var(--bg) var(--background-shade, 45%), transparent), color-mix(in srgb, var(--bg) var(--background-shade, 45%), transparent)), var(--background-art, none) !important; background-attachment: fixed !important; background-size: cover !important; }
+html[data-background]:not([data-background="default"]) :is(.page-bg, body::before, body::after) { display: none !important; }
+html[data-background="plain"] body { background-image: none !important; }
+html[data-workstation="1"]:is([data-background="aurora"], [data-background="cobalt"]) :is(.sidebar, .content-panel, .ws-bar) { background: color-mix(in srgb, var(--bg-elevated) 90%, transparent) !important; }
+@media (max-width: 860px) {
+  .background-swatch { height: 64px; }
+  .background-body { padding: 1rem; }
+  html[data-background]:not([data-background="default"]) body { background-attachment: scroll !important; }
+}
+html[data-background="custom"] { --background-art: var(--custom-background-image, none); }
+html[data-background="custom"] body { background-position: center, center var(--background-position, center) !important; background-repeat: no-repeat !important; }
+.swatch-custom { background: #0d1117 var(--custom-background-image, none) center / cover no-repeat; }
+.background-options button:disabled { opacity: 0.55; cursor: not-allowed; }
+.background-upload, .background-position { display: grid; gap: 0.5rem; }
+.background-upload input { width: 100%; min-width: 0; font: inherit; }
+.background-position .select { width: 100%; }
+html[data-workstation="1"][data-background="custom"] :is(.sidebar, .content-panel, .ws-bar) { background: color-mix(in srgb, var(--bg-elevated) 90%, transparent) !important; }
