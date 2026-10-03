@@ -1,12 +1,12 @@
 /* HJL Clatch service worker — cache shell + recent data for offline reading. */
-const CACHE_SHELL = "clatch-shell-v25";
-const CACHE_DATA = "clatch-data-v25";
+const CACHE_SHELL = "clatch-shell-v26";
+const CACHE_DATA = "clatch-data-v26";
 
 const SHELL_FILES = [
   "./",
   "./index.html",
-  "./css/style.css?v=25",
-  "./js/app.js?v=25",
+  "./css/style.css?v=26",
+  "./js/app.js?v=26",
   "./js/icons.js?v=25",
   "./img/ws-scene.svg",
   "./img/ws-grid.svg",
@@ -92,13 +92,12 @@ self.addEventListener("fetch", (event) => {
 });
 
 async function cacheFirst(request, cacheName) {
-  const cached = await caches.match(request);
+  const cached = await cachedResponse(request, cacheName);
   if (cached) return cached;
   try {
     const res = await fetch(request);
     if (res.ok) {
-      const cache = await caches.open(cacheName);
-      cache.put(request, res.clone());
+      await cacheResponse(request, res, cacheName);
     }
     return res;
   } catch (err) {
@@ -108,15 +107,39 @@ async function cacheFirst(request, cacheName) {
 
 async function networkFirst(request, cacheName) {
   try {
-    const res = await fetch(request);
+    const res = await fetch(request, { signal: AbortSignal.timeout(8000) });
     if (res.ok) {
-      const cache = await caches.open(cacheName);
-      cache.put(request, res.clone());
+      await cacheResponse(request, res, cacheName);
+    } else {
+      const cached = await cachedResponse(request, cacheName);
+      if (cached) return cached;
     }
     return res;
   } catch (err) {
-    const cached = await caches.match(request);
+    const cached = await cachedResponse(request, cacheName);
     if (cached) return cached;
     throw err;
+  }
+}
+
+function cacheKey(request) {
+  const url = new URL(typeof request === "string" ? request : request.url, self.location.origin);
+  for (const key of ["t", "refresh", "audit"]) url.searchParams.delete(key);
+  return url.href;
+}
+
+async function cachedResponse(request, cacheName) {
+  return (await caches.open(cacheName)).match(cacheKey(request));
+}
+
+async function cacheResponse(request, response, cacheName) {
+  try {
+    const cache = await caches.open(cacheName);
+    await cache.put(cacheKey(request), response.clone());
+    const keys = await cache.keys();
+    const limit = cacheName === CACHE_DATA ? 120 : 32;
+    await Promise.all(keys.slice(0, Math.max(0, keys.length - limit)).map(key => cache.delete(key)));
+  } catch (_) {
+    // Storage quota must not prevent a successful network response from rendering.
   }
 }

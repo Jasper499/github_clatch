@@ -8,6 +8,7 @@ Also publishes lightweight artifacts for the website:
 from __future__ import annotations
 
 import json
+import hashlib
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -96,6 +97,14 @@ def write_item_readmes(source_key: str, source_data: dict) -> int:
             out_dir.mkdir(parents=True, exist_ok=True)
         name = f"{index}.md"
         (out_dir / name).write_text(body, encoding="utf-8")
+        # ponytail: deduplicated versions are retained; add manifest-based GC if storage grows.
+        version_dir = out_dir / "versions"
+        version_dir.mkdir(exist_ok=True)
+        digest = hashlib.sha256(body.encode("utf-8")).hexdigest()
+        version_file = version_dir / f"{digest}.md"
+        if not version_file.exists():
+            version_file.write_text(body, encoding="utf-8")
+        item["readmePath"] = version_file.relative_to(DATA_DIR.parent).as_posix()
         written.add(name)
         count += 1
 
@@ -139,6 +148,7 @@ def split_existing_source_readmes() -> int:
 def write_latest_source(source_key: str, source_data: dict) -> Path:
     """Write data/sources/{key}.json and a README-free .lite.json companion."""
     SOURCES_DIR.mkdir(parents=True, exist_ok=True)
+    write_item_readmes(source_key, source_data)
     payload = {
         "sourceKey": source_key,
         "savedAt": utc_now_iso(),
@@ -158,7 +168,6 @@ def write_latest_source(source_key: str, source_data: dict) -> Path:
     with lite_file.open("w", encoding="utf-8") as f:
         json.dump(lite_payload, f, ensure_ascii=False, indent=2)
         f.write("\n")
-    write_item_readmes(source_key, source_data)
     return out_file
 
 
@@ -421,6 +430,7 @@ def save_source_snapshot(source_key: str, source_data: dict, snapshot_date: str 
             suffix += 1
 
     calendar_day = snap_id[:10] if len(snap_id) >= 10 else iso_date_today()
+    write_item_readmes(source_key, source_data)
 
     payload = {
         "date": snap_id,

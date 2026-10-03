@@ -58,6 +58,8 @@ def fetch_hackernews(limit: int = 20) -> list[dict]:
                 "score": hit.get("points") or hit.get("story_score") or 0,
                 "comments": hit.get("num_comments") or hit.get("story_comment_count") or 0,
                 "owner": hit.get("author") or hit.get("story_by") or "",
+                "published": hit.get("created_at") or "",
+                "discussionUrl": f"https://news.ycombinator.com/item?id={object_id}" if object_id else "",
             }
         )
 

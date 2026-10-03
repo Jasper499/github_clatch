@@ -10,6 +10,12 @@ const PINS_STORAGE_KEY = "hjl-pins-v1";
 const WORKSTATION_KEY = "hjl-workstation";
 const DENSITY_KEY = "hjl-density";
 const FOCUS_KEY = "hjl-focus";
+let facetFilter = "", accessFilter = "", savedFilter = "", yearFilter = "", sortOrder = "default";
+let filterSourceKey = "";
+const SAVED_ITEMS_KEY = "hjl-saved-items-v1";
+let savedItems = {};
+try { savedItems = JSON.parse(localStorage.getItem(SAVED_ITEMS_KEY) || "{}"); } catch (_) {}
+if (!savedItems || typeof savedItems !== "object" || Array.isArray(savedItems)) savedItems = {};
 const WEIBO_REALTIME_KEY = "weiboRealtime";
 const BOARD_SHORTCUTS = [
   "github",
@@ -752,15 +758,190 @@ function sourceItemCount(source) {
 
 function filterItems(items) {
   const q = searchQuery.trim().toLowerCase();
-  if (!q) {
-    return items.map((item, index) => ({ item, index }));
+  const rows = items.map((item, index) => ({ item, index })).filter(({ item }) => {
+    const saved = savedItems[itemFingerprint(item)];
+    const facet = item.category || item.language || item.journal || item.label || "";
+    return (!q || itemSearchHay(item).includes(q)) &&
+      (!facetFilter || facet === facetFilter) &&
+      (!yearFilter || String(item.published || "").slice(0, 4) === yearFilter) &&
+      (!accessFilter || (accessFilter === "oa" ? item.isOpenAccess : Boolean(item.pdfUrl || item.pdfAvailable))) &&
+      (!savedFilter || (savedFilter === "saved" ? saved?.saved : saved?.later));
+  });
+  if (sortOrder !== "default") rows.sort((a, b) => {
+    if (sortOrder === "date") return String(b.item.published || b.item.createdAt || b.item.date || "").localeCompare(String(a.item.published || a.item.createdAt || a.item.date || ""));
+    if (sortOrder === "createdAt" || sortOrder === "pushedAt") return String(b.item[sortOrder] || "").localeCompare(String(a.item[sortOrder] || ""));
+    return (Number(b.item[sortOrder]) || 0) - (Number(a.item[sortOrder]) || 0);
+  });
+  return rows;
+}
+
+function fillContentFilters(items) {
+  if (filterSourceKey !== activeSourceKey) {
+    facetFilter = accessFilter = savedFilter = yearFilter = "";
+    sortOrder = "default";
+    filterSourceKey = activeSourceKey;
   }
-  return items
-    .map((item, index) => ({ item, index }))
-    .filter(({ item }) => {
-      const hay = `${item.title || ""} ${item.description || ""} ${item.owner || ""} ${item.label || ""} ${item.sha || ""}`.toLowerCase();
-      return hay.includes(q);
+  const facets = [...new Set(items.map(item => item.category || item.language || item.journal || item.label).filter(Boolean))].sort();
+  const select = document.getElementById("facet-select");
+  if (!select) return;
+  select.innerHTML = `<option value="">全部</option>` + facets.map(value => `<option value="${escapeHtml(value)}">${escapeHtml(value)}</option>`).join("");
+  if (!facets.includes(facetFilter)) facetFilter = "";
+  select.value = facetFilter;
+  document.getElementById("facet-label").hidden = !facets.length;
+  const journal = isJournalSource(activeSourceKey);
+  document.getElementById("access-label").hidden = !journal;
+  document.getElementById("access-select").value = accessFilter;
+  const years = [...new Set(items.map(item => String(item.published || "").slice(0, 4)).filter(year => /^\d{4}$/.test(year)))].sort().reverse();
+  const year = document.getElementById("year-select");
+  year.innerHTML = `<option value="">全部年份</option>` + years.map(value => `<option value="${value}">${value}</option>`).join("");
+  if (!years.includes(yearFilter)) yearFilter = "";
+  year.value = yearFilter;
+  document.getElementById("year-label").hidden = !journal;
+  document.getElementById("search-input").placeholder = journal ? "研究方向 / 作者 / DOI / 标题…" : isTrackedSkillsSource(activeSourceKey) ? "技能名称 / 用途 / 描述…" : "标题 / 描述 / 语言…";
+  document.getElementById("saved-select").value = savedFilter;
+  const options = [["default", "原榜单顺序"], ...[["stars", "Star 数"], ["score", "热度 / 分数"], ["comments", "评论数"]].filter(([key]) => items.some(item => item[key] != null))];
+  if (items.some(item => item.published || item.createdAt || item.date)) options.push(["date", "发布时间"]);
+  if (items.some(item => item.createdAt)) options.push(["createdAt", "仓库创建时间"]);
+  if (items.some(item => item.pushedAt)) options.push(["pushedAt", "最近推送时间"]);
+  const sort = document.getElementById("sort-select");
+  sort.innerHTML = options.map(([value, label]) => `<option value="${value}">${label}</option>`).join("");
+  if (!options.some(([value]) => value === sortOrder)) sortOrder = "default";
+  sort.value = sortOrder;
+  document.querySelector(".reading-settings").hidden = !feedHasSplitDetail();
+  if (!feedHasSplitDetail()) document.getElementById("content-panel").removeAttribute("data-reader");
+}
+
+function updateContentStatus(source) {
+  const date = selectedDates[activeSourceKey] || "latest";
+  const history = date !== "latest";
+  const status = document.getElementById("content-status-text");
+  const time = source.savedAt || getLatestUpdatedAt(appData, activeSourceKey);
+  let label = history ? `历史快照 · ${formatSnapshotLabel(date)}` : `网站数据截至 ${time ? formatDate(time) : "暂无记录"}`;
+  if (!history && activeSourceKey === WEIBO_REALTIME_KEY) label = weiboRealtimeLiveHint() || label;
+  status.textContent = label;
+  status.parentElement.classList.toggle("is-history", history);
+  document.getElementById("back-to-latest").hidden = !history;
+  const entries = manifest?.sources?.[activeSourceKey] || [];
+  const day = document.getElementById("history-day");
+  day.min = entries.at(-1)?.day || entries.at(-1)?.date?.slice(0, 10) || "";
+  day.max = entries[0]?.day || entries[0]?.date?.slice(0, 10) || "";
+  day.value = history ? date.slice(0, 10) : "";
+  document.getElementById("history-day-hint").textContent = `${entries.length} 份快照 · 最多保留 120 份`;
+}
+
+function savedItemButtons(item, index) {
+  const state = savedItems[itemFingerprint(item)] || {};
+  return `<button type="button" class="item-save-btn" data-save-index="${index}" data-save-kind="saved" aria-pressed="${Boolean(state.saved)}" aria-label="${state.saved ? "取消收藏" : "收藏"}：${escapeHtml(item.title)}" title="收藏">${state.saved ? "★" : "☆"}</button><button type="button" class="item-save-btn" data-save-index="${index}" data-save-kind="later" aria-pressed="${Boolean(state.later)}" aria-label="${state.later ? "移出" : "加入"}稍后阅读：${escapeHtml(item.title)}" title="稍后阅读">◷</button>`;
+}
+
+function decorateReadingDetail(item) {
+  const detail = document.getElementById("item-detail");
+  if (!detail || !item) {
+    document.getElementById("reading-progress").hidden = true;
+    return;
+  }
+  detail.insertAdjacentHTML("afterbegin", `<div class="reader-actions">${savedItemButtons(item, activeItemIndex)}<span>收藏 / 稍后阅读 · 保存在当前浏览器</span></div>`);
+  const dates = [["创建", item.createdAt], ["最近推送", item.pushedAt], ["发表", item.published]].filter(([, value]) => value);
+  if (dates.length) detail.querySelector(".reader-actions").insertAdjacentHTML("afterend", `<p class="reader-dates">${dates.map(([label, value]) => `${label}：${escapeHtml(String(value).slice(0, 10))}`).join(" · ")}</p>`);
+  const headings = [...detail.querySelectorAll(".markdown-body h1, .markdown-body h2, .markdown-body h3")];
+  if (headings.length > 1) {
+    const toc = document.createElement("details");
+    toc.className = "reader-toc";
+    toc.innerHTML = `<summary>正文目录 · ${headings.length} 节</summary><nav aria-label="正文目录">${headings.map((heading, index) => `<button type="button" class="btn-text" data-heading-index="${index}">${escapeHtml(heading.textContent)}</button>`).join("")}</nav>`;
+    detail.querySelector(".reader-actions").after(toc);
+    toc.addEventListener("click", event => {
+      const button = event.target.closest("[data-heading-index]");
+      if (button) headings[Number(button.dataset.headingIndex)]?.scrollIntoView({ block: "start" });
     });
+  }
+  const progress = document.getElementById("reading-progress");
+  progress.hidden = !feedHasSplitDetail();
+  progress.value = 0;
+}
+
+function bindReadingTools() {
+  const toolsPanel = document.querySelector(".content-tools-panel");
+  const mobile = window.matchMedia("(max-width: 860px)");
+  toolsPanel.open = !mobile.matches;
+  mobile.addEventListener("change", event => { toolsPanel.open = !event.matches; });
+  const repaint = () => {
+    if (!currentSourceRef) return;
+    const rows = filterItems(currentSourceRef.items || []);
+    if (rows.length && !rows.some(row => row.index === activeItemIndex)) activeItemIndex = rows[0].index;
+    renderActiveList(currentSourceRef, activeItemIndex);
+    renderActiveDetail(rows.length ? currentSourceRef.items[activeItemIndex] : null, activeItemIndex);
+  };
+  document.getElementById("facet-select").onchange = event => { facetFilter = event.target.value; repaint(); };
+  document.getElementById("access-select").onchange = event => { accessFilter = event.target.value; repaint(); };
+  document.getElementById("year-select").onchange = event => { yearFilter = event.target.value; repaint(); };
+  document.getElementById("saved-select").onchange = event => { savedFilter = event.target.value; repaint(); };
+  document.getElementById("sort-select").onchange = event => { sortOrder = event.target.value; repaint(); };
+  document.getElementById("back-to-latest").onclick = () => {
+    const select = document.getElementById("date-select");
+    select.value = "latest";
+    select.onchange();
+  };
+  document.getElementById("history-day").onchange = event => {
+    const entry = (manifest?.sources?.[activeSourceKey] || []).find(row => (row.day || row.date.slice(0, 10)) === event.target.value);
+    if (!entry) {
+      document.getElementById("history-day-hint").textContent = "这一天没有保存快照，请选择其他日期。";
+      return;
+    }
+    const select = document.getElementById("date-select");
+    select.value = entry.date;
+    select.onchange();
+  };
+  document.getElementById("content-panel").addEventListener("click", event => {
+    const button = event.target.closest("[data-save-index]");
+    if (!button) return;
+    const item = currentSourceRef?.items?.[Number(button.dataset.saveIndex)];
+    if (!item) return;
+    const key = itemFingerprint(item), kind = button.dataset.saveKind;
+    if (kind !== "saved" && kind !== "later") return;
+    const previous = savedItems[key];
+    const next = { ...previous, [kind]: !previous?.[kind] };
+    savedItems[key] = next;
+    if (!next.saved && !next.later) delete savedItems[key];
+    try { localStorage.setItem(SAVED_ITEMS_KEY, JSON.stringify(savedItems)); }
+    catch (_) {
+      if (previous) savedItems[key] = previous; else delete savedItems[key];
+      document.getElementById("network-status").textContent = "浏览器存储不可用，未能保存阅读清单。";
+      return;
+    }
+    repaint();
+  });
+  const split = document.getElementById("split-width"), size = document.getElementById("reader-size");
+  try {
+    const value = Number(localStorage.getItem("hjl-split-width"));
+    if (value >= 30 && value <= 65) split.value = value;
+    const font = localStorage.getItem("hjl-reader-size");
+    if (["15", "17", "19"].includes(font)) size.value = font;
+  } catch (_) {}
+  const updateReading = () => {
+    document.documentElement.style.setProperty("--list-width", `${Number(split.value)}%`);
+    document.documentElement.style.setProperty("--reader-font-size", `${Number(size.value)}px`);
+    try { localStorage.setItem("hjl-split-width", split.value); localStorage.setItem("hjl-reader-size", size.value); } catch (_) {}
+  };
+  split.oninput = size.onchange = updateReading;
+  updateReading();
+  document.getElementById("reader-expand").onclick = event => {
+    const panel = document.getElementById("content-panel");
+    const expanded = panel.getAttribute("data-reader") !== "1";
+    panel.setAttribute("data-reader", expanded ? "1" : "0");
+    event.target.setAttribute("aria-pressed", String(expanded));
+    event.target.textContent = expanded ? "返回分栏" : "展开阅读";
+  };
+  const updateProgress = () => {
+    const detail = document.getElementById("item-detail"), progress = document.getElementById("reading-progress");
+    const remaining = detail.scrollHeight - detail.clientHeight;
+    progress.value = remaining > 0 ? detail.scrollTop / remaining * 100 : Math.max(0, Math.min(100, -detail.getBoundingClientRect().top / Math.max(1, detail.scrollHeight - innerHeight) * 100));
+  };
+  document.getElementById("item-detail").addEventListener("scroll", updateProgress, { passive: true });
+  window.addEventListener("scroll", updateProgress, { passive: true });
+  const network = () => { document.getElementById("network-status").textContent = navigator.onLine ? "" : "离线 · 仅显示可用的已缓存内容"; };
+  window.addEventListener("online", network);
+  window.addEventListener("offline", network);
+  network();
 }
 
 function parseHashRoute() {
@@ -778,7 +959,9 @@ function writeHashRoute() {
   const dateKey = selectedDates[activeSourceKey] || "latest";
   const next = `#/${encodeURIComponent(activeSourceKey)}/${encodeURIComponent(dateKey)}/${activeItemIndex}`;
   if (location.hash === next) return;
-  history.replaceState(null, "", next);
+  const previous = parseHashRoute();
+  const sameView = previous?.sourceKey === activeSourceKey && previous?.dateKey === dateKey;
+  history[sameView || !previous ? "replaceState" : "pushState"](null, "", next);
 }
 
 function findParentIdForSource(data, sourceKey) {
@@ -792,6 +975,7 @@ function findParentIdForSource(data, sourceKey) {
 
 function applyRoute(data, route, { sync = true } = {}) {
   if (!route?.sourceKey) return;
+  if (sync && route.sourceKey === activeSourceKey && route.dateKey === (selectedDates[activeSourceKey] || "latest") && route.itemIndex === activeItemIndex) return;
   const parentId = findParentIdForSource(data, route.sourceKey);
   if (!parentId) return;
   activeParentId = parentId;
@@ -1041,15 +1225,19 @@ function applyFeedLayout(mode = getFeedMode()) {
 }
 
 function renderActiveList(source, activeIndex) {
-  const mode = getFeedMode();
-  if (mode === "weibo") return renderWeiboHotboard(source, activeIndex);
-  if (mode === "hn") return renderHnBoard(source, activeIndex);
-  if (mode === "chinadaily") return renderChinaDailyBoard(source, activeIndex);
-  if (mode === "github") return renderGithubBoard(source, activeIndex);
-  if (mode === "journals") return renderJournalsBoard(source, activeIndex);
-  if (mode === "skills-commits") return renderSkillsCommitsBoard(source, activeIndex);
-  if (mode === "skills") return renderSkillsBoard(source, activeIndex);
-  return renderCompactList(source, activeIndex);
+  const renderers = { weibo: renderWeiboHotboard, hn: renderHnBoard, chinadaily: renderChinaDailyBoard, github: renderGithubBoard, journals: renderJournalsBoard, "skills-commits": renderSkillsCommitsBoard, skills: renderSkillsBoard };
+  (renderers[getFeedMode()] || renderCompactList)(source, activeIndex);
+  document.querySelectorAll("#compact-list button.compact-item[data-index]").forEach((row) => {
+    const item = source.items[Number(row.dataset.index)];
+    const external = row.parentElement.querySelector(".compact-external");
+    if (!external || !item) return;
+    const actions = document.createElement("span");
+    actions.className = "item-row-actions";
+    external.replaceWith(actions);
+    actions.append(external);
+    if (/^https:\/\/news\.ycombinator\.com\/item\?id=\d+$/.test(item.discussionUrl || "")) actions.insertAdjacentHTML("beforeend", `<a class="hn-discussion-link" href="${escapeHtml(item.discussionUrl)}" target="_blank" rel="noopener noreferrer">讨论</a>`);
+    actions.insertAdjacentHTML("beforeend", savedItemButtons(item, Number(row.dataset.index)));
+  });
 }
 
 function renderActiveDetail(item, index) {
@@ -1058,6 +1246,11 @@ function renderActiveDetail(item, index) {
 }
 
 function paintActiveDetail(item, index) {
+  paintActiveDetailBody(item, index);
+  decorateReadingDetail(item);
+}
+
+function paintActiveDetailBody(item, index) {
   const mode = getFeedMode();
   if (mode === "weibo") return renderWeiboDetail(item, index);
   if (mode === "hn") return renderHnDetail(item, index);
@@ -1148,12 +1341,17 @@ function githubRawReadmeUrl(item) {
 
 async function fetchItemReadme(sourceKey, item, index) {
   if (item?.readme) return item.readme;
-  const cacheKey = `${sourceKey}:${index}`;
+  const dateKey = selectedDates[sourceKey] || "latest";
+  const cacheKey = `${sourceKey}:${dateKey}:${item.readmePath || item.url || item.title}:${index}`;
+  if (dateKey !== "latest" && !item.readmePath) return "";
   if (Object.prototype.hasOwnProperty.call(readmeCache, cacheKey)) return readmeCache[cacheKey];
   if (readmeInflight[cacheKey]) return readmeInflight[cacheKey];
 
   readmeInflight[cacheKey] = (async () => {
-    const localUrl = `data/readmes/${encodeURIComponent(sourceKey)}/${index}.md`;
+    const versionPath = String(item.readmePath || "");
+    const safeVersion = /^data\/readmes\/[a-zA-Z0-9_-]+\/versions\/[a-f0-9]{64}\.md$/.test(versionPath);
+    if (versionPath && !safeVersion) return "";
+    const localUrl = safeVersion ? versionPath : `data/readmes/${encodeURIComponent(sourceKey)}/${index}.md`;
     try {
       const res = await fetch(`${localUrl}?t=${Date.now()}`);
       if (res.ok) {
@@ -1165,7 +1363,8 @@ async function fetchItemReadme(sourceKey, item, index) {
       }
     } catch (_) {}
 
-    const raw = githubRawReadmeUrl(item);
+    // A missing immutable version must never fall back to a changing HEAD.
+    const raw = dateKey === "latest" && !versionPath ? githubRawReadmeUrl(item) : "";
     if (raw) {
       try {
         const res = await fetch(raw);
@@ -1211,7 +1410,7 @@ function renderGithubReadmeBlock(item, repoFullName = null) {
     (String(item.title || "").includes("/") ? String(item.title).split(" · ")[0] : null);
 
   if (!item.readme) {
-    const loading = Boolean(item.readmeFile) && !item.readmeMissing;
+    const loading = Boolean(item.readmeFile || item.readmePath) && !item.readmeMissing;
     return `
       <details class="readme-panel"${loading ? " open" : ""}>
         <summary class="readme-summary">
@@ -1219,7 +1418,7 @@ function renderGithubReadmeBlock(item, repoFullName = null) {
           <span class="readme-summary-hint">${loading ? "加载中" : "暂无内容"}</span>
         </summary>
         <p class="detail-desc muted readme-empty">${
-          loading ? "正在按条加载 README…" : "该仓库未提供 README，或抓取时未能获取。"
+          loading ? "正在加载 README…" : (selectedDates[activeSourceKey] && selectedDates[activeSourceKey] !== "latest" ? "这份旧快照未存档 README 正文，不能用当前版本替代。请打开对应仓库核查。" : "该仓库未提供 README，或抓取时未能获取。")
         }</p>
       </details>
     `;
@@ -1671,12 +1870,20 @@ function fillDateSelect(data) {
   const latestLabel = latestHint ? ` · ${latestHint}` : "";
 
   const options = [`<option value="latest">最新${latestLabel}</option>`];
+  let month = "";
   entries.forEach((entry) => {
+    const nextMonth = String(entry.date).slice(0, 7);
+    if (nextMonth !== month) {
+      if (month) options.push("</optgroup>");
+      month = nextMonth;
+      options.push(`<optgroup label="${escapeHtml(month)}">`);
+    }
     const count = entry.itemCount != null ? ` · ${entry.itemCount} 条` : "";
     const label = formatSnapshotLabel(entry.date);
     options.push(`<option value="${entry.date}">${label}${count}</option>`);
   });
 
+  if (month) options.push("</optgroup>");
   select.innerHTML = options.join("");
   const validDates = new Set(["latest", ...entries.map((entry) => entry.date)]);
   const current = selectedDates[activeSourceKey] || "latest";
@@ -1705,7 +1912,7 @@ function hideHistoryCompare() {
 function previousHistoryDate(sourceKey, currentDateKey) {
   const entries = manifest?.sources?.[sourceKey] || [];
   if (!entries.length) return null;
-  if (currentDateKey === "latest") return entries[0]?.date || null;
+  if (currentDateKey === "latest") return entries.find(entry => entry.savedAt !== currentSourceRef?.savedAt)?.date || null;
   const idx = entries.findIndex((entry) => entry.date === currentDateKey);
   if (idx < 0) return entries[0]?.date || null;
   return entries[idx + 1]?.date || null;
@@ -1724,16 +1931,18 @@ function diffSnapshots(currentItems, previousItems) {
   });
   const added = [];
   const removed = [];
+  const changed = [];
   currMap.forEach((item, fp) => {
     if (!prevMap.has(fp)) added.push(item);
+    else if (["title", "description", "stars", "score", "comments", "language", "published", "pdfUrl"].some(key => JSON.stringify(item[key] ?? null) !== JSON.stringify(prevMap.get(fp)[key] ?? null))) changed.push(item);
   });
   prevMap.forEach((item, fp) => {
     if (!currMap.has(fp)) removed.push(item);
   });
-  return { added, removed };
+  return { added, removed, changed };
 }
 
-function renderHistoryCompare(currentLabel, previousLabel, added, removed) {
+function renderHistoryCompare(currentLabel, previousLabel, added, removed, changed) {
   const panel = document.getElementById("history-compare-panel");
   if (!panel) return;
   const listHtml = (items, emptyText) => {
@@ -1760,6 +1969,10 @@ function renderHistoryCompare(currentLabel, previousLabel, added, removed) {
       <div>
         <h4>消失 ${removed.length}${moreRemoved}</h4>
         <ul>${listHtml(removed, "无消失")}</ul>
+      </div>
+      <div>
+        <h4>信息变化 ${changed.length}${changed.length > 12 ? "（显示前 12 条）" : ""}</h4>
+        <ul>${listHtml(changed, "无变化")}</ul>
       </div>
     </div>
   `;
@@ -1789,10 +2002,10 @@ async function runHistoryCompare(data) {
     const prevRes = await fetch(prevUrl);
     if (!prevRes.ok) throw new Error(`上一快照加载失败 (${prevRes.status})`);
     const previousSnap = await prevRes.json();
-    const { added, removed } = diffSnapshots(current?.items || [], previousSnap?.items || []);
+    const { added, removed, changed } = diffSnapshots(current?.items || [], previousSnap?.items || []);
     const currentLabel = currentKey === "latest" ? "最新" : formatSnapshotLabel(currentKey);
     const previousLabel = formatSnapshotLabel(previousKey);
-    renderHistoryCompare(currentLabel, previousLabel, added, removed);
+    renderHistoryCompare(currentLabel, previousLabel, added, removed, changed);
   } catch (err) {
     const panel = document.getElementById("history-compare-panel");
     if (panel) {
@@ -1882,7 +2095,7 @@ function openMobileDetailIfNeeded() {
   }
   panel.classList.add("is-mobile-detail");
   if (back) back.hidden = false;
-  document.getElementById("item-detail")?.scrollIntoView({ block: "start" });
+  back?.scrollIntoView({ block: "start" });
 }
 
 function closeMobileDetail() {
@@ -2675,6 +2888,8 @@ async function syncPanel(data, { preserveItemIndex = true } = {}) {
     if (seq !== panelSyncSeq || activeSourceKey !== sourceKey) return false;
     const items = source?.items || [];
     currentSourceRef = source;
+    fillContentFilters(items);
+    updateContentStatus(source);
     bootstrapSeenIfNeeded(sourceKey, items);
     const previousIndex = preserveItemIndex ? activeItemIndex : 0;
     const dateKey = selectedDates[sourceKey] || "latest";
@@ -2978,7 +3193,7 @@ function openActiveItem() {
 }
 
 function itemSearchHay(item) {
-  return `${item.title || ""} ${plainText(item.description || "")} ${item.owner || ""} ${item.label || ""} ${item.language || ""} ${item.repo || ""}`.toLowerCase();
+  return `${item.title || ""} ${plainText(item.description || "")} ${item.owner || ""} ${item.label || ""} ${item.language || ""} ${item.repo || ""} ${item.authors || ""} ${item.doi || ""} ${item.journal || ""} ${item.published || ""}`.toLowerCase();
 }
 
 async function loadPaletteItemIndex(data) {
@@ -3224,6 +3439,7 @@ function bindKeyboard(data) {
     }
     if (event.metaKey || event.ctrlKey || event.altKey) return;
     const typing = isTypingTarget(event.target);
+    if (event.target?.closest?.("button, a, summary, [role='button']") || document.querySelector("dialog[open]")) return;
     const palette = document.getElementById("command-palette");
     if (palette?.open) return;
 
@@ -3356,7 +3572,7 @@ async function loadContent() {
     updatePinButton();
     registerServiceWorker();
     await syncPanel(appData, { preserveItemIndex: Boolean(route) });
-    void loadPaletteItemIndex(appData);
+    bindReadingTools();
 
     loading.style.display = "none";
     document.getElementById("mobile-nav").hidden = false;
@@ -3369,6 +3585,12 @@ async function loadContent() {
       `加载失败：${err.message}。若本地预览，请用 HTTP 服务器打开（见 README）。`;
   }
 }
+
+window.addEventListener("popstate", () => {
+  if (!appData) return;
+  clearSearchInputs();
+  applyRoute(appData, parseHashRoute() || { sourceKey: "github", dateKey: "latest", itemIndex: 0 });
+});
 
 window.addEventListener("hashchange", () => {
   if (!appData) return;

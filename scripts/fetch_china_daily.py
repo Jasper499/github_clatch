@@ -250,6 +250,9 @@ def _enrich_article(item: dict) -> dict:
         item["owner"] = owner
     if image:
         item["image"] = image
+    section = re.search(r'<meta[^>]+(?:name|property)=["\']article:section["\'][^>]+content=["\']([^"\']+)', page, re.I)
+    if section:
+        item["category"] = _unescape(section.group(1))
     if not item.get("published"):
         item["published"] = _date_from_url(url)
     return item

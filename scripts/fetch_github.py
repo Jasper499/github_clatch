@@ -140,6 +140,8 @@ def fetch_github_repos(query_suffix: str, since: str, limit: int = 20) -> list[d
             "stars": repo.get("stargazers_count", 0),
             "language": repo.get("language") or "",
             "owner": (repo.get("owner") or {}).get("login", ""),
+            "createdAt": repo.get("created_at") or "",
+            "pushedAt": repo.get("pushed_at") or "",
         }
 
         readme = fetch_repo_readme(full_name)

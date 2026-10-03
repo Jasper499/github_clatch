@@ -24,7 +24,7 @@
   <meta name="twitter:description" content="GitHub、Hacker News、微博、MRI 顶刊与 Agent Skills 一站追踪。">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
   <script>
     (function () {
       try {
@@ -46,7 +46,7 @@
       }
     })();
   </script>
-  <link rel="stylesheet" href="css/style.css?v=25">
+  <link rel="stylesheet" href="css/style.css?v=26">
 </head>
 <body>
   <script>
@@ -70,13 +70,19 @@
     <nav class="ws-status" id="ws-status" aria-label="栏目健康"></nav>
     <p class="ws-ticker" id="ws-ticker" aria-label="今日一句"></p>
     <div class="ws-actions">
-      <button type="button" id="ws-command-btn" class="ws-btn" title="命令面板（Ctrl/⌘ K）">跳转</button>
+      <button type="button" id="ws-command-btn" class="ws-btn" title="全局搜索（Ctrl/⌘ K）">搜索 / 跳转</button>
       <button type="button" id="ws-digest-btn" class="ws-btn">摘要</button>
       <button type="button" id="ws-focus-btn" class="ws-btn" aria-pressed="false" title="专注模式（F）">专注</button>
+      <details class="ws-more"><summary class="ws-btn">更多</summary><div class="ws-more-menu">
       <button type="button" id="ws-density-btn" class="ws-btn" title="信息密度（D）">紧凑</button>
       <button type="button" id="ws-help-btn" class="ws-btn" title="快捷键（?）">?</button>
-      <button type="button" id="ws-refresh-btn" class="ws-btn" title="清除缓存并重新拉取">刷新</button>
+
       <button type="button" id="ws-layout-btn" class="ws-btn" aria-pressed="true" title="切换经典布局">工作站</button>
+      <a href="data/feeds/all.xml">订阅 Atom</a>
+      <a href="https://github.com/Jasper499/github_clatch/actions" target="_blank" rel="noopener noreferrer">更新记录</a>
+      <span>每个栏目最多保留 120 份历史快照</span>
+      </div></details>
+      <button type="button" id="ws-refresh-btn" class="ws-btn" title="检查网站已发布数据；源平台抓取由定时任务执行">检查更新</button>
     </div>
   </header>
   <div class="page-bg" aria-hidden="true">
@@ -93,12 +99,6 @@
       <a class="hn-yc" href="#/hackernews" aria-label="Hacker News 首页">Y</a>
       <a class="hn-chrome-brand" href="#/hackernews">Hacker News</a>
       <nav class="hn-chrome-nav" aria-label="HN 栏目">
-        <span>new</span>
-        <span>past</span>
-        <span>comments</span>
-        <span>ask</span>
-        <span>show</span>
-        <span>jobs</span>
       </nav>
       <div class="hn-chrome-right">
         <a class="hn-chrome-hjl" href="#/github">github</a>
@@ -168,11 +168,6 @@
       </a>
       <nav class="cd-chrome-nav" aria-label="China Daily 栏目">
         <a href="#/chinaDaily">Most Viewed</a>
-        <span>China</span>
-        <span>World</span>
-        <span>Business</span>
-        <span>Opinion</span>
-        <span>Lifestyle</span>
       </nav>
       <div class="cd-chrome-right">
         <a class="cd-chrome-link" href="#/github">GitHub</a>
@@ -309,6 +304,23 @@
           </div>
         </div>
 
+        <div class="content-status" role="status"><span id="content-status-text"></span><button type="button" id="back-to-latest" class="btn-text" hidden>回到最新</button><span id="network-status"></span></div>
+        <details class="content-tools-panel" open><summary>筛选、收藏与阅读设置</summary><div class="content-tools">
+          <label id="facet-label">分类 <select id="facet-select" class="select"><option value="">全部</option></select></label>
+          <label id="access-label">获取方式 <select id="access-select" class="select"><option value="">全部</option><option value="oa">开放获取</option><option value="pdf">PDF 可用</option></select></label>
+          <label id="year-label">年份 <select id="year-select" class="select"><option value="">全部年份</option></select></label>
+          <label>排序 <select id="sort-select" class="select"><option value="default">原榜单顺序</option></select></label>
+          <label>阅读清单 <select id="saved-select" class="select"><option value="">全部内容</option><option value="saved">我的收藏</option><option value="later">稍后阅读</option></select></label>
+          <label>查找日期 <input id="history-day" class="select" type="date"></label>
+          <span id="history-day-hint" role="status"></span>
+          <details class="reading-settings"><summary>阅读设置</summary>
+            <label>列表宽度 <input id="split-width" type="range" min="30" max="65" value="42"></label>
+            <label>正文字号 <select id="reader-size" class="select"><option value="15">15px</option><option value="17" selected>17px</option><option value="19">19px</option></select></label>
+            <button type="button" id="reader-expand" class="btn-text" aria-pressed="false">展开阅读</button>
+          </details>
+        </div>
+        </details>
+        <progress id="reading-progress" max="100" value="0" aria-label="正文阅读进度" hidden></progress>
         <p id="section-desc" class="section-desc"></p>
         <p id="new-items-banner" class="new-items-banner" hidden></p>
         <div id="history-compare-panel" class="history-compare-panel" hidden></div>
@@ -419,6 +431,6 @@
     crossorigin="anonymous"
   ></script>
   <script src="js/icons.js?v=25"></script>
-  <script src="js/app.js?v=25"></script>
+  <script src="js/app.js?v=26"></script>
 </body>
 </html>
