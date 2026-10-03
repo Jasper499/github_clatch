@@ -1,33 +1,33 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-10-02T19:03:39Z",
+  "savedAt": "2026-10-03T07:48:18Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-10-02，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-10-03，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-10-02",
+  "fetchedDate": "2026-10-03",
   "items": [
     {
       "title": "When did Google get so weird?",
       "description": "",
       "url": "https://sancho.bearblog.dev/google-weird/",
-      "score": 2003,
-      "comments": 1114,
+      "score": 2007,
+      "comments": 1116,
       "owner": "sancho-panza"
     },
     {
       "title": "Gemini 4 Argon",
       "description": "See also: <i>Gemini 4 Argon (High): Intelligence, Performance and Price Analysis</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49914236\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49914236</a>",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-      "score": 1682,
-      "comments": 1165,
+      "score": 1686,
+      "comments": 1173,
       "owner": "bradleyg223"
     },
     {
       "title": "Pi 1.0",
       "description": "Related: <i>Pi Durable</i> - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49925969",
       "url": "https://earendil.com/posts/pi-1-0/",
-      "score": 1625,
-      "comments": 559,
+      "score": 1653,
+      "comments": 580,
       "owner": "sergiotapia"
     },
     {
@@ -43,7 +43,7 @@
       "description": "",
       "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
       "score": 1062,
-      "comments": 949,
+      "comments": 951,
       "owner": "crorella"
     },
     {
@@ -51,14 +51,14 @@
       "description": "",
       "url": "https://twitter.com/AliAbunimah/status/2103890594137309425",
       "score": 938,
-      "comments": 934,
+      "comments": 940,
       "owner": "slowin"
     },
     {
       "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
       "description": "",
       "url": "https://github.com/ninjahawk/livenerf",
-      "score": 916,
+      "score": 919,
       "comments": 390,
       "owner": "bryan0"
     },
@@ -74,16 +74,16 @@
       "title": "Everybody’s home. No one’s coming over",
       "description": "",
       "url": "https://www.derekthompson.org/p/the-death-of-the-american-host",
-      "score": 828,
-      "comments": 736,
+      "score": 829,
+      "comments": 737,
       "owner": "barry-cotter"
     },
     {
       "title": "America.gov",
       "description": "",
       "url": "https://america.gov/",
-      "score": 774,
-      "comments": 735,
+      "score": 777,
+      "comments": 736,
       "owner": "plesiv"
     },
     {
@@ -91,16 +91,8 @@
       "description": "",
       "url": "https://openai.com/index/introducing-dots/",
       "score": 764,
-      "comments": 641,
+      "comments": 644,
       "owner": "alvis"
-    },
-    {
-      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
-      "description": "",
-      "url": "https://swarmtraces.org/",
-      "score": 754,
-      "comments": 472,
-      "owner": "specked-citrus"
     },
     {
       "title": "Breaking Up with Google Play: Why Conversations Is Now Free",
@@ -130,39 +122,47 @@
       "title": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
       "description": "",
       "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
-      "score": 629,
-      "comments": 623,
+      "score": 630,
+      "comments": 624,
       "owner": "papergirl"
     },
     {
       "title": "It's Time to Investigate the AI Labs",
       "description": "",
       "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
-      "score": 626,
+      "score": 628,
       "comments": 277,
       "owner": "ibobev"
-    },
-    {
-      "title": "StreetComplete on iOS is now in public beta",
-      "description": "",
-      "url": "https://github.com/streetcomplete/StreetComplete/issues/5421",
-      "score": 614,
-      "comments": 170,
-      "owner": "Snowly"
     },
     {
       "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
       "description": "",
       "url": "https://blog.cloudflare.com/clef-decision-models/",
-      "score": 610,
-      "comments": 213,
+      "score": 622,
+      "comments": 215,
       "owner": "jasondavies"
+    },
+    {
+      "title": "StreetComplete on iOS is now in public beta",
+      "description": "",
+      "url": "https://github.com/streetcomplete/StreetComplete/issues/5421",
+      "score": 619,
+      "comments": 172,
+      "owner": "Snowly"
+    },
+    {
+      "title": "Court agrees with EFF: Utah's VPN law demands a technical impossibility",
+      "description": "",
+      "url": "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility",
+      "score": 607,
+      "comments": 264,
+      "owner": "hn_acker"
     },
     {
       "title": "I'm the mom in that viral Giants clip. Let me tell you about my husband",
       "description": "",
       "url": "https://themomoftheyear.substack.com/p/im-the-mom-in-that-viral-giants-clip",
-      "score": 606,
+      "score": 607,
       "comments": 241,
       "owner": "minimaxir"
     }
