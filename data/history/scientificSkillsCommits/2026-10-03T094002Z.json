@@ -1,0 +1,178 @@
+{
+  "date": "2026-10-03T094002Z",
+  "day": "2026-10-03",
+  "sourceKey": "scientificSkillsCommits",
+  "savedAt": "2026-10-03T09:40:02Z",
+  "label": "最近提交",
+  "description": "最近 15 条提交动态",
+  "updateFrequency": "daily",
+  "repo": "K-Dense-AI/scientific-agent-skills",
+  "latestSha": "154988403bb5a18e9d3c0ce4e6d5e2e4b184a298",
+  "items": [
+    {
+      "title": "docs: pin install example to v2.71.0",
+      "description": "docs: pin install example to v2.71.0\n\nCo-Authored-By: Claude Opus 5.5 &lt;noreply@anthropic.com&gt;",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298",
+      "sha": "1549884",
+      "fullSha": "154988403bb5a18e9d3c0ce4e6d5e2e4b184a298",
+      "owner": "timothykassis",
+      "published": "2026-10-01",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Bump version to 2.72.0",
+      "description": "Bump version to 2.72.0\n\nCo-Authored-By: Claude Opus 5.5 &lt;noreply@anthropic.com&gt;",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/526ebce143bc326f44471554e33d66a19c840360",
+      "sha": "526ebce",
+      "fullSha": "526ebce143bc326f44471554e33d66a19c840360",
+      "owner": "timothykassis",
+      "published": "2026-10-01",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Remove vendored Anthropic document skills (docx, pdf, pptx, xlsx)",
+      "description": "Remove vendored Anthropic document skills (docx, pdf, pptx, xlsx)\n\nThese four skills were vendored from anthropics/skills under Anthropic&#39;s\nproprietary license. Remove them with their tests, illustrated guides,\ndiagrams, and skill-requirements entries.\n\n- Drop the office/ test contract that only those skills used; move the\n  schematic-generator drift check it also held into schematic.py.\n- scientific-slides no longer calls skills/pptx/ scripts: PowerPoint decks\n  are built with PptxGenJS or python-pptx and reviewed through LibreOffice\n  plus the bundled pdf_to_images.py and validate_presentation.py.\n- liteparse and markitdown point PDF manipulation at pypdf.\n- Update skill counts to 177 across README and docs, remove the skills from\n  the catalog, guide index, and workflow examples, and prune them from the\n  security report.\n\nCo-Authored-By: Claude Opus 5.5 &lt;noreply@anthropic.com&gt;",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/f7a50ed2956fb45e32bd44cc5c713d4f0ac99f93",
+      "sha": "f7a50ed",
+      "fullSha": "f7a50ed2956fb45e32bd44cc5c713d4f0ac99f93",
+      "owner": "timothykassis",
+      "published": "2026-10-01",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "docs: add illustrated guides for all scientific skills",
+      "description": "docs: add illustrated guides for all scientific skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/ed4cea6cb24b0588f144264125e255ce8ce43f66",
+      "sha": "ed4cea6",
+      "fullSha": "ed4cea6cb24b0588f144264125e255ce8ce43f66",
+      "owner": "timothykassis",
+      "published": "2026-10-01",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Bump version",
+      "description": "Bump version",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/200dd3e8728276cfd8ae29435e66a45fb4e2a14e",
+      "sha": "200dd3e",
+      "fullSha": "200dd3e8728276cfd8ae29435e66a45fb4e2a14e",
+      "owner": "timothykassis",
+      "published": "2026-10-01",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Updatea all skills to lates API endpoints, packages and docs",
+      "description": "Updatea all skills to lates API endpoints, packages and docs",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/a92663a0214b3b9fa1ba6b958284ffd919c00a0c",
+      "sha": "a92663a",
+      "fullSha": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c",
+      "owner": "timothykassis",
+      "published": "2026-10-01",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "Update readme",
+      "description": "Update readme",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/91497e335489dcb544ec8ddc8f6b7ce5fd6d1121",
+      "sha": "91497e3",
+      "fullSha": "91497e335489dcb544ec8ddc8f6b7ce5fd6d1121",
+      "owner": "timothykassis",
+      "published": "2026-10-01",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "test(generate-image): recognize unsupported size disclaimers",
+      "description": "test(generate-image): recognize unsupported size disclaimers\n\nKeep rejecting size flag examples while allowing both existing negative capability warnings. Scope the CLI rejection test to its actual behavior.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/4537e63f1a50b31e46933cd77324a499f2be1299",
+      "sha": "4537e63",
+      "fullSha": "4537e63f1a50b31e46933cd77324a499f2be1299",
+      "owner": "timothykassis",
+      "published": "2026-10-01",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "remove: delete CLAUDE.md as repository guidance is now consolidated i…",
+      "description": "remove: delete CLAUDE.md as repository guidance is now consolidated in AGENTS.md",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/8b078d6bedfb99672cb703664ccf170f89665cb8",
+      "sha": "8b078d6",
+      "fullSha": "8b078d6bedfb99672cb703664ccf170f89665cb8",
+      "owner": "timothykassis",
+      "published": "2026-10-01",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "fix(analytical-method-validation): normalize JSON records like CSV",
+      "description": "fix(analytical-method-validation): normalize JSON records like CSV\n\nFixes #295. Strip JSON keys and string values, preserve zero and null handling, and compare CLI results across padded JSON and CSV inputs.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/32960cda7b20f8db185fa36becd5c2a7e164713d",
+      "sha": "32960cd",
+      "fullSha": "32960cda7b20f8db185fa36becd5c2a7e164713d",
+      "owner": "timothykassis",
+      "published": "2026-09-30",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "fix(skills): make console diagnostics safe for cp1252",
+      "description": "fix(skills): make console diagnostics safe for cp1252\n\nFixes #292. Use readable ASCII status markers in 42 Python scripts across 20 skills, preserve figure and prompt text, keep copied validators/generators identical, and add static plus real-console regression coverage.\n\nValidation: all 20 affected isolated skill suites and spec checks pass. PyMC required a process-local PYTENSOR_FLAGS=cxx=,linker=py,blas__ldflags= override because the native macOS linker could not find d64.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/a0aea743b3059cbae85ae4ba861cc6b2c0d1e083",
+      "sha": "a0aea74",
+      "fullSha": "a0aea743b3059cbae85ae4ba861cc6b2c0d1e083",
+      "owner": "timothykassis",
+      "published": "2026-09-30",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "fix(arbor): render node IDs in numeric creation order",
+      "description": "fix(arbor): render node IDs in numeric creation order\n\nFixes #289. Apply numeric sorting to all observe sections and status siblings, with regression coverage beyond nine nodes and nested branches.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/351845e1c72f3e4a5db39fd8507a2f81251d96af",
+      "sha": "351845e",
+      "fullSha": "351845e1c72f3e4a5db39fd8507a2f81251d96af",
+      "owner": "timothykassis",
+      "published": "2026-09-30",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "fix(ci): explicitly skip security scanning for restricted PRs",
+      "description": "fix(ci): explicitly skip security scanning for restricted PRs\n\nFixes #288. Keep fork and Dependabot runs away from secrets and comment writes; publish an explicit skip notice and put available reports in job summaries.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/7728c2cf14ab64892561902f8713e5ff8bda4608",
+      "sha": "7728c2c",
+      "fullSha": "7728c2cf14ab64892561902f8713e5ff8bda4608",
+      "owner": "timothykassis",
+      "published": "2026-09-30",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "fix(deeptools): replace only the BAM filename suffix for indexes",
+      "description": "fix(deeptools): replace only the BAM filename suffix for indexes\n\nFixes #286. Cover parent directories and repeated filename suffixes containing .bam under both index naming conventions.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/d900a9808c4538f84b48fa05eec6104ec140106c",
+      "sha": "d900a98",
+      "fullSha": "d900a9808c4538f84b48fa05eec6104ec140106c",
+      "owner": "timothykassis",
+      "published": "2026-09-30",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "fix(arbor): reject invalid evidence statuses before updating state",
+      "description": "fix(arbor): reject invalid evidence statuses before updating state\n\nFixes #284. Validate explicit statuses consistently with set-status and preserve the full state file on rejection.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/203bcce5d267c2eba2248d781fa1ac92cad6ac29",
+      "sha": "203bcce",
+      "fullSha": "203bcce5d267c2eba2248d781fa1ac92cad6ac29",
+      "owner": "timothykassis",
+      "published": "2026-09-30",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    }
+  ]
+}

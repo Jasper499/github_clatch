@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T09:39:28Z",
+  "updatedAt": "2026-10-03T09:40:02Z",
   "periodDays": 7,
   "weekLabel": "2026-09-26 ~ 2026-10-03",
   "githubUpdatedAt": "2026-10-03T09:38:45Z",
@@ -7,9 +7,9 @@
   "weiboUpdatedAt": "2026-10-03T05:09:04Z",
   "journalsUpdatedAt": "2026-10-01T07:54:19Z",
   "natureSkillsUpdatedAt": "2026-10-03T09:39:28Z",
-  "scientificSkillsUpdatedAt": "2026-09-19T17:25:54Z",
+  "scientificSkillsUpdatedAt": "2026-10-03T09:40:02Z",
   "natureSkillsLatestSha": "84880815fb37317b3766bff2c2abba395b8993c3",
-  "scientificSkillsLatestSha": "330c8e764435a731eff571e3efdda70b363d0792",
+  "scientificSkillsLatestSha": "154988403bb5a18e9d3c0ce4e6d5e2e4b184a298",
   "catalog": [
     {
       "id": "github",
@@ -171,18 +171,18 @@
     },
     "scientificSkills": {
       "label": "Skills 清单",
-      "description": "跟踪 K-Dense-AI/scientific-agent-skills：共 166 个技能（最近同步 2026-09-14）",
+      "description": "跟踪 K-Dense-AI/scientific-agent-skills：共 177 个技能（最近同步 2026-10-01）",
       "updateFrequency": "daily",
       "repo": "K-Dense-AI/scientific-agent-skills",
-      "latestSha": "330c8e764435a731eff571e3efdda70b363d0792",
-      "itemCount": 167
+      "latestSha": "154988403bb5a18e9d3c0ce4e6d5e2e4b184a298",
+      "itemCount": 178
     },
     "scientificSkillsCommits": {
       "label": "最近提交",
       "description": "最近 15 条提交动态",
       "updateFrequency": "daily",
       "repo": "K-Dense-AI/scientific-agent-skills",
-      "latestSha": "330c8e764435a731eff571e3efdda70b363d0792",
+      "latestSha": "154988403bb5a18e9d3c0ce4e6d5e2e4b184a298",
       "itemCount": 15
     },
     "weiboRealtime": {
@@ -207,7 +207,7 @@
       "itemCount": 20
     }
   },
-  "generatedAt": "2026-10-03T09:39:28Z",
+  "generatedAt": "2026-10-03T09:40:02Z",
   "journalsPeriod": "2026-08-17 ~ 2026-10-01",
   "chinaDailyUpdatedAt": "2026-10-03T08:54:01Z"
 }

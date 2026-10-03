@@ -1,44 +1,44 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-09-19T17:25:54Z",
+  "changed": true,
+  "fetchedAt": "2026-10-03T09:40:02Z",
   "previousSha": "330c8e764435a731eff571e3efdda70b363d0792",
-  "latestSha": "330c8e764435a731eff571e3efdda70b363d0792",
+  "latestSha": "154988403bb5a18e9d3c0ce4e6d5e2e4b184a298",
   "repo": "K-Dense-AI/scientific-agent-skills",
   "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "stars": 0,
-  "skillCount": 166,
+  "skillCount": 177,
   "latestCommit": {
-    "title": "chore: update security scan report [skip ci]",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/330c8e764435a731eff571e3efdda70b363d0792",
-    "sha": "330c8e7",
-    "published": "2026-09-14"
+    "title": "docs: pin install example to v2.71.0",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298",
+    "sha": "1549884",
+    "published": "2026-10-01"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
     {
-      "title": "chore: update security scan report [skip ci]",
-      "sha": "330c8e7",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/330c8e764435a731eff571e3efdda70b363d0792"
+      "title": "docs: pin install example to v2.71.0",
+      "sha": "1549884",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298"
     },
     {
-      "title": "Add new images for AlphaGenome, Folklore variant evidence, and Genomi…",
-      "sha": "0b2afe6",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/0b2afe68a5f9379097ad815e028af664f1e222b7"
+      "title": "Bump version to 2.72.0",
+      "sha": "526ebce",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/526ebce143bc326f44471554e33d66a19c840360"
     },
     {
-      "title": "Add skill image generation script and update .gitignore",
-      "sha": "4d23349",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/4d23349c7bd9d68e8a17977a8dc2f666521f505c"
+      "title": "Remove vendored Anthropic document skills (docx, pdf, pptx, xlsx)",
+      "sha": "f7a50ed",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/f7a50ed2956fb45e32bd44cc5c713d4f0ac99f93"
     },
     {
-      "title": "Add AlphaGenome",
-      "sha": "97c5902",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/97c59021d34e7813e46299aa0cb6c790565fbf57"
+      "title": "docs: add illustrated guides for all scientific skills",
+      "sha": "ed4cea6",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/ed4cea6cb24b0588f144264125e255ce8ce43f66"
     },
     {
-      "title": "Update documentation and security reports; add new examples and skills",
-      "sha": "fa66f48",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/fa66f483619e36827a9521302666067821e052c9"
+      "title": "Bump version",
+      "sha": "200dd3e",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/200dd3e8728276cfd8ae29435e66a45fb4e2a14e"
     }
   ]
 }
