@@ -12,7 +12,7 @@ function section(start, end) { return app.slice(app.indexOf(start), app.indexOf(
   const elements = new Map();
   const element = () => ({dataset: {}, style: {setProperty(key,value) {this[key]=value;}}, setAttribute(key,value) {this[key]=value;}, showModal() {}, close() {}});
   const choices = ['default','aurora','cobalt','plain','custom'].map(preset => Object.assign(element(), {dataset: {backgroundChoice: preset}}));
-  for (const id of ['background-dialog','background-shade','background-shade-value','background-save-status','background-open','background-close','background-reset','background-file','background-position','background-remove']) elements.set(id, element());
+  for (const id of ['background-dialog','background-shade','background-shade-value','background-save-status','background-open','background-close','background-reset','background-file','background-position','background-remove','background-panel-strength','background-panel-value','background-image-first']) elements.set(id, element());
   elements.get('background-dialog').querySelectorAll = () => choices;
   const rootElement = element();
   let stored = JSON.stringify({preset: 'invalid', shade: 999});
@@ -24,6 +24,10 @@ function section(start, end) { return app.slice(app.indexOf(start), app.indexOf(
   assert.equal(rootElement['data-background'], 'aurora');
   assert.equal(JSON.parse(stored).preset, 'aurora');
   assert.equal(elements.get('background-shade').disabled, false);
+  elements.get('background-image-first').onclick();
+  assert.equal(rootElement.style['--background-shade'], '10%');
+  assert.equal(rootElement.style['--background-panel-strength'], '35%');
+  assert.equal(JSON.parse(stored).panelStrength,35);
   elements.get('background-reset').onclick();
   assert.equal(rootElement['data-background'], 'default');
   let closedBitmap = false;

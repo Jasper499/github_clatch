@@ -3642,22 +3642,26 @@ function initBackgroundSettings() {
   const root = document.documentElement;
   const dialog = document.getElementById("background-dialog");
   const range = document.getElementById("background-shade");
+  const panelStrength = document.getElementById("background-panel-strength");
+  const imageFirst = document.getElementById("background-image-first");
   const choices = [...dialog.querySelectorAll("[data-background-choice]")];
   const fileInput = document.getElementById("background-file");
   const position = document.getElementById("background-position");
   const remove = document.getElementById("background-remove");
   const status = document.getElementById("background-save-status");
   let imageUrl = "", revision = 0;
-  let settings = { preset: "default", shade: 45, position: "center" };
+  let settings = { preset: "default", shade: 45, panelStrength: 55, position: "center" };
   try {
     const saved = JSON.parse(localStorage.getItem("hjl-background-v1") || "null");
     if (saved && choices.some(button => button.dataset.backgroundChoice === saved.preset)) settings.preset = saved.preset;
-    if (Number.isFinite(saved?.shade) && saved.shade >= 20 && saved.shade <= 85) settings.shade = saved.shade;
+    if (Number.isFinite(saved?.shade) && saved.shade >= 5 && saved.shade <= 85) settings.shade = saved.shade;
+    if (Number.isFinite(saved?.panelStrength) && saved.panelStrength >= 20 && saved.panelStrength <= 100) settings.panelStrength = saved.panelStrength;
     if (["center", "top", "bottom"].includes(saved?.position)) settings.position = saved.position;
   } catch (_) {}
   const apply = (persist = true) => {
     root.setAttribute("data-background", settings.preset);
     root.style.setProperty("--background-shade", `${settings.shade}%`);
+    root.style.setProperty("--background-panel-strength", `${settings.panelStrength}%`);
     root.style.setProperty("--background-position", settings.position);
     position.value = settings.position;
     position.disabled = settings.preset !== "custom";
@@ -3665,6 +3669,9 @@ function initBackgroundSettings() {
     remove.disabled = !imageUrl || fileInput.disabled;
     range.value = settings.shade;
     range.disabled = settings.preset === "default" || settings.preset === "plain";
+    panelStrength.value = settings.panelStrength;
+    panelStrength.disabled = imageFirst.disabled = range.disabled;
+    document.getElementById("background-panel-value").textContent = `${settings.panelStrength}%`;
     document.getElementById("background-shade-value").textContent = `${settings.shade}%`;
     choices.forEach(button => button.setAttribute("aria-pressed", String(button.dataset.backgroundChoice === settings.preset)));
     if (persist) {
@@ -3683,6 +3690,8 @@ function initBackgroundSettings() {
   };
   choices.forEach(button => button.onclick = () => { settings.preset = button.dataset.backgroundChoice; apply(); });
   range.oninput = () => { settings.shade = Number(range.value); apply(); };
+  panelStrength.oninput = () => { settings.panelStrength = Number(panelStrength.value); apply(); };
+  imageFirst.onclick = () => { settings.shade = 10; settings.panelStrength = 35; apply(); };
   position.onchange = () => { settings.position = position.value; apply(); };
   fileInput.onchange = async () => {
     const file = fileInput.files[0];
@@ -3695,6 +3704,8 @@ function initBackgroundSettings() {
       await backgroundImageStore("put", blob);
       setImage(blob);
       settings.preset = "custom";
+      settings.shade = 20;
+      settings.panelStrength = 55;
       apply();
     } catch (error) { status.textContent = `未更换背景：${error.message || "浏览器存储不可用。"}`; }
     finally { fileInput.disabled = false; remove.disabled = !imageUrl; fileInput.value = ""; }
@@ -3713,7 +3724,7 @@ function initBackgroundSettings() {
   };
   document.getElementById("background-open").onclick = () => dialog.showModal();
   document.getElementById("background-close").onclick = () => dialog.close();
-  document.getElementById("background-reset").onclick = () => { settings = { preset: "default", shade: 45, position: "center" }; apply(); };
+  document.getElementById("background-reset").onclick = () => { settings = { preset: "default", shade: 45, panelStrength: 55, position: "center" }; apply(); };
   apply(false);
   backgroundImageStore("get").then(blob => {
     if (revision) return;

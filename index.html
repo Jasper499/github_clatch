@@ -46,7 +46,7 @@
       }
     })();
   </script>
-  <link rel="stylesheet" href="css/style.css?v=28">
+  <link rel="stylesheet" href="css/style.css?v=29">
 </head>
 <body>
   <script>
@@ -434,9 +434,13 @@
       </label>
       <button type="button" id="background-remove" class="ws-btn" disabled>删除已保存的图片</button>
       <label class="background-shade" for="background-shade">背景遮罩 <output id="background-shade-value" for="background-shade">45%</output>
-        <input id="background-shade" type="range" min="20" max="85" value="45" step="5" />
+        <input id="background-shade" type="range" min="5" max="85" value="45" step="5" />
       </label>
-      <p class="muted">遮罩越高，背景越接近当前主题底色。文字区域保留阅读底色。</p>
+      <label class="background-shade" for="background-panel-strength">内容底色强度 <output id="background-panel-value" for="background-panel-strength">55%</output>
+        <input id="background-panel-strength" type="range" min="20" max="100" value="55" step="5" />
+      </label>
+      <p class="muted">两个数值越低，图片越明显；提高内容底色可让文字更清晰。</p>
+      <button type="button" id="background-image-first" class="ws-btn">图片优先</button>
       <button type="button" id="background-reset" class="ws-btn">恢复默认背景</button>
       <p id="background-save-status" class="muted" role="status"></p>
     </div>
@@ -463,6 +467,6 @@
     crossorigin="anonymous"
   ></script>
   <script src="js/icons.js?v=25"></script>
-  <script src="js/app.js?v=28"></script>
+  <script src="js/app.js?v=29"></script>
 </body>
 </html>

@@ -5657,7 +5657,8 @@ html[data-background="cobalt"] { --background-art: repeating-linear-gradient(135
 html[data-background]:not([data-background="default"]) body { background-image: linear-gradient(color-mix(in srgb, var(--bg) var(--background-shade, 45%), transparent), color-mix(in srgb, var(--bg) var(--background-shade, 45%), transparent)), var(--background-art, none) !important; background-attachment: fixed !important; background-size: cover !important; }
 html[data-background]:not([data-background="default"]) :is(.page-bg, body::before, body::after) { display: none !important; }
 html[data-background="plain"] body { background-image: none !important; }
-html[data-workstation="1"]:is([data-background="aurora"], [data-background="cobalt"]) :is(.sidebar, .content-panel, .ws-bar) { background: color-mix(in srgb, var(--bg-elevated) 90%, transparent) !important; }
+html[data-workstation="1"]:is([data-background="aurora"], [data-background="cobalt"], [data-background="custom"]) :is(.sidebar, .content-panel, .ws-bar) { background: color-mix(in srgb, var(--bg-elevated) var(--background-panel-strength, 55%), transparent) !important; backdrop-filter: none; -webkit-backdrop-filter: none; }
+html[data-workstation="1"]:is([data-background="aurora"], [data-background="cobalt"], [data-background="custom"]) :is(.list-pane, .item-detail, .compact-list, .controls, .list-toolbar, .hn-item, .cd-item, .weibo-bar-body, .readme-panel, .readme-content, .readme-summary, .detail-body, .markdown-body) { background: transparent !important; }
 @media (max-width: 860px) {
   .background-swatch { height: 64px; }
   .background-body { padding: 1rem; }
@@ -5670,4 +5671,3 @@ html[data-background="custom"] body { background-position: center, center var(--
 .background-upload, .background-position { display: grid; gap: 0.5rem; }
 .background-upload input { width: 100%; min-width: 0; font: inherit; }
 .background-position .select { width: 100%; }
-html[data-workstation="1"][data-background="custom"] :is(.sidebar, .content-panel, .ws-bar) { background: color-mix(in srgb, var(--bg-elevated) 90%, transparent) !important; }
