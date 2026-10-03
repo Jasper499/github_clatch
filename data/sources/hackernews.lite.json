@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-10-03T07:48:18Z",
+  "savedAt": "2026-10-03T17:50:31Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-10-03，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,57 +10,71 @@
       "title": "When did Google get so weird?",
       "description": "",
       "url": "https://sancho.bearblog.dev/google-weird/",
-      "score": 2007,
+      "score": 2009,
       "comments": 1116,
-      "owner": "sancho-panza"
+      "owner": "sancho-panza",
+      "published": "2026-09-27T20:12:54Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49870367"
     },
     {
       "title": "Gemini 4 Argon",
       "description": "See also: <i>Gemini 4 Argon (High): Intelligence, Performance and Price Analysis</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49914236\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49914236</a>",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-      "score": 1686,
-      "comments": 1173,
-      "owner": "bradleyg223"
+      "score": 1688,
+      "comments": 1176,
+      "owner": "bradleyg223",
+      "published": "2026-09-30T20:04:37Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49913571"
     },
     {
       "title": "Pi 1.0",
       "description": "Related: <i>Pi Durable</i> - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49925969",
       "url": "https://earendil.com/posts/pi-1-0/",
-      "score": 1653,
-      "comments": 580,
-      "owner": "sergiotapia"
+      "score": 1671,
+      "comments": 584,
+      "owner": "sergiotapia",
+      "published": "2026-10-01T19:33:05Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49926069"
     },
     {
       "title": "Owed a billion dollars in Nvidia stock",
       "description": "",
       "url": "https://colo.to/nvidia-stock-narrative.html",
-      "score": 1089,
+      "score": 1090,
       "comments": 458,
-      "owner": "Eric_Gullichsen"
+      "owner": "Eric_Gullichsen",
+      "published": "2026-09-28T02:05:13Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49872723"
     },
     {
       "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
       "description": "",
       "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
-      "score": 1062,
-      "comments": 951,
-      "owner": "crorella"
+      "score": 1064,
+      "comments": 952,
+      "owner": "crorella",
+      "published": "2026-09-29T17:06:45Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49896586"
     },
     {
       "title": "Updated Google Maps shows destruction of the city of Rafah",
       "description": "",
       "url": "https://twitter.com/AliAbunimah/status/2103890594137309425",
       "score": 938,
-      "comments": 940,
-      "owner": "slowin"
+      "comments": 944,
+      "owner": "slowin",
+      "published": "2026-09-28T15:32:18Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49879645"
     },
     {
       "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
       "description": "",
       "url": "https://github.com/ninjahawk/livenerf",
-      "score": 919,
+      "score": 920,
       "comments": 390,
-      "owner": "bryan0"
+      "owner": "bryan0",
+      "published": "2026-09-29T22:36:14Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49901736"
     },
     {
       "title": "Sonnet 5.5",
@@ -68,7 +82,9 @@
       "url": "https://www.anthropic.com/claude-sonnet-5-5",
       "score": 883,
       "comments": 614,
-      "owner": "D2OQZG8l5BI1S06"
+      "owner": "D2OQZG8l5BI1S06",
+      "published": "2026-09-28T17:58:11Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49881850"
     },
     {
       "title": "Everybody’s home. No one’s coming over",
@@ -76,47 +92,59 @@
       "url": "https://www.derekthompson.org/p/the-death-of-the-american-host",
       "score": 829,
       "comments": 737,
-      "owner": "barry-cotter"
+      "owner": "barry-cotter",
+      "published": "2026-09-29T11:14:45Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49891295"
     },
     {
       "title": "America.gov",
       "description": "",
       "url": "https://america.gov/",
-      "score": 777,
-      "comments": 736,
-      "owner": "plesiv"
+      "score": 778,
+      "comments": 737,
+      "owner": "plesiv",
+      "published": "2026-09-29T14:04:57Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49893509"
     },
     {
       "title": "Dots: Always-on agents",
       "description": "",
       "url": "https://openai.com/index/introducing-dots/",
-      "score": 764,
-      "comments": 644,
-      "owner": "alvis"
+      "score": 765,
+      "comments": 646,
+      "owner": "alvis",
+      "published": "2026-09-29T17:07:57Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49896604"
     },
     {
-      "title": "Breaking Up with Google Play: Why Conversations Is Now Free",
+      "title": "Court agrees with EFF: Utah's VPN law demands a technical impossibility",
       "description": "",
-      "url": "https://gultsch.de/posts/breaking-up-with-google-play/",
-      "score": 707,
-      "comments": 295,
-      "owner": "ezst"
+      "url": "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility",
+      "score": 742,
+      "comments": 361,
+      "owner": "hn_acker",
+      "published": "2026-10-01T22:23:07Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49927754"
     },
     {
       "title": "Pirating the Pirates",
       "description": "",
       "url": "https://mubi.com/en/notebook/posts/pirating-the-pirates",
-      "score": 705,
+      "score": 707,
       "comments": 385,
-      "owner": "piotrgrabowski"
+      "owner": "piotrgrabowski",
+      "published": "2026-09-28T15:54:15Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49880036"
     },
     {
       "title": "You said no MCP",
       "description": "",
       "url": "https://earendil.com/posts/you-said-no-mcp/",
-      "score": 678,
+      "score": 679,
       "comments": 362,
-      "owner": "yarapavan"
+      "owner": "yarapavan",
+      "published": "2026-09-30T09:55:23Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49906637"
     },
     {
       "title": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
@@ -124,7 +152,9 @@
       "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
       "score": 630,
       "comments": 624,
-      "owner": "papergirl"
+      "owner": "papergirl",
+      "published": "2026-09-27T06:19:33Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49863864"
     },
     {
       "title": "It's Time to Investigate the AI Labs",
@@ -132,7 +162,19 @@
       "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
       "score": 628,
       "comments": 277,
-      "owner": "ibobev"
+      "owner": "ibobev",
+      "published": "2026-09-28T19:53:35Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49883471"
+    },
+    {
+      "title": "StreetComplete on iOS is now in public beta",
+      "description": "",
+      "url": "https://github.com/streetcomplete/StreetComplete/issues/5421",
+      "score": 626,
+      "comments": 173,
+      "owner": "Snowly",
+      "published": "2026-10-01T10:59:57Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49920160"
     },
     {
       "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
@@ -140,31 +182,29 @@
       "url": "https://blog.cloudflare.com/clef-decision-models/",
       "score": 622,
       "comments": 215,
-      "owner": "jasondavies"
+      "owner": "jasondavies",
+      "published": "2026-10-01T16:18:57Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49923692"
     },
     {
-      "title": "StreetComplete on iOS is now in public beta",
-      "description": "",
-      "url": "https://github.com/streetcomplete/StreetComplete/issues/5421",
-      "score": 619,
-      "comments": 172,
-      "owner": "Snowly"
+      "title": "Mike Tomlin spent 12 years building a Minecraft city",
+      "description": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;Kv6yS\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;Kv6yS</a><p><a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=_h_pQ1-5iQg\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=_h_pQ1-5iQg</a><p><a href=\"https:&#x2F;&#x2F;www.theguardian.com&#x2F;sport&#x2F;2026&#x2F;oct&#x2F;01&#x2F;mike-tomlin-minecraft-city\" rel=\"nofollow\">https:&#x2F;&#x2F;www.theguardian.com&#x2F;sport&#x2F;2026&#x2F;oct&#x2F;01&#x2F;mike-tomlin-mi...</a>",
+      "url": "https://www.nytimes.com/athletic/7648198/2026/10/01/mike-tomlin-minecraft-nfl-coach/",
+      "score": 608,
+      "comments": 138,
+      "owner": "CoryOndrejka",
+      "published": "2026-10-01T18:20:18Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49925184"
     },
     {
-      "title": "Court agrees with EFF: Utah's VPN law demands a technical impossibility",
+      "title": "How Delhi cut electricity loss from 50 to 5 percent",
       "description": "",
-      "url": "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility",
-      "score": 607,
-      "comments": 264,
-      "owner": "hn_acker"
-    },
-    {
-      "title": "I'm the mom in that viral Giants clip. Let me tell you about my husband",
-      "description": "",
-      "url": "https://themomoftheyear.substack.com/p/im-the-mom-in-that-viral-giants-clip",
-      "score": 607,
-      "comments": 241,
-      "owner": "minimaxir"
+      "url": "https://spectrum.ieee.org/delhi-electricity-loss",
+      "score": 592,
+      "comments": 334,
+      "owner": "rbanffy",
+      "published": "2026-09-29T12:43:29Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49892245"
     }
   ]
 }
