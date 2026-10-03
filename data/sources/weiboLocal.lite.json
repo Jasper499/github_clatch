@@ -1,140 +1,100 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-10-03T11:33:42Z",
+  "savedAt": "2026-10-03T16:10:14Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-03，共 13 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-03，共 9 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-10-03",
   "items": [
     {
+      "title": "司机被拍到高速开智驾睡着",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8F%B8%E6%9C%BA%E8%A2%AB%E6%8B%8D%E5%88%B0%E9%AB%98%E9%80%9F%E5%BC%80%E6%99%BA%E9%A9%BE%E7%9D%A1%E7%9D%80%23&t=31&band_rank=1&Refer=top",
+      "score": 824727,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1791035602
+    },
+    {
+      "title": "国庆假期第3日跨区域人员流动超3亿",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%9B%BD%E5%BA%86%E5%81%87%E6%9C%9F%E7%AC%AC3%E6%97%A5%E8%B7%A8%E5%8C%BA%E5%9F%9F%E4%BA%BA%E5%91%98%E6%B5%81%E5%8A%A8%E8%B6%853%E4%BA%BF%23&t=31&band_rank=1&Refer=top",
+      "score": 611135,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1791028521
+    },
+    {
       "title": "为什么现在退房时酒店不查房了",
       "description": "热 · 民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E4%B8%BA%E4%BB%80%E4%B9%88%E7%8E%B0%E5%9C%A8%E9%80%80%E6%88%BF%E6%97%B6%E9%85%92%E5%BA%97%E4%B8%8D%E6%9F%A5%E6%88%BF%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 1167676,
+      "score": 292300,
       "owner": "微博同城",
       "label": "热",
       "category": "民生新闻",
       "onboardTime": 1791010460
     },
     {
-      "title": "国庆商圈大屏礼赞时代脊梁",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%9B%BD%E5%BA%86%E5%95%86%E5%9C%88%E5%A4%A7%E5%B1%8F%E7%A4%BC%E8%B5%9E%E6%97%B6%E4%BB%A3%E8%84%8A%E6%A2%81%23&t=31&band_rank=1&Refer=top",
-      "score": 1165874,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1791010820
-    },
-    {
-      "title": "AI面试被指不尊重人",
+      "title": "女子预订酒店后到地方发现已停业",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23AI%E9%9D%A2%E8%AF%95%E8%A2%AB%E6%8C%87%E4%B8%8D%E5%B0%8A%E9%87%8D%E4%BA%BA%23&t=31&band_rank=1&Refer=top",
-      "score": 1163453,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E9%A2%84%E8%AE%A2%E9%85%92%E5%BA%97%E5%90%8E%E5%88%B0%E5%9C%B0%E6%96%B9%E5%8F%91%E7%8E%B0%E5%B7%B2%E5%81%9C%E4%B8%9A%23&t=31&band_rank=1&Refer=top",
+      "score": 214565,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1791025220
+      "onboardTime": 1791042801
     },
     {
-      "title": "女子别车遭脚踹被罚200元",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E5%88%AB%E8%BD%A6%E9%81%AD%E8%84%9A%E8%B8%B9%E8%A2%AB%E7%BD%9A200%E5%85%83%23&t=31&band_rank=1&Refer=top",
-      "score": 1162886,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1791019399
-    },
-    {
-      "title": "烟草局招聘体育特长生",
+      "title": "女子连公共WiFi被连扣3笔钱",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E7%83%9F%E8%8D%89%E5%B1%80%E6%8B%9B%E8%81%98%E4%BD%93%E8%82%B2%E7%89%B9%E9%95%BF%E7%94%9F&t=31&band_rank=1&Refer=top",
-      "score": 1157527,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E8%BF%9E%E5%85%AC%E5%85%B1WiFi%E8%A2%AB%E8%BF%9E%E6%89%A33%E7%AC%94%E9%92%B1%23&t=31&band_rank=1&Refer=top",
+      "score": 167034,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1791022099
+      "onboardTime": 1791041061
     },
     {
       "title": "闲鱼 黑话",
-      "description": "热 · 民生新闻",
+      "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%E9%97%B2%E9%B1%BC%20%E9%BB%91%E8%AF%9D&t=31&band_rank=1&Refer=top",
-      "score": 1155554,
+      "score": 166952,
       "owner": "微博同城",
-      "label": "热",
+      "label": "",
       "category": "民生新闻",
       "onboardTime": 1791013339
     },
     {
-      "title": "一座商场挤停了一个地铁站",
+      "title": "30岁女子靠AI婚庆培训年入200万",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%80%E5%BA%A7%E5%95%86%E5%9C%BA%E6%8C%A4%E5%81%9C%E4%BA%86%E4%B8%80%E4%B8%AA%E5%9C%B0%E9%93%81%E7%AB%99%23&t=31&band_rank=1&Refer=top",
-      "score": 1089554,
+      "url": "https://s.weibo.com/weibo?q=%2330%E5%B2%81%E5%A5%B3%E5%AD%90%E9%9D%A0AI%E5%A9%9A%E5%BA%86%E5%9F%B9%E8%AE%AD%E5%B9%B4%E5%85%A5200%E4%B8%87%23&t=31&band_rank=1&Refer=top",
+      "score": 162464,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1791026300
+      "onboardTime": 1791038780
     },
     {
       "title": "大兴安岭景区出现吊牌衣",
-      "description": "新 · 民生新闻",
+      "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%E5%A4%A7%E5%85%B4%E5%AE%89%E5%B2%AD%E6%99%AF%E5%8C%BA%E5%87%BA%E7%8E%B0%E5%90%8A%E7%89%8C%E8%A1%A3&t=31&band_rank=1&Refer=top",
-      "score": 219498,
+      "score": 140459,
       "owner": "微博同城",
-      "label": "新",
+      "label": "",
       "category": "民生新闻",
       "onboardTime": 1791026660
     },
     {
-      "title": "专家回应现在酒店不收押金不查房了",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%93%E5%AE%B6%E5%9B%9E%E5%BA%94%E7%8E%B0%E5%9C%A8%E9%85%92%E5%BA%97%E4%B8%8D%E6%94%B6%E6%8A%BC%E9%87%91%E4%B8%8D%E6%9F%A5%E6%88%BF%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 194594,
+      "title": "73岁大爷心脏长反每天乱跳超3万次",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%2373%E5%B2%81%E5%A4%A7%E7%88%B7%E5%BF%83%E8%84%8F%E9%95%BF%E5%8F%8D%E6%AF%8F%E5%A4%A9%E4%B9%B1%E8%B7%B3%E8%B6%853%E4%B8%87%E6%AC%A1%23&t=31&band_rank=1&Refer=top",
+      "score": 135187,
       "owner": "微博同城",
-      "label": "新",
+      "label": "",
       "category": "民生新闻",
-      "onboardTime": 1791026720
-    },
-    {
-      "title": "郑州相亲设体制内专区",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E9%83%91%E5%B7%9E%E7%9B%B8%E4%BA%B2%E8%AE%BE%E4%BD%93%E5%88%B6%E5%86%85%E4%B8%93%E5%8C%BA&t=31&band_rank=1&Refer=top",
-      "score": 192469,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1791025641
-    },
-    {
-      "title": "宿管手机查出37段偷拍男孩洗澡视频",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AE%BF%E7%AE%A1%E6%89%8B%E6%9C%BA%E6%9F%A5%E5%87%BA37%E6%AE%B5%E5%81%B7%E6%8B%8D%E7%94%B7%E5%AD%A9%E6%B4%97%E6%BE%A1%E8%A7%86%E9%A2%91%23&t=31&band_rank=1&Refer=top",
-      "score": 192121,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1791024380
-    },
-    {
-      "title": "男子跌向火锅整锅热汤泼脸痛苦大喊",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E8%B7%8C%E5%90%91%E7%81%AB%E9%94%85%E6%95%B4%E9%94%85%E7%83%AD%E6%B1%A4%E6%B3%BC%E8%84%B8%E7%97%9B%E8%8B%A6%E5%A4%A7%E5%96%8A%23&t=31&band_rank=1&Refer=top",
-      "score": 143758,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1791027021
-    },
-    {
-      "title": "年轻人告别景区冤种三件套",
-      "description": "新 · 民生新闻,旅游",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%B9%B4%E8%BD%BB%E4%BA%BA%E5%91%8A%E5%88%AB%E6%99%AF%E5%8C%BA%E5%86%A4%E7%A7%8D%E4%B8%89%E4%BB%B6%E5%A5%97%23&t=31&band_rank=1&Refer=top",
-      "score": 128084,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻,旅游",
-      "onboardTime": 1791024742
+      "onboardTime": 1791035661
     }
   ]
 }
