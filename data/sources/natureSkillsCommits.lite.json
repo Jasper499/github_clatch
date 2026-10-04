@@ -1,12 +1,32 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-10-03T18:01:32Z",
+  "savedAt": "2026-10-04T08:33:08Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "84880815fb37317b3766bff2c2abba395b8993c3",
+  "latestSha": "50851efc109c981be6cdc1ed5171a2eaa739d20a",
   "items": [
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/50851efc109c981be6cdc1ed5171a2eaa739d20a",
+      "sha": "50851ef",
+      "fullSha": "50851efc109c981be6cdc1ed5171a2eaa739d20a",
+      "owner": "github-actions",
+      "published": "2026-10-04",
+      "label": "commit"
+    },
+    {
+      "title": "fix: make star history updates reliable (incremental + retry) (#245)",
+      "description": "fix: make star history updates reliable (incremental + retry) (#245)\n\n* fix: retry transient GraphQL errors in star history generator\n\n* fix: retry transient GraphQL errors in star history generator\n\n* feat: incremental star history updates with cached daily counts\n\n* feat: incremental star history updates with cached daily counts\n\n* feat: incremental star history updates with cached daily counts\n\n* feat: incremental star history updates with cached daily counts",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/638d7d2177beb12ae3b0acff5cdb1d50adcdf3ed",
+      "sha": "638d7d2",
+      "fullSha": "638d7d2177beb12ae3b0acff5cdb1d50adcdf3ed",
+      "owner": "Travisma2233",
+      "published": "2026-10-04",
+      "label": "commit"
+    },
     {
       "title": "Update README.md",
       "description": "Update README.md",
@@ -133,26 +153,6 @@
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/9c9953a06cd33a88cbd258386a295ca4b6a1ef1e",
       "sha": "9c9953a",
       "fullSha": "9c9953a06cd33a88cbd258386a295ca4b6a1ef1e",
-      "owner": "Yuan1z0825",
-      "published": "2026-09-22",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #227 from zpf2234/fix/patent-duplicate-figure-node…",
-      "description": "Merge pull request #227 from zpf2234/fix/patent-duplicate-figure-node-ids\n\n检查专利附图节点 ID 重复",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/f4f828a835e6e87d75b64269fcc19385f1dd597d",
-      "sha": "f4f828a",
-      "fullSha": "f4f828a835e6e87d75b64269fcc19385f1dd597d",
-      "owner": "Yuan1z0825",
-      "published": "2026-09-22",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #226 from zpf2234/fix/browser-download-atomic-write",
-      "description": "Merge pull request #226 from zpf2234/fix/browser-download-atomic-write\n\n避免浏览器下载留下半成品",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/ed94f39b45737edbc90633425b5bd8c3cc82ba5a",
-      "sha": "ed94f39",
-      "fullSha": "ed94f39b45737edbc90633425b5bd8c3cc82ba5a",
       "owner": "Yuan1z0825",
       "published": "2026-09-22",
       "label": "commit"
