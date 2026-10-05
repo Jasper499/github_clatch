@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-10-04T18:12:58Z",
+  "savedAt": "2026-10-05T09:14:31Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "50851efc109c981be6cdc1ed5171a2eaa739d20a",
+  "latestSha": "6655831b8270e0bb48cbcdec22220a56c561de58",
   "items": [
+    {
+      "title": "Add files via upload",
+      "description": "Add files via upload\n\n增加原文排版保留翻译 skill",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/6655831b8270e0bb48cbcdec22220a56c561de58",
+      "sha": "6655831",
+      "fullSha": "6655831b8270e0bb48cbcdec22220a56c561de58",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-05",
+      "label": "commit"
+    },
     {
       "title": "chore: update star history",
       "description": "chore: update star history",
@@ -145,16 +155,6 @@
       "fullSha": "66668aea4f8cbdfd6791bbeac5aed53f233eac88",
       "owner": "anupamme",
       "published": "2026-09-23",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #228 from zpf2234/fix/disclosure-markdown-source-o…",
-      "description": "Merge pull request #228 from zpf2234/fix/disclosure-markdown-source-overwrite\n\n防止 Word 导出覆盖交底书原稿",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/9c9953a06cd33a88cbd258386a295ca4b6a1ef1e",
-      "sha": "9c9953a",
-      "fullSha": "9c9953a06cd33a88cbd258386a295ca4b6a1ef1e",
-      "owner": "Yuan1z0825",
-      "published": "2026-09-22",
       "label": "commit"
     }
   ]
