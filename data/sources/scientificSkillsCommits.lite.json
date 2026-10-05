@@ -1,12 +1,23 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-10-05T09:36:20Z",
+  "savedAt": "2026-10-05T21:37:56Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "154988403bb5a18e9d3c0ce4e6d5e2e4b184a298",
+  "latestSha": "92ace75ac21efe19a620434e0ca4e356081fe807",
   "items": [
+    {
+      "title": "chore: update security scan report [skip ci]",
+      "description": "chore: update security scan report [skip ci]",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/92ace75ac21efe19a620434e0ca4e356081fe807",
+      "sha": "92ace75",
+      "fullSha": "92ace75ac21efe19a620434e0ca4e356081fe807",
+      "owner": "github-actions",
+      "published": "2026-10-05",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "docs: pin install example to v2.71.0",
       "description": "docs: pin install example to v2.71.0\n\nCo-Authored-By: Claude Opus 5.5 &lt;noreply@anthropic.com&gt;",
@@ -156,17 +167,6 @@
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/d900a9808c4538f84b48fa05eec6104ec140106c",
       "sha": "d900a98",
       "fullSha": "d900a9808c4538f84b48fa05eec6104ec140106c",
-      "owner": "timothykassis",
-      "published": "2026-09-30",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "fix(arbor): reject invalid evidence statuses before updating state",
-      "description": "fix(arbor): reject invalid evidence statuses before updating state\n\nFixes #284. Validate explicit statuses consistently with set-status and preserve the full state file on rejection.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/203bcce5d267c2eba2248d781fa1ac92cad6ac29",
-      "sha": "203bcce",
-      "fullSha": "203bcce5d267c2eba2248d781fa1ac92cad6ac29",
       "owner": "timothykassis",
       "published": "2026-09-30",
       "label": "commit",
