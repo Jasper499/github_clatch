@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-10-05T08:40:38Z",
+  "savedAt": "2026-10-05T21:24:35Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-10-05，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,8 +10,8 @@
       "title": "Gemini 4 Argon",
       "description": "See also: <i>Gemini 4 Argon (High): Intelligence, Performance and Price Analysis</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49914236\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49914236</a>",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-      "score": 1698,
-      "comments": 1186,
+      "score": 1699,
+      "comments": 1188,
       "owner": "bradleyg223",
       "published": "2026-09-30T20:04:37Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=49913571"
@@ -20,8 +20,8 @@
       "title": "Pi 1.0",
       "description": "Related: <i>Pi Durable</i> - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49925969",
       "url": "https://earendil.com/posts/pi-1-0/",
-      "score": 1683,
-      "comments": 601,
+      "score": 1684,
+      "comments": 603,
       "owner": "sergiotapia",
       "published": "2026-10-01T19:33:05Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=49926069"
@@ -37,14 +37,14 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=49896586"
     },
     {
-      "title": "Updated Google Maps shows destruction of the city of Rafah",
-      "description": "",
-      "url": "https://twitter.com/AliAbunimah/status/2103890594137309425",
-      "score": 943,
-      "comments": 946,
-      "owner": "slowin",
-      "published": "2026-09-28T15:32:18Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49879645"
+      "title": "Tell HN: Bob Cringely has died",
+      "description": "I heard from a friend of the family that Bob passed away in his sleep early Saturday. Very sad news. Bob, who&#x27;s real name was Mark Stevens, was an early employee of Apple and was best known for his PBS documentaries, especially &quot;Triumph of the Nerds&quot;. He will be missed.",
+      "url": "https://news.ycombinator.com/item?id=49949438",
+      "score": 926,
+      "comments": 206,
+      "owner": "paveworld",
+      "published": "2026-10-04T00:50:52Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49949438"
     },
     {
       "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
@@ -57,30 +57,20 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=49901736"
     },
     {
-      "title": "Sonnet 5.5",
+      "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
       "description": "",
-      "url": "https://www.anthropic.com/claude-sonnet-5-5",
-      "score": 884,
-      "comments": 613,
-      "owner": "D2OQZG8l5BI1S06",
-      "published": "2026-09-28T17:58:11Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49881850"
-    },
-    {
-      "title": "Tell HN: Bob Cringely has died",
-      "description": "I heard from a friend of the family that Bob passed away in his sleep early Saturday. Very sad news. Bob, who&#x27;s real name was Mark Stevens, was an early employee of Apple and was best known for his PBS documentaries, especially &quot;Triumph of the Nerds&quot;. He will be missed.",
-      "url": "https://news.ycombinator.com/item?id=49949438",
-      "score": 866,
-      "comments": 186,
-      "owner": "paveworld",
-      "published": "2026-10-04T00:50:52Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49949438"
+      "url": "https://github.com/Niko1221/Strata",
+      "score": 907,
+      "comments": 407,
+      "owner": "snehesht",
+      "published": "2026-10-04T12:51:53Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49953495"
     },
     {
       "title": "Everybody’s home. No one’s coming over",
       "description": "",
       "url": "https://www.derekthompson.org/p/the-death-of-the-american-host",
-      "score": 833,
+      "score": 836,
       "comments": 738,
       "owner": "barry-cotter",
       "published": "2026-09-29T11:14:45Z",
@@ -90,28 +80,18 @@
       "title": "Court agrees with EFF: Utah's VPN law demands a technical impossibility",
       "description": "",
       "url": "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility",
-      "score": 800,
-      "comments": 403,
+      "score": 805,
+      "comments": 413,
       "owner": "hn_acker",
       "published": "2026-10-01T22:23:07Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=49927754"
-    },
-    {
-      "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
-      "description": "",
-      "url": "https://github.com/Niko1221/Strata",
-      "score": 785,
-      "comments": 352,
-      "owner": "snehesht",
-      "published": "2026-10-04T12:51:53Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49953495"
     },
     {
       "title": "America.gov",
       "description": "",
       "url": "https://america.gov/",
       "score": 778,
-      "comments": 740,
+      "comments": 742,
       "owner": "plesiv",
       "published": "2026-09-29T14:04:57Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=49893509"
@@ -121,47 +101,47 @@
       "description": "",
       "url": "https://openai.com/index/introducing-dots/",
       "score": 767,
-      "comments": 646,
+      "comments": 647,
       "owner": "alvis",
       "published": "2026-09-29T17:07:57Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=49896604"
     },
     {
-      "title": "Pirating the Pirates",
+      "title": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
       "description": "",
-      "url": "https://mubi.com/en/notebook/posts/pirating-the-pirates",
-      "score": 709,
-      "comments": 382,
-      "owner": "piotrgrabowski",
-      "published": "2026-09-28T15:54:15Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49880036"
+      "url": "https://github.com/omlahore/RemoveMacAI",
+      "score": 744,
+      "comments": 508,
+      "owner": "privacyisntdead",
+      "published": "2026-10-04T19:42:25Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49957116"
+    },
+    {
+      "title": "Kolibri: A Sovereign Open-Weight Model",
+      "description": "tech report: <a href=\"https:&#x2F;&#x2F;aleph-alpha.com&#x2F;downloads&#x2F;tech-report.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;aleph-alpha.com&#x2F;downloads&#x2F;tech-report.pdf</a><p>additional paper: <a href=\"https:&#x2F;&#x2F;tej.as&#x2F;blog&#x2F;aleph-alpha-kolibri\" rel=\"nofollow\">https:&#x2F;&#x2F;tej.as&#x2F;blog&#x2F;aleph-alpha-kolibri</a>",
+      "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+      "score": 693,
+      "comments": 334,
+      "owner": "bastitx",
+      "published": "2026-10-03T09:36:04Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49942706"
     },
     {
       "title": "You said no MCP",
       "description": "",
       "url": "https://earendil.com/posts/you-said-no-mcp/",
-      "score": 681,
+      "score": 682,
       "comments": 362,
       "owner": "yarapavan",
       "published": "2026-09-30T09:55:23Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=49906637"
     },
     {
-      "title": "Kolibri: A Sovereign Open-Weight Model",
-      "description": "tech report: <a href=\"https:&#x2F;&#x2F;aleph-alpha.com&#x2F;downloads&#x2F;tech-report.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;aleph-alpha.com&#x2F;downloads&#x2F;tech-report.pdf</a><p>additional paper: <a href=\"https:&#x2F;&#x2F;tej.as&#x2F;blog&#x2F;aleph-alpha-kolibri\" rel=\"nofollow\">https:&#x2F;&#x2F;tej.as&#x2F;blog&#x2F;aleph-alpha-kolibri</a>",
-      "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
-      "score": 669,
-      "comments": 327,
-      "owner": "bastitx",
-      "published": "2026-10-03T09:36:04Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49942706"
-    },
-    {
       "title": "Mike Tomlin spent 12 years building a Minecraft city",
       "description": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;Kv6yS\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;Kv6yS</a><p><a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=_h_pQ1-5iQg\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=_h_pQ1-5iQg</a><p><a href=\"https:&#x2F;&#x2F;www.theguardian.com&#x2F;sport&#x2F;2026&#x2F;oct&#x2F;01&#x2F;mike-tomlin-minecraft-city\" rel=\"nofollow\">https:&#x2F;&#x2F;www.theguardian.com&#x2F;sport&#x2F;2026&#x2F;oct&#x2F;01&#x2F;mike-tomlin-mi...</a>",
       "url": "https://www.nytimes.com/athletic/7648198/2026/10/01/mike-tomlin-minecraft-nfl-coach/",
-      "score": 669,
-      "comments": 169,
+      "score": 673,
+      "comments": 172,
       "owner": "CoryOndrejka",
       "published": "2026-10-01T18:20:18Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=49925184"
@@ -170,28 +150,18 @@
       "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
       "description": "",
       "url": "https://blog.cloudflare.com/clef-decision-models/",
-      "score": 636,
+      "score": 639,
       "comments": 217,
       "owner": "jasondavies",
       "published": "2026-10-01T16:18:57Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=49923692"
     },
     {
-      "title": "It's Time to Investigate the AI Labs",
-      "description": "",
-      "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
-      "score": 629,
-      "comments": 277,
-      "owner": "ibobev",
-      "published": "2026-09-28T19:53:35Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49883471"
-    },
-    {
       "title": "StreetComplete on iOS is now in public beta",
       "description": "",
       "url": "https://github.com/streetcomplete/StreetComplete/issues/5421",
-      "score": 628,
-      "comments": 177,
+      "score": 630,
+      "comments": 178,
       "owner": "Snowly",
       "published": "2026-10-01T10:59:57Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=49920160"
@@ -200,11 +170,41 @@
       "title": "We're going to need default hard budget caps on pretty much everything",
       "description": "",
       "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
-      "score": 606,
-      "comments": 302,
+      "score": 624,
+      "comments": 305,
       "owner": "elffjs",
       "published": "2026-10-04T00:20:16Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=49949235"
+    },
+    {
+      "title": "How Delhi cut electricity loss from 50 to 5 percent",
+      "description": "",
+      "url": "https://spectrum.ieee.org/delhi-electricity-loss",
+      "score": 593,
+      "comments": 336,
+      "owner": "rbanffy",
+      "published": "2026-09-29T12:43:29Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49892245"
+    },
+    {
+      "title": "Frog and Toad and the Increasingly Capable Machines",
+      "description": "",
+      "url": "https://www.frogandtoad.ai/",
+      "score": 585,
+      "comments": 131,
+      "owner": "supermdguy",
+      "published": "2026-10-01T22:23:38Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49927760"
+    },
+    {
+      "title": "Several vulnerabilities have been discovered in the Linux kernel",
+      "description": "",
+      "url": "https://lwn.net/Articles/1097401/",
+      "score": 577,
+      "comments": 410,
+      "owner": "luispa",
+      "published": "2026-10-01T23:10:44Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49928121"
     }
   ]
 }
