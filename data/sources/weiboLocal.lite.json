@@ -1,140 +1,110 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-10-05T05:26:54Z",
+  "savedAt": "2026-10-05T14:25:57Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-05，共 13 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-05，共 10 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-10-05",
   "items": [
     {
-      "title": "缅北电诈头目的钱多到发霉",
+      "title": "缅北电诈园区枪决底层人员",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%BC%85%E5%8C%97%E7%94%B5%E8%AF%88%E5%9B%AD%E5%8C%BA%E6%9E%AA%E5%86%B3%E5%BA%95%E5%B1%82%E4%BA%BA%E5%91%98%23&t=31&band_rank=1&Refer=top",
+      "score": 749339,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1791195140
+    },
+    {
+      "title": "游客免费住宿舍学生同意了吗",
       "description": "热 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%BC%85%E5%8C%97%E7%94%B5%E8%AF%88%E5%A4%B4%E7%9B%AE%E7%9A%84%E9%92%B1%E5%A4%9A%E5%88%B0%E5%8F%91%E9%9C%89%23&t=31&band_rank=1&Refer=top",
-      "score": 1408113,
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B8%B8%E5%AE%A2%E5%85%8D%E8%B4%B9%E4%BD%8F%E5%AE%BF%E8%88%8D%E5%AD%A6%E7%94%9F%E5%90%8C%E6%84%8F%E4%BA%86%E5%90%97%23&t=31&band_rank=1&Refer=top",
+      "score": 474992,
       "owner": "微博同城",
       "label": "热",
       "category": "民生新闻",
-      "onboardTime": 1791169520
+      "onboardTime": 1791202582
     },
     {
-      "title": "医生回应高铁座椅或为HPV感染重灾区",
+      "title": "建议大家买房一定要远离公园",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8C%BB%E7%94%9F%E5%9B%9E%E5%BA%94%E9%AB%98%E9%93%81%E5%BA%A7%E6%A4%85%E6%88%96%E4%B8%BAHPV%E6%84%9F%E6%9F%93%E9%87%8D%E7%81%BE%E5%8C%BA%23&t=31&band_rank=1&Refer=top",
-      "score": 650895,
+      "url": "https://s.weibo.com/weibo?q=%E5%BB%BA%E8%AE%AE%E5%A4%A7%E5%AE%B6%E4%B9%B0%E6%88%BF%E4%B8%80%E5%AE%9A%E8%A6%81%E8%BF%9C%E7%A6%BB%E5%85%AC%E5%9B%AD&t=31&band_rank=1&Refer=top",
+      "score": 468202,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1791166520
+      "onboardTime": 1791202521
     },
     {
-      "title": "重庆网红落地签太危险了",
+      "title": "纽约时报披露赵长鹏细节",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%87%8D%E5%BA%86%E7%BD%91%E7%BA%A2%E8%90%BD%E5%9C%B0%E7%AD%BE%E5%A4%AA%E5%8D%B1%E9%99%A9%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 505690,
+      "url": "https://s.weibo.com/weibo?q=%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5%E6%8A%AB%E9%9C%B2%E8%B5%B5%E9%95%BF%E9%B9%8F%E7%BB%86%E8%8A%82&t=31&band_rank=1&Refer=top",
+      "score": 458636,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1791169099
+      "onboardTime": 1791201381
     },
     {
-      "title": "男子讲述在缅北被割肾经历",
+      "title": "明珍珍临刑前画面曝光",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E8%AE%B2%E8%BF%B0%E5%9C%A8%E7%BC%85%E5%8C%97%E8%A2%AB%E5%89%B2%E8%82%BE%E7%BB%8F%E5%8E%86%23&t=31&band_rank=1&Refer=top",
-      "score": 417192,
+      "url": "https://s.weibo.com/weibo?q=%23%E6%98%8E%E7%8F%8D%E7%8F%8D%E4%B8%B4%E5%88%91%E5%89%8D%E7%94%BB%E9%9D%A2%E6%9B%9D%E5%85%89%23&t=31&band_rank=1&Refer=top",
+      "score": 271743,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1791167899
+      "onboardTime": 1791199761
     },
     {
-      "title": "年轻人开始不买景区冤种三件套了",
+      "title": "诺贝尔奖致敬屠呦呦",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%AF%BA%E8%B4%9D%E5%B0%94%E5%A5%96%E8%87%B4%E6%95%AC%E5%B1%A0%E5%91%A6%E5%91%A6%23&t=31&band_rank=1&Refer=top",
+      "score": 225707,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1791205460
+    },
+    {
+      "title": "中国航协回应东航空姐跪地道歉事件",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%B9%B4%E8%BD%BB%E4%BA%BA%E5%BC%80%E5%A7%8B%E4%B8%8D%E4%B9%B0%E6%99%AF%E5%8C%BA%E5%86%A4%E7%A7%8D%E4%B8%89%E4%BB%B6%E5%A5%97%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 383754,
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E8%88%AA%E5%8D%8F%E5%9B%9E%E5%BA%94%E4%B8%9C%E8%88%AA%E7%A9%BA%E5%A7%90%E8%B7%AA%E5%9C%B0%E9%81%93%E6%AD%89%E4%BA%8B%E4%BB%B6%23&t=31&band_rank=1&Refer=top",
+      "score": 221565,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1791128419
+      "onboardTime": 1791201381
     },
     {
-      "title": "高铁座椅会传染HPV吗",
+      "title": "公立医院下场带娃并非跨界抢生意",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%AB%98%E9%93%81%E5%BA%A7%E6%A4%85%E4%BC%9A%E4%BC%A0%E6%9F%93HPV%E5%90%97%23&t=31&band_rank=1&Refer=top",
-      "score": 383509,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%85%AC%E7%AB%8B%E5%8C%BB%E9%99%A2%E4%B8%8B%E5%9C%BA%E5%B8%A6%E5%A8%83%E5%B9%B6%E9%9D%9E%E8%B7%A8%E7%95%8C%E6%8A%A2%E7%94%9F%E6%84%8F%23&t=31&band_rank=1&Refer=top",
+      "score": 183906,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1791176001
+      "onboardTime": 1791209482
     },
     {
-      "title": "缅北诈骗分子园区内被叫猪仔",
+      "title": "4岁女孩黑眼圈母亲没重视确诊瘤王",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%BC%85%E5%8C%97%E8%AF%88%E9%AA%97%E5%88%86%E5%AD%90%E5%9B%AD%E5%8C%BA%E5%86%85%E8%A2%AB%E5%8F%AB%E7%8C%AA%E4%BB%94%23&t=31&band_rank=1&Refer=top",
-      "score": 374661,
+      "url": "https://s.weibo.com/weibo?q=%234%E5%B2%81%E5%A5%B3%E5%AD%A9%E9%BB%91%E7%9C%BC%E5%9C%88%E6%AF%8D%E4%BA%B2%E6%B2%A1%E9%87%8D%E8%A7%86%E7%A1%AE%E8%AF%8A%E7%98%A4%E7%8E%8B%23&t=31&band_rank=1&Refer=top",
+      "score": 161054,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1791175759
+      "onboardTime": 1791208341
     },
     {
-      "title": "快递小哥下楼发现包裹全被拆",
+      "title": "缅北明家竟称中国人为行走的人民币",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%BF%AB%E9%80%92%E5%B0%8F%E5%93%A5%E4%B8%8B%E6%A5%BC%E5%8F%91%E7%8E%B0%E5%8C%85%E8%A3%B9%E5%85%A8%E8%A2%AB%E6%8B%86&t=31&band_rank=1&Refer=top",
-      "score": 372878,
+      "url": "https://s.weibo.com/weibo?q=%23%E7%BC%85%E5%8C%97%E6%98%8E%E5%AE%B6%E7%AB%9F%E7%A7%B0%E4%B8%AD%E5%9B%BD%E4%BA%BA%E4%B8%BA%E8%A1%8C%E8%B5%B0%E7%9A%84%E4%BA%BA%E6%B0%91%E5%B8%81%23&t=31&band_rank=1&Refer=top",
+      "score": 154643,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1791168859
-    },
-    {
-      "title": "江秋莲黄乐平被指篡改证据",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E6%B1%9F%E7%A7%8B%E8%8E%B2%E9%BB%84%E4%B9%90%E5%B9%B3%E8%A2%AB%E6%8C%87%E7%AF%A1%E6%94%B9%E8%AF%81%E6%8D%AE&t=31&band_rank=1&Refer=top",
-      "score": 370002,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1791173480
-    },
-    {
-      "title": "阿尔山通报景区二百一晚大酒店",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%98%BF%E5%B0%94%E5%B1%B1%E9%80%9A%E6%8A%A5%E6%99%AF%E5%8C%BA%E4%BA%8C%E7%99%BE%E4%B8%80%E6%99%9A%E5%A4%A7%E9%85%92%E5%BA%97%23&t=31&band_rank=1&Refer=top",
-      "score": 339849,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1791177921
-    },
-    {
-      "title": "市监局回应3片回锅肉105元不违规",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%B8%82%E7%9B%91%E5%B1%80%E5%9B%9E%E5%BA%943%E7%89%87%E5%9B%9E%E9%94%85%E8%82%89105%E5%85%83%E4%B8%8D%E8%BF%9D%E8%A7%84%23&t=31&band_rank=1&Refer=top",
-      "score": 238772,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1791177921
-    },
-    {
-      "title": "超10万份孕妇血样被偷运出境",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%B6%8510%E4%B8%87%E4%BB%BD%E5%AD%95%E5%A6%87%E8%A1%80%E6%A0%B7%E8%A2%AB%E5%81%B7%E8%BF%90%E5%87%BA%E5%A2%83%23&t=31&band_rank=1&Refer=top",
-      "score": 150871,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1791125782
-    },
-    {
-      "title": "女童站椅子上看电视连摔3次",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E7%AB%A5%E7%AB%99%E6%A4%85%E5%AD%90%E4%B8%8A%E7%9C%8B%E7%94%B5%E8%A7%86%E8%BF%9E%E6%91%943%E6%AC%A1%23&t=31&band_rank=1&Refer=top",
-      "score": 145820,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1791172700
+      "onboardTime": 1791203541
     }
   ]
 }
