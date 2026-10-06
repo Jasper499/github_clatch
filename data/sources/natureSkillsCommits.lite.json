@@ -1,12 +1,62 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-10-05T21:33:05Z",
+  "savedAt": "2026-10-06T09:07:20Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "5b05fe1ba3867b61ee2742a060d5cf05dad027a2",
+  "latestSha": "b543e8b998eb2df1fd44641cc8b262c638c2b442",
   "items": [
+    {
+      "title": "Add files via upload",
+      "description": "Add files via upload\n\n修复和windows不兼容问题",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/b543e8b998eb2df1fd44641cc8b262c638c2b442",
+      "sha": "b543e8b",
+      "fullSha": "b543e8b998eb2df1fd44641cc8b262c638c2b442",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-06",
+      "label": "commit"
+    },
+    {
+      "title": "Delete skills/nature-paper-trans directory",
+      "description": "Delete skills/nature-paper-trans directory",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/fe7b779e08a577fd5e19b92aa8eb84484461ed73",
+      "sha": "fe7b779",
+      "fullSha": "fe7b779e08a577fd5e19b92aa8eb84484461ed73",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-06",
+      "label": "commit"
+    },
+    {
+      "title": "Add files via upload",
+      "description": "Add files via upload",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/9d42378c2aa993a01dd670c15595417a81ca4138",
+      "sha": "9d42378",
+      "fullSha": "9d42378c2aa993a01dd670c15595417a81ca4138",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-06",
+      "label": "commit"
+    },
+    {
+      "title": "Delete skills/nature-paper-trans directory",
+      "description": "Delete skills/nature-paper-trans directory",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/698e754554baca8404fcfcf84841dc138e87ff23",
+      "sha": "698e754",
+      "fullSha": "698e754554baca8404fcfcf84841dc138e87ff23",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-06",
+      "label": "commit"
+    },
+    {
+      "title": "Add files via upload",
+      "description": "Add files via upload",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/11d54d1ddb2afc0221c230f8b345d24328c548fb",
+      "sha": "11d54d1",
+      "fullSha": "11d54d1ddb2afc0221c230f8b345d24328c548fb",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-06",
+      "label": "commit"
+    },
     {
       "title": "fix: audit input handling, PDF text matrix sizes, reviewer Contents (…",
       "description": "fix: audit input handling, PDF text matrix sizes, reviewer Contents (#246)\n\n* fix: audit input handling, PDF text matrix sizes, reviewer Contents\n\n- audit_figure_collisions.py: reject non-PDF input with exit 2 (fixes #242)\n- audit_pdf_text.py: apply Tm/cm scaling to Tf size (fixes #238)\n- nature-reviewer: add Contents to long references (fixes #236)\n\nXinrui Ma\n\n* fix: repair CI failures on main (README index, defusedxml Element)\n\n- README/README_EN: add nature-paper-trans to the skill index and bump the\n  skills badge from 19 to 20\n- nature-academic-search: import Element from xml.etree.ElementTree for type\n  annotations; defusedxml 0.8 no longer exposes ElementTree.Element\n\nXinrui Ma",
@@ -105,56 +155,6 @@
       "fullSha": "9e2d90e2171a61dc0ae072e43e8d16e3fc73572f",
       "owner": "Flyme886",
       "published": "2026-09-25",
-      "label": "commit"
-    },
-    {
-      "title": "Update README.md",
-      "description": "Update README.md",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/79c9f986501ff462f4b9d1294c8223bfee1a5149",
-      "sha": "79c9f98",
-      "fullSha": "79c9f986501ff462f4b9d1294c8223bfee1a5149",
-      "owner": "Yuan1z0825",
-      "published": "2026-09-24",
-      "label": "commit"
-    },
-    {
-      "title": "Update README.md",
-      "description": "Update README.md",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c99611fe59627b963ee6f3a3293f1156d8e846cd",
-      "sha": "c99611f",
-      "fullSha": "c99611fe59627b963ee6f3a3293f1156d8e846cd",
-      "owner": "Yuan1z0825",
-      "published": "2026-09-24",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #231 from anupamme/fix-repo-nature-skills-nature-c…",
-      "description": "Merge pull request #231 from anupamme/fix-repo-nature-skills-nature-citation-xxe-defusedxml\n\nharden: disable external XML entity processing in nature_citation.py",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/351f61968ab2ac03715da26c932b74596df796db",
-      "sha": "351f619",
-      "fullSha": "351f61968ab2ac03715da26c932b74596df796db",
-      "owner": "Yuan1z0825",
-      "published": "2026-09-24",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #232 from anupamme/fix-repo-nature-skills-cwe-918-…",
-      "description": "Merge pull request #232 from anupamme/fix-repo-nature-skills-cwe-918-ssrf-allowlist\n\nfix: add URL validation in format-converter.py (CWE-918)",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/37922560598c5887453986ada356546918f5cce4",
-      "sha": "3792256",
-      "fullSha": "37922560598c5887453986ada356546918f5cce4",
-      "owner": "Yuan1z0825",
-      "published": "2026-09-24",
-      "label": "commit"
-    },
-    {
-      "title": "fix: multi_agent.cwe-918 security vulnerability",
-      "description": "fix: multi_agent.cwe-918 security vulnerability\n\nAutomated security fix generated by OrbisAI Security",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/19b7e5983bb4b8023e66c3d4cb477e5e11d34bb6",
-      "sha": "19b7e59",
-      "fullSha": "19b7e5983bb4b8023e66c3d4cb477e5e11d34bb6",
-      "owner": "anupamme",
-      "published": "2026-09-23",
       "label": "commit"
     }
   ]
