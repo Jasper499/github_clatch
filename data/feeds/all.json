@@ -6,148 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%AD%99%E9%A2%96%E8%8E%8E%E7%88%86%E5%86%B7%E6%AD%A2%E6%AD%A532%E5%BC%BA%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AD%99%E9%A2%96%E8%8E%8E%E7%88%86%E5%86%B7%E6%AD%A2%E6%AD%A532%E5%BC%BA%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 孙颖莎爆冷止步32强",
-      "date_published": "2026-10-07T13:12:13Z"
+      "id": "hackernews:https://mistral.ai/news/mistral-large-4/\\",
+      "url": "https://mistral.ai/news/mistral-large-4/\\",
+      "title": "[Hacker News 热门] Mistral Large 4",
+      "date_published": "2026-10-07T19:48:22Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E4%B9%92%E5%8D%8F%E5%B7%B2%E6%8A%A5%E6%A1%88%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E4%B9%92%E5%8D%8F%E5%B7%B2%E6%8A%A5%E6%A1%88%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 中国乒协已报案",
-      "date_published": "2026-10-07T13:12:13Z"
+      "id": "hackernews:https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "title": "[Hacker News 热门] Gemini 4 Argon",
+      "date_published": "2026-10-07T19:48:22Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%9B%BD%E5%BA%86%E5%81%87%E6%9C%9F%E5%8C%97%E5%A4%A7%E4%BB%93%E7%A7%8B%E6%94%B6%E6%AD%A3%E9%85%A3%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%9B%BD%E5%BA%86%E5%81%87%E6%9C%9F%E5%8C%97%E5%A4%A7%E4%BB%93%E7%A7%8B%E6%94%B6%E6%AD%A3%E9%85%A3%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 国庆假期北大仓秋收正酣",
-      "date_published": "2026-10-07T13:12:13Z"
+      "id": "hackernews:https://earendil.com/posts/pi-1-0/",
+      "url": "https://earendil.com/posts/pi-1-0/",
+      "title": "[Hacker News 热门] Pi 1.0",
+      "date_published": "2026-10-07T19:48:22Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%98%9F%E5%A4%B1%E8%81%94%E5%89%8D%E5%90%91%E5%A5%B3%E5%8F%8B%E6%B1%82%E6%95%91%E5%8F%91%E7%8C%AB%E5%96%82%E4%BA%86%E6%B2%A1%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%98%9F%E5%A4%B1%E8%81%94%E5%89%8D%E5%90%91%E5%A5%B3%E5%8F%8B%E6%B1%82%E6%95%91%E5%8F%91%E7%8C%AB%E5%96%82%E4%BA%86%E6%B2%A1%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 王星失联前向女友求救发猫喂了没",
-      "date_published": "2026-10-07T13:12:13Z"
+      "id": "hackernews:https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "title": "[Hacker News 热门] Sharing AI progress in mathematics",
+      "date_published": "2026-10-07T19:48:22Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E7%A6%BB%E5%8A%A0%E6%B2%B9%E7%AB%9920%E7%B1%B3%E7%87%83%E6%B2%B9%E8%80%97%E5%B0%BD%E8%BD%A6%E4%B8%BB%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%A6%BB%E5%8A%A0%E6%B2%B9%E7%AB%9920%E7%B1%B3%E7%87%83%E6%B2%B9%E8%80%97%E5%B0%BD%E8%BD%A6%E4%B8%BB%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 离加油站20米燃油耗尽车主发声",
-      "date_published": "2026-10-07T13:12:13Z"
+      "id": "hackernews:https://news.ycombinator.com/item?id=49949438",
+      "url": "https://news.ycombinator.com/item?id=49949438",
+      "title": "[Hacker News 热门] Tell HN: Bob Cringely has died",
+      "date_published": "2026-10-07T19:48:22Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E5%AD%99%E9%A2%96%E8%8E%8E%20%E5%8F%91%E7%83%A7&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%AD%99%E9%A2%96%E8%8E%8E%20%E5%8F%91%E7%83%A7&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 孙颖莎 发烧",
-      "date_published": "2026-10-07T13:12:13Z"
+      "id": "hackernews:https://github.com/Niko1221/Strata",
+      "url": "https://github.com/Niko1221/Strata",
+      "title": "[Hacker News 热门] Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+      "date_published": "2026-10-07T19:48:22Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E9%83%91%E9%92%A6%E6%96%87vs%E6%9F%A5%E6%8B%89%E8%80%B6%E5%A8%83%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%83%91%E9%92%A6%E6%96%87vs%E6%9F%A5%E6%8B%89%E8%80%B6%E5%A8%83%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 郑钦文vs查拉耶娃",
-      "date_published": "2026-10-07T13:12:13Z"
+      "id": "hackernews:https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+      "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+      "title": "[Hacker News 热门] Anthropic reported diary entry to police, woman faces felony charge",
+      "date_published": "2026-10-07T19:48:22Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E4%B8%83%E4%B8%87%E4%BA%8C%E5%A4%B4%E7%AD%89%E8%88%B1%E6%B2%BB%E5%A5%BD%E7%BB%8F%E6%B5%8E%E8%88%B1%E7%BB%BC%E5%90%88%E7%97%87&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E4%B8%83%E4%B8%87%E4%BA%8C%E5%A4%B4%E7%AD%89%E8%88%B1%E6%B2%BB%E5%A5%BD%E7%BB%8F%E6%B5%8E%E8%88%B1%E7%BB%BC%E5%90%88%E7%97%87&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 七万二头等舱治好经济舱综合症",
-      "date_published": "2026-10-07T13:12:13Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E6%9B%9D%E7%8E%8B%E6%99%93%E6%85%A7%E6%9C%89%E5%AD%A9%E5%AD%90%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E7%8E%8B%E6%99%93%E6%85%A7%E6%9C%89%E5%AD%A9%E5%AD%90%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 曝王晓慧有孩子了",
-      "date_published": "2026-10-07T13:12:13Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%9B%BD%E5%BA%86%E5%81%87%E6%9C%9F%E5%8C%97%E5%A4%A7%E4%BB%93%E7%A7%8B%E6%94%B6%E6%AD%A3%E9%85%A3%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%9B%BD%E5%BA%86%E5%81%87%E6%9C%9F%E5%8C%97%E5%A4%A7%E4%BB%93%E7%A7%8B%E6%94%B6%E6%AD%A3%E9%85%A3%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 国庆假期北大仓秋收正酣",
-      "date_published": "2026-10-07T13:12:13Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E7%BC%BA%E4%B9%8F%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%9A%849%E4%B8%AA%E4%BF%A1%E5%8F%B7%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%BC%BA%E4%B9%8F%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%9A%849%E4%B8%AA%E4%BF%A1%E5%8F%B7%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 缺乏蛋白质的9个信号",
-      "date_published": "2026-10-07T13:12:13Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E6%B5%B7%E6%8B%944000%E7%B1%B3%E6%97%A0%E4%BA%BA%E5%8C%BA%E9%81%8D%E5%9C%B0%E5%9E%83%E5%9C%BE%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B5%B7%E6%8B%944000%E7%B1%B3%E6%97%A0%E4%BA%BA%E5%8C%BA%E9%81%8D%E5%9C%B0%E5%9E%83%E5%9C%BE%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 海拔4000米无人区遍地垃圾",
-      "date_published": "2026-10-07T13:12:13Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%9B%BD%E5%BA%86%E5%81%87%E6%9C%9F%E7%BA%A2%E8%89%B2%E6%97%85%E6%B8%B8%E7%83%AD%E6%BD%AE%E6%B6%8C%E5%8A%A8%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%9B%BD%E5%BA%86%E5%81%87%E6%9C%9F%E7%BA%A2%E8%89%B2%E6%97%85%E6%B8%B8%E7%83%AD%E6%BD%AE%E6%B6%8C%E5%8A%A8%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 国庆假期红色旅游热潮涌动",
-      "date_published": "2026-10-07T13:12:13Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%AD%99%E9%A2%96%E8%8E%8E%E8%AF%B7%E5%A4%A7%E5%AE%B6%E4%B8%8D%E7%94%A8%E8%BF%87%E5%BA%A6%E6%8B%85%E5%BF%83%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AD%99%E9%A2%96%E8%8E%8E%E8%AF%B7%E5%A4%A7%E5%AE%B6%E4%B8%8D%E7%94%A8%E8%BF%87%E5%BA%A6%E6%8B%85%E5%BF%83%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 孙颖莎请大家不用过度担心",
-      "date_published": "2026-10-07T13:12:13Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%AD%99%E9%A2%96%E8%8E%8E%E5%9B%9E%E5%BA%94%E4%B8%8D%E6%95%8C%E5%B8%95%E6%8B%89%E5%8D%97%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AD%99%E9%A2%96%E8%8E%8E%E5%9B%9E%E5%BA%94%E4%B8%8D%E6%95%8C%E5%B8%95%E6%8B%89%E5%8D%97%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 孙颖莎回应不敌帕拉南",
-      "date_published": "2026-10-07T13:12:13Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E9%83%91%E9%92%A6%E6%96%871%E6%AF%941%E6%9F%A5%E6%8B%89%E8%80%B6%E5%A8%83%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%83%91%E9%92%A6%E6%96%871%E6%AF%941%E6%9F%A5%E6%8B%89%E8%80%B6%E5%A8%83%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 郑钦文1比1查拉耶娃",
-      "date_published": "2026-10-07T13:12:13Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%9B%BD%E5%BA%86%E5%81%87%E6%9C%9F%E5%8C%97%E5%A4%A7%E4%BB%93%E7%A7%8B%E6%94%B6%E6%AD%A3%E9%85%A3%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%9B%BD%E5%BA%86%E5%81%87%E6%9C%9F%E5%8C%97%E5%A4%A7%E4%BB%93%E7%A7%8B%E6%94%B6%E6%AD%A3%E9%85%A3%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 国庆假期北大仓秋收正酣",
-      "date_published": "2026-10-07T13:12:13Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E7%A6%BB%E5%8A%A0%E6%B2%B9%E7%AB%9920%E7%B1%B3%E7%87%83%E6%B2%B9%E8%80%97%E5%B0%BD%E8%BD%A6%E4%B8%BB%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%A6%BB%E5%8A%A0%E6%B2%B9%E7%AB%9920%E7%B1%B3%E7%87%83%E6%B2%B9%E8%80%97%E5%B0%BD%E8%BD%A6%E4%B8%BB%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 离加油站20米燃油耗尽车主发声",
-      "date_published": "2026-10-07T13:12:13Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%B0%8F%E6%83%85%E4%BE%A3%E6%90%9E%E7%98%AB%E5%8C%BB%E9%99%A2%E6%8C%82%E5%8F%B7%E7%B3%BB%E7%BB%9F%E5%8F%8C%E5%8F%8C%E8%8E%B7%E5%88%91%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%B0%8F%E6%83%85%E4%BE%A3%E6%90%9E%E7%98%AB%E5%8C%BB%E9%99%A2%E6%8C%82%E5%8F%B7%E7%B3%BB%E7%BB%9F%E5%8F%8C%E5%8F%8C%E8%8E%B7%E5%88%91%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 小情侣搞瘫医院挂号系统双双获刑",
-      "date_published": "2026-10-07T13:12:13Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%98%9F%E5%A5%B3%E5%8F%8B%E5%8F%91%E5%8D%9A%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%98%9F%E5%A5%B3%E5%8F%8B%E5%8F%91%E5%8D%9A%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 王星女友发博",
-      "date_published": "2026-10-07T13:12:13Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E9%AB%98%E9%80%9F%E5%BC%80%E6%99%BA%E9%A9%BE%E7%9D%A1%E8%A7%89%E7%94%B7%E5%AD%90%E5%A4%84%E7%BD%9A%E7%BB%93%E6%9E%9C%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%AB%98%E9%80%9F%E5%BC%80%E6%99%BA%E9%A9%BE%E7%9D%A1%E8%A7%89%E7%94%B7%E5%AD%90%E5%A4%84%E7%BD%9A%E7%BB%93%E6%9E%9C%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 高速开智驾睡觉男子处罚结果",
-      "date_published": "2026-10-07T13:12:13Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E7%A8%8B%E5%BA%8F%E5%91%98%E4%B8%BA%E5%A5%B3%E5%8F%8B%E6%8A%A2%E5%8F%B7%E6%90%9E%E7%98%AB%E5%8C%BB%E9%99%A2%E6%8C%82%E5%8F%B7%E7%B3%BB%E7%BB%9F%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%A8%8B%E5%BA%8F%E5%91%98%E4%B8%BA%E5%A5%B3%E5%8F%8B%E6%8A%A2%E5%8F%B7%E6%90%9E%E7%98%AB%E5%8C%BB%E9%99%A2%E6%8C%82%E5%8F%B7%E7%B3%BB%E7%BB%9F%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 程序员为女友抢号搞瘫医院挂号系统",
-      "date_published": "2026-10-07T13:12:13Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%98%9F%E8%A2%AB%E9%AA%97%E8%87%B3%E5%A6%99%E7%93%A6%E5%BA%954%E5%A4%A9%E8%A2%AB%E5%8D%963%E6%AC%A1%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%98%9F%E8%A2%AB%E9%AA%97%E8%87%B3%E5%A6%99%E7%93%A6%E5%BA%954%E5%A4%A9%E8%A2%AB%E5%8D%963%E6%AC%A1%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 王星被骗至妙瓦底4天被卖3次",
-      "date_published": "2026-10-07T13:12:13Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E7%B2%A4J2888T%E8%BD%A6%E4%B8%BB%E6%88%98%E7%BB%A9%E5%86%8D%E5%88%B7%E6%96%B0%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%B2%A4J2888T%E8%BD%A6%E4%B8%BB%E6%88%98%E7%BB%A9%E5%86%8D%E5%88%B7%E6%96%B0%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 粤J2888T车主战绩再刷新",
-      "date_published": "2026-10-07T13:12:13Z"
+      "id": "hackernews:https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility",
+      "url": "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility",
+      "title": "[Hacker News 热门] Court agrees with EFF: Utah's VPN law demands a technical impossibility",
+      "date_published": "2026-10-07T19:48:22Z"
     }
   ]
 }
