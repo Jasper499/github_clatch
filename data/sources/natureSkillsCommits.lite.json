@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-10-06T19:36:09Z",
+  "savedAt": "2026-10-07T08:52:28Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "b543e8b998eb2df1fd44641cc8b262c638c2b442",
+  "latestSha": "7d5f160ebfe8033375b4afef7c5911aa4203c983",
   "items": [
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/7d5f160ebfe8033375b4afef7c5911aa4203c983",
+      "sha": "7d5f160",
+      "fullSha": "7d5f160ebfe8033375b4afef7c5911aa4203c983",
+      "owner": "github-actions",
+      "published": "2026-10-07",
+      "label": "commit"
+    },
     {
       "title": "Add files via upload",
       "description": "Add files via upload\n\n修复和windows不兼容问题",
@@ -145,16 +155,6 @@
       "fullSha": "aadebcd4e0fea91949238d6b6947e8744b783a4c",
       "owner": "xionglovetian",
       "published": "2026-09-27",
-      "label": "commit"
-    },
-    {
-      "title": "Update image in README",
-      "description": "Update image in README\n\nReplaced an image in the README with a new one.",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/9e2d90e2171a61dc0ae072e43e8d16e3fc73572f",
-      "sha": "9e2d90e",
-      "fullSha": "9e2d90e2171a61dc0ae072e43e8d16e3fc73572f",
-      "owner": "Flyme886",
-      "published": "2026-09-25",
       "label": "commit"
     }
   ]
