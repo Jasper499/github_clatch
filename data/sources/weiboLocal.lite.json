@@ -1,120 +1,100 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-10-07T13:12:13Z",
+  "savedAt": "2026-10-07T23:00:54Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-07，共 11 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-07，共 9 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-10-07",
   "items": [
     {
       "title": "国庆假期北大仓秋收正酣",
-      "description": "新 · 民生新闻",
+      "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E5%9B%BD%E5%BA%86%E5%81%87%E6%9C%9F%E5%8C%97%E5%A4%A7%E4%BB%93%E7%A7%8B%E6%94%B6%E6%AD%A3%E9%85%A3%23&t=31&band_rank=1&Refer=top",
-      "score": 1849958,
+      "score": 430135,
       "owner": "微博同城",
-      "label": "新",
+      "label": "",
       "category": "民生新闻",
       "onboardTime": 1791378322
     },
     {
-      "title": "离加油站20米燃油耗尽车主发声",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%A6%BB%E5%8A%A0%E6%B2%B9%E7%AB%9920%E7%B1%B3%E7%87%83%E6%B2%B9%E8%80%97%E5%B0%BD%E8%BD%A6%E4%B8%BB%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
-      "score": 696778,
+      "title": "网红小四爷 缅北",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E7%BD%91%E7%BA%A2%E5%B0%8F%E5%9B%9B%E7%88%B7%20%E7%BC%85%E5%8C%97&t=31&band_rank=1&Refer=top",
+      "score": 104098,
       "owner": "微博同城",
-      "label": "",
+      "label": "热",
       "category": "民生新闻",
-      "onboardTime": 1791373041
+      "onboardTime": 1791382942
     },
     {
-      "title": "小情侣搞瘫医院挂号系统双双获刑",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%B0%8F%E6%83%85%E4%BE%A3%E6%90%9E%E7%98%AB%E5%8C%BB%E9%99%A2%E6%8C%82%E5%8F%B7%E7%B3%BB%E7%BB%9F%E5%8F%8C%E5%8F%8C%E8%8E%B7%E5%88%91%23&t=31&band_rank=1&Refer=top",
-      "score": 383678,
+      "title": "俄罗斯现不明原因肺炎死亡病例",
+      "description": "热 · 突发/灾害",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BF%84%E7%BD%97%E6%96%AF%E7%8E%B0%E4%B8%8D%E6%98%8E%E5%8E%9F%E5%9B%A0%E8%82%BA%E7%82%8E%E6%AD%BB%E4%BA%A1%E7%97%85%E4%BE%8B%23&t=31&band_rank=1&Refer=top",
+      "score": 98351,
       "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1791367879
+      "label": "热",
+      "category": "突发/灾害",
+      "onboardTime": 1791382344
     },
     {
-      "title": "王星女友发博",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%98%9F%E5%A5%B3%E5%8F%8B%E5%8F%91%E5%8D%9A%23&t=31&band_rank=1&Refer=top",
-      "score": 383134,
+      "title": "九个舅舅染不同发色参加侄女婚礼",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B9%9D%E4%B8%AA%E8%88%85%E8%88%85%E6%9F%93%E4%B8%8D%E5%90%8C%E5%8F%91%E8%89%B2%E5%8F%82%E5%8A%A0%E4%BE%84%E5%A5%B3%E5%A9%9A%E7%A4%BC%23&t=31&band_rank=1&Refer=top",
+      "score": 96781,
       "owner": "微博同城",
-      "label": "",
+      "label": "热",
       "category": "民生新闻",
-      "onboardTime": 1791371600
+      "onboardTime": 1791392237
     },
     {
-      "title": "高速开智驾睡觉男子处罚结果",
+      "title": "缅北地图密密麻麻全是电诈窝点",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%AB%98%E9%80%9F%E5%BC%80%E6%99%BA%E9%A9%BE%E7%9D%A1%E8%A7%89%E7%94%B7%E5%AD%90%E5%A4%84%E7%BD%9A%E7%BB%93%E6%9E%9C%23&t=31&band_rank=1&Refer=top",
-      "score": 379202,
+      "url": "https://s.weibo.com/weibo?q=%23%E7%BC%85%E5%8C%97%E5%9C%B0%E5%9B%BE%E5%AF%86%E5%AF%86%E9%BA%BB%E9%BA%BB%E5%85%A8%E6%98%AF%E7%94%B5%E8%AF%88%E7%AA%9D%E7%82%B9%23&t=31&band_rank=1&Refer=top",
+      "score": 93488,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1791370161
+      "onboardTime": 1791388400
     },
     {
-      "title": "程序员为女友抢号搞瘫医院挂号系统",
+      "title": "便宜但可能致癌的小东西",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%A8%8B%E5%BA%8F%E5%91%98%E4%B8%BA%E5%A5%B3%E5%8F%8B%E6%8A%A2%E5%8F%B7%E6%90%9E%E7%98%AB%E5%8C%BB%E9%99%A2%E6%8C%82%E5%8F%B7%E7%B3%BB%E7%BB%9F%23&t=31&band_rank=1&Refer=top",
-      "score": 350305,
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BE%BF%E5%AE%9C%E4%BD%86%E5%8F%AF%E8%83%BD%E8%87%B4%E7%99%8C%E7%9A%84%E5%B0%8F%E4%B8%9C%E8%A5%BF%23&t=31&band_rank=1&Refer=top",
+      "score": 91892,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1791365540
+      "onboardTime": 1791379163
     },
     {
       "title": "王星被骗至妙瓦底4天被卖3次",
       "description": "艺人,民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%98%9F%E8%A2%AB%E9%AA%97%E8%87%B3%E5%A6%99%E7%93%A6%E5%BA%954%E5%A4%A9%E8%A2%AB%E5%8D%963%E6%AC%A1%23&t=31&band_rank=1&Refer=top",
-      "score": 300647,
+      "score": 90326,
       "owner": "微博同城",
       "label": "",
       "category": "艺人,民生新闻",
       "onboardTime": 1791356780
     },
     {
-      "title": "粤J2888T车主战绩再刷新",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%B2%A4J2888T%E8%BD%A6%E4%B8%BB%E6%88%98%E7%BB%A9%E5%86%8D%E5%88%B7%E6%96%B0%23&t=31&band_rank=1&Refer=top",
-      "score": 286177,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1791368059
-    },
-    {
-      "title": "上3休1再上5休2",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%8A3%E4%BC%911%E5%86%8D%E4%B8%8A5%E4%BC%912%23&t=31&band_rank=1&Refer=top",
-      "score": 229592,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1791366140
-    },
-    {
-      "title": "国庆假期红色旅游热潮涌动",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%9B%BD%E5%BA%86%E5%81%87%E6%9C%9F%E7%BA%A2%E8%89%B2%E6%97%85%E6%B8%B8%E7%83%AD%E6%BD%AE%E6%B6%8C%E5%8A%A8%23&t=31&band_rank=1&Refer=top",
-      "score": 217043,
+      "title": "骗走王星的人潜伏在多个影视群",
+      "description": "新 · 艺人,民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%AA%97%E8%B5%B0%E7%8E%8B%E6%98%9F%E7%9A%84%E4%BA%BA%E6%BD%9C%E4%BC%8F%E5%9C%A8%E5%A4%9A%E4%B8%AA%E5%BD%B1%E8%A7%86%E7%BE%A4%23&t=31&band_rank=1&Refer=top",
+      "score": 89082,
       "owner": "微博同城",
       "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1791378083
+      "category": "艺人,民生新闻",
+      "onboardTime": 1791412217
     },
     {
-      "title": "离加油站20米没油花350元叫拖车",
+      "title": "离加油站20米燃油耗尽车主发声",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%A6%BB%E5%8A%A0%E6%B2%B9%E7%AB%9920%E7%B1%B3%E6%B2%A1%E6%B2%B9%E8%8A%B1350%E5%85%83%E5%8F%AB%E6%8B%96%E8%BD%A6%23&t=31&band_rank=1&Refer=top",
-      "score": 196275,
+      "url": "https://s.weibo.com/weibo?q=%23%E7%A6%BB%E5%8A%A0%E6%B2%B9%E7%AB%9920%E7%B1%B3%E7%87%83%E6%B2%B9%E8%80%97%E5%B0%BD%E8%BD%A6%E4%B8%BB%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
+      "score": 49104,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1791372801
+      "onboardTime": 1791373041
     }
   ]
 }
