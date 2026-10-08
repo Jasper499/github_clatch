@@ -6,124 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E5%B0%8A%E7%95%8CV800&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%B0%8A%E7%95%8CV800&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 尊界V800",
-      "date_published": "2026-10-08T05:53:05Z"
+      "id": "hackernews:https://mistral.ai/news/mistral-large-4/\\",
+      "url": "https://mistral.ai/news/mistral-large-4/\\",
+      "title": "[Hacker News 热门] Mistral Large 4",
+      "date_published": "2026-10-08T08:36:07Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E6%B1%9F%E6%B7%AE%E6%B1%BD%E8%BD%A6%E8%A2%AB%E7%A0%B8%E8%B7%8C%E5%81%9C%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B1%9F%E6%B7%AE%E6%B1%BD%E8%BD%A6%E8%A2%AB%E7%A0%B8%E8%B7%8C%E5%81%9C%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 江淮汽车被砸跌停",
-      "date_published": "2026-10-08T05:53:05Z"
+      "id": "hackernews:https://earendil.com/posts/pi-1-0/",
+      "url": "https://earendil.com/posts/pi-1-0/",
+      "title": "[Hacker News 热门] Pi 1.0",
+      "date_published": "2026-10-08T08:36:07Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E9%95%BF%E6%98%A5%E5%A4%A7%E5%86%AC%E4%BC%9A%E7%81%AB%E7%82%AC%E5%8F%91%E5%B8%83%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%95%BF%E6%98%A5%E5%A4%A7%E5%86%AC%E4%BC%9A%E7%81%AB%E7%82%AC%E5%8F%91%E5%B8%83%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 长春大冬会火炬发布",
-      "date_published": "2026-10-08T05:53:05Z"
+      "id": "hackernews:https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+      "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+      "title": "[Hacker News 热门] Margaret Hamilton has died",
+      "date_published": "2026-10-08T08:36:07Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E4%BF%9D%E6%97%B6%E6%8D%B7%E5%9B%9E%E5%BD%92%E7%87%83%E6%B2%B9%E8%BD%A6%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%BF%9D%E6%97%B6%E6%8D%B7%E5%9B%9E%E5%BD%92%E7%87%83%E6%B2%B9%E8%BD%A6%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 保时捷回归燃油车",
-      "date_published": "2026-10-08T05:53:05Z"
+      "id": "hackernews:https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "title": "[Hacker News 热门] Sharing AI progress in mathematics",
+      "date_published": "2026-10-08T08:36:07Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E5%B0%8A%E7%95%8CV800%E5%93%81%E7%89%8C%E6%96%B9%E6%9C%AA%E5%9B%9E%E5%BA%94&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%B0%8A%E7%95%8CV800%E5%93%81%E7%89%8C%E6%96%B9%E6%9C%AA%E5%9B%9E%E5%BA%94&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 尊界V800品牌方未回应",
-      "date_published": "2026-10-08T05:53:05Z"
+      "id": "hackernews:https://news.ycombinator.com/item?id=49949438",
+      "url": "https://news.ycombinator.com/item?id=49949438",
+      "title": "[Hacker News 热门] Tell HN: Bob Cringely has died",
+      "date_published": "2026-10-08T08:36:07Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%A4%AA%E4%BB%93%E9%80%9A%E6%8A%A5%E7%BD%91%E4%BC%A0%E4%BB%A3%E5%AD%95%E6%83%85%E5%86%B5%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%AA%E4%BB%93%E9%80%9A%E6%8A%A5%E7%BD%91%E4%BC%A0%E4%BB%A3%E5%AD%95%E6%83%85%E5%86%B5%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 太仓通报网传代孕情况",
-      "date_published": "2026-10-08T05:53:05Z"
+      "id": "hackernews:https://github.com/Niko1221/Strata",
+      "url": "https://github.com/Niko1221/Strata",
+      "title": "[Hacker News 热门] Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+      "date_published": "2026-10-08T08:36:07Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E7%BE%8A%E5%89%83%E6%AF%9B%E5%89%8D%E4%BB%A5%E4%B8%BA%E8%A6%81%E6%AD%BB%E4%BA%86&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E7%BE%8A%E5%89%83%E6%AF%9B%E5%89%8D%E4%BB%A5%E4%B8%BA%E8%A6%81%E6%AD%BB%E4%BA%86&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 羊剃毛前以为要死了",
-      "date_published": "2026-10-08T05:53:05Z"
+      "id": "hackernews:https://www.anthropic.com/claude-haiku-5-5",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "title": "[Hacker News 热门] Claude Haiku 5.5",
+      "date_published": "2026-10-08T08:36:07Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E6%9B%9D%E5%AD%99%E9%A2%96%E8%8E%8E%E6%AF%94%E8%B5%9B%E5%89%8D%E5%8E%BB%E4%BA%86%E6%80%A5%E8%AF%8A%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E5%AD%99%E9%A2%96%E8%8E%8E%E6%AF%94%E8%B5%9B%E5%89%8D%E5%8E%BB%E4%BA%86%E6%80%A5%E8%AF%8A%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 曝孙颖莎比赛前去了急诊",
-      "date_published": "2026-10-08T05:53:05Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E6%98%93%E7%83%8A%E5%8D%83%E7%8E%BA%E4%BD%A0%E7%BB%99%E6%88%91%E4%B8%AA%E7%97%9B%E5%BF%AB%E5%90%A7%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%98%93%E7%83%8A%E5%8D%83%E7%8E%BA%E4%BD%A0%E7%BB%99%E6%88%91%E4%B8%AA%E7%97%9B%E5%BF%AB%E5%90%A7%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 易烊千玺你给我个痛快吧",
-      "date_published": "2026-10-08T05:53:05Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E5%91%A8%E6%9D%B0%E4%BC%A6%E6%8A%A2%E7%A5%A8&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%91%A8%E6%9D%B0%E4%BC%A6%E6%8A%A2%E7%A5%A8&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 周杰伦抢票",
-      "date_published": "2026-10-08T05:53:05Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E5%96%9D%E5%A4%A7%E6%B0%B4&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%96%9D%E5%A4%A7%E6%B0%B4&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 喝大水",
-      "date_published": "2026-10-08T05:53:05Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E6%9D%A8%E7%80%9A%E6%A3%AE%E7%99%BB%E5%9C%BA12%E5%88%86%E9%92%9F%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%A8%E7%80%9A%E6%A3%AE%E7%99%BB%E5%9C%BA12%E5%88%86%E9%92%9F%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 杨瀚森登场12分钟",
-      "date_published": "2026-10-08T05:53:05Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E7%8E%B0%E5%9C%A8%E7%9A%84%E9%92%88%E5%AD%94%E6%91%84%E5%83%8F%E5%A4%B4%E8%BF%99%E4%B9%88%E5%B0%8F%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%8E%B0%E5%9C%A8%E7%9A%84%E9%92%88%E5%AD%94%E6%91%84%E5%83%8F%E5%A4%B4%E8%BF%99%E4%B9%88%E5%B0%8F%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 现在的针孔摄像头这么小",
-      "date_published": "2026-10-08T05:53:05Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E6%9D%8E%E5%8B%92%E4%BC%98%E6%8E%A8%E8%8D%90%E8%A7%86%E9%A2%91%E6%96%87%E6%A1%88%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E5%8B%92%E4%BC%98%E6%8E%A8%E8%8D%90%E8%A7%86%E9%A2%91%E6%96%87%E6%A1%88%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 李勒优推荐视频文案",
-      "date_published": "2026-10-08T05:53:05Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E6%9B%9D%E5%AD%99%E9%A2%96%E8%8E%8E%E6%AF%94%E8%B5%9B%E5%89%8D%E5%8E%BB%E4%BA%86%E6%80%A5%E8%AF%8A%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E5%AD%99%E9%A2%96%E8%8E%8E%E6%AF%94%E8%B5%9B%E5%89%8D%E5%8E%BB%E4%BA%86%E6%80%A5%E8%AF%8A%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 曝孙颖莎比赛前去了急诊",
-      "date_published": "2026-10-08T05:53:05Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E9%87%91%E9%A5%B0%E5%85%8B%E4%BB%B7%E5%B7%B2%E6%9A%B4%E8%B7%8C%E7%BA%A6150%E5%85%83%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%87%91%E9%A5%B0%E5%85%8B%E4%BB%B7%E5%B7%B2%E6%9A%B4%E8%B7%8C%E7%BA%A6150%E5%85%83%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 金饰克价已暴跌约150元",
-      "date_published": "2026-10-08T05:53:05Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%A4%AA%E4%BB%93%E9%80%9A%E6%8A%A5%E7%BD%91%E4%BC%A0%E4%BB%A3%E5%AD%95%E6%83%85%E5%86%B5%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%AA%E4%BB%93%E9%80%9A%E6%8A%A5%E7%BD%91%E4%BC%A0%E4%BB%A3%E5%AD%95%E6%83%85%E5%86%B5%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 太仓通报网传代孕情况",
-      "date_published": "2026-10-08T05:53:05Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E7%BD%91%E7%BA%A2%E5%B0%8F%E5%9B%9B%E7%88%B7%20%E7%BC%85%E5%8C%97&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E7%BD%91%E7%BA%A2%E5%B0%8F%E5%9B%9B%E7%88%B7%20%E7%BC%85%E5%8C%97&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 网红小四爷 缅北",
-      "date_published": "2026-10-08T05:53:05Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E7%BC%85%E5%8C%97%E6%98%8E%E5%AE%B611%E4%BA%BA%E8%A2%AB%E6%89%A7%E8%A1%8C%E6%AD%BB%E5%88%91&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E7%BC%85%E5%8C%97%E6%98%8E%E5%AE%B611%E4%BA%BA%E8%A2%AB%E6%89%A7%E8%A1%8C%E6%AD%BB%E5%88%91&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 缅北明家11人被执行死刑",
-      "date_published": "2026-10-08T05:53:05Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E6%9C%80%E5%90%8E%E4%B8%80%E6%89%B9%E8%BF%94%E7%A8%8B%E8%BD%A6%E4%B8%BB%E9%83%BD%E6%98%AF%E5%A4%A7%E8%81%AA%E6%98%8E%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9C%80%E5%90%8E%E4%B8%80%E6%89%B9%E8%BF%94%E7%A8%8B%E8%BD%A6%E4%B8%BB%E9%83%BD%E6%98%AF%E5%A4%A7%E8%81%AA%E6%98%8E%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 最后一批返程车主都是大聪明",
-      "date_published": "2026-10-08T05:53:05Z"
+      "id": "hackernews:https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+      "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+      "title": "[Hacker News 热门] Anthropic reported diary entry to police, woman faces felony charge",
+      "date_published": "2026-10-08T08:36:07Z"
     }
   ]
 }

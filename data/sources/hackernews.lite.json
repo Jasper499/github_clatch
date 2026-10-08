@@ -1,30 +1,20 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-10-07T19:48:22Z",
+  "savedAt": "2026-10-08T08:36:07Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-10-07，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-10-08，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-10-07",
+  "fetchedDate": "2026-10-08",
   "items": [
     {
       "title": "Mistral Large 4",
       "description": "<a href=\"https:&#x2F;&#x2F;docs.mistral.ai&#x2F;models&#x2F;mistral-large-4-0\" rel=\"nofollow\">https:&#x2F;&#x2F;docs.mistral.ai&#x2F;models&#x2F;mistral-large-4-0</a>",
       "url": "https://mistral.ai/news/mistral-large-4/\\",
-      "score": 1978,
-      "comments": 1182,
+      "score": 2012,
+      "comments": 1195,
       "owner": "Philpax",
       "published": "2026-10-06T13:15:49Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=49977979"
-    },
-    {
-      "title": "Gemini 4 Argon",
-      "description": "See also: <i>Gemini 4 Argon (High): Intelligence, Performance and Price Analysis</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49914236\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49914236</a>",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-      "score": 1702,
-      "comments": 1190,
-      "owner": "bradleyg223",
-      "published": "2026-09-30T20:04:37Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49913571"
     },
     {
       "title": "Pi 1.0",
@@ -37,11 +27,21 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=49926069"
     },
     {
+      "title": "Margaret Hamilton has died",
+      "description": "",
+      "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+      "score": 1411,
+      "comments": 158,
+      "owner": "muglug",
+      "published": "2026-10-07T21:16:18Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49998895"
+    },
+    {
       "title": "Sharing AI progress in mathematics",
       "description": "<a href=\"https:&#x2F;&#x2F;github.com&#x2F;openai&#x2F;math\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;openai&#x2F;math</a><p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;openai&#x2F;math&#x2F;tree&#x2F;main&#x2F;preprints\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;openai&#x2F;math&#x2F;tree&#x2F;main&#x2F;preprints</a>",
       "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
-      "score": 1181,
-      "comments": 1331,
+      "score": 1277,
+      "comments": 1450,
       "owner": "OfficialTurkey",
       "published": "2026-10-06T22:17:21Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=49984923"
@@ -50,7 +50,7 @@
       "title": "Tell HN: Bob Cringely has died",
       "description": "I heard from a friend of the family that Bob passed away in his sleep early Saturday. Very sad news. Bob, who&#x27;s real name was Mark Stevens, was an early employee of Apple and was best known for his PBS documentaries, especially &quot;Triumph of the Nerds&quot;. He will be missed.",
       "url": "https://news.ycombinator.com/item?id=49949438",
-      "score": 941,
+      "score": 943,
       "comments": 221,
       "owner": "paveworld",
       "published": "2026-10-04T00:50:52Z",
@@ -60,18 +60,28 @@
       "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
       "description": "",
       "url": "https://github.com/Niko1221/Strata",
-      "score": 924,
+      "score": 927,
       "comments": 422,
       "owner": "snehesht",
       "published": "2026-10-04T12:51:53Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=49953495"
     },
     {
+      "title": "Claude Haiku 5.5",
+      "description": "",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "score": 855,
+      "comments": 413,
+      "owner": "sfkgtbor",
+      "published": "2026-10-07T18:01:32Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49996437"
+    },
+    {
       "title": "Anthropic reported diary entry to police, woman faces felony charge",
       "description": "",
       "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
-      "score": 822,
-      "comments": 667,
+      "score": 829,
+      "comments": 674,
       "owner": "emptybits",
       "published": "2026-10-05T05:37:40Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=49961057"
@@ -91,7 +101,7 @@
       "description": "",
       "url": "https://github.com/omlahore/RemoveMacAI",
       "score": 767,
-      "comments": 555,
+      "comments": 556,
       "owner": "privacyisntdead",
       "published": "2026-10-04T19:42:25Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=49957116"
@@ -100,7 +110,7 @@
       "title": "Kolibri: A Sovereign Open-Weight Model",
       "description": "tech report: <a href=\"https:&#x2F;&#x2F;aleph-alpha.com&#x2F;downloads&#x2F;tech-report.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;aleph-alpha.com&#x2F;downloads&#x2F;tech-report.pdf</a><p>additional paper: <a href=\"https:&#x2F;&#x2F;tej.as&#x2F;blog&#x2F;aleph-alpha-kolibri\" rel=\"nofollow\">https:&#x2F;&#x2F;tej.as&#x2F;blog&#x2F;aleph-alpha-kolibri</a>",
       "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
-      "score": 703,
+      "score": 704,
       "comments": 336,
       "owner": "bastitx",
       "published": "2026-10-03T09:36:04Z",
@@ -120,7 +130,7 @@
       "title": "We're going to need default hard budget caps on pretty much everything",
       "description": "",
       "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
-      "score": 642,
+      "score": 643,
       "comments": 311,
       "owner": "elffjs",
       "published": "2026-10-04T00:20:16Z",
@@ -140,18 +150,28 @@
       "title": "StreetComplete on iOS is now in public beta",
       "description": "",
       "url": "https://github.com/streetcomplete/StreetComplete/issues/5421",
-      "score": 630,
+      "score": 631,
       "comments": 178,
       "owner": "Snowly",
       "published": "2026-10-01T10:59:57Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=49920160"
     },
     {
+      "title": "GPT‑6 and Intelligent UI for everyone",
+      "description": "",
+      "url": "https://openai.com/index/gpt-6-for-everyone/",
+      "score": 610,
+      "comments": 328,
+      "owner": "joshuawright11",
+      "published": "2026-10-07T18:00:58Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49996425"
+    },
+    {
       "title": "JetBrains reports revenue growth, net financial loss for 2025",
       "description": "",
       "url": "https://www.helgilibrary.com/companies/jetbrains",
-      "score": 590,
-      "comments": 555,
+      "score": 591,
+      "comments": 558,
       "owner": "thw_9a83c",
       "published": "2026-10-06T11:45:55Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=49977072"
@@ -160,7 +180,7 @@
       "title": "Web Search API",
       "description": "",
       "url": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
-      "score": 588,
+      "score": 590,
       "comments": 284,
       "owner": "tosh",
       "published": "2026-10-05T10:47:06Z",
@@ -185,26 +205,6 @@
       "owner": "luispa",
       "published": "2026-10-01T23:10:44Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=49928121"
-    },
-    {
-      "title": "Git 3.0's upcoming SHA-256 default will be a costly mistake",
-      "description": "",
-      "url": "https://blog.gitbutler.com/git-3-sha-256",
-      "score": 577,
-      "comments": 536,
-      "owner": "chmaynard",
-      "published": "2026-10-01T16:57:03Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49924179"
-    },
-    {
-      "title": "Nobel Prize in Physics 2026: Francis Halzen",
-      "description": "",
-      "url": "https://www.nobelprize.org/prizes/physics/2026/",
-      "score": 568,
-      "comments": 208,
-      "owner": "solarist",
-      "published": "2026-10-06T09:48:46Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49976265"
     }
   ]
 }
