@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-10-08T09:09:39Z",
+  "savedAt": "2026-10-08T19:59:45Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "d5c8baa15d6b1bd44bff07865da83961449da01a",
+  "latestSha": "2a20e4a0868ef9094257cb5386cfe623454ae092",
   "items": [
+    {
+      "title": "Update README.md",
+      "description": "Update README.md",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/2a20e4a0868ef9094257cb5386cfe623454ae092",
+      "sha": "2a20e4a",
+      "fullSha": "2a20e4a0868ef9094257cb5386cfe623454ae092",
+      "owner": "Flyme886",
+      "published": "2026-10-08",
+      "label": "commit"
+    },
     {
       "title": "Merge pull request #247 from Wang-auspicious/add-nature-paper-xray",
       "description": "Merge pull request #247 from Wang-auspicious/add-nature-paper-xray\n\nfeat(nature-paper-xray): 新增单篇论文精读技能（教程视频一周内录制并发给维护者）",
@@ -144,16 +154,6 @@
       "sha": "3775287",
       "fullSha": "3775287b575d89db4a0035da5767b81c183470a8",
       "owner": "github-actions",
-      "published": "2026-09-28",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #235 from xionglovetian/codex/forensic-consistency…",
-      "description": "Merge pull request #235 from xionglovetian/codex/forensic-consistency-audit\n\nfeat(nature-reviewer): add mandatory forensic consistency audit",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/87bbcf4009d4ddb122c56b43673eb6c4d8c5f946",
-      "sha": "87bbcf4",
-      "fullSha": "87bbcf4009d4ddb122c56b43673eb6c4d8c5f946",
-      "owner": "Yuan1z0825",
       "published": "2026-09-28",
       "label": "commit"
     }

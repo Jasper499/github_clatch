@@ -6,52 +6,100 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "hackernews:https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
-      "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
-      "title": "[Hacker News 热门] Margaret Hamilton has died",
-      "date_published": "2026-10-08T19:43:46Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills",
+      "url": "https://github.com/Yuan1z0825/nature-skills",
+      "title": "[Skills 清单] Yuan1z0825/nature-skills · 仓库总览",
+      "date_published": "2026-10-08T19:59:45Z"
     },
     {
-      "id": "hackernews:https://mistral.ai/news/mistral-large-4/\\",
-      "url": "https://mistral.ai/news/mistral-large-4/\\",
-      "title": "[Hacker News 热门] Mistral Large 4",
-      "date_published": "2026-10-08T19:43:46Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-academic-search",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-academic-search",
+      "title": "[Skills 清单] nature-academic-search",
+      "date_published": "2026-10-08T19:59:45Z"
     },
     {
-      "id": "hackernews:https://openai.com/index/sharing-ai-progress-in-mathematics/",
-      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
-      "title": "[Hacker News 热门] Sharing AI progress in mathematics",
-      "date_published": "2026-10-08T19:43:46Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-citation",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-citation",
+      "title": "[Skills 清单] nature-citation",
+      "date_published": "2026-10-08T19:59:45Z"
     },
     {
-      "id": "hackernews:https://www.anthropic.com/claude-haiku-5-5",
-      "url": "https://www.anthropic.com/claude-haiku-5-5",
-      "title": "[Hacker News 热门] Claude Haiku 5.5",
-      "date_published": "2026-10-08T19:43:46Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-data",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-data",
+      "title": "[Skills 清单] nature-data",
+      "date_published": "2026-10-08T19:59:45Z"
     },
     {
-      "id": "hackernews:https://news.ycombinator.com/item?id=49949438",
-      "url": "https://news.ycombinator.com/item?id=49949438",
-      "title": "[Hacker News 热门] Tell HN: Bob Cringely has died",
-      "date_published": "2026-10-08T19:43:46Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-downloader",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-downloader",
+      "title": "[Skills 清单] nature-downloader",
+      "date_published": "2026-10-08T19:59:45Z"
     },
     {
-      "id": "hackernews:https://github.com/Niko1221/Strata",
-      "url": "https://github.com/Niko1221/Strata",
-      "title": "[Hacker News 热门] Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
-      "date_published": "2026-10-08T19:43:46Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-experiment-log",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-experiment-log",
+      "title": "[Skills 清单] nature-experiment-log",
+      "date_published": "2026-10-08T19:59:45Z"
     },
     {
-      "id": "hackernews:https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
-      "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
-      "title": "[Hacker News 热门] Anthropic reported diary entry to police, woman faces felony charge",
-      "date_published": "2026-10-08T19:43:46Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-figure",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-figure",
+      "title": "[Skills 清单] nature-figure",
+      "date_published": "2026-10-08T19:59:45Z"
     },
     {
-      "id": "hackernews:https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility",
-      "url": "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility",
-      "title": "[Hacker News 热门] Court agrees with EFF: Utah's VPN law demands a technical impossibility",
-      "date_published": "2026-10-08T19:43:46Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-literature-pipeline",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-literature-pipeline",
+      "title": "[Skills 清单] nature-literature-pipeline",
+      "date_published": "2026-10-08T19:59:45Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/2a20e4a0868ef9094257cb5386cfe623454ae092",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/2a20e4a0868ef9094257cb5386cfe623454ae092",
+      "title": "[最近提交] Update README.md",
+      "date_published": "2026-10-08T19:59:45Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/d5c8baa15d6b1bd44bff07865da83961449da01a",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/d5c8baa15d6b1bd44bff07865da83961449da01a",
+      "title": "[最近提交] Merge pull request #247 from Wang-auspicious/add-nature-paper-xray",
+      "date_published": "2026-10-08T19:59:45Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/7d5f160ebfe8033375b4afef7c5911aa4203c983",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/7d5f160ebfe8033375b4afef7c5911aa4203c983",
+      "title": "[最近提交] chore: update star history",
+      "date_published": "2026-10-08T19:59:45Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/47b4bdae345809c1aa3c8d9a273bf1473d9acecd",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/47b4bdae345809c1aa3c8d9a273bf1473d9acecd",
+      "title": "[最近提交] feat(nature-paper-xray): 新增单篇论文精读技能",
+      "date_published": "2026-10-08T19:59:45Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/b543e8b998eb2df1fd44641cc8b262c638c2b442",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/b543e8b998eb2df1fd44641cc8b262c638c2b442",
+      "title": "[最近提交] Add files via upload",
+      "date_published": "2026-10-08T19:59:45Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/fe7b779e08a577fd5e19b92aa8eb84484461ed73",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/fe7b779e08a577fd5e19b92aa8eb84484461ed73",
+      "title": "[最近提交] Delete skills/nature-paper-trans directory",
+      "date_published": "2026-10-08T19:59:45Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/9d42378c2aa993a01dd670c15595417a81ca4138",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/9d42378c2aa993a01dd670c15595417a81ca4138",
+      "title": "[最近提交] Add files via upload",
+      "date_published": "2026-10-08T19:59:45Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/698e754554baca8404fcfcf84841dc138e87ff23",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/698e754554baca8404fcfcf84841dc138e87ff23",
+      "title": "[最近提交] Delete skills/nature-paper-trans directory",
+      "date_published": "2026-10-08T19:59:45Z"
     }
   ]
 }
