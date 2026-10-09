@@ -45,7 +45,7 @@ wrangler deploy
 
 配置步骤（在 `workers` 目录运行）：
 
-1. `npx wrangler login`，授权你的 Cloudflare 账号，并完成账号邮箱验证。此 Worker 只使用 Cron，关闭公开网址，无需注册 workers.dev 子域名。
+1. `npx wrangler login`，授权你的 Cloudflare 账号，并完成账号邮箱验证。首次使用 Workers 时需要在 Dashboard 初始化账号的 workers.dev 子域名；此 Worker 只使用 Cron，关闭公开网址。
 2. GitHub → Settings → Developer settings → Personal access tokens → Fine-grained tokens，创建仅限 `Jasper499/github_clatch` 的令牌，授予 **Actions: Read and write**（Metadata 只读自动包含），设置到期日。
 3. `npx wrangler secret put GITHUB_TOKEN --config wrangler.scheduler.toml`，在终端隐藏输入上述令牌；不要写入仓库或聊天。
 4. `npx wrangler deploy --config wrangler.scheduler.toml`。
