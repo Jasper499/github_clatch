@@ -385,14 +385,8 @@ function updatePinButton() {
   btn.classList.toggle("is-active", pinned);
 }
 
-function healthStatus(iso, maxAgeHours) {
-  if (!iso) return { level: "bad", label: "无数据" };
-  const ageMs = Date.now() - new Date(iso).getTime();
-  if (Number.isNaN(ageMs)) return { level: "bad", label: "时间异常" };
-  const ageHours = ageMs / 36e5;
-  if (ageHours <= maxAgeHours) return { level: "ok", label: "正常" };
-  if (ageHours <= maxAgeHours * 1.75) return { level: "warn", label: "偏旧" };
-  return { level: "bad", label: "过期" };
+function healthStatus(iso, platform) {
+  return workspaceHealth(iso, platform?.id || activeParentId);
 }
 
 function platformForSource(parentId, sourceKey) {
@@ -511,13 +505,13 @@ function renderHealth(data) {
   if (list) {
     list.innerHTML = META_SYNC_PLATFORMS.map((platform) => {
       const iso = resolveMetaTimestamp(data, platform.field);
-      const status = healthStatus(iso, platform.maxAgeHours || 48);
+      const status = healthStatus(iso, platform);
       const time = iso ? formatDate(iso) : "暂无记录";
       return `<li class="health-item health-${status.level}">
         <span class="health-dot" aria-hidden="true"></span>
         <span class="health-label">${escapeHtml(platform.label)}</span>
         <span class="health-status">${escapeHtml(status.label)}</span>
-        <span class="health-time">${escapeHtml(time)}</span>
+        <span class="health-time">上次：${escapeHtml(time)}<br>下一计划：${escapeHtml(formatDate(status.next))}</span>
       </li>`;
     }).join("");
   }
@@ -526,7 +520,7 @@ function renderHealth(data) {
   if (!rail) return;
   rail.innerHTML = META_SYNC_PLATFORMS.map((platform) => {
     const iso = resolveMetaTimestamp(data, platform.field);
-    const status = healthStatus(iso, platform.maxAgeHours || 48);
+    const status = healthStatus(iso, platform);
     const sourceKey = firstSourceForParent(data, platform.id);
     const active = activeParentId === platform.id ? " is-active" : "";
     return `<a class="ws-chip health-${status.level}${active}" href="#/${encodeURIComponent(sourceKey)}" data-source-key="${sourceKey}" data-parent-id="${platform.id}" title="${escapeHtml(platform.label)} · ${escapeHtml(status.label)}">
@@ -765,7 +759,7 @@ function filterItems(items) {
       (!facetFilter || facet === facetFilter) &&
       (!yearFilter || String(item.published || "").slice(0, 4) === yearFilter) &&
       (!accessFilter || (accessFilter === "oa" ? item.isOpenAccess : Boolean(item.pdfUrl || item.pdfAvailable))) &&
-      (!savedFilter || (savedFilter === "saved" ? saved?.saved : saved?.later));
+      (!savedFilter || (savedFilter === "saved" ? saved?.saved : savedFilter === "later" ? saved?.later : savedFilter === "new" ? isItemNew(activeSourceKey, item) : workspaceMatches(item)));
   });
   if (sortOrder !== "default") rows.sort((a, b) => {
     if (sortOrder === "date") return String(b.item.published || b.item.createdAt || b.item.date || "").localeCompare(String(a.item.published || a.item.createdAt || a.item.date || ""));
@@ -2084,6 +2078,7 @@ function isMobileViewport() {
 function openMobileDetailIfNeeded() {
   const panel = document.getElementById("panel-content");
   const back = document.getElementById("mobile-detail-back");
+  if (!panel?.classList.contains("is-mobile-detail")) window.__workspaceListY = window.scrollY;
   if (!panel || !feedHasSplitDetail()) {
     closeMobileDetail();
     return;
@@ -2111,7 +2106,7 @@ function bindMobileDetailNav() {
     back.dataset.bound = "1";
     back.addEventListener("click", () => {
       closeMobileDetail();
-      document.getElementById("compact-list")?.scrollIntoView({ block: "nearest" });
+      window.scrollTo({ top: window.__workspaceListY || 0, behavior: "instant" });
     });
   }
   if (window.__hjlMobileDetailBound) return;
@@ -2890,6 +2885,7 @@ async function syncPanel(data, { preserveItemIndex = true } = {}) {
     currentSourceRef = source;
     fillContentFilters(items);
     updateContentStatus(source);
+    workspaceRecordVisit(sourceKey, source);
     bootstrapSeenIfNeeded(sourceKey, items);
     const previousIndex = preserveItemIndex ? activeItemIndex : 0;
     const dateKey = selectedDates[sourceKey] || "latest";
@@ -2929,7 +2925,7 @@ async function syncPanel(data, { preserveItemIndex = true } = {}) {
 
     updateNewHints(sourceKey, items);
     updatePinButton();
-    renderActiveDetail(items[activeItemIndex], activeItemIndex);
+    renderActiveDetail(filtered.length ? items[activeItemIndex] : null, activeItemIndex);
     renderActiveList(source, activeItemIndex);
     writeHashRoute();
     triggerPanelFade();
@@ -2948,10 +2944,11 @@ async function syncPanel(data, { preserveItemIndex = true } = {}) {
   } catch (err) {
     if (seq !== panelSyncSeq || activeSourceKey !== sourceKey) return;
     document.getElementById("section-desc").textContent = err.message;
+    currentSourceRef = null;
     document.getElementById("item-count").textContent = "0";
     document.getElementById("compact-list").innerHTML = `<li class="compact-empty">暂无条目</li>`;
     document.getElementById("item-detail").innerHTML =
-      `<div class="detail-body"><div class="empty-state"><p>${escapeHtml(err.message)}</p></div></div>`;
+      `<div class="detail-body"><div class="empty-state"><p>${escapeHtml(err.message)}</p><button type="button" onclick="void syncPanel(appData)">重试加载</button></div></div>`;
     updateNewHints(sourceKey, []);
     writeHashRoute();
   }
@@ -3068,7 +3065,7 @@ async function buildDigest(data) {
       ${valid
         .map((row) => {
           const platform = platformForSource(row.parentId, row.sourceKey);
-          const health = healthStatus(row.updated, platform?.maxAgeHours || 48);
+          const health = healthStatus(row.updated, platform);
           const news =
             row.newItems.length > 0
               ? `<ul class="digest-new-list">${row.newItems
@@ -3573,6 +3570,7 @@ async function loadContent() {
     registerServiceWorker();
     await syncPanel(appData, { preserveItemIndex: Boolean(route) });
     bindReadingTools();
+    initWorkspaceTools();
 
     loading.style.display = "none";
     document.getElementById("mobile-nav").hidden = false;
@@ -3581,8 +3579,7 @@ async function loadContent() {
     loading.style.display = "none";
     const error = document.getElementById("error");
     error.style.display = "block";
-    error.textContent =
-      `加载失败：${err.message}。若本地预览，请用 HTTP 服务器打开（见 README）。`;
+    error.innerHTML = `<p>加载失败：${escapeHtml(err.message)}。请检查网络；本地预览需要 HTTP 服务器。</p><button type="button" onclick="location.reload()">重试</button>`;
   }
 }
 
@@ -3649,7 +3646,7 @@ function initBackgroundSettings() {
   const position = document.getElementById("background-position");
   const remove = document.getElementById("background-remove");
   const status = document.getElementById("background-save-status");
-  let imageUrl = "", revision = 0;
+  let imageUrl = "", revision = 0, previewSettings = null;
   let settings = { preset: "default", shade: 45, panelStrength: 55, position: "center" };
   try {
     const saved = JSON.parse(localStorage.getItem("hjl-background-v1") || "null");
@@ -3722,7 +3719,9 @@ function initBackgroundSettings() {
     } catch (_) { status.textContent = "删除失败，原图片仍保留，请重试。"; }
     finally { fileInput.disabled = false; remove.disabled = !imageUrl; }
   };
-  document.getElementById("background-open").onclick = () => dialog.showModal();
+  document.getElementById("background-open").onclick = () => { previewSettings = { ...settings }; dialog.showModal(); };
+  document.getElementById("background-reading").onclick = () => { settings.shade = 65; settings.panelStrength = 95; apply(); };
+  document.getElementById("background-undo").onclick = () => { if (previewSettings) { settings = { ...previewSettings }; if (settings.preset === "custom" && !imageUrl) settings.preset = "default"; apply(); } };
   document.getElementById("background-close").onclick = () => dialog.close();
   document.getElementById("background-reset").onclick = () => { settings = { preset: "default", shade: 45, panelStrength: 55, position: "center" }; apply(); };
   apply(false);

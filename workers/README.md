@@ -55,7 +55,15 @@ wrangler deploy
 
 本地检查：`node ../scripts/check_monitor.cjs`；打包检查：`npx wrangler deploy --config wrangler.scheduler.toml --dry-run`。
 
+## 加密阅读同步
+
+`hjl-clatch-reading-sync` 使用 SQLite Durable Object 保存每个同步密钥对应的一份加密备份。浏览器生成随机 256 位密钥，AES-GCM 加密后上传；服务只收到独立派生的访问凭证和密文。同步为手动上传/下载，使用 ETag 避免并发覆盖；删除备份保留递增版本号，避免旧客户端覆盖新备份。
+
+部署：`npx wrangler deploy --config wrangler.sync.toml`。接口 `GET/PUT/DELETE /vault`，需要 Bearer 凭证；仅允许本站浏览器跨域访问，单份上传限制 1 MB，每个 IP 每分钟限制 30 次。同步密钥不进入仓库或日志。Cloudflare 用量受账号计划配额限制。
+
 ## 本地调试
+
+原微博实时代理：
 
 ```bash
 cd workers

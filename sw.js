@@ -1,12 +1,14 @@
 /* HJL Clatch service worker — cache shell + recent data for offline reading. */
-const CACHE_SHELL = "clatch-shell-v29";
-const CACHE_DATA = "clatch-data-v29";
+const CACHE_SHELL = "clatch-shell-v30";
+const CACHE_DATA = "clatch-data-v30";
 
 const SHELL_FILES = [
   "./",
   "./index.html",
-  "./css/style.css?v=29",
-  "./js/app.js?v=29",
+  "./css/style.css?v=30",
+  "./js/app.js?v=30",
+  "./js/update-schedule.js?v=30",
+  "./js/workspace.js?v=30",
   "./js/icons.js?v=25",
   "./img/ws-scene.svg",
   "./img/ws-grid.svg",
@@ -63,6 +65,8 @@ function isFreshShellRequest(url) {
     path.endsWith("/") ||
     path.endsWith("/css/style.css") ||
     path.endsWith("/js/app.js") ||
+    path.endsWith("/js/workspace.js") ||
+    path.endsWith("/js/update-schedule.js") ||
     path.endsWith("/js/icons.js") ||
     path.endsWith("/sw.js") ||
     path.endsWith("/manifest.webmanifest")

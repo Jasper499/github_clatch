@@ -46,7 +46,7 @@
       }
     })();
   </script>
-  <link rel="stylesheet" href="css/style.css?v=29">
+  <link rel="stylesheet" href="css/style.css?v=30">
 </head>
 <body>
   <script>
@@ -72,9 +72,14 @@
     <div class="ws-actions">
       <button type="button" id="ws-command-btn" class="ws-btn" title="全局搜索（Ctrl/⌘ K）">搜索 / 跳转</button>
       <button type="button" id="ws-digest-btn" class="ws-btn">摘要</button>
+      <button type="button" id="workspace-updates-open" class="ws-btn">新增</button>
       <button type="button" id="ws-focus-btn" class="ws-btn" aria-pressed="false" title="专注模式（F）">专注</button>
       <button type="button" id="background-open" class="ws-btn">背景</button>
       <details class="ws-more"><summary class="ws-btn">更多</summary><div class="ws-more-menu">
+      <button type="button" id="workspace-follow-open" class="ws-btn">我的关注</button>
+      <button type="button" id="workspace-history-open" class="ws-btn">历史搜索</button>
+      <button type="button" id="workspace-settings-open" class="ws-btn">阅读数据与通知</button>
+      <button type="button" id="workspace-health-open" class="ws-btn">更新状态</button>
       <button type="button" id="ws-density-btn" class="ws-btn" title="信息密度（D）">紧凑</button>
       <button type="button" id="ws-help-btn" class="ws-btn" title="快捷键（?）">?</button>
 
@@ -242,7 +247,7 @@
           </div>
         </div>
         <ul class="health-list" id="health-list" aria-label="栏目健康状态"></ul>
-        <p class="meta-sync-hint">健康状态按更新时间与计划频率估算；Actions 延迟可能导致短暂标黄。</p>
+        <p class="meta-sync-hint">按实际计划时刻核对，允许 90 分钟延迟；显示上次更新与下一计划时间。任务排队可能延迟完成。</p>
       </details>
     </header>
 
@@ -311,7 +316,7 @@
           <label id="access-label">获取方式 <select id="access-select" class="select"><option value="">全部</option><option value="oa">开放获取</option><option value="pdf">PDF 可用</option></select></label>
           <label id="year-label">年份 <select id="year-select" class="select"><option value="">全部年份</option></select></label>
           <label>排序 <select id="sort-select" class="select"><option value="default">原榜单顺序</option></select></label>
-          <label>阅读清单 <select id="saved-select" class="select"><option value="">全部内容</option><option value="saved">我的收藏</option><option value="later">稍后阅读</option></select></label>
+          <label>阅读清单 <select id="saved-select" class="select"><option value="">全部内容</option><option value="saved">我的收藏</option><option value="later">稍后阅读</option><option value="new">未读新增</option><option value="follow">我的关注</option></select></label>
           <label>查找日期 <input id="history-day" class="select" type="date"></label>
           <span id="history-day-hint" role="status"></span>
           <details class="reading-settings"><summary>阅读设置</summary>
@@ -441,6 +446,8 @@
       </label>
       <p class="muted">两个数值越低，图片越明显；提高内容底色可让文字更清晰。</p>
       <button type="button" id="background-image-first" class="ws-btn">图片优先</button>
+      <button type="button" id="background-reading" class="ws-btn">专注阅读</button>
+      <button type="button" id="background-undo" class="ws-btn">撤销本次参数调整</button>
       <button type="button" id="background-reset" class="ws-btn">恢复默认背景</button>
       <p id="background-save-status" class="muted" role="status"></p>
     </div>
@@ -456,6 +463,45 @@
     </div>
   </dialog>
 
+  <p id="workspace-notice" class="workspace-notice" role="status" aria-live="polite"></p>
+  <dialog id="workspace-overview" class="digest-dialog" aria-labelledby="workspace-overview-title">
+    <div class="digest-header"><h2 id="workspace-overview-title">自上次访问以来</h2><button type="button" data-close-dialog>关闭</button></div>
+    <div id="workspace-overview-body" class="digest-body"></div>
+  </dialog>
+  <dialog id="workspace-settings" class="digest-dialog" aria-labelledby="workspace-settings-title">
+    <div class="digest-header"><h2 id="workspace-settings-title">阅读数据与通知</h2><button type="button" data-close-dialog>关闭</button></div>
+    <div class="digest-body workspace-settings-body">
+      <section><h3>备份与恢复</h3><p class="muted">收藏、稍后阅读、已读记录、关注和显示偏好。背景图片文件留在本机。</p>
+        <button type="button" id="backup-export">导出本机备份</button><label>导入备份 <input id="backup-import" type="file" accept="application/json,.json"></label>
+      </section>
+      <section><h3>个人关注</h3><label for="follow-rules">每行一个关键词，如 MRI、Python、仓库名或作者。匹配任意一条即可。</label>
+        <textarea id="follow-rules" rows="5" maxlength="5050" placeholder="MRI&#10;Python&#10;K-Dense-AI"></textarea><button type="button" id="follow-save">保存关注</button>
+      </section>
+      <section><h3>通知偏好</h3><p class="muted">网站打开时检查更新，关闭页面后不发送浏览器通知。后台异常邮件由 GitHub 仓库通知设置控制；可用 Atom 订阅接收内容。</p>
+        <label><input id="notify-updates" type="checkbox">关注内容新增</label><label><input id="notify-digest" type="checkbox">每日摘要（每天一次）</label><label><input id="notify-errors" type="checkbox">数据过期提醒</label>
+        <button type="button" id="notify-enable">允许系统通知</button>
+      </section>
+      <section><h3>跨设备同步</h3><p class="muted">先导出本机备份。生成密钥后上传，在另一设备输入同一密钥再下载。手动同步，加密存储；下载会替换对应设置。请自行保管密钥。</p>
+        <label for="sync-code">同步密钥</label><input id="sync-code" class="select" type="password" autocomplete="off" spellcheck="false" maxlength="64">
+        <button type="button" id="sync-generate">生成新密钥</button><button type="button" id="sync-copy">复制密钥</button><button type="button" id="sync-push">上传本机</button><button type="button" id="sync-pull">下载云端</button><button type="button" id="sync-delete">删除云端备份</button>
+      </section>
+      <p id="workspace-settings-status" role="status" class="muted"></p>
+    </div>
+  </dialog>
+  <dialog id="workspace-history" class="digest-dialog" aria-labelledby="workspace-history-title">
+    <div class="digest-header"><h2 id="workspace-history-title">历史内容搜索</h2><button type="button" data-close-dialog>关闭</button></div>
+    <div class="digest-body"><form id="history-search-form" class="workspace-history-form">
+      <label>关键词 <input id="history-query" class="select" type="search" required maxlength="200"></label>
+      <label>栏目 <select id="history-scope" class="select"><option value="">所有栏目</option></select></label>
+      <label>开始日期 <input id="history-from" class="select" type="date"></label><label>结束日期 <input id="history-to" class="select" type="date"></label>
+      <button type="submit" id="history-search-submit">搜索历史</button>
+    </form><p id="history-search-status" role="status" class="muted">按日期范围加载，最多搜索 120 份快照；可随时关闭取消。</p><div id="history-results"></div></div>
+  </dialog>
+  <dialog id="workspace-health" class="digest-dialog" aria-labelledby="workspace-health-title">
+    <div class="digest-header"><h2 id="workspace-health-title">更新状态</h2><button type="button" data-close-dialog>关闭</button></div>
+    <div id="workspace-health-body" class="digest-body"></div>
+  </dialog>
+
   <script
     src="vendor/marked.min.js"
     integrity="sha384-948ahk4ZmxYVYOc+rxN1H2gM1EJ2Duhp7uHtZ4WSLkV4Vtx5MUqnV+l7u9B+jFv+"
@@ -467,6 +513,8 @@
     crossorigin="anonymous"
   ></script>
   <script src="js/icons.js?v=25"></script>
-  <script src="js/app.js?v=29"></script>
+  <script src="js/update-schedule.js?v=30"></script>
+  <script src="js/workspace.js?v=30"></script>
+  <script src="js/app.js?v=30"></script>
 </body>
 </html>

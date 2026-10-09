@@ -1,0 +1,19 @@
+name = "hjl-clatch-reading-sync"
+main = "reading-sync.js"
+compatibility_date = "2026-10-09"
+workers_dev = true
+preview_urls = false
+
+[[durable_objects.bindings]]
+name = "VAULTS"
+class_name = "ReadingVault"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["ReadingVault"]
+
+[[unsafe.bindings]]
+name = "REQUEST_LIMIT"
+type = "ratelimit"
+namespace_id = "1049"
+simple = { limit = 30, period = 60 }

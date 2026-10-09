@@ -12,11 +12,11 @@ function section(start, end) { return app.slice(app.indexOf(start), app.indexOf(
   const elements = new Map();
   const element = () => ({dataset: {}, style: {setProperty(key,value) {this[key]=value;}}, setAttribute(key,value) {this[key]=value;}, showModal() {}, close() {}});
   const choices = ['default','aurora','cobalt','plain','custom'].map(preset => Object.assign(element(), {dataset: {backgroundChoice: preset}}));
-  for (const id of ['background-dialog','background-shade','background-shade-value','background-save-status','background-open','background-close','background-reset','background-file','background-position','background-remove','background-panel-strength','background-panel-value','background-image-first']) elements.set(id, element());
+  for (const id of ['background-dialog','background-shade','background-shade-value','background-save-status','background-open','background-close','background-reset','background-file','background-position','background-remove','background-panel-strength','background-panel-value','background-image-first','background-reading','background-undo']) elements.set(id, element());
   elements.get('background-dialog').querySelectorAll = () => choices;
   const rootElement = element();
   let stored = JSON.stringify({preset: 'invalid', shade: 999});
-  const background = {Blob, backgroundImageStore: async () => undefined, document: {documentElement: rootElement, getElementById: id => elements.get(id)}, localStorage: {getItem: () => stored, setItem: (_key,value) => {stored=value;}}};
+  const background = {Blob, window: {}, backgroundImageStore: async () => undefined, document: {documentElement: rootElement, getElementById: id => elements.get(id)}, localStorage: {getItem: () => stored, setItem: (_key,value) => {stored=value;}}};
   vm.runInNewContext(section('function initBackgroundSettings()', '\ninitBackgroundSettings();') + '\ninitBackgroundSettings();', background);
   assert.equal(rootElement['data-background'], 'default', 'Invalid stored presets must use the default');
   assert.equal(elements.get('background-shade').value, 45);
