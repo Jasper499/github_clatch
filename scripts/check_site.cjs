@@ -60,6 +60,11 @@ function section(start, end) { return app.slice(app.indexOf(start), app.indexOf(
   handler({ key: 'Enter', target: { closest: () => null }, preventDefault() {} });
   assert.equal(opened, 1);
 
+  let homeClosed = false;
+  const routeContext = { activeSourceKey: 'github', selectedDates: { github: 'latest' }, activeItemIndex: 0, closePersonalHome: () => { homeClosed = true; } };
+  vm.runInNewContext(section('function applyRoute(', 'function platformIcon(') + '\napplyRoute({}, {sourceKey:"github",dateKey:"latest",itemIndex:0});', routeContext);
+  assert(homeClosed, 'An unchanged content route must close the personal home');
+
   const filters = { searchQuery: 'MRI', facetFilter: 'Python', accessFilter: '', savedFilter: '', yearFilter: '', sortOrder: 'stars', savedItems: {}, itemFingerprint: i => i.url, itemSearchHay: i => `${i.title} ${i.authors || ''}`.toLowerCase() };
   vm.createContext(filters);
   vm.runInContext(section('function filterItems(', 'function fillContentFilters('), filters);

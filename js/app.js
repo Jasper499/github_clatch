@@ -970,6 +970,7 @@ function findParentIdForSource(data, sourceKey) {
 
 function applyRoute(data, route, { sync = true } = {}) {
   if (!route?.sourceKey) return;
+  if (sync) closePersonalHome();
   if (sync && route.sourceKey === activeSourceKey && route.dateKey === (selectedDates[activeSourceKey] || "latest") && route.itemIndex === activeItemIndex) return;
   const parentId = findParentIdForSource(data, route.sourceKey);
   if (!parentId) return;
