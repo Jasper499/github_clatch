@@ -10,6 +10,7 @@ on:
       - Daily Scientific Agent Skills Update
       - Weekly Content Update
       - Biweekly MRI Journal Update
+      - Monitor Content Updates
     types: [completed]
 
 permissions:

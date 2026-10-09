@@ -58,6 +58,16 @@ python scripts/prune_history.py   # 瘦身旧 history + 重写 feeds
 
 推送重试：`scripts/git_push_with_retry.sh`（workflow 已接入）。
 
+## 超时监控与补跑
+
+- `Monitor Content Updates` 每小时第 37 分钟检查一次，也在内容工作流完成后检查；支持手动 Run workflow。
+- 按各板块计划时刻检查每个子板块的 `savedAt`，允许 90 分钟延迟。漏跑、缺失或异常时间戳会创建一个 GitHub Issue。
+- 相同告警不重复评论，数据恢复后自动关闭。GitHub 邮件是否送达取决于你的仓库通知设置。
+- 监控每次最多补跑一个过期工作流；已有内容任务运行或排队时等待，同一工作流两小时内不重复补跑。
+- Cloudflare 外部定时器每 10 分钟核对实际数据，有过期内容时触发监控即时补跑；部署见 `workers/README.md`。
+- GitHub 内部监控允许 90 分钟延迟，外部触发补跑不等待宽限期。外部服务减少触发延迟，但 GitHub Runner 排队仍可能延迟执行。
+- 检查监控逻辑：`node scripts/check_monitor.cjs`。
+
 ## Feed
 
 - Atom：`data/feeds/all.xml`

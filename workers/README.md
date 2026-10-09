@@ -39,6 +39,22 @@ wrangler deploy
 - 上游失败：`502` + `{ error, message }`
 - 边缘短缓存约 45 秒，避免连点打爆微博
 
+## 外部定时更新监控
+
+独立 Worker `hjl-clatch-update-scheduler` 每 10 分钟核对网站各子板块的时间戳，过期时触发 GitHub 的 `Monitor Content Updates`。该监控串行补跑，不公开 HTTP 触发入口，也不依赖电脑开机。
+
+配置步骤（在 `workers` 目录运行）：
+
+1. `npx wrangler login`，授权你的 Cloudflare 账号。
+2. GitHub → Settings → Developer settings → Personal access tokens → Fine-grained tokens，创建仅限 `Jasper499/github_clatch` 的令牌，授予 **Actions: Read and write**（Metadata 只读自动包含），设置到期日。
+3. `npx wrangler secret put GITHUB_TOKEN --config wrangler.scheduler.toml`，在终端隐藏输入上述令牌；不要写入仓库或聊天。
+4. `npx wrangler deploy --config wrangler.scheduler.toml`。
+5. 在 Cloudflare Dashboard 检查 Cron Triggers 和日志；GitHub Actions 检查监控与补跑结果。Cron 配置生效可能需要约 15 分钟。
+
+令牌到期后需重新执行 secret put。暂停外部触发：将 `wrangler.scheduler.toml` 的 `crons` 改成 `[]` 后重新部署。
+
+本地检查：`node ../scripts/check_monitor.cjs`；打包检查：`npx wrangler deploy --config wrangler.scheduler.toml --dry-run`。
+
 ## 本地调试
 
 ```bash

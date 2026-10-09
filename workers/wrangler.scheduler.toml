@@ -1,0 +1,9 @@
+name = "hjl-clatch-update-scheduler"
+main = "update-scheduler.js"
+compatibility_date = "2026-10-09"
+
+[triggers]
+crons = ["*/10 * * * *"]
+
+[observability]
+enabled = true
