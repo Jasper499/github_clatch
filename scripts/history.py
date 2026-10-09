@@ -409,6 +409,36 @@ def publish_content_artifacts(content: dict, source_keys: list[str] | None = Non
     write_feeds(load_meta(), selected or None)
 
 
+def write_search_index(source_key: str, manifest: dict | None = None) -> None:
+    """Publish monthly metadata indexes for retained snapshots, without README bodies."""
+    manifest = manifest if manifest is not None else _load_manifest()
+    months = {}
+    fields = ("title", "description", "url", "language", "authors", "doi", "journal", "published", "repo", "label", "readmePath")
+    # ponytail: rebuild at most 120 retained files per source; use incremental indexing if retention grows.
+    for entry in manifest.get("sources", {}).get(source_key, []):
+        file = HISTORY_DIR / source_key / f"{entry['date']}.json"
+        if not file.exists():
+            continue
+        payload = json.loads(file.read_text(encoding="utf-8"))
+        rows = months.setdefault(entry["date"][:7], [])
+        for index, item in enumerate(payload.get("items", [])):
+            slim = {key: item[key] for key in fields if key in item}
+            slim["description"] = str(slim.get("description") or "")[:1200]
+            rows.append({"date": entry["date"], "savedAt": entry.get("savedAt", ""), "index": index, "item": slim})
+    folder = DATA_DIR / "search" / source_key
+    folder.mkdir(parents=True, exist_ok=True)
+    descriptors = []
+    for month, rows in sorted(months.items(), reverse=True):
+        path = folder / f"{month}.json"
+        path.write_text(json.dumps(rows, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+        descriptors.append({"month": month, "items": len(rows), "bytes": path.stat().st_size})
+    for stale in folder.glob("*.json"):
+        if stale.stem not in months:
+            stale.unlink()
+    manifest.setdefault("search", {})[source_key] = descriptors
+    MANIFEST_PATH.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
 def save_source_snapshot(source_key: str, source_data: dict, snapshot_date: str | None = None) -> str:
     """Persist one source snapshot and update manifest.
 
@@ -476,6 +506,7 @@ def save_source_snapshot(source_key: str, source_data: dict, snapshot_date: str 
             except OSError:
                 pass
 
+    write_search_index(source_key, manifest)
     return snap_id
 
 

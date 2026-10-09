@@ -46,7 +46,7 @@
       }
     })();
   </script>
-  <link rel="stylesheet" href="css/style.css?v=30">
+  <link rel="stylesheet" href="css/style.css?v=31">
 </head>
 <body>
   <script>
@@ -70,12 +70,14 @@
     <nav class="ws-status" id="ws-status" aria-label="栏目健康"></nav>
     <p class="ws-ticker" id="ws-ticker" aria-label="今日一句"></p>
     <div class="ws-actions">
+      <button type="button" class="ws-btn" data-home-open>首页</button>
       <button type="button" id="ws-command-btn" class="ws-btn" title="全局搜索（Ctrl/⌘ K）">搜索 / 跳转</button>
       <button type="button" id="ws-digest-btn" class="ws-btn">摘要</button>
       <button type="button" id="workspace-updates-open" class="ws-btn">新增</button>
       <button type="button" id="ws-focus-btn" class="ws-btn" aria-pressed="false" title="专注模式（F）">专注</button>
       <button type="button" id="background-open" class="ws-btn">背景</button>
       <details class="ws-more"><summary class="ws-btn">更多</summary><div class="ws-more-menu">
+      <button type="button" class="ws-btn" data-library-open>收藏中心</button>
       <button type="button" id="workspace-follow-open" class="ws-btn">我的关注</button>
       <button type="button" id="workspace-history-open" class="ws-btn">历史搜索</button>
       <button type="button" id="workspace-settings-open" class="ws-btn">阅读数据与通知</button>
@@ -283,6 +285,13 @@
         <nav id="catalog-tree" class="catalog-tree"></nav>
       </aside>
 
+      <section id="personal-home" class="content-panel personal-home" hidden aria-labelledby="home-title">
+        <div class="home-heading"><div><p class="muted">你的阅读工作站</p><h1 id="home-title">今天，从这里开始</h1></div><button type="button" data-library-open class="ws-btn">打开收藏中心</button></div>
+        <div class="home-metrics"><button type="button" data-library-open>我的收藏 <strong id="home-saved-count">0</strong></button><button type="button" data-library-open>稍后阅读 <strong id="home-later-count">0</strong></button>
+          <label>下次打开首页时 <select id="start-page" class="select"><option value="home">显示个人首页</option><option value="resume">恢复上次阅读位置</option></select></label></div>
+        <div class="home-grid"><section><h2>自上次访问以来</h2><div id="home-updates">正在汇总…</div></section><section><h2>我的关注</h2><div id="home-follow"></div></section><section class="home-health"><h2>更新状态</h2><div id="home-health"></div></section></div>
+      </section>
+
       <main id="content-panel" class="content-panel" tabindex="-1">
         <nav id="breadcrumb" class="breadcrumb" aria-label="当前位置"></nav>
 
@@ -322,6 +331,9 @@
           <details class="reading-settings"><summary>阅读设置</summary>
             <label>列表宽度 <input id="split-width" type="range" min="30" max="65" value="42"></label>
             <label>正文字号 <select id="reader-size" class="select"><option value="15">15px</option><option value="17" selected>17px</option><option value="19">19px</option></select></label>
+            <label>正文宽度 <select id="reader-width" class="select"><option value="640">640px</option><option value="800">800px</option><option value="960">960px</option></select></label>
+            <label>行距 <select id="reader-line" class="select"><option value="1.6">1.6</option><option value="1.8">1.8</option><option value="2">2.0</option></select></label>
+            <label>段落间距 <select id="reader-paragraph" class="select"><option value="0.8">紧凑</option><option value="1.2">标准</option><option value="1.6">宽松</option></select></label>
             <button type="button" id="reader-expand" class="btn-text" aria-pressed="false">展开阅读</button>
           </details>
         </div>
@@ -448,6 +460,7 @@
       <button type="button" id="background-image-first" class="ws-btn">图片优先</button>
       <button type="button" id="background-reading" class="ws-btn">专注阅读</button>
       <button type="button" id="background-undo" class="ws-btn">撤销本次参数调整</button>
+      <div class="personal-theme-tools"><label>主题名称 <input id="theme-name" class="select" maxlength="40" placeholder="我的研究桌面"></label><button type="button" id="theme-save" class="ws-btn">保存个人主题</button><select id="personal-theme" class="select" aria-label="个人主题"><option value="">选择个人主题</option></select><button type="button" id="theme-delete" class="ws-btn">删除选中主题</button></div>
       <button type="button" id="background-reset" class="ws-btn">恢复默认背景</button>
       <p id="background-save-status" class="muted" role="status"></p>
     </div>
@@ -482,6 +495,7 @@
         <button type="button" id="notify-enable">允许系统通知</button>
       </section>
       <section><h3>跨设备同步</h3><p class="muted">先导出本机备份。生成密钥后上传，在另一设备输入同一密钥再下载。手动同步，加密存储；下载会替换对应设置。请自行保管密钥。</p>
+        <p id="sync-local-state" role="status" class="muted"></p>
         <label for="sync-code">同步密钥</label><input id="sync-code" class="select" type="password" autocomplete="off" spellcheck="false" maxlength="64">
         <button type="button" id="sync-generate">生成新密钥</button><button type="button" id="sync-copy">复制密钥</button><button type="button" id="sync-push">上传本机</button><button type="button" id="sync-pull">下载云端</button><button type="button" id="sync-delete">删除云端备份</button>
       </section>
@@ -495,12 +509,20 @@
       <label>栏目 <select id="history-scope" class="select"><option value="">所有栏目</option></select></label>
       <label>开始日期 <input id="history-from" class="select" type="date"></label><label>结束日期 <input id="history-to" class="select" type="date"></label>
       <button type="submit" id="history-search-submit">搜索历史</button>
-    </form><p id="history-search-status" role="status" class="muted">按日期范围加载，最多搜索 120 份快照；可随时关闭取消。</p><div id="history-results"></div></div>
+    </form><p id="history-search-status" role="status" class="muted">按栏目与月份检索保留的历史标题和摘要；可随时关闭取消。</p><div id="history-results"></div></div>
   </dialog>
   <dialog id="workspace-health" class="digest-dialog" aria-labelledby="workspace-health-title">
     <div class="digest-header"><h2 id="workspace-health-title">更新状态</h2><button type="button" data-close-dialog>关闭</button></div>
     <div id="workspace-health-body" class="digest-body"></div>
   </dialog>
+  <dialog id="library-dialog" class="digest-dialog library-dialog" aria-labelledby="library-title">
+    <div class="digest-header"><h2 id="library-title">统一收藏中心</h2><button type="button" data-close-dialog>关闭</button></div>
+    <div class="digest-body"><div class="library-toolbar"><input id="library-query" class="select" type="search" placeholder="搜索标题、摘要、标签和笔记" aria-label="搜索收藏"><select id="library-kind" class="select" aria-label="阅读清单"><option value="">全部记录</option><option value="saved">收藏</option><option value="later">稍后阅读</option></select><select id="library-tag" class="select" aria-label="标签"><option value="">全部标签</option></select><select id="list-view" class="select" aria-label="展示方式"><option value="list">列表视图</option><option value="cards">卡片视图</option></select></div>
+      <div class="library-actions"><button type="button" id="library-select-page">选择本页</button><button type="button" id="library-remove">移出阅读清单</button><select id="library-export-type" class="select" aria-label="导出格式"><option value="md">Markdown</option><option value="bib">BibTeX（论文）</option><option value="ris">RIS（论文）</option></select><button type="button" id="library-export">导出所选 / 当前筛选</button><button type="button" id="library-clear-offline">清理离线正文</button></div>
+      <p id="library-offline-usage" class="muted" role="status"></p><p id="library-status" role="status" class="muted"></p><div id="library-body"></div><div class="library-actions"><button type="button" id="library-prev">上一页</button><button type="button" id="library-next">下一页</button></div></div>
+  </dialog>
+  <dialog id="library-reader" class="digest-dialog" aria-labelledby="library-reader-title"><div class="digest-header"><h2 id="library-reader-title">保存的内容与时间线</h2><button type="button" data-close-dialog>关闭</button></div><div id="library-reader-body" class="digest-body"></div></dialog>
+  <dialog id="sync-review" class="digest-dialog" aria-labelledby="sync-review-title"><div class="digest-header"><h2 id="sync-review-title">同步差异预览</h2><button type="button" data-close-dialog>取消</button></div><div class="digest-body"><div id="sync-review-body"></div><button type="button" id="sync-review-confirm">确认同步</button></div></dialog>
 
   <script
     src="vendor/marked.min.js"
@@ -513,8 +535,9 @@
     crossorigin="anonymous"
   ></script>
   <script src="js/icons.js?v=25"></script>
-  <script src="js/update-schedule.js?v=30"></script>
-  <script src="js/workspace.js?v=30"></script>
-  <script src="js/app.js?v=30"></script>
+  <script src="js/update-schedule.js?v=31"></script>
+  <script src="js/workspace.js?v=31"></script>
+  <script src="js/library.js?v=31"></script>
+  <script src="js/app.js?v=31"></script>
 </body>
 </html>

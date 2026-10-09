@@ -5,6 +5,8 @@ const WORKSPACE_KEYS = {
   'hjl-workstation': 'toggle', 'hjl-focus': 'toggle', 'hjl-split-width': 'width',
   'hjl-reader-size': 'size', 'hjl-background-v1': 'background',
   'hjl-visits-v1': 'visits', 'hjl-follow-v1': 'follow', 'hjl-notifications-v1': 'notifications',
+  'hjl-resume-route': 'route',
+  'hjl-start-page': 'start', 'hjl-reader-layout': 'reader', 'hjl-personal-themes': 'themes', 'hjl-list-view': 'view',
 };
 function workspaceRead(key, fallback) {
   try { return JSON.parse(localStorage.getItem(key)) ?? fallback; } catch (_) { return fallback; }
@@ -44,13 +46,13 @@ function validateWorkspaceBackup(input) {
     if (!Object.hasOwn(WORKSPACE_KEYS, key) || typeof raw !== 'string' || raw.length > 2000000) throw new Error('备份包含不支持的设置。');
     const kind = WORKSPACE_KEYS[key];
     let valid = true, value;
-    if (['saved', 'seen', 'dates', 'pins', 'background', 'visits', 'follow', 'notifications'].includes(kind)) value = JSON.parse(raw);
+    if (['saved', 'seen', 'dates', 'pins', 'background', 'visits', 'follow', 'notifications', 'reader', 'themes'].includes(kind)) value = JSON.parse(raw);
     const object = value && typeof value === 'object' && !Array.isArray(value);
     if (['saved', 'seen', 'dates', 'visits'].includes(kind)) {
       valid = object && Object.keys(value).length <= 5000 && Object.entries(value).every(([k, v]) => !['__proto__', 'constructor', 'prototype'].includes(k) && k.length < 4096 && (
-        kind === 'saved' ? v && typeof v === 'object' && !Array.isArray(v) && ['saved', 'later'].every(flag => v[flag] === undefined || typeof v[flag] === 'boolean') :
+        kind === 'saved' ? v && typeof v === 'object' && !Array.isArray(v) && ['saved', 'later'].every(flag => v[flag] === undefined || typeof v[flag] === 'boolean') && (v.sourceKey === undefined || typeof v.sourceKey === 'string' && /^[a-zA-Z]+$/.test(v.sourceKey)) && (v.date === undefined || typeof v.date === 'string' && /^(latest|\d{4}-\d{2}-\d{2}(T\d{6}Z(-\d+)?)?)$/.test(v.date)) && (v.index === undefined || Number.isSafeInteger(v.index) && v.index >= 0) && (v.savedAt === undefined || typeof v.savedAt === 'string' && Number.isFinite(Date.parse(v.savedAt))) && (v.item === undefined || v.item && typeof v.item === 'object' && !Array.isArray(v.item) && Object.entries(v.item).every(([field, data]) => ['title', 'description', 'url', 'doi', 'journal', 'published', 'language', 'repo', 'label', 'readmePath', 'pdfUrl', 'image'].includes(field) && typeof data === 'string' || field === 'authors' && (typeof data === 'string' || Array.isArray(data) && data.every(author => typeof author === 'string')))) && (v.note === undefined || typeof v.note === 'string' && v.note.length <= 4000) && (v.tags === undefined || Array.isArray(v.tags) && v.tags.length <= 20 && v.tags.every(t => typeof t === 'string' && t.length <= 40)) :
         kind === 'seen' ? Array.isArray(v) && v.length <= 400 && v.every(x => typeof x === 'string') :
-        kind === 'dates' ? typeof v === 'string' && /^(latest|\d{4}-\d{2}-\d{2}(T\d{6}Z)?)$/.test(v) :
+        kind === 'dates' ? typeof v === 'string' && /^(latest|\d{4}-\d{2}-\d{2}(T\d{6}Z(-\d+)?)?)$/.test(v) :
         v && typeof v === 'object' && !Array.isArray(v) && Object.values(v).every(x => typeof x === 'string')
       ));
     }
@@ -63,6 +65,11 @@ function validateWorkspaceBackup(input) {
     if (kind === 'toggle') valid = ['0', '1'].includes(raw);
     if (kind === 'width') valid = Number(raw) >= 30 && Number(raw) <= 65;
     if (kind === 'size') valid = ['15', '17', '19'].includes(raw);
+    if (kind === 'start') valid = ['home', 'resume'].includes(raw);
+    if (kind === 'route') valid = /^#\/[a-zA-Z]+\/(latest|\d{4}-\d{2}-\d{2}(T\d{6}Z(-\d+)?)?)\/\d+$/.test(raw);
+    if (kind === 'view') valid = ['list', 'cards'].includes(raw);
+    if (kind === 'reader') valid = object && [640, 800, 960].includes(value.width) && [1.6, 1.8, 2].includes(value.line) && [0.8, 1.2, 1.6].includes(value.paragraph);
+    if (kind === 'themes') valid = Array.isArray(value) && value.length <= 10 && value.every(t => t && typeof t.name === 'string' && t.name.length <= 40 && ['dark', 'light'].includes(t.theme) && ['compact', 'comfortable'].includes(t.density) && typeof t.background === 'string' && typeof t.reader === 'string' && (() => { try { validateWorkspaceBackup({ format: 'hjl-reading-backup', version: 1, values: { 'hjl-background-v1': t.background, 'hjl-reader-layout': t.reader } }); return true; } catch (_) { return false; } })());
     if (!valid) throw new Error(`备份字段不合法：${key}`);
     values[key] = raw;
   }
@@ -161,6 +168,7 @@ async function workspaceHistorySearch(signal) {
   if (!q) throw new Error('请输入搜索关键词。');
   if (from && to && from > to) throw new Error('开始日期不能晚于结束日期。');
   const scope = document.getElementById('history-scope').value;
+  if (manifest.search && await libraryIndexedSearch(q, from, to, scope, signal)) return;
   const entries = Object.entries(manifest.sources || {}).filter(([key]) => !scope || scope === key).flatMap(([key, list]) => list.filter(row => (!from || row.day >= from) && (!to || row.day <= to)).map(row => ({ ...row, key }))).sort((a, b) => b.savedAt.localeCompare(a.savedAt));
   if (entries.length > 120) throw new Error(`范围内有 ${entries.length} 份快照，请缩小日期范围或选择栏目（每次最多 120 份）。`);
   body.replaceChildren();
@@ -170,7 +178,7 @@ async function workspaceHistorySearch(signal) {
     signal.throwIfAborted();
     await Promise.all(entries.slice(offset, offset + 4).map(async row => {
       try {
-        if (!/^[a-zA-Z]+$/.test(row.key) || !/^\d{4}-\d{2}-\d{2}(T\d{6}Z)?$/.test(row.date)) throw new Error('快照索引异常');
+        if (!/^[a-zA-Z]+$/.test(row.key) || !/^\d{4}-\d{2}-\d{2}(T\d{6}Z(-\d+)?)?$/.test(row.date)) throw new Error('快照索引异常');
         const response = await fetch(`data/history/${row.key}/${row.date}.json`, { signal });
         if (!response.ok) throw new Error('快照不可用');
         const source = await response.json();
@@ -215,16 +223,23 @@ async function syncWorkspace(direction) {
     const plain = await crypto.subtle.decrypt({ name: 'AES-GCM', iv }, key, cipher);
     const backup = JSON.parse(new TextDecoder().decode(plain));
     validateWorkspaceBackup(backup);
-    if (!confirm('用云端备份中的阅读数据和设置替换本机对应数据？建议先导出本机备份。')) return;
-    applyWorkspaceBackup(backup); location.reload();
+    if (!await reviewLibrarySync(collectWorkspaceBackup(), backup, 'pull')) return;
+    applyWorkspaceBackup(backup); librarySyncStamp(auth, backup); location.reload();
   } else {
-    if (response.ok && !confirm('云端已有备份，用本机数据覆盖它？')) return;
+    const local = collectWorkspaceBackup();
+    if (response.ok) {
+      const payload = await response.json();
+      const plain = await crypto.subtle.decrypt({ name: 'AES-GCM', iv: Uint8Array.from(atob(payload.iv), c => c.charCodeAt(0)) }, key, Uint8Array.from(atob(payload.cipher), c => c.charCodeAt(0)));
+      const remote = JSON.parse(new TextDecoder().decode(plain)); validateWorkspaceBackup(remote);
+      if (!await reviewLibrarySync(local, remote, 'push')) return;
+    }
     const iv = crypto.getRandomValues(new Uint8Array(12));
-    const cipher = new Uint8Array(await crypto.subtle.encrypt({ name: 'AES-GCM', iv }, key, new TextEncoder().encode(JSON.stringify(collectWorkspaceBackup()))));
+    const cipher = new Uint8Array(await crypto.subtle.encrypt({ name: 'AES-GCM', iv }, key, new TextEncoder().encode(JSON.stringify(local))));
     const encode = bytes => btoa(Array.from(bytes, b => String.fromCharCode(b)).join(''));
     const result = await fetch(endpoint, { method: 'PUT', headers: { ...headers, 'Content-Type': 'application/json', 'If-Match': response.headers.get('ETag') || '"0"' }, body: JSON.stringify({ iv: encode(iv), cipher: encode(cipher) }), signal: AbortSignal.timeout(15000) });
     if (result.status === 409) throw new Error('其他设备已更新云端，请重新读取后再上传。');
     if (!result.ok) throw new Error(`上传失败（${result.status}）`);
+    librarySyncStamp(auth, local);
     status.textContent = '已加密上传。另一设备输入同一密钥后点击下载；密钥不会上传。';
   }
 }
@@ -299,6 +314,15 @@ function initWorkspaceTools() {
     detail.querySelectorAll('img').forEach(img => { img.loading = 'lazy'; img.decoding = 'async'; });
     detail.querySelectorAll('pre').forEach(pre => { if (pre.querySelector('[data-copy-code]') || !pre.querySelector('code')) return; const button = document.createElement('button'); button.type = 'button'; button.dataset.copyCode = '1'; button.className = 'code-copy'; button.textContent = '复制代码'; pre.prepend(button); });
   };
+  const highlightHeading = () => {
+    const detail = document.getElementById('item-detail');
+    const headings = [...detail.querySelectorAll('.markdown-body h1, .markdown-body h2, .markdown-body h3')];
+    const top = Math.max(0, detail.getBoundingClientRect().top) + 90;
+    let active = 0; headings.forEach((h, index) => { if (h.getBoundingClientRect().top <= top) active = index; });
+    detail.querySelectorAll('[data-heading-index]').forEach(b => { const current = Number(b.dataset.headingIndex) === active; b.classList.toggle('is-current-heading', current); if (current) b.setAttribute('aria-current', 'location'); else b.removeAttribute('aria-current'); });
+  };
+  document.getElementById('item-detail').addEventListener('scroll', highlightHeading, { passive: true });
+  window.addEventListener('scroll', highlightHeading, { passive: true });
   new MutationObserver(decorate).observe(document.getElementById('item-detail'), { childList: true, subtree: true }); decorate();
   void checkWorkspaceNotifications().catch(() => {});
   setInterval(async () => {

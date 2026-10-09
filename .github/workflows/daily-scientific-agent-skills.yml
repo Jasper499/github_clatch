@@ -36,7 +36,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/meta.json data/sources/ data/readmes/ data/history/ data/manifest.json data/feeds/ data/scientific-agent-skills-notify.json
+          git add data/meta.json data/sources/ data/readmes/ data/history/ data/manifest.json data/feeds/ data/search/ data/scientific-agent-skills-notify.json
           bash scripts/git_push_with_retry.sh "chore: daily scientific-agent-skills update" changed
 
       - name: Notify via GitHub Issue

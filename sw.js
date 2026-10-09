@@ -1,14 +1,15 @@
 /* HJL Clatch service worker — cache shell + recent data for offline reading. */
-const CACHE_SHELL = "clatch-shell-v30";
-const CACHE_DATA = "clatch-data-v30";
+const CACHE_SHELL = "clatch-shell-v31";
+const CACHE_DATA = "clatch-data-v31";
 
 const SHELL_FILES = [
   "./",
   "./index.html",
-  "./css/style.css?v=30",
-  "./js/app.js?v=30",
-  "./js/update-schedule.js?v=30",
-  "./js/workspace.js?v=30",
+  "./css/style.css?v=31",
+  "./js/app.js?v=31",
+  "./js/update-schedule.js?v=31",
+  "./js/workspace.js?v=31",
+  "./js/library.js?v=31",
   "./js/icons.js?v=25",
   "./img/ws-scene.svg",
   "./img/ws-grid.svg",
@@ -38,7 +39,7 @@ self.addEventListener("activate", (event) => {
       .then((keys) =>
         Promise.all(
           keys
-            .filter((key) => key !== CACHE_SHELL && key !== CACHE_DATA)
+            .filter((key) => key.startsWith("clatch-") && key !== CACHE_SHELL && key !== CACHE_DATA)
             .map((key) => caches.delete(key))
         )
       )
@@ -51,6 +52,7 @@ function isDataRequest(url) {
     url.pathname.includes("/data/meta.json") ||
     url.pathname.includes("/data/manifest.json") ||
     url.pathname.includes("/data/sources/") ||
+    url.pathname.includes("/data/search/") ||
     url.pathname.includes("/data/readmes/") ||
     url.pathname.includes("/data/history/") ||
     url.pathname.includes("/data/feeds/")
@@ -66,6 +68,7 @@ function isFreshShellRequest(url) {
     path.endsWith("/css/style.css") ||
     path.endsWith("/js/app.js") ||
     path.endsWith("/js/workspace.js") ||
+    path.endsWith("/js/library.js") ||
     path.endsWith("/js/update-schedule.js") ||
     path.endsWith("/js/icons.js") ||
     path.endsWith("/sw.js") ||

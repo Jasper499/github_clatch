@@ -109,6 +109,14 @@ with tempfile.TemporaryDirectory() as tmp:
     assert (Path(tmp)/old['readmePath']).read_text() == 'old body'
     assert (Path(tmp)/new['readmePath']).read_text() == 'new body'
     assert 'readme' not in old
+    index=json.loads((history.DATA_DIR/'search/github/2026-10.json').read_text())
+    assert len(index)==2 and all('readme' not in row['item'] for row in index)
+    assert {row['date'] for row in index} == {'2026-10-01','2026-10-02'}
+    assert json.loads(history.MANIFEST_PATH.read_text())['search']['github'][0]['items']==2
+    stale=history.DATA_DIR/'search/github/1999-01.json'
+    stale.write_text('[]')
+    history.write_search_index('github')
+    assert not stale.exists()
 `], {cwd:root,encoding:'utf8'});
   assert.equal(python.status, 0, python.stderr || python.stdout);
   console.log('PASS: README versions, historical isolation, keyboard, filtering, saved items and bounded offline cache.');

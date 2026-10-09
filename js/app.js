@@ -893,9 +893,9 @@ function bindReadingTools() {
     const key = itemFingerprint(item), kind = button.dataset.saveKind;
     if (kind !== "saved" && kind !== "later") return;
     const previous = savedItems[key];
-    const next = { ...previous, [kind]: !previous?.[kind] };
+    const next = { ...previous, [kind]: !previous?.[kind], item: librarySlimItem(item), sourceKey: activeSourceKey, date: selectedDates[activeSourceKey] && selectedDates[activeSourceKey] !== "latest" ? selectedDates[activeSourceKey] : librarySnapshotDate(activeSourceKey, currentSourceRef), index: Number(button.dataset.saveIndex), savedAt: new Date().toISOString() };
     savedItems[key] = next;
-    if (!next.saved && !next.later) delete savedItems[key];
+    if (!next.saved && !next.later && !next.note && !next.tags?.length) delete savedItems[key];
     try { localStorage.setItem(SAVED_ITEMS_KEY, JSON.stringify(savedItems)); }
     catch (_) {
       if (previous) savedItems[key] = previous; else delete savedItems[key];
@@ -952,6 +952,7 @@ function writeHashRoute() {
   if (suppressHashWrite) return;
   const dateKey = selectedDates[activeSourceKey] || "latest";
   const next = `#/${encodeURIComponent(activeSourceKey)}/${encodeURIComponent(dateKey)}/${activeItemIndex}`;
+  try { localStorage.setItem("hjl-resume-route", next); } catch (_) {}
   if (location.hash === next) return;
   const previous = parseHashRoute();
   const sameView = previous?.sourceKey === activeSourceKey && previous?.dateKey === dateKey;
@@ -2855,6 +2856,7 @@ function renderCompactList(source, activeIndex) {
 }
 
 async function syncPanel(data, { preserveItemIndex = true } = {}) {
+  closePersonalHome();
   const seq = ++panelSyncSeq;
   const sourceKey = activeSourceKey;
   applyFeedLayout(getFeedMode(sourceKey));
@@ -3507,6 +3509,7 @@ function bindKeyboard(data) {
       if (parentId) jumpToSource(data, firstSourceForParent(data, parentId));
       return;
     }
+    if (document.getElementById("personal-home")?.hidden === false) return;
     if (event.key === "j" || event.key === "J") {
       event.preventDefault();
       moveSelection(1);
@@ -3575,6 +3578,7 @@ async function loadContent() {
     loading.style.display = "none";
     document.getElementById("mobile-nav").hidden = false;
     layout.hidden = false;
+    initReadingLibrary();
   } catch (err) {
     loading.style.display = "none";
     const error = document.getElementById("error");

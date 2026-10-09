@@ -6507,5 +6507,275 @@
       }
     ]
   },
-  "updatedAt": "2026-10-09T14:40:56Z"
+  "updatedAt": "2026-10-09T14:40:56Z",
+  "search": {
+    "github": [
+      {
+        "month": "2026-10",
+        "items": 40,
+        "bytes": 14810
+      },
+      {
+        "month": "2026-09",
+        "items": 40,
+        "bytes": 12520
+      },
+      {
+        "month": "2026-08",
+        "items": 100,
+        "bytes": 31645
+      },
+      {
+        "month": "2026-07",
+        "items": 120,
+        "bytes": 35890
+      }
+    ],
+    "githubActive": [
+      {
+        "month": "2026-10",
+        "items": 40,
+        "bytes": 13445
+      },
+      {
+        "month": "2026-09",
+        "items": 40,
+        "bytes": 11217
+      },
+      {
+        "month": "2026-08",
+        "items": 100,
+        "bytes": 28712
+      },
+      {
+        "month": "2026-07",
+        "items": 120,
+        "bytes": 33940
+      }
+    ],
+    "hackernews": [
+      {
+        "month": "2026-10",
+        "items": 360,
+        "bytes": 111405
+      },
+      {
+        "month": "2026-09",
+        "items": 1160,
+        "bytes": 357451
+      },
+      {
+        "month": "2026-08",
+        "items": 880,
+        "bytes": 290104
+      }
+    ],
+    "weibo": [
+      {
+        "month": "2026-10",
+        "items": 810,
+        "bytes": 257455
+      },
+      {
+        "month": "2026-09",
+        "items": 2790,
+        "bytes": 874395
+      }
+    ],
+    "mrm": [
+      {
+        "month": "2026-10",
+        "items": 15,
+        "bytes": 10884
+      },
+      {
+        "month": "2026-09",
+        "items": 30,
+        "bytes": 21864
+      },
+      {
+        "month": "2026-08",
+        "items": 30,
+        "bytes": 22810
+      },
+      {
+        "month": "2026-07",
+        "items": 45,
+        "bytes": 35825
+      }
+    ],
+    "tmi": [
+      {
+        "month": "2026-10",
+        "items": 6,
+        "bytes": 4203
+      },
+      {
+        "month": "2026-09",
+        "items": 17,
+        "bytes": 12069
+      },
+      {
+        "month": "2026-08",
+        "items": 21,
+        "bytes": 15019
+      },
+      {
+        "month": "2026-07",
+        "items": 31,
+        "bytes": 20742
+      }
+    ],
+    "media": [
+      {
+        "month": "2026-10",
+        "items": 11,
+        "bytes": 7181
+      },
+      {
+        "month": "2026-09",
+        "items": 23,
+        "bytes": 16194
+      },
+      {
+        "month": "2026-08",
+        "items": 29,
+        "bytes": 20481
+      },
+      {
+        "month": "2026-07",
+        "items": 43,
+        "bytes": 30060
+      }
+    ],
+    "natureSkills": [
+      {
+        "month": "2026-10",
+        "items": 252,
+        "bytes": 124481
+      },
+      {
+        "month": "2026-09",
+        "items": 648,
+        "bytes": 213871
+      },
+      {
+        "month": "2026-08",
+        "items": 1097,
+        "bytes": 333566
+      },
+      {
+        "month": "2026-07",
+        "items": 160,
+        "bytes": 48904
+      }
+    ],
+    "natureSkillsCommits": [
+      {
+        "month": "2026-10",
+        "items": 210,
+        "bytes": 94369
+      },
+      {
+        "month": "2026-09",
+        "items": 540,
+        "bytes": 205930
+      },
+      {
+        "month": "2026-08",
+        "items": 915,
+        "bytes": 326579
+      },
+      {
+        "month": "2026-07",
+        "items": 135,
+        "bytes": 48158
+      }
+    ],
+    "scientificSkills": [
+      {
+        "month": "2026-10",
+        "items": 2492,
+        "bytes": 1370755
+      },
+      {
+        "month": "2026-09",
+        "items": 5947,
+        "bytes": 2580933
+      },
+      {
+        "month": "2026-08",
+        "items": 9896,
+        "bytes": 4289970
+      },
+      {
+        "month": "2026-07",
+        "items": 1425,
+        "bytes": 616202
+      }
+    ],
+    "scientificSkillsCommits": [
+      {
+        "month": "2026-10",
+        "items": 210,
+        "bytes": 115725
+      },
+      {
+        "month": "2026-09",
+        "items": 540,
+        "bytes": 390838
+      },
+      {
+        "month": "2026-08",
+        "items": 915,
+        "bytes": 625654
+      },
+      {
+        "month": "2026-07",
+        "items": 135,
+        "bytes": 116888
+      }
+    ],
+    "weiboRealtime": [
+      {
+        "month": "2026-10",
+        "items": 810,
+        "bytes": 267338
+      },
+      {
+        "month": "2026-09",
+        "items": 2790,
+        "bytes": 912103
+      }
+    ],
+    "weiboLocal": [
+      {
+        "month": "2026-10",
+        "items": 227,
+        "bytes": 80332
+      },
+      {
+        "month": "2026-09",
+        "items": 839,
+        "bytes": 293093
+      }
+    ],
+    "chinaDaily": [
+      {
+        "month": "2026-10",
+        "items": 180,
+        "bytes": 86026
+      },
+      {
+        "month": "2026-09",
+        "items": 576,
+        "bytes": 272208
+      },
+      {
+        "month": "2026-08",
+        "items": 600,
+        "bytes": 281554
+      }
+    ]
+  }
 }
