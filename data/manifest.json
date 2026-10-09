@@ -3210,6 +3210,12 @@
     ],
     "scientificSkills": [
       {
+        "date": "2026-10-09T194413Z",
+        "day": "2026-10-09",
+        "savedAt": "2026-10-09T19:44:13Z",
+        "itemCount": 178
+      },
+      {
         "date": "2026-10-09T144056Z",
         "day": "2026-10-09",
         "savedAt": "2026-10-09T14:40:56Z",
@@ -3922,15 +3928,15 @@
         "day": "2026-07-28",
         "savedAt": "2026-07-28T05:33:27Z",
         "itemCount": 157
-      },
-      {
-        "date": "2026-07-27T164758Z",
-        "day": "2026-07-27",
-        "savedAt": "2026-07-27T16:47:58Z",
-        "itemCount": 155
       }
     ],
     "scientificSkillsCommits": [
+      {
+        "date": "2026-10-09T194414Z",
+        "day": "2026-10-09",
+        "savedAt": "2026-10-09T19:44:14Z",
+        "itemCount": 15
+      },
       {
         "date": "2026-10-09T144056Z",
         "day": "2026-10-09",
@@ -4643,12 +4649,6 @@
         "date": "2026-07-28T053327Z",
         "day": "2026-07-28",
         "savedAt": "2026-07-28T05:33:27Z",
-        "itemCount": 15
-      },
-      {
-        "date": "2026-07-27T164758Z",
-        "day": "2026-07-27",
-        "savedAt": "2026-07-27T16:47:58Z",
         "itemCount": 15
       }
     ],
@@ -6507,7 +6507,7 @@
       }
     ]
   },
-  "updatedAt": "2026-10-09T19:34:51Z",
+  "updatedAt": "2026-10-09T19:44:14Z",
   "search": {
     "github": [
       {
@@ -6695,45 +6695,45 @@
     "scientificSkills": [
       {
         "month": "2026-10",
-        "items": 2492,
-        "bytes": 1370755
+        "items": 2670,
+        "bytes": 1470216
       },
       {
         "month": "2026-09",
         "items": 5947,
-        "bytes": 2580933
+        "bytes": 2580932
       },
       {
         "month": "2026-08",
         "items": 9896,
-        "bytes": 4289970
+        "bytes": 4289969
       },
       {
         "month": "2026-07",
-        "items": 1425,
-        "bytes": 616202
+        "items": 1270,
+        "bytes": 549303
       }
     ],
     "scientificSkillsCommits": [
       {
         "month": "2026-10",
-        "items": 210,
-        "bytes": 115725
+        "items": 225,
+        "bytes": 123932
       },
       {
         "month": "2026-09",
         "items": 540,
-        "bytes": 390838
+        "bytes": 390837
       },
       {
         "month": "2026-08",
         "items": 915,
-        "bytes": 625654
+        "bytes": 625653
       },
       {
         "month": "2026-07",
-        "items": 135,
-        "bytes": 116888
+        "items": 120,
+        "bytes": 101439
       }
     ],
     "weiboRealtime": [
