@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-10-10T08:15:11Z",
+  "savedAt": "2026-10-10T14:00:30Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-10-10，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,7 +10,7 @@
       "title": "Margaret Hamilton has died",
       "description": "",
       "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
-      "score": 2109,
+      "score": 2113,
       "comments": 255,
       "owner": "muglug",
       "published": "2026-10-07T21:16:18Z",
@@ -30,7 +30,7 @@
       "title": "Sharing AI progress in mathematics",
       "description": "<a href=\"https:&#x2F;&#x2F;github.com&#x2F;openai&#x2F;math\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;openai&#x2F;math</a><p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;openai&#x2F;math&#x2F;tree&#x2F;main&#x2F;preprints\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;openai&#x2F;math&#x2F;tree&#x2F;main&#x2F;preprints</a>",
       "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
-      "score": 1343,
+      "score": 1346,
       "comments": 1524,
       "owner": "OfficialTurkey",
       "published": "2026-10-06T22:17:21Z",
@@ -40,18 +40,28 @@
       "title": "Cloudflare acquires Deno",
       "description": "",
       "url": "https://deno.com/blog/cloudflare",
-      "score": 1192,
-      "comments": 609,
+      "score": 1273,
+      "comments": 657,
       "owner": "ilreb",
       "published": "2026-10-09T13:03:48Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50019911"
     },
     {
+      "title": "Triple-A Minesweeper",
+      "description": "",
+      "url": "https://minesweeper.mikelacher.com/",
+      "score": 1118,
+      "comments": 220,
+      "owner": "robin_reala",
+      "published": "2026-10-09T15:51:05Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50022292"
+    },
+    {
       "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
       "description": "",
       "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
-      "score": 1093,
-      "comments": 962,
+      "score": 1101,
+      "comments": 967,
       "owner": "jonotime",
       "published": "2026-10-08T00:14:48Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50000488"
@@ -60,11 +70,21 @@
       "title": "Claude Haiku 5.5",
       "description": "",
       "url": "https://www.anthropic.com/claude-haiku-5-5",
-      "score": 1044,
+      "score": 1045,
       "comments": 487,
       "owner": "sfkgtbor",
       "published": "2026-10-07T18:01:32Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=49996437"
+    },
+    {
+      "title": "Sorry, I'm in a meeting",
+      "description": "",
+      "url": "https://iminafleeting.com/",
+      "score": 948,
+      "comments": 262,
+      "owner": "splintersio",
+      "published": "2026-10-09T09:21:48Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50018088"
     },
     {
       "title": "Tell HN: Bob Cringely has died",
@@ -77,6 +97,26 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=49949438"
     },
     {
+      "title": "Man discovers his parents' coffee machine used 1TB of data in 10 days",
+      "description": "<a href=\"https:&#x2F;&#x2F;x.com&#x2F;NomadsGalaxy&#x2F;status&#x2F;2107284088247689290\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;NomadsGalaxy&#x2F;status&#x2F;2107284088247689290</a>",
+      "url": "https://www.dexerto.com/entertainment/man-discovers-his-parents-coffee-machine-used-1tb-of-data-in-10-days-3416399/",
+      "score": 940,
+      "comments": 566,
+      "owner": "ck2",
+      "published": "2026-10-07T16:56:30Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49995495"
+    },
+    {
+      "title": "Whistle: Speech to Text in 16.9 MB",
+      "description": "",
+      "url": "https://cactuscompute.com/blog/whistle",
+      "score": 938,
+      "comments": 181,
+      "owner": "gmays",
+      "published": "2026-10-08T16:59:39Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50008427"
+    },
+    {
       "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
       "description": "",
       "url": "https://github.com/Niko1221/Strata",
@@ -87,64 +127,24 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=49953495"
     },
     {
-      "title": "Man discovers his parents' coffee machine used 1TB of data in 10 days",
-      "description": "<a href=\"https:&#x2F;&#x2F;x.com&#x2F;NomadsGalaxy&#x2F;status&#x2F;2107284088247689290\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;NomadsGalaxy&#x2F;status&#x2F;2107284088247689290</a>",
-      "url": "https://www.dexerto.com/entertainment/man-discovers-his-parents-coffee-machine-used-1tb-of-data-in-10-days-3416399/",
-      "score": 929,
-      "comments": 561,
-      "owner": "ck2",
-      "published": "2026-10-07T16:56:30Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49995495"
-    },
-    {
       "title": "Trump administration is suspending Microsoft from a green card program",
       "description": "",
       "url": "https://apnews.com/article/h1b-visa-program-vance-microsoft-e7b3a407f822702b269ee277d21343ea",
-      "score": 928,
-      "comments": 1591,
+      "score": 931,
+      "comments": 1594,
       "owner": "alephnerd",
       "published": "2026-10-08T15:15:00Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50006832"
     },
     {
-      "title": "Whistle: Speech to Text in 16.9 MB",
-      "description": "",
-      "url": "https://cactuscompute.com/blog/whistle",
-      "score": 927,
-      "comments": 180,
-      "owner": "gmays",
-      "published": "2026-10-08T16:59:39Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50008427"
-    },
-    {
-      "title": "Triple-A Minesweeper",
-      "description": "",
-      "url": "https://minesweeper.mikelacher.com/",
-      "score": 914,
-      "comments": 174,
-      "owner": "robin_reala",
-      "published": "2026-10-09T15:51:05Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50022292"
-    },
-    {
       "title": "I hired an illustrator to draw my house. Now it's my Home Assistant dashboard",
       "description": "",
       "url": "https://antonfrolov.substack.com/p/i-hired-an-illustrator-to-draw-my",
-      "score": 905,
-      "comments": 199,
+      "score": 911,
+      "comments": 201,
       "owner": "soheilpro",
       "published": "2026-10-07T01:41:03Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=49986882"
-    },
-    {
-      "title": "Sorry, I'm in a meeting",
-      "description": "",
-      "url": "https://iminafleeting.com/",
-      "score": 876,
-      "comments": 248,
-      "owner": "splintersio",
-      "published": "2026-10-09T09:21:48Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50018088"
     },
     {
       "title": "Anthropic reported diary entry to police, woman faces felony charge",
@@ -161,10 +161,20 @@
       "description": "",
       "url": "https://github.com/omlahore/RemoveMacAI",
       "score": 771,
-      "comments": 558,
+      "comments": 559,
       "owner": "privacyisntdead",
       "published": "2026-10-04T19:42:25Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=49957116"
+    },
+    {
+      "title": "Yes, and",
+      "description": "",
+      "url": "https://htmx.org/essays/yes-and/",
+      "score": 759,
+      "comments": 299,
+      "owner": "Michelangelo11",
+      "published": "2026-10-08T09:48:18Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50003796"
     },
     {
       "title": "GPT‑6 and Intelligent UI for everyone",
@@ -177,21 +187,11 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=49996425"
     },
     {
-      "title": "Yes, and",
-      "description": "",
-      "url": "https://htmx.org/essays/yes-and/",
-      "score": 749,
-      "comments": 297,
-      "owner": "Michelangelo11",
-      "published": "2026-10-08T09:48:18Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50003796"
-    },
-    {
       "title": "Tell HN: I've been paying for a rural Tanzanian's education for 10 years",
       "description": "Ten years ago I was 19 and traveling through East Africa, and I spent a summer in Ibumila, a village in the Njombe highlands of Tanzania. There&#x27;s no school in the village. The nearest one is a boarding school an hour away that costs a few hundred dollars a year, which is out of reach for most families there and was about two weeks of summer job money for me. The daughter of the family I stayed with, Anwarite, was 11. I offered to pay her fees and told myself I&#x27;d keep paying as long as she wanted to keep going.<p>This summer she graduated from the University of Dar es Salaam with a degree in Language Studies, and last week she told me she&#x27;d been accepted into a Master of Arts in Swahili program there. Roughly 2% of people from Njombe ever finish a university degree. Her goal is to get a PhD and then to bring it back to the region.<p>Her entire 18-month master&#x27;s program (tuition, registration, fees, books, supplies) comes to 3,060,000 TSh, about $1,161.<p>Since this worked out, I kept adding students as I could afford to, and in 2021 I registered it as a 501(c)(3), the Tanzania Education Project. It supports five students from Ibumila now, school fees and healthcare. I kept it small while I was finishing my PhD because I didn&#x27;t want commitments I couldn&#x27;t personally guarantee for a decade; I&#x27;ve since started a postdoc, so it feels like the right time to grow past my own paycheck. The long-term goal is that every kid in the village has access to education and healthcare. I sometimes think of this project as a slow experiment. How much could the village itself change over someone&#x27;s lifetime if the kids have access to education?<p><a href=\"https:&#x2F;&#x2F;tanzaniaeducationproject.org&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;tanzaniaeducationproject.org&#x2F;</a> is the website. Nobody takes a salary, and aside from bank fees the money goes to the students. If anyone wants to fund Anwarite&#x27;s master&#x27;s specifically, it&#x27;s here: <a href=\"https:&#x2F;&#x2F;www.gofundme.com&#x2F;f&#x2F;send-anwarite-to-her-masters-program\" rel=\"nofollow\">https:&#x2F;&#x2F;www.gofundme.com&#x2F;f&#x2F;send-anwarite-to-her-masters-prog...</a><p>Happy to answer any questions or take any tips you all might have about doing this sort of thing.",
       "url": "https://news.ycombinator.com/item?id=50006366",
-      "score": 747,
-      "comments": 238,
+      "score": 752,
+      "comments": 240,
       "owner": "lukehandcool",
       "published": "2026-10-08T14:39:47Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50006366"
@@ -200,7 +200,7 @@
       "title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
       "description": "",
       "url": "https://bigwords.page/",
-      "score": 711,
+      "score": 714,
       "comments": 163,
       "owner": "SpeakingOfBrad",
       "published": "2026-10-07T15:44:21Z",
