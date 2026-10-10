@@ -1,6 +1,6 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-10-10T05:41:46Z",
+  "savedAt": "2026-10-10T06:10:34Z",
   "label": "同城",
   "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-10，共 10 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
@@ -10,7 +10,7 @@
       "title": "卫星互联网低轨27组卫星成功发射",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E5%8D%AB%E6%98%9F%E4%BA%92%E8%81%94%E7%BD%91%E4%BD%8E%E8%BD%A827%E7%BB%84%E5%8D%AB%E6%98%9F%E6%88%90%E5%8A%9F%E5%8F%91%E5%B0%84%23&t=31&band_rank=1&Refer=top",
-      "score": 1528811,
+      "score": 1345092,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
@@ -20,7 +20,7 @@
       "title": "女子仅退款9斤蜜薯称有本事来拿",
       "description": "热 · 民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E4%BB%85%E9%80%80%E6%AC%BE9%E6%96%A4%E8%9C%9C%E8%96%AF%E7%A7%B0%E6%9C%89%E6%9C%AC%E4%BA%8B%E6%9D%A5%E6%8B%BF%23&t=31&band_rank=1&Refer=top",
-      "score": 825912,
+      "score": 721654,
       "owner": "微博同城",
       "label": "热",
       "category": "民生新闻",
@@ -30,7 +30,7 @@
       "title": "两名内地女学生在澳门非法旅拍被捕",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E4%B8%A4%E5%90%8D%E5%86%85%E5%9C%B0%E5%A5%B3%E5%AD%A6%E7%94%9F%E5%9C%A8%E6%BE%B3%E9%97%A8%E9%9D%9E%E6%B3%95%E6%97%85%E6%8B%8D%E8%A2%AB%E6%8D%95%23&t=31&band_rank=1&Refer=top",
-      "score": 590509,
+      "score": 556698,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
@@ -40,71 +40,71 @@
       "title": "渣土车侧翻17岁女孩不幸身亡",
       "description": "新 · 突发/灾害",
       "url": "https://s.weibo.com/weibo?q=%23%E6%B8%A3%E5%9C%9F%E8%BD%A6%E4%BE%A7%E7%BF%BB17%E5%B2%81%E5%A5%B3%E5%AD%A9%E4%B8%8D%E5%B9%B8%E8%BA%AB%E4%BA%A1%23&t=31&band_rank=1&Refer=top",
-      "score": 395023,
+      "score": 352703,
       "owner": "微博同城",
       "label": "新",
       "category": "突发/灾害",
       "onboardTime": 1791608362
     },
     {
-      "title": "买榴莲开出土豆事件后续",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B9%B0%E6%A6%B4%E8%8E%B2%E5%BC%80%E5%87%BA%E5%9C%9F%E8%B1%86%E4%BA%8B%E4%BB%B6%E5%90%8E%E7%BB%AD%23&t=31&band_rank=1&Refer=top",
-      "score": 394260,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1791605603
-    },
-    {
       "title": "莫氏鸡煲老板又背贷款搞养殖",
       "description": "新 · 民生新闻",
       "url": "https://s.weibo.com/weibo?q=%E8%8E%AB%E6%B0%8F%E9%B8%A1%E7%85%B2%E8%80%81%E6%9D%BF%E5%8F%88%E8%83%8C%E8%B4%B7%E6%AC%BE%E6%90%9E%E5%85%BB%E6%AE%96&t=31&band_rank=1&Refer=top",
-      "score": 380344,
+      "score": 344771,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
       "onboardTime": 1791609981
     },
     {
-      "title": "大闸蟹价格到底崩了没",
-      "description": "新 · 民生新闻,美食",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%A7%E9%97%B8%E8%9F%B9%E4%BB%B7%E6%A0%BC%E5%88%B0%E5%BA%95%E5%B4%A9%E4%BA%86%E6%B2%A1%23&t=31&band_rank=1&Refer=top",
-      "score": 337429,
+      "title": "买榴莲开出土豆事件后续",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B9%B0%E6%A6%B4%E8%8E%B2%E5%BC%80%E5%87%BA%E5%9C%9F%E8%B1%86%E4%BA%8B%E4%BB%B6%E5%90%8E%E7%BB%AD%23&t=31&band_rank=1&Refer=top",
+      "score": 325143,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1791605603
+    },
+    {
+      "title": "30岁男子ICU抢救母亲取不出救命钱",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%2330%E5%B2%81%E7%94%B7%E5%AD%90ICU%E6%8A%A2%E6%95%91%E6%AF%8D%E4%BA%B2%E5%8F%96%E4%B8%8D%E5%87%BA%E6%95%91%E5%91%BD%E9%92%B1%23&t=31&band_rank=1&Refer=top",
+      "score": 273041,
       "owner": "微博同城",
       "label": "新",
-      "category": "民生新闻,美食",
-      "onboardTime": 1791610520
+      "category": "民生新闻",
+      "onboardTime": 1791612380
+    },
+    {
+      "title": "女子转卖300万手表发现是男友偷的",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E8%BD%AC%E5%8D%96300%E4%B8%87%E6%89%8B%E8%A1%A8%E5%8F%91%E7%8E%B0%E6%98%AF%E7%94%B7%E5%8F%8B%E5%81%B7%E7%9A%84%23&t=31&band_rank=1&Refer=top",
+      "score": 200277,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1791612439
+    },
+    {
+      "title": "儿科医生回应拒绝家长插队被投诉",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%84%BF%E7%A7%91%E5%8C%BB%E7%94%9F%E5%9B%9E%E5%BA%94%E6%8B%92%E7%BB%9D%E5%AE%B6%E9%95%BF%E6%8F%92%E9%98%9F%E8%A2%AB%E6%8A%95%E8%AF%89%23&t=31&band_rank=1&Refer=top",
+      "score": 198730,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1791606203
     },
     {
       "title": "双汇",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%E5%8F%8C%E6%B1%87&t=31&band_rank=1&Refer=top",
-      "score": 282480,
+      "score": 196404,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1791603562
-    },
-    {
-      "title": "结婚证离婚证就差一个字孩子天塌了",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%BB%93%E5%A9%9A%E8%AF%81%E7%A6%BB%E5%A9%9A%E8%AF%81%E5%B0%B1%E5%B7%AE%E4%B8%80%E4%B8%AA%E5%AD%97%E5%AD%A9%E5%AD%90%E5%A4%A9%E5%A1%8C%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 223480,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1791599420
-    },
-    {
-      "title": "儿科医生回应拒绝家长插队被投诉",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%84%BF%E7%A7%91%E5%8C%BB%E7%94%9F%E5%9B%9E%E5%BA%94%E6%8B%92%E7%BB%9D%E5%AE%B6%E9%95%BF%E6%8F%92%E9%98%9F%E8%A2%AB%E6%8A%95%E8%AF%89%23&t=31&band_rank=1&Refer=top",
-      "score": 209887,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1791606203
     }
   ]
 }
