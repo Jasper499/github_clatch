@@ -1,12 +1,82 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-10-10T02:20:30Z",
+  "savedAt": "2026-10-10T08:39:33Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "2a20e4a0868ef9094257cb5386cfe623454ae092",
+  "latestSha": "163c4971ae9e8ff374e667a25146a1e3a572e5c7",
   "items": [
+    {
+      "title": "Merge pull request #233 from anupamme/fix-repo-nature-skills-gitlab-b…",
+      "description": "Merge pull request #233 from anupamme/fix-repo-nature-skills-gitlab-bandit-b313-b314-b315-b316-b318-b319-b320-b405-b406-b407-b408-b6f7b4ae\n\nharden: secure _input_normalization.py (CWE-611)",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/163c4971ae9e8ff374e667a25146a1e3a572e5c7",
+      "sha": "163c497",
+      "fullSha": "163c4971ae9e8ff374e667a25146a1e3a572e5c7",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-10",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #234 from anupamme/fix-repo-nature-skills-cwe-22-p…",
+      "description": "Merge pull request #234 from anupamme/fix-repo-nature-skills-cwe-22-page-dir-path-traversal\n\nharden: add path validation in build_page_worker_prompt.py (CWE-22)",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/0905433aebb79ba32a98077c0cc6e58521035e90",
+      "sha": "0905433",
+      "fullSha": "0905433aebb79ba32a98077c0cc6e58521035e90",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-10",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #240 from yadnuses/feat/nature-social-science",
+      "description": "Merge pull request #240 from yadnuses/feat/nature-social-science\n\nfeat: add nature-social-science skill — 社科写作与选题论证工作台",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/76d59f257e14a73c3ee6cb488d1f5634a45cb6f4",
+      "sha": "76d59f2",
+      "fullSha": "76d59f257e14a73c3ee6cb488d1f5634a45cb6f4",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-10",
+      "label": "commit"
+    },
+    {
+      "title": "Merge branch 'main' into feat/nature-social-science",
+      "description": "Merge branch &#39;main&#39; into feat/nature-social-science",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/dd6dac35072ecf7963bba609f0eb710d6040d633",
+      "sha": "dd6dac3",
+      "fullSha": "dd6dac35072ecf7963bba609f0eb710d6040d633",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-10",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #250 from kailzhu/main",
+      "description": "Merge pull request #250 from kailzhu/main\n\nfix: AttibuteError by adding annotations #249",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/028f68ef87e0d441b99124d683798e0aaa479134",
+      "sha": "028f68e",
+      "fullSha": "028f68ef87e0d441b99124d683798e0aaa479134",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-10",
+      "label": "commit"
+    },
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/58a166cbabdbcd60362fb3a623d9013ef52e9f91",
+      "sha": "58a166c",
+      "fullSha": "58a166cbabdbcd60362fb3a623d9013ef52e9f91",
+      "owner": "github-actions",
+      "published": "2026-10-10",
+      "label": "commit"
+    },
+    {
+      "title": "fix: AttibuteError by adding annotations",
+      "description": "fix: AttibuteError by adding annotations",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/322d404b7964ee148081616b69e3d5e8798a2284",
+      "sha": "322d404",
+      "fullSha": "322d404b7964ee148081616b69e3d5e8798a2284",
+      "owner": "kailzhu",
+      "published": "2026-10-09",
+      "label": "commit"
+    },
     {
       "title": "Update README.md",
       "description": "Update README.md",
@@ -85,76 +155,6 @@
       "fullSha": "698e754554baca8404fcfcf84841dc138e87ff23",
       "owner": "Yuan1z0825",
       "published": "2026-10-06",
-      "label": "commit"
-    },
-    {
-      "title": "Add files via upload",
-      "description": "Add files via upload",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/11d54d1ddb2afc0221c230f8b345d24328c548fb",
-      "sha": "11d54d1",
-      "fullSha": "11d54d1ddb2afc0221c230f8b345d24328c548fb",
-      "owner": "Yuan1z0825",
-      "published": "2026-10-06",
-      "label": "commit"
-    },
-    {
-      "title": "fix: audit input handling, PDF text matrix sizes, reviewer Contents (…",
-      "description": "fix: audit input handling, PDF text matrix sizes, reviewer Contents (#246)\n\n* fix: audit input handling, PDF text matrix sizes, reviewer Contents\n\n- audit_figure_collisions.py: reject non-PDF input with exit 2 (fixes #242)\n- audit_pdf_text.py: apply Tm/cm scaling to Tf size (fixes #238)\n- nature-reviewer: add Contents to long references (fixes #236)\n\nXinrui Ma\n\n* fix: repair CI failures on main (README index, defusedxml Element)\n\n- README/README_EN: add nature-paper-trans to the skill index and bump the\n  skills badge from 19 to 20\n- nature-academic-search: import Element from xml.etree.ElementTree for type\n  annotations; defusedxml 0.8 no longer exposes ElementTree.Element\n\nXinrui Ma",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/5b05fe1ba3867b61ee2742a060d5cf05dad027a2",
-      "sha": "5b05fe1",
-      "fullSha": "5b05fe1ba3867b61ee2742a060d5cf05dad027a2",
-      "owner": "Travisma2233",
-      "published": "2026-10-05",
-      "label": "commit"
-    },
-    {
-      "title": "Add files via upload",
-      "description": "Add files via upload\n\n增加原文排版保留翻译 skill",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/6655831b8270e0bb48cbcdec22220a56c561de58",
-      "sha": "6655831",
-      "fullSha": "6655831b8270e0bb48cbcdec22220a56c561de58",
-      "owner": "Yuan1z0825",
-      "published": "2026-10-05",
-      "label": "commit"
-    },
-    {
-      "title": "chore: update star history",
-      "description": "chore: update star history",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/50851efc109c981be6cdc1ed5171a2eaa739d20a",
-      "sha": "50851ef",
-      "fullSha": "50851efc109c981be6cdc1ed5171a2eaa739d20a",
-      "owner": "github-actions",
-      "published": "2026-10-04",
-      "label": "commit"
-    },
-    {
-      "title": "fix: make star history updates reliable (incremental + retry) (#245)",
-      "description": "fix: make star history updates reliable (incremental + retry) (#245)\n\n* fix: retry transient GraphQL errors in star history generator\n\n* fix: retry transient GraphQL errors in star history generator\n\n* feat: incremental star history updates with cached daily counts\n\n* feat: incremental star history updates with cached daily counts\n\n* feat: incremental star history updates with cached daily counts\n\n* feat: incremental star history updates with cached daily counts",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/638d7d2177beb12ae3b0acff5cdb1d50adcdf3ed",
-      "sha": "638d7d2",
-      "fullSha": "638d7d2177beb12ae3b0acff5cdb1d50adcdf3ed",
-      "owner": "Travisma2233",
-      "published": "2026-10-04",
-      "label": "commit"
-    },
-    {
-      "title": "Update README.md",
-      "description": "Update README.md",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/84880815fb37317b3766bff2c2abba395b8993c3",
-      "sha": "8488081",
-      "fullSha": "84880815fb37317b3766bff2c2abba395b8993c3",
-      "owner": "Yuan1z0825",
-      "published": "2026-09-28",
-      "label": "commit"
-    },
-    {
-      "title": "chore: update star history",
-      "description": "chore: update star history",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/3775287b575d89db4a0035da5767b81c183470a8",
-      "sha": "3775287",
-      "fullSha": "3775287b575d89db4a0035da5767b81c183470a8",
-      "owner": "github-actions",
-      "published": "2026-09-28",
       "label": "commit"
     }
   ]
