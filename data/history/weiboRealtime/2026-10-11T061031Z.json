@@ -1,0 +1,312 @@
+{
+  "date": "2026-10-11T061031Z",
+  "day": "2026-10-11",
+  "sourceKey": "weiboRealtime",
+  "savedAt": "2026-10-11T06:10:31Z",
+  "label": "实时",
+  "description": "微博实时上升榜（按上榜时间排序，2026-10-11，共 30 条，约每 6 小时更新）",
+  "updateFrequency": "every-6h",
+  "fetchedDate": "2026-10-11",
+  "items": [
+    {
+      "title": "潘玮柏自曝瘦了26斤",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%BD%98%E7%8E%AE%E6%9F%8F%E8%87%AA%E6%9B%9D%E7%98%A6%E4%BA%8626%E6%96%A4%23&t=31&band_rank=1&Refer=top",
+      "score": 131563,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1791698961
+    },
+    {
+      "title": "46岁数学家凭AI炒股登上富豪榜",
+      "description": "新 · 财经,互联网",
+      "url": "https://s.weibo.com/weibo?q=%2346%E5%B2%81%E6%95%B0%E5%AD%A6%E5%AE%B6%E5%87%ADAI%E7%82%92%E8%82%A1%E7%99%BB%E4%B8%8A%E5%AF%8C%E8%B1%AA%E6%A6%9C%23&t=31&band_rank=1&Refer=top",
+      "score": 242634,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "财经,互联网",
+      "onboardTime": 1791698721
+    },
+    {
+      "title": "岸本齐史 暗影崛起",
+      "description": "新 · 动漫",
+      "url": "https://s.weibo.com/weibo?q=%E5%B2%B8%E6%9C%AC%E9%BD%90%E5%8F%B2%20%E6%9A%97%E5%BD%B1%E5%B4%9B%E8%B5%B7&t=31&band_rank=1&Refer=top",
+      "score": 162961,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "动漫",
+      "onboardTime": 1791698239
+    },
+    {
+      "title": "迪丽热巴拍摄导演助理巴巴",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4%E6%8B%8D%E6%91%84%E5%AF%BC%E6%BC%94%E5%8A%A9%E7%90%86%E5%B7%B4%E5%B7%B4%23&t=31&band_rank=1&Refer=top",
+      "score": 211719,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1791698179
+    },
+    {
+      "title": "代露娃离家出走真实情况",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BB%A3%E9%9C%B2%E5%A8%83%E7%A6%BB%E5%AE%B6%E5%87%BA%E8%B5%B0%E7%9C%9F%E5%AE%9E%E6%83%85%E5%86%B5%23&t=31&band_rank=1&Refer=top",
+      "score": 184827,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1791698120
+    },
+    {
+      "title": "泰国警方称胡星宋华婷或被转移至缅甸",
+      "description": "新 · 海外新闻",
+      "url": "https://s.weibo.com/weibo?q=%E6%B3%B0%E5%9B%BD%E8%AD%A6%E6%96%B9%E7%A7%B0%E8%83%A1%E6%98%9F%E5%AE%8B%E5%8D%8E%E5%A9%B7%E6%88%96%E8%A2%AB%E8%BD%AC%E7%A7%BB%E8%87%B3%E7%BC%85%E7%94%B8&t=31&band_rank=1&Refer=top",
+      "score": 283521,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "海外新闻",
+      "onboardTime": 1791698059
+    },
+    {
+      "title": "难怪田曦薇有故人之姿",
+      "description": "新 · 综艺",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%9A%BE%E6%80%AA%E7%94%B0%E6%9B%A6%E8%96%87%E6%9C%89%E6%95%85%E4%BA%BA%E4%B9%8B%E5%A7%BF%23&t=31&band_rank=1&Refer=top",
+      "score": 200620,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "综艺",
+      "onboardTime": 1791697820
+    },
+    {
+      "title": "新疆五胞胎妈妈回应100个指甲错峰剪",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%96%B0%E7%96%86%E4%BA%94%E8%83%9E%E8%83%8E%E5%A6%88%E5%A6%88%E5%9B%9E%E5%BA%94100%E4%B8%AA%E6%8C%87%E7%94%B2%E9%94%99%E5%B3%B0%E5%89%AA%23&t=31&band_rank=1&Refer=top",
+      "score": 173485,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1791697640
+    },
+    {
+      "title": "林昀儒4比3雨果",
+      "description": "新 · 体育",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9E%97%E6%98%80%E5%84%924%E6%AF%943%E9%9B%A8%E6%9E%9C%23&t=31&band_rank=1&Refer=top",
+      "score": 276361,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "体育",
+      "onboardTime": 1791697519
+    },
+    {
+      "title": "白鹿杀青第一天就想进组",
+      "description": "新 · 剧集",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E9%B9%BF%E6%9D%80%E9%9D%92%E7%AC%AC%E4%B8%80%E5%A4%A9%E5%B0%B1%E6%83%B3%E8%BF%9B%E7%BB%84%23&t=31&band_rank=1&Refer=top",
+      "score": 175007,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "剧集",
+      "onboardTime": 1791697280
+    },
+    {
+      "title": "代露娃被导演说没有教养",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%E4%BB%A3%E9%9C%B2%E5%A8%83%E8%A2%AB%E5%AF%BC%E6%BC%94%E8%AF%B4%E6%B2%A1%E6%9C%89%E6%95%99%E5%85%BB&t=31&band_rank=1&Refer=top",
+      "score": 261085,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1791696021
+    },
+    {
+      "title": "社保",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E7%A4%BE%E4%BF%9D&t=31&band_rank=1&Refer=top",
+      "score": 268454,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1791695961
+    },
+    {
+      "title": "胖东来盖个楼又狠狠出圈了",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%83%96%E4%B8%9C%E6%9D%A5%E7%9B%96%E4%B8%AA%E6%A5%BC%E5%8F%88%E7%8B%A0%E7%8B%A0%E5%87%BA%E5%9C%88%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 189562,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1791695419
+    },
+    {
+      "title": "赵丽颖官宣AI潮玩人气大赛",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%B5%B5%E4%B8%BD%E9%A2%96%E5%AE%98%E5%AE%A3AI%E6%BD%AE%E7%8E%A9%E4%BA%BA%E6%B0%94%E5%A4%A7%E8%B5%9B%23&t=31&band_rank=1&Refer=top",
+      "score": 132220,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1791695298
+    },
+    {
+      "title": "梅艳芳家人称拿不出赎金",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%A2%85%E8%89%B3%E8%8A%B3%E5%AE%B6%E4%BA%BA%E7%A7%B0%E6%8B%BF%E4%B8%8D%E5%87%BA%E8%B5%8E%E9%87%91%23&t=31&band_rank=1&Refer=top",
+      "score": 244197,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1791695061
+    },
+    {
+      "title": "西门龙霆",
+      "description": "新 · 读书作家",
+      "url": "https://s.weibo.com/weibo?q=%E8%A5%BF%E9%97%A8%E9%BE%99%E9%9C%86&t=31&band_rank=1&Refer=top",
+      "score": 433400,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "读书作家",
+      "onboardTime": 1791694820
+    },
+    {
+      "title": "被字节开除实习生创业获2亿美元估值",
+      "description": "新 · 互联网",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%A2%AB%E5%AD%97%E8%8A%82%E5%BC%80%E9%99%A4%E5%AE%9E%E4%B9%A0%E7%94%9F%E5%88%9B%E4%B8%9A%E8%8E%B72%E4%BA%BF%E7%BE%8E%E5%85%83%E4%BC%B0%E5%80%BC%23&t=31&band_rank=1&Refer=top",
+      "score": 876816,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "互联网",
+      "onboardTime": 1791694520
+    },
+    {
+      "title": "喜欢吃肉的人建议反复观看",
+      "description": "美食",
+      "url": "https://s.weibo.com/weibo?q=%E5%96%9C%E6%AC%A2%E5%90%83%E8%82%89%E7%9A%84%E4%BA%BA%E5%BB%BA%E8%AE%AE%E5%8F%8D%E5%A4%8D%E8%A7%82%E7%9C%8B&t=31&band_rank=1&Refer=top",
+      "score": 143458,
+      "owner": "微博实时",
+      "label": "",
+      "category": "美食",
+      "onboardTime": 1791693439
+    },
+    {
+      "title": "明日方舟国家图书馆联动",
+      "description": "游戏",
+      "url": "https://s.weibo.com/weibo?q=%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%9B%BD%E5%AE%B6%E5%9B%BE%E4%B9%A6%E9%A6%86%E8%81%94%E5%8A%A8&t=31&band_rank=1&Refer=top",
+      "score": 159879,
+      "owner": "微博实时",
+      "label": "",
+      "category": "游戏",
+      "onboardTime": 1791693201
+    },
+    {
+      "title": "服装店被质疑用猫毛做皮草",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E6%9C%8D%E8%A3%85%E5%BA%97%E8%A2%AB%E8%B4%A8%E7%96%91%E7%94%A8%E7%8C%AB%E6%AF%9B%E5%81%9A%E7%9A%AE%E8%8D%89&t=31&band_rank=1&Refer=top",
+      "score": 154835,
+      "owner": "微博实时",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1791692959
+    },
+    {
+      "title": "王濛说贝克汉姆是帅一辈子的偶像",
+      "description": "体育",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%BF%9B%E8%AF%B4%E8%B4%9D%E5%85%8B%E6%B1%89%E5%A7%86%E6%98%AF%E5%B8%85%E4%B8%80%E8%BE%88%E5%AD%90%E7%9A%84%E5%81%B6%E5%83%8F%23&t=31&band_rank=1&Refer=top",
+      "score": 156587,
+      "owner": "微博实时",
+      "label": "",
+      "category": "体育",
+      "onboardTime": 1791692841
+    },
+    {
+      "title": "山西佛光寺出头之日冰箱贴火了",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%B1%B1%E8%A5%BF%E4%BD%9B%E5%85%89%E5%AF%BA%E5%87%BA%E5%A4%B4%E4%B9%8B%E6%97%A5%E5%86%B0%E7%AE%B1%E8%B4%B4%E7%81%AB%E4%BA%86&t=31&band_rank=1&Refer=top",
+      "score": 217486,
+      "owner": "微博实时",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1791691160
+    },
+    {
+      "title": "胡歌称拍仙剑三很无聊",
+      "description": "热 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%E8%83%A1%E6%AD%8C%E7%A7%B0%E6%8B%8D%E4%BB%99%E5%89%91%E4%B8%89%E5%BE%88%E6%97%A0%E8%81%8A&t=31&band_rank=1&Refer=top",
+      "score": 265096,
+      "owner": "微博实时",
+      "label": "热",
+      "category": "艺人",
+      "onboardTime": 1791691039
+    },
+    {
+      "title": "丁禹兮拒绝拥抱孟子义路透",
+      "description": "剧集",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%81%E7%A6%B9%E5%85%AE%E6%8B%92%E7%BB%9D%E6%8B%A5%E6%8A%B1%E5%AD%9F%E5%AD%90%E4%B9%89%E8%B7%AF%E9%80%8F%23&t=31&band_rank=1&Refer=top",
+      "score": 169319,
+      "owner": "微博实时",
+      "label": "",
+      "category": "剧集",
+      "onboardTime": 1791690680
+    },
+    {
+      "title": "中网决赛一票难求",
+      "description": "体育",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E7%BD%91%E5%86%B3%E8%B5%9B%E4%B8%80%E7%A5%A8%E9%9A%BE%E6%B1%82%23&t=31&band_rank=1&Refer=top",
+      "score": 156094,
+      "owner": "微博实时",
+      "label": "",
+      "category": "体育",
+      "onboardTime": 1791690320
+    },
+    {
+      "title": "汽车刹车踏板绝不应该在驾驶中断裂",
+      "description": "民生新闻,汽车",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B1%BD%E8%BD%A6%E5%88%B9%E8%BD%A6%E8%B8%8F%E6%9D%BF%E7%BB%9D%E4%B8%8D%E5%BA%94%E8%AF%A5%E5%9C%A8%E9%A9%BE%E9%A9%B6%E4%B8%AD%E6%96%AD%E8%A3%82%23&t=31&band_rank=1&Refer=top",
+      "score": 318912,
+      "owner": "微博实时",
+      "label": "",
+      "category": "民生新闻,汽车",
+      "onboardTime": 1791689479
+    },
+    {
+      "title": "多起中国公民赴泰失联",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%9A%E8%B5%B7%E4%B8%AD%E5%9B%BD%E5%85%AC%E6%B0%91%E8%B5%B4%E6%B3%B0%E5%A4%B1%E8%81%94&t=31&band_rank=1&Refer=top",
+      "score": 167109,
+      "owner": "微博实时",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1791689000
+    },
+    {
+      "title": "人民日报评刹车踏板风波",
+      "description": "民生新闻,汽车",
+      "url": "https://s.weibo.com/weibo?q=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%E8%AF%84%E5%88%B9%E8%BD%A6%E8%B8%8F%E6%9D%BF%E9%A3%8E%E6%B3%A2&t=31&band_rank=1&Refer=top",
+      "score": 254694,
+      "owner": "微博实时",
+      "label": "",
+      "category": "民生新闻,汽车",
+      "onboardTime": 1791688700
+    },
+    {
+      "title": "刘琳琳用了宁艺卓的文案",
+      "description": "艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E7%90%B3%E7%90%B3%E7%94%A8%E4%BA%86%E5%AE%81%E8%89%BA%E5%8D%93%E7%9A%84%E6%96%87%E6%A1%88%23&t=31&band_rank=1&Refer=top",
+      "score": 170242,
+      "owner": "微博实时",
+      "label": "",
+      "category": "艺人",
+      "onboardTime": 1791688700
+    },
+    {
+      "title": "白鹿新剧被张亮扇巴掌",
+      "description": "热 · 剧集",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E9%B9%BF%E6%96%B0%E5%89%A7%E8%A2%AB%E5%BC%A0%E4%BA%AE%E6%89%87%E5%B7%B4%E6%8E%8C%23&t=31&band_rank=1&Refer=top",
+      "score": 216983,
+      "owner": "微博实时",
+      "label": "热",
+      "category": "剧集",
+      "onboardTime": 1791688040
+    }
+  ]
+}
