@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-10-11T02:00:25Z",
+  "savedAt": "2026-10-11T08:30:35Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-10-11，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -20,7 +20,7 @@
       "title": "Mistral Large 4",
       "description": "<a href=\"https:&#x2F;&#x2F;docs.mistral.ai&#x2F;models&#x2F;mistral-large-4-0\" rel=\"nofollow\">https:&#x2F;&#x2F;docs.mistral.ai&#x2F;models&#x2F;mistral-large-4-0</a>",
       "url": "https://mistral.ai/news/mistral-large-4/\\",
-      "score": 2036,
+      "score": 2037,
       "comments": 1211,
       "owner": "Philpax",
       "published": "2026-10-06T13:15:49Z",
@@ -30,11 +30,21 @@
       "title": "Triple-A Minesweeper",
       "description": "",
       "url": "https://minesweeper.mikelacher.com/",
-      "score": 1364,
-      "comments": 271,
+      "score": 1380,
+      "comments": 276,
       "owner": "robin_reala",
       "published": "2026-10-09T15:51:05Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50022292"
+    },
+    {
+      "title": "Cloudflare acquires Deno",
+      "description": "",
+      "url": "https://deno.com/blog/cloudflare",
+      "score": 1349,
+      "comments": 702,
+      "owner": "ilreb",
+      "published": "2026-10-09T13:03:48Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50019911"
     },
     {
       "title": "Sharing AI progress in mathematics",
@@ -47,20 +57,10 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=49984923"
     },
     {
-      "title": "Cloudflare acquires Deno",
-      "description": "",
-      "url": "https://deno.com/blog/cloudflare",
-      "score": 1341,
-      "comments": 692,
-      "owner": "ilreb",
-      "published": "2026-10-09T13:03:48Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50019911"
-    },
-    {
       "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
       "description": "",
       "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
-      "score": 1111,
+      "score": 1114,
       "comments": 977,
       "owner": "jonotime",
       "published": "2026-10-08T00:14:48Z",
@@ -80,8 +80,8 @@
       "title": "Sorry, I'm in a meeting",
       "description": "",
       "url": "https://iminafleeting.com/",
-      "score": 1002,
-      "comments": 274,
+      "score": 1010,
+      "comments": 277,
       "owner": "splintersio",
       "published": "2026-10-09T09:21:48Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50018088"
@@ -90,8 +90,8 @@
       "title": "Whistle: Speech to Text in 16.9 MB",
       "description": "",
       "url": "https://cactuscompute.com/blog/whistle",
-      "score": 946,
-      "comments": 181,
+      "score": 949,
+      "comments": 182,
       "owner": "gmays",
       "published": "2026-10-08T16:59:39Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50008427"
@@ -100,7 +100,7 @@
       "title": "Man discovers his parents' coffee machine used 1TB of data in 10 days",
       "description": "<a href=\"https:&#x2F;&#x2F;x.com&#x2F;NomadsGalaxy&#x2F;status&#x2F;2107284088247689290\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;NomadsGalaxy&#x2F;status&#x2F;2107284088247689290</a>",
       "url": "https://www.dexerto.com/entertainment/man-discovers-his-parents-coffee-machine-used-1tb-of-data-in-10-days-3416399/",
-      "score": 944,
+      "score": 946,
       "comments": 570,
       "owner": "ck2",
       "published": "2026-10-07T16:56:30Z",
@@ -110,8 +110,8 @@
       "title": "Trump administration is suspending Microsoft from a green card program",
       "description": "",
       "url": "https://apnews.com/article/h1b-visa-program-vance-microsoft-e7b3a407f822702b269ee277d21343ea",
-      "score": 936,
-      "comments": 1605,
+      "score": 937,
+      "comments": 1606,
       "owner": "alephnerd",
       "published": "2026-10-08T15:15:00Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50006832"
@@ -130,7 +130,7 @@
       "title": "I hired an illustrator to draw my house. Now it's my Home Assistant dashboard",
       "description": "",
       "url": "https://antonfrolov.substack.com/p/i-hired-an-illustrator-to-draw-my",
-      "score": 921,
+      "score": 922,
       "comments": 202,
       "owner": "soheilpro",
       "published": "2026-10-07T01:41:03Z",
@@ -147,6 +147,16 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=49961057"
     },
     {
+      "title": "Yes, and",
+      "description": "",
+      "url": "https://htmx.org/essays/yes-and/",
+      "score": 774,
+      "comments": 302,
+      "owner": "Michelangelo11",
+      "published": "2026-10-08T09:48:18Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50003796"
+    },
+    {
       "title": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
       "description": "",
       "url": "https://github.com/omlahore/RemoveMacAI",
@@ -155,16 +165,6 @@
       "owner": "privacyisntdead",
       "published": "2026-10-04T19:42:25Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=49957116"
-    },
-    {
-      "title": "Yes, and",
-      "description": "",
-      "url": "https://htmx.org/essays/yes-and/",
-      "score": 770,
-      "comments": 302,
-      "owner": "Michelangelo11",
-      "published": "2026-10-08T09:48:18Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50003796"
     },
     {
       "title": "Tell HN: I've been paying for a rural Tanzanian's education for 10 years",
@@ -187,24 +187,24 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=49996425"
     },
     {
-      "title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
-      "description": "",
-      "url": "https://bigwords.page/",
-      "score": 719,
-      "comments": 163,
-      "owner": "SpeakingOfBrad",
-      "published": "2026-10-07T15:44:21Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49994443"
-    },
-    {
       "title": "REA Reverse – Engineer Anything",
       "description": "",
       "url": "https://rea.tools/",
-      "score": 713,
-      "comments": 308,
+      "score": 731,
+      "comments": 316,
       "owner": "modinfo",
       "published": "2026-10-10T00:37:07Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50028275"
+    },
+    {
+      "title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
+      "description": "",
+      "url": "https://bigwords.page/",
+      "score": 720,
+      "comments": 164,
+      "owner": "SpeakingOfBrad",
+      "published": "2026-10-07T15:44:21Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49994443"
     }
   ]
 }
