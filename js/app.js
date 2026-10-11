@@ -655,8 +655,7 @@ function weiboRealtimeLiveHint() {
   return "";
 }
 
-async function resolveSource(data, sourceKey = activeSourceKey, { lite = false } = {}) {
-  const dateKey = selectedDates[sourceKey] || "latest";
+async function resolveSource(data, sourceKey = activeSourceKey, { lite = false, dateKey = selectedDates[sourceKey] || "latest" } = {}) {
   if (dateKey === "latest") {
     // Weibo「实时」：每次进入都优先走 live 代理（不吃 latestSourceCache）
     if (sourceKey === WEIBO_REALTIME_KEY && !lite) {
@@ -692,11 +691,11 @@ async function resolveSource(data, sourceKey = activeSourceKey, { lite = false }
         return snapshot;
       }
       // Older deploys may not have .lite.json yet — fall back to full payload.
-      if (lite) return resolveSource(data, sourceKey, { lite: false });
+      if (lite) return resolveSource(data, sourceKey, { lite: false, dateKey });
     } catch (_) {
       if (lite) {
         try {
-          return await resolveSource(data, sourceKey, { lite: false });
+          return await resolveSource(data, sourceKey, { lite: false, dateKey });
         } catch (__) {
           /* fall through */
         }

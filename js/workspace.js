@@ -102,7 +102,7 @@ function workspaceRecordVisit(key, source) {
 async function workspaceDigestRows() {
   const rows = await Promise.all(flattenCatalogSources(appData).map(async key => {
     try {
-      const source = await resolveSource(appData, key, { lite: true });
+      const source = await resolveSource(appData, key, { lite: true, dateKey: 'latest' });
       const changes = workspaceChanges(source.items || [], workspaceVisitsBefore?.[key], itemFingerprint);
       return { key, source, ...changes, first: !workspaceVisitsBefore?.[key] };
     } catch (error) { return { key, error: error.message }; }

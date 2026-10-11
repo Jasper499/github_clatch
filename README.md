@@ -112,3 +112,13 @@ python scripts/prune_history.py   # 瘦身旧 history + 重写 feeds
 - 背景设置可保存 10 套个人主题（背景参数、明暗、密度与阅读设置），图片文件仍留在当前设备。
 - 手动同步已存在备份时先展示两端独有条目、笔记与设置差异；明确确认后再覆盖。取消预览不会写入。
 - 回归验证：`node scripts/check_workspace.cjs`、`node scripts/check_site.cjs`。
+
+
+## 个人知识主页（v32）
+
+- 首页提供 HJL 品牌介绍、开源 / MRI / AI Skills 主题入口、四个栏目的最新内容摘选和个人阅读概况。摘选来自实际发布快照，不是人工推荐或实时排名。
+- 默认深色，保留已选择的浅色与本地背景偏好；首页使用青绿色强调色，内容页沿用各平台阅读布局。
+- 首页、摘要与关注汇总明确读取最新快照，不受阅读页选中历史日期影响；进入内容后仍可选择历史日期。
+- 更新状态折叠收纳，保留收藏、稍后阅读、历史检索、同步、离线阅读与订阅功能。
+- 设计参考：Brittany Chiang（个人介绍与项目层次）、Lee Robinson（简洁阅读结构）、Maggie Appleton（知识分类）、Anthony Fu（个人品牌与项目入口）。借鉴结构，未使用其代码、照片或文案。
+- 参考网站：https://brittanychiang.com/ 、https://leerob.com/ 、https://maggieappleton.com/garden 、https://antfu.me/ 。

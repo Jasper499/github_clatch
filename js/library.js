@@ -89,7 +89,7 @@ async function resolveLibraryLegacy() {
   const known = new Map();
   for (const key of flattenCatalogSources(appData)) {
     try {
-      const source = await resolveSource(appData, key, { lite: true });
+      const source = await resolveSource(appData, key, { lite: true, dateKey: 'latest' });
       source.items?.forEach((item, index) => known.set(itemFingerprint(item), { item: librarySlimItem(item), sourceKey: key, date: librarySnapshotDate(key, source), index }));
       if (missing.some(([id]) => !known.has(id))) {
         for (const part of manifest.search?.[key] || []) {
@@ -183,12 +183,34 @@ async function libraryReadOffline(entry) {
   const content = document.createElement('div'); content.className = 'markdown-body'; content.innerHTML = libraryMarkdown(saved.readme || saved.item?.description, saved.item); body.append(content);
   document.getElementById('library-reader').showModal();
 }
-function closePersonalHome() { const home = document.getElementById('personal-home'); if (home && !home.hidden) { home.hidden = true; document.getElementById('content-panel').hidden = false; } }
+function closePersonalHome() { document.querySelector('.skip-link').href = '#content-panel'; document.documentElement.removeAttribute('data-home'); const home = document.getElementById('personal-home'); if (home && !home.hidden) { home.hidden = true; document.getElementById('content-panel').hidden = false; } }
+function libraryHomeSelection(rows) {
+  return ['github', 'mrm', 'scientificSkills', 'hackernews'].flatMap(key => {
+    const row = rows.find(r => r.key === key && r.source?.items?.length);
+    return row ? [{ key, source: row.source, item: row.source.items[0], index: 0 }] : [];
+  });
+}
 async function openPersonalHome() {
+  document.documentElement.setAttribute('data-home', '1');
+  document.querySelector('.skip-link').href = '#personal-home';
+  document.getElementById('home-date').textContent = new Intl.DateTimeFormat('zh-CN', { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' }).format(new Date());
   document.getElementById('personal-home').hidden = false; document.getElementById('content-panel').hidden = true;
   history.replaceState(null, '', location.pathname + location.search);
   const rows = await workspaceDigestRows(); const body = document.getElementById('home-updates'); body.replaceChildren();
   const add = (text, key, index = 0) => { const b = document.createElement('button'); b.type = 'button'; b.className = 'workspace-result'; b.textContent = text; b.onclick = () => { selectedDates[key] = 'latest'; persistDates(); jumpToSource(appData, key, index); }; body.append(b); };
+  document.getElementById('home-source-count').textContent = `${rows.filter(row => row.source).length} / ${rows.length} 个数据源可读`;
+  const times = rows.map(row => Date.parse(row.source?.savedAt)).filter(Number.isFinite);
+  document.getElementById('home-published').textContent = times.length ? `最近发布 · ${formatDate(new Date(Math.max(...times)).toISOString())}` : '暂未取得发布数据，可在更新状态中检查。';
+  const featured = document.getElementById('home-featured'); featured.replaceChildren();
+  for (const row of libraryHomeSelection(rows)) {
+    const button = document.createElement('button'); button.type = 'button'; button.className = 'home-feature-card';
+    const meta = document.createElement('span'); meta.className = 'home-eyebrow'; meta.textContent = row.source.label || getPlatformMeta(row.key).name;
+    const title = document.createElement('h3'); title.textContent = plainText(row.item.title);
+    const description = document.createElement('p'); description.textContent = plainText(row.item.description || '打开查看正文与原始链接。').slice(0, 180);
+    const action = document.createElement('span'); action.className = 'home-feature-action'; action.textContent = '进入阅读 ↗'; button.append(meta, title, description, action);
+    button.onclick = () => { selectedDates[row.key] = 'latest'; persistDates(); jumpToSource(appData, row.key, row.index); }; featured.append(button);
+  }
+  if (!featured.childElementCount) featured.textContent = '内容暂时不可用，请检查网络后重试。';
   for (const row of rows) if (row.source) { add(`${row.source.label || row.key} · 新增 ${row.added.length} · 变更 ${row.changed.length}`, row.key); workspaceRecordVisit(row.key, row.source); }
   document.getElementById('home-saved-count').textContent = Object.values(savedItems).filter(v => v.saved).length;
   document.getElementById('home-later-count').textContent = Object.values(savedItems).filter(v => v.later).length;
@@ -222,6 +244,7 @@ function applyLibraryReader() {
 function initReadingLibrary() {
   const dialog = document.getElementById('library-dialog'); if (dialog.dataset.bound) return; dialog.dataset.bound = '1';
   document.querySelectorAll('[data-library-open]').forEach(b => { b.onclick = () => void openReadingLibrary().catch(e => libraryNotice(e.message)); });
+  document.querySelectorAll('[data-home-source]').forEach(b => { b.onclick = () => { const key = b.dataset.homeSource; selectedDates[key] = 'latest'; persistDates(); jumpToSource(appData, key, 0); }; });
   document.querySelectorAll('[data-home-open]').forEach(b => { b.onclick = () => void openPersonalHome().catch(e => workspaceNotice(e.message)); });
   document.querySelectorAll('[data-close-dialog]').forEach(b => { b.onclick = () => b.closest('dialog').close(); });
   for (const id of ['library-query', 'library-kind', 'library-tag']) document.getElementById(id).oninput = () => { libraryPage = 0; libraryPaint(); };
@@ -249,4 +272,4 @@ function initReadingLibrary() {
   document.getElementById('theme-delete').onclick = () => { if (themes.value === '') return; const list = workspaceRead('hjl-personal-themes', []); list.splice(Number(themes.value), 1); localStorage.setItem('hjl-personal-themes', JSON.stringify(list)); fillThemes(); };
   if (libraryStartedWithoutRoute && start.value === 'home') void openPersonalHome().catch(e => workspaceNotice(e.message));
 }
-if (typeof module !== 'undefined') module.exports = { librarySlimItem, libraryLink, libraryBackupDiff, libraryCitation };
+if (typeof module !== 'undefined') module.exports = { librarySlimItem, libraryLink, libraryBackupDiff, libraryCitation, libraryHomeSelection };

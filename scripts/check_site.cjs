@@ -60,6 +60,14 @@ function section(start, end) { return app.slice(app.indexOf(start), app.indexOf(
   handler({ key: 'Enter', target: { closest: () => null }, preventDefault() {} });
   assert.equal(opened, 1);
 
+  const sourceRequests = [];
+  const sources = { selectedDates: { github: '2026-09-01' }, latestSourceCache: {}, historyCache: {}, SOURCES_BASE: 'data/sources', WEIBO_REALTIME_KEY: 'weiboRealtime', fetch: async url => { sourceRequests.push(url); return new Response(JSON.stringify({ items: [] })); } };
+  vm.createContext(sources);
+  vm.runInContext(section('async function resolveSource(', 'function escapeHtml('), sources);
+  await sources.resolveSource({}, 'github', { lite: true, dateKey: 'latest' });
+  assert(sourceRequests[0].startsWith('data/sources/github.lite.json'), 'Home digest must load latest even when the reader selected history');
+  assert.equal(sources.selectedDates.github, '2026-09-01');
+
   let homeClosed = false;
   const routeContext = { activeSourceKey: 'github', selectedDates: { github: 'latest' }, activeItemIndex: 0, closePersonalHome: () => { homeClosed = true; } };
   vm.runInNewContext(section('function applyRoute(', 'function platformIcon(') + '\napplyRoute({}, {sourceKey:"github",dateKey:"latest",itemIndex:0});', routeContext);

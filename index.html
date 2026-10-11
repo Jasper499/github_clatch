@@ -29,7 +29,7 @@
     (function () {
       try {
         var saved = localStorage.getItem("hjl-theme");
-        var theme = saved || (matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+        var theme = saved || "dark";
         document.documentElement.setAttribute("data-theme", theme);
         document.documentElement.setAttribute("data-platform", "github");
         var ws = localStorage.getItem("hjl-workstation");
@@ -46,7 +46,7 @@
       }
     })();
   </script>
-  <link rel="stylesheet" href="css/style.css?v=31">
+  <link rel="stylesheet" href="css/style.css?v=32">
 </head>
 <body>
   <script>
@@ -64,8 +64,7 @@
   <a class="skip-link" href="#content-panel">跳到内容</a>
   <header class="ws-bar" id="ws-bar" aria-label="工作站控制台">
     <div class="ws-brand">
-      <strong>HJL Clatch</strong>
-      <span class="ws-brand-sub">工作站</span>
+      <span class="ws-monogram" aria-hidden="true">H.</span><div><strong>HJL Clatch</strong><span class="ws-brand-sub">PERSONAL OBSERVATORY</span></div>
     </div>
     <nav class="ws-status" id="ws-status" aria-label="栏目健康"></nav>
     <p class="ws-ticker" id="ws-ticker" aria-label="今日一句"></p>
@@ -285,11 +284,28 @@
         <nav id="catalog-tree" class="catalog-tree"></nav>
       </aside>
 
-      <section id="personal-home" class="content-panel personal-home" hidden aria-labelledby="home-title">
-        <div class="home-heading"><div><p class="muted">你的阅读工作站</p><h1 id="home-title">今天，从这里开始</h1></div><button type="button" data-library-open class="ws-btn">打开收藏中心</button></div>
-        <div class="home-metrics"><button type="button" data-library-open>我的收藏 <strong id="home-saved-count">0</strong></button><button type="button" data-library-open>稍后阅读 <strong id="home-later-count">0</strong></button>
-          <label>下次打开首页时 <select id="start-page" class="select"><option value="home">显示个人首页</option><option value="resume">恢复上次阅读位置</option></select></label></div>
-        <div class="home-grid"><section><h2>自上次访问以来</h2><div id="home-updates">正在汇总…</div></section><section><h2>我的关注</h2><div id="home-follow"></div></section><section class="home-health"><h2>更新状态</h2><div id="home-health"></div></section></div>
+      <section id="personal-home" class="content-panel personal-home" tabindex="-1" hidden aria-labelledby="home-title">
+        <div class="home-hero">
+          <div class="home-intro"><p class="home-eyebrow"><span aria-hidden="true"></span> HJL · PERSONAL KNOWLEDGE SPACE</p>
+            <h1 id="home-title">把信息，<br>变成<span>下一步。</span></h1>
+            <p class="home-description">这里是 HJL 的个人知识工作台。追踪开源项目、MRI 研究与 AI Skills，让每一次阅读都有迹可循。</p>
+            <div class="home-hero-actions"><button type="button" class="home-primary" data-home-source="github">探索开源项目 <span aria-hidden="true">↗</span></button><button type="button" data-library-open class="home-secondary">打开我的收藏</button></div>
+            <div class="home-profile-links"><a href="https://github.com/Jasper499" target="_blank" rel="noopener noreferrer">GitHub / Jasper499 ↗</a><span aria-hidden="true">·</span><a href="data/feeds/all.xml">订阅更新 ↗</a></div>
+          </div>
+          <aside class="home-desk" aria-label="阅读概况"><p class="home-eyebrow">ON MY DESK</p><p class="home-desk-title">持续发现，<br>慢慢积累。</p><p id="home-date" class="muted"></p>
+            <div class="home-metrics"><button type="button" data-library-open><strong id="home-saved-count">0</strong><span>我的收藏</span></button><button type="button" data-library-open><strong id="home-later-count">0</strong><span>稍后阅读</span></button></div>
+            <p id="home-published" class="home-published" role="status">正在读取发布数据…</p>
+          </aside>
+        </div>
+        <nav class="home-paths" aria-label="从主题开始">
+          <button type="button" data-home-source="github"><span class="home-path-number">01 / BUILD</span><strong>开源与技术</strong><span>GitHub 项目与 Hacker News</span><span class="home-path-arrow" aria-hidden="true">↗</span></button>
+          <button type="button" data-home-source="mrm"><span class="home-path-number">02 / RESEARCH</span><strong>MRI 研究</strong><span>MRM · TMI · MedIA</span><span class="home-path-arrow" aria-hidden="true">↗</span></button>
+          <button type="button" data-home-source="scientificSkills"><span class="home-path-number">03 / EXPLORE</span><strong>AI Skills</strong><span>Nature 与 Scientific Skills</span><span class="home-path-arrow" aria-hidden="true">↗</span></button>
+        </nav>
+        <section class="home-editorial" aria-labelledby="home-featured-title"><div class="home-section-heading"><div><p class="home-eyebrow">THE READING EDIT</p><h2 id="home-featured-title">最新内容摘选</h2></div><span>来自已发布的栏目快照</span></div><div id="home-featured" class="home-featured" aria-live="polite">正在读取内容…</div></section>
+        <div class="home-grid"><section class="home-update-section"><div class="home-section-heading"><h2>自上次访问以来</h2><span id="home-source-count"></span></div><div id="home-updates">正在汇总…</div></section><section><p class="home-eyebrow">FOR YOU</p><h2>我的关注</h2><div id="home-follow"></div></section></div>
+        <details class="home-health"><summary>栏目更新状态 <span>查看计划与最近更新时间</span></summary><div id="home-health"></div></details>
+        <footer class="home-footer"><p>HJL Clatch <span>· 为长期阅读留一个位置。</span></p><label>下次打开首页时 <select id="start-page" class="select"><option value="home">显示个人首页</option><option value="resume">恢复上次阅读位置</option></select></label></footer>
       </section>
 
       <main id="content-panel" class="content-panel" tabindex="-1">
@@ -535,9 +551,9 @@
     crossorigin="anonymous"
   ></script>
   <script src="js/icons.js?v=25"></script>
-  <script src="js/update-schedule.js?v=31"></script>
-  <script src="js/workspace.js?v=31"></script>
-  <script src="js/library.js?v=31"></script>
-  <script src="js/app.js?v=31"></script>
+  <script src="js/update-schedule.js?v=32"></script>
+  <script src="js/workspace.js?v=32"></script>
+  <script src="js/library.js?v=32"></script>
+  <script src="js/app.js?v=32"></script>
 </body>
 </html>
