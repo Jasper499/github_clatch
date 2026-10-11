@@ -1,150 +1,110 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-10-11T06:10:31Z",
+  "savedAt": "2026-10-11T12:10:30Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-11，共 14 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-11，共 10 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-10-11",
   "items": [
     {
-      "title": "每一个名字都是山河丰碑",
+      "title": "青春华章强农报国",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%AF%8F%E4%B8%80%E4%B8%AA%E5%90%8D%E5%AD%97%E9%83%BD%E6%98%AF%E5%B1%B1%E6%B2%B3%E4%B8%B0%E7%A2%91%23&t=31&band_rank=1&Refer=top",
-      "score": 740348,
+      "url": "https://s.weibo.com/weibo?q=%23%E9%9D%92%E6%98%A5%E5%8D%8E%E7%AB%A0%E5%BC%BA%E5%86%9C%E6%8A%A5%E5%9B%BD%23&t=31&band_rank=1&Refer=top",
+      "score": 876651,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1791686841
+      "onboardTime": 1791705259
     },
     {
-      "title": "汽车刹车踏板绝不应该在驾驶中断裂",
-      "description": "民生新闻,汽车",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B1%BD%E8%BD%A6%E5%88%B9%E8%BD%A6%E8%B8%8F%E6%9D%BF%E7%BB%9D%E4%B8%8D%E5%BA%94%E8%AF%A5%E5%9C%A8%E9%A9%BE%E9%A9%B6%E4%B8%AD%E6%96%AD%E8%A3%82%23&t=31&band_rank=1&Refer=top",
-      "score": 318912,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻,汽车",
-      "onboardTime": 1791689479
-    },
-    {
-      "title": "在曼谷失联摄影师已回国",
+      "title": "插队被拒投诉儿科医生的家长已道歉",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%9C%A8%E6%9B%BC%E8%B0%B7%E5%A4%B1%E8%81%94%E6%91%84%E5%BD%B1%E5%B8%88%E5%B7%B2%E5%9B%9E%E5%9B%BD%23&t=31&band_rank=1&Refer=top",
-      "score": 316029,
+      "url": "https://s.weibo.com/weibo?q=%23%E6%8F%92%E9%98%9F%E8%A2%AB%E6%8B%92%E6%8A%95%E8%AF%89%E5%84%BF%E7%A7%91%E5%8C%BB%E7%94%9F%E7%9A%84%E5%AE%B6%E9%95%BF%E5%B7%B2%E9%81%93%E6%AD%89%23&t=31&band_rank=1&Refer=top",
+      "score": 734801,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1791681437
+      "onboardTime": 1791713660
     },
     {
       "title": "社保",
-      "description": "新 · 民生新闻",
+      "description": "沸 · 民生新闻",
       "url": "https://s.weibo.com/weibo?q=%E7%A4%BE%E4%BF%9D&t=31&band_rank=1&Refer=top",
-      "score": 268454,
+      "score": 248330,
+      "owner": "微博同城",
+      "label": "沸",
+      "category": "民生新闻",
+      "onboardTime": 1791695961
+    },
+    {
+      "title": "杭州限狗令白天遛狗罚款",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E6%9D%AD%E5%B7%9E%E9%99%90%E7%8B%97%E4%BB%A4%E7%99%BD%E5%A4%A9%E9%81%9B%E7%8B%97%E7%BD%9A%E6%AC%BE&t=31&band_rank=1&Refer=top",
+      "score": 247221,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1791695961
+      "onboardTime": 1791719600
+    },
+    {
+      "title": "2688元住酒店可自驾进天眼核心区",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%232688%E5%85%83%E4%BD%8F%E9%85%92%E5%BA%97%E5%8F%AF%E8%87%AA%E9%A9%BE%E8%BF%9B%E5%A4%A9%E7%9C%BC%E6%A0%B8%E5%BF%83%E5%8C%BA%23&t=31&band_rank=1&Refer=top",
+      "score": 246096,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1791720081
+    },
+    {
+      "title": "医院接诊银鳕鱼汞超标患儿激增",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8C%BB%E9%99%A2%E6%8E%A5%E8%AF%8A%E9%93%B6%E9%B3%95%E9%B1%BC%E6%B1%9E%E8%B6%85%E6%A0%87%E6%82%A3%E5%84%BF%E6%BF%80%E5%A2%9E%23&t=31&band_rank=1&Refer=top",
+      "score": 240501,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1791720081
+    },
+    {
+      "title": "男子踹飞自闭症男童属加重情节",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E8%B8%B9%E9%A3%9E%E8%87%AA%E9%97%AD%E7%97%87%E7%94%B7%E7%AB%A5%E5%B1%9E%E5%8A%A0%E9%87%8D%E6%83%85%E8%8A%82%23&t=31&band_rank=1&Refer=top",
+      "score": 238974,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1791720081
     },
     {
       "title": "人民日报评刹车踏板风波",
       "description": "民生新闻,汽车",
       "url": "https://s.weibo.com/weibo?q=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%E8%AF%84%E5%88%B9%E8%BD%A6%E8%B8%8F%E6%9D%BF%E9%A3%8E%E6%B3%A2&t=31&band_rank=1&Refer=top",
-      "score": 254694,
+      "score": 209634,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻,汽车",
       "onboardTime": 1791688700
     },
     {
-      "title": "电诈园区打人视频曝光",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E7%94%B5%E8%AF%88%E5%9B%AD%E5%8C%BA%E6%89%93%E4%BA%BA%E8%A7%86%E9%A2%91%E6%9B%9D%E5%85%89&t=31&band_rank=1&Refer=top",
-      "score": 247062,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1791683360
-    },
-    {
-      "title": "山西佛光寺出头之日冰箱贴火了",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%B1%B1%E8%A5%BF%E4%BD%9B%E5%85%89%E5%AF%BA%E5%87%BA%E5%A4%B4%E4%B9%8B%E6%97%A5%E5%86%B0%E7%AE%B1%E8%B4%B4%E7%81%AB%E4%BA%86&t=31&band_rank=1&Refer=top",
-      "score": 217486,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1791691160
-    },
-    {
-      "title": "遭咬死男子戴耳机跳舞求和老虎合影",
-      "description": "突发/灾害",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%81%AD%E5%92%AC%E6%AD%BB%E7%94%B7%E5%AD%90%E6%88%B4%E8%80%B3%E6%9C%BA%E8%B7%B3%E8%88%9E%E6%B1%82%E5%92%8C%E8%80%81%E8%99%8E%E5%90%88%E5%BD%B1%23&t=31&band_rank=1&Refer=top",
-      "score": 213454,
-      "owner": "微博同城",
-      "label": "",
-      "category": "突发/灾害",
-      "onboardTime": 1791688040
-    },
-    {
-      "title": "施永青建议推会漏的避孕套",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E6%96%BD%E6%B0%B8%E9%9D%92%E5%BB%BA%E8%AE%AE%E6%8E%A8%E4%BC%9A%E6%BC%8F%E7%9A%84%E9%81%BF%E5%AD%95%E5%A5%97&t=31&band_rank=1&Refer=top",
-      "score": 211048,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1791679880
-    },
-    {
-      "title": "胖东来盖个楼又狠狠出圈了",
+      "title": "灵活就业者全额承担社保",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%83%96%E4%B8%9C%E6%9D%A5%E7%9B%96%E4%B8%AA%E6%A5%BC%E5%8F%88%E7%8B%A0%E7%8B%A0%E5%87%BA%E5%9C%88%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 189562,
+      "url": "https://s.weibo.com/weibo?q=%E7%81%B5%E6%B4%BB%E5%B0%B1%E4%B8%9A%E8%80%85%E5%85%A8%E9%A2%9D%E6%89%BF%E6%8B%85%E7%A4%BE%E4%BF%9D&t=31&band_rank=1&Refer=top",
+      "score": 209089,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1791695419
+      "onboardTime": 1791718700
     },
     {
-      "title": "利雅得机场遭袭致12死309伤",
+      "title": "上海小伙看完厕所后租下超小卧室",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%88%A9%E9%9B%85%E5%BE%97%E6%9C%BA%E5%9C%BA%E9%81%AD%E8%A2%AD%E8%87%B412%E6%AD%BB309%E4%BC%A4%23&t=31&band_rank=1&Refer=top",
-      "score": 175789,
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%8A%E6%B5%B7%E5%B0%8F%E4%BC%99%E7%9C%8B%E5%AE%8C%E5%8E%95%E6%89%80%E5%90%8E%E7%A7%9F%E4%B8%8B%E8%B6%85%E5%B0%8F%E5%8D%A7%E5%AE%A4&t=31&band_rank=1&Refer=top",
+      "score": 193646,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1791676578
-    },
-    {
-      "title": "新疆五胞胎妈妈回应100个指甲错峰剪",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%96%B0%E7%96%86%E4%BA%94%E8%83%9E%E8%83%8E%E5%A6%88%E5%A6%88%E5%9B%9E%E5%BA%94100%E4%B8%AA%E6%8C%87%E7%94%B2%E9%94%99%E5%B3%B0%E5%89%AA%23&t=31&band_rank=1&Refer=top",
-      "score": 173485,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1791697640
-    },
-    {
-      "title": "多起中国公民赴泰失联",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%A4%9A%E8%B5%B7%E4%B8%AD%E5%9B%BD%E5%85%AC%E6%B0%91%E8%B5%B4%E6%B3%B0%E5%A4%B1%E8%81%94&t=31&band_rank=1&Refer=top",
-      "score": 167109,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1791689000
-    },
-    {
-      "title": "服装店被质疑用猫毛做皮草",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E6%9C%8D%E8%A3%85%E5%BA%97%E8%A2%AB%E8%B4%A8%E7%96%91%E7%94%A8%E7%8C%AB%E6%AF%9B%E5%81%9A%E7%9A%AE%E8%8D%89&t=31&band_rank=1&Refer=top",
-      "score": 154835,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1791692959
+      "onboardTime": 1791712220
     }
   ]
 }
