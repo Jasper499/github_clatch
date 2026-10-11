@@ -1,44 +1,44 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-10-11T02:20:33Z",
+  "changed": true,
+  "fetchedAt": "2026-10-11T09:03:42Z",
   "previousSha": "163c4971ae9e8ff374e667a25146a1e3a572e5c7",
-  "latestSha": "163c4971ae9e8ff374e667a25146a1e3a572e5c7",
+  "latestSha": "e605b35611ab2849af46d0cf7831aefdcf85be07",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "Merge pull request #233 from anupamme/fix-repo-nature-skills-gitlab-b…",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/163c4971ae9e8ff374e667a25146a1e3a572e5c7",
-    "sha": "163c497",
-    "published": "2026-10-10"
+    "title": "fix(nature-academic-search): make --retry 0 still try once in format-…",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/e605b35611ab2849af46d0cf7831aefdcf85be07",
+    "sha": "e605b35",
+    "published": "2026-10-11"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
     {
-      "title": "Merge pull request #233 from anupamme/fix-repo-nature-skills-gitlab-b…",
-      "sha": "163c497",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/163c4971ae9e8ff374e667a25146a1e3a572e5c7"
+      "title": "fix(nature-academic-search): make --retry 0 still try once in format-…",
+      "sha": "e605b35",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/e605b35611ab2849af46d0cf7831aefdcf85be07"
     },
     {
-      "title": "Merge pull request #234 from anupamme/fix-repo-nature-skills-cwe-22-p…",
-      "sha": "0905433",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/0905433aebb79ba32a98077c0cc6e58521035e90"
+      "title": "fix(nature-figure): report OpenRouter timeouts and image download fai…",
+      "sha": "4d35a8c",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/4d35a8c4acf101923fa45c0cc30fabf4b952fba9"
     },
     {
-      "title": "Merge pull request #240 from yadnuses/feat/nature-social-science",
-      "sha": "76d59f2",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/76d59f257e14a73c3ee6cb488d1f5634a45cb6f4"
+      "title": "fix(nature-response): resolve \\input of a dotted filename like sec1.f…",
+      "sha": "c985590",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c98559061c0f277339ea2c8259fd2f41e3746688"
     },
     {
-      "title": "Merge branch 'main' into feat/nature-social-science",
-      "sha": "dd6dac3",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/dd6dac35072ecf7963bba609f0eb710d6040d633"
+      "title": "fix: match a top-level --output path in the star-history README cache…",
+      "sha": "500b5a2",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/500b5a2b06423e6a1e62be1979ace07017fbaef6"
     },
     {
-      "title": "Merge pull request #250 from kailzhu/main",
-      "sha": "028f68e",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/028f68ef87e0d441b99124d683798e0aaa479134"
+      "title": "fix: leave the star-history chart unchanged when stargazer counts dis…",
+      "sha": "fec7b45",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/fec7b45f7979bd0837e859e92ebf8a73fc71e6e2"
     }
   ]
 }
