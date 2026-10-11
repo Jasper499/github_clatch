@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-11T022033Z",
+  "day": "2026-10-11",
+  "sourceKey": "natureSkillsCommits",
+  "savedAt": "2026-10-11T02:20:33Z",
+  "label": "最近提交",
+  "description": "最近 15 条提交动态",
+  "updateFrequency": "daily",
+  "repo": "Yuan1z0825/nature-skills",
+  "latestSha": "163c4971ae9e8ff374e667a25146a1e3a572e5c7",
+  "items": [
+    {
+      "title": "Merge pull request #233 from anupamme/fix-repo-nature-skills-gitlab-b…",
+      "description": "Merge pull request #233 from anupamme/fix-repo-nature-skills-gitlab-bandit-b313-b314-b315-b316-b318-b319-b320-b405-b406-b407-b408-b6f7b4ae\n\nharden: secure _input_normalization.py (CWE-611)",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/163c4971ae9e8ff374e667a25146a1e3a572e5c7",
+      "sha": "163c497",
+      "fullSha": "163c4971ae9e8ff374e667a25146a1e3a572e5c7",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-10",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #234 from anupamme/fix-repo-nature-skills-cwe-22-p…",
+      "description": "Merge pull request #234 from anupamme/fix-repo-nature-skills-cwe-22-page-dir-path-traversal\n\nharden: add path validation in build_page_worker_prompt.py (CWE-22)",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/0905433aebb79ba32a98077c0cc6e58521035e90",
+      "sha": "0905433",
+      "fullSha": "0905433aebb79ba32a98077c0cc6e58521035e90",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-10",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #240 from yadnuses/feat/nature-social-science",
+      "description": "Merge pull request #240 from yadnuses/feat/nature-social-science\n\nfeat: add nature-social-science skill — 社科写作与选题论证工作台",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/76d59f257e14a73c3ee6cb488d1f5634a45cb6f4",
+      "sha": "76d59f2",
+      "fullSha": "76d59f257e14a73c3ee6cb488d1f5634a45cb6f4",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-10",
+      "label": "commit"
+    },
+    {
+      "title": "Merge branch 'main' into feat/nature-social-science",
+      "description": "Merge branch &#39;main&#39; into feat/nature-social-science",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/dd6dac35072ecf7963bba609f0eb710d6040d633",
+      "sha": "dd6dac3",
+      "fullSha": "dd6dac35072ecf7963bba609f0eb710d6040d633",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-10",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #250 from kailzhu/main",
+      "description": "Merge pull request #250 from kailzhu/main\n\nfix: AttibuteError by adding annotations #249",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/028f68ef87e0d441b99124d683798e0aaa479134",
+      "sha": "028f68e",
+      "fullSha": "028f68ef87e0d441b99124d683798e0aaa479134",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-10",
+      "label": "commit"
+    },
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/58a166cbabdbcd60362fb3a623d9013ef52e9f91",
+      "sha": "58a166c",
+      "fullSha": "58a166cbabdbcd60362fb3a623d9013ef52e9f91",
+      "owner": "github-actions",
+      "published": "2026-10-10",
+      "label": "commit"
+    },
+    {
+      "title": "fix: AttibuteError by adding annotations",
+      "description": "fix: AttibuteError by adding annotations",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/322d404b7964ee148081616b69e3d5e8798a2284",
+      "sha": "322d404",
+      "fullSha": "322d404b7964ee148081616b69e3d5e8798a2284",
+      "owner": "kailzhu",
+      "published": "2026-10-09",
+      "label": "commit"
+    },
+    {
+      "title": "Update README.md",
+      "description": "Update README.md",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/2a20e4a0868ef9094257cb5386cfe623454ae092",
+      "sha": "2a20e4a",
+      "fullSha": "2a20e4a0868ef9094257cb5386cfe623454ae092",
+      "owner": "Flyme886",
+      "published": "2026-10-08",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #247 from Wang-auspicious/add-nature-paper-xray",
+      "description": "Merge pull request #247 from Wang-auspicious/add-nature-paper-xray\n\nfeat(nature-paper-xray): 新增单篇论文精读技能（教程视频一周内录制并发给维护者）",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/d5c8baa15d6b1bd44bff07865da83961449da01a",
+      "sha": "d5c8baa",
+      "fullSha": "d5c8baa15d6b1bd44bff07865da83961449da01a",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-08",
+      "label": "commit"
+    },
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/7d5f160ebfe8033375b4afef7c5911aa4203c983",
+      "sha": "7d5f160",
+      "fullSha": "7d5f160ebfe8033375b4afef7c5911aa4203c983",
+      "owner": "github-actions",
+      "published": "2026-10-07",
+      "label": "commit"
+    },
+    {
+      "title": "feat(nature-paper-xray): 新增单篇论文精读技能",
+      "description": "feat(nature-paper-xray): 新增单篇论文精读技能\n\n新增 `nature-paper-xray`：把一篇给定论文读到能复述作者的推理，而不是复述摘要。\n\n它做四件事：\n\n- 还原作者真实的出发点——这一步要解决前人的哪个具体问题；论文没讲就写论文没讲，不替作者编动机\n- 分清承重与装饰——这个设计拿掉会塌，还是顺手加的；有消融或附录能判断就指出来，没有就写论文没做这个对照\n- 公式落到能手算的例子——每个符号给形状和含义，关键公式后面跟一个微型例子，写具体数字算到底\n- 核对证据边界——正文数字与图表是否一致、基线对照条件是否对齐、超参是否只在测试集上挑、有没有预处理泄漏、代价与结论失效的条件\n\n划界：只读不判。它报告论文做了什么、证据够到哪儿，不评分、不排名、不判录用成熟度或新颖性\n（那是 nature-reviewer）；不提炼写作范式、不翻译、不检索文献、不核验引用、不代写正文。\n\n文件：\n\n- `SKILL.md`——立场、工作流、按论文类型调整阅读重心、边界、输出规范\n- `references/deep-reading-protocol.md`——精读顺序、能手算例子的标准、承重判定、交付物结构与失败模式\n- `references/evidence-boundary.md`——数字一致性、基线对齐、选择压力、泄漏、代价与范围、缺口如何如实写、严重度分级\n- `README.md` / `README_EN.md`——中英镜像，六个基础章节\n- `manifest.yaml`、`agents/openai.yaml`\n\n同时更新根 README 的技能索引（中英各加一行）与技能数徽章 20 → 21。\n\n本地校验：\n\n  python scripts/validate-skill-metadata.py   passed, 22 skill directories, 21 triggerable skills\n  python scripts/validate-readme-mirror.py    passed, 22 mirrored skill docs checked\n  python scripts/validate-skill-index.py      passed, 21 triggerable skills, 22 listed entries\n  python scripts/validate-readmes.py          passed\n  python scripts/validate-repository.py       passed, 22 skill directories checked\n  python -m pytest -q scripts/tests           120 passed, 16 subtests passed\n  git diff --check                            clean",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/47b4bdae345809c1aa3c8d9a273bf1473d9acecd",
+      "sha": "47b4bda",
+      "fullSha": "47b4bdae345809c1aa3c8d9a273bf1473d9acecd",
+      "owner": "Wang-auspicious",
+      "published": "2026-10-06",
+      "label": "commit"
+    },
+    {
+      "title": "Add files via upload",
+      "description": "Add files via upload\n\n修复和windows不兼容问题",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/b543e8b998eb2df1fd44641cc8b262c638c2b442",
+      "sha": "b543e8b",
+      "fullSha": "b543e8b998eb2df1fd44641cc8b262c638c2b442",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-06",
+      "label": "commit"
+    },
+    {
+      "title": "Delete skills/nature-paper-trans directory",
+      "description": "Delete skills/nature-paper-trans directory",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/fe7b779e08a577fd5e19b92aa8eb84484461ed73",
+      "sha": "fe7b779",
+      "fullSha": "fe7b779e08a577fd5e19b92aa8eb84484461ed73",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-06",
+      "label": "commit"
+    },
+    {
+      "title": "Add files via upload",
+      "description": "Add files via upload",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/9d42378c2aa993a01dd670c15595417a81ca4138",
+      "sha": "9d42378",
+      "fullSha": "9d42378c2aa993a01dd670c15595417a81ca4138",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-06",
+      "label": "commit"
+    },
+    {
+      "title": "Delete skills/nature-paper-trans directory",
+      "description": "Delete skills/nature-paper-trans directory",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/698e754554baca8404fcfcf84841dc138e87ff23",
+      "sha": "698e754",
+      "fullSha": "698e754554baca8404fcfcf84841dc138e87ff23",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-06",
+      "label": "commit"
+    }
+  ]
+}
