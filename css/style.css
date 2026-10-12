@@ -5835,3 +5835,49 @@ html[data-home="1"] .sidebar { border-radius: 14px; }
   html[data-home="1"] .ws-brand-sub { display: inline; font-size: 7px; }
   .home-health summary span { display: block; margin: .5rem 0 0 1rem; }
 }
+/* Profile-led home: a quiet introduction beside the reading stream. */
+html[data-home="1"][data-theme="dark"] { --bg: #0f172a; --bg-elevated: #111c31; --surface: #142039; --surface-solid: #16243e; --surface-hover: #1a2c45; --text: #e2e8f0; --muted: #a1afc4; --border: #263851; --accent: #5eead4; --accent-soft: #16383c; }
+.home-role { font-size: 20px; font-weight: 500; letter-spacing: -.02em; margin: -.4rem 0 1.1rem; color: var(--text); }
+.home-manifesto { font-size: 14px; line-height: 1.9; color: var(--muted); margin-bottom: 1.2rem; }
+.home-section-nav { display: grid; gap: .4rem; margin: 1.4rem 0 1.7rem; }
+.home-section-nav button { display: flex; align-items: center; gap: .8rem; padding: .5rem 0; background: transparent; color: var(--muted); border: 0; width: fit-content; font: 600 11px var(--font-sans); letter-spacing: .05em; cursor: pointer; }
+.home-section-nav button span { width: 24px; height: 1px; background: var(--muted); transition: width .15s; }
+.home-section-nav button:is(:hover, :focus-visible) { color: var(--accent); }
+.home-section-nav button:is(:hover, :focus-visible) span { width: 48px; background: var(--accent); }
+.home-journal { min-width: 0; }
+.home-feature-card { border-radius: 10px; padding: 1.4rem; border: 1px solid transparent; transition: background .15s, border-color .15s; }
+.home-feature-card:is(:hover, :focus-visible) { background: var(--surface-hover); border-color: var(--border); }
+.home-feature-card .home-feature-action { padding-top: .8rem; }
+.home-feature-tags { display: flex; flex-wrap: wrap; gap: .4rem; margin: .2rem 0 .5rem; }
+.home-feature-tags > span { color: var(--accent); background: var(--accent-soft); border-radius: 100px; font-size: 9px; padding: .3rem .6rem; line-height: 1.5; }
+.home-paths button { transition: background .15s, border-color .15s; }
+.home-paths button:focus-visible { background: var(--surface-hover); border-color: var(--accent); }
+.home-featured { gap: .5rem; }
+@media (min-width: 1101px) {
+  html[data-home="1"] .app-layout { grid-template-columns: minmax(0, 1fr); }
+  html[data-home="1"] .sidebar { display: none !important; }
+  html[data-home="1"] .personal-home { display: grid; grid-template-columns: minmax(290px, .8fr) minmax(0, 1.2fr); gap: clamp(2rem, 5vw, 6rem); padding: 2.5rem max(2rem, calc((100% - 1180px) / 2)); }
+  .home-hero { display: block; position: sticky; top: 0; align-self: start; border: 0; padding: .5rem 0 0; }
+  .home-intro h1 { font-size: clamp(3.5rem, 5vw, 5rem); line-height: 1.1; margin-bottom: 1rem; }
+  .home-description { font-size: 12px; line-height: 1.85; max-width: 32em; }
+  .home-desk { margin-top: 2rem; padding: 1rem; background: transparent; border: 0; border-top: 1px solid var(--border); border-radius: 0; }
+  .home-desk::after, .home-desk-title { display: none; }
+  .home-desk .home-eyebrow { margin-bottom: .5rem; }
+  .home-desk .home-metrics { padding: .6rem 0 1rem; }
+  .home-desk .home-metrics strong { font-size: 24px; }
+  .home-desk .home-published { padding-top: .6rem; }
+  .home-paths { grid-template-columns: minmax(0, 1fr); gap: .6rem; padding-top: .5rem; }
+  .home-paths button { padding: 1rem 1.2rem; background: transparent; }
+  .home-paths strong { font-size: 15px; }
+  .home-featured { grid-template-columns: minmax(0, 1fr); }
+  .home-feature-card h3 { font-size: 17px; }
+  .home-feature-card p { font-size: 12px; }
+  .personal-home .home-grid { grid-template-columns: minmax(0, 1fr); }
+  .personal-home .home-grid section { background: transparent; border-color: var(--border); }
+}
+@media (max-width: 1100px) { .home-intro h1 { font-size: clamp(3rem, 8vw, 4.5rem); } .home-section-nav { display: flex; flex-wrap: wrap; gap: 1rem; } }
+@media (prefers-reduced-motion: reduce) { .home-section-nav button span, .home-feature-card, .home-paths button, .home-hero-actions button { transition: none; } }
+.home-platform-links { display: flex; flex-wrap: wrap; gap: .5rem .8rem; margin: 0 0 1.4rem; }
+.home-platform-links button { border: 0; padding: .25rem 0; background: transparent; color: var(--muted); cursor: pointer; font: 10px var(--font-sans); }
+.home-platform-links button:is(:hover, :focus-visible) { color: var(--accent); text-decoration: underline; }
+@media (min-width: 1101px) and (max-height: 850px) { .home-hero { position: static; } }

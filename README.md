@@ -122,3 +122,10 @@ python scripts/prune_history.py   # 瘦身旧 history + 重写 feeds
 - 更新状态折叠收纳，保留收藏、稍后阅读、历史检索、同步、离线阅读与订阅功能。
 - 设计参考：Brittany Chiang（个人介绍与项目层次）、Lee Robinson（简洁阅读结构）、Maggie Appleton（知识分类）、Anthony Fu（个人品牌与项目入口）。借鉴结构，未使用其代码、照片或文案。
 - 参考网站：https://brittanychiang.com/ 、https://leerob.com/ 、https://maggieappleton.com/garden 、https://antfu.me/ 。
+
+
+## 个人主页排版（v33）
+
+- 参考 Brittany Chiang 的个人介绍与内容分栏：宽屏固定左侧 HJL 介绍，右侧浏览主题、摘选与阅读动态；窄屏自动改为纵向布局。
+- 首页章节按钮滚动到目标并移动键盘焦点，不改变内容路由；内容卡片显示实际来源、语言或期刊标签。
+- 深色首页采用海军蓝与青绿色，卡片悬停与键盘焦点反馈一致；减少动态效果偏好会关闭过渡。

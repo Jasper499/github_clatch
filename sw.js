@@ -1,15 +1,15 @@
 /* HJL Clatch service worker — cache shell + recent data for offline reading. */
-const CACHE_SHELL = "clatch-shell-v32";
-const CACHE_DATA = "clatch-data-v32";
+const CACHE_SHELL = "clatch-shell-v33";
+const CACHE_DATA = "clatch-data-v33";
 
 const SHELL_FILES = [
   "./",
   "./index.html",
-  "./css/style.css?v=32",
-  "./js/app.js?v=32",
-  "./js/update-schedule.js?v=32",
-  "./js/workspace.js?v=32",
-  "./js/library.js?v=32",
+  "./css/style.css?v=33",
+  "./js/app.js?v=33",
+  "./js/update-schedule.js?v=33",
+  "./js/workspace.js?v=33",
+  "./js/library.js?v=33",
   "./js/icons.js?v=25",
   "./img/ws-scene.svg",
   "./img/ws-grid.svg",

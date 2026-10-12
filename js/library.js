@@ -207,7 +207,9 @@ async function openPersonalHome() {
     const meta = document.createElement('span'); meta.className = 'home-eyebrow'; meta.textContent = row.source.label || getPlatformMeta(row.key).name;
     const title = document.createElement('h3'); title.textContent = plainText(row.item.title);
     const description = document.createElement('p'); description.textContent = plainText(row.item.description || '打开查看正文与原始链接。').slice(0, 180);
-    const action = document.createElement('span'); action.className = 'home-feature-action'; action.textContent = '进入阅读 ↗'; button.append(meta, title, description, action);
+    const tags = document.createElement('span'); tags.className = 'home-feature-tags';
+    for (const text of new Set([row.item.language, row.item.journal, getPlatformMeta(row.key).name].filter(Boolean))) { const tag = document.createElement('span'); tag.textContent = String(text); tags.append(tag); }
+    const action = document.createElement('span'); action.className = 'home-feature-action'; action.textContent = '进入阅读 ↗'; button.append(meta, title, description, tags, action);
     button.onclick = () => { selectedDates[row.key] = 'latest'; persistDates(); jumpToSource(appData, row.key, row.index); }; featured.append(button);
   }
   if (!featured.childElementCount) featured.textContent = '内容暂时不可用，请检查网络后重试。';
@@ -244,6 +246,7 @@ function applyLibraryReader() {
 function initReadingLibrary() {
   const dialog = document.getElementById('library-dialog'); if (dialog.dataset.bound) return; dialog.dataset.bound = '1';
   document.querySelectorAll('[data-library-open]').forEach(b => { b.onclick = () => void openReadingLibrary().catch(e => libraryNotice(e.message)); });
+  document.querySelectorAll('[data-home-section]').forEach(b => { b.onclick = () => { const section = document.getElementById(b.dataset.homeSection); section.scrollIntoView({ block: 'start' }); section.setAttribute('tabindex', '-1'); section.focus({ preventScroll: true }); }; });
   document.querySelectorAll('[data-home-source]').forEach(b => { b.onclick = () => { const key = b.dataset.homeSource; selectedDates[key] = 'latest'; persistDates(); jumpToSource(appData, key, 0); }; });
   document.querySelectorAll('[data-home-open]').forEach(b => { b.onclick = () => void openPersonalHome().catch(e => workspaceNotice(e.message)); });
   document.querySelectorAll('[data-close-dialog]').forEach(b => { b.onclick = () => b.closest('dialog').close(); });
