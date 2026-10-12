@@ -6,7 +6,9 @@ The driver implements NVIDIA-backed display and Metal interfaces. Feature availa
 
 Made by **NullMoth Systems**.
 
-**Latest update:** [1401 and NVIDIA driver 1.3.0](docs/RELEASE-1.3.0.md). See the changes, validation and qualification scope before updating.
+**Latest update:** [1401 and NVIDIA driver 1.14.0](docs/RELEASE-1.14.0.md). See the changes, validation and qualification scope before updating.
+
+**Something not working?** [Why a machine does not work, and how to fix it](docs/TROUBLESHOOTING.md) - every known problem, where it stops, why, and the fix.
 
 Installing macOS from Windows? Use **1401**: https://github.com/nullmoth/1401
 
@@ -85,6 +87,14 @@ them from `EFI/OC/Kexts`. OpenCore only needs to set SIP and boot-args.
 | `csr-active-config` | `<430A0000>` (Data) | the tested value: unsigned kexts, plus what root patches need |
 | `boot-args` | `nvfb=1 nvaccel=1 nvfbheads=4 -nvkmsnosmooth amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0` | framebuffer + accelerator, 4 display heads; the AMFI args let WindowServer load the driver bundle |
 
+Optional boot arguments, for troubleshooting:
+
+| boot-arg | Effect |
+|---|---|
+| `-nvrmnoflip` | keeps the composited frame on the copy path: NVRM never turns on zero-copy scan-out (`debug.nvaccel_iop_flip`), so the display reads a finished copy instead of the surface the GPU may still be drawing. Try it first when the desktop flashes or tears while the cursor moves. |
+| `-nvrmnogo` | the driver idles until `nvrmctl go <pass>` instead of starting the GPU itself. |
+| `-nvrmnobootscreen` | do not snapshot the boot screen. |
+
 Add every key you set to `NVRAM → Delete` as well, so the values are rewritten each boot.
 
 | Setting | Value | Why |
@@ -131,7 +141,11 @@ build/build_xlate.sh       # translator  -> libnvmtl_translate.dylib
 RELEASE=1 build/build_plugin.sh   # plugin -> NVMTLDriver.bundle (RELEASE=1 strips every diagnostic)
 build/build263.sh          # NVK: apply nvk/nvk-macos.patch to Mesa 17ca6174 first
 build/accel_build.sh <src> <out>  # kexts
+build/accel_build_all.sh kexts/NVRM <out>  # NVAccel for macOS 15 and 26 (NM_TAHOE=1) -> <out>/{15,26}
 ```
+
+Rebuild both accelerators whenever `nvrm_vram_abi.h` or `nvrm_gpuva_abi.h` changes: an accelerator built against an
+older ABI loads, but NVRMFB refuses all its VRAM requests and the desktop stays black.
 
 ## License
 
