@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-12T022032Z",
+  "day": "2026-10-12",
+  "sourceKey": "natureSkillsCommits",
+  "savedAt": "2026-10-12T02:20:32Z",
+  "label": "最近提交",
+  "description": "最近 15 条提交动态",
+  "updateFrequency": "daily",
+  "repo": "Yuan1z0825/nature-skills",
+  "latestSha": "e605b35611ab2849af46d0cf7831aefdcf85be07",
+  "items": [
+    {
+      "title": "fix(nature-academic-search): make --retry 0 still try once in format-…",
+      "description": "fix(nature-academic-search): make --retry 0 still try once in format-converter\n\nefetch_medline, download_crossref and download_arxiv looped over range(retries),\nso --retry 0 skipped the loop entirely: download_crossref then hit\nUnboundLocalError on `data`, and the other two returned nothing. Use\nmax(1, retries) attempts. Adds tests for a successful and a failing download.\n\nXinrui Ma",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/e605b35611ab2849af46d0cf7831aefdcf85be07",
+      "sha": "e605b35",
+      "fullSha": "e605b35611ab2849af46d0cf7831aefdcf85be07",
+      "owner": "Travisma2233",
+      "published": "2026-10-11",
+      "label": "commit"
+    },
+    {
+      "title": "fix(nature-figure): report OpenRouter timeouts and image download fai…",
+      "description": "fix(nature-figure): report OpenRouter timeouts and image download failures cleanly\n\nrequest_images only caught HTTPError and URLError, so a socket timeout while\nwaiting for headers or reading the body escaped as a raw TimeoutError traceback\nafter the request had already been sent (and billed). The second urlopen that\nfetches item[&quot;url&quot;] had no handler at all. Catch OSError/TimeoutError for both\nand exit with a clear message. Adds tests.\n\nXinrui Ma",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/4d35a8c4acf101923fa45c0cc30fabf4b952fba9",
+      "sha": "4d35a8c",
+      "fullSha": "4d35a8c4acf101923fa45c0cc30fabf4b952fba9",
+      "owner": "Travisma2233",
+      "published": "2026-10-11",
+      "label": "commit"
+    },
+    {
+      "title": "fix(nature-response): resolve \\input of a dotted filename like sec1.f…",
+      "description": "fix(nature-response): resolve \\input of a dotted filename like sec1.final\n\ncheck_package_consistency appended &quot;.tex&quot; only when the target had no suffix, so\n\\input{sec1.final} (a file named sec1.final.tex) looked for &quot;sec1.final&quot;, failed\nis_file(), and the include was left unexpanded; the checker then silently skipped\nthat section&#39;s text. Follow LaTeX: try name.tex first, then the literal name.\nAdds tests, including explicit .tex and extensionless existing files.\n\nXinrui Ma",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c98559061c0f277339ea2c8259fd2f41e3746688",
+      "sha": "c985590",
+      "fullSha": "c98559061c0f277339ea2c8259fd2f41e3746688",
+      "owner": "Travisma2233",
+      "published": "2026-10-11",
+      "label": "commit"
+    },
+    {
+      "title": "fix: match a top-level --output path in the star-history README cache…",
+      "description": "fix: match a top-level --output path in the star-history README cache-buster\n\nFor `--output star-history.svg` PurePosixPath(...).parent is &quot;.&quot;, so the pattern\nrequired a literal &quot;./&quot; prefix and matched nothing: the SVG was written, then\nupdate_readme_cache_buster raised RuntimeError and left the README stale.\nOmit the directory prefix for a top-level file and anchor the match so it does\nnot rewrite a longer filename such as other-star-history.svg. Adds tests.\n\nXinrui Ma",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/500b5a2b06423e6a1e62be1979ace07017fbaef6",
+      "sha": "500b5a2",
+      "fullSha": "500b5a2b06423e6a1e62be1979ace07017fbaef6",
+      "owner": "Travisma2233",
+      "published": "2026-10-11",
+      "label": "commit"
+    },
+    {
+      "title": "fix: leave the star-history chart unchanged when stargazer counts dis…",
+      "description": "fix: leave the star-history chart unchanged when stargazer counts disagree\n\nfetch_stargazers raised StarHistoryUnavailable (&quot;leaving the existing chart\nunchanged&quot;) when GitHub&#39;s reported count and the returned timestamps differ by\nmore than 100, but main only caught that exception around build_daily_points, so\nthe job crashed with a traceback and exit 1 instead of warning and returning 0.\nCatch it around the fetch too. A missing token is a configuration error, so it\nnow raises a StarHistoryAuthRequired subclass that still fails the job. Adds tests.\n\nXinrui Ma",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/fec7b45f7979bd0837e859e92ebf8a73fc71e6e2",
+      "sha": "fec7b45",
+      "fullSha": "fec7b45f7979bd0837e859e92ebf8a73fc71e6e2",
+      "owner": "Travisma2233",
+      "published": "2026-10-11",
+      "label": "commit"
+    },
+    {
+      "title": "fix(nature-academic-search): skip arXiv error entries instead of retu…",
+      "description": "fix(nature-academic-search): skip arXiv error entries instead of returning a paper\n\narXiv reports a bad request as an &lt;entry&gt; with id http://arxiv.org/api/errors#...\nand title &quot;Error&quot;. The id regex matched the trailing NNNN.NNNNN, so\nget_by_id(&quot;2401.99999&quot;) returned {&quot;title&quot;: &quot;Error&quot;, ...} instead of raising\n&quot;Paper not found&quot;. Skip entries whose id is an /api/errors URL. Adds tests.\n\nXinrui Ma",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/afb69116b612d1ce2d7c133f8797480bf2b0a39e",
+      "sha": "afb6911",
+      "fullSha": "afb69116b612d1ce2d7c133f8797480bf2b0a39e",
+      "owner": "Travisma2233",
+      "published": "2026-10-11",
+      "label": "commit"
+    },
+    {
+      "title": "fix(nature-academic-search): ignore Scopus \"Result set was empty\" ent…",
+      "description": "fix(nature-academic-search): ignore Scopus &quot;Result set was empty&quot; entries\n\nScopus answers an empty search with entry: [{&quot;error&quot;: &quot;Result set was empty&quot;}].\n_search_entries passed that dict through, so search(&quot;TITLE(xyz)&quot;) returned\ntotal 0 plus one phantom result with every field null. Drop entries carrying an\n&quot;error&quot; key (ScienceDirect already filtered its equivalent). Adds tests.\n\nXinrui Ma",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/4e4b4bdf5e4d114403491c0cbe3d4e100b6153f2",
+      "sha": "4e4b4bd",
+      "fullSha": "4e4b4bdf5e4d114403491c0cbe3d4e100b6153f2",
+      "owner": "Travisma2233",
+      "published": "2026-10-11",
+      "label": "commit"
+    },
+    {
+      "title": "fix(nature-downloader): require an open licence before calling an art…",
+      "description": "fix(nature-downloader): require an open licence before calling an article OA\n\nconfirmedOa and the publisher_oa candidate treated any Crossref licence URL as\nproof of open access, but paywalled articles routinely carry publisher TDM or\nuser licences (for example elsevier.com/tdm/userlicense/1.0), so a subscription\narticle was reported as &quot;confirmed_oa&quot; even when Unpaywall said it was closed.\nOnly a Creative Commons licence (URL or cc-by style token) now counts. Adds\ntests for the TDM case and the CC URL case.\n\nXinrui Ma",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/17df687d15dd4505055765d73bfaba0711662244",
+      "sha": "17df687",
+      "fullSha": "17df687d15dd4505055765d73bfaba0711662244",
+      "owner": "Travisma2233",
+      "published": "2026-10-11",
+      "label": "commit"
+    },
+    {
+      "title": "fix(nature-downloader): do not overwrite a saved paper that has the s…",
+      "description": "fix(nature-downloader): do not overwrite a saved paper that has the same title\n\nsaveFullTextResponse named the file from the title (or DOI, or the literal\n&quot;article&quot; fallback) and renameSync replaced any existing file, so a second paper\nwith the same title (&quot;Editorial&quot;), or any two direct --pdf-url downloads\nwithout a title, silently destroyed the first and left the manifest sha256 for\nit pointing at the wrong bytes. Add -2, -3, ... when the existing file has\ndifferent content, and reuse the file when the bytes are identical. Adds tests.\n\nXinrui Ma",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/38473626a043a74a564a9ad08c538977c56d8c42",
+      "sha": "3847362",
+      "fullSha": "38473626a043a74a564a9ad08c538977c56d8c42",
+      "owner": "Travisma2233",
+      "published": "2026-10-11",
+      "label": "commit"
+    },
+    {
+      "title": "fix(nature-image2ppt): keep source-size slides within PowerPoint's 56…",
+      "description": "fix(nature-image2ppt): keep source-size slides within PowerPoint&#39;s 56 in limit\n\nsource_size_slide divided pixels by a fixed 96, so a 6000x3000 image produced a\n62.5 in wide &lt;p:sldSz&gt; that PowerPoint rejects (its maximum is 56 in per side).\nUse a coarser px/inch when either side would exceed 56 in, keeping the aspect\nratio and recording the px_per_inch actually used. Adds tests.\n\nXinrui Ma",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/9970a62ac728754925c02aaa2776a8d490046684",
+      "sha": "9970a62",
+      "fullSha": "9970a62ac728754925c02aaa2776a8d490046684",
+      "owner": "Travisma2233",
+      "published": "2026-10-11",
+      "label": "commit"
+    },
+    {
+      "title": "fix(nature-image2ppt): resolve package-absolute OPC relationship targets",
+      "description": "fix(nature-image2ppt): resolve package-absolute OPC relationship targets\n\nposixpath.join(&quot;ppt&quot;, &quot;/ppt/slides/slide1.xml&quot;) returns the absolute path\nunchanged, so a relationship Target written as &quot;/ppt/...&quot; (valid OPC) no longer\nmatched any zip member: the slide read raised KeyError (not caught as the\nValueError normalize_inputs expects) and image parts were reported missing even\nthough they were present. Add join_part() that treats a leading &quot;/&quot; as the\npackage root and use it for resolve_target and both slide-part joins. Adds\ntests.\n\nXinrui Ma",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/b057bc08a0aea61859d834c25518978a0401b331",
+      "sha": "b057bc0",
+      "fullSha": "b057bc08a0aea61859d834c25518978a0401b331",
+      "owner": "Travisma2233",
+      "published": "2026-10-11",
+      "label": "commit"
+    },
+    {
+      "title": "fix(nature-image2ppt): flatten transparent images onto white, not black",
+      "description": "fix(nature-image2ppt): flatten transparent images onto white, not black\n\nsave_image_page and extract_image_based_pptx_pages used convert(&quot;RGB&quot;), which\ndrops alpha and exposes the colour stored under transparent pixels (normally\nblack), so a PNG with a transparent background became a black slide\nbackground. Composite RGBA/LA/palette-with-transparency images onto white\nfirst. Adds tests, including partial alpha and opaque pixels unchanged.\n\nXinrui Ma",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/515a2c5503988d1f4b76eee872d2c13276f25b6e",
+      "sha": "515a2c5",
+      "fullSha": "515a2c5503988d1f4b76eee872d2c13276f25b6e",
+      "owner": "Travisma2233",
+      "published": "2026-10-11",
+      "label": "commit"
+    },
+    {
+      "title": "fix(nature-image2ppt): never delete an existing --keep-workdir directory",
+      "description": "fix(nature-image2ppt): never delete an existing --keep-workdir directory\n\n_maybe_keep_workdir called shutil.rmtree on the target whenever it existed, so\n`formula render-latex --keep-workdir assets` (accepted because assets/ is inside\nthe page directory) deleted every image in the page&#39;s assets folder before\ncopying the TeX debug files in. Refuse an existing non-empty target that was not\nwritten by this command (marker file), check it before rendering so it cannot\nmask a LaTeX error, and still replace its own previous copy. Adds tests.\n\nXinrui Ma",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/f2cdd52761bbdb1e4cb55bc10d767fd7c5878d84",
+      "sha": "f2cdd52",
+      "fullSha": "f2cdd52761bbdb1e4cb55bc10d767fd7c5878d84",
+      "owner": "Travisma2233",
+      "published": "2026-10-11",
+      "label": "commit"
+    },
+    {
+      "title": "fix: ignore code-fenced \"##\" lines in update-reference-tocs.py",
+      "description": "fix: ignore code-fenced &quot;##&quot; lines in update-reference-tocs.py\n\nThe heading scan matched any &quot;## &quot; line, including shell comments inside fenced\ncode blocks, so a long reference containing such a block got a bogus Contents\nentry. Track fence state and skip headings inside it. Adds a test.\n\nXinrui Ma",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/66bfe3e3f0eee091b14e48bd594bf14e79db0cc3",
+      "sha": "66bfe3e",
+      "fullSha": "66bfe3e3f0eee091b14e48bd594bf14e79db0cc3",
+      "owner": "Travisma2233",
+      "published": "2026-10-11",
+      "label": "commit"
+    },
+    {
+      "title": "fix: match GitHub heading anchors in update-reference-tocs.py",
+      "description": "fix: match GitHub heading anchors in update-reference-tocs.py\n\ngithub_anchor collapsed runs of spaces and hyphens, but GitHub turns each\nspace into a hyphen without collapsing, so &quot;Input - Output&quot; is\n&quot;input---output&quot; and &quot;A &amp; B&quot; is &quot;a--b&quot;. Generated Contents links for such\nheadings pointed at nonexistent anchors. Adds tests.\n\nXinrui Ma",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/4c558b38545761485b97f684b9c5413b5a3add73",
+      "sha": "4c558b3",
+      "fullSha": "4c558b38545761485b97f684b9c5413b5a3add73",
+      "owner": "Travisma2233",
+      "published": "2026-10-11",
+      "label": "commit"
+    }
+  ]
+}
