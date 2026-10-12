@@ -6,100 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "github:https://github.com/openai/math",
-      "url": "https://github.com/openai/math",
-      "title": "[GitHub 热门新项目] openai/math",
-      "date_published": "2026-10-12T06:56:26Z"
+      "id": "hackernews:https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+      "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+      "title": "[Hacker News 热门] Margaret Hamilton has died",
+      "date_published": "2026-10-12T08:51:31Z"
     },
     {
-      "id": "github:https://github.com/storytold/wordcraft",
-      "url": "https://github.com/storytold/wordcraft",
-      "title": "[GitHub 热门新项目] storytold/wordcraft",
-      "date_published": "2026-10-12T06:56:26Z"
+      "id": "hackernews:https://mistral.ai/news/mistral-large-4/\\",
+      "url": "https://mistral.ai/news/mistral-large-4/\\",
+      "title": "[Hacker News 热门] Mistral Large 4",
+      "date_published": "2026-10-12T08:51:31Z"
     },
     {
-      "id": "github:https://github.com/wheresryan22/anatomy",
-      "url": "https://github.com/wheresryan22/anatomy",
-      "title": "[GitHub 热门新项目] wheresryan22/anatomy",
-      "date_published": "2026-10-12T06:56:26Z"
+      "id": "hackernews:https://minesweeper.mikelacher.com/",
+      "url": "https://minesweeper.mikelacher.com/",
+      "title": "[Hacker News 热门] Triple-A Minesweeper",
+      "date_published": "2026-10-12T08:51:31Z"
     },
     {
-      "id": "github:https://github.com/alchaincyf/huashu-art-motion",
-      "url": "https://github.com/alchaincyf/huashu-art-motion",
-      "title": "[GitHub 热门新项目] alchaincyf/huashu-art-motion",
-      "date_published": "2026-10-12T06:56:26Z"
+      "id": "hackernews:https://deno.com/blog/cloudflare",
+      "url": "https://deno.com/blog/cloudflare",
+      "title": "[Hacker News 热门] Cloudflare acquires Deno",
+      "date_published": "2026-10-12T08:51:31Z"
     },
     {
-      "id": "github:https://github.com/mhtsec/ARTEX",
-      "url": "https://github.com/mhtsec/ARTEX",
-      "title": "[GitHub 热门新项目] mhtsec/ARTEX",
-      "date_published": "2026-10-12T06:56:26Z"
+      "id": "hackernews:https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "title": "[Hacker News 热门] Sharing AI progress in mathematics",
+      "date_published": "2026-10-12T08:51:31Z"
     },
     {
-      "id": "github:https://github.com/zhongerxin/iPhone-use",
-      "url": "https://github.com/zhongerxin/iPhone-use",
-      "title": "[GitHub 热门新项目] zhongerxin/iPhone-use",
-      "date_published": "2026-10-12T06:56:26Z"
+      "id": "hackernews:https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
+      "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
+      "title": "[Hacker News 热门] Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "date_published": "2026-10-12T08:51:31Z"
     },
     {
-      "id": "github:https://github.com/storytold/gridcraft",
-      "url": "https://github.com/storytold/gridcraft",
-      "title": "[GitHub 热门新项目] storytold/gridcraft",
-      "date_published": "2026-10-12T06:56:26Z"
+      "id": "hackernews:https://www.anthropic.com/claude-haiku-5-5",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "title": "[Hacker News 热门] Claude Haiku 5.5",
+      "date_published": "2026-10-12T08:51:31Z"
     },
     {
-      "id": "github:https://github.com/storytold/cadcraft",
-      "url": "https://github.com/storytold/cadcraft",
-      "title": "[GitHub 热门新项目] storytold/cadcraft",
-      "date_published": "2026-10-12T06:56:26Z"
-    },
-    {
-      "id": "githubActive:https://github.com/public-apis/public-apis",
-      "url": "https://github.com/public-apis/public-apis",
-      "title": "[GitHub 活跃项目] public-apis/public-apis",
-      "date_published": "2026-10-12T06:56:26Z"
-    },
-    {
-      "id": "githubActive:https://github.com/freeCodeCamp/freeCodeCamp",
-      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "title": "[GitHub 活跃项目] freeCodeCamp/freeCodeCamp",
-      "date_published": "2026-10-12T06:56:26Z"
-    },
-    {
-      "id": "githubActive:https://github.com/EbookFoundation/free-programming-books",
-      "url": "https://github.com/EbookFoundation/free-programming-books",
-      "title": "[GitHub 活跃项目] EbookFoundation/free-programming-books",
-      "date_published": "2026-10-12T06:56:26Z"
-    },
-    {
-      "id": "githubActive:https://github.com/openclaw/openclaw",
-      "url": "https://github.com/openclaw/openclaw",
-      "title": "[GitHub 活跃项目] openclaw/openclaw",
-      "date_published": "2026-10-12T06:56:26Z"
-    },
-    {
-      "id": "githubActive:https://github.com/nilbuild/developer-roadmap",
-      "url": "https://github.com/nilbuild/developer-roadmap",
-      "title": "[GitHub 活跃项目] nilbuild/developer-roadmap",
-      "date_published": "2026-10-12T06:56:26Z"
-    },
-    {
-      "id": "githubActive:https://github.com/vinta/awesome-python",
-      "url": "https://github.com/vinta/awesome-python",
-      "title": "[GitHub 活跃项目] vinta/awesome-python",
-      "date_published": "2026-10-12T06:56:26Z"
-    },
-    {
-      "id": "githubActive:https://github.com/awesome-selfhosted/awesome-selfhosted",
-      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-      "title": "[GitHub 活跃项目] awesome-selfhosted/awesome-selfhosted",
-      "date_published": "2026-10-12T06:56:26Z"
-    },
-    {
-      "id": "githubActive:https://github.com/obra/superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "title": "[GitHub 活跃项目] obra/superpowers",
-      "date_published": "2026-10-12T06:56:26Z"
+      "id": "hackernews:https://iminafleeting.com/",
+      "url": "https://iminafleeting.com/",
+      "title": "[Hacker News 热门] Sorry, I'm in a meeting",
+      "date_published": "2026-10-12T08:51:31Z"
     }
   ]
 }
