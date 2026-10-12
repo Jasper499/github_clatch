@@ -1,12 +1,23 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-10-12T02:40:53Z",
+  "savedAt": "2026-10-12T09:44:10Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "92ace75ac21efe19a620434e0ca4e356081fe807",
+  "latestSha": "a1043ef544e3a100c28e70a736b6cf32554d0677",
   "items": [
+    {
+      "title": "chore: update security scan report [skip ci]",
+      "description": "chore: update security scan report [skip ci]",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "sha": "a1043ef",
+      "fullSha": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "owner": "github-actions",
+      "published": "2026-10-12",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "chore: update security scan report [skip ci]",
       "description": "chore: update security scan report [skip ci]",
@@ -156,17 +167,6 @@
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/7728c2cf14ab64892561902f8713e5ff8bda4608",
       "sha": "7728c2c",
       "fullSha": "7728c2cf14ab64892561902f8713e5ff8bda4608",
-      "owner": "timothykassis",
-      "published": "2026-09-30",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "fix(deeptools): replace only the BAM filename suffix for indexes",
-      "description": "fix(deeptools): replace only the BAM filename suffix for indexes\n\nFixes #286. Cover parent directories and repeated filename suffixes containing .bam under both index naming conventions.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/d900a9808c4538f84b48fa05eec6104ec140106c",
-      "sha": "d900a98",
-      "fullSha": "d900a9808c4538f84b48fa05eec6104ec140106c",
       "owner": "timothykassis",
       "published": "2026-09-30",
       "label": "commit",
