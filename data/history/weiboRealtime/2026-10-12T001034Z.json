@@ -1,0 +1,312 @@
+{
+  "date": "2026-10-12T001034Z",
+  "day": "2026-10-12",
+  "sourceKey": "weiboRealtime",
+  "savedAt": "2026-10-12T00:10:34Z",
+  "label": "实时",
+  "description": "微博实时上升榜（按上榜时间排序，2026-10-12，共 30 条，约每 6 小时更新）",
+  "updateFrequency": "every-6h",
+  "fetchedDate": "2026-10-12",
+  "items": [
+    {
+      "title": "短剧男演员凭什么日薪五六万",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%E7%9F%AD%E5%89%A7%E7%94%B7%E6%BC%94%E5%91%98%E5%87%AD%E4%BB%80%E4%B9%88%E6%97%A5%E8%96%AA%E4%BA%94%E5%85%AD%E4%B8%87&t=31&band_rank=1&Refer=top",
+      "score": 209478,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1791763400
+    },
+    {
+      "title": "撒贝宁龙凤胎身高遗传了妈妈李白",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%92%92%E8%B4%9D%E5%AE%81%E9%BE%99%E5%87%A4%E8%83%8E%E8%BA%AB%E9%AB%98%E9%81%97%E4%BC%A0%E4%BA%86%E5%A6%88%E5%A6%88%E6%9D%8E%E7%99%BD%23&t=31&band_rank=1&Refer=top",
+      "score": 177583,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1791763221
+    },
+    {
+      "title": "侯明昊工作室 别扯了单身勿扰",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%E4%BE%AF%E6%98%8E%E6%98%8A%E5%B7%A5%E4%BD%9C%E5%AE%A4%20%E5%88%AB%E6%89%AF%E4%BA%86%E5%8D%95%E8%BA%AB%E5%8B%BF%E6%89%B0&t=31&band_rank=1&Refer=top",
+      "score": 285055,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1791762440
+    },
+    {
+      "title": "侯明昊卢昱晓 观鹤笔记",
+      "description": "新 · 剧集",
+      "url": "https://s.weibo.com/weibo?q=%E4%BE%AF%E6%98%8E%E6%98%8A%E5%8D%A2%E6%98%B1%E6%99%93%20%E8%A7%82%E9%B9%A4%E7%AC%94%E8%AE%B0&t=31&band_rank=1&Refer=top",
+      "score": 214024,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "剧集",
+      "onboardTime": 1791762379
+    },
+    {
+      "title": "郑钦文女王回眸",
+      "description": "新 · 体育",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%83%91%E9%92%A6%E6%96%87%E5%A5%B3%E7%8E%8B%E5%9B%9E%E7%9C%B8%23&t=31&band_rank=1&Refer=top",
+      "score": 183431,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "体育",
+      "onboardTime": 1791761959
+    },
+    {
+      "title": "七七与林俊杰妈妈看演出",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%83%E4%B8%83%E4%B8%8E%E6%9E%97%E4%BF%8A%E6%9D%B0%E5%A6%88%E5%A6%88%E7%9C%8B%E6%BC%94%E5%87%BA&t=31&band_rank=1&Refer=top",
+      "score": 163377,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1791761959
+    },
+    {
+      "title": "马化腾带28岁青年与省委书记座谈",
+      "description": "新 · 互联网",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%A9%AC%E5%8C%96%E8%85%BE%E5%B8%A628%E5%B2%81%E9%9D%92%E5%B9%B4%E4%B8%8E%E7%9C%81%E5%A7%94%E4%B9%A6%E8%AE%B0%E5%BA%A7%E8%B0%88%23&t=31&band_rank=1&Refer=top",
+      "score": 108959,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "互联网",
+      "onboardTime": 1791761719
+    },
+    {
+      "title": "性压抑和性羞耻都会向外投射",
+      "description": "新 · 情感",
+      "url": "https://s.weibo.com/weibo?q=%E6%80%A7%E5%8E%8B%E6%8A%91%E5%92%8C%E6%80%A7%E7%BE%9E%E8%80%BB%E9%83%BD%E4%BC%9A%E5%90%91%E5%A4%96%E6%8A%95%E5%B0%84&t=31&band_rank=1&Refer=top",
+      "score": 298738,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "情感",
+      "onboardTime": 1791761358
+    },
+    {
+      "title": "网红小玥去世男友发讣告",
+      "description": "新 · 网红",
+      "url": "https://s.weibo.com/weibo?q=%E7%BD%91%E7%BA%A2%E5%B0%8F%E7%8E%A5%E5%8E%BB%E4%B8%96%E7%94%B7%E5%8F%8B%E5%8F%91%E8%AE%A3%E5%91%8A&t=31&band_rank=1&Refer=top",
+      "score": 256107,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "网红",
+      "onboardTime": 1791761298
+    },
+    {
+      "title": "郑钦文的商业价值有多高",
+      "description": "新 · 体育",
+      "url": "https://s.weibo.com/weibo?q=%E9%83%91%E9%92%A6%E6%96%87%E7%9A%84%E5%95%86%E4%B8%9A%E4%BB%B7%E5%80%BC%E6%9C%89%E5%A4%9A%E9%AB%98&t=31&band_rank=1&Refer=top",
+      "score": 271030,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "体育",
+      "onboardTime": 1791761178
+    },
+    {
+      "title": "腾讯史上破2w7的综艺",
+      "description": "新 · 综艺",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%85%BE%E8%AE%AF%E5%8F%B2%E4%B8%8A%E7%A0%B42w7%E7%9A%84%E7%BB%BC%E8%89%BA%23&t=31&band_rank=1&Refer=top",
+      "score": 269162,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "综艺",
+      "onboardTime": 1791761178
+    },
+    {
+      "title": "檀健次舞台偷笑",
+      "description": "新 · 演出",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%AA%80%E5%81%A5%E6%AC%A1%E8%88%9E%E5%8F%B0%E5%81%B7%E7%AC%91%23&t=31&band_rank=1&Refer=top",
+      "score": 103060,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "演出",
+      "onboardTime": 1791761059
+    },
+    {
+      "title": "林俊杰对七七说不要害羞",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9E%97%E4%BF%8A%E6%9D%B0%E5%AF%B9%E4%B8%83%E4%B8%83%E8%AF%B4%E4%B8%8D%E8%A6%81%E5%AE%B3%E7%BE%9E%23&t=31&band_rank=1&Refer=top",
+      "score": 293407,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1791760879
+    },
+    {
+      "title": "李勒优群里的人为崔晋妈妈发声",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E5%8B%92%E4%BC%98%E7%BE%A4%E9%87%8C%E7%9A%84%E4%BA%BA%E4%B8%BA%E5%B4%94%E6%99%8B%E5%A6%88%E5%A6%88%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
+      "score": 115140,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1791760879
+    },
+    {
+      "title": "双胞胎只有彼此才是自由",
+      "description": "新 · 情感",
+      "url": "https://s.weibo.com/weibo?q=%E5%8F%8C%E8%83%9E%E8%83%8E%E5%8F%AA%E6%9C%89%E5%BD%BC%E6%AD%A4%E6%89%8D%E6%98%AF%E8%87%AA%E7%94%B1&t=31&band_rank=1&Refer=top",
+      "score": 258551,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "情感",
+      "onboardTime": 1791760518
+    },
+    {
+      "title": "我变成了那晚的母亲",
+      "description": "新 · 情感",
+      "url": "https://s.weibo.com/weibo?q=%E6%88%91%E5%8F%98%E6%88%90%E4%BA%86%E9%82%A3%E6%99%9A%E7%9A%84%E6%AF%8D%E4%BA%B2&t=31&band_rank=1&Refer=top",
+      "score": 176136,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "情感",
+      "onboardTime": 1791759978
+    },
+    {
+      "title": "第一次知道汉语拼音的由来",
+      "description": "科学科普",
+      "url": "https://s.weibo.com/weibo?q=%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%9F%A5%E9%81%93%E6%B1%89%E8%AF%AD%E6%8B%BC%E9%9F%B3%E7%9A%84%E7%94%B1%E6%9D%A5&t=31&band_rank=1&Refer=top",
+      "score": 410370,
+      "owner": "微博实时",
+      "label": "",
+      "category": "科学科普",
+      "onboardTime": 1791756375
+    },
+    {
+      "title": "成熟后才知道品味毫无意义",
+      "description": "情感",
+      "url": "https://s.weibo.com/weibo?q=%E6%88%90%E7%86%9F%E5%90%8E%E6%89%8D%E7%9F%A5%E9%81%93%E5%93%81%E5%91%B3%E6%AF%AB%E6%97%A0%E6%84%8F%E4%B9%89&t=31&band_rank=1&Refer=top",
+      "score": 107662,
+      "owner": "微博实时",
+      "label": "",
+      "category": "情感",
+      "onboardTime": 1791754453
+    },
+    {
+      "title": "婚姻不是年龄到了就该结",
+      "description": "情感",
+      "url": "https://s.weibo.com/weibo?q=%E5%A9%9A%E5%A7%BB%E4%B8%8D%E6%98%AF%E5%B9%B4%E9%BE%84%E5%88%B0%E4%BA%86%E5%B0%B1%E8%AF%A5%E7%BB%93&t=31&band_rank=1&Refer=top",
+      "score": 117102,
+      "owner": "微博实时",
+      "label": "",
+      "category": "情感",
+      "onboardTime": 1791754215
+    },
+    {
+      "title": "女孩去马来西亚高薪工作后失联",
+      "description": "情感",
+      "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%A9%E5%8E%BB%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A%E9%AB%98%E8%96%AA%E5%B7%A5%E4%BD%9C%E5%90%8E%E5%A4%B1%E8%81%94&t=31&band_rank=1&Refer=top",
+      "score": 657028,
+      "owner": "微博实时",
+      "label": "",
+      "category": "情感",
+      "onboardTime": 1791754094
+    },
+    {
+      "title": "恋爱要找大方的男朋友",
+      "description": "情感",
+      "url": "https://s.weibo.com/weibo?q=%E6%81%8B%E7%88%B1%E8%A6%81%E6%89%BE%E5%A4%A7%E6%96%B9%E7%9A%84%E7%94%B7%E6%9C%8B%E5%8F%8B&t=31&band_rank=1&Refer=top",
+      "score": 258263,
+      "owner": "微博实时",
+      "label": "",
+      "category": "情感",
+      "onboardTime": 1791753914
+    },
+    {
+      "title": "宋雨琦关晓彤是从跑男认识的",
+      "description": "综艺",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%AE%8B%E9%9B%A8%E7%90%A6%E5%85%B3%E6%99%93%E5%BD%A4%E6%98%AF%E4%BB%8E%E8%B7%91%E7%94%B7%E8%AE%A4%E8%AF%86%E7%9A%84%23&t=31&band_rank=1&Refer=top",
+      "score": 99935,
+      "owner": "微博实时",
+      "label": "",
+      "category": "综艺",
+      "onboardTime": 1791751094
+    },
+    {
+      "title": "郑钦文晒图庆祝夺冠",
+      "description": "体育",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%83%91%E9%92%A6%E6%96%87%E6%99%92%E5%9B%BE%E5%BA%86%E7%A5%9D%E5%A4%BA%E5%86%A0%23&t=31&band_rank=1&Refer=top",
+      "score": 1281840,
+      "owner": "微博实时",
+      "label": "",
+      "category": "体育",
+      "onboardTime": 1791750674
+    },
+    {
+      "title": "利物浦0比3曼城",
+      "description": "体育",
+      "url": "https://s.weibo.com/weibo?q=%E5%88%A9%E7%89%A9%E6%B5%A60%E6%AF%943%E6%9B%BC%E5%9F%8E&t=31&band_rank=1&Refer=top",
+      "score": 106046,
+      "owner": "微博实时",
+      "label": "",
+      "category": "体育",
+      "onboardTime": 1791749534
+    },
+    {
+      "title": "王铮亮祝贺郑钦文夺冠",
+      "description": "体育,艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E9%93%AE%E4%BA%AE%E7%A5%9D%E8%B4%BA%E9%83%91%E9%92%A6%E6%96%87%E5%A4%BA%E5%86%A0%23&t=31&band_rank=1&Refer=top",
+      "score": 117742,
+      "owner": "微博实时",
+      "label": "",
+      "category": "体育,艺人",
+      "onboardTime": 1791745333
+    },
+    {
+      "title": "李九 AG",
+      "description": "电竞",
+      "url": "https://s.weibo.com/weibo?q=%E6%9D%8E%E4%B9%9D%20AG&t=31&band_rank=1&Refer=top",
+      "score": 133430,
+      "owner": "微博实时",
+      "label": "",
+      "category": "电竞",
+      "onboardTime": 1791741736
+    },
+    {
+      "title": "梅尼耶妻子手臂瘦得吓人",
+      "description": "健康医疗",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%A2%85%E5%B0%BC%E8%80%B6%E5%A6%BB%E5%AD%90%E6%89%8B%E8%87%82%E7%98%A6%E5%BE%97%E5%90%93%E4%BA%BA%23&t=31&band_rank=1&Refer=top",
+      "score": 196907,
+      "owner": "微博实时",
+      "label": "",
+      "category": "健康医疗",
+      "onboardTime": 1791739218
+    },
+    {
+      "title": "印度男同事女友是六边形战士",
+      "description": "情感",
+      "url": "https://s.weibo.com/weibo?q=%E5%8D%B0%E5%BA%A6%E7%94%B7%E5%90%8C%E4%BA%8B%E5%A5%B3%E5%8F%8B%E6%98%AF%E5%85%AD%E8%BE%B9%E5%BD%A2%E6%88%98%E5%A3%AB&t=31&band_rank=1&Refer=top",
+      "score": 131213,
+      "owner": "微博实时",
+      "label": "",
+      "category": "情感",
+      "onboardTime": 1791736638
+    },
+    {
+      "title": "刘学义林锦岐告别兰香",
+      "description": "剧集",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E5%AD%A6%E4%B9%89%E6%9E%97%E9%94%A6%E5%B2%90%E5%91%8A%E5%88%AB%E5%85%B0%E9%A6%99%23&t=31&band_rank=1&Refer=top",
+      "score": 132976,
+      "owner": "微博实时",
+      "label": "",
+      "category": "剧集",
+      "onboardTime": 1791735320
+    },
+    {
+      "title": "关晓彤回应去宋雨琦演唱会",
+      "description": "演出",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%85%B3%E6%99%93%E5%BD%A4%E5%9B%9E%E5%BA%94%E5%8E%BB%E5%AE%8B%E9%9B%A8%E7%90%A6%E6%BC%94%E5%94%B1%E4%BC%9A%23&t=31&band_rank=1&Refer=top",
+      "score": 283940,
+      "owner": "微博实时",
+      "label": "",
+      "category": "演出",
+      "onboardTime": 1791735140
+    }
+  ]
+}

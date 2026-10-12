@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-12T001034Z",
+  "day": "2026-10-12",
+  "sourceKey": "weiboLocal",
+  "savedAt": "2026-10-12T00:10:34Z",
+  "label": "同城",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-12，共 8 条，约每 6 小时更新）",
+  "updateFrequency": "every-6h",
+  "fetchedDate": "2026-10-12",
+  "items": [
+    {
+      "title": "本周这些数据值得关注",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E6%9C%AC%E5%91%A8%E8%BF%99%E4%BA%9B%E6%95%B0%E6%8D%AE%E5%80%BC%E5%BE%97%E5%85%B3%E6%B3%A8&t=31&band_rank=1&Refer=top",
+      "score": 676561,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1791720860
+    },
+    {
+      "title": "记者暗访有偿陪伴服务",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%AE%B0%E8%80%85%E6%9A%97%E8%AE%BF%E6%9C%89%E5%81%BF%E9%99%AA%E4%BC%B4%E6%9C%8D%E5%8A%A1%23&t=31&band_rank=1&Refer=top",
+      "score": 544142,
+      "owner": "微博同城",
+      "label": "热",
+      "category": "民生新闻",
+      "onboardTime": 1791734001
+    },
+    {
+      "title": "央视曝投资1.2亿项目仅建5个棚",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%AE%E8%A7%86%E6%9B%9D%E6%8A%95%E8%B5%841.2%E4%BA%BF%E9%A1%B9%E7%9B%AE%E4%BB%85%E5%BB%BA5%E4%B8%AA%E6%A3%9A%23&t=31&band_rank=1&Refer=top",
+      "score": 512870,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1791730221
+    },
+    {
+      "title": "社保",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E7%A4%BE%E4%BF%9D&t=31&band_rank=1&Refer=top",
+      "score": 292377,
+      "owner": "微博同城",
+      "label": "热",
+      "category": "民生新闻",
+      "onboardTime": 1791695961
+    },
+    {
+      "title": "被骗缅北女孩遭遇惨不忍睹",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E8%A2%AB%E9%AA%97%E7%BC%85%E5%8C%97%E5%A5%B3%E5%AD%A9%E9%81%AD%E9%81%87%E6%83%A8%E4%B8%8D%E5%BF%8D%E7%9D%B9&t=31&band_rank=1&Refer=top",
+      "score": 262578,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1791727224
+    },
+    {
+      "title": "网传缅北诈骗盯上泰百粉丝",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E7%BD%91%E4%BC%A0%E7%BC%85%E5%8C%97%E8%AF%88%E9%AA%97%E7%9B%AF%E4%B8%8A%E6%B3%B0%E7%99%BE%E7%B2%89%E4%B8%9D&t=31&band_rank=1&Refer=top",
+      "score": 149603,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1791722661
+    },
+    {
+      "title": "2.2米去世女网红小玥曾被查出脑瘤",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%232.2%E7%B1%B3%E5%8E%BB%E4%B8%96%E5%A5%B3%E7%BD%91%E7%BA%A2%E5%B0%8F%E7%8E%A5%E6%9B%BE%E8%A2%AB%E6%9F%A5%E5%87%BA%E8%84%91%E7%98%A4%23&t=31&band_rank=1&Refer=top",
+      "score": 105323,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1791730822
+    },
+    {
+      "title": "杭州限狗令白天遛狗罚款",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E6%9D%AD%E5%B7%9E%E9%99%90%E7%8B%97%E4%BB%A4%E7%99%BD%E5%A4%A9%E9%81%9B%E7%8B%97%E7%BD%9A%E6%AC%BE&t=31&band_rank=1&Refer=top",
+      "score": 95679,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1791719600
+    }
+  ]
+}
