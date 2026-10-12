@@ -1,0 +1,312 @@
+{
+  "date": "2026-10-12T181031Z",
+  "day": "2026-10-12",
+  "sourceKey": "weiboRealtime",
+  "savedAt": "2026-10-12T18:10:31Z",
+  "label": "实时",
+  "description": "微博实时上升榜（按上榜时间排序，2026-10-12，共 30 条，约每 6 小时更新）",
+  "updateFrequency": "every-6h",
+  "fetchedDate": "2026-10-12",
+  "items": [
+    {
+      "title": "施晗首胜TOP20",
+      "description": "新 · 体育",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%96%BD%E6%99%97%E9%A6%96%E8%83%9CTOP20%23&t=31&band_rank=1&Refer=top",
+      "score": 72061,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "体育",
+      "onboardTime": 1791828136
+    },
+    {
+      "title": "Gala又倒在八强",
+      "description": "新 · 电竞",
+      "url": "https://s.weibo.com/weibo?q=%23Gala%E5%8F%88%E5%80%92%E5%9C%A8%E5%85%AB%E5%BC%BA%23&t=31&band_rank=1&Refer=top",
+      "score": 71890,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "电竞",
+      "onboardTime": 1791827536
+    },
+    {
+      "title": "武网大屏展示王欣瑜冠军头衔0",
+      "description": "新 · 体育",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%AD%A6%E7%BD%91%E5%A4%A7%E5%B1%8F%E5%B1%95%E7%A4%BA%E7%8E%8B%E6%AC%A3%E7%91%9C%E5%86%A0%E5%86%9B%E5%A4%B4%E8%A1%940%23&t=31&band_rank=1&Refer=top",
+      "score": 72275,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "体育",
+      "onboardTime": 1791827235
+    },
+    {
+      "title": "无畏直播恭迎少宗主回宗",
+      "description": "新 · 电竞",
+      "url": "https://s.weibo.com/weibo?q=%E6%97%A0%E7%95%8F%E7%9B%B4%E6%92%AD%E6%81%AD%E8%BF%8E%E5%B0%91%E5%AE%97%E4%B8%BB%E5%9B%9E%E5%AE%97&t=31&band_rank=1&Refer=top",
+      "score": 49729,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "电竞",
+      "onboardTime": 1791827175
+    },
+    {
+      "title": "备婚女生因三金折现和父母争吵",
+      "description": "新 · 情感",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%87%E5%A9%9A%E5%A5%B3%E7%94%9F%E5%9B%A0%E4%B8%89%E9%87%91%E6%8A%98%E7%8E%B0%E5%92%8C%E7%88%B6%E6%AF%8D%E4%BA%89%E5%90%B5&t=31&band_rank=1&Refer=top",
+      "score": 100656,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "情感",
+      "onboardTime": 1791826936
+    },
+    {
+      "title": "霸王茶姬加盟商发声",
+      "description": "新 · 财经",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%9C%B8%E7%8E%8B%E8%8C%B6%E5%A7%AC%E5%8A%A0%E7%9B%9F%E5%95%86%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
+      "score": 124957,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "财经",
+      "onboardTime": 1791826577
+    },
+    {
+      "title": "崔晋妈妈推荐视频文案",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%B4%94%E6%99%8B%E5%A6%88%E5%A6%88%E6%8E%A8%E8%8D%90%E8%A7%86%E9%A2%91%E6%96%87%E6%A1%88%23&t=31&band_rank=1&Refer=top",
+      "score": 86548,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1791825496
+    },
+    {
+      "title": "刘学义是谭松韵的铁粉",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E5%AD%A6%E4%B9%89%E6%98%AF%E8%B0%AD%E6%9D%BE%E9%9F%B5%E7%9A%84%E9%93%81%E7%B2%89%23&t=31&band_rank=1&Refer=top",
+      "score": 124906,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1791825137
+    },
+    {
+      "title": "孙政吕思瞳不该为品牌管理漏洞背锅",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%AD%99%E6%94%BF%E5%90%95%E6%80%9D%E7%9E%B3%E4%B8%8D%E8%AF%A5%E4%B8%BA%E5%93%81%E7%89%8C%E7%AE%A1%E7%90%86%E6%BC%8F%E6%B4%9E%E8%83%8C%E9%94%85%23&t=31&band_rank=1&Refer=top",
+      "score": 58715,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1791824536
+    },
+    {
+      "title": "张继科说乒乓球热度是他带起来的",
+      "description": "新 · 体育",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%BC%A0%E7%BB%A7%E7%A7%91%E8%AF%B4%E4%B9%92%E4%B9%93%E7%90%83%E7%83%AD%E5%BA%A6%E6%98%AF%E4%BB%96%E5%B8%A6%E8%B5%B7%E6%9D%A5%E7%9A%84%23&t=31&band_rank=1&Refer=top",
+      "score": 63708,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "体育",
+      "onboardTime": 1791823817
+    },
+    {
+      "title": "朋友离世后我送的同人本被卖",
+      "description": "情感",
+      "url": "https://s.weibo.com/weibo?q=%E6%9C%8B%E5%8F%8B%E7%A6%BB%E4%B8%96%E5%90%8E%E6%88%91%E9%80%81%E7%9A%84%E5%90%8C%E4%BA%BA%E6%9C%AC%E8%A2%AB%E5%8D%96&t=31&band_rank=1&Refer=top",
+      "score": 181587,
+      "owner": "微博实时",
+      "label": "",
+      "category": "情感",
+      "onboardTime": 1791822079
+    },
+    {
+      "title": "霸王茶姬排到400多号外卖小哥发声",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%9C%B8%E7%8E%8B%E8%8C%B6%E5%A7%AC%E6%8E%92%E5%88%B0400%E5%A4%9A%E5%8F%B7%E5%A4%96%E5%8D%96%E5%B0%8F%E5%93%A5%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
+      "score": 57366,
+      "owner": "微博实时",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1791821720
+    },
+    {
+      "title": "武网施晗爆冷淘汰伊埃拉",
+      "description": "体育",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%AD%A6%E7%BD%91%E6%96%BD%E6%99%97%E7%88%86%E5%86%B7%E6%B7%98%E6%B1%B0%E4%BC%8A%E5%9F%83%E6%8B%89%23&t=31&band_rank=1&Refer=top",
+      "score": 150522,
+      "owner": "微博实时",
+      "label": "",
+      "category": "体育",
+      "onboardTime": 1791821480
+    },
+    {
+      "title": "大众发布会提刹车踩不断",
+      "description": "汽车",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%A7%E4%BC%97%E5%8F%91%E5%B8%83%E4%BC%9A%E6%8F%90%E5%88%B9%E8%BD%A6%E8%B8%A9%E4%B8%8D%E6%96%AD&t=31&band_rank=1&Refer=top",
+      "score": 61867,
+      "owner": "微博实时",
+      "label": "",
+      "category": "汽车",
+      "onboardTime": 1791821240
+    },
+    {
+      "title": "李秀满看abo看中毒了",
+      "description": "艺人",
+      "url": "https://s.weibo.com/weibo?q=%E6%9D%8E%E7%A7%80%E6%BB%A1%E7%9C%8Babo%E7%9C%8B%E4%B8%AD%E6%AF%92%E4%BA%86&t=31&band_rank=1&Refer=top",
+      "score": 74054,
+      "owner": "微博实时",
+      "label": "",
+      "category": "艺人",
+      "onboardTime": 1791821121
+    },
+    {
+      "title": "劳务外包的代价落到谁头上",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%8A%B3%E5%8A%A1%E5%A4%96%E5%8C%85%E7%9A%84%E4%BB%A3%E4%BB%B7%E8%90%BD%E5%88%B0%E8%B0%81%E5%A4%B4%E4%B8%8A&t=31&band_rank=1&Refer=top",
+      "score": 57263,
+      "owner": "微博实时",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1791820580
+    },
+    {
+      "title": "霸王茶姬回应买一送一活动初衷",
+      "description": "热 · 舆论监督",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%9C%B8%E7%8E%8B%E8%8C%B6%E5%A7%AC%E5%9B%9E%E5%BA%94%E4%B9%B0%E4%B8%80%E9%80%81%E4%B8%80%E6%B4%BB%E5%8A%A8%E5%88%9D%E8%A1%B7%23&t=31&band_rank=1&Refer=top",
+      "score": 196054,
+      "owner": "微博实时",
+      "label": "热",
+      "category": "舆论监督",
+      "onboardTime": 1791820220
+    },
+    {
+      "title": "李秀满选的历届C位",
+      "description": "艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E7%A7%80%E6%BB%A1%E9%80%89%E7%9A%84%E5%8E%86%E5%B1%8AC%E4%BD%8D%23&t=31&band_rank=1&Refer=top",
+      "score": 70734,
+      "owner": "微博实时",
+      "label": "",
+      "category": "艺人",
+      "onboardTime": 1791819380
+    },
+    {
+      "title": "兰香如故24年就定了女主谭松韵",
+      "description": "剧集",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%85%B0%E9%A6%99%E5%A6%82%E6%95%8524%E5%B9%B4%E5%B0%B1%E5%AE%9A%E4%BA%86%E5%A5%B3%E4%B8%BB%E8%B0%AD%E6%9D%BE%E9%9F%B5%23&t=31&band_rank=1&Refer=top",
+      "score": 116293,
+      "owner": "微博实时",
+      "label": "",
+      "category": "剧集",
+      "onboardTime": 1791819260
+    },
+    {
+      "title": "郭宇欣收拾收拾准备升咖",
+      "description": "剧集",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%83%AD%E5%AE%87%E6%AC%A3%E6%94%B6%E6%8B%BE%E6%94%B6%E6%8B%BE%E5%87%86%E5%A4%87%E5%8D%87%E5%92%96%23&t=31&band_rank=1&Refer=top",
+      "score": 119163,
+      "owner": "微博实时",
+      "label": "",
+      "category": "剧集",
+      "onboardTime": 1791818721
+    },
+    {
+      "title": "小说里产后妻子被嘲丈夫出手",
+      "description": "情感",
+      "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E8%AF%B4%E9%87%8C%E4%BA%A7%E5%90%8E%E5%A6%BB%E5%AD%90%E8%A2%AB%E5%98%B2%E4%B8%88%E5%A4%AB%E5%87%BA%E6%89%8B&t=31&band_rank=1&Refer=top",
+      "score": 115024,
+      "owner": "微博实时",
+      "label": "",
+      "category": "情感",
+      "onboardTime": 1791818421
+    },
+    {
+      "title": "鹿晗说谁是你老公",
+      "description": "热 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%B9%BF%E6%99%97%E8%AF%B4%E8%B0%81%E6%98%AF%E4%BD%A0%E8%80%81%E5%85%AC%23&t=31&band_rank=1&Refer=top",
+      "score": 156793,
+      "owner": "微博实时",
+      "label": "热",
+      "category": "艺人",
+      "onboardTime": 1791818180
+    },
+    {
+      "title": "田曦薇逐玉后商务爆发",
+      "description": "艺人",
+      "url": "https://s.weibo.com/weibo?q=%E7%94%B0%E6%9B%A6%E8%96%87%E9%80%90%E7%8E%89%E5%90%8E%E5%95%86%E5%8A%A1%E7%88%86%E5%8F%91&t=31&band_rank=1&Refer=top",
+      "score": 61962,
+      "owner": "微博实时",
+      "label": "",
+      "category": "艺人",
+      "onboardTime": 1791818122
+    },
+    {
+      "title": "DYG战胜WB",
+      "description": "电竞",
+      "url": "https://s.weibo.com/weibo?q=%23DYG%E6%88%98%E8%83%9CWB%23&t=31&band_rank=1&Refer=top",
+      "score": 50025,
+      "owner": "微博实时",
+      "label": "",
+      "category": "电竞",
+      "onboardTime": 1791817642
+    },
+    {
+      "title": "oa",
+      "description": "艺人",
+      "url": "https://s.weibo.com/weibo?q=oa&t=31&band_rank=1&Refer=top",
+      "score": 71121,
+      "owner": "微博实时",
+      "label": "",
+      "category": "艺人",
+      "onboardTime": 1791817162
+    },
+    {
+      "title": "BFX对战JDG",
+      "description": "电竞",
+      "url": "https://s.weibo.com/weibo?q=BFX%E5%AF%B9%E6%88%98JDG&t=31&band_rank=1&Refer=top",
+      "score": 51781,
+      "owner": "微博实时",
+      "label": "",
+      "category": "电竞",
+      "onboardTime": 1791817102
+    },
+    {
+      "title": "建议所有车都这么设计",
+      "description": "汽车",
+      "url": "https://s.weibo.com/weibo?q=%E5%BB%BA%E8%AE%AE%E6%89%80%E6%9C%89%E8%BD%A6%E9%83%BD%E8%BF%99%E4%B9%88%E8%AE%BE%E8%AE%A1&t=31&band_rank=1&Refer=top",
+      "score": 52892,
+      "owner": "微博实时",
+      "label": "",
+      "category": "汽车",
+      "onboardTime": 1791816800
+    },
+    {
+      "title": "郑钦文团队一天就得花五万多块",
+      "description": "热 · 体育",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%83%91%E9%92%A6%E6%96%87%E5%9B%A2%E9%98%9F%E4%B8%80%E5%A4%A9%E5%B0%B1%E5%BE%97%E8%8A%B1%E4%BA%94%E4%B8%87%E5%A4%9A%E5%9D%97%23&t=31&band_rank=1&Refer=top",
+      "score": 371256,
+      "owner": "微博实时",
+      "label": "热",
+      "category": "体育",
+      "onboardTime": 1791816622
+    },
+    {
+      "title": "林锦岐去世前的28个愿望",
+      "description": "剧集",
+      "url": "https://s.weibo.com/weibo?q=%E6%9E%97%E9%94%A6%E5%B2%90%E5%8E%BB%E4%B8%96%E5%89%8D%E7%9A%8428%E4%B8%AA%E6%84%BF%E6%9C%9B&t=31&band_rank=1&Refer=top",
+      "score": 48993,
+      "owner": "微博实时",
+      "label": "",
+      "category": "剧集",
+      "onboardTime": 1791815723
+    },
+    {
+      "title": "女子左臀疼1个月挤出发黑注射针头",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E5%B7%A6%E8%87%80%E7%96%BC1%E4%B8%AA%E6%9C%88%E6%8C%A4%E5%87%BA%E5%8F%91%E9%BB%91%E6%B3%A8%E5%B0%84%E9%92%88%E5%A4%B4%23&t=31&band_rank=1&Refer=top",
+      "score": 173587,
+      "owner": "微博实时",
+      "label": "热",
+      "category": "民生新闻",
+      "onboardTime": 1791813922
+    }
+  ]
+}
