@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-10-13T02:00:31Z",
+  "savedAt": "2026-10-13T09:07:51Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-10-13，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -30,7 +30,7 @@
       "title": "Triple-A Minesweeper",
       "description": "",
       "url": "https://minesweeper.mikelacher.com/",
-      "score": 1429,
+      "score": 1430,
       "comments": 287,
       "owner": "robin_reala",
       "published": "2026-10-09T15:51:05Z",
@@ -40,7 +40,7 @@
       "title": "Cloudflare acquires Deno",
       "description": "",
       "url": "https://deno.com/blog/cloudflare",
-      "score": 1380,
+      "score": 1382,
       "comments": 718,
       "owner": "ilreb",
       "published": "2026-10-09T13:03:48Z",
@@ -51,7 +51,7 @@
       "description": "<a href=\"https:&#x2F;&#x2F;github.com&#x2F;openai&#x2F;math\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;openai&#x2F;math</a><p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;openai&#x2F;math&#x2F;tree&#x2F;main&#x2F;preprints\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;openai&#x2F;math&#x2F;tree&#x2F;main&#x2F;preprints</a>",
       "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
       "score": 1359,
-      "comments": 1535,
+      "comments": 1538,
       "owner": "OfficialTurkey",
       "published": "2026-10-06T22:17:21Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=49984923"
@@ -67,6 +67,16 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50000488"
     },
     {
+      "title": "Passkeys are a trap",
+      "description": "",
+      "url": "https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them",
+      "score": 1054,
+      "comments": 552,
+      "owner": "laurex",
+      "published": "2026-10-11T21:59:48Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50048312"
+    },
+    {
       "title": "Claude Haiku 5.5",
       "description": "",
       "url": "https://www.anthropic.com/claude-haiku-5-5",
@@ -80,28 +90,18 @@
       "title": "Sorry, I'm in a meeting",
       "description": "",
       "url": "https://iminafleeting.com/",
-      "score": 1045,
+      "score": 1047,
       "comments": 287,
       "owner": "splintersio",
       "published": "2026-10-09T09:21:48Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50018088"
     },
     {
-      "title": "Passkeys are a trap",
-      "description": "",
-      "url": "https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them",
-      "score": 1026,
-      "comments": 539,
-      "owner": "laurex",
-      "published": "2026-10-11T21:59:48Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50048312"
-    },
-    {
       "title": "Man discovers his parents' coffee machine used 1TB of data in 10 days",
       "description": "<a href=\"https:&#x2F;&#x2F;x.com&#x2F;NomadsGalaxy&#x2F;status&#x2F;2107284088247689290\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;NomadsGalaxy&#x2F;status&#x2F;2107284088247689290</a>",
       "url": "https://www.dexerto.com/entertainment/man-discovers-his-parents-coffee-machine-used-1tb-of-data-in-10-days-3416399/",
-      "score": 956,
-      "comments": 572,
+      "score": 959,
+      "comments": 573,
       "owner": "ck2",
       "published": "2026-10-07T16:56:30Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=49995495"
@@ -110,8 +110,8 @@
       "title": "Whistle: Speech to Text in 16.9 MB",
       "description": "",
       "url": "https://cactuscompute.com/blog/whistle",
-      "score": 956,
-      "comments": 184,
+      "score": 957,
+      "comments": 185,
       "owner": "gmays",
       "published": "2026-10-08T16:59:39Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50008427"
@@ -120,8 +120,8 @@
       "title": "Trump administration is suspending Microsoft from a green card program",
       "description": "",
       "url": "https://apnews.com/article/h1b-visa-program-vance-microsoft-e7b3a407f822702b269ee277d21343ea",
-      "score": 942,
-      "comments": 1607,
+      "score": 944,
+      "comments": 1608,
       "owner": "alephnerd",
       "published": "2026-10-08T15:15:00Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50006832"
@@ -130,31 +130,31 @@
       "title": "I hired an illustrator to draw my house. Now it's my Home Assistant dashboard",
       "description": "",
       "url": "https://antonfrolov.substack.com/p/i-hired-an-illustrator-to-draw-my",
-      "score": 932,
+      "score": 934,
       "comments": 208,
       "owner": "soheilpro",
       "published": "2026-10-07T01:41:03Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=49986882"
     },
     {
-      "title": "Yes, and",
-      "description": "",
-      "url": "https://htmx.org/essays/yes-and/",
-      "score": 786,
-      "comments": 308,
-      "owner": "Michelangelo11",
-      "published": "2026-10-08T09:48:18Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50003796"
-    },
-    {
       "title": "REA Reverse – Engineer Anything",
       "description": "",
       "url": "https://rea.tools/",
-      "score": 783,
-      "comments": 329,
+      "score": 790,
+      "comments": 333,
       "owner": "modinfo",
       "published": "2026-10-10T00:37:07Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50028275"
+    },
+    {
+      "title": "Yes, and",
+      "description": "",
+      "url": "https://htmx.org/essays/yes-and/",
+      "score": 789,
+      "comments": 309,
+      "owner": "Michelangelo11",
+      "published": "2026-10-08T09:48:18Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50003796"
     },
     {
       "title": "Tell HN: I've been paying for a rural Tanzanian's education for 10 years",
@@ -187,24 +187,24 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=49994443"
     },
     {
-      "title": "YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops",
-      "description": "",
-      "url": "https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306",
-      "score": 703,
-      "comments": 360,
-      "owner": "gumby",
-      "published": "2026-10-09T21:06:59Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50026555"
-    },
-    {
       "title": "Fingerprints are the new cookies",
       "description": "",
       "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
-      "score": 703,
-      "comments": 344,
+      "score": 721,
+      "comments": 355,
       "owner": "royfish",
       "published": "2026-10-11T22:33:39Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50048642"
+    },
+    {
+      "title": "YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops",
+      "description": "",
+      "url": "https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306",
+      "score": 704,
+      "comments": 362,
+      "owner": "gumby",
+      "published": "2026-10-09T21:06:59Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50026555"
     }
   ]
 }
