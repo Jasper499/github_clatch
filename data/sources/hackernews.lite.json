@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-10-13T09:07:51Z",
+  "savedAt": "2026-10-13T14:00:41Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-10-13，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -17,20 +17,10 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=49998895"
     },
     {
-      "title": "Mistral Large 4",
-      "description": "<a href=\"https:&#x2F;&#x2F;docs.mistral.ai&#x2F;models&#x2F;mistral-large-4-0\" rel=\"nofollow\">https:&#x2F;&#x2F;docs.mistral.ai&#x2F;models&#x2F;mistral-large-4-0</a>",
-      "url": "https://mistral.ai/news/mistral-large-4/\\",
-      "score": 2042,
-      "comments": 1213,
-      "owner": "Philpax",
-      "published": "2026-10-06T13:15:49Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49977979"
-    },
-    {
       "title": "Triple-A Minesweeper",
       "description": "",
       "url": "https://minesweeper.mikelacher.com/",
-      "score": 1430,
+      "score": 1435,
       "comments": 287,
       "owner": "robin_reala",
       "published": "2026-10-09T15:51:05Z",
@@ -41,7 +31,7 @@
       "description": "",
       "url": "https://deno.com/blog/cloudflare",
       "score": 1382,
-      "comments": 718,
+      "comments": 719,
       "owner": "ilreb",
       "published": "2026-10-09T13:03:48Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50019911"
@@ -60,8 +50,8 @@
       "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
       "description": "",
       "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
-      "score": 1126,
-      "comments": 987,
+      "score": 1127,
+      "comments": 988,
       "owner": "jonotime",
       "published": "2026-10-08T00:14:48Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50000488"
@@ -70,8 +60,8 @@
       "title": "Passkeys are a trap",
       "description": "",
       "url": "https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them",
-      "score": 1054,
-      "comments": 552,
+      "score": 1074,
+      "comments": 555,
       "owner": "laurex",
       "published": "2026-10-11T21:59:48Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50048312"
@@ -121,7 +111,7 @@
       "description": "",
       "url": "https://apnews.com/article/h1b-visa-program-vance-microsoft-e7b3a407f822702b269ee277d21343ea",
       "score": 944,
-      "comments": 1608,
+      "comments": 1610,
       "owner": "alephnerd",
       "published": "2026-10-08T15:15:00Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50006832"
@@ -130,7 +120,7 @@
       "title": "I hired an illustrator to draw my house. Now it's my Home Assistant dashboard",
       "description": "",
       "url": "https://antonfrolov.substack.com/p/i-hired-an-illustrator-to-draw-my",
-      "score": 934,
+      "score": 935,
       "comments": 208,
       "owner": "soheilpro",
       "published": "2026-10-07T01:41:03Z",
@@ -140,17 +130,27 @@
       "title": "REA Reverse – Engineer Anything",
       "description": "",
       "url": "https://rea.tools/",
-      "score": 790,
-      "comments": 333,
+      "score": 794,
+      "comments": 334,
       "owner": "modinfo",
       "published": "2026-10-10T00:37:07Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50028275"
     },
     {
+      "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
+      "description": "<a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;retail-consumer&#x2F;french-supermarket-chain-intermarche-hit-by-cyberattack-150-stories-targeted-2026-10-12&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;retail-consumer&#x2F;french-supe...</a>, <a href=\"https:&#x2F;&#x2F;www.bbc.com&#x2F;news&#x2F;articles&#x2F;crq5nzxv9q4yo\" rel=\"nofollow\">https:&#x2F;&#x2F;www.bbc.com&#x2F;news&#x2F;articles&#x2F;crq5nzxv9q4yo</a>, <a href=\"https:&#x2F;&#x2F;www.lemonde.fr&#x2F;en&#x2F;france&#x2F;article&#x2F;2026&#x2F;10&#x2F;12&#x2F;french-supermarket-chains-say-cyberattack-forced-refrigerator-shutdown_6758510_7.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.lemonde.fr&#x2F;en&#x2F;france&#x2F;article&#x2F;2026&#x2F;10&#x2F;12&#x2F;french-s...</a><p>Related:<p><a href=\"https:&#x2F;&#x2F;www.claroty.com&#x2F;team82&#x2F;research&#x2F;freeze-the-controller-defrost-the-food-uncovering-vulnerabilities-in-danfoss-refrigeration-controllers\" rel=\"nofollow\">https:&#x2F;&#x2F;www.claroty.com&#x2F;team82&#x2F;research&#x2F;freeze-the-controlle...</a><p><i>I think the military commissary&#x27;s freezers were hacked</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49508506\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49508506</a> - Aug 2026 (239 comments)",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
+      "score": 792,
+      "comments": 913,
+      "owner": "Zeekaas",
+      "published": "2026-10-12T12:16:42Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50055304"
+    },
+    {
       "title": "Yes, and",
       "description": "",
       "url": "https://htmx.org/essays/yes-and/",
-      "score": 789,
+      "score": 790,
       "comments": 309,
       "owner": "Michelangelo11",
       "published": "2026-10-08T09:48:18Z",
@@ -177,34 +177,34 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=49996425"
     },
     {
+      "title": "Fingerprints are the new cookies",
+      "description": "",
+      "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
+      "score": 731,
+      "comments": 357,
+      "owner": "royfish",
+      "published": "2026-10-11T22:33:39Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50048642"
+    },
+    {
       "title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
       "description": "",
       "url": "https://bigwords.page/",
-      "score": 725,
+      "score": 726,
       "comments": 165,
       "owner": "SpeakingOfBrad",
       "published": "2026-10-07T15:44:21Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=49994443"
     },
     {
-      "title": "Fingerprints are the new cookies",
+      "title": "The gap in shared understanding of LLM capability is widening",
       "description": "",
-      "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
-      "score": 721,
-      "comments": 355,
-      "owner": "royfish",
-      "published": "2026-10-11T22:33:39Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50048642"
-    },
-    {
-      "title": "YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops",
-      "description": "",
-      "url": "https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306",
-      "score": 704,
-      "comments": 362,
-      "owner": "gumby",
-      "published": "2026-10-09T21:06:59Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50026555"
+      "url": "https://twitter.com/karpathy/status/2109361546505966046",
+      "score": 706,
+      "comments": 1030,
+      "owner": "albertzeyer",
+      "published": "2026-10-11T20:20:52Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50047422"
     }
   ]
 }
