@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-10-13T02:20:41Z",
+  "savedAt": "2026-10-13T09:33:43Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "e605b35611ab2849af46d0cf7831aefdcf85be07",
+  "latestSha": "473e8d7b1b918fe37208d3a5e143a3ac9af4c91b",
   "items": [
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/473e8d7b1b918fe37208d3a5e143a3ac9af4c91b",
+      "sha": "473e8d7",
+      "fullSha": "473e8d7b1b918fe37208d3a5e143a3ac9af4c91b",
+      "owner": "github-actions",
+      "published": "2026-10-13",
+      "label": "commit"
+    },
     {
       "title": "fix(nature-academic-search): make --retry 0 still try once in format-…",
       "description": "fix(nature-academic-search): make --retry 0 still try once in format-converter\n\nefetch_medline, download_crossref and download_arxiv looped over range(retries),\nso --retry 0 skipped the loop entirely: download_crossref then hit\nUnboundLocalError on `data`, and the other two returned nothing. Use\nmax(1, retries) attempts. Adds tests for a successful and a failing download.\n\nXinrui Ma",
@@ -143,16 +153,6 @@
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/66bfe3e3f0eee091b14e48bd594bf14e79db0cc3",
       "sha": "66bfe3e",
       "fullSha": "66bfe3e3f0eee091b14e48bd594bf14e79db0cc3",
-      "owner": "Travisma2233",
-      "published": "2026-10-11",
-      "label": "commit"
-    },
-    {
-      "title": "fix: match GitHub heading anchors in update-reference-tocs.py",
-      "description": "fix: match GitHub heading anchors in update-reference-tocs.py\n\ngithub_anchor collapsed runs of spaces and hyphens, but GitHub turns each\nspace into a hyphen without collapsing, so &quot;Input - Output&quot; is\n&quot;input---output&quot; and &quot;A &amp; B&quot; is &quot;a--b&quot;. Generated Contents links for such\nheadings pointed at nonexistent anchors. Adds tests.\n\nXinrui Ma",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/4c558b38545761485b97f684b9c5413b5a3add73",
-      "sha": "4c558b3",
-      "fullSha": "4c558b38545761485b97f684b9c5413b5a3add73",
       "owner": "Travisma2233",
       "published": "2026-10-11",
       "label": "commit"

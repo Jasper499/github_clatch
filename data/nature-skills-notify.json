@@ -1,20 +1,25 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-10-13T02:20:41Z",
+  "changed": true,
+  "fetchedAt": "2026-10-13T09:33:43Z",
   "previousSha": "e605b35611ab2849af46d0cf7831aefdcf85be07",
-  "latestSha": "e605b35611ab2849af46d0cf7831aefdcf85be07",
+  "latestSha": "473e8d7b1b918fe37208d3a5e143a3ac9af4c91b",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "fix(nature-academic-search): make --retry 0 still try once in format-…",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/e605b35611ab2849af46d0cf7831aefdcf85be07",
-    "sha": "e605b35",
-    "published": "2026-10-11"
+    "title": "chore: update star history",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/473e8d7b1b918fe37208d3a5e143a3ac9af4c91b",
+    "sha": "473e8d7",
+    "published": "2026-10-13"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "chore: update star history",
+      "sha": "473e8d7",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/473e8d7b1b918fe37208d3a5e143a3ac9af4c91b"
+    },
     {
       "title": "fix(nature-academic-search): make --retry 0 still try once in format-…",
       "sha": "e605b35",
@@ -34,11 +39,6 @@
       "title": "fix: match a top-level --output path in the star-history README cache…",
       "sha": "500b5a2",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/500b5a2b06423e6a1e62be1979ace07017fbaef6"
-    },
-    {
-      "title": "fix: leave the star-history chart unchanged when stargazer counts dis…",
-      "sha": "fec7b45",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/fec7b45f7979bd0837e859e92ebf8a73fc71e6e2"
     }
   ]
 }
