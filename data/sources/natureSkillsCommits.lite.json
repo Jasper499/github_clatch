@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-10-14T07:48:07Z",
+  "savedAt": "2026-10-14T14:21:46Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "473e8d7b1b918fe37208d3a5e143a3ac9af4c91b",
+  "latestSha": "19be8d45e0d5233aa44be6d4572e655b9914ff54",
   "items": [
+    {
+      "title": "Update README.md",
+      "description": "Update README.md",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/19be8d45e0d5233aa44be6d4572e655b9914ff54",
+      "sha": "19be8d4",
+      "fullSha": "19be8d45e0d5233aa44be6d4572e655b9914ff54",
+      "owner": "Flyme886",
+      "published": "2026-10-14",
+      "label": "commit"
+    },
     {
       "title": "chore: update star history",
       "description": "chore: update star history",
@@ -143,16 +153,6 @@
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/f2cdd52761bbdb1e4cb55bc10d767fd7c5878d84",
       "sha": "f2cdd52",
       "fullSha": "f2cdd52761bbdb1e4cb55bc10d767fd7c5878d84",
-      "owner": "Travisma2233",
-      "published": "2026-10-11",
-      "label": "commit"
-    },
-    {
-      "title": "fix: ignore code-fenced \"##\" lines in update-reference-tocs.py",
-      "description": "fix: ignore code-fenced &quot;##&quot; lines in update-reference-tocs.py\n\nThe heading scan matched any &quot;## &quot; line, including shell comments inside fenced\ncode blocks, so a long reference containing such a block got a bogus Contents\nentry. Track fence state and skip headings inside it. Adds a test.\n\nXinrui Ma",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/66bfe3e3f0eee091b14e48bd594bf14e79db0cc3",
-      "sha": "66bfe3e",
-      "fullSha": "66bfe3e3f0eee091b14e48bd594bf14e79db0cc3",
       "owner": "Travisma2233",
       "published": "2026-10-11",
       "label": "commit"
