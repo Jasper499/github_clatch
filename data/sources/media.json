@@ -1,8 +1,8 @@
 {
   "sourceKey": "media",
-  "savedAt": "2026-10-15T02:12:39Z",
+  "savedAt": "2026-10-15T06:36:32Z",
   "label": "Medical Image Analysis",
-  "description": "近 45 天 MedIA 期刊 MRI 相关论文（2026-08-31 ~ 2026-10-15，共 12 篇，暂无可用 OA PDF 链接）",
+  "description": "近 45 天 MedIA 期刊 MRI 相关论文（2026-08-31 ~ 2026-10-15，共 11 篇，暂无可用 OA PDF 链接）",
   "updateFrequency": "biweekly",
   "items": [
     {
@@ -21,17 +21,17 @@
     },
     {
       "title": "Multi-contrast MRI acceleration via post-reconstruction fusion",
-      "description": "Magnetic Resonance Imaging (MRI) is the gold standard for neuroimaging, yet routine brain protocols require multiple high-resolution 3D contrasts (e.g., T1, T2, and T2-FLAIR), resulting in long scan times. Many deep-learning acceleration methods assume access to raw k-space and rely on non-Cartesian trajectories or pse…",
+      "description": "MedIA · 2027-01-01",
       "url": "https://doi.org/10.1016/j.media.2026.104297",
       "doi": "10.1016/j.media.2026.104297",
       "authors": "Alexander Nazarov, Nahum Kiryati, Dani Roizen, Ariel Kerpel, et al.",
       "published": "2027-01-01",
       "journal": "MedIA",
       "owner": "MedIA",
-      "isOpenAccess": true,
+      "isOpenAccess": false,
       "pdfAvailable": false,
       "pdfUrl": null,
-      "pdfSourceUrl": "https://doi.org/10.1016/j.media.2026.104297"
+      "pdfSourceUrl": ""
     },
     {
       "title": "MoRe-3DGSMR: Motion-resolved reconstruction framework for free-breathing pulmonary MRI based on 3D Gaussian representation",
@@ -62,22 +62,8 @@
       "pdfSourceUrl": ""
     },
     {
-      "title": "A nested optimization framework for sound speed imaging and uncertainty estimation in ultrasound computed tomography via Mamba-regularized full waveform inversion",
-      "description": "Full-waveform inversion (FWI) for ultrasound computed tomography (USCT) has recently been investigated extensively for high-resolution sound-speed (SS) imaging. However, the nonconvexity of FWI hampers global convergence, yielding limited robustness and artifacts that constrain clinical applicability. Existing methods …",
-      "url": "https://doi.org/10.1016/j.media.2026.104341",
-      "doi": "10.1016/j.media.2026.104341",
-      "authors": "Weicheng Yan, Yun Wu, Xiaolu Zeng, Qiude Zhang, et al.",
-      "published": "2027-01-01",
-      "journal": "MedIA",
-      "owner": "MedIA",
-      "isOpenAccess": false,
-      "pdfAvailable": false,
-      "pdfUrl": null,
-      "pdfSourceUrl": ""
-    },
-    {
       "title": "A self-navigated framework for motion detection and spoke-reordering musculoskeletal dynamic reconstruction in 3D radial MRI",
-      "description": "Motion remains a major challenge and active research focus in MRI, as both involuntary (e.g., head movement) and voluntary (e.g., joint motion) motion can degrade image quality or, alternatively, provide opportunities for dynamic assessment. Existing motion sensing approaches - such as external tracking or navigator se…",
+      "description": "MedIA · 2027-01-01",
       "url": "https://doi.org/10.1016/j.media.2026.104345",
       "doi": "10.1016/j.media.2026.104345",
       "authors": "Enping Lin, Fatih Calakli, Musa Tunç Arslan, Giovani Schulte Farina, et al.",

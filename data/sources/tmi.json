@@ -1,8 +1,8 @@
 {
   "sourceKey": "tmi",
-  "savedAt": "2026-10-15T02:12:39Z",
+  "savedAt": "2026-10-15T06:36:32Z",
   "label": "IEEE Transactions on Medical Imaging",
-  "description": "近 45 天 TMI 期刊 MRI 相关论文（2026-08-31 ~ 2026-10-15，共 8 篇，本地已存 OA PDF 1 篇）",
+  "description": "近 45 天 TMI 期刊 MRI 相关论文（2026-08-31 ~ 2026-10-15，共 7 篇，本地已存 OA PDF 1 篇）",
   "updateFrequency": "biweekly",
   "items": [
     {
@@ -48,20 +48,6 @@
       "pdfSourceUrl": "https://arxiv.org/pdf/2509.05955"
     },
     {
-      "title": "Volumetric Functional Ultrasound Imaging in Macaques",
-      "description": "Linking circuit level activity to large scale functional organization requires imaging methods combining high spatial resolution, broad coverage, and single trial sensitivity. We present volumetric functional ultrasound imaging (3D-fUS) in behaving macaques, enabling imaging of ~1 cm3 cortical volumes at high spatiotem…",
-      "url": "https://doi.org/10.1109/tmi.2026.3710133",
-      "doi": "10.1109/tmi.2026.3710133",
-      "authors": "Nora E. Fitzgerald, Gabriel Montaldo, Mathilda Froesel, Alan Urban, et al.",
-      "published": "2026-09-01",
-      "journal": "TMI",
-      "owner": "TMI",
-      "isOpenAccess": true,
-      "pdfAvailable": false,
-      "pdfUrl": null,
-      "pdfSourceUrl": "https://doi.org/10.1109/tmi.2026.3710133"
-    },
-    {
       "title": "Polar Subarea-Aware Fusion Net for Posterior Eyeball Shape Reconstruction",
       "description": "High-fidelity reconstruction of the Posterior Eyeball Shape (PES) is crucial for early diagnosis and timely intervention of sight-threatening diseases such as high myopia, diabetic retinopathy, and glaucoma. However, existing magnetic resonance imaging (MRI)- and optical coherence tomography (OCT)-based methods either …",
       "url": "https://doi.org/10.1109/tmi.2025.3642381",
@@ -105,7 +91,7 @@
     },
     {
       "title": "UniTransAD: Unified Translation Framework for Anomaly Detection in Brain MRI",
-      "description": "Unsupervised anomaly detection (UAD) in brain MRI is crucial for early diagnosis, yet generalizing existing methods across diverse diseases, sequences, and missing data scenarios remains a significant challenge. Current reconstruction-based methods often fail to detect subtle anomalies, while conventional translation m…",
+      "description": "TMI · 2026-09-01",
       "url": "https://doi.org/10.1109/tmi.2026.3711975",
       "doi": "10.1109/tmi.2026.3711975",
       "authors": "Qi Zhang, Xia Li, Yibo Hu, Jianqi Sun",
