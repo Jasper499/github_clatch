@@ -6,142 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "mrm:https://doi.org/10.1002/mrm.70636",
-      "url": "https://doi.org/10.1002/mrm.70636",
-      "title": "[Magnetic Resonance in Medicine] Rotating Frame Spin‐Lock Cardiac\n                    <scp>MRI</scp>\n                    Method at 9.4 T Can Characterize Diffuse Fibrosis in Progressing Hypertensive Heart Disease in Mice",
-      "date_published": "2026-10-15T06:36:32Z"
+      "id": "hackernews:https://deepmind.google/models/gemini/",
+      "url": "https://deepmind.google/models/gemini/",
+      "title": "[Hacker News 热门] Gemini 4 Argon",
+      "date_published": "2026-10-15T07:09:15Z"
     },
     {
-      "id": "mrm:https://doi.org/10.1002/mrm.70613",
-      "url": "https://doi.org/10.1002/mrm.70613",
-      "title": "[Magnetic Resonance in Medicine] How do Uncompensated Micro‐Shifts Systematically Confound Low‐Concentration Metabolite Quantification in\n                    <scp>\n                      <sup>1</sup>\n                      H\n                    </scp>\n                    ‐\n                    <scp>MRS Analysis</scp>\n                    ?",
-      "date_published": "2026-10-15T06:36:32Z"
+      "id": "hackernews:https://minesweeper.mikelacher.com/",
+      "url": "https://minesweeper.mikelacher.com/",
+      "title": "[Hacker News 热门] Triple-A Minesweeper",
+      "date_published": "2026-10-15T07:09:15Z"
     },
     {
-      "id": "mrm:https://doi.org/10.1002/mrm.70623",
-      "url": "https://doi.org/10.1002/mrm.70623",
-      "title": "[Magnetic Resonance in Medicine] Prandial Effects on Intravoxel Incoherent Motion Quantification in the Liver",
-      "date_published": "2026-10-15T06:36:32Z"
+      "id": "hackernews:https://deno.com/blog/cloudflare",
+      "url": "https://deno.com/blog/cloudflare",
+      "title": "[Hacker News 热门] Cloudflare acquires Deno",
+      "date_published": "2026-10-15T07:09:15Z"
     },
     {
-      "id": "mrm:https://doi.org/10.1002/mrm.70620",
-      "url": "https://doi.org/10.1002/mrm.70620",
-      "title": "[Magnetic Resonance in Medicine] In Vivo Dynamic\n                    <scp>\n                      D\n                      <sub>2</sub>\n                      O\n                    </scp>\n                    ‐\n                    <scp>MRI</scp>\n                    for Quantifying Apparent\n                    <scp>CSF</scp>\n                    Water Renewal Across Ventricular and Extraventricular Compartments",
-      "date_published": "2026-10-15T06:36:32Z"
+      "id": "hackernews:https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
+      "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
+      "title": "[Hacker News 热门] Things to know when you get cancer",
+      "date_published": "2026-10-15T07:09:15Z"
     },
     {
-      "id": "mrm:https://doi.org/10.1002/mrm.70627",
-      "url": "https://doi.org/10.1002/mrm.70627",
-      "title": "[Magnetic Resonance in Medicine] Depiction Fidelity and Specificity in Direct\n                    <scp>MRI</scp>\n                    of Collagen: Addressing Signal Decay at the Microsecond Timescale",
-      "date_published": "2026-10-15T06:36:32Z"
+      "id": "hackernews:https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them",
+      "url": "https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them",
+      "title": "[Hacker News 热门] Passkeys are a trap",
+      "date_published": "2026-10-15T07:09:15Z"
     },
     {
-      "id": "mrm:https://doi.org/10.1002/mrm.70625",
-      "url": "https://doi.org/10.1002/mrm.70625",
-      "title": "[Magnetic Resonance in Medicine] Iterative Navigator‐Based Retrospective Motion Correction for Multi‐Shot Brain\n                    <scp>MR</scp>\n                    Elastography and Evaluation of Single‐Shot Post‐Reconstruction Correction",
-      "date_published": "2026-10-15T06:36:32Z"
+      "id": "hackernews:https://iminafleeting.com/",
+      "url": "https://iminafleeting.com/",
+      "title": "[Hacker News 热门] Sorry, I'm in a meeting",
+      "date_published": "2026-10-15T07:09:15Z"
     },
     {
-      "id": "mrm:https://doi.org/10.1002/mrm.70624",
-      "url": "https://doi.org/10.1002/mrm.70624",
-      "title": "[Magnetic Resonance in Medicine] Independent Component Analysis for Non‐Contrast‐Enhanced Free‐Breathing Pulmonary Ventilation and Perfusion MRI",
-      "date_published": "2026-10-15T06:36:32Z"
+      "id": "hackernews:https://cactuscompute.com/blog/whistle",
+      "url": "https://cactuscompute.com/blog/whistle",
+      "title": "[Hacker News 热门] Whistle: Speech to Text in 16.9 MB",
+      "date_published": "2026-10-15T07:09:15Z"
     },
     {
-      "id": "mrm:https://doi.org/10.1002/mrm.70594",
-      "url": "https://doi.org/10.1002/mrm.70594",
-      "title": "[Magnetic Resonance in Medicine] An Inline‐Integrable Image Restoration Model With\n                    <scp>ROI</scp>\n                    Fine‐Tuning and Slice‐to‐Volume Reconstruction for Accelerated Whole‐Brain Vessel Wall Imaging",
-      "date_published": "2026-10-15T06:36:32Z"
-    },
-    {
-      "id": "tmi:https://doi.org/10.1109/tmi.2026.3716153",
-      "url": "https://doi.org/10.1109/tmi.2026.3716153",
-      "title": "[IEEE Transactions on Medical Imaging] Physics-Driven Autoregressive State Space Models for Medical Image Reconstruction",
-      "date_published": "2026-10-15T06:36:32Z"
-    },
-    {
-      "id": "tmi:https://doi.org/10.1109/tmi.2026.3716353",
-      "url": "https://doi.org/10.1109/tmi.2026.3716353",
-      "title": "[IEEE Transactions on Medical Imaging] VSS-SAM++: Visual State Space-Aware SAM for 3-D Medical Image Segmentation",
-      "date_published": "2026-10-15T06:36:32Z"
-    },
-    {
-      "id": "tmi:https://doi.org/10.1109/tmi.2026.3714814",
-      "url": "https://doi.org/10.1109/tmi.2026.3714814",
-      "title": "[IEEE Transactions on Medical Imaging] Active Noise Cancellation in Ultra-Low Field MRI: Distinct Strategies for Different Channels",
-      "date_published": "2026-10-15T06:36:32Z"
-    },
-    {
-      "id": "tmi:https://doi.org/10.1109/tmi.2025.3642381",
-      "url": "https://doi.org/10.1109/tmi.2025.3642381",
-      "title": "[IEEE Transactions on Medical Imaging] Polar Subarea-Aware Fusion Net for Posterior Eyeball Shape Reconstruction",
-      "date_published": "2026-10-15T06:36:32Z"
-    },
-    {
-      "id": "tmi:https://doi.org/10.1109/tmi.2026.3712008",
-      "url": "https://doi.org/10.1109/tmi.2026.3712008",
-      "title": "[IEEE Transactions on Medical Imaging] Retrieval-Augmented Representation for Semi-Supervised Medical Image Segmentation",
-      "date_published": "2026-10-15T06:36:32Z"
-    },
-    {
-      "id": "tmi:https://doi.org/10.1109/tmi.2026.3709056",
-      "url": "https://doi.org/10.1109/tmi.2026.3709056",
-      "title": "[IEEE Transactions on Medical Imaging] The Ritz Adjoint Method for MRI Pulse Design",
-      "date_published": "2026-10-15T06:36:32Z"
-    },
-    {
-      "id": "tmi:https://doi.org/10.1109/tmi.2026.3711975",
-      "url": "https://doi.org/10.1109/tmi.2026.3711975",
-      "title": "[IEEE Transactions on Medical Imaging] UniTransAD: Unified Translation Framework for Anomaly Detection in Brain MRI",
-      "date_published": "2026-10-15T06:36:32Z"
-    },
-    {
-      "id": "media:https://doi.org/10.1016/j.media.2026.104336",
-      "url": "https://doi.org/10.1016/j.media.2026.104336",
-      "title": "[Medical Image Analysis] UPER: A Unified Polyhedral Representation for universal multi-dimensional diffusion MRI image modeling",
-      "date_published": "2026-10-15T06:36:32Z"
-    },
-    {
-      "id": "media:https://doi.org/10.1016/j.media.2026.104297",
-      "url": "https://doi.org/10.1016/j.media.2026.104297",
-      "title": "[Medical Image Analysis] Multi-contrast MRI acceleration via post-reconstruction fusion",
-      "date_published": "2026-10-15T06:36:32Z"
-    },
-    {
-      "id": "media:https://doi.org/10.1016/j.media.2026.104326",
-      "url": "https://doi.org/10.1016/j.media.2026.104326",
-      "title": "[Medical Image Analysis] MoRe-3DGSMR: Motion-resolved reconstruction framework for free-breathing pulmonary MRI based on 3D Gaussian representation",
-      "date_published": "2026-10-15T06:36:32Z"
-    },
-    {
-      "id": "media:https://doi.org/10.1016/j.media.2026.104348",
-      "url": "https://doi.org/10.1016/j.media.2026.104348",
-      "title": "[Medical Image Analysis] A unified and domain-robust framework enables controllable multimodal brain MRI synthesis",
-      "date_published": "2026-10-15T06:36:32Z"
-    },
-    {
-      "id": "media:https://doi.org/10.1016/j.media.2026.104345",
-      "url": "https://doi.org/10.1016/j.media.2026.104345",
-      "title": "[Medical Image Analysis] A self-navigated framework for motion detection and spoke-reordering musculoskeletal dynamic reconstruction in 3D radial MRI",
-      "date_published": "2026-10-15T06:36:32Z"
-    },
-    {
-      "id": "media:https://doi.org/10.1016/j.media.2026.104296",
-      "url": "https://doi.org/10.1016/j.media.2026.104296",
-      "title": "[Medical Image Analysis] Learning efficient non-rigid registration in k-space for accelerated Magnetic Resonance Imaging",
-      "date_published": "2026-10-15T06:36:32Z"
-    },
-    {
-      "id": "media:https://doi.org/10.1016/j.media.2026.104338",
-      "url": "https://doi.org/10.1016/j.media.2026.104338",
-      "title": "[Medical Image Analysis] MSRepaint: Multiple Sclerosis Repaint with conditional denoising diffusion implicit model for bidirectional lesion filling and synthesis",
-      "date_published": "2026-10-15T06:36:32Z"
-    },
-    {
-      "id": "media:https://doi.org/10.1016/j.media.2026.104317",
-      "url": "https://doi.org/10.1016/j.media.2026.104317",
-      "title": "[Medical Image Analysis] Multifrequency neural network-based wave inversion in MR elastography with uncertainty quantification",
-      "date_published": "2026-10-15T06:36:32Z"
+      "id": "hackernews:https://apnews.com/article/h1b-visa-program-vance-microsoft-e7b3a407f822702b269ee277d21343ea",
+      "url": "https://apnews.com/article/h1b-visa-program-vance-microsoft-e7b3a407f822702b269ee277d21343ea",
+      "title": "[Hacker News 热门] Trump administration is suspending Microsoft from a green card program",
+      "date_published": "2026-10-15T07:09:15Z"
     }
   ]
 }
