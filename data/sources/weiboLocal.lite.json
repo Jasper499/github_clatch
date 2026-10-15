@@ -1,70 +1,100 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-10-15T11:19:09Z",
+  "savedAt": "2026-10-15T12:11:14Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-15，共 6 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-15，共 9 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-10-15",
   "items": [
     {
-      "title": "男孩被曝衣衫不整跟随母亲游荡",
+      "title": "多人因纸尿裤甲酰胺问题被处理",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%A9%E8%A2%AB%E6%9B%9D%E8%A1%A3%E8%A1%AB%E4%B8%8D%E6%95%B4%E8%B7%9F%E9%9A%8F%E6%AF%8D%E4%BA%B2%E6%B8%B8%E8%8D%A1%23&t=31&band_rank=1&Refer=top",
-      "score": 450520,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%9A%E4%BA%BA%E5%9B%A0%E7%BA%B8%E5%B0%BF%E8%A3%A4%E7%94%B2%E9%85%B0%E8%83%BA%E9%97%AE%E9%A2%98%E8%A2%AB%E5%A4%84%E7%90%86%23&t=31&band_rank=1&Refer=top",
+      "score": 591613,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1792061184
+      "onboardTime": 1792063881
     },
     {
-      "title": "女子买iPhone18Pro被5名骑手冒领快递",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E4%B9%B0iPhone18Pro%E8%A2%AB5%E5%90%8D%E9%AA%91%E6%89%8B%E5%86%92%E9%A2%86%E5%BF%AB%E9%80%92%23&t=31&band_rank=1&Refer=top",
-      "score": 442395,
+      "title": "官方通报Babycare纸尿裤甲酰胺未检出",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%AE%98%E6%96%B9%E9%80%9A%E6%8A%A5Babycare%E7%BA%B8%E5%B0%BF%E8%A3%A4%E7%94%B2%E9%85%B0%E8%83%BA%E6%9C%AA%E6%A3%80%E5%87%BA%23&t=31&band_rank=1&Refer=top",
+      "score": 574100,
       "owner": "微博同城",
-      "label": "",
+      "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1792048160
+      "onboardTime": 1792064302
+    },
+    {
+      "title": "男子称86万买房不兑现四五十万返现",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E7%A7%B086%E4%B8%87%E4%B9%B0%E6%88%BF%E4%B8%8D%E5%85%91%E7%8E%B0%E5%9B%9B%E4%BA%94%E5%8D%81%E4%B8%87%E8%BF%94%E7%8E%B0%23&t=31&band_rank=1&Refer=top",
+      "score": 487059,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792065681
     },
     {
       "title": "24岁猝死女子面试前已呼吸困难",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%2324%E5%B2%81%E7%8C%9D%E6%AD%BB%E5%A5%B3%E5%AD%90%E9%9D%A2%E8%AF%95%E5%89%8D%E5%B7%B2%E5%91%BC%E5%90%B8%E5%9B%B0%E9%9A%BE%23&t=31&band_rank=1&Refer=top",
-      "score": 426536,
+      "score": 316057,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1792050020
     },
     {
+      "title": "男孩被曝衣衫不整跟随母亲游荡",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%A9%E8%A2%AB%E6%9B%9D%E8%A1%A3%E8%A1%AB%E4%B8%8D%E6%95%B4%E8%B7%9F%E9%9A%8F%E6%AF%8D%E4%BA%B2%E6%B8%B8%E8%8D%A1%23&t=31&band_rank=1&Refer=top",
+      "score": 298377,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792061184
+    },
+    {
       "title": "李嘉诚暂不打算回应去世传闻",
       "description": "民生新闻,财经",
       "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E5%98%89%E8%AF%9A%E6%9A%82%E4%B8%8D%E6%89%93%E7%AE%97%E5%9B%9E%E5%BA%94%E5%8E%BB%E4%B8%96%E4%BC%A0%E9%97%BB%23&t=31&band_rank=1&Refer=top",
-      "score": 394671,
+      "score": 291596,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻,财经",
       "onboardTime": 1792051340
     },
     {
+      "title": "好奇纸尿裤被澄清",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%BD%E5%A5%87%E7%BA%B8%E5%B0%BF%E8%A3%A4%E8%A2%AB%E6%BE%84%E6%B8%85%23&t=31&band_rank=1&Refer=top",
+      "score": 276366,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792066101
+    },
+    {
       "title": "小家电首次参加天猫双11抢先购",
       "description": "新 · 民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E5%B0%8F%E5%AE%B6%E7%94%B5%E9%A6%96%E6%AC%A1%E5%8F%82%E5%8A%A0%E5%A4%A9%E7%8C%AB%E5%8F%8C11%E6%8A%A2%E5%85%88%E8%B4%AD%23&t=31&band_rank=1&Refer=top",
-      "score": 309285,
+      "score": 250540,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
       "onboardTime": 1792062562
     },
     {
-      "title": "女律师向7名司法人员行贿145万",
+      "title": "反映康师傅绿茶兑奖难被拉黑",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%BE%8B%E5%B8%88%E5%90%917%E5%90%8D%E5%8F%B8%E6%B3%95%E4%BA%BA%E5%91%98%E8%A1%8C%E8%B4%BF145%E4%B8%87%23&t=31&band_rank=1&Refer=top",
-      "score": 176845,
+      "url": "https://s.weibo.com/weibo?q=%E5%8F%8D%E6%98%A0%E5%BA%B7%E5%B8%88%E5%82%85%E7%BB%BF%E8%8C%B6%E5%85%91%E5%A5%96%E9%9A%BE%E8%A2%AB%E6%8B%89%E9%BB%91&t=31&band_rank=1&Refer=top",
+      "score": 219642,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1792062082
+      "onboardTime": 1792065681
     }
   ]
 }
