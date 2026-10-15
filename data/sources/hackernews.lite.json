@@ -1,17 +1,27 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-10-15T07:09:15Z",
+  "savedAt": "2026-10-15T14:01:23Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-10-15，共 20 条）",
   "updateFrequency": "twice-daily",
   "fetchedDate": "2026-10-15",
   "items": [
     {
+      "title": "Things to know when you get cancer",
+      "description": "",
+      "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
+      "score": 1654,
+      "comments": 393,
+      "owner": "jjmaxwell4",
+      "published": "2026-10-14T19:26:30Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50093568"
+    },
+    {
       "title": "Gemini 4 Argon",
       "description": "See also: <i>Gemini 4 Argon for Robotics</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50074869\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50074869</a>",
       "url": "https://deepmind.google/models/gemini/",
-      "score": 1446,
-      "comments": 1027,
+      "score": 1452,
+      "comments": 1031,
       "owner": "737max",
       "published": "2026-10-13T16:03:16Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50073879"
@@ -20,7 +30,7 @@
       "title": "Triple-A Minesweeper",
       "description": "",
       "url": "https://minesweeper.mikelacher.com/",
-      "score": 1441,
+      "score": 1442,
       "comments": 287,
       "owner": "robin_reala",
       "published": "2026-10-09T15:51:05Z",
@@ -37,20 +47,10 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50019911"
     },
     {
-      "title": "Things to know when you get cancer",
-      "description": "",
-      "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
-      "score": 1181,
-      "comments": 298,
-      "owner": "jjmaxwell4",
-      "published": "2026-10-14T19:26:30Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50093568"
-    },
-    {
       "title": "Passkeys are a trap",
       "description": "",
       "url": "https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them",
-      "score": 1131,
+      "score": 1132,
       "comments": 574,
       "owner": "laurex",
       "published": "2026-10-11T21:59:48Z",
@@ -87,34 +87,54 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50006832"
     },
     {
+      "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+      "description": "",
+      "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+      "score": 925,
+      "comments": 572,
+      "owner": "latexr",
+      "published": "2026-10-14T17:45:23Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50091788"
+    },
+    {
       "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
       "description": "<a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;retail-consumer&#x2F;french-supermarket-chain-intermarche-hit-by-cyberattack-150-stories-targeted-2026-10-12&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;retail-consumer&#x2F;french-supe...</a>, <a href=\"https:&#x2F;&#x2F;www.bbc.com&#x2F;news&#x2F;articles&#x2F;crq5nzxv9q4yo\" rel=\"nofollow\">https:&#x2F;&#x2F;www.bbc.com&#x2F;news&#x2F;articles&#x2F;crq5nzxv9q4yo</a>, <a href=\"https:&#x2F;&#x2F;www.lemonde.fr&#x2F;en&#x2F;france&#x2F;article&#x2F;2026&#x2F;10&#x2F;12&#x2F;french-supermarket-chains-say-cyberattack-forced-refrigerator-shutdown_6758510_7.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.lemonde.fr&#x2F;en&#x2F;france&#x2F;article&#x2F;2026&#x2F;10&#x2F;12&#x2F;french-s...</a><p>Related:<p><a href=\"https:&#x2F;&#x2F;www.claroty.com&#x2F;team82&#x2F;research&#x2F;freeze-the-controller-defrost-the-food-uncovering-vulnerabilities-in-danfoss-refrigeration-controllers\" rel=\"nofollow\">https:&#x2F;&#x2F;www.claroty.com&#x2F;team82&#x2F;research&#x2F;freeze-the-controlle...</a><p><i>I think the military commissary&#x27;s freezers were hacked</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49508506\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49508506</a> - Aug 2026 (239 comments)",
       "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
       "score": 905,
-      "comments": 1001,
+      "comments": 1002,
       "owner": "Zeekaas",
       "published": "2026-10-12T12:16:42Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50055304"
     },
     {
+      "title": "How Amazon pushes up prices all across the Internet",
+      "description": "",
+      "url": "https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/",
+      "score": 899,
+      "comments": 685,
+      "owner": "sighborg",
+      "published": "2026-10-14T09:28:17Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50084757"
+    },
+    {
       "title": "Redesigning source control at Anthropic",
       "description": "",
       "url": "https://www.anthropic.com/engineering/redesigning-source-control",
-      "score": 877,
-      "comments": 980,
+      "score": 881,
+      "comments": 992,
       "owner": "Philpax",
       "published": "2026-10-13T15:49:56Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50073633"
     },
     {
-      "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+      "title": "Do dentists know what they're doing?",
       "description": "",
-      "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
-      "score": 876,
-      "comments": 513,
-      "owner": "latexr",
-      "published": "2026-10-14T17:45:23Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50091788"
+      "url": "https://mapwriting.substack.com/p/dentists",
+      "score": 824,
+      "comments": 598,
+      "owner": "doitLP",
+      "published": "2026-10-12T02:21:54Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50050553"
     },
     {
       "title": "REA Reverse – Engineer Anything",
@@ -127,34 +147,24 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50028275"
     },
     {
-      "title": "How Amazon pushes up prices all across the Internet",
-      "description": "",
-      "url": "https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/",
-      "score": 796,
-      "comments": 625,
-      "owner": "sighborg",
-      "published": "2026-10-14T09:28:17Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50084757"
-    },
-    {
-      "title": "Yes, and",
-      "description": "",
-      "url": "https://htmx.org/essays/yes-and/",
-      "score": 793,
-      "comments": 309,
-      "owner": "Michelangelo11",
-      "published": "2026-10-08T09:48:18Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50003796"
-    },
-    {
       "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
       "description": "<a href=\"https:&#x2F;&#x2F;www.heise.de&#x2F;en&#x2F;news&#x2F;Crypto-thieves-sell-hardware-wallets-with-secret-eSIM-11485188.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.heise.de&#x2F;en&#x2F;news&#x2F;Crypto-thieves-sell-hardware-wa...</a><p><a href=\"https:&#x2F;&#x2F;crypto.news&#x2F;ledger-confirms-hidden-chip-in-crypto-wallet-amid-92m&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;crypto.news&#x2F;ledger-confirms-hidden-chip-in-crypto-wa...</a><p><a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=8JnHdr30v4g\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=8JnHdr30v4g</a><p><a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=Nf4FEFlgv3Q\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=Nf4FEFlgv3Q</a><p><a href=\"https:&#x2F;&#x2F;www.tibane.net&#x2F;research&#x2F;ledger-nano-x-implant\" rel=\"nofollow\">https:&#x2F;&#x2F;www.tibane.net&#x2F;research&#x2F;ledger-nano-x-implant</a>",
       "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
-      "score": 784,
-      "comments": 494,
+      "score": 790,
+      "comments": 497,
       "owner": "thm",
       "published": "2026-10-12T10:09:37Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50054092"
+    },
+    {
+      "title": "AI is a tool and using it well takes skill",
+      "description": "",
+      "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
+      "score": 780,
+      "comments": 600,
+      "owner": "layer8",
+      "published": "2026-10-12T21:40:18Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50063427"
     },
     {
       "title": "Tell HN: I've been paying for a rural Tanzanian's education for 10 years",
@@ -167,21 +177,11 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50006366"
     },
     {
-      "title": "AI is a tool and using it well takes skill",
-      "description": "",
-      "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
-      "score": 770,
-      "comments": 593,
-      "owner": "layer8",
-      "published": "2026-10-12T21:40:18Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50063427"
-    },
-    {
       "title": "Firefox Enterprise",
       "description": "",
       "url": "https://www.firefox.com/en-US/enterprise/",
-      "score": 761,
-      "comments": 325,
+      "score": 766,
+      "comments": 327,
       "owner": "recvonline",
       "published": "2026-10-13T12:00:42Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50070302"
@@ -190,7 +190,7 @@
       "title": "Apple HomeView",
       "description": "",
       "url": "https://www.apple.com/apple-homeview/",
-      "score": 752,
+      "score": 757,
       "comments": 904,
       "owner": "etothet",
       "published": "2026-10-13T13:02:12Z",
