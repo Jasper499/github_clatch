@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-15T165132Z",
+  "day": "2026-10-15",
+  "sourceKey": "weiboLocal",
+  "savedAt": "2026-10-15T16:51:32Z",
+  "label": "同城",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-15，共 6 条，约每 6 小时更新）",
+  "updateFrequency": "every-6h",
+  "fetchedDate": "2026-10-15",
+  "items": [
+    {
+      "title": "深圳全市全天禁鸣喇叭5年",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B7%B1%E5%9C%B3%E5%85%A8%E5%B8%82%E5%85%A8%E5%A4%A9%E7%A6%81%E9%B8%A3%E5%96%87%E5%8F%AD5%E5%B9%B4%23&t=31&band_rank=1&Refer=top",
+      "score": 989075,
+      "owner": "微博同城",
+      "label": "热",
+      "category": "民生新闻",
+      "onboardTime": 1792076122
+    },
+    {
+      "title": "为何年轻人不爱去菜市场",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%BA%E4%BD%95%E5%B9%B4%E8%BD%BB%E4%BA%BA%E4%B8%8D%E7%88%B1%E5%8E%BB%E8%8F%9C%E5%B8%82%E5%9C%BA&t=31&band_rank=1&Refer=top",
+      "score": 238871,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792073061
+    },
+    {
+      "title": "央企中建七局拖欠农民工工资",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%AE%E4%BC%81%E4%B8%AD%E5%BB%BA%E4%B8%83%E5%B1%80%E6%8B%96%E6%AC%A0%E5%86%9C%E6%B0%91%E5%B7%A5%E5%B7%A5%E8%B5%84&t=31&band_rank=1&Refer=top",
+      "score": 233638,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792078223
+    },
+    {
+      "title": "衣衫不整男孩姥姥发声",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%A1%A3%E8%A1%AB%E4%B8%8D%E6%95%B4%E7%94%B7%E5%AD%A9%E5%A7%A5%E5%A7%A5%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
+      "score": 231699,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792068082
+    },
+    {
+      "title": "Babycare已起诉靠谱老王",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23Babycare%E5%B7%B2%E8%B5%B7%E8%AF%89%E9%9D%A0%E8%B0%B1%E8%80%81%E7%8E%8B%23&t=31&band_rank=1&Refer=top",
+      "score": 227709,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792072405
+    },
+    {
+      "title": "轿车司机昏迷面包车拦停救人",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%BD%BF%E8%BD%A6%E5%8F%B8%E6%9C%BA%E6%98%8F%E8%BF%B7%E9%9D%A2%E5%8C%85%E8%BD%A6%E6%8B%A6%E5%81%9C%E6%95%91%E4%BA%BA%23&t=31&band_rank=1&Refer=top",
+      "score": 225091,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792079241
+    }
+  ]
+}
