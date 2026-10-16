@@ -1,120 +1,90 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-10-16T12:11:12Z",
+  "savedAt": "2026-10-16T16:32:21Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-16，共 11 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-16，共 8 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-10-16",
   "items": [
     {
-      "title": "天水幼儿血铅案一审宣判",
+      "title": "母亲将大一儿子生活费从4000降至2000",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%AF%8D%E4%BA%B2%E5%B0%86%E5%A4%A7%E4%B8%80%E5%84%BF%E5%AD%90%E7%94%9F%E6%B4%BB%E8%B4%B9%E4%BB%8E4000%E9%99%8D%E8%87%B32000%23&t=31&band_rank=1&Refer=top",
+      "score": 881491,
+      "owner": "微博同城",
+      "label": "热",
+      "category": "民生新闻",
+      "onboardTime": 1792154361
+    },
+    {
+      "title": "中央红军长征路线全览",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%A9%E6%B0%B4%E5%B9%BC%E5%84%BF%E8%A1%80%E9%93%85%E6%A1%88%E4%B8%80%E5%AE%A1%E5%AE%A3%E5%88%A4%23&t=31&band_rank=1&Refer=top",
-      "score": 1371715,
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%A4%AE%E7%BA%A2%E5%86%9B%E9%95%BF%E5%BE%81%E8%B7%AF%E7%BA%BF%E5%85%A8%E8%A7%88%23&t=31&band_rank=1&Refer=top",
+      "score": 529978,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1792145240
+      "onboardTime": 1792154122
     },
     {
-      "title": "乡政府拖欠工程款5000万称无力偿还",
+      "title": "医生在4岁宝宝睫毛上发现阴虱",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B9%A1%E6%94%BF%E5%BA%9C%E6%8B%96%E6%AC%A0%E5%B7%A5%E7%A8%8B%E6%AC%BE5000%E4%B8%87%E7%A7%B0%E6%97%A0%E5%8A%9B%E5%81%BF%E8%BF%98%23&t=31&band_rank=1&Refer=top",
-      "score": 874707,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8C%BB%E7%94%9F%E5%9C%A84%E5%B2%81%E5%AE%9D%E5%AE%9D%E7%9D%AB%E6%AF%9B%E4%B8%8A%E5%8F%91%E7%8E%B0%E9%98%B4%E8%99%B1%23&t=31&band_rank=1&Refer=top",
+      "score": 506855,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1792141280
+      "onboardTime": 1792154542
     },
     {
-      "title": "甘肃天水幼儿园铅中毒案1人无期",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%94%98%E8%82%83%E5%A4%A9%E6%B0%B4%E5%B9%BC%E5%84%BF%E5%9B%AD%E9%93%85%E4%B8%AD%E6%AF%92%E6%A1%881%E4%BA%BA%E6%97%A0%E6%9C%9F%23&t=31&band_rank=1&Refer=top",
-      "score": 759332,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1792146560
-    },
-    {
-      "title": "公司因单休招不到人改成双休",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%85%AC%E5%8F%B8%E5%9B%A0%E5%8D%95%E4%BC%91%E6%8B%9B%E4%B8%8D%E5%88%B0%E4%BA%BA%E6%94%B9%E6%88%90%E5%8F%8C%E4%BC%91&t=31&band_rank=1&Refer=top",
-      "score": 240332,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1792141102
-    },
-    {
-      "title": "京东与惠同行直播间5折被疯抢",
+      "title": "女子回应监控取证丈夫出轨不被采用",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%BA%AC%E4%B8%9C%E4%B8%8E%E6%83%A0%E5%90%8C%E8%A1%8C%E7%9B%B4%E6%92%AD%E9%97%B45%E6%8A%98%E8%A2%AB%E7%96%AF%E6%8A%A2%23&t=31&band_rank=1&Refer=top",
-      "score": 219334,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E5%9B%9E%E5%BA%94%E7%9B%91%E6%8E%A7%E5%8F%96%E8%AF%81%E4%B8%88%E5%A4%AB%E5%87%BA%E8%BD%A8%E4%B8%8D%E8%A2%AB%E9%87%87%E7%94%A8%23&t=31&band_rank=1&Refer=top",
+      "score": 302408,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1792150702
+      "onboardTime": 1792164322
     },
     {
-      "title": "男子中1000万不到一月仅剩28元",
+      "title": "大一男生因生活费与母亲起争执",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E4%B8%AD1000%E4%B8%87%E4%B8%8D%E5%88%B0%E4%B8%80%E6%9C%88%E4%BB%85%E5%89%A928%E5%85%83%23&t=31&band_rank=1&Refer=top",
-      "score": 200337,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%A7%E4%B8%80%E7%94%B7%E7%94%9F%E5%9B%A0%E7%94%9F%E6%B4%BB%E8%B4%B9%E4%B8%8E%E6%AF%8D%E4%BA%B2%E8%B5%B7%E4%BA%89%E6%89%A7%23&t=31&band_rank=1&Refer=top",
+      "score": 192585,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1792136481
+      "onboardTime": 1792155321
     },
     {
-      "title": "老师被家长举报要求保证不怀孕",
+      "title": "29岁教师瘫痪怀孕6月妻子求助",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%80%81%E5%B8%88%E8%A2%AB%E5%AE%B6%E9%95%BF%E4%B8%BE%E6%8A%A5%E8%A6%81%E6%B1%82%E4%BF%9D%E8%AF%81%E4%B8%8D%E6%80%80%E5%AD%95%23&t=31&band_rank=1&Refer=top",
-      "score": 196698,
+      "url": "https://s.weibo.com/weibo?q=%2329%E5%B2%81%E6%95%99%E5%B8%88%E7%98%AB%E7%97%AA%E6%80%80%E5%AD%956%E6%9C%88%E5%A6%BB%E5%AD%90%E6%B1%82%E5%8A%A9%23&t=31&band_rank=1&Refer=top",
+      "score": 158775,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1792144582
+      "onboardTime": 1792160063
     },
     {
-      "title": "蔡天凤现任丈夫承认曾借500万赌钱",
+      "title": "蔡天凤公公出庭作证",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%94%A1%E5%A4%A9%E5%87%A4%E7%8E%B0%E4%BB%BB%E4%B8%88%E5%A4%AB%E6%89%BF%E8%AE%A4%E6%9B%BE%E5%80%9F500%E4%B8%87%E8%B5%8C%E9%92%B1%23&t=31&band_rank=1&Refer=top",
-      "score": 166598,
+      "url": "https://s.weibo.com/weibo?q=%23%E8%94%A1%E5%A4%A9%E5%87%A4%E5%85%AC%E5%85%AC%E5%87%BA%E5%BA%AD%E4%BD%9C%E8%AF%81%23&t=31&band_rank=1&Refer=top",
+      "score": 137013,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1792151242
+      "onboardTime": 1792164020
     },
     {
-      "title": "手机掉进地铁缝连播16小时短剧",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%89%8B%E6%9C%BA%E6%8E%89%E8%BF%9B%E5%9C%B0%E9%93%81%E7%BC%9D%E8%BF%9E%E6%92%AD16%E5%B0%8F%E6%97%B6%E7%9F%AD%E5%89%A7%23&t=31&band_rank=1&Refer=top",
-      "score": 154524,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1792142240
-    },
-    {
-      "title": "汕头12人死亡重大火灾事故调查报告",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B1%95%E5%A4%B412%E4%BA%BA%E6%AD%BB%E4%BA%A1%E9%87%8D%E5%A4%A7%E7%81%AB%E7%81%BE%E4%BA%8B%E6%95%85%E8%B0%83%E6%9F%A5%E6%8A%A5%E5%91%8A%23&t=31&band_rank=1&Refer=top",
-      "score": 132785,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1792144940
-    },
-    {
-      "title": "一杯奶见证中国人生活变迁",
+      "title": "老人打扑克悔牌被踹后七天离世",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%80%E6%9D%AF%E5%A5%B6%E8%A7%81%E8%AF%81%E4%B8%AD%E5%9B%BD%E4%BA%BA%E7%94%9F%E6%B4%BB%E5%8F%98%E8%BF%81%23&t=31&band_rank=1&Refer=top",
-      "score": 120915,
+      "url": "https://s.weibo.com/weibo?q=%23%E8%80%81%E4%BA%BA%E6%89%93%E6%89%91%E5%85%8B%E6%82%94%E7%89%8C%E8%A2%AB%E8%B8%B9%E5%90%8E%E4%B8%83%E5%A4%A9%E7%A6%BB%E4%B8%96%23&t=31&band_rank=1&Refer=top",
+      "score": 129577,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1792148722
+      "onboardTime": 1792164381
     }
   ]
 }
