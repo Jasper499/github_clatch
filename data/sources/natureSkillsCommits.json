@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-10-16T02:21:21Z",
+  "savedAt": "2026-10-16T07:19:56Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "7c1cdd2f4c484d4038ea36f1b7397f61237a4f90",
+  "latestSha": "6827ae57b62b201acd06b401619050411c0d82f6",
   "items": [
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/6827ae57b62b201acd06b401619050411c0d82f6",
+      "sha": "6827ae5",
+      "fullSha": "6827ae57b62b201acd06b401619050411c0d82f6",
+      "owner": "github-actions",
+      "published": "2026-10-16",
+      "label": "commit"
+    },
     {
       "title": "Update README.md",
       "description": "Update README.md",
@@ -143,16 +153,6 @@
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/b057bc08a0aea61859d834c25518978a0401b331",
       "sha": "b057bc0",
       "fullSha": "b057bc08a0aea61859d834c25518978a0401b331",
-      "owner": "Travisma2233",
-      "published": "2026-10-11",
-      "label": "commit"
-    },
-    {
-      "title": "fix(nature-image2ppt): flatten transparent images onto white, not black",
-      "description": "fix(nature-image2ppt): flatten transparent images onto white, not black\n\nsave_image_page and extract_image_based_pptx_pages used convert(&quot;RGB&quot;), which\ndrops alpha and exposes the colour stored under transparent pixels (normally\nblack), so a PNG with a transparent background became a black slide\nbackground. Composite RGBA/LA/palette-with-transparency images onto white\nfirst. Adds tests, including partial alpha and opaque pixels unchanged.\n\nXinrui Ma",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/515a2c5503988d1f4b76eee872d2c13276f25b6e",
-      "sha": "515a2c5",
-      "fullSha": "515a2c5503988d1f4b76eee872d2c13276f25b6e",
       "owner": "Travisma2233",
       "published": "2026-10-11",
       "label": "commit"
