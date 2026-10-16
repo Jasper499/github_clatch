@@ -1,8 +1,8 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-10-16T18:11:15Z",
+  "savedAt": "2026-10-16T20:58:44Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-16，共 9 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-16，共 8 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-10-16",
   "items": [
@@ -10,7 +10,7 @@
       "title": "母亲将大一儿子生活费从4000降至2000",
       "description": "热 · 民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E6%AF%8D%E4%BA%B2%E5%B0%86%E5%A4%A7%E4%B8%80%E5%84%BF%E5%AD%90%E7%94%9F%E6%B4%BB%E8%B4%B9%E4%BB%8E4000%E9%99%8D%E8%87%B32000%23&t=31&band_rank=1&Refer=top",
-      "score": 290906,
+      "score": 103022,
       "owner": "微博同城",
       "label": "热",
       "category": "民生新闻",
@@ -20,17 +20,27 @@
       "title": "中央红军长征路线全览",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%A4%AE%E7%BA%A2%E5%86%9B%E9%95%BF%E5%BE%81%E8%B7%AF%E7%BA%BF%E5%85%A8%E8%A7%88%23&t=31&band_rank=1&Refer=top",
-      "score": 180413,
+      "score": 70954,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1792154122
     },
     {
+      "title": "皮肤科医生建议住酒店自带4样东西",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%9A%AE%E8%82%A4%E7%A7%91%E5%8C%BB%E7%94%9F%E5%BB%BA%E8%AE%AE%E4%BD%8F%E9%85%92%E5%BA%97%E8%87%AA%E5%B8%A64%E6%A0%B7%E4%B8%9C%E8%A5%BF%23&t=31&band_rank=1&Refer=top",
+      "score": 40395,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792174575
+    },
+    {
       "title": "医生在4岁宝宝睫毛上发现阴虱",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E5%8C%BB%E7%94%9F%E5%9C%A84%E5%B2%81%E5%AE%9D%E5%AE%9D%E7%9D%AB%E6%AF%9B%E4%B8%8A%E5%8F%91%E7%8E%B0%E9%98%B4%E8%99%B1%23&t=31&band_rank=1&Refer=top",
-      "score": 177717,
+      "score": 40124,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
@@ -40,61 +50,41 @@
       "title": "女子回应监控取证丈夫出轨不被采用",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E5%9B%9E%E5%BA%94%E7%9B%91%E6%8E%A7%E5%8F%96%E8%AF%81%E4%B8%88%E5%A4%AB%E5%87%BA%E8%BD%A8%E4%B8%8D%E8%A2%AB%E9%87%87%E7%94%A8%23&t=31&band_rank=1&Refer=top",
-      "score": 170063,
+      "score": 40094,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1792164322
     },
     {
-      "title": "大一男生因生活费与母亲起争执",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%A7%E4%B8%80%E7%94%B7%E7%94%9F%E5%9B%A0%E7%94%9F%E6%B4%BB%E8%B4%B9%E4%B8%8E%E6%AF%8D%E4%BA%B2%E8%B5%B7%E4%BA%89%E6%89%A7%23&t=31&band_rank=1&Refer=top",
-      "score": 131798,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1792155321
-    },
-    {
-      "title": "骑电动车下车时务必关闭电源",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%AA%91%E7%94%B5%E5%8A%A8%E8%BD%A6%E4%B8%8B%E8%BD%A6%E6%97%B6%E5%8A%A1%E5%BF%85%E5%85%B3%E9%97%AD%E7%94%B5%E6%BA%90%23&t=31&band_rank=1&Refer=top",
-      "score": 131745,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1792170198
-    },
-    {
-      "title": "29岁教师瘫痪怀孕6月妻子求助",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%2329%E5%B2%81%E6%95%99%E5%B8%88%E7%98%AB%E7%97%AA%E6%80%80%E5%AD%956%E6%9C%88%E5%A6%BB%E5%AD%90%E6%B1%82%E5%8A%A9%23&t=31&band_rank=1&Refer=top",
-      "score": 131491,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1792160063
-    },
-    {
       "title": "老人打扑克悔牌被踹后七天离世",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E8%80%81%E4%BA%BA%E6%89%93%E6%89%91%E5%85%8B%E6%82%94%E7%89%8C%E8%A2%AB%E8%B8%B9%E5%90%8E%E4%B8%83%E5%A4%A9%E7%A6%BB%E4%B8%96%23&t=31&band_rank=1&Refer=top",
-      "score": 131315,
+      "score": 39581,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1792164381
     },
     {
-      "title": "蔡天凤公公出庭作证",
+      "title": "骑电动车下车时务必关闭电源",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%94%A1%E5%A4%A9%E5%87%A4%E5%85%AC%E5%85%AC%E5%87%BA%E5%BA%AD%E4%BD%9C%E8%AF%81%23&t=31&band_rank=1&Refer=top",
-      "score": 130943,
+      "url": "https://s.weibo.com/weibo?q=%23%E9%AA%91%E7%94%B5%E5%8A%A8%E8%BD%A6%E4%B8%8B%E8%BD%A6%E6%97%B6%E5%8A%A1%E5%BF%85%E5%85%B3%E9%97%AD%E7%94%B5%E6%BA%90%23&t=31&band_rank=1&Refer=top",
+      "score": 39570,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1792164020
+      "onboardTime": 1792170198
+    },
+    {
+      "title": "大一男生因生活费与母亲起争执",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%A7%E4%B8%80%E7%94%B7%E7%94%9F%E5%9B%A0%E7%94%9F%E6%B4%BB%E8%B4%B9%E4%B8%8E%E6%AF%8D%E4%BA%B2%E8%B5%B7%E4%BA%89%E6%89%A7%23&t=31&band_rank=1&Refer=top",
+      "score": 39482,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792155321
     }
   ]
 }
