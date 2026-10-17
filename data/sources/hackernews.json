@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-10-17T02:01:22Z",
+  "savedAt": "2026-10-17T06:44:49Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-10-17，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,8 +10,8 @@
       "title": "Things to know when you get cancer",
       "description": "",
       "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
-      "score": 1931,
-      "comments": 475,
+      "score": 1933,
+      "comments": 476,
       "owner": "jjmaxwell4",
       "published": "2026-10-14T19:26:30Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50093568"
@@ -21,7 +21,7 @@
       "description": "See also: <i>Gemini 4 Argon for Robotics</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50074869\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50074869</a>",
       "url": "https://deepmind.google/models/gemini/",
       "score": 1461,
-      "comments": 1040,
+      "comments": 1042,
       "owner": "737max",
       "published": "2026-10-13T16:03:16Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50073879"
@@ -30,8 +30,8 @@
       "title": "Tesla Roadster",
       "description": "<a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=7p5LxFdc-Qg\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=7p5LxFdc-Qg</a><p><a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;Tesla&#x2F;status&#x2F;2110788059008819215\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;Tesla&#x2F;status&#x2F;2110788059008819215</a>",
       "url": "https://www.tesla.com/roadster",
-      "score": 1199,
-      "comments": 2165,
+      "score": 1343,
+      "comments": 2383,
       "owner": "shekhar101",
       "published": "2026-10-16T01:32:45Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50112657"
@@ -51,7 +51,7 @@
       "description": "",
       "url": "https://mapwriting.substack.com/p/dentists",
       "score": 976,
-      "comments": 692,
+      "comments": 693,
       "owner": "doitLP",
       "published": "2026-10-12T02:21:54Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50050553"
@@ -90,7 +90,7 @@
       "title": "Muse Spark Open",
       "description": "<a href=\"https:&#x2F;&#x2F;dev.meta.ai&#x2F;resources&#x2F;blog&#x2F;build-with-muse-spark-open\" rel=\"nofollow\">https:&#x2F;&#x2F;dev.meta.ai&#x2F;resources&#x2F;blog&#x2F;build-with-muse-spark-ope...</a><p><a href=\"https:&#x2F;&#x2F;huggingface.co&#x2F;meta-models&#x2F;Muse-Spark-Open-816B-A42B\" rel=\"nofollow\">https:&#x2F;&#x2F;huggingface.co&#x2F;meta-models&#x2F;Muse-Spark-Open-816B-A42B</a><p><a href=\"https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;10&#x2F;15&#x2F;meta-launches-new-muse-spark-open-model-optimized-to-run-on-mac-studio&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;10&#x2F;15&#x2F;meta-launches-new-muse-spark-...</a>",
       "url": "https://research.meta.ai/blog/muse-spark-open",
-      "score": 901,
+      "score": 903,
       "comments": 467,
       "owner": "bigwheels",
       "published": "2026-10-15T17:47:39Z",
@@ -110,8 +110,8 @@
       "title": "OpenCode 2.0",
       "description": "",
       "url": "https://anoma.ly/notes/opencode-2-0/",
-      "score": 878,
-      "comments": 384,
+      "score": 880,
+      "comments": 385,
       "owner": "gmays",
       "published": "2026-10-14T20:48:24Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50094994"
@@ -120,31 +120,41 @@
       "title": "Woman who rescued injured crow keeps getting 'thank-you gifts' from birds [video]",
       "description": "",
       "url": "https://www.youtube.com/watch?v=sjNpfz4UzqU",
-      "score": 825,
-      "comments": 246,
+      "score": 833,
+      "comments": 248,
       "owner": "johnnyApplePRNG",
       "published": "2026-10-13T02:32:53Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50065859"
     },
     {
-      "title": "AI is a tool and using it well takes skill",
-      "description": "",
-      "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
-      "score": 800,
-      "comments": 606,
-      "owner": "layer8",
-      "published": "2026-10-12T21:40:18Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50063427"
+      "title": "Claude reveals ECDSA curve origins",
+      "description": "<a href=\"https:&#x2F;&#x2F;words.filippo.io&#x2F;seeds-solved&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;words.filippo.io&#x2F;seeds-solved&#x2F;</a>",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "score": 812,
+      "comments": 308,
+      "owner": "ahlCVA",
+      "published": "2026-10-16T18:55:59Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50122800"
     },
     {
       "title": "Neural networks are clean",
       "description": "<a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056</a>",
       "url": "https://already-clean.goodfire.com/",
-      "score": 800,
-      "comments": 324,
+      "score": 803,
+      "comments": 326,
       "owner": "themgt",
       "published": "2026-10-15T16:04:01Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50105647"
+    },
+    {
+      "title": "AI is a tool and using it well takes skill",
+      "description": "",
+      "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
+      "score": 801,
+      "comments": 607,
+      "owner": "layer8",
+      "published": "2026-10-12T21:40:18Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50063427"
     },
     {
       "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
@@ -195,16 +205,6 @@
       "owner": "formerly_proven",
       "published": "2026-10-13T10:27:00Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50069499"
-    },
-    {
-      "title": "Iosevka is an open-source, sans-serif and slab-serif monospace font",
-      "description": "",
-      "url": "https://typeof.net/Iosevka/",
-      "score": 743,
-      "comments": 312,
-      "owner": "otobrglez",
-      "published": "2026-10-14T08:27:59Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50084240"
     }
   ]
 }
