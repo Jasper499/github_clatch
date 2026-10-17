@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-10-17T14:00:34Z",
+  "savedAt": "2026-10-17T16:55:11Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-10-17，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,8 +10,8 @@
       "title": "Things to know when you get cancer",
       "description": "",
       "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
-      "score": 1941,
-      "comments": 476,
+      "score": 1944,
+      "comments": 478,
       "owner": "jjmaxwell4",
       "published": "2026-10-14T19:26:30Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50093568"
@@ -20,8 +20,8 @@
       "title": "Tesla Roadster",
       "description": "<a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=7p5LxFdc-Qg\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=7p5LxFdc-Qg</a><p><a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;Tesla&#x2F;status&#x2F;2110788059008819215\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;Tesla&#x2F;status&#x2F;2110788059008819215</a>",
       "url": "https://www.tesla.com/roadster",
-      "score": 1509,
-      "comments": 2728,
+      "score": 1570,
+      "comments": 2846,
       "owner": "shekhar101",
       "published": "2026-10-16T01:32:45Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50112657"
@@ -57,11 +57,21 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50050553"
     },
     {
+      "title": "Claude reveals ECDSA curve origins",
+      "description": "<a href=\"https:&#x2F;&#x2F;words.filippo.io&#x2F;seeds-solved&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;words.filippo.io&#x2F;seeds-solved&#x2F;</a>",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "score": 976,
+      "comments": 355,
+      "owner": "ahlCVA",
+      "published": "2026-10-16T18:55:59Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50122800"
+    },
+    {
       "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
       "description": "",
       "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
       "score": 947,
-      "comments": 619,
+      "comments": 620,
       "owner": "latexr",
       "published": "2026-10-14T17:45:23Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50091788"
@@ -70,21 +80,21 @@
       "title": "How Amazon pushes up prices all across the Internet",
       "description": "",
       "url": "https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/",
-      "score": 943,
+      "score": 945,
       "comments": 759,
       "owner": "sighborg",
       "published": "2026-10-14T09:28:17Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50084757"
     },
     {
-      "title": "Claude reveals ECDSA curve origins",
-      "description": "<a href=\"https:&#x2F;&#x2F;words.filippo.io&#x2F;seeds-solved&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;words.filippo.io&#x2F;seeds-solved&#x2F;</a>",
-      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-      "score": 931,
-      "comments": 340,
-      "owner": "ahlCVA",
-      "published": "2026-10-16T18:55:59Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50122800"
+      "title": "Muse Spark Open",
+      "description": "<a href=\"https:&#x2F;&#x2F;dev.meta.ai&#x2F;resources&#x2F;blog&#x2F;build-with-muse-spark-open\" rel=\"nofollow\">https:&#x2F;&#x2F;dev.meta.ai&#x2F;resources&#x2F;blog&#x2F;build-with-muse-spark-ope...</a><p><a href=\"https:&#x2F;&#x2F;huggingface.co&#x2F;meta-models&#x2F;Muse-Spark-Open-816B-A42B\" rel=\"nofollow\">https:&#x2F;&#x2F;huggingface.co&#x2F;meta-models&#x2F;Muse-Spark-Open-816B-A42B</a><p><a href=\"https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;10&#x2F;15&#x2F;meta-launches-new-muse-spark-open-model-optimized-to-run-on-mac-studio&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;10&#x2F;15&#x2F;meta-launches-new-muse-spark-...</a>",
+      "url": "https://research.meta.ai/blog/muse-spark-open",
+      "score": 912,
+      "comments": 471,
+      "owner": "bigwheels",
+      "published": "2026-10-15T17:47:39Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50107379"
     },
     {
       "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
@@ -95,16 +105,6 @@
       "owner": "Zeekaas",
       "published": "2026-10-12T12:16:42Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50055304"
-    },
-    {
-      "title": "Muse Spark Open",
-      "description": "<a href=\"https:&#x2F;&#x2F;dev.meta.ai&#x2F;resources&#x2F;blog&#x2F;build-with-muse-spark-open\" rel=\"nofollow\">https:&#x2F;&#x2F;dev.meta.ai&#x2F;resources&#x2F;blog&#x2F;build-with-muse-spark-ope...</a><p><a href=\"https:&#x2F;&#x2F;huggingface.co&#x2F;meta-models&#x2F;Muse-Spark-Open-816B-A42B\" rel=\"nofollow\">https:&#x2F;&#x2F;huggingface.co&#x2F;meta-models&#x2F;Muse-Spark-Open-816B-A42B</a><p><a href=\"https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;10&#x2F;15&#x2F;meta-launches-new-muse-spark-open-model-optimized-to-run-on-mac-studio&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;10&#x2F;15&#x2F;meta-launches-new-muse-spark-...</a>",
-      "url": "https://research.meta.ai/blog/muse-spark-open",
-      "score": 911,
-      "comments": 471,
-      "owner": "bigwheels",
-      "published": "2026-10-15T17:47:39Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50107379"
     },
     {
       "title": "Redesigning source control at Anthropic",
@@ -121,7 +121,7 @@
       "description": "",
       "url": "https://anoma.ly/notes/opencode-2-0/",
       "score": 884,
-      "comments": 388,
+      "comments": 389,
       "owner": "gmays",
       "published": "2026-10-14T20:48:24Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50094994"
@@ -130,7 +130,7 @@
       "title": "Woman who rescued injured crow keeps getting 'thank-you gifts' from birds [video]",
       "description": "",
       "url": "https://www.youtube.com/watch?v=sjNpfz4UzqU",
-      "score": 848,
+      "score": 851,
       "comments": 251,
       "owner": "johnnyApplePRNG",
       "published": "2026-10-13T02:32:53Z",
@@ -140,7 +140,7 @@
       "title": "Neural networks are clean",
       "description": "<a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056</a>",
       "url": "https://already-clean.goodfire.com/",
-      "score": 805,
+      "score": 806,
       "comments": 330,
       "owner": "themgt",
       "published": "2026-10-15T16:04:01Z",
@@ -171,7 +171,7 @@
       "description": "",
       "url": "https://www.firefox.com/en-US/enterprise/",
       "score": 778,
-      "comments": 329,
+      "comments": 330,
       "owner": "recvonline",
       "published": "2026-10-13T12:00:42Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50070302"
@@ -180,7 +180,7 @@
       "title": "Apple HomeView",
       "description": "",
       "url": "https://www.apple.com/apple-homeview/",
-      "score": 759,
+      "score": 760,
       "comments": 917,
       "owner": "etothet",
       "published": "2026-10-13T13:02:12Z",
