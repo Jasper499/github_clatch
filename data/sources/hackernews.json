@@ -1,17 +1,17 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-10-16T17:52:31Z",
+  "savedAt": "2026-10-17T02:01:22Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-10-16，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-10-17，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-10-16",
+  "fetchedDate": "2026-10-17",
   "items": [
     {
       "title": "Things to know when you get cancer",
       "description": "",
       "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
-      "score": 1919,
-      "comments": 473,
+      "score": 1931,
+      "comments": 475,
       "owner": "jjmaxwell4",
       "published": "2026-10-14T19:26:30Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50093568"
@@ -20,11 +20,21 @@
       "title": "Gemini 4 Argon",
       "description": "See also: <i>Gemini 4 Argon for Robotics</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50074869\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50074869</a>",
       "url": "https://deepmind.google/models/gemini/",
-      "score": 1460,
-      "comments": 1039,
+      "score": 1461,
+      "comments": 1040,
       "owner": "737max",
       "published": "2026-10-13T16:03:16Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50073879"
+    },
+    {
+      "title": "Tesla Roadster",
+      "description": "<a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=7p5LxFdc-Qg\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=7p5LxFdc-Qg</a><p><a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;Tesla&#x2F;status&#x2F;2110788059008819215\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;Tesla&#x2F;status&#x2F;2110788059008819215</a>",
+      "url": "https://www.tesla.com/roadster",
+      "score": 1199,
+      "comments": 2165,
+      "owner": "shekhar101",
+      "published": "2026-10-16T01:32:45Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50112657"
     },
     {
       "title": "Passkeys are a trap",
@@ -40,8 +50,8 @@
       "title": "Do dentists know what they're doing?",
       "description": "",
       "url": "https://mapwriting.substack.com/p/dentists",
-      "score": 973,
-      "comments": 691,
+      "score": 976,
+      "comments": 692,
       "owner": "doitLP",
       "published": "2026-10-12T02:21:54Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50050553"
@@ -60,8 +70,8 @@
       "title": "How Amazon pushes up prices all across the Internet",
       "description": "",
       "url": "https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/",
-      "score": 940,
-      "comments": 754,
+      "score": 943,
+      "comments": 758,
       "owner": "sighborg",
       "published": "2026-10-14T09:28:17Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50084757"
@@ -71,7 +81,7 @@
       "description": "<a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;retail-consumer&#x2F;french-supermarket-chain-intermarche-hit-by-cyberattack-150-stories-targeted-2026-10-12&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;retail-consumer&#x2F;french-supe...</a>, <a href=\"https:&#x2F;&#x2F;www.bbc.com&#x2F;news&#x2F;articles&#x2F;crq5nzxv9q4yo\" rel=\"nofollow\">https:&#x2F;&#x2F;www.bbc.com&#x2F;news&#x2F;articles&#x2F;crq5nzxv9q4yo</a>, <a href=\"https:&#x2F;&#x2F;www.lemonde.fr&#x2F;en&#x2F;france&#x2F;article&#x2F;2026&#x2F;10&#x2F;12&#x2F;french-supermarket-chains-say-cyberattack-forced-refrigerator-shutdown_6758510_7.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.lemonde.fr&#x2F;en&#x2F;france&#x2F;article&#x2F;2026&#x2F;10&#x2F;12&#x2F;french-s...</a><p>Related:<p><a href=\"https:&#x2F;&#x2F;www.claroty.com&#x2F;team82&#x2F;research&#x2F;freeze-the-controller-defrost-the-food-uncovering-vulnerabilities-in-danfoss-refrigeration-controllers\" rel=\"nofollow\">https:&#x2F;&#x2F;www.claroty.com&#x2F;team82&#x2F;research&#x2F;freeze-the-controlle...</a><p><i>I think the military commissary&#x27;s freezers were hacked</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49508506\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49508506</a> - Aug 2026 (239 comments)",
       "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
       "score": 911,
-      "comments": 1005,
+      "comments": 1007,
       "owner": "Zeekaas",
       "published": "2026-10-12T12:16:42Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50055304"
@@ -80,8 +90,8 @@
       "title": "Muse Spark Open",
       "description": "<a href=\"https:&#x2F;&#x2F;dev.meta.ai&#x2F;resources&#x2F;blog&#x2F;build-with-muse-spark-open\" rel=\"nofollow\">https:&#x2F;&#x2F;dev.meta.ai&#x2F;resources&#x2F;blog&#x2F;build-with-muse-spark-ope...</a><p><a href=\"https:&#x2F;&#x2F;huggingface.co&#x2F;meta-models&#x2F;Muse-Spark-Open-816B-A42B\" rel=\"nofollow\">https:&#x2F;&#x2F;huggingface.co&#x2F;meta-models&#x2F;Muse-Spark-Open-816B-A42B</a><p><a href=\"https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;10&#x2F;15&#x2F;meta-launches-new-muse-spark-open-model-optimized-to-run-on-mac-studio&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;10&#x2F;15&#x2F;meta-launches-new-muse-spark-...</a>",
       "url": "https://research.meta.ai/blog/muse-spark-open",
-      "score": 893,
-      "comments": 453,
+      "score": 901,
+      "comments": 467,
       "owner": "bigwheels",
       "published": "2026-10-15T17:47:39Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50107379"
@@ -90,7 +100,7 @@
       "title": "Redesigning source control at Anthropic",
       "description": "",
       "url": "https://www.anthropic.com/engineering/redesigning-source-control",
-      "score": 887,
+      "score": 889,
       "comments": 1010,
       "owner": "Philpax",
       "published": "2026-10-13T15:49:56Z",
@@ -100,31 +110,41 @@
       "title": "OpenCode 2.0",
       "description": "",
       "url": "https://anoma.ly/notes/opencode-2-0/",
-      "score": 875,
-      "comments": 382,
+      "score": 878,
+      "comments": 384,
       "owner": "gmays",
       "published": "2026-10-14T20:48:24Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50094994"
     },
     {
-      "title": "REA Reverse – Engineer Anything",
+      "title": "Woman who rescued injured crow keeps getting 'thank-you gifts' from birds [video]",
       "description": "",
-      "url": "https://rea.tools/",
-      "score": 806,
-      "comments": 338,
-      "owner": "modinfo",
-      "published": "2026-10-10T00:37:07Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50028275"
+      "url": "https://www.youtube.com/watch?v=sjNpfz4UzqU",
+      "score": 825,
+      "comments": 246,
+      "owner": "johnnyApplePRNG",
+      "published": "2026-10-13T02:32:53Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50065859"
     },
     {
       "title": "AI is a tool and using it well takes skill",
       "description": "",
       "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
-      "score": 796,
-      "comments": 605,
+      "score": 800,
+      "comments": 606,
       "owner": "layer8",
       "published": "2026-10-12T21:40:18Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50063427"
+    },
+    {
+      "title": "Neural networks are clean",
+      "description": "<a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056</a>",
+      "url": "https://already-clean.goodfire.com/",
+      "score": 800,
+      "comments": 324,
+      "owner": "themgt",
+      "published": "2026-10-15T16:04:01Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50105647"
     },
     {
       "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
@@ -137,20 +157,10 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50054092"
     },
     {
-      "title": "Neural networks are clean",
-      "description": "<a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056</a>",
-      "url": "https://already-clean.goodfire.com/",
-      "score": 779,
-      "comments": 306,
-      "owner": "themgt",
-      "published": "2026-10-15T16:04:01Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50105647"
-    },
-    {
       "title": "Firefox Enterprise",
       "description": "",
       "url": "https://www.firefox.com/en-US/enterprise/",
-      "score": 776,
+      "score": 777,
       "comments": 328,
       "owner": "recvonline",
       "published": "2026-10-13T12:00:42Z",
@@ -161,7 +171,7 @@
       "description": "",
       "url": "https://www.apple.com/apple-homeview/",
       "score": 758,
-      "comments": 916,
+      "comments": 917,
       "owner": "etothet",
       "published": "2026-10-13T13:02:12Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50071017"
@@ -181,7 +191,7 @@
       "description": "",
       "url": "https://github.com/rust-lang/rust/issues/164250",
       "score": 745,
-      "comments": 440,
+      "comments": 441,
       "owner": "formerly_proven",
       "published": "2026-10-13T10:27:00Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50069499"
@@ -191,20 +201,10 @@
       "description": "",
       "url": "https://typeof.net/Iosevka/",
       "score": 743,
-      "comments": 311,
+      "comments": 312,
       "owner": "otobrglez",
       "published": "2026-10-14T08:27:59Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50084240"
-    },
-    {
-      "title": "Woman who rescued injured crow keeps getting 'thank-you gifts' from birds [video]",
-      "description": "",
-      "url": "https://www.youtube.com/watch?v=sjNpfz4UzqU",
-      "score": 730,
-      "comments": 226,
-      "owner": "johnnyApplePRNG",
-      "published": "2026-10-13T02:32:53Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50065859"
     }
   ]
 }
