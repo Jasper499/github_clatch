@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-18T154641Z",
+  "day": "2026-10-18",
+  "sourceKey": "weiboLocal",
+  "savedAt": "2026-10-18T15:46:41Z",
+  "label": "同城",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-18，共 5 条，约每 6 小时更新）",
+  "updateFrequency": "every-6h",
+  "fetchedDate": "2026-10-18",
+  "items": [
+    {
+      "title": "广交会AI新品热度拉满",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%B9%BF%E4%BA%A4%E4%BC%9AAI%E6%96%B0%E5%93%81%E7%83%AD%E5%BA%A6%E6%8B%89%E6%BB%A1%23&t=31&band_rank=1&Refer=top",
+      "score": 720066,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792329081
+    },
+    {
+      "title": "26岁女子肺癌晚期公司帮其交社保",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%2326%E5%B2%81%E5%A5%B3%E5%AD%90%E8%82%BA%E7%99%8C%E6%99%9A%E6%9C%9F%E5%85%AC%E5%8F%B8%E5%B8%AE%E5%85%B6%E4%BA%A4%E7%A4%BE%E4%BF%9D%23&t=31&band_rank=1&Refer=top",
+      "score": 285075,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792331002
+    },
+    {
+      "title": "住家保姆装富婆5年骗7熟人91万",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BD%8F%E5%AE%B6%E4%BF%9D%E5%A7%86%E8%A3%85%E5%AF%8C%E5%A9%865%E5%B9%B4%E9%AA%977%E7%86%9F%E4%BA%BA91%E4%B8%87%23&t=31&band_rank=1&Refer=top",
+      "score": 218191,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792329560
+    },
+    {
+      "title": "莫大披旭日旗留学生早有劣迹",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%8E%AB%E5%A4%A7%E6%8A%AB%E6%97%AD%E6%97%A5%E6%97%97%E7%95%99%E5%AD%A6%E7%94%9F%E6%97%A9%E6%9C%89%E5%8A%A3%E8%BF%B9%23&t=31&band_rank=1&Refer=top",
+      "score": 207249,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792331842
+    },
+    {
+      "title": "建议售价1980的眼镜片批发价30",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%BB%BA%E8%AE%AE%E5%94%AE%E4%BB%B71980%E7%9A%84%E7%9C%BC%E9%95%9C%E7%89%87%E6%89%B9%E5%8F%91%E4%BB%B730%23&t=31&band_rank=1&Refer=top",
+      "score": 163520,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792321940
+    }
+  ]
+}
