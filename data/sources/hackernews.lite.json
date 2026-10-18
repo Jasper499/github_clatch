@@ -1,17 +1,17 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-10-17T16:55:11Z",
+  "savedAt": "2026-10-18T02:00:36Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-10-17，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-10-18，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-10-17",
+  "fetchedDate": "2026-10-18",
   "items": [
     {
       "title": "Things to know when you get cancer",
       "description": "",
       "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
-      "score": 1944,
-      "comments": 478,
+      "score": 1953,
+      "comments": 480,
       "owner": "jjmaxwell4",
       "published": "2026-10-14T19:26:30Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50093568"
@@ -20,8 +20,8 @@
       "title": "Tesla Roadster",
       "description": "<a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=7p5LxFdc-Qg\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=7p5LxFdc-Qg</a><p><a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;Tesla&#x2F;status&#x2F;2110788059008819215\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;Tesla&#x2F;status&#x2F;2110788059008819215</a>",
       "url": "https://www.tesla.com/roadster",
-      "score": 1570,
-      "comments": 2846,
+      "score": 1602,
+      "comments": 2962,
       "owner": "shekhar101",
       "published": "2026-10-16T01:32:45Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50112657"
@@ -30,8 +30,8 @@
       "title": "Gemini 4 Argon",
       "description": "See also: <i>Gemini 4 Argon for Robotics</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50074869\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50074869</a>",
       "url": "https://deepmind.google/models/gemini/",
-      "score": 1462,
-      "comments": 1042,
+      "score": 1464,
+      "comments": 1044,
       "owner": "737max",
       "published": "2026-10-13T16:03:16Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50073879"
@@ -40,37 +40,37 @@
       "title": "Passkeys are a trap",
       "description": "",
       "url": "https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them",
-      "score": 1142,
+      "score": 1144,
       "comments": 576,
       "owner": "laurex",
       "published": "2026-10-11T21:59:48Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50048312"
     },
     {
-      "title": "Do dentists know what they're doing?",
-      "description": "",
-      "url": "https://mapwriting.substack.com/p/dentists",
-      "score": 978,
-      "comments": 697,
-      "owner": "doitLP",
-      "published": "2026-10-12T02:21:54Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50050553"
-    },
-    {
       "title": "Claude reveals ECDSA curve origins",
       "description": "<a href=\"https:&#x2F;&#x2F;words.filippo.io&#x2F;seeds-solved&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;words.filippo.io&#x2F;seeds-solved&#x2F;</a>",
       "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-      "score": 976,
-      "comments": 355,
+      "score": 1023,
+      "comments": 372,
       "owner": "ahlCVA",
       "published": "2026-10-16T18:55:59Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50122800"
     },
     {
+      "title": "Do dentists know what they're doing?",
+      "description": "",
+      "url": "https://mapwriting.substack.com/p/dentists",
+      "score": 980,
+      "comments": 699,
+      "owner": "doitLP",
+      "published": "2026-10-12T02:21:54Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50050553"
+    },
+    {
       "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
       "description": "",
       "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
-      "score": 947,
+      "score": 948,
       "comments": 620,
       "owner": "latexr",
       "published": "2026-10-14T17:45:23Z",
@@ -80,8 +80,8 @@
       "title": "How Amazon pushes up prices all across the Internet",
       "description": "",
       "url": "https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/",
-      "score": 945,
-      "comments": 759,
+      "score": 946,
+      "comments": 763,
       "owner": "sighborg",
       "published": "2026-10-14T09:28:17Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50084757"
@@ -90,8 +90,8 @@
       "title": "Muse Spark Open",
       "description": "<a href=\"https:&#x2F;&#x2F;dev.meta.ai&#x2F;resources&#x2F;blog&#x2F;build-with-muse-spark-open\" rel=\"nofollow\">https:&#x2F;&#x2F;dev.meta.ai&#x2F;resources&#x2F;blog&#x2F;build-with-muse-spark-ope...</a><p><a href=\"https:&#x2F;&#x2F;huggingface.co&#x2F;meta-models&#x2F;Muse-Spark-Open-816B-A42B\" rel=\"nofollow\">https:&#x2F;&#x2F;huggingface.co&#x2F;meta-models&#x2F;Muse-Spark-Open-816B-A42B</a><p><a href=\"https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;10&#x2F;15&#x2F;meta-launches-new-muse-spark-open-model-optimized-to-run-on-mac-studio&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;10&#x2F;15&#x2F;meta-launches-new-muse-spark-...</a>",
       "url": "https://research.meta.ai/blog/muse-spark-open",
-      "score": 912,
-      "comments": 471,
+      "score": 914,
+      "comments": 475,
       "owner": "bigwheels",
       "published": "2026-10-15T17:47:39Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50107379"
@@ -100,7 +100,7 @@
       "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
       "description": "<a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;retail-consumer&#x2F;french-supermarket-chain-intermarche-hit-by-cyberattack-150-stories-targeted-2026-10-12&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;retail-consumer&#x2F;french-supe...</a>, <a href=\"https:&#x2F;&#x2F;www.bbc.com&#x2F;news&#x2F;articles&#x2F;crq5nzxv9q4yo\" rel=\"nofollow\">https:&#x2F;&#x2F;www.bbc.com&#x2F;news&#x2F;articles&#x2F;crq5nzxv9q4yo</a>, <a href=\"https:&#x2F;&#x2F;www.lemonde.fr&#x2F;en&#x2F;france&#x2F;article&#x2F;2026&#x2F;10&#x2F;12&#x2F;french-supermarket-chains-say-cyberattack-forced-refrigerator-shutdown_6758510_7.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.lemonde.fr&#x2F;en&#x2F;france&#x2F;article&#x2F;2026&#x2F;10&#x2F;12&#x2F;french-s...</a><p>Related:<p><a href=\"https:&#x2F;&#x2F;www.claroty.com&#x2F;team82&#x2F;research&#x2F;freeze-the-controller-defrost-the-food-uncovering-vulnerabilities-in-danfoss-refrigeration-controllers\" rel=\"nofollow\">https:&#x2F;&#x2F;www.claroty.com&#x2F;team82&#x2F;research&#x2F;freeze-the-controlle...</a><p><i>I think the military commissary&#x27;s freezers were hacked</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49508506\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49508506</a> - Aug 2026 (239 comments)",
       "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
-      "score": 911,
+      "score": 912,
       "comments": 1005,
       "owner": "Zeekaas",
       "published": "2026-10-12T12:16:42Z",
@@ -110,7 +110,7 @@
       "title": "Redesigning source control at Anthropic",
       "description": "",
       "url": "https://www.anthropic.com/engineering/redesigning-source-control",
-      "score": 890,
+      "score": 892,
       "comments": 1010,
       "owner": "Philpax",
       "published": "2026-10-13T15:49:56Z",
@@ -120,8 +120,8 @@
       "title": "OpenCode 2.0",
       "description": "",
       "url": "https://anoma.ly/notes/opencode-2-0/",
-      "score": 884,
-      "comments": 389,
+      "score": 886,
+      "comments": 391,
       "owner": "gmays",
       "published": "2026-10-14T20:48:24Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50094994"
@@ -130,8 +130,8 @@
       "title": "Woman who rescued injured crow keeps getting 'thank-you gifts' from birds [video]",
       "description": "",
       "url": "https://www.youtube.com/watch?v=sjNpfz4UzqU",
-      "score": 851,
-      "comments": 251,
+      "score": 864,
+      "comments": 255,
       "owner": "johnnyApplePRNG",
       "published": "2026-10-13T02:32:53Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50065859"
@@ -140,8 +140,8 @@
       "title": "Neural networks are clean",
       "description": "<a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056</a>",
       "url": "https://already-clean.goodfire.com/",
-      "score": 806,
-      "comments": 330,
+      "score": 811,
+      "comments": 332,
       "owner": "themgt",
       "published": "2026-10-15T16:04:01Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50105647"
@@ -170,11 +170,21 @@
       "title": "Firefox Enterprise",
       "description": "",
       "url": "https://www.firefox.com/en-US/enterprise/",
-      "score": 778,
-      "comments": 330,
+      "score": 781,
+      "comments": 331,
       "owner": "recvonline",
       "published": "2026-10-13T12:00:42Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50070302"
+    },
+    {
+      "title": "OpenCode Hacked: User credentials leaked",
+      "description": "",
+      "url": "https://twitter.com/opencode/status/2111516673953935833",
+      "score": 779,
+      "comments": 140,
+      "owner": "pranshuchittora",
+      "published": "2026-10-17T18:01:41Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50133401"
     },
     {
       "title": "Apple HomeView",
@@ -195,16 +205,6 @@
       "owner": "royfish",
       "published": "2026-10-11T22:33:39Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50048642"
-    },
-    {
-      "title": "11 year old unsoundness bugs found in Rust borrow checker",
-      "description": "",
-      "url": "https://github.com/rust-lang/rust/issues/164250",
-      "score": 746,
-      "comments": 442,
-      "owner": "formerly_proven",
-      "published": "2026-10-13T10:27:00Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50069499"
     }
   ]
 }
