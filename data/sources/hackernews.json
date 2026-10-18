@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-10-18T07:05:18Z",
+  "savedAt": "2026-10-18T14:00:36Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-10-18，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,7 +10,7 @@
       "title": "Things to know when you get cancer",
       "description": "",
       "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
-      "score": 1954,
+      "score": 1955,
       "comments": 480,
       "owner": "jjmaxwell4",
       "published": "2026-10-14T19:26:30Z",
@@ -20,8 +20,8 @@
       "title": "Tesla Roadster",
       "description": "<a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=7p5LxFdc-Qg\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=7p5LxFdc-Qg</a><p><a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;Tesla&#x2F;status&#x2F;2110788059008819215\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;Tesla&#x2F;status&#x2F;2110788059008819215</a>",
       "url": "https://www.tesla.com/roadster",
-      "score": 1615,
-      "comments": 2998,
+      "score": 1622,
+      "comments": 3048,
       "owner": "shekhar101",
       "published": "2026-10-16T01:32:45Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50112657"
@@ -40,7 +40,7 @@
       "title": "Passkeys are a trap",
       "description": "",
       "url": "https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them",
-      "score": 1144,
+      "score": 1145,
       "comments": 577,
       "owner": "laurex",
       "published": "2026-10-11T21:59:48Z",
@@ -50,8 +50,8 @@
       "title": "Claude reveals ECDSA curve origins",
       "description": "<a href=\"https:&#x2F;&#x2F;words.filippo.io&#x2F;seeds-solved&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;words.filippo.io&#x2F;seeds-solved&#x2F;</a>",
       "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-      "score": 1034,
-      "comments": 380,
+      "score": 1043,
+      "comments": 385,
       "owner": "ahlCVA",
       "published": "2026-10-16T18:55:59Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50122800"
@@ -80,7 +80,7 @@
       "title": "How Amazon pushes up prices all across the Internet",
       "description": "",
       "url": "https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/",
-      "score": 946,
+      "score": 947,
       "comments": 763,
       "owner": "sighborg",
       "published": "2026-10-14T09:28:17Z",
@@ -101,10 +101,20 @@
       "description": "<a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;retail-consumer&#x2F;french-supermarket-chain-intermarche-hit-by-cyberattack-150-stories-targeted-2026-10-12&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;retail-consumer&#x2F;french-supe...</a>, <a href=\"https:&#x2F;&#x2F;www.bbc.com&#x2F;news&#x2F;articles&#x2F;crq5nzxv9q4yo\" rel=\"nofollow\">https:&#x2F;&#x2F;www.bbc.com&#x2F;news&#x2F;articles&#x2F;crq5nzxv9q4yo</a>, <a href=\"https:&#x2F;&#x2F;www.lemonde.fr&#x2F;en&#x2F;france&#x2F;article&#x2F;2026&#x2F;10&#x2F;12&#x2F;french-supermarket-chains-say-cyberattack-forced-refrigerator-shutdown_6758510_7.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.lemonde.fr&#x2F;en&#x2F;france&#x2F;article&#x2F;2026&#x2F;10&#x2F;12&#x2F;french-s...</a><p>Related:<p><a href=\"https:&#x2F;&#x2F;www.claroty.com&#x2F;team82&#x2F;research&#x2F;freeze-the-controller-defrost-the-food-uncovering-vulnerabilities-in-danfoss-refrigeration-controllers\" rel=\"nofollow\">https:&#x2F;&#x2F;www.claroty.com&#x2F;team82&#x2F;research&#x2F;freeze-the-controlle...</a><p><i>I think the military commissary&#x27;s freezers were hacked</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49508506\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49508506</a> - Aug 2026 (239 comments)",
       "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
       "score": 912,
-      "comments": 1005,
+      "comments": 1006,
       "owner": "Zeekaas",
       "published": "2026-10-12T12:16:42Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50055304"
+    },
+    {
+      "title": "DeepSeek-v4.1-Flash-1017",
+      "description": "<a href=\"https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;news&#x2F;news261017&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;news&#x2F;news261017&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;openrouter.ai&#x2F;deepseek&#x2F;deepseek-v4.1-flash-1017\" rel=\"nofollow\">https:&#x2F;&#x2F;openrouter.ai&#x2F;deepseek&#x2F;deepseek-v4.1-flash-1017</a>",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "score": 903,
+      "comments": 675,
+      "owner": "theykk",
+      "published": "2026-10-17T08:21:25Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50129045"
     },
     {
       "title": "Redesigning source control at Anthropic",
@@ -115,6 +125,16 @@
       "owner": "Philpax",
       "published": "2026-10-13T15:49:56Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50073633"
+    },
+    {
+      "title": "OpenCode Hacked: User credentials leaked",
+      "description": "",
+      "url": "https://twitter.com/opencode/status/2111516673953935833",
+      "score": 887,
+      "comments": 167,
+      "owner": "pranshuchittora",
+      "published": "2026-10-17T18:01:41Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50133401"
     },
     {
       "title": "OpenCode 2.0",
@@ -130,41 +150,21 @@
       "title": "Woman who rescued injured crow keeps getting 'thank-you gifts' from birds [video]",
       "description": "",
       "url": "https://www.youtube.com/watch?v=sjNpfz4UzqU",
-      "score": 864,
-      "comments": 255,
+      "score": 866,
+      "comments": 256,
       "owner": "johnnyApplePRNG",
       "published": "2026-10-13T02:32:53Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50065859"
     },
     {
-      "title": "OpenCode Hacked: User credentials leaked",
-      "description": "",
-      "url": "https://twitter.com/opencode/status/2111516673953935833",
-      "score": 836,
-      "comments": 157,
-      "owner": "pranshuchittora",
-      "published": "2026-10-17T18:01:41Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50133401"
-    },
-    {
       "title": "Neural networks are clean",
       "description": "<a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056</a>",
       "url": "https://already-clean.goodfire.com/",
-      "score": 812,
-      "comments": 332,
+      "score": 814,
+      "comments": 333,
       "owner": "themgt",
       "published": "2026-10-15T16:04:01Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50105647"
-    },
-    {
-      "title": "DeepSeek-v4.1-Flash-1017",
-      "description": "<a href=\"https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;news&#x2F;news261017&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;news&#x2F;news261017&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;openrouter.ai&#x2F;deepseek&#x2F;deepseek-v4.1-flash-1017\" rel=\"nofollow\">https:&#x2F;&#x2F;openrouter.ai&#x2F;deepseek&#x2F;deepseek-v4.1-flash-1017</a>",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "score": 811,
-      "comments": 633,
-      "owner": "theykk",
-      "published": "2026-10-17T08:21:25Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50129045"
     },
     {
       "title": "AI is a tool and using it well takes skill",
@@ -201,7 +201,7 @@
       "description": "",
       "url": "https://www.apple.com/apple-homeview/",
       "score": 760,
-      "comments": 917,
+      "comments": 918,
       "owner": "etothet",
       "published": "2026-10-13T13:02:12Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50071017"
