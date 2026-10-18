@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-10-18T14:00:36Z",
+  "savedAt": "2026-10-18T17:09:33Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-10-18，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -20,8 +20,8 @@
       "title": "Tesla Roadster",
       "description": "<a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=7p5LxFdc-Qg\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=7p5LxFdc-Qg</a><p><a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;Tesla&#x2F;status&#x2F;2110788059008819215\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;Tesla&#x2F;status&#x2F;2110788059008819215</a>",
       "url": "https://www.tesla.com/roadster",
-      "score": 1622,
-      "comments": 3048,
+      "score": 1626,
+      "comments": 3069,
       "owner": "shekhar101",
       "published": "2026-10-16T01:32:45Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50112657"
@@ -50,8 +50,8 @@
       "title": "Claude reveals ECDSA curve origins",
       "description": "<a href=\"https:&#x2F;&#x2F;words.filippo.io&#x2F;seeds-solved&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;words.filippo.io&#x2F;seeds-solved&#x2F;</a>",
       "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-      "score": 1043,
-      "comments": 385,
+      "score": 1045,
+      "comments": 386,
       "owner": "ahlCVA",
       "published": "2026-10-16T18:55:59Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50122800"
@@ -61,10 +61,20 @@
       "description": "",
       "url": "https://mapwriting.substack.com/p/dentists",
       "score": 982,
-      "comments": 701,
+      "comments": 702,
       "owner": "doitLP",
       "published": "2026-10-12T02:21:54Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50050553"
+    },
+    {
+      "title": "How Amazon pushes up prices all across the Internet",
+      "description": "",
+      "url": "https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/",
+      "score": 949,
+      "comments": 763,
+      "owner": "sighborg",
+      "published": "2026-10-14T09:28:17Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50084757"
     },
     {
       "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
@@ -77,14 +87,14 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50091788"
     },
     {
-      "title": "How Amazon pushes up prices all across the Internet",
-      "description": "",
-      "url": "https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/",
-      "score": 947,
-      "comments": 763,
-      "owner": "sighborg",
-      "published": "2026-10-14T09:28:17Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50084757"
+      "title": "DeepSeek-v4.1-Flash-1017",
+      "description": "<a href=\"https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;news&#x2F;news261017&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;news&#x2F;news261017&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;openrouter.ai&#x2F;deepseek&#x2F;deepseek-v4.1-flash-1017\" rel=\"nofollow\">https:&#x2F;&#x2F;openrouter.ai&#x2F;deepseek&#x2F;deepseek-v4.1-flash-1017</a>",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "score": 923,
+      "comments": 683,
+      "owner": "theykk",
+      "published": "2026-10-17T08:21:25Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50129045"
     },
     {
       "title": "Muse Spark Open",
@@ -101,20 +111,20 @@
       "description": "<a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;retail-consumer&#x2F;french-supermarket-chain-intermarche-hit-by-cyberattack-150-stories-targeted-2026-10-12&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;retail-consumer&#x2F;french-supe...</a>, <a href=\"https:&#x2F;&#x2F;www.bbc.com&#x2F;news&#x2F;articles&#x2F;crq5nzxv9q4yo\" rel=\"nofollow\">https:&#x2F;&#x2F;www.bbc.com&#x2F;news&#x2F;articles&#x2F;crq5nzxv9q4yo</a>, <a href=\"https:&#x2F;&#x2F;www.lemonde.fr&#x2F;en&#x2F;france&#x2F;article&#x2F;2026&#x2F;10&#x2F;12&#x2F;french-supermarket-chains-say-cyberattack-forced-refrigerator-shutdown_6758510_7.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.lemonde.fr&#x2F;en&#x2F;france&#x2F;article&#x2F;2026&#x2F;10&#x2F;12&#x2F;french-s...</a><p>Related:<p><a href=\"https:&#x2F;&#x2F;www.claroty.com&#x2F;team82&#x2F;research&#x2F;freeze-the-controller-defrost-the-food-uncovering-vulnerabilities-in-danfoss-refrigeration-controllers\" rel=\"nofollow\">https:&#x2F;&#x2F;www.claroty.com&#x2F;team82&#x2F;research&#x2F;freeze-the-controlle...</a><p><i>I think the military commissary&#x27;s freezers were hacked</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49508506\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49508506</a> - Aug 2026 (239 comments)",
       "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
       "score": 912,
-      "comments": 1006,
+      "comments": 1007,
       "owner": "Zeekaas",
       "published": "2026-10-12T12:16:42Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50055304"
     },
     {
-      "title": "DeepSeek-v4.1-Flash-1017",
-      "description": "<a href=\"https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;news&#x2F;news261017&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;news&#x2F;news261017&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;openrouter.ai&#x2F;deepseek&#x2F;deepseek-v4.1-flash-1017\" rel=\"nofollow\">https:&#x2F;&#x2F;openrouter.ai&#x2F;deepseek&#x2F;deepseek-v4.1-flash-1017</a>",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "score": 903,
-      "comments": 675,
-      "owner": "theykk",
-      "published": "2026-10-17T08:21:25Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50129045"
+      "title": "OpenCode Hacked: User credentials leaked",
+      "description": "",
+      "url": "https://twitter.com/opencode/status/2111516673953935833",
+      "score": 909,
+      "comments": 171,
+      "owner": "pranshuchittora",
+      "published": "2026-10-17T18:01:41Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50133401"
     },
     {
       "title": "Redesigning source control at Anthropic",
@@ -127,21 +137,11 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50073633"
     },
     {
-      "title": "OpenCode Hacked: User credentials leaked",
-      "description": "",
-      "url": "https://twitter.com/opencode/status/2111516673953935833",
-      "score": 887,
-      "comments": 167,
-      "owner": "pranshuchittora",
-      "published": "2026-10-17T18:01:41Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50133401"
-    },
-    {
       "title": "OpenCode 2.0",
       "description": "",
       "url": "https://anoma.ly/notes/opencode-2-0/",
       "score": 886,
-      "comments": 392,
+      "comments": 393,
       "owner": "gmays",
       "published": "2026-10-14T20:48:24Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50094994"
@@ -160,7 +160,7 @@
       "title": "Neural networks are clean",
       "description": "<a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056</a>",
       "url": "https://already-clean.goodfire.com/",
-      "score": 814,
+      "score": 815,
       "comments": 333,
       "owner": "themgt",
       "published": "2026-10-15T16:04:01Z",
