@@ -1,0 +1,312 @@
+{
+  "date": "2026-10-19T181038Z",
+  "day": "2026-10-19",
+  "sourceKey": "weiboRealtime",
+  "savedAt": "2026-10-19T18:10:38Z",
+  "label": "实时",
+  "description": "微博实时上升榜（按上榜时间排序，2026-10-19，共 30 条，约每 6 小时更新）",
+  "updateFrequency": "every-6h",
+  "fetchedDate": "2026-10-19",
+  "items": [
+    {
+      "title": "李小冉离婚后找闺蜜疗伤",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E5%B0%8F%E5%86%89%E7%A6%BB%E5%A9%9A%E5%90%8E%E6%89%BE%E9%97%BA%E8%9C%9C%E7%96%97%E4%BC%A4%23&t=31&band_rank=1&Refer=top",
+      "score": 114469,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1792432875
+    },
+    {
+      "title": "田曦薇跳娆黛摇",
+      "description": "新 · 剧集",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B0%E6%9B%A6%E8%96%87%E8%B7%B3%E5%A8%86%E9%BB%9B%E6%91%87%23&t=31&band_rank=1&Refer=top",
+      "score": 93144,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "剧集",
+      "onboardTime": 1792432635
+    },
+    {
+      "title": "苹果手机很多人不知道的操作",
+      "description": "新 · 数码",
+      "url": "https://s.weibo.com/weibo?q=%E8%8B%B9%E6%9E%9C%E6%89%8B%E6%9C%BA%E5%BE%88%E5%A4%9A%E4%BA%BA%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84%E6%93%8D%E4%BD%9C&t=31&band_rank=1&Refer=top",
+      "score": 43043,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "数码",
+      "onboardTime": 1792432516
+    },
+    {
+      "title": "98岁爷爷嫌吃不饱要打工",
+      "description": "新 · 幽默",
+      "url": "https://s.weibo.com/weibo?q=98%E5%B2%81%E7%88%B7%E7%88%B7%E5%AB%8C%E5%90%83%E4%B8%8D%E9%A5%B1%E8%A6%81%E6%89%93%E5%B7%A5&t=31&band_rank=1&Refer=top",
+      "score": 43058,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "幽默",
+      "onboardTime": 1792429696
+    },
+    {
+      "title": "菲方不能把中方克制当软弱",
+      "description": "新 · 国内时政",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%8F%B2%E6%96%B9%E4%B8%8D%E8%83%BD%E6%8A%8A%E4%B8%AD%E6%96%B9%E5%85%8B%E5%88%B6%E5%BD%93%E8%BD%AF%E5%BC%B1%23&t=31&band_rank=1&Refer=top",
+      "score": 39950,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "国内时政",
+      "onboardTime": 1792429396
+    },
+    {
+      "title": "男子出狱发现账户50多万只剩六块四",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E7%94%B7%E5%AD%90%E5%87%BA%E7%8B%B1%E5%8F%91%E7%8E%B0%E8%B4%A6%E6%88%B750%E5%A4%9A%E4%B8%87%E5%8F%AA%E5%89%A9%E5%85%AD%E5%9D%97%E5%9B%9B&t=31&band_rank=1&Refer=top",
+      "score": 93583,
+      "owner": "微博实时",
+      "label": "热",
+      "category": "民生新闻",
+      "onboardTime": 1792427359
+    },
+    {
+      "title": "高反去世男子母亲付了救援相关费用",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%AB%98%E5%8F%8D%E5%8E%BB%E4%B8%96%E7%94%B7%E5%AD%90%E6%AF%8D%E4%BA%B2%E4%BB%98%E4%BA%86%E6%95%91%E6%8F%B4%E7%9B%B8%E5%85%B3%E8%B4%B9%E7%94%A8%23&t=31&band_rank=1&Refer=top",
+      "score": 93523,
+      "owner": "微博实时",
+      "label": "热",
+      "category": "民生新闻",
+      "onboardTime": 1792427359
+    },
+    {
+      "title": "法国骚乱反差一幕",
+      "description": "国际时政",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B3%95%E5%9B%BD%E9%AA%9A%E4%B9%B1%E5%8F%8D%E5%B7%AE%E4%B8%80%E5%B9%95%23&t=31&band_rank=1&Refer=top",
+      "score": 53256,
+      "owner": "微博实时",
+      "label": "",
+      "category": "国际时政",
+      "onboardTime": 1792427059
+    },
+    {
+      "title": "恋爱博士",
+      "description": "剧集",
+      "url": "https://s.weibo.com/weibo?q=%E6%81%8B%E7%88%B1%E5%8D%9A%E5%A3%AB&t=31&band_rank=1&Refer=top",
+      "score": 44272,
+      "owner": "微博实时",
+      "label": "",
+      "category": "剧集",
+      "onboardTime": 1792426698
+    },
+    {
+      "title": "Aijing",
+      "description": "艺人",
+      "url": "https://s.weibo.com/weibo?q=Aijing&t=31&band_rank=1&Refer=top",
+      "score": 52871,
+      "owner": "微博实时",
+      "label": "",
+      "category": "艺人",
+      "onboardTime": 1792425559
+    },
+    {
+      "title": "特朗普喊话美国民众别去法国参加革命",
+      "description": "国际时政",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E5%96%8A%E8%AF%9D%E7%BE%8E%E5%9B%BD%E6%B0%91%E4%BC%97%E5%88%AB%E5%8E%BB%E6%B3%95%E5%9B%BD%E5%8F%82%E5%8A%A0%E9%9D%A9%E5%91%BD%23&t=31&band_rank=1&Refer=top",
+      "score": 38169,
+      "owner": "微博实时",
+      "label": "",
+      "category": "国际时政",
+      "onboardTime": 1792425440
+    },
+    {
+      "title": "萨摩耶走秀时突然憋不住了",
+      "description": "幽默",
+      "url": "https://s.weibo.com/weibo?q=%E8%90%A8%E6%91%A9%E8%80%B6%E8%B5%B0%E7%A7%80%E6%97%B6%E7%AA%81%E7%84%B6%E6%86%8B%E4%B8%8D%E4%BD%8F%E4%BA%86&t=31&band_rank=1&Refer=top",
+      "score": 52918,
+      "owner": "微博实时",
+      "label": "",
+      "category": "幽默",
+      "onboardTime": 1792425140
+    },
+    {
+      "title": "苹果授权店回应iPhoneDUO库存",
+      "description": "数码",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%8B%B9%E6%9E%9C%E6%8E%88%E6%9D%83%E5%BA%97%E5%9B%9E%E5%BA%94iPhoneDUO%E5%BA%93%E5%AD%98%23&t=31&band_rank=1&Refer=top",
+      "score": 39498,
+      "owner": "微博实时",
+      "label": "",
+      "category": "数码",
+      "onboardTime": 1792425140
+    },
+    {
+      "title": "无所不能TOP 苏新皓歌词",
+      "description": "音乐",
+      "url": "https://s.weibo.com/weibo?q=%E6%97%A0%E6%89%80%E4%B8%8D%E8%83%BDTOP%20%E8%8B%8F%E6%96%B0%E7%9A%93%E6%AD%8C%E8%AF%8D&t=31&band_rank=1&Refer=top",
+      "score": 39815,
+      "owner": "微博实时",
+      "label": "",
+      "category": "音乐",
+      "onboardTime": 1792424600
+    },
+    {
+      "title": "实习生误认乘客为领导紧张到结巴",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%AE%9E%E4%B9%A0%E7%94%9F%E8%AF%AF%E8%AE%A4%E4%B9%98%E5%AE%A2%E4%B8%BA%E9%A2%86%E5%AF%BC%E7%B4%A7%E5%BC%A0%E5%88%B0%E7%BB%93%E5%B7%B4%23&t=31&band_rank=1&Refer=top",
+      "score": 46026,
+      "owner": "微博实时",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792424120
+    },
+    {
+      "title": "ally恋综和直播间差别好大",
+      "description": "综艺",
+      "url": "https://s.weibo.com/weibo?q=%23ally%E6%81%8B%E7%BB%BC%E5%92%8C%E7%9B%B4%E6%92%AD%E9%97%B4%E5%B7%AE%E5%88%AB%E5%A5%BD%E5%A4%A7%23&t=31&band_rank=1&Refer=top",
+      "score": 45582,
+      "owner": "微博实时",
+      "label": "",
+      "category": "综艺",
+      "onboardTime": 1792423581
+    },
+    {
+      "title": "田曦薇剧宣真穿的婚纱",
+      "description": "剧集",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B0%E6%9B%A6%E8%96%87%E5%89%A7%E5%AE%A3%E7%9C%9F%E7%A9%BF%E7%9A%84%E5%A9%9A%E7%BA%B1%23&t=31&band_rank=1&Refer=top",
+      "score": 129908,
+      "owner": "微博实时",
+      "label": "",
+      "category": "剧集",
+      "onboardTime": 1792423521
+    },
+    {
+      "title": "出去玩十天回来被追着还钱",
+      "description": "情感",
+      "url": "https://s.weibo.com/weibo?q=%E5%87%BA%E5%8E%BB%E7%8E%A9%E5%8D%81%E5%A4%A9%E5%9B%9E%E6%9D%A5%E8%A2%AB%E8%BF%BD%E7%9D%80%E8%BF%98%E9%92%B1&t=31&band_rank=1&Refer=top",
+      "score": 52755,
+      "owner": "微博实时",
+      "label": "",
+      "category": "情感",
+      "onboardTime": 1792423463
+    },
+    {
+      "title": "蒙古国草原大火为何没烧进来",
+      "description": "科学科普",
+      "url": "https://s.weibo.com/weibo?q=%E8%92%99%E5%8F%A4%E5%9B%BD%E8%8D%89%E5%8E%9F%E5%A4%A7%E7%81%AB%E4%B8%BA%E4%BD%95%E6%B2%A1%E7%83%A7%E8%BF%9B%E6%9D%A5&t=31&band_rank=1&Refer=top",
+      "score": 240308,
+      "owner": "微博实时",
+      "label": "",
+      "category": "科学科普",
+      "onboardTime": 1792422502
+    },
+    {
+      "title": "A股将迎至少360亿活水",
+      "description": "财经",
+      "url": "https://s.weibo.com/weibo?q=%23A%E8%82%A1%E5%B0%86%E8%BF%8E%E8%87%B3%E5%B0%91360%E4%BA%BF%E6%B4%BB%E6%B0%B4%23&t=31&band_rank=1&Refer=top",
+      "score": 41673,
+      "owner": "微博实时",
+      "label": "",
+      "category": "财经",
+      "onboardTime": 1792422442
+    },
+    {
+      "title": "奚梦瑶怀孕时胖到140斤",
+      "description": "艺人,综艺",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%9A%E6%A2%A6%E7%91%B6%E6%80%80%E5%AD%95%E6%97%B6%E8%83%96%E5%88%B0140%E6%96%A4%23&t=31&band_rank=1&Refer=top",
+      "score": 52609,
+      "owner": "微博实时",
+      "label": "",
+      "category": "艺人,综艺",
+      "onboardTime": 1792422322
+    },
+    {
+      "title": "沙特宣布处决两名孟加拉国公民",
+      "description": "国际时政",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B2%99%E7%89%B9%E5%AE%A3%E5%B8%83%E5%A4%84%E5%86%B3%E4%B8%A4%E5%90%8D%E5%AD%9F%E5%8A%A0%E6%8B%89%E5%9B%BD%E5%85%AC%E6%B0%91%23&t=31&band_rank=1&Refer=top",
+      "score": 44881,
+      "owner": "微博实时",
+      "label": "",
+      "category": "国际时政",
+      "onboardTime": 1792421783
+    },
+    {
+      "title": "菅韧姿说小城良方破万分分钟",
+      "description": "艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%8F%85%E9%9F%A7%E5%A7%BF%E8%AF%B4%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B9%E7%A0%B4%E4%B8%87%E5%88%86%E5%88%86%E9%92%9F%23&t=31&band_rank=1&Refer=top",
+      "score": 48493,
+      "owner": "微博实时",
+      "label": "",
+      "category": "艺人",
+      "onboardTime": 1792421362
+    },
+    {
+      "title": "房子降到150万好卖多了",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%88%BF%E5%AD%90%E9%99%8D%E5%88%B0150%E4%B8%87%E5%A5%BD%E5%8D%96%E5%A4%9A%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 37522,
+      "owner": "微博实时",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792421362
+    },
+    {
+      "title": "李小冉参加乘风时徐佳宁打赏至榜一",
+      "description": "热 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E5%B0%8F%E5%86%89%E5%8F%82%E5%8A%A0%E4%B9%98%E9%A3%8E%E6%97%B6%E5%BE%90%E4%BD%B3%E5%AE%81%E6%89%93%E8%B5%8F%E8%87%B3%E6%A6%9C%E4%B8%80%23&t=31&band_rank=1&Refer=top",
+      "score": 94137,
+      "owner": "微博实时",
+      "label": "热",
+      "category": "艺人",
+      "onboardTime": 1792421244
+    },
+    {
+      "title": "盛艾敬妈妈和裴珠泫一样大",
+      "description": "艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%9B%9B%E8%89%BE%E6%95%AC%E5%A6%88%E5%A6%88%E5%92%8C%E8%A3%B4%E7%8F%A0%E6%B3%AB%E4%B8%80%E6%A0%B7%E5%A4%A7%23&t=31&band_rank=1&Refer=top",
+      "score": 45389,
+      "owner": "微博实时",
+      "label": "",
+      "category": "艺人",
+      "onboardTime": 1792420402
+    },
+    {
+      "title": "曼城或被扣分降级",
+      "description": "体育",
+      "url": "https://s.weibo.com/weibo?q=%E6%9B%BC%E5%9F%8E%E6%88%96%E8%A2%AB%E6%89%A3%E5%88%86%E9%99%8D%E7%BA%A7&t=31&band_rank=1&Refer=top",
+      "score": 37542,
+      "owner": "微博实时",
+      "label": "",
+      "category": "体育",
+      "onboardTime": 1792420402
+    },
+    {
+      "title": "崔秀彬这是同一件衣服吗",
+      "description": "艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%B4%94%E7%A7%80%E5%BD%AC%E8%BF%99%E6%98%AF%E5%90%8C%E4%B8%80%E4%BB%B6%E8%A1%A3%E6%9C%8D%E5%90%97%23&t=31&band_rank=1&Refer=top",
+      "score": 41264,
+      "owner": "微博实时",
+      "label": "",
+      "category": "艺人",
+      "onboardTime": 1792419502
+    },
+    {
+      "title": "高反支帐篷躺卧男子去世目击者发声",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%AB%98%E5%8F%8D%E6%94%AF%E5%B8%90%E7%AF%B7%E8%BA%BA%E5%8D%A7%E7%94%B7%E5%AD%90%E5%8E%BB%E4%B8%96%E7%9B%AE%E5%87%BB%E8%80%85%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
+      "score": 87256,
+      "owner": "微博实时",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792419443
+    },
+    {
+      "title": "华为车BU与宁德时代合作换电",
+      "description": "汽车",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8D%8E%E4%B8%BA%E8%BD%A6BU%E4%B8%8E%E5%AE%81%E5%BE%B7%E6%97%B6%E4%BB%A3%E5%90%88%E4%BD%9C%E6%8D%A2%E7%94%B5%23&t=31&band_rank=1&Refer=top",
+      "score": 39862,
+      "owner": "微博实时",
+      "label": "",
+      "category": "汽车",
+      "onboardTime": 1792419322
+    }
+  ]
+}
