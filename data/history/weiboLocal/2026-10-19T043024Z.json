@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-19T043024Z",
+  "day": "2026-10-19",
+  "sourceKey": "weiboLocal",
+  "savedAt": "2026-10-19T04:30:24Z",
+  "label": "同城",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-19，共 5 条，约每 6 小时更新）",
+  "updateFrequency": "every-6h",
+  "fetchedDate": "2026-10-19",
+  "items": [
+    {
+      "title": "日本人被指蒙古大火后未道歉",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E6%97%A5%E6%9C%AC%E4%BA%BA%E8%A2%AB%E6%8C%87%E8%92%99%E5%8F%A4%E5%A4%A7%E7%81%AB%E5%90%8E%E6%9C%AA%E9%81%93%E6%AD%89&t=31&band_rank=1&Refer=top",
+      "score": 1063352,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792376061
+    },
+    {
+      "title": "披旭日旗留学生微信签名涉军国主义",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%8A%AB%E6%97%AD%E6%97%A5%E6%97%97%E7%95%99%E5%AD%A6%E7%94%9F%E5%BE%AE%E4%BF%A1%E7%AD%BE%E5%90%8D%E6%B6%89%E5%86%9B%E5%9B%BD%E4%B8%BB%E4%B9%89%23&t=31&band_rank=1&Refer=top",
+      "score": 671477,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792373960
+    },
+    {
+      "title": "莫大精日留学生是南京人惹众怒",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%8E%AB%E5%A4%A7%E7%B2%BE%E6%97%A5%E7%95%99%E5%AD%A6%E7%94%9F%E6%98%AF%E5%8D%97%E4%BA%AC%E4%BA%BA%E6%83%B9%E4%BC%97%E6%80%92%23&t=31&band_rank=1&Refer=top",
+      "score": 473516,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792383321
+    },
+    {
+      "title": "汇源集团不再生产汇源果汁",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B1%87%E6%BA%90%E9%9B%86%E5%9B%A2%E4%B8%8D%E5%86%8D%E7%94%9F%E4%BA%A7%E6%B1%87%E6%BA%90%E6%9E%9C%E6%B1%81%23&t=31&band_rank=1&Refer=top",
+      "score": 414207,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792382660
+    },
+    {
+      "title": "身披旭日旗留学生还支持台独",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%BA%AB%E6%8A%AB%E6%97%AD%E6%97%A5%E6%97%97%E7%95%99%E5%AD%A6%E7%94%9F%E8%BF%98%E6%94%AF%E6%8C%81%E5%8F%B0%E7%8B%AC%23&t=31&band_rank=1&Refer=top",
+      "score": 265594,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792366158
+    }
+  ]
+}
