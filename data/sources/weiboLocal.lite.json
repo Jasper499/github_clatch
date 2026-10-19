@@ -1,16 +1,86 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-10-19T04:30:24Z",
+  "savedAt": "2026-10-19T06:10:36Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-19，共 5 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-19，共 9 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-10-19",
   "items": [
     {
+      "title": "女子离婚6天用AI救了前夫一命",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E7%A6%BB%E5%A9%9A6%E5%A4%A9%E7%94%A8AI%E6%95%91%E4%BA%86%E5%89%8D%E5%A4%AB%E4%B8%80%E5%91%BD%23&t=31&band_rank=1&Refer=top",
+      "score": 1384115,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792385423
+    },
+    {
+      "title": "汇源集团不再生产汇源果汁",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B1%87%E6%BA%90%E9%9B%86%E5%9B%A2%E4%B8%8D%E5%86%8D%E7%94%9F%E4%BA%A7%E6%B1%87%E6%BA%90%E6%9E%9C%E6%B1%81%23&t=31&band_rank=1&Refer=top",
+      "score": 926034,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792382660
+    },
+    {
+      "title": "博主曝光恋童癖黑产",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%8D%9A%E4%B8%BB%E6%9B%9D%E5%85%89%E6%81%8B%E7%AB%A5%E7%99%96%E9%BB%91%E4%BA%A7&t=31&band_rank=1&Refer=top",
+      "score": 439967,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792388000
+    },
+    {
+      "title": "劳务派遣正在变普遍",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8A%B3%E5%8A%A1%E6%B4%BE%E9%81%A3%E6%AD%A3%E5%9C%A8%E5%8F%98%E6%99%AE%E9%81%8D%23&t=31&band_rank=1&Refer=top",
+      "score": 428652,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792389140
+    },
+    {
+      "title": "百年古树未认定归涉事村民",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%99%BE%E5%B9%B4%E5%8F%A4%E6%A0%91%E6%9C%AA%E8%AE%A4%E5%AE%9A%E5%BD%92%E6%B6%89%E4%BA%8B%E6%9D%91%E6%B0%91%23&t=31&band_rank=1&Refer=top",
+      "score": 424737,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792389681
+    },
+    {
+      "title": "9岁孩子充网易游戏1.5万没法全额退",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%239%E5%B2%81%E5%AD%A9%E5%AD%90%E5%85%85%E7%BD%91%E6%98%93%E6%B8%B8%E6%88%8F1.5%E4%B8%87%E6%B2%A1%E6%B3%95%E5%85%A8%E9%A2%9D%E9%80%80%23&t=31&band_rank=1&Refer=top",
+      "score": 420738,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792389441
+    },
+    {
+      "title": "莫大精日留学生是南京人惹众怒",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%8E%AB%E5%A4%A7%E7%B2%BE%E6%97%A5%E7%95%99%E5%AD%A6%E7%94%9F%E6%98%AF%E5%8D%97%E4%BA%AC%E4%BA%BA%E6%83%B9%E4%BC%97%E6%80%92%23&t=31&band_rank=1&Refer=top",
+      "score": 335123,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792383321
+    },
+    {
       "title": "日本人被指蒙古大火后未道歉",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%E6%97%A5%E6%9C%AC%E4%BA%BA%E8%A2%AB%E6%8C%87%E8%92%99%E5%8F%A4%E5%A4%A7%E7%81%AB%E5%90%8E%E6%9C%AA%E9%81%93%E6%AD%89&t=31&band_rank=1&Refer=top",
-      "score": 1063352,
+      "score": 318383,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
@@ -20,41 +90,11 @@
       "title": "披旭日旗留学生微信签名涉军国主义",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E6%8A%AB%E6%97%AD%E6%97%A5%E6%97%97%E7%95%99%E5%AD%A6%E7%94%9F%E5%BE%AE%E4%BF%A1%E7%AD%BE%E5%90%8D%E6%B6%89%E5%86%9B%E5%9B%BD%E4%B8%BB%E4%B9%89%23&t=31&band_rank=1&Refer=top",
-      "score": 671477,
+      "score": 296739,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1792373960
-    },
-    {
-      "title": "莫大精日留学生是南京人惹众怒",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%8E%AB%E5%A4%A7%E7%B2%BE%E6%97%A5%E7%95%99%E5%AD%A6%E7%94%9F%E6%98%AF%E5%8D%97%E4%BA%AC%E4%BA%BA%E6%83%B9%E4%BC%97%E6%80%92%23&t=31&band_rank=1&Refer=top",
-      "score": 473516,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1792383321
-    },
-    {
-      "title": "汇源集团不再生产汇源果汁",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B1%87%E6%BA%90%E9%9B%86%E5%9B%A2%E4%B8%8D%E5%86%8D%E7%94%9F%E4%BA%A7%E6%B1%87%E6%BA%90%E6%9E%9C%E6%B1%81%23&t=31&band_rank=1&Refer=top",
-      "score": 414207,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1792382660
-    },
-    {
-      "title": "身披旭日旗留学生还支持台独",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%BA%AB%E6%8A%AB%E6%97%AD%E6%97%A5%E6%97%97%E7%95%99%E5%AD%A6%E7%94%9F%E8%BF%98%E6%94%AF%E6%8C%81%E5%8F%B0%E7%8B%AC%23&t=31&band_rank=1&Refer=top",
-      "score": 265594,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1792366158
     }
   ]
 }
