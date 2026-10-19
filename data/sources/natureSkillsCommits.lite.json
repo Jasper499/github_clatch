@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-10-19T02:20:52Z",
+  "savedAt": "2026-10-19T07:55:06Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "f8797feed6405035e7d57f59cb8ba393c6a98802",
+  "latestSha": "233ed09957d32d8cf45dd96c495663c5c5d8e447",
   "items": [
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/233ed09957d32d8cf45dd96c495663c5c5d8e447",
+      "sha": "233ed09",
+      "fullSha": "233ed09957d32d8cf45dd96c495663c5c5d8e447",
+      "owner": "github-actions",
+      "published": "2026-10-19",
+      "label": "commit"
+    },
     {
       "title": "Update README.md",
       "description": "Update README.md",
@@ -143,16 +153,6 @@
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/38473626a043a74a564a9ad08c538977c56d8c42",
       "sha": "3847362",
       "fullSha": "38473626a043a74a564a9ad08c538977c56d8c42",
-      "owner": "Travisma2233",
-      "published": "2026-10-11",
-      "label": "commit"
-    },
-    {
-      "title": "fix(nature-image2ppt): keep source-size slides within PowerPoint's 56…",
-      "description": "fix(nature-image2ppt): keep source-size slides within PowerPoint&#39;s 56 in limit\n\nsource_size_slide divided pixels by a fixed 96, so a 6000x3000 image produced a\n62.5 in wide &lt;p:sldSz&gt; that PowerPoint rejects (its maximum is 56 in per side).\nUse a coarser px/inch when either side would exceed 56 in, keeping the aspect\nratio and recording the px_per_inch actually used. Adds tests.\n\nXinrui Ma",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/9970a62ac728754925c02aaa2776a8d490046684",
-      "sha": "9970a62",
-      "fullSha": "9970a62ac728754925c02aaa2776a8d490046684",
       "owner": "Travisma2233",
       "published": "2026-10-11",
       "label": "commit"
