@@ -1,0 +1,212 @@
+{
+  "date": "2026-10-19T020034Z",
+  "day": "2026-10-19",
+  "sourceKey": "hackernews",
+  "savedAt": "2026-10-19T02:00:34Z",
+  "label": "Hacker News 热门",
+  "description": "近 7 天 HN 高互动讨论（2026-10-19，共 20 条）",
+  "updateFrequency": "twice-daily",
+  "fetchedDate": "2026-10-19",
+  "items": [
+    {
+      "title": "Things to know when you get cancer",
+      "description": "",
+      "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
+      "score": 1956,
+      "comments": 480,
+      "owner": "jjmaxwell4",
+      "published": "2026-10-14T19:26:30Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50093568"
+    },
+    {
+      "title": "Tesla Roadster",
+      "description": "<a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=7p5LxFdc-Qg\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=7p5LxFdc-Qg</a><p><a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;Tesla&#x2F;status&#x2F;2110788059008819215\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;Tesla&#x2F;status&#x2F;2110788059008819215</a>",
+      "url": "https://www.tesla.com/roadster",
+      "score": 1629,
+      "comments": 3085,
+      "owner": "shekhar101",
+      "published": "2026-10-16T01:32:45Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50112657"
+    },
+    {
+      "title": "Gemini 4 Argon",
+      "description": "See also: <i>Gemini 4 Argon for Robotics</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50074869\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50074869</a>",
+      "url": "https://deepmind.google/models/gemini/",
+      "score": 1466,
+      "comments": 1044,
+      "owner": "737max",
+      "published": "2026-10-13T16:03:16Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50073879"
+    },
+    {
+      "title": "Claude reveals ECDSA curve origins",
+      "description": "<a href=\"https:&#x2F;&#x2F;words.filippo.io&#x2F;seeds-solved&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;words.filippo.io&#x2F;seeds-solved&#x2F;</a>",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "score": 1051,
+      "comments": 388,
+      "owner": "ahlCVA",
+      "published": "2026-10-16T18:55:59Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50122800"
+    },
+    {
+      "title": "Do dentists know what they're doing?",
+      "description": "",
+      "url": "https://mapwriting.substack.com/p/dentists",
+      "score": 983,
+      "comments": 702,
+      "owner": "doitLP",
+      "published": "2026-10-12T02:21:54Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50050553"
+    },
+    {
+      "title": "How Amazon pushes up prices all across the Internet",
+      "description": "",
+      "url": "https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/",
+      "score": 949,
+      "comments": 764,
+      "owner": "sighborg",
+      "published": "2026-10-14T09:28:17Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50084757"
+    },
+    {
+      "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+      "description": "",
+      "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+      "score": 948,
+      "comments": 620,
+      "owner": "latexr",
+      "published": "2026-10-14T17:45:23Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50091788"
+    },
+    {
+      "title": "OpenCode Hacked: User credentials leaked",
+      "description": "",
+      "url": "https://twitter.com/opencode/status/2111516673953935833",
+      "score": 942,
+      "comments": 174,
+      "owner": "pranshuchittora",
+      "published": "2026-10-17T18:01:41Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50133401"
+    },
+    {
+      "title": "DeepSeek-v4.1-Flash-1017",
+      "description": "<a href=\"https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;news&#x2F;news261017&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;news&#x2F;news261017&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;openrouter.ai&#x2F;deepseek&#x2F;deepseek-v4.1-flash-1017\" rel=\"nofollow\">https:&#x2F;&#x2F;openrouter.ai&#x2F;deepseek&#x2F;deepseek-v4.1-flash-1017</a>",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "score": 937,
+      "comments": 705,
+      "owner": "theykk",
+      "published": "2026-10-17T08:21:25Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50129045"
+    },
+    {
+      "title": "Muse Spark Open",
+      "description": "<a href=\"https:&#x2F;&#x2F;dev.meta.ai&#x2F;resources&#x2F;blog&#x2F;build-with-muse-spark-open\" rel=\"nofollow\">https:&#x2F;&#x2F;dev.meta.ai&#x2F;resources&#x2F;blog&#x2F;build-with-muse-spark-ope...</a><p><a href=\"https:&#x2F;&#x2F;huggingface.co&#x2F;meta-models&#x2F;Muse-Spark-Open-816B-A42B\" rel=\"nofollow\">https:&#x2F;&#x2F;huggingface.co&#x2F;meta-models&#x2F;Muse-Spark-Open-816B-A42B</a><p><a href=\"https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;10&#x2F;15&#x2F;meta-launches-new-muse-spark-open-model-optimized-to-run-on-mac-studio&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;10&#x2F;15&#x2F;meta-launches-new-muse-spark-...</a>",
+      "url": "https://research.meta.ai/blog/muse-spark-open",
+      "score": 916,
+      "comments": 477,
+      "owner": "bigwheels",
+      "published": "2026-10-15T17:47:39Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50107379"
+    },
+    {
+      "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
+      "description": "<a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;retail-consumer&#x2F;french-supermarket-chain-intermarche-hit-by-cyberattack-150-stories-targeted-2026-10-12&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;retail-consumer&#x2F;french-supe...</a>, <a href=\"https:&#x2F;&#x2F;www.bbc.com&#x2F;news&#x2F;articles&#x2F;crq5nzxv9q4yo\" rel=\"nofollow\">https:&#x2F;&#x2F;www.bbc.com&#x2F;news&#x2F;articles&#x2F;crq5nzxv9q4yo</a>, <a href=\"https:&#x2F;&#x2F;www.lemonde.fr&#x2F;en&#x2F;france&#x2F;article&#x2F;2026&#x2F;10&#x2F;12&#x2F;french-supermarket-chains-say-cyberattack-forced-refrigerator-shutdown_6758510_7.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.lemonde.fr&#x2F;en&#x2F;france&#x2F;article&#x2F;2026&#x2F;10&#x2F;12&#x2F;french-s...</a><p>Related:<p><a href=\"https:&#x2F;&#x2F;www.claroty.com&#x2F;team82&#x2F;research&#x2F;freeze-the-controller-defrost-the-food-uncovering-vulnerabilities-in-danfoss-refrigeration-controllers\" rel=\"nofollow\">https:&#x2F;&#x2F;www.claroty.com&#x2F;team82&#x2F;research&#x2F;freeze-the-controlle...</a><p><i>I think the military commissary&#x27;s freezers were hacked</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49508506\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49508506</a> - Aug 2026 (239 comments)",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
+      "score": 912,
+      "comments": 1007,
+      "owner": "Zeekaas",
+      "published": "2026-10-12T12:16:42Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50055304"
+    },
+    {
+      "title": "Redesigning source control at Anthropic",
+      "description": "",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "score": 892,
+      "comments": 1009,
+      "owner": "Philpax",
+      "published": "2026-10-13T15:49:56Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50073633"
+    },
+    {
+      "title": "OpenCode 2.0",
+      "description": "",
+      "url": "https://anoma.ly/notes/opencode-2-0/",
+      "score": 886,
+      "comments": 393,
+      "owner": "gmays",
+      "published": "2026-10-14T20:48:24Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50094994"
+    },
+    {
+      "title": "Woman who rescued injured crow keeps getting 'thank-you gifts' from birds [video]",
+      "description": "",
+      "url": "https://www.youtube.com/watch?v=sjNpfz4UzqU",
+      "score": 868,
+      "comments": 256,
+      "owner": "johnnyApplePRNG",
+      "published": "2026-10-13T02:32:53Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50065859"
+    },
+    {
+      "title": "Neural networks are clean",
+      "description": "<a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056</a>",
+      "url": "https://already-clean.goodfire.com/",
+      "score": 821,
+      "comments": 336,
+      "owner": "themgt",
+      "published": "2026-10-15T16:04:01Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50105647"
+    },
+    {
+      "title": "AI is a tool and using it well takes skill",
+      "description": "",
+      "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
+      "score": 805,
+      "comments": 607,
+      "owner": "layer8",
+      "published": "2026-10-12T21:40:18Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50063427"
+    },
+    {
+      "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
+      "description": "<a href=\"https:&#x2F;&#x2F;www.heise.de&#x2F;en&#x2F;news&#x2F;Crypto-thieves-sell-hardware-wallets-with-secret-eSIM-11485188.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.heise.de&#x2F;en&#x2F;news&#x2F;Crypto-thieves-sell-hardware-wa...</a><p><a href=\"https:&#x2F;&#x2F;crypto.news&#x2F;ledger-confirms-hidden-chip-in-crypto-wallet-amid-92m&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;crypto.news&#x2F;ledger-confirms-hidden-chip-in-crypto-wa...</a><p><a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=8JnHdr30v4g\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=8JnHdr30v4g</a><p><a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=Nf4FEFlgv3Q\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=Nf4FEFlgv3Q</a><p><a href=\"https:&#x2F;&#x2F;www.tibane.net&#x2F;research&#x2F;ledger-nano-x-implant\" rel=\"nofollow\">https:&#x2F;&#x2F;www.tibane.net&#x2F;research&#x2F;ledger-nano-x-implant</a>",
+      "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+      "score": 793,
+      "comments": 511,
+      "owner": "thm",
+      "published": "2026-10-12T10:09:37Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50054092"
+    },
+    {
+      "title": "Firefox Enterprise",
+      "description": "",
+      "url": "https://www.firefox.com/en-US/enterprise/",
+      "score": 782,
+      "comments": 331,
+      "owner": "recvonline",
+      "published": "2026-10-13T12:00:42Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50070302"
+    },
+    {
+      "title": "Apple HomeView",
+      "description": "",
+      "url": "https://www.apple.com/apple-homeview/",
+      "score": 760,
+      "comments": 919,
+      "owner": "etothet",
+      "published": "2026-10-13T13:02:12Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50071017"
+    },
+    {
+      "title": "Iosevka is an open-source, sans-serif and slab-serif monospace font",
+      "description": "",
+      "url": "https://typeof.net/Iosevka/",
+      "score": 749,
+      "comments": 314,
+      "owner": "otobrglez",
+      "published": "2026-10-14T08:27:59Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50084240"
+    }
+  ]
+}

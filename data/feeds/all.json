@@ -6,100 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "github:https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
-      "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
-      "title": "[GitHub 热门新项目] Arekejoker/qwen21-nsfw-pose-skill",
-      "date_published": "2026-10-19T01:00:45Z"
+      "id": "hackernews:https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
+      "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
+      "title": "[Hacker News 热门] Things to know when you get cancer",
+      "date_published": "2026-10-19T02:00:34Z"
     },
     {
-      "id": "github:https://github.com/feder-cr/git-ai",
-      "url": "https://github.com/feder-cr/git-ai",
-      "title": "[GitHub 热门新项目] feder-cr/git-ai",
-      "date_published": "2026-10-19T01:00:45Z"
+      "id": "hackernews:https://www.tesla.com/roadster",
+      "url": "https://www.tesla.com/roadster",
+      "title": "[Hacker News 热门] Tesla Roadster",
+      "date_published": "2026-10-19T02:00:34Z"
     },
     {
-      "id": "github:https://github.com/HeyPuter/everything",
-      "url": "https://github.com/HeyPuter/everything",
-      "title": "[GitHub 热门新项目] HeyPuter/everything",
-      "date_published": "2026-10-19T01:00:45Z"
+      "id": "hackernews:https://deepmind.google/models/gemini/",
+      "url": "https://deepmind.google/models/gemini/",
+      "title": "[Hacker News 热门] Gemini 4 Argon",
+      "date_published": "2026-10-19T02:00:34Z"
     },
     {
-      "id": "github:https://github.com/Gathin23/tv-vibehack",
-      "url": "https://github.com/Gathin23/tv-vibehack",
-      "title": "[GitHub 热门新项目] Gathin23/tv-vibehack",
-      "date_published": "2026-10-19T01:00:45Z"
+      "id": "hackernews:https://www.anthropic.com/research/ecdsa-curve-origins",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "title": "[Hacker News 热门] Claude reveals ECDSA curve origins",
+      "date_published": "2026-10-19T02:00:34Z"
     },
     {
-      "id": "github:https://github.com/ahwootech/BRUTAL",
-      "url": "https://github.com/ahwootech/BRUTAL",
-      "title": "[GitHub 热门新项目] ahwootech/BRUTAL",
-      "date_published": "2026-10-19T01:00:45Z"
+      "id": "hackernews:https://mapwriting.substack.com/p/dentists",
+      "url": "https://mapwriting.substack.com/p/dentists",
+      "title": "[Hacker News 热门] Do dentists know what they're doing?",
+      "date_published": "2026-10-19T02:00:34Z"
     },
     {
-      "id": "github:https://github.com/chenglou/handwired",
-      "url": "https://github.com/chenglou/handwired",
-      "title": "[GitHub 热门新项目] chenglou/handwired",
-      "date_published": "2026-10-19T01:00:45Z"
+      "id": "hackernews:https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/",
+      "url": "https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/",
+      "title": "[Hacker News 热门] How Amazon pushes up prices all across the Internet",
+      "date_published": "2026-10-19T02:00:34Z"
     },
     {
-      "id": "github:https://github.com/Supermedo/uncharted_pc",
-      "url": "https://github.com/Supermedo/uncharted_pc",
-      "title": "[GitHub 热门新项目] Supermedo/uncharted_pc",
-      "date_published": "2026-10-19T01:00:45Z"
+      "id": "hackernews:https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+      "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+      "title": "[Hacker News 热门] Containment and monitoring failures are to blame for AI hacking reports: experts",
+      "date_published": "2026-10-19T02:00:34Z"
     },
     {
-      "id": "github:https://github.com/Caho1/open-claude-ui",
-      "url": "https://github.com/Caho1/open-claude-ui",
-      "title": "[GitHub 热门新项目] Caho1/open-claude-ui",
-      "date_published": "2026-10-19T01:00:45Z"
-    },
-    {
-      "id": "githubActive:https://github.com/public-apis/public-apis",
-      "url": "https://github.com/public-apis/public-apis",
-      "title": "[GitHub 活跃项目] public-apis/public-apis",
-      "date_published": "2026-10-19T01:00:45Z"
-    },
-    {
-      "id": "githubActive:https://github.com/freeCodeCamp/freeCodeCamp",
-      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "title": "[GitHub 活跃项目] freeCodeCamp/freeCodeCamp",
-      "date_published": "2026-10-19T01:00:45Z"
-    },
-    {
-      "id": "githubActive:https://github.com/EbookFoundation/free-programming-books",
-      "url": "https://github.com/EbookFoundation/free-programming-books",
-      "title": "[GitHub 活跃项目] EbookFoundation/free-programming-books",
-      "date_published": "2026-10-19T01:00:45Z"
-    },
-    {
-      "id": "githubActive:https://github.com/openclaw/openclaw",
-      "url": "https://github.com/openclaw/openclaw",
-      "title": "[GitHub 活跃项目] openclaw/openclaw",
-      "date_published": "2026-10-19T01:00:45Z"
-    },
-    {
-      "id": "githubActive:https://github.com/nilbuild/developer-roadmap",
-      "url": "https://github.com/nilbuild/developer-roadmap",
-      "title": "[GitHub 活跃项目] nilbuild/developer-roadmap",
-      "date_published": "2026-10-19T01:00:45Z"
-    },
-    {
-      "id": "githubActive:https://github.com/vinta/awesome-python",
-      "url": "https://github.com/vinta/awesome-python",
-      "title": "[GitHub 活跃项目] vinta/awesome-python",
-      "date_published": "2026-10-19T01:00:45Z"
-    },
-    {
-      "id": "githubActive:https://github.com/awesome-selfhosted/awesome-selfhosted",
-      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-      "title": "[GitHub 活跃项目] awesome-selfhosted/awesome-selfhosted",
-      "date_published": "2026-10-19T01:00:45Z"
-    },
-    {
-      "id": "githubActive:https://github.com/morluto/rea",
-      "url": "https://github.com/morluto/rea",
-      "title": "[GitHub 活跃项目] morluto/rea",
-      "date_published": "2026-10-19T01:00:45Z"
+      "id": "hackernews:https://twitter.com/opencode/status/2111516673953935833",
+      "url": "https://twitter.com/opencode/status/2111516673953935833",
+      "title": "[Hacker News 热门] OpenCode Hacked: User credentials leaked",
+      "date_published": "2026-10-19T02:00:34Z"
     }
   ]
 }
