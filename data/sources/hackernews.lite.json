@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-10-19T14:00:52Z",
+  "savedAt": "2026-10-19T19:42:52Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-10-19，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,7 +10,7 @@
       "title": "Things to know when you get cancer",
       "description": "",
       "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
-      "score": 1963,
+      "score": 1967,
       "comments": 478,
       "owner": "jjmaxwell4",
       "published": "2026-10-14T19:26:30Z",
@@ -20,8 +20,8 @@
       "title": "Tesla Roadster",
       "description": "<a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=7p5LxFdc-Qg\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=7p5LxFdc-Qg</a><p><a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;Tesla&#x2F;status&#x2F;2110788059008819215\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;Tesla&#x2F;status&#x2F;2110788059008819215</a>",
       "url": "https://www.tesla.com/roadster",
-      "score": 1635,
-      "comments": 3120,
+      "score": 1639,
+      "comments": 3131,
       "owner": "shekhar101",
       "published": "2026-10-16T01:32:45Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50112657"
@@ -31,7 +31,7 @@
       "description": "See also: <i>Gemini 4 Argon for Robotics</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50074869\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50074869</a>",
       "url": "https://deepmind.google/models/gemini/",
       "score": 1466,
-      "comments": 1046,
+      "comments": 1047,
       "owner": "737max",
       "published": "2026-10-13T16:03:16Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50073879"
@@ -40,7 +40,7 @@
       "title": "Claude reveals ECDSA curve origins",
       "description": "<a href=\"https:&#x2F;&#x2F;words.filippo.io&#x2F;seeds-solved&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;words.filippo.io&#x2F;seeds-solved&#x2F;</a>",
       "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-      "score": 1054,
+      "score": 1058,
       "comments": 388,
       "owner": "ahlCVA",
       "published": "2026-10-16T18:55:59Z",
@@ -50,7 +50,7 @@
       "title": "OpenCode Hacked: User credentials leaked",
       "description": "",
       "url": "https://twitter.com/opencode/status/2111516673953935833",
-      "score": 963,
+      "score": 968,
       "comments": 175,
       "owner": "pranshuchittora",
       "published": "2026-10-17T18:01:41Z",
@@ -60,11 +60,21 @@
       "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
       "description": "",
       "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
-      "score": 950,
+      "score": 951,
       "comments": 621,
       "owner": "latexr",
       "published": "2026-10-14T17:45:23Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50091788"
+    },
+    {
+      "title": "DeepSeek-v4.1-Flash-1017",
+      "description": "<a href=\"https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;news&#x2F;news261017&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;news&#x2F;news261017&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;openrouter.ai&#x2F;deepseek&#x2F;deepseek-v4.1-flash-1017\" rel=\"nofollow\">https:&#x2F;&#x2F;openrouter.ai&#x2F;deepseek&#x2F;deepseek-v4.1-flash-1017</a>",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "score": 950,
+      "comments": 716,
+      "owner": "theykk",
+      "published": "2026-10-17T08:21:25Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50129045"
     },
     {
       "title": "How Amazon pushes up prices all across the Internet",
@@ -75,16 +85,6 @@
       "owner": "sighborg",
       "published": "2026-10-14T09:28:17Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50084757"
-    },
-    {
-      "title": "DeepSeek-v4.1-Flash-1017",
-      "description": "<a href=\"https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;news&#x2F;news261017&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;news&#x2F;news261017&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;openrouter.ai&#x2F;deepseek&#x2F;deepseek-v4.1-flash-1017\" rel=\"nofollow\">https:&#x2F;&#x2F;openrouter.ai&#x2F;deepseek&#x2F;deepseek-v4.1-flash-1017</a>",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "score": 948,
-      "comments": 708,
-      "owner": "theykk",
-      "published": "2026-10-17T08:21:25Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50129045"
     },
     {
       "title": "Muse Spark Open",
@@ -101,7 +101,7 @@
       "description": "",
       "url": "https://www.anthropic.com/engineering/redesigning-source-control",
       "score": 894,
-      "comments": 1011,
+      "comments": 1012,
       "owner": "Philpax",
       "published": "2026-10-13T15:49:56Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50073633"
@@ -120,8 +120,8 @@
       "title": "Woman who rescued injured crow keeps getting 'thank-you gifts' from birds [video]",
       "description": "",
       "url": "https://www.youtube.com/watch?v=sjNpfz4UzqU",
-      "score": 870,
-      "comments": 257,
+      "score": 871,
+      "comments": 258,
       "owner": "johnnyApplePRNG",
       "published": "2026-10-13T02:32:53Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50065859"
@@ -130,7 +130,7 @@
       "title": "Neural networks are clean",
       "description": "<a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056</a>",
       "url": "https://already-clean.goodfire.com/",
-      "score": 825,
+      "score": 829,
       "comments": 337,
       "owner": "themgt",
       "published": "2026-10-15T16:04:01Z",
@@ -150,7 +150,7 @@
       "title": "Firefox Enterprise",
       "description": "",
       "url": "https://www.firefox.com/en-US/enterprise/",
-      "score": 782,
+      "score": 783,
       "comments": 331,
       "owner": "recvonline",
       "published": "2026-10-13T12:00:42Z",
@@ -161,7 +161,7 @@
       "description": "",
       "url": "https://www.apple.com/apple-homeview/",
       "score": 760,
-      "comments": 919,
+      "comments": 920,
       "owner": "etothet",
       "published": "2026-10-13T13:02:12Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50071017"
@@ -171,7 +171,7 @@
       "description": "",
       "url": "https://typeof.net/Iosevka/",
       "score": 752,
-      "comments": 314,
+      "comments": 315,
       "owner": "otobrglez",
       "published": "2026-10-14T08:27:59Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50084240"
@@ -187,24 +187,24 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50069499"
     },
     {
-      "title": "A Modern Web App in C",
-      "description": "",
-      "url": "https://prophitt.me/writing/a-modern-web-app-in-c",
-      "score": 714,
-      "comments": 326,
-      "owner": "prophittcorey",
-      "published": "2026-10-12T16:13:10Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50058528"
-    },
-    {
       "title": "Tiny Little Office",
       "description": "",
       "url": "https://tinylittleoffice.com/",
-      "score": 699,
+      "score": 701,
       "comments": 201,
       "owner": "donohoe",
       "published": "2026-10-14T22:10:08Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50096142"
+    },
+    {
+      "title": "Wayland desktop for Linux with skeuomorphic design",
+      "description": "",
+      "url": "https://github.com/fyzugx/DEsk",
+      "score": 697,
+      "comments": 279,
+      "owner": "FinalDestiny",
+      "published": "2026-10-15T13:23:44Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50103338"
     }
   ]
 }
