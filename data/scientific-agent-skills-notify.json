@@ -1,20 +1,25 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-10-19T08:04:31Z",
+  "changed": true,
+  "fetchedAt": "2026-10-19T14:40:51Z",
   "previousSha": "a1043ef544e3a100c28e70a736b6cf32554d0677",
-  "latestSha": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "latestSha": "593377bb048752abb0152deab9fbb1083a6087df",
   "repo": "K-Dense-AI/scientific-agent-skills",
   "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "stars": 0,
   "skillCount": 177,
   "latestCommit": {
     "title": "chore: update security scan report [skip ci]",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/a1043ef544e3a100c28e70a736b6cf32554d0677",
-    "sha": "a1043ef",
-    "published": "2026-10-12"
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/593377bb048752abb0152deab9fbb1083a6087df",
+    "sha": "593377b",
+    "published": "2026-10-19"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "chore: update security scan report [skip ci]",
+      "sha": "593377b",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/593377bb048752abb0152deab9fbb1083a6087df"
+    },
     {
       "title": "chore: update security scan report [skip ci]",
       "sha": "a1043ef",
@@ -34,11 +39,6 @@
       "title": "Bump version to 2.72.0",
       "sha": "526ebce",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/526ebce143bc326f44471554e33d66a19c840360"
-    },
-    {
-      "title": "Remove vendored Anthropic document skills (docx, pdf, pptx, xlsx)",
-      "sha": "f7a50ed",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/f7a50ed2956fb45e32bd44cc5c713d4f0ac99f93"
     }
   ]
 }

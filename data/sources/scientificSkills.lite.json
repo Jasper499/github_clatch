@@ -1,11 +1,11 @@
 {
   "sourceKey": "scientificSkills",
-  "savedAt": "2026-10-19T08:04:31Z",
+  "savedAt": "2026-10-19T14:40:51Z",
   "label": "Skills 清单",
-  "description": "跟踪 K-Dense-AI/scientific-agent-skills：共 177 个技能（最近同步 2026-10-12）",
+  "description": "跟踪 K-Dense-AI/scientific-agent-skills：共 177 个技能（最近同步 2026-10-19）",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "latestSha": "593377bb048752abb0152deab9fbb1083a6087df",
   "items": [
     {
       "title": "K-Dense-AI/scientific-agent-skills · 仓库总览",
@@ -15,11 +15,11 @@
       "language": "Python",
       "owner": "K-Dense-AI",
       "label": "overview",
-      "published": "2026-10-12",
+      "published": "2026-10-19",
       "readmeTruncated": true,
       "readmeFile": "README.md",
       "skillCount": 177,
-      "latestSha": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "latestSha": "593377bb048752abb0152deab9fbb1083a6087df",
       "repo": "K-Dense-AI/scientific-agent-skills",
       "readmePath": "data/readmes/scientificSkills/versions/f3546e0ceb4f6e6b7c87b83c11123d657146e4e66f5a8bc9ac4d47d249c5510f.md"
     },
