@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-10-20T07:19:14Z",
+  "savedAt": "2026-10-20T14:00:48Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-10-20，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -21,7 +21,7 @@
       "description": "<a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=7p5LxFdc-Qg\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=7p5LxFdc-Qg</a><p><a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;Tesla&#x2F;status&#x2F;2110788059008819215\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;Tesla&#x2F;status&#x2F;2110788059008819215</a>",
       "url": "https://www.tesla.com/roadster",
       "score": 1641,
-      "comments": 3138,
+      "comments": 3140,
       "owner": "shekhar101",
       "published": "2026-10-16T01:32:45Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50112657"
@@ -37,11 +37,21 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50073879"
     },
     {
+      "title": "DeepSeek just open-sourced its inference engine",
+      "description": "",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "score": 1094,
+      "comments": 380,
+      "owner": "ggcr",
+      "published": "2026-10-20T09:08:54Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50163277"
+    },
+    {
       "title": "Claude reveals ECDSA curve origins",
       "description": "<a href=\"https:&#x2F;&#x2F;words.filippo.io&#x2F;seeds-solved&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;words.filippo.io&#x2F;seeds-solved&#x2F;</a>",
       "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-      "score": 1060,
-      "comments": 389,
+      "score": 1062,
+      "comments": 390,
       "owner": "ahlCVA",
       "published": "2026-10-16T18:55:59Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50122800"
@@ -50,8 +60,8 @@
       "title": "OpenCode Hacked: User credentials leaked",
       "description": "",
       "url": "https://twitter.com/opencode/status/2111516673953935833",
-      "score": 969,
-      "comments": 176,
+      "score": 970,
+      "comments": 177,
       "owner": "pranshuchittora",
       "published": "2026-10-17T18:01:41Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50133401"
@@ -60,8 +70,8 @@
       "title": "DeepSeek-v4.1-Flash-1017",
       "description": "<a href=\"https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;news&#x2F;news261017&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;news&#x2F;news261017&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;openrouter.ai&#x2F;deepseek&#x2F;deepseek-v4.1-flash-1017\" rel=\"nofollow\">https:&#x2F;&#x2F;openrouter.ai&#x2F;deepseek&#x2F;deepseek-v4.1-flash-1017</a>",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "score": 954,
-      "comments": 717,
+      "score": 957,
+      "comments": 718,
       "owner": "theykk",
       "published": "2026-10-17T08:21:25Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50129045"
@@ -81,7 +91,7 @@
       "description": "",
       "url": "https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/",
       "score": 950,
-      "comments": 764,
+      "comments": 765,
       "owner": "sighborg",
       "published": "2026-10-14T09:28:17Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50084757"
@@ -100,7 +110,7 @@
       "title": "Redesigning source control at Anthropic",
       "description": "",
       "url": "https://www.anthropic.com/engineering/redesigning-source-control",
-      "score": 894,
+      "score": 896,
       "comments": 1012,
       "owner": "Philpax",
       "published": "2026-10-13T15:49:56Z",
@@ -120,31 +130,11 @@
       "title": "Neural networks are clean",
       "description": "<a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056</a>",
       "url": "https://already-clean.goodfire.com/",
-      "score": 832,
-      "comments": 338,
+      "score": 834,
+      "comments": 340,
       "owner": "themgt",
       "published": "2026-10-15T16:04:01Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50105647"
-    },
-    {
-      "title": "Firefox Enterprise",
-      "description": "",
-      "url": "https://www.firefox.com/en-US/enterprise/",
-      "score": 783,
-      "comments": 331,
-      "owner": "recvonline",
-      "published": "2026-10-13T12:00:42Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50070302"
-    },
-    {
-      "title": "Apple HomeView",
-      "description": "",
-      "url": "https://www.apple.com/apple-homeview/",
-      "score": 760,
-      "comments": 920,
-      "owner": "etothet",
-      "published": "2026-10-13T13:02:12Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50071017"
     },
     {
       "title": "Iosevka is an open-source, sans-serif and slab-serif monospace font",
@@ -155,16 +145,6 @@
       "owner": "otobrglez",
       "published": "2026-10-14T08:27:59Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50084240"
-    },
-    {
-      "title": "11 year old unsoundness bugs found in Rust borrow checker",
-      "description": "",
-      "url": "https://github.com/rust-lang/rust/issues/164250",
-      "score": 747,
-      "comments": 445,
-      "owner": "formerly_proven",
-      "published": "2026-10-13T10:27:00Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50069499"
     },
     {
       "title": "Tiny Little Office",
@@ -180,7 +160,7 @@
       "title": "Wayland desktop for Linux with skeuomorphic design",
       "description": "",
       "url": "https://github.com/fyzugx/DEsk",
-      "score": 698,
+      "score": 699,
       "comments": 280,
       "owner": "FinalDestiny",
       "published": "2026-10-15T13:23:44Z",
@@ -190,8 +170,8 @@
       "title": "Solar surpasses nuclear power globally for first time",
       "description": "",
       "url": "https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/",
-      "score": 694,
-      "comments": 445,
+      "score": 695,
+      "comments": 447,
       "owner": "xbmcuser",
       "published": "2026-10-17T14:01:01Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50131256"
@@ -200,11 +180,31 @@
       "title": "Namecheap just seized and disabled all my domains",
       "description": "",
       "url": "https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/",
-      "score": 676,
-      "comments": 353,
+      "score": 686,
+      "comments": 356,
       "owner": "sashk",
       "published": "2026-10-18T16:56:56Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50142866"
+    },
+    {
+      "title": "Passkeys are not a trap",
+      "description": "",
+      "url": "https://scotthelme.co.uk/passkeys-are-not-a-trap/",
+      "score": 672,
+      "comments": 814,
+      "owner": "speckx",
+      "published": "2026-10-14T15:15:45Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50088935"
+    },
+    {
+      "title": "What I self-host",
+      "description": "",
+      "url": "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/",
+      "score": 669,
+      "comments": 433,
+      "owner": "BrunoBernardino",
+      "published": "2026-10-15T20:23:25Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50109715"
     }
   ]
 }
