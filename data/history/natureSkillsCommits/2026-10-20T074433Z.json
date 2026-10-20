@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-20T074433Z",
+  "day": "2026-10-20",
+  "sourceKey": "natureSkillsCommits",
+  "savedAt": "2026-10-20T07:44:33Z",
+  "label": "最近提交",
+  "description": "最近 15 条提交动态",
+  "updateFrequency": "daily",
+  "repo": "Yuan1z0825/nature-skills",
+  "latestSha": "c8599197e7d2a22c2a091bbf8c14efcb3625cfa0",
+  "items": [
+    {
+      "title": "Merge pull request #274 from WatchKitty/fix/windows-pdf-sync-and-ci-p…",
+      "description": "Merge pull request #274 from WatchKitty/fix/windows-pdf-sync-and-ci-parity\n\nfix: restore Windows PDF sync and refresh Image2PPT CI baseline",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c8599197e7d2a22c2a091bbf8c14efcb3625cfa0",
+      "sha": "c859919",
+      "fullSha": "c8599197e7d2a22c2a091bbf8c14efcb3625cfa0",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-20",
+      "label": "commit"
+    },
+    {
+      "title": "ci: use matching UTF-8 encodings for Windows PDF tests",
+      "description": "ci: use matching UTF-8 encodings for Windows PDF tests",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/31a78bd0d0a09e3a9182c6394de6c9f244f629ec",
+      "sha": "31a78bd",
+      "fullSha": "31a78bd0d0a09e3a9182c6394de6c9f244f629ec",
+      "owner": "WatchKitty",
+      "published": "2026-10-20",
+      "label": "commit"
+    },
+    {
+      "title": "ci: constrain PDF tooling to the tested dependency versions",
+      "description": "ci: constrain PDF tooling to the tested dependency versions",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/d7f4cbfabcefdff0e6ec4c520ce6842a386dfebc",
+      "sha": "d7f4cbf",
+      "fullSha": "d7f4cbfabcefdff0e6ec4c520ce6842a386dfebc",
+      "owner": "WatchKitty",
+      "published": "2026-10-20",
+      "label": "commit"
+    },
+    {
+      "title": "fix: restore Windows PDF sync and refresh Image2PPT CI baseline",
+      "description": "fix: restore Windows PDF sync and refresh Image2PPT CI baseline",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/52f478cc164c811a8eeb18474998cf71cc675d5a",
+      "sha": "52f478c",
+      "fullSha": "52f478cc164c811a8eeb18474998cf71cc675d5a",
+      "owner": "WatchKitty",
+      "published": "2026-10-20",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #258 from CharlesYXW/harden/format-converter-egres…",
+      "description": "Merge pull request #258 from CharlesYXW/harden/format-converter-egress-and-filenames\n\nharden: complete egress allowlist and sanitize PMID filenames in format-converter (CWE-918, CWE-22)",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/b0de5a9ec3f8439433c742782f4fbbe582a253d7",
+      "sha": "b0de5a9",
+      "fullSha": "b0de5a9ec3f8439433c742782f4fbbe582a253d7",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-20",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #259 from CharlesYXW/harden/response-url-scheme-va…",
+      "description": "Merge pull request #259 from CharlesYXW/harden/response-url-scheme-validation\n\nharden: validate scheme and host of response-supplied URLs before download (CWE-918)",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c312b53c377f0f0f7a2e69065b47fc83360f78ca",
+      "sha": "c312b53",
+      "fullSha": "c312b53c377f0f0f7a2e69065b47fc83360f78ca",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-20",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #261 from WatchKitty/fix/springer-fulltext-api-host",
+      "description": "Merge pull request #261 from WatchKitty/fix/springer-fulltext-api-host\n\nfix(nature-downloader): migrate Springer Full Text API host",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/3981da9877237d36a21705f314b2b66e41ca59e5",
+      "sha": "3981da9",
+      "fullSha": "3981da9877237d36a21705f314b2b66e41ca59e5",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-20",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #262 from WatchKitty/fix/credential-validation-htt…",
+      "description": "Merge pull request #262 from WatchKitty/fix/credential-validation-http-status\n\nfix(nature-downloader): reject failed credential validation responses",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/7e9f02fd32156aeac36db28c92057f0aae647148",
+      "sha": "7e9f02f",
+      "fullSha": "7e9f02fd32156aeac36db28c92057f0aae647148",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-20",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #263 from WatchKitty/fix/springer-service-credentials",
+      "description": "Merge pull request #263 from WatchKitty/fix/springer-service-credentials\n\nfix(nature-downloader): scope Springer credentials by API service",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/7279ca9080cf5eaf9700203c1eb5544df4086d7b",
+      "sha": "7279ca9",
+      "fullSha": "7279ca9080cf5eaf9700203c1eb5544df4086d7b",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-20",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #264 from WatchKitty/fix/proposal-preserve-source",
+      "description": "Merge pull request #264 from WatchKitty/fix/proposal-preserve-source\n\nfix(nature-proposal-writer): preserve Markdown source during export",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/ad08bc9d5fb6469696709fe90a330d31b9221b93",
+      "sha": "ad08bc9",
+      "fullSha": "ad08bc9d5fb6469696709fe90a330d31b9221b93",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-20",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #265 from WatchKitty/fix/proposal-table-delimiters",
+      "description": "Merge pull request #265 from WatchKitty/fix/proposal-table-delimiters\n\nfix(nature-proposal-writer): parse Markdown table delimiter rows",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/886a195897cff962e2f40955827be67ba25017c6",
+      "sha": "886a195",
+      "fullSha": "886a195897cff962e2f40955827be67ba25017c6",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-20",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #267 from WatchKitty/fix/paper-trans-json-import",
+      "description": "Merge pull request #267 from WatchKitty/fix/paper-trans-json-import\n\nfix(nature-paper-trans): keep CLI JSON clean with canonical PyMuPDF import",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/74c37b4f8c7a1d38dbbed4c2f24b742800c3a472",
+      "sha": "74c37b4",
+      "fullSha": "74c37b4f8c7a1d38dbbed4c2f24b742800c3a472",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-20",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #268 from WatchKitty/fix/citation-exact-journal-scope",
+      "description": "Merge pull request #268 from WatchKitty/fix/citation-exact-journal-scope\n\nfix(nature-citation): require exact Nature Portfolio journal membership",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/2b49c9014d71247cd1a23b9656d856f7a93f7d94",
+      "sha": "2b49c90",
+      "fullSha": "2b49c9014d71247cd1a23b9656d856f7a93f7d94",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-20",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #269 from WatchKitty/fix/paper-card-page-range",
+      "description": "Merge pull request #269 from WatchKitty/fix/paper-card-page-range\n\nfix(nature-paper-card): validate citations against available source pages",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/0227133e858daa9ebf4df742e308251b0d3f563f",
+      "sha": "0227133",
+      "fullSha": "0227133e858daa9ebf4df742e308251b0d3f563f",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-20",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #270 from WatchKitty/fix/paper2ppt-group-transforms",
+      "description": "Merge pull request #270 from WatchKitty/fix/paper2ppt-group-transforms\n\nfix(nature-paper2ppt): audit grouped shapes in slide coordinates",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/69131766c85663b7a5609ed2529aafdb727be4e4",
+      "sha": "6913176",
+      "fullSha": "69131766c85663b7a5609ed2529aafdb727be4e4",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-20",
+      "label": "commit"
+    }
+  ]
+}
