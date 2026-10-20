@@ -1,20 +1,25 @@
 {
   "changed": true,
-  "fetchedAt": "2026-10-20T07:44:32Z",
-  "previousSha": "233ed09957d32d8cf45dd96c495663c5c5d8e447",
-  "latestSha": "c8599197e7d2a22c2a091bbf8c14efcb3625cfa0",
+  "fetchedAt": "2026-10-20T14:20:40Z",
+  "previousSha": "c8599197e7d2a22c2a091bbf8c14efcb3625cfa0",
+  "latestSha": "2a163b95255c608609ff815f3bbc6266591598e2",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "Merge pull request #274 from WatchKitty/fix/windows-pdf-sync-and-ci-p…",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/c8599197e7d2a22c2a091bbf8c14efcb3625cfa0",
-    "sha": "c859919",
+    "title": "docs(nature-figure): agent diagrams, implementation check and text rules",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/2a163b95255c608609ff815f3bbc6266591598e2",
+    "sha": "2a163b9",
     "published": "2026-10-20"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "docs(nature-figure): agent diagrams, implementation check and text rules",
+      "sha": "2a163b9",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/2a163b95255c608609ff815f3bbc6266591598e2"
+    },
     {
       "title": "Merge pull request #274 from WatchKitty/fix/windows-pdf-sync-and-ci-p…",
       "sha": "c859919",
@@ -34,11 +39,6 @@
       "title": "fix: restore Windows PDF sync and refresh Image2PPT CI baseline",
       "sha": "52f478c",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/52f478cc164c811a8eeb18474998cf71cc675d5a"
-    },
-    {
-      "title": "Merge pull request #258 from CharlesYXW/harden/format-converter-egres…",
-      "sha": "b0de5a9",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/b0de5a9ec3f8439433c742782f4fbbe582a253d7"
     }
   ]
 }

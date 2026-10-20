@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-10-20T07:44:33Z",
+  "savedAt": "2026-10-20T14:20:40Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "c8599197e7d2a22c2a091bbf8c14efcb3625cfa0",
+  "latestSha": "2a163b95255c608609ff815f3bbc6266591598e2",
   "items": [
+    {
+      "title": "docs(nature-figure): agent diagrams, implementation check and text rules",
+      "description": "docs(nature-figure): agent diagrams, implementation check and text rules\n\nAdd an &quot;Agent and tool diagrams&quot; section to the vector schematic style\nrules: draw an LLM agent as its iterating loop with the tools as callees,\ncalls leaving the tool-call station and results returning to the\nobservation station, and retrieval as one more tool call.\n\nAsk the brief to be checked against the implementation (code,\nconfiguration, methods), render and inspect the edited region after every\nrevision, and add rules on one dark ink, short box text, even justified\nspacing, broken crossings, and shared widths for boxes of one role. In\nthe default stance, do not print a value on every mark.\n\nXinrui Ma",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/2a163b95255c608609ff815f3bbc6266591598e2",
+      "sha": "2a163b9",
+      "fullSha": "2a163b95255c608609ff815f3bbc6266591598e2",
+      "owner": "Travisma2233",
+      "published": "2026-10-20",
+      "label": "commit"
+    },
     {
       "title": "Merge pull request #274 from WatchKitty/fix/windows-pdf-sync-and-ci-p…",
       "description": "Merge pull request #274 from WatchKitty/fix/windows-pdf-sync-and-ci-parity\n\nfix: restore Windows PDF sync and refresh Image2PPT CI baseline",
@@ -143,16 +153,6 @@
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/0227133e858daa9ebf4df742e308251b0d3f563f",
       "sha": "0227133",
       "fullSha": "0227133e858daa9ebf4df742e308251b0d3f563f",
-      "owner": "Yuan1z0825",
-      "published": "2026-10-20",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #270 from WatchKitty/fix/paper2ppt-group-transforms",
-      "description": "Merge pull request #270 from WatchKitty/fix/paper2ppt-group-transforms\n\nfix(nature-paper2ppt): audit grouped shapes in slide coordinates",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/69131766c85663b7a5609ed2529aafdb727be4e4",
-      "sha": "6913176",
-      "fullSha": "69131766c85663b7a5609ed2529aafdb727be4e4",
       "owner": "Yuan1z0825",
       "published": "2026-10-20",
       "label": "commit"
