@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-10-20T02:00:37Z",
+  "savedAt": "2026-10-20T07:19:14Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-10-20，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,7 +10,7 @@
       "title": "Things to know when you get cancer",
       "description": "",
       "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
-      "score": 1970,
+      "score": 1971,
       "comments": 478,
       "owner": "jjmaxwell4",
       "published": "2026-10-14T19:26:30Z",
@@ -20,8 +20,8 @@
       "title": "Tesla Roadster",
       "description": "<a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=7p5LxFdc-Qg\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=7p5LxFdc-Qg</a><p><a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;Tesla&#x2F;status&#x2F;2110788059008819215\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;Tesla&#x2F;status&#x2F;2110788059008819215</a>",
       "url": "https://www.tesla.com/roadster",
-      "score": 1639,
-      "comments": 3136,
+      "score": 1641,
+      "comments": 3138,
       "owner": "shekhar101",
       "published": "2026-10-16T01:32:45Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50112657"
@@ -51,7 +51,7 @@
       "description": "",
       "url": "https://twitter.com/opencode/status/2111516673953935833",
       "score": 969,
-      "comments": 175,
+      "comments": 176,
       "owner": "pranshuchittora",
       "published": "2026-10-17T18:01:41Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50133401"
@@ -60,8 +60,8 @@
       "title": "DeepSeek-v4.1-Flash-1017",
       "description": "<a href=\"https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;news&#x2F;news261017&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;news&#x2F;news261017&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;openrouter.ai&#x2F;deepseek&#x2F;deepseek-v4.1-flash-1017\" rel=\"nofollow\">https:&#x2F;&#x2F;openrouter.ai&#x2F;deepseek&#x2F;deepseek-v4.1-flash-1017</a>",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "score": 953,
-      "comments": 716,
+      "score": 954,
+      "comments": 717,
       "owner": "theykk",
       "published": "2026-10-17T08:21:25Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50129045"
@@ -71,7 +71,7 @@
       "description": "",
       "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
       "score": 951,
-      "comments": 624,
+      "comments": 625,
       "owner": "latexr",
       "published": "2026-10-14T17:45:23Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50091788"
@@ -117,20 +117,10 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50094994"
     },
     {
-      "title": "Woman who rescued injured crow keeps getting 'thank-you gifts' from birds [video]",
-      "description": "",
-      "url": "https://www.youtube.com/watch?v=sjNpfz4UzqU",
-      "score": 874,
-      "comments": 258,
-      "owner": "johnnyApplePRNG",
-      "published": "2026-10-13T02:32:53Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50065859"
-    },
-    {
       "title": "Neural networks are clean",
       "description": "<a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056</a>",
       "url": "https://already-clean.goodfire.com/",
-      "score": 831,
+      "score": 832,
       "comments": 338,
       "owner": "themgt",
       "published": "2026-10-15T16:04:01Z",
@@ -205,6 +195,16 @@
       "owner": "xbmcuser",
       "published": "2026-10-17T14:01:01Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50131256"
+    },
+    {
+      "title": "Namecheap just seized and disabled all my domains",
+      "description": "",
+      "url": "https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/",
+      "score": 676,
+      "comments": 353,
+      "owner": "sashk",
+      "published": "2026-10-18T16:56:56Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50142866"
     }
   ]
 }
