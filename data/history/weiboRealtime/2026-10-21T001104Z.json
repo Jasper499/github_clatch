@@ -1,0 +1,312 @@
+{
+  "date": "2026-10-21T001104Z",
+  "day": "2026-10-21",
+  "sourceKey": "weiboRealtime",
+  "savedAt": "2026-10-21T00:11:04Z",
+  "label": "实时",
+  "description": "微博实时上升榜（按上榜时间排序，2026-10-21，共 30 条，约每 6 小时更新）",
+  "updateFrequency": "every-6h",
+  "fetchedDate": "2026-10-21",
+  "items": [
+    {
+      "title": "詹姆斯76人生涯首分",
+      "description": "新 · 体育",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%A9%B9%E5%A7%86%E6%96%AF76%E4%BA%BA%E7%94%9F%E6%B6%AF%E9%A6%96%E5%88%86%23&t=31&band_rank=1&Refer=top",
+      "score": 131402,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "体育",
+      "onboardTime": 1792541359
+    },
+    {
+      "title": "世界乱成一锅粥中国安心过日子",
+      "description": "新 · 国内时政,民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%96%E7%95%8C%E4%B9%B1%E6%88%90%E4%B8%80%E9%94%85%E7%B2%A5%E4%B8%AD%E5%9B%BD%E5%AE%89%E5%BF%83%E8%BF%87%E6%97%A5%E5%AD%90%23&t=31&band_rank=1&Refer=top",
+      "score": 83150,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "国内时政,民生新闻",
+      "onboardTime": 1792541359
+    },
+    {
+      "title": "2岁幼童坠亡后母亲暴瘦11斤",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%232%E5%B2%81%E5%B9%BC%E7%AB%A5%E5%9D%A0%E4%BA%A1%E5%90%8E%E6%AF%8D%E4%BA%B2%E6%9A%B4%E7%98%A611%E6%96%A4%23&t=31&band_rank=1&Refer=top",
+      "score": 116676,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792541180
+    },
+    {
+      "title": "法国抗议变Cosplay现场",
+      "description": "新 · 海外新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B3%95%E5%9B%BD%E6%8A%97%E8%AE%AE%E5%8F%98Cosplay%E7%8E%B0%E5%9C%BA%23&t=31&band_rank=1&Refer=top",
+      "score": 200258,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "海外新闻",
+      "onboardTime": 1792540879
+    },
+    {
+      "title": "曼城5比1雅典AEK",
+      "description": "新 · 体育",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9B%BC%E5%9F%8E5%E6%AF%941%E9%9B%85%E5%85%B8AEK%23&t=31&band_rank=1&Refer=top",
+      "score": 106697,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "体育",
+      "onboardTime": 1792540879
+    },
+    {
+      "title": "咸鱼飞升",
+      "description": "新 · 剧集",
+      "url": "https://s.weibo.com/weibo?q=%E5%92%B8%E9%B1%BC%E9%A3%9E%E5%8D%87&t=31&band_rank=1&Refer=top",
+      "score": 161672,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "剧集",
+      "onboardTime": 1792540458
+    },
+    {
+      "title": "NBA",
+      "description": "新 · 体育",
+      "url": "https://s.weibo.com/weibo?q=NBA&t=31&band_rank=1&Refer=top",
+      "score": 162445,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "体育",
+      "onboardTime": 1792540339
+    },
+    {
+      "title": "法国政府估计全国约55万人参加示威",
+      "description": "新 · 国际时政",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B3%95%E5%9B%BD%E6%94%BF%E5%BA%9C%E4%BC%B0%E8%AE%A1%E5%85%A8%E5%9B%BD%E7%BA%A655%E4%B8%87%E4%BA%BA%E5%8F%82%E5%8A%A0%E7%A4%BA%E5%A8%81%23&t=31&band_rank=1&Refer=top",
+      "score": 225350,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "国际时政",
+      "onboardTime": 1792540218
+    },
+    {
+      "title": "欧冠",
+      "description": "新 · 体育",
+      "url": "https://s.weibo.com/weibo?q=%E6%AC%A7%E5%86%A0&t=31&band_rank=1&Refer=top",
+      "score": 219771,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "体育",
+      "onboardTime": 1792539498
+    },
+    {
+      "title": "巴黎连赢曼城巴萨",
+      "description": "新 · 体育",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%B7%B4%E9%BB%8E%E8%BF%9E%E8%B5%A2%E6%9B%BC%E5%9F%8E%E5%B7%B4%E8%90%A8%23&t=31&band_rank=1&Refer=top",
+      "score": 83303,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "体育",
+      "onboardTime": 1792539498
+    },
+    {
+      "title": "曾辉回应和韩雨彤参加恋综",
+      "description": "新 · 综艺",
+      "url": "https://s.weibo.com/weibo?q=%E6%9B%BE%E8%BE%89%E5%9B%9E%E5%BA%94%E5%92%8C%E9%9F%A9%E9%9B%A8%E5%BD%A4%E5%8F%82%E5%8A%A0%E6%81%8B%E7%BB%BC&t=31&band_rank=1&Refer=top",
+      "score": 607913,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "综艺",
+      "onboardTime": 1792539378
+    },
+    {
+      "title": "易梦玲因护照被偷错过维密秀",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%E6%98%93%E6%A2%A6%E7%8E%B2%E5%9B%A0%E6%8A%A4%E7%85%A7%E8%A2%AB%E5%81%B7%E9%94%99%E8%BF%87%E7%BB%B4%E5%AF%86%E7%A7%80&t=31&band_rank=1&Refer=top",
+      "score": 241755,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1792539378
+    },
+    {
+      "title": "阿信发文告别5525演唱会",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%E9%98%BF%E4%BF%A1%E5%8F%91%E6%96%87%E5%91%8A%E5%88%AB5525%E6%BC%94%E5%94%B1%E4%BC%9A&t=31&band_rank=1&Refer=top",
+      "score": 130114,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1792539378
+    },
+    {
+      "title": "蔡天凤前公公买绞肉机监控曝光",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%94%A1%E5%A4%A9%E5%87%A4%E5%89%8D%E5%85%AC%E5%85%AC%E4%B9%B0%E7%BB%9E%E8%82%89%E6%9C%BA%E7%9B%91%E6%8E%A7%E6%9B%9D%E5%85%89%23&t=31&band_rank=1&Refer=top",
+      "score": 427770,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792539317
+    },
+    {
+      "title": "大闸蟹价格暴跌超40%",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%A7%E9%97%B8%E8%9F%B9%E4%BB%B7%E6%A0%BC%E6%9A%B4%E8%B7%8C%E8%B6%8540%25%23&t=31&band_rank=1&Refer=top",
+      "score": 412497,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792539317
+    },
+    {
+      "title": "中国体操男队世锦赛铜牌",
+      "description": "新 · 体育",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E4%BD%93%E6%93%8D%E7%94%B7%E9%98%9F%E4%B8%96%E9%94%A6%E8%B5%9B%E9%93%9C%E7%89%8C%23&t=31&band_rank=1&Refer=top",
+      "score": 197516,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "体育",
+      "onboardTime": 1792539258
+    },
+    {
+      "title": "德国盾构机卖印度需中国放行",
+      "description": "新 · 国际时政",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%BE%B7%E5%9B%BD%E7%9B%BE%E6%9E%84%E6%9C%BA%E5%8D%96%E5%8D%B0%E5%BA%A6%E9%9C%80%E4%B8%AD%E5%9B%BD%E6%94%BE%E8%A1%8C%23&t=31&band_rank=1&Refer=top",
+      "score": 133124,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "国际时政",
+      "onboardTime": 1792538658
+    },
+    {
+      "title": "王一博是istp",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E4%B8%80%E5%8D%9A%E6%98%AFistp%23&t=31&band_rank=1&Refer=top",
+      "score": 230037,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1792538537
+    },
+    {
+      "title": "国际油价上演大逆转",
+      "description": "新 · 财经",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%9B%BD%E9%99%85%E6%B2%B9%E4%BB%B7%E4%B8%8A%E6%BC%94%E5%A4%A7%E9%80%86%E8%BD%AC%23&t=31&band_rank=1&Refer=top",
+      "score": 133981,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "财经",
+      "onboardTime": 1792538477
+    },
+    {
+      "title": "塔图姆23中6",
+      "description": "新 · 体育",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A1%94%E5%9B%BE%E5%A7%8623%E4%B8%AD6%23&t=31&band_rank=1&Refer=top",
+      "score": 244657,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "体育",
+      "onboardTime": 1792538418
+    },
+    {
+      "title": "鼓浪屿冷清不复当年盛景",
+      "description": "新 · 旅游",
+      "url": "https://s.weibo.com/weibo?q=%E9%BC%93%E6%B5%AA%E5%B1%BF%E5%86%B7%E6%B8%85%E4%B8%8D%E5%A4%8D%E5%BD%93%E5%B9%B4%E7%9B%9B%E6%99%AF&t=31&band_rank=1&Refer=top",
+      "score": 195610,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "旅游",
+      "onboardTime": 1792538418
+    },
+    {
+      "title": "大冰掏心掏肺谈职场",
+      "description": "新 · 情感",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%A7%E5%86%B0%E6%8E%8F%E5%BF%83%E6%8E%8F%E8%82%BA%E8%B0%88%E8%81%8C%E5%9C%BA&t=31&band_rank=1&Refer=top",
+      "score": 132574,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "情感",
+      "onboardTime": 1792538418
+    },
+    {
+      "title": "大冰教你百试不爽拒绝借钱",
+      "description": "新 · 情感",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%A7%E5%86%B0%E6%95%99%E4%BD%A0%E7%99%BE%E8%AF%95%E4%B8%8D%E7%88%BD%E6%8B%92%E7%BB%9D%E5%80%9F%E9%92%B1&t=31&band_rank=1&Refer=top",
+      "score": 194698,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "情感",
+      "onboardTime": 1792538359
+    },
+    {
+      "title": "三亚市副市长陈克伯被查",
+      "description": "新 · 国内时政",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%89%E4%BA%9A%E5%B8%82%E5%89%AF%E5%B8%82%E9%95%BF%E9%99%88%E5%85%8B%E4%BC%AF%E8%A2%AB%E6%9F%A5%23&t=31&band_rank=1&Refer=top",
+      "score": 111902,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "国内时政",
+      "onboardTime": 1792538359
+    },
+    {
+      "title": "活塞22分逆转凯尔特人",
+      "description": "新 · 体育",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B4%BB%E5%A1%9E22%E5%88%86%E9%80%86%E8%BD%AC%E5%87%AF%E5%B0%94%E7%89%B9%E4%BA%BA%23&t=31&band_rank=1&Refer=top",
+      "score": 180815,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "体育",
+      "onboardTime": 1792538297
+    },
+    {
+      "title": "钟南山不老秘诀是抗阻训练",
+      "description": "新 · 健康医疗",
+      "url": "https://s.weibo.com/weibo?q=%E9%92%9F%E5%8D%97%E5%B1%B1%E4%B8%8D%E8%80%81%E7%A7%98%E8%AF%80%E6%98%AF%E6%8A%97%E9%98%BB%E8%AE%AD%E7%BB%83&t=31&band_rank=1&Refer=top",
+      "score": 185308,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "健康医疗",
+      "onboardTime": 1792537457
+    },
+    {
+      "title": "巴黎圣日耳曼4比2巴萨",
+      "description": "新 · 体育",
+      "url": "https://s.weibo.com/weibo?q=%E5%B7%B4%E9%BB%8E%E5%9C%A3%E6%97%A5%E8%80%B3%E6%9B%BC4%E6%AF%942%E5%B7%B4%E8%90%A8&t=31&band_rank=1&Refer=top",
+      "score": 872854,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "体育",
+      "onboardTime": 1792536377
+    },
+    {
+      "title": "网红方丈前妻深夜痛哭",
+      "description": "网红",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%BD%91%E7%BA%A2%E6%96%B9%E4%B8%88%E5%89%8D%E5%A6%BB%E6%B7%B1%E5%A4%9C%E7%97%9B%E5%93%AD%23&t=31&band_rank=1&Refer=top",
+      "score": 108873,
+      "owner": "微博实时",
+      "label": "",
+      "category": "网红",
+      "onboardTime": 1792535355
+    },
+    {
+      "title": "肖战震惊成表情包了",
+      "description": "艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%82%96%E6%88%98%E9%9C%87%E6%83%8A%E6%88%90%E8%A1%A8%E6%83%85%E5%8C%85%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 108201,
+      "owner": "微博实时",
+      "label": "",
+      "category": "艺人",
+      "onboardTime": 1792535295
+    },
+    {
+      "title": "肖战演唱会二开无退票斩断囤票退路",
+      "description": "演出",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%82%96%E6%88%98%E6%BC%94%E5%94%B1%E4%BC%9A%E4%BA%8C%E5%BC%80%E6%97%A0%E9%80%80%E7%A5%A8%E6%96%A9%E6%96%AD%E5%9B%A4%E7%A5%A8%E9%80%80%E8%B7%AF%23&t=31&band_rank=1&Refer=top",
+      "score": 128959,
+      "owner": "微博实时",
+      "label": "",
+      "category": "演出",
+      "onboardTime": 1792535055
+    }
+  ]
+}
