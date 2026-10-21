@@ -6,52 +6,100 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "hackernews:https://github.com/deepseek-ai/DeepInfer",
-      "url": "https://github.com/deepseek-ai/DeepInfer",
-      "title": "[Hacker News 热门] DeepInfer: High-performance inference framework for DeepSeek models",
-      "date_published": "2026-10-21T07:18:12Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills",
+      "url": "https://github.com/Yuan1z0825/nature-skills",
+      "title": "[Skills 清单] Yuan1z0825/nature-skills · 仓库总览",
+      "date_published": "2026-10-21T07:48:53Z"
     },
     {
-      "id": "hackernews:https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
-      "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
-      "title": "[Hacker News 热门] Things to know when you get cancer",
-      "date_published": "2026-10-21T07:18:12Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-academic-search",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-academic-search",
+      "title": "[Skills 清单] nature-academic-search",
+      "date_published": "2026-10-21T07:48:53Z"
     },
     {
-      "id": "hackernews:https://www.tesla.com/roadster",
-      "url": "https://www.tesla.com/roadster",
-      "title": "[Hacker News 热门] Tesla Roadster",
-      "date_published": "2026-10-21T07:18:12Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-citation",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-citation",
+      "title": "[Skills 清单] nature-citation",
+      "date_published": "2026-10-21T07:48:53Z"
     },
     {
-      "id": "hackernews:https://www.anthropic.com/research/ecdsa-curve-origins",
-      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-      "title": "[Hacker News 热门] Claude reveals ECDSA curve origins",
-      "date_published": "2026-10-21T07:18:12Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-data",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-data",
+      "title": "[Skills 清单] nature-data",
+      "date_published": "2026-10-21T07:48:53Z"
     },
     {
-      "id": "hackernews:https://twitter.com/opencode/status/2111516673953935833",
-      "url": "https://twitter.com/opencode/status/2111516673953935833",
-      "title": "[Hacker News 热门] OpenCode Hacked: User credentials leaked",
-      "date_published": "2026-10-21T07:18:12Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-downloader",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-downloader",
+      "title": "[Skills 清单] nature-downloader",
+      "date_published": "2026-10-21T07:48:53Z"
     },
     {
-      "id": "hackernews:https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "title": "[Hacker News 热门] DeepSeek-v4.1-Flash-1017",
-      "date_published": "2026-10-21T07:18:12Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-experiment-log",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-experiment-log",
+      "title": "[Skills 清单] nature-experiment-log",
+      "date_published": "2026-10-21T07:48:53Z"
     },
     {
-      "id": "hackernews:https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/",
-      "url": "https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/",
-      "title": "[Hacker News 热门] How Amazon pushes up prices all across the Internet",
-      "date_published": "2026-10-21T07:18:12Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-figure",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-figure",
+      "title": "[Skills 清单] nature-figure",
+      "date_published": "2026-10-21T07:48:53Z"
     },
     {
-      "id": "hackernews:https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
-      "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
-      "title": "[Hacker News 热门] Containment and monitoring failures are to blame for AI hacking reports: experts",
-      "date_published": "2026-10-21T07:18:12Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-literature-pipeline",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-literature-pipeline",
+      "title": "[Skills 清单] nature-literature-pipeline",
+      "date_published": "2026-10-21T07:48:53Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/df6db0b19530e26ac8f7c2a23254541c228fda43",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/df6db0b19530e26ac8f7c2a23254541c228fda43",
+      "title": "[最近提交] docs(nature-figure): panel gaps, tick steps, aspect and labelling con…",
+      "date_published": "2026-10-21T07:48:53Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/168eb6003c32102ab53fedb2fde4e559767fe956",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/168eb6003c32102ab53fedb2fde4e559767fe956",
+      "title": "[最近提交] docs(nature-figure): measure printed size; connector and label rules",
+      "date_published": "2026-10-21T07:48:53Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/2a163b95255c608609ff815f3bbc6266591598e2",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/2a163b95255c608609ff815f3bbc6266591598e2",
+      "title": "[最近提交] docs(nature-figure): agent diagrams, implementation check and text rules",
+      "date_published": "2026-10-21T07:48:53Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/c8599197e7d2a22c2a091bbf8c14efcb3625cfa0",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c8599197e7d2a22c2a091bbf8c14efcb3625cfa0",
+      "title": "[最近提交] Merge pull request #274 from WatchKitty/fix/windows-pdf-sync-and-ci-p…",
+      "date_published": "2026-10-21T07:48:53Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/31a78bd0d0a09e3a9182c6394de6c9f244f629ec",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/31a78bd0d0a09e3a9182c6394de6c9f244f629ec",
+      "title": "[最近提交] ci: use matching UTF-8 encodings for Windows PDF tests",
+      "date_published": "2026-10-21T07:48:53Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/d7f4cbfabcefdff0e6ec4c520ce6842a386dfebc",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/d7f4cbfabcefdff0e6ec4c520ce6842a386dfebc",
+      "title": "[最近提交] ci: constrain PDF tooling to the tested dependency versions",
+      "date_published": "2026-10-21T07:48:53Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/52f478cc164c811a8eeb18474998cf71cc675d5a",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/52f478cc164c811a8eeb18474998cf71cc675d5a",
+      "title": "[最近提交] fix: restore Windows PDF sync and refresh Image2PPT CI baseline",
+      "date_published": "2026-10-21T07:48:53Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/b0de5a9ec3f8439433c742782f4fbbe582a253d7",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/b0de5a9ec3f8439433c742782f4fbbe582a253d7",
+      "title": "[最近提交] Merge pull request #258 from CharlesYXW/harden/format-converter-egres…",
+      "date_published": "2026-10-21T07:48:53Z"
     }
   ]
 }

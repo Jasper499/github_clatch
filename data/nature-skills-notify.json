@@ -1,20 +1,30 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-10-21T02:21:06Z",
+  "changed": true,
+  "fetchedAt": "2026-10-21T07:48:53Z",
   "previousSha": "2a163b95255c608609ff815f3bbc6266591598e2",
-  "latestSha": "2a163b95255c608609ff815f3bbc6266591598e2",
+  "latestSha": "df6db0b19530e26ac8f7c2a23254541c228fda43",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "docs(nature-figure): agent diagrams, implementation check and text rules",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/2a163b95255c608609ff815f3bbc6266591598e2",
-    "sha": "2a163b9",
-    "published": "2026-10-20"
+    "title": "docs(nature-figure): panel gaps, tick steps, aspect and labelling con…",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/df6db0b19530e26ac8f7c2a23254541c228fda43",
+    "sha": "df6db0b",
+    "published": "2026-10-21"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "docs(nature-figure): panel gaps, tick steps, aspect and labelling con…",
+      "sha": "df6db0b",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/df6db0b19530e26ac8f7c2a23254541c228fda43"
+    },
+    {
+      "title": "docs(nature-figure): measure printed size; connector and label rules",
+      "sha": "168eb60",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/168eb6003c32102ab53fedb2fde4e559767fe956"
+    },
     {
       "title": "docs(nature-figure): agent diagrams, implementation check and text rules",
       "sha": "2a163b9",
@@ -29,16 +39,6 @@
       "title": "ci: use matching UTF-8 encodings for Windows PDF tests",
       "sha": "31a78bd",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/31a78bd0d0a09e3a9182c6394de6c9f244f629ec"
-    },
-    {
-      "title": "ci: constrain PDF tooling to the tested dependency versions",
-      "sha": "d7f4cbf",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/d7f4cbfabcefdff0e6ec4c520ce6842a386dfebc"
-    },
-    {
-      "title": "fix: restore Windows PDF sync and refresh Image2PPT CI baseline",
-      "sha": "52f478c",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/52f478cc164c811a8eeb18474998cf71cc675d5a"
     }
   ]
 }

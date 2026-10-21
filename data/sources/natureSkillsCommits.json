@@ -1,12 +1,32 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-10-21T02:21:06Z",
+  "savedAt": "2026-10-21T07:48:53Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "2a163b95255c608609ff815f3bbc6266591598e2",
+  "latestSha": "df6db0b19530e26ac8f7c2a23254541c228fda43",
   "items": [
+    {
+      "title": "docs(nature-figure): panel gaps, tick steps, aspect and labelling con…",
+      "description": "docs(nature-figure): panel gaps, tick steps, aspect and labelling conventions\n\nLet the content set a figure&#39;s height within an author&#39;s aspect rule (a row\nof bar charts reads better wider than 4:3), keep gaps between panels to what\ntheir labels need, set tick values in the data&#39;s own steps rather than the\nlocator&#39;s after a resize, and verify the journal&#39;s panel-labelling\nconvention before changing it. In the schematic rules, ask for a sketch\nwhen a layout described in words can be read two ways.\n\nXinrui Ma",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/df6db0b19530e26ac8f7c2a23254541c228fda43",
+      "sha": "df6db0b",
+      "fullSha": "df6db0b19530e26ac8f7c2a23254541c228fda43",
+      "owner": "Travisma2233",
+      "published": "2026-10-21",
+      "label": "commit"
+    },
+    {
+      "title": "docs(nature-figure): measure printed size; connector and label rules",
+      "description": "docs(nature-figure): measure printed size; connector and label rules\n\nAdd to the QA contract a section on the size figure text prints at in the\ncompiled manuscript: read the caption size from the document class, set\nfigure text a little below it, and account for the three things that change\nthe printed size without changing the source (rescaling a tightly cropped\nfigure to the text width, TeX versus PDF points, x-height differences\nbetween faces). Verify by measuring x-heights on the rendered page. Add a\nsection on multi-line labels, whose Matplotlib leading varies with the\nalignment, and rules on panel titles, legend placement and palettes.\n\nIn the schematic style rules, let unconnected lines cross plainly (a gap\nreads as a break), attach connectors at the middle, a third or a quarter of\na side, keep them straight with at most one bend and off box edges, space\nrepeated cards equally, bold only top-level names, and ask when layout\nconstraints conflict.\n\nXinrui Ma",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/168eb6003c32102ab53fedb2fde4e559767fe956",
+      "sha": "168eb60",
+      "fullSha": "168eb6003c32102ab53fedb2fde4e559767fe956",
+      "owner": "Travisma2233",
+      "published": "2026-10-21",
+      "label": "commit"
+    },
     {
       "title": "docs(nature-figure): agent diagrams, implementation check and text rules",
       "description": "docs(nature-figure): agent diagrams, implementation check and text rules\n\nAdd an &quot;Agent and tool diagrams&quot; section to the vector schematic style\nrules: draw an LLM agent as its iterating loop with the tools as callees,\ncalls leaving the tool-call station and results returning to the\nobservation station, and retrieval as one more tool call.\n\nAsk the brief to be checked against the implementation (code,\nconfiguration, methods), render and inspect the edited region after every\nrevision, and add rules on one dark ink, short box text, even justified\nspacing, broken crossings, and shared widths for boxes of one role. In\nthe default stance, do not print a value on every mark.\n\nXinrui Ma",
@@ -133,26 +153,6 @@
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/74c37b4f8c7a1d38dbbed4c2f24b742800c3a472",
       "sha": "74c37b4",
       "fullSha": "74c37b4f8c7a1d38dbbed4c2f24b742800c3a472",
-      "owner": "Yuan1z0825",
-      "published": "2026-10-20",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #268 from WatchKitty/fix/citation-exact-journal-scope",
-      "description": "Merge pull request #268 from WatchKitty/fix/citation-exact-journal-scope\n\nfix(nature-citation): require exact Nature Portfolio journal membership",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/2b49c9014d71247cd1a23b9656d856f7a93f7d94",
-      "sha": "2b49c90",
-      "fullSha": "2b49c9014d71247cd1a23b9656d856f7a93f7d94",
-      "owner": "Yuan1z0825",
-      "published": "2026-10-20",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #269 from WatchKitty/fix/paper-card-page-range",
-      "description": "Merge pull request #269 from WatchKitty/fix/paper-card-page-range\n\nfix(nature-paper-card): validate citations against available source pages",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/0227133e858daa9ebf4df742e308251b0d3f563f",
-      "sha": "0227133",
-      "fullSha": "0227133e858daa9ebf4df742e308251b0d3f563f",
       "owner": "Yuan1z0825",
       "published": "2026-10-20",
       "label": "commit"
