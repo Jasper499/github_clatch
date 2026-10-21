@@ -1,90 +1,100 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-10-21T06:11:06Z",
+  "savedAt": "2026-10-21T11:39:27Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-21，共 8 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-21，共 9 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-10-21",
   "items": [
     {
-      "title": "一组数字看震撼人心的伟大远征",
+      "title": "高质量发展石油行",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%80%E7%BB%84%E6%95%B0%E5%AD%97%E7%9C%8B%E9%9C%87%E6%92%BC%E4%BA%BA%E5%BF%83%E7%9A%84%E4%BC%9F%E5%A4%A7%E8%BF%9C%E5%BE%81%23&t=31&band_rank=1&Refer=top",
-      "score": 665004,
+      "url": "https://s.weibo.com/weibo?q=%23%E9%AB%98%E8%B4%A8%E9%87%8F%E5%8F%91%E5%B1%95%E7%9F%B3%E6%B2%B9%E8%A1%8C%23&t=31&band_rank=1&Refer=top",
+      "score": 3048601,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1792549399
+      "onboardTime": 1792566080
     },
     {
-      "title": "女子节食减肥半年瘦9公斤查出骨肌双亏",
+      "title": "香港查获多支尸皮针",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%A6%99%E6%B8%AF%E6%9F%A5%E8%8E%B7%E5%A4%9A%E6%94%AF%E5%B0%B8%E7%9A%AE%E9%92%88%23&t=31&band_rank=1&Refer=top",
+      "score": 2842242,
+      "owner": "微博同城",
+      "label": "热",
+      "category": "民生新闻",
+      "onboardTime": 1792571659
+    },
+    {
+      "title": "12306回应女子迟到错过检票失控哀求",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E8%8A%82%E9%A3%9F%E5%87%8F%E8%82%A5%E5%8D%8A%E5%B9%B4%E7%98%A69%E5%85%AC%E6%96%A4%E6%9F%A5%E5%87%BA%E9%AA%A8%E8%82%8C%E5%8F%8C%E4%BA%8F%23&t=31&band_rank=1&Refer=top",
-      "score": 312289,
+      "url": "https://s.weibo.com/weibo?q=%2312306%E5%9B%9E%E5%BA%94%E5%A5%B3%E5%AD%90%E8%BF%9F%E5%88%B0%E9%94%99%E8%BF%87%E6%A3%80%E7%A5%A8%E5%A4%B1%E6%8E%A7%E5%93%80%E6%B1%82%23&t=31&band_rank=1&Refer=top",
+      "score": 2490392,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1792556000
+      "onboardTime": 1792576518
     },
     {
-      "title": "有孩子刚上托班就买小天才手表",
+      "title": "Babycare重回天猫销量第一",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9C%89%E5%AD%A9%E5%AD%90%E5%88%9A%E4%B8%8A%E6%89%98%E7%8F%AD%E5%B0%B1%E4%B9%B0%E5%B0%8F%E5%A4%A9%E6%89%8D%E6%89%8B%E8%A1%A8%23&t=31&band_rank=1&Refer=top",
-      "score": 299862,
+      "url": "https://s.weibo.com/weibo?q=%23Babycare%E9%87%8D%E5%9B%9E%E5%A4%A9%E7%8C%AB%E9%94%80%E9%87%8F%E7%AC%AC%E4%B8%80%23&t=31&band_rank=1&Refer=top",
+      "score": 300429,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1792562060
+      "onboardTime": 1792577360
     },
     {
-      "title": "四川26岁女孩不吸烟确诊肺癌晚期",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%9B%9B%E5%B7%9D26%E5%B2%81%E5%A5%B3%E5%AD%A9%E4%B8%8D%E5%90%B8%E7%83%9F%E7%A1%AE%E8%AF%8A%E8%82%BA%E7%99%8C%E6%99%9A%E6%9C%9F%23&t=31&band_rank=1&Refer=top",
-      "score": 185552,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1792560560
-    },
-    {
-      "title": "13岁男孩被打重伤班主任发声",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%2313%E5%B2%81%E7%94%B7%E5%AD%A9%E8%A2%AB%E6%89%93%E9%87%8D%E4%BC%A4%E7%8F%AD%E4%B8%BB%E4%BB%BB%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
-      "score": 179720,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1792560619
-    },
-    {
-      "title": "旭日旗涉事学生自称历史学家试图开脱",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%97%AD%E6%97%A5%E6%97%97%E6%B6%89%E4%BA%8B%E5%AD%A6%E7%94%9F%E8%87%AA%E7%A7%B0%E5%8E%86%E5%8F%B2%E5%AD%A6%E5%AE%B6%E8%AF%95%E5%9B%BE%E5%BC%80%E8%84%B1%23&t=31&band_rank=1&Refer=top",
-      "score": 176966,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1792560319
-    },
-    {
-      "title": "13岁男孩被打后多次求助宿管遭拒",
+      "title": "女子迟到错过检票失控哀求工作人员",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%2313%E5%B2%81%E7%94%B7%E5%AD%A9%E8%A2%AB%E6%89%93%E5%90%8E%E5%A4%9A%E6%AC%A1%E6%B1%82%E5%8A%A9%E5%AE%BF%E7%AE%A1%E9%81%AD%E6%8B%92%23&t=31&band_rank=1&Refer=top",
-      "score": 157674,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E8%BF%9F%E5%88%B0%E9%94%99%E8%BF%87%E6%A3%80%E7%A5%A8%E5%A4%B1%E6%8E%A7%E5%93%80%E6%B1%82%E5%B7%A5%E4%BD%9C%E4%BA%BA%E5%91%98%23&t=31&band_rank=1&Refer=top",
+      "score": 288765,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1792551621
+      "onboardTime": 1792564520
     },
     {
-      "title": "10个月大婴儿爬向民警求抱抱",
+      "title": "神木警方回应问界起火",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%2310%E4%B8%AA%E6%9C%88%E5%A4%A7%E5%A9%B4%E5%84%BF%E7%88%AC%E5%90%91%E6%B0%91%E8%AD%A6%E6%B1%82%E6%8A%B1%E6%8A%B1%23&t=31&band_rank=1&Refer=top",
-      "score": 155581,
+      "url": "https://s.weibo.com/weibo?q=%23%E7%A5%9E%E6%9C%A8%E8%AD%A6%E6%96%B9%E5%9B%9E%E5%BA%94%E9%97%AE%E7%95%8C%E8%B5%B7%E7%81%AB%23&t=31&band_rank=1&Refer=top",
+      "score": 283392,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1792548258
+      "onboardTime": 1792572799
+    },
+    {
+      "title": "广东一小区疑出现大量骨灰房",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%B9%BF%E4%B8%9C%E4%B8%80%E5%B0%8F%E5%8C%BA%E7%96%91%E5%87%BA%E7%8E%B0%E5%A4%A7%E9%87%8F%E9%AA%A8%E7%81%B0%E6%88%BF%23&t=31&band_rank=1&Refer=top",
+      "score": 280498,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792573339
+    },
+    {
+      "title": "49岁男子连杀3人被判死刑",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%2349%E5%B2%81%E7%94%B7%E5%AD%90%E8%BF%9E%E6%9D%803%E4%BA%BA%E8%A2%AB%E5%88%A4%E6%AD%BB%E5%88%91%23&t=31&band_rank=1&Refer=top",
+      "score": 276456,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792579520
+    },
+    {
+      "title": "无法想象一个南京的历史系学生精日",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%97%A0%E6%B3%95%E6%83%B3%E8%B1%A1%E4%B8%80%E4%B8%AA%E5%8D%97%E4%BA%AC%E7%9A%84%E5%8E%86%E5%8F%B2%E7%B3%BB%E5%AD%A6%E7%94%9F%E7%B2%BE%E6%97%A5%23&t=31&band_rank=1&Refer=top",
+      "score": 174566,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792570520
     }
   ]
 }
