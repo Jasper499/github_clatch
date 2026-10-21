@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-10-21T07:18:12Z",
+  "savedAt": "2026-10-21T14:01:10Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-10-21，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,8 +10,8 @@
       "title": "DeepInfer: High-performance inference framework for DeepSeek models",
       "description": "",
       "url": "https://github.com/deepseek-ai/DeepInfer",
-      "score": 2216,
-      "comments": 852,
+      "score": 2273,
+      "comments": 873,
       "owner": "ggcr",
       "published": "2026-10-20T09:08:54Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50163277"
@@ -31,16 +31,36 @@
       "description": "<a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=7p5LxFdc-Qg\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=7p5LxFdc-Qg</a><p><a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;Tesla&#x2F;status&#x2F;2110788059008819215\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;Tesla&#x2F;status&#x2F;2110788059008819215</a>",
       "url": "https://www.tesla.com/roadster",
       "score": 1642,
-      "comments": 3149,
+      "comments": 3154,
       "owner": "shekhar101",
       "published": "2026-10-16T01:32:45Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50112657"
     },
     {
+      "title": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
+      "description": "<a href=\"https:&#x2F;&#x2F;cert.europa.eu&#x2F;publications&#x2F;security-advisories&#x2F;2026-018&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;cert.europa.eu&#x2F;publications&#x2F;security-advisories&#x2F;2026...</a><p><a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50167754\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50167754</a>",
+      "url": "https://news-web.php.net/php.announce/509",
+      "score": 1342,
+      "comments": 561,
+      "owner": "xd",
+      "published": "2026-10-20T20:15:50Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50172041"
+    },
+    {
+      "title": "eMudhra intermediate CA compromise",
+      "description": "<a href=\"https:&#x2F;&#x2F;blog.mozilla.org&#x2F;security&#x2F;2026&#x2F;10&#x2F;20&#x2F;protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;blog.mozilla.org&#x2F;security&#x2F;2026&#x2F;10&#x2F;20&#x2F;protecting-fire...</a><p><a href=\"https:&#x2F;&#x2F;bugzilla.mozilla.org&#x2F;show_bug.cgi?id=2083449\" rel=\"nofollow\">https:&#x2F;&#x2F;bugzilla.mozilla.org&#x2F;show_bug.cgi?id=2083449</a>",
+      "url": "https://emudhra.we-have-a-problem.com/",
+      "score": 1092,
+      "comments": 424,
+      "owner": "galadran",
+      "published": "2026-10-20T13:58:33Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50166579"
+    },
+    {
       "title": "Claude reveals ECDSA curve origins",
       "description": "<a href=\"https:&#x2F;&#x2F;words.filippo.io&#x2F;seeds-solved&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;words.filippo.io&#x2F;seeds-solved&#x2F;</a>",
       "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-      "score": 1064,
+      "score": 1065,
       "comments": 391,
       "owner": "ahlCVA",
       "published": "2026-10-16T18:55:59Z",
@@ -50,8 +70,8 @@
       "title": "OpenCode Hacked: User credentials leaked",
       "description": "",
       "url": "https://twitter.com/opencode/status/2111516673953935833",
-      "score": 972,
-      "comments": 183,
+      "score": 973,
+      "comments": 184,
       "owner": "pranshuchittora",
       "published": "2026-10-17T18:01:41Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50133401"
@@ -65,16 +85,6 @@
       "owner": "theykk",
       "published": "2026-10-17T08:21:25Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50129045"
-    },
-    {
-      "title": "How Amazon pushes up prices all across the Internet",
-      "description": "",
-      "url": "https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/",
-      "score": 951,
-      "comments": 766,
-      "owner": "sighborg",
-      "published": "2026-10-14T09:28:17Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50084757"
     },
     {
       "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
@@ -107,14 +117,14 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50094994"
     },
     {
-      "title": "eMudhra intermediate CA compromise",
-      "description": "<a href=\"https:&#x2F;&#x2F;blog.mozilla.org&#x2F;security&#x2F;2026&#x2F;10&#x2F;20&#x2F;protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;blog.mozilla.org&#x2F;security&#x2F;2026&#x2F;10&#x2F;20&#x2F;protecting-fire...</a><p><a href=\"https:&#x2F;&#x2F;bugzilla.mozilla.org&#x2F;show_bug.cgi?id=2083449\" rel=\"nofollow\">https:&#x2F;&#x2F;bugzilla.mozilla.org&#x2F;show_bug.cgi?id=2083449</a>",
-      "url": "https://emudhra.we-have-a-problem.com/",
-      "score": 853,
-      "comments": 375,
-      "owner": "galadran",
-      "published": "2026-10-20T13:58:33Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50166579"
+      "title": "Show HN: SimCity, but with Permits",
+      "description": "",
+      "url": "https://permit.petercai.com/",
+      "score": 856,
+      "comments": 392,
+      "owner": "pcai",
+      "published": "2026-10-20T18:29:09Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50170593"
     },
     {
       "title": "Neural networks are clean",
@@ -127,34 +137,24 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50105647"
     },
     {
-      "title": "Iosevka is an open-source, sans-serif and slab-serif monospace font",
-      "description": "",
-      "url": "https://typeof.net/Iosevka/",
-      "score": 752,
-      "comments": 315,
-      "owner": "otobrglez",
-      "published": "2026-10-14T08:27:59Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50084240"
-    },
-    {
-      "title": "Show HN: SimCity, but with Permits",
-      "description": "",
-      "url": "https://permit.petercai.com/",
-      "score": 730,
-      "comments": 357,
-      "owner": "pcai",
-      "published": "2026-10-20T18:29:09Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50170593"
-    },
-    {
       "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
       "description": "",
       "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-      "score": 724,
-      "comments": 208,
+      "score": 732,
+      "comments": 211,
       "owner": "ds",
       "published": "2026-10-19T23:22:18Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50159341"
+    },
+    {
+      "title": "Voxtral 3",
+      "description": "",
+      "url": "https://mistral.ai/news/voxtral-3/",
+      "score": 726,
+      "comments": 180,
+      "owner": "ilreb",
+      "published": "2026-10-20T16:02:07Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50168396"
     },
     {
       "title": "Tiny Little Office",
@@ -170,7 +170,7 @@
       "title": "Wayland desktop for Linux with skeuomorphic design",
       "description": "",
       "url": "https://github.com/fyzugx/DEsk",
-      "score": 699,
+      "score": 700,
       "comments": 280,
       "owner": "FinalDestiny",
       "published": "2026-10-15T13:23:44Z",
@@ -190,8 +190,8 @@
       "title": "It's still ok to enjoy programming",
       "description": "",
       "url": "https://chriskiehl.com/article/it-is-still-ok-to-enjoy-programming",
-      "score": 691,
-      "comments": 630,
+      "score": 695,
+      "comments": 635,
       "owner": "goostavos",
       "published": "2026-10-17T19:53:20Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50134472"
@@ -201,7 +201,7 @@
       "description": "",
       "url": "https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/",
       "score": 691,
-      "comments": 362,
+      "comments": 363,
       "owner": "sashk",
       "published": "2026-10-18T16:56:56Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50142866"

@@ -1,0 +1,212 @@
+{
+  "date": "2026-10-21T140110Z",
+  "day": "2026-10-21",
+  "sourceKey": "hackernews",
+  "savedAt": "2026-10-21T14:01:10Z",
+  "label": "Hacker News 热门",
+  "description": "近 7 天 HN 高互动讨论（2026-10-21，共 20 条）",
+  "updateFrequency": "twice-daily",
+  "fetchedDate": "2026-10-21",
+  "items": [
+    {
+      "title": "DeepInfer: High-performance inference framework for DeepSeek models",
+      "description": "",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "score": 2273,
+      "comments": 873,
+      "owner": "ggcr",
+      "published": "2026-10-20T09:08:54Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50163277"
+    },
+    {
+      "title": "Things to know when you get cancer",
+      "description": "",
+      "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
+      "score": 1971,
+      "comments": 478,
+      "owner": "jjmaxwell4",
+      "published": "2026-10-14T19:26:30Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50093568"
+    },
+    {
+      "title": "Tesla Roadster",
+      "description": "<a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=7p5LxFdc-Qg\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=7p5LxFdc-Qg</a><p><a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;Tesla&#x2F;status&#x2F;2110788059008819215\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;Tesla&#x2F;status&#x2F;2110788059008819215</a>",
+      "url": "https://www.tesla.com/roadster",
+      "score": 1642,
+      "comments": 3154,
+      "owner": "shekhar101",
+      "published": "2026-10-16T01:32:45Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50112657"
+    },
+    {
+      "title": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
+      "description": "<a href=\"https:&#x2F;&#x2F;cert.europa.eu&#x2F;publications&#x2F;security-advisories&#x2F;2026-018&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;cert.europa.eu&#x2F;publications&#x2F;security-advisories&#x2F;2026...</a><p><a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50167754\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50167754</a>",
+      "url": "https://news-web.php.net/php.announce/509",
+      "score": 1342,
+      "comments": 561,
+      "owner": "xd",
+      "published": "2026-10-20T20:15:50Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50172041"
+    },
+    {
+      "title": "eMudhra intermediate CA compromise",
+      "description": "<a href=\"https:&#x2F;&#x2F;blog.mozilla.org&#x2F;security&#x2F;2026&#x2F;10&#x2F;20&#x2F;protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;blog.mozilla.org&#x2F;security&#x2F;2026&#x2F;10&#x2F;20&#x2F;protecting-fire...</a><p><a href=\"https:&#x2F;&#x2F;bugzilla.mozilla.org&#x2F;show_bug.cgi?id=2083449\" rel=\"nofollow\">https:&#x2F;&#x2F;bugzilla.mozilla.org&#x2F;show_bug.cgi?id=2083449</a>",
+      "url": "https://emudhra.we-have-a-problem.com/",
+      "score": 1092,
+      "comments": 424,
+      "owner": "galadran",
+      "published": "2026-10-20T13:58:33Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50166579"
+    },
+    {
+      "title": "Claude reveals ECDSA curve origins",
+      "description": "<a href=\"https:&#x2F;&#x2F;words.filippo.io&#x2F;seeds-solved&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;words.filippo.io&#x2F;seeds-solved&#x2F;</a>",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "score": 1065,
+      "comments": 391,
+      "owner": "ahlCVA",
+      "published": "2026-10-16T18:55:59Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50122800"
+    },
+    {
+      "title": "OpenCode Hacked: User credentials leaked",
+      "description": "",
+      "url": "https://twitter.com/opencode/status/2111516673953935833",
+      "score": 973,
+      "comments": 184,
+      "owner": "pranshuchittora",
+      "published": "2026-10-17T18:01:41Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50133401"
+    },
+    {
+      "title": "DeepSeek-v4.1-Flash-1017",
+      "description": "<a href=\"https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;news&#x2F;news261017&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;news&#x2F;news261017&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;openrouter.ai&#x2F;deepseek&#x2F;deepseek-v4.1-flash-1017\" rel=\"nofollow\">https:&#x2F;&#x2F;openrouter.ai&#x2F;deepseek&#x2F;deepseek-v4.1-flash-1017</a>",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "score": 959,
+      "comments": 720,
+      "owner": "theykk",
+      "published": "2026-10-17T08:21:25Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50129045"
+    },
+    {
+      "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+      "description": "",
+      "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+      "score": 951,
+      "comments": 625,
+      "owner": "latexr",
+      "published": "2026-10-14T17:45:23Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50091788"
+    },
+    {
+      "title": "Muse Spark Open",
+      "description": "<a href=\"https:&#x2F;&#x2F;dev.meta.ai&#x2F;resources&#x2F;blog&#x2F;build-with-muse-spark-open\" rel=\"nofollow\">https:&#x2F;&#x2F;dev.meta.ai&#x2F;resources&#x2F;blog&#x2F;build-with-muse-spark-ope...</a><p><a href=\"https:&#x2F;&#x2F;huggingface.co&#x2F;meta-models&#x2F;Muse-Spark-Open-816B-A42B\" rel=\"nofollow\">https:&#x2F;&#x2F;huggingface.co&#x2F;meta-models&#x2F;Muse-Spark-Open-816B-A42B</a><p><a href=\"https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;10&#x2F;15&#x2F;meta-launches-new-muse-spark-open-model-optimized-to-run-on-mac-studio&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;10&#x2F;15&#x2F;meta-launches-new-muse-spark-...</a>",
+      "url": "https://research.meta.ai/blog/muse-spark-open",
+      "score": 919,
+      "comments": 478,
+      "owner": "bigwheels",
+      "published": "2026-10-15T17:47:39Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50107379"
+    },
+    {
+      "title": "OpenCode 2.0",
+      "description": "",
+      "url": "https://anoma.ly/notes/opencode-2-0/",
+      "score": 887,
+      "comments": 395,
+      "owner": "gmays",
+      "published": "2026-10-14T20:48:24Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50094994"
+    },
+    {
+      "title": "Show HN: SimCity, but with Permits",
+      "description": "",
+      "url": "https://permit.petercai.com/",
+      "score": 856,
+      "comments": 392,
+      "owner": "pcai",
+      "published": "2026-10-20T18:29:09Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50170593"
+    },
+    {
+      "title": "Neural networks are clean",
+      "description": "<a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056</a>",
+      "url": "https://already-clean.goodfire.com/",
+      "score": 838,
+      "comments": 341,
+      "owner": "themgt",
+      "published": "2026-10-15T16:04:01Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50105647"
+    },
+    {
+      "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+      "description": "",
+      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+      "score": 732,
+      "comments": 211,
+      "owner": "ds",
+      "published": "2026-10-19T23:22:18Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50159341"
+    },
+    {
+      "title": "Voxtral 3",
+      "description": "",
+      "url": "https://mistral.ai/news/voxtral-3/",
+      "score": 726,
+      "comments": 180,
+      "owner": "ilreb",
+      "published": "2026-10-20T16:02:07Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50168396"
+    },
+    {
+      "title": "Tiny Little Office",
+      "description": "",
+      "url": "https://tinylittleoffice.com/",
+      "score": 702,
+      "comments": 201,
+      "owner": "donohoe",
+      "published": "2026-10-14T22:10:08Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50096142"
+    },
+    {
+      "title": "Wayland desktop for Linux with skeuomorphic design",
+      "description": "",
+      "url": "https://github.com/fyzugx/DEsk",
+      "score": 700,
+      "comments": 280,
+      "owner": "FinalDestiny",
+      "published": "2026-10-15T13:23:44Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50103338"
+    },
+    {
+      "title": "Solar surpasses nuclear power globally for first time",
+      "description": "",
+      "url": "https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/",
+      "score": 697,
+      "comments": 447,
+      "owner": "xbmcuser",
+      "published": "2026-10-17T14:01:01Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50131256"
+    },
+    {
+      "title": "It's still ok to enjoy programming",
+      "description": "",
+      "url": "https://chriskiehl.com/article/it-is-still-ok-to-enjoy-programming",
+      "score": 695,
+      "comments": 635,
+      "owner": "goostavos",
+      "published": "2026-10-17T19:53:20Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50134472"
+    },
+    {
+      "title": "Namecheap just seized and disabled all my domains",
+      "description": "",
+      "url": "https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/",
+      "score": 691,
+      "comments": 363,
+      "owner": "sashk",
+      "published": "2026-10-18T16:56:56Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50142866"
+    }
+  ]
+}
