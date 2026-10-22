@@ -1,37 +1,27 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-10-21T18:29:50Z",
+  "savedAt": "2026-10-22T02:01:00Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-10-21，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-10-22，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-10-21",
+  "fetchedDate": "2026-10-22",
   "items": [
     {
       "title": "DeepInfer: High-performance inference framework for DeepSeek models",
       "description": "",
       "url": "https://github.com/deepseek-ai/DeepInfer",
-      "score": 2289,
-      "comments": 876,
+      "score": 2302,
+      "comments": 883,
       "owner": "ggcr",
       "published": "2026-10-20T09:08:54Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50163277"
-    },
-    {
-      "title": "Things to know when you get cancer",
-      "description": "",
-      "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
-      "score": 1971,
-      "comments": 479,
-      "owner": "jjmaxwell4",
-      "published": "2026-10-14T19:26:30Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50093568"
     },
     {
       "title": "Tesla Roadster",
       "description": "<a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=7p5LxFdc-Qg\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=7p5LxFdc-Qg</a><p><a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;Tesla&#x2F;status&#x2F;2110788059008819215\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;Tesla&#x2F;status&#x2F;2110788059008819215</a>",
       "url": "https://www.tesla.com/roadster",
       "score": 1643,
-      "comments": 3155,
+      "comments": 3157,
       "owner": "shekhar101",
       "published": "2026-10-16T01:32:45Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50112657"
@@ -40,8 +30,8 @@
       "title": "Security advisory: Critical remote code execution vulnerabilities, update now",
       "description": "<a href=\"https:&#x2F;&#x2F;cert.europa.eu&#x2F;publications&#x2F;security-advisories&#x2F;2026-018&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;cert.europa.eu&#x2F;publications&#x2F;security-advisories&#x2F;2026...</a><p><a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50167754\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50167754</a>",
       "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
-      "score": 1471,
-      "comments": 636,
+      "score": 1508,
+      "comments": 650,
       "owner": "xd",
       "published": "2026-10-20T20:15:50Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50172041"
@@ -50,8 +40,8 @@
       "title": "eMudhra intermediate CA compromise",
       "description": "<a href=\"https:&#x2F;&#x2F;blog.mozilla.org&#x2F;security&#x2F;2026&#x2F;10&#x2F;20&#x2F;protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;blog.mozilla.org&#x2F;security&#x2F;2026&#x2F;10&#x2F;20&#x2F;protecting-fire...</a><p><a href=\"https:&#x2F;&#x2F;bugzilla.mozilla.org&#x2F;show_bug.cgi?id=2083449\" rel=\"nofollow\">https:&#x2F;&#x2F;bugzilla.mozilla.org&#x2F;show_bug.cgi?id=2083449</a>",
       "url": "https://emudhra.we-have-a-problem.com/",
-      "score": 1170,
-      "comments": 456,
+      "score": 1201,
+      "comments": 476,
       "owner": "galadran",
       "published": "2026-10-20T13:58:33Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50166579"
@@ -65,6 +55,16 @@
       "owner": "ahlCVA",
       "published": "2026-10-16T18:55:59Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50122800"
+    },
+    {
+      "title": "PHP 8.2.35",
+      "description": "Related ongoing thread: <i>Today&#x27;s PHP security release, and how we&#x27;re strengthening security</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50182987\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50182987</a>",
+      "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
+      "score": 973,
+      "comments": 534,
+      "owner": "tuyuri",
+      "published": "2026-10-21T13:45:33Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50180873"
     },
     {
       "title": "OpenCode Hacked: User credentials leaked",
@@ -100,48 +100,38 @@
       "title": "Show HN: SimCity, but with Permits",
       "description": "",
       "url": "https://permit.petercai.com/",
-      "score": 892,
-      "comments": 404,
+      "score": 907,
+      "comments": 409,
       "owner": "pcai",
       "published": "2026-10-20T18:29:09Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50170593"
     },
     {
-      "title": "OpenCode 2.0",
+      "title": "Eight Bits of Trust: eMudhra's CA keys cracked in milliseconds",
       "description": "",
-      "url": "https://anoma.ly/notes/opencode-2-0/",
-      "score": 887,
-      "comments": 395,
-      "owner": "gmays",
-      "published": "2026-10-14T20:48:24Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50094994"
+      "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+      "score": 846,
+      "comments": 406,
+      "owner": "hkc",
+      "published": "2026-10-21T09:08:08Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50177916"
     },
     {
       "title": "Neural networks are clean",
       "description": "<a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056</a>",
       "url": "https://already-clean.goodfire.com/",
-      "score": 839,
+      "score": 841,
       "comments": 341,
       "owner": "themgt",
       "published": "2026-10-15T16:04:01Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50105647"
     },
     {
-      "title": "PHP 8.2.35",
-      "description": "",
-      "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
-      "score": 818,
-      "comments": 465,
-      "owner": "tuyuri",
-      "published": "2026-10-21T13:45:33Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50180873"
-    },
-    {
       "title": "Voxtral 3",
       "description": "",
       "url": "https://mistral.ai/news/voxtral-3/",
-      "score": 751,
-      "comments": 194,
+      "score": 757,
+      "comments": 197,
       "owner": "ilreb",
       "published": "2026-10-20T16:02:07Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50168396"
@@ -150,21 +140,11 @@
       "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
       "description": "",
       "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-      "score": 736,
+      "score": 738,
       "comments": 216,
       "owner": "ds",
       "published": "2026-10-19T23:22:18Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50159341"
-    },
-    {
-      "title": "Tiny Little Office",
-      "description": "",
-      "url": "https://tinylittleoffice.com/",
-      "score": 702,
-      "comments": 201,
-      "owner": "donohoe",
-      "published": "2026-10-14T22:10:08Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50096142"
     },
     {
       "title": "Wayland desktop for Linux with skeuomorphic design",
@@ -180,8 +160,8 @@
       "title": "It's still ok to enjoy programming",
       "description": "",
       "url": "https://chriskiehl.com/article/it-is-still-ok-to-enjoy-programming",
-      "score": 697,
-      "comments": 638,
+      "score": 698,
+      "comments": 641,
       "owner": "goostavos",
       "published": "2026-10-17T19:53:20Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50134472"
@@ -205,6 +185,26 @@
       "owner": "sashk",
       "published": "2026-10-18T16:56:56Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50142866"
+    },
+    {
+      "title": "Today's PHP security release, and how we're strengthening security",
+      "description": "Related ongoing thread: <i>PHP 8.2.35</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50180873\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50180873</a><p>(links to more at <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50184935\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50184935</a>)",
+      "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+      "score": 682,
+      "comments": 335,
+      "owner": "ejohnso49",
+      "published": "2026-10-21T15:48:56Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50182987"
+    },
+    {
+      "title": "What I self-host",
+      "description": "",
+      "url": "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/",
+      "score": 672,
+      "comments": 433,
+      "owner": "BrunoBernardino",
+      "published": "2026-10-15T20:23:25Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50109715"
     }
   ]
 }
