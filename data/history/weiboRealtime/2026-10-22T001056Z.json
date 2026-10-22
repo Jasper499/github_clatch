@@ -1,0 +1,312 @@
+{
+  "date": "2026-10-22T001056Z",
+  "day": "2026-10-22",
+  "sourceKey": "weiboRealtime",
+  "savedAt": "2026-10-22T00:10:56Z",
+  "label": "实时",
+  "description": "微博实时上升榜（按上榜时间排序，2026-10-22，共 30 条，约每 6 小时更新）",
+  "updateFrequency": "every-6h",
+  "fetchedDate": "2026-10-22",
+  "items": [
+    {
+      "title": "疑似盛艾敬父母欠薪事件当事人回应",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%96%91%E4%BC%BC%E7%9B%9B%E8%89%BE%E6%95%AC%E7%88%B6%E6%AF%8D%E6%AC%A0%E8%96%AA%E4%BA%8B%E4%BB%B6%E5%BD%93%E4%BA%8B%E4%BA%BA%E5%9B%9E%E5%BA%94%23&t=31&band_rank=1&Refer=top",
+      "score": 108369,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1792627700
+    },
+    {
+      "title": "詹俊谈拜仁2比2阿森纳",
+      "description": "新 · 体育",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%A9%B9%E4%BF%8A%E8%B0%88%E6%8B%9C%E4%BB%812%E6%AF%942%E9%98%BF%E6%A3%AE%E7%BA%B3%23&t=31&band_rank=1&Refer=top",
+      "score": 138745,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "体育",
+      "onboardTime": 1792627520
+    },
+    {
+      "title": "杨幂王嘉尔牵手下台",
+      "description": "新 · 艺人,时尚",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%A8%E5%B9%82%E7%8E%8B%E5%98%89%E5%B0%94%E7%89%B5%E6%89%8B%E4%B8%8B%E5%8F%B0%23&t=31&band_rank=1&Refer=top",
+      "score": 124278,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人,时尚",
+      "onboardTime": 1792626800
+    },
+    {
+      "title": "曝陈天润恋情",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E9%99%88%E5%A4%A9%E6%B6%A6%E6%81%8B%E6%83%85%23&t=31&band_rank=1&Refer=top",
+      "score": 178255,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1792626740
+    },
+    {
+      "title": "卢旺达抄作业连面相都抄了",
+      "description": "新 · 幽默",
+      "url": "https://s.weibo.com/weibo?q=%E5%8D%A2%E6%97%BA%E8%BE%BE%E6%8A%84%E4%BD%9C%E4%B8%9A%E8%BF%9E%E9%9D%A2%E7%9B%B8%E9%83%BD%E6%8A%84%E4%BA%86&t=31&band_rank=1&Refer=top",
+      "score": 162728,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "幽默",
+      "onboardTime": 1792626437
+    },
+    {
+      "title": "车澈 李嘉格",
+      "description": "新 · 综艺",
+      "url": "https://s.weibo.com/weibo?q=%E8%BD%A6%E6%BE%88%20%E6%9D%8E%E5%98%89%E6%A0%BC&t=31&band_rank=1&Refer=top",
+      "score": 177807,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "综艺",
+      "onboardTime": 1792626139
+    },
+    {
+      "title": "凯恩连续10场欧冠破门",
+      "description": "新 · 体育",
+      "url": "https://s.weibo.com/weibo?q=%E5%87%AF%E6%81%A9%E8%BF%9E%E7%BB%AD10%E5%9C%BA%E6%AC%A7%E5%86%A0%E7%A0%B4%E9%97%A8&t=31&band_rank=1&Refer=top",
+      "score": 86437,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "体育",
+      "onboardTime": 1792626079
+    },
+    {
+      "title": "皇马VS莱比锡",
+      "description": "新 · 体育",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%9A%87%E9%A9%ACVS%E8%8E%B1%E6%AF%94%E9%94%A1%23&t=31&band_rank=1&Refer=top",
+      "score": 179357,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "体育",
+      "onboardTime": 1792626018
+    },
+    {
+      "title": "小米成立独立汽车安全研究中心",
+      "description": "新 · 汽车",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%B0%8F%E7%B1%B3%E6%88%90%E7%AB%8B%E7%8B%AC%E7%AB%8B%E6%B1%BD%E8%BD%A6%E5%AE%89%E5%85%A8%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%BF%83%23&t=31&band_rank=1&Refer=top",
+      "score": 182114,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "汽车",
+      "onboardTime": 1792625118
+    },
+    {
+      "title": "周杰伦说我是中国人有什么可讨论的",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%91%A8%E6%9D%B0%E4%BC%A6%E8%AF%B4%E6%88%91%E6%98%AF%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%9C%89%E4%BB%80%E4%B9%88%E5%8F%AF%E8%AE%A8%E8%AE%BA%E7%9A%84%23&t=31&band_rank=1&Refer=top",
+      "score": 190770,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1792624998
+    },
+    {
+      "title": "盛艾敬妈妈疑似涉嫌诈骗",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%9B%9B%E8%89%BE%E6%95%AC%E5%A6%88%E5%A6%88%E7%96%91%E4%BC%BC%E6%B6%89%E5%AB%8C%E8%AF%88%E9%AA%97%23&t=31&band_rank=1&Refer=top",
+      "score": 189270,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1792624998
+    },
+    {
+      "title": "邱祺缘 体操世锦赛",
+      "description": "新 · 体育",
+      "url": "https://s.weibo.com/weibo?q=%E9%82%B1%E7%A5%BA%E7%BC%98%20%E4%BD%93%E6%93%8D%E4%B8%96%E9%94%A6%E8%B5%9B&t=31&band_rank=1&Refer=top",
+      "score": 386256,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "体育",
+      "onboardTime": 1792624758
+    },
+    {
+      "title": "小城良方开播成绩",
+      "description": "新 · 剧集",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B9%E5%BC%80%E6%92%AD%E6%88%90%E7%BB%A9%23&t=31&band_rank=1&Refer=top",
+      "score": 118026,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "剧集",
+      "onboardTime": 1792624458
+    },
+    {
+      "title": "中国体操女团12套全顺",
+      "description": "新 · 体育",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E4%BD%93%E6%93%8D%E5%A5%B3%E5%9B%A212%E5%A5%97%E5%85%A8%E9%A1%BA&t=31&band_rank=1&Refer=top",
+      "score": 252883,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "体育",
+      "onboardTime": 1792624038
+    },
+    {
+      "title": "张清颖平衡木15.066分",
+      "description": "新 · 体育",
+      "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E6%B8%85%E9%A2%96%E5%B9%B3%E8%A1%A1%E6%9C%A815.066%E5%88%86&t=31&band_rank=1&Refer=top",
+      "score": 105543,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "体育",
+      "onboardTime": 1792623858
+    },
+    {
+      "title": "中国体操女队获得洛奥资格",
+      "description": "新 · 体育",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E4%BD%93%E6%93%8D%E5%A5%B3%E9%98%9F%E8%8E%B7%E5%BE%97%E6%B4%9B%E5%A5%A5%E8%B5%84%E6%A0%BC%23&t=31&band_rank=1&Refer=top",
+      "score": 119194,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "体育",
+      "onboardTime": 1792623557
+    },
+    {
+      "title": "拜仁2比2阿森纳",
+      "description": "新 · 体育",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%8B%9C%E4%BB%812%E6%AF%942%E9%98%BF%E6%A3%AE%E7%BA%B3%23&t=31&band_rank=1&Refer=top",
+      "score": 118574,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "体育",
+      "onboardTime": 1792623557
+    },
+    {
+      "title": "中国体操女团时隔20年夺冠",
+      "description": "新 · 体育",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E4%BD%93%E6%93%8D%E5%A5%B3%E5%9B%A2%E6%97%B6%E9%9A%9420%E5%B9%B4%E5%A4%BA%E5%86%A0%23&t=31&band_rank=1&Refer=top",
+      "score": 1172594,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "体育",
+      "onboardTime": 1792623257
+    },
+    {
+      "title": "33岁女子南太行徒步失联身亡",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=33%E5%B2%81%E5%A5%B3%E5%AD%90%E5%8D%97%E5%A4%AA%E8%A1%8C%E5%BE%92%E6%AD%A5%E5%A4%B1%E8%81%94%E8%BA%AB%E4%BA%A1&t=31&band_rank=1&Refer=top",
+      "score": 183031,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792623016
+    },
+    {
+      "title": "宇树机器人展示举起汽车救人",
+      "description": "新 · 互联网",
+      "url": "https://s.weibo.com/weibo?q=%E5%AE%87%E6%A0%91%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%B1%95%E7%A4%BA%E4%B8%BE%E8%B5%B7%E6%B1%BD%E8%BD%A6%E6%95%91%E4%BA%BA&t=31&band_rank=1&Refer=top",
+      "score": 365203,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "互联网",
+      "onboardTime": 1792622657
+    },
+    {
+      "title": "别人一眼看出是当老师的",
+      "description": "幽默",
+      "url": "https://s.weibo.com/weibo?q=%E5%88%AB%E4%BA%BA%E4%B8%80%E7%9C%BC%E7%9C%8B%E5%87%BA%E6%98%AF%E5%BD%93%E8%80%81%E5%B8%88%E7%9A%84&t=31&band_rank=1&Refer=top",
+      "score": 173575,
+      "owner": "微博实时",
+      "label": "",
+      "category": "幽默",
+      "onboardTime": 1792622115
+    },
+    {
+      "title": "武志红李雪被指缺乏爱的体验",
+      "description": "情感",
+      "url": "https://s.weibo.com/weibo?q=%E6%AD%A6%E5%BF%97%E7%BA%A2%E6%9D%8E%E9%9B%AA%E8%A2%AB%E6%8C%87%E7%BC%BA%E4%B9%8F%E7%88%B1%E7%9A%84%E4%BD%93%E9%AA%8C&t=31&band_rank=1&Refer=top",
+      "score": 186242,
+      "owner": "微博实时",
+      "label": "",
+      "category": "情感",
+      "onboardTime": 1792621455
+    },
+    {
+      "title": "小城良方全网曝光5.54亿",
+      "description": "剧集",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B9%E5%85%A8%E7%BD%91%E6%9B%9D%E5%85%895.54%E4%BA%BF%23&t=31&band_rank=1&Refer=top",
+      "score": 88822,
+      "owner": "微博实时",
+      "label": "",
+      "category": "剧集",
+      "onboardTime": 1792620673
+    },
+    {
+      "title": "李雪发文反讽武志红",
+      "description": "情感",
+      "url": "https://s.weibo.com/weibo?q=%E6%9D%8E%E9%9B%AA%E5%8F%91%E6%96%87%E5%8F%8D%E8%AE%BD%E6%AD%A6%E5%BF%97%E7%BA%A2&t=31&band_rank=1&Refer=top",
+      "score": 98924,
+      "owner": "微博实时",
+      "label": "",
+      "category": "情感",
+      "onboardTime": 1792616593
+    },
+    {
+      "title": "体操世锦赛女团决赛",
+      "description": "体育",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BD%93%E6%93%8D%E4%B8%96%E9%94%A6%E8%B5%9B%E5%A5%B3%E5%9B%A2%E5%86%B3%E8%B5%9B%23&t=31&band_rank=1&Refer=top",
+      "score": 118228,
+      "owner": "微博实时",
+      "label": "",
+      "category": "体育",
+      "onboardTime": 1792610954
+    },
+    {
+      "title": "河南博物馆偶遇14岁满级小孩",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E6%B2%B3%E5%8D%97%E5%8D%9A%E7%89%A9%E9%A6%86%E5%81%B6%E9%81%8714%E5%B2%81%E6%BB%A1%E7%BA%A7%E5%B0%8F%E5%AD%A9&t=31&band_rank=1&Refer=top",
+      "score": 94082,
+      "owner": "微博实时",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792607294
+    },
+    {
+      "title": "本年度最会怼人的网友出现了",
+      "description": "幽默",
+      "url": "https://s.weibo.com/weibo?q=%E6%9C%AC%E5%B9%B4%E5%BA%A6%E6%9C%80%E4%BC%9A%E6%80%BC%E4%BA%BA%E7%9A%84%E7%BD%91%E5%8F%8B%E5%87%BA%E7%8E%B0%E4%BA%86&t=31&band_rank=1&Refer=top",
+      "score": 166159,
+      "owner": "微博实时",
+      "label": "",
+      "category": "幽默",
+      "onboardTime": 1792604715
+    },
+    {
+      "title": "原来明星租一次高定这么贵啊",
+      "description": "热 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8E%9F%E6%9D%A5%E6%98%8E%E6%98%9F%E7%A7%9F%E4%B8%80%E6%AC%A1%E9%AB%98%E5%AE%9A%E8%BF%99%E4%B9%88%E8%B4%B5%E5%95%8A%23&t=31&band_rank=1&Refer=top",
+      "score": 185427,
+      "owner": "微博实时",
+      "label": "热",
+      "category": "艺人",
+      "onboardTime": 1792601417
+    },
+    {
+      "title": "长生 AG",
+      "description": "游戏",
+      "url": "https://s.weibo.com/weibo?q=%E9%95%BF%E7%94%9F%20AG&t=31&band_rank=1&Refer=top",
+      "score": 301203,
+      "owner": "微博实时",
+      "label": "",
+      "category": "游戏",
+      "onboardTime": 1792601178
+    },
+    {
+      "title": "和女同事相处真的要小心分寸",
+      "description": "热 · 情感",
+      "url": "https://s.weibo.com/weibo?q=%E5%92%8C%E5%A5%B3%E5%90%8C%E4%BA%8B%E7%9B%B8%E5%A4%84%E7%9C%9F%E7%9A%84%E8%A6%81%E5%B0%8F%E5%BF%83%E5%88%86%E5%AF%B8&t=31&band_rank=1&Refer=top",
+      "score": 193605,
+      "owner": "微博实时",
+      "label": "热",
+      "category": "情感",
+      "onboardTime": 1792599798
+    }
+  ]
+}
