@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-22T043200Z",
+  "day": "2026-10-22",
+  "sourceKey": "weiboLocal",
+  "savedAt": "2026-10-22T04:32:00Z",
+  "label": "同城",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-22，共 4 条，约每 6 小时更新）",
+  "updateFrequency": "every-6h",
+  "fetchedDate": "2026-10-22",
+  "items": [
+    {
+      "title": "女子称地铁站内看5小时书被扣15元",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E7%A7%B0%E5%9C%B0%E9%93%81%E7%AB%99%E5%86%85%E7%9C%8B5%E5%B0%8F%E6%97%B6%E4%B9%A6%E8%A2%AB%E6%89%A315%E5%85%83%23&t=31&band_rank=1&Refer=top",
+      "score": 427218,
+      "owner": "微博同城",
+      "label": "热",
+      "category": "民生新闻",
+      "onboardTime": 1792635979
+    },
+    {
+      "title": "离婚后发现前夫婚内继承400余万",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E7%A6%BB%E5%A9%9A%E5%90%8E%E5%8F%91%E7%8E%B0%E5%89%8D%E5%A4%AB%E5%A9%9A%E5%86%85%E7%BB%A7%E6%89%BF400%E4%BD%99%E4%B8%87&t=31&band_rank=1&Refer=top",
+      "score": 419568,
+      "owner": "微博同城",
+      "label": "热",
+      "category": "民生新闻",
+      "onboardTime": 1792634659
+    },
+    {
+      "title": "人民日报评老师被家长无理举报",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%E8%AF%84%E8%80%81%E5%B8%88%E8%A2%AB%E5%AE%B6%E9%95%BF%E6%97%A0%E7%90%86%E4%B8%BE%E6%8A%A5%23&t=31&band_rank=1&Refer=top",
+      "score": 412049,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792639279
+    },
+    {
+      "title": "广州白云代孕窝点无人开门难处置",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%B9%BF%E5%B7%9E%E7%99%BD%E4%BA%91%E4%BB%A3%E5%AD%95%E7%AA%9D%E7%82%B9%E6%97%A0%E4%BA%BA%E5%BC%80%E9%97%A8%E9%9A%BE%E5%A4%84%E7%BD%AE&t=31&band_rank=1&Refer=top",
+      "score": 194771,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792642521
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "date": "2026-10-22T043200Z",
+  "day": "2026-10-22",
+  "sourceKey": "weiboRealtime",
+  "savedAt": "2026-10-22T04:32:00Z",
+  "label": "实时",
+  "description": "微博实时上升榜（按上榜时间排序，2026-10-22，共 30 条，约每 6 小时更新）",
+  "updateFrequency": "every-6h",
+  "fetchedDate": "2026-10-22",
+  "items": [
+    {
+      "title": "小城良方微博热度指数破亿",
+      "description": "新 · 剧集",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B9%E5%BE%AE%E5%8D%9A%E7%83%AD%E5%BA%A6%E6%8C%87%E6%95%B0%E7%A0%B4%E4%BA%BF%23&t=31&band_rank=1&Refer=top",
+      "score": 246189,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "剧集",
+      "onboardTime": 1792643359
+    },
+    {
+      "title": "杨瀚森新赛季首秀",
+      "description": "新 · 体育",
+      "url": "https://s.weibo.com/weibo?q=%E6%9D%A8%E7%80%9A%E6%A3%AE%E6%96%B0%E8%B5%9B%E5%AD%A3%E9%A6%96%E7%A7%80&t=31&band_rank=1&Refer=top",
+      "score": 402285,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "体育",
+      "onboardTime": 1792643240
+    },
+    {
+      "title": "A股千元科技股仅剩一只",
+      "description": "新 · 财经",
+      "url": "https://s.weibo.com/weibo?q=%23A%E8%82%A1%E5%8D%83%E5%85%83%E7%A7%91%E6%8A%80%E8%82%A1%E4%BB%85%E5%89%A9%E4%B8%80%E5%8F%AA%23&t=31&band_rank=1&Refer=top",
+      "score": 202887,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "财经",
+      "onboardTime": 1792643180
+    },
+    {
+      "title": "严浩翔欧阳娣娣身高差",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%A5%E6%B5%A9%E7%BF%94%E6%AC%A7%E9%98%B3%E5%A8%A3%E5%A8%A3%E8%BA%AB%E9%AB%98%E5%B7%AE%23&t=31&band_rank=1&Refer=top",
+      "score": 334714,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1792643000
+    },
+    {
+      "title": "徐若晗聊进组焦虑",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%BE%90%E8%8B%A5%E6%99%97%E8%81%8A%E8%BF%9B%E7%BB%84%E7%84%A6%E8%99%91%23&t=31&band_rank=1&Refer=top",
+      "score": 253520,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1792642940
+    },
+    {
+      "title": "我们的咖位不一样了",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%88%91%E4%BB%AC%E7%9A%84%E5%92%96%E4%BD%8D%E4%B8%8D%E4%B8%80%E6%A0%B7%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 408461,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1792642880
+    },
+    {
+      "title": "一百万买高定 主体性太强还是太弱",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E7%99%BE%E4%B8%87%E4%B9%B0%E9%AB%98%E5%AE%9A%20%E4%B8%BB%E4%BD%93%E6%80%A7%E5%A4%AA%E5%BC%BA%E8%BF%98%E6%98%AF%E5%A4%AA%E5%BC%B1&t=31&band_rank=1&Refer=top",
+      "score": 242588,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1792642880
+    },
+    {
+      "title": "古尔曼回应iPhoneDuo被批",
+      "description": "新 · 数码",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8F%A4%E5%B0%94%E6%9B%BC%E5%9B%9E%E5%BA%94iPhoneDuo%E8%A2%AB%E6%89%B9%23&t=31&band_rank=1&Refer=top",
+      "score": 405843,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "数码",
+      "onboardTime": 1792642639
+    },
+    {
+      "title": "孟子义写给暮晚摇的长文",
+      "description": "新 · 剧集",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%AD%9F%E5%AD%90%E4%B9%89%E5%86%99%E7%BB%99%E6%9A%AE%E6%99%9A%E6%91%87%E7%9A%84%E9%95%BF%E6%96%87%23&t=31&band_rank=1&Refer=top",
+      "score": 247634,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "剧集",
+      "onboardTime": 1792642639
+    },
+    {
+      "title": "广州白云代孕窝点无人开门难处置",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%B9%BF%E5%B7%9E%E7%99%BD%E4%BA%91%E4%BB%A3%E5%AD%95%E7%AA%9D%E7%82%B9%E6%97%A0%E4%BA%BA%E5%BC%80%E9%97%A8%E9%9A%BE%E5%A4%84%E7%BD%AE&t=31&band_rank=1&Refer=top",
+      "score": 194771,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792642521
+    },
+    {
+      "title": "TheShy力挺Kiin",
+      "description": "新 · 电竞",
+      "url": "https://s.weibo.com/weibo?q=%23TheShy%E5%8A%9B%E6%8C%BAKiin%23&t=31&band_rank=1&Refer=top",
+      "score": 239015,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "电竞",
+      "onboardTime": 1792642400
+    },
+    {
+      "title": "纪念长征胜利90周年全场唱国歌",
+      "description": "新 · 国内时政",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%BA%AA%E5%BF%B5%E9%95%BF%E5%BE%81%E8%83%9C%E5%88%A990%E5%91%A8%E5%B9%B4%E5%85%A8%E5%9C%BA%E5%94%B1%E5%9B%BD%E6%AD%8C%23&t=31&band_rank=1&Refer=top",
+      "score": 335263,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "国内时政",
+      "onboardTime": 1792642039
+    },
+    {
+      "title": "孙千的理想出逃计划",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%AD%99%E5%8D%83%E7%9A%84%E7%90%86%E6%83%B3%E5%87%BA%E9%80%83%E8%AE%A1%E5%88%92%23&t=31&band_rank=1&Refer=top",
+      "score": 257870,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1792642039
+    },
+    {
+      "title": "嫁金钗君黛死在魏娆怀里",
+      "description": "新 · 剧集",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%AB%81%E9%87%91%E9%92%97%E5%90%9B%E9%BB%9B%E6%AD%BB%E5%9C%A8%E9%AD%8F%E5%A8%86%E6%80%80%E9%87%8C%23&t=31&band_rank=1&Refer=top",
+      "score": 467034,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "剧集",
+      "onboardTime": 1792641980
+    },
+    {
+      "title": "侯明昊在雪中飞",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BE%AF%E6%98%8E%E6%98%8A%E5%9C%A8%E9%9B%AA%E4%B8%AD%E9%A3%9E%23&t=31&band_rank=1&Refer=top",
+      "score": 258875,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1792641980
+    },
+    {
+      "title": "沈殿霞6000万信托",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%E6%B2%88%E6%AE%BF%E9%9C%9E6000%E4%B8%87%E4%BF%A1%E6%89%98&t=31&band_rank=1&Refer=top",
+      "score": 418200,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1792641381
+    },
+    {
+      "title": "东契奇中圈压哨三分",
+      "description": "新 · 体育",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%9C%E5%A5%91%E5%A5%87%E4%B8%AD%E5%9C%88%E5%8E%8B%E5%93%A8%E4%B8%89%E5%88%86%23&t=31&band_rank=1&Refer=top",
+      "score": 409533,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "体育",
+      "onboardTime": 1792641381
+    },
+    {
+      "title": "红果开始忘本",
+      "description": "新 · 互联网",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%BA%A2%E6%9E%9C%E5%BC%80%E5%A7%8B%E5%BF%98%E6%9C%AC%23&t=31&band_rank=1&Refer=top",
+      "score": 402057,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "互联网",
+      "onboardTime": 1792641260
+    },
+    {
+      "title": "业内澄清给艺人买高定",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%9A%E5%86%85%E6%BE%84%E6%B8%85%E7%BB%99%E8%89%BA%E4%BA%BA%E4%B9%B0%E9%AB%98%E5%AE%9A%23&t=31&band_rank=1&Refer=top",
+      "score": 396246,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1792640421
+    },
+    {
+      "title": "iPhoneDuo微信不适配",
+      "description": "新 · 数码",
+      "url": "https://s.weibo.com/weibo?q=%23iPhoneDuo%E5%BE%AE%E4%BF%A1%E4%B8%8D%E9%80%82%E9%85%8D%23&t=31&band_rank=1&Refer=top",
+      "score": 1779185,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "数码",
+      "onboardTime": 1792639880
+    },
+    {
+      "title": "肖战能否达成电视剧三平台破万",
+      "description": "新 · 剧集",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%82%96%E6%88%98%E8%83%BD%E5%90%A6%E8%BE%BE%E6%88%90%E7%94%B5%E8%A7%86%E5%89%A7%E4%B8%89%E5%B9%B3%E5%8F%B0%E7%A0%B4%E4%B8%87%23&t=31&band_rank=1&Refer=top",
+      "score": 521154,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "剧集",
+      "onboardTime": 1792639520
+    },
+    {
+      "title": "嫁金钗单更一周",
+      "description": "新 · 剧集",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%AB%81%E9%87%91%E9%92%97%E5%8D%95%E6%9B%B4%E4%B8%80%E5%91%A8%23&t=31&band_rank=1&Refer=top",
+      "score": 427846,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "剧集",
+      "onboardTime": 1792639520
+    },
+    {
+      "title": "字母哥35分 爱德华兹45分",
+      "description": "新 · 体育",
+      "url": "https://s.weibo.com/weibo?q=%E5%AD%97%E6%AF%8D%E5%93%A535%E5%88%86%20%E7%88%B1%E5%BE%B7%E5%8D%8E%E5%85%B945%E5%88%86&t=31&band_rank=1&Refer=top",
+      "score": 428199,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "体育",
+      "onboardTime": 1792639399
+    },
+    {
+      "title": "红果免费看剧广告变现模式已跑通",
+      "description": "新 · 剧集",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%BA%A2%E6%9E%9C%E5%85%8D%E8%B4%B9%E7%9C%8B%E5%89%A7%E5%B9%BF%E5%91%8A%E5%8F%98%E7%8E%B0%E6%A8%A1%E5%BC%8F%E5%B7%B2%E8%B7%91%E9%80%9A%23&t=31&band_rank=1&Refer=top",
+      "score": 398808,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "剧集",
+      "onboardTime": 1792639399
+    },
+    {
+      "title": "人民日报评老师被家长无理举报",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%E8%AF%84%E8%80%81%E5%B8%88%E8%A2%AB%E5%AE%B6%E9%95%BF%E6%97%A0%E7%90%86%E4%B8%BE%E6%8A%A5%23&t=31&band_rank=1&Refer=top",
+      "score": 412049,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792639279
+    },
+    {
+      "title": "曝文咏珊生女",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E6%96%87%E5%92%8F%E7%8F%8A%E7%94%9F%E5%A5%B3%23&t=31&band_rank=1&Refer=top",
+      "score": 415638,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1792639040
+    },
+    {
+      "title": "君黛喝毒酒下线",
+      "description": "新 · 剧集",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%90%9B%E9%BB%9B%E5%96%9D%E6%AF%92%E9%85%92%E4%B8%8B%E7%BA%BF%23&t=31&band_rank=1&Refer=top",
+      "score": 912312,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "剧集",
+      "onboardTime": 1792638920
+    },
+    {
+      "title": "一天杀一只白马股",
+      "description": "新 · 财经",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E5%A4%A9%E6%9D%80%E4%B8%80%E5%8F%AA%E7%99%BD%E9%A9%AC%E8%82%A1&t=31&band_rank=1&Refer=top",
+      "score": 269121,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "财经",
+      "onboardTime": 1792638741
+    },
+    {
+      "title": "VOGUE盛典红毯",
+      "description": "新 · 时尚",
+      "url": "https://s.weibo.com/weibo?q=%23VOGUE%E7%9B%9B%E5%85%B8%E7%BA%A2%E6%AF%AF%23&t=31&band_rank=1&Refer=top",
+      "score": 529875,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "时尚",
+      "onboardTime": 1792638318
+    },
+    {
+      "title": "郑欣宜在沈殿霞墓前哭",
+      "description": "热 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%E9%83%91%E6%AC%A3%E5%AE%9C%E5%9C%A8%E6%B2%88%E6%AE%BF%E9%9C%9E%E5%A2%93%E5%89%8D%E5%93%AD&t=31&band_rank=1&Refer=top",
+      "score": 423440,
+      "owner": "微博实时",
+      "label": "热",
+      "category": "艺人",
+      "onboardTime": 1792638019
+    }
+  ]
+}
