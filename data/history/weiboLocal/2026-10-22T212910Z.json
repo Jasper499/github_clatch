@@ -1,0 +1,172 @@
+{
+  "date": "2026-10-22T212910Z",
+  "day": "2026-10-22",
+  "sourceKey": "weiboLocal",
+  "savedAt": "2026-10-22T21:29:10Z",
+  "label": "同城",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-22，共 16 条，约每 6 小时更新）",
+  "updateFrequency": "every-6h",
+  "fetchedDate": "2026-10-22",
+  "items": [
+    {
+      "title": "西藏7级地震",
+      "description": "热 · 突发/灾害",
+      "url": "https://s.weibo.com/weibo?q=%E8%A5%BF%E8%97%8F7%E7%BA%A7%E5%9C%B0%E9%9C%87&t=31&band_rank=1&Refer=top",
+      "score": 397022,
+      "owner": "微博同城",
+      "label": "热",
+      "category": "突发/灾害",
+      "onboardTime": 1792680380
+    },
+    {
+      "title": "长征是刻在大国重器上的信仰",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%95%BF%E5%BE%81%E6%98%AF%E5%88%BB%E5%9C%A8%E5%A4%A7%E5%9B%BD%E9%87%8D%E5%99%A8%E4%B8%8A%E7%9A%84%E4%BF%A1%E4%BB%B0%23&t=31&band_rank=1&Refer=top",
+      "score": 113838,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792672581
+    },
+    {
+      "title": "直击西藏那曲7.0级地震",
+      "description": "突发/灾害",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%9B%B4%E5%87%BB%E8%A5%BF%E8%97%8F%E9%82%A3%E6%9B%B27.0%E7%BA%A7%E5%9C%B0%E9%9C%87%23&t=31&band_rank=1&Refer=top",
+      "score": 77066,
+      "owner": "微博同城",
+      "label": "",
+      "category": "突发/灾害",
+      "onboardTime": 1792687278
+    },
+    {
+      "title": "在星巴克开会1小时被提醒点单5次",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%9C%A8%E6%98%9F%E5%B7%B4%E5%85%8B%E5%BC%80%E4%BC%9A1%E5%B0%8F%E6%97%B6%E8%A2%AB%E6%8F%90%E9%86%92%E7%82%B9%E5%8D%955%E6%AC%A1%23&t=31&band_rank=1&Refer=top",
+      "score": 67756,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792681102
+    },
+    {
+      "title": "41岁女子存百万后去世",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=41%E5%B2%81%E5%A5%B3%E5%AD%90%E5%AD%98%E7%99%BE%E4%B8%87%E5%90%8E%E5%8E%BB%E4%B8%96&t=31&band_rank=1&Refer=top",
+      "score": 63378,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792676242
+    },
+    {
+      "title": "坠亡幼童父亲回应扔掉孩子遗物",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%9D%A0%E4%BA%A1%E5%B9%BC%E7%AB%A5%E7%88%B6%E4%BA%B2%E5%9B%9E%E5%BA%94%E6%89%94%E6%8E%89%E5%AD%A9%E5%AD%90%E9%81%97%E7%89%A9%23&t=31&band_rank=1&Refer=top",
+      "score": 43464,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792686919
+    },
+    {
+      "title": "西藏那曲7.0级地震最近县城57公里",
+      "description": "突发/灾害",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%A5%BF%E8%97%8F%E9%82%A3%E6%9B%B27.0%E7%BA%A7%E5%9C%B0%E9%9C%87%E6%9C%80%E8%BF%91%E5%8E%BF%E5%9F%8E57%E5%85%AC%E9%87%8C%23&t=31&band_rank=1&Refer=top",
+      "score": 39621,
+      "owner": "微博同城",
+      "label": "",
+      "category": "突发/灾害",
+      "onboardTime": 1792685599
+    },
+    {
+      "title": "巴青地震亲历者讲述房子震得嘎嘎叫",
+      "description": "突发/灾害",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%B7%B4%E9%9D%92%E5%9C%B0%E9%9C%87%E4%BA%B2%E5%8E%86%E8%80%85%E8%AE%B2%E8%BF%B0%E6%88%BF%E5%AD%90%E9%9C%87%E5%BE%97%E5%98%8E%E5%98%8E%E5%8F%AB%23&t=31&band_rank=1&Refer=top",
+      "score": 35951,
+      "owner": "微博同城",
+      "label": "",
+      "category": "突发/灾害",
+      "onboardTime": 1792684160
+    },
+    {
+      "title": "女子称惠州海景房跌剩一千八",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%90%E7%A7%B0%E6%83%A0%E5%B7%9E%E6%B5%B7%E6%99%AF%E6%88%BF%E8%B7%8C%E5%89%A9%E4%B8%80%E5%8D%83%E5%85%AB&t=31&band_rank=1&Refer=top",
+      "score": 35809,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792675701
+    },
+    {
+      "title": "西藏地震暂无人员伤亡",
+      "description": "突发/灾害",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%A5%BF%E8%97%8F%E5%9C%B0%E9%9C%87%E6%9A%82%E6%97%A0%E4%BA%BA%E5%91%98%E4%BC%A4%E4%BA%A1%23&t=31&band_rank=1&Refer=top",
+      "score": 30974,
+      "owner": "微博同城",
+      "label": "",
+      "category": "突发/灾害",
+      "onboardTime": 1792687278
+    },
+    {
+      "title": "消防赶往西藏地震震中",
+      "description": "突发/灾害",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B6%88%E9%98%B2%E8%B5%B6%E5%BE%80%E8%A5%BF%E8%97%8F%E5%9C%B0%E9%9C%87%E9%9C%87%E4%B8%AD%23&t=31&band_rank=1&Refer=top",
+      "score": 30759,
+      "owner": "微博同城",
+      "label": "",
+      "category": "突发/灾害",
+      "onboardTime": 1792687278
+    },
+    {
+      "title": "那曲本次地震为震中近5年最大地震",
+      "description": "突发/灾害",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%82%A3%E6%9B%B2%E6%9C%AC%E6%AC%A1%E5%9C%B0%E9%9C%87%E4%B8%BA%E9%9C%87%E4%B8%AD%E8%BF%915%E5%B9%B4%E6%9C%80%E5%A4%A7%E5%9C%B0%E9%9C%87%23&t=31&band_rank=1&Refer=top",
+      "score": 29272,
+      "owner": "微博同城",
+      "label": "",
+      "category": "突发/灾害",
+      "onboardTime": 1792684940
+    },
+    {
+      "title": "两部门派出工作组赶赴西藏震区",
+      "description": "突发/灾害",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%A4%E9%83%A8%E9%97%A8%E6%B4%BE%E5%87%BA%E5%B7%A5%E4%BD%9C%E7%BB%84%E8%B5%B6%E8%B5%B4%E8%A5%BF%E8%97%8F%E9%9C%87%E5%8C%BA%23&t=31&band_rank=1&Refer=top",
+      "score": 28162,
+      "owner": "微博同城",
+      "label": "",
+      "category": "突发/灾害",
+      "onboardTime": 1792689317
+    },
+    {
+      "title": "人民日报评医学生盲猜病情",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%E8%AF%84%E5%8C%BB%E5%AD%A6%E7%94%9F%E7%9B%B2%E7%8C%9C%E7%97%85%E6%83%85%23&t=31&band_rank=1&Refer=top",
+      "score": 26151,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792669580
+    },
+    {
+      "title": "那曲地震震中附近平均海拔约4864米",
+      "description": "新 · 突发/灾害",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%82%A3%E6%9B%B2%E5%9C%B0%E9%9C%87%E9%9C%87%E4%B8%AD%E9%99%84%E8%BF%91%E5%B9%B3%E5%9D%87%E6%B5%B7%E6%8B%94%E7%BA%A64864%E7%B1%B3%23&t=31&band_rank=1&Refer=top",
+      "score": 26147,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "突发/灾害",
+      "onboardTime": 1792701374
+    },
+    {
+      "title": "坠亡男童母亲回应丈夫丢弃孩子遗物",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%9D%A0%E4%BA%A1%E7%94%B7%E7%AB%A5%E6%AF%8D%E4%BA%B2%E5%9B%9E%E5%BA%94%E4%B8%88%E5%A4%AB%E4%B8%A2%E5%BC%83%E5%AD%A9%E5%AD%90%E9%81%97%E7%89%A9%23&t=31&band_rank=1&Refer=top",
+      "score": 26126,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792697473
+    }
+  ]
+}
