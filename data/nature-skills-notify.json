@@ -1,20 +1,25 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-10-22T02:21:30Z",
+  "changed": true,
+  "fetchedAt": "2026-10-22T07:44:26Z",
   "previousSha": "df6db0b19530e26ac8f7c2a23254541c228fda43",
-  "latestSha": "df6db0b19530e26ac8f7c2a23254541c228fda43",
+  "latestSha": "c6ae86c742705fd968b13c79db1a8518a84089d4",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "docs(nature-figure): panel gaps, tick steps, aspect and labelling con…",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/df6db0b19530e26ac8f7c2a23254541c228fda43",
-    "sha": "df6db0b",
-    "published": "2026-10-21"
+    "title": "chore: update star history",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/c6ae86c742705fd968b13c79db1a8518a84089d4",
+    "sha": "c6ae86c",
+    "published": "2026-10-22"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "chore: update star history",
+      "sha": "c6ae86c",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c6ae86c742705fd968b13c79db1a8518a84089d4"
+    },
     {
       "title": "docs(nature-figure): panel gaps, tick steps, aspect and labelling con…",
       "sha": "df6db0b",
@@ -34,11 +39,6 @@
       "title": "Merge pull request #274 from WatchKitty/fix/windows-pdf-sync-and-ci-p…",
       "sha": "c859919",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/c8599197e7d2a22c2a091bbf8c14efcb3625cfa0"
-    },
-    {
-      "title": "ci: use matching UTF-8 encodings for Windows PDF tests",
-      "sha": "31a78bd",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/31a78bd0d0a09e3a9182c6394de6c9f244f629ec"
     }
   ]
 }

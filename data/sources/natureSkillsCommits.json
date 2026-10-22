@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-10-22T02:21:30Z",
+  "savedAt": "2026-10-22T07:44:26Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "df6db0b19530e26ac8f7c2a23254541c228fda43",
+  "latestSha": "c6ae86c742705fd968b13c79db1a8518a84089d4",
   "items": [
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c6ae86c742705fd968b13c79db1a8518a84089d4",
+      "sha": "c6ae86c",
+      "fullSha": "c6ae86c742705fd968b13c79db1a8518a84089d4",
+      "owner": "github-actions",
+      "published": "2026-10-22",
+      "label": "commit"
+    },
     {
       "title": "docs(nature-figure): panel gaps, tick steps, aspect and labelling con…",
       "description": "docs(nature-figure): panel gaps, tick steps, aspect and labelling conventions\n\nLet the content set a figure&#39;s height within an author&#39;s aspect rule (a row\nof bar charts reads better wider than 4:3), keep gaps between panels to what\ntheir labels need, set tick values in the data&#39;s own steps rather than the\nlocator&#39;s after a resize, and verify the journal&#39;s panel-labelling\nconvention before changing it. In the schematic rules, ask for a sketch\nwhen a layout described in words can be read two ways.\n\nXinrui Ma",
@@ -143,16 +153,6 @@
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/886a195897cff962e2f40955827be67ba25017c6",
       "sha": "886a195",
       "fullSha": "886a195897cff962e2f40955827be67ba25017c6",
-      "owner": "Yuan1z0825",
-      "published": "2026-10-20",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #267 from WatchKitty/fix/paper-trans-json-import",
-      "description": "Merge pull request #267 from WatchKitty/fix/paper-trans-json-import\n\nfix(nature-paper-trans): keep CLI JSON clean with canonical PyMuPDF import",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/74c37b4f8c7a1d38dbbed4c2f24b742800c3a472",
-      "sha": "74c37b4",
-      "fullSha": "74c37b4f8c7a1d38dbbed4c2f24b742800c3a472",
       "owner": "Yuan1z0825",
       "published": "2026-10-20",
       "label": "commit"
