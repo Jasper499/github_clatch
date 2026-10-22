@@ -1,0 +1,212 @@
+{
+  "date": "2026-10-22T182458Z",
+  "day": "2026-10-22",
+  "sourceKey": "hackernews",
+  "savedAt": "2026-10-22T18:24:58Z",
+  "label": "Hacker News 热门",
+  "description": "近 7 天 HN 高互动讨论（2026-10-22，共 20 条）",
+  "updateFrequency": "twice-daily",
+  "fetchedDate": "2026-10-22",
+  "items": [
+    {
+      "title": "DeepInfer: High-performance inference framework for DeepSeek models",
+      "description": "",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "score": 2327,
+      "comments": 886,
+      "owner": "ggcr",
+      "published": "2026-10-20T09:08:54Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50163277"
+    },
+    {
+      "title": "Tesla Roadster",
+      "description": "<a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=7p5LxFdc-Qg\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=7p5LxFdc-Qg</a><p><a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;Tesla&#x2F;status&#x2F;2110788059008819215\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;Tesla&#x2F;status&#x2F;2110788059008819215</a>",
+      "url": "https://www.tesla.com/roadster",
+      "score": 1644,
+      "comments": 3158,
+      "owner": "shekhar101",
+      "published": "2026-10-16T01:32:45Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50112657"
+    },
+    {
+      "title": "Security advisory: Critical remote code execution vulnerabilities, update now",
+      "description": "<a href=\"https:&#x2F;&#x2F;cert.europa.eu&#x2F;publications&#x2F;security-advisories&#x2F;2026-018&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;cert.europa.eu&#x2F;publications&#x2F;security-advisories&#x2F;2026...</a><p><a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50167754\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50167754</a>",
+      "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
+      "score": 1541,
+      "comments": 656,
+      "owner": "xd",
+      "published": "2026-10-20T20:15:50Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50172041"
+    },
+    {
+      "title": "eMudhra intermediate CA compromise",
+      "description": "<a href=\"https:&#x2F;&#x2F;blog.mozilla.org&#x2F;security&#x2F;2026&#x2F;10&#x2F;20&#x2F;protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;blog.mozilla.org&#x2F;security&#x2F;2026&#x2F;10&#x2F;20&#x2F;protecting-fire...</a><p><a href=\"https:&#x2F;&#x2F;bugzilla.mozilla.org&#x2F;show_bug.cgi?id=2083449\" rel=\"nofollow\">https:&#x2F;&#x2F;bugzilla.mozilla.org&#x2F;show_bug.cgi?id=2083449</a>",
+      "url": "https://emudhra.we-have-a-problem.com/",
+      "score": 1258,
+      "comments": 494,
+      "owner": "galadran",
+      "published": "2026-10-20T13:58:33Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50166579"
+    },
+    {
+      "title": "PHP 8.2.35",
+      "description": "Related ongoing thread: <i>Today&#x27;s PHP security release, and how we&#x27;re strengthening security</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50182987\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50182987</a>",
+      "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
+      "score": 1067,
+      "comments": 556,
+      "owner": "tuyuri",
+      "published": "2026-10-21T13:45:33Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50180873"
+    },
+    {
+      "title": "Claude reveals ECDSA curve origins",
+      "description": "<a href=\"https:&#x2F;&#x2F;words.filippo.io&#x2F;seeds-solved&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;words.filippo.io&#x2F;seeds-solved&#x2F;</a>",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "score": 1065,
+      "comments": 390,
+      "owner": "ahlCVA",
+      "published": "2026-10-16T18:55:59Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50122800"
+    },
+    {
+      "title": "OpenCode Hacked: User credentials leaked",
+      "description": "",
+      "url": "https://twitter.com/opencode/status/2111516673953935833",
+      "score": 974,
+      "comments": 185,
+      "owner": "pranshuchittora",
+      "published": "2026-10-17T18:01:41Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50133401"
+    },
+    {
+      "title": "DeepSeek-v4.1-Flash-1017",
+      "description": "<a href=\"https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;news&#x2F;news261017&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;news&#x2F;news261017&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;openrouter.ai&#x2F;deepseek&#x2F;deepseek-v4.1-flash-1017\" rel=\"nofollow\">https:&#x2F;&#x2F;openrouter.ai&#x2F;deepseek&#x2F;deepseek-v4.1-flash-1017</a>",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "score": 959,
+      "comments": 722,
+      "owner": "theykk",
+      "published": "2026-10-17T08:21:25Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50129045"
+    },
+    {
+      "title": "Show HN: SimCity, but with Permits",
+      "description": "",
+      "url": "https://permit.petercai.com/",
+      "score": 926,
+      "comments": 417,
+      "owner": "pcai",
+      "published": "2026-10-20T18:29:09Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50170593"
+    },
+    {
+      "title": "Eight Bits of Trust: eMudhra's CA keys cracked in milliseconds",
+      "description": "",
+      "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+      "score": 916,
+      "comments": 446,
+      "owner": "hkc",
+      "published": "2026-10-21T09:08:08Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50177916"
+    },
+    {
+      "title": "Today's PHP security release, and how we're strengthening security",
+      "description": "Related ongoing thread: <i>PHP 8.2.35</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50180873\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50180873</a><p>(links to more at <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50184935\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50184935</a>)",
+      "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+      "score": 779,
+      "comments": 388,
+      "owner": "ejohnso49",
+      "published": "2026-10-21T15:48:56Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50182987"
+    },
+    {
+      "title": "Voxtral 3",
+      "description": "",
+      "url": "https://mistral.ai/news/voxtral-3/",
+      "score": 765,
+      "comments": 200,
+      "owner": "ilreb",
+      "published": "2026-10-20T16:02:07Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50168396"
+    },
+    {
+      "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+      "description": "",
+      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+      "score": 739,
+      "comments": 217,
+      "owner": "ds",
+      "published": "2026-10-19T23:22:18Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50159341"
+    },
+    {
+      "title": "It's still ok to enjoy programming",
+      "description": "",
+      "url": "https://chriskiehl.com/article/it-is-still-ok-to-enjoy-programming",
+      "score": 701,
+      "comments": 643,
+      "owner": "goostavos",
+      "published": "2026-10-17T19:53:20Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50134472"
+    },
+    {
+      "title": "Solar surpasses nuclear power globally for first time",
+      "description": "",
+      "url": "https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/",
+      "score": 697,
+      "comments": 447,
+      "owner": "xbmcuser",
+      "published": "2026-10-17T14:01:01Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50131256"
+    },
+    {
+      "title": "Namecheap just seized and disabled all my domains",
+      "description": "",
+      "url": "https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/",
+      "score": 692,
+      "comments": 363,
+      "owner": "sashk",
+      "published": "2026-10-18T16:56:56Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50142866"
+    },
+    {
+      "title": "I built a drone with only one motor [video]",
+      "description": "",
+      "url": "https://www.youtube.com/watch?v=Ndftcft6XhU",
+      "score": 675,
+      "comments": 148,
+      "owner": "hakonjdjohnsen",
+      "published": "2026-10-19T09:05:07Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50150089"
+    },
+    {
+      "title": "What I self-host",
+      "description": "",
+      "url": "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/",
+      "score": 672,
+      "comments": 433,
+      "owner": "BrunoBernardino",
+      "published": "2026-10-15T20:23:25Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50109715"
+    },
+    {
+      "title": "EA is shutting down BioWare",
+      "description": "",
+      "url": "https://www.theverge.com/games/1015647/ea-is-shutting-down-bioware",
+      "score": 666,
+      "comments": 446,
+      "owner": "aaronbrethorst",
+      "published": "2026-10-21T17:29:33Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50184586"
+    },
+    {
+      "title": "You could have invented transformers from memory",
+      "description": "<a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;heyyalexwang&#x2F;status&#x2F;2111158818730397932\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;heyyalexwang&#x2F;status&#x2F;2111158818730397932</a>",
+      "url": "https://alexwang.ai/posts/associative-memory/",
+      "score": 665,
+      "comments": 149,
+      "owner": "speckx",
+      "published": "2026-10-16T19:01:17Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50122878"
+    }
+  ]
+}
