@@ -1,130 +1,150 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-10-23T06:10:51Z",
+  "savedAt": "2026-10-23T11:30:01Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-23，共 12 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-23，共 14 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-10-23",
   "items": [
     {
-      "title": "被拐卖到电诈园区的女性会经历什么",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%A2%AB%E6%8B%90%E5%8D%96%E5%88%B0%E7%94%B5%E8%AF%88%E5%9B%AD%E5%8C%BA%E7%9A%84%E5%A5%B3%E6%80%A7%E4%BC%9A%E7%BB%8F%E5%8E%86%E4%BB%80%E4%B9%88%23&t=31&band_rank=1&Refer=top",
-      "score": 864960,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1792732161
-    },
-    {
-      "title": "多方救援力量赶往震中",
+      "title": "李昌钰骨灰一半葬扬州一半留美国",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%9A%E6%96%B9%E6%95%91%E6%8F%B4%E5%8A%9B%E9%87%8F%E8%B5%B6%E5%BE%80%E9%9C%87%E4%B8%AD%23&t=31&band_rank=1&Refer=top",
-      "score": 821330,
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E6%98%8C%E9%92%B0%E9%AA%A8%E7%81%B0%E4%B8%80%E5%8D%8A%E8%91%AC%E6%89%AC%E5%B7%9E%E4%B8%80%E5%8D%8A%E7%95%99%E7%BE%8E%E5%9B%BD%23&t=31&band_rank=1&Refer=top",
+      "score": 1100498,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1792723759
+      "onboardTime": 1792740859
     },
     {
-      "title": "巴青7.0级地震为一次拉张型破裂",
+      "title": "台风",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E&t=31&band_rank=1&Refer=top",
+      "score": 1093756,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792747822
+    },
+    {
+      "title": "李昌钰安葬妻子痛哭称等我18年",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E6%98%8C%E9%92%B0%E5%AE%89%E8%91%AC%E5%A6%BB%E5%AD%90%E7%97%9B%E5%93%AD%E7%A7%B0%E7%AD%89%E6%88%9118%E5%B9%B4%23&t=31&band_rank=1&Refer=top",
+      "score": 1091096,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792744461
+    },
+    {
+      "title": "原死了么App升级后获政府采购",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8E%9F%E6%AD%BB%E4%BA%86%E4%B9%88App%E5%8D%87%E7%BA%A7%E5%90%8E%E8%8E%B7%E6%94%BF%E5%BA%9C%E9%87%87%E8%B4%AD%23&t=31&band_rank=1&Refer=top",
+      "score": 1085476,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792751122
+    },
+    {
+      "title": "泰国旅游部长回应中国游客安全",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E6%B3%B0%E5%9B%BD%E6%97%85%E6%B8%B8%E9%83%A8%E9%95%BF%E5%9B%9E%E5%BA%94%E4%B8%AD%E5%9B%BD%E6%B8%B8%E5%AE%A2%E5%AE%89%E5%85%A8&t=31&band_rank=1&Refer=top",
+      "score": 1080578,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792745660
+    },
+    {
+      "title": "父亲遛狗2岁幼童坠亡警方不予立案",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%88%B6%E4%BA%B2%E9%81%9B%E7%8B%972%E5%B2%81%E5%B9%BC%E7%AB%A5%E5%9D%A0%E4%BA%A1%E8%AD%A6%E6%96%B9%E4%B8%8D%E4%BA%88%E7%AB%8B%E6%A1%88%23&t=31&band_rank=1&Refer=top",
+      "score": 1073199,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792754424
+    },
+    {
+      "title": "问界M9事故三连环站不住脚",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E9%97%AE%E7%95%8CM9%E4%BA%8B%E6%95%85%E4%B8%89%E8%BF%9E%E7%8E%AF%E7%AB%99%E4%B8%8D%E4%BD%8F%E8%84%9A&t=31&band_rank=1&Refer=top",
+      "score": 1061500,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792748061
+    },
+    {
+      "title": "李昌钰",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E6%9D%8E%E6%98%8C%E9%92%B0&t=31&band_rank=1&Refer=top",
+      "score": 1056942,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792746261
+    },
+    {
+      "title": "廖景芳被判死刑当庭吓软",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%BB%96%E6%99%AF%E8%8A%B3%E8%A2%AB%E5%88%A4%E6%AD%BB%E5%88%91%E5%BD%93%E5%BA%AD%E5%90%93%E8%BD%AF&t=31&band_rank=1&Refer=top",
+      "score": 462221,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792740921
+    },
+    {
+      "title": "西部战区300余人赶赴地震灾区",
       "description": "新 · 突发/灾害",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%B7%B4%E9%9D%927.0%E7%BA%A7%E5%9C%B0%E9%9C%87%E4%B8%BA%E4%B8%80%E6%AC%A1%E6%8B%89%E5%BC%A0%E5%9E%8B%E7%A0%B4%E8%A3%82%23&t=31&band_rank=1&Refer=top",
-      "score": 522788,
+      "url": "https://s.weibo.com/weibo?q=%23%E8%A5%BF%E9%83%A8%E6%88%98%E5%8C%BA300%E4%BD%99%E4%BA%BA%E8%B5%B6%E8%B5%B4%E5%9C%B0%E9%9C%87%E7%81%BE%E5%8C%BA%23&t=31&band_rank=1&Refer=top",
+      "score": 334959,
       "owner": "微博同城",
       "label": "新",
       "category": "突发/灾害",
-      "onboardTime": 1792733361
+      "onboardTime": 1792753404
     },
     {
-      "title": "洁厕剂长得像饮料害人不浅",
+      "title": "美国人到中国出差Claude被封",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B4%81%E5%8E%95%E5%89%82%E9%95%BF%E5%BE%97%E5%83%8F%E9%A5%AE%E6%96%99%E5%AE%B3%E4%BA%BA%E4%B8%8D%E6%B5%85%23&t=31&band_rank=1&Refer=top",
-      "score": 455576,
+      "url": "https://s.weibo.com/weibo?q=%E7%BE%8E%E5%9B%BD%E4%BA%BA%E5%88%B0%E4%B8%AD%E5%9B%BD%E5%87%BA%E5%B7%AEClaude%E8%A2%AB%E5%B0%81&t=31&band_rank=1&Refer=top",
+      "score": 324705,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1792735281
+      "onboardTime": 1792750943
     },
     {
-      "title": "一线年轻人开始半夜卖废品了",
+      "title": "最高法通报牟某虐待案细节",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%80%E7%BA%BF%E5%B9%B4%E8%BD%BB%E4%BA%BA%E5%BC%80%E5%A7%8B%E5%8D%8A%E5%A4%9C%E5%8D%96%E5%BA%9F%E5%93%81%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 444267,
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9C%80%E9%AB%98%E6%B3%95%E9%80%9A%E6%8A%A5%E7%89%9F%E6%9F%90%E8%99%90%E5%BE%85%E6%A1%88%E7%BB%86%E8%8A%82%23&t=31&band_rank=1&Refer=top",
+      "score": 321828,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1792735281
+      "onboardTime": 1792754843
     },
     {
-      "title": "两女生投150万开无烟酒吧倒闭",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E4%B8%A4%E5%A5%B3%E7%94%9F%E6%8A%95150%E4%B8%87%E5%BC%80%E6%97%A0%E7%83%9F%E9%85%92%E5%90%A7%E5%80%92%E9%97%AD&t=31&band_rank=1&Refer=top",
-      "score": 266848,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1792711099
-    },
-    {
-      "title": "外卖小哥闪婚娶美国女博士宣布离婚",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%96%E5%8D%96%E5%B0%8F%E5%93%A5%E9%97%AA%E5%A9%9A%E5%A8%B6%E7%BE%8E%E5%9B%BD%E5%A5%B3%E5%8D%9A%E5%A3%AB%E5%AE%A3%E5%B8%83%E7%A6%BB%E5%A9%9A%23&t=31&band_rank=1&Refer=top",
-      "score": 249987,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1792729401
-    },
-    {
-      "title": "本次那曲地震是今年我国最大地震",
+      "title": "那曲震区最新航拍",
       "description": "新 · 突发/灾害",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9C%AC%E6%AC%A1%E9%82%A3%E6%9B%B2%E5%9C%B0%E9%9C%87%E6%98%AF%E4%BB%8A%E5%B9%B4%E6%88%91%E5%9B%BD%E6%9C%80%E5%A4%A7%E5%9C%B0%E9%9C%87%23&t=31&band_rank=1&Refer=top",
-      "score": 241853,
+      "url": "https://s.weibo.com/weibo?q=%23%E9%82%A3%E6%9B%B2%E9%9C%87%E5%8C%BA%E6%9C%80%E6%96%B0%E8%88%AA%E6%8B%8D%23&t=31&band_rank=1&Refer=top",
+      "score": 314368,
       "owner": "微博同城",
       "label": "新",
       "category": "突发/灾害",
-      "onboardTime": 1792734560
+      "onboardTime": 1792753223
     },
     {
-      "title": "紧急拨付5000万元支持西藏抢险救灾",
-      "description": "新 · 突发/灾害",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%B4%A7%E6%80%A5%E6%8B%A8%E4%BB%985000%E4%B8%87%E5%85%83%E6%94%AF%E6%8C%81%E8%A5%BF%E8%97%8F%E6%8A%A2%E9%99%A9%E6%95%91%E7%81%BE%23&t=31&band_rank=1&Refer=top",
-      "score": 220058,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "突发/灾害",
-      "onboardTime": 1792731982
-    },
-    {
-      "title": "越来越多外地人涌入云南买房",
+      "title": "好奇小森林被抢空",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E5%A4%96%E5%9C%B0%E4%BA%BA%E6%B6%8C%E5%85%A5%E4%BA%91%E5%8D%97%E4%B9%B0%E6%88%BF%23&t=31&band_rank=1&Refer=top",
-      "score": 215085,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%BD%E5%A5%87%E5%B0%8F%E6%A3%AE%E6%9E%97%E8%A2%AB%E6%8A%A2%E7%A9%BA%23&t=31&band_rank=1&Refer=top",
+      "score": 311727,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1792735820
-    },
-    {
-      "title": "西藏7级地震",
-      "description": "突发/灾害",
-      "url": "https://s.weibo.com/weibo?q=%E8%A5%BF%E8%97%8F7%E7%BA%A7%E5%9C%B0%E9%9C%87&t=31&band_rank=1&Refer=top",
-      "score": 171813,
-      "owner": "微博同城",
-      "label": "",
-      "category": "突发/灾害",
-      "onboardTime": 1792680380
-    },
-    {
-      "title": "骚扰来电不接和挂断区别很大",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E9%AA%9A%E6%89%B0%E6%9D%A5%E7%94%B5%E4%B8%8D%E6%8E%A5%E5%92%8C%E6%8C%82%E6%96%AD%E5%8C%BA%E5%88%AB%E5%BE%88%E5%A4%A7&t=31&band_rank=1&Refer=top",
-      "score": 166248,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1792713621
+      "onboardTime": 1792750701
     }
   ]
 }
