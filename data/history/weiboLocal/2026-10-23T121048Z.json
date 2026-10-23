@@ -1,0 +1,172 @@
+{
+  "date": "2026-10-23T121048Z",
+  "day": "2026-10-23",
+  "sourceKey": "weiboLocal",
+  "savedAt": "2026-10-23T12:10:48Z",
+  "label": "同城",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-23，共 16 条，约每 6 小时更新）",
+  "updateFrequency": "every-6h",
+  "fetchedDate": "2026-10-23",
+  "items": [
+    {
+      "title": "台风",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E&t=31&band_rank=1&Refer=top",
+      "score": 1111064,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792747822
+    },
+    {
+      "title": "原死了么App升级后获政府采购",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8E%9F%E6%AD%BB%E4%BA%86%E4%B9%88App%E5%8D%87%E7%BA%A7%E5%90%8E%E8%8E%B7%E6%94%BF%E5%BA%9C%E9%87%87%E8%B4%AD%23&t=31&band_rank=1&Refer=top",
+      "score": 1093414,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792751122
+    },
+    {
+      "title": "最高法通报牟某虐待案细节",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9C%80%E9%AB%98%E6%B3%95%E9%80%9A%E6%8A%A5%E7%89%9F%E6%9F%90%E8%99%90%E5%BE%85%E6%A1%88%E7%BB%86%E8%8A%82%23&t=31&band_rank=1&Refer=top",
+      "score": 1088840,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792754843
+    },
+    {
+      "title": "中国留学生联名请愿莫大公开说明",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E7%95%99%E5%AD%A6%E7%94%9F%E8%81%94%E5%90%8D%E8%AF%B7%E6%84%BF%E8%8E%AB%E5%A4%A7%E5%85%AC%E5%BC%80%E8%AF%B4%E6%98%8E%23&t=31&band_rank=1&Refer=top",
+      "score": 1082907,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792751842
+    },
+    {
+      "title": "李昌钰骨灰一半葬扬州一半留美国",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E6%98%8C%E9%92%B0%E9%AA%A8%E7%81%B0%E4%B8%80%E5%8D%8A%E8%91%AC%E6%89%AC%E5%B7%9E%E4%B8%80%E5%8D%8A%E7%95%99%E7%BE%8E%E5%9B%BD%23&t=31&band_rank=1&Refer=top",
+      "score": 1039946,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792740859
+    },
+    {
+      "title": "火箭发射",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E7%81%AB%E7%AE%AD%E5%8F%91%E5%B0%84&t=31&band_rank=1&Refer=top",
+      "score": 1009444,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792752384
+    },
+    {
+      "title": "问界M9事故三连环站不住脚",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E9%97%AE%E7%95%8CM9%E4%BA%8B%E6%95%85%E4%B8%89%E8%BF%9E%E7%8E%AF%E7%AB%99%E4%B8%8D%E4%BD%8F%E8%84%9A&t=31&band_rank=1&Refer=top",
+      "score": 920207,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792748061
+    },
+    {
+      "title": "李昌钰",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E6%9D%8E%E6%98%8C%E9%92%B0&t=31&band_rank=1&Refer=top",
+      "score": 656113,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792746261
+    },
+    {
+      "title": "父亲遛狗2岁幼童坠亡警方不予立案",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%88%B6%E4%BA%B2%E9%81%9B%E7%8B%972%E5%B2%81%E5%B9%BC%E7%AB%A5%E5%9D%A0%E4%BA%A1%E8%AD%A6%E6%96%B9%E4%B8%8D%E4%BA%88%E7%AB%8B%E6%A1%88%23&t=31&band_rank=1&Refer=top",
+      "score": 652564,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792754424
+    },
+    {
+      "title": "西藏巴青地震16死76伤",
+      "description": "突发/灾害",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%A5%BF%E8%97%8F%E5%B7%B4%E9%9D%92%E5%9C%B0%E9%9C%8716%E6%AD%BB76%E4%BC%A4%23&t=31&band_rank=1&Refer=top",
+      "score": 651178,
+      "owner": "微博同城",
+      "label": "",
+      "category": "突发/灾害",
+      "onboardTime": 1792739900
+    },
+    {
+      "title": "不少电商辞退美工用AI生图",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%8D%E5%B0%91%E7%94%B5%E5%95%86%E8%BE%9E%E9%80%80%E7%BE%8E%E5%B7%A5%E7%94%A8AI%E7%94%9F%E5%9B%BE%23&t=31&band_rank=1&Refer=top",
+      "score": 548908,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792756885
+    },
+    {
+      "title": "廖景芳被判死刑当庭吓软",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%BB%96%E6%99%AF%E8%8A%B3%E8%A2%AB%E5%88%A4%E6%AD%BB%E5%88%91%E5%BD%93%E5%BA%AD%E5%90%93%E8%BD%AF&t=31&band_rank=1&Refer=top",
+      "score": 540927,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792740921
+    },
+    {
+      "title": "李昌钰安葬妻子痛哭称等我18年",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E6%98%8C%E9%92%B0%E5%AE%89%E8%91%AC%E5%A6%BB%E5%AD%90%E7%97%9B%E5%93%AD%E7%A7%B0%E7%AD%89%E6%88%9118%E5%B9%B4%23&t=31&band_rank=1&Refer=top",
+      "score": 539036,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792744461
+    },
+    {
+      "title": "把握2026国补最后一波",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%8A%8A%E6%8F%A12026%E5%9B%BD%E8%A1%A5%E6%9C%80%E5%90%8E%E4%B8%80%E6%B3%A2%23&t=31&band_rank=1&Refer=top",
+      "score": 537170,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792755384
+    },
+    {
+      "title": "李昌钰妻子落泪喊我带你回家",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E6%98%8C%E9%92%B0%E5%A6%BB%E5%AD%90%E8%90%BD%E6%B3%AA%E5%96%8A%E6%88%91%E5%B8%A6%E4%BD%A0%E5%9B%9E%E5%AE%B6%23&t=31&band_rank=1&Refer=top",
+      "score": 534585,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792756345
+    },
+    {
+      "title": "美国人到中国出差Claude被封",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E7%BE%8E%E5%9B%BD%E4%BA%BA%E5%88%B0%E4%B8%AD%E5%9B%BD%E5%87%BA%E5%B7%AEClaude%E8%A2%AB%E5%B0%81&t=31&band_rank=1&Refer=top",
+      "score": 530705,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792750943
+    }
+  ]
+}
