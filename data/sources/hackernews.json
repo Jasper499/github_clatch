@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-10-23T07:12:09Z",
+  "savedAt": "2026-10-23T14:00:52Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-10-23，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,8 +10,8 @@
       "title": "DeepInfer: High-performance inference framework for DeepSeek models",
       "description": "",
       "url": "https://github.com/deepseek-ai/DeepInfer",
-      "score": 2333,
-      "comments": 889,
+      "score": 2336,
+      "comments": 890,
       "owner": "ggcr",
       "published": "2026-10-20T09:08:54Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50163277"
@@ -20,38 +20,48 @@
       "title": "Security advisory: Critical remote code execution vulnerabilities, update now",
       "description": "<a href=\"https:&#x2F;&#x2F;cert.europa.eu&#x2F;publications&#x2F;security-advisories&#x2F;2026-018&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;cert.europa.eu&#x2F;publications&#x2F;security-advisories&#x2F;2026...</a><p><a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50167754\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50167754</a>",
       "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
-      "score": 1552,
+      "score": 1553,
       "comments": 658,
       "owner": "xd",
       "published": "2026-10-20T20:15:50Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50172041"
     },
     {
-      "title": "eMudhra intermediate CA compromise",
-      "description": "<a href=\"https:&#x2F;&#x2F;blog.mozilla.org&#x2F;security&#x2F;2026&#x2F;10&#x2F;20&#x2F;protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;blog.mozilla.org&#x2F;security&#x2F;2026&#x2F;10&#x2F;20&#x2F;protecting-fire...</a><p><a href=\"https:&#x2F;&#x2F;bugzilla.mozilla.org&#x2F;show_bug.cgi?id=2083449\" rel=\"nofollow\">https:&#x2F;&#x2F;bugzilla.mozilla.org&#x2F;show_bug.cgi?id=2083449</a>",
-      "url": "https://emudhra.we-have-a-problem.com/",
-      "score": 1269,
-      "comments": 501,
-      "owner": "galadran",
-      "published": "2026-10-20T13:58:33Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50166579"
-    },
-    {
       "title": "Quad9 to exit France",
       "description": "",
       "url": "https://quad9.net/news/blog/au-revoir-france/",
-      "score": 1136,
-      "comments": 392,
+      "score": 1281,
+      "comments": 430,
       "owner": "farrokhi",
       "published": "2026-10-22T14:32:38Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50195959"
     },
     {
+      "title": "eMudhra intermediate CA compromise",
+      "description": "<a href=\"https:&#x2F;&#x2F;blog.mozilla.org&#x2F;security&#x2F;2026&#x2F;10&#x2F;20&#x2F;protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;blog.mozilla.org&#x2F;security&#x2F;2026&#x2F;10&#x2F;20&#x2F;protecting-fire...</a><p><a href=\"https:&#x2F;&#x2F;bugzilla.mozilla.org&#x2F;show_bug.cgi?id=2083449\" rel=\"nofollow\">https:&#x2F;&#x2F;bugzilla.mozilla.org&#x2F;show_bug.cgi?id=2083449</a>",
+      "url": "https://emudhra.we-have-a-problem.com/",
+      "score": 1271,
+      "comments": 504,
+      "owner": "galadran",
+      "published": "2026-10-20T13:58:33Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50166579"
+    },
+    {
+      "title": "eMudhra to exit global SSL/TLS certificate business",
+      "description": "",
+      "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+      "score": 1102,
+      "comments": 708,
+      "owner": "bo0tzz",
+      "published": "2026-10-22T13:33:39Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50195110"
+    },
+    {
       "title": "PHP 8.2.35",
       "description": "Related ongoing thread: <i>Today&#x27;s PHP security release, and how we&#x27;re strengthening security</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50182987\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50182987</a>",
       "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
-      "score": 1085,
-      "comments": 562,
+      "score": 1090,
+      "comments": 573,
       "owner": "tuyuri",
       "published": "2026-10-21T13:45:33Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50180873"
@@ -65,16 +75,6 @@
       "owner": "ahlCVA",
       "published": "2026-10-16T18:55:59Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50122800"
-    },
-    {
-      "title": "eMudhra to exit global SSL/TLS certificate business",
-      "description": "",
-      "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
-      "score": 1016,
-      "comments": 671,
-      "owner": "bo0tzz",
-      "published": "2026-10-22T13:33:39Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50195110"
     },
     {
       "title": "OpenCode Hacked: User credentials leaked",
@@ -97,6 +97,16 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50129045"
     },
     {
+      "title": "Eight Bits of Trust: eMudhra's CA keys cracked in milliseconds",
+      "description": "",
+      "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+      "score": 934,
+      "comments": 458,
+      "owner": "hkc",
+      "published": "2026-10-21T09:08:08Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50177916"
+    },
+    {
       "title": "Show HN: SimCity, but with Permits",
       "description": "",
       "url": "https://permit.petercai.com/",
@@ -107,21 +117,11 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50170593"
     },
     {
-      "title": "Eight Bits of Trust: eMudhra's CA keys cracked in milliseconds",
-      "description": "",
-      "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
-      "score": 929,
-      "comments": 456,
-      "owner": "hkc",
-      "published": "2026-10-21T09:08:08Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50177916"
-    },
-    {
       "title": "Today's PHP security release, and how we're strengthening security",
       "description": "Related ongoing thread: <i>PHP 8.2.35</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50180873\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50180873</a><p>(links to more at <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50184935\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50184935</a>)",
       "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
-      "score": 804,
-      "comments": 394,
+      "score": 806,
+      "comments": 395,
       "owner": "ejohnso49",
       "published": "2026-10-21T15:48:56Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50182987"
@@ -130,8 +130,8 @@
       "title": "Jailbreaking the Switch 2",
       "description": "",
       "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
-      "score": 771,
-      "comments": 269,
+      "score": 788,
+      "comments": 285,
       "owner": "ledoge",
       "published": "2026-10-22T08:01:52Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50192536"
@@ -150,7 +150,7 @@
       "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
       "description": "",
       "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-      "score": 740,
+      "score": 741,
       "comments": 218,
       "owner": "ds",
       "published": "2026-10-19T23:22:18Z",
@@ -160,8 +160,8 @@
       "title": "It's still ok to enjoy programming",
       "description": "",
       "url": "https://chriskiehl.com/article/it-is-still-ok-to-enjoy-programming",
-      "score": 703,
-      "comments": 645,
+      "score": 704,
+      "comments": 646,
       "owner": "goostavos",
       "published": "2026-10-17T19:53:20Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50134472"
@@ -171,10 +171,30 @@
       "description": "",
       "url": "https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/",
       "score": 697,
-      "comments": 447,
+      "comments": 451,
       "owner": "xbmcuser",
       "published": "2026-10-17T14:01:01Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50131256"
+    },
+    {
+      "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+      "description": "",
+      "url": "https://edjefferson.com/localwiki/",
+      "score": 696,
+      "comments": 144,
+      "owner": "sohkamyung",
+      "published": "2026-10-22T23:01:18Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50202285"
+    },
+    {
+      "title": "EA is shutting down BioWare",
+      "description": "",
+      "url": "https://www.theverge.com/games/1015647/ea-is-shutting-down-bioware",
+      "score": 695,
+      "comments": 470,
+      "owner": "aaronbrethorst",
+      "published": "2026-10-21T17:29:33Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50184586"
     },
     {
       "title": "Namecheap just seized and disabled all my domains",
@@ -185,26 +205,6 @@
       "owner": "sashk",
       "published": "2026-10-18T16:56:56Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50142866"
-    },
-    {
-      "title": "EA is shutting down BioWare",
-      "description": "",
-      "url": "https://www.theverge.com/games/1015647/ea-is-shutting-down-bioware",
-      "score": 690,
-      "comments": 462,
-      "owner": "aaronbrethorst",
-      "published": "2026-10-21T17:29:33Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50184586"
-    },
-    {
-      "title": "Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case",
-      "description": "<a href=\"https:&#x2F;&#x2F;nmdoj.gov&#x2F;press-release&#x2F;the-new-mexico-department-of-justice-secures-another-landmark-victory-against-big-tech-with-historic-25-billion-penalty-against-facebook&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;nmdoj.gov&#x2F;press-release&#x2F;the-new-mexico-department-of...</a>",
-      "url": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
-      "score": 684,
-      "comments": 418,
-      "owner": "cbg0",
-      "published": "2026-10-21T17:45:13Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50184820"
     }
   ]
 }
