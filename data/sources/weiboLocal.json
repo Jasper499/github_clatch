@@ -1,60 +1,100 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-10-24T00:10:45Z",
+  "savedAt": "2026-10-24T04:26:50Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-24，共 5 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-24，共 9 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-10-24",
   "items": [
     {
-      "title": "独生女继承2亿遗产1年后遭离婚分产",
-      "description": "热 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%8B%AC%E7%94%9F%E5%A5%B3%E7%BB%A7%E6%89%BF2%E4%BA%BF%E9%81%97%E4%BA%A71%E5%B9%B4%E5%90%8E%E9%81%AD%E7%A6%BB%E5%A9%9A%E5%88%86%E4%BA%A7%23&t=31&band_rank=1&Refer=top",
-      "score": 3001627,
+      "title": "父亲突发脑梗儿子用AI抢出救命时间",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%88%B6%E4%BA%B2%E7%AA%81%E5%8F%91%E8%84%91%E6%A2%97%E5%84%BF%E5%AD%90%E7%94%A8AI%E6%8A%A2%E5%87%BA%E6%95%91%E5%91%BD%E6%97%B6%E9%97%B4%23&t=31&band_rank=1&Refer=top",
+      "score": 1142531,
       "owner": "微博同城",
-      "label": "热",
+      "label": "",
       "category": "民生新闻",
-      "onboardTime": 1792772242
+      "onboardTime": 1792808660
+    },
+    {
+      "title": "高质量发展看重庆",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%AB%98%E8%B4%A8%E9%87%8F%E5%8F%91%E5%B1%95%E7%9C%8B%E9%87%8D%E5%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 663677,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792807099
+    },
+    {
+      "title": "年轻人正在抛弃帆布鞋",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%B9%B4%E8%BD%BB%E4%BA%BA%E6%AD%A3%E5%9C%A8%E6%8A%9B%E5%BC%83%E5%B8%86%E5%B8%83%E9%9E%8B%23&t=31&band_rank=1&Refer=top",
+      "score": 416994,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792814060
+    },
+    {
+      "title": "律师回应独生女继承2亿遭离婚分产",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%BE%8B%E5%B8%88%E5%9B%9E%E5%BA%94%E7%8B%AC%E7%94%9F%E5%A5%B3%E7%BB%A7%E6%89%BF2%E4%BA%BF%E9%81%AD%E7%A6%BB%E5%A9%9A%E5%88%86%E4%BA%A7%23&t=31&band_rank=1&Refer=top",
+      "score": 324585,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792812980
+    },
+    {
+      "title": "官方通报13岁女孩卖金项链被熔化",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%AE%98%E6%96%B9%E9%80%9A%E6%8A%A513%E5%B2%81%E5%A5%B3%E5%AD%A9%E5%8D%96%E9%87%91%E9%A1%B9%E9%93%BE%E8%A2%AB%E7%86%94%E5%8C%96%23&t=31&band_rank=1&Refer=top",
+      "score": 254515,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792808719
     },
     {
       "title": "哈啰顺风车 涉黄",
-      "description": "新 · 民生新闻",
+      "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%E5%93%88%E5%95%B0%E9%A1%BA%E9%A3%8E%E8%BD%A6%20%E6%B6%89%E9%BB%84&t=31&band_rank=1&Refer=top",
-      "score": 264836,
+      "score": 251990,
       "owner": "微博同城",
-      "label": "新",
+      "label": "",
       "category": "民生新闻",
       "onboardTime": 1792798759
     },
     {
-      "title": "外卖小哥称离婚最大原因是文化差异",
+      "title": "砍断妻子3根手指男子未取得谅解",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%96%E5%8D%96%E5%B0%8F%E5%93%A5%E7%A7%B0%E7%A6%BB%E5%A9%9A%E6%9C%80%E5%A4%A7%E5%8E%9F%E5%9B%A0%E6%98%AF%E6%96%87%E5%8C%96%E5%B7%AE%E5%BC%82%23&t=31&band_rank=1&Refer=top",
-      "score": 250338,
+      "url": "https://s.weibo.com/weibo?q=%23%E7%A0%8D%E6%96%AD%E5%A6%BB%E5%AD%903%E6%A0%B9%E6%89%8B%E6%8C%87%E7%94%B7%E5%AD%90%E6%9C%AA%E5%8F%96%E5%BE%97%E8%B0%85%E8%A7%A3%23&t=31&band_rank=1&Refer=top",
+      "score": 232459,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1792798399
+      "onboardTime": 1792815081
     },
     {
-      "title": "13岁男生被同学打伤治疗已花600万",
+      "title": "妻子收到酒店弹窗丈夫自证清白",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A6%BB%E5%AD%90%E6%94%B6%E5%88%B0%E9%85%92%E5%BA%97%E5%BC%B9%E7%AA%97%E4%B8%88%E5%A4%AB%E8%87%AA%E8%AF%81%E6%B8%85%E7%99%BD%23&t=31&band_rank=1&Refer=top",
+      "score": 130316,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792815680
+    },
+    {
+      "title": "医生回应1岁多女童确诊糖尿病",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%2313%E5%B2%81%E7%94%B7%E7%94%9F%E8%A2%AB%E5%90%8C%E5%AD%A6%E6%89%93%E4%BC%A4%E6%B2%BB%E7%96%97%E5%B7%B2%E8%8A%B1600%E4%B8%87%23&t=31&band_rank=1&Refer=top",
-      "score": 246905,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8C%BB%E7%94%9F%E5%9B%9E%E5%BA%941%E5%B2%81%E5%A4%9A%E5%A5%B3%E7%AB%A5%E7%A1%AE%E8%AF%8A%E7%B3%96%E5%B0%BF%E7%97%85%23&t=31&band_rank=1&Refer=top",
+      "score": 122808,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1792766845
-    },
-    {
-      "title": "女子嫁给老外立遗嘱财产全给哥哥",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E5%AB%81%E7%BB%99%E8%80%81%E5%A4%96%E7%AB%8B%E9%81%97%E5%98%B1%E8%B4%A2%E4%BA%A7%E5%85%A8%E7%BB%99%E5%93%A5%E5%93%A5%23&t=31&band_rank=1&Refer=top",
-      "score": 165627,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1792800382
+      "onboardTime": 1792802181
     }
   ]
 }
