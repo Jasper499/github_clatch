@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-24T155034Z",
+  "day": "2026-10-24",
+  "sourceKey": "weiboLocal",
+  "savedAt": "2026-10-24T15:50:34Z",
+  "label": "同城",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-24，共 5 条，约每 6 小时更新）",
+  "updateFrequency": "every-6h",
+  "fetchedDate": "2026-10-24",
+  "items": [
+    {
+      "title": "去年全国结婚登记676万对",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8E%BB%E5%B9%B4%E5%85%A8%E5%9B%BD%E7%BB%93%E5%A9%9A%E7%99%BB%E8%AE%B0676%E4%B8%87%E5%AF%B9%23&t=31&band_rank=1&Refer=top",
+      "score": 440061,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792830801
+    },
+    {
+      "title": "38岁产妇催产时突发羊水栓塞至今未醒",
+      "description": "新 · 突发/灾害",
+      "url": "https://s.weibo.com/weibo?q=%2338%E5%B2%81%E4%BA%A7%E5%A6%87%E5%82%AC%E4%BA%A7%E6%97%B6%E7%AA%81%E5%8F%91%E7%BE%8A%E6%B0%B4%E6%A0%93%E5%A1%9E%E8%87%B3%E4%BB%8A%E6%9C%AA%E9%86%92%23&t=31&band_rank=1&Refer=top",
+      "score": 312784,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "突发/灾害",
+      "onboardTime": 1792853420
+    },
+    {
+      "title": "许家印被曝曾花13亿港元买艺术品",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E8%AE%B8%E5%AE%B6%E5%8D%B0%E8%A2%AB%E6%9B%9D%E6%9B%BE%E8%8A%B113%E4%BA%BF%E6%B8%AF%E5%85%83%E4%B9%B0%E8%89%BA%E6%9C%AF%E5%93%81&t=31&band_rank=1&Refer=top",
+      "score": 247532,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792855701
+    },
+    {
+      "title": "深圳结婚登记量广东第一",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B7%B1%E5%9C%B3%E7%BB%93%E5%A9%9A%E7%99%BB%E8%AE%B0%E9%87%8F%E5%B9%BF%E4%B8%9C%E7%AC%AC%E4%B8%80%23&t=31&band_rank=1&Refer=top",
+      "score": 151213,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1792855821
+    },
+    {
+      "title": "马山县政府回应多只猴子喝水溺亡",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%A9%AC%E5%B1%B1%E5%8E%BF%E6%94%BF%E5%BA%9C%E5%9B%9E%E5%BA%94%E5%A4%9A%E5%8F%AA%E7%8C%B4%E5%AD%90%E5%96%9D%E6%B0%B4%E6%BA%BA%E4%BA%A1%23&t=31&band_rank=1&Refer=top",
+      "score": 116328,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792851380
+    }
+  ]
+}
