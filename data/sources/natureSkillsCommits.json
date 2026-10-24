@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-10-24T07:25:16Z",
+  "savedAt": "2026-10-24T14:20:53Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "c6ae86c742705fd968b13c79db1a8518a84089d4",
+  "latestSha": "8f28a61d42c2b251d224cdb0a59229df9879a68e",
   "items": [
+    {
+      "title": "Update README.md",
+      "description": "Update README.md",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/8f28a61d42c2b251d224cdb0a59229df9879a68e",
+      "sha": "8f28a61",
+      "fullSha": "8f28a61d42c2b251d224cdb0a59229df9879a68e",
+      "owner": "Flyme886",
+      "published": "2026-10-24",
+      "label": "commit"
+    },
     {
       "title": "chore: update star history",
       "description": "chore: update star history",
@@ -143,16 +153,6 @@
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/ad08bc9d5fb6469696709fe90a330d31b9221b93",
       "sha": "ad08bc9",
       "fullSha": "ad08bc9d5fb6469696709fe90a330d31b9221b93",
-      "owner": "Yuan1z0825",
-      "published": "2026-10-20",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #265 from WatchKitty/fix/proposal-table-delimiters",
-      "description": "Merge pull request #265 from WatchKitty/fix/proposal-table-delimiters\n\nfix(nature-proposal-writer): parse Markdown table delimiter rows",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/886a195897cff962e2f40955827be67ba25017c6",
-      "sha": "886a195",
-      "fullSha": "886a195897cff962e2f40955827be67ba25017c6",
       "owner": "Yuan1z0825",
       "published": "2026-10-20",
       "label": "commit"
