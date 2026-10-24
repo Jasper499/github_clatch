@@ -6,130 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%B9%B4%E8%BD%BB%E4%BA%BA%E6%AD%A3%E5%9C%A8%E6%8A%9B%E5%BC%83%E5%B8%86%E5%B8%83%E9%9E%8B%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%B9%B4%E8%BD%BB%E4%BA%BA%E6%AD%A3%E5%9C%A8%E6%8A%9B%E5%BC%83%E5%B8%86%E5%B8%83%E9%9E%8B%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 年轻人正在抛弃帆布鞋",
-      "date_published": "2026-10-24T06:10:44Z"
+      "id": "hackernews:https://github.com/deepseek-ai/DeepInfer",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "title": "[Hacker News 热门] DeepInfer: High-performance inference framework for DeepSeek models",
+      "date_published": "2026-10-24T07:01:18Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%BC%A0%E5%AE%B6%E9%BD%90%E8%A2%AB%E5%90%90%E6%A7%BD%E6%9C%80%E4%B8%8D%E5%96%9C%E6%AC%A2%E8%BF%99%E4%B8%AA%E8%BF%90%E5%8A%A8%E5%91%98%E5%A4%AA%E9%AB%98%E8%B0%83%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%BC%A0%E5%AE%B6%E9%BD%90%E8%A2%AB%E5%90%90%E6%A7%BD%E6%9C%80%E4%B8%8D%E5%96%9C%E6%AC%A2%E8%BF%99%E4%B8%AA%E8%BF%90%E5%8A%A8%E5%91%98%E5%A4%AA%E9%AB%98%E8%B0%83%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 张家齐被吐槽最不喜欢这个运动员太高调了",
-      "date_published": "2026-10-24T06:10:44Z"
+      "id": "hackernews:https://www.php.net/archive/2026.php#2026-10-21-5",
+      "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
+      "title": "[Hacker News 热门] Security advisory: Critical remote code execution vulnerabilities, update now",
+      "date_published": "2026-10-24T07:01:18Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E9%95%BF%E5%BE%81%E7%9A%84%E8%83%9C%E5%88%A9%E6%98%AF%E4%B8%80%E6%AD%A5%E6%AD%A5%E8%B5%B0%E5%87%BA%E6%9D%A5%E7%9A%84%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%95%BF%E5%BE%81%E7%9A%84%E8%83%9C%E5%88%A9%E6%98%AF%E4%B8%80%E6%AD%A5%E6%AD%A5%E8%B5%B0%E5%87%BA%E6%9D%A5%E7%9A%84%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 长征的胜利是一步步走出来的",
-      "date_published": "2026-10-24T06:10:44Z"
+      "id": "hackernews:https://quad9.net/news/blog/au-revoir-france/",
+      "url": "https://quad9.net/news/blog/au-revoir-france/",
+      "title": "[Hacker News 热门] Quad9 to exit France",
+      "date_published": "2026-10-24T07:01:18Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E6%B3%BD%E8%BF%9E%E6%96%AF%E5%9F%BA%E5%86%8D%E6%AC%A1%E5%96%8A%E8%AF%9D%E4%B8%AD%E5%9B%BD%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B3%BD%E8%BF%9E%E6%96%AF%E5%9F%BA%E5%86%8D%E6%AC%A1%E5%96%8A%E8%AF%9D%E4%B8%AD%E5%9B%BD%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 泽连斯基再次喊话中国",
-      "date_published": "2026-10-24T06:10:44Z"
+      "id": "hackernews:https://edjefferson.com/localwiki/",
+      "url": "https://edjefferson.com/localwiki/",
+      "title": "[Hacker News 热门] Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+      "date_published": "2026-10-24T07:01:18Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E4%BB%BB%E6%B3%BD%E5%B9%B3%E8%B4%A6%E5%8F%B7%E8%BF%9D%E8%A7%84%E8%A2%AB%E7%A6%81%E6%AD%A2%E5%85%B3%E6%B3%A8%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%BB%BB%E6%B3%BD%E5%B9%B3%E8%B4%A6%E5%8F%B7%E8%BF%9D%E8%A7%84%E8%A2%AB%E7%A6%81%E6%AD%A2%E5%85%B3%E6%B3%A8%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 任泽平账号违规被禁止关注",
-      "date_published": "2026-10-24T06:10:44Z"
+      "id": "hackernews:https://emudhra.we-have-a-problem.com/",
+      "url": "https://emudhra.we-have-a-problem.com/",
+      "title": "[Hacker News 热门] eMudhra intermediate CA compromise",
+      "date_published": "2026-10-24T07:01:18Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E7%88%B6%E4%BA%B2%E7%AA%81%E5%8F%91%E8%84%91%E6%A2%97%E5%84%BF%E5%AD%90%E7%94%A8AI%E6%8A%A2%E5%87%BA%E6%95%91%E5%91%BD%E6%97%B6%E9%97%B4%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%88%B6%E4%BA%B2%E7%AA%81%E5%8F%91%E8%84%91%E6%A2%97%E5%84%BF%E5%AD%90%E7%94%A8AI%E6%8A%A2%E5%87%BA%E6%95%91%E5%91%BD%E6%97%B6%E9%97%B4%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 父亲突发脑梗儿子用AI抢出救命时间",
-      "date_published": "2026-10-24T06:10:44Z"
+      "id": "hackernews:https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+      "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+      "title": "[Hacker News 热门] eMudhra to exit global SSL/TLS certificate business",
+      "date_published": "2026-10-24T07:01:18Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E7%94%B0%E6%9B%A6%E8%96%87%E8%A2%AB%E9%97%AE%E6%98%AF%E9%AD%8F%E5%A8%86%E8%BF%98%E6%98%AF%E5%90%9B%E9%BB%9B%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B0%E6%9B%A6%E8%96%87%E8%A2%AB%E9%97%AE%E6%98%AF%E9%AD%8F%E5%A8%86%E8%BF%98%E6%98%AF%E5%90%9B%E9%BB%9B%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 田曦薇被问是魏娆还是君黛",
-      "date_published": "2026-10-24T06:10:44Z"
+      "id": "hackernews:https://github.com/php/php-src/releases/tag/php-8.2.35",
+      "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
+      "title": "[Hacker News 热门] PHP 8.2.35",
+      "date_published": "2026-10-24T07:01:18Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E8%8C%83%E4%B8%9E%E4%B8%9E%E8%A3%A4%E5%AD%90%E8%A2%AB%E6%89%92%E6%8E%89%E7%9A%84%E5%8F%8D%E5%BA%94%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%8C%83%E4%B8%9E%E4%B8%9E%E8%A3%A4%E5%AD%90%E8%A2%AB%E6%89%92%E6%8E%89%E7%9A%84%E5%8F%8D%E5%BA%94%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 范丞丞裤子被扒掉的反应",
-      "date_published": "2026-10-24T06:10:44Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4%E5%9B%9E%E5%A4%8DMai%E6%88%91%E7%9A%84%E7%94%9C%E5%BF%83%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4%E5%9B%9E%E5%A4%8DMai%E6%88%91%E7%9A%84%E7%94%9C%E5%BF%83%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 迪丽热巴回复Mai我的甜心",
-      "date_published": "2026-10-24T06:10:44Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E8%8B%B9%E6%9E%9C%E7%A7%B0iPhoneDuo%E5%B1%8F%E5%B9%95%E4%BA%AE%E7%BA%BF%E9%9D%9E%E7%A1%AC%E4%BB%B6%E9%97%AE%E9%A2%98%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%8B%B9%E6%9E%9C%E7%A7%B0iPhoneDuo%E5%B1%8F%E5%B9%95%E4%BA%AE%E7%BA%BF%E9%9D%9E%E7%A1%AC%E4%BB%B6%E9%97%AE%E9%A2%98%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 苹果称iPhoneDuo屏幕亮线非硬件问题",
-      "date_published": "2026-10-24T06:10:44Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E4%BC%98%E9%85%B7%E5%8F%88%E5%BC%80%E5%A7%8B%E5%8D%96%E5%AB%81%E9%87%91%E9%92%97%E7%9A%84%E6%88%8F%E6%9C%8D%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%BC%98%E9%85%B7%E5%8F%88%E5%BC%80%E5%A7%8B%E5%8D%96%E5%AB%81%E9%87%91%E9%92%97%E7%9A%84%E6%88%8F%E6%9C%8D%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 优酷又开始卖嫁金钗的戏服了",
-      "date_published": "2026-10-24T06:10:44Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%AB%81%E9%87%91%E9%92%97%E8%8A%B1%E7%B5%AE%E6%AF%9B%E6%9E%97%E6%9E%97%E6%8E%A9%E9%9D%A2%E7%97%9B%E5%93%AD%E8%BF%99%E6%AE%B5%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AB%81%E9%87%91%E9%92%97%E8%8A%B1%E7%B5%AE%E6%AF%9B%E6%9E%97%E6%9E%97%E6%8E%A9%E9%9D%A2%E7%97%9B%E5%93%AD%E8%BF%99%E6%AE%B5%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 嫁金钗花絮毛林林掩面痛哭这段",
-      "date_published": "2026-10-24T06:10:44Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%2380%E5%90%8E%E5%9B%9E%E5%BF%86%E6%9D%80%E4%B8%8A%E6%96%B0%E6%96%B0%E8%AF%BE%E4%BB%B6%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%2380%E5%90%8E%E5%9B%9E%E5%BF%86%E6%9D%80%E4%B8%8A%E6%96%B0%E6%96%B0%E8%AF%BE%E4%BB%B6%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 80后回忆杀上新新课件",
-      "date_published": "2026-10-24T06:10:44Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E8%83%A1%E5%85%88%E7%85%A6%E6%8B%89%E5%BC%80%E7%8E%8B%E5%AE%89%E5%AE%87%E7%9C%BC%E7%BD%A9%E4%B8%80%E8%B5%B7%E6%AC%A3%E8%B5%8F%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%83%A1%E5%85%88%E7%85%A6%E6%8B%89%E5%BC%80%E7%8E%8B%E5%AE%89%E5%AE%87%E7%9C%BC%E7%BD%A9%E4%B8%80%E8%B5%B7%E6%AC%A3%E8%B5%8F%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 胡先煦拉开王安宇眼罩一起欣赏",
-      "date_published": "2026-10-24T06:10:44Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E8%B4%BE%E5%86%B0%E7%9A%84%E5%8E%A8%E8%89%BA%E4%BA%8B%E4%B8%9A%E5%8F%88%E6%9C%89%E4%BA%86%E6%96%B0%E8%BF%9B%E5%B1%95%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%B4%BE%E5%86%B0%E7%9A%84%E5%8E%A8%E8%89%BA%E4%BA%8B%E4%B8%9A%E5%8F%88%E6%9C%89%E4%BA%86%E6%96%B0%E8%BF%9B%E5%B1%95%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 贾冰的厨艺事业又有了新进展",
-      "date_published": "2026-10-24T06:10:44Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E4%B8%A5%E6%B5%A9%E7%BF%94%E6%96%B0%E5%89%A7%E6%BC%94%E6%8A%80%E5%8F%A3%E7%A2%91%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%A5%E6%B5%A9%E7%BF%94%E6%96%B0%E5%89%A7%E6%BC%94%E6%8A%80%E5%8F%A3%E7%A2%91%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 严浩翔新剧演技口碑",
-      "date_published": "2026-10-24T06:10:44Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%B9%B4%E8%BD%BB%E4%BA%BA%E6%AD%A3%E5%9C%A8%E6%8A%9B%E5%BC%83%E5%B8%86%E5%B8%83%E9%9E%8B%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%B9%B4%E8%BD%BB%E4%BA%BA%E6%AD%A3%E5%9C%A8%E6%8A%9B%E5%BC%83%E5%B8%86%E5%B8%83%E9%9E%8B%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 年轻人正在抛弃帆布鞋",
-      "date_published": "2026-10-24T06:10:44Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E9%95%BF%E5%BE%81%E7%9A%84%E8%83%9C%E5%88%A9%E6%98%AF%E4%B8%80%E6%AD%A5%E6%AD%A5%E8%B5%B0%E5%87%BA%E6%9D%A5%E7%9A%84%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%95%BF%E5%BE%81%E7%9A%84%E8%83%9C%E5%88%A9%E6%98%AF%E4%B8%80%E6%AD%A5%E6%AD%A5%E8%B5%B0%E5%87%BA%E6%9D%A5%E7%9A%84%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 长征的胜利是一步步走出来的",
-      "date_published": "2026-10-24T06:10:44Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E7%88%B6%E4%BA%B2%E7%AA%81%E5%8F%91%E8%84%91%E6%A2%97%E5%84%BF%E5%AD%90%E7%94%A8AI%E6%8A%A2%E5%87%BA%E6%95%91%E5%91%BD%E6%97%B6%E9%97%B4%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%88%B6%E4%BA%B2%E7%AA%81%E5%8F%91%E8%84%91%E6%A2%97%E5%84%BF%E5%AD%90%E7%94%A8AI%E6%8A%A2%E5%87%BA%E6%95%91%E5%91%BD%E6%97%B6%E9%97%B4%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 父亲突发脑梗儿子用AI抢出救命时间",
-      "date_published": "2026-10-24T06:10:44Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%2380%E5%90%8E%E5%9B%9E%E5%BF%86%E6%9D%80%E4%B8%8A%E6%96%B0%E6%96%B0%E8%AF%BE%E4%BB%B6%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%2380%E5%90%8E%E5%9B%9E%E5%BF%86%E6%9D%80%E4%B8%8A%E6%96%B0%E6%96%B0%E8%AF%BE%E4%BB%B6%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 80后回忆杀上新新课件",
-      "date_published": "2026-10-24T06:10:44Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%BE%8B%E5%B8%88%E5%9B%9E%E5%BA%94%E7%8B%AC%E7%94%9F%E5%A5%B3%E7%BB%A7%E6%89%BF2%E4%BA%BF%E9%81%AD%E7%A6%BB%E5%A9%9A%E5%88%86%E4%BA%A7%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%BE%8B%E5%B8%88%E5%9B%9E%E5%BA%94%E7%8B%AC%E7%94%9F%E5%A5%B3%E7%BB%A7%E6%89%BF2%E4%BA%BF%E9%81%AD%E7%A6%BB%E5%A9%9A%E5%88%86%E4%BA%A7%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 律师回应独生女继承2亿遭离婚分产",
-      "date_published": "2026-10-24T06:10:44Z"
+      "id": "hackernews:https://twitter.com/opencode/status/2111516673953935833",
+      "url": "https://twitter.com/opencode/status/2111516673953935833",
+      "title": "[Hacker News 热门] OpenCode Hacked: User credentials leaked",
+      "date_published": "2026-10-24T07:01:18Z"
     }
   ]
 }
