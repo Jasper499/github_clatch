@@ -6,142 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%8E%BB%E5%B9%B4%E5%85%A8%E5%9B%BD%E7%BB%93%E5%A9%9A%E7%99%BB%E8%AE%B0676%E4%B8%87%E5%AF%B9%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8E%BB%E5%B9%B4%E5%85%A8%E5%9B%BD%E7%BB%93%E5%A9%9A%E7%99%BB%E8%AE%B0676%E4%B8%87%E5%AF%B9%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 去年全国结婚登记676万对",
-      "date_published": "2026-10-24T12:10:47Z"
+      "id": "hackernews:https://github.com/deepseek-ai/DeepInfer",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "title": "[Hacker News 热门] DeepInfer: High-performance inference framework for DeepSeek models",
+      "date_published": "2026-10-24T14:00:47Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E7%A7%A6%E5%A7%8B%E7%9A%87%E5%85%B5%E9%A9%AC%E4%BF%91%E4%B8%8A%E5%8F%91%E7%8E%B0%E5%A5%B3%E6%80%A7%E6%8C%87%E7%BA%B9%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%A7%A6%E5%A7%8B%E7%9A%87%E5%85%B5%E9%A9%AC%E4%BF%91%E4%B8%8A%E5%8F%91%E7%8E%B0%E5%A5%B3%E6%80%A7%E6%8C%87%E7%BA%B9%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 秦始皇兵马俑上发现女性指纹",
-      "date_published": "2026-10-24T12:10:47Z"
+      "id": "hackernews:https://www.php.net/archive/2026.php#2026-10-21-5",
+      "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
+      "title": "[Hacker News 热门] Security advisory: Critical remote code execution vulnerabilities, update now",
+      "date_published": "2026-10-24T14:00:47Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E6%B8%9D%E6%98%86%E9%AB%98%E9%93%81%E5%85%A8%E7%BA%BF%E9%93%BA%E8%BD%A8%E5%AE%8C%E6%88%90%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B8%9D%E6%98%86%E9%AB%98%E9%93%81%E5%85%A8%E7%BA%BF%E9%93%BA%E8%BD%A8%E5%AE%8C%E6%88%90%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 渝昆高铁全线铺轨完成",
-      "date_published": "2026-10-24T12:10:47Z"
+      "id": "hackernews:https://edjefferson.com/localwiki/",
+      "url": "https://edjefferson.com/localwiki/",
+      "title": "[Hacker News 热门] Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+      "date_published": "2026-10-24T14:00:47Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E8%8C%83%E4%B8%9E%E4%B8%9E%E7%A1%AE%E8%AE%A4%E5%87%BA%E6%BC%94%E7%92%80%E7%92%A8%E4%B9%8B%E4%B8%8A%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%8C%83%E4%B8%9E%E4%B8%9E%E7%A1%AE%E8%AE%A4%E5%87%BA%E6%BC%94%E7%92%80%E7%92%A8%E4%B9%8B%E4%B8%8A%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 范丞丞确认出演璀璨之上",
-      "date_published": "2026-10-24T12:10:47Z"
+      "id": "hackernews:https://quad9.net/news/blog/au-revoir-france/",
+      "url": "https://quad9.net/news/blog/au-revoir-france/",
+      "title": "[Hacker News 热门] Quad9 to exit France",
+      "date_published": "2026-10-24T14:00:47Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E8%93%89%E5%9F%8E%E6%9C%AB%E8%BD%AE%E8%8B%A5%E8%BE%93%E7%90%83%E8%8B%B1%E5%8D%9A%E8%B5%A2%E7%90%83%E5%B0%86%E9%80%86%E8%A2%AD%E5%A4%BA%E5%86%A0%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%93%89%E5%9F%8E%E6%9C%AB%E8%BD%AE%E8%8B%A5%E8%BE%93%E7%90%83%E8%8B%B1%E5%8D%9A%E8%B5%A2%E7%90%83%E5%B0%86%E9%80%86%E8%A2%AD%E5%A4%BA%E5%86%A0%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 蓉城末轮若输球英博赢球将逆袭夺冠",
-      "date_published": "2026-10-24T12:10:47Z"
+      "id": "hackernews:https://emudhra.we-have-a-problem.com/",
+      "url": "https://emudhra.we-have-a-problem.com/",
+      "title": "[Hacker News 热门] eMudhra intermediate CA compromise",
+      "date_published": "2026-10-24T14:00:47Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E6%9D%8E%E6%98%80%E9%94%90%E4%B8%BB%E5%8A%A8%E5%92%8C%E5%AD%9F%E5%AD%90%E4%B9%89%E8%AF%B4%E4%BA%8C%E6%90%AD%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E6%98%80%E9%94%90%E4%B8%BB%E5%8A%A8%E5%92%8C%E5%AD%9F%E5%AD%90%E4%B9%89%E8%AF%B4%E4%BA%8C%E6%90%AD%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 李昀锐主动和孟子义说二搭",
-      "date_published": "2026-10-24T12:10:47Z"
+      "id": "hackernews:https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+      "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+      "title": "[Hacker News 热门] eMudhra to exit global SSL/TLS certificate business",
+      "date_published": "2026-10-24T14:00:47Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%93%AA%E4%BA%9B%E7%9C%81%E4%BB%BD%E7%9A%84%E7%BB%93%E5%A9%9A%E4%BA%BA%E6%95%B0%E5%A4%9A%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%93%AA%E4%BA%9B%E7%9C%81%E4%BB%BD%E7%9A%84%E7%BB%93%E5%A9%9A%E4%BA%BA%E6%95%B0%E5%A4%9A%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 哪些省份的结婚人数多",
-      "date_published": "2026-10-24T12:10:47Z"
+      "id": "hackernews:https://github.com/php/php-src/releases/tag/php-8.2.35",
+      "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
+      "title": "[Hacker News 热门] PHP 8.2.35",
+      "date_published": "2026-10-24T14:00:47Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E5%B0%9A%E5%85%AC%E4%B8%BB%E7%BC%96%E5%89%A7%E6%B0%B4%E5%B9%B3&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%B0%9A%E5%85%AC%E4%B8%BB%E7%BC%96%E5%89%A7%E6%B0%B4%E5%B9%B3&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 尚公主编剧水平",
-      "date_published": "2026-10-24T12:10:47Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E5%B0%9A%E5%85%AC%E4%B8%BB%E7%BC%96%E5%89%A7%E6%B0%B4%E5%B9%B3&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%B0%9A%E5%85%AC%E4%B8%BB%E7%BC%96%E5%89%A7%E6%B0%B4%E5%B9%B3&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 尚公主编剧水平",
-      "date_published": "2026-10-24T12:10:47Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E6%B8%9D%E6%98%86%E9%AB%98%E9%93%81%E5%85%A8%E7%BA%BF%E9%93%BA%E8%BD%A8%E5%AE%8C%E6%88%90%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B8%9D%E6%98%86%E9%AB%98%E9%93%81%E5%85%A8%E7%BA%BF%E9%93%BA%E8%BD%A8%E5%AE%8C%E6%88%90%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 渝昆高铁全线铺轨完成",
-      "date_published": "2026-10-24T12:10:47Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E6%B2%B3%E5%8D%97%E4%B8%80%E7%94%B7%E5%AD%90%E5%B8%A6%E5%A4%9A%E5%8F%AA%E7%83%88%E7%8A%AC%E5%92%AC%E6%AD%BB%E5%AE%B6%E7%8A%AC%E8%A3%85%E8%B5%B0%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B2%B3%E5%8D%97%E4%B8%80%E7%94%B7%E5%AD%90%E5%B8%A6%E5%A4%9A%E5%8F%AA%E7%83%88%E7%8A%AC%E5%92%AC%E6%AD%BB%E5%AE%B6%E7%8A%AC%E8%A3%85%E8%B5%B0%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 河南一男子带多只烈犬咬死家犬装走",
-      "date_published": "2026-10-24T12:10:47Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%2394%E5%B2%81%E7%8B%AC%E6%B8%B8%E8%A5%BF%E8%97%8F%E7%88%B7%E7%88%B7%E5%9B%9E%E5%AE%B6%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%2394%E5%B2%81%E7%8B%AC%E6%B8%B8%E8%A5%BF%E8%97%8F%E7%88%B7%E7%88%B7%E5%9B%9E%E5%AE%B6%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 94岁独游西藏爷爷回家了",
-      "date_published": "2026-10-24T12:10:47Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E7%A6%81%E7%83%9F%E6%A0%87%E8%AF%86%E4%B8%8B%E6%91%86%E7%9D%80%E7%83%9F%E7%81%B0%E7%BC%B8%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%A6%81%E7%83%9F%E6%A0%87%E8%AF%86%E4%B8%8B%E6%91%86%E7%9D%80%E7%83%9F%E7%81%B0%E7%BC%B8%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 禁烟标识下摆着烟灰缸",
-      "date_published": "2026-10-24T12:10:47Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E7%8E%8B%E4%BF%8A%E5%87%AF%E5%89%8D%E5%87%A0%E5%A4%A9%E8%84%9A%E6%8B%89%E4%BC%A4%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E4%BF%8A%E5%87%AF%E5%89%8D%E5%87%A0%E5%A4%A9%E8%84%9A%E6%8B%89%E4%BC%A4%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 王俊凯前几天脚拉伤了",
-      "date_published": "2026-10-24T12:10:47Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%BE%90%E5%98%89%E4%BD%99100%E4%BB%B0%E4%BA%9A%E6%B4%B2%E7%BA%AA%E5%BD%95%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%BE%90%E5%98%89%E4%BD%99100%E4%BB%B0%E4%BA%9A%E6%B4%B2%E7%BA%AA%E5%BD%95%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 徐嘉余100仰亚洲纪录",
-      "date_published": "2026-10-24T12:10:47Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E4%BB%A5%E4%BF%A1%E5%BF%83%E6%B1%87%E8%81%9A%E5%8A%9B%E9%87%8F%E4%BB%A5%E5%90%88%E4%BD%9C%E7%A0%B4%E8%A7%A3%E9%9A%BE%E9%A2%98%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%BB%A5%E4%BF%A1%E5%BF%83%E6%B1%87%E8%81%9A%E5%8A%9B%E9%87%8F%E4%BB%A5%E5%90%88%E4%BD%9C%E7%A0%B4%E8%A7%A3%E9%9A%BE%E9%A2%98%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 以信心汇聚力量以合作破解难题",
-      "date_published": "2026-10-24T12:10:47Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%8E%BB%E5%B9%B4%E5%85%A8%E5%9B%BD%E7%BB%93%E5%A9%9A%E7%99%BB%E8%AE%B0676%E4%B8%87%E5%AF%B9%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8E%BB%E5%B9%B4%E5%85%A8%E5%9B%BD%E7%BB%93%E5%A9%9A%E7%99%BB%E8%AE%B0676%E4%B8%87%E5%AF%B9%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 去年全国结婚登记676万对",
-      "date_published": "2026-10-24T12:10:47Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E7%A7%A6%E5%A7%8B%E7%9A%87%E5%85%B5%E9%A9%AC%E4%BF%91%E4%B8%8A%E5%8F%91%E7%8E%B0%E5%A5%B3%E6%80%A7%E6%8C%87%E7%BA%B9%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%A7%A6%E5%A7%8B%E7%9A%87%E5%85%B5%E9%A9%AC%E4%BF%91%E4%B8%8A%E5%8F%91%E7%8E%B0%E5%A5%B3%E6%80%A7%E6%8C%87%E7%BA%B9%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 秦始皇兵马俑上发现女性指纹",
-      "date_published": "2026-10-24T12:10:47Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%93%AA%E4%BA%9B%E7%9C%81%E4%BB%BD%E7%9A%84%E7%BB%93%E5%A9%9A%E4%BA%BA%E6%95%B0%E5%A4%9A%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%93%AA%E4%BA%9B%E7%9C%81%E4%BB%BD%E7%9A%84%E7%BB%93%E5%A9%9A%E4%BA%BA%E6%95%B0%E5%A4%9A%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 哪些省份的结婚人数多",
-      "date_published": "2026-10-24T12:10:47Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E6%B2%B3%E5%8D%97%E4%B8%80%E7%94%B7%E5%AD%90%E5%B8%A6%E5%A4%9A%E5%8F%AA%E7%83%88%E7%8A%AC%E5%92%AC%E6%AD%BB%E5%AE%B6%E7%8A%AC%E8%A3%85%E8%B5%B0%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B2%B3%E5%8D%97%E4%B8%80%E7%94%B7%E5%AD%90%E5%B8%A6%E5%A4%9A%E5%8F%AA%E7%83%88%E7%8A%AC%E5%92%AC%E6%AD%BB%E5%AE%B6%E7%8A%AC%E8%A3%85%E8%B5%B0%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 河南一男子带多只烈犬咬死家犬装走",
-      "date_published": "2026-10-24T12:10:47Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E7%A6%81%E7%83%9F%E6%A0%87%E8%AF%86%E4%B8%8B%E6%91%86%E7%9D%80%E7%83%9F%E7%81%B0%E7%BC%B8%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%A6%81%E7%83%9F%E6%A0%87%E8%AF%86%E4%B8%8B%E6%91%86%E7%9D%80%E7%83%9F%E7%81%B0%E7%BC%B8%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 禁烟标识下摆着烟灰缸",
-      "date_published": "2026-10-24T12:10:47Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E5%AD%A9%E5%AD%90%E8%B0%83%E5%88%B0%E6%9C%80%E5%90%8E%E4%B8%80%E6%8E%92%E6%98%AF%E4%B8%8D%E6%98%AF%E5%BE%97%E7%BD%AA%E8%80%81%E5%B8%88&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%AD%A9%E5%AD%90%E8%B0%83%E5%88%B0%E6%9C%80%E5%90%8E%E4%B8%80%E6%8E%92%E6%98%AF%E4%B8%8D%E6%98%AF%E5%BE%97%E7%BD%AA%E8%80%81%E5%B8%88&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 孩子调到最后一排是不是得罪老师",
-      "date_published": "2026-10-24T12:10:47Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E6%8B%8D%E5%92%8C%E4%BA%B2%E5%85%AC%E4%B8%BB%E5%88%AB%E6%A8%AA%E7%A9%BA%E4%B9%B1%E5%8F%91%E6%98%8E&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E6%8B%8D%E5%92%8C%E4%BA%B2%E5%85%AC%E4%B8%BB%E5%88%AB%E6%A8%AA%E7%A9%BA%E4%B9%B1%E5%8F%91%E6%98%8E&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 拍和亲公主别横空乱发明",
-      "date_published": "2026-10-24T12:10:47Z"
+      "id": "hackernews:https://twitter.com/opencode/status/2111516673953935833",
+      "url": "https://twitter.com/opencode/status/2111516673953935833",
+      "title": "[Hacker News 热门] OpenCode Hacked: User credentials leaked",
+      "date_published": "2026-10-24T14:00:47Z"
     }
   ]
 }
