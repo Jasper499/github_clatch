@@ -6,148 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E6%B1%9F%E8%8B%8F%E5%A7%91%E5%A8%98%E7%BD%91%E8%B4%AD%E9%B9%A4%E5%B2%97%E6%88%BF%E6%90%AC%E8%BF%9B%E5%8E%BB%E5%90%8E%E5%82%BB%E7%9C%BC%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B1%9F%E8%8B%8F%E5%A7%91%E5%A8%98%E7%BD%91%E8%B4%AD%E9%B9%A4%E5%B2%97%E6%88%BF%E6%90%AC%E8%BF%9B%E5%8E%BB%E5%90%8E%E5%82%BB%E7%9C%BC%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 江苏姑娘网购鹤岗房搬进去后傻眼",
-      "date_published": "2026-10-25T06:10:43Z"
+      "id": "hackernews:https://github.com/deepseek-ai/DeepInfer",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "title": "[Hacker News 热门] DeepInfer: High-performance inference framework for DeepSeek models",
+      "date_published": "2026-10-25T07:25:36Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%8E%BF%E5%A7%94%E4%B9%A6%E8%AE%B0%E6%8B%92%E7%BB%9D%E5%BC%A0%E9%9B%AA%E4%B8%BA%E5%AE%B6%E4%B9%A1%E6%89%93%E5%B9%BF%E5%91%8A%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8E%BF%E5%A7%94%E4%B9%A6%E8%AE%B0%E6%8B%92%E7%BB%9D%E5%BC%A0%E9%9B%AA%E4%B8%BA%E5%AE%B6%E4%B9%A1%E6%89%93%E5%B9%BF%E5%91%8A%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 县委书记拒绝张雪为家乡打广告",
-      "date_published": "2026-10-25T06:10:43Z"
+      "id": "hackernews:https://edjefferson.com/localwiki/",
+      "url": "https://edjefferson.com/localwiki/",
+      "title": "[Hacker News 热门] Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+      "date_published": "2026-10-25T07:25:36Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%90%91%E8%8B%B1%E9%9B%84%E8%87%B4%E6%95%AC%E8%BF%8E%E8%8B%B1%E9%9B%84%E5%9B%9E%E5%AE%B6%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%90%91%E8%8B%B1%E9%9B%84%E8%87%B4%E6%95%AC%E8%BF%8E%E8%8B%B1%E9%9B%84%E5%9B%9E%E5%AE%B6%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 向英雄致敬迎英雄回家",
-      "date_published": "2026-10-25T06:10:43Z"
+      "id": "hackernews:https://www.php.net/archive/2026.php#2026-10-21-5",
+      "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
+      "title": "[Hacker News 热门] Security advisory: Critical remote code execution vulnerabilities, update now",
+      "date_published": "2026-10-25T07:25:36Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E6%B7%B1%E5%9C%B3%E6%B0%B4%E8%B4%9D%E8%A2%AB%E6%8C%A4%E7%88%86%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B7%B1%E5%9C%B3%E6%B0%B4%E8%B4%9D%E8%A2%AB%E6%8C%A4%E7%88%86%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 深圳水贝被挤爆",
-      "date_published": "2026-10-25T06:10:43Z"
+      "id": "hackernews:https://quad9.net/news/blog/au-revoir-france/",
+      "url": "https://quad9.net/news/blog/au-revoir-france/",
+      "title": "[Hacker News 热门] Quad9 to exit France",
+      "date_published": "2026-10-25T07:25:36Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E6%97%A5%E5%89%A7Vivant%E6%8A%B9%E9%BB%91%E4%B8%AD%E5%9B%BD%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%97%A5%E5%89%A7Vivant%E6%8A%B9%E9%BB%91%E4%B8%AD%E5%9B%BD%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 日剧Vivant抹黑中国",
-      "date_published": "2026-10-25T06:10:43Z"
+      "id": "hackernews:https://emudhra.we-have-a-problem.com/",
+      "url": "https://emudhra.we-have-a-problem.com/",
+      "title": "[Hacker News 热门] eMudhra intermediate CA compromise",
+      "date_published": "2026-10-25T07:25:36Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%232025%E5%B9%B4%E5%87%BA%E7%94%9F%E4%BA%BA%E5%8F%A3%E7%94%B7%E5%AD%A9%E5%A4%9A%E4%BA%8E%E5%A5%B3%E5%AD%A9%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%232025%E5%B9%B4%E5%87%BA%E7%94%9F%E4%BA%BA%E5%8F%A3%E7%94%B7%E5%AD%A9%E5%A4%9A%E4%BA%8E%E5%A5%B3%E5%AD%A9%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 2025年出生人口男孩多于女孩",
-      "date_published": "2026-10-25T06:10:43Z"
+      "id": "hackernews:https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+      "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+      "title": "[Hacker News 热门] eMudhra to exit global SSL/TLS certificate business",
+      "date_published": "2026-10-25T07:25:36Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23178%E5%B9%B3%E6%88%BF%E6%94%B96%E4%B8%AA%E5%A5%97%E9%97%B4%E6%A5%BC%E4%B8%8B%E9%82%BB%E5%B1%85%E5%B4%A9%E6%BA%83%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23178%E5%B9%B3%E6%88%BF%E6%94%B96%E4%B8%AA%E5%A5%97%E9%97%B4%E6%A5%BC%E4%B8%8B%E9%82%BB%E5%B1%85%E5%B4%A9%E6%BA%83%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 178平房改6个套间楼下邻居崩溃",
-      "date_published": "2026-10-25T06:10:43Z"
+      "id": "hackernews:https://github.com/php/php-src/releases/tag/php-8.2.35",
+      "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
+      "title": "[Hacker News 热门] PHP 8.2.35",
+      "date_published": "2026-10-25T07:25:36Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=S16%E7%91%9E%E5%A3%AB%E8%BD%AE1-1%E7%BB%84%E6%AD%BB%E4%BA%A1%E4%B9%8B%E7%BB%84%E5%87%BA%E7%82%89&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=S16%E7%91%9E%E5%A3%AB%E8%BD%AE1-1%E7%BB%84%E6%AD%BB%E4%BA%A1%E4%B9%8B%E7%BB%84%E5%87%BA%E7%82%89&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] S16瑞士轮1-1组死亡之组出炉",
-      "date_published": "2026-10-25T06:10:43Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%85%A8%E5%9B%BD%E6%80%BB%E4%BA%BA%E5%8F%A3%E9%9D%A2%E4%B8%B4%E8%B7%8C%E7%A0%B414%E4%BA%BF%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%85%A8%E5%9B%BD%E6%80%BB%E4%BA%BA%E5%8F%A3%E9%9D%A2%E4%B8%B4%E8%B7%8C%E7%A0%B414%E4%BA%BF%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 全国总人口面临跌破14亿",
-      "date_published": "2026-10-25T06:10:43Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23iPhoneDuo%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80%E9%BB%91%E8%BE%B9%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23iPhoneDuo%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80%E9%BB%91%E8%BE%B9%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] iPhoneDuo王者荣耀黑边",
-      "date_published": "2026-10-25T06:10:43Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E8%8A%B1%E5%B0%918%E5%85%A8%E5%91%98%E4%B8%8A%E8%BD%A6%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%8A%B1%E5%B0%918%E5%85%A8%E5%91%98%E4%B8%8A%E8%BD%A6%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 花少8全员上车",
-      "date_published": "2026-10-25T06:10:43Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E8%B5%B5%E4%B8%BD%E9%A2%96%E6%96%87%E8%8D%A3%E5%A5%9630%E5%B9%B4%E7%BB%8F%E5%85%B8%E5%BD%B1%E8%A7%86%E5%89%A7%E6%9C%89%E4%B8%89%E9%83%A8%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%B5%B5%E4%B8%BD%E9%A2%96%E6%96%87%E8%8D%A3%E5%A5%9630%E5%B9%B4%E7%BB%8F%E5%85%B8%E5%BD%B1%E8%A7%86%E5%89%A7%E6%9C%89%E4%B8%89%E9%83%A8%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 赵丽颖文荣奖30年经典影视剧有三部",
-      "date_published": "2026-10-25T06:10:43Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%A5%A5%E5%B7%B4%E9%A9%AC%E6%89%B9%E7%89%B9%E6%9C%97%E6%99%AE%E7%99%BD%E5%AE%AB%E8%A3%85%E4%BF%AE%E5%83%8F%E8%90%A8%E8%BE%BE%E5%A7%86%E9%A4%90%E5%8E%85%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%A5%E5%B7%B4%E9%A9%AC%E6%89%B9%E7%89%B9%E6%9C%97%E6%99%AE%E7%99%BD%E5%AE%AB%E8%A3%85%E4%BF%AE%E5%83%8F%E8%90%A8%E8%BE%BE%E5%A7%86%E9%A4%90%E5%8E%85%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 奥巴马批特朗普白宫装修像萨达姆餐厅",
-      "date_published": "2026-10-25T06:10:43Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%A4%9A%E5%90%8D%E5%A5%B3%E6%80%A7%E8%A2%AB%E5%8F%91%E8%89%B2%E6%83%85%E8%BD%AF%E4%BB%B6%E9%83%BD%E6%8E%A5%E8%A7%A6%E8%BF%87%E5%90%8C%E4%B8%80%E4%BA%BA%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%9A%E5%90%8D%E5%A5%B3%E6%80%A7%E8%A2%AB%E5%8F%91%E8%89%B2%E6%83%85%E8%BD%AF%E4%BB%B6%E9%83%BD%E6%8E%A5%E8%A7%A6%E8%BF%87%E5%90%8C%E4%B8%80%E4%BA%BA%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 多名女性被发色情软件都接触过同一人",
-      "date_published": "2026-10-25T06:10:43Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E9%A6%99%E6%B8%AF%E4%B8%AD%E7%8E%AF%E5%81%B6%E9%81%87%E8%99%9E%E4%B9%A6%E6%AC%A3%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%A6%99%E6%B8%AF%E4%B8%AD%E7%8E%AF%E5%81%B6%E9%81%87%E8%99%9E%E4%B9%A6%E6%AC%A3%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 香港中环偶遇虞书欣",
-      "date_published": "2026-10-25T06:10:43Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E7%8E%8B%E9%B9%A4%E6%A3%A3%E8%AF%B4%E5%93%A5%E4%BB%AC%E7%9A%84%E5%93%A5%E4%BB%AC%E4%B9%9F%E5%A5%BD%E5%BE%97%E5%BE%88%E7%96%91%E4%BC%BC%E8%A2%AB%E5%89%AA%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E9%B9%A4%E6%A3%A3%E8%AF%B4%E5%93%A5%E4%BB%AC%E7%9A%84%E5%93%A5%E4%BB%AC%E4%B9%9F%E5%A5%BD%E5%BE%97%E5%BE%88%E7%96%91%E4%BC%BC%E8%A2%AB%E5%89%AA%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 王鹤棣说哥们的哥们也好得很疑似被剪",
-      "date_published": "2026-10-25T06:10:43Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E6%B1%9F%E8%8B%8F%E5%A7%91%E5%A8%98%E7%BD%91%E8%B4%AD%E9%B9%A4%E5%B2%97%E6%88%BF%E6%90%AC%E8%BF%9B%E5%8E%BB%E5%90%8E%E5%82%BB%E7%9C%BC%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B1%9F%E8%8B%8F%E5%A7%91%E5%A8%98%E7%BD%91%E8%B4%AD%E9%B9%A4%E5%B2%97%E6%88%BF%E6%90%AC%E8%BF%9B%E5%8E%BB%E5%90%8E%E5%82%BB%E7%9C%BC%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 江苏姑娘网购鹤岗房搬进去后傻眼",
-      "date_published": "2026-10-25T06:10:43Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%8E%BF%E5%A7%94%E4%B9%A6%E8%AE%B0%E6%8B%92%E7%BB%9D%E5%BC%A0%E9%9B%AA%E4%B8%BA%E5%AE%B6%E4%B9%A1%E6%89%93%E5%B9%BF%E5%91%8A%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8E%BF%E5%A7%94%E4%B9%A6%E8%AE%B0%E6%8B%92%E7%BB%9D%E5%BC%A0%E9%9B%AA%E4%B8%BA%E5%AE%B6%E4%B9%A1%E6%89%93%E5%B9%BF%E5%91%8A%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 县委书记拒绝张雪为家乡打广告",
-      "date_published": "2026-10-25T06:10:43Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E6%97%A5%E5%89%A7Vivant%E6%8A%B9%E9%BB%91%E4%B8%AD%E5%9B%BD%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%97%A5%E5%89%A7Vivant%E6%8A%B9%E9%BB%91%E4%B8%AD%E5%9B%BD%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 日剧Vivant抹黑中国",
-      "date_published": "2026-10-25T06:10:43Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%232025%E5%B9%B4%E5%87%BA%E7%94%9F%E4%BA%BA%E5%8F%A3%E7%94%B7%E5%AD%A9%E5%A4%9A%E4%BA%8E%E5%A5%B3%E5%AD%A9%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%232025%E5%B9%B4%E5%87%BA%E7%94%9F%E4%BA%BA%E5%8F%A3%E7%94%B7%E5%AD%A9%E5%A4%9A%E4%BA%8E%E5%A5%B3%E5%AD%A9%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 2025年出生人口男孩多于女孩",
-      "date_published": "2026-10-25T06:10:43Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23178%E5%B9%B3%E6%88%BF%E6%94%B96%E4%B8%AA%E5%A5%97%E9%97%B4%E6%A5%BC%E4%B8%8B%E9%82%BB%E5%B1%85%E5%B4%A9%E6%BA%83%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23178%E5%B9%B3%E6%88%BF%E6%94%B96%E4%B8%AA%E5%A5%97%E9%97%B4%E6%A5%BC%E4%B8%8B%E9%82%BB%E5%B1%85%E5%B4%A9%E6%BA%83%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 178平房改6个套间楼下邻居崩溃",
-      "date_published": "2026-10-25T06:10:43Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%A4%9A%E5%90%8D%E5%A5%B3%E6%80%A7%E8%A2%AB%E5%8F%91%E8%89%B2%E6%83%85%E8%BD%AF%E4%BB%B6%E9%83%BD%E6%8E%A5%E8%A7%A6%E8%BF%87%E5%90%8C%E4%B8%80%E4%BA%BA%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%9A%E5%90%8D%E5%A5%B3%E6%80%A7%E8%A2%AB%E5%8F%91%E8%89%B2%E6%83%85%E8%BD%AF%E4%BB%B6%E9%83%BD%E6%8E%A5%E8%A7%A6%E8%BF%87%E5%90%8C%E4%B8%80%E4%BA%BA%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 多名女性被发色情软件都接触过同一人",
-      "date_published": "2026-10-25T06:10:43Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%BC%A0%E9%9B%AA%E5%88%B7%E6%96%B0%E5%90%89%E5%B0%BC%E6%96%AF%E7%BA%AA%E5%BD%95%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%BC%A0%E9%9B%AA%E5%88%B7%E6%96%B0%E5%90%89%E5%B0%BC%E6%96%AF%E7%BA%AA%E5%BD%95%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 张雪刷新吉尼斯纪录",
-      "date_published": "2026-10-25T06:10:43Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E5%BC%A0%E9%9B%AA%E5%A6%BB%E5%AD%90%E9%AA%914%E5%A4%A9%E6%91%A9%E6%89%98%E5%9B%9E%E9%BA%BB%E9%98%B3%E5%8A%A0%E6%B2%B9&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E9%9B%AA%E5%A6%BB%E5%AD%90%E9%AA%914%E5%A4%A9%E6%91%A9%E6%89%98%E5%9B%9E%E9%BA%BB%E9%98%B3%E5%8A%A0%E6%B2%B9&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 张雪妻子骑4天摩托回麻阳加油",
-      "date_published": "2026-10-25T06:10:43Z"
+      "id": "hackernews:https://blog.calif.io/p/iphone",
+      "url": "https://blog.calif.io/p/iphone",
+      "title": "[Hacker News 热门] Today, we hacked what we'd set out to hack: the iPhone",
+      "date_published": "2026-10-25T07:25:36Z"
     }
   ]
 }
