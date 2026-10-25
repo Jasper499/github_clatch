@@ -1,120 +1,80 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-10-25T12:10:45Z",
+  "savedAt": "2026-10-25T16:03:44Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-25，共 11 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-25，共 7 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-10-25",
   "items": [
     {
-      "title": "县委书记说被扔下水是张雪临时起意",
+      "title": "新中国恢复联合国合法席位55年了",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%96%B0%E4%B8%AD%E5%9B%BD%E6%81%A2%E5%A4%8D%E8%81%94%E5%90%88%E5%9B%BD%E5%90%88%E6%B3%95%E5%B8%AD%E4%BD%8D55%E5%B9%B4%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 616859,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792932381
+    },
+    {
+      "title": "寿司郎传送带窜出大只活老鼠",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%AF%BF%E5%8F%B8%E9%83%8E%E4%BC%A0%E9%80%81%E5%B8%A6%E7%AA%9C%E5%87%BA%E5%A4%A7%E5%8F%AA%E6%B4%BB%E8%80%81%E9%BC%A0%23&t=31&band_rank=1&Refer=top",
+      "score": 451051,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1792931482
+    },
+    {
+      "title": "24岁女子赴泰见男网友被绑往边境",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8E%BF%E5%A7%94%E4%B9%A6%E8%AE%B0%E8%AF%B4%E8%A2%AB%E6%89%94%E4%B8%8B%E6%B0%B4%E6%98%AF%E5%BC%A0%E9%9B%AA%E4%B8%B4%E6%97%B6%E8%B5%B7%E6%84%8F%23&t=31&band_rank=1&Refer=top",
-      "score": 932337,
+      "url": "https://s.weibo.com/weibo?q=%2324%E5%B2%81%E5%A5%B3%E5%AD%90%E8%B5%B4%E6%B3%B0%E8%A7%81%E7%94%B7%E7%BD%91%E5%8F%8B%E8%A2%AB%E7%BB%91%E5%BE%80%E8%BE%B9%E5%A2%83%23&t=31&band_rank=1&Refer=top",
+      "score": 340398,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1792925661
+      "onboardTime": 1792943300
     },
     {
-      "title": "卫星互联网低轨28组卫星发射成功",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8D%AB%E6%98%9F%E4%BA%92%E8%81%94%E7%BD%91%E4%BD%8E%E8%BD%A828%E7%BB%84%E5%8D%AB%E6%98%9F%E5%8F%91%E5%B0%84%E6%88%90%E5%8A%9F%23&t=31&band_rank=1&Refer=top",
-      "score": 709891,
+      "title": "律师建议将仅退款纳入个人征信",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%BE%8B%E5%B8%88%E5%BB%BA%E8%AE%AE%E5%B0%86%E4%BB%85%E9%80%80%E6%AC%BE%E7%BA%B3%E5%85%A5%E4%B8%AA%E4%BA%BA%E5%BE%81%E4%BF%A1%23&t=31&band_rank=1&Refer=top",
+      "score": 339327,
       "owner": "微博同城",
-      "label": "",
+      "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1792913780
-    },
-    {
-      "title": "县委书记拒绝张雪为家乡打广告",
-      "description": "热 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8E%BF%E5%A7%94%E4%B9%A6%E8%AE%B0%E6%8B%92%E7%BB%9D%E5%BC%A0%E9%9B%AA%E4%B8%BA%E5%AE%B6%E4%B9%A1%E6%89%93%E5%B9%BF%E5%91%8A%23&t=31&band_rank=1&Refer=top",
-      "score": 437364,
-      "owner": "微博同城",
-      "label": "热",
-      "category": "民生新闻",
-      "onboardTime": 1792902080
-    },
-    {
-      "title": "南京3000万豪宅出入口在隧道里",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8D%97%E4%BA%AC3000%E4%B8%87%E8%B1%AA%E5%AE%85%E5%87%BA%E5%85%A5%E5%8F%A3%E5%9C%A8%E9%9A%A7%E9%81%93%E9%87%8C%23&t=31&band_rank=1&Refer=top",
-      "score": 335739,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1792922480
-    },
-    {
-      "title": "张雪把县委书记丢河里",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E9%9B%AA%E6%8A%8A%E5%8E%BF%E5%A7%94%E4%B9%A6%E8%AE%B0%E4%B8%A2%E6%B2%B3%E9%87%8C&t=31&band_rank=1&Refer=top",
-      "score": 331456,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1792919239
+      "onboardTime": 1792943121
     },
     {
       "title": "妻子要15万备孕丈夫酒后骂去死",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E5%A6%BB%E5%AD%90%E8%A6%8115%E4%B8%87%E5%A4%87%E5%AD%95%E4%B8%88%E5%A4%AB%E9%85%92%E5%90%8E%E9%AA%82%E5%8E%BB%E6%AD%BB%23&t=31&band_rank=1&Refer=top",
-      "score": 328239,
+      "score": 271285,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1792924101
     },
     {
-      "title": "央视曝AI人哭着卖惨带货",
+      "title": "31省份去年平均工资出炉",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%AE%E8%A7%86%E6%9B%9DAI%E4%BA%BA%E5%93%AD%E7%9D%80%E5%8D%96%E6%83%A8%E5%B8%A6%E8%B4%A7%23&t=31&band_rank=1&Refer=top",
-      "score": 289773,
+      "url": "https://s.weibo.com/weibo?q=%2331%E7%9C%81%E4%BB%BD%E5%8E%BB%E5%B9%B4%E5%B9%B3%E5%9D%87%E5%B7%A5%E8%B5%84%E5%87%BA%E7%82%89%23&t=31&band_rank=1&Refer=top",
+      "score": 267716,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1792917799
+      "onboardTime": 1792935202
     },
     {
-      "title": "甲状腺癌转移高中生家长称长期熬夜",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B2%E7%8A%B6%E8%85%BA%E7%99%8C%E8%BD%AC%E7%A7%BB%E9%AB%98%E4%B8%AD%E7%94%9F%E5%AE%B6%E9%95%BF%E7%A7%B0%E9%95%BF%E6%9C%9F%E7%86%AC%E5%A4%9C%23&t=31&band_rank=1&Refer=top",
-      "score": 280466,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1792928001
-    },
-    {
-      "title": "全国老年人口首次超过少儿人口",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%85%A8%E5%9B%BD%E8%80%81%E5%B9%B4%E4%BA%BA%E5%8F%A3%E9%A6%96%E6%AC%A1%E8%B6%85%E8%BF%87%E5%B0%91%E5%84%BF%E4%BA%BA%E5%8F%A3%23&t=31&band_rank=1&Refer=top",
-      "score": 194445,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1792928720
-    },
-    {
-      "title": "40万小鹏汽车被撞报废气囊都没弹",
-      "description": "新 · 民生新闻,汽车",
-      "url": "https://s.weibo.com/weibo?q=%2340%E4%B8%87%E5%B0%8F%E9%B9%8F%E6%B1%BD%E8%BD%A6%E8%A2%AB%E6%92%9E%E6%8A%A5%E5%BA%9F%E6%B0%94%E5%9B%8A%E9%83%BD%E6%B2%A1%E5%BC%B9%23&t=31&band_rank=1&Refer=top",
-      "score": 189965,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻,汽车",
-      "onboardTime": 1792928421
-    },
-    {
-      "title": "多名女性被发色情软件都接触过同一人",
+      "title": "县委书记说被扔下水是张雪临时起意",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%9A%E5%90%8D%E5%A5%B3%E6%80%A7%E8%A2%AB%E5%8F%91%E8%89%B2%E6%83%85%E8%BD%AF%E4%BB%B6%E9%83%BD%E6%8E%A5%E8%A7%A6%E8%BF%87%E5%90%8C%E4%B8%80%E4%BA%BA%23&t=31&band_rank=1&Refer=top",
-      "score": 155883,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8E%BF%E5%A7%94%E4%B9%A6%E8%AE%B0%E8%AF%B4%E8%A2%AB%E6%89%94%E4%B8%8B%E6%B0%B4%E6%98%AF%E5%BC%A0%E9%9B%AA%E4%B8%B4%E6%97%B6%E8%B5%B7%E6%84%8F%23&t=31&band_rank=1&Refer=top",
+      "score": 167551,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1792907540
+      "onboardTime": 1792925661
     }
   ]
 }
