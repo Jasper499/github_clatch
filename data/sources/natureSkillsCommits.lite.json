@@ -1,12 +1,32 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-10-25T02:20:46Z",
+  "savedAt": "2026-10-25T07:40:30Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "8f28a61d42c2b251d224cdb0a59229df9879a68e",
+  "latestSha": "07009f91f99c7108519e7657885f1a89d91099d5",
   "items": [
+    {
+      "title": "fix(nature-academic-search): authenticate OpenAlex with API key, drop…",
+      "description": "fix(nature-academic-search): authenticate OpenAlex with API key, drop mailto polite pool\n\nOpenAlex now ignores the mailto parameter and meters usage per API key.\nacademic_search.py accepts --api-key / OPENALEX_API_KEY and sends it as an\nAuthorization: Bearer header; mailto is no longer sent (the flag stays as a\nno-op for compatibility). 401/403/429 errors now point at the key. Docs\nupdated and regression tests added.\n\nCloses #279\n\nXinrui Ma",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/07009f91f99c7108519e7657885f1a89d91099d5",
+      "sha": "07009f9",
+      "fullSha": "07009f91f99c7108519e7657885f1a89d91099d5",
+      "owner": "Travisma2233",
+      "published": "2026-10-25",
+      "label": "commit"
+    },
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/8a98ea7dcbc34dfc77ec4ba3b9f1d0a9407f39cc",
+      "sha": "8a98ea7",
+      "fullSha": "8a98ea7dcbc34dfc77ec4ba3b9f1d0a9407f39cc",
+      "owner": "github-actions",
+      "published": "2026-10-25",
+      "label": "commit"
+    },
     {
       "title": "Update README.md",
       "description": "Update README.md",
@@ -133,26 +153,6 @@
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/7e9f02fd32156aeac36db28c92057f0aae647148",
       "sha": "7e9f02f",
       "fullSha": "7e9f02fd32156aeac36db28c92057f0aae647148",
-      "owner": "Yuan1z0825",
-      "published": "2026-10-20",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #263 from WatchKitty/fix/springer-service-credentials",
-      "description": "Merge pull request #263 from WatchKitty/fix/springer-service-credentials\n\nfix(nature-downloader): scope Springer credentials by API service",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/7279ca9080cf5eaf9700203c1eb5544df4086d7b",
-      "sha": "7279ca9",
-      "fullSha": "7279ca9080cf5eaf9700203c1eb5544df4086d7b",
-      "owner": "Yuan1z0825",
-      "published": "2026-10-20",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #264 from WatchKitty/fix/proposal-preserve-source",
-      "description": "Merge pull request #264 from WatchKitty/fix/proposal-preserve-source\n\nfix(nature-proposal-writer): preserve Markdown source during export",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/ad08bc9d5fb6469696709fe90a330d31b9221b93",
-      "sha": "ad08bc9",
-      "fullSha": "ad08bc9d5fb6469696709fe90a330d31b9221b93",
       "owner": "Yuan1z0825",
       "published": "2026-10-20",
       "label": "commit"

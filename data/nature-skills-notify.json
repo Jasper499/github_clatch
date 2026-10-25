@@ -1,20 +1,30 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-10-25T02:20:46Z",
+  "changed": true,
+  "fetchedAt": "2026-10-25T07:40:30Z",
   "previousSha": "8f28a61d42c2b251d224cdb0a59229df9879a68e",
-  "latestSha": "8f28a61d42c2b251d224cdb0a59229df9879a68e",
+  "latestSha": "07009f91f99c7108519e7657885f1a89d91099d5",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "Update README.md",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/8f28a61d42c2b251d224cdb0a59229df9879a68e",
-    "sha": "8f28a61",
-    "published": "2026-10-24"
+    "title": "fix(nature-academic-search): authenticate OpenAlex with API key, drop…",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/07009f91f99c7108519e7657885f1a89d91099d5",
+    "sha": "07009f9",
+    "published": "2026-10-25"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "fix(nature-academic-search): authenticate OpenAlex with API key, drop…",
+      "sha": "07009f9",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/07009f91f99c7108519e7657885f1a89d91099d5"
+    },
+    {
+      "title": "chore: update star history",
+      "sha": "8a98ea7",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/8a98ea7dcbc34dfc77ec4ba3b9f1d0a9407f39cc"
+    },
     {
       "title": "Update README.md",
       "sha": "8f28a61",
@@ -29,16 +39,6 @@
       "title": "docs(nature-figure): panel gaps, tick steps, aspect and labelling con…",
       "sha": "df6db0b",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/df6db0b19530e26ac8f7c2a23254541c228fda43"
-    },
-    {
-      "title": "docs(nature-figure): measure printed size; connector and label rules",
-      "sha": "168eb60",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/168eb6003c32102ab53fedb2fde4e559767fe956"
-    },
-    {
-      "title": "docs(nature-figure): agent diagrams, implementation check and text rules",
-      "sha": "2a163b9",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/2a163b95255c608609ff815f3bbc6266591598e2"
     }
   ]
 }
