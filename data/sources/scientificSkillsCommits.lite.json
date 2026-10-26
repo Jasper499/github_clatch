@@ -1,12 +1,23 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-10-26T08:06:05Z",
+  "savedAt": "2026-10-26T14:41:20Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "593377bb048752abb0152deab9fbb1083a6087df",
+  "latestSha": "5f2bc0341354fd5590aef76a533ada1e1e5b4e62",
   "items": [
+    {
+      "title": "chore: update security scan report [skip ci]",
+      "description": "chore: update security scan report [skip ci]",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/5f2bc0341354fd5590aef76a533ada1e1e5b4e62",
+      "sha": "5f2bc03",
+      "fullSha": "5f2bc0341354fd5590aef76a533ada1e1e5b4e62",
+      "owner": "github-actions",
+      "published": "2026-10-26",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "chore: update security scan report [skip ci]",
       "description": "chore: update security scan report [skip ci]",
@@ -156,17 +167,6 @@
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/a0aea743b3059cbae85ae4ba861cc6b2c0d1e083",
       "sha": "a0aea74",
       "fullSha": "a0aea743b3059cbae85ae4ba861cc6b2c0d1e083",
-      "owner": "timothykassis",
-      "published": "2026-09-30",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "fix(arbor): render node IDs in numeric creation order",
-      "description": "fix(arbor): render node IDs in numeric creation order\n\nFixes #289. Apply numeric sorting to all observe sections and status siblings, with regression coverage beyond nine nodes and nested branches.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/351845e1c72f3e4a5db39fd8507a2f81251d96af",
-      "sha": "351845e",
-      "fullSha": "351845e1c72f3e4a5db39fd8507a2f81251d96af",
       "owner": "timothykassis",
       "published": "2026-09-30",
       "label": "commit",
