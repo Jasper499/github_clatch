@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-26T200053Z",
+  "day": "2026-10-26",
+  "sourceKey": "natureSkillsCommits",
+  "savedAt": "2026-10-26T20:00:53Z",
+  "label": "最近提交",
+  "description": "最近 15 条提交动态",
+  "updateFrequency": "daily",
+  "repo": "Yuan1z0825/nature-skills",
+  "latestSha": "07009f91f99c7108519e7657885f1a89d91099d5",
+  "items": [
+    {
+      "title": "fix(nature-academic-search): authenticate OpenAlex with API key, drop…",
+      "description": "fix(nature-academic-search): authenticate OpenAlex with API key, drop mailto polite pool\n\nOpenAlex now ignores the mailto parameter and meters usage per API key.\nacademic_search.py accepts --api-key / OPENALEX_API_KEY and sends it as an\nAuthorization: Bearer header; mailto is no longer sent (the flag stays as a\nno-op for compatibility). 401/403/429 errors now point at the key. Docs\nupdated and regression tests added.\n\nCloses #279\n\nXinrui Ma",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/07009f91f99c7108519e7657885f1a89d91099d5",
+      "sha": "07009f9",
+      "fullSha": "07009f91f99c7108519e7657885f1a89d91099d5",
+      "owner": "Travisma2233",
+      "published": "2026-10-25",
+      "label": "commit"
+    },
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/8a98ea7dcbc34dfc77ec4ba3b9f1d0a9407f39cc",
+      "sha": "8a98ea7",
+      "fullSha": "8a98ea7dcbc34dfc77ec4ba3b9f1d0a9407f39cc",
+      "owner": "github-actions",
+      "published": "2026-10-25",
+      "label": "commit"
+    },
+    {
+      "title": "Update README.md",
+      "description": "Update README.md",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/8f28a61d42c2b251d224cdb0a59229df9879a68e",
+      "sha": "8f28a61",
+      "fullSha": "8f28a61d42c2b251d224cdb0a59229df9879a68e",
+      "owner": "Flyme886",
+      "published": "2026-10-24",
+      "label": "commit"
+    },
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c6ae86c742705fd968b13c79db1a8518a84089d4",
+      "sha": "c6ae86c",
+      "fullSha": "c6ae86c742705fd968b13c79db1a8518a84089d4",
+      "owner": "github-actions",
+      "published": "2026-10-22",
+      "label": "commit"
+    },
+    {
+      "title": "docs(nature-figure): panel gaps, tick steps, aspect and labelling con…",
+      "description": "docs(nature-figure): panel gaps, tick steps, aspect and labelling conventions\n\nLet the content set a figure&#39;s height within an author&#39;s aspect rule (a row\nof bar charts reads better wider than 4:3), keep gaps between panels to what\ntheir labels need, set tick values in the data&#39;s own steps rather than the\nlocator&#39;s after a resize, and verify the journal&#39;s panel-labelling\nconvention before changing it. In the schematic rules, ask for a sketch\nwhen a layout described in words can be read two ways.\n\nXinrui Ma",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/df6db0b19530e26ac8f7c2a23254541c228fda43",
+      "sha": "df6db0b",
+      "fullSha": "df6db0b19530e26ac8f7c2a23254541c228fda43",
+      "owner": "Travisma2233",
+      "published": "2026-10-21",
+      "label": "commit"
+    },
+    {
+      "title": "docs(nature-figure): measure printed size; connector and label rules",
+      "description": "docs(nature-figure): measure printed size; connector and label rules\n\nAdd to the QA contract a section on the size figure text prints at in the\ncompiled manuscript: read the caption size from the document class, set\nfigure text a little below it, and account for the three things that change\nthe printed size without changing the source (rescaling a tightly cropped\nfigure to the text width, TeX versus PDF points, x-height differences\nbetween faces). Verify by measuring x-heights on the rendered page. Add a\nsection on multi-line labels, whose Matplotlib leading varies with the\nalignment, and rules on panel titles, legend placement and palettes.\n\nIn the schematic style rules, let unconnected lines cross plainly (a gap\nreads as a break), attach connectors at the middle, a third or a quarter of\na side, keep them straight with at most one bend and off box edges, space\nrepeated cards equally, bold only top-level names, and ask when layout\nconstraints conflict.\n\nXinrui Ma",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/168eb6003c32102ab53fedb2fde4e559767fe956",
+      "sha": "168eb60",
+      "fullSha": "168eb6003c32102ab53fedb2fde4e559767fe956",
+      "owner": "Travisma2233",
+      "published": "2026-10-21",
+      "label": "commit"
+    },
+    {
+      "title": "docs(nature-figure): agent diagrams, implementation check and text rules",
+      "description": "docs(nature-figure): agent diagrams, implementation check and text rules\n\nAdd an &quot;Agent and tool diagrams&quot; section to the vector schematic style\nrules: draw an LLM agent as its iterating loop with the tools as callees,\ncalls leaving the tool-call station and results returning to the\nobservation station, and retrieval as one more tool call.\n\nAsk the brief to be checked against the implementation (code,\nconfiguration, methods), render and inspect the edited region after every\nrevision, and add rules on one dark ink, short box text, even justified\nspacing, broken crossings, and shared widths for boxes of one role. In\nthe default stance, do not print a value on every mark.\n\nXinrui Ma",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/2a163b95255c608609ff815f3bbc6266591598e2",
+      "sha": "2a163b9",
+      "fullSha": "2a163b95255c608609ff815f3bbc6266591598e2",
+      "owner": "Travisma2233",
+      "published": "2026-10-20",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #274 from WatchKitty/fix/windows-pdf-sync-and-ci-p…",
+      "description": "Merge pull request #274 from WatchKitty/fix/windows-pdf-sync-and-ci-parity\n\nfix: restore Windows PDF sync and refresh Image2PPT CI baseline",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c8599197e7d2a22c2a091bbf8c14efcb3625cfa0",
+      "sha": "c859919",
+      "fullSha": "c8599197e7d2a22c2a091bbf8c14efcb3625cfa0",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-20",
+      "label": "commit"
+    },
+    {
+      "title": "ci: use matching UTF-8 encodings for Windows PDF tests",
+      "description": "ci: use matching UTF-8 encodings for Windows PDF tests",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/31a78bd0d0a09e3a9182c6394de6c9f244f629ec",
+      "sha": "31a78bd",
+      "fullSha": "31a78bd0d0a09e3a9182c6394de6c9f244f629ec",
+      "owner": "WatchKitty",
+      "published": "2026-10-20",
+      "label": "commit"
+    },
+    {
+      "title": "ci: constrain PDF tooling to the tested dependency versions",
+      "description": "ci: constrain PDF tooling to the tested dependency versions",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/d7f4cbfabcefdff0e6ec4c520ce6842a386dfebc",
+      "sha": "d7f4cbf",
+      "fullSha": "d7f4cbfabcefdff0e6ec4c520ce6842a386dfebc",
+      "owner": "WatchKitty",
+      "published": "2026-10-20",
+      "label": "commit"
+    },
+    {
+      "title": "fix: restore Windows PDF sync and refresh Image2PPT CI baseline",
+      "description": "fix: restore Windows PDF sync and refresh Image2PPT CI baseline",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/52f478cc164c811a8eeb18474998cf71cc675d5a",
+      "sha": "52f478c",
+      "fullSha": "52f478cc164c811a8eeb18474998cf71cc675d5a",
+      "owner": "WatchKitty",
+      "published": "2026-10-20",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #258 from CharlesYXW/harden/format-converter-egres…",
+      "description": "Merge pull request #258 from CharlesYXW/harden/format-converter-egress-and-filenames\n\nharden: complete egress allowlist and sanitize PMID filenames in format-converter (CWE-918, CWE-22)",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/b0de5a9ec3f8439433c742782f4fbbe582a253d7",
+      "sha": "b0de5a9",
+      "fullSha": "b0de5a9ec3f8439433c742782f4fbbe582a253d7",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-20",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #259 from CharlesYXW/harden/response-url-scheme-va…",
+      "description": "Merge pull request #259 from CharlesYXW/harden/response-url-scheme-validation\n\nharden: validate scheme and host of response-supplied URLs before download (CWE-918)",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c312b53c377f0f0f7a2e69065b47fc83360f78ca",
+      "sha": "c312b53",
+      "fullSha": "c312b53c377f0f0f7a2e69065b47fc83360f78ca",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-20",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #261 from WatchKitty/fix/springer-fulltext-api-host",
+      "description": "Merge pull request #261 from WatchKitty/fix/springer-fulltext-api-host\n\nfix(nature-downloader): migrate Springer Full Text API host",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/3981da9877237d36a21705f314b2b66e41ca59e5",
+      "sha": "3981da9",
+      "fullSha": "3981da9877237d36a21705f314b2b66e41ca59e5",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-20",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #262 from WatchKitty/fix/credential-validation-htt…",
+      "description": "Merge pull request #262 from WatchKitty/fix/credential-validation-http-status\n\nfix(nature-downloader): reject failed credential validation responses",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/7e9f02fd32156aeac36db28c92057f0aae647148",
+      "sha": "7e9f02f",
+      "fullSha": "7e9f02fd32156aeac36db28c92057f0aae647148",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-20",
+      "label": "commit"
+    }
+  ]
+}
