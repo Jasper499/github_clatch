@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-10-26T02:00:47Z",
+  "savedAt": "2026-10-26T07:34:45Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-10-26，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -11,7 +11,7 @@
       "description": "",
       "url": "https://github.com/deepseek-ai/DeepInfer",
       "score": 2351,
-      "comments": 891,
+      "comments": 892,
       "owner": "ggcr",
       "published": "2026-10-20T09:08:54Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50163277"
@@ -20,7 +20,7 @@
       "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
       "description": "",
       "url": "https://edjefferson.com/localwiki/",
-      "score": 1680,
+      "score": 1688,
       "comments": 253,
       "owner": "sohkamyung",
       "published": "2026-10-22T23:01:18Z",
@@ -40,7 +40,7 @@
       "title": "Quad9 to exit France",
       "description": "",
       "url": "https://quad9.net/news/blog/au-revoir-france/",
-      "score": 1369,
+      "score": 1370,
       "comments": 476,
       "owner": "farrokhi",
       "published": "2026-10-22T14:32:38Z",
@@ -60,11 +60,21 @@
       "title": "eMudhra to exit global SSL/TLS certificate business",
       "description": "",
       "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
-      "score": 1152,
-      "comments": 747,
+      "score": 1155,
+      "comments": 748,
       "owner": "bo0tzz",
       "published": "2026-10-22T13:33:39Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50195110"
+    },
+    {
+      "title": "Today, we hacked what we'd set out to hack: the iPhone",
+      "description": "",
+      "url": "https://blog.calif.io/p/iphone",
+      "score": 1107,
+      "comments": 724,
+      "owner": "pavel_lishin",
+      "published": "2026-10-23T16:21:50Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50211474"
     },
     {
       "title": "PHP 8.2.35",
@@ -77,21 +87,11 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50180873"
     },
     {
-      "title": "Today, we hacked what we'd set out to hack: the iPhone",
-      "description": "",
-      "url": "https://blog.calif.io/p/iphone",
-      "score": 1102,
-      "comments": 717,
-      "owner": "pavel_lishin",
-      "published": "2026-10-23T16:21:50Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50211474"
-    },
-    {
       "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
       "description": "<a href=\"https:&#x2F;&#x2F;www.kimi.com&#x2F;code&#x2F;docs&#x2F;en&#x2F;kimi-code&#x2F;models.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.kimi.com&#x2F;code&#x2F;docs&#x2F;en&#x2F;kimi-code&#x2F;models.html</a><p><a href=\"https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;models&#x2F;kimi-k3-1-pro\" rel=\"nofollow\">https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;models&#x2F;kimi-k3-1-pro</a><p><a href=\"https:&#x2F;&#x2F;www.modelcompare.ai&#x2F;blog&#x2F;china-open-source-ai\" rel=\"nofollow\">https:&#x2F;&#x2F;www.modelcompare.ai&#x2F;blog&#x2F;china-open-source-ai</a>",
       "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
-      "score": 1079,
-      "comments": 671,
+      "score": 1083,
+      "comments": 673,
       "owner": "Jowsey",
       "published": "2026-10-23T16:59:08Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50212065"
@@ -100,7 +100,7 @@
       "title": "Eight Bits of Trust: eMudhra's CA keys cracked in milliseconds",
       "description": "",
       "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
-      "score": 953,
+      "score": 955,
       "comments": 461,
       "owner": "hkc",
       "published": "2026-10-21T09:08:08Z",
@@ -120,7 +120,7 @@
       "title": "Apple Music 404 Not Found",
       "description": "<a href=\"https:&#x2F;&#x2F;www.macrumors.com&#x2F;2026&#x2F;10&#x2F;23&#x2F;apple-music-has-a-hidden-ipod-you-can-play-with&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.macrumors.com&#x2F;2026&#x2F;10&#x2F;23&#x2F;apple-music-has-a-hidde...</a>",
       "url": "https://music.apple.com/this-url-doesnt-exist",
-      "score": 930,
+      "score": 931,
       "comments": 273,
       "owner": "frizlab",
       "published": "2026-10-23T12:28:47Z",
@@ -130,7 +130,7 @@
       "title": "Docker is weird",
       "description": "",
       "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
-      "score": 875,
+      "score": 876,
       "comments": 366,
       "owner": "psxuaw",
       "published": "2026-10-22T23:45:56Z",
@@ -147,6 +147,16 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50192536"
     },
     {
+      "title": "Root shell on Samsung TV",
+      "description": "Merged threads:<p>&quot;Samsung running a TensorFlow lite model on 960x540 image to track you&quot;: <a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;mike64_t&#x2F;status&#x2F;2114150399406202896\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;mike64_t&#x2F;status&#x2F;2114150399406202896</a><p>&quot;Samsung TVs look for microphones in your house via Bluetooth and then spy events&quot;: <a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;freddier&#x2F;status&#x2F;2114042326758867453\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;freddier&#x2F;status&#x2F;2114042326758867453</a>",
+      "url": "https://twitter.com/log4j/status/2113014142600953868?s=46",
+      "score": 824,
+      "comments": 614,
+      "owner": "testing22321",
+      "published": "2026-10-24T05:49:57Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50218633"
+    },
+    {
       "title": "Today's PHP security release, and how we're strengthening security",
       "description": "Related ongoing thread: <i>PHP 8.2.35</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50180873\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50180873</a><p>(links to more at <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50184935\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50184935</a>)",
       "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
@@ -157,14 +167,14 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50182987"
     },
     {
-      "title": "Root shell on Samsung TV",
-      "description": "Merged threads:<p>&quot;Samsung running a TensorFlow lite model on 960x540 image to track you&quot;: <a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;mike64_t&#x2F;status&#x2F;2114150399406202896\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;mike64_t&#x2F;status&#x2F;2114150399406202896</a><p>&quot;Samsung TVs look for microphones in your house via Bluetooth and then spy events&quot;: <a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;freddier&#x2F;status&#x2F;2114042326758867453\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;freddier&#x2F;status&#x2F;2114042326758867453</a>",
-      "url": "https://twitter.com/log4j/status/2113014142600953868?s=46",
-      "score": 772,
-      "comments": 584,
-      "owner": "testing22321",
-      "published": "2026-10-24T05:49:57Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50218633"
+      "title": "We should be more ambitious with the software we build",
+      "description": "",
+      "url": "https://danluu.com/ambitious/",
+      "score": 785,
+      "comments": 703,
+      "owner": "ltratt",
+      "published": "2026-10-24T21:47:31Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50225695"
     },
     {
       "title": "Voxtral 3",
@@ -175,16 +185,6 @@
       "owner": "ilreb",
       "published": "2026-10-20T16:02:07Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50168396"
-    },
-    {
-      "title": "We should be more ambitious with the software we build",
-      "description": "",
-      "url": "https://danluu.com/ambitious/",
-      "score": 743,
-      "comments": 695,
-      "owner": "ltratt",
-      "published": "2026-10-24T21:47:31Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50225695"
     },
     {
       "title": "Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry",
@@ -201,7 +201,7 @@
       "description": "",
       "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
       "score": 743,
-      "comments": 221,
+      "comments": 222,
       "owner": "ds",
       "published": "2026-10-19T23:22:18Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50159341"
