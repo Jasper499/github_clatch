@@ -6,52 +6,100 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "hackernews:https://github.com/deepseek-ai/DeepInfer",
-      "url": "https://github.com/deepseek-ai/DeepInfer",
-      "title": "[Hacker News 热门] DeepInfer: High-performance inference framework for DeepSeek models",
-      "date_published": "2026-10-26T14:00:57Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills",
+      "url": "https://github.com/Yuan1z0825/nature-skills",
+      "title": "[Skills 清单] Yuan1z0825/nature-skills · 仓库总览",
+      "date_published": "2026-10-26T14:21:01Z"
     },
     {
-      "id": "hackernews:https://edjefferson.com/localwiki/",
-      "url": "https://edjefferson.com/localwiki/",
-      "title": "[Hacker News 热门] Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
-      "date_published": "2026-10-26T14:00:57Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-academic-search",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-academic-search",
+      "title": "[Skills 清单] nature-academic-search",
+      "date_published": "2026-10-26T14:21:01Z"
     },
     {
-      "id": "hackernews:https://www.php.net/archive/2026.php#2026-10-21-5",
-      "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
-      "title": "[Hacker News 热门] Security advisory: Critical remote code execution vulnerabilities, update now",
-      "date_published": "2026-10-26T14:00:57Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-citation",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-citation",
+      "title": "[Skills 清单] nature-citation",
+      "date_published": "2026-10-26T14:21:01Z"
     },
     {
-      "id": "hackernews:https://quad9.net/news/blog/au-revoir-france/",
-      "url": "https://quad9.net/news/blog/au-revoir-france/",
-      "title": "[Hacker News 热门] Quad9 to exit France",
-      "date_published": "2026-10-26T14:00:57Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-data",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-data",
+      "title": "[Skills 清单] nature-data",
+      "date_published": "2026-10-26T14:21:01Z"
     },
     {
-      "id": "hackernews:https://emudhra.we-have-a-problem.com/",
-      "url": "https://emudhra.we-have-a-problem.com/",
-      "title": "[Hacker News 热门] eMudhra intermediate CA compromise",
-      "date_published": "2026-10-26T14:00:57Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-downloader",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-downloader",
+      "title": "[Skills 清单] nature-downloader",
+      "date_published": "2026-10-26T14:21:01Z"
     },
     {
-      "id": "hackernews:https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
-      "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
-      "title": "[Hacker News 热门] eMudhra to exit global SSL/TLS certificate business",
-      "date_published": "2026-10-26T14:00:57Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-experiment-log",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-experiment-log",
+      "title": "[Skills 清单] nature-experiment-log",
+      "date_published": "2026-10-26T14:21:01Z"
     },
     {
-      "id": "hackernews:https://blog.calif.io/p/iphone",
-      "url": "https://blog.calif.io/p/iphone",
-      "title": "[Hacker News 热门] Today, we hacked what we'd set out to hack: the iPhone",
-      "date_published": "2026-10-26T14:00:57Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-figure",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-figure",
+      "title": "[Skills 清单] nature-figure",
+      "date_published": "2026-10-26T14:21:01Z"
     },
     {
-      "id": "hackernews:https://github.com/php/php-src/releases/tag/php-8.2.35",
-      "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
-      "title": "[Hacker News 热门] PHP 8.2.35",
-      "date_published": "2026-10-26T14:00:57Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-literature-pipeline",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-literature-pipeline",
+      "title": "[Skills 清单] nature-literature-pipeline",
+      "date_published": "2026-10-26T14:21:01Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/07009f91f99c7108519e7657885f1a89d91099d5",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/07009f91f99c7108519e7657885f1a89d91099d5",
+      "title": "[最近提交] fix(nature-academic-search): authenticate OpenAlex with API key, drop…",
+      "date_published": "2026-10-26T14:21:01Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/8a98ea7dcbc34dfc77ec4ba3b9f1d0a9407f39cc",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/8a98ea7dcbc34dfc77ec4ba3b9f1d0a9407f39cc",
+      "title": "[最近提交] chore: update star history",
+      "date_published": "2026-10-26T14:21:01Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/8f28a61d42c2b251d224cdb0a59229df9879a68e",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/8f28a61d42c2b251d224cdb0a59229df9879a68e",
+      "title": "[最近提交] Update README.md",
+      "date_published": "2026-10-26T14:21:01Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/c6ae86c742705fd968b13c79db1a8518a84089d4",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c6ae86c742705fd968b13c79db1a8518a84089d4",
+      "title": "[最近提交] chore: update star history",
+      "date_published": "2026-10-26T14:21:01Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/df6db0b19530e26ac8f7c2a23254541c228fda43",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/df6db0b19530e26ac8f7c2a23254541c228fda43",
+      "title": "[最近提交] docs(nature-figure): panel gaps, tick steps, aspect and labelling con…",
+      "date_published": "2026-10-26T14:21:01Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/168eb6003c32102ab53fedb2fde4e559767fe956",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/168eb6003c32102ab53fedb2fde4e559767fe956",
+      "title": "[最近提交] docs(nature-figure): measure printed size; connector and label rules",
+      "date_published": "2026-10-26T14:21:01Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/2a163b95255c608609ff815f3bbc6266591598e2",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/2a163b95255c608609ff815f3bbc6266591598e2",
+      "title": "[最近提交] docs(nature-figure): agent diagrams, implementation check and text rules",
+      "date_published": "2026-10-26T14:21:01Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/c8599197e7d2a22c2a091bbf8c14efcb3625cfa0",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c8599197e7d2a22c2a091bbf8c14efcb3625cfa0",
+      "title": "[最近提交] Merge pull request #274 from WatchKitty/fix/windows-pdf-sync-and-ci-p…",
+      "date_published": "2026-10-26T14:21:01Z"
     }
   ]
 }
