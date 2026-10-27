@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-10-27T02:20:45Z",
+  "savedAt": "2026-10-27T08:01:51Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "07009f91f99c7108519e7657885f1a89d91099d5",
+  "latestSha": "c1637a89c7097d486ba1c6e755e34d01cbb24998",
   "items": [
+    {
+      "title": "Merge pull request #280 from ls-open/feat/nature-paper2word-clean",
+      "description": "Merge pull request #280 from ls-open/feat/nature-paper2word-clean\n\nfeat(nature-paper2word): add Markdown → Word skill (documentation only)",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c1637a89c7097d486ba1c6e755e34d01cbb24998",
+      "sha": "c1637a8",
+      "fullSha": "c1637a89c7097d486ba1c6e755e34d01cbb24998",
+      "owner": "Yuan1z0825",
+      "published": "2026-10-27",
+      "label": "commit"
+    },
     {
       "title": "fix(nature-academic-search): authenticate OpenAlex with API key, drop…",
       "description": "fix(nature-academic-search): authenticate OpenAlex with API key, drop mailto polite pool\n\nOpenAlex now ignores the mailto parameter and meters usage per API key.\nacademic_search.py accepts --api-key / OPENALEX_API_KEY and sends it as an\nAuthorization: Bearer header; mailto is no longer sent (the flag stays as a\nno-op for compatibility). 401/403/429 errors now point at the key. Docs\nupdated and regression tests added.\n\nCloses #279\n\nXinrui Ma",
@@ -35,6 +45,16 @@
       "fullSha": "8f28a61d42c2b251d224cdb0a59229df9879a68e",
       "owner": "Flyme886",
       "published": "2026-10-24",
+      "label": "commit"
+    },
+    {
+      "title": "feat(nature-paper2word): add Markdown → Word skill (documentation only)",
+      "description": "feat(nature-paper2word): add Markdown → Word skill (documentation only)\n\nAdds a documentation-only skill that compiles a Markdown manuscript into a\njournal- or school-compliant Word file. The engine is the PyPI package\nmd-to-word-docx; the skill carries the router only.\n\n- SKILL.md: scenario, manuscript contract, requirements file, export, gates\n- README.md / README_EN.md: mirrored entry pages, eight sections each\n- manifest.yaml, agents/openai.yaml: manifest and interface metadata\n- Registers the skill in the README index and the project site, and adds its\n  path to the skill-tooling workflow",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/bef0a4a90be450dc2096ce64489eae4a103c608d",
+      "sha": "bef0a4a",
+      "fullSha": "bef0a4a90be450dc2096ce64489eae4a103c608d",
+      "owner": "ls-wq",
+      "published": "2026-10-23",
       "label": "commit"
     },
     {
@@ -133,26 +153,6 @@
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/c312b53c377f0f0f7a2e69065b47fc83360f78ca",
       "sha": "c312b53",
       "fullSha": "c312b53c377f0f0f7a2e69065b47fc83360f78ca",
-      "owner": "Yuan1z0825",
-      "published": "2026-10-20",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #261 from WatchKitty/fix/springer-fulltext-api-host",
-      "description": "Merge pull request #261 from WatchKitty/fix/springer-fulltext-api-host\n\nfix(nature-downloader): migrate Springer Full Text API host",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/3981da9877237d36a21705f314b2b66e41ca59e5",
-      "sha": "3981da9",
-      "fullSha": "3981da9877237d36a21705f314b2b66e41ca59e5",
-      "owner": "Yuan1z0825",
-      "published": "2026-10-20",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #262 from WatchKitty/fix/credential-validation-htt…",
-      "description": "Merge pull request #262 from WatchKitty/fix/credential-validation-http-status\n\nfix(nature-downloader): reject failed credential validation responses",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/7e9f02fd32156aeac36db28c92057f0aae647148",
-      "sha": "7e9f02f",
-      "fullSha": "7e9f02fd32156aeac36db28c92057f0aae647148",
       "owner": "Yuan1z0825",
       "published": "2026-10-20",
       "label": "commit"

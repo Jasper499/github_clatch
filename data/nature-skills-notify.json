@@ -1,20 +1,25 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-10-27T02:20:45Z",
+  "changed": true,
+  "fetchedAt": "2026-10-27T08:01:50Z",
   "previousSha": "07009f91f99c7108519e7657885f1a89d91099d5",
-  "latestSha": "07009f91f99c7108519e7657885f1a89d91099d5",
+  "latestSha": "c1637a89c7097d486ba1c6e755e34d01cbb24998",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "fix(nature-academic-search): authenticate OpenAlex with API key, drop…",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/07009f91f99c7108519e7657885f1a89d91099d5",
-    "sha": "07009f9",
-    "published": "2026-10-25"
+    "title": "Merge pull request #280 from ls-open/feat/nature-paper2word-clean",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/c1637a89c7097d486ba1c6e755e34d01cbb24998",
+    "sha": "c1637a8",
+    "published": "2026-10-27"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "Merge pull request #280 from ls-open/feat/nature-paper2word-clean",
+      "sha": "c1637a8",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c1637a89c7097d486ba1c6e755e34d01cbb24998"
+    },
     {
       "title": "fix(nature-academic-search): authenticate OpenAlex with API key, drop…",
       "sha": "07009f9",
@@ -31,14 +36,9 @@
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/8f28a61d42c2b251d224cdb0a59229df9879a68e"
     },
     {
-      "title": "chore: update star history",
-      "sha": "c6ae86c",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c6ae86c742705fd968b13c79db1a8518a84089d4"
-    },
-    {
-      "title": "docs(nature-figure): panel gaps, tick steps, aspect and labelling con…",
-      "sha": "df6db0b",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/df6db0b19530e26ac8f7c2a23254541c228fda43"
+      "title": "feat(nature-paper2word): add Markdown → Word skill (documentation only)",
+      "sha": "bef0a4a",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/bef0a4a90be450dc2096ce64489eae4a103c608d"
     }
   ]
 }
