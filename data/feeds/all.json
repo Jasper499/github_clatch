@@ -6,136 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%87%AF%E6%81%A9%E8%8E%B72026%E5%B9%B4%E9%87%91%E7%90%83%E5%A5%96%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%87%AF%E6%81%A9%E8%8E%B72026%E5%B9%B4%E9%87%91%E7%90%83%E5%A5%96%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 凯恩获2026年金球奖",
-      "date_published": "2026-10-27T00:10:42Z"
+      "id": "hackernews:https://github.com/deepseek-ai/DeepInfer",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "title": "[Hacker News 热门] DeepInfer: High-performance inference framework for DeepSeek models",
+      "date_published": "2026-10-27T02:00:50Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23AL%E4%B8%80%E5%8F%B7%E7%A7%8D%E5%AD%9016%E5%BC%BA%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23AL%E4%B8%80%E5%8F%B7%E7%A7%8D%E5%AD%9016%E5%BC%BA%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] AL一号种子16强",
-      "date_published": "2026-10-27T00:10:42Z"
+      "id": "hackernews:https://edjefferson.com/localwiki/",
+      "url": "https://edjefferson.com/localwiki/",
+      "title": "[Hacker News 热门] Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+      "date_published": "2026-10-27T02:00:50Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E6%95%B0%E8%AF%B4%E4%B8%AD%E5%9B%BD%E5%A4%96%E8%B4%B8%E6%BE%8E%E6%B9%83%E5%8A%A8%E8%83%BD%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%95%B0%E8%AF%B4%E4%B8%AD%E5%9B%BD%E5%A4%96%E8%B4%B8%E6%BE%8E%E6%B9%83%E5%8A%A8%E8%83%BD%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 数说中国外贸澎湃动能",
-      "date_published": "2026-10-27T00:10:42Z"
+      "id": "hackernews:https://www.php.net/archive/2026.php#2026-10-21-5",
+      "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
+      "title": "[Hacker News 热门] Security advisory: Critical remote code execution vulnerabilities, update now",
+      "date_published": "2026-10-27T02:00:50Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=AL%E6%B7%98%E6%B1%B0&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=AL%E6%B7%98%E6%B1%B0&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] AL淘汰",
-      "date_published": "2026-10-27T00:10:42Z"
+      "id": "hackernews:https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "title": "[Hacker News 热门] Anthropic S-1",
+      "date_published": "2026-10-27T02:00:50Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23AL%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%B7%AE%E6%88%90%E7%BB%A9LPL%E9%98%9F%E4%BC%8D%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23AL%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%B7%AE%E6%88%90%E7%BB%A9LPL%E9%98%9F%E4%BC%8D%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] AL史上最差成绩LPL队伍",
-      "date_published": "2026-10-27T00:10:42Z"
+      "id": "hackernews:https://quad9.net/news/blog/au-revoir-france/",
+      "url": "https://quad9.net/news/blog/au-revoir-france/",
+      "title": "[Hacker News 热门] Quad9 to exit France",
+      "date_published": "2026-10-27T02:00:50Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E9%87%91%E7%90%83%E5%A5%96&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E9%87%91%E7%90%83%E5%A5%96&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 金球奖",
-      "date_published": "2026-10-27T00:10:42Z"
+      "id": "hackernews:https://emudhra.we-have-a-problem.com/",
+      "url": "https://emudhra.we-have-a-problem.com/",
+      "title": "[Hacker News 热门] eMudhra intermediate CA compromise",
+      "date_published": "2026-10-27T02:00:50Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E5%88%9A%E5%85%A5%E8%81%8C%E5%8F%AB%E5%A5%B3%E9%A2%86%E5%AF%BC%E4%B8%80%E4%B8%AA%E6%9C%88%E7%86%8A%E5%A4%A7&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%88%9A%E5%85%A5%E8%81%8C%E5%8F%AB%E5%A5%B3%E9%A2%86%E5%AF%BC%E4%B8%80%E4%B8%AA%E6%9C%88%E7%86%8A%E5%A4%A7&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 刚入职叫女领导一个月熊大",
-      "date_published": "2026-10-27T00:10:42Z"
+      "id": "hackernews:https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+      "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+      "title": "[Hacker News 热门] eMudhra to exit global SSL/TLS certificate business",
+      "date_published": "2026-10-27T02:00:50Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E9%87%91%E7%90%83%E5%A5%96%E5%89%8D%E5%8D%81%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%87%91%E7%90%83%E5%A5%96%E5%89%8D%E5%8D%81%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 金球奖前十",
-      "date_published": "2026-10-27T00:10:42Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23VOGUE%E8%88%86%E6%83%85%E8%AF%8D%E4%BA%91%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4%E7%83%AD%E5%BA%A6%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23VOGUE%E8%88%86%E6%83%85%E8%AF%8D%E4%BA%91%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4%E7%83%AD%E5%BA%A6%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] VOGUE舆情词云迪丽热巴热度",
-      "date_published": "2026-10-27T00:10:42Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%BC%A0%E5%AD%90%E8%90%B1%E4%B8%80%E8%A7%81%E9%9D%A2%E5%B0%B1%E6%89%91%E8%BF%9B%E9%99%88%E8%B5%AB%E6%80%80%E9%87%8C%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%BC%A0%E5%AD%90%E8%90%B1%E4%B8%80%E8%A7%81%E9%9D%A2%E5%B0%B1%E6%89%91%E8%BF%9B%E9%99%88%E8%B5%AB%E6%80%80%E9%87%8C%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 张子萱一见面就扑进陈赫怀里",
-      "date_published": "2026-10-27T00:10:42Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23S16%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23S16%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] S16",
-      "date_published": "2026-10-27T00:10:42Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E9%87%91%E7%90%83%E5%A5%96%E6%8E%92%E5%90%8D&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E9%87%91%E7%90%83%E5%A5%96%E6%8E%92%E5%90%8D&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 金球奖排名",
-      "date_published": "2026-10-27T00:10:42Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E6%9B%9D%E9%87%91%E7%90%83%E5%A5%96%E8%8E%B7%E5%A5%96%E8%80%85%E7%BA%BF%E7%B4%A2%E8%97%8F%E5%9C%A8%E6%B5%B7%E6%8A%A5%E9%87%8C%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E9%87%91%E7%90%83%E5%A5%96%E8%8E%B7%E5%A5%96%E8%80%85%E7%BA%BF%E7%B4%A2%E8%97%8F%E5%9C%A8%E6%B5%B7%E6%8A%A5%E9%87%8C%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 曝金球奖获奖者线索藏在海报里",
-      "date_published": "2026-10-27T00:10:42Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E7%B1%B3%E5%8B%92%E5%9B%9E%E5%BA%94AL%E6%AD%A2%E6%AD%A5%E5%8D%81%E5%85%AD%E5%BC%BA%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%B1%B3%E5%8B%92%E5%9B%9E%E5%BA%94AL%E6%AD%A2%E6%AD%A5%E5%8D%81%E5%85%AD%E5%BC%BA%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 米勒回应AL止步十六强",
-      "date_published": "2026-10-27T00:10:42Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E4%BE%AF%E6%98%8E%E6%98%8A%E7%99%BE%E5%A6%96%E8%B0%B1%E5%AE%A2%E4%B8%B2%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%BE%AF%E6%98%8E%E6%98%8A%E7%99%BE%E5%A6%96%E8%B0%B1%E5%AE%A2%E4%B8%B2%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 侯明昊百妖谱客串",
-      "date_published": "2026-10-27T00:10:42Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23AL%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%B7%AE%E6%88%90%E7%BB%A9LPL%E9%98%9F%E4%BC%8D%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23AL%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%B7%AE%E6%88%90%E7%BB%A9LPL%E9%98%9F%E4%BC%8D%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] AL史上最差成绩LPL队伍",
-      "date_published": "2026-10-27T00:10:42Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E6%95%B0%E8%AF%B4%E4%B8%AD%E5%9B%BD%E5%A4%96%E8%B4%B8%E6%BE%8E%E6%B9%83%E5%8A%A8%E8%83%BD%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%95%B0%E8%AF%B4%E4%B8%AD%E5%9B%BD%E5%A4%96%E8%B4%B8%E6%BE%8E%E6%B9%83%E5%8A%A8%E8%83%BD%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 数说中国外贸澎湃动能",
-      "date_published": "2026-10-27T00:10:42Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%9F%8E%E7%AE%A1%E6%91%87%E4%BA%86%E6%91%8A%E4%B8%BB%E5%A5%BD%E4%BA%86%E9%A1%BE%E5%AE%A2%E7%AC%91%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%9F%8E%E7%AE%A1%E6%91%87%E4%BA%86%E6%91%8A%E4%B8%BB%E5%A5%BD%E4%BA%86%E9%A1%BE%E5%AE%A2%E7%AC%91%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 城管摇了摊主好了顾客笑了",
-      "date_published": "2026-10-27T00:10:42Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%8E%BF%E5%A7%94%E4%B9%A6%E8%AE%B0%E8%A2%AB%E6%89%94%E4%B8%8B%E6%B0%B4%E6%B2%A1%E5%BF%85%E8%A6%81%E5%B0%AC%E5%90%B9%E7%A1%AC%E6%8D%A7%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8E%BF%E5%A7%94%E4%B9%A6%E8%AE%B0%E8%A2%AB%E6%89%94%E4%B8%8B%E6%B0%B4%E6%B2%A1%E5%BF%85%E8%A6%81%E5%B0%AC%E5%90%B9%E7%A1%AC%E6%8D%A7%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 县委书记被扔下水没必要尬吹硬捧",
-      "date_published": "2026-10-27T00:10:42Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E9%99%A9%E9%81%AD%E4%BF%9D%E5%AE%89%E6%80%A7%E4%BE%B5%E5%90%8E%E9%85%92%E5%BA%97%E7%AB%9F%E6%B6%A8%E4%BB%B7%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E9%99%A9%E9%81%AD%E4%BF%9D%E5%AE%89%E6%80%A7%E4%BE%B5%E5%90%8E%E9%85%92%E5%BA%97%E7%AB%9F%E6%B6%A8%E4%BB%B7%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 女子险遭保安性侵后酒店竟涨价",
-      "date_published": "2026-10-27T00:10:42Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%9B%BD%E4%BC%81%E6%AC%A0%E6%AC%BE%E4%B8%8A%E5%8D%83%E4%B8%87%E5%85%83%E7%A7%B0%E5%85%88%E7%BB%99%E5%8D%81%E4%B8%87%E5%85%AB%E4%B8%87%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%9B%BD%E4%BC%81%E6%AC%A0%E6%AC%BE%E4%B8%8A%E5%8D%83%E4%B8%87%E5%85%83%E7%A7%B0%E5%85%88%E7%BB%99%E5%8D%81%E4%B8%87%E5%85%AB%E4%B8%87%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 国企欠款上千万元称先给十万八万",
-      "date_published": "2026-10-27T00:10:42Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E7%A7%9F%E5%AE%A2%E7%95%99277%E5%85%83%E7%A6%BB%E5%BC%80%E6%88%BF%E4%B8%9C%E9%80%80%E5%9B%9E1177%E5%85%83%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%A7%9F%E5%AE%A2%E7%95%99277%E5%85%83%E7%A6%BB%E5%BC%80%E6%88%BF%E4%B8%9C%E9%80%80%E5%9B%9E1177%E5%85%83%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 租客留277元离开房东退回1177元",
-      "date_published": "2026-10-27T00:10:42Z"
+      "id": "hackernews:https://blog.calif.io/p/iphone",
+      "url": "https://blog.calif.io/p/iphone",
+      "title": "[Hacker News 热门] Today, we hacked what we'd set out to hack: the iPhone",
+      "date_published": "2026-10-27T02:00:50Z"
     }
   ]
 }
