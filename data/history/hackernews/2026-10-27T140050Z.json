@@ -1,0 +1,212 @@
+{
+  "date": "2026-10-27T140050Z",
+  "day": "2026-10-27",
+  "sourceKey": "hackernews",
+  "savedAt": "2026-10-27T14:00:50Z",
+  "label": "Hacker News 热门",
+  "description": "近 7 天 HN 高互动讨论（2026-10-27，共 20 条）",
+  "updateFrequency": "twice-daily",
+  "fetchedDate": "2026-10-27",
+  "items": [
+    {
+      "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+      "description": "",
+      "url": "https://edjefferson.com/localwiki/",
+      "score": 1710,
+      "comments": 254,
+      "owner": "sohkamyung",
+      "published": "2026-10-22T23:01:18Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50202285"
+    },
+    {
+      "title": "Anthropic S-1",
+      "description": "",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "score": 1659,
+      "comments": 1592,
+      "owner": "SiNTEx",
+      "published": "2026-10-26T13:04:50Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50242939"
+    },
+    {
+      "title": "Security advisory: Critical remote code execution vulnerabilities, update now",
+      "description": "<a href=\"https:&#x2F;&#x2F;cert.europa.eu&#x2F;publications&#x2F;security-advisories&#x2F;2026-018&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;cert.europa.eu&#x2F;publications&#x2F;security-advisories&#x2F;2026...</a><p><a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50167754\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50167754</a>",
+      "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
+      "score": 1561,
+      "comments": 659,
+      "owner": "xd",
+      "published": "2026-10-20T20:15:50Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50172041"
+    },
+    {
+      "title": "Quad9 to exit France",
+      "description": "",
+      "url": "https://quad9.net/news/blog/au-revoir-france/",
+      "score": 1374,
+      "comments": 479,
+      "owner": "farrokhi",
+      "published": "2026-10-22T14:32:38Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50195959"
+    },
+    {
+      "title": "eMudhra to exit global SSL/TLS certificate business",
+      "description": "",
+      "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+      "score": 1157,
+      "comments": 743,
+      "owner": "bo0tzz",
+      "published": "2026-10-22T13:33:39Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50195110"
+    },
+    {
+      "title": "Today, we hacked what we'd set out to hack: the iPhone",
+      "description": "",
+      "url": "https://blog.calif.io/p/iphone",
+      "score": 1120,
+      "comments": 731,
+      "owner": "pavel_lishin",
+      "published": "2026-10-23T16:21:50Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50211474"
+    },
+    {
+      "title": "PHP 8.2.35",
+      "description": "Related ongoing thread: <i>Today&#x27;s PHP security release, and how we&#x27;re strengthening security</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50182987\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50182987</a>",
+      "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
+      "score": 1107,
+      "comments": 580,
+      "owner": "tuyuri",
+      "published": "2026-10-21T13:45:33Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50180873"
+    },
+    {
+      "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+      "description": "<a href=\"https:&#x2F;&#x2F;www.kimi.com&#x2F;code&#x2F;docs&#x2F;en&#x2F;kimi-code&#x2F;models.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.kimi.com&#x2F;code&#x2F;docs&#x2F;en&#x2F;kimi-code&#x2F;models.html</a><p><a href=\"https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;models&#x2F;kimi-k3-1-pro\" rel=\"nofollow\">https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;models&#x2F;kimi-k3-1-pro</a><p><a href=\"https:&#x2F;&#x2F;www.modelcompare.ai&#x2F;blog&#x2F;china-open-source-ai\" rel=\"nofollow\">https:&#x2F;&#x2F;www.modelcompare.ai&#x2F;blog&#x2F;china-open-source-ai</a>",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "score": 1091,
+      "comments": 675,
+      "owner": "Jowsey",
+      "published": "2026-10-23T16:59:08Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50212065"
+    },
+    {
+      "title": "Three new discoveries in mathematics, computer science, and physics",
+      "description": "Related:<p><i>The Exponential Time Hypothesis Is False [pdf]</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50251661\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50251661</a>",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "score": 1011,
+      "comments": 556,
+      "owner": "jonluca",
+      "published": "2026-10-26T21:35:28Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50251344"
+    },
+    {
+      "title": "Microsoft offers mass buyouts for roughly a quarter of its workforce",
+      "description": "",
+      "url": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/",
+      "score": 984,
+      "comments": 991,
+      "owner": "doctorzook",
+      "published": "2026-10-26T15:35:12Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50245524"
+    },
+    {
+      "title": "Eight Bits of Trust: eMudhra's CA keys cracked in milliseconds",
+      "description": "",
+      "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+      "score": 957,
+      "comments": 461,
+      "owner": "hkc",
+      "published": "2026-10-21T09:08:08Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50177916"
+    },
+    {
+      "title": "Show HN: SimCity, but with Permits",
+      "description": "",
+      "url": "https://permit.petercai.com/",
+      "score": 939,
+      "comments": 425,
+      "owner": "pcai",
+      "published": "2026-10-20T18:29:09Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50170593"
+    },
+    {
+      "title": "Apple Music 404 Not Found",
+      "description": "<a href=\"https:&#x2F;&#x2F;www.macrumors.com&#x2F;2026&#x2F;10&#x2F;23&#x2F;apple-music-has-a-hidden-ipod-you-can-play-with&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.macrumors.com&#x2F;2026&#x2F;10&#x2F;23&#x2F;apple-music-has-a-hidde...</a>",
+      "url": "https://music.apple.com/this-url-doesnt-exist",
+      "score": 937,
+      "comments": 277,
+      "owner": "frizlab",
+      "published": "2026-10-23T12:28:47Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50207910"
+    },
+    {
+      "title": "We should be more ambitious with the software we build",
+      "description": "",
+      "url": "https://danluu.com/ambitious/",
+      "score": 893,
+      "comments": 769,
+      "owner": "ltratt",
+      "published": "2026-10-24T21:47:31Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50225695"
+    },
+    {
+      "title": "Docker is weird",
+      "description": "",
+      "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
+      "score": 879,
+      "comments": 369,
+      "owner": "psxuaw",
+      "published": "2026-10-22T23:45:56Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50202681"
+    },
+    {
+      "title": "Root shell on Samsung TV",
+      "description": "Merged threads:<p>&quot;Samsung running a TensorFlow lite model on 960x540 image to track you&quot;: <a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;mike64_t&#x2F;status&#x2F;2114150399406202896\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;mike64_t&#x2F;status&#x2F;2114150399406202896</a><p>&quot;Samsung TVs look for microphones in your house via Bluetooth and then spy events&quot;: <a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;freddier&#x2F;status&#x2F;2114042326758867453\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;freddier&#x2F;status&#x2F;2114042326758867453</a>",
+      "url": "https://twitter.com/log4j/status/2113014142600953868?s=46",
+      "score": 855,
+      "comments": 638,
+      "owner": "testing22321",
+      "published": "2026-10-24T05:49:57Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50218633"
+    },
+    {
+      "title": "Jailbreaking the Switch 2",
+      "description": "",
+      "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
+      "score": 836,
+      "comments": 307,
+      "owner": "ledoge",
+      "published": "2026-10-22T08:01:52Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50192536"
+    },
+    {
+      "title": "Today's PHP security release, and how we're strengthening security",
+      "description": "Related ongoing thread: <i>PHP 8.2.35</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50180873\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50180873</a><p>(links to more at <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50184935\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50184935</a>)",
+      "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+      "score": 816,
+      "comments": 403,
+      "owner": "ejohnso49",
+      "published": "2026-10-21T15:48:56Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50182987"
+    },
+    {
+      "title": "Voxtral 3",
+      "description": "",
+      "url": "https://mistral.ai/news/voxtral-3/",
+      "score": 770,
+      "comments": 202,
+      "owner": "ilreb",
+      "published": "2026-10-20T16:02:07Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50168396"
+    },
+    {
+      "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
+      "description": "",
+      "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+      "score": 770,
+      "comments": 104,
+      "owner": "sgiannopoulos",
+      "published": "2026-10-26T15:11:59Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50245138"
+    }
+  ]
+}
