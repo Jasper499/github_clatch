@@ -6,148 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%88%98%E5%BB%B6%E4%B8%9C%E5%90%8C%E5%BF%97%E9%80%9D%E4%B8%96%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E5%BB%B6%E4%B8%9C%E5%90%8C%E5%BF%97%E9%80%9D%E4%B8%96%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 刘延东同志逝世",
-      "date_published": "2026-10-28T12:41:35Z"
+      "id": "hackernews:https://edjefferson.com/localwiki/",
+      "url": "https://edjefferson.com/localwiki/",
+      "title": "[Hacker News 热门] Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+      "date_published": "2026-10-28T14:01:26Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E7%8E%B0%E5%9C%A8%E5%B0%B1%E5%87%BA%E5%8F%915%E5%8E%9F%E7%8F%AD%E4%BA%BA%E9%A9%AC%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%8E%B0%E5%9C%A8%E5%B0%B1%E5%87%BA%E5%8F%915%E5%8E%9F%E7%8F%AD%E4%BA%BA%E9%A9%AC%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 现在就出发5原班人马",
-      "date_published": "2026-10-28T12:41:35Z"
+      "id": "hackernews:https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "title": "[Hacker News 热门] Anthropic S-1",
+      "date_published": "2026-10-28T14:01:26Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E6%95%B0%E8%AF%B4%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E6%BE%8E%E6%B9%83%E5%8A%A8%E8%83%BD%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%95%B0%E8%AF%B4%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E6%BE%8E%E6%B9%83%E5%8A%A8%E8%83%BD%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 数说中国经济澎湃动能",
-      "date_published": "2026-10-28T12:41:35Z"
+      "id": "hackernews:https://quad9.net/news/blog/au-revoir-france/",
+      "url": "https://quad9.net/news/blog/au-revoir-france/",
+      "title": "[Hacker News 热门] Quad9 to exit France",
+      "date_published": "2026-10-28T14:01:26Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E8%A5%BF%E7%8F%AD%E7%89%99%E5%88%97%E8%BD%A6%E7%9B%B8%E6%92%9E%E5%B7%B2%E8%87%B450%E6%AD%BB%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%A5%BF%E7%8F%AD%E7%89%99%E5%88%97%E8%BD%A6%E7%9B%B8%E6%92%9E%E5%B7%B2%E8%87%B450%E6%AD%BB%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 西班牙列车相撞已致50死",
-      "date_published": "2026-10-28T12:41:35Z"
+      "id": "hackernews:https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+      "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+      "title": "[Hacker News 热门] eMudhra to exit global SSL/TLS certificate business",
+      "date_published": "2026-10-28T14:01:26Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E8%A2%AB%E8%9C%B1%E8%99%AB%E5%92%AC%E4%BC%A4%E4%BD%8FICU28%E5%A4%A9%E5%9B%9B%E8%82%A2%E7%98%AB%E7%97%AA%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E8%A2%AB%E8%9C%B1%E8%99%AB%E5%92%AC%E4%BC%A4%E4%BD%8FICU28%E5%A4%A9%E5%9B%9B%E8%82%A2%E7%98%AB%E7%97%AA%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 女子被蜱虫咬伤住ICU28天四肢瘫痪",
-      "date_published": "2026-10-28T12:41:35Z"
+      "id": "hackernews:https://ghostty.org/docs/install/release-notes/1-4-0",
+      "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
+      "title": "[Hacker News 热门] Ghostty 1.4",
+      "date_published": "2026-10-28T14:01:26Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%89%91%E6%9D%A5%E8%B5%A2%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%89%91%E6%9D%A5%E8%B5%A2%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 剑来赢了",
-      "date_published": "2026-10-28T12:41:35Z"
+      "id": "hackernews:https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "title": "[Hacker News 热门] Three new discoveries in mathematics, computer science, and physics",
+      "date_published": "2026-10-28T14:01:26Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E7%9A%87%E9%A9%AC%E9%81%93%E6%AD%89%E5%87%BD%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%9A%87%E9%A9%AC%E9%81%93%E6%AD%89%E5%87%BD%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 皇马道歉函",
-      "date_published": "2026-10-28T12:41:35Z"
+      "id": "hackernews:https://blog.calif.io/p/iphone",
+      "url": "https://blog.calif.io/p/iphone",
+      "title": "[Hacker News 热门] Today, we hacked what we'd set out to hack: the iPhone",
+      "date_published": "2026-10-28T14:01:26Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E7%90%86%E6%83%B3%E5%8F%91%E5%B8%83%E4%BC%9A&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E7%90%86%E6%83%B3%E5%8F%91%E5%B8%83%E4%BC%9A&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 理想发布会",
-      "date_published": "2026-10-28T12:41:35Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E8%8A%92%E6%9E%9C%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E5%8A%9E%E5%86%8D%E8%A7%81%E5%81%B6%E5%83%8F%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%8A%92%E6%9E%9C%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E5%8A%9E%E5%86%8D%E8%A7%81%E5%81%B6%E5%83%8F%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 芒果什么时候办再见偶像",
-      "date_published": "2026-10-28T12:41:35Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%85%B1%E4%BA%A7%E5%85%9A%E5%91%98%E6%98%AF%E6%9C%80%E9%97%AA%E4%BA%AE%E7%9A%84%E5%90%8D%E5%AD%97%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%85%B1%E4%BA%A7%E5%85%9A%E5%91%98%E6%98%AF%E6%9C%80%E9%97%AA%E4%BA%AE%E7%9A%84%E5%90%8D%E5%AD%97%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 共产党员是最闪亮的名字",
-      "date_published": "2026-10-28T12:41:35Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E6%AF%8F%E5%A4%A9%E5%90%83%E5%9B%9B%E4%B8%AA%E9%B8%A1%E8%9B%8B%E4%B8%80%E4%B8%AA%E6%9C%88%E8%A1%80%E8%84%82%E4%BC%9A%E6%80%8E%E6%A0%B7&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E6%AF%8F%E5%A4%A9%E5%90%83%E5%9B%9B%E4%B8%AA%E9%B8%A1%E8%9B%8B%E4%B8%80%E4%B8%AA%E6%9C%88%E8%A1%80%E8%84%82%E4%BC%9A%E6%80%8E%E6%A0%B7&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 每天吃四个鸡蛋一个月血脂会怎样",
-      "date_published": "2026-10-28T12:41:35Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E6%95%B0%E8%AF%B4%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E6%BE%8E%E6%B9%83%E5%8A%A8%E8%83%BD%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%95%B0%E8%AF%B4%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E6%BE%8E%E6%B9%83%E5%8A%A8%E8%83%BD%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 数说中国经济澎湃动能",
-      "date_published": "2026-10-28T12:41:35Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%AE%87%E6%A0%91%E4%B8%89%E5%AD%A3%E5%BA%A6%E5%87%80%E5%88%A9%E6%B6%A6%E4%B8%8B%E9%99%8D17%25%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AE%87%E6%A0%91%E4%B8%89%E5%AD%A3%E5%BA%A6%E5%87%80%E5%88%A9%E6%B6%A6%E4%B8%8B%E9%99%8D17%25%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 宇树三季度净利润下降17%",
-      "date_published": "2026-10-28T12:41:35Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4%E9%99%88%E9%83%BD%E7%81%B5%E4%B9%9D%E9%87%8D%E5%A4%A9%E6%96%B0%E6%B5%B7%E6%8A%A5%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4%E9%99%88%E9%83%BD%E7%81%B5%E4%B9%9D%E9%87%8D%E5%A4%A9%E6%96%B0%E6%B5%B7%E6%8A%A5%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 迪丽热巴陈都灵九重天新海报",
-      "date_published": "2026-10-28T12:41:35Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E7%AC%AC140%E5%B1%8A%E5%B9%BF%E4%BA%A4%E4%BC%9A%E7%AC%AC%E4%BA%8C%E6%9C%9F%E5%9C%86%E6%BB%A1%E6%94%B6%E5%AE%98%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%AC%AC140%E5%B1%8A%E5%B9%BF%E4%BA%A4%E4%BC%9A%E7%AC%AC%E4%BA%8C%E6%9C%9F%E5%9C%86%E6%BB%A1%E6%94%B6%E5%AE%98%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 第140届广交会第二期圆满收官",
-      "date_published": "2026-10-28T12:41:35Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E4%BB%8A%E5%A4%A9%E5%A5%BD%E5%A5%BD%E5%90%83%E5%AE%98%E5%AE%A3%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%BB%8A%E5%A4%A9%E5%A5%BD%E5%A5%BD%E5%90%83%E5%AE%98%E5%AE%A3%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 今天好好吃官宣",
-      "date_published": "2026-10-28T12:41:35Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%88%98%E5%BB%B6%E4%B8%9C%E5%90%8C%E5%BF%97%E9%80%9D%E4%B8%96%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E5%BB%B6%E4%B8%9C%E5%90%8C%E5%BF%97%E9%80%9D%E4%B8%96%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 刘延东同志逝世",
-      "date_published": "2026-10-28T12:41:35Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E6%95%B0%E8%AF%B4%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E6%BE%8E%E6%B9%83%E5%8A%A8%E8%83%BD%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%95%B0%E8%AF%B4%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E6%BE%8E%E6%B9%83%E5%8A%A8%E8%83%BD%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 数说中国经济澎湃动能",
-      "date_published": "2026-10-28T12:41:35Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E8%A2%AB%E8%9C%B1%E8%99%AB%E5%92%AC%E4%BC%A4%E4%BD%8FICU28%E5%A4%A9%E5%9B%9B%E8%82%A2%E7%98%AB%E7%97%AA%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E8%A2%AB%E8%9C%B1%E8%99%AB%E5%92%AC%E4%BC%A4%E4%BD%8FICU28%E5%A4%A9%E5%9B%9B%E8%82%A2%E7%98%AB%E7%97%AA%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 女子被蜱虫咬伤住ICU28天四肢瘫痪",
-      "date_published": "2026-10-28T12:41:35Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E7%9A%87%E9%A9%AC%E9%81%93%E6%AD%89%E5%87%BD%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%9A%87%E9%A9%AC%E9%81%93%E6%AD%89%E5%87%BD%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 皇马道歉函",
-      "date_published": "2026-10-28T12:41:35Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E7%9A%87%E9%A9%AC%E6%AC%A0%E4%B8%AD%E5%9B%BD%E7%9A%84%E4%B8%8D%E5%8F%AA%E6%98%AF%E4%B8%80%E5%8F%A5%E9%81%93%E6%AD%89%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%9A%87%E9%A9%AC%E6%AC%A0%E4%B8%AD%E5%9B%BD%E7%9A%84%E4%B8%8D%E5%8F%AA%E6%98%AF%E4%B8%80%E5%8F%A5%E9%81%93%E6%AD%89%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 皇马欠中国的不只是一句道歉",
-      "date_published": "2026-10-28T12:41:35Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E7%AC%AC140%E5%B1%8A%E5%B9%BF%E4%BA%A4%E4%BC%9A%E7%AC%AC%E4%BA%8C%E6%9C%9F%E5%9C%86%E6%BB%A1%E6%94%B6%E5%AE%98%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%AC%AC140%E5%B1%8A%E5%B9%BF%E4%BA%A4%E4%BC%9A%E7%AC%AC%E4%BA%8C%E6%9C%9F%E5%9C%86%E6%BB%A1%E6%94%B6%E5%AE%98%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 第140届广交会第二期圆满收官",
-      "date_published": "2026-10-28T12:41:35Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%2323%E5%B2%81%E7%BD%91%E7%BA%A2%E5%A4%8F%E5%A4%8F%E6%8A%97%E7%99%8C5%E5%B9%B4%E5%8E%BB%E4%B8%96%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%2323%E5%B2%81%E7%BD%91%E7%BA%A2%E5%A4%8F%E5%A4%8F%E6%8A%97%E7%99%8C5%E5%B9%B4%E5%8E%BB%E4%B8%96%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 23岁网红夏夏抗癌5年去世",
-      "date_published": "2026-10-28T12:41:35Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E6%88%91%E5%9B%BD%E9%A3%8E%E5%85%89%E7%B4%AF%E8%AE%A1%E8%A3%85%E6%9C%BA%E5%AE%B9%E9%87%8F%E8%B6%8520%E4%BA%BF%E5%8D%83%E7%93%A6%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%88%91%E5%9B%BD%E9%A3%8E%E5%85%89%E7%B4%AF%E8%AE%A1%E8%A3%85%E6%9C%BA%E5%AE%B9%E9%87%8F%E8%B6%8520%E4%BA%BF%E5%8D%83%E7%93%A6%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 我国风光累计装机容量超20亿千瓦",
-      "date_published": "2026-10-28T12:41:35Z"
+      "id": "hackernews:https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "title": "[Hacker News 热门] Kimi K3.1 Pro and K3.1 Pro Highspeed",
+      "date_published": "2026-10-28T14:01:26Z"
     }
   ]
 }
