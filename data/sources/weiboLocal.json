@@ -1,8 +1,8 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-10-28T05:28:35Z",
+  "savedAt": "2026-10-28T06:11:02Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-28，共 6 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-28，共 3 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-10-28",
   "items": [
@@ -10,61 +10,31 @@
       "title": "中新网评姆巴佩事件",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E6%96%B0%E7%BD%91%E8%AF%84%E5%A7%86%E5%B7%B4%E4%BD%A9%E4%BA%8B%E4%BB%B6%23&t=31&band_rank=1&Refer=top",
-      "score": 466460,
+      "score": 319407,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1793153961
     },
     {
-      "title": "搜索10个品牌售后电话6个是假冒的",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%90%9C%E7%B4%A210%E4%B8%AA%E5%93%81%E7%89%8C%E5%94%AE%E5%90%8E%E7%94%B5%E8%AF%9D6%E4%B8%AA%E6%98%AF%E5%81%87%E5%86%92%E7%9A%84%23&t=31&band_rank=1&Refer=top",
-      "score": 312995,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1793165121
-    },
-    {
       "title": "中国玻璃公司把法国骚乱变成广告",
       "description": "新 · 民生新闻",
       "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E7%8E%BB%E7%92%83%E5%85%AC%E5%8F%B8%E6%8A%8A%E6%B3%95%E5%9B%BD%E9%AA%9A%E4%B9%B1%E5%8F%98%E6%88%90%E5%B9%BF%E5%91%8A&t=31&band_rank=1&Refer=top",
-      "score": 309361,
+      "score": 317868,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
       "onboardTime": 1793163082
     },
     {
-      "title": "家长月均花约3000元住酒店陪读",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AE%B6%E9%95%BF%E6%9C%88%E5%9D%87%E8%8A%B1%E7%BA%A63000%E5%85%83%E4%BD%8F%E9%85%92%E5%BA%97%E9%99%AA%E8%AF%BB%23&t=31&band_rank=1&Refer=top",
-      "score": 308563,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1793147421
-    },
-    {
       "title": "西甲主席与中国大使会面",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E8%A5%BF%E7%94%B2%E4%B8%BB%E5%B8%AD%E4%B8%8E%E4%B8%AD%E5%9B%BD%E5%A4%A7%E4%BD%BF%E4%BC%9A%E9%9D%A2%23&t=31&band_rank=1&Refer=top",
-      "score": 227232,
+      "score": 159273,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1793147000
-    },
-    {
-      "title": "皇马的回应里只有生意没尊重",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%9A%87%E9%A9%AC%E7%9A%84%E5%9B%9E%E5%BA%94%E9%87%8C%E5%8F%AA%E6%9C%89%E7%94%9F%E6%84%8F%E6%B2%A1%E5%B0%8A%E9%87%8D%23&t=31&band_rank=1&Refer=top",
-      "score": 184768,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1793159361
     }
   ]
 }
