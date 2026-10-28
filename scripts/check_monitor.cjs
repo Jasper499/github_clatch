@@ -28,24 +28,29 @@ assert.equal(selectRecovery(overdue, [recent], now).file, 'twice-daily-hackernew
   const records = {};
   for (const row of schedules) for (const source of row.sources) records[source] = { savedAt: liveNow.toISOString(), items: [] };
   records.hackernews.savedAt = '2020-01-01T00:00:00Z';
-  let issue = null, dispatches = 0, updates = 0;
+  let issue = null, failureIssue = null, dispatches = 0, updates = 0;
   const github = {
     rest: {
-      repos: { getContent: async ({path}) => ({ data: { type: 'file', encoding: 'base64', content: Buffer.from(JSON.stringify(records[path.split('/').at(-1).replace('.lite.json','')])).toString('base64') } }) },
       issues: {
         listForRepo: () => {},
         create: async ({title,body}) => { issue = {title,body,number:1,user:{login:'github-actions[bot]'}}; },
-        update: async ({body,state}) => { updates++; if (body) issue.body=body; if (state==='closed') issue=null; },
+        update: async ({issue_number,body,state}) => {
+          updates++;
+          if (issue_number === 2 && state === 'closed') failureIssue = null;
+          else { if (body) issue.body=body; if (state==='closed') issue=null; }
+        },
       },
       actions: { listWorkflowRunsForRepo: () => {}, createWorkflowDispatch: async () => { dispatches++; } },
     },
-    paginate: async method => method === github.rest.issues.listForRepo ? (issue ? [issue] : []) : [{ name: 'Twice-Daily Hacker News Update', event: 'workflow_dispatch', status: 'completed', created_at: liveNow.toISOString() }],
+    paginate: async method => method === github.rest.issues.listForRepo ? [issue, failureIssue].filter(Boolean) : [{ name: 'Twice-Daily Hacker News Update', event: 'workflow_dispatch', status: 'completed', created_at: liveNow.toISOString() }],
   };
-  const args = {github,context:{repo:{owner:'owner',repo:'repo'}},core:{info(){}}};
+  const args = {github,context:{repo:{owner:'owner',repo:'repo'}},core:{info(){}},loadSnapshot:key => records[key]};
   await run(args); assert(issue); assert.equal(dispatches,0);
   await run(args); assert.equal(updates,0, 'Unchanged alerts must not write or comment repeatedly');
   records.hackernews.savedAt=liveNow.toISOString();
   await run(args); assert.equal(issue,null); assert.equal(updates,1);
+  failureIssue = {title:'CI failure: Monitor Content Updates',number:2,user:{login:'github-actions[bot]'}};
+  await run(args); assert.equal(failureIssue,null); assert.equal(updates,2, 'A successful monitor closes its stale failure issue');
   github.paginate = async method => method === github.rest.issues.listForRepo ? [] : [];
   args.context.payload = {inputs:{recovery_grace_minutes:'0'}};
   const currentDue = expectedDue(find('twice-daily-hackernews.yml'), liveNow, 0);

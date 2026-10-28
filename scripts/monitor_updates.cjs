@@ -1,7 +1,10 @@
 // Shared with the website; keep the schedules aligned with workflow cron.
 const { schedules, expectedDue, evaluate } = require('../js/update-schedule.js');
+const fs = require('node:fs');
+const path = require('node:path');
 const RETRY_COOLDOWN_MS = 2 * 60 * 60 * 1000;
 const ISSUE_TITLE = 'Content update monitor: overdue sources';
+const FAILURE_ISSUE_TITLE = 'CI failure: Monitor Content Updates';
 
 function selectRecovery(overdue, runs, now) {
   const names = new Set(schedules.map(row => row.name));
@@ -11,27 +14,27 @@ function selectRecovery(overdue, runs, now) {
   )) || null;
 }
 
-async function run({ github, context, core }) {
+function readSnapshot(key) {
+  const file = path.join(__dirname, '..', 'data', 'sources', `${key}.lite.json`);
+  try { return JSON.parse(fs.readFileSync(file, 'utf8')); }
+  catch (error) { if (error.code === 'ENOENT') return null; throw error; }
+}
+
+async function run({ github, context, core, loadSnapshot = readSnapshot }) {
   const repo = context.repo;
   const now = new Date();
-  const records = {};
-  await Promise.all(schedules.flatMap(row => row.sources).map(async key => {
-    try {
-      const response = await github.rest.repos.getContent({ ...repo, path: `data/sources/${key}.lite.json`, ref: 'main' });
-      const file = response.data;
-      if (file.type !== 'file' || file.encoding !== 'base64') throw new Error(`Unexpected snapshot response: ${key}`);
-      records[key] = JSON.parse(Buffer.from(file.content, 'base64').toString('utf8'));
-    } catch (error) {
-      if (error.status !== 404) throw error;
-      records[key] = null;
-    }
-  }));
+  const records = Object.fromEntries(schedules.flatMap(row => row.sources).map(key => [key, loadSnapshot(key)]));
   const overdue = evaluate(records, now);
   const graceInput = context.payload?.inputs?.recovery_grace_minutes || '90';
   if (!['0', '90'].includes(graceInput)) throw new Error('Invalid recovery grace period.');
   const recoverable = evaluate(records, now, Number(graceInput));
   const issues = await github.paginate(github.rest.issues.listForRepo, { ...repo, state: 'open', per_page: 100 });
   const existing = issues.find(issue => issue.title === ISSUE_TITLE && issue.user?.login === 'github-actions[bot]' && !issue.pull_request);
+  const recoveredFailure = issues.find(issue => issue.title === FAILURE_ISSUE_TITLE && issue.user?.login === 'github-actions[bot]' && !issue.pull_request);
+  if (recoveredFailure) {
+    await github.rest.issues.update({ ...repo, issue_number: recoveredFailure.number, state: 'closed', state_reason: 'completed' });
+    core.info(`Closed recovered monitor failure issue #${recoveredFailure.number}.`);
+  }
   if (!overdue.length) {
     if (existing) await github.rest.issues.update({ ...repo, issue_number: existing.number, state: 'closed' });
     core.info('All source snapshots are within their scheduled update window.');
