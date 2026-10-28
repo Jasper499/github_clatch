@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-10-28T02:20:59Z",
+  "savedAt": "2026-10-28T08:43:55Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "c1637a89c7097d486ba1c6e755e34d01cbb24998",
+  "latestSha": "4a04b953c13c57adc51e202ce296597f00d29d67",
   "items": [
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/4a04b953c13c57adc51e202ce296597f00d29d67",
+      "sha": "4a04b95",
+      "fullSha": "4a04b953c13c57adc51e202ce296597f00d29d67",
+      "owner": "github-actions",
+      "published": "2026-10-28",
+      "label": "commit"
+    },
     {
       "title": "Merge pull request #280 from ls-open/feat/nature-paper2word-clean",
       "description": "Merge pull request #280 from ls-open/feat/nature-paper2word-clean\n\nfeat(nature-paper2word): add Markdown → Word skill (documentation only)",
@@ -143,16 +153,6 @@
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/b0de5a9ec3f8439433c742782f4fbbe582a253d7",
       "sha": "b0de5a9",
       "fullSha": "b0de5a9ec3f8439433c742782f4fbbe582a253d7",
-      "owner": "Yuan1z0825",
-      "published": "2026-10-20",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #259 from CharlesYXW/harden/response-url-scheme-va…",
-      "description": "Merge pull request #259 from CharlesYXW/harden/response-url-scheme-validation\n\nharden: validate scheme and host of response-supplied URLs before download (CWE-918)",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c312b53c377f0f0f7a2e69065b47fc83360f78ca",
-      "sha": "c312b53",
-      "fullSha": "c312b53c377f0f0f7a2e69065b47fc83360f78ca",
       "owner": "Yuan1z0825",
       "published": "2026-10-20",
       "label": "commit"

@@ -1,20 +1,25 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-10-28T02:20:59Z",
+  "changed": true,
+  "fetchedAt": "2026-10-28T08:43:54Z",
   "previousSha": "c1637a89c7097d486ba1c6e755e34d01cbb24998",
-  "latestSha": "c1637a89c7097d486ba1c6e755e34d01cbb24998",
+  "latestSha": "4a04b953c13c57adc51e202ce296597f00d29d67",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "Merge pull request #280 from ls-open/feat/nature-paper2word-clean",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/c1637a89c7097d486ba1c6e755e34d01cbb24998",
-    "sha": "c1637a8",
-    "published": "2026-10-27"
+    "title": "chore: update star history",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/4a04b953c13c57adc51e202ce296597f00d29d67",
+    "sha": "4a04b95",
+    "published": "2026-10-28"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "chore: update star history",
+      "sha": "4a04b95",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/4a04b953c13c57adc51e202ce296597f00d29d67"
+    },
     {
       "title": "Merge pull request #280 from ls-open/feat/nature-paper2word-clean",
       "sha": "c1637a8",
@@ -34,11 +39,6 @@
       "title": "Update README.md",
       "sha": "8f28a61",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/8f28a61d42c2b251d224cdb0a59229df9879a68e"
-    },
-    {
-      "title": "feat(nature-paper2word): add Markdown → Word skill (documentation only)",
-      "sha": "bef0a4a",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/bef0a4a90be450dc2096ce64489eae4a103c608d"
     }
   ]
 }
