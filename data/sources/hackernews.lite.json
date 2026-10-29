@@ -1,10 +1,10 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-10-28T19:24:15Z",
+  "savedAt": "2026-10-29T02:01:20Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-10-28，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-10-29，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-10-28",
+  "fetchedDate": "2026-10-29",
   "items": [
     {
       "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
@@ -20,8 +20,8 @@
       "title": "Anthropic S-1",
       "description": "",
       "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
-      "score": 1700,
-      "comments": 1671,
+      "score": 1701,
+      "comments": 1673,
       "owner": "SiNTEx",
       "published": "2026-10-26T13:04:50Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50242939"
@@ -40,8 +40,8 @@
       "title": "Ghostty 1.4",
       "description": "",
       "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
-      "score": 1261,
-      "comments": 401,
+      "score": 1301,
+      "comments": 414,
       "owner": "deaux",
       "published": "2026-10-27T16:51:22Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50261998"
@@ -60,8 +60,8 @@
       "title": "Three new discoveries in mathematics, computer science, and physics",
       "description": "Related:<p><i>The Exponential Time Hypothesis Is False [pdf]</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50251661\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50251661</a>",
       "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
-      "score": 1143,
-      "comments": 690,
+      "score": 1148,
+      "comments": 692,
       "owner": "jonluca",
       "published": "2026-10-26T21:35:28Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50251344"
@@ -77,51 +77,61 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50211474"
     },
     {
-      "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
-      "description": "<a href=\"https:&#x2F;&#x2F;www.kimi.com&#x2F;code&#x2F;docs&#x2F;en&#x2F;kimi-code&#x2F;models.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.kimi.com&#x2F;code&#x2F;docs&#x2F;en&#x2F;kimi-code&#x2F;models.html</a><p><a href=\"https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;models&#x2F;kimi-k3-1-pro\" rel=\"nofollow\">https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;models&#x2F;kimi-k3-1-pro</a><p><a href=\"https:&#x2F;&#x2F;www.modelcompare.ai&#x2F;blog&#x2F;china-open-source-ai\" rel=\"nofollow\">https:&#x2F;&#x2F;www.modelcompare.ai&#x2F;blog&#x2F;china-open-source-ai</a>",
-      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
-      "score": 1094,
-      "comments": 677,
-      "owner": "Jowsey",
-      "published": "2026-10-23T16:59:08Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50212065"
-    },
-    {
-      "title": "Microsoft offers mass buyouts for roughly a quarter of its workforce",
-      "description": "",
-      "url": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/",
-      "score": 1067,
-      "comments": 1150,
-      "owner": "doctorzook",
-      "published": "2026-10-26T15:35:12Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50245524"
-    },
-    {
-      "title": "US Government is hiding a secret court ruling about how it spies on Americans",
-      "description": "",
-      "url": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/",
-      "score": 1055,
-      "comments": 424,
-      "owner": "helterskelter2",
-      "published": "2026-10-27T14:06:42Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50259604"
-    },
-    {
       "title": "Evidence of a spying operation by ICE against left-wing social movements",
       "description": "",
       "url": "https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/",
-      "score": 1009,
-      "comments": 791,
+      "score": 1100,
+      "comments": 912,
       "owner": "zzzeek",
       "published": "2026-10-28T12:49:45Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50272749"
     },
     {
+      "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+      "description": "<a href=\"https:&#x2F;&#x2F;www.kimi.com&#x2F;code&#x2F;docs&#x2F;en&#x2F;kimi-code&#x2F;models.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.kimi.com&#x2F;code&#x2F;docs&#x2F;en&#x2F;kimi-code&#x2F;models.html</a><p><a href=\"https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;models&#x2F;kimi-k3-1-pro\" rel=\"nofollow\">https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;models&#x2F;kimi-k3-1-pro</a><p><a href=\"https:&#x2F;&#x2F;www.modelcompare.ai&#x2F;blog&#x2F;china-open-source-ai\" rel=\"nofollow\">https:&#x2F;&#x2F;www.modelcompare.ai&#x2F;blog&#x2F;china-open-source-ai</a>",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "score": 1096,
+      "comments": 678,
+      "owner": "Jowsey",
+      "published": "2026-10-23T16:59:08Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50212065"
+    },
+    {
+      "title": "US Government is hiding a secret court ruling about how it spies on Americans",
+      "description": "",
+      "url": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/",
+      "score": 1073,
+      "comments": 432,
+      "owner": "helterskelter2",
+      "published": "2026-10-27T14:06:42Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50259604"
+    },
+    {
+      "title": "Microsoft offers mass buyouts for roughly a quarter of its workforce",
+      "description": "",
+      "url": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/",
+      "score": 1071,
+      "comments": 1157,
+      "owner": "doctorzook",
+      "published": "2026-10-26T15:35:12Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50245524"
+    },
+    {
+      "title": "Apple's git still trusts the compromised eMudhra certificates",
+      "description": "",
+      "url": "https://emudhra.we-have-a-problem.com/apple.html",
+      "score": 1045,
+      "comments": 378,
+      "owner": "galadran",
+      "published": "2026-10-28T11:03:40Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50271640"
+    },
+    {
       "title": "Genie 4",
       "description": "",
       "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-      "score": 1009,
-      "comments": 571,
+      "score": 1022,
+      "comments": 579,
       "owner": "acossta",
       "published": "2026-10-27T16:06:01Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50261319"
@@ -141,7 +151,7 @@
       "description": "",
       "url": "https://danluu.com/ambitious/",
       "score": 903,
-      "comments": 772,
+      "comments": 774,
       "owner": "ltratt",
       "published": "2026-10-24T21:47:31Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50225695"
@@ -157,20 +167,20 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50202681"
     },
     {
-      "title": "Apple's git still trusts the compromised eMudhra certificates",
+      "title": "Why is this fingerprinting script creating bioweapons?",
       "description": "",
-      "url": "https://emudhra.we-have-a-problem.com/apple.html",
-      "score": 881,
-      "comments": 340,
-      "owner": "galadran",
-      "published": "2026-10-28T11:03:40Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50271640"
+      "url": "https://nullpt.rs/fingerprinting-bioweapons",
+      "score": 861,
+      "comments": 185,
+      "owner": "hazebooth",
+      "published": "2026-10-28T17:13:29Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50276998"
     },
     {
       "title": "Root shell on Samsung TV",
       "description": "Merged threads:<p>&quot;Samsung running a TensorFlow lite model on 960x540 image to track you&quot;: <a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;mike64_t&#x2F;status&#x2F;2114150399406202896\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;mike64_t&#x2F;status&#x2F;2114150399406202896</a><p>&quot;Samsung TVs look for microphones in your house via Bluetooth and then spy events&quot;: <a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;freddier&#x2F;status&#x2F;2114042326758867453\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;freddier&#x2F;status&#x2F;2114042326758867453</a>",
       "url": "https://twitter.com/log4j/status/2113014142600953868?s=46",
-      "score": 857,
+      "score": 858,
       "comments": 641,
       "owner": "testing22321",
       "published": "2026-10-24T05:49:57Z",
@@ -195,16 +205,6 @@
       "owner": "ledoge",
       "published": "2026-10-22T08:01:52Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50192536"
-    },
-    {
-      "title": "The Exponential Time Hypothesis Is False [pdf]",
-      "description": "See also: <i>Announcing three new discoveries in mathematics, computer science, and physics</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50251344\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50251344</a>",
-      "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
-      "score": 792,
-      "comments": 295,
-      "owner": "vok",
-      "published": "2026-10-26T21:59:15Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50251661"
     }
   ]
 }
