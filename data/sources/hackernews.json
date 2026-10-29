@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-10-29T08:13:31Z",
+  "savedAt": "2026-10-29T14:01:08Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-10-29，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -20,11 +20,21 @@
       "title": "Anthropic S-1",
       "description": "",
       "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
-      "score": 1701,
-      "comments": 1674,
+      "score": 1703,
+      "comments": 1675,
       "owner": "SiNTEx",
       "published": "2026-10-26T13:04:50Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50242939"
+    },
+    {
+      "title": "Why is this fingerprinting script creating bioweapons?",
+      "description": "",
+      "url": "https://nullpt.rs/fingerprinting-bioweapons",
+      "score": 1406,
+      "comments": 258,
+      "owner": "hazebooth",
+      "published": "2026-10-28T17:13:29Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50276998"
     },
     {
       "title": "Quad9 to exit France",
@@ -40,41 +50,41 @@
       "title": "Ghostty 1.4",
       "description": "",
       "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
-      "score": 1318,
-      "comments": 417,
+      "score": 1329,
+      "comments": 422,
       "owner": "deaux",
       "published": "2026-10-27T16:51:22Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50261998"
     },
     {
-      "title": "eMudhra to exit global SSL/TLS certificate business",
+      "title": "Evidence of a spying operation by ICE against left-wing social movements",
       "description": "",
-      "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
-      "score": 1157,
-      "comments": 745,
-      "owner": "bo0tzz",
-      "published": "2026-10-22T13:33:39Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50195110"
+      "url": "https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/",
+      "score": 1158,
+      "comments": 966,
+      "owner": "zzzeek",
+      "published": "2026-10-28T12:49:45Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50272749"
+    },
+    {
+      "title": "Apple's git still trusts the compromised eMudhra certificates",
+      "description": "",
+      "url": "https://emudhra.we-have-a-problem.com/apple.html",
+      "score": 1158,
+      "comments": 399,
+      "owner": "galadran",
+      "published": "2026-10-28T11:03:40Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50271640"
     },
     {
       "title": "Three new discoveries in mathematics, computer science, and physics",
       "description": "Related:<p><i>The Exponential Time Hypothesis Is False [pdf]</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50251661\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50251661</a>",
       "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
-      "score": 1150,
-      "comments": 696,
+      "score": 1152,
+      "comments": 697,
       "owner": "jonluca",
       "published": "2026-10-26T21:35:28Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50251344"
-    },
-    {
-      "title": "Evidence of a spying operation by ICE against left-wing social movements",
-      "description": "",
-      "url": "https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/",
-      "score": 1129,
-      "comments": 930,
-      "owner": "zzzeek",
-      "published": "2026-10-28T12:49:45Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50272749"
     },
     {
       "title": "Today, we hacked what we'd set out to hack: the iPhone",
@@ -85,26 +95,6 @@
       "owner": "pavel_lishin",
       "published": "2026-10-23T16:21:50Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50211474"
-    },
-    {
-      "title": "Why is this fingerprinting script creating bioweapons?",
-      "description": "",
-      "url": "https://nullpt.rs/fingerprinting-bioweapons",
-      "score": 1115,
-      "comments": 220,
-      "owner": "hazebooth",
-      "published": "2026-10-28T17:13:29Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50276998"
-    },
-    {
-      "title": "Apple's git still trusts the compromised eMudhra certificates",
-      "description": "",
-      "url": "https://emudhra.we-have-a-problem.com/apple.html",
-      "score": 1113,
-      "comments": 392,
-      "owner": "galadran",
-      "published": "2026-10-28T11:03:40Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50271640"
     },
     {
       "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
@@ -120,8 +110,8 @@
       "title": "US Government is hiding a secret court ruling about how it spies on Americans",
       "description": "",
       "url": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/",
-      "score": 1079,
-      "comments": 440,
+      "score": 1082,
+      "comments": 441,
       "owner": "helterskelter2",
       "published": "2026-10-27T14:06:42Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50259604"
@@ -130,8 +120,8 @@
       "title": "Microsoft offers mass buyouts for roughly a quarter of its workforce",
       "description": "",
       "url": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/",
-      "score": 1073,
-      "comments": 1158,
+      "score": 1076,
+      "comments": 1164,
       "owner": "doctorzook",
       "published": "2026-10-26T15:35:12Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50245524"
@@ -140,11 +130,21 @@
       "title": "Genie 4",
       "description": "",
       "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-      "score": 1028,
-      "comments": 582,
+      "score": 1032,
+      "comments": 583,
       "owner": "acossta",
       "published": "2026-10-27T16:06:01Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50261319"
+    },
+    {
+      "title": "Gemini 4 Carbon",
+      "description": "",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "score": 971,
+      "comments": 774,
+      "owner": "acossta",
+      "published": "2026-10-28T17:01:23Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50276792"
     },
     {
       "title": "Apple Music 404 Not Found",
@@ -157,21 +157,11 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50207910"
     },
     {
-      "title": "Gemini 4 Carbon",
-      "description": "",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-      "score": 904,
-      "comments": 737,
-      "owner": "acossta",
-      "published": "2026-10-28T17:01:23Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50276792"
-    },
-    {
       "title": "We should be more ambitious with the software we build",
       "description": "",
       "url": "https://danluu.com/ambitious/",
-      "score": 903,
-      "comments": 774,
+      "score": 905,
+      "comments": 775,
       "owner": "ltratt",
       "published": "2026-10-24T21:47:31Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50225695"
@@ -191,7 +181,7 @@
       "description": "Merged threads:<p>&quot;Samsung running a TensorFlow lite model on 960x540 image to track you&quot;: <a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;mike64_t&#x2F;status&#x2F;2114150399406202896\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;mike64_t&#x2F;status&#x2F;2114150399406202896</a><p>&quot;Samsung TVs look for microphones in your house via Bluetooth and then spy events&quot;: <a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;freddier&#x2F;status&#x2F;2114042326758867453\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;freddier&#x2F;status&#x2F;2114042326758867453</a>",
       "url": "https://twitter.com/log4j/status/2113014142600953868?s=46",
       "score": 858,
-      "comments": 641,
+      "comments": 642,
       "owner": "testing22321",
       "published": "2026-10-24T05:49:57Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50218633"
@@ -200,11 +190,21 @@
       "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
       "description": "",
       "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
-      "score": 847,
-      "comments": 115,
+      "score": 849,
+      "comments": 116,
       "owner": "sgiannopoulos",
       "published": "2026-10-26T15:11:59Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50245138"
+    },
+    {
+      "title": "The Exponential Time Hypothesis Is False [pdf]",
+      "description": "See also: <i>Announcing three new discoveries in mathematics, computer science, and physics</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50251344\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50251344</a>",
+      "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+      "score": 796,
+      "comments": 300,
+      "owner": "vok",
+      "published": "2026-10-26T21:59:15Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50251661"
     }
   ]
 }
