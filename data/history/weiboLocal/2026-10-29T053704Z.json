@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-29T053704Z",
+  "day": "2026-10-29",
+  "sourceKey": "weiboLocal",
+  "savedAt": "2026-10-29T05:37:04Z",
+  "label": "同城",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-29，共 8 条，约每 6 小时更新）",
+  "updateFrequency": "every-6h",
+  "fetchedDate": "2026-10-29",
+  "items": [
+    {
+      "title": "三丽鸥致歉",
+      "description": "热 · 动漫,民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%89%E4%B8%BD%E9%B8%A5%E8%87%B4%E6%AD%89%23&t=31&band_rank=1&Refer=top",
+      "score": 1768345,
+      "owner": "微博同城",
+      "label": "热",
+      "category": "动漫,民生新闻",
+      "onboardTime": 1793229379
+    },
+    {
+      "title": "不会打方结女博主曾在各个科室轮转",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%8D%E4%BC%9A%E6%89%93%E6%96%B9%E7%BB%93%E5%A5%B3%E5%8D%9A%E4%B8%BB%E6%9B%BE%E5%9C%A8%E5%90%84%E4%B8%AA%E7%A7%91%E5%AE%A4%E8%BD%AE%E8%BD%AC%23&t=31&band_rank=1&Refer=top",
+      "score": 906973,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1793244560
+    },
+    {
+      "title": "我国农产品全面提质路线图来了",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%88%91%E5%9B%BD%E5%86%9C%E4%BA%A7%E5%93%81%E5%85%A8%E9%9D%A2%E6%8F%90%E8%B4%A8%E8%B7%AF%E7%BA%BF%E5%9B%BE%E6%9D%A5%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 750952,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1793243121
+    },
+    {
+      "title": "钓友钓58斤青鱼被拖入3米水中",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%92%93%E5%8F%8B%E9%92%9358%E6%96%A4%E9%9D%92%E9%B1%BC%E8%A2%AB%E6%8B%96%E5%85%A53%E7%B1%B3%E6%B0%B4%E4%B8%AD%23&t=31&band_rank=1&Refer=top",
+      "score": 604230,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1793244860
+    },
+    {
+      "title": "你还会买三丽鸥吗",
+      "description": "动漫,民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BD%A0%E8%BF%98%E4%BC%9A%E4%B9%B0%E4%B8%89%E4%B8%BD%E9%B8%A5%E5%90%97%23&t=31&band_rank=1&Refer=top",
+      "score": 450272,
+      "owner": "微博同城",
+      "label": "",
+      "category": "动漫,民生新闻",
+      "onboardTime": 1793244260
+    },
+    {
+      "title": "三丽鸥将与抹黑中国日剧再次联名",
+      "description": "动漫,民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%89%E4%B8%BD%E9%B8%A5%E5%B0%86%E4%B8%8E%E6%8A%B9%E9%BB%91%E4%B8%AD%E5%9B%BD%E6%97%A5%E5%89%A7%E5%86%8D%E6%AC%A1%E8%81%94%E5%90%8D%23&t=31&band_rank=1&Refer=top",
+      "score": 269155,
+      "owner": "微博同城",
+      "label": "",
+      "category": "动漫,民生新闻",
+      "onboardTime": 1793204778
+    },
+    {
+      "title": "买14套老破小收租的人转向收息了",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B9%B014%E5%A5%97%E8%80%81%E7%A0%B4%E5%B0%8F%E6%94%B6%E7%A7%9F%E7%9A%84%E4%BA%BA%E8%BD%AC%E5%90%91%E6%94%B6%E6%81%AF%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 258972,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1793245220
+    },
+    {
+      "title": "女儿减重82斤回家妈妈心疼哭了",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%84%BF%E5%87%8F%E9%87%8D82%E6%96%A4%E5%9B%9E%E5%AE%B6%E5%A6%88%E5%A6%88%E5%BF%83%E7%96%BC%E5%93%AD%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 213859,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1793246120
+    }
+  ]
+}
