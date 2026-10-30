@@ -6,148 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%9B%BC%E6%98%B10%E6%AF%943%E9%99%88%E7%86%A0%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%9B%BC%E6%98%B10%E6%AF%943%E9%99%88%E7%86%A0%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 王曼昱0比3陈熠",
-      "date_published": "2026-10-30T12:42:22Z"
+      "id": "hackernews:https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
+      "url": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
+      "title": "[Hacker News 热门] Patrick Stewart has died",
+      "date_published": "2026-10-30T14:01:04Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E6%8A%AB%E8%8D%86%E6%96%A9%E6%A3%98%E6%80%BB%E5%86%B3%E8%B5%9B&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E6%8A%AB%E8%8D%86%E6%96%A9%E6%A3%98%E6%80%BB%E5%86%B3%E8%B5%9B&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 披荆斩棘总决赛",
-      "date_published": "2026-10-30T12:42:22Z"
+      "id": "hackernews:https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "title": "[Hacker News 热门] Anthropic S-1",
+      "date_published": "2026-10-30T14:01:04Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E9%80%8F%E8%BF%87%E4%B8%89%E5%AD%A3%E6%8A%A5%E7%9C%8B%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E5%90%91%E6%96%B0%E5%90%91%E4%BC%98%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%80%8F%E8%BF%87%E4%B8%89%E5%AD%A3%E6%8A%A5%E7%9C%8B%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E5%90%91%E6%96%B0%E5%90%91%E4%BC%98%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 透过三季报看中国经济向新向优",
-      "date_published": "2026-10-30T12:42:22Z"
+      "id": "hackernews:https://mistral.ai/news/mistral-large-4-oss/",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "title": "[Hacker News 热门] We're releasing the weights of Mistral Large 4",
+      "date_published": "2026-10-30T14:01:04Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E7%8E%8B%E5%8A%B2%E6%9D%BE%E9%95%BF%E6%96%87%E5%9B%9E%E5%BA%94%E4%B8%A5%E6%B5%A9%E7%BF%94%E6%96%B0%E5%89%A7%E4%BA%89%E8%AE%AE%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E5%8A%B2%E6%9D%BE%E9%95%BF%E6%96%87%E5%9B%9E%E5%BA%94%E4%B8%A5%E6%B5%A9%E7%BF%94%E6%96%B0%E5%89%A7%E4%BA%89%E8%AE%AE%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 王劲松长文回应严浩翔新剧争议",
-      "date_published": "2026-10-30T12:42:22Z"
+      "id": "hackernews:https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
+      "url": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
+      "title": "[Hacker News 热门] Binance-hacker-1029 – $5.6B stolen from Binance",
+      "date_published": "2026-10-30T14:01:04Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%85%A8%E5%8A%9B%E7%A8%B3%E5%B8%82%E5%9C%BA%E7%A8%B3%E9%A2%84%E6%9C%9F%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%85%A8%E5%8A%9B%E7%A8%B3%E5%B8%82%E5%9C%BA%E7%A8%B3%E9%A2%84%E6%9C%9F%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 全力稳市场稳预期",
-      "date_published": "2026-10-30T12:42:22Z"
+      "id": "hackernews:https://nullpt.rs/fingerprinting-bioweapons",
+      "url": "https://nullpt.rs/fingerprinting-bioweapons",
+      "title": "[Hacker News 热门] Why is this fingerprinting script creating bioweapons?",
+      "date_published": "2026-10-30T14:01:04Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E9%9D%92%E7%A8%9A%E6%B7%98%E6%B1%B0%E7%99%BD%E5%B0%8F%E7%BA%AF%E5%90%8E%E5%81%B7%E7%AC%91%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%9D%92%E7%A8%9A%E6%B7%98%E6%B1%B0%E7%99%BD%E5%B0%8F%E7%BA%AF%E5%90%8E%E5%81%B7%E7%AC%91%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 青稚淘汰白小纯后偷笑",
-      "date_published": "2026-10-30T12:42:22Z"
+      "id": "hackernews:https://ghostty.org/docs/install/release-notes/1-4-0",
+      "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
+      "title": "[Hacker News 热门] Ghostty 1.4",
+      "date_published": "2026-10-30T14:01:04Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B9%E5%9B%9E%E5%BA%94%E8%B5%B7%E8%AF%89%E7%99%BD%E8%A1%A3%E5%B1%B1%E7%8C%AB%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B9%E5%9B%9E%E5%BA%94%E8%B5%B7%E8%AF%89%E7%99%BD%E8%A1%A3%E5%B1%B1%E7%8C%AB%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 小城良方回应起诉白衣山猫",
-      "date_published": "2026-10-30T12:42:22Z"
+      "id": "hackernews:https://emudhra.we-have-a-problem.com/apple.html",
+      "url": "https://emudhra.we-have-a-problem.com/apple.html",
+      "title": "[Hacker News 热门] Apple's git still trusts the compromised eMudhra certificates",
+      "date_published": "2026-10-30T14:01:04Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E9%99%88%E7%86%A0%E8%AF%B4%E6%9B%BC%E6%98%B1%E5%A7%90%E6%98%AF%E4%B8%80%E7%9B%B4%E4%BB%A5%E6%9D%A5%E6%88%91%E7%9A%84%E6%A6%9C%E6%A0%B7%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%99%88%E7%86%A0%E8%AF%B4%E6%9B%BC%E6%98%B1%E5%A7%90%E6%98%AF%E4%B8%80%E7%9B%B4%E4%BB%A5%E6%9D%A5%E6%88%91%E7%9A%84%E6%A6%9C%E6%A0%B7%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 陈熠说曼昱姐是一直以来我的榜样",
-      "date_published": "2026-10-30T12:42:22Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E9%99%88%E7%86%A0%E8%AF%B4%E6%9B%BC%E6%98%B1%E5%A7%90%E6%98%AF%E4%B8%80%E7%9B%B4%E4%BB%A5%E6%9D%A5%E6%88%91%E7%9A%84%E6%A6%9C%E6%A0%B7%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%99%88%E7%86%A0%E8%AF%B4%E6%9B%BC%E6%98%B1%E5%A7%90%E6%98%AF%E4%B8%80%E7%9B%B4%E4%BB%A5%E6%9D%A5%E6%88%91%E7%9A%84%E6%A6%9C%E6%A0%B7%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 陈熠说曼昱姐是一直以来我的榜样",
-      "date_published": "2026-10-30T12:42:22Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E8%94%A1%E5%A4%A9%E5%87%A4%E6%A1%88%E6%9B%9D%E5%9C%86%E5%A4%B4%E9%94%A4%E4%B8%8A%E6%9C%AA%E5%8F%91%E7%8E%B0%E6%AD%BB%E8%80%85DNA%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%94%A1%E5%A4%A9%E5%87%A4%E6%A1%88%E6%9B%9D%E5%9C%86%E5%A4%B4%E9%94%A4%E4%B8%8A%E6%9C%AA%E5%8F%91%E7%8E%B0%E6%AD%BB%E8%80%85DNA%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 蔡天凤案曝圆头锤上未发现死者DNA",
-      "date_published": "2026-10-30T12:42:22Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E5%B0%8F%E7%B1%B3%20%E5%AE%81%E5%BE%B7%E6%97%B6%E4%BB%A3&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%B1%B3%20%E5%AE%81%E5%BE%B7%E6%97%B6%E4%BB%A3&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 小米 宁德时代",
-      "date_published": "2026-10-30T12:42:22Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E4%BD%95%E4%BB%A5%E7%AC%99%E7%AE%AB%E9%BB%98%E6%89%8D%E6%98%AF%E6%B7%B1%E6%83%85%E4%BA%BA%E8%AE%BE%E5%A4%A9%E8%8A%B1%E6%9D%BF%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%BD%95%E4%BB%A5%E7%AC%99%E7%AE%AB%E9%BB%98%E6%89%8D%E6%98%AF%E6%B7%B1%E6%83%85%E4%BA%BA%E8%AE%BE%E5%A4%A9%E8%8A%B1%E6%9D%BF%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 何以笙箫默才是深情人设天花板",
-      "date_published": "2026-10-30T12:42:22Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E7%8E%8B%E6%9B%BC%E6%98%B1vs%E9%99%88%E7%86%A0&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E6%9B%BC%E6%98%B1vs%E9%99%88%E7%86%A0&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 王曼昱vs陈熠",
-      "date_published": "2026-10-30T12:42:22Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E8%82%96%E6%88%98%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B922%E9%9B%86%E5%BC%B9%E5%B9%95%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%82%96%E6%88%98%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B922%E9%9B%86%E5%BC%B9%E5%B9%95%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 肖战小城良方22集弹幕",
-      "date_published": "2026-10-30T12:42:22Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%A4%A7%E4%BD%93%E8%80%81%E5%B8%88%E6%91%86%E6%8B%8D%E4%B8%8E%E5%88%BB%E5%AD%97%E9%9D%9E%E5%90%8C%E4%B8%80%E5%AD%A6%E6%A0%A1%E4%BA%8B%E4%BB%B6%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%A7%E4%BD%93%E8%80%81%E5%B8%88%E6%91%86%E6%8B%8D%E4%B8%8E%E5%88%BB%E5%AD%97%E9%9D%9E%E5%90%8C%E4%B8%80%E5%AD%A6%E6%A0%A1%E4%BA%8B%E4%BB%B6%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 大体老师摆拍与刻字非同一学校事件",
-      "date_published": "2026-10-30T12:42:22Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E4%BA%91%E5%8D%97%E5%B0%8F%E5%B0%8F%E5%BE%90%E5%A9%9A%E7%A4%BC%E7%9A%84%E5%8E%A8%E5%B8%88%E5%88%87%E7%83%824%E6%8A%8A%E8%8F%9C%E5%88%80%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%BA%91%E5%8D%97%E5%B0%8F%E5%B0%8F%E5%BE%90%E5%A9%9A%E7%A4%BC%E7%9A%84%E5%8E%A8%E5%B8%88%E5%88%87%E7%83%824%E6%8A%8A%E8%8F%9C%E5%88%80%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 云南小小徐婚礼的厨师切烂4把菜刀",
-      "date_published": "2026-10-30T12:42:22Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E9%80%8F%E8%BF%87%E4%B8%89%E5%AD%A3%E6%8A%A5%E7%9C%8B%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E5%90%91%E6%96%B0%E5%90%91%E4%BC%98%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%80%8F%E8%BF%87%E4%B8%89%E5%AD%A3%E6%8A%A5%E7%9C%8B%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E5%90%91%E6%96%B0%E5%90%91%E4%BC%98%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 透过三季报看中国经济向新向优",
-      "date_published": "2026-10-30T12:42:22Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B9%E5%9B%9E%E5%BA%94%E8%B5%B7%E8%AF%89%E7%99%BD%E8%A1%A3%E5%B1%B1%E7%8C%AB%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B9%E5%9B%9E%E5%BA%94%E8%B5%B7%E8%AF%89%E7%99%BD%E8%A1%A3%E5%B1%B1%E7%8C%AB%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 小城良方回应起诉白衣山猫",
-      "date_published": "2026-10-30T12:42:22Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%A4%A7%E4%BD%93%E8%80%81%E5%B8%88%E6%91%86%E6%8B%8D%E4%B8%8E%E5%88%BB%E5%AD%97%E9%9D%9E%E5%90%8C%E4%B8%80%E5%AD%A6%E6%A0%A1%E4%BA%8B%E4%BB%B6%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%A7%E4%BD%93%E8%80%81%E5%B8%88%E6%91%86%E6%8B%8D%E4%B8%8E%E5%88%BB%E5%AD%97%E9%9D%9E%E5%90%8C%E4%B8%80%E5%AD%A6%E6%A0%A1%E4%BA%8B%E4%BB%B6%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 大体老师摆拍与刻字非同一学校事件",
-      "date_published": "2026-10-30T12:42:22Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E4%BA%91%E5%8D%97%E5%B0%8F%E5%B0%8F%E5%BE%90%E5%A9%9A%E7%A4%BC%E7%9A%84%E5%8E%A8%E5%B8%88%E5%88%87%E7%83%824%E6%8A%8A%E8%8F%9C%E5%88%80%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%BA%91%E5%8D%97%E5%B0%8F%E5%B0%8F%E5%BE%90%E5%A9%9A%E7%A4%BC%E7%9A%84%E5%8E%A8%E5%B8%88%E5%88%87%E7%83%824%E6%8A%8A%E8%8F%9C%E5%88%80%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 云南小小徐婚礼的厨师切烂4把菜刀",
-      "date_published": "2026-10-30T12:42:22Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E8%94%A1%E5%A4%A9%E5%87%A4%E6%A1%88%E6%9B%9D%E5%9C%86%E5%A4%B4%E9%94%A4%E4%B8%8A%E6%9C%AA%E5%8F%91%E7%8E%B0%E6%AD%BB%E8%80%85DNA%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%94%A1%E5%A4%A9%E5%87%A4%E6%A1%88%E6%9B%9D%E5%9C%86%E5%A4%B4%E9%94%A4%E4%B8%8A%E6%9C%AA%E5%8F%91%E7%8E%B0%E6%AD%BB%E8%80%85DNA%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 蔡天凤案曝圆头锤上未发现死者DNA",
-      "date_published": "2026-10-30T12:42:22Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E6%98%9F%E5%B7%B4%E5%85%8B%E4%B8%8D%E6%B6%88%E8%B4%B9%E5%8D%A0%E5%BA%A7%E8%A2%AB%E5%8A%9D%E7%A6%BB%E5%90%8E%E6%8A%A5%E8%AD%A6%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E6%98%9F%E5%B7%B4%E5%85%8B%E4%B8%8D%E6%B6%88%E8%B4%B9%E5%8D%A0%E5%BA%A7%E8%A2%AB%E5%8A%9D%E7%A6%BB%E5%90%8E%E6%8A%A5%E8%AD%A6%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 男子星巴克不消费占座被劝离后报警",
-      "date_published": "2026-10-30T12:42:22Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E4%B8%8D%E6%98%AF%E6%89%80%E6%9C%89%E7%89%9B%E5%A5%B6%E9%83%BD%E5%8F%AB%E7%89%B9%E4%BB%91%E8%8B%8F%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%8D%E6%98%AF%E6%89%80%E6%9C%89%E7%89%9B%E5%A5%B6%E9%83%BD%E5%8F%AB%E7%89%B9%E4%BB%91%E8%8B%8F%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 不是所有牛奶都叫特仑苏",
-      "date_published": "2026-10-30T12:42:22Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%A4%AB%E5%A6%BB%E5%9B%A0%E4%B8%80%E9%A4%905%E4%B8%AA%E8%8F%9C%E9%97%B9%E5%88%B0%E8%A6%81%E7%A6%BB%E5%A9%9A%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%AB%E5%A6%BB%E5%9B%A0%E4%B8%80%E9%A4%905%E4%B8%AA%E8%8F%9C%E9%97%B9%E5%88%B0%E8%A6%81%E7%A6%BB%E5%A9%9A%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 夫妻因一餐5个菜闹到要离婚",
-      "date_published": "2026-10-30T12:42:22Z"
+      "id": "hackernews:https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/",
+      "url": "https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/",
+      "title": "[Hacker News 热门] Evidence of a spying operation by ICE against left-wing social movements",
+      "date_published": "2026-10-30T14:01:04Z"
     }
   ]
 }
