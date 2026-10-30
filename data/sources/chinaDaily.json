@@ -1,22 +1,22 @@
 {
   "sourceKey": "chinaDaily",
-  "savedAt": "2026-10-30T03:01:12Z",
+  "savedAt": "2026-10-30T09:39:46Z",
   "label": "China Daily 热门",
   "description": "China Daily Most Viewed / 首页热门（2026-10-30，共 20 条，每天更新）",
   "updateFrequency": "daily",
   "fetchedDate": "2026-10-30",
   "items": [
     {
-      "title": "LIVE: CPC Central Committee holds news conference",
-      "url": "https://www.chinadaily.com.cn/a/202610/30/WS6ae3ef50e4b06d4aa0565fe1.html",
+      "title": "Peaceful reunification positive for Taiwan youth",
+      "url": "https://www.chinadaily.com.cn/a/202610/30/WS6ae40e12e4b06d4aa056610c.html",
       "score": 0,
       "published": "2026-10-30",
       "source": "homepage",
       "rank": 1,
       "description": "The content (including but not limited to text, photo, multimedia information, etc) published in this site belongs to China Daily Information Co (CDIC).",
-      "owner": "China Daily",
+      "owner": "Strait Talk",
       "label": "Top News",
-      "image": "https://img2.chinadaily.com.cn/images/202610/30/6ae4002ae4b06d4a392f15a3.jpeg"
+      "image": "https://img2.chinadaily.com.cn/images/202610/30/6ae452bce4b06d4a392f1d90.png"
     },
     {
       "title": "Business representatives discover opportunities in Linyi",
@@ -64,7 +64,7 @@
       "description": "In an acknowledgment of the role played by the China International Import Expo in introducing global innovations to China and deepening cooperation with various partners, a number of multinational companies that have participated in every past edition of the event are ready to attend once again.",
       "owner": "Zhou Wenting in Shanghai",
       "label": "Top News",
-      "image": "https://img2.chinadaily.com.cn/images/202610/30/6ae3d38be4b06d4a392f1153.png"
+      "image": "https://img2.chinadaily.com.cn/images/202610/30/6ae42d63e4b06d4a392f1a4d.png"
     },
     {
       "title": "Chinese firm plans flight test of reusable spacecraft",
@@ -91,16 +91,28 @@
       "image": "https://img2.chinadaily.com.cn/images/202610/30/6ae3ffa6e4b06d4a392f1584.jpeg"
     },
     {
-      "title": "German President visits Peking University, awarded honorary professorship",
-      "url": "https://www.chinadaily.com.cn/a/202610/30/WS6ae3ef8fe4b06d4aa0565fe4.html",
+      "title": "Experts reframe climate action as opportunity",
+      "url": "https://www.chinadaily.com.cn/a/202610/30/WS6ae4196ae4b06d4aa0566143.html",
       "score": 0,
       "published": "2026-10-30",
       "source": "homepage",
       "rank": 8,
-      "description": "Steinmeier arrived in Hefei, Anhui province, on Tuesday, kicking off a five-day state visit to China.",
-      "owner": "Zou Shuo",
+      "description": "Zero Carbon Prosperity offers a new framework: we can grow the pie together with renewable energy.",
+      "owner": "Peng Ying",
       "label": "Top News",
-      "image": "https://img2.chinadaily.com.cn/images/202610/30/6ae3ef8fe4b06d4a392f1233.jpeg"
+      "image": "https://img2.chinadaily.com.cn/images/202610/30/6ae41969e4b06d4a392f19c4.jpeg"
+    },
+    {
+      "title": "What can the Maldives learn from China's development?",
+      "url": "https://www.chinadaily.com.cn/a/202610/30/WS6ae40fe5e4b06d4aa0566123.html",
+      "score": 0,
+      "published": "2026-10-30",
+      "source": "homepage",
+      "rank": 9,
+      "description": "What can the Maldives learn from China's development?",
+      "owner": "Li Jing and Yan Xingzhou",
+      "label": "Top News",
+      "image": "https://img2.chinadaily.com.cn/images/202610/30/6ae42eebe4b06d4a392f1a85.jpeg"
     },
     {
       "title": "Health focus vital to China's poverty plan",
@@ -108,11 +120,23 @@
       "score": 0,
       "published": "2026-10-30",
       "source": "homepage",
-      "rank": 9,
+      "rank": 10,
       "description": "China's efforts to integrate health into its national poverty alleviation strategy offer important lessons for tackling extreme poverty worldwide, highlighting the need to prioritize health, coordinate government action and expand primary healthcare coverage, according to a report released on Thursday by the Lancet Commission.",
       "owner": "WANG XIAOYU",
       "label": "Top News",
       "image": "https://img2.chinadaily.com.cn/images/202610/30/6ae3f43be4b06d4a392f12c2.jpeg"
+    },
+    {
+      "title": "German president visits Peking University, awarded honorary professorship",
+      "url": "https://www.chinadaily.com.cn/a/202610/30/WS6ae3ef8fe4b06d4aa0565fe4.html",
+      "score": 0,
+      "published": "2026-10-30",
+      "source": "homepage",
+      "rank": 11,
+      "description": "Steinmeier arrived in Hefei, Anhui province, on Tuesday, kicking off a five-day state visit to China.",
+      "owner": "Zou Shuo",
+      "label": "Top News",
+      "image": "https://img2.chinadaily.com.cn/images/202610/30/6ae45856e4b06d4a392f1e55.jpeg"
     },
     {
       "title": "AI models for extreme weather forecasts built",
@@ -120,7 +144,7 @@
       "score": 0,
       "published": "2026-10-30",
       "source": "homepage",
-      "rank": 10,
+      "rank": 12,
       "description": "China has unveiled two artificial intelligence models for extreme weather forecasting, using data from its Fengyun meteorological satellites to move beyond monitoring current conditions and predict how weather systems will evolve.",
       "owner": "LI MUYUN and HE CHUN in Changsha",
       "label": "Top News",
@@ -132,23 +156,11 @@
       "score": 0,
       "published": "2026-10-30",
       "source": "homepage",
-      "rank": 11,
+      "rank": 13,
       "description": "Japan's expanding military deployments and efforts to strengthen military cooperation with other countries show that it is accelerating its remilitarization, posing a threat to regional security, a Chinese defense spokesman said on Thursday.",
       "owner": "LI SHANGYI",
       "label": "Top News",
       "image": "https://img2.chinadaily.com.cn/images/202610/30/6ae3eb75e4b06d4a392f1195.jpeg"
-    },
-    {
-      "title": "EU urged to treat Chinese firms fairly",
-      "url": "https://www.chinadaily.com.cn/a/202610/30/WS6ae3ecd8e4b06d4aa0565fa6.html",
-      "score": 0,
-      "published": "2026-10-30",
-      "source": "homepage",
-      "rank": 12,
-      "description": "As Brussels reportedly weighs extending a trade understanding with China regarding hybrid vehicles to other sectors, Beijing has reaffirmed its willingness to resolve differences through dialogue, while warning that discriminatory curbs on Chinese goods would draw a firm response.",
-      "owner": "Zhang Chenxu",
-      "label": "Top News",
-      "image": "https://img2.chinadaily.com.cn/images/202610/30/6ae3ecd8e4b06d4a392f11b6.jpeg"
     },
     {
       "title": "Former Kyrgyz PM hails CPC's self-governance practices",
@@ -156,7 +168,7 @@
       "score": 0,
       "published": "2026-10-29",
       "source": "homepage",
-      "rank": 13,
+      "rank": 14,
       "description": "He praised the CPC's continued efforts to strengthen Party discipline, pursue self-reform and adapt to changing circumstances and emerging challenges.",
       "owner": "China Daily",
       "label": "Top News",
@@ -168,7 +180,7 @@
       "score": 0,
       "published": "2026-10-29",
       "source": "homepage",
-      "rank": 14,
+      "rank": 15,
       "description": "At just 14, Zhang Shaoqing's prowess with AI tools means he could easily be included in the ranks of the new wave of \"super students\" but it's a description he balks at.",
       "owner": "YU RAN",
       "label": "Top News",
@@ -180,10 +192,22 @@
       "score": 0,
       "published": "2026-10-29",
       "source": "homepage",
-      "rank": 15,
+      "rank": 16,
       "description": "Australia handed over to China two Northern Song Dynasty head statues, the latest repatriation of Chinese relics under joint efforts to protect cultural heritage and build on ties.",
       "owner": "China Daily",
       "label": "Top News"
+    },
+    {
+      "title": "Greater Bay Area offers a new answer for Global South",
+      "url": "https://www.chinadaily.com.cn/a/202610/29/WS6ae32cf1e4b06d4aa0565ed1.html",
+      "score": 0,
+      "published": "2026-10-29",
+      "source": "homepage",
+      "rank": 17,
+      "description": "The content (including but not limited to text, photo, multimedia information, etc) published in this site belongs to China Daily Information Co (CDIC).",
+      "owner": "China Daily",
+      "label": "Top News",
+      "image": "https://img2.chinadaily.com.cn/images/202610/29/6ae32cf1e4b06d4a392f0cf1.png"
     },
     {
       "title": "Why is TCM wellness trending overseas? An Egyptian vlogger shares his experience",
@@ -191,7 +215,7 @@
       "score": 0,
       "published": "2026-10-29",
       "source": "homepage",
-      "rank": 16,
+      "rank": 18,
       "description": "\"I didn't believe in traditional Chinese medicine at first,\" Egyptian vlogger Ahmed Elseny told China Daily reporter Yan An. Now, he has become a regular at TCM clinics.",
       "owner": "China Daily",
       "label": "Top News",
@@ -203,35 +227,11 @@
       "score": 0,
       "published": "2026-10-29",
       "source": "homepage",
-      "rank": 17,
+      "rank": 19,
       "description": "The 2026 World Internet Conference Wuzhen Summit will take place from Nov 2 to 5 in Wuzhen, East China's Zhejiang province. What will happen when modern technology meets China's ancient town? The summit will gather executives from leading technology companies and developers of open-source large models to discuss how to build a global open-source AI ecosystem. Watch the video to find out!",
       "owner": "China Daily",
       "label": "Top News",
       "image": "https://www.chinaservicesinfo.com/images/202610/27/6ae0479c498e3685b299b189.jpeg"
-    },
-    {
-      "title": "Russian scholar advocates for a 'concert of civilizations'",
-      "url": "https://www.chinadaily.com.cn/a/202610/28/WS6ae200a7e4b06d4aa0565b4d.html",
-      "score": 0,
-      "published": "2026-10-28",
-      "source": "homepage",
-      "rank": 18,
-      "description": "Alexander A. Dynkin, president of the Primakov National Research Institute of World Economy and International Relations, said at the Global Strategic Dialogue 2026 in Beijing on Wednesday that the multilayer interaction between Russia and China, two nations with distinct civilizational identities, has become a prototype for a new form of global cooperation.",
-      "owner": "China Daily",
-      "label": "Top News",
-      "image": "https://img2.chinadaily.com.cn/images/202610/28/6ae20b2ee4b06d4a392efa38.jpeg"
-    },
-    {
-      "title": "Diplomats on the Long March: World needs this determination",
-      "url": "https://www.chinadaily.com.cn/a/202610/28/WS6ae16694e4b06d4aa0565993.html",
-      "score": 0,
-      "published": "2026-10-28",
-      "source": "homepage",
-      "rank": 19,
-      "description": "Despite scarce resources and formidable obstacles, the Red Army pressed on.",
-      "owner": "ZHAO JIA",
-      "label": "Top News",
-      "image": "https://img2.chinadaily.com.cn/images/202610/28/6ae16693e4b06d4a392eed08.jpeg"
     },
     {
       "title": "Where innovation shines: Breakthroughs from China",
