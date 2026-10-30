@@ -1,20 +1,20 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-10-29T19:27:22Z",
+  "savedAt": "2026-10-30T02:01:02Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-10-29，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-10-30，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-10-29",
+  "fetchedDate": "2026-10-30",
   "items": [
     {
-      "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
-      "description": "",
-      "url": "https://edjefferson.com/localwiki/",
-      "score": 1719,
-      "comments": 255,
-      "owner": "sohkamyung",
-      "published": "2026-10-22T23:01:18Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50202285"
+      "title": "Patrick Stewart has died",
+      "description": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;y4Egm\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;y4Egm</a><p><a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Patrick_Stewart\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Patrick_Stewart</a>",
+      "url": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
+      "score": 2433,
+      "comments": 502,
+      "owner": "j4mie",
+      "published": "2026-10-29T19:41:39Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50294702"
     },
     {
       "title": "Anthropic S-1",
@@ -30,8 +30,8 @@
       "title": "Why is this fingerprinting script creating bioweapons?",
       "description": "",
       "url": "https://nullpt.rs/fingerprinting-bioweapons",
-      "score": 1525,
-      "comments": 284,
+      "score": 1540,
+      "comments": 292,
       "owner": "hazebooth",
       "published": "2026-10-28T17:13:29Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50276998"
@@ -40,18 +40,28 @@
       "title": "Ghostty 1.4",
       "description": "",
       "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
-      "score": 1340,
-      "comments": 431,
+      "score": 1342,
+      "comments": 433,
       "owner": "deaux",
       "published": "2026-10-27T16:51:22Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50261998"
     },
     {
+      "title": "We're releasing the weights of Mistral Large 4",
+      "description": "",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "score": 1210,
+      "comments": 340,
+      "owner": "kuberwastaken",
+      "published": "2026-10-29T14:13:21Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50289418"
+    },
+    {
       "title": "Apple's git still trusts the compromised eMudhra certificates",
       "description": "",
       "url": "https://emudhra.we-have-a-problem.com/apple.html",
-      "score": 1176,
-      "comments": 403,
+      "score": 1187,
+      "comments": 408,
       "owner": "galadran",
       "published": "2026-10-28T11:03:40Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50271640"
@@ -60,8 +70,8 @@
       "title": "Evidence of a spying operation by ICE against left-wing social movements",
       "description": "",
       "url": "https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/",
-      "score": 1167,
-      "comments": 987,
+      "score": 1179,
+      "comments": 999,
       "owner": "zzzeek",
       "published": "2026-10-28T12:49:45Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50272749"
@@ -70,8 +80,8 @@
       "title": "Three new discoveries in mathematics, computer science, and physics",
       "description": "Related:<p><i>The Exponential Time Hypothesis Is False [pdf]</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50251661\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50251661</a>",
       "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
-      "score": 1153,
-      "comments": 701,
+      "score": 1154,
+      "comments": 702,
       "owner": "jonluca",
       "published": "2026-10-26T21:35:28Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50251344"
@@ -100,8 +110,8 @@
       "title": "US Government is hiding a secret court ruling about how it spies on Americans",
       "description": "",
       "url": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/",
-      "score": 1085,
-      "comments": 448,
+      "score": 1089,
+      "comments": 449,
       "owner": "helterskelter2",
       "published": "2026-10-27T14:06:42Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50259604"
@@ -110,8 +120,8 @@
       "title": "Microsoft offers mass buyouts for roughly a quarter of its workforce",
       "description": "",
       "url": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/",
-      "score": 1078,
-      "comments": 1166,
+      "score": 1079,
+      "comments": 1169,
       "owner": "doctorzook",
       "published": "2026-10-26T15:35:12Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50245524"
@@ -120,8 +130,8 @@
       "title": "Genie 4",
       "description": "",
       "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-      "score": 1036,
-      "comments": 586,
+      "score": 1038,
+      "comments": 587,
       "owner": "acossta",
       "published": "2026-10-27T16:06:01Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50261319"
@@ -130,8 +140,8 @@
       "title": "Gemini 4 Carbon",
       "description": "",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-      "score": 995,
-      "comments": 792,
+      "score": 1001,
+      "comments": 796,
       "owner": "acossta",
       "published": "2026-10-28T17:01:23Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50276792"
@@ -140,7 +150,7 @@
       "title": "Apple Music 404 Not Found",
       "description": "<a href=\"https:&#x2F;&#x2F;www.macrumors.com&#x2F;2026&#x2F;10&#x2F;23&#x2F;apple-music-has-a-hidden-ipod-you-can-play-with&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.macrumors.com&#x2F;2026&#x2F;10&#x2F;23&#x2F;apple-music-has-a-hidde...</a>",
       "url": "https://music.apple.com/this-url-doesnt-exist",
-      "score": 940,
+      "score": 941,
       "comments": 278,
       "owner": "frizlab",
       "published": "2026-10-23T12:28:47Z",
@@ -157,16 +167,6 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50225695"
     },
     {
-      "title": "Docker is weird",
-      "description": "",
-      "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
-      "score": 885,
-      "comments": 370,
-      "owner": "psxuaw",
-      "published": "2026-10-22T23:45:56Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50202681"
-    },
-    {
       "title": "Root shell on Samsung TV",
       "description": "Merged threads:<p>&quot;Samsung running a TensorFlow lite model on 960x540 image to track you&quot;: <a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;mike64_t&#x2F;status&#x2F;2114150399406202896\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;mike64_t&#x2F;status&#x2F;2114150399406202896</a><p>&quot;Samsung TVs look for microphones in your house via Bluetooth and then spy events&quot;: <a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;freddier&#x2F;status&#x2F;2114042326758867453\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;freddier&#x2F;status&#x2F;2114042326758867453</a>",
       "url": "https://twitter.com/log4j/status/2113014142600953868?s=46",
@@ -180,31 +180,31 @@
       "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
       "description": "",
       "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
-      "score": 851,
+      "score": 852,
       "comments": 116,
       "owner": "sgiannopoulos",
       "published": "2026-10-26T15:11:59Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50245138"
     },
     {
-      "title": "We're releasing the weights of Mistral Large 4",
-      "description": "",
-      "url": "https://mistral.ai/news/mistral-large-4-oss/",
-      "score": 830,
-      "comments": 222,
-      "owner": "kuberwastaken",
-      "published": "2026-10-29T14:13:21Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50289418"
-    },
-    {
       "title": "The Exponential Time Hypothesis Is False [pdf]",
       "description": "See also: <i>Announcing three new discoveries in mathematics, computer science, and physics</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50251344\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50251344</a>",
       "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
       "score": 797,
-      "comments": 300,
+      "comments": 301,
       "owner": "vok",
       "published": "2026-10-26T21:59:15Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50251661"
+    },
+    {
+      "title": "StackOverflow now gets fewer than 1000 questions a month",
+      "description": "",
+      "url": "https://data.stackexchange.com/stackoverflow/query/1926661#graph?t=1",
+      "score": 769,
+      "comments": 689,
+      "owner": "babelfish",
+      "published": "2026-10-28T23:35:02Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50282454"
     }
   ]
 }
