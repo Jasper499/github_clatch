@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-31T052558Z",
+  "day": "2026-10-31",
+  "sourceKey": "weiboLocal",
+  "savedAt": "2026-10-31T05:25:58Z",
+  "label": "同城",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-31，共 5 条，约每 6 小时更新）",
+  "updateFrequency": "every-6h",
+  "fetchedDate": "2026-10-31",
+  "items": [
+    {
+      "title": "女硕士案 性同意认定",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E7%A1%95%E5%A3%AB%E6%A1%88%20%E6%80%A7%E5%90%8C%E6%84%8F%E8%AE%A4%E5%AE%9A&t=31&band_rank=1&Refer=top",
+      "score": 243327,
+      "owner": "微博同城",
+      "label": "热",
+      "category": "民生新闻",
+      "onboardTime": 1793412620
+    },
+    {
+      "title": "广东26岁女孩胸痛一查是印戒细胞癌晚期",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%B9%BF%E4%B8%9C26%E5%B2%81%E5%A5%B3%E5%AD%A9%E8%83%B8%E7%97%9B%E4%B8%80%E6%9F%A5%E6%98%AF%E5%8D%B0%E6%88%92%E7%BB%86%E8%83%9E%E7%99%8C%E6%99%9A%E6%9C%9F%23&t=31&band_rank=1&Refer=top",
+      "score": 220953,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1793422159
+    },
+    {
+      "title": "女子买3元彩票中1439万",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E4%B9%B03%E5%85%83%E5%BD%A9%E7%A5%A8%E4%B8%AD1439%E4%B8%87%23&t=31&band_rank=1&Refer=top",
+      "score": 199751,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1793415440
+    },
+    {
+      "title": "主持人跑网约车被抽成破防",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%BB%E6%8C%81%E4%BA%BA%E8%B7%91%E7%BD%91%E7%BA%A6%E8%BD%A6%E8%A2%AB%E6%8A%BD%E6%88%90%E7%A0%B4%E9%98%B2&t=31&band_rank=1&Refer=top",
+      "score": 149394,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1793409498
+    },
+    {
+      "title": "出轨丈夫说原配生的小儿子没用",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%87%BA%E8%BD%A8%E4%B8%88%E5%A4%AB%E8%AF%B4%E5%8E%9F%E9%85%8D%E7%94%9F%E7%9A%84%E5%B0%8F%E5%84%BF%E5%AD%90%E6%B2%A1%E7%94%A8%23&t=31&band_rank=1&Refer=top",
+      "score": 149312,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1793423599
+    }
+  ]
+}
