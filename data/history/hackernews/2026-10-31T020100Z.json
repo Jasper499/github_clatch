@@ -1,0 +1,212 @@
+{
+  "date": "2026-10-31T020100Z",
+  "day": "2026-10-31",
+  "sourceKey": "hackernews",
+  "savedAt": "2026-10-31T02:01:00Z",
+  "label": "Hacker News 热门",
+  "description": "近 7 天 HN 高互动讨论（2026-10-31，共 20 条）",
+  "updateFrequency": "twice-daily",
+  "fetchedDate": "2026-10-31",
+  "items": [
+    {
+      "title": "Patrick Stewart has died",
+      "description": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;y4Egm\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;y4Egm</a><p><a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Patrick_Stewart\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Patrick_Stewart</a>",
+      "url": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
+      "score": 3250,
+      "comments": 741,
+      "owner": "j4mie",
+      "published": "2026-10-29T19:41:39Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50294702"
+    },
+    {
+      "title": "Binance-hacker-1029 – $5.6B stolen from Binance",
+      "description": "",
+      "url": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
+      "score": 1728,
+      "comments": 1217,
+      "owner": "Tiberium",
+      "published": "2026-10-29T21:38:59Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50296470"
+    },
+    {
+      "title": "Anthropic S-1",
+      "description": "",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "score": 1706,
+      "comments": 1677,
+      "owner": "SiNTEx",
+      "published": "2026-10-26T13:04:50Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50242939"
+    },
+    {
+      "title": "We're releasing the weights of Mistral Large 4",
+      "description": "",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "score": 1679,
+      "comments": 435,
+      "owner": "kuberwastaken",
+      "published": "2026-10-29T14:13:21Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50289418"
+    },
+    {
+      "title": "Why is this fingerprinting script creating bioweapons?",
+      "description": "",
+      "url": "https://nullpt.rs/fingerprinting-bioweapons",
+      "score": 1573,
+      "comments": 302,
+      "owner": "hazebooth",
+      "published": "2026-10-28T17:13:29Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50276998"
+    },
+    {
+      "title": "Ghostty 1.4",
+      "description": "",
+      "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
+      "score": 1349,
+      "comments": 439,
+      "owner": "deaux",
+      "published": "2026-10-27T16:51:22Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50261998"
+    },
+    {
+      "title": "Apple's git still trusts the compromised eMudhra certificates",
+      "description": "",
+      "url": "https://emudhra.we-have-a-problem.com/apple.html",
+      "score": 1192,
+      "comments": 409,
+      "owner": "galadran",
+      "published": "2026-10-28T11:03:40Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50271640"
+    },
+    {
+      "title": "Evidence of a spying operation by ICE against left-wing social movements",
+      "description": "",
+      "url": "https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/",
+      "score": 1191,
+      "comments": 1031,
+      "owner": "zzzeek",
+      "published": "2026-10-28T12:49:45Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50272749"
+    },
+    {
+      "title": "Three new discoveries in mathematics, computer science, and physics",
+      "description": "Related:<p><i>The Exponential Time Hypothesis Is False [pdf]</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50251661\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50251661</a>",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "score": 1158,
+      "comments": 709,
+      "owner": "jonluca",
+      "published": "2026-10-26T21:35:28Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50251344"
+    },
+    {
+      "title": "US Government is hiding a secret court ruling about how it spies on Americans",
+      "description": "",
+      "url": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/",
+      "score": 1094,
+      "comments": 456,
+      "owner": "helterskelter2",
+      "published": "2026-10-27T14:06:42Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50259604"
+    },
+    {
+      "title": "Microsoft offers mass buyouts for roughly a quarter of its workforce",
+      "description": "",
+      "url": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/",
+      "score": 1082,
+      "comments": 1172,
+      "owner": "doctorzook",
+      "published": "2026-10-26T15:35:12Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50245524"
+    },
+    {
+      "title": "Genie 4",
+      "description": "",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "score": 1041,
+      "comments": 591,
+      "owner": "acossta",
+      "published": "2026-10-27T16:06:01Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50261319"
+    },
+    {
+      "title": "Gemini 4 Carbon",
+      "description": "",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "score": 1011,
+      "comments": 801,
+      "owner": "acossta",
+      "published": "2026-10-28T17:01:23Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50276792"
+    },
+    {
+      "title": "We should be more ambitious with the software we build",
+      "description": "",
+      "url": "https://danluu.com/ambitious/",
+      "score": 913,
+      "comments": 777,
+      "owner": "ltratt",
+      "published": "2026-10-24T21:47:31Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50225695"
+    },
+    {
+      "title": "Root shell on Samsung TV",
+      "description": "Merged threads:<p>&quot;Samsung running a TensorFlow lite model on 960x540 image to track you&quot;: <a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;mike64_t&#x2F;status&#x2F;2114150399406202896\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;mike64_t&#x2F;status&#x2F;2114150399406202896</a><p>&quot;Samsung TVs look for microphones in your house via Bluetooth and then spy events&quot;: <a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;freddier&#x2F;status&#x2F;2114042326758867453\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;freddier&#x2F;status&#x2F;2114042326758867453</a>",
+      "url": "https://twitter.com/log4j/status/2113014142600953868?s=46",
+      "score": 858,
+      "comments": 642,
+      "owner": "testing22321",
+      "published": "2026-10-24T05:49:57Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50218633"
+    },
+    {
+      "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
+      "description": "",
+      "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+      "score": 856,
+      "comments": 116,
+      "owner": "sgiannopoulos",
+      "published": "2026-10-26T15:11:59Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50245138"
+    },
+    {
+      "title": "StackOverflow now gets fewer than 1000 questions a month",
+      "description": "",
+      "url": "https://data.stackexchange.com/stackoverflow/query/1926661#graph?t=1",
+      "score": 820,
+      "comments": 739,
+      "owner": "babelfish",
+      "published": "2026-10-28T23:35:02Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50282454"
+    },
+    {
+      "title": "The Exponential Time Hypothesis Is False [pdf]",
+      "description": "See also: <i>Announcing three new discoveries in mathematics, computer science, and physics</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50251344\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50251344</a>",
+      "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+      "score": 800,
+      "comments": 301,
+      "owner": "vok",
+      "published": "2026-10-26T21:59:15Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50251661"
+    },
+    {
+      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "description": "<a href=\"https:&#x2F;&#x2F;cursor.com&#x2F;blog&#x2F;claude-code-extension-security-notice\" rel=\"nofollow\">https:&#x2F;&#x2F;cursor.com&#x2F;blog&#x2F;claude-code-extension-security-notic...</a>",
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "score": 781,
+      "comments": 489,
+      "owner": "_chall",
+      "published": "2026-10-30T07:09:12Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50300683"
+    },
+    {
+      "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
+      "description": "",
+      "url": "https://divagr.com/blog/qwenputer",
+      "score": 696,
+      "comments": 145,
+      "owner": "csmantle",
+      "published": "2026-10-29T00:25:45Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50282838"
+    }
+  ]
+}
