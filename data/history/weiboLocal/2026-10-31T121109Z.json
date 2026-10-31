@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-31T121109Z",
+  "day": "2026-10-31",
+  "sourceKey": "weiboLocal",
+  "savedAt": "2026-10-31T12:11:09Z",
+  "label": "同城",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-10-31，共 2 条，约每 6 小时更新）",
+  "updateFrequency": "every-6h",
+  "fetchedDate": "2026-10-31",
+  "items": [
+    {
+      "title": "男子回家发现床上2只藏马熊",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E5%9B%9E%E5%AE%B6%E5%8F%91%E7%8E%B0%E5%BA%8A%E4%B8%8A2%E5%8F%AA%E8%97%8F%E9%A9%AC%E7%86%8A%23&t=31&band_rank=1&Refer=top",
+      "score": 290139,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1793436800
+    },
+    {
+      "title": "15岁女孩胁迫13岁闺蜜卖淫获刑5年",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%2315%E5%B2%81%E5%A5%B3%E5%AD%A9%E8%83%81%E8%BF%AB13%E5%B2%81%E9%97%BA%E8%9C%9C%E5%8D%96%E6%B7%AB%E8%8E%B7%E5%88%915%E5%B9%B4%23&t=31&band_rank=1&Refer=top",
+      "score": 230461,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1793448081
+    }
+  ]
+}
