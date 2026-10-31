@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-10-31T02:21:03Z",
+  "savedAt": "2026-10-31T08:32:52Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "4a04b953c13c57adc51e202ce296597f00d29d67",
+  "latestSha": "c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f",
   "items": [
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f",
+      "sha": "c1a8e7b",
+      "fullSha": "c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f",
+      "owner": "github-actions",
+      "published": "2026-10-31",
+      "label": "commit"
+    },
     {
       "title": "chore: update star history",
       "description": "chore: update star history",
@@ -144,16 +154,6 @@
       "sha": "52f478c",
       "fullSha": "52f478cc164c811a8eeb18474998cf71cc675d5a",
       "owner": "WatchKitty",
-      "published": "2026-10-20",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #258 from CharlesYXW/harden/format-converter-egres…",
-      "description": "Merge pull request #258 from CharlesYXW/harden/format-converter-egress-and-filenames\n\nharden: complete egress allowlist and sanitize PMID filenames in format-converter (CWE-918, CWE-22)",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/b0de5a9ec3f8439433c742782f4fbbe582a253d7",
-      "sha": "b0de5a9",
-      "fullSha": "b0de5a9ec3f8439433c742782f4fbbe582a253d7",
-      "owner": "Yuan1z0825",
       "published": "2026-10-20",
       "label": "commit"
     }
