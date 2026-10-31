@@ -1,6 +1,6 @@
 {
   "sourceKey": "chinaDaily",
-  "savedAt": "2026-10-31T03:01:05Z",
+  "savedAt": "2026-10-31T09:19:34Z",
   "label": "China Daily 热门",
   "description": "China Daily Most Viewed / 首页热门（2026-10-31，共 20 条，每天更新）",
   "updateFrequency": "daily",
@@ -28,7 +28,7 @@
       "description": "Positive sentiment among businesses reflected in foreign investment figures",
       "owner": "ZHANG CHENXU and ZHOU LANXU in Tianjin",
       "label": "Top News",
-      "image": "https://img2.chinadaily.com.cn/images/202610/31/6ae549dbe4b06d4a392f2909.jpeg"
+      "image": "https://img2.chinadaily.com.cn/images/202610/31/6ae59dbbe4b06d4a392f2d05.jpeg"
     },
     {
       "title": "Wukang Building charms visitors and residents",
@@ -78,12 +78,24 @@
       "image": "https://img2.chinadaily.com.cn/images/202610/31/6ae559a1e4b06d4a392f2b91.png"
     },
     {
+      "title": "China discovers huge zircon sand deposit in Xinjiang",
+      "url": "https://www.chinadaily.com.cn/a/202610/31/WS6ae5a617e4b06d4aa05663e5.html",
+      "score": 0,
+      "published": "2026-10-31",
+      "source": "homepage",
+      "rank": 7,
+      "description": "Zirconium is a silvery-gray transition metal with a high melting point, corrosion resistance and a small neutron absorption cross-section, making it a critical material for nuclear reactor fuel rod cladding and aerospace high-temperature alloys.",
+      "owner": "Li Menghan",
+      "label": "Top News",
+      "image": "https://img2.chinadaily.com.cn/images/202610/31/6ae5a616e4b06d4a392f2d2e.png"
+    },
+    {
       "title": "Nation pushes for energy dynamism",
       "url": "https://www.chinadaily.com.cn/a/202610/31/WS6ae51ac7e4b06d4aa05662e4.html",
       "score": 0,
       "published": "2026-10-31",
       "source": "homepage",
-      "rank": 7,
+      "rank": 8,
       "description": "China's energy sector investment is maintaining a steady pace while accelerating its structural transition toward high-quality and green development, as the country's installed solar power capacity historically overtakes coal to become its largest single power source, government officials said on Friday.",
       "owner": "ZHENG XIN",
       "label": "Top News",
@@ -95,11 +107,23 @@
       "score": 0,
       "published": "2026-10-31",
       "source": "homepage",
-      "rank": 8,
+      "rank": 9,
       "description": "The Hong Kong SAR government will launch the first phase of a centralized database for the records of building maintenance projects and professionals in May or June next year, while a new public body will assist local homeowners with the oversight of repair or renovation works from January.",
       "owner": "LU WANQING",
       "label": "Top News",
       "image": "https://img2.chinadaily.com.cn/images/202610/31/6ae52a4be4b06d4a392f24ee.jpeg"
+    },
+    {
+      "title": "Sichuan 'Village Gala' serves up local flavors and crafts",
+      "url": "https://www.chinadaily.com.cn/a/202610/31/WS6ae567a5e4b06d4aa05663b6.html",
+      "score": 0,
+      "published": "2026-10-31",
+      "source": "homepage",
+      "rank": 10,
+      "description": "[Photo by Peng Chao/chinadaily.com.cn] A vibrant cultural event kicked off on Friday in Xigeda village, Yanbian county, Sichuan province, bringing together ethnic performances, intangible cultural heritage crafts and local produce from across the region.",
+      "owner": "China Daily",
+      "label": "Top News",
+      "image": "https://img2.chinadaily.com.cn/images/202610/31/6ae567a4e4b06d4a392f2c22.jpeg"
     },
     {
       "title": "Stealth drone takes off from assault ship",
@@ -107,7 +131,7 @@
       "score": 0,
       "published": "2026-10-31",
       "source": "homepage",
-      "rank": 9,
+      "rank": 11,
       "description": "The GJ-21, China's first carrier-borne stealth combat drone, recently conducted its first takeoffs and arrested recoveries aboard the CNS Sichuan, the nation's first Type 076 amphibious assault ship, according to the People's Liberation Army Navy.",
       "owner": "ZHAO LEI",
       "label": "Top News",
@@ -119,23 +143,11 @@
       "score": 0,
       "published": "2026-10-30",
       "source": "homepage",
-      "rank": 10,
+      "rank": 12,
       "description": "The content (including but not limited to text, photo, multimedia information, etc) published in this site belongs to China Daily Information Co (CDIC).",
       "owner": "Strait Talk",
       "label": "Top News",
       "image": "https://img2.chinadaily.com.cn/images/202610/30/6ae4674de4b06d4a392f1f12.png"
-    },
-    {
-      "title": "Moving culture from glass cases to growth strategies",
-      "url": "https://www.chinadaily.com.cn/a/202610/30/WS6ae3f7d3e4b06d4aa0566051.html",
-      "score": 0,
-      "published": "2026-10-30",
-      "source": "homepage",
-      "rank": 11,
-      "description": "Cultural heritage should not be confined to glass cases in museums. It is a vital component of development. The integration of culture into development strategies has significantly strengthened its contribution to social and economic progress.",
-      "owner": "Andrei Chevelev",
-      "label": "Top News",
-      "image": "https://img2.chinadaily.com.cn/images/202610/30/6ae3ffa6e4b06d4a392f1584.jpeg"
     },
     {
       "title": "German president plays ping-pong at PKU",
@@ -143,7 +155,7 @@
       "score": 0,
       "published": "2026-10-30",
       "source": "homepage",
-      "rank": 12,
+      "rank": 13,
       "description": "The gymnasium hosted the table tennis event of the Beijing 2008 Olympic Games.",
       "owner": "Dong Senhe and Li Ziyi",
       "label": "Top News",
@@ -155,7 +167,7 @@
       "score": 0,
       "published": "2026-10-30",
       "source": "homepage",
-      "rank": 13,
+      "rank": 14,
       "description": "Zero Carbon Prosperity offers a new framework: we can grow the pie together with renewable energy.",
       "owner": "Peng Ying",
       "label": "Top News",
@@ -167,7 +179,7 @@
       "score": 0,
       "published": "2026-10-30",
       "source": "homepage",
-      "rank": 14,
+      "rank": 15,
       "description": "What can the Maldives learn from China's development?",
       "owner": "Li Jing and Yan Xingzhou",
       "label": "Top News",
@@ -179,23 +191,11 @@
       "score": 0,
       "published": "2026-10-30",
       "source": "homepage",
-      "rank": 15,
+      "rank": 16,
       "description": "Business delegates from Nigeria, Ghana and Australia shared their insights into the city's markets and business environment at the fourth Linyi Trade City International Sourcing Conference, which is running from Oct 28 to 30 in Linyi, Shandong province.",
       "owner": "Liu Chuan",
       "label": "Top News",
       "image": "https://img2.chinadaily.com.cn/images/202610/30/6ae3f0ece4b06d4a392f1269.jpeg"
-    },
-    {
-      "title": "German president visits Peking University, awarded honorary professorship",
-      "url": "https://www.chinadaily.com.cn/a/202610/30/WS6ae3ef8fe4b06d4aa0565fe4.html",
-      "score": 0,
-      "published": "2026-10-30",
-      "source": "homepage",
-      "rank": 16,
-      "description": "Steinmeier arrived in Hefei, Anhui province, on Tuesday, kicking off a five-day state visit to China.",
-      "owner": "Zou Shuo",
-      "label": "Top News",
-      "image": "https://img2.chinadaily.com.cn/images/202610/30/6ae45856e4b06d4a392f1e55.jpeg"
     },
     {
       "title": "AI models for extreme weather forecasts built",
