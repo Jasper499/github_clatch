@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-11-01T02:20:54Z",
+  "savedAt": "2026-11-01T09:24:19Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f",
+  "latestSha": "c1cee246a489a676e3c80cae9e282da4b58cf19a",
   "items": [
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c1cee246a489a676e3c80cae9e282da4b58cf19a",
+      "sha": "c1cee24",
+      "fullSha": "c1cee246a489a676e3c80cae9e282da4b58cf19a",
+      "owner": "github-actions",
+      "published": "2026-11-01",
+      "label": "commit"
+    },
     {
       "title": "chore: update star history",
       "description": "chore: update star history",
@@ -143,16 +153,6 @@
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/d7f4cbfabcefdff0e6ec4c520ce6842a386dfebc",
       "sha": "d7f4cbf",
       "fullSha": "d7f4cbfabcefdff0e6ec4c520ce6842a386dfebc",
-      "owner": "WatchKitty",
-      "published": "2026-10-20",
-      "label": "commit"
-    },
-    {
-      "title": "fix: restore Windows PDF sync and refresh Image2PPT CI baseline",
-      "description": "fix: restore Windows PDF sync and refresh Image2PPT CI baseline",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/52f478cc164c811a8eeb18474998cf71cc675d5a",
-      "sha": "52f478c",
-      "fullSha": "52f478cc164c811a8eeb18474998cf71cc675d5a",
       "owner": "WatchKitty",
       "published": "2026-10-20",
       "label": "commit"
