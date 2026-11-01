@@ -1,40 +1,80 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-11-01T06:10:57Z",
+  "savedAt": "2026-11-01T12:10:56Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-01，共 3 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-01，共 7 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-11-01",
   "items": [
     {
-      "title": "解读持之以恒推进全面从严治党",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%A7%A3%E8%AF%BB%E6%8C%81%E4%B9%8B%E4%BB%A5%E6%81%92%E6%8E%A8%E8%BF%9B%E5%85%A8%E9%9D%A2%E4%BB%8E%E4%B8%A5%E6%B2%BB%E5%85%9A%23&t=31&band_rank=1&Refer=top",
-      "score": 701506,
+      "title": "专家解读全面从严治党新部署",
+      "description": "民生新闻,海外新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%93%E5%AE%B6%E8%A7%A3%E8%AF%BB%E5%85%A8%E9%9D%A2%E4%BB%8E%E4%B8%A5%E6%B2%BB%E5%85%9A%E6%96%B0%E9%83%A8%E7%BD%B2%23&t=31&band_rank=1&Refer=top",
+      "score": 794979,
       "owner": "微博同城",
       "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1793498299
+      "category": "民生新闻,海外新闻",
+      "onboardTime": 1793519421
     },
     {
-      "title": "法定放假总数已增至13天",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B3%95%E5%AE%9A%E6%94%BE%E5%81%87%E6%80%BB%E6%95%B0%E5%B7%B2%E5%A2%9E%E8%87%B313%E5%A4%A9%23&t=31&band_rank=1&Refer=top",
-      "score": 489714,
+      "title": "明年春节可连休9天",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%98%8E%E5%B9%B4%E6%98%A5%E8%8A%82%E5%8F%AF%E8%BF%9E%E4%BC%919%E5%A4%A9%23&t=31&band_rank=1&Refer=top",
+      "score": 474062,
       "owner": "微博同城",
-      "label": "",
+      "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1793499859
+      "onboardTime": 1793530461
     },
     {
-      "title": "速成车被喊停",
+      "title": "女子买2套房打通后喜提环形跑道",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%80%9F%E6%88%90%E8%BD%A6%E8%A2%AB%E5%96%8A%E5%81%9C%23&t=31&band_rank=1&Refer=top",
-      "score": 145943,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E4%B9%B02%E5%A5%97%E6%88%BF%E6%89%93%E9%80%9A%E5%90%8E%E5%96%9C%E6%8F%90%E7%8E%AF%E5%BD%A2%E8%B7%91%E9%81%93%23&t=31&band_rank=1&Refer=top",
+      "score": 369264,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1793504839
+      "onboardTime": 1793518639
+    },
+    {
+      "title": "怀孕38周遇瓷砖掉落查出胎心异常",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%80%80%E5%AD%9538%E5%91%A8%E9%81%87%E7%93%B7%E7%A0%96%E6%8E%89%E8%90%BD%E6%9F%A5%E5%87%BA%E8%83%8E%E5%BF%83%E5%BC%82%E5%B8%B8%23&t=31&band_rank=1&Refer=top",
+      "score": 340871,
+      "owner": "微博同城",
+      "label": "热",
+      "category": "民生新闻",
+      "onboardTime": 1793523980
+    },
+    {
+      "title": "10岁女孩身高1米8基本每晚9点睡觉",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%2310%E5%B2%81%E5%A5%B3%E5%AD%A9%E8%BA%AB%E9%AB%981%E7%B1%B38%E5%9F%BA%E6%9C%AC%E6%AF%8F%E6%99%9A9%E7%82%B9%E7%9D%A1%E8%A7%89%23&t=31&band_rank=1&Refer=top",
+      "score": 278757,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1793527820
+    },
+    {
+      "title": "南京会拐弯的指示牌走红",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8D%97%E4%BA%AC%E4%BC%9A%E6%8B%90%E5%BC%AF%E7%9A%84%E6%8C%87%E7%A4%BA%E7%89%8C%E8%B5%B0%E7%BA%A2%23&t=31&band_rank=1&Refer=top",
+      "score": 276211,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1793520500
+    },
+    {
+      "title": "律师力挺白衣山猫不会输官司",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%BE%8B%E5%B8%88%E5%8A%9B%E6%8C%BA%E7%99%BD%E8%A1%A3%E5%B1%B1%E7%8C%AB%E4%B8%8D%E4%BC%9A%E8%BE%93%E5%AE%98%E5%8F%B8%23&t=31&band_rank=1&Refer=top",
+      "score": 158824,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1793528480
     }
   ]
 }
