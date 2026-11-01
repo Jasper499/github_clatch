@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-01T215743Z",
+  "day": "2026-11-01",
+  "sourceKey": "weiboLocal",
+  "savedAt": "2026-11-01T21:57:43Z",
+  "label": "同城",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-01，共 6 条，约每 6 小时更新）",
+  "updateFrequency": "every-6h",
+  "fetchedDate": "2026-11-01",
+  "items": [
+    {
+      "title": "被一棵棵红军树背后的故事感动了",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%A2%AB%E4%B8%80%E6%A3%B5%E6%A3%B5%E7%BA%A2%E5%86%9B%E6%A0%91%E8%83%8C%E5%90%8E%E7%9A%84%E6%95%85%E4%BA%8B%E6%84%9F%E5%8A%A8%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 159157,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1793535622
+    },
+    {
+      "title": "老人独自坐在家门口安静离世",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%80%81%E4%BA%BA%E7%8B%AC%E8%87%AA%E5%9D%90%E5%9C%A8%E5%AE%B6%E9%97%A8%E5%8F%A3%E5%AE%89%E9%9D%99%E7%A6%BB%E4%B8%96%23&t=31&band_rank=1&Refer=top",
+      "score": 43679,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1793551879
+    },
+    {
+      "title": "喜欢吃烤红薯的人天塌了",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%96%9C%E6%AC%A2%E5%90%83%E7%83%A4%E7%BA%A2%E8%96%AF%E7%9A%84%E4%BA%BA%E5%A4%A9%E5%A1%8C%E4%BA%86&t=31&band_rank=1&Refer=top",
+      "score": 43541,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1793535080
+    },
+    {
+      "title": "婚礼当晚新郎车祸进ICU新娘查出怀孕",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A9%9A%E7%A4%BC%E5%BD%93%E6%99%9A%E6%96%B0%E9%83%8E%E8%BD%A6%E7%A5%B8%E8%BF%9BICU%E6%96%B0%E5%A8%98%E6%9F%A5%E5%87%BA%E6%80%80%E5%AD%95%23&t=31&band_rank=1&Refer=top",
+      "score": 40916,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1793553856
+    },
+    {
+      "title": "财务误发5000元工资给离职员工遭拒还",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%B4%A2%E5%8A%A1%E8%AF%AF%E5%8F%915000%E5%85%83%E5%B7%A5%E8%B5%84%E7%BB%99%E7%A6%BB%E8%81%8C%E5%91%98%E5%B7%A5%E9%81%AD%E6%8B%92%E8%BF%98%23&t=31&band_rank=1&Refer=top",
+      "score": 34157,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1793545281
+    },
+    {
+      "title": "网传烤红薯被香精浸泡",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E7%BD%91%E4%BC%A0%E7%83%A4%E7%BA%A2%E8%96%AF%E8%A2%AB%E9%A6%99%E7%B2%BE%E6%B5%B8%E6%B3%A1&t=31&band_rank=1&Refer=top",
+      "score": 31809,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1793564955
+    }
+  ]
+}

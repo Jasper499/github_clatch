@@ -1,0 +1,312 @@
+{
+  "date": "2026-11-01T215743Z",
+  "day": "2026-11-01",
+  "sourceKey": "weiboRealtime",
+  "savedAt": "2026-11-01T21:57:43Z",
+  "label": "实时",
+  "description": "微博实时上升榜（按上榜时间排序，2026-11-01，共 30 条，约每 6 小时更新）",
+  "updateFrequency": "every-6h",
+  "fetchedDate": "2026-11-01",
+  "items": [
+    {
+      "title": "肖战小城良方科普了消防安全",
+      "description": "新 · 剧集",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%82%96%E6%88%98%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B9%E7%A7%91%E6%99%AE%E4%BA%86%E6%B6%88%E9%98%B2%E5%AE%89%E5%85%A8%23&t=31&band_rank=1&Refer=top",
+      "score": 29756,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "剧集",
+      "onboardTime": 1793569694
+    },
+    {
+      "title": "你的手机可能在监听你",
+      "description": "新 · 科学科普",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BD%A0%E7%9A%84%E6%89%8B%E6%9C%BA%E5%8F%AF%E8%83%BD%E5%9C%A8%E7%9B%91%E5%90%AC%E4%BD%A0%23&t=31&band_rank=1&Refer=top",
+      "score": 40524,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "科学科普",
+      "onboardTime": 1793568614
+    },
+    {
+      "title": "原来冬天不是穿的越多越暖和",
+      "description": "新 · 时尚",
+      "url": "https://s.weibo.com/weibo?q=%E5%8E%9F%E6%9D%A5%E5%86%AC%E5%A4%A9%E4%B8%8D%E6%98%AF%E7%A9%BF%E7%9A%84%E8%B6%8A%E5%A4%9A%E8%B6%8A%E6%9A%96%E5%92%8C&t=31&band_rank=1&Refer=top",
+      "score": 29932,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "时尚",
+      "onboardTime": 1793565015
+    },
+    {
+      "title": "网传烤红薯被香精浸泡",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E7%BD%91%E4%BC%A0%E7%83%A4%E7%BA%A2%E8%96%AF%E8%A2%AB%E9%A6%99%E7%B2%BE%E6%B5%B8%E6%B3%A1&t=31&band_rank=1&Refer=top",
+      "score": 31809,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1793564955
+    },
+    {
+      "title": "2026WTT法兰克福冠军赛女单签表",
+      "description": "体育",
+      "url": "https://s.weibo.com/weibo?q=%232026WTT%E6%B3%95%E5%85%B0%E5%85%8B%E7%A6%8F%E5%86%A0%E5%86%9B%E8%B5%9B%E5%A5%B3%E5%8D%95%E7%AD%BE%E8%A1%A8%23&t=31&band_rank=1&Refer=top",
+      "score": 32162,
+      "owner": "微博实时",
+      "label": "",
+      "category": "体育",
+      "onboardTime": 1793564415
+    },
+    {
+      "title": "孙颖莎回应蒙彼利埃站夺冠",
+      "description": "体育",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%AD%99%E9%A2%96%E8%8E%8E%E5%9B%9E%E5%BA%94%E8%92%99%E5%BD%BC%E5%88%A9%E5%9F%83%E7%AB%99%E5%A4%BA%E5%86%A0%23&t=31&band_rank=1&Refer=top",
+      "score": 64805,
+      "owner": "微博实时",
+      "label": "",
+      "category": "体育",
+      "onboardTime": 1793561353
+    },
+    {
+      "title": "KPL",
+      "description": "电竞",
+      "url": "https://s.weibo.com/weibo?q=KPL&t=31&band_rank=1&Refer=top",
+      "score": 29753,
+      "owner": "微博实时",
+      "label": "",
+      "category": "电竞",
+      "onboardTime": 1793560816
+    },
+    {
+      "title": "利物浦0比1阿森纳",
+      "description": "体育",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%88%A9%E7%89%A9%E6%B5%A60%E6%AF%941%E9%98%BF%E6%A3%AE%E7%BA%B3%23&t=31&band_rank=1&Refer=top",
+      "score": 47017,
+      "owner": "微博实时",
+      "label": "",
+      "category": "体育",
+      "onboardTime": 1793559074
+    },
+    {
+      "title": "桑坦德竞技0比3皇马",
+      "description": "体育",
+      "url": "https://s.weibo.com/weibo?q=%E6%A1%91%E5%9D%A6%E5%BE%B7%E7%AB%9E%E6%8A%800%E6%AF%943%E7%9A%87%E9%A9%AC&t=31&band_rank=1&Refer=top",
+      "score": 29887,
+      "owner": "微博实时",
+      "label": "",
+      "category": "体育",
+      "onboardTime": 1793558894
+    },
+    {
+      "title": "沈月模仿张泉灵",
+      "description": "综艺",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B2%88%E6%9C%88%E6%A8%A1%E4%BB%BF%E5%BC%A0%E6%B3%89%E7%81%B5%23&t=31&band_rank=1&Refer=top",
+      "score": 34398,
+      "owner": "微博实时",
+      "label": "",
+      "category": "综艺",
+      "onboardTime": 1793558354
+    },
+    {
+      "title": "WTT蒙彼利埃女单决赛",
+      "description": "体育",
+      "url": "https://s.weibo.com/weibo?q=%23WTT%E8%92%99%E5%BD%BC%E5%88%A9%E5%9F%83%E5%A5%B3%E5%8D%95%E5%86%B3%E8%B5%9B%23&t=31&band_rank=1&Refer=top",
+      "score": 43579,
+      "owner": "微博实时",
+      "label": "",
+      "category": "体育",
+      "onboardTime": 1793557095
+    },
+    {
+      "title": "孙颖莎蒙彼利埃站冠军",
+      "description": "体育",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%AD%99%E9%A2%96%E8%8E%8E%E8%92%99%E5%BD%BC%E5%88%A9%E5%9F%83%E7%AB%99%E5%86%A0%E5%86%9B%23&t=31&band_rank=1&Refer=top",
+      "score": 282090,
+      "owner": "微博实时",
+      "label": "",
+      "category": "体育",
+      "onboardTime": 1793556075
+    },
+    {
+      "title": "孙颖莎4比1蒯曼",
+      "description": "体育",
+      "url": "https://s.weibo.com/weibo?q=%E5%AD%99%E9%A2%96%E8%8E%8E4%E6%AF%941%E8%92%AF%E6%9B%BC&t=31&band_rank=1&Refer=top",
+      "score": 44240,
+      "owner": "微博实时",
+      "label": "",
+      "category": "体育",
+      "onboardTime": 1793556075
+    },
+    {
+      "title": "孙颖莎蒯曼蒙彼利埃争冠",
+      "description": "体育",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%AD%99%E9%A2%96%E8%8E%8E%E8%92%AF%E6%9B%BC%E8%92%99%E5%BD%BC%E5%88%A9%E5%9F%83%E4%BA%89%E5%86%A0%23&t=31&band_rank=1&Refer=top",
+      "score": 29765,
+      "owner": "微博实时",
+      "label": "",
+      "category": "体育",
+      "onboardTime": 1793554336
+    },
+    {
+      "title": "婚礼当晚新郎车祸进ICU新娘查出怀孕",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A9%9A%E7%A4%BC%E5%BD%93%E6%99%9A%E6%96%B0%E9%83%8E%E8%BD%A6%E7%A5%B8%E8%BF%9BICU%E6%96%B0%E5%A8%98%E6%9F%A5%E5%87%BA%E6%80%80%E5%AD%95%23&t=31&band_rank=1&Refer=top",
+      "score": 40916,
+      "owner": "微博实时",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1793553856
+    },
+    {
+      "title": "媳妇打麻将快天亮才回假装刚睡醒",
+      "description": "幽默",
+      "url": "https://s.weibo.com/weibo?q=%E5%AA%B3%E5%A6%87%E6%89%93%E9%BA%BB%E5%B0%86%E5%BF%AB%E5%A4%A9%E4%BA%AE%E6%89%8D%E5%9B%9E%E5%81%87%E8%A3%85%E5%88%9A%E7%9D%A1%E9%86%92&t=31&band_rank=1&Refer=top",
+      "score": 32255,
+      "owner": "微博实时",
+      "label": "",
+      "category": "幽默",
+      "onboardTime": 1793553618
+    },
+    {
+      "title": "中国女生借卫生巾震撼外国网友",
+      "description": "热 · 情感",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E5%A5%B3%E7%94%9F%E5%80%9F%E5%8D%AB%E7%94%9F%E5%B7%BE%E9%9C%87%E6%92%BC%E5%A4%96%E5%9B%BD%E7%BD%91%E5%8F%8B&t=31&band_rank=1&Refer=top",
+      "score": 44183,
+      "owner": "微博实时",
+      "label": "热",
+      "category": "情感",
+      "onboardTime": 1793552897
+    },
+    {
+      "title": "老人独自坐在家门口安静离世",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%80%81%E4%BA%BA%E7%8B%AC%E8%87%AA%E5%9D%90%E5%9C%A8%E5%AE%B6%E9%97%A8%E5%8F%A3%E5%AE%89%E9%9D%99%E7%A6%BB%E4%B8%96%23&t=31&band_rank=1&Refer=top",
+      "score": 43679,
+      "owner": "微博实时",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1793551879
+    },
+    {
+      "title": "蔡徐坤拥抱周深",
+      "description": "作品衍生",
+      "url": "https://s.weibo.com/weibo?q=%E8%94%A1%E5%BE%90%E5%9D%A4%E6%8B%A5%E6%8A%B1%E5%91%A8%E6%B7%B1&t=31&band_rank=1&Refer=top",
+      "score": 29751,
+      "owner": "微博实时",
+      "label": "",
+      "category": "作品衍生",
+      "onboardTime": 1793551578
+    },
+    {
+      "title": "换不来收入的努力大多只是逃避",
+      "description": "情感",
+      "url": "https://s.weibo.com/weibo?q=%E6%8D%A2%E4%B8%8D%E6%9D%A5%E6%94%B6%E5%85%A5%E7%9A%84%E5%8A%AA%E5%8A%9B%E5%A4%A7%E5%A4%9A%E5%8F%AA%E6%98%AF%E9%80%83%E9%81%BF&t=31&band_rank=1&Refer=top",
+      "score": 43726,
+      "owner": "微博实时",
+      "label": "",
+      "category": "情感",
+      "onboardTime": 1793550858
+    },
+    {
+      "title": "85花很刻意避免同台了",
+      "description": "热 · 综艺",
+      "url": "https://s.weibo.com/weibo?q=%2385%E8%8A%B1%E5%BE%88%E5%88%BB%E6%84%8F%E9%81%BF%E5%85%8D%E5%90%8C%E5%8F%B0%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 209521,
+      "owner": "微博实时",
+      "label": "热",
+      "category": "综艺",
+      "onboardTime": 1793549660
+    },
+    {
+      "title": "林一看到穿婚纱的刘亦菲了",
+      "description": "热 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9E%97%E4%B8%80%E7%9C%8B%E5%88%B0%E7%A9%BF%E5%A9%9A%E7%BA%B1%E7%9A%84%E5%88%98%E4%BA%A6%E8%8F%B2%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 44044,
+      "owner": "微博实时",
+      "label": "热",
+      "category": "艺人",
+      "onboardTime": 1793549481
+    },
+    {
+      "title": "胡歌自曝身边好友陆续因心梗离世",
+      "description": "热 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%83%A1%E6%AD%8C%E8%87%AA%E6%9B%9D%E8%BA%AB%E8%BE%B9%E5%A5%BD%E5%8F%8B%E9%99%86%E7%BB%AD%E5%9B%A0%E5%BF%83%E6%A2%97%E7%A6%BB%E4%B8%96%23&t=31&band_rank=1&Refer=top",
+      "score": 44125,
+      "owner": "微博实时",
+      "label": "热",
+      "category": "艺人",
+      "onboardTime": 1793549422
+    },
+    {
+      "title": "白小纯淘汰青稚",
+      "description": "电竞",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E5%B0%8F%E7%BA%AF%E6%B7%98%E6%B1%B0%E9%9D%92%E7%A8%9A%23&t=31&band_rank=1&Refer=top",
+      "score": 29760,
+      "owner": "微博实时",
+      "label": "",
+      "category": "电竞",
+      "onboardTime": 1793549061
+    },
+    {
+      "title": "刘冲可以放心睡觉了",
+      "description": "热 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%E5%88%98%E5%86%B2%E5%8F%AF%E4%BB%A5%E6%94%BE%E5%BF%83%E7%9D%A1%E8%A7%89%E4%BA%86&t=31&band_rank=1&Refer=top",
+      "score": 43836,
+      "owner": "微博实时",
+      "label": "热",
+      "category": "艺人",
+      "onboardTime": 1793547741
+    },
+    {
+      "title": "孙颖莎vs蒯曼",
+      "description": "体育",
+      "url": "https://s.weibo.com/weibo?q=%E5%AD%99%E9%A2%96%E8%8E%8Evs%E8%92%AF%E6%9B%BC&t=31&band_rank=1&Refer=top",
+      "score": 35697,
+      "owner": "微博实时",
+      "label": "",
+      "category": "体育",
+      "onboardTime": 1793547741
+    },
+    {
+      "title": "鸟鸟我画地为牢了朋友",
+      "description": "艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%B8%9F%E9%B8%9F%E6%88%91%E7%94%BB%E5%9C%B0%E4%B8%BA%E7%89%A2%E4%BA%86%E6%9C%8B%E5%8F%8B%23&t=31&band_rank=1&Refer=top",
+      "score": 43901,
+      "owner": "微博实时",
+      "label": "",
+      "category": "艺人",
+      "onboardTime": 1793547262
+    },
+    {
+      "title": "何超莲穿了何超琼的礼服",
+      "description": "作品衍生",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BD%95%E8%B6%85%E8%8E%B2%E7%A9%BF%E4%BA%86%E4%BD%95%E8%B6%85%E7%90%BC%E7%9A%84%E7%A4%BC%E6%9C%8D%23&t=31&band_rank=1&Refer=top",
+      "score": 32195,
+      "owner": "微博实时",
+      "label": "",
+      "category": "作品衍生",
+      "onboardTime": 1793547141
+    },
+    {
+      "title": "马天宇张萌 和好",
+      "description": "热 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%E9%A9%AC%E5%A4%A9%E5%AE%87%E5%BC%A0%E8%90%8C%20%E5%92%8C%E5%A5%BD&t=31&band_rank=1&Refer=top",
+      "score": 49991,
+      "owner": "微博实时",
+      "label": "热",
+      "category": "艺人",
+      "onboardTime": 1793546601
+    },
+    {
+      "title": "WTT法兰克福站男单签表",
+      "description": "体育",
+      "url": "https://s.weibo.com/weibo?q=%23WTT%E6%B3%95%E5%85%B0%E5%85%8B%E7%A6%8F%E7%AB%99%E7%94%B7%E5%8D%95%E7%AD%BE%E8%A1%A8%23&t=31&band_rank=1&Refer=top",
+      "score": 29764,
+      "owner": "微博实时",
+      "label": "",
+      "category": "体育",
+      "onboardTime": 1793546541
+    }
+  ]
+}
