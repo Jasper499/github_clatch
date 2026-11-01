@@ -1,6 +1,6 @@
 {
   "sourceKey": "media",
-  "savedAt": "2026-11-01T02:11:56Z",
+  "savedAt": "2026-11-01T08:17:02Z",
   "label": "Medical Image Analysis",
   "description": "近 45 天 MedIA 期刊 MRI 相关论文（2026-09-17 ~ 2026-11-01，共 10 篇，暂无可用 OA PDF 链接）",
   "updateFrequency": "biweekly",
@@ -90,11 +90,11 @@
       "pdfSourceUrl": ""
     },
     {
-      "title": "A nested optimization framework for sound speed imaging and uncertainty estimation in ultrasound computed tomography via Mamba-regularized full waveform inversion",
-      "description": "Full-waveform inversion (FWI) for ultrasound computed tomography (USCT) has recently been investigated extensively for high-resolution sound-speed (SS) imaging. However, the nonconvexity of FWI hampers global convergence, yielding limited robustness and artifacts that constrain clinical applicability. Existing methods …",
-      "url": "https://doi.org/10.1016/j.media.2026.104341",
-      "doi": "10.1016/j.media.2026.104341",
-      "authors": "Weicheng Yan, Yun Wu, Xiaolu Zeng, Qiude Zhang, et al.",
+      "title": "A self-navigated framework for motion detection and spoke-reordering musculoskeletal dynamic reconstruction in 3D radial MRI",
+      "description": "Motion remains a major challenge and active research focus in MRI, as both involuntary (e.g., head movement) and voluntary (e.g., joint motion) motion can degrade image quality or, alternatively, provide opportunities for dynamic assessment. Existing motion sensing approaches - such as external tracking or navigator se…",
+      "url": "https://doi.org/10.1016/j.media.2026.104345",
+      "doi": "10.1016/j.media.2026.104345",
+      "authors": "Enping Lin, Fatih Calakli, Musa Tunç Arslan, Giovani Schulte Farina, et al.",
       "published": "2027-01-01",
       "journal": "MedIA",
       "owner": "MedIA",
@@ -104,11 +104,11 @@
       "pdfSourceUrl": ""
     },
     {
-      "title": "A self-navigated framework for motion detection and spoke-reordering musculoskeletal dynamic reconstruction in 3D radial MRI",
-      "description": "Motion remains a major challenge and active research focus in MRI, as both involuntary (e.g., head movement) and voluntary (e.g., joint motion) motion can degrade image quality or, alternatively, provide opportunities for dynamic assessment. Existing motion sensing approaches - such as external tracking or navigator se…",
-      "url": "https://doi.org/10.1016/j.media.2026.104345",
-      "doi": "10.1016/j.media.2026.104345",
-      "authors": "Enping Lin, Fatih Calakli, Musa Tunç Arslan, Giovani Schulte Farina, et al.",
+      "title": "A nested optimization framework for sound speed imaging and uncertainty estimation in ultrasound computed tomography via Mamba-regularized full waveform inversion",
+      "description": "Full-waveform inversion (FWI) for ultrasound computed tomography (USCT) has recently been investigated extensively for high-resolution sound-speed (SS) imaging. However, the nonconvexity of FWI hampers global convergence, yielding limited robustness and artifacts that constrain clinical applicability. Existing methods …",
+      "url": "https://doi.org/10.1016/j.media.2026.104341",
+      "doi": "10.1016/j.media.2026.104341",
+      "authors": "Weicheng Yan, Yun Wu, Xiaolu Zeng, Qiude Zhang, et al.",
       "published": "2027-01-01",
       "journal": "MedIA",
       "owner": "MedIA",
