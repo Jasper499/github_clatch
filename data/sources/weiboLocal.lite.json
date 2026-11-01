@@ -1,26 +1,26 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-11-01T05:51:41Z",
+  "savedAt": "2026-11-01T06:10:57Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-01，共 4 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-01，共 3 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-11-01",
   "items": [
     {
-      "title": "中国机遇清单不断扩展",
+      "title": "解读持之以恒推进全面从严治党",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E6%9C%BA%E9%81%87%E6%B8%85%E5%8D%95%E4%B8%8D%E6%96%AD%E6%89%A9%E5%B1%95%23&t=31&band_rank=1&Refer=top",
-      "score": 669794,
+      "url": "https://s.weibo.com/weibo?q=%23%E8%A7%A3%E8%AF%BB%E6%8C%81%E4%B9%8B%E4%BB%A5%E6%81%92%E6%8E%A8%E8%BF%9B%E5%85%A8%E9%9D%A2%E4%BB%8E%E4%B8%A5%E6%B2%BB%E5%85%9A%23&t=31&band_rank=1&Refer=top",
+      "score": 701506,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1793498479
+      "onboardTime": 1793498299
     },
     {
       "title": "法定放假总数已增至13天",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E6%B3%95%E5%AE%9A%E6%94%BE%E5%81%87%E6%80%BB%E6%95%B0%E5%B7%B2%E5%A2%9E%E8%87%B313%E5%A4%A9%23&t=31&band_rank=1&Refer=top",
-      "score": 487209,
+      "score": 489714,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
@@ -30,21 +30,11 @@
       "title": "速成车被喊停",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E9%80%9F%E6%88%90%E8%BD%A6%E8%A2%AB%E5%96%8A%E5%81%9C%23&t=31&band_rank=1&Refer=top",
-      "score": 248206,
+      "score": 145943,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1793504839
-    },
-    {
-      "title": "2岁男童坠亡父亲事后安装防护网",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%232%E5%B2%81%E7%94%B7%E7%AB%A5%E5%9D%A0%E4%BA%A1%E7%88%B6%E4%BA%B2%E4%BA%8B%E5%90%8E%E5%AE%89%E8%A3%85%E9%98%B2%E6%8A%A4%E7%BD%91%23&t=31&band_rank=1&Refer=top",
-      "score": 247040,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1793511020
     }
   ]
 }
