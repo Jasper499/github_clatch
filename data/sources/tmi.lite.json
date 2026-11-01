@@ -1,8 +1,8 @@
 {
   "sourceKey": "tmi",
-  "savedAt": "2026-10-15T06:36:32Z",
+  "savedAt": "2026-11-01T02:11:56Z",
   "label": "IEEE Transactions on Medical Imaging",
-  "description": "近 45 天 TMI 期刊 MRI 相关论文（2026-08-31 ~ 2026-10-15，共 7 篇，本地已存 OA PDF 1 篇）",
+  "description": "近 45 天 TMI 期刊 MRI 相关论文（2026-09-17 ~ 2026-11-01，共 3 篇，本地已存 OA PDF 1 篇）",
   "updateFrequency": "biweekly",
   "items": [
     {
@@ -46,62 +46,6 @@
       "pdfAvailable": true,
       "pdfUrl": "papers/tmi/10.1109_tmi.2026.3714814.pdf",
       "pdfSourceUrl": "https://arxiv.org/pdf/2509.05955"
-    },
-    {
-      "title": "Polar Subarea-Aware Fusion Net for Posterior Eyeball Shape Reconstruction",
-      "description": "High-fidelity reconstruction of the Posterior Eyeball Shape (PES) is crucial for early diagnosis and timely intervention of sight-threatening diseases such as high myopia, diabetic retinopathy, and glaucoma. However, existing magnetic resonance imaging (MRI)- and optical coherence tomography (OCT)-based methods either …",
-      "url": "https://doi.org/10.1109/tmi.2025.3642381",
-      "doi": "10.1109/tmi.2025.3642381",
-      "authors": "Jiaqi Zhang, Xiuzhe Wu, Jiahui Liu, Chunyu Zou, et al.",
-      "published": "2026-09-01",
-      "journal": "TMI",
-      "owner": "TMI",
-      "isOpenAccess": false,
-      "pdfAvailable": false,
-      "pdfUrl": null,
-      "pdfSourceUrl": ""
-    },
-    {
-      "title": "Retrieval-Augmented Representation for Semi-Supervised Medical Image Segmentation",
-      "description": "Semi-supervised learning (SSL) offers a promising solution to reduce annotation costs in medical image segmentation. Recent text-enhanced SSL methods incorporate domain-specific textual cues to improve representation learning. However, they often overemphasize language priors and neglect the importance of visual featur…",
-      "url": "https://doi.org/10.1109/tmi.2026.3712008",
-      "doi": "10.1109/tmi.2026.3712008",
-      "authors": "Huan Luo, Qingjie Zeng, Yanning Zhang, Yong Xia",
-      "published": "2026-09-01",
-      "journal": "TMI",
-      "owner": "TMI",
-      "isOpenAccess": false,
-      "pdfAvailable": false,
-      "pdfUrl": null,
-      "pdfSourceUrl": ""
-    },
-    {
-      "title": "The Ritz Adjoint Method for MRI Pulse Design",
-      "description": "TMI · 2026-09-01",
-      "url": "https://doi.org/10.1109/tmi.2026.3709056",
-      "doi": "10.1109/tmi.2026.3709056",
-      "authors": "John M. Drago, Georgy D. Guryev, Nicolas Arango, Elfar Adalsteinsson, et al.",
-      "published": "2026-09-01",
-      "journal": "TMI",
-      "owner": "TMI",
-      "isOpenAccess": false,
-      "pdfAvailable": false,
-      "pdfUrl": null,
-      "pdfSourceUrl": ""
-    },
-    {
-      "title": "UniTransAD: Unified Translation Framework for Anomaly Detection in Brain MRI",
-      "description": "TMI · 2026-09-01",
-      "url": "https://doi.org/10.1109/tmi.2026.3711975",
-      "doi": "10.1109/tmi.2026.3711975",
-      "authors": "Qi Zhang, Xia Li, Yibo Hu, Jianqi Sun",
-      "published": "2026-09-01",
-      "journal": "TMI",
-      "owner": "TMI",
-      "isOpenAccess": false,
-      "pdfAvailable": false,
-      "pdfUrl": null,
-      "pdfSourceUrl": ""
     }
   ]
 }
