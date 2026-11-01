@@ -6,100 +6,136 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "scientificSkills:https://github.com/K-Dense-AI/scientific-agent-skills",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "title": "[Skills 清单] K-Dense-AI/scientific-agent-skills · 仓库总览",
-      "date_published": "2026-11-01T14:41:15Z"
+      "id": "weibo:https://s.weibo.com/weibo?q=%2385%E8%8A%B1%E5%BE%88%E5%88%BB%E6%84%8F%E9%81%BF%E5%85%8D%E5%90%8C%E5%8F%B0%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%2385%E8%8A%B1%E5%BE%88%E5%88%BB%E6%84%8F%E9%81%BF%E5%85%8D%E5%90%8C%E5%8F%B0%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "title": "[热搜榜] 85花很刻意避免同台了",
+      "date_published": "2026-11-01T18:11:00Z"
     },
     {
-      "id": "scientificSkills:https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/13c-metabolic-flux",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/13c-metabolic-flux",
-      "title": "[Skills 清单] 13c-metabolic-flux",
-      "date_published": "2026-11-01T14:41:15Z"
+      "id": "weibo:https://s.weibo.com/weibo?q=%E7%94%BB%E5%9C%B0%E4%B8%BA%E7%89%A2&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%E7%94%BB%E5%9C%B0%E4%B8%BA%E7%89%A2&t=31&band_rank=1&Refer=top",
+      "title": "[热搜榜] 画地为牢",
+      "date_published": "2026-11-01T18:11:00Z"
     },
     {
-      "id": "scientificSkills:https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/adaptyv",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/adaptyv",
-      "title": "[Skills 清单] adaptyv",
-      "date_published": "2026-11-01T14:41:15Z"
+      "id": "weibo:https://s.weibo.com/weibo?q=%23%E8%A2%AB%E4%B8%80%E6%A3%B5%E6%A3%B5%E7%BA%A2%E5%86%9B%E6%A0%91%E8%83%8C%E5%90%8E%E7%9A%84%E6%95%85%E4%BA%8B%E6%84%9F%E5%8A%A8%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%A2%AB%E4%B8%80%E6%A3%B5%E6%A3%B5%E7%BA%A2%E5%86%9B%E6%A0%91%E8%83%8C%E5%90%8E%E7%9A%84%E6%95%85%E4%BA%8B%E6%84%9F%E5%8A%A8%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "title": "[热搜榜] 被一棵棵红军树背后的故事感动了",
+      "date_published": "2026-11-01T18:11:00Z"
     },
     {
-      "id": "scientificSkills:https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/aeon",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/aeon",
-      "title": "[Skills 清单] aeon",
-      "date_published": "2026-11-01T14:41:15Z"
+      "id": "weibo:https://s.weibo.com/weibo?q=%E5%AD%99%E9%A2%96%E8%8E%8Evs%E8%92%AF%E6%9B%BC&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%E5%AD%99%E9%A2%96%E8%8E%8Evs%E8%92%AF%E6%9B%BC&t=31&band_rank=1&Refer=top",
+      "title": "[热搜榜] 孙颖莎vs蒯曼",
+      "date_published": "2026-11-01T18:11:00Z"
     },
     {
-      "id": "scientificSkills:https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/alphagenome",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/alphagenome",
-      "title": "[Skills 清单] alphagenome",
-      "date_published": "2026-11-01T14:41:15Z"
+      "id": "weibo:https://s.weibo.com/weibo?q=%23%E6%9B%9D%E7%8E%8B%E5%AD%90%E7%92%87%E5%BD%95%E5%88%B6%E7%BB%93%E6%9D%9F%E6%8A%B1%E7%9D%80%E7%BB%8F%E7%BA%AA%E4%BA%BA%E6%B5%81%E6%B3%AA%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E7%8E%8B%E5%AD%90%E7%92%87%E5%BD%95%E5%88%B6%E7%BB%93%E6%9D%9F%E6%8A%B1%E7%9D%80%E7%BB%8F%E7%BA%AA%E4%BA%BA%E6%B5%81%E6%B3%AA%23&t=31&band_rank=1&Refer=top",
+      "title": "[热搜榜] 曝王子璇录制结束抱着经纪人流泪",
+      "date_published": "2026-11-01T18:11:00Z"
     },
     {
-      "id": "scientificSkills:https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/analytical-method-validation",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/analytical-method-validation",
-      "title": "[Skills 清单] analytical-method-validation",
-      "date_published": "2026-11-01T14:41:15Z"
+      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%90%B4%E7%A3%8A%E5%A9%89%E6%8B%92%E8%94%A1%E5%BE%90%E5%9D%A4%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%90%B4%E7%A3%8A%E5%A9%89%E6%8B%92%E8%94%A1%E5%BE%90%E5%9D%A4%23&t=31&band_rank=1&Refer=top",
+      "title": "[热搜榜] 吴磊婉拒蔡徐坤",
+      "date_published": "2026-11-01T18:11:00Z"
     },
     {
-      "id": "scientificSkills:https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/anndata",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/anndata",
-      "title": "[Skills 清单] anndata",
-      "date_published": "2026-11-01T14:41:15Z"
+      "id": "weibo:https://s.weibo.com/weibo?q=%E9%A9%AC%E5%A4%A9%E5%AE%87%E5%BC%A0%E8%90%8C%20%E5%92%8C%E5%A5%BD&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%E9%A9%AC%E5%A4%A9%E5%AE%87%E5%BC%A0%E8%90%8C%20%E5%92%8C%E5%A5%BD&t=31&band_rank=1&Refer=top",
+      "title": "[热搜榜] 马天宇张萌 和好",
+      "date_published": "2026-11-01T18:11:00Z"
     },
     {
-      "id": "scientificSkills:https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/arbor",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/arbor",
-      "title": "[Skills 清单] arbor",
-      "date_published": "2026-11-01T14:41:15Z"
+      "id": "weibo:https://s.weibo.com/weibo?q=%E5%BD%B1%E8%A7%86%E8%A1%8C%E4%B8%9A%E7%9C%9F%E7%9A%84%E6%9D%A5%E6%98%A5%E5%A4%A9%E4%BA%86&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%E5%BD%B1%E8%A7%86%E8%A1%8C%E4%B8%9A%E7%9C%9F%E7%9A%84%E6%9D%A5%E6%98%A5%E5%A4%A9%E4%BA%86&t=31&band_rank=1&Refer=top",
+      "title": "[热搜榜] 影视行业真的来春天了",
+      "date_published": "2026-11-01T18:11:00Z"
     },
     {
-      "id": "scientificSkillsCommits:https://github.com/K-Dense-AI/scientific-agent-skills/commit/5f2bc0341354fd5590aef76a533ada1e1e5b4e62",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/5f2bc0341354fd5590aef76a533ada1e1e5b4e62",
-      "title": "[最近提交] chore: update security scan report [skip ci]",
-      "date_published": "2026-11-01T14:41:15Z"
+      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%AD%99%E9%A2%96%E8%8E%8E%E8%92%99%E5%BD%BC%E5%88%A9%E5%9F%83%E7%AB%99%E5%86%A0%E5%86%9B%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%AD%99%E9%A2%96%E8%8E%8E%E8%92%99%E5%BD%BC%E5%88%A9%E5%9F%83%E7%AB%99%E5%86%A0%E5%86%9B%23&t=31&band_rank=1&Refer=top",
+      "title": "[实时] 孙颖莎蒙彼利埃站冠军",
+      "date_published": "2026-11-01T18:11:00Z"
     },
     {
-      "id": "scientificSkillsCommits:https://github.com/K-Dense-AI/scientific-agent-skills/commit/593377bb048752abb0152deab9fbb1083a6087df",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/593377bb048752abb0152deab9fbb1083a6087df",
-      "title": "[最近提交] chore: update security scan report [skip ci]",
-      "date_published": "2026-11-01T14:41:15Z"
+      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E5%AD%99%E9%A2%96%E8%8E%8E4%E6%AF%941%E8%92%AF%E6%9B%BC&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%E5%AD%99%E9%A2%96%E8%8E%8E4%E6%AF%941%E8%92%AF%E6%9B%BC&t=31&band_rank=1&Refer=top",
+      "title": "[实时] 孙颖莎4比1蒯曼",
+      "date_published": "2026-11-01T18:11:00Z"
     },
     {
-      "id": "scientificSkillsCommits:https://github.com/K-Dense-AI/scientific-agent-skills/commit/a1043ef544e3a100c28e70a736b6cf32554d0677",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/a1043ef544e3a100c28e70a736b6cf32554d0677",
-      "title": "[最近提交] chore: update security scan report [skip ci]",
-      "date_published": "2026-11-01T14:41:15Z"
+      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%AD%99%E9%A2%96%E8%8E%8E%E8%92%AF%E6%9B%BC%E8%92%99%E5%BD%BC%E5%88%A9%E5%9F%83%E4%BA%89%E5%86%A0%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%AD%99%E9%A2%96%E8%8E%8E%E8%92%AF%E6%9B%BC%E8%92%99%E5%BD%BC%E5%88%A9%E5%9F%83%E4%BA%89%E5%86%A0%23&t=31&band_rank=1&Refer=top",
+      "title": "[实时] 孙颖莎蒯曼蒙彼利埃争冠",
+      "date_published": "2026-11-01T18:11:00Z"
     },
     {
-      "id": "scientificSkillsCommits:https://github.com/K-Dense-AI/scientific-agent-skills/commit/92ace75ac21efe19a620434e0ca4e356081fe807",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/92ace75ac21efe19a620434e0ca4e356081fe807",
-      "title": "[最近提交] chore: update security scan report [skip ci]",
-      "date_published": "2026-11-01T14:41:15Z"
+      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%A9%9A%E7%A4%BC%E5%BD%93%E6%99%9A%E6%96%B0%E9%83%8E%E8%BD%A6%E7%A5%B8%E8%BF%9BICU%E6%96%B0%E5%A8%98%E6%9F%A5%E5%87%BA%E6%80%80%E5%AD%95%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A9%9A%E7%A4%BC%E5%BD%93%E6%99%9A%E6%96%B0%E9%83%8E%E8%BD%A6%E7%A5%B8%E8%BF%9BICU%E6%96%B0%E5%A8%98%E6%9F%A5%E5%87%BA%E6%80%80%E5%AD%95%23&t=31&band_rank=1&Refer=top",
+      "title": "[实时] 婚礼当晚新郎车祸进ICU新娘查出怀孕",
+      "date_published": "2026-11-01T18:11:00Z"
     },
     {
-      "id": "scientificSkillsCommits:https://github.com/K-Dense-AI/scientific-agent-skills/commit/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298",
-      "title": "[最近提交] docs: pin install example to v2.71.0",
-      "date_published": "2026-11-01T14:41:15Z"
+      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E5%AA%B3%E5%A6%87%E6%89%93%E9%BA%BB%E5%B0%86%E5%BF%AB%E5%A4%A9%E4%BA%AE%E6%89%8D%E5%9B%9E%E5%81%87%E8%A3%85%E5%88%9A%E7%9D%A1%E9%86%92&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%E5%AA%B3%E5%A6%87%E6%89%93%E9%BA%BB%E5%B0%86%E5%BF%AB%E5%A4%A9%E4%BA%AE%E6%89%8D%E5%9B%9E%E5%81%87%E8%A3%85%E5%88%9A%E7%9D%A1%E9%86%92&t=31&band_rank=1&Refer=top",
+      "title": "[实时] 媳妇打麻将快天亮才回假装刚睡醒",
+      "date_published": "2026-11-01T18:11:00Z"
     },
     {
-      "id": "scientificSkillsCommits:https://github.com/K-Dense-AI/scientific-agent-skills/commit/526ebce143bc326f44471554e33d66a19c840360",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/526ebce143bc326f44471554e33d66a19c840360",
-      "title": "[最近提交] Bump version to 2.72.0",
-      "date_published": "2026-11-01T14:41:15Z"
+      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E5%A5%B3%E7%94%9F%E5%80%9F%E5%8D%AB%E7%94%9F%E5%B7%BE%E9%9C%87%E6%92%BC%E5%A4%96%E5%9B%BD%E7%BD%91%E5%8F%8B&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E5%A5%B3%E7%94%9F%E5%80%9F%E5%8D%AB%E7%94%9F%E5%B7%BE%E9%9C%87%E6%92%BC%E5%A4%96%E5%9B%BD%E7%BD%91%E5%8F%8B&t=31&band_rank=1&Refer=top",
+      "title": "[实时] 中国女生借卫生巾震撼外国网友",
+      "date_published": "2026-11-01T18:11:00Z"
     },
     {
-      "id": "scientificSkillsCommits:https://github.com/K-Dense-AI/scientific-agent-skills/commit/f7a50ed2956fb45e32bd44cc5c713d4f0ac99f93",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/f7a50ed2956fb45e32bd44cc5c713d4f0ac99f93",
-      "title": "[最近提交] Remove vendored Anthropic document skills (docx, pdf, pptx, xlsx)",
-      "date_published": "2026-11-01T14:41:15Z"
+      "id": "weiboRealtime:https://s.weibo.com/weibo?q=KSG%E6%B5%81%E6%B5%AA%E8%B5%9B%E5%9C%BA%E8%A1%A8%E7%8E%B0%E8%A2%AB%E6%89%B9&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=KSG%E6%B5%81%E6%B5%AA%E8%B5%9B%E5%9C%BA%E8%A1%A8%E7%8E%B0%E8%A2%AB%E6%89%B9&t=31&band_rank=1&Refer=top",
+      "title": "[实时] KSG流浪赛场表现被批",
+      "date_published": "2026-11-01T18:11:00Z"
     },
     {
-      "id": "scientificSkillsCommits:https://github.com/K-Dense-AI/scientific-agent-skills/commit/ed4cea6cb24b0588f144264125e255ce8ce43f66",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/ed4cea6cb24b0588f144264125e255ce8ce43f66",
-      "title": "[最近提交] docs: add illustrated guides for all scientific skills",
-      "date_published": "2026-11-01T14:41:15Z"
+      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E8%80%81%E4%BA%BA%E7%8B%AC%E8%87%AA%E5%9D%90%E5%9C%A8%E5%AE%B6%E9%97%A8%E5%8F%A3%E5%AE%89%E9%9D%99%E7%A6%BB%E4%B8%96%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%80%81%E4%BA%BA%E7%8B%AC%E8%87%AA%E5%9D%90%E5%9C%A8%E5%AE%B6%E9%97%A8%E5%8F%A3%E5%AE%89%E9%9D%99%E7%A6%BB%E4%B8%96%23&t=31&band_rank=1&Refer=top",
+      "title": "[实时] 老人独自坐在家门口安静离世",
+      "date_published": "2026-11-01T18:11:00Z"
+    },
+    {
+      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E8%A2%AB%E4%B8%80%E6%A3%B5%E6%A3%B5%E7%BA%A2%E5%86%9B%E6%A0%91%E8%83%8C%E5%90%8E%E7%9A%84%E6%95%85%E4%BA%8B%E6%84%9F%E5%8A%A8%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%A2%AB%E4%B8%80%E6%A3%B5%E6%A3%B5%E7%BA%A2%E5%86%9B%E6%A0%91%E8%83%8C%E5%90%8E%E7%9A%84%E6%95%85%E4%BA%8B%E6%84%9F%E5%8A%A8%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "title": "[同城] 被一棵棵红军树背后的故事感动了",
+      "date_published": "2026-11-01T18:11:00Z"
+    },
+    {
+      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E5%96%9C%E6%AC%A2%E5%90%83%E7%83%A4%E7%BA%A2%E8%96%AF%E7%9A%84%E4%BA%BA%E5%A4%A9%E5%A1%8C%E4%BA%86&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%E5%96%9C%E6%AC%A2%E5%90%83%E7%83%A4%E7%BA%A2%E8%96%AF%E7%9A%84%E4%BA%BA%E5%A4%A9%E5%A1%8C%E4%BA%86&t=31&band_rank=1&Refer=top",
+      "title": "[同城] 喜欢吃烤红薯的人天塌了",
+      "date_published": "2026-11-01T18:11:00Z"
+    },
+    {
+      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E8%B4%A2%E5%8A%A1%E8%AF%AF%E5%8F%915000%E5%85%83%E5%B7%A5%E8%B5%84%E7%BB%99%E7%A6%BB%E8%81%8C%E5%91%98%E5%B7%A5%E9%81%AD%E6%8B%92%E8%BF%98%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%B4%A2%E5%8A%A1%E8%AF%AF%E5%8F%915000%E5%85%83%E5%B7%A5%E8%B5%84%E7%BB%99%E7%A6%BB%E8%81%8C%E5%91%98%E5%B7%A5%E9%81%AD%E6%8B%92%E8%BF%98%23&t=31&band_rank=1&Refer=top",
+      "title": "[同城] 财务误发5000元工资给离职员工遭拒还",
+      "date_published": "2026-11-01T18:11:00Z"
+    },
+    {
+      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%A9%9A%E7%A4%BC%E5%BD%93%E6%99%9A%E6%96%B0%E9%83%8E%E8%BD%A6%E7%A5%B8%E8%BF%9BICU%E6%96%B0%E5%A8%98%E6%9F%A5%E5%87%BA%E6%80%80%E5%AD%95%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A9%9A%E7%A4%BC%E5%BD%93%E6%99%9A%E6%96%B0%E9%83%8E%E8%BD%A6%E7%A5%B8%E8%BF%9BICU%E6%96%B0%E5%A8%98%E6%9F%A5%E5%87%BA%E6%80%80%E5%AD%95%23&t=31&band_rank=1&Refer=top",
+      "title": "[同城] 婚礼当晚新郎车祸进ICU新娘查出怀孕",
+      "date_published": "2026-11-01T18:11:00Z"
+    },
+    {
+      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E6%98%8E%E5%B9%B4%E6%98%A5%E8%8A%82%E5%8F%AF%E8%BF%9E%E4%BC%919%E5%A4%A9%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%98%8E%E5%B9%B4%E6%98%A5%E8%8A%82%E5%8F%AF%E8%BF%9E%E4%BC%919%E5%A4%A9%23&t=31&band_rank=1&Refer=top",
+      "title": "[同城] 明年春节可连休9天",
+      "date_published": "2026-11-01T18:11:00Z"
+    },
+    {
+      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E8%80%81%E4%BA%BA%E7%8B%AC%E8%87%AA%E5%9D%90%E5%9C%A8%E5%AE%B6%E9%97%A8%E5%8F%A3%E5%AE%89%E9%9D%99%E7%A6%BB%E4%B8%96%23&t=31&band_rank=1&Refer=top",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%80%81%E4%BA%BA%E7%8B%AC%E8%87%AA%E5%9D%90%E5%9C%A8%E5%AE%B6%E9%97%A8%E5%8F%A3%E5%AE%89%E9%9D%99%E7%A6%BB%E4%B8%96%23&t=31&band_rank=1&Refer=top",
+      "title": "[同城] 老人独自坐在家门口安静离世",
+      "date_published": "2026-11-01T18:11:00Z"
     }
   ]
 }
