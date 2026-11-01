@@ -1,17 +1,17 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-10-31T18:22:08Z",
+  "savedAt": "2026-11-01T02:01:04Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-10-31，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-11-01，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-10-31",
+  "fetchedDate": "2026-11-01",
   "items": [
     {
       "title": "Patrick Stewart has died",
       "description": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;y4Egm\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;y4Egm</a><p><a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Patrick_Stewart\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Patrick_Stewart</a>",
       "url": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
-      "score": 3282,
-      "comments": 751,
+      "score": 3290,
+      "comments": 753,
       "owner": "j4mie",
       "published": "2026-10-29T19:41:39Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50294702"
@@ -20,8 +20,8 @@
       "title": "Binance-hacker-1029 – $5.6B stolen from Binance",
       "description": "",
       "url": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
-      "score": 1749,
-      "comments": 1238,
+      "score": 1753,
+      "comments": 1247,
       "owner": "Tiberium",
       "published": "2026-10-29T21:38:59Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50296470"
@@ -40,7 +40,7 @@
       "title": "We're releasing the weights of Mistral Large 4",
       "description": "",
       "url": "https://mistral.ai/news/mistral-large-4-oss/",
-      "score": 1705,
+      "score": 1706,
       "comments": 438,
       "owner": "kuberwastaken",
       "published": "2026-10-29T14:13:21Z",
@@ -50,8 +50,8 @@
       "title": "Why is this fingerprinting script creating bioweapons?",
       "description": "",
       "url": "https://nullpt.rs/fingerprinting-bioweapons",
-      "score": 1580,
-      "comments": 307,
+      "score": 1584,
+      "comments": 306,
       "owner": "hazebooth",
       "published": "2026-10-28T17:13:29Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50276998"
@@ -60,7 +60,7 @@
       "title": "Ghostty 1.4",
       "description": "",
       "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
-      "score": 1349,
+      "score": 1350,
       "comments": 439,
       "owner": "deaux",
       "published": "2026-10-27T16:51:22Z",
@@ -71,7 +71,7 @@
       "description": "",
       "url": "https://emudhra.we-have-a-problem.com/apple.html",
       "score": 1197,
-      "comments": 411,
+      "comments": 412,
       "owner": "galadran",
       "published": "2026-10-28T11:03:40Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50271640"
@@ -80,8 +80,8 @@
       "title": "Evidence of a spying operation by ICE against left-wing social movements",
       "description": "",
       "url": "https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/",
-      "score": 1192,
-      "comments": 1039,
+      "score": 1193,
+      "comments": 1034,
       "owner": "zzzeek",
       "published": "2026-10-28T12:49:45Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50272749"
@@ -100,7 +100,7 @@
       "title": "US Government is hiding a secret court ruling about how it spies on Americans",
       "description": "",
       "url": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/",
-      "score": 1096,
+      "score": 1097,
       "comments": 462,
       "owner": "helterskelter2",
       "published": "2026-10-27T14:06:42Z",
@@ -110,7 +110,7 @@
       "title": "Microsoft offers mass buyouts for roughly a quarter of its workforce",
       "description": "",
       "url": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/",
-      "score": 1082,
+      "score": 1083,
       "comments": 1172,
       "owner": "doctorzook",
       "published": "2026-10-26T15:35:12Z",
@@ -140,21 +140,11 @@
       "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
       "description": "<a href=\"https:&#x2F;&#x2F;cursor.com&#x2F;blog&#x2F;claude-code-extension-security-notice\" rel=\"nofollow\">https:&#x2F;&#x2F;cursor.com&#x2F;blog&#x2F;claude-code-extension-security-notic...</a>",
       "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
-      "score": 956,
-      "comments": 544,
+      "score": 967,
+      "comments": 547,
       "owner": "_chall",
       "published": "2026-10-30T07:09:12Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50300683"
-    },
-    {
-      "title": "We should be more ambitious with the software we build",
-      "description": "",
-      "url": "https://danluu.com/ambitious/",
-      "score": 914,
-      "comments": 777,
-      "owner": "ltratt",
-      "published": "2026-10-24T21:47:31Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50225695"
     },
     {
       "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
@@ -170,21 +160,41 @@
       "title": "StackOverflow now gets fewer than 1000 questions a month",
       "description": "",
       "url": "https://data.stackexchange.com/stackoverflow/query/1926661#graph?t=1",
-      "score": 836,
-      "comments": 746,
+      "score": 841,
+      "comments": 751,
       "owner": "babelfish",
       "published": "2026-10-28T23:35:02Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50282454"
+    },
+    {
+      "title": "Serbia just elected the world's brainiest parliament",
+      "description": "",
+      "url": "https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament",
+      "score": 813,
+      "comments": 465,
+      "owner": "input_sh",
+      "published": "2026-10-31T10:21:30Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50314654"
     },
     {
       "title": "The Exponential Time Hypothesis Is False [pdf]",
       "description": "See also: <i>Announcing three new discoveries in mathematics, computer science, and physics</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50251344\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50251344</a>",
       "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
       "score": 802,
-      "comments": 301,
+      "comments": 302,
       "owner": "vok",
       "published": "2026-10-26T21:59:15Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50251661"
+    },
+    {
+      "title": "HackerTube: YouTube built from videos recommended by HN",
+      "description": "YouTube-style UI over 6,454 videos sourced from 39,834 HN comments since 2007.<p><a href=\"https:&#x2F;&#x2F;hackertube.org&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;hackertube.org&#x2F;</a>",
+      "url": "https://karpathy.bearblog.dev/hacker-tube/",
+      "score": 728,
+      "comments": 245,
+      "owner": "karpathy",
+      "published": "2026-10-31T19:56:53Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50319510"
     },
     {
       "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
@@ -195,16 +205,6 @@
       "owner": "csmantle",
       "published": "2026-10-29T00:25:45Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50282838"
-    },
-    {
-      "title": "Dolly Parton's Imagination Library",
-      "description": "With today&#x27;s news, I thought I&#x27;d share this great program:<p>“When I was growing up in the hills of East Tennessee, I knew my dreams would come true. I know there are children in your community with their own dreams. They dream of becoming a doctor or an inventor or a minister. Who knows, maybe there is a little girl whose dream is to be a writer and singer.<p>The seeds of these dreams are often found in books and the seeds you help plant in your community can grow across the world.”",
-      "url": "https://imaginationlibrary.com/",
-      "score": 686,
-      "comments": 113,
-      "owner": "jumploops",
-      "published": "2026-10-25T18:23:54Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50234474"
     }
   ]
 }
