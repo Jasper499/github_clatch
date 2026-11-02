@@ -1,12 +1,23 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-11-02T02:41:02Z",
+  "savedAt": "2026-11-02T09:56:07Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "5f2bc0341354fd5590aef76a533ada1e1e5b4e62",
+  "latestSha": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
   "items": [
+    {
+      "title": "chore: update security scan report [skip ci]",
+      "description": "chore: update security scan report [skip ci]",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "sha": "a25cf9e",
+      "fullSha": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "owner": "github-actions",
+      "published": "2026-11-02",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "chore: update security scan report [skip ci]",
       "description": "chore: update security scan report [skip ci]",
@@ -156,17 +167,6 @@
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/32960cda7b20f8db185fa36becd5c2a7e164713d",
       "sha": "32960cd",
       "fullSha": "32960cda7b20f8db185fa36becd5c2a7e164713d",
-      "owner": "timothykassis",
-      "published": "2026-09-30",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "fix(skills): make console diagnostics safe for cp1252",
-      "description": "fix(skills): make console diagnostics safe for cp1252\n\nFixes #292. Use readable ASCII status markers in 42 Python scripts across 20 skills, preserve figure and prompt text, keep copied validators/generators identical, and add static plus real-console regression coverage.\n\nValidation: all 20 affected isolated skill suites and spec checks pass. PyMC required a process-local PYTENSOR_FLAGS=cxx=,linker=py,blas__ldflags= override because the native macOS linker could not find d64.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/a0aea743b3059cbae85ae4ba861cc6b2c0d1e083",
-      "sha": "a0aea74",
-      "fullSha": "a0aea743b3059cbae85ae4ba861cc6b2c0d1e083",
       "owner": "timothykassis",
       "published": "2026-09-30",
       "label": "commit",
