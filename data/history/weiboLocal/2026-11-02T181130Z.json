@@ -1,0 +1,102 @@
+{
+  "date": "2026-11-02T181130Z",
+  "day": "2026-11-02",
+  "sourceKey": "weiboLocal",
+  "savedAt": "2026-11-02T18:11:30Z",
+  "label": "同城",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-02，共 9 条，约每 6 小时更新）",
+  "updateFrequency": "every-6h",
+  "fetchedDate": "2026-11-02",
+  "items": [
+    {
+      "title": "在乌镇峰会提前体验未来",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%9C%A8%E4%B9%8C%E9%95%87%E5%B3%B0%E4%BC%9A%E6%8F%90%E5%89%8D%E4%BD%93%E9%AA%8C%E6%9C%AA%E6%9D%A5%23&t=31&band_rank=1&Refer=top",
+      "score": 157563,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1793620040
+    },
+    {
+      "title": "2027或是最舒服年",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%232027%E6%88%96%E6%98%AF%E6%9C%80%E8%88%92%E6%9C%8D%E5%B9%B4%23&t=31&band_rank=1&Refer=top",
+      "score": 93859,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1793621600
+    },
+    {
+      "title": "张雪重庆大学开价被学生嫌弃",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E9%9B%AA%E9%87%8D%E5%BA%86%E5%A4%A7%E5%AD%A6%E5%BC%80%E4%BB%B7%E8%A2%AB%E5%AD%A6%E7%94%9F%E5%AB%8C%E5%BC%83&t=31&band_rank=1&Refer=top",
+      "score": 89677,
+      "owner": "微博同城",
+      "label": "热",
+      "category": "民生新闻",
+      "onboardTime": 1793633420
+    },
+    {
+      "title": "瑞幸新联名放真人被吐槽",
+      "description": "热 · 民生新闻,电竞",
+      "url": "https://s.weibo.com/weibo?q=%E7%91%9E%E5%B9%B8%E6%96%B0%E8%81%94%E5%90%8D%E6%94%BE%E7%9C%9F%E4%BA%BA%E8%A2%AB%E5%90%90%E6%A7%BD&t=31&band_rank=1&Refer=top",
+      "score": 88578,
+      "owner": "微博同城",
+      "label": "热",
+      "category": "民生新闻,电竞",
+      "onboardTime": 1793631801
+    },
+    {
+      "title": "长沙烈士公园穿和服带武士刀拍照",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E9%95%BF%E6%B2%99%E7%83%88%E5%A3%AB%E5%85%AC%E5%9B%AD%E7%A9%BF%E5%92%8C%E6%9C%8D%E5%B8%A6%E6%AD%A6%E5%A3%AB%E5%88%80%E6%8B%8D%E7%85%A7&t=31&band_rank=1&Refer=top",
+      "score": 87668,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1793630241
+    },
+    {
+      "title": "唐宣宗被谋弑添新证",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%94%90%E5%AE%A3%E5%AE%97%E8%A2%AB%E8%B0%8B%E5%BC%91%E6%B7%BB%E6%96%B0%E8%AF%81%23&t=31&band_rank=1&Refer=top",
+      "score": 82507,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1793637197
+    },
+    {
+      "title": "8岁女孩课间被同学冲撞至脑死亡",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%238%E5%B2%81%E5%A5%B3%E5%AD%A9%E8%AF%BE%E9%97%B4%E8%A2%AB%E5%90%8C%E5%AD%A6%E5%86%B2%E6%92%9E%E8%87%B3%E8%84%91%E6%AD%BB%E4%BA%A1%23&t=31&band_rank=1&Refer=top",
+      "score": 67644,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1793633359
+    },
+    {
+      "title": "新娘退场摔倒新郎还在沉浸式撒娃娃",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%96%B0%E5%A8%98%E9%80%80%E5%9C%BA%E6%91%94%E5%80%92%E6%96%B0%E9%83%8E%E8%BF%98%E5%9C%A8%E6%B2%89%E6%B5%B8%E5%BC%8F%E6%92%92%E5%A8%83%E5%A8%83%23&t=31&band_rank=1&Refer=top",
+      "score": 60577,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1793631981
+    },
+    {
+      "title": "1113万弃奖奖金已纳入彩票公益金",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%231113%E4%B8%87%E5%BC%83%E5%A5%96%E5%A5%96%E9%87%91%E5%B7%B2%E7%BA%B3%E5%85%A5%E5%BD%A9%E7%A5%A8%E5%85%AC%E7%9B%8A%E9%87%91%23&t=31&band_rank=1&Refer=top",
+      "score": 50447,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1793631741
+    }
+  ]
+}
