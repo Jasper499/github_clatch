@@ -1,17 +1,17 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-11-01T18:47:31Z",
+  "savedAt": "2026-11-02T02:01:04Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-11-01，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-11-02，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-11-01",
+  "fetchedDate": "2026-11-02",
   "items": [
     {
       "title": "Patrick Stewart has died",
       "description": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;y4Egm\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;y4Egm</a><p><a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Patrick_Stewart\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Patrick_Stewart</a>",
       "url": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
-      "score": 3300,
-      "comments": 753,
+      "score": 3303,
+      "comments": 755,
       "owner": "j4mie",
       "published": "2026-10-29T19:41:39Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50294702"
@@ -20,8 +20,8 @@
       "title": "HackerTube: YouTube built from videos recommended by HN",
       "description": "YouTube-style UI over 6,454 videos sourced from 39,834 HN comments since 2007.<p><a href=\"https:&#x2F;&#x2F;hackertube.org&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;hackertube.org&#x2F;</a>",
       "url": "https://karpathy.bearblog.dev/hacker-tube/",
-      "score": 1905,
-      "comments": 485,
+      "score": 2295,
+      "comments": 540,
       "owner": "karpathy",
       "published": "2026-10-31T19:56:53Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50319510"
@@ -30,8 +30,8 @@
       "title": "Binance-hacker-1029 – $5.6B stolen from Binance",
       "description": "",
       "url": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
-      "score": 1755,
-      "comments": 1256,
+      "score": 1757,
+      "comments": 1257,
       "owner": "Tiberium",
       "published": "2026-10-29T21:38:59Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50296470"
@@ -40,8 +40,8 @@
       "title": "We're releasing the weights of Mistral Large 4",
       "description": "",
       "url": "https://mistral.ai/news/mistral-large-4-oss/",
-      "score": 1714,
-      "comments": 438,
+      "score": 1716,
+      "comments": 439,
       "owner": "kuberwastaken",
       "published": "2026-10-29T14:13:21Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50289418"
@@ -51,7 +51,7 @@
       "description": "",
       "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
       "score": 1709,
-      "comments": 1679,
+      "comments": 1680,
       "owner": "SiNTEx",
       "published": "2026-10-26T13:04:50Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50242939"
@@ -60,7 +60,7 @@
       "title": "Why is this fingerprinting script creating bioweapons?",
       "description": "",
       "url": "https://nullpt.rs/fingerprinting-bioweapons",
-      "score": 1592,
+      "score": 1594,
       "comments": 308,
       "owner": "hazebooth",
       "published": "2026-10-28T17:13:29Z",
@@ -70,8 +70,8 @@
       "title": "Ghostty 1.4",
       "description": "",
       "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
-      "score": 1354,
-      "comments": 441,
+      "score": 1355,
+      "comments": 443,
       "owner": "deaux",
       "published": "2026-10-27T16:51:22Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50261998"
@@ -80,7 +80,7 @@
       "title": "Apple's git still trusts the compromised eMudhra certificates",
       "description": "",
       "url": "https://emudhra.we-have-a-problem.com/apple.html",
-      "score": 1200,
+      "score": 1202,
       "comments": 413,
       "owner": "galadran",
       "published": "2026-10-28T11:03:40Z",
@@ -91,7 +91,7 @@
       "description": "",
       "url": "https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/",
       "score": 1196,
-      "comments": 1039,
+      "comments": 1040,
       "owner": "zzzeek",
       "published": "2026-10-28T12:49:45Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50272749"
@@ -121,7 +121,7 @@
       "description": "",
       "url": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/",
       "score": 1083,
-      "comments": 1173,
+      "comments": 1175,
       "owner": "doctorzook",
       "published": "2026-10-26T15:35:12Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50245524"
@@ -131,7 +131,7 @@
       "description": "",
       "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
       "score": 1044,
-      "comments": 592,
+      "comments": 593,
       "owner": "acossta",
       "published": "2026-10-27T16:06:01Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50261319"
@@ -140,8 +140,8 @@
       "title": "Gemini 4 Carbon",
       "description": "",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-      "score": 1016,
-      "comments": 801,
+      "score": 1017,
+      "comments": 802,
       "owner": "acossta",
       "published": "2026-10-28T17:01:23Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50276792"
@@ -150,18 +150,28 @@
       "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
       "description": "<a href=\"https:&#x2F;&#x2F;cursor.com&#x2F;blog&#x2F;claude-code-extension-security-notice\" rel=\"nofollow\">https:&#x2F;&#x2F;cursor.com&#x2F;blog&#x2F;claude-code-extension-security-notic...</a>",
       "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
-      "score": 986,
-      "comments": 549,
+      "score": 993,
+      "comments": 553,
       "owner": "_chall",
       "published": "2026-10-30T07:09:12Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50300683"
     },
     {
+      "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+      "description": "Saw Karpathy&#x27;s HackerTube and wanted the same thing for books. So I had Claude build one (Opus 5.5).<p>It&#x27;s ~16.5k books that at least two different HN commenters brought up, from 2007 till now. Each book links back to the comments that mentioned it. Data is downloadable from the about page.<p>To be clear: Claude wrote almost all of it, including the data pipeline and the site. I mostly steered and made calls, bought the domain name, etc.<p>It counts mentions, so it&#x27;s not perfect (praising a book and trashing it both count). If your favourite book is missing or matched to the wrong thing, tell me.",
+      "url": "https://hackerbooks.org",
+      "score": 933,
+      "comments": 180,
+      "owner": "roansh",
+      "published": "2026-11-01T15:58:28Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50326821"
+    },
+    {
       "title": "Serbia just elected the world's brainiest parliament",
       "description": "",
       "url": "https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament",
-      "score": 886,
-      "comments": 492,
+      "score": 899,
+      "comments": 499,
       "owner": "input_sh",
       "published": "2026-10-31T10:21:30Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50314654"
@@ -180,7 +190,7 @@
       "title": "StackOverflow now gets fewer than 1000 questions a month",
       "description": "",
       "url": "https://data.stackexchange.com/stackoverflow/query/1926661#graph?t=1",
-      "score": 846,
+      "score": 849,
       "comments": 753,
       "owner": "babelfish",
       "published": "2026-10-28T23:35:02Z",
@@ -190,21 +200,11 @@
       "title": "The Exponential Time Hypothesis Is False [pdf]",
       "description": "See also: <i>Announcing three new discoveries in mathematics, computer science, and physics</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50251344\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50251344</a>",
       "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
-      "score": 802,
+      "score": 803,
       "comments": 302,
       "owner": "vok",
       "published": "2026-10-26T21:59:15Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50251661"
-    },
-    {
-      "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
-      "description": "",
-      "url": "https://divagr.com/blog/qwenputer",
-      "score": 702,
-      "comments": 145,
-      "owner": "csmantle",
-      "published": "2026-10-29T00:25:45Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50282838"
     }
   ]
 }

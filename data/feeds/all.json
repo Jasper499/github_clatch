@@ -6,100 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "github:https://github.com/deepseek-ai/dsh-superagent-prototype",
-      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-      "title": "[GitHub 热门新项目] deepseek-ai/dsh-superagent-prototype",
-      "date_published": "2026-11-02T01:01:04Z"
+      "id": "hackernews:https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
+      "url": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
+      "title": "[Hacker News 热门] Patrick Stewart has died",
+      "date_published": "2026-11-02T02:01:04Z"
     },
     {
-      "id": "github:https://github.com/anhao/ai-pose-gallery-zh",
-      "url": "https://github.com/anhao/ai-pose-gallery-zh",
-      "title": "[GitHub 热门新项目] anhao/ai-pose-gallery-zh",
-      "date_published": "2026-11-02T01:01:04Z"
+      "id": "hackernews:https://karpathy.bearblog.dev/hacker-tube/",
+      "url": "https://karpathy.bearblog.dev/hacker-tube/",
+      "title": "[Hacker News 热门] HackerTube: YouTube built from videos recommended by HN",
+      "date_published": "2026-11-02T02:01:04Z"
     },
     {
-      "id": "github:https://github.com/heydamir/unslop",
-      "url": "https://github.com/heydamir/unslop",
-      "title": "[GitHub 热门新项目] heydamir/unslop",
-      "date_published": "2026-11-02T01:01:04Z"
+      "id": "hackernews:https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
+      "url": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
+      "title": "[Hacker News 热门] Binance-hacker-1029 – $5.6B stolen from Binance",
+      "date_published": "2026-11-02T02:01:04Z"
     },
     {
-      "id": "github:https://github.com/wangzan101/Mika",
-      "url": "https://github.com/wangzan101/Mika",
-      "title": "[GitHub 热门新项目] wangzan101/Mika",
-      "date_published": "2026-11-02T01:01:04Z"
+      "id": "hackernews:https://mistral.ai/news/mistral-large-4-oss/",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "title": "[Hacker News 热门] We're releasing the weights of Mistral Large 4",
+      "date_published": "2026-11-02T02:01:04Z"
     },
     {
-      "id": "github:https://github.com/valentderah/totk-pc-recomp",
-      "url": "https://github.com/valentderah/totk-pc-recomp",
-      "title": "[GitHub 热门新项目] valentderah/totk-pc-recomp",
-      "date_published": "2026-11-02T01:01:04Z"
+      "id": "hackernews:https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "title": "[Hacker News 热门] Anthropic S-1",
+      "date_published": "2026-11-02T02:01:04Z"
     },
     {
-      "id": "github:https://github.com/patch-gg/pixelfx",
-      "url": "https://github.com/patch-gg/pixelfx",
-      "title": "[GitHub 热门新项目] patch-gg/pixelfx",
-      "date_published": "2026-11-02T01:01:04Z"
+      "id": "hackernews:https://nullpt.rs/fingerprinting-bioweapons",
+      "url": "https://nullpt.rs/fingerprinting-bioweapons",
+      "title": "[Hacker News 热门] Why is this fingerprinting script creating bioweapons?",
+      "date_published": "2026-11-02T02:01:04Z"
     },
     {
-      "id": "github:https://github.com/Djihads80/Eglantine",
-      "url": "https://github.com/Djihads80/Eglantine",
-      "title": "[GitHub 热门新项目] Djihads80/Eglantine",
-      "date_published": "2026-11-02T01:01:04Z"
+      "id": "hackernews:https://ghostty.org/docs/install/release-notes/1-4-0",
+      "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
+      "title": "[Hacker News 热门] Ghostty 1.4",
+      "date_published": "2026-11-02T02:01:04Z"
     },
     {
-      "id": "github:https://github.com/paipiange/nvzhuang",
-      "url": "https://github.com/paipiange/nvzhuang",
-      "title": "[GitHub 热门新项目] paipiange/nvzhuang",
-      "date_published": "2026-11-02T01:01:04Z"
-    },
-    {
-      "id": "githubActive:https://github.com/public-apis/public-apis",
-      "url": "https://github.com/public-apis/public-apis",
-      "title": "[GitHub 活跃项目] public-apis/public-apis",
-      "date_published": "2026-11-02T01:01:04Z"
-    },
-    {
-      "id": "githubActive:https://github.com/freeCodeCamp/freeCodeCamp",
-      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "title": "[GitHub 活跃项目] freeCodeCamp/freeCodeCamp",
-      "date_published": "2026-11-02T01:01:04Z"
-    },
-    {
-      "id": "githubActive:https://github.com/morluto/rea",
-      "url": "https://github.com/morluto/rea",
-      "title": "[GitHub 活跃项目] morluto/rea",
-      "date_published": "2026-11-02T01:01:04Z"
-    },
-    {
-      "id": "githubActive:https://github.com/EbookFoundation/free-programming-books",
-      "url": "https://github.com/EbookFoundation/free-programming-books",
-      "title": "[GitHub 活跃项目] EbookFoundation/free-programming-books",
-      "date_published": "2026-11-02T01:01:04Z"
-    },
-    {
-      "id": "githubActive:https://github.com/openclaw/openclaw",
-      "url": "https://github.com/openclaw/openclaw",
-      "title": "[GitHub 活跃项目] openclaw/openclaw",
-      "date_published": "2026-11-02T01:01:04Z"
-    },
-    {
-      "id": "githubActive:https://github.com/nilbuild/developer-roadmap",
-      "url": "https://github.com/nilbuild/developer-roadmap",
-      "title": "[GitHub 活跃项目] nilbuild/developer-roadmap",
-      "date_published": "2026-11-02T01:01:04Z"
-    },
-    {
-      "id": "githubActive:https://github.com/awesome-selfhosted/awesome-selfhosted",
-      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-      "title": "[GitHub 活跃项目] awesome-selfhosted/awesome-selfhosted",
-      "date_published": "2026-11-02T01:01:04Z"
-    },
-    {
-      "id": "githubActive:https://github.com/vinta/awesome-python",
-      "url": "https://github.com/vinta/awesome-python",
-      "title": "[GitHub 活跃项目] vinta/awesome-python",
-      "date_published": "2026-11-02T01:01:04Z"
+      "id": "hackernews:https://emudhra.we-have-a-problem.com/apple.html",
+      "url": "https://emudhra.we-have-a-problem.com/apple.html",
+      "title": "[Hacker News 热门] Apple's git still trusts the compromised eMudhra certificates",
+      "date_published": "2026-11-02T02:01:04Z"
     }
   ]
 }
