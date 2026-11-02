@@ -1,12 +1,32 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-11-02T02:21:04Z",
+  "savedAt": "2026-11-02T09:39:18Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "c1cee246a489a676e3c80cae9e282da4b58cf19a",
+  "latestSha": "69817e4dad8bfc52fa4e59a9d8355e4264a4d3a7",
   "items": [
+    {
+      "title": "docs(nature-academic-search, nature-citation): optional Firecrawl rea…",
+      "description": "docs(nature-academic-search, nature-citation): optional Firecrawl reader for publisher pages and PDFs (#286)",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/69817e4dad8bfc52fa4e59a9d8355e4264a4d3a7",
+      "sha": "69817e4",
+      "fullSha": "69817e4dad8bfc52fa4e59a9d8355e4264a4d3a7",
+      "owner": "JuampiHernandez",
+      "published": "2026-11-02",
+      "label": "commit"
+    },
+    {
+      "title": "fix(nature-figure): accept ggsave(device = cairo_pdf) in editable-tex…",
+      "description": "fix(nature-figure): accept ggsave(device = cairo_pdf) in editable-text check (#284)\n\nCo-authored-by: 2SinceJuly &lt;202121119+2SinceJuly@users.noreply.github.com&gt;",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/18337a1eb6f5591fb29fc5d47450c75283d4d86e",
+      "sha": "18337a1",
+      "fullSha": "18337a1eb6f5591fb29fc5d47450c75283d4d86e",
+      "owner": "2SinceJuly",
+      "published": "2026-11-02",
+      "label": "commit"
+    },
     {
       "title": "chore: update star history",
       "description": "chore: update star history",
@@ -134,26 +154,6 @@
       "sha": "c859919",
       "fullSha": "c8599197e7d2a22c2a091bbf8c14efcb3625cfa0",
       "owner": "Yuan1z0825",
-      "published": "2026-10-20",
-      "label": "commit"
-    },
-    {
-      "title": "ci: use matching UTF-8 encodings for Windows PDF tests",
-      "description": "ci: use matching UTF-8 encodings for Windows PDF tests",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/31a78bd0d0a09e3a9182c6394de6c9f244f629ec",
-      "sha": "31a78bd",
-      "fullSha": "31a78bd0d0a09e3a9182c6394de6c9f244f629ec",
-      "owner": "WatchKitty",
-      "published": "2026-10-20",
-      "label": "commit"
-    },
-    {
-      "title": "ci: constrain PDF tooling to the tested dependency versions",
-      "description": "ci: constrain PDF tooling to the tested dependency versions",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/d7f4cbfabcefdff0e6ec4c520ce6842a386dfebc",
-      "sha": "d7f4cbf",
-      "fullSha": "d7f4cbfabcefdff0e6ec4c520ce6842a386dfebc",
-      "owner": "WatchKitty",
       "published": "2026-10-20",
       "label": "commit"
     }
