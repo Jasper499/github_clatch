@@ -1,17 +1,17 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-11-02T22:38:49Z",
+  "savedAt": "2026-11-03T02:01:33Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-11-02，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-11-03，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-11-02",
+  "fetchedDate": "2026-11-03",
   "items": [
     {
       "title": "Patrick Stewart has died",
       "description": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;y4Egm\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;y4Egm</a><p><a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Patrick_Stewart\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Patrick_Stewart</a>",
       "url": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
       "score": 3309,
-      "comments": 764,
+      "comments": 765,
       "owner": "j4mie",
       "published": "2026-10-29T19:41:39Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50294702"
@@ -20,18 +20,28 @@
       "title": "HackerTube: YouTube built from videos recommended by HN",
       "description": "YouTube-style UI over 6,454 videos sourced from 39,834 HN comments since 2007.<p><a href=\"https:&#x2F;&#x2F;hackertube.org&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;hackertube.org&#x2F;</a>",
       "url": "https://karpathy.bearblog.dev/hacker-tube/",
-      "score": 2807,
+      "score": 2812,
       "comments": 624,
       "owner": "karpathy",
       "published": "2026-10-31T19:56:53Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50319510"
     },
     {
+      "title": "Astra can read and write weights to improve Qwen",
+      "description": "",
+      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "score": 1951,
+      "comments": 622,
+      "owner": "dbreunig",
+      "published": "2026-11-02T18:21:28Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50341174"
+    },
+    {
       "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
       "description": "Saw Karpathy&#x27;s HackerTube and wanted the same thing for books. So I had Claude build one (Opus 5.5).<p>It&#x27;s ~16.5k books that at least two different HN commenters brought up, from 2007 till now. Each book links back to the comments that mentioned it. Data is downloadable from the about page.<p>To be clear: Claude wrote almost all of it, including the data pipeline and the site. I mostly steered and made calls, bought the domain name, etc.<p>It counts mentions, so it&#x27;s not perfect (praising a book and trashing it both count). If your favourite book is missing or matched to the wrong thing, tell me.",
       "url": "https://hackerbooks.org",
-      "score": 1800,
-      "comments": 299,
+      "score": 1809,
+      "comments": 300,
       "owner": "roansh",
       "published": "2026-11-01T15:58:28Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50326821"
@@ -50,7 +60,7 @@
       "title": "We're releasing the weights of Mistral Large 4",
       "description": "",
       "url": "https://mistral.ai/news/mistral-large-4-oss/",
-      "score": 1723,
+      "score": 1724,
       "comments": 440,
       "owner": "kuberwastaken",
       "published": "2026-10-29T14:13:21Z",
@@ -67,16 +77,6 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50276998"
     },
     {
-      "title": "Astra can read and write weights to improve Qwen",
-      "description": "",
-      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
-      "score": 1451,
-      "comments": 466,
-      "owner": "dbreunig",
-      "published": "2026-11-02T18:21:28Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50341174"
-    },
-    {
       "title": "Ghostty 1.4",
       "description": "",
       "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
@@ -90,8 +90,8 @@
       "title": "WTF Ubuntu?",
       "description": "",
       "url": "https://chalmovsky.com/posts/wtf-ubuntu",
-      "score": 1204,
-      "comments": 564,
+      "score": 1325,
+      "comments": 584,
       "owner": "chalmovsky",
       "published": "2026-11-02T14:52:00Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50337608"
@@ -121,7 +121,7 @@
       "description": "",
       "url": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/",
       "score": 1099,
-      "comments": 461,
+      "comments": 465,
       "owner": "helterskelter2",
       "published": "2026-10-27T14:06:42Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50259604"
@@ -131,7 +131,7 @@
       "description": "",
       "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
       "score": 1044,
-      "comments": 593,
+      "comments": 594,
       "owner": "acossta",
       "published": "2026-10-27T16:06:01Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50261319"
@@ -160,8 +160,8 @@
       "title": "Serbia just elected the world's brainiest parliament",
       "description": "",
       "url": "https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament",
-      "score": 918,
-      "comments": 508,
+      "score": 919,
+      "comments": 509,
       "owner": "input_sh",
       "published": "2026-10-31T10:21:30Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50314654"
@@ -170,8 +170,8 @@
       "title": "An Italian farmer found some unknown seeds in his attic and planted them",
       "description": "",
       "url": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
-      "score": 859,
-      "comments": 227,
+      "score": 860,
+      "comments": 231,
       "owner": "ecares",
       "published": "2026-10-31T22:41:06Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50320963"
@@ -190,8 +190,8 @@
       "title": "Postgres 19 is late because so many more bugs are being found now",
       "description": "",
       "url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
-      "score": 800,
-      "comments": 474,
+      "score": 807,
+      "comments": 479,
       "owner": "soheilpro",
       "published": "2026-10-31T01:38:56Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50312408"
@@ -200,7 +200,7 @@
       "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
       "description": "",
       "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
-      "score": 738,
+      "score": 740,
       "comments": 330,
       "owner": "oger",
       "published": "2026-10-31T19:16:30Z",
