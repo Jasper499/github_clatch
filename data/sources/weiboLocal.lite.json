@@ -1,50 +1,60 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-11-03T18:12:50Z",
+  "savedAt": "2026-11-03T23:13:32Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-03，共 4 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-03，共 5 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-11-03",
   "items": [
     {
+      "title": "九寨沟打人事件调解收尾并非和稀泥",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B9%9D%E5%AF%A8%E6%B2%9F%E6%89%93%E4%BA%BA%E4%BA%8B%E4%BB%B6%E8%B0%83%E8%A7%A3%E6%94%B6%E5%B0%BE%E5%B9%B6%E9%9D%9E%E5%92%8C%E7%A8%80%E6%B3%A5%23&t=31&band_rank=1&Refer=top",
+      "score": 649841,
+      "owner": "微博同城",
+      "label": "热",
+      "category": "民生新闻",
+      "onboardTime": 1793731394
+    },
+    {
       "title": "女子每天玩手机10小时患手机痴呆症",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E6%AF%8F%E5%A4%A9%E7%8E%A9%E6%89%8B%E6%9C%BA10%E5%B0%8F%E6%97%B6%E6%82%A3%E6%89%8B%E6%9C%BA%E7%97%B4%E5%91%86%E7%97%87%23&t=31&band_rank=1&Refer=top",
-      "score": 145501,
+      "score": 160019,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1793712741
     },
     {
-      "title": "月嫂最后一次哄睡宝宝让宝妈泪崩",
+      "title": "九寨沟老人打人被指倚老卖老",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9C%88%E5%AB%82%E6%9C%80%E5%90%8E%E4%B8%80%E6%AC%A1%E5%93%84%E7%9D%A1%E5%AE%9D%E5%AE%9D%E8%AE%A9%E5%AE%9D%E5%A6%88%E6%B3%AA%E5%B4%A9%23&t=31&band_rank=1&Refer=top",
-      "score": 72483,
+      "url": "https://s.weibo.com/weibo?q=%E4%B9%9D%E5%AF%A8%E6%B2%9F%E8%80%81%E4%BA%BA%E6%89%93%E4%BA%BA%E8%A2%AB%E6%8C%87%E5%80%9A%E8%80%81%E5%8D%96%E8%80%81&t=31&band_rank=1&Refer=top",
+      "score": 88672,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1793720720
+      "onboardTime": 1793737934
+    },
+    {
+      "title": "江西一只母狗生下18只幼仔",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B1%9F%E8%A5%BF%E4%B8%80%E5%8F%AA%E6%AF%8D%E7%8B%97%E7%94%9F%E4%B8%8B18%E5%8F%AA%E5%B9%BC%E4%BB%94%23&t=31&band_rank=1&Refer=top",
+      "score": 73972,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1793734214
     },
     {
       "title": "天气预报",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5&t=31&band_rank=1&Refer=top",
-      "score": 70163,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1793725456
-    },
-    {
-      "title": "女子买一等座却只能站着平台无补偿",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E4%B9%B0%E4%B8%80%E7%AD%89%E5%BA%A7%E5%8D%B4%E5%8F%AA%E8%83%BD%E7%AB%99%E7%9D%80%E5%B9%B3%E5%8F%B0%E6%97%A0%E8%A1%A5%E5%81%BF%23&t=31&band_rank=1&Refer=top",
-      "score": 69026,
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5&t=31&band_rank=1&Refer=top",
+      "score": 73441,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1793709380
+      "onboardTime": 1793725456
     }
   ]
 }
