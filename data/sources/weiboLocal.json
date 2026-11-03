@@ -1,160 +1,120 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-11-03T06:11:27Z",
+  "savedAt": "2026-11-03T12:11:29Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-03，共 15 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-03，共 11 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-11-03",
   "items": [
     {
-      "title": "九寨沟2年轻游客遭老年人打伤",
-      "description": "沸 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B9%9D%E5%AF%A8%E6%B2%9F2%E5%B9%B4%E8%BD%BB%E6%B8%B8%E5%AE%A2%E9%81%AD%E8%80%81%E5%B9%B4%E4%BA%BA%E6%89%93%E4%BC%A4%23&t=31&band_rank=1&Refer=top",
-      "score": 1985620,
+      "title": "清华研究生怀孕怕被退学获导师支持",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B8%85%E5%8D%8E%E7%A0%94%E7%A9%B6%E7%94%9F%E6%80%80%E5%AD%95%E6%80%95%E8%A2%AB%E9%80%80%E5%AD%A6%E8%8E%B7%E5%AF%BC%E5%B8%88%E6%94%AF%E6%8C%81%23&t=31&band_rank=1&Refer=top",
+      "score": 901743,
       "owner": "微博同城",
-      "label": "沸",
+      "label": "热",
       "category": "民生新闻",
-      "onboardTime": 1793677520
+      "onboardTime": 1793700561
     },
     {
-      "title": "赴港看演唱会女孩低保已被取消",
+      "title": "九寨沟打人者想离开被拦下",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%B5%B4%E6%B8%AF%E7%9C%8B%E6%BC%94%E5%94%B1%E4%BC%9A%E5%A5%B3%E5%AD%A9%E4%BD%8E%E4%BF%9D%E5%B7%B2%E8%A2%AB%E5%8F%96%E6%B6%88%23&t=31&band_rank=1&Refer=top",
-      "score": 972643,
+      "url": "https://s.weibo.com/weibo?q=%E4%B9%9D%E5%AF%A8%E6%B2%9F%E6%89%93%E4%BA%BA%E8%80%85%E6%83%B3%E7%A6%BB%E5%BC%80%E8%A2%AB%E6%8B%A6%E4%B8%8B&t=31&band_rank=1&Refer=top",
+      "score": 435035,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1793684541
-    },
-    {
-      "title": "今年乌镇为何把开源放在C位",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%BB%8A%E5%B9%B4%E4%B9%8C%E9%95%87%E4%B8%BA%E4%BD%95%E6%8A%8A%E5%BC%80%E6%BA%90%E6%94%BE%E5%9C%A8C%E4%BD%8D%23&t=31&band_rank=1&Refer=top",
-      "score": 821882,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1793671339
-    },
-    {
-      "title": "目击者回应九寨沟老人打人",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%9B%AE%E5%87%BB%E8%80%85%E5%9B%9E%E5%BA%94%E4%B9%9D%E5%AF%A8%E6%B2%9F%E8%80%81%E4%BA%BA%E6%89%93%E4%BA%BA%23&t=31&band_rank=1&Refer=top",
-      "score": 664714,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1793678180
+      "onboardTime": 1793702481
     },
     {
       "title": "九寨沟老人打人",
       "description": "沸 · 民生新闻",
       "url": "https://s.weibo.com/weibo?q=%E4%B9%9D%E5%AF%A8%E6%B2%9F%E8%80%81%E4%BA%BA%E6%89%93%E4%BA%BA&t=31&band_rank=1&Refer=top",
-      "score": 470721,
+      "score": 421090,
       "owner": "微博同城",
       "label": "沸",
       "category": "民生新闻",
       "onboardTime": 1793669000
     },
     {
-      "title": "湖南烈士公园回应女生穿和服拍照",
+      "title": "九寨沟打人 和稀泥",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B9%96%E5%8D%97%E7%83%88%E5%A3%AB%E5%85%AC%E5%9B%AD%E5%9B%9E%E5%BA%94%E5%A5%B3%E7%94%9F%E7%A9%BF%E5%92%8C%E6%9C%8D%E6%8B%8D%E7%85%A7%23&t=31&band_rank=1&Refer=top",
-      "score": 426620,
+      "url": "https://s.weibo.com/weibo?q=%E4%B9%9D%E5%AF%A8%E6%B2%9F%E6%89%93%E4%BA%BA%20%E5%92%8C%E7%A8%80%E6%B3%A5&t=31&band_rank=1&Refer=top",
+      "score": 409393,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1793681661
+      "onboardTime": 1793704340
     },
     {
-      "title": "九寨沟打人事件双方都有责任",
-      "description": "热 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B9%9D%E5%AF%A8%E6%B2%9F%E6%89%93%E4%BA%BA%E4%BA%8B%E4%BB%B6%E5%8F%8C%E6%96%B9%E9%83%BD%E6%9C%89%E8%B4%A3%E4%BB%BB%23&t=31&band_rank=1&Refer=top",
-      "score": 402259,
-      "owner": "微博同城",
-      "label": "热",
-      "category": "民生新闻",
-      "onboardTime": 1793678721
-    },
-    {
-      "title": "女子离婚被前夫索要继子抚养费",
+      "title": "九寨沟老人免票该取消吗",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E7%A6%BB%E5%A9%9A%E8%A2%AB%E5%89%8D%E5%A4%AB%E7%B4%A2%E8%A6%81%E7%BB%A7%E5%AD%90%E6%8A%9A%E5%85%BB%E8%B4%B9%23&t=31&band_rank=1&Refer=top",
-      "score": 332168,
+      "url": "https://s.weibo.com/weibo?q=%E4%B9%9D%E5%AF%A8%E6%B2%9F%E8%80%81%E4%BA%BA%E5%85%8D%E7%A5%A8%E8%AF%A5%E5%8F%96%E6%B6%88%E5%90%97&t=31&band_rank=1&Refer=top",
+      "score": 375909,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1793685800
+      "onboardTime": 1793704941
     },
     {
-      "title": "九寨沟老人打人视频曝光",
-      "description": "沸 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B9%9D%E5%AF%A8%E6%B2%9F%E8%80%81%E4%BA%BA%E6%89%93%E4%BA%BA%E8%A7%86%E9%A2%91%E6%9B%9D%E5%85%89%23&t=31&band_rank=1&Refer=top",
-      "score": 323023,
-      "owner": "微博同城",
-      "label": "沸",
-      "category": "民生新闻",
-      "onboardTime": 1793674399
-    },
-    {
-      "title": "因太帅爆火的保洁大叔称年轻时被嫌丑",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%9B%A0%E5%A4%AA%E5%B8%85%E7%88%86%E7%81%AB%E7%9A%84%E4%BF%9D%E6%B4%81%E5%A4%A7%E5%8F%94%E7%A7%B0%E5%B9%B4%E8%BD%BB%E6%97%B6%E8%A2%AB%E5%AB%8C%E4%B8%91%23&t=31&band_rank=1&Refer=top",
-      "score": 320051,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1793681661
-    },
-    {
-      "title": "棉服没有棉填充物全是聚酯纤维",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%A3%89%E6%9C%8D%E6%B2%A1%E6%9C%89%E6%A3%89%E5%A1%AB%E5%85%85%E7%89%A9%E5%85%A8%E6%98%AF%E8%81%9A%E9%85%AF%E7%BA%A4%E7%BB%B4%23&t=31&band_rank=1&Refer=top",
-      "score": 262711,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1793686042
-    },
-    {
-      "title": "九寨沟情侣被打伤情",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E4%B9%9D%E5%AF%A8%E6%B2%9F%E6%83%85%E4%BE%A3%E8%A2%AB%E6%89%93%E4%BC%A4%E6%83%85&t=31&band_rank=1&Refer=top",
-      "score": 257161,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1793686160
-    },
-    {
-      "title": "星巴克 老人",
+      "title": "清华女生研一生娃寒假坐月子",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E6%98%9F%E5%B7%B4%E5%85%8B%20%E8%80%81%E4%BA%BA&t=31&band_rank=1&Refer=top",
-      "score": 198385,
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B8%85%E5%8D%8E%E5%A5%B3%E7%94%9F%E7%A0%94%E4%B8%80%E7%94%9F%E5%A8%83%E5%AF%92%E5%81%87%E5%9D%90%E6%9C%88%E5%AD%90%23&t=31&band_rank=1&Refer=top",
+      "score": 319351,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1793676979
+      "onboardTime": 1793697440
     },
     {
-      "title": "景区回应九寨沟冲突称年轻人先动手",
+      "title": "清华在读女生怀孕生娃神级时间管理",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%99%AF%E5%8C%BA%E5%9B%9E%E5%BA%94%E4%B9%9D%E5%AF%A8%E6%B2%9F%E5%86%B2%E7%AA%81%E7%A7%B0%E5%B9%B4%E8%BD%BB%E4%BA%BA%E5%85%88%E5%8A%A8%E6%89%8B%23&t=31&band_rank=1&Refer=top",
-      "score": 173003,
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B8%85%E5%8D%8E%E5%9C%A8%E8%AF%BB%E5%A5%B3%E7%94%9F%E6%80%80%E5%AD%95%E7%94%9F%E5%A8%83%E7%A5%9E%E7%BA%A7%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86%23&t=31&band_rank=1&Refer=top",
+      "score": 298177,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1793677820
+      "onboardTime": 1793699000
     },
     {
-      "title": "北方又一股冷空气在路上了",
+      "title": "九寨沟打人处罚被指过轻",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E4%B9%9D%E5%AF%A8%E6%B2%9F%E6%89%93%E4%BA%BA%E5%A4%84%E7%BD%9A%E8%A2%AB%E6%8C%87%E8%BF%87%E8%BD%BB&t=31&band_rank=1&Refer=top",
+      "score": 284029,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1793690421
+    },
+    {
+      "title": "清华生娃女生称大厂老公辞职带娃",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8C%97%E6%96%B9%E5%8F%88%E4%B8%80%E8%82%A1%E5%86%B7%E7%A9%BA%E6%B0%94%E5%9C%A8%E8%B7%AF%E4%B8%8A%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 171277,
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B8%85%E5%8D%8E%E7%94%9F%E5%A8%83%E5%A5%B3%E7%94%9F%E7%A7%B0%E5%A4%A7%E5%8E%82%E8%80%81%E5%85%AC%E8%BE%9E%E8%81%8C%E5%B8%A6%E5%A8%83%23&t=31&band_rank=1&Refer=top",
+      "score": 278609,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1793684240
+      "onboardTime": 1793705181
+    },
+    {
+      "title": "月嫂说自己是第一个离开宝宝的人",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9C%88%E5%AB%82%E8%AF%B4%E8%87%AA%E5%B7%B1%E6%98%AF%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%A6%BB%E5%BC%80%E5%AE%9D%E5%AE%9D%E7%9A%84%E4%BA%BA%23&t=31&band_rank=1&Refer=top",
+      "score": 149162,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1793703800
+    },
+    {
+      "title": "清华生娃女生称下课后去拔奶",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B8%85%E5%8D%8E%E7%94%9F%E5%A8%83%E5%A5%B3%E7%94%9F%E7%A7%B0%E4%B8%8B%E8%AF%BE%E5%90%8E%E5%8E%BB%E6%8B%94%E5%A5%B6%23&t=31&band_rank=1&Refer=top",
+      "score": 149009,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1793698880
     }
   ]
 }
