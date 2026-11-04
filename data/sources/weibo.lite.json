@@ -1,32 +1,32 @@
 {
   "sourceKey": "weibo",
-  "savedAt": "2026-11-03T23:13:32Z",
+  "savedAt": "2026-11-04T00:10:55Z",
   "label": "热搜榜",
-  "description": "微博热搜榜（2026-11-03，共 30 条，约每 6 小时更新）",
+  "description": "微博热搜榜（2026-11-04，共 30 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
-  "fetchedDate": "2026-11-03",
+  "fetchedDate": "2026-11-04",
   "items": [
+    {
+      "title": "TES对战IG",
+      "description": "",
+      "url": "https://s.weibo.com/weibo?q=TES%E5%AF%B9%E6%88%98IG&t=31&band_rank=1&Refer=top",
+      "score": 1586422,
+      "owner": "微博热搜",
+      "label": ""
+    },
     {
       "title": "女生刷到另一个自己竟是双胞胎",
       "description": "热",
       "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E7%94%9F%E5%88%B7%E5%88%B0%E5%8F%A6%E4%B8%80%E4%B8%AA%E8%87%AA%E5%B7%B1%E7%AB%9F%E6%98%AF%E5%8F%8C%E8%83%9E%E8%83%8E&t=31&band_rank=1&Refer=top",
-      "score": 777285,
+      "score": 1372949,
       "owner": "微博热搜",
       "label": "热"
-    },
-    {
-      "title": "TES对战IG",
-      "description": "新",
-      "url": "https://s.weibo.com/weibo?q=TES%E5%AF%B9%E6%88%98IG&t=31&band_rank=1&Refer=top",
-      "score": 761494,
-      "owner": "微博热搜",
-      "label": "新"
     },
     {
       "title": "2026世界市长对话宁波",
       "description": "",
       "url": "https://s.weibo.com/weibo?q=%232026%E4%B8%96%E7%95%8C%E5%B8%82%E9%95%BF%E5%AF%B9%E8%AF%9D%E5%AE%81%E6%B3%A2%23&t=31&band_rank=1&Refer=top",
-      "score": 652350,
+      "score": 748529,
       "owner": "微博热搜",
       "label": ""
     },
@@ -34,79 +34,119 @@
       "title": "iPhone天气下周五温差",
       "description": "热",
       "url": "https://s.weibo.com/weibo?q=iPhone%E5%A4%A9%E6%B0%94%E4%B8%8B%E5%91%A8%E4%BA%94%E6%B8%A9%E5%B7%AE&t=31&band_rank=1&Refer=top",
-      "score": 652020,
+      "score": 736297,
       "owner": "微博热搜",
       "label": "热"
     },
     {
-      "title": "九寨沟打人事件调解收尾并非和稀泥",
-      "description": "热",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B9%9D%E5%AF%A8%E6%B2%9F%E6%89%93%E4%BA%BA%E4%BA%8B%E4%BB%B6%E8%B0%83%E8%A7%A3%E6%94%B6%E5%B0%BE%E5%B9%B6%E9%9D%9E%E5%92%8C%E7%A8%80%E6%B3%A5%23&t=31&band_rank=1&Refer=top",
-      "score": 649841,
-      "owner": "微博热搜",
-      "label": "热"
-    },
-    {
-      "title": "孙颖莎",
-      "description": "",
-      "url": "https://s.weibo.com/weibo?q=%E5%AD%99%E9%A2%96%E8%8E%8E&t=31&band_rank=1&Refer=top",
-      "score": 592135,
-      "owner": "微博热搜",
-      "label": ""
-    },
-    {
-      "title": "TheShy单杀369",
+      "title": "红果历史短剧有点出乎意料",
       "description": "新",
-      "url": "https://s.weibo.com/weibo?q=%23TheShy%E5%8D%95%E6%9D%80369%23&t=31&band_rank=1&Refer=top",
-      "score": 257545,
+      "url": "https://s.weibo.com/weibo?q=%E7%BA%A2%E6%9E%9C%E5%8E%86%E5%8F%B2%E7%9F%AD%E5%89%A7%E6%9C%89%E7%82%B9%E5%87%BA%E4%B9%8E%E6%84%8F%E6%96%99&t=31&band_rank=1&Refer=top",
+      "score": 736206,
       "owner": "微博热搜",
       "label": "新"
     },
     {
-      "title": "李钟硕新剧回春了",
-      "description": "热",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E9%92%9F%E7%A1%95%E6%96%B0%E5%89%A7%E5%9B%9E%E6%98%A5%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 201055,
+      "title": "杨幂曾偷偷观察唐嫣",
+      "description": "新",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%A8%E5%B9%82%E6%9B%BE%E5%81%B7%E5%81%B7%E8%A7%82%E5%AF%9F%E5%94%90%E5%AB%A3%23&t=31&band_rank=1&Refer=top",
+      "score": 713695,
       "owner": "微博热搜",
-      "label": "热"
+      "label": "新"
+    },
+    {
+      "title": "抖音副总裁恶语回应专家批评",
+      "description": "新",
+      "url": "https://s.weibo.com/weibo?q=%E6%8A%96%E9%9F%B3%E5%89%AF%E6%80%BB%E8%A3%81%E6%81%B6%E8%AF%AD%E5%9B%9E%E5%BA%94%E4%B8%93%E5%AE%B6%E6%89%B9%E8%AF%84&t=31&band_rank=1&Refer=top",
+      "score": 508860,
+      "owner": "微博热搜",
+      "label": "新"
+    },
+    {
+      "title": "女子凌晨被陌生人钻被窝贴脸窥探",
+      "description": "新",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E5%87%8C%E6%99%A8%E8%A2%AB%E9%99%8C%E7%94%9F%E4%BA%BA%E9%92%BB%E8%A2%AB%E7%AA%9D%E8%B4%B4%E8%84%B8%E7%AA%A5%E6%8E%A2%23&t=31&band_rank=1&Refer=top",
+      "score": 424674,
+      "owner": "微博热搜",
+      "label": "新"
+    },
+    {
+      "title": "369也单杀TheShy了",
+      "description": "新",
+      "url": "https://s.weibo.com/weibo?q=%23369%E4%B9%9F%E5%8D%95%E6%9D%80TheShy%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 424595,
+      "owner": "微博热搜",
+      "label": "新"
     },
     {
       "title": "杂交水稻专家邓国富被开除党籍",
-      "description": "热",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%82%E4%BA%A4%E6%B0%B4%E7%A8%BB%E4%B8%93%E5%AE%B6%E9%82%93%E5%9B%BD%E5%AF%8C%E8%A2%AB%E5%BC%80%E9%99%A4%E5%85%9A%E7%B1%8D%23&t=31&band_rank=1&Refer=top",
-      "score": 164030,
-      "owner": "微博热搜",
-      "label": "热"
-    },
-    {
-      "title": "霍建华说拍如懿传内心很煎熬",
       "description": "",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%9C%8D%E5%BB%BA%E5%8D%8E%E8%AF%B4%E6%8B%8D%E5%A6%82%E6%87%BF%E4%BC%A0%E5%86%85%E5%BF%83%E5%BE%88%E7%85%8E%E7%86%AC%23&t=31&band_rank=1&Refer=top",
-      "score": 163505,
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%82%E4%BA%A4%E6%B0%B4%E7%A8%BB%E4%B8%93%E5%AE%B6%E9%82%93%E5%9B%BD%E5%AF%8C%E8%A2%AB%E5%BC%80%E9%99%A4%E5%85%9A%E7%B1%8D%23&t=31&band_rank=1&Refer=top",
+      "score": 424545,
       "owner": "微博热搜",
       "label": ""
+    },
+    {
+      "title": "美国中期选举",
+      "description": "新",
+      "url": "https://s.weibo.com/weibo?q=%E7%BE%8E%E5%9B%BD%E4%B8%AD%E6%9C%9F%E9%80%89%E4%B8%BE&t=31&band_rank=1&Refer=top",
+      "score": 424373,
+      "owner": "微博热搜",
+      "label": "新"
     },
     {
       "title": "许飞经纪人 去找厉娜",
       "description": "热",
       "url": "https://s.weibo.com/weibo?q=%E8%AE%B8%E9%A3%9E%E7%BB%8F%E7%BA%AA%E4%BA%BA%20%E5%8E%BB%E6%89%BE%E5%8E%89%E5%A8%9C&t=31&band_rank=1&Refer=top",
-      "score": 162713,
+      "score": 424261,
       "owner": "微博热搜",
       "label": "热"
+    },
+    {
+      "title": "尚公主被偷数据",
+      "description": "新",
+      "url": "https://s.weibo.com/weibo?q=%E5%B0%9A%E5%85%AC%E4%B8%BB%E8%A2%AB%E5%81%B7%E6%95%B0%E6%8D%AE&t=31&band_rank=1&Refer=top",
+      "score": 424141,
+      "owner": "微博热搜",
+      "label": "新"
     },
     {
       "title": "终于知道大家搬离高层的原因",
       "description": "",
       "url": "https://s.weibo.com/weibo?q=%E7%BB%88%E4%BA%8E%E7%9F%A5%E9%81%93%E5%A4%A7%E5%AE%B6%E6%90%AC%E7%A6%BB%E9%AB%98%E5%B1%82%E7%9A%84%E5%8E%9F%E5%9B%A0&t=31&band_rank=1&Refer=top",
-      "score": 161039,
+      "score": 424122,
       "owner": "微博热搜",
       "label": ""
+    },
+    {
+      "title": "李茂关注了肖战",
+      "description": "新",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E8%8C%82%E5%85%B3%E6%B3%A8%E4%BA%86%E8%82%96%E6%88%98%23&t=31&band_rank=1&Refer=top",
+      "score": 424018,
+      "owner": "微博热搜",
+      "label": "新"
+    },
+    {
+      "title": "孙颖莎生日",
+      "description": "新",
+      "url": "https://s.weibo.com/weibo?q=%E5%AD%99%E9%A2%96%E8%8E%8E%E7%94%9F%E6%97%A5&t=31&band_rank=1&Refer=top",
+      "score": 388596,
+      "owner": "微博热搜",
+      "label": "新"
+    },
+    {
+      "title": "许飞震惊到瞳孔放大",
+      "description": "新",
+      "url": "https://s.weibo.com/weibo?q=%E8%AE%B8%E9%A3%9E%E9%9C%87%E6%83%8A%E5%88%B0%E7%9E%B3%E5%AD%94%E6%94%BE%E5%A4%A7&t=31&band_rank=1&Refer=top",
+      "score": 316253,
+      "owner": "微博热搜",
+      "label": "新"
     },
     {
       "title": "孙铭阳祝孙颖莎大胆往前走",
       "description": "",
       "url": "https://s.weibo.com/weibo?q=%23%E5%AD%99%E9%93%AD%E9%98%B3%E7%A5%9D%E5%AD%99%E9%A2%96%E8%8E%8E%E5%A4%A7%E8%83%86%E5%BE%80%E5%89%8D%E8%B5%B0%23&t=31&band_rank=1&Refer=top",
-      "score": 160997,
+      "score": 307251,
       "owner": "微博热搜",
       "label": ""
     },
@@ -114,7 +154,47 @@
       "title": "女子每天玩手机10小时患手机痴呆症",
       "description": "",
       "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E6%AF%8F%E5%A4%A9%E7%8E%A9%E6%89%8B%E6%9C%BA10%E5%B0%8F%E6%97%B6%E6%82%A3%E6%89%8B%E6%9C%BA%E7%97%B4%E5%91%86%E7%97%87%23&t=31&band_rank=1&Refer=top",
-      "score": 160019,
+      "score": 270334,
+      "owner": "微博热搜",
+      "label": ""
+    },
+    {
+      "title": "亚洲首富又换人",
+      "description": "新",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BA%9A%E6%B4%B2%E9%A6%96%E5%AF%8C%E5%8F%88%E6%8D%A2%E4%BA%BA%23&t=31&band_rank=1&Refer=top",
+      "score": 268659,
+      "owner": "微博热搜",
+      "label": "新"
+    },
+    {
+      "title": "清华父亲211妻子孩子没考上高中",
+      "description": "",
+      "url": "https://s.weibo.com/weibo?q=%E6%B8%85%E5%8D%8E%E7%88%B6%E4%BA%B2211%E5%A6%BB%E5%AD%90%E5%AD%A9%E5%AD%90%E6%B2%A1%E8%80%83%E4%B8%8A%E9%AB%98%E4%B8%AD&t=31&band_rank=1&Refer=top",
+      "score": 268423,
+      "owner": "微博热搜",
+      "label": ""
+    },
+    {
+      "title": "李钟硕新剧回春了",
+      "description": "",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E9%92%9F%E7%A1%95%E6%96%B0%E5%89%A7%E5%9B%9E%E6%98%A5%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 267507,
+      "owner": "微博热搜",
+      "label": ""
+    },
+    {
+      "title": "TheShy单杀369",
+      "description": "新",
+      "url": "https://s.weibo.com/weibo?q=%23TheShy%E5%8D%95%E6%9D%80369%23&t=31&band_rank=1&Refer=top",
+      "score": 255069,
+      "owner": "微博热搜",
+      "label": "新"
+    },
+    {
+      "title": "原来大家都是这样恢复心气的",
+      "description": "",
+      "url": "https://s.weibo.com/weibo?q=%E5%8E%9F%E6%9D%A5%E5%A4%A7%E5%AE%B6%E9%83%BD%E6%98%AF%E8%BF%99%E6%A0%B7%E6%81%A2%E5%A4%8D%E5%BF%83%E6%B0%94%E7%9A%84&t=31&band_rank=1&Refer=top",
+      "score": 244626,
       "owner": "微博热搜",
       "label": ""
     },
@@ -122,63 +202,15 @@
       "title": "王玉雯工作室被气成啥样了",
       "description": "",
       "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E7%8E%89%E9%9B%AF%E5%B7%A5%E4%BD%9C%E5%AE%A4%E8%A2%AB%E6%B0%94%E6%88%90%E5%95%A5%E6%A0%B7%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 156676,
+      "score": 226997,
       "owner": "微博热搜",
       "label": ""
     },
     {
-      "title": "广东男篮外援弗格正式离队",
-      "description": "新",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%B9%BF%E4%B8%9C%E7%94%B7%E7%AF%AE%E5%A4%96%E6%8F%B4%E5%BC%97%E6%A0%BC%E6%AD%A3%E5%BC%8F%E7%A6%BB%E9%98%9F%23&t=31&band_rank=1&Refer=top",
-      "score": 110957,
-      "owner": "微博热搜",
-      "label": "新"
-    },
-    {
-      "title": "央视频也画地为牢了厉娜",
+      "title": "孙颖莎",
       "description": "",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%AE%E8%A7%86%E9%A2%91%E4%B9%9F%E7%94%BB%E5%9C%B0%E4%B8%BA%E7%89%A2%E4%BA%86%E5%8E%89%E5%A8%9C%23&t=31&band_rank=1&Refer=top",
-      "score": 107356,
-      "owner": "微博热搜",
-      "label": ""
-    },
-    {
-      "title": "张凌赫像电梯一样升起来了",
-      "description": "",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%BC%A0%E5%87%8C%E8%B5%AB%E5%83%8F%E7%94%B5%E6%A2%AF%E4%B8%80%E6%A0%B7%E5%8D%87%E8%B5%B7%E6%9D%A5%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 101785,
-      "owner": "微博热搜",
-      "label": ""
-    },
-    {
-      "title": "印度确认申办2036年夏季奥运会",
-      "description": "",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8D%B0%E5%BA%A6%E7%A1%AE%E8%AE%A4%E7%94%B3%E5%8A%9E2036%E5%B9%B4%E5%A4%8F%E5%AD%A3%E5%A5%A5%E8%BF%90%E4%BC%9A%23&t=31&band_rank=1&Refer=top",
-      "score": 101134,
-      "owner": "微博热搜",
-      "label": ""
-    },
-    {
-      "title": "倪萍 医美",
-      "description": "",
-      "url": "https://s.weibo.com/weibo?q=%E5%80%AA%E8%90%8D%20%E5%8C%BB%E7%BE%8E&t=31&band_rank=1&Refer=top",
-      "score": 100152,
-      "owner": "微博热搜",
-      "label": ""
-    },
-    {
-      "title": "清华父亲211妻子孩子没考上高中",
-      "description": "",
-      "url": "https://s.weibo.com/weibo?q=%E6%B8%85%E5%8D%8E%E7%88%B6%E4%BA%B2211%E5%A6%BB%E5%AD%90%E5%AD%A9%E5%AD%90%E6%B2%A1%E8%80%83%E4%B8%8A%E9%AB%98%E4%B8%AD&t=31&band_rank=1&Refer=top",
-      "score": 94675,
-      "owner": "微博热搜",
-      "label": ""
-    },
-    {
-      "title": "原来大家都是这样恢复心气的",
-      "description": "",
-      "url": "https://s.weibo.com/weibo?q=%E5%8E%9F%E6%9D%A5%E5%A4%A7%E5%AE%B6%E9%83%BD%E6%98%AF%E8%BF%99%E6%A0%B7%E6%81%A2%E5%A4%8D%E5%BF%83%E6%B0%94%E7%9A%84&t=31&band_rank=1&Refer=top",
-      "score": 92153,
+      "url": "https://s.weibo.com/weibo?q=%E5%AD%99%E9%A2%96%E8%8E%8E&t=31&band_rank=1&Refer=top",
+      "score": 226242,
       "owner": "微博热搜",
       "label": ""
     },
@@ -186,65 +218,33 @@
       "title": "九寨沟老人打人被指倚老卖老",
       "description": "",
       "url": "https://s.weibo.com/weibo?q=%E4%B9%9D%E5%AF%A8%E6%B2%9F%E8%80%81%E4%BA%BA%E6%89%93%E4%BA%BA%E8%A2%AB%E6%8C%87%E5%80%9A%E8%80%81%E5%8D%96%E8%80%81&t=31&band_rank=1&Refer=top",
-      "score": 88672,
+      "score": 225055,
       "owner": "微博热搜",
       "label": ""
     },
     {
-      "title": "无人扶我青云志我就自己搞点事",
-      "description": "",
-      "url": "https://s.weibo.com/weibo?q=%E6%97%A0%E4%BA%BA%E6%89%B6%E6%88%91%E9%9D%92%E4%BA%91%E5%BF%97%E6%88%91%E5%B0%B1%E8%87%AA%E5%B7%B1%E6%90%9E%E7%82%B9%E4%BA%8B&t=31&band_rank=1&Refer=top",
-      "score": 86709,
+      "title": "詹俊谈曼联3比2罗马",
+      "description": "新",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%A9%B9%E4%BF%8A%E8%B0%88%E6%9B%BC%E8%81%943%E6%AF%942%E7%BD%97%E9%A9%AC%23&t=31&band_rank=1&Refer=top",
+      "score": 223116,
       "owner": "微博热搜",
-      "label": ""
-    },
-    {
-      "title": "林青霞72岁生日晒公益照",
-      "description": "",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9E%97%E9%9D%92%E9%9C%9E72%E5%B2%81%E7%94%9F%E6%97%A5%E6%99%92%E5%85%AC%E7%9B%8A%E7%85%A7%23&t=31&band_rank=1&Refer=top",
-      "score": 78168,
-      "owner": "微博热搜",
-      "label": ""
-    },
-    {
-      "title": "这作者是真上过班",
-      "description": "",
-      "url": "https://s.weibo.com/weibo?q=%E8%BF%99%E4%BD%9C%E8%80%85%E6%98%AF%E7%9C%9F%E4%B8%8A%E8%BF%87%E7%8F%AD&t=31&band_rank=1&Refer=top",
-      "score": 74140,
-      "owner": "微博热搜",
-      "label": ""
-    },
-    {
-      "title": "红果短剧 全家都在刷",
-      "description": "",
-      "url": "https://s.weibo.com/weibo?q=%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7%20%E5%85%A8%E5%AE%B6%E9%83%BD%E5%9C%A8%E5%88%B7&t=31&band_rank=1&Refer=top",
-      "score": 74091,
-      "owner": "微博热搜",
-      "label": ""
-    },
-    {
-      "title": "江西一只母狗生下18只幼仔",
-      "description": "",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B1%9F%E8%A5%BF%E4%B8%80%E5%8F%AA%E6%AF%8D%E7%8B%97%E7%94%9F%E4%B8%8B18%E5%8F%AA%E5%B9%BC%E4%BB%94%23&t=31&band_rank=1&Refer=top",
-      "score": 73972,
-      "owner": "微博热搜",
-      "label": ""
+      "label": "新"
     },
     {
       "title": "特朗普回应中期选举魔咒",
       "description": "",
       "url": "https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E5%9B%9E%E5%BA%94%E4%B8%AD%E6%9C%9F%E9%80%89%E4%B8%BE%E9%AD%94%E5%92%92%23&t=31&band_rank=1&Refer=top",
-      "score": 73912,
+      "score": 221665,
       "owner": "微博热搜",
       "label": ""
     },
     {
-      "title": "王毅同菲律宾外长通话",
-      "description": "",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%AF%85%E5%90%8C%E8%8F%B2%E5%BE%8B%E5%AE%BE%E5%A4%96%E9%95%BF%E9%80%9A%E8%AF%9D%23&t=31&band_rank=1&Refer=top",
-      "score": 73707,
+      "title": "敌人胆敢来犯导弹量大管够",
+      "description": "新",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%95%8C%E4%BA%BA%E8%83%86%E6%95%A2%E6%9D%A5%E7%8A%AF%E5%AF%BC%E5%BC%B9%E9%87%8F%E5%A4%A7%E7%AE%A1%E5%A4%9F%23&t=31&band_rank=1&Refer=top",
+      "score": 218461,
       "owner": "微博热搜",
-      "label": ""
+      "label": "新"
     }
   ]
 }
