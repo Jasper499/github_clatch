@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-03T094002Z",
-  "day": "2026-10-03",
+  "date": "2026-11-05T094952Z",
+  "day": "2026-11-05",
   "sourceKey": "scientificSkills",
-  "savedAt": "2026-10-03T09:40:02Z",
+  "savedAt": "2026-11-05T09:49:52Z",
   "label": "Skills 清单",
-  "description": "跟踪 K-Dense-AI/scientific-agent-skills：共 177 个技能（最近同步 2026-10-01）",
+  "description": "跟踪 K-Dense-AI/scientific-agent-skills：共 177 个技能（最近同步 2026-11-02）",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "154988403bb5a18e9d3c0ce4e6d5e2e4b184a298",
+  "latestSha": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
   "items": [
     {
       "title": "K-Dense-AI/scientific-agent-skills · 仓库总览",
@@ -17,12 +17,13 @@
       "language": "Python",
       "owner": "K-Dense-AI",
       "label": "overview",
-      "published": "2026-10-01",
+      "published": "2026-11-02",
       "readmeTruncated": true,
       "readmeFile": "README.md",
       "skillCount": 177,
-      "latestSha": "154988403bb5a18e9d3c0ce4e6d5e2e4b184a298",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "latestSha": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/f3546e0ceb4f6e6b7c87b83c11123d657146e4e66f5a8bc9ac4d47d249c5510f.md"
     },
     {
       "title": "13c-metabolic-flux",
@@ -34,7 +35,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/8318b1c785cc80bf095b8667a96061cd5f4b0b9c4e5fa77fd7f57fd8403f2c0f.md"
     },
     {
       "title": "adaptyv",
@@ -46,7 +48,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/5de115067c118609dc096f9d582c687fdf331150e3f21c54eedb2ade24d12846.md"
     },
     {
       "title": "aeon",
@@ -58,7 +61,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/e1d25cbe0ba5f849299e9e02bd339773bb41529dcece5a6ee68bb080855b97a6.md"
     },
     {
       "title": "alphagenome",
@@ -70,7 +74,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/b133d2a9ff99652b439e0a6f00f93bad49f388be207f7e0241837e001a964947.md"
     },
     {
       "title": "analytical-method-validation",
@@ -82,7 +87,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/7c2cd278bd397f0f85f4fc790b236a61190cff8799c8ece8da923342f4dc0032.md"
     },
     {
       "title": "anndata",
@@ -94,7 +100,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/a619c4088e1be6f6feaa5838c63ff8c4381fa21b4adee2a9276aa61464f3a034.md"
     },
     {
       "title": "arbor",
@@ -106,7 +113,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/aae219831d92984eb6584831f77509cb8650a3986e8c42474aaa4d118ce080a6.md"
     },
     {
       "title": "arboreto",
@@ -118,7 +126,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/38ff6f24b8fd4a86e2a57ae7bb7669fe4ce401f7375efcc82a6c004f4c51d344.md"
     },
     {
       "title": "astropy",
@@ -130,7 +139,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/2f9d43ae65766a9715112e3b56cb83fb9c12e4e8b6356c0c4c22131c6cfa536f.md"
     },
     {
       "title": "autoskill",
@@ -142,7 +152,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/d7fc7db094649f5cd1ee6349110d78197166011e929aecd2d468e251b0542ecc.md"
     },
     {
       "title": "benchling-integration",
@@ -154,7 +165,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/115b5418f7c42748918eed922b78010c795920b276063b8b759802eb0172d5de.md"
     },
     {
       "title": "bgpt-paper-search",
@@ -166,7 +178,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/3b7db6956c13ccf24df151f0905ae579ed58230708a4ba19e6d6fb3bf9d4d6b7.md"
     },
     {
       "title": "bids",
@@ -178,7 +191,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/e1ae63105ccc2e4da7c40e8a2f40d031dd8f2a77270be626df780f0c39eb0b1b.md"
     },
     {
       "title": "biopython",
@@ -190,7 +204,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/b617561b38a2e3ecc8f8cf3dd8bb0307ac1aaf4d67e6e0432b0c248bc4382245.md"
     },
     {
       "title": "bioservices",
@@ -202,7 +217,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/9edc884f0fe216d510417d565ae74cc61608824b52eeb53ed0cdea3dcda5bda3.md"
     },
     {
       "title": "bulk-rnaseq",
@@ -214,7 +230,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/e945e970268505368e20d9ddc0c135de469e86626d67565ae9047fb05f70cdbf.md"
     },
     {
       "title": "cantera",
@@ -226,7 +243,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/1dcb22bba51475a69dc93bbefa7d2581f3dfdb6a03a6fc55f8637e398f733a51.md"
     },
     {
       "title": "cellprofiler",
@@ -238,7 +256,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/b822ed64acb189d900f59ba69418e5e41261d539fd2fd847e402cded2fc1bb38.md"
     },
     {
       "title": "cellxgene-census",
@@ -250,7 +269,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/123b66d6701c7c0587d0a615a2394caee52e62745b3fd31176381ea64aaa794a.md"
     },
     {
       "title": "cirq",
@@ -262,7 +282,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/6ab4c57fd133d21013ac0a8cfdbb2235dcc461d6fc82445693ea475c3d5d6bc1.md"
     },
     {
       "title": "citation-management",
@@ -274,7 +295,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/dc79fe1e8438dcf598040615d5323360c6a7ed0b868fc3ffc82512c871a1e3ff.md"
     },
     {
       "title": "clinical-decision-support",
@@ -286,7 +308,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/05645e4bc5c73a613ddaeba5bea616739cc0cd71c789c869d97cdfcd8994e072.md"
     },
     {
       "title": "clinical-reports",
@@ -298,7 +321,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/0d7c821b7857a4a761805e1a8263920a37f181658f77f1397755df0e14125022.md"
     },
     {
       "title": "cobrapy",
@@ -310,7 +334,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/b11365507e183d8e153dd415df3a85a00f34b068bcf8edbad28c0580253564db.md"
     },
     {
       "title": "consciousness-council",
@@ -322,7 +347,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/84b5eb07e5459cc110d7d6f63be48a7a01d374ec618da8e293a88b1d037c0c8c.md"
     },
     {
       "title": "dask",
@@ -334,7 +360,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/3b563a98f4cb42858bb1cc49832a3fa1ff9483d929af57ebe629473538e5a041.md"
     },
     {
       "title": "database-lookup",
@@ -346,7 +373,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/3d3d125ad64dd7bd92c25e1260f5a192ffaf7549d18ac3ac965754f3a5318933.md"
     },
     {
       "title": "datalad",
@@ -358,7 +386,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/bb902427db0c501db4187aafd3433eea67fa1071348cf07adcea2558ed49debb.md"
     },
     {
       "title": "datamol",
@@ -370,7 +399,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/3a0d725456f37c650595a1bdf0cd104936acc5e2bf4146be6829d3fcd4ea6c59.md"
     },
     {
       "title": "deepchem",
@@ -382,7 +412,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/2965735ee473cf70d63c6170f1c8867bd533539809d4535c162acacc07d0b17d.md"
     },
     {
       "title": "deepspot-m",
@@ -394,7 +425,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/a917434c523e136ddc1ce45b54acbef8c28398dd293314f72faa278431e67418.md"
     },
     {
       "title": "deeptools",
@@ -406,7 +438,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/f09f32bad2d0c54f4a422cb7bcca7703466e653544b2b6e77a7492e6f29ccf8b.md"
     },
     {
       "title": "depmap",
@@ -418,7 +451,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/893eb02a2dc8a77e61260dfb74b2acdf6c85e08f33028329d73657a23d398586.md"
     },
     {
       "title": "dhdna-profiler",
@@ -430,7 +464,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/55cbc0e142ec3e6e6427c601391aeb38b8de6a83897082f46154f5c8273ccf50.md"
     },
     {
       "title": "diffdock",
@@ -442,7 +477,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/5fafc5d9f53fa35a47c498f1cf3bad20fbee7404f248226e76e62bb327749912.md"
     },
     {
       "title": "dnanexus-integration",
@@ -454,7 +490,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/e8fcca26f5558e04256a2253c002cc8c8c024c06614fbd7d6e0161e53c5aa519.md"
     },
     {
       "title": "esm",
@@ -466,7 +503,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/49da3c6f5c81359d48b7c0b4416a212e7106f777b4c7174b2b42ce0c02bd95f6.md"
     },
     {
       "title": "etetoolkit",
@@ -478,7 +516,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/da2e57c0e3677a4219d0629a2c1392470f20bc3ade2809c1f0334fd84441da08.md"
     },
     {
       "title": "exa-search",
@@ -490,7 +529,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/8cdedf5648783a209593ff91024f43bd8d8e066b03f0a72a6cf36d90e1650204.md"
     },
     {
       "title": "experimental-design",
@@ -502,7 +542,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/db2de0f3d29b7729776a91e923c9c83801298f5ad8e88fe44570045fbefcc248.md"
     },
     {
       "title": "exploratory-data-analysis",
@@ -514,7 +555,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/955c4cefa49106dd03b55cbd62603bab2d2fb678e627dd452ba62040c7128484.md"
     },
     {
       "title": "fictiv",
@@ -526,7 +568,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/c4f9b182d2f4664fe4b729832fff7fe98112b6823eaea3601633fa17112a6164.md"
     },
     {
       "title": "flowio",
@@ -538,7 +581,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/24247696d4e9455f4b5509b7bee1856c251fa59181d80aa8de22d54ecd685b62.md"
     },
     {
       "title": "flowkit",
@@ -550,7 +594,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/47c4dcb907dc6ec15daa4bdf1855e9c96860ef1a558507bef0084d79c2d1c57c.md"
     },
     {
       "title": "fluidsim",
@@ -562,7 +607,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/7784bbf33615014f5965ff1db3d11bcc42e1bc4bb1f18f26208c62892b66df28.md"
     },
     {
       "title": "folklore-variant-evidence",
@@ -574,7 +620,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/134b5ea684815b99c56fadf92a1cb42d37eaca4245515278e404b8876b7acfe0.md"
     },
     {
       "title": "generate-image",
@@ -586,7 +633,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/42438be890c5ba875ddee1bbbf505e623433886a2b180f21b2012f72d038f92a.md"
     },
     {
       "title": "geniml",
@@ -598,7 +646,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/7fb9ad57657b2fda7dbc3f234af5dab47915953c6678fbc066c9086c83eadd21.md"
     },
     {
       "title": "genomic-coordinates",
@@ -610,7 +659,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/da3eee43dfee06ee632388ddda0c38bb0bc57ec33420cbf26b14ce86be3c28a0.md"
     },
     {
       "title": "genomic-intelligence",
@@ -622,7 +672,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/cdb027004996d313d31b55f6b93306de45306a89b8a4a792e94c36cf2d1dea20.md"
     },
     {
       "title": "geomaster",
@@ -634,7 +685,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/7b3b88f13f0094285372dfcc25a000fb7e74e5fc4b67c1b6999543fff3cadde8.md"
     },
     {
       "title": "geopandas",
@@ -646,7 +698,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/c03a46f911535326802af476208a1e04de13ea385f4d5309b022ad931826b222.md"
     },
     {
       "title": "get-available-resources",
@@ -658,7 +711,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/54044d598fce28fca2ce50e7895f44423b070493db2f9c96ff0445bee4d3689d.md"
     },
     {
       "title": "gget",
@@ -670,7 +724,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/55027a94be8dde013fd17e563ba20ccba92b7131c29c21e9c83e54fbce2b348a.md"
     },
     {
       "title": "ginkgo-cloud-lab",
@@ -682,7 +737,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/b3675d3ad36070fd598642fd2b58c36d3cfd09a08eef3f52d77629856e2e845b.md"
     },
     {
       "title": "glycoengineering",
@@ -694,7 +750,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/b529bde5367cd84175f07db473361c9713a69af8f641cd740a10c0b660b32bc7.md"
     },
     {
       "title": "gtars",
@@ -706,7 +763,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/c3586bcfa1e8d89a2abb23d74496d41e68daec5e7a8af6cefb9080a0ed469161.md"
     },
     {
       "title": "histolab",
@@ -718,7 +776,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/af0c6c98951d02cab64e904504a8ab97b815a461e99744134da0e7dd57189331.md"
     },
     {
       "title": "hugging-science",
@@ -730,7 +789,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/cff6c7e67d7f1925f008e11f5d0428f08391c35f4294d2c4c70350667b2decb2.md"
     },
     {
       "title": "hypogenic",
@@ -742,7 +802,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/8ad3f55669b7c5e8bbf1c70111259f2782fc26ec39826b011d51799de08b9da5.md"
     },
     {
       "title": "hypothesis-generation",
@@ -754,7 +815,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/5bccec0437d96d61821ec2095e7e32b61e8634cd8c02f11f42da953121e92719.md"
     },
     {
       "title": "imaging-data-commons",
@@ -766,7 +828,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/556f4454c7a97118c7a5d13f216259b72b7c4e02e8589500015e55e19865ad3f.md"
     },
     {
       "title": "infographics",
@@ -778,7 +841,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/dcd4ac5b46ac7f88ce8bd4ddf3efc8aa99a3f4bc6cc9ce2067c7d469758f0a8f.md"
     },
     {
       "title": "iso-standards-readiness",
@@ -790,7 +854,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/0ffd95e86924a698fcd0c806e51f24e2fc500847697d8ff99b255af817e15259.md"
     },
     {
       "title": "lab-hardware-cad",
@@ -802,7 +867,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/d3e9c67c3f08bfd7c6bb6c91d6ccc6621a72d2f47248965b4db4e1e296426b18.md"
     },
     {
       "title": "labarchive-integration",
@@ -814,7 +880,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/dcc452099ec0c4db3bf7aa0417bfeb70b14d249650be316b67f4f495461d1c0a.md"
     },
     {
       "title": "lamindb",
@@ -826,7 +893,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/00f1246a7f59b6ec11ca119687ccc3ff384547f40d44f2140f557ac3ddd01b35.md"
     },
     {
       "title": "latchbio-integration",
@@ -838,7 +906,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/0f01df45ed4aecb81d672a5576820aee37c32864b4fe84bb4d049471a14d3e5c.md"
     },
     {
       "title": "latex-posters",
@@ -850,7 +919,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/4350dc80280fea210f9682991103445e97c58504ddd14e7a26f3d84e2fee5837.md"
     },
     {
       "title": "liteparse",
@@ -862,7 +932,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/02a789c7959670cb8898e329588a41d43fa7b270c768a70c22aed05031d042a4.md"
     },
     {
       "title": "literature-review",
@@ -874,7 +945,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/16a9e85bcdcb9bb859e1646bf836e51b22900445ba2e367d8d75be05b5a5cba8.md"
     },
     {
       "title": "mageck",
@@ -886,7 +958,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/562d7e2cb2febef14ab722bc29cd33983b523da287fb02b64eadf18702d4a9d1.md"
     },
     {
       "title": "marine-carbonate-chemistry",
@@ -898,7 +971,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/03e58c7f9d7df75a323a6a8cf29ec18ae524cc308e5002c27fb5c65e1230f174.md"
     },
     {
       "title": "markdown-mermaid-writing",
@@ -910,7 +984,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/c28a9d602fc5b55e9fa80cff493b045bb70d3cec47e2288e38051744337214c4.md"
     },
     {
       "title": "market-research-reports",
@@ -922,7 +997,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/8fba27d8509bb95caade7ef856d83ddbd7e51303590f5f2db149b0270cf6fd40.md"
     },
     {
       "title": "markitdown",
@@ -934,7 +1010,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/8c165c18ceaddc9367dd74f65fd60e42c1c3de9d180828ae1ff09a001af42339.md"
     },
     {
       "title": "matchms",
@@ -946,7 +1023,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/1bde0e20f69f99dfa44800b9e908b0f90aa1256cfdb1d88a36ed0b8064c447ec.md"
     },
     {
       "title": "matlab",
@@ -958,7 +1036,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/91afa6ec0f0b3797f51da62b79d44d00a32fcdf3690b9505e5987982a8e6d0e2.md"
     },
     {
       "title": "matplotlib",
@@ -970,7 +1049,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/60b80aaa802e1a88db30729611789bf5ee92b3f2a7bb695502bac10dd255ee86.md"
     },
     {
       "title": "medchem",
@@ -982,7 +1062,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/07e44d0dc965278ab8e4fe9a325e89198bccd7e3ee26c1c454e788e1f4df9c2f.md"
     },
     {
       "title": "modal",
@@ -994,7 +1075,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/5da5d0a39db4ea5f429ffc40772bbce87e26f778fac363c42873ca6bb84fecd9.md"
     },
     {
       "title": "molecular-dynamics",
@@ -1006,7 +1088,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/1efb31165ec1477b37c31394ba04b5fb280d44db8907afdf2a956e48487f1136.md"
     },
     {
       "title": "molfeat",
@@ -1018,7 +1101,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/6bc3c336b58c8c7214042c5679cd793e655c15e703fa5d5ac34e09250d11df5e.md"
     },
     {
       "title": "ncats-arax",
@@ -1030,7 +1114,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/f15f9f9a149a942ab1eaed0115879afa399249e261d7118a6d19e3da834ba74c.md"
     },
     {
       "title": "networkx",
@@ -1042,7 +1127,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/981a213f33ddca21ec327ecee13e8ef8b85b7986274b84a10268ee73310df5be.md"
     },
     {
       "title": "neurokit2",
@@ -1054,7 +1140,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/6f73a726bdea37723aa68bf7aaf896eb10322e875cbf3bc5ee96707643f1be35.md"
     },
     {
       "title": "neuropixels-analysis",
@@ -1066,7 +1153,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/65985e85e9ac2206c92291446f543505b2b568bf1d622448e162ae6255e154dc.md"
     },
     {
       "title": "nextflow",
@@ -1078,7 +1166,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/daa37795b3fe13ebf1c980acafb8401c4d1d7749dae013acc948f76c50c7379c.md"
     },
     {
       "title": "nmrglue",
@@ -1090,7 +1179,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/358b5a5d64d20092e8631aeb8f4a06f11634a9fdeb8c594a93e6c1282b04b10b.md"
     },
     {
       "title": "nwb-conversion",
@@ -1102,7 +1192,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/e2381f17db5e2b20354186a8a3c85b466afcf534cc1ae6181e87654ba5ed5fc6.md"
     },
     {
       "title": "omero-integration",
@@ -1114,7 +1205,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/c75e73ba447bbf9530f6d3df4ba6224185f3c7728460b37938c8626dab664ad2.md"
     },
     {
       "title": "onekgpd",
@@ -1126,7 +1218,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/6a7c0a90c42e899e818de866e843cf60d5434422fa69b910a7db9a06f25240e9.md"
     },
     {
       "title": "ontology-term-resolution",
@@ -1138,7 +1231,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/db310515a230a47023169be207f654458789377c98b30fa593ee420738e4eefb.md"
     },
     {
       "title": "open-notebook",
@@ -1150,7 +1244,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/39f3bb01946218b53c02e3aedde025e6f8b786307e5ba0c4698c5aed02f9fdd6.md"
     },
     {
       "title": "openpiv",
@@ -1162,7 +1257,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/dc9aeeb18ef4b4832b9405c342ce40abbb09bc8162e35f2c659dd5814b07369a.md"
     },
     {
       "title": "opentrons-integration",
@@ -1174,7 +1270,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/3600fece96f89e7cedc23d13e48ce7eb25a90698d7ae3d8bae65035d89f392ff.md"
     },
     {
       "title": "optimize-for-gpu",
@@ -1186,7 +1283,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/e31bdb10b8ea66e5ec438583755999b66b9afab90f2583e1d500b8457ef28054.md"
     },
     {
       "title": "pacsomatic",
@@ -1198,7 +1296,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/5425319387beb29684ae5148cba33bd3a6c4306651ba574d47c76a8dc390d45d.md"
     },
     {
       "title": "paper-lookup",
@@ -1210,7 +1309,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/33966771fdabf77a23818676088c46449b305e1d4694ad85b5ee99601f7071de.md"
     },
     {
       "title": "paperclip",
@@ -1222,7 +1322,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/4f6fc05346aefdf5685b11d6d34fbe5b9782fc5156d69702c00dd8c71bf63473.md"
     },
     {
       "title": "paperzilla",
@@ -1234,7 +1335,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/f1b5feb3c76ce064803e5d44757f0fc468bf670499015b9c6a9d487fca699771.md"
     },
     {
       "title": "parallel-web",
@@ -1246,7 +1348,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/04b4873674998c4fb47de017397e753d69049609135efed43a82572b9002f52c.md"
     },
     {
       "title": "pathml",
@@ -1258,7 +1361,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/654cef910bd567689b854eab52176628f39184d7cca7a6bf405343f337e58538.md"
     },
     {
       "title": "pathogen-variant-surveillance",
@@ -1270,7 +1374,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/95510f890a47ab2e2275832fe60e725eca34e5318dcde88b0940d9362b3ab590.md"
     },
     {
       "title": "pathway-enrichment",
@@ -1282,7 +1387,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/82783d8ba63b6b03646492ee75afcdf591903a213decf7e7c9d844eb517acd78.md"
     },
     {
       "title": "peer-review",
@@ -1294,7 +1400,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/a042ccdc76d3399431b9a6c4cd4f98968eab964b1c14baeea4d9e73de82c7d19.md"
     },
     {
       "title": "pennylane",
@@ -1306,7 +1413,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/7908ee374ed9bef310bd7071a175d97e0428cec184cce3e36db9fe3ae8e77c52.md"
     },
     {
       "title": "phylogenetics",
@@ -1318,7 +1426,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/eef2354a8fe6c51c2ad8a506e512326553bda52c731952598adef677ae2d67d5.md"
     },
     {
       "title": "pi-agent",
@@ -1330,7 +1439,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/ef84742b6e491b3f65941dbb19fdd508b0aada3b87d95aa28b0f66a111f7c748.md"
     },
     {
       "title": "pkpd-modeling",
@@ -1342,7 +1452,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/fc58aed600d0fe9de911176cb0f2a43e8df6bbae8c2260be6f8abade133a2837.md"
     },
     {
       "title": "polars",
@@ -1354,7 +1465,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/05d64a001190b516bc922bac616483c3109a6d29c3e9950e3e2d6c31b9415e79.md"
     },
     {
       "title": "polars-bio",
@@ -1366,7 +1478,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/b9dbf93b5d8dbaa3de4541449b828cd6199625c54956e8598f7552eefc30116f.md"
     },
     {
       "title": "pptx-posters",
@@ -1378,7 +1491,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/bb4923ec520ac5175f837e75c8b600344cc1eb71490b1fa9c809ac65e64f1fb9.md"
     },
     {
       "title": "primekg",
@@ -1390,7 +1504,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/b20698944fa51b287a13e7dc22ac033b83836b73614a21cff725ad7d6d807226.md"
     },
     {
       "title": "primer-design",
@@ -1402,7 +1517,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/ea8bed0aa340a5f6538c206bb3d9fe503da6759e68a944a2bce564fa115d25e4.md"
     },
     {
       "title": "protocolsio-integration",
@@ -1414,7 +1530,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/4439249ba8cd35a8507463f8be84db511abc23daa00be3f892c47d847d2aeda5.md"
     },
     {
       "title": "pufferlib",
@@ -1426,7 +1543,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/031975c6abaabd8237c18b6472886f4a718c509da70fc6ebca06455f8a002fa7.md"
     },
     {
       "title": "pybamm",
@@ -1438,7 +1556,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/9d6f375f4d9def40072ea734f07e1a48c60a1cd906231cab1a4189a75499a1a4.md"
     },
     {
       "title": "pycalphad",
@@ -1450,7 +1569,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/7748a9413e22566316893d882596b5c2a321e9e03de93e6097c59a003e899a24.md"
     },
     {
       "title": "pydeseq2",
@@ -1462,7 +1582,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/f06a9f5ece540c05bd8a8208bb3970d000b13cb1032abc9488cfbfe6106cd843.md"
     },
     {
       "title": "pydicom",
@@ -1474,7 +1595,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/e42c35688a3dc7e0faaf1d1e88c8883eabc60ad291d348bfe5aee89a64c95b01.md"
     },
     {
       "title": "pyhealth",
@@ -1486,7 +1608,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/ec4de54618b71a4f8cfeb086d131c610127784a6839d842a67b3c1e87b66e161.md"
     },
     {
       "title": "pylabrobot",
@@ -1498,7 +1621,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/b2aab8871006d84e53621fc0f4886d0fd0c671007d112569e444e0a56a564d76.md"
     },
     {
       "title": "pymatgen",
@@ -1510,7 +1634,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/4a106d7682cd9881765700d534cb419458ba407935a59168547da1ae6ea4b6b1.md"
     },
     {
       "title": "pymc",
@@ -1522,7 +1647,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/77d29ba7adf73d822329eab576d15a748811633a60bca88f5e93954793b3ea8a.md"
     },
     {
       "title": "pymoo",
@@ -1534,7 +1660,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/942573e5b8099717487b45cf84798348fb2128516791dcafe2d76aa1bdfed117.md"
     },
     {
       "title": "pyopenms",
@@ -1546,7 +1673,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/020e7392adbb000aaab4968ae9a803ca4bd97818ca35e9eebd3abc222766a48f.md"
     },
     {
       "title": "pysam",
@@ -1558,7 +1686,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/afc275bbeb084553cd6507c4ffee848c46bef94dcd24c3b8a58d8b14d021ea09.md"
     },
     {
       "title": "pytdc",
@@ -1570,7 +1699,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/b7df3f50c1c618a47a81e994b2863ddd8adf695e795aa495c3a8fef5e78a0493.md"
     },
     {
       "title": "pytorch-lightning",
@@ -1582,7 +1712,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/d8829e74e8a1d908f923cf0c0a850ecfdd9edcb004d2fa90ec32fb1ed0006ce8.md"
     },
     {
       "title": "pyzotero",
@@ -1594,7 +1725,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/82dec36c7294674f33d9b6003e523d1dc4da33ed1c7427dc4e53731119fc5f74.md"
     },
     {
       "title": "qiime2-amplicon",
@@ -1606,7 +1738,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/605ae0581620f654ca9e12122a2bdb1d62a813841c5fea61b0eacb2031377cf7.md"
     },
     {
       "title": "qiskit",
@@ -1618,7 +1751,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/538e5db262e7c237cff2bac191480f81688b8679167740af7405fcda1340511e.md"
     },
     {
       "title": "qutip",
@@ -1630,7 +1764,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/6b93a95eb586147b2f1639f7e669dece3182ab4ddd70b1200291073cfd533902.md"
     },
     {
       "title": "rdkit",
@@ -1642,7 +1777,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/9f32d5d229bc1a5bac3e57de5fb87895cdb85dcc99132c57373905db0e1a941e.md"
     },
     {
       "title": "relion",
@@ -1654,7 +1790,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/3f80369ef73ccb8c20e2e49ad2b9bd71da3ffa4a819c035691ca4a5b26cb8399.md"
     },
     {
       "title": "relsa-severity-assessment",
@@ -1666,7 +1803,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/10ee1a904565f5e9c9d432b3af136db42927d0811f07f646355600fec6633f8a.md"
     },
     {
       "title": "research-grants",
@@ -1678,7 +1816,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/3ca7ea8075bbe8008389660cc4a5769d66ac9ec638f3f61a955a5d7b20aeba85.md"
     },
     {
       "title": "research-lookup",
@@ -1690,7 +1829,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/8da1618350bf3434e4569a180a15b7241a50118ee9b79bccc514fa1bf3b4a102.md"
     },
     {
       "title": "rowan",
@@ -1702,7 +1842,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/d631f00ae0f9325aa58912bb571b7eb43bc42c553498e4c97f4d65a1683c8599.md"
     },
     {
       "title": "scanpy",
@@ -1714,7 +1855,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/4a59f87933a1e9ed49eac603719af1b0c606dd99050fe59ffa1c1bf807900cb8.md"
     },
     {
       "title": "scholar-evaluation",
@@ -1726,7 +1868,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/9abc66a9ba13f6cf0f61614ddfff17822b5be2cc7118f52ef2631323dac8c94e.md"
     },
     {
       "title": "scientific-brainstorming",
@@ -1738,7 +1881,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/06f73b71556356a7f488c369b9445d7943543a3f14d159b2168fd3f621d6f8a9.md"
     },
     {
       "title": "scientific-critical-thinking",
@@ -1750,7 +1894,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/563af70571b7dcd6a96bf2e303bedfdcba623b4e9f082d58f04aacbc961fdae4.md"
     },
     {
       "title": "scientific-schematics",
@@ -1762,7 +1907,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/e15d761ef88013c98fd5b19cc144aba7336e20dbadf340db17bd1ba2227d1d69.md"
     },
     {
       "title": "scientific-slides",
@@ -1774,7 +1920,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/b1d34b81d30789f561bd4ee3ddb373c9fb84bed25086794bebd842af46afbad6.md"
     },
     {
       "title": "scientific-visualization",
@@ -1786,7 +1933,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/8cbde7cdc10d959cf72cfd08335cc8ce996247eee6ebdb900eb64a4cb0ff34a3.md"
     },
     {
       "title": "scientific-writing",
@@ -1798,7 +1946,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/511a2096bebecd8cf0f8212b9d262d37154ae1ba566eb385d93ac968682edbd1.md"
     },
     {
       "title": "scikit-bio",
@@ -1810,7 +1959,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/4a7a5760adadf32782dc4694028371df13b25472ff8ffe4cef2b2fc564226f6c.md"
     },
     {
       "title": "scikit-learn",
@@ -1822,7 +1972,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/a1765797d072ab40094522abe68fb04505d0881f66b7dfceeb8582422dbe488d.md"
     },
     {
       "title": "scikit-survival",
@@ -1834,7 +1985,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/8f99860440f23312d9803d3ac65ae9eb65274597d59499f1021d59378adef2fb.md"
     },
     {
       "title": "scvelo",
@@ -1846,7 +1998,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/c43258bccdbaa5772fd1aeac8d12d6107dd9c9b19c6a3a81fde7d421c0d2609e.md"
     },
     {
       "title": "scvi-tools",
@@ -1858,7 +2011,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/b22633470d40ddaf31451fbbf811941fc89c3174c404ca359f25378691267e73.md"
     },
     {
       "title": "seaborn",
@@ -1870,7 +2024,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/d1500d1e3d9db1db4c72cd272861378d1b98b0b5a5a98e8a3fca5a45bc0c6b2e.md"
     },
     {
       "title": "shap",
@@ -1882,7 +2037,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/9c395662e608accd60acb62158f1d25299b12ec0e40f9f94b70a46ec527d52c1.md"
     },
     {
       "title": "simpy",
@@ -1894,7 +2050,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/027244a3587e70c3e2f1aed4bfb5d737cb24fdc6b2ad276302ed81c02e38a7fc.md"
     },
     {
       "title": "stable-baselines3",
@@ -1906,7 +2063,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/8383ae480e27163b9dbe1d9af822e05f0e85dd05b5bab1f6444588d57f569837.md"
     },
     {
       "title": "statistical-analysis",
@@ -1918,7 +2076,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/e112848726b3713267cac65e4e2c15491a0a26ee1ed628db01195f7e43f97997.md"
     },
     {
       "title": "statistical-power",
@@ -1930,7 +2089,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/a969660eafdc3504ac36e49bd7ded00e18b00fe5cef5699940d5d8281e24dd3d.md"
     },
     {
       "title": "statsmodels",
@@ -1942,7 +2102,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/9e6c034bb4acbf0972fda18892d2feea907885ac5ad7194d220182d8810295a3.md"
     },
     {
       "title": "sympy",
@@ -1954,7 +2115,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/bb97087bdddccc845401737ddc7f7a8da1c14ced5e8d40da01271c991ac46e23.md"
     },
     {
       "title": "tamarind",
@@ -1966,7 +2128,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/aa9bb0aa10acefa52621acd9ba06604997ed2f3d20533359f47d4b24dfdc9494.md"
     },
     {
       "title": "tellurium",
@@ -1978,7 +2141,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/69faa97aa45e7ad46515acd3e6497b044b7b44624ffd28c74fb40d97c74513a7.md"
     },
     {
       "title": "tiledbvcf",
@@ -1990,7 +2154,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/38e55a6962e14637e82f60be8e53e6d87c78f1a7874b9f832f442a038942f7d5.md"
     },
     {
       "title": "timesfm-forecasting",
@@ -2002,7 +2167,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/6f785fe73b133e9af7720fa46cf9013645198950155624889ef611b7b0dc74b8.md"
     },
     {
       "title": "torch-geometric",
@@ -2014,7 +2180,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/89805e17cdbc64ed01426548442b3aa1bda8bcfdd4f9528f5c8dd6e0ea813c96.md"
     },
     {
       "title": "torchdrug",
@@ -2026,7 +2193,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/03538274e00aad262d159ca5ebed55fe6519d605171569feff44afeb781088fd.md"
     },
     {
       "title": "transformers",
@@ -2038,7 +2206,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/584d1c35d513f87616df9bcf7ddc8c48ab38cfbfad18d55c8481578d1c0d6f1a.md"
     },
     {
       "title": "treatment-plans",
@@ -2050,7 +2219,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/ebb509854e12d016475ee6d45834a2a72c16815d1b9d940a9d156e7f024cbed6.md"
     },
     {
       "title": "umap-learn",
@@ -2062,7 +2232,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/0cfef32ae0e1d52eec6513bafc0ab4387cf38e43121fba715762b2b2c11b6930.md"
     },
     {
       "title": "uncertainty-and-units",
@@ -2074,7 +2245,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/caaafa079a4eaac6012717bcf705dec0417b5434f5dbd1af934a3a36ad375722.md"
     },
     {
       "title": "usfiscaldata",
@@ -2086,7 +2258,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/7cdcb756489ae8e94a73df1eebfb9abef554e912af6559ebd28dffa021ab63d5.md"
     },
     {
       "title": "vaex",
@@ -2098,7 +2271,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/a8ab5bcb0ab9c8d372b987e584b5c589a15b1e2b2f73457546d2888988d40b4f.md"
     },
     {
       "title": "venue-templates",
@@ -2110,7 +2284,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/8607993327f451cc6b9d7ca7502c0e7d5f5060954fec12e2ea779d96841e78b5.md"
     },
     {
       "title": "waypoint-bio",
@@ -2122,7 +2297,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/132d1f33d5d99bd6288a4cb432b277fcbc0f8bc4315e333dcecb840e7adc87a5.md"
     },
     {
       "title": "what-if-oracle",
@@ -2134,7 +2310,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/509af149c8cfc8f17dd15608d6337eb8a7ff3f4056fcadeda573c5e527c68a97.md"
     },
     {
       "title": "zarr-python",
@@ -2146,7 +2323,8 @@
       "author": "K-Dense-AI",
       "label": "skill",
       "owner": "K-Dense-AI",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "readmePath": "data/readmes/scientificSkills/versions/1edaabfc3fc618d4c3a16bd70c589c039a3cb3a26683f02bca0ccc140d3c9c4d.md"
     }
   ]
 }
