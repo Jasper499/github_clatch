@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-03T093928Z",
-  "day": "2026-10-03",
+  "date": "2026-11-05T093847Z",
+  "day": "2026-11-05",
   "sourceKey": "natureSkills",
-  "savedAt": "2026-10-03T09:39:28Z",
+  "savedAt": "2026-11-05T09:38:47Z",
   "label": "Skills 清单",
-  "description": "跟踪 Yuan1z0825/nature-skills：共 17 个技能（最近同步 2026-09-28）",
+  "description": "跟踪 Yuan1z0825/nature-skills：共 17 个技能（最近同步 2026-11-04）",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "84880815fb37317b3766bff2c2abba395b8993c3",
+  "latestSha": "d774add241c65e89ed17a4da573b472b0972fd42",
   "items": [
     {
       "title": "Yuan1z0825/nature-skills · 仓库总览",
@@ -17,11 +17,12 @@
       "language": "Python",
       "owner": "Yuan1z0825",
       "label": "overview",
-      "published": "2026-09-28",
+      "published": "2026-11-04",
       "readmeTruncated": false,
       "readmeFile": "README.md",
       "skillCount": 17,
-      "latestSha": "84880815fb37317b3766bff2c2abba395b8993c3"
+      "latestSha": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "readmePath": "data/readmes/natureSkills/versions/26bc58d818d964db03d04271c2c3c44026c4f6acdbc0dcdf303e39c6d70d098a.md"
     },
     {
       "title": "nature-academic-search",
@@ -32,7 +33,8 @@
       "version": "",
       "author": "",
       "label": "skill",
-      "owner": "Yuan1z0825"
+      "owner": "Yuan1z0825",
+      "readmePath": "data/readmes/natureSkills/versions/3ed327e3e9c56cddfaa0e48ffb3503b1f9e27f917916013798ef57bf8131101a.md"
     },
     {
       "title": "nature-citation",
@@ -43,7 +45,8 @@
       "version": "",
       "author": "Yuan1z skill, refactored into static/dynamic layers",
       "label": "skill",
-      "owner": "Yuan1z0825"
+      "owner": "Yuan1z0825",
+      "readmePath": "data/readmes/natureSkills/versions/f0436639c2bcf966e8f8cdda6e06501b396bb32cc3b7cce57f67eb0cd7b5a44d.md"
     },
     {
       "title": "nature-data",
@@ -54,7 +57,8 @@
       "version": "",
       "author": "Yuan1z skill, refactored into static/dynamic layers",
       "label": "skill",
-      "owner": "Yuan1z0825"
+      "owner": "Yuan1z0825",
+      "readmePath": "data/readmes/natureSkills/versions/4ef9c383411b069265901e9f157cb4d73861f42f6ddd28611084005e67eafa43.md"
     },
     {
       "title": "nature-downloader",
@@ -65,7 +69,8 @@
       "version": "",
       "author": "",
       "label": "skill",
-      "owner": "Yuan1z0825"
+      "owner": "Yuan1z0825",
+      "readmePath": "data/readmes/natureSkills/versions/d57f02ec3fc3a5341819a132df039f192d3beaf5709b57dee552589254ef6b85.md"
     },
     {
       "title": "nature-experiment-log",
@@ -76,7 +81,8 @@
       "version": "",
       "author": "Jiahao8595",
       "label": "skill",
-      "owner": "Yuan1z0825"
+      "owner": "Yuan1z0825",
+      "readmePath": "data/readmes/natureSkills/versions/1f7fffcbc950d4f60fcb5ad9f2aabe82246ebbd83bf29621a0e90c9ff4ec4b8b.md"
     },
     {
       "title": "nature-figure",
@@ -87,7 +93,8 @@
       "version": "",
       "author": "",
       "label": "skill",
-      "owner": "Yuan1z0825"
+      "owner": "Yuan1z0825",
+      "readmePath": "data/readmes/natureSkills/versions/5aefe708a2531c5ddaa8ee74d5155d747e96c0f21a33143d38316b7c5c88ffc4.md"
     },
     {
       "title": "nature-literature-pipeline",
@@ -98,7 +105,8 @@
       "version": "",
       "author": "Jiahao8595",
       "label": "skill",
-      "owner": "Yuan1z0825"
+      "owner": "Yuan1z0825",
+      "readmePath": "data/readmes/natureSkills/versions/1dcaa692457ec9c2be409cb7777f834a2db833788b2e9b680baf0e961126b01a.md"
     },
     {
       "title": "nature-paper-to-patent",
@@ -109,7 +117,8 @@
       "version": "",
       "author": "",
       "label": "skill",
-      "owner": "Yuan1z0825"
+      "owner": "Yuan1z0825",
+      "readmePath": "data/readmes/natureSkills/versions/b65243157addf3e4e38de4cb35136d95478c2c997bdd5600e6ae21f91f4d06f0.md"
     },
     {
       "title": "nature-paper2ppt",
@@ -120,7 +129,8 @@
       "version": "",
       "author": "",
       "label": "skill",
-      "owner": "Yuan1z0825"
+      "owner": "Yuan1z0825",
+      "readmePath": "data/readmes/natureSkills/versions/a8d0fd14ca0863602cfc76305467d0f5a6ac2c104abedd7f7e86dfcf46bf04cf.md"
     },
     {
       "title": "nature-polishing",
@@ -131,7 +141,8 @@
       "version": "",
       "author": "",
       "label": "skill",
-      "owner": "Yuan1z0825"
+      "owner": "Yuan1z0825",
+      "readmePath": "data/readmes/natureSkills/versions/9391b2a2487306cf2ed560377d4bc10c339fd2c220a79db278cb7f9d31e79023.md"
     },
     {
       "title": "researchwrite",
@@ -142,7 +153,8 @@
       "version": "",
       "author": "",
       "label": "skill",
-      "owner": "Yuan1z0825"
+      "owner": "Yuan1z0825",
+      "readmePath": "data/readmes/natureSkills/versions/9be8ae52f909969592529414fb6f5bb54059c8cbe520e78b53d22b297cef5e4a.md"
     },
     {
       "title": "nature-reader",
@@ -153,7 +165,8 @@
       "version": "2.1.1",
       "author": "Community contribution, refactored into static/dynamic layers",
       "label": "skill",
-      "owner": "Yuan1z0825"
+      "owner": "Yuan1z0825",
+      "readmePath": "data/readmes/natureSkills/versions/999a5c1b116558133d0389ce6c1bbc3dc9cf5242d1be2870358789769d97a84e.md"
     },
     {
       "title": "nature-ref-verifier",
@@ -164,7 +177,8 @@
       "version": "",
       "author": "",
       "label": "skill",
-      "owner": "Yuan1z0825"
+      "owner": "Yuan1z0825",
+      "readmePath": "data/readmes/natureSkills/versions/6a975074d7a1c62c00dd9e8c7367cd2af0ef9d573d6d6ce5ea12f70d9320a516.md"
     },
     {
       "title": "nature-response",
@@ -175,7 +189,8 @@
       "version": "",
       "author": "",
       "label": "skill",
-      "owner": "Yuan1z0825"
+      "owner": "Yuan1z0825",
+      "readmePath": "data/readmes/natureSkills/versions/a8283db56e73879413311cbcde1db4c72dd4390bbe21ab2f62f1f968610b5de1.md"
     },
     {
       "title": "nature-reviewer",
@@ -186,7 +201,8 @@
       "version": "",
       "author": "",
       "label": "skill",
-      "owner": "Yuan1z0825"
+      "owner": "Yuan1z0825",
+      "readmePath": "data/readmes/natureSkills/versions/8ca28cc8e8bda2b5254056940d2a696dc0d3cabcd5573cdec98ffc3cbd162610.md"
     },
     {
       "title": "nature-statistics",
@@ -197,7 +213,8 @@
       "version": "",
       "author": "",
       "label": "skill",
-      "owner": "Yuan1z0825"
+      "owner": "Yuan1z0825",
+      "readmePath": "data/readmes/natureSkills/versions/89d2a101fc45d7adf8ca327a6da4bda4a696d6364d7c36ead4f53413627a9b6f.md"
     },
     {
       "title": "nature-writing",
@@ -208,7 +225,8 @@
       "version": "",
       "author": "",
       "label": "skill",
-      "owner": "Yuan1z0825"
+      "owner": "Yuan1z0825",
+      "readmePath": "data/readmes/natureSkills/versions/ce7c4d20329b96b03b0f0c0bb744411b1b4deaa7a7b69b90757705a83c195b12.md"
     }
   ]
 }
