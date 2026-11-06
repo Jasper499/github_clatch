@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-05T213305Z",
-  "day": "2026-10-05",
+  "date": "2026-11-06T142103Z",
+  "day": "2026-11-06",
   "sourceKey": "natureSkills",
-  "savedAt": "2026-10-05T21:33:05Z",
+  "savedAt": "2026-11-06T14:21:03Z",
   "label": "Skills 清单",
-  "description": "跟踪 Yuan1z0825/nature-skills：共 17 个技能（最近同步 2026-10-05）",
+  "description": "跟踪 Yuan1z0825/nature-skills：共 17 个技能（最近同步 2026-11-04）",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "5b05fe1ba3867b61ee2742a060d5cf05dad027a2",
+  "latestSha": "d774add241c65e89ed17a4da573b472b0972fd42",
   "items": [
     {
       "title": "Yuan1z0825/nature-skills · 仓库总览",
@@ -17,12 +17,12 @@
       "language": "Python",
       "owner": "Yuan1z0825",
       "label": "overview",
-      "published": "2026-10-05",
+      "published": "2026-11-04",
       "readmeTruncated": false,
       "readmeFile": "README.md",
       "skillCount": 17,
-      "latestSha": "5b05fe1ba3867b61ee2742a060d5cf05dad027a2",
-      "readmePath": "data/readmes/natureSkills/versions/db6ce314dfe48c47aed5384e17342f689bf7a04b3590f9abd3629fc82eaed2af.md"
+      "latestSha": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "readmePath": "data/readmes/natureSkills/versions/26bc58d818d964db03d04271c2c3c44026c4f6acdbc0dcdf303e39c6d70d098a.md"
     },
     {
       "title": "nature-academic-search",
@@ -70,7 +70,7 @@
       "author": "",
       "label": "skill",
       "owner": "Yuan1z0825",
-      "readmePath": "data/readmes/natureSkills/versions/0351f9069e77a4b027893592d295f3c511301bc7d2ec7d299ab49ee2c106be54.md"
+      "readmePath": "data/readmes/natureSkills/versions/d57f02ec3fc3a5341819a132df039f192d3beaf5709b57dee552589254ef6b85.md"
     },
     {
       "title": "nature-experiment-log",
@@ -94,7 +94,7 @@
       "author": "",
       "label": "skill",
       "owner": "Yuan1z0825",
-      "readmePath": "data/readmes/natureSkills/versions/46f2cf74d473604ff9ad884893bbe2360b3431fec631009fce5c487945acf652.md"
+      "readmePath": "data/readmes/natureSkills/versions/5aefe708a2531c5ddaa8ee74d5155d747e96c0f21a33143d38316b7c5c88ffc4.md"
     },
     {
       "title": "nature-literature-pipeline",
