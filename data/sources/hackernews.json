@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-11-07T08:31:26Z",
+  "savedAt": "2026-11-07T14:01:13Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-11-07，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,8 +10,8 @@
       "title": "Astra can read and write weights to improve Qwen",
       "description": "",
       "url": "https://rikiyat.github.io/blog/weight-space-programming/",
-      "score": 2957,
-      "comments": 898,
+      "score": 2959,
+      "comments": 899,
       "owner": "dbreunig",
       "published": "2026-11-02T18:21:28Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50341174"
@@ -20,8 +20,8 @@
       "title": "sshole",
       "description": "Related:<p><a href=\"https:&#x2F;&#x2F;hachyderm.io&#x2F;@damienmiller&#x2F;117563026759098135\" rel=\"nofollow\">https:&#x2F;&#x2F;hachyderm.io&#x2F;@damienmiller&#x2F;117563026759098135</a> &#x2F; <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50377221\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50377221</a><p><a href=\"https:&#x2F;&#x2F;www.openssh.org&#x2F;releasenotes.html#10.6p2\" rel=\"nofollow\">https:&#x2F;&#x2F;www.openssh.org&#x2F;releasenotes.html#10.6p2</a><p><a href=\"https:&#x2F;&#x2F;alpinelinux.org&#x2F;posts&#x2F;2026-11-05-openssh-password-authentication-bypass&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;alpinelinux.org&#x2F;posts&#x2F;2026-11-05-openssh-password-au...</a>",
       "url": "https://sshhole.com",
-      "score": 2927,
-      "comments": 735,
+      "score": 2938,
+      "comments": 738,
       "owner": "josemrb",
       "published": "2026-11-05T12:19:02Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50378228"
@@ -30,7 +30,7 @@
       "title": "HackerTube: YouTube built from videos recommended by HN",
       "description": "YouTube-style UI over 6,454 videos sourced from 39,834 HN comments since 2007.<p><a href=\"https:&#x2F;&#x2F;hackertube.org&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;hackertube.org&#x2F;</a>",
       "url": "https://karpathy.bearblog.dev/hacker-tube/",
-      "score": 2885,
+      "score": 2886,
       "comments": 641,
       "owner": "karpathy",
       "published": "2026-10-31T19:56:53Z",
@@ -40,7 +40,7 @@
       "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
       "description": "Saw Karpathy&#x27;s HackerTube and wanted the same thing for books. So I had Claude build one (Opus 5.5).<p>It&#x27;s ~16.5k books that at least two different HN commenters brought up, from 2007 till now. Each book links back to the comments that mentioned it. Data is downloadable from the about page.<p>To be clear: Claude wrote almost all of it, including the data pipeline and the site. I mostly steered and made calls, bought the domain name, etc.<p>It counts mentions, so it&#x27;s not perfect (praising a book and trashing it both count). If your favourite book is missing or matched to the wrong thing, tell me.",
       "url": "https://hackerbooks.org",
-      "score": 1864,
+      "score": 1865,
       "comments": 306,
       "owner": "roansh",
       "published": "2026-11-01T15:58:28Z",
@@ -60,8 +60,8 @@
       "title": "Claude Code sends your email address to websites",
       "description": "",
       "url": "https://github.com/anthropics/claude-code/issues/107757",
-      "score": 1569,
-      "comments": 502,
+      "score": 1579,
+      "comments": 505,
       "owner": "motoroco",
       "published": "2026-11-05T22:17:15Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50385272"
@@ -80,8 +80,8 @@
       "title": "AI is forcing us to pay off 40 years of technical debt",
       "description": "",
       "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-      "score": 1292,
-      "comments": 748,
+      "score": 1294,
+      "comments": 749,
       "owner": "pseudolus",
       "published": "2026-11-04T11:52:17Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50364336"
@@ -97,6 +97,16 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50371246"
     },
     {
+      "title": "Tesla to wind down Cybertruck production",
+      "description": "",
+      "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
+      "score": 1060,
+      "comments": 1911,
+      "owner": "PLenz",
+      "published": "2026-11-06T12:13:51Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50391456"
+    },
+    {
       "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
       "description": "",
       "url": "https://honnibal.dev/blog/astra-read-write-misleading",
@@ -107,16 +117,6 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50351111"
     },
     {
-      "title": "Tesla to wind down Cybertruck production",
-      "description": "",
-      "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
-      "score": 984,
-      "comments": 1842,
-      "owner": "PLenz",
-      "published": "2026-11-06T12:13:51Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50391456"
-    },
-    {
       "title": "Jailbreaking my car's navigation system just so I can change the time",
       "description": "",
       "url": "https://blog.nns.ee/2026/11/02/renault-hack/",
@@ -125,16 +125,6 @@
       "owner": "xx_ns",
       "published": "2026-11-02T16:29:19Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50339288"
-    },
-    {
-      "title": "Serbia just elected the world's brainiest parliament",
-      "description": "",
-      "url": "https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament",
-      "score": 923,
-      "comments": 526,
-      "owner": "input_sh",
-      "published": "2026-10-31T10:21:30Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50314654"
     },
     {
       "title": "An Italian farmer found some unknown seeds in his attic and planted them",
@@ -167,6 +157,16 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50354358"
     },
     {
+      "title": "Libghostty 1.0",
+      "description": "",
+      "url": "https://mitchellh.com/writing/libghostty-1-0",
+      "score": 791,
+      "comments": 125,
+      "owner": "mfiguiere",
+      "published": "2026-11-06T23:30:52Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50399933"
+    },
+    {
       "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
       "description": "",
       "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
@@ -180,7 +180,7 @@
       "title": "Search for everyone",
       "description": "",
       "url": "https://kagi.com/changelog#11820",
-      "score": 747,
+      "score": 749,
       "comments": 409,
       "owner": "elashri",
       "published": "2026-11-05T20:03:34Z",
