@@ -1,20 +1,25 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-11-07T02:21:09Z",
+  "changed": true,
+  "fetchedAt": "2026-11-07T08:56:30Z",
   "previousSha": "d774add241c65e89ed17a4da573b472b0972fd42",
-  "latestSha": "d774add241c65e89ed17a4da573b472b0972fd42",
+  "latestSha": "b6ae2cac022f4aac094d50f2938a3474ba315fbc",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "Add existing RDA figures and privacy-screened statistical results (#278)",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/d774add241c65e89ed17a4da573b472b0972fd42",
-    "sha": "d774add",
-    "published": "2026-11-04"
+    "title": "chore: update star history",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/b6ae2cac022f4aac094d50f2938a3474ba315fbc",
+    "sha": "b6ae2ca",
+    "published": "2026-11-07"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "chore: update star history",
+      "sha": "b6ae2ca",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/b6ae2cac022f4aac094d50f2938a3474ba315fbc"
+    },
     {
       "title": "Add existing RDA figures and privacy-screened statistical results (#278)",
       "sha": "d774add",
@@ -34,11 +39,6 @@
       "title": "docs(nature-academic-search, nature-citation): optional Firecrawl rea…",
       "sha": "69817e4",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/69817e4dad8bfc52fa4e59a9d8355e4264a4d3a7"
-    },
-    {
-      "title": "fix(nature-figure): accept ggsave(device = cairo_pdf) in editable-tex…",
-      "sha": "18337a1",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/18337a1eb6f5591fb29fc5d47450c75283d4d86e"
     }
   ]
 }

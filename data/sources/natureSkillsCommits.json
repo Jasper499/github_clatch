@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-11-07T02:21:09Z",
+  "savedAt": "2026-11-07T08:56:30Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "d774add241c65e89ed17a4da573b472b0972fd42",
+  "latestSha": "b6ae2cac022f4aac094d50f2938a3474ba315fbc",
   "items": [
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/b6ae2cac022f4aac094d50f2938a3474ba315fbc",
+      "sha": "b6ae2ca",
+      "fullSha": "b6ae2cac022f4aac094d50f2938a3474ba315fbc",
+      "owner": "github-actions",
+      "published": "2026-11-07",
+      "label": "commit"
+    },
     {
       "title": "Add existing RDA figures and privacy-screened statistical results (#278)",
       "description": "Add existing RDA figures and privacy-screened statistical results (#278)\n\nCo-authored-by: 铁柱 熊 &lt;yj8swkzgtr@privaterelay.appleid.com&gt;",
@@ -145,16 +155,6 @@
       "fullSha": "c6ae86c742705fd968b13c79db1a8518a84089d4",
       "owner": "github-actions",
       "published": "2026-10-22",
-      "label": "commit"
-    },
-    {
-      "title": "docs(nature-figure): panel gaps, tick steps, aspect and labelling con…",
-      "description": "docs(nature-figure): panel gaps, tick steps, aspect and labelling conventions\n\nLet the content set a figure&#39;s height within an author&#39;s aspect rule (a row\nof bar charts reads better wider than 4:3), keep gaps between panels to what\ntheir labels need, set tick values in the data&#39;s own steps rather than the\nlocator&#39;s after a resize, and verify the journal&#39;s panel-labelling\nconvention before changing it. In the schematic rules, ask for a sketch\nwhen a layout described in words can be read two ways.\n\nXinrui Ma",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/df6db0b19530e26ac8f7c2a23254541c228fda43",
-      "sha": "df6db0b",
-      "fullSha": "df6db0b19530e26ac8f7c2a23254541c228fda43",
-      "owner": "Travisma2233",
-      "published": "2026-10-21",
       "label": "commit"
     }
   ]
