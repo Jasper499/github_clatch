@@ -1,8 +1,8 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-11-08T05:51:41Z",
+  "savedAt": "2026-11-08T06:11:09Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-08，共 8 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-08，共 7 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-11-08",
   "items": [
@@ -10,81 +10,71 @@
       "title": "以开放姿态共赴星海之约",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E4%BB%A5%E5%BC%80%E6%94%BE%E5%A7%BF%E6%80%81%E5%85%B1%E8%B5%B4%E6%98%9F%E6%B5%B7%E4%B9%8B%E7%BA%A6%23&t=31&band_rank=1&Refer=top",
-      "score": 655342,
+      "score": 713893,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1794102798
     },
     {
+      "title": "终于开始查寺院了",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E7%BB%88%E4%BA%8E%E5%BC%80%E5%A7%8B%E6%9F%A5%E5%AF%BA%E9%99%A2%E4%BA%86&t=31&band_rank=1&Refer=top",
+      "score": 408799,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1794110420
+    },
+    {
       "title": "最后一位开国将军王扶之逝世",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E6%9C%80%E5%90%8E%E4%B8%80%E4%BD%8D%E5%BC%80%E5%9B%BD%E5%B0%86%E5%86%9B%E7%8E%8B%E6%89%B6%E4%B9%8B%E9%80%9D%E4%B8%96%23&t=31&band_rank=1&Refer=top",
-      "score": 394777,
+      "score": 369159,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1794108260
     },
     {
-      "title": "终于开始查寺院了",
-      "description": "热 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E7%BB%88%E4%BA%8E%E5%BC%80%E5%A7%8B%E6%9F%A5%E5%AF%BA%E9%99%A2%E4%BA%86&t=31&band_rank=1&Refer=top",
-      "score": 377589,
-      "owner": "微博同城",
-      "label": "热",
-      "category": "民生新闻",
-      "onboardTime": 1794110420
-    },
-    {
-      "title": "妹妹出嫁前一夜哥哥连夜铺平道路",
+      "title": "领补贴发现自己名下有2个丈夫",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A6%B9%E5%A6%B9%E5%87%BA%E5%AB%81%E5%89%8D%E4%B8%80%E5%A4%9C%E5%93%A5%E5%93%A5%E8%BF%9E%E5%A4%9C%E9%93%BA%E5%B9%B3%E9%81%93%E8%B7%AF%23&t=31&band_rank=1&Refer=top",
-      "score": 317359,
+      "url": "https://s.weibo.com/weibo?q=%23%E9%A2%86%E8%A1%A5%E8%B4%B4%E5%8F%91%E7%8E%B0%E8%87%AA%E5%B7%B1%E5%90%8D%E4%B8%8B%E6%9C%892%E4%B8%AA%E4%B8%88%E5%A4%AB%23&t=31&band_rank=1&Refer=top",
+      "score": 303899,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1794116360
+      "onboardTime": 1794117679
     },
     {
       "title": "月薪过万为啥社保按4千基数缴费",
       "description": "新 · 民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E6%9C%88%E8%96%AA%E8%BF%87%E4%B8%87%E4%B8%BA%E5%95%A5%E7%A4%BE%E4%BF%9D%E6%8C%894%E5%8D%83%E5%9F%BA%E6%95%B0%E7%BC%B4%E8%B4%B9%23&t=31&band_rank=1&Refer=top",
-      "score": 251919,
+      "score": 259666,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
       "onboardTime": 1794115520
     },
     {
-      "title": "偷拍丈夫出轨案有按摩女承认卖淫",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%81%B7%E6%8B%8D%E4%B8%88%E5%A4%AB%E5%87%BA%E8%BD%A8%E6%A1%88%E6%9C%89%E6%8C%89%E6%91%A9%E5%A5%B3%E6%89%BF%E8%AE%A4%E5%8D%96%E6%B7%AB%23&t=31&band_rank=1&Refer=top",
-      "score": 198774,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1794111321
-    },
-    {
       "title": "女生白血病复发老师病房上最后一课",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E7%94%9F%E7%99%BD%E8%A1%80%E7%97%85%E5%A4%8D%E5%8F%91%E8%80%81%E5%B8%88%E7%97%85%E6%88%BF%E4%B8%8A%E6%9C%80%E5%90%8E%E4%B8%80%E8%AF%BE%23&t=31&band_rank=1&Refer=top",
-      "score": 173177,
+      "score": 183887,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1794111139
     },
     {
-      "title": "海洋怎么孕育出这么大的哺乳动物",
+      "title": "偷拍丈夫出轨案有按摩女承认卖淫",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B5%B7%E6%B4%8B%E6%80%8E%E4%B9%88%E5%AD%95%E8%82%B2%E5%87%BA%E8%BF%99%E4%B9%88%E5%A4%A7%E7%9A%84%E5%93%BA%E4%B9%B3%E5%8A%A8%E7%89%A9%23&t=31&band_rank=1&Refer=top",
-      "score": 154768,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%81%B7%E6%8B%8D%E4%B8%88%E5%A4%AB%E5%87%BA%E8%BD%A8%E6%A1%88%E6%9C%89%E6%8C%89%E6%91%A9%E5%A5%B3%E6%89%BF%E8%AE%A4%E5%8D%96%E6%B7%AB%23&t=31&band_rank=1&Refer=top",
+      "score": 172175,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1794103219
+      "onboardTime": 1794111321
     }
   ]
 }
