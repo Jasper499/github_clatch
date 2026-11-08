@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-11-08T08:44:58Z",
+  "savedAt": "2026-11-08T17:13:52Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-11-08，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,8 +10,8 @@
       "title": "sshole",
       "description": "Related:<p><a href=\"https:&#x2F;&#x2F;hachyderm.io&#x2F;@damienmiller&#x2F;117563026759098135\" rel=\"nofollow\">https:&#x2F;&#x2F;hachyderm.io&#x2F;@damienmiller&#x2F;117563026759098135</a> &#x2F; <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50377221\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50377221</a><p><a href=\"https:&#x2F;&#x2F;www.openssh.org&#x2F;releasenotes.html#10.6p2\" rel=\"nofollow\">https:&#x2F;&#x2F;www.openssh.org&#x2F;releasenotes.html#10.6p2</a><p><a href=\"https:&#x2F;&#x2F;alpinelinux.org&#x2F;posts&#x2F;2026-11-05-openssh-password-authentication-bypass&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;alpinelinux.org&#x2F;posts&#x2F;2026-11-05-openssh-password-au...</a>",
       "url": "https://sshhole.com",
-      "score": 2963,
-      "comments": 744,
+      "score": 2971,
+      "comments": 746,
       "owner": "josemrb",
       "published": "2026-11-05T12:19:02Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50378228"
@@ -27,16 +27,6 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50341174"
     },
     {
-      "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
-      "description": "Saw Karpathy&#x27;s HackerTube and wanted the same thing for books. So I had Claude build one (Opus 5.5).<p>It&#x27;s ~16.5k books that at least two different HN commenters brought up, from 2007 till now. Each book links back to the comments that mentioned it. Data is downloadable from the about page.<p>To be clear: Claude wrote almost all of it, including the data pipeline and the site. I mostly steered and made calls, bought the domain name, etc.<p>It counts mentions, so it&#x27;s not perfect (praising a book and trashing it both count). If your favourite book is missing or matched to the wrong thing, tell me.",
-      "url": "https://hackerbooks.org",
-      "score": 1868,
-      "comments": 307,
-      "owner": "roansh",
-      "published": "2026-11-01T15:58:28Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50326821"
-    },
-    {
       "title": "WTF Ubuntu?",
       "description": "",
       "url": "https://chalmovsky.com/posts/wtf-ubuntu",
@@ -50,8 +40,8 @@
       "title": "Claude Code sends your email address to websites",
       "description": "",
       "url": "https://github.com/anthropics/claude-code/issues/107757",
-      "score": 1596,
-      "comments": 521,
+      "score": 1597,
+      "comments": 530,
       "owner": "motoroco",
       "published": "2026-11-05T22:17:15Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50385272"
@@ -61,7 +51,7 @@
       "description": "",
       "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
       "score": 1525,
-      "comments": 495,
+      "comments": 496,
       "owner": "sidgarimella",
       "published": "2026-11-03T17:22:37Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50354960"
@@ -70,7 +60,7 @@
       "title": "AI is forcing us to pay off 40 years of technical debt",
       "description": "",
       "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-      "score": 1298,
+      "score": 1299,
       "comments": 749,
       "owner": "pseudolus",
       "published": "2026-11-04T11:52:17Z",
@@ -80,8 +70,8 @@
       "title": "Residential proxies detected on White House network",
       "description": "<a href=\"https:&#x2F;&#x2F;krebsonsecurity.com&#x2F;2026&#x2F;11&#x2F;want-to-rent-an-internet-address-at-the-white-house&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;krebsonsecurity.com&#x2F;2026&#x2F;11&#x2F;want-to-rent-an-internet...</a>",
       "url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
-      "score": 1267,
-      "comments": 435,
+      "score": 1268,
+      "comments": 437,
       "owner": "Rasbora",
       "published": "2026-11-04T20:45:18Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50371246"
@@ -90,11 +80,31 @@
       "title": "Tesla to wind down Cybertruck production",
       "description": "",
       "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
-      "score": 1138,
-      "comments": 2054,
+      "score": 1147,
+      "comments": 2068,
       "owner": "PLenz",
       "published": "2026-11-06T12:13:51Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50391456"
+    },
+    {
+      "title": "Need for Speed Underground 2 online in the browser",
+      "description": "",
+      "url": "https://nfsu2.xyz/",
+      "score": 1084,
+      "comments": 273,
+      "owner": "fluxusars",
+      "published": "2026-11-07T09:36:36Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50403052"
+    },
+    {
+      "title": "Libghostty 1.0",
+      "description": "",
+      "url": "https://mitchellh.com/writing/libghostty-1-0",
+      "score": 1061,
+      "comments": 191,
+      "owner": "mfiguiere",
+      "published": "2026-11-06T23:30:52Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50399933"
     },
     {
       "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
@@ -105,26 +115,6 @@
       "owner": "syllogism",
       "published": "2026-11-03T12:21:17Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50351111"
-    },
-    {
-      "title": "Libghostty 1.0",
-      "description": "",
-      "url": "https://mitchellh.com/writing/libghostty-1-0",
-      "score": 1040,
-      "comments": 183,
-      "owner": "mfiguiere",
-      "published": "2026-11-06T23:30:52Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50399933"
-    },
-    {
-      "title": "Need for Speed Underground 2 online in the browser",
-      "description": "",
-      "url": "https://nfsu2.xyz/",
-      "score": 959,
-      "comments": 247,
-      "owner": "fluxusars",
-      "published": "2026-11-07T09:36:36Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50403052"
     },
     {
       "title": "Jailbreaking my car's navigation system just so I can change the time",
@@ -150,11 +140,21 @@
       "title": "Stringman, an $800 open-source room scale gripper robot",
       "description": "",
       "url": "https://neufangled.com/",
-      "score": 842,
+      "score": 843,
       "comments": 247,
       "owner": "nharada",
       "published": "2026-11-03T16:47:29Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50354358"
+    },
+    {
+      "title": "Every Mac comes with an (undocumented) family member classifier",
+      "description": "",
+      "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+      "score": 801,
+      "comments": 428,
+      "owner": "infwhispers",
+      "published": "2026-11-07T09:46:03Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50403097"
     },
     {
       "title": "Search for everyone",
@@ -170,11 +170,31 @@
       "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
       "description": "",
       "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
-      "score": 738,
+      "score": 739,
       "comments": 214,
       "owner": "theanonymousone",
       "published": "2026-11-03T17:40:00Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50355251"
+    },
+    {
+      "title": "Blender's UI and Runtime: Much Faster Than GPUI",
+      "description": "",
+      "url": "https://github.com/ppmpreetham/BUI",
+      "score": 732,
+      "comments": 290,
+      "owner": "ppmpreetham",
+      "published": "2026-11-06T07:40:35Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50389333"
+    },
+    {
+      "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+      "description": "If you have a personal Google AI subscription, all your saved chat history in Gemini can be used for training and there is no way to opt out unless you turn off chat history or use temporary chat sessions. These chat transcripts may even be read by human reviewers. Although Google claims to disconnect them from your account when human-reviewed, they explicitly warn <i>not to enter confidential information</i>.<p>https:&#x2F;&#x2F;support.google.com&#x2F;gemini&#x2F;answer&#x2F;16836988<p><i>“[Gemini app activity] is used to improve Google services for everyone, including by training generative AI models, if your Keep Activity setting is on.“</i><p>https:&#x2F;&#x2F;support.google.com&#x2F;gemini&#x2F;answer&#x2F;13594961?hl=en#human_review<p><i>“A subset of chats are reviewed by human reviewers”</i><p>https:&#x2F;&#x2F;support.google.com&#x2F;gemini&#x2F;answer&#x2F;13594961?hl=en#pn_retain_data<p><i>“Chats reviewed by human reviewers [...] are not deleted when you delete your activity. Instead, they are retained for up to three years.”</i><p>https:&#x2F;&#x2F;support.google.com&#x2F;gemini&#x2F;answer&#x2F;13594961?hl=en#pn_data_usage<p><i>“Please don’t enter confidential information that you wouldn’t want a reviewer to see or Google to use to improve our services, including machine-learning technologies.”</i><p>To disable their training on your chat sessions, you need to turn off “Keep Activity” in Gemini’s settings. Turning that off means you’ll lose any chat sessions after 72 hours.<p>I learned this too late, thinking that having a paid subscription = not being turned into the product. Apparently paying is not enough.<p>Thank you to this user on HN for mentioning in another thread: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50355424",
+      "url": "https://news.ycombinator.com/item?id=50363461",
+      "score": 732,
+      "comments": 201,
+      "owner": "jameslk",
+      "published": "2026-11-04T10:10:27Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50363461"
     },
     {
       "title": "Ask HN: Which TV do you recommend for privacy?",
@@ -185,26 +205,6 @@
       "owner": "LecroJS",
       "published": "2026-11-01T19:35:27Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50328896"
-    },
-    {
-      "title": "Blender's UI and Runtime: Much Faster Than GPUI",
-      "description": "",
-      "url": "https://github.com/ppmpreetham/BUI",
-      "score": 730,
-      "comments": 290,
-      "owner": "ppmpreetham",
-      "published": "2026-11-06T07:40:35Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50389333"
-    },
-    {
-      "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
-      "description": "If you have a personal Google AI subscription, all your saved chat history in Gemini can be used for training and there is no way to opt out unless you turn off chat history or use temporary chat sessions. These chat transcripts may even be read by human reviewers. Although Google claims to disconnect them from your account when human-reviewed, they explicitly warn <i>not to enter confidential information</i>.<p>https:&#x2F;&#x2F;support.google.com&#x2F;gemini&#x2F;answer&#x2F;16836988<p><i>“[Gemini app activity] is used to improve Google services for everyone, including by training generative AI models, if your Keep Activity setting is on.“</i><p>https:&#x2F;&#x2F;support.google.com&#x2F;gemini&#x2F;answer&#x2F;13594961?hl=en#human_review<p><i>“A subset of chats are reviewed by human reviewers”</i><p>https:&#x2F;&#x2F;support.google.com&#x2F;gemini&#x2F;answer&#x2F;13594961?hl=en#pn_retain_data<p><i>“Chats reviewed by human reviewers [...] are not deleted when you delete your activity. Instead, they are retained for up to three years.”</i><p>https:&#x2F;&#x2F;support.google.com&#x2F;gemini&#x2F;answer&#x2F;13594961?hl=en#pn_data_usage<p><i>“Please don’t enter confidential information that you wouldn’t want a reviewer to see or Google to use to improve our services, including machine-learning technologies.”</i><p>To disable their training on your chat sessions, you need to turn off “Keep Activity” in Gemini’s settings. Turning that off means you’ll lose any chat sessions after 72 hours.<p>I learned this too late, thinking that having a paid subscription = not being turned into the product. Apparently paying is not enough.<p>Thank you to this user on HN for mentioning in another thread: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50355424",
-      "url": "https://news.ycombinator.com/item?id=50363461",
-      "score": 730,
-      "comments": 200,
-      "owner": "jameslk",
-      "published": "2026-11-04T10:10:27Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50363461"
     }
   ]
 }
