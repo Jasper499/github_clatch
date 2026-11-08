@@ -1,37 +1,37 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-11-08T02:01:10Z",
+  "savedAt": "2026-11-08T08:44:58Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-11-08，共 20 条）",
   "updateFrequency": "twice-daily",
   "fetchedDate": "2026-11-08",
   "items": [
     {
+      "title": "sshole",
+      "description": "Related:<p><a href=\"https:&#x2F;&#x2F;hachyderm.io&#x2F;@damienmiller&#x2F;117563026759098135\" rel=\"nofollow\">https:&#x2F;&#x2F;hachyderm.io&#x2F;@damienmiller&#x2F;117563026759098135</a> &#x2F; <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50377221\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50377221</a><p><a href=\"https:&#x2F;&#x2F;www.openssh.org&#x2F;releasenotes.html#10.6p2\" rel=\"nofollow\">https:&#x2F;&#x2F;www.openssh.org&#x2F;releasenotes.html#10.6p2</a><p><a href=\"https:&#x2F;&#x2F;alpinelinux.org&#x2F;posts&#x2F;2026-11-05-openssh-password-authentication-bypass&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;alpinelinux.org&#x2F;posts&#x2F;2026-11-05-openssh-password-au...</a>",
+      "url": "https://sshhole.com",
+      "score": 2963,
+      "comments": 744,
+      "owner": "josemrb",
+      "published": "2026-11-05T12:19:02Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50378228"
+    },
+    {
       "title": "Astra can read and write weights to improve Qwen",
       "description": "",
       "url": "https://rikiyat.github.io/blog/weight-space-programming/",
-      "score": 2959,
+      "score": 2960,
       "comments": 899,
       "owner": "dbreunig",
       "published": "2026-11-02T18:21:28Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50341174"
     },
     {
-      "title": "sshole",
-      "description": "Related:<p><a href=\"https:&#x2F;&#x2F;hachyderm.io&#x2F;@damienmiller&#x2F;117563026759098135\" rel=\"nofollow\">https:&#x2F;&#x2F;hachyderm.io&#x2F;@damienmiller&#x2F;117563026759098135</a> &#x2F; <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50377221\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50377221</a><p><a href=\"https:&#x2F;&#x2F;www.openssh.org&#x2F;releasenotes.html#10.6p2\" rel=\"nofollow\">https:&#x2F;&#x2F;www.openssh.org&#x2F;releasenotes.html#10.6p2</a><p><a href=\"https:&#x2F;&#x2F;alpinelinux.org&#x2F;posts&#x2F;2026-11-05-openssh-password-authentication-bypass&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;alpinelinux.org&#x2F;posts&#x2F;2026-11-05-openssh-password-au...</a>",
-      "url": "https://sshhole.com",
-      "score": 2958,
-      "comments": 743,
-      "owner": "josemrb",
-      "published": "2026-11-05T12:19:02Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50378228"
-    },
-    {
       "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
       "description": "Saw Karpathy&#x27;s HackerTube and wanted the same thing for books. So I had Claude build one (Opus 5.5).<p>It&#x27;s ~16.5k books that at least two different HN commenters brought up, from 2007 till now. Each book links back to the comments that mentioned it. Data is downloadable from the about page.<p>To be clear: Claude wrote almost all of it, including the data pipeline and the site. I mostly steered and made calls, bought the domain name, etc.<p>It counts mentions, so it&#x27;s not perfect (praising a book and trashing it both count). If your favourite book is missing or matched to the wrong thing, tell me.",
       "url": "https://hackerbooks.org",
-      "score": 1865,
-      "comments": 306,
+      "score": 1868,
+      "comments": 307,
       "owner": "roansh",
       "published": "2026-11-01T15:58:28Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50326821"
@@ -50,8 +50,8 @@
       "title": "Claude Code sends your email address to websites",
       "description": "",
       "url": "https://github.com/anthropics/claude-code/issues/107757",
-      "score": 1591,
-      "comments": 515,
+      "score": 1596,
+      "comments": 521,
       "owner": "motoroco",
       "published": "2026-11-05T22:17:15Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50385272"
@@ -70,7 +70,7 @@
       "title": "AI is forcing us to pay off 40 years of technical debt",
       "description": "",
       "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-      "score": 1295,
+      "score": 1298,
       "comments": 749,
       "owner": "pseudolus",
       "published": "2026-11-04T11:52:17Z",
@@ -81,7 +81,7 @@
       "description": "<a href=\"https:&#x2F;&#x2F;krebsonsecurity.com&#x2F;2026&#x2F;11&#x2F;want-to-rent-an-internet-address-at-the-white-house&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;krebsonsecurity.com&#x2F;2026&#x2F;11&#x2F;want-to-rent-an-internet...</a>",
       "url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
       "score": 1267,
-      "comments": 433,
+      "comments": 435,
       "owner": "Rasbora",
       "published": "2026-11-04T20:45:18Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50371246"
@@ -90,8 +90,8 @@
       "title": "Tesla to wind down Cybertruck production",
       "description": "",
       "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
-      "score": 1126,
-      "comments": 2032,
+      "score": 1138,
+      "comments": 2054,
       "owner": "PLenz",
       "published": "2026-11-06T12:13:51Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50391456"
@@ -100,7 +100,7 @@
       "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
       "description": "",
       "url": "https://honnibal.dev/blog/astra-read-write-misleading",
-      "score": 1040,
+      "score": 1041,
       "comments": 209,
       "owner": "syllogism",
       "published": "2026-11-03T12:21:17Z",
@@ -110,21 +110,41 @@
       "title": "Libghostty 1.0",
       "description": "",
       "url": "https://mitchellh.com/writing/libghostty-1-0",
-      "score": 1027,
-      "comments": 178,
+      "score": 1040,
+      "comments": 183,
       "owner": "mfiguiere",
       "published": "2026-11-06T23:30:52Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50399933"
     },
     {
+      "title": "Need for Speed Underground 2 online in the browser",
+      "description": "",
+      "url": "https://nfsu2.xyz/",
+      "score": 959,
+      "comments": 247,
+      "owner": "fluxusars",
+      "published": "2026-11-07T09:36:36Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50403052"
+    },
+    {
       "title": "Jailbreaking my car's navigation system just so I can change the time",
       "description": "",
       "url": "https://blog.nns.ee/2026/11/02/renault-hack/",
-      "score": 951,
+      "score": 952,
       "comments": 389,
       "owner": "xx_ns",
       "published": "2026-11-02T16:29:19Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50339288"
+    },
+    {
+      "title": "Show HN: Subvocal – Talk to your computer without making noise",
+      "description": "Hi HN, we&#x27;re Aarush and Arnav from The Subvocal Company (YC F26) (<a href=\"https:&#x2F;&#x2F;subvocal.company&#x2F;\">https:&#x2F;&#x2F;subvocal.company&#x2F;</a>). We’re building smart glasses that let you talk to your computer without talking out loud. You can mouth words silently and discreetly and the glasses decode them to text at the speed of speech.<p>Here&#x27;s a video of Dave from YC trying it out: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=9QdX1eObVYI\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=9QdX1eObVYI</a><p>(Edit: you don&#x27;t actually have to move your lips or even open your mouth for this to work! Since the RF can see inside your mouth the system can be fine tuned on &quot;internal speech&quot;. This isn&#x27;t the automatic tongue movements that occur when &quot;thinking&quot; words to yourself, but more like mouthing with your lips closed. It&#x27;s a bit weird to do, but with practice, we have been able to get it down pretty well.)<p>Arnav and I were studying CS at Georgia Tech at the beginning of the year, with no experience in silent speech or sensing. We were both AI-native builders and power users of Wispr Flow. What bugged us was not being able to use these tools in the library (or an office) or in public. At Stanford’s TreeHacks in February, we decided to build the most technically ridiculous thing we could think of. We’d read about AlterEgo, a silent speech system out of MIT’s Media Lab, and wanted to recreate it in 36 hours. We built a crude prototype, sticking EMG electrodes onto my face:<p><a href=\"https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1mwhv5HZMz3UTevdrgwS5O7g2jWV0K9r2&#x2F;view?usp=sharing\" rel=\"nofollow\">https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1mwhv5HZMz3UTevdrgwS5O7g2jWV...</a><p>We got it to kind of work at a letter level in a very janky way. It wasn’t good enough to win the hackathon, but convinced us to go all in. The first time I typed a sentence without anyone noticing, I felt the magic of the technology.<p>We quickly realized EMG (reading muscle electrical signals) wouldn’t work:<p>- Signal changes due to sweat<p>- Electrical interference<p>- Placement variability<p>- Most importantly, no one wants to stick electrodes onto their face!!<p>So we switched to RF and built the glasses you see now. They emit radio waves, similar to Bluetooth, that pass through your face. As they cross the tongue, lips and soft palate, they’re modulated by silent mouthing. We train foundation models on this data to decode these perturbations to text.<p>Despite prior academic research, getting this to work was a huge engineering challenge. First we built an extremely low noise RF sensing stack. Then we had to place antennas so their fields overlapped maximally with the articulators. Our first attempt on glasses failed completely, so we reverted to old habits and taped antennas on our face:<p><a href=\"https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1ks0dS0eZiTV9EqSFsyB_w5BBjpcBAfX-&#x2F;view?usp=sharing\" rel=\"nofollow\">https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1ks0dS0eZiTV9EqSFsyB_w5BBjpc...</a><p>Since taping antennas consistently in the same spot and angle was hard, we created this weird but effective head rig to hold them in place:<p><a href=\"https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1rhzNFpdDzr7oHk0isFY70dkoV4CAF1pT&#x2F;view?usp=sharing\" rel=\"nofollow\">https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1rhzNFpdDzr7oHk0isFY70dkoV4C...</a><p>This worked, but obviously wasn’t a product yet. So we worked deep in simulations to design glasses that could hold the antennas.<p>That evolved into our design now, with antennas embedded within the frames. Once we established there was a signal, the next hurdle was cross-user generalization. Everyone’s facial anatomy, and hence RF signal patterns, are vastly different. We tried algorithmic workarounds but realized the only lever was to massively scale pretraining data.<p>So that’s what we did. We set up booths in our office and paid people to read prompts wearing our glasses, to pretrain our models on. This produced a beautiful scaling curve, with errors falling quickly as we scaled our dataset and cross-user performance becoming genuinely compelling (as you see in the video above; Dave only had a short 20-sentence calibration).<p>We always heard about building things from first principles but never understood it before this. We tried tackling it top down but completely failed. Only when we broke each component (the antenna, electronics, ML) down to its fundamentals to understand and optimize it did we get it to work really well.<p>Over the next few months we’re continuing R&amp;D to turn our prototype glasses into the slick product on our website and ship in Q1 2027. We’re also scaling up our dataset to improve performance on edge cases.<p>For anyone who loves voice dictation but hates using it around people, we’ve opened preorders for our first batch of 500 units, with a $200 discount off the final price. Allocation is running out quickly, so get yours at <a href=\"https:&#x2F;&#x2F;subvocal.co&#x2F;preorder\" rel=\"nofollow\">https:&#x2F;&#x2F;subvocal.co&#x2F;preorder</a>!",
+      "url": "https://news.ycombinator.com/item?id=50340088",
+      "score": 843,
+      "comments": 395,
+      "owner": "aarushyadav",
+      "published": "2026-11-02T17:16:17Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50340088"
     },
     {
       "title": "Stringman, an $800 open-source room scale gripper robot",
@@ -137,30 +157,10 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50354358"
     },
     {
-      "title": "Show HN: Subvocal – Talk to your computer without making noise",
-      "description": "Hi HN, we&#x27;re Aarush and Arnav from The Subvocal Company (YC F26) (<a href=\"https:&#x2F;&#x2F;subvocal.company&#x2F;\">https:&#x2F;&#x2F;subvocal.company&#x2F;</a>). We’re building smart glasses that let you talk to your computer without talking out loud. You can mouth words silently and discreetly and the glasses decode them to text at the speed of speech.<p>Here&#x27;s a video of Dave from YC trying it out: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=9QdX1eObVYI\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=9QdX1eObVYI</a><p>(Edit: you don&#x27;t actually have to move your lips or even open your mouth for this to work! Since the RF can see inside your mouth the system can be fine tuned on &quot;internal speech&quot;. This isn&#x27;t the automatic tongue movements that occur when &quot;thinking&quot; words to yourself, but more like mouthing with your lips closed. It&#x27;s a bit weird to do, but with practice, we have been able to get it down pretty well.)<p>Arnav and I were studying CS at Georgia Tech at the beginning of the year, with no experience in silent speech or sensing. We were both AI-native builders and power users of Wispr Flow. What bugged us was not being able to use these tools in the library (or an office) or in public. At Stanford’s TreeHacks in February, we decided to build the most technically ridiculous thing we could think of. We’d read about AlterEgo, a silent speech system out of MIT’s Media Lab, and wanted to recreate it in 36 hours. We built a crude prototype, sticking EMG electrodes onto my face:<p><a href=\"https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1mwhv5HZMz3UTevdrgwS5O7g2jWV0K9r2&#x2F;view?usp=sharing\" rel=\"nofollow\">https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1mwhv5HZMz3UTevdrgwS5O7g2jWV...</a><p>We got it to kind of work at a letter level in a very janky way. It wasn’t good enough to win the hackathon, but convinced us to go all in. The first time I typed a sentence without anyone noticing, I felt the magic of the technology.<p>We quickly realized EMG (reading muscle electrical signals) wouldn’t work:<p>- Signal changes due to sweat<p>- Electrical interference<p>- Placement variability<p>- Most importantly, no one wants to stick electrodes onto their face!!<p>So we switched to RF and built the glasses you see now. They emit radio waves, similar to Bluetooth, that pass through your face. As they cross the tongue, lips and soft palate, they’re modulated by silent mouthing. We train foundation models on this data to decode these perturbations to text.<p>Despite prior academic research, getting this to work was a huge engineering challenge. First we built an extremely low noise RF sensing stack. Then we had to place antennas so their fields overlapped maximally with the articulators. Our first attempt on glasses failed completely, so we reverted to old habits and taped antennas on our face:<p><a href=\"https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1ks0dS0eZiTV9EqSFsyB_w5BBjpcBAfX-&#x2F;view?usp=sharing\" rel=\"nofollow\">https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1ks0dS0eZiTV9EqSFsyB_w5BBjpc...</a><p>Since taping antennas consistently in the same spot and angle was hard, we created this weird but effective head rig to hold them in place:<p><a href=\"https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1rhzNFpdDzr7oHk0isFY70dkoV4CAF1pT&#x2F;view?usp=sharing\" rel=\"nofollow\">https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1rhzNFpdDzr7oHk0isFY70dkoV4C...</a><p>This worked, but obviously wasn’t a product yet. So we worked deep in simulations to design glasses that could hold the antennas.<p>That evolved into our design now, with antennas embedded within the frames. Once we established there was a signal, the next hurdle was cross-user generalization. Everyone’s facial anatomy, and hence RF signal patterns, are vastly different. We tried algorithmic workarounds but realized the only lever was to massively scale pretraining data.<p>So that’s what we did. We set up booths in our office and paid people to read prompts wearing our glasses, to pretrain our models on. This produced a beautiful scaling curve, with errors falling quickly as we scaled our dataset and cross-user performance becoming genuinely compelling (as you see in the video above; Dave only had a short 20-sentence calibration).<p>We always heard about building things from first principles but never understood it before this. We tried tackling it top down but completely failed. Only when we broke each component (the antenna, electronics, ML) down to its fundamentals to understand and optimize it did we get it to work really well.<p>Over the next few months we’re continuing R&amp;D to turn our prototype glasses into the slick product on our website and ship in Q1 2027. We’re also scaling up our dataset to improve performance on edge cases.<p>For anyone who loves voice dictation but hates using it around people, we’ve opened preorders for our first batch of 500 units, with a $200 discount off the final price. Allocation is running out quickly, so get yours at <a href=\"https:&#x2F;&#x2F;subvocal.co&#x2F;preorder\" rel=\"nofollow\">https:&#x2F;&#x2F;subvocal.co&#x2F;preorder</a>!",
-      "url": "https://news.ycombinator.com/item?id=50340088",
-      "score": 841,
-      "comments": 395,
-      "owner": "aarushyadav",
-      "published": "2026-11-02T17:16:17Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50340088"
-    },
-    {
-      "title": "Need for Speed Underground 2 online in the browser",
-      "description": "",
-      "url": "https://nfsu2.xyz/",
-      "score": 824,
-      "comments": 227,
-      "owner": "fluxusars",
-      "published": "2026-11-07T09:36:36Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50403052"
-    },
-    {
       "title": "Search for everyone",
       "description": "",
       "url": "https://kagi.com/changelog#11820",
-      "score": 751,
+      "score": 752,
       "comments": 410,
       "owner": "elashri",
       "published": "2026-11-05T20:03:34Z",
@@ -170,7 +170,7 @@
       "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
       "description": "",
       "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
-      "score": 737,
+      "score": 738,
       "comments": 214,
       "owner": "theanonymousone",
       "published": "2026-11-03T17:40:00Z",
@@ -180,31 +180,31 @@
       "title": "Ask HN: Which TV do you recommend for privacy?",
       "description": "I haven’t owned a TV in years and would like one that respects my privacy. Are there any TV’s which do this well? I am looking for something in the 60”to 80”range and would like a 4k display with at least 60hz display. I don’t mind paying a premium.<p>I have heard good things about Apple TV as a better alternative to most smart TV native apps. Would some TV’s pair better with this than others for privacy? I don’t want the TV doing anything other than being the display for Apple TV.<p>I am curious what success others have had.",
       "url": "https://news.ycombinator.com/item?id=50328896",
-      "score": 730,
+      "score": 731,
       "comments": 885,
       "owner": "LecroJS",
       "published": "2026-11-01T19:35:27Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50328896"
     },
     {
+      "title": "Blender's UI and Runtime: Much Faster Than GPUI",
+      "description": "",
+      "url": "https://github.com/ppmpreetham/BUI",
+      "score": 730,
+      "comments": 290,
+      "owner": "ppmpreetham",
+      "published": "2026-11-06T07:40:35Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50389333"
+    },
+    {
       "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
       "description": "If you have a personal Google AI subscription, all your saved chat history in Gemini can be used for training and there is no way to opt out unless you turn off chat history or use temporary chat sessions. These chat transcripts may even be read by human reviewers. Although Google claims to disconnect them from your account when human-reviewed, they explicitly warn <i>not to enter confidential information</i>.<p>https:&#x2F;&#x2F;support.google.com&#x2F;gemini&#x2F;answer&#x2F;16836988<p><i>“[Gemini app activity] is used to improve Google services for everyone, including by training generative AI models, if your Keep Activity setting is on.“</i><p>https:&#x2F;&#x2F;support.google.com&#x2F;gemini&#x2F;answer&#x2F;13594961?hl=en#human_review<p><i>“A subset of chats are reviewed by human reviewers”</i><p>https:&#x2F;&#x2F;support.google.com&#x2F;gemini&#x2F;answer&#x2F;13594961?hl=en#pn_retain_data<p><i>“Chats reviewed by human reviewers [...] are not deleted when you delete your activity. Instead, they are retained for up to three years.”</i><p>https:&#x2F;&#x2F;support.google.com&#x2F;gemini&#x2F;answer&#x2F;13594961?hl=en#pn_data_usage<p><i>“Please don’t enter confidential information that you wouldn’t want a reviewer to see or Google to use to improve our services, including machine-learning technologies.”</i><p>To disable their training on your chat sessions, you need to turn off “Keep Activity” in Gemini’s settings. Turning that off means you’ll lose any chat sessions after 72 hours.<p>I learned this too late, thinking that having a paid subscription = not being turned into the product. Apparently paying is not enough.<p>Thank you to this user on HN for mentioning in another thread: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50355424",
       "url": "https://news.ycombinator.com/item?id=50363461",
-      "score": 729,
+      "score": 730,
       "comments": 200,
       "owner": "jameslk",
       "published": "2026-11-04T10:10:27Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50363461"
-    },
-    {
-      "title": "Blender's UI and Runtime: Much Faster Than GPUI",
-      "description": "",
-      "url": "https://github.com/ppmpreetham/BUI",
-      "score": 719,
-      "comments": 289,
-      "owner": "ppmpreetham",
-      "published": "2026-11-06T07:40:35Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50389333"
     }
   ]
 }
