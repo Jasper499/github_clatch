@@ -1,18 +1,44 @@
 {
   "changed": true,
-  "fetchedAt": "2026-11-08T09:11:52Z",
-  "previousSha": "b6ae2cac022f4aac094d50f2938a3474ba315fbc",
-  "latestSha": "38605b0878590babc59aca8a0c064ccc1ffe29d0",
+  "fetchedAt": "2026-11-08T18:43:15Z",
+  "previousSha": "38605b0878590babc59aca8a0c064ccc1ffe29d0",
+  "latestSha": "b6ae2cac022f4aac094d50f2938a3474ba315fbc",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "",
-    "url": "",
-    "sha": "",
-    "published": ""
+    "title": "chore: update star history",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/b6ae2cac022f4aac094d50f2938a3474ba315fbc",
+    "sha": "b6ae2ca",
+    "published": "2026-11-07"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
-  "recentCommits": []
+  "recentCommits": [
+    {
+      "title": "chore: update star history",
+      "sha": "b6ae2ca",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/b6ae2cac022f4aac094d50f2938a3474ba315fbc"
+    },
+    {
+      "title": "Add existing RDA figures and privacy-screened statistical results (#278)",
+      "sha": "d774add",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/d774add241c65e89ed17a4da573b472b0972fd42"
+    },
+    {
+      "title": "fix(nature-paper2word): extract reference formatting from paragraph s…",
+      "sha": "48e2765",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/48e2765fdbb9d16c0113405588dd46251ac2afc2"
+    },
+    {
+      "title": "chore: update star history",
+      "sha": "b59a64c",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/b59a64c2d1e20f36eec453d122d25daa538b9918"
+    },
+    {
+      "title": "docs(nature-academic-search, nature-citation): optional Firecrawl rea…",
+      "sha": "69817e4",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/69817e4dad8bfc52fa4e59a9d8355e4264a4d3a7"
+    }
+  ]
 }
