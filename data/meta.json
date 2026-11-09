@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-08T21:57:44Z",
+  "updatedAt": "2026-11-09T06:07:29Z",
   "periodDays": 7,
   "weekLabel": "2026-10-26 ~ 2026-11-02",
   "githubUpdatedAt": "2026-11-02T07:11:22Z",
   "hackernewsUpdatedAt": "2026-11-08T18:42:35Z",
-  "weiboUpdatedAt": "2026-11-08T21:57:44Z",
+  "weiboUpdatedAt": "2026-11-09T06:07:29Z",
   "journalsUpdatedAt": "2026-11-01T08:17:02Z",
   "natureSkillsUpdatedAt": "2026-11-08T18:53:34Z",
   "scientificSkillsUpdatedAt": "2026-11-08T19:07:07Z",
@@ -130,9 +130,9 @@
     },
     "weibo": {
       "label": "热搜榜",
-      "description": "微博热搜榜（2026-11-08，共 30 条，约每 6 小时更新）",
+      "description": "微博热搜榜（2026-11-09，共 30 条，约每 6 小时更新）",
       "updateFrequency": "every-6h",
-      "fetchedDate": "2026-11-08",
+      "fetchedDate": "2026-11-09",
       "itemCount": 30
     },
     "mrm": {
@@ -187,9 +187,9 @@
     },
     "weiboRealtime": {
       "label": "实时",
-      "description": "微博实时上升榜（按上榜时间排序，2026-11-08，共 30 条，约每 6 小时更新）",
+      "description": "微博实时上升榜（按上榜时间排序，2026-11-09，共 30 条，约每 6 小时更新）",
       "updateFrequency": "every-6h",
-      "fetchedDate": "2026-11-08",
+      "fetchedDate": "2026-11-09",
       "itemCount": 30
     },
     "weiboLocal": {
@@ -207,7 +207,7 @@
       "itemCount": 20
     }
   },
-  "generatedAt": "2026-11-08T21:57:44Z",
+  "generatedAt": "2026-11-09T06:07:29Z",
   "journalsPeriod": "2026-09-17 ~ 2026-11-01",
   "chinaDailyUpdatedAt": "2026-11-08T09:53:58Z"
 }
