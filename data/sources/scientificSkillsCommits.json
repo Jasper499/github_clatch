@@ -1,12 +1,23 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-11-08T19:07:07Z",
+  "savedAt": "2026-11-09T09:25:23Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+  "latestSha": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
   "items": [
+    {
+      "title": "chore: update security scan report [skip ci]",
+      "description": "chore: update security scan report [skip ci]",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "sha": "2d2065f",
+      "fullSha": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "owner": "github-actions",
+      "published": "2026-11-09",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "chore: update security scan report [skip ci]",
       "description": "chore: update security scan report [skip ci]",
@@ -158,17 +169,6 @@
       "fullSha": "8b078d6bedfb99672cb703664ccf170f89665cb8",
       "owner": "timothykassis",
       "published": "2026-10-01",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "fix(analytical-method-validation): normalize JSON records like CSV",
-      "description": "fix(analytical-method-validation): normalize JSON records like CSV\n\nFixes #295. Strip JSON keys and string values, preserve zero and null handling, and compare CLI results across padded JSON and CSV inputs.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/32960cda7b20f8db185fa36becd5c2a7e164713d",
-      "sha": "32960cd",
-      "fullSha": "32960cda7b20f8db185fa36becd5c2a7e164713d",
-      "owner": "timothykassis",
-      "published": "2026-09-30",
       "label": "commit",
       "repo": "K-Dense-AI/scientific-agent-skills"
     }
