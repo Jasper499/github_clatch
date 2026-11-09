@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-09T060806Z",
+  "day": "2026-11-09",
+  "sourceKey": "weiboLocal",
+  "savedAt": "2026-11-09T06:08:06Z",
+  "label": "同城",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-09，共 6 条，约每 6 小时更新）",
+  "updateFrequency": "every-6h",
+  "fetchedDate": "2026-11-09",
+  "items": [
+    {
+      "title": "太原火灾",
+      "description": "突发/灾害",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%AA%E5%8E%9F%E7%81%AB%E7%81%BE&t=31&band_rank=1&Refer=top",
+      "score": 707488,
+      "owner": "微博同城",
+      "label": "",
+      "category": "突发/灾害",
+      "onboardTime": 1794198080
+    },
+    {
+      "title": "太原一建筑火灾已致14死",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%AA%E5%8E%9F%E4%B8%80%E5%BB%BA%E7%AD%91%E7%81%AB%E7%81%BE%E5%B7%B2%E8%87%B414%E6%AD%BB%23&t=31&band_rank=1&Refer=top",
+      "score": 692830,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1794193942
+    },
+    {
+      "title": "失业缓冲期首次出现在国家政策文件",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%B1%E4%B8%9A%E7%BC%93%E5%86%B2%E6%9C%9F%E9%A6%96%E6%AC%A1%E5%87%BA%E7%8E%B0%E5%9C%A8%E5%9B%BD%E5%AE%B6%E6%94%BF%E7%AD%96%E6%96%87%E4%BB%B6%23&t=31&band_rank=1&Refer=top",
+      "score": 400366,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1794195200
+    },
+    {
+      "title": "太原火灾公寓开发商已成老赖",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%AA%E5%8E%9F%E7%81%AB%E7%81%BE%E5%85%AC%E5%AF%93%E5%BC%80%E5%8F%91%E5%95%86%E5%B7%B2%E6%88%90%E8%80%81%E8%B5%96%23&t=31&band_rank=1&Refer=top",
+      "score": 379512,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1794204080
+    },
+    {
+      "title": "太原火灾 消防",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%AA%E5%8E%9F%E7%81%AB%E7%81%BE%20%E6%B6%88%E9%98%B2&t=31&band_rank=1&Refer=top",
+      "score": 375257,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1794201321
+    },
+    {
+      "title": "2026前三季度结婚人数创新低",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=2026%E5%89%8D%E4%B8%89%E5%AD%A3%E5%BA%A6%E7%BB%93%E5%A9%9A%E4%BA%BA%E6%95%B0%E5%88%9B%E6%96%B0%E4%BD%8E&t=31&band_rank=1&Refer=top",
+      "score": 236176,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1794204320
+    }
+  ]
+}
