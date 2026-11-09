@@ -1,70 +1,100 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-11-09T06:08:06Z",
+  "savedAt": "2026-11-09T10:19:54Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-09，共 6 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-09，共 9 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-11-09",
   "items": [
     {
-      "title": "太原火灾",
-      "description": "突发/灾害",
-      "url": "https://s.weibo.com/weibo?q=%E5%A4%AA%E5%8E%9F%E7%81%AB%E7%81%BE&t=31&band_rank=1&Refer=top",
-      "score": 707488,
-      "owner": "微博同城",
-      "label": "",
-      "category": "突发/灾害",
-      "onboardTime": 1794198080
-    },
-    {
-      "title": "太原一建筑火灾已致14死",
+      "title": "闪送员被撞身亡公司拒认工亡",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%AA%E5%8E%9F%E4%B8%80%E5%BB%BA%E7%AD%91%E7%81%AB%E7%81%BE%E5%B7%B2%E8%87%B414%E6%AD%BB%23&t=31&band_rank=1&Refer=top",
-      "score": 692830,
+      "url": "https://s.weibo.com/weibo?q=%23%E9%97%AA%E9%80%81%E5%91%98%E8%A2%AB%E6%92%9E%E8%BA%AB%E4%BA%A1%E5%85%AC%E5%8F%B8%E6%8B%92%E8%AE%A4%E5%B7%A5%E4%BA%A1%23&t=31&band_rank=1&Refer=top",
+      "score": 598301,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1794193942
+      "onboardTime": 1794213860
     },
     {
-      "title": "失业缓冲期首次出现在国家政策文件",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%B1%E4%B8%9A%E7%BC%93%E5%86%B2%E6%9C%9F%E9%A6%96%E6%AC%A1%E5%87%BA%E7%8E%B0%E5%9C%A8%E5%9B%BD%E5%AE%B6%E6%94%BF%E7%AD%96%E6%96%87%E4%BB%B6%23&t=31&band_rank=1&Refer=top",
-      "score": 400366,
+      "title": "让女性站立小便就是真的女性友好吗",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%AE%A9%E5%A5%B3%E6%80%A7%E7%AB%99%E7%AB%8B%E5%B0%8F%E4%BE%BF%E5%B0%B1%E6%98%AF%E7%9C%9F%E7%9A%84%E5%A5%B3%E6%80%A7%E5%8F%8B%E5%A5%BD%E5%90%97%23&t=31&band_rank=1&Refer=top",
+      "score": 597871,
       "owner": "微博同城",
-      "label": "",
+      "label": "热",
       "category": "民生新闻",
-      "onboardTime": 1794195200
+      "onboardTime": 1794206300
     },
     {
-      "title": "太原火灾公寓开发商已成老赖",
+      "title": "商场卫生间照镜子被广告吓一跳",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%AA%E5%8E%9F%E7%81%AB%E7%81%BE%E5%85%AC%E5%AF%93%E5%BC%80%E5%8F%91%E5%95%86%E5%B7%B2%E6%88%90%E8%80%81%E8%B5%96%23&t=31&band_rank=1&Refer=top",
-      "score": 379512,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%95%86%E5%9C%BA%E5%8D%AB%E7%94%9F%E9%97%B4%E7%85%A7%E9%95%9C%E5%AD%90%E8%A2%AB%E5%B9%BF%E5%91%8A%E5%90%93%E4%B8%80%E8%B7%B3%23&t=31&band_rank=1&Refer=top",
+      "score": 511945,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1794204080
+      "onboardTime": 1794218600
     },
     {
-      "title": "太原火灾 消防",
+      "title": "搬家9公里收费13900元",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%A4%AA%E5%8E%9F%E7%81%AB%E7%81%BE%20%E6%B6%88%E9%98%B2&t=31&band_rank=1&Refer=top",
-      "score": 375257,
+      "url": "https://s.weibo.com/weibo?q=%23%E6%90%AC%E5%AE%B69%E5%85%AC%E9%87%8C%E6%94%B6%E8%B4%B913900%E5%85%83%23&t=31&band_rank=1&Refer=top",
+      "score": 495296,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1794201321
+      "onboardTime": 1794218481
     },
     {
-      "title": "2026前三季度结婚人数创新低",
+      "title": "太原火灾相关责任人已被控制",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=2026%E5%89%8D%E4%B8%89%E5%AD%A3%E5%BA%A6%E7%BB%93%E5%A9%9A%E4%BA%BA%E6%95%B0%E5%88%9B%E6%96%B0%E4%BD%8E&t=31&band_rank=1&Refer=top",
-      "score": 236176,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%AA%E5%8E%9F%E7%81%AB%E7%81%BE%E7%9B%B8%E5%85%B3%E8%B4%A3%E4%BB%BB%E4%BA%BA%E5%B7%B2%E8%A2%AB%E6%8E%A7%E5%88%B6%23&t=31&band_rank=1&Refer=top",
+      "score": 338906,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1794204320
+      "onboardTime": 1794219321
+    },
+    {
+      "title": "女子借给闺蜜4万反遭杀害藏尸28年",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E5%80%9F%E7%BB%99%E9%97%BA%E8%9C%9C4%E4%B8%87%E5%8F%8D%E9%81%AD%E6%9D%80%E5%AE%B3%E8%97%8F%E5%B0%B828%E5%B9%B4%23&t=31&band_rank=1&Refer=top",
+      "score": 327587,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1794218301
+    },
+    {
+      "title": "大妈买1.9元豆腐被充499.9元话费",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%A7%E5%A6%88%E4%B9%B01.9%E5%85%83%E8%B1%86%E8%85%90%E8%A2%AB%E5%85%85499.9%E5%85%83%E8%AF%9D%E8%B4%B9%23&t=31&band_rank=1&Refer=top",
+      "score": 162710,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1794219501
+    },
+    {
+      "title": "3元一包的泡面推出79.9元高端款",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%233%E5%85%83%E4%B8%80%E5%8C%85%E7%9A%84%E6%B3%A1%E9%9D%A2%E6%8E%A8%E5%87%BA79.9%E5%85%83%E9%AB%98%E7%AB%AF%E6%AC%BE%23&t=31&band_rank=1&Refer=top",
+      "score": 161094,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1794218481
+    },
+    {
+      "title": "厨房最危险的不是火",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8E%A8%E6%88%BF%E6%9C%80%E5%8D%B1%E9%99%A9%E7%9A%84%E4%B8%8D%E6%98%AF%E7%81%AB%23&t=31&band_rank=1&Refer=top",
+      "score": 151020,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1794219559
     }
   ]
 }
