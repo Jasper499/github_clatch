@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-10T012700Z",
+  "day": "2026-11-10",
+  "sourceKey": "weiboLocal",
+  "savedAt": "2026-11-10T01:27:00Z",
+  "label": "同城",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-10，共 8 条，约每 6 小时更新）",
+  "updateFrequency": "every-6h",
+  "fetchedDate": "2026-11-10",
+  "items": [
+    {
+      "title": "铸牢共同体中华一家亲",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%93%B8%E7%89%A2%E5%85%B1%E5%90%8C%E4%BD%93%E4%B8%AD%E5%8D%8E%E4%B8%80%E5%AE%B6%E4%BA%B2%23&t=31&band_rank=1&Refer=top",
+      "score": 900671,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1793967620
+    },
+    {
+      "title": "警方通报政务大厅门头遭破坏",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A5%E6%94%BF%E5%8A%A1%E5%A4%A7%E5%8E%85%E9%97%A8%E5%A4%B4%E9%81%AD%E7%A0%B4%E5%9D%8F%23&t=31&band_rank=1&Refer=top",
+      "score": 838276,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1794269720
+    },
+    {
+      "title": "男子搬家遭敲诈威胁除非把房子卖了",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E6%90%AC%E5%AE%B6%E9%81%AD%E6%95%B2%E8%AF%88%E5%A8%81%E8%83%81%E9%99%A4%E9%9D%9E%E6%8A%8A%E6%88%BF%E5%AD%90%E5%8D%96%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 353172,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1794257893
+    },
+    {
+      "title": "黄仁勋 佩奇",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E9%BB%84%E4%BB%81%E5%8B%8B%20%E4%BD%A9%E5%A5%87&t=31&band_rank=1&Refer=top",
+      "score": 278430,
+      "owner": "微博同城",
+      "label": "热",
+      "category": "民生新闻",
+      "onboardTime": 1794266778
+    },
+    {
+      "title": "29周胎儿重度脑积水子宫内做手术",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%2329%E5%91%A8%E8%83%8E%E5%84%BF%E9%87%8D%E5%BA%A6%E8%84%91%E7%A7%AF%E6%B0%B4%E5%AD%90%E5%AE%AB%E5%86%85%E5%81%9A%E6%89%8B%E6%9C%AF%23&t=31&band_rank=1&Refer=top",
+      "score": 234592,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1794272841
+    },
+    {
+      "title": "山姆现20元一包泡面",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%B1%B1%E5%A7%86%E7%8E%B020%E5%85%83%E4%B8%80%E5%8C%85%E6%B3%A1%E9%9D%A2%23&t=31&band_rank=1&Refer=top",
+      "score": 169280,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1794234622
+    },
+    {
+      "title": "立冬后要改一下睡觉时间",
+      "description": "健康医疗,民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%AB%8B%E5%86%AC%E5%90%8E%E8%A6%81%E6%94%B9%E4%B8%80%E4%B8%8B%E7%9D%A1%E8%A7%89%E6%97%B6%E9%97%B4%23&t=31&band_rank=1&Refer=top",
+      "score": 158581,
+      "owner": "微博同城",
+      "label": "",
+      "category": "健康医疗,民生新闻",
+      "onboardTime": 1794259214
+    },
+    {
+      "title": "曝黄仁勋提前1年聘请危机公关",
+      "description": "新 · 民生新闻,互联网",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E9%BB%84%E4%BB%81%E5%8B%8B%E6%8F%90%E5%89%8D1%E5%B9%B4%E8%81%98%E8%AF%B7%E5%8D%B1%E6%9C%BA%E5%85%AC%E5%85%B3%23&t=31&band_rank=1&Refer=top",
+      "score": 120310,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻,互联网",
+      "onboardTime": 1794269540
+    }
+  ]
+}
