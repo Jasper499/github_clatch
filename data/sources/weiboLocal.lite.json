@@ -1,120 +1,60 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-11-10T10:49:17Z",
+  "savedAt": "2026-11-10T14:45:54Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-10，共 11 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-10，共 5 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-11-10",
   "items": [
     {
-      "title": "女子月薪2万被裁才知社保基数按4000算",
+      "title": "学龄人口达峰 幼儿园小学初中资源优化",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E6%9C%88%E8%96%AA2%E4%B8%87%E8%A2%AB%E8%A3%81%E6%89%8D%E7%9F%A5%E7%A4%BE%E4%BF%9D%E5%9F%BA%E6%95%B0%E6%8C%894000%E7%AE%97%23&t=31&band_rank=1&Refer=top",
-      "score": 867147,
+      "url": "https://s.weibo.com/weibo?q=%E5%AD%A6%E9%BE%84%E4%BA%BA%E5%8F%A3%E8%BE%BE%E5%B3%B0%20%E5%B9%BC%E5%84%BF%E5%9B%AD%E5%B0%8F%E5%AD%A6%E5%88%9D%E4%B8%AD%E8%B5%84%E6%BA%90%E4%BC%98%E5%8C%96&t=31&band_rank=1&Refer=top",
+      "score": 1500388,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1794293419
+      "onboardTime": 1794308001
     },
     {
-      "title": "花坛藏尸案女凶手庭上一直眨眼睛",
-      "description": "热 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%8A%B1%E5%9D%9B%E8%97%8F%E5%B0%B8%E6%A1%88%E5%A5%B3%E5%87%B6%E6%89%8B%E5%BA%AD%E4%B8%8A%E4%B8%80%E7%9B%B4%E7%9C%A8%E7%9C%BC%E7%9D%9B%23&t=31&band_rank=1&Refer=top",
-      "score": 867092,
-      "owner": "微博同城",
-      "label": "热",
-      "category": "民生新闻",
-      "onboardTime": 1794300919
-    },
-    {
-      "title": "陈某芬被抓后跪地指认犯罪现场",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%99%88%E6%9F%90%E8%8A%AC%E8%A2%AB%E6%8A%93%E5%90%8E%E8%B7%AA%E5%9C%B0%E6%8C%87%E8%AE%A4%E7%8A%AF%E7%BD%AA%E7%8E%B0%E5%9C%BA%23&t=31&band_rank=1&Refer=top",
-      "score": 867023,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1794303019
-    },
-    {
-      "title": "花坛藏尸案太吓人",
-      "description": "热 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E8%8A%B1%E5%9D%9B%E8%97%8F%E5%B0%B8%E6%A1%88%E5%A4%AA%E5%90%93%E4%BA%BA&t=31&band_rank=1&Refer=top",
-      "score": 866991,
-      "owner": "微博同城",
-      "label": "热",
-      "category": "民生新闻",
-      "onboardTime": 1794295219
-    },
-    {
-      "title": "花坛藏尸案凶手整容前后对比照曝光",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%8A%B1%E5%9D%9B%E8%97%8F%E5%B0%B8%E6%A1%88%E5%87%B6%E6%89%8B%E6%95%B4%E5%AE%B9%E5%89%8D%E5%90%8E%E5%AF%B9%E6%AF%94%E7%85%A7%E6%9B%9D%E5%85%89%23&t=31&band_rank=1&Refer=top",
-      "score": 866923,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1794307280
-    },
-    {
-      "title": "美术生用拼多多在农村建共享菜园",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%BE%8E%E6%9C%AF%E7%94%9F%E7%94%A8%E6%8B%BC%E5%A4%9A%E5%A4%9A%E5%9C%A8%E5%86%9C%E6%9D%91%E5%BB%BA%E5%85%B1%E4%BA%AB%E8%8F%9C%E5%9B%AD%23&t=31&band_rank=1&Refer=top",
-      "score": 783010,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1794305539
-    },
-    {
-      "title": "花坛藏尸案凶手容貌公开",
+      "title": "老人趴在炕上突然炕炸了",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%8A%B1%E5%9D%9B%E8%97%8F%E5%B0%B8%E6%A1%88%E5%87%B6%E6%89%8B%E5%AE%B9%E8%B2%8C%E5%85%AC%E5%BC%80%23&t=31&band_rank=1&Refer=top",
-      "score": 782777,
+      "url": "https://s.weibo.com/weibo?q=%23%E8%80%81%E4%BA%BA%E8%B6%B4%E5%9C%A8%E7%82%95%E4%B8%8A%E7%AA%81%E7%84%B6%E7%82%95%E7%82%B8%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 1164795,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1794295159
-    },
-    {
-      "title": "警方介入和平饭店51万天价餐事件",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%AD%A6%E6%96%B9%E4%BB%8B%E5%85%A5%E5%92%8C%E5%B9%B3%E9%A5%AD%E5%BA%9751%E4%B8%87%E5%A4%A9%E4%BB%B7%E9%A4%90%E4%BA%8B%E4%BB%B6%23&t=31&band_rank=1&Refer=top",
-      "score": 456840,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1794297739
-    },
-    {
-      "title": "花坛藏尸案凶手熔掉被害人金戒指",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%8A%B1%E5%9D%9B%E8%97%8F%E5%B0%B8%E6%A1%88%E5%87%B6%E6%89%8B%E7%86%94%E6%8E%89%E8%A2%AB%E5%AE%B3%E4%BA%BA%E9%87%91%E6%88%92%E6%8C%87%23&t=31&band_rank=1&Refer=top",
-      "score": 425499,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1794300799
-    },
-    {
-      "title": "花坛藏尸案",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E8%8A%B1%E5%9D%9B%E8%97%8F%E5%B0%B8%E6%A1%88&t=31&band_rank=1&Refer=top",
-      "score": 296995,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1794295820
+      "onboardTime": 1794309200
     },
     {
       "title": "外国人高铁车厢抽烟引质疑",
-      "description": "新 · 民生新闻",
+      "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%E5%A4%96%E5%9B%BD%E4%BA%BA%E9%AB%98%E9%93%81%E8%BD%A6%E5%8E%A2%E6%8A%BD%E7%83%9F%E5%BC%95%E8%B4%A8%E7%96%91&t=31&band_rank=1&Refer=top",
-      "score": 189010,
+      "score": 1027342,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1794306799
+    },
+    {
+      "title": "奶奶说选不喜欢的孩子养老不心疼",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%A5%B6%E5%A5%B6%E8%AF%B4%E9%80%89%E4%B8%8D%E5%96%9C%E6%AC%A2%E7%9A%84%E5%AD%A9%E5%AD%90%E5%85%BB%E8%80%81%E4%B8%8D%E5%BF%83%E7%96%BC&t=31&band_rank=1&Refer=top",
+      "score": 331815,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1794315261
+    },
+    {
+      "title": "儿媳流产婆婆不照料还称其是报应",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%84%BF%E5%AA%B3%E6%B5%81%E4%BA%A7%E5%A9%86%E5%A9%86%E4%B8%8D%E7%85%A7%E6%96%99%E8%BF%98%E7%A7%B0%E5%85%B6%E6%98%AF%E6%8A%A5%E5%BA%94%23&t=31&band_rank=1&Refer=top",
+      "score": 331699,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1794306799
+      "onboardTime": 1794319044
     }
   ]
 }
