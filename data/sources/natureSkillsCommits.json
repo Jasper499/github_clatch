@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-11-09T23:28:28Z",
+  "savedAt": "2026-11-10T09:29:22Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "b6ae2cac022f4aac094d50f2938a3474ba315fbc",
+  "latestSha": "a1a8220366e82ecd8584ea3d7f46cb3969f4b018",
   "items": [
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/a1a8220366e82ecd8584ea3d7f46cb3969f4b018",
+      "sha": "a1a8220",
+      "fullSha": "a1a8220366e82ecd8584ea3d7f46cb3969f4b018",
+      "owner": "github-actions",
+      "published": "2026-11-10",
+      "label": "commit"
+    },
     {
       "title": "chore: update star history",
       "description": "chore: update star history",
@@ -145,16 +155,6 @@
       "fullSha": "bef0a4a90be450dc2096ce64489eae4a103c608d",
       "owner": "ls-wq",
       "published": "2026-10-23",
-      "label": "commit"
-    },
-    {
-      "title": "chore: update star history",
-      "description": "chore: update star history",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c6ae86c742705fd968b13c79db1a8518a84089d4",
-      "sha": "c6ae86c",
-      "fullSha": "c6ae86c742705fd968b13c79db1a8518a84089d4",
-      "owner": "github-actions",
-      "published": "2026-10-22",
       "label": "commit"
     }
   ]
