@@ -1,17 +1,17 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-11-09T23:18:53Z",
+  "savedAt": "2026-11-10T09:28:43Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-11-09，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-11-10，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-11-09",
+  "fetchedDate": "2026-11-10",
   "items": [
     {
       "title": "sshole",
       "description": "Related:<p><a href=\"https:&#x2F;&#x2F;hachyderm.io&#x2F;@damienmiller&#x2F;117563026759098135\" rel=\"nofollow\">https:&#x2F;&#x2F;hachyderm.io&#x2F;@damienmiller&#x2F;117563026759098135</a> &#x2F; <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50377221\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50377221</a><p><a href=\"https:&#x2F;&#x2F;www.openssh.org&#x2F;releasenotes.html#10.6p2\" rel=\"nofollow\">https:&#x2F;&#x2F;www.openssh.org&#x2F;releasenotes.html#10.6p2</a><p><a href=\"https:&#x2F;&#x2F;alpinelinux.org&#x2F;posts&#x2F;2026-11-05-openssh-password-authentication-bypass&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;alpinelinux.org&#x2F;posts&#x2F;2026-11-05-openssh-password-au...</a>",
       "url": "https://sshhole.com",
-      "score": 2994,
-      "comments": 749,
+      "score": 2996,
+      "comments": 750,
       "owner": "josemrb",
       "published": "2026-11-05T12:19:02Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50378228"
@@ -21,7 +21,7 @@
       "description": "",
       "url": "https://github.com/anthropics/claude-code/issues/107757",
       "score": 1612,
-      "comments": 534,
+      "comments": 535,
       "owner": "motoroco",
       "published": "2026-11-05T22:17:15Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50385272"
@@ -30,7 +30,7 @@
       "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
       "description": "",
       "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
-      "score": 1527,
+      "score": 1528,
       "comments": 498,
       "owner": "sidgarimella",
       "published": "2026-11-03T17:22:37Z",
@@ -51,7 +51,7 @@
       "description": "<a href=\"https:&#x2F;&#x2F;krebsonsecurity.com&#x2F;2026&#x2F;11&#x2F;want-to-rent-an-internet-address-at-the-white-house&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;krebsonsecurity.com&#x2F;2026&#x2F;11&#x2F;want-to-rent-an-internet...</a>",
       "url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
       "score": 1270,
-      "comments": 436,
+      "comments": 437,
       "owner": "Rasbora",
       "published": "2026-11-04T20:45:18Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50371246"
@@ -60,8 +60,8 @@
       "title": "Need for Speed Underground 2 online in the browser",
       "description": "",
       "url": "https://nfsu2.xyz/",
-      "score": 1164,
-      "comments": 291,
+      "score": 1165,
+      "comments": 292,
       "owner": "fluxusars",
       "published": "2026-11-07T09:36:36Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50403052"
@@ -70,8 +70,8 @@
       "title": "Tesla to wind down Cybertruck production",
       "description": "",
       "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
-      "score": 1158,
-      "comments": 2103,
+      "score": 1160,
+      "comments": 2106,
       "owner": "PLenz",
       "published": "2026-11-06T12:13:51Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50391456"
@@ -80,8 +80,8 @@
       "title": "Libghostty 1.0",
       "description": "",
       "url": "https://mitchellh.com/writing/libghostty-1-0",
-      "score": 1085,
-      "comments": 200,
+      "score": 1087,
+      "comments": 203,
       "owner": "mfiguiere",
       "published": "2026-11-06T23:30:52Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50399933"
@@ -97,11 +97,31 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50351111"
     },
     {
+      "title": "Foldable Flight: The Best Paper Airplanes",
+      "description": "",
+      "url": "https://www.foldableflight.com",
+      "score": 1015,
+      "comments": 149,
+      "owner": "vismit2000",
+      "published": "2026-11-09T12:19:22Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50424581"
+    },
+    {
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "description": "",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "score": 976,
+      "comments": 6,
+      "owner": "meetpateltech",
+      "published": "2026-11-09T18:56:29Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50429906"
+    },
+    {
       "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
       "description": "<a href=\"https:&#x2F;&#x2F;www.axios.com&#x2F;2026&#x2F;11&#x2F;08&#x2F;nvidia-ceo-jensen-huang-affair-email-to-company\" rel=\"nofollow\">https:&#x2F;&#x2F;www.axios.com&#x2F;2026&#x2F;11&#x2F;08&#x2F;nvidia-ceo-jensen-huang-aff...</a>, <a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;Hxn5h\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;Hxn5h</a><p><a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;2026&#x2F;11&#x2F;06&#x2F;us&#x2F;politics&#x2F;chinese-spy-agency-nvidia-jensen-huang.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nytimes.com&#x2F;2026&#x2F;11&#x2F;06&#x2F;us&#x2F;politics&#x2F;chinese-spy-a...</a>, <a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;atMcp\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;atMcp</a><p><a href=\"https:&#x2F;&#x2F;www.cnn.com&#x2F;2026&#x2F;11&#x2F;08&#x2F;business&#x2F;nvidia-investigation-ceo-jensen-huang\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cnn.com&#x2F;2026&#x2F;11&#x2F;08&#x2F;business&#x2F;nvidia-investigation...</a><p><i>Statement from Nvidia board of directors</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50416801\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50416801</a> - Nov 2026 (374 comments)",
       "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
-      "score": 937,
-      "comments": 1204,
+      "score": 958,
+      "comments": 1238,
       "owner": "karimf",
       "published": "2026-11-08T22:20:09Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50418016"
@@ -110,8 +130,8 @@
       "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
       "description": "",
       "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
-      "score": 882,
-      "comments": 472,
+      "score": 889,
+      "comments": 482,
       "owner": "TheWiggles",
       "published": "2026-11-08T18:16:07Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50415628"
@@ -121,7 +141,7 @@
       "description": "",
       "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
       "score": 863,
-      "comments": 459,
+      "comments": 465,
       "owner": "infwhispers",
       "published": "2026-11-07T09:46:03Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50403097"
@@ -137,20 +157,10 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50354358"
     },
     {
-      "title": "Claude Fable 5.2 and Mythos 5.2",
-      "description": "",
-      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-      "score": 826,
-      "comments": 491,
-      "owner": "meetpateltech",
-      "published": "2026-11-09T18:56:29Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50429906"
-    },
-    {
       "title": "What I run on my $10 USD OpenStick homelab",
       "description": "",
       "url": "https://blog.bosscher.ch/posts/openstick/",
-      "score": 816,
+      "score": 820,
       "comments": 137,
       "owner": "LaurensBER",
       "published": "2026-11-07T18:12:12Z",
@@ -160,21 +170,21 @@
       "title": "Goodbye Claude, hello Pi",
       "description": "",
       "url": "https://caleb.software/posts/claude-to-pi.html",
-      "score": 805,
-      "comments": 485,
+      "score": 807,
+      "comments": 487,
       "owner": "karagenit",
       "published": "2026-11-08T03:11:48Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50410107"
     },
     {
-      "title": "Fold Epic Paper Airplanes",
+      "title": "Is Opus 5.5 nerfed? Thinking patterns changed on November 3",
       "description": "",
-      "url": "https://www.foldableflight.com",
-      "score": 788,
-      "comments": 133,
-      "owner": "vismit2000",
-      "published": "2026-11-09T12:19:22Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50424581"
+      "url": "https://twitter.com/shanemelaugh/status/2119192075505893695",
+      "score": 787,
+      "comments": 488,
+      "owner": "rzk",
+      "published": "2026-11-09T07:04:25Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50422069"
     },
     {
       "title": "Search for everyone",
@@ -187,24 +197,14 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50383740"
     },
     {
-      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
       "description": "",
-      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "url": "https://ketchup3d.github.io/app/",
       "score": 740,
-      "comments": 214,
-      "owner": "theanonymousone",
-      "published": "2026-11-03T17:40:00Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50355251"
-    },
-    {
-      "title": "Blender's UI and Runtime: Much Faster Than GPUI",
-      "description": "",
-      "url": "https://github.com/ppmpreetham/BUI",
-      "score": 738,
-      "comments": 290,
-      "owner": "ppmpreetham",
-      "published": "2026-11-06T07:40:35Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50389333"
+      "comments": 226,
+      "owner": "dcoulmbe",
+      "published": "2026-11-08T22:35:35Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50418176"
     }
   ]
 }
