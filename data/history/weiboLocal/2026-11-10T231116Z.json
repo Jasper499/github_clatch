@@ -1,0 +1,122 @@
+{
+  "date": "2026-11-10T231116Z",
+  "day": "2026-11-10",
+  "sourceKey": "weiboLocal",
+  "savedAt": "2026-11-10T23:11:16Z",
+  "label": "同城",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-10，共 11 条，约每 6 小时更新）",
+  "updateFrequency": "every-6h",
+  "fetchedDate": "2026-11-10",
+  "items": [
+    {
+      "title": "5个上门维修师傅2个说了实话",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%235%E4%B8%AA%E4%B8%8A%E9%97%A8%E7%BB%B4%E4%BF%AE%E5%B8%88%E5%82%852%E4%B8%AA%E8%AF%B4%E4%BA%86%E5%AE%9E%E8%AF%9D%23&t=31&band_rank=1&Refer=top",
+      "score": 511414,
+      "owner": "微博同城",
+      "label": "热",
+      "category": "民生新闻",
+      "onboardTime": 1794325341
+    },
+    {
+      "title": "扬州地震",
+      "description": "新 · 突发/灾害",
+      "url": "https://s.weibo.com/weibo?q=%E6%89%AC%E5%B7%9E%E5%9C%B0%E9%9C%87&t=31&band_rank=1&Refer=top",
+      "score": 307742,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "突发/灾害",
+      "onboardTime": 1794352097
+    },
+    {
+      "title": "花坛藏尸案动手行凶者为何死缓",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%8A%B1%E5%9D%9B%E8%97%8F%E5%B0%B8%E6%A1%88%E5%8A%A8%E6%89%8B%E8%A1%8C%E5%87%B6%E8%80%85%E4%B8%BA%E4%BD%95%E6%AD%BB%E7%BC%93%23&t=31&band_rank=1&Refer=top",
+      "score": 150930,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1794326300
+    },
+    {
+      "title": "36岁女子赴泰失联现已回国",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%2336%E5%B2%81%E5%A5%B3%E5%AD%90%E8%B5%B4%E6%B3%B0%E5%A4%B1%E8%81%94%E7%8E%B0%E5%B7%B2%E5%9B%9E%E5%9B%BD%23&t=31&band_rank=1&Refer=top",
+      "score": 121935,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1794350836
+    },
+    {
+      "title": "女子补缴社保个人承担不到10万",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%90%E8%A1%A5%E7%BC%B4%E7%A4%BE%E4%BF%9D%E4%B8%AA%E4%BA%BA%E6%89%BF%E6%8B%85%E4%B8%8D%E5%88%B010%E4%B8%87&t=31&band_rank=1&Refer=top",
+      "score": 115835,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1794322704
+    },
+    {
+      "title": "彩民花20元机选中2000万大奖",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%BD%A9%E6%B0%91%E8%8A%B120%E5%85%83%E6%9C%BA%E9%80%89%E4%B8%AD2000%E4%B8%87%E5%A4%A7%E5%A5%96%23&t=31&band_rank=1&Refer=top",
+      "score": 115777,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1794328938
+    },
+    {
+      "title": "景德镇陶瓷盘穿上了流苏裙",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%99%AF%E5%BE%B7%E9%95%87%E9%99%B6%E7%93%B7%E7%9B%98%E7%A9%BF%E4%B8%8A%E4%BA%86%E6%B5%81%E8%8B%8F%E8%A3%99%23&t=31&band_rank=1&Refer=top",
+      "score": 115561,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1794347834
+    },
+    {
+      "title": "奶奶说选不喜欢的孩子养老不心疼",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%A5%B6%E5%A5%B6%E8%AF%B4%E9%80%89%E4%B8%8D%E5%96%9C%E6%AC%A2%E7%9A%84%E5%AD%A9%E5%AD%90%E5%85%BB%E8%80%81%E4%B8%8D%E5%BF%83%E7%96%BC&t=31&band_rank=1&Refer=top",
+      "score": 115345,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1794315261
+    },
+    {
+      "title": "花坛藏尸案凶手审讯画面首度公开",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%8A%B1%E5%9D%9B%E8%97%8F%E5%B0%B8%E6%A1%88%E5%87%B6%E6%89%8B%E5%AE%A1%E8%AE%AF%E7%94%BB%E9%9D%A2%E9%A6%96%E5%BA%A6%E5%85%AC%E5%BC%80%23&t=31&band_rank=1&Refer=top",
+      "score": 114968,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1794325041
+    },
+    {
+      "title": "警方通报司机溅湿路人强行撞车逃离",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A5%E5%8F%B8%E6%9C%BA%E6%BA%85%E6%B9%BF%E8%B7%AF%E4%BA%BA%E5%BC%BA%E8%A1%8C%E6%92%9E%E8%BD%A6%E9%80%83%E7%A6%BB%23&t=31&band_rank=1&Refer=top",
+      "score": 114558,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1794330977
+    },
+    {
+      "title": "李泽楷公司卖出全球最贵人寿保单",
+      "description": "财经,民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E6%B3%BD%E6%A5%B7%E5%85%AC%E5%8F%B8%E5%8D%96%E5%87%BA%E5%85%A8%E7%90%83%E6%9C%80%E8%B4%B5%E4%BA%BA%E5%AF%BF%E4%BF%9D%E5%8D%95%23&t=31&band_rank=1&Refer=top",
+      "score": 113791,
+      "owner": "微博同城",
+      "label": "",
+      "category": "财经,民生新闻",
+      "onboardTime": 1794324861
+    }
+  ]
+}
