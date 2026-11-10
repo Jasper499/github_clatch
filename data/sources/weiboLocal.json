@@ -1,60 +1,100 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-11-10T14:45:54Z",
+  "savedAt": "2026-11-10T21:00:18Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-10，共 5 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-10，共 9 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-11-10",
   "items": [
     {
-      "title": "学龄人口达峰 幼儿园小学初中资源优化",
+      "title": "花坛藏尸案动手行凶者为何死缓",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%AD%A6%E9%BE%84%E4%BA%BA%E5%8F%A3%E8%BE%BE%E5%B3%B0%20%E5%B9%BC%E5%84%BF%E5%9B%AD%E5%B0%8F%E5%AD%A6%E5%88%9D%E4%B8%AD%E8%B5%84%E6%BA%90%E4%BC%98%E5%8C%96&t=31&band_rank=1&Refer=top",
-      "score": 1500388,
+      "url": "https://s.weibo.com/weibo?q=%23%E8%8A%B1%E5%9D%9B%E8%97%8F%E5%B0%B8%E6%A1%88%E5%8A%A8%E6%89%8B%E8%A1%8C%E5%87%B6%E8%80%85%E4%B8%BA%E4%BD%95%E6%AD%BB%E7%BC%93%23&t=31&band_rank=1&Refer=top",
+      "score": 73222,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1794308001
+      "onboardTime": 1794326300
     },
     {
-      "title": "老人趴在炕上突然炕炸了",
+      "title": "花坛藏尸案凶手审讯画面首度公开",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%80%81%E4%BA%BA%E8%B6%B4%E5%9C%A8%E7%82%95%E4%B8%8A%E7%AA%81%E7%84%B6%E7%82%95%E7%82%B8%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 1164795,
+      "url": "https://s.weibo.com/weibo?q=%23%E8%8A%B1%E5%9D%9B%E8%97%8F%E5%B0%B8%E6%A1%88%E5%87%B6%E6%89%8B%E5%AE%A1%E8%AE%AF%E7%94%BB%E9%9D%A2%E9%A6%96%E5%BA%A6%E5%85%AC%E5%BC%80%23&t=31&band_rank=1&Refer=top",
+      "score": 70389,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1794309200
+      "onboardTime": 1794325041
     },
     {
-      "title": "外国人高铁车厢抽烟引质疑",
+      "title": "花坛藏尸案折射出非暴力解决矛盾",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%A4%96%E5%9B%BD%E4%BA%BA%E9%AB%98%E9%93%81%E8%BD%A6%E5%8E%A2%E6%8A%BD%E7%83%9F%E5%BC%95%E8%B4%A8%E7%96%91&t=31&band_rank=1&Refer=top",
-      "score": 1027342,
+      "url": "https://s.weibo.com/weibo?q=%23%E8%8A%B1%E5%9D%9B%E8%97%8F%E5%B0%B8%E6%A1%88%E6%8A%98%E5%B0%84%E5%87%BA%E9%9D%9E%E6%9A%B4%E5%8A%9B%E8%A7%A3%E5%86%B3%E7%9F%9B%E7%9B%BE%23&t=31&band_rank=1&Refer=top",
+      "score": 69906,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1794306799
+      "onboardTime": 1794338234
+    },
+    {
+      "title": "5个上门维修师傅2个说了实话",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%235%E4%B8%AA%E4%B8%8A%E9%97%A8%E7%BB%B4%E4%BF%AE%E5%B8%88%E5%82%852%E4%B8%AA%E8%AF%B4%E4%BA%86%E5%AE%9E%E8%AF%9D%23&t=31&band_rank=1&Refer=top",
+      "score": 52531,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1794325341
+    },
+    {
+      "title": "李泽楷公司卖出全球最贵人寿保单",
+      "description": "财经,民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E6%B3%BD%E6%A5%B7%E5%85%AC%E5%8F%B8%E5%8D%96%E5%87%BA%E5%85%A8%E7%90%83%E6%9C%80%E8%B4%B5%E4%BA%BA%E5%AF%BF%E4%BF%9D%E5%8D%95%23&t=31&band_rank=1&Refer=top",
+      "score": 52091,
+      "owner": "微博同城",
+      "label": "",
+      "category": "财经,民生新闻",
+      "onboardTime": 1794324861
+    },
+    {
+      "title": "彩民花20元机选中2000万大奖",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%BD%A9%E6%B0%91%E8%8A%B120%E5%85%83%E6%9C%BA%E9%80%89%E4%B8%AD2000%E4%B8%87%E5%A4%A7%E5%A5%96%23&t=31&band_rank=1&Refer=top",
+      "score": 52013,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1794328938
     },
     {
       "title": "奶奶说选不喜欢的孩子养老不心疼",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%E5%A5%B6%E5%A5%B6%E8%AF%B4%E9%80%89%E4%B8%8D%E5%96%9C%E6%AC%A2%E7%9A%84%E5%AD%A9%E5%AD%90%E5%85%BB%E8%80%81%E4%B8%8D%E5%BF%83%E7%96%BC&t=31&band_rank=1&Refer=top",
-      "score": 331815,
+      "score": 51752,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1794315261
     },
     {
-      "title": "儿媳流产婆婆不照料还称其是报应",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%84%BF%E5%AA%B3%E6%B5%81%E4%BA%A7%E5%A9%86%E5%A9%86%E4%B8%8D%E7%85%A7%E6%96%99%E8%BF%98%E7%A7%B0%E5%85%B6%E6%98%AF%E6%8A%A5%E5%BA%94%23&t=31&band_rank=1&Refer=top",
-      "score": 331699,
+      "title": "女子补缴社保个人承担不到10万",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%90%E8%A1%A5%E7%BC%B4%E7%A4%BE%E4%BF%9D%E4%B8%AA%E4%BA%BA%E6%89%BF%E6%8B%85%E4%B8%8D%E5%88%B010%E4%B8%87&t=31&band_rank=1&Refer=top",
+      "score": 51680,
       "owner": "微博同城",
-      "label": "新",
+      "label": "",
       "category": "民生新闻",
-      "onboardTime": 1794319044
+      "onboardTime": 1794322704
+    },
+    {
+      "title": "警方通报司机溅湿路人强行撞车逃离",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A5%E5%8F%B8%E6%9C%BA%E6%BA%85%E6%B9%BF%E8%B7%AF%E4%BA%BA%E5%BC%BA%E8%A1%8C%E6%92%9E%E8%BD%A6%E9%80%83%E7%A6%BB%23&t=31&band_rank=1&Refer=top",
+      "score": 51661,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1794330977
     }
   ]
 }
