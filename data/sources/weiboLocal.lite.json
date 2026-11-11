@@ -1,110 +1,100 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-11-11T05:58:50Z",
+  "savedAt": "2026-11-11T09:50:41Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-11，共 10 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-11，共 9 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-11-11",
   "items": [
     {
-      "title": "林生斌名下关联13家公司",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9E%97%E7%94%9F%E6%96%8C%E5%90%8D%E4%B8%8B%E5%85%B3%E8%81%9413%E5%AE%B6%E5%85%AC%E5%8F%B8%23&t=31&band_rank=1&Refer=top",
-      "score": 1251648,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1794373760
-    },
-    {
-      "title": "前10个月外贸强劲增长",
+      "title": "商场看中羽绒服网上便宜一千",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%89%8D10%E4%B8%AA%E6%9C%88%E5%A4%96%E8%B4%B8%E5%BC%BA%E5%8A%B2%E5%A2%9E%E9%95%BF%23&t=31&band_rank=1&Refer=top",
-      "score": 692109,
+      "url": "https://s.weibo.com/weibo?q=%E5%95%86%E5%9C%BA%E7%9C%8B%E4%B8%AD%E7%BE%BD%E7%BB%92%E6%9C%8D%E7%BD%91%E4%B8%8A%E4%BE%BF%E5%AE%9C%E4%B8%80%E5%8D%83&t=31&band_rank=1&Refer=top",
+      "score": 1121399,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1794363200
+      "onboardTime": 1794384860
     },
     {
-      "title": "女孩在拼豆店干坐离开前留纸条道歉",
+      "title": "一人一句致敬人民空军",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%A9%E5%9C%A8%E6%8B%BC%E8%B1%86%E5%BA%97%E5%B9%B2%E5%9D%90%E7%A6%BB%E5%BC%80%E5%89%8D%E7%95%99%E7%BA%B8%E6%9D%A1%E9%81%93%E6%AD%89%23&t=31&band_rank=1&Refer=top",
-      "score": 365462,
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%80%E4%BA%BA%E4%B8%80%E5%8F%A5%E8%87%B4%E6%95%AC%E4%BA%BA%E6%B0%91%E7%A9%BA%E5%86%9B%23&t=31&band_rank=1&Refer=top",
+      "score": 628030,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1794366861
+      "onboardTime": 1794383180
     },
     {
-      "title": "董宇辉回应千层蛋糕保质期",
+      "title": "林生斌承诺的基金会至今未落地",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%91%A3%E5%AE%87%E8%BE%89%E5%9B%9E%E5%BA%94%E5%8D%83%E5%B1%82%E8%9B%8B%E7%B3%95%E4%BF%9D%E8%B4%A8%E6%9C%9F%23&t=31&band_rank=1&Refer=top",
-      "score": 358984,
+      "url": "https://s.weibo.com/weibo?q=%E6%9E%97%E7%94%9F%E6%96%8C%E6%89%BF%E8%AF%BA%E7%9A%84%E5%9F%BA%E9%87%91%E4%BC%9A%E8%87%B3%E4%BB%8A%E6%9C%AA%E8%90%BD%E5%9C%B0&t=31&band_rank=1&Refer=top",
+      "score": 173564,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1794374060
+      "onboardTime": 1794385399
     },
     {
-      "title": "林生斌",
-      "description": "热 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E6%9E%97%E7%94%9F%E6%96%8C&t=31&band_rank=1&Refer=top",
-      "score": 318431,
-      "owner": "微博同城",
-      "label": "热",
-      "category": "民生新闻",
-      "onboardTime": 1794371000
-    },
-    {
-      "title": "拜登遇袭",
+      "title": "林生斌服装品牌曾被曝抽检不合格",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%8B%9C%E7%99%BB%E9%81%87%E8%A2%AD%23&t=31&band_rank=1&Refer=top",
-      "score": 316963,
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9E%97%E7%94%9F%E6%96%8C%E6%9C%8D%E8%A3%85%E5%93%81%E7%89%8C%E6%9B%BE%E8%A2%AB%E6%9B%9D%E6%8A%BD%E6%A3%80%E4%B8%8D%E5%90%88%E6%A0%BC%23&t=31&band_rank=1&Refer=top",
+      "score": 161652,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1794371959
+      "onboardTime": 1794389781
     },
     {
       "title": "地震瞬间3只小猫惊成6个灯泡",
       "description": "突发/灾害",
       "url": "https://s.weibo.com/weibo?q=%23%E5%9C%B0%E9%9C%87%E7%9E%AC%E9%97%B43%E5%8F%AA%E5%B0%8F%E7%8C%AB%E6%83%8A%E6%88%906%E4%B8%AA%E7%81%AF%E6%B3%A1%23&t=31&band_rank=1&Refer=top",
-      "score": 224153,
+      "score": 160574,
       "owner": "微博同城",
       "label": "",
       "category": "突发/灾害",
       "onboardTime": 1794369260
     },
     {
-      "title": "39岁经纪人疑因新冠去世",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=39%E5%B2%81%E7%BB%8F%E7%BA%AA%E4%BA%BA%E7%96%91%E5%9B%A0%E6%96%B0%E5%86%A0%E5%8E%BB%E4%B8%96&t=31&band_rank=1&Refer=top",
-      "score": 210932,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1794364219
-    },
-    {
-      "title": "5个上门维修师傅2个说了实话",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%235%E4%B8%AA%E4%B8%8A%E9%97%A8%E7%BB%B4%E4%BF%AE%E5%B8%88%E5%82%852%E4%B8%AA%E8%AF%B4%E4%BA%86%E5%AE%9E%E8%AF%9D%23&t=31&band_rank=1&Refer=top",
-      "score": 206259,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1794325341
-    },
-    {
-      "title": "出轨猝死 法律不替道德买单",
+      "title": "网传眉山160万房子只卖30多万",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%87%BA%E8%BD%A8%E7%8C%9D%E6%AD%BB%20%E6%B3%95%E5%BE%8B%E4%B8%8D%E6%9B%BF%E9%81%93%E5%BE%B7%E4%B9%B0%E5%8D%95&t=31&band_rank=1&Refer=top",
-      "score": 182056,
+      "url": "https://s.weibo.com/weibo?q=%E7%BD%91%E4%BC%A0%E7%9C%89%E5%B1%B1160%E4%B8%87%E6%88%BF%E5%AD%90%E5%8F%AA%E5%8D%9630%E5%A4%9A%E4%B8%87&t=31&band_rank=1&Refer=top",
+      "score": 124030,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1794376700
+      "onboardTime": 1794390141
+    },
+    {
+      "title": "林生斌纪念妻儿童装品牌已注销",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9E%97%E7%94%9F%E6%96%8C%E7%BA%AA%E5%BF%B5%E5%A6%BB%E5%84%BF%E7%AB%A5%E8%A3%85%E5%93%81%E7%89%8C%E5%B7%B2%E6%B3%A8%E9%94%80%23&t=31&band_rank=1&Refer=top",
+      "score": 118023,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1794388580
+    },
+    {
+      "title": "林生斌事件时间线梳理",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9E%97%E7%94%9F%E6%96%8C%E4%BA%8B%E4%BB%B6%E6%97%B6%E9%97%B4%E7%BA%BF%E6%A2%B3%E7%90%86%23&t=31&band_rank=1&Refer=top",
+      "score": 114631,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1794388641
+    },
+    {
+      "title": "机械臂捡快递遇异形件直接扔走",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9C%BA%E6%A2%B0%E8%87%82%E6%8D%A1%E5%BF%AB%E9%80%92%E9%81%87%E5%BC%82%E5%BD%A2%E4%BB%B6%E7%9B%B4%E6%8E%A5%E6%89%94%E8%B5%B0%23&t=31&band_rank=1&Refer=top",
+      "score": 95893,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1794388580
     }
   ]
 }
