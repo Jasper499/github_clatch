@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-11-11T05:59:22Z",
+  "savedAt": "2026-11-11T09:01:14Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-11-11，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -50,7 +50,7 @@
       "title": "Foldable Flight: The Best Paper Airplanes",
       "description": "",
       "url": "https://www.foldableflight.com",
-      "score": 1214,
+      "score": 1218,
       "comments": 167,
       "owner": "vismit2000",
       "published": "2026-11-09T12:19:22Z",
@@ -71,7 +71,7 @@
       "description": "",
       "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
       "score": 1163,
-      "comments": 2114,
+      "comments": 2115,
       "owner": "PLenz",
       "published": "2026-11-06T12:13:51Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50391456"
@@ -90,7 +90,7 @@
       "title": "Claude Fable 5.2 and Mythos 5.2",
       "description": "",
       "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-      "score": 990,
+      "score": 992,
       "comments": 8,
       "owner": "meetpateltech",
       "published": "2026-11-09T18:56:29Z",
@@ -100,11 +100,21 @@
       "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
       "description": "<a href=\"https:&#x2F;&#x2F;www.axios.com&#x2F;2026&#x2F;11&#x2F;08&#x2F;nvidia-ceo-jensen-huang-affair-email-to-company\" rel=\"nofollow\">https:&#x2F;&#x2F;www.axios.com&#x2F;2026&#x2F;11&#x2F;08&#x2F;nvidia-ceo-jensen-huang-aff...</a>, <a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;Hxn5h\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;Hxn5h</a><p><a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;2026&#x2F;11&#x2F;06&#x2F;us&#x2F;politics&#x2F;chinese-spy-agency-nvidia-jensen-huang.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nytimes.com&#x2F;2026&#x2F;11&#x2F;06&#x2F;us&#x2F;politics&#x2F;chinese-spy-a...</a>, <a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;atMcp\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;atMcp</a><p><a href=\"https:&#x2F;&#x2F;www.cnn.com&#x2F;2026&#x2F;11&#x2F;08&#x2F;business&#x2F;nvidia-investigation-ceo-jensen-huang\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cnn.com&#x2F;2026&#x2F;11&#x2F;08&#x2F;business&#x2F;nvidia-investigation...</a><p><i>Statement from Nvidia board of directors</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50416801\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50416801</a> - Nov 2026 (374 comments)",
       "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
-      "score": 977,
-      "comments": 1273,
+      "score": 980,
+      "comments": 1280,
       "owner": "karimf",
       "published": "2026-11-08T22:20:09Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50418016"
+    },
+    {
+      "title": "Smart home devices should work without the internet",
+      "description": "",
+      "url": "https://docodethatmatters.com/home-automation-overnight-success/",
+      "score": 911,
+      "comments": 324,
+      "owner": "skittleson",
+      "published": "2026-11-10T15:25:20Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50441707"
     },
     {
       "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
@@ -120,8 +130,8 @@
       "title": "Claude Fable 5.2 and Mythos 5.2",
       "description": "",
       "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-      "score": 886,
-      "comments": 1012,
+      "score": 891,
+      "comments": 1015,
       "owner": "lairv",
       "published": "2026-11-09T18:01:10Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50429068"
@@ -147,20 +157,10 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50406670"
     },
     {
-      "title": "Smart home devices should work without the internet",
-      "description": "",
-      "url": "https://docodethatmatters.com/home-automation-overnight-success/",
-      "score": 820,
-      "comments": 295,
-      "owner": "skittleson",
-      "published": "2026-11-10T15:25:20Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50441707"
-    },
-    {
       "title": "Is Opus 5.5 nerfed? Thinking patterns changed on November 3",
       "description": "",
       "url": "https://twitter.com/shanemelaugh/status/2119192075505893695",
-      "score": 816,
+      "score": 817,
       "comments": 511,
       "owner": "rzk",
       "published": "2026-11-09T07:04:25Z",
@@ -177,10 +177,20 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50410107"
     },
     {
+      "title": ".name Grandfathered",
+      "description": "Previously: <i>.name Termination</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49550772\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49550772</a> - Sept 2026 (547 comments)",
+      "url": "https://neil.fraser.name/news/2026/11/10/",
+      "score": 814,
+      "comments": 178,
+      "owner": "p4bl0",
+      "published": "2026-11-10T16:37:44Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50442736"
+    },
+    {
       "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
       "description": "",
       "url": "https://ketchup3d.github.io/app/",
-      "score": 762,
+      "score": 765,
       "comments": 232,
       "owner": "dcoulmbe",
       "published": "2026-11-08T22:35:35Z",
@@ -195,16 +205,6 @@
       "owner": "elashri",
       "published": "2026-11-05T20:03:34Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50383740"
-    },
-    {
-      "title": ".name Grandfathered",
-      "description": "Previously: <i>.name Termination</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49550772\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49550772</a> - Sept 2026 (547 comments)",
-      "url": "https://neil.fraser.name/news/2026/11/10/",
-      "score": 752,
-      "comments": 169,
-      "owner": "p4bl0",
-      "published": "2026-11-10T16:37:44Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50442736"
     }
   ]
 }
