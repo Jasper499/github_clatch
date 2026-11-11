@@ -1,6 +1,6 @@
 {
   "sourceKey": "chinaDaily",
-  "savedAt": "2026-11-11T09:36:44Z",
+  "savedAt": "2026-11-11T10:24:36Z",
   "label": "China Daily 热门",
   "description": "China Daily Most Viewed / 首页热门（2026-11-11，共 20 条，每天更新）",
   "updateFrequency": "daily",
@@ -90,12 +90,24 @@
       "image": "https://img2.chinadaily.com.cn/images/202611/11/6af410d1e4b03ebf7463659f.png"
     },
     {
+      "title": "Mainland criticizes DPP move to restrict cross-Strait exchanges",
+      "url": "https://www.chinadaily.com.cn/a/202611/11/WS6af4365de4b03ebf8519bd61.html",
+      "score": 0,
+      "published": "2026-11-11",
+      "source": "homepage",
+      "rank": 8,
+      "description": "Zhang Han, a spokeswoman for the State Council Taiwan Affairs Office, said the act was fabricated by the DPP authorities to suppress political dissent, intimidate Taiwan residents, restrict cross-Strait exchanges, and advance their own political interests.",
+      "owner": "Li Shangyi",
+      "label": "Top News",
+      "image": "https://img2.chinadaily.com.cn/images/202611/11/6af4365de4b03ebf74636bd8.jpeg"
+    },
+    {
       "title": "Chinese experts build space-based computing network",
       "url": "https://www.chinadaily.com.cn/a/202611/11/WS6af42a1fe4b03ebf8519bd2f.html",
       "score": 0,
       "published": "2026-11-11",
       "source": "homepage",
-      "rank": 8,
+      "rank": 9,
       "description": "He cited examples that data collected over oceans or concerning general-aviation and commercial drone operations often cannot reach ground stations in a timely manner, causing delay to data analyses or decision-making.",
       "owner": "ZHAO LEI",
       "label": "Top News",
@@ -107,23 +119,11 @@
       "score": 0,
       "published": "2026-11-11",
       "source": "homepage",
-      "rank": 9,
+      "rank": 10,
       "description": "China's strong political will to advance healthcare, together with its emphasis on equity and community engagement, has accelerated the country's health progress and offers valuable lessons for the world, said Richard Horton, editor-in-chief of the medical journal The Lancet.",
       "owner": "WANG XIAOYU",
       "label": "Top News",
       "image": "https://img2.chinadaily.com.cn/images/202611/11/6af3c0d4e4b03ebf74635d40.jpeg"
-    },
-    {
-      "title": "32nd Pacific cyclone logs a record for this century",
-      "url": "https://www.chinadaily.com.cn/a/202611/11/WS6af3c48ae4b03ebf8519bb7e.html",
-      "score": 0,
-      "published": "2026-11-11",
-      "source": "homepage",
-      "rank": 10,
-      "description": "Typhoon Cempaka, the 32nd tropical cyclone to form in the western North Pacific this year, developed over the Pacific Ocean on Saturday, bringing the region's annual storm count to its highest level since the beginning of the 21st century, according to the China Meteorological Administration.",
-      "owner": "ZHAO YIMENG",
-      "label": "Top News",
-      "image": "https://img2.chinadaily.com.cn/images/202611/11/6af3c8a0e4b03ebf74635eda.png"
     },
     {
       "title": "Restoring steppe ecosystems of Hulunbuir",

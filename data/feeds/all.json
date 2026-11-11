@@ -6,148 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E5%95%86%E5%9C%BA%E7%9C%8B%E4%B8%AD%E7%BE%BD%E7%BB%92%E6%9C%8D%E7%BD%91%E4%B8%8A%E4%BE%BF%E5%AE%9C%E4%B8%80%E5%8D%83&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%95%86%E5%9C%BA%E7%9C%8B%E4%B8%AD%E7%BE%BD%E7%BB%92%E6%9C%8D%E7%BD%91%E4%B8%8A%E4%BE%BF%E5%AE%9C%E4%B8%80%E5%8D%83&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 商场看中羽绒服网上便宜一千",
-      "date_published": "2026-11-11T09:50:41Z"
+      "id": "chinaDaily:https://www.chinadaily.com.cn/a/202611/11/WS6ae7eeb1e4b06d4aa0566690.html",
+      "url": "https://www.chinadaily.com.cn/a/202611/11/WS6ae7eeb1e4b06d4aa0566690.html",
+      "title": "[China Daily 热门] Xi calls on APEC members to work together amid challenges",
+      "date_published": "2026-11-11T10:24:36Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E6%9C%AA%E6%9D%A55%E5%B9%B4%E4%BC%9A%E8%AE%A1%E4%BA%8B%E4%B8%9A%E8%BF%99%E6%A0%B7%E5%8F%91%E5%B1%95%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9C%AA%E6%9D%A55%E5%B9%B4%E4%BC%9A%E8%AE%A1%E4%BA%8B%E4%B8%9A%E8%BF%99%E6%A0%B7%E5%8F%91%E5%B1%95%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 未来5年会计事业这样发展",
-      "date_published": "2026-11-11T09:50:41Z"
+      "id": "chinaDaily:https://www.chinadaily.com.cn/a/202611/11/WS6af3e1cde4b03ebf8519bc87.html",
+      "url": "https://www.chinadaily.com.cn/a/202611/11/WS6af3e1cde4b03ebf8519bc87.html",
+      "title": "[China Daily 热门] Figures that define this year's CIIE",
+      "date_published": "2026-11-11T10:24:36Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E4%B8%80%E4%BA%BA%E4%B8%80%E5%8F%A5%E8%87%B4%E6%95%AC%E4%BA%BA%E6%B0%91%E7%A9%BA%E5%86%9B%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%80%E4%BA%BA%E4%B8%80%E5%8F%A5%E8%87%B4%E6%95%AC%E4%BA%BA%E6%B0%91%E7%A9%BA%E5%86%9B%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 一人一句致敬人民空军",
-      "date_published": "2026-11-11T09:50:41Z"
+      "id": "chinaDaily:https://www.chinadaily.com.cn/a/202611/11/WS6af39f4fe4b03ebf8519ba5a.html",
+      "url": "https://www.chinadaily.com.cn/a/202611/11/WS6af39f4fe4b03ebf8519ba5a.html",
+      "title": "[China Daily 热门] Data centers crank up job seekers' options",
+      "date_published": "2026-11-11T10:24:36Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23BLG%E5%AE%98%E5%AE%A3Smoggy%E5%8A%A0%E5%85%A5%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23BLG%E5%AE%98%E5%AE%A3Smoggy%E5%8A%A0%E5%85%A5%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] BLG官宣Smoggy加入",
-      "date_published": "2026-11-11T09:50:41Z"
+      "id": "chinaDaily:https://www.chinadaily.com.cn/a/202611/11/WS6af3acc8e4b03ebf8519ba8e.html",
+      "url": "https://www.chinadaily.com.cn/a/202611/11/WS6af3acc8e4b03ebf8519ba8e.html",
+      "title": "[China Daily 热门] Shanghai import expo sets several records",
+      "date_published": "2026-11-11T10:24:36Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E6%AF%94%E4%BA%9A%E8%BF%AA%E5%AF%B9%E9%94%99%E8%A3%85%E5%A4%A7%E5%94%90%E8%BD%A6%E8%BE%86%E9%87%8D%E6%96%B0%E8%B5%B7%E7%AE%97%E6%95%B4%E8%BD%A6%E8%B4%A8%E4%BF%9D%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%AF%94%E4%BA%9A%E8%BF%AA%E5%AF%B9%E9%94%99%E8%A3%85%E5%A4%A7%E5%94%90%E8%BD%A6%E8%BE%86%E9%87%8D%E6%96%B0%E8%B5%B7%E7%AE%97%E6%95%B4%E8%BD%A6%E8%B4%A8%E4%BF%9D%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 比亚迪对错装大唐车辆重新起算整车质保",
-      "date_published": "2026-11-11T09:50:41Z"
+      "id": "chinaDaily:https://www.chinadaily.com.cn/a/202611/11/WS6af3ac0ee4b03ebf8519ba84.html",
+      "url": "https://www.chinadaily.com.cn/a/202611/11/WS6af3ac0ee4b03ebf8519ba84.html",
+      "title": "[China Daily 热门] 'Skillcations' enrich holiday experiences",
+      "date_published": "2026-11-11T10:24:36Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E9%9F%A9%E8%81%AA%E6%99%92%E7%BB%93%E5%A9%9A%E7%85%A7%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%9F%A9%E8%81%AA%E6%99%92%E7%BB%93%E5%A9%9A%E7%85%A7%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 韩聪晒结婚照",
-      "date_published": "2026-11-11T09:50:41Z"
+      "id": "chinaDaily:https://www.chinadaily.com.cn/a/202611/11/WS6af3a050e4b03ebf8519ba5f.html",
+      "url": "https://www.chinadaily.com.cn/a/202611/11/WS6af3a050e4b03ebf8519ba5f.html",
+      "title": "[China Daily 热门] New rockets to lift nation's launch capacity",
+      "date_published": "2026-11-11T10:24:36Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%85%B0%E9%A6%99%E5%A6%82%E6%95%85%E9%85%8D%E8%A7%92%E6%8B%BF%E5%88%B0%E7%94%B7%E5%A5%B3%E4%B8%BB%E8%B5%84%E6%BA%90%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%85%B0%E9%A6%99%E5%A6%82%E6%95%85%E9%85%8D%E8%A7%92%E6%8B%BF%E5%88%B0%E7%94%B7%E5%A5%B3%E4%B8%BB%E8%B5%84%E6%BA%90%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 兰香如故配角拿到男女主资源了",
-      "date_published": "2026-11-11T09:50:41Z"
+      "id": "chinaDaily:https://www.chinadaily.com.cn/a/202611/11/WS6af410d1e4b03ebf8519bcdf.html",
+      "url": "https://www.chinadaily.com.cn/a/202611/11/WS6af410d1e4b03ebf8519bcdf.html",
+      "title": "[China Daily 热门] Village canteens offer rural seniors hot meals and more in Gansu",
+      "date_published": "2026-11-11T10:24:36Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E6%9B%BF%E5%B0%94%E6%B3%8A%E8%82%BD%E8%B6%85%E8%B6%8A%E5%8F%B8%E7%BE%8E%E6%A0%BC%E9%B2%81%E8%82%BD%E6%88%90%E5%85%A8%E7%90%83%E8%8D%AF%E7%8E%8B%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9B%BF%E5%B0%94%E6%B3%8A%E8%82%BD%E8%B6%85%E8%B6%8A%E5%8F%B8%E7%BE%8E%E6%A0%BC%E9%B2%81%E8%82%BD%E6%88%90%E5%85%A8%E7%90%83%E8%8D%AF%E7%8E%8B%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 替尔泊肽超越司美格鲁肽成全球药王",
-      "date_published": "2026-11-11T09:50:41Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E7%8E%8B%E5%98%89%E5%B0%94%E5%92%8C%E7%8E%8B%E5%81%87%E5%B0%94&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E5%98%89%E5%B0%94%E5%92%8C%E7%8E%8B%E5%81%87%E5%B0%94&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 王嘉尔和王假尔",
-      "date_published": "2026-11-11T09:50:41Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E7%99%BD%E5%B0%8F%E7%BA%AF%E8%A2%AB%E7%B2%89%E4%B8%9D%E5%8F%AB%E7%BA%AF%E5%A6%B9%E5%A6%B9%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E5%B0%8F%E7%BA%AF%E8%A2%AB%E7%B2%89%E4%B8%9D%E5%8F%AB%E7%BA%AF%E5%A6%B9%E5%A6%B9%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 白小纯被粉丝叫纯妹妹",
-      "date_published": "2026-11-11T09:50:41Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E7%A6%BB%E5%B2%B8%E4%BF%A1%E6%89%98%E6%94%B6%E7%9B%8A%E5%BE%81%E7%A8%8E%E5%B9%B3%E7%A8%B3%E6%9C%89%E5%BA%8F%E6%8E%A8%E8%BF%9B%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%A6%BB%E5%B2%B8%E4%BF%A1%E6%89%98%E6%94%B6%E7%9B%8A%E5%BE%81%E7%A8%8E%E5%B9%B3%E7%A8%B3%E6%9C%89%E5%BA%8F%E6%8E%A8%E8%BF%9B%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 离岸信托收益征税平稳有序推进",
-      "date_published": "2026-11-11T09:50:41Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E7%BD%91%E4%BC%A0%E7%9C%89%E5%B1%B1160%E4%B8%87%E6%88%BF%E5%AD%90%E5%8F%AA%E5%8D%9630%E5%A4%9A%E4%B8%87&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E7%BD%91%E4%BC%A0%E7%9C%89%E5%B1%B1160%E4%B8%87%E6%88%BF%E5%AD%90%E5%8F%AA%E5%8D%9630%E5%A4%9A%E4%B8%87&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 网传眉山160万房子只卖30多万",
-      "date_published": "2026-11-11T09:50:41Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%85%B0%E9%A6%99%E5%A6%82%E6%95%85%E9%85%8D%E8%A7%92%E6%8B%BF%E5%88%B0%E7%94%B7%E5%A5%B3%E4%B8%BB%E8%B5%84%E6%BA%90%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%85%B0%E9%A6%99%E5%A6%82%E6%95%85%E9%85%8D%E8%A7%92%E6%8B%BF%E5%88%B0%E7%94%B7%E5%A5%B3%E4%B8%BB%E8%B5%84%E6%BA%90%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 兰香如故配角拿到男女主资源了",
-      "date_published": "2026-11-11T09:50:41Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E5%88%A9%E6%8B%89%E5%BE%B7%E8%B6%85%E8%BF%9C%E5%8E%8B%E5%93%A8%E4%B8%89%E5%88%86&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%88%A9%E6%8B%89%E5%BE%B7%E8%B6%85%E8%BF%9C%E5%8E%8B%E5%93%A8%E4%B8%89%E5%88%86&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 利拉德超远压哨三分",
-      "date_published": "2026-11-11T09:50:41Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E6%9E%97%E7%94%9F%E6%96%8C%E6%9C%8D%E8%A3%85%E5%93%81%E7%89%8C%E6%9B%BE%E8%A2%AB%E6%9B%9D%E6%8A%BD%E6%A3%80%E4%B8%8D%E5%90%88%E6%A0%BC%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9E%97%E7%94%9F%E6%96%8C%E6%9C%8D%E8%A3%85%E5%93%81%E7%89%8C%E6%9B%BE%E8%A2%AB%E6%9B%9D%E6%8A%BD%E6%A3%80%E4%B8%8D%E5%90%88%E6%A0%BC%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 林生斌服装品牌曾被曝抽检不合格",
-      "date_published": "2026-11-11T09:50:41Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%2380vs90vs00%E7%9A%84%E8%B4%AD%E7%89%A9%E8%BD%A6%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%2380vs90vs00%E7%9A%84%E8%B4%AD%E7%89%A9%E8%BD%A6%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 80vs90vs00的购物车",
-      "date_published": "2026-11-11T09:50:41Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E5%95%86%E5%9C%BA%E7%9C%8B%E4%B8%AD%E7%BE%BD%E7%BB%92%E6%9C%8D%E7%BD%91%E4%B8%8A%E4%BE%BF%E5%AE%9C%E4%B8%80%E5%8D%83&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%95%86%E5%9C%BA%E7%9C%8B%E4%B8%AD%E7%BE%BD%E7%BB%92%E6%9C%8D%E7%BD%91%E4%B8%8A%E4%BE%BF%E5%AE%9C%E4%B8%80%E5%8D%83&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 商场看中羽绒服网上便宜一千",
-      "date_published": "2026-11-11T09:50:41Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E4%B8%80%E4%BA%BA%E4%B8%80%E5%8F%A5%E8%87%B4%E6%95%AC%E4%BA%BA%E6%B0%91%E7%A9%BA%E5%86%9B%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%80%E4%BA%BA%E4%B8%80%E5%8F%A5%E8%87%B4%E6%95%AC%E4%BA%BA%E6%B0%91%E7%A9%BA%E5%86%9B%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 一人一句致敬人民空军",
-      "date_published": "2026-11-11T09:50:41Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E6%9E%97%E7%94%9F%E6%96%8C%E6%89%BF%E8%AF%BA%E7%9A%84%E5%9F%BA%E9%87%91%E4%BC%9A%E8%87%B3%E4%BB%8A%E6%9C%AA%E8%90%BD%E5%9C%B0&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E6%9E%97%E7%94%9F%E6%96%8C%E6%89%BF%E8%AF%BA%E7%9A%84%E5%9F%BA%E9%87%91%E4%BC%9A%E8%87%B3%E4%BB%8A%E6%9C%AA%E8%90%BD%E5%9C%B0&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 林生斌承诺的基金会至今未落地",
-      "date_published": "2026-11-11T09:50:41Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E6%9E%97%E7%94%9F%E6%96%8C%E6%9C%8D%E8%A3%85%E5%93%81%E7%89%8C%E6%9B%BE%E8%A2%AB%E6%9B%9D%E6%8A%BD%E6%A3%80%E4%B8%8D%E5%90%88%E6%A0%BC%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9E%97%E7%94%9F%E6%96%8C%E6%9C%8D%E8%A3%85%E5%93%81%E7%89%8C%E6%9B%BE%E8%A2%AB%E6%9B%9D%E6%8A%BD%E6%A3%80%E4%B8%8D%E5%90%88%E6%A0%BC%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 林生斌服装品牌曾被曝抽检不合格",
-      "date_published": "2026-11-11T09:50:41Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%9C%B0%E9%9C%87%E7%9E%AC%E9%97%B43%E5%8F%AA%E5%B0%8F%E7%8C%AB%E6%83%8A%E6%88%906%E4%B8%AA%E7%81%AF%E6%B3%A1%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%9C%B0%E9%9C%87%E7%9E%AC%E9%97%B43%E5%8F%AA%E5%B0%8F%E7%8C%AB%E6%83%8A%E6%88%906%E4%B8%AA%E7%81%AF%E6%B3%A1%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 地震瞬间3只小猫惊成6个灯泡",
-      "date_published": "2026-11-11T09:50:41Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E7%BD%91%E4%BC%A0%E7%9C%89%E5%B1%B1160%E4%B8%87%E6%88%BF%E5%AD%90%E5%8F%AA%E5%8D%9630%E5%A4%9A%E4%B8%87&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E7%BD%91%E4%BC%A0%E7%9C%89%E5%B1%B1160%E4%B8%87%E6%88%BF%E5%AD%90%E5%8F%AA%E5%8D%9630%E5%A4%9A%E4%B8%87&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 网传眉山160万房子只卖30多万",
-      "date_published": "2026-11-11T09:50:41Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E6%9E%97%E7%94%9F%E6%96%8C%E7%BA%AA%E5%BF%B5%E5%A6%BB%E5%84%BF%E7%AB%A5%E8%A3%85%E5%93%81%E7%89%8C%E5%B7%B2%E6%B3%A8%E9%94%80%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9E%97%E7%94%9F%E6%96%8C%E7%BA%AA%E5%BF%B5%E5%A6%BB%E5%84%BF%E7%AB%A5%E8%A3%85%E5%93%81%E7%89%8C%E5%B7%B2%E6%B3%A8%E9%94%80%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 林生斌纪念妻儿童装品牌已注销",
-      "date_published": "2026-11-11T09:50:41Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E6%9E%97%E7%94%9F%E6%96%8C%E4%BA%8B%E4%BB%B6%E6%97%B6%E9%97%B4%E7%BA%BF%E6%A2%B3%E7%90%86%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9E%97%E7%94%9F%E6%96%8C%E4%BA%8B%E4%BB%B6%E6%97%B6%E9%97%B4%E7%BA%BF%E6%A2%B3%E7%90%86%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 林生斌事件时间线梳理",
-      "date_published": "2026-11-11T09:50:41Z"
+      "id": "chinaDaily:https://www.chinadaily.com.cn/a/202611/11/WS6af4365de4b03ebf8519bd61.html",
+      "url": "https://www.chinadaily.com.cn/a/202611/11/WS6af4365de4b03ebf8519bd61.html",
+      "title": "[China Daily 热门] Mainland criticizes DPP move to restrict cross-Strait exchanges",
+      "date_published": "2026-11-11T10:24:36Z"
     }
   ]
 }
