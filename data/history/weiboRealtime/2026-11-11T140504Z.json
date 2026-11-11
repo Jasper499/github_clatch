@@ -1,0 +1,312 @@
+{
+  "date": "2026-11-11T140504Z",
+  "day": "2026-11-11",
+  "sourceKey": "weiboRealtime",
+  "savedAt": "2026-11-11T14:05:04Z",
+  "label": "实时",
+  "description": "微博实时上升榜（按上榜时间排序，2026-11-11，共 30 条，约每 6 小时更新）",
+  "updateFrequency": "every-6h",
+  "fetchedDate": "2026-11-11",
+  "items": [
+    {
+      "title": "王楚钦打法被研究",
+      "description": "新 · 体育",
+      "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E6%A5%9A%E9%92%A6%E6%89%93%E6%B3%95%E8%A2%AB%E7%A0%94%E7%A9%B6&t=31&band_rank=1&Refer=top",
+      "score": 112242,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "体育",
+      "onboardTime": 1794405862
+    },
+    {
+      "title": "双11同款空调反而贵了331元",
+      "description": "新 · 舆论监督",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8F%8C11%E5%90%8C%E6%AC%BE%E7%A9%BA%E8%B0%83%E5%8F%8D%E8%80%8C%E8%B4%B5%E4%BA%86331%E5%85%83%23&t=31&band_rank=1&Refer=top",
+      "score": 227867,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "舆论监督",
+      "onboardTime": 1794405682
+    },
+    {
+      "title": "白敬亭井柏然宋威龙王嘉尔张凌赫同框",
+      "description": "新 · 作品衍生",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E6%95%AC%E4%BA%AD%E4%BA%95%E6%9F%8F%E7%84%B6%E5%AE%8B%E5%A8%81%E9%BE%99%E7%8E%8B%E5%98%89%E5%B0%94%E5%BC%A0%E5%87%8C%E8%B5%AB%E5%90%8C%E6%A1%86%23&t=31&band_rank=1&Refer=top",
+      "score": 131914,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "作品衍生",
+      "onboardTime": 1794405682
+    },
+    {
+      "title": "娜然哪怕在何穗旁边也完全不输",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A8%9C%E7%84%B6%E5%93%AA%E6%80%95%E5%9C%A8%E4%BD%95%E7%A9%97%E6%97%81%E8%BE%B9%E4%B9%9F%E5%AE%8C%E5%85%A8%E4%B8%8D%E8%BE%93%23&t=31&band_rank=1&Refer=top",
+      "score": 201056,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1794405441
+    },
+    {
+      "title": "0.01分赢下保研第二天就被室友举报",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%230.01%E5%88%86%E8%B5%A2%E4%B8%8B%E4%BF%9D%E7%A0%94%E7%AC%AC%E4%BA%8C%E5%A4%A9%E5%B0%B1%E8%A2%AB%E5%AE%A4%E5%8F%8B%E4%B8%BE%E6%8A%A5%23&t=31&band_rank=1&Refer=top",
+      "score": 301371,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1794405201
+    },
+    {
+      "title": "张颂文张雪迎真的有吻戏",
+      "description": "新 · 剧集",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%BC%A0%E9%A2%82%E6%96%87%E5%BC%A0%E9%9B%AA%E8%BF%8E%E7%9C%9F%E7%9A%84%E6%9C%89%E5%90%BB%E6%88%8F%23&t=31&band_rank=1&Refer=top",
+      "score": 124823,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "剧集",
+      "onboardTime": 1794405081
+    },
+    {
+      "title": "金鸡奖两幕对比太扎心",
+      "description": "新 · 电影",
+      "url": "https://s.weibo.com/weibo?q=%E9%87%91%E9%B8%A1%E5%A5%96%E4%B8%A4%E5%B9%95%E5%AF%B9%E6%AF%94%E5%A4%AA%E6%89%8E%E5%BF%83&t=31&band_rank=1&Refer=top",
+      "score": 323550,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "电影",
+      "onboardTime": 1794404482
+    },
+    {
+      "title": "许飞听到厉娜小名老钱笑都冒出来了",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%AE%B8%E9%A3%9E%E5%90%AC%E5%88%B0%E5%8E%89%E5%A8%9C%E5%B0%8F%E5%90%8D%E8%80%81%E9%92%B1%E7%AC%91%E9%83%BD%E5%86%92%E5%87%BA%E6%9D%A5%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 288725,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1794404361
+    },
+    {
+      "title": "李昀锐语音口令红包",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E6%98%80%E9%94%90%E8%AF%AD%E9%9F%B3%E5%8F%A3%E4%BB%A4%E7%BA%A2%E5%8C%85%23&t=31&band_rank=1&Refer=top",
+      "score": 321758,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1794404242
+    },
+    {
+      "title": "华为星芒补全价格矩阵",
+      "description": "新 · 互联网",
+      "url": "https://s.weibo.com/weibo?q=%E5%8D%8E%E4%B8%BA%E6%98%9F%E8%8A%92%E8%A1%A5%E5%85%A8%E4%BB%B7%E6%A0%BC%E7%9F%A9%E9%98%B5&t=31&band_rank=1&Refer=top",
+      "score": 103753,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "互联网",
+      "onboardTime": 1794404182
+    },
+    {
+      "title": "菲律宾总统最新涉华表态",
+      "description": "新 · 国际时政",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%8F%B2%E5%BE%8B%E5%AE%BE%E6%80%BB%E7%BB%9F%E6%9C%80%E6%96%B0%E6%B6%89%E5%8D%8E%E8%A1%A8%E6%80%81%23&t=31&band_rank=1&Refer=top",
+      "score": 312142,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "国际时政",
+      "onboardTime": 1794403880
+    },
+    {
+      "title": "霍启刚郭晶晶11月11日办的世纪婚礼",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%9C%8D%E5%90%AF%E5%88%9A%E9%83%AD%E6%99%B6%E6%99%B611%E6%9C%8811%E6%97%A5%E5%8A%9E%E7%9A%84%E4%B8%96%E7%BA%AA%E5%A9%9A%E7%A4%BC%23&t=31&band_rank=1&Refer=top",
+      "score": 323057,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1794403760
+    },
+    {
+      "title": "青稚现队友辟谣",
+      "description": "新 · 电竞",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%9D%92%E7%A8%9A%E7%8E%B0%E9%98%9F%E5%8F%8B%E8%BE%9F%E8%B0%A3%23&t=31&band_rank=1&Refer=top",
+      "score": 229677,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "电竞",
+      "onboardTime": 1794403460
+    },
+    {
+      "title": "赵丽颖起诉红果短剧",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%B5%B5%E4%B8%BD%E9%A2%96%E8%B5%B7%E8%AF%89%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7%23&t=31&band_rank=1&Refer=top",
+      "score": 297605,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1794402081
+    },
+    {
+      "title": "中年人的显老行为太形象了",
+      "description": "新 · 幽默",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%B9%B4%E4%BA%BA%E7%9A%84%E6%98%BE%E8%80%81%E8%A1%8C%E4%B8%BA%E5%A4%AA%E5%BD%A2%E8%B1%A1%E4%BA%86&t=31&band_rank=1&Refer=top",
+      "score": 288654,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "幽默",
+      "onboardTime": 1794401480
+    },
+    {
+      "title": "白小纯不依赖哥哥算长大吗",
+      "description": "新 · 综艺",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E5%B0%8F%E7%BA%AF%E4%B8%8D%E4%BE%9D%E8%B5%96%E5%93%A5%E5%93%A5%E7%AE%97%E9%95%BF%E5%A4%A7%E5%90%97%23&t=31&band_rank=1&Refer=top",
+      "score": 324794,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "综艺",
+      "onboardTime": 1794400760
+    },
+    {
+      "title": "谷雨",
+      "description": "新 · 美妆",
+      "url": "https://s.weibo.com/weibo?q=%E8%B0%B7%E9%9B%A8&t=31&band_rank=1&Refer=top",
+      "score": 107037,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "美妆",
+      "onboardTime": 1794400641
+    },
+    {
+      "title": "TheShy手写中文信",
+      "description": "新 · 电竞",
+      "url": "https://s.weibo.com/weibo?q=%23TheShy%E6%89%8B%E5%86%99%E4%B8%AD%E6%96%87%E4%BF%A1%23&t=31&band_rank=1&Refer=top",
+      "score": 103858,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "电竞",
+      "onboardTime": 1794400641
+    },
+    {
+      "title": "正午阳光辟谣谍报上不封顶招商",
+      "description": "新 · 剧集",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%AD%A3%E5%8D%88%E9%98%B3%E5%85%89%E8%BE%9F%E8%B0%A3%E8%B0%8D%E6%8A%A5%E4%B8%8A%E4%B8%8D%E5%B0%81%E9%A1%B6%E6%8B%9B%E5%95%86%23&t=31&band_rank=1&Refer=top",
+      "score": 324935,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "剧集",
+      "onboardTime": 1794400520
+    },
+    {
+      "title": "Rookie祝福TheShy",
+      "description": "电竞",
+      "url": "https://s.weibo.com/weibo?q=%23Rookie%E7%A5%9D%E7%A6%8FTheShy%23&t=31&band_rank=1&Refer=top",
+      "score": 201280,
+      "owner": "微博实时",
+      "label": "",
+      "category": "电竞",
+      "onboardTime": 1794400401
+    },
+    {
+      "title": "万千气象看陕西",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%87%E5%8D%83%E6%B0%94%E8%B1%A1%E7%9C%8B%E9%99%95%E8%A5%BF%23&t=31&band_rank=1&Refer=top",
+      "score": 633654,
+      "owner": "微博实时",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1794400101
+    },
+    {
+      "title": "虞书欣直播",
+      "description": "艺人",
+      "url": "https://s.weibo.com/weibo?q=%E8%99%9E%E4%B9%A6%E6%AC%A3%E7%9B%B4%E6%92%AD&t=31&band_rank=1&Refer=top",
+      "score": 219919,
+      "owner": "微博实时",
+      "label": "",
+      "category": "艺人",
+      "onboardTime": 1794399860
+    },
+    {
+      "title": "朱小贞父母曾曝光林生斌家暴出轨细节",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9C%B1%E5%B0%8F%E8%B4%9E%E7%88%B6%E6%AF%8D%E6%9B%BE%E6%9B%9D%E5%85%89%E6%9E%97%E7%94%9F%E6%96%8C%E5%AE%B6%E6%9A%B4%E5%87%BA%E8%BD%A8%E7%BB%86%E8%8A%82%23&t=31&band_rank=1&Refer=top",
+      "score": 110009,
+      "owner": "微博实时",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1794399381
+    },
+    {
+      "title": "3岁女孩练芭蕾2年蜕变惊人",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%233%E5%B2%81%E5%A5%B3%E5%AD%A9%E7%BB%83%E8%8A%AD%E8%95%BE2%E5%B9%B4%E8%9C%95%E5%8F%98%E6%83%8A%E4%BA%BA%23&t=31&band_rank=1&Refer=top",
+      "score": 355979,
+      "owner": "微博实时",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1794399198
+    },
+    {
+      "title": "这是我的十好几年啊天猫",
+      "description": "互联网",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%BF%99%E6%98%AF%E6%88%91%E7%9A%84%E5%8D%81%E5%A5%BD%E5%87%A0%E5%B9%B4%E5%95%8A%E5%A4%A9%E7%8C%AB%23&t=31&band_rank=1&Refer=top",
+      "score": 151844,
+      "owner": "微博实时",
+      "label": "",
+      "category": "互联网",
+      "onboardTime": 1794398780
+    },
+    {
+      "title": "胚胎案丈夫近期多次上门想协商离婚",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%83%9A%E8%83%8E%E6%A1%88%E4%B8%88%E5%A4%AB%E8%BF%91%E6%9C%9F%E5%A4%9A%E6%AC%A1%E4%B8%8A%E9%97%A8%E6%83%B3%E5%8D%8F%E5%95%86%E7%A6%BB%E5%A9%9A%23&t=31&band_rank=1&Refer=top",
+      "score": 307063,
+      "owner": "微博实时",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1794398660
+    },
+    {
+      "title": "一直以为对象没朋友是加分项",
+      "description": "情感",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E7%9B%B4%E4%BB%A5%E4%B8%BA%E5%AF%B9%E8%B1%A1%E6%B2%A1%E6%9C%8B%E5%8F%8B%E6%98%AF%E5%8A%A0%E5%88%86%E9%A1%B9&t=31&band_rank=1&Refer=top",
+      "score": 128132,
+      "owner": "微博实时",
+      "label": "",
+      "category": "情感",
+      "onboardTime": 1794398539
+    },
+    {
+      "title": "杨幂 神之一蹲",
+      "description": "热 · 作品衍生",
+      "url": "https://s.weibo.com/weibo?q=%E6%9D%A8%E5%B9%82%20%E7%A5%9E%E4%B9%8B%E4%B8%80%E8%B9%B2&t=31&band_rank=1&Refer=top",
+      "score": 322743,
+      "owner": "微博实时",
+      "label": "热",
+      "category": "作品衍生",
+      "onboardTime": 1794398420
+    },
+    {
+      "title": "大冰对抗紧张的方法太牛了",
+      "description": "网红",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%A7%E5%86%B0%E5%AF%B9%E6%8A%97%E7%B4%A7%E5%BC%A0%E7%9A%84%E6%96%B9%E6%B3%95%E5%A4%AA%E7%89%9B%E4%BA%86&t=31&band_rank=1&Refer=top",
+      "score": 143368,
+      "owner": "微博实时",
+      "label": "",
+      "category": "网红",
+      "onboardTime": 1794397940
+    },
+    {
+      "title": "谍报上不封顶",
+      "description": "剧集",
+      "url": "https://s.weibo.com/weibo?q=%E8%B0%8D%E6%8A%A5%E4%B8%8A%E4%B8%8D%E5%B0%81%E9%A1%B6&t=31&band_rank=1&Refer=top",
+      "score": 119833,
+      "owner": "微博实时",
+      "label": "",
+      "category": "剧集",
+      "onboardTime": 1794397580
+    }
+  ]
+}
