@@ -1,100 +1,100 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-11-11T14:05:05Z",
+  "savedAt": "2026-11-11T21:32:32Z",
   "label": "同城",
   "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-11，共 9 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-11-11",
   "items": [
     {
-      "title": "店主代买彩票中825万私自兑奖",
+      "title": "数看中国与APEC贸易新变化",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%BA%97%E4%B8%BB%E4%BB%A3%E4%B9%B0%E5%BD%A9%E7%A5%A8%E4%B8%AD825%E4%B8%87%E7%A7%81%E8%87%AA%E5%85%91%E5%A5%96%23&t=31&band_rank=1&Refer=top",
-      "score": 771855,
+      "url": "https://s.weibo.com/weibo?q=%23%E6%95%B0%E7%9C%8B%E4%B8%AD%E5%9B%BD%E4%B8%8EAPEC%E8%B4%B8%E6%98%93%E6%96%B0%E5%8F%98%E5%8C%96%23&t=31&band_rank=1&Refer=top",
+      "score": 89032,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1794394340
+      "onboardTime": 1794399559
     },
     {
-      "title": "万千气象看陕西",
+      "title": "中国留学生在澳遇袭两根手指被砍断",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%87%E5%8D%83%E6%B0%94%E8%B1%A1%E7%9C%8B%E9%99%95%E8%A5%BF%23&t=31&band_rank=1&Refer=top",
-      "score": 633654,
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E7%95%99%E5%AD%A6%E7%94%9F%E5%9C%A8%E6%BE%B3%E9%81%87%E8%A2%AD%E4%B8%A4%E6%A0%B9%E6%89%8B%E6%8C%87%E8%A2%AB%E7%A0%8D%E6%96%AD%23&t=31&band_rank=1&Refer=top",
+      "score": 47033,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1794400101
+      "onboardTime": 1794412339
+    },
+    {
+      "title": "山姆399元充绒量300克羽绒服断货",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%B1%B1%E5%A7%86399%E5%85%83%E5%85%85%E7%BB%92%E9%87%8F300%E5%85%8B%E7%BE%BD%E7%BB%92%E6%9C%8D%E6%96%AD%E8%B4%A7%23&t=31&band_rank=1&Refer=top",
+      "score": 46884,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1794409280
+    },
+    {
+      "title": "女子西西弗买200元书坐咖啡区被拒",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E8%A5%BF%E8%A5%BF%E5%BC%97%E4%B9%B0200%E5%85%83%E4%B9%A6%E5%9D%90%E5%92%96%E5%95%A1%E5%8C%BA%E8%A2%AB%E6%8B%92%23&t=31&band_rank=1&Refer=top",
+      "score": 41867,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1794412220
+    },
+    {
+      "title": "网红打pk猝死母亲不知其做危险直播",
+      "description": "热 · 民生新闻,网红",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%BD%91%E7%BA%A2%E6%89%93pk%E7%8C%9D%E6%AD%BB%E6%AF%8D%E4%BA%B2%E4%B8%8D%E7%9F%A5%E5%85%B6%E5%81%9A%E5%8D%B1%E9%99%A9%E7%9B%B4%E6%92%AD%23&t=31&band_rank=1&Refer=top",
+      "score": 39950,
+      "owner": "微博同城",
+      "label": "热",
+      "category": "民生新闻,网红",
+      "onboardTime": 1794415696
+    },
+    {
+      "title": "被砍断手指留学生遭朋友卷走数十万",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%A2%AB%E7%A0%8D%E6%96%AD%E6%89%8B%E6%8C%87%E7%95%99%E5%AD%A6%E7%94%9F%E9%81%AD%E6%9C%8B%E5%8F%8B%E5%8D%B7%E8%B5%B0%E6%95%B0%E5%8D%81%E4%B8%87%23&t=31&band_rank=1&Refer=top",
+      "score": 39826,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1794413479
     },
     {
       "title": "3岁女孩练芭蕾2年蜕变惊人",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%233%E5%B2%81%E5%A5%B3%E5%AD%A9%E7%BB%83%E8%8A%AD%E8%95%BE2%E5%B9%B4%E8%9C%95%E5%8F%98%E6%83%8A%E4%BA%BA%23&t=31&band_rank=1&Refer=top",
-      "score": 355979,
+      "score": 31804,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1794399198
     },
     {
-      "title": "商场看中羽绒服网上便宜一千",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%95%86%E5%9C%BA%E7%9C%8B%E4%B8%AD%E7%BE%BD%E7%BB%92%E6%9C%8D%E7%BD%91%E4%B8%8A%E4%BE%BF%E5%AE%9C%E4%B8%80%E5%8D%83&t=31&band_rank=1&Refer=top",
-      "score": 324584,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1794384860
-    },
-    {
-      "title": "胚胎案丈夫近期多次上门想协商离婚",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%83%9A%E8%83%8E%E6%A1%88%E4%B8%88%E5%A4%AB%E8%BF%91%E6%9C%9F%E5%A4%9A%E6%AC%A1%E4%B8%8A%E9%97%A8%E6%83%B3%E5%8D%8F%E5%95%86%E7%A6%BB%E5%A9%9A%23&t=31&band_rank=1&Refer=top",
-      "score": 307063,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1794398660
-    },
-    {
-      "title": "0.01分赢下保研第二天就被室友举报",
+      "title": "63岁阿姨坚持撸铁20多年练出好身材",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%230.01%E5%88%86%E8%B5%A2%E4%B8%8B%E4%BF%9D%E7%A0%94%E7%AC%AC%E4%BA%8C%E5%A4%A9%E5%B0%B1%E8%A2%AB%E5%AE%A4%E5%8F%8B%E4%B8%BE%E6%8A%A5%23&t=31&band_rank=1&Refer=top",
-      "score": 301371,
+      "url": "https://s.weibo.com/weibo?q=%2363%E5%B2%81%E9%98%BF%E5%A7%A8%E5%9D%9A%E6%8C%81%E6%92%B8%E9%93%8120%E5%A4%9A%E5%B9%B4%E7%BB%83%E5%87%BA%E5%A5%BD%E8%BA%AB%E6%9D%90%23&t=31&band_rank=1&Refer=top",
+      "score": 28949,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1794405201
+      "onboardTime": 1794430933
     },
     {
-      "title": "日本上司因中国下属回OK不爽",
+      "title": "康师傅20元泡面不能开水直接泡",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E6%97%A5%E6%9C%AC%E4%B8%8A%E5%8F%B8%E5%9B%A0%E4%B8%AD%E5%9B%BD%E4%B8%8B%E5%B1%9E%E5%9B%9EOK%E4%B8%8D%E7%88%BD&t=31&band_rank=1&Refer=top",
-      "score": 248080,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%BA%B7%E5%B8%88%E5%82%8520%E5%85%83%E6%B3%A1%E9%9D%A2%E4%B8%8D%E8%83%BD%E5%BC%80%E6%B0%B4%E7%9B%B4%E6%8E%A5%E6%B3%A1%23&t=31&band_rank=1&Refer=top",
+      "score": 28907,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1794392059
-    },
-    {
-      "title": "机械臂捡快递遇异形件直接扔走",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9C%BA%E6%A2%B0%E8%87%82%E6%8D%A1%E5%BF%AB%E9%80%92%E9%81%87%E5%BC%82%E5%BD%A2%E4%BB%B6%E7%9B%B4%E6%8E%A5%E6%89%94%E8%B5%B0%23&t=31&band_rank=1&Refer=top",
-      "score": 230688,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1794388580
-    },
-    {
-      "title": "朱小贞父母曾曝光林生斌家暴出轨细节",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9C%B1%E5%B0%8F%E8%B4%9E%E7%88%B6%E6%AF%8D%E6%9B%BE%E6%9B%9D%E5%85%89%E6%9E%97%E7%94%9F%E6%96%8C%E5%AE%B6%E6%9A%B4%E5%87%BA%E8%BD%A8%E7%BB%86%E8%8A%82%23&t=31&band_rank=1&Refer=top",
-      "score": 110009,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1794399381
+      "onboardTime": 1794424094
     }
   ]
 }
