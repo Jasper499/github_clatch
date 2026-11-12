@@ -1,16 +1,16 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-11-11T21:07:33Z",
+  "savedAt": "2026-11-12T04:09:30Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-11-11，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-11-12，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-11-11",
+  "fetchedDate": "2026-11-12",
   "items": [
     {
       "title": "sshole",
       "description": "Related:<p><a href=\"https:&#x2F;&#x2F;hachyderm.io&#x2F;@damienmiller&#x2F;117563026759098135\" rel=\"nofollow\">https:&#x2F;&#x2F;hachyderm.io&#x2F;@damienmiller&#x2F;117563026759098135</a> &#x2F; <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50377221\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50377221</a><p><a href=\"https:&#x2F;&#x2F;www.openssh.org&#x2F;releasenotes.html#10.6p2\" rel=\"nofollow\">https:&#x2F;&#x2F;www.openssh.org&#x2F;releasenotes.html#10.6p2</a><p><a href=\"https:&#x2F;&#x2F;alpinelinux.org&#x2F;posts&#x2F;2026-11-05-openssh-password-authentication-bypass&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;alpinelinux.org&#x2F;posts&#x2F;2026-11-05-openssh-password-au...</a>",
       "url": "https://sshhole.com",
-      "score": 3000,
+      "score": 3001,
       "comments": 752,
       "owner": "josemrb",
       "published": "2026-11-05T12:19:02Z",
@@ -30,7 +30,7 @@
       "title": "Foldable Flight: The Best Paper Airplanes",
       "description": "",
       "url": "https://www.foldableflight.com",
-      "score": 1239,
+      "score": 1247,
       "comments": 167,
       "owner": "vismit2000",
       "published": "2026-11-09T12:19:22Z",
@@ -40,7 +40,7 @@
       "title": "Need for Speed Underground 2 online in the browser",
       "description": "",
       "url": "https://nfsu2.xyz/",
-      "score": 1173,
+      "score": 1174,
       "comments": 293,
       "owner": "fluxusars",
       "published": "2026-11-07T09:36:36Z",
@@ -60,8 +60,8 @@
       "title": "Smart home devices should work without the internet",
       "description": "",
       "url": "https://docodethatmatters.com/home-automation-overnight-success/",
-      "score": 1128,
-      "comments": 421,
+      "score": 1148,
+      "comments": 434,
       "owner": "skittleson",
       "published": "2026-11-10T15:25:20Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50441707"
@@ -70,7 +70,7 @@
       "title": "Libghostty 1.0",
       "description": "",
       "url": "https://mitchellh.com/writing/libghostty-1-0",
-      "score": 1091,
+      "score": 1092,
       "comments": 210,
       "owner": "mfiguiere",
       "published": "2026-11-06T23:30:52Z",
@@ -91,17 +91,37 @@
       "description": "<a href=\"https:&#x2F;&#x2F;www.axios.com&#x2F;2026&#x2F;11&#x2F;08&#x2F;nvidia-ceo-jensen-huang-affair-email-to-company\" rel=\"nofollow\">https:&#x2F;&#x2F;www.axios.com&#x2F;2026&#x2F;11&#x2F;08&#x2F;nvidia-ceo-jensen-huang-aff...</a>, <a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;Hxn5h\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;Hxn5h</a><p><a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;2026&#x2F;11&#x2F;06&#x2F;us&#x2F;politics&#x2F;chinese-spy-agency-nvidia-jensen-huang.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nytimes.com&#x2F;2026&#x2F;11&#x2F;06&#x2F;us&#x2F;politics&#x2F;chinese-spy-a...</a>, <a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;atMcp\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;atMcp</a><p><a href=\"https:&#x2F;&#x2F;www.cnn.com&#x2F;2026&#x2F;11&#x2F;08&#x2F;business&#x2F;nvidia-investigation-ceo-jensen-huang\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cnn.com&#x2F;2026&#x2F;11&#x2F;08&#x2F;business&#x2F;nvidia-investigation...</a><p><i>Statement from Nvidia board of directors</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50416801\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50416801</a> - Nov 2026 (374 comments)",
       "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
       "score": 983,
-      "comments": 1282,
+      "comments": 1283,
       "owner": "karimf",
       "published": "2026-11-08T22:20:09Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50418016"
     },
     {
+      "title": "Tim Peters has died",
+      "description": "<a href=\"https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;Python&#x2F;s&#x2F;2Cm5dBcvQw\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;Python&#x2F;s&#x2F;2Cm5dBcvQw</a>",
+      "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+      "score": 962,
+      "comments": 103,
+      "owner": "ayhanfuat",
+      "published": "2026-11-11T07:03:17Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50450488"
+    },
+    {
+      "title": "My AI agents found an unmapped Maya site?",
+      "description": "",
+      "url": "https://pietromiotti.com/latest/maya-site",
+      "score": 948,
+      "comments": 343,
+      "owner": "eyvindn",
+      "published": "2026-11-11T12:05:22Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50452455"
+    },
+    {
       "title": ".name Grandfathered",
       "description": "Previously: <i>.name Termination</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49550772\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49550772</a> - Sept 2026 (547 comments)",
       "url": "https://neil.fraser.name/news/2026/11/10/",
-      "score": 916,
-      "comments": 200,
+      "score": 922,
+      "comments": 204,
       "owner": "p4bl0",
       "published": "2026-11-10T16:37:44Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50442736"
@@ -110,8 +130,8 @@
       "title": "Claude Fable 5.2 and Mythos 5.2",
       "description": "",
       "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-      "score": 908,
-      "comments": 1034,
+      "score": 910,
+      "comments": 1039,
       "owner": "lairv",
       "published": "2026-11-09T18:01:10Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50429068"
@@ -121,7 +141,7 @@
       "description": "",
       "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
       "score": 901,
-      "comments": 495,
+      "comments": 496,
       "owner": "TheWiggles",
       "published": "2026-11-08T18:16:07Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50415628"
@@ -137,24 +157,24 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50403097"
     },
     {
-      "title": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
-      "description": "",
-      "url": "https://pietromiotti.com/latest/maya-site/?maya",
-      "score": 862,
-      "comments": 315,
-      "owner": "eyvindn",
-      "published": "2026-11-11T12:05:22Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50452455"
-    },
-    {
       "title": "What I run on my $10 USD OpenStick homelab",
       "description": "",
       "url": "https://blog.bosscher.ch/posts/openstick/",
-      "score": 829,
+      "score": 830,
       "comments": 140,
       "owner": "LaurensBER",
       "published": "2026-11-07T18:12:12Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50406670"
+    },
+    {
+      "title": "Goodbye Claude, hello Pi",
+      "description": "",
+      "url": "https://caleb.software/posts/claude-to-pi.html",
+      "score": 821,
+      "comments": 492,
+      "owner": "karagenit",
+      "published": "2026-11-08T03:11:48Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50410107"
     },
     {
       "title": "Is Opus 5.5 nerfed? Thinking patterns changed on November 3",
@@ -167,21 +187,11 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50422069"
     },
     {
-      "title": "Goodbye Claude, hello Pi",
-      "description": "",
-      "url": "https://caleb.software/posts/claude-to-pi.html",
-      "score": 820,
-      "comments": 492,
-      "owner": "karagenit",
-      "published": "2026-11-08T03:11:48Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50410107"
-    },
-    {
       "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
       "description": "",
       "url": "https://ketchup3d.github.io/app/",
-      "score": 768,
-      "comments": 234,
+      "score": 769,
+      "comments": 235,
       "owner": "dcoulmbe",
       "published": "2026-11-08T22:35:35Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50418176"
@@ -195,16 +205,6 @@
       "owner": "elashri",
       "published": "2026-11-05T20:03:34Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50383740"
-    },
-    {
-      "title": "Blender's UI and Runtime: Much Faster Than GPUI",
-      "description": "",
-      "url": "https://github.com/ppmpreetham/BUI",
-      "score": 740,
-      "comments": 293,
-      "owner": "ppmpreetham",
-      "published": "2026-11-06T07:40:35Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50389333"
     }
   ]
 }
