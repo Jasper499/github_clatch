@@ -3390,6 +3390,12 @@
     ],
     "scientificSkills": [
       {
+        "date": "2026-11-13T205849Z",
+        "day": "2026-11-13",
+        "savedAt": "2026-11-13T20:58:49Z",
+        "itemCount": 178
+      },
+      {
         "date": "2026-11-13T205640Z",
         "day": "2026-11-13",
         "savedAt": "2026-11-13T20:56:40Z",
@@ -4102,15 +4108,15 @@
         "day": "2026-10-15",
         "savedAt": "2026-10-15T02:41:31Z",
         "itemCount": 178
-      },
-      {
-        "date": "2026-10-14T185507Z",
-        "day": "2026-10-14",
-        "savedAt": "2026-10-14T18:55:07Z",
-        "itemCount": 178
       }
     ],
     "scientificSkillsCommits": [
+      {
+        "date": "2026-11-13T205849Z",
+        "day": "2026-11-13",
+        "savedAt": "2026-11-13T20:58:49Z",
+        "itemCount": 15
+      },
       {
         "date": "2026-11-13T205641Z",
         "day": "2026-11-13",
@@ -4823,12 +4829,6 @@
         "date": "2026-10-15T024131Z",
         "day": "2026-10-15",
         "savedAt": "2026-10-15T02:41:31Z",
-        "itemCount": 15
-      },
-      {
-        "date": "2026-10-14T185507Z",
-        "day": "2026-10-14",
-        "savedAt": "2026-10-14T18:55:07Z",
         "itemCount": 15
       }
     ],
@@ -6999,7 +6999,7 @@
       }
     ]
   },
-  "updatedAt": "2026-11-13T20:56:41Z",
+  "updatedAt": "2026-11-13T20:58:49Z",
   "search": {
     "github": [
       {
@@ -7187,25 +7187,25 @@
     "scientificSkills": [
       {
         "month": "2026-11",
-        "items": 9078,
-        "bytes": 5072564
+        "items": 9256,
+        "bytes": 5172026
       },
       {
         "month": "2026-10",
-        "items": 12282,
-        "bytes": 6862880
+        "items": 12104,
+        "bytes": 6763418
       }
     ],
     "scientificSkillsCommits": [
       {
         "month": "2026-11",
-        "items": 765,
-        "bytes": 367851
+        "items": 780,
+        "bytes": 374903
       },
       {
         "month": "2026-10",
-        "items": 1035,
-        "bytes": 541780
+        "items": 1020,
+        "bytes": 533736
       }
     ],
     "weiboRealtime": [
