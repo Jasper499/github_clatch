@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-11-12T21:29:52Z",
+  "savedAt": "2026-11-13T09:16:54Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "a1a8220366e82ecd8584ea3d7f46cb3969f4b018",
+  "latestSha": "7bff1d0539c0dfad6c30178bb93ce6dd8a5cebf8",
   "items": [
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/7bff1d0539c0dfad6c30178bb93ce6dd8a5cebf8",
+      "sha": "7bff1d0",
+      "fullSha": "7bff1d0539c0dfad6c30178bb93ce6dd8a5cebf8",
+      "owner": "github-actions",
+      "published": "2026-11-13",
+      "label": "commit"
+    },
     {
       "title": "chore: update star history",
       "description": "chore: update star history",
@@ -145,16 +155,6 @@
       "fullSha": "8f28a61d42c2b251d224cdb0a59229df9879a68e",
       "owner": "Flyme886",
       "published": "2026-10-24",
-      "label": "commit"
-    },
-    {
-      "title": "feat(nature-paper2word): add Markdown → Word skill (documentation only)",
-      "description": "feat(nature-paper2word): add Markdown → Word skill (documentation only)\n\nAdds a documentation-only skill that compiles a Markdown manuscript into a\njournal- or school-compliant Word file. The engine is the PyPI package\nmd-to-word-docx; the skill carries the router only.\n\n- SKILL.md: scenario, manuscript contract, requirements file, export, gates\n- README.md / README_EN.md: mirrored entry pages, eight sections each\n- manifest.yaml, agents/openai.yaml: manifest and interface metadata\n- Registers the skill in the README index and the project site, and adds its\n  path to the skill-tooling workflow",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/bef0a4a90be450dc2096ce64489eae4a103c608d",
-      "sha": "bef0a4a",
-      "fullSha": "bef0a4a90be450dc2096ce64489eae4a103c608d",
-      "owner": "ls-wq",
-      "published": "2026-10-23",
       "label": "commit"
     }
   ]
