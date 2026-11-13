@@ -5750,7 +5750,6 @@ html[data-workstation="1"] .item-detail, #library-reader-body { line-height: var
 .ws-monogram { width: 34px; height: 34px; display: grid; place-items: center; flex-shrink: 0; color: var(--accent); background: var(--accent-soft); border: 1px solid var(--border); border-radius: 10px; font: 700 20px Georgia, serif; }
 .ws-brand > div { display: grid; gap: 2px; }
 .ws-brand .ws-brand-sub { font-size: 8px; letter-spacing: .09em; opacity: .8; }
-html[data-home="1"][data-theme="dark"] { --bg: #080f18; --bg-elevated: #101925; --surface: #111c2a; --surface-solid: #142132; --surface-hover: #1a2a3e; --text: #edf3f8; --muted: #9bafc4; --border: #26384c; --border-strong: #3b536c; --accent: #83dfce; --accent-soft: #183b3b; }
 html[data-home="1"][data-theme="light"] { --bg: #f5f7f8; --bg-elevated: #fff; --surface: #f8fafb; --surface-solid: #fff; --surface-hover: #edf4f2; --text: #182935; --muted: #526574; --border: #d8e2e6; --border-strong: #bdcdd3; --accent: #146557; --accent-soft: #e6f2ee; }
 html[data-home="1"] :is(.platform-chrome, .mobile-nav, .mobile-subnav, .ws-status) { display: none !important; }
 html[data-home="1"] .ws-brand { margin-right: auto; }
@@ -5836,7 +5835,19 @@ html[data-home="1"] .sidebar { border-radius: 14px; }
   .home-health summary span { display: block; margin: .5rem 0 0 1rem; }
 }
 /* Profile-led home: a quiet introduction beside the reading stream. */
-html[data-home="1"][data-theme="dark"] { --bg: #0f172a; --bg-elevated: #111c31; --surface: #142039; --surface-solid: #16243e; --surface-hover: #1a2c45; --text: #e2e8f0; --muted: #a1afc4; --border: #263851; --accent: #5eead4; --accent-soft: #16383c; }
+html[data-home="1"][data-theme="dark"] {
+  --bg: #0a0c10;
+  --bg-elevated: #11151c;
+  --surface: #141922;
+  --surface-solid: #181e28;
+  --surface-hover: #202936;
+  --text: #eff2f6;
+  --muted: #aab6c6;
+  --border: #303947;
+  --border-strong: #495768;
+  --accent: #79e4d1;
+  --accent-soft: #183631;
+}
 .home-role { font-size: 20px; font-weight: 500; letter-spacing: -.02em; margin: -.4rem 0 1.1rem; color: var(--text); }
 .home-manifesto { font-size: 14px; line-height: 1.9; color: var(--muted); margin-bottom: 1.2rem; }
 .home-section-nav { display: grid; gap: .4rem; margin: 1.4rem 0 1.7rem; }
@@ -5881,3 +5892,28 @@ html[data-home="1"][data-theme="dark"] { --bg: #0f172a; --bg-elevated: #111c31; 
 .home-platform-links button { border: 0; padding: .25rem 0; background: transparent; color: var(--muted); cursor: pointer; font: 10px var(--font-sans); }
 .home-platform-links button:is(:hover, :focus-visible) { color: var(--accent); text-decoration: underline; }
 @media (min-width: 1101px) and (max-height: 850px) { .home-hero { position: static; } }
+
+.home-intro {
+  background: radial-gradient(ellipse at 18% 0%, var(--accent-soft), transparent 70%);
+}
+.home-intro .home-description,
+.home-feature-card p { font-size: .875rem; }
+.home-section-heading h2 { font-size: clamp(1.25rem, 2.3vw, 1.65rem); }
+.home-paths button,
+.home-feature-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+.home-paths button:is(:hover, :focus-visible),
+.home-feature-card:is(:hover, :focus-visible) {
+  background: var(--surface-hover);
+  border-color: var(--border-strong);
+}
+.home-hero-actions button,
+.home-section-nav button { min-height: 44px; }
+.personal-home :is(button, a, select, summary):focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+.home-profile-links a { text-decoration: underline; text-underline-offset: .2em; }
