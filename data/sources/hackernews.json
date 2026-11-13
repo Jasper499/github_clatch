@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-11-13T19:34:59Z",
+  "savedAt": "2026-11-13T20:47:44Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-11-13，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,8 +10,8 @@
       "title": "Jensen Huang resigns",
       "description": "<a href=\"https:&#x2F;&#x2F;nvidianews.nvidia.com&#x2F;news&#x2F;nvidia-announces-ceo-transition\" rel=\"nofollow\">https:&#x2F;&#x2F;nvidianews.nvidia.com&#x2F;news&#x2F;nvidia-announces-ceo-tran...</a><p><a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;retail-consumer&#x2F;nvidia-ceo-jensen-huang-step-down-big-blow-ai-boom-2026-11-12&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;retail-consumer&#x2F;nvidia-ceo-...</a>, <a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;live&#x2F;nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;live&#x2F;nvidia-live-board-meets-fate-ce...</a><p><a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;live&#x2F;2026&#x2F;11&#x2F;12&#x2F;business&#x2F;nvidia-jensen-huang-resigns\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nytimes.com&#x2F;live&#x2F;2026&#x2F;11&#x2F;12&#x2F;business&#x2F;nvidia-jens...</a>",
       "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
-      "score": 3977,
-      "comments": 3384,
+      "score": 3988,
+      "comments": 3394,
       "owner": "lldb",
       "published": "2026-11-12T13:52:29Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50467087"
@@ -30,7 +30,7 @@
       "title": "Foldable Flight: The Best Paper Airplanes",
       "description": "",
       "url": "https://www.foldableflight.com",
-      "score": 1273,
+      "score": 1274,
       "comments": 168,
       "owner": "vismit2000",
       "published": "2026-11-09T12:19:22Z",
@@ -70,8 +70,8 @@
       "title": "Service degradation on Microsoft 365",
       "description": "<a href=\"https:&#x2F;&#x2F;www.abc.net.au&#x2F;news&#x2F;2026-11-13&#x2F;microsoft-outage-affects-users-worldwide&#x2F;107381050\" rel=\"nofollow\">https:&#x2F;&#x2F;www.abc.net.au&#x2F;news&#x2F;2026-11-13&#x2F;microsoft-outage-affe...</a><p><a href=\"https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;sysadmin&#x2F;comments&#x2F;1xuje83&#x2F;microsoft_office_seems_to_be_down&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;sysadmin&#x2F;comments&#x2F;1xuje83&#x2F;microsoft...</a><p><a href=\"https:&#x2F;&#x2F;downdetector.com&#x2F;status&#x2F;microsoft-365&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;downdetector.com&#x2F;status&#x2F;microsoft-365&#x2F;</a>",
       "url": "https://status.cloud.microsoft/",
-      "score": 1137,
-      "comments": 955,
+      "score": 1144,
+      "comments": 965,
       "owner": "dkpk",
       "published": "2026-11-12T18:20:48Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50471731"
@@ -111,7 +111,7 @@
       "description": "",
       "url": "https://ipo.anthropic.com/us/",
       "score": 988,
-      "comments": 899,
+      "comments": 900,
       "owner": "josephljohnston",
       "published": "2026-11-12T11:46:41Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50465829"
@@ -180,8 +180,8 @@
       "title": "Rust 1.100",
       "description": "",
       "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
-      "score": 860,
-      "comments": 310,
+      "score": 865,
+      "comments": 312,
       "owner": "mbStavola",
       "published": "2026-11-12T18:39:05Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50472038"
