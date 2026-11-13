@@ -1,100 +1,100 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-11-13T02:06:18Z",
+  "savedAt": "2026-11-13T06:28:07Z",
   "label": "同城",
   "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-13，共 9 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-11-13",
   "items": [
     {
-      "title": "中国正在编织这样一张大网",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E6%AD%A3%E5%9C%A8%E7%BC%96%E7%BB%87%E8%BF%99%E6%A0%B7%E4%B8%80%E5%BC%A0%E5%A4%A7%E7%BD%91%23&t=31&band_rank=1&Refer=top",
-      "score": 713792,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1794489622
-    },
-    {
-      "title": "女子刮痧排淤堵脖上刮出3条大血印",
+      "title": "广西百色学院一男子在楼之间走钢丝",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E5%88%AE%E7%97%A7%E6%8E%92%E6%B7%A4%E5%A0%B5%E8%84%96%E4%B8%8A%E5%88%AE%E5%87%BA3%E6%9D%A1%E5%A4%A7%E8%A1%80%E5%8D%B0%23&t=31&band_rank=1&Refer=top",
-      "score": 510145,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%B9%BF%E8%A5%BF%E7%99%BE%E8%89%B2%E5%AD%A6%E9%99%A2%E4%B8%80%E7%94%B7%E5%AD%90%E5%9C%A8%E6%A5%BC%E4%B9%8B%E9%97%B4%E8%B5%B0%E9%92%A2%E4%B8%9D%23&t=31&band_rank=1&Refer=top",
+      "score": 663278,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1794531860
+      "onboardTime": 1794546023
     },
     {
-      "title": "男子失业断供与银行协商还贷被拒",
+      "title": "上海00后女生靠AI卖穿戴甲月入10万",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%8A%E6%B5%B700%E5%90%8E%E5%A5%B3%E7%94%9F%E9%9D%A0AI%E5%8D%96%E7%A9%BF%E6%88%B4%E7%94%B2%E6%9C%88%E5%85%A510%E4%B8%87%23&t=31&band_rank=1&Refer=top",
+      "score": 645686,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1794538581
+    },
+    {
+      "title": "黄仁勋辞职前自嘲我就是个人渣",
+      "description": "民生新闻,互联网",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%BB%84%E4%BB%81%E5%8B%8B%E8%BE%9E%E8%81%8C%E5%89%8D%E8%87%AA%E5%98%B2%E6%88%91%E5%B0%B1%E6%98%AF%E4%B8%AA%E4%BA%BA%E6%B8%A3%23&t=31&band_rank=1&Refer=top",
+      "score": 622951,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻,互联网",
+      "onboardTime": 1794544581
+    },
+    {
+      "title": "杭州临平既是生活也是未来",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E5%A4%B1%E4%B8%9A%E6%96%AD%E4%BE%9B%E4%B8%8E%E9%93%B6%E8%A1%8C%E5%8D%8F%E5%95%86%E8%BF%98%E8%B4%B7%E8%A2%AB%E6%8B%92%23&t=31&band_rank=1&Refer=top",
-      "score": 380622,
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%AD%E5%B7%9E%E4%B8%B4%E5%B9%B3%E6%97%A2%E6%98%AF%E7%94%9F%E6%B4%BB%E4%B9%9F%E6%98%AF%E6%9C%AA%E6%9D%A5%23&t=31&band_rank=1&Refer=top",
+      "score": 457373,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1794534319
+      "onboardTime": 1794550040
     },
     {
-      "title": "高中生困电梯2小时被让等物业上班",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%AB%98%E4%B8%AD%E7%94%9F%E5%9B%B0%E7%94%B5%E6%A2%AF2%E5%B0%8F%E6%97%B6%E8%A2%AB%E8%AE%A9%E7%AD%89%E7%89%A9%E4%B8%9A%E4%B8%8A%E7%8F%AD%23&t=31&band_rank=1&Refer=top",
-      "score": 373783,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1794529460
-    },
-    {
-      "title": "女子腿疼找中医扎针血直往外喷",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E8%85%BF%E7%96%BC%E6%89%BE%E4%B8%AD%E5%8C%BB%E6%89%8E%E9%92%88%E8%A1%80%E7%9B%B4%E5%BE%80%E5%A4%96%E5%96%B7%23&t=31&band_rank=1&Refer=top",
-      "score": 183925,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1794499880
-    },
-    {
-      "title": "黄仁勋离职后硅谷会掀起抢人潮吗",
+      "title": "远程注射疫苗被东北虎一把叼住针管",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%BB%84%E4%BB%81%E5%8B%8B%E7%A6%BB%E8%81%8C%E5%90%8E%E7%A1%85%E8%B0%B7%E4%BC%9A%E6%8E%80%E8%B5%B7%E6%8A%A2%E4%BA%BA%E6%BD%AE%E5%90%97%23&t=31&band_rank=1&Refer=top",
-      "score": 181255,
+      "url": "https://s.weibo.com/weibo?q=%23%E8%BF%9C%E7%A8%8B%E6%B3%A8%E5%B0%84%E7%96%AB%E8%8B%97%E8%A2%AB%E4%B8%9C%E5%8C%97%E8%99%8E%E4%B8%80%E6%8A%8A%E5%8F%BC%E4%BD%8F%E9%92%88%E7%AE%A1%23&t=31&band_rank=1&Refer=top",
+      "score": 452574,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1794535340
+      "onboardTime": 1794550821
     },
     {
-      "title": "7碗米饭摆拍事件更显媒体调查价值",
+      "title": "黄仁勋辞职前状态",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%237%E7%A2%97%E7%B1%B3%E9%A5%AD%E6%91%86%E6%8B%8D%E4%BA%8B%E4%BB%B6%E6%9B%B4%E6%98%BE%E5%AA%92%E4%BD%93%E8%B0%83%E6%9F%A5%E4%BB%B7%E5%80%BC%23&t=31&band_rank=1&Refer=top",
-      "score": 152834,
+      "url": "https://s.weibo.com/weibo?q=%23%E9%BB%84%E4%BB%81%E5%8B%8B%E8%BE%9E%E8%81%8C%E5%89%8D%E7%8A%B6%E6%80%81%23&t=31&band_rank=1&Refer=top",
+      "score": 144630,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1794527299
+      "onboardTime": 1794543441
     },
     {
-      "title": "广州小学生嘉豪因名字被取笑",
+      "title": "阿姨照料患癌男同事14年开销AA制",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%B9%BF%E5%B7%9E%E5%B0%8F%E5%AD%A6%E7%94%9F%E5%98%89%E8%B1%AA%E5%9B%A0%E5%90%8D%E5%AD%97%E8%A2%AB%E5%8F%96%E7%AC%91&t=31&band_rank=1&Refer=top",
-      "score": 144109,
+      "url": "https://s.weibo.com/weibo?q=%23%E9%98%BF%E5%A7%A8%E7%85%A7%E6%96%99%E6%82%A3%E7%99%8C%E7%94%B7%E5%90%8C%E4%BA%8B14%E5%B9%B4%E5%BC%80%E9%94%80AA%E5%88%B6%23&t=31&band_rank=1&Refer=top",
+      "score": 143978,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1794534861
+      "onboardTime": 1794549920
     },
     {
-      "title": "科技新一说黄仁勋走了英伟达缺少灵魂",
+      "title": "女孩帮老人带路后脊背发凉",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%A7%91%E6%8A%80%E6%96%B0%E4%B8%80%E8%AF%B4%E9%BB%84%E4%BB%81%E5%8B%8B%E8%B5%B0%E4%BA%86%E8%8B%B1%E4%BC%9F%E8%BE%BE%E7%BC%BA%E5%B0%91%E7%81%B5%E9%AD%82%23&t=31&band_rank=1&Refer=top",
-      "score": 116675,
+      "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%A9%E5%B8%AE%E8%80%81%E4%BA%BA%E5%B8%A6%E8%B7%AF%E5%90%8E%E8%84%8A%E8%83%8C%E5%8F%91%E5%87%89&t=31&band_rank=1&Refer=top",
+      "score": 142805,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1794528801
+      "onboardTime": 1794540381
+    },
+    {
+      "title": "黄仁勋辞职后英伟达总部外出现鲜花蜡烛",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%BB%84%E4%BB%81%E5%8B%8B%E8%BE%9E%E8%81%8C%E5%90%8E%E8%8B%B1%E4%BC%9F%E8%BE%BE%E6%80%BB%E9%83%A8%E5%A4%96%E5%87%BA%E7%8E%B0%E9%B2%9C%E8%8A%B1%E8%9C%A1%E7%83%9B%23&t=31&band_rank=1&Refer=top",
+      "score": 136303,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1794545781
     }
   ]
 }
