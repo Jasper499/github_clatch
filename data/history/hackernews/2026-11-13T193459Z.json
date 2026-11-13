@@ -1,0 +1,212 @@
+{
+  "date": "2026-11-13T193459Z",
+  "day": "2026-11-13",
+  "sourceKey": "hackernews",
+  "savedAt": "2026-11-13T19:34:59Z",
+  "label": "Hacker News 热门",
+  "description": "近 7 天 HN 高互动讨论（2026-11-13，共 20 条）",
+  "updateFrequency": "twice-daily",
+  "fetchedDate": "2026-11-13",
+  "items": [
+    {
+      "title": "Jensen Huang resigns",
+      "description": "<a href=\"https:&#x2F;&#x2F;nvidianews.nvidia.com&#x2F;news&#x2F;nvidia-announces-ceo-transition\" rel=\"nofollow\">https:&#x2F;&#x2F;nvidianews.nvidia.com&#x2F;news&#x2F;nvidia-announces-ceo-tran...</a><p><a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;retail-consumer&#x2F;nvidia-ceo-jensen-huang-step-down-big-blow-ai-boom-2026-11-12&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;retail-consumer&#x2F;nvidia-ceo-...</a>, <a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;live&#x2F;nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;live&#x2F;nvidia-live-board-meets-fate-ce...</a><p><a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;live&#x2F;2026&#x2F;11&#x2F;12&#x2F;business&#x2F;nvidia-jensen-huang-resigns\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nytimes.com&#x2F;live&#x2F;2026&#x2F;11&#x2F;12&#x2F;business&#x2F;nvidia-jens...</a>",
+      "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+      "score": 3977,
+      "comments": 3384,
+      "owner": "lldb",
+      "published": "2026-11-12T13:52:29Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50467087"
+    },
+    {
+      "title": "Tim Peters has died",
+      "description": "<a href=\"https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;Python&#x2F;s&#x2F;2Cm5dBcvQw\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;Python&#x2F;s&#x2F;2Cm5dBcvQw</a>",
+      "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+      "score": 1422,
+      "comments": 193,
+      "owner": "ayhanfuat",
+      "published": "2026-11-11T07:03:17Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50450488"
+    },
+    {
+      "title": "Foldable Flight: The Best Paper Airplanes",
+      "description": "",
+      "url": "https://www.foldableflight.com",
+      "score": 1273,
+      "comments": 168,
+      "owner": "vismit2000",
+      "published": "2026-11-09T12:19:22Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50424581"
+    },
+    {
+      "title": "Nvidia is preparing to oust Jensen Huang",
+      "description": "",
+      "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+      "score": 1220,
+      "comments": 1642,
+      "owner": "jbredeche",
+      "published": "2026-11-11T22:31:06Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50459703"
+    },
+    {
+      "title": "Smart home devices should work without the internet",
+      "description": "",
+      "url": "https://docodethatmatters.com/home-automation-overnight-success/",
+      "score": 1194,
+      "comments": 442,
+      "owner": "skittleson",
+      "published": "2026-11-10T15:25:20Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50441707"
+    },
+    {
+      "title": "Need for Speed Underground 2 online in the browser",
+      "description": "",
+      "url": "https://nfsu2.xyz/",
+      "score": 1178,
+      "comments": 293,
+      "owner": "fluxusars",
+      "published": "2026-11-07T09:36:36Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50403052"
+    },
+    {
+      "title": "Service degradation on Microsoft 365",
+      "description": "<a href=\"https:&#x2F;&#x2F;www.abc.net.au&#x2F;news&#x2F;2026-11-13&#x2F;microsoft-outage-affects-users-worldwide&#x2F;107381050\" rel=\"nofollow\">https:&#x2F;&#x2F;www.abc.net.au&#x2F;news&#x2F;2026-11-13&#x2F;microsoft-outage-affe...</a><p><a href=\"https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;sysadmin&#x2F;comments&#x2F;1xuje83&#x2F;microsoft_office_seems_to_be_down&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;sysadmin&#x2F;comments&#x2F;1xuje83&#x2F;microsoft...</a><p><a href=\"https:&#x2F;&#x2F;downdetector.com&#x2F;status&#x2F;microsoft-365&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;downdetector.com&#x2F;status&#x2F;microsoft-365&#x2F;</a>",
+      "url": "https://status.cloud.microsoft/",
+      "score": 1137,
+      "comments": 955,
+      "owner": "dkpk",
+      "published": "2026-11-12T18:20:48Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50471731"
+    },
+    {
+      "title": "Libghostty 1.0",
+      "description": "",
+      "url": "https://mitchellh.com/writing/libghostty-1-0",
+      "score": 1093,
+      "comments": 214,
+      "owner": "mfiguiere",
+      "published": "2026-11-06T23:30:52Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50399933"
+    },
+    {
+      "title": "My AI agents found an unmapped Maya site?",
+      "description": "",
+      "url": "https://pietromiotti.com/latest/maya-site",
+      "score": 1033,
+      "comments": 392,
+      "owner": "eyvindn",
+      "published": "2026-11-11T12:05:22Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50452455"
+    },
+    {
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "description": "",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "score": 998,
+      "comments": 8,
+      "owner": "meetpateltech",
+      "published": "2026-11-09T18:56:29Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50429906"
+    },
+    {
+      "title": "Anthropic IPO",
+      "description": "",
+      "url": "https://ipo.anthropic.com/us/",
+      "score": 988,
+      "comments": 899,
+      "owner": "josephljohnston",
+      "published": "2026-11-12T11:46:41Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50465829"
+    },
+    {
+      "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+      "description": "<a href=\"https:&#x2F;&#x2F;www.axios.com&#x2F;2026&#x2F;11&#x2F;08&#x2F;nvidia-ceo-jensen-huang-affair-email-to-company\" rel=\"nofollow\">https:&#x2F;&#x2F;www.axios.com&#x2F;2026&#x2F;11&#x2F;08&#x2F;nvidia-ceo-jensen-huang-aff...</a>, <a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;Hxn5h\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;Hxn5h</a><p><a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;2026&#x2F;11&#x2F;06&#x2F;us&#x2F;politics&#x2F;chinese-spy-agency-nvidia-jensen-huang.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nytimes.com&#x2F;2026&#x2F;11&#x2F;06&#x2F;us&#x2F;politics&#x2F;chinese-spy-a...</a>, <a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;atMcp\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;atMcp</a><p><a href=\"https:&#x2F;&#x2F;www.cnn.com&#x2F;2026&#x2F;11&#x2F;08&#x2F;business&#x2F;nvidia-investigation-ceo-jensen-huang\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cnn.com&#x2F;2026&#x2F;11&#x2F;08&#x2F;business&#x2F;nvidia-investigation...</a><p><i>Statement from Nvidia board of directors</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50416801\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50416801</a> - Nov 2026 (374 comments)",
+      "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+      "score": 987,
+      "comments": 1293,
+      "owner": "karimf",
+      "published": "2026-11-08T22:20:09Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50418016"
+    },
+    {
+      "title": "AWS emulator",
+      "description": "<a href=\"https:&#x2F;&#x2F;www.aboutamazon.com&#x2F;news&#x2F;aws&#x2F;how-autonomous-ai-agents-built-aws-emulator\" rel=\"nofollow\">https:&#x2F;&#x2F;www.aboutamazon.com&#x2F;news&#x2F;aws&#x2F;how-autonomous-ai-agent...</a><p><a href=\"https:&#x2F;&#x2F;www.allthingsdistributed.com&#x2F;2026&#x2F;11&#x2F;aws-emulator-and-the-engineers-job-when-agents-write-the-code.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.allthingsdistributed.com&#x2F;2026&#x2F;11&#x2F;aws-emulator-an...</a>",
+      "url": "https://github.com/aws/aws-emulator",
+      "score": 982,
+      "comments": 265,
+      "owner": "super_linear",
+      "published": "2026-11-11T18:21:38Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50456631"
+    },
+    {
+      "title": ".name Grandfathered",
+      "description": "Previously: <i>.name Termination</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49550772\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49550772</a> - Sept 2026 (547 comments)",
+      "url": "https://neil.fraser.name/news/2026/11/10/",
+      "score": 935,
+      "comments": 211,
+      "owner": "p4bl0",
+      "published": "2026-11-10T16:37:44Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50442736"
+    },
+    {
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "description": "",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "score": 922,
+      "comments": 1054,
+      "owner": "lairv",
+      "published": "2026-11-09T18:01:10Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50429068"
+    },
+    {
+      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "description": "",
+      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "score": 903,
+      "comments": 496,
+      "owner": "TheWiggles",
+      "published": "2026-11-08T18:16:07Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50415628"
+    },
+    {
+      "title": "Every Mac comes with an (undocumented) family member classifier",
+      "description": "",
+      "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+      "score": 869,
+      "comments": 470,
+      "owner": "infwhispers",
+      "published": "2026-11-07T09:46:03Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50403097"
+    },
+    {
+      "title": "Rust 1.100",
+      "description": "",
+      "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+      "score": 860,
+      "comments": 310,
+      "owner": "mbStavola",
+      "published": "2026-11-12T18:39:05Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50472038"
+    },
+    {
+      "title": "What I run on my $10 USD OpenStick homelab",
+      "description": "",
+      "url": "https://blog.bosscher.ch/posts/openstick/",
+      "score": 833,
+      "comments": 141,
+      "owner": "LaurensBER",
+      "published": "2026-11-07T18:12:12Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50406670"
+    },
+    {
+      "title": "Goodbye Claude, hello Pi",
+      "description": "",
+      "url": "https://caleb.software/posts/claude-to-pi.html",
+      "score": 825,
+      "comments": 493,
+      "owner": "karagenit",
+      "published": "2026-11-08T03:11:48Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50410107"
+    }
+  ]
+}
