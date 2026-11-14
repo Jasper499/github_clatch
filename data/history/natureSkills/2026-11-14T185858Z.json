@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-15T142113Z",
-  "day": "2026-10-15",
+  "date": "2026-11-14T185858Z",
+  "day": "2026-11-14",
   "sourceKey": "natureSkills",
-  "savedAt": "2026-10-15T14:21:13Z",
+  "savedAt": "2026-11-14T18:58:58Z",
   "label": "Skills 清单",
-  "description": "跟踪 Yuan1z0825/nature-skills：共 17 个技能（最近同步 2026-10-14）",
+  "description": "跟踪 Yuan1z0825/nature-skills：共 17 个技能（最近同步 2026-11-13）",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "19be8d45e0d5233aa44be6d4572e655b9914ff54",
+  "latestSha": "7bff1d0539c0dfad6c30178bb93ce6dd8a5cebf8",
   "items": [
     {
       "title": "Yuan1z0825/nature-skills · 仓库总览",
@@ -17,12 +17,12 @@
       "language": "Python",
       "owner": "Yuan1z0825",
       "label": "overview",
-      "published": "2026-10-14",
+      "published": "2026-11-13",
       "readmeTruncated": false,
       "readmeFile": "README.md",
       "skillCount": 17,
-      "latestSha": "19be8d45e0d5233aa44be6d4572e655b9914ff54",
-      "readmePath": "data/readmes/natureSkills/versions/d8c4470fcfbbfad01a496df3f5259fdf501ebeda69f1b24f6ad4687967a2559e.md"
+      "latestSha": "7bff1d0539c0dfad6c30178bb93ce6dd8a5cebf8",
+      "readmePath": "data/readmes/natureSkills/versions/2cdea120f8ec29307b6c1df946178a28c082af515379a8aec0512cecebe60749.md"
     },
     {
       "title": "nature-academic-search",
@@ -70,7 +70,7 @@
       "author": "",
       "label": "skill",
       "owner": "Yuan1z0825",
-      "readmePath": "data/readmes/natureSkills/versions/0351f9069e77a4b027893592d295f3c511301bc7d2ec7d299ab49ee2c106be54.md"
+      "readmePath": "data/readmes/natureSkills/versions/d57f02ec3fc3a5341819a132df039f192d3beaf5709b57dee552589254ef6b85.md"
     },
     {
       "title": "nature-experiment-log",
