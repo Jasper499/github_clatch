@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-11-14T06:08:07Z",
+  "savedAt": "2026-11-14T08:45:31Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-11-14，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,8 +10,8 @@
       "title": "Jensen Huang resigns",
       "description": "<a href=\"https:&#x2F;&#x2F;nvidianews.nvidia.com&#x2F;news&#x2F;nvidia-announces-ceo-transition\" rel=\"nofollow\">https:&#x2F;&#x2F;nvidianews.nvidia.com&#x2F;news&#x2F;nvidia-announces-ceo-tran...</a><p><a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;retail-consumer&#x2F;nvidia-ceo-jensen-huang-step-down-big-blow-ai-boom-2026-11-12&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;retail-consumer&#x2F;nvidia-ceo-...</a>, <a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;live&#x2F;nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;live&#x2F;nvidia-live-board-meets-fate-ce...</a><p><a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;live&#x2F;2026&#x2F;11&#x2F;12&#x2F;business&#x2F;nvidia-jensen-huang-resigns\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nytimes.com&#x2F;live&#x2F;2026&#x2F;11&#x2F;12&#x2F;business&#x2F;nvidia-jens...</a>",
       "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
-      "score": 4021,
-      "comments": 3421,
+      "score": 4023,
+      "comments": 3423,
       "owner": "lldb",
       "published": "2026-11-12T13:52:29Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50467087"
@@ -20,8 +20,8 @@
       "title": "FAA issues national ground stop – lifted 4.5 hours later",
       "description": "<a href=\"https:&#x2F;&#x2F;www.fly.faa.gov&#x2F;adv&#x2F;adv_otherdis?adv_date=11132026&amp;advn=111\" rel=\"nofollow\">https:&#x2F;&#x2F;www.fly.faa.gov&#x2F;adv&#x2F;adv_otherdis?adv_date=11132026&amp;a...</a><p><a href=\"https:&#x2F;&#x2F;www.fly.faa.gov&#x2F;adv&#x2F;adv_otherdis?adv_date=11142026&amp;advn=5\" rel=\"nofollow\">https:&#x2F;&#x2F;www.fly.faa.gov&#x2F;adv&#x2F;adv_otherdis?adv_date=11142026&amp;a...</a><p><a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;live&#x2F;2026&#x2F;11&#x2F;13&#x2F;us&#x2F;ground-stop-nationwide-flights-faa&#x2F;d2ae2ce1-ac6b-59ad-ad8d-daef4e181b34\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nytimes.com&#x2F;live&#x2F;2026&#x2F;11&#x2F;13&#x2F;us&#x2F;ground-stop-natio...</a>",
       "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
-      "score": 1462,
-      "comments": 1128,
+      "score": 1520,
+      "comments": 1160,
       "owner": "zulln",
       "published": "2026-11-13T21:05:53Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50489641"
@@ -40,7 +40,7 @@
       "title": "Foldable Flight: The Best Paper Airplanes",
       "description": "",
       "url": "https://www.foldableflight.com",
-      "score": 1277,
+      "score": 1278,
       "comments": 168,
       "owner": "vismit2000",
       "published": "2026-11-09T12:19:22Z",
@@ -50,7 +50,7 @@
       "title": "Nvidia is preparing to oust Jensen Huang",
       "description": "",
       "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
-      "score": 1222,
+      "score": 1223,
       "comments": 1643,
       "owner": "jbredeche",
       "published": "2026-11-11T22:31:06Z",
@@ -81,7 +81,7 @@
       "description": "<a href=\"https:&#x2F;&#x2F;www.abc.net.au&#x2F;news&#x2F;2026-11-13&#x2F;microsoft-outage-affects-users-worldwide&#x2F;107381050\" rel=\"nofollow\">https:&#x2F;&#x2F;www.abc.net.au&#x2F;news&#x2F;2026-11-13&#x2F;microsoft-outage-affe...</a><p><a href=\"https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;sysadmin&#x2F;comments&#x2F;1xuje83&#x2F;microsoft_office_seems_to_be_down&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;sysadmin&#x2F;comments&#x2F;1xuje83&#x2F;microsoft...</a><p><a href=\"https:&#x2F;&#x2F;downdetector.com&#x2F;status&#x2F;microsoft-365&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;downdetector.com&#x2F;status&#x2F;microsoft-365&#x2F;</a>",
       "url": "https://status.cloud.microsoft/",
       "score": 1164,
-      "comments": 979,
+      "comments": 982,
       "owner": "dkpk",
       "published": "2026-11-12T18:20:48Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50471731"
@@ -111,7 +111,7 @@
       "description": "",
       "url": "https://ipo.anthropic.com/us/",
       "score": 996,
-      "comments": 907,
+      "comments": 908,
       "owner": "josephljohnston",
       "published": "2026-11-12T11:46:41Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50465829"
@@ -130,7 +130,7 @@
       "title": "AWS emulator",
       "description": "<a href=\"https:&#x2F;&#x2F;www.aboutamazon.com&#x2F;news&#x2F;aws&#x2F;how-autonomous-ai-agents-built-aws-emulator\" rel=\"nofollow\">https:&#x2F;&#x2F;www.aboutamazon.com&#x2F;news&#x2F;aws&#x2F;how-autonomous-ai-agent...</a><p><a href=\"https:&#x2F;&#x2F;www.allthingsdistributed.com&#x2F;2026&#x2F;11&#x2F;aws-emulator-and-the-engineers-job-when-agents-write-the-code.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.allthingsdistributed.com&#x2F;2026&#x2F;11&#x2F;aws-emulator-an...</a>",
       "url": "https://github.com/aws/aws-emulator",
-      "score": 984,
+      "score": 986,
       "comments": 266,
       "owner": "super_linear",
       "published": "2026-11-11T18:21:38Z",
@@ -170,11 +170,21 @@
       "title": "Rust 1.100",
       "description": "",
       "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
-      "score": 878,
+      "score": 883,
       "comments": 314,
       "owner": "mbStavola",
       "published": "2026-11-12T18:39:05Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50472038"
+    },
+    {
+      "title": "LibreOffice actually works 365 days a year",
+      "description": "",
+      "url": "https://twitter.com/LibreOffice/status/2121205272479998268",
+      "score": 878,
+      "comments": 270,
+      "owner": "mksaunders2",
+      "published": "2026-11-13T17:09:58Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50486482"
     },
     {
       "title": "Every Mac comes with an (undocumented) family member classifier",
@@ -185,16 +195,6 @@
       "owner": "infwhispers",
       "published": "2026-11-07T09:46:03Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50403097"
-    },
-    {
-      "title": "LibreOffice actually works 365 days a year",
-      "description": "",
-      "url": "https://twitter.com/LibreOffice/status/2121205272479998268",
-      "score": 861,
-      "comments": 264,
-      "owner": "mksaunders2",
-      "published": "2026-11-13T17:09:58Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50486482"
     },
     {
       "title": "What I run on my $10 USD OpenStick homelab",
