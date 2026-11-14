@@ -1,110 +1,130 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-11-14T06:07:36Z",
+  "savedAt": "2026-11-14T09:24:26Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-14，共 10 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-14，共 12 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-11-14",
   "items": [
     {
-      "title": "无人健身房火了小伙5年开1300家",
-      "description": "热 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%97%A0%E4%BA%BA%E5%81%A5%E8%BA%AB%E6%88%BF%E7%81%AB%E4%BA%86%E5%B0%8F%E4%BC%995%E5%B9%B4%E5%BC%801300%E5%AE%B6%23&t=31&band_rank=1&Refer=top",
-      "score": 1152891,
+      "title": "业内称山姆399元羽绒服是钩子商品",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%9A%E5%86%85%E7%A7%B0%E5%B1%B1%E5%A7%86399%E5%85%83%E7%BE%BD%E7%BB%92%E6%9C%8D%E6%98%AF%E9%92%A9%E5%AD%90%E5%95%86%E5%93%81%23&t=31&band_rank=1&Refer=top",
+      "score": 1171655,
       "owner": "微博同城",
-      "label": "热",
+      "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1794621380
+      "onboardTime": 1794643520
     },
     {
-      "title": "22岁男子确诊糖尿病不敢告诉同事",
+      "title": "男子砍伤妻子未批捕事后勒死妻子",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E7%A0%8D%E4%BC%A4%E5%A6%BB%E5%AD%90%E6%9C%AA%E6%89%B9%E6%8D%95%E4%BA%8B%E5%90%8E%E5%8B%92%E6%AD%BB%E5%A6%BB%E5%AD%90%23&t=31&band_rank=1&Refer=top",
+      "score": 876698,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1794644240
+    },
+    {
+      "title": "一图读懂我国消费市场潜力与活力",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%2322%E5%B2%81%E7%94%B7%E5%AD%90%E7%A1%AE%E8%AF%8A%E7%B3%96%E5%B0%BF%E7%97%85%E4%B8%8D%E6%95%A2%E5%91%8A%E8%AF%89%E5%90%8C%E4%BA%8B%23&t=31&band_rank=1&Refer=top",
-      "score": 807659,
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%80%E5%9B%BE%E8%AF%BB%E6%87%82%E6%88%91%E5%9B%BD%E6%B6%88%E8%B4%B9%E5%B8%82%E5%9C%BA%E6%BD%9C%E5%8A%9B%E4%B8%8E%E6%B4%BB%E5%8A%9B%23&t=31&band_rank=1&Refer=top",
+      "score": 650187,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1794628219
-    },
-    {
-      "title": "APEC中国年的新看点",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23APEC%E4%B8%AD%E5%9B%BD%E5%B9%B4%E7%9A%84%E6%96%B0%E7%9C%8B%E7%82%B9%23&t=31&band_rank=1&Refer=top",
-      "score": 658948,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1794623540
+      "onboardTime": 1794640940
     },
     {
       "title": "奔驰女司机借300元加油钱后手机关机",
-      "description": "新 · 民生新闻",
+      "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E5%A5%94%E9%A9%B0%E5%A5%B3%E5%8F%B8%E6%9C%BA%E5%80%9F300%E5%85%83%E5%8A%A0%E6%B2%B9%E9%92%B1%E5%90%8E%E6%89%8B%E6%9C%BA%E5%85%B3%E6%9C%BA%23&t=31&band_rank=1&Refer=top",
-      "score": 427914,
+      "score": 435584,
       "owner": "微博同城",
-      "label": "新",
+      "label": "",
       "category": "民生新闻",
       "onboardTime": 1794632719
     },
     {
-      "title": "把孩子塞后备箱被查家长说送给交警",
+      "title": "boss直聘回应拒给HR带咖啡被取消面试",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23boss%E7%9B%B4%E8%81%98%E5%9B%9E%E5%BA%94%E6%8B%92%E7%BB%99HR%E5%B8%A6%E5%92%96%E5%95%A1%E8%A2%AB%E5%8F%96%E6%B6%88%E9%9D%A2%E8%AF%95%23&t=31&band_rank=1&Refer=top",
+      "score": 382406,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1794645560
+    },
+    {
+      "title": "零元面馆老板说外卖小哥看不上素面",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%8A%8A%E5%AD%A9%E5%AD%90%E5%A1%9E%E5%90%8E%E5%A4%87%E7%AE%B1%E8%A2%AB%E6%9F%A5%E5%AE%B6%E9%95%BF%E8%AF%B4%E9%80%81%E7%BB%99%E4%BA%A4%E8%AD%A6%23&t=31&band_rank=1&Refer=top",
-      "score": 323207,
+      "url": "https://s.weibo.com/weibo?q=%23%E9%9B%B6%E5%85%83%E9%9D%A2%E9%A6%86%E8%80%81%E6%9D%BF%E8%AF%B4%E5%A4%96%E5%8D%96%E5%B0%8F%E5%93%A5%E7%9C%8B%E4%B8%8D%E4%B8%8A%E7%B4%A0%E9%9D%A2%23&t=31&band_rank=1&Refer=top",
+      "score": 253096,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1794627559
+      "onboardTime": 1794646881
     },
     {
       "title": "产妇羊水栓塞母子双亡医院赔119万",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E4%BA%A7%E5%A6%87%E7%BE%8A%E6%B0%B4%E6%A0%93%E5%A1%9E%E6%AF%8D%E5%AD%90%E5%8F%8C%E4%BA%A1%E5%8C%BB%E9%99%A2%E8%B5%94119%E4%B8%87%23&t=31&band_rank=1&Refer=top",
-      "score": 203922,
+      "score": 246397,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1794625820
     },
     {
-      "title": "女子回应读博期间3年生下3个孩子",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E5%9B%9E%E5%BA%94%E8%AF%BB%E5%8D%9A%E6%9C%9F%E9%97%B43%E5%B9%B4%E7%94%9F%E4%B8%8B3%E4%B8%AA%E5%AD%A9%E5%AD%90%23&t=31&band_rank=1&Refer=top",
-      "score": 196558,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1794619520
-    },
-    {
-      "title": "读博生3娃女子为了生育延毕",
+      "title": "女子读博生三娃算人生赢家吗",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%AF%BB%E5%8D%9A%E7%94%9F3%E5%A8%83%E5%A5%B3%E5%AD%90%E4%B8%BA%E4%BA%86%E7%94%9F%E8%82%B2%E5%BB%B6%E6%AF%95%23&t=31&band_rank=1&Refer=top",
-      "score": 147622,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E8%AF%BB%E5%8D%9A%E7%94%9F%E4%B8%89%E5%A8%83%E7%AE%97%E4%BA%BA%E7%94%9F%E8%B5%A2%E5%AE%B6%E5%90%97%23&t=31&band_rank=1&Refer=top",
+      "score": 195937,
       "owner": "微博同城",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1794635721
+      "onboardTime": 1794647421
     },
     {
-      "title": "产妇求剖腹产遭拒孩子脑瘫丈夫发声",
+      "title": "遭丈夫勒颈杀害女子家属发声",
+      "description": "新 · 突发/灾害",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%81%AD%E4%B8%88%E5%A4%AB%E5%8B%92%E9%A2%88%E6%9D%80%E5%AE%B3%E5%A5%B3%E5%AD%90%E5%AE%B6%E5%B1%9E%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
+      "score": 189599,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "突发/灾害",
+      "onboardTime": 1794647722
+    },
+    {
+      "title": "22岁男子确诊糖尿病不敢告诉同事",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%BA%A7%E5%A6%87%E6%B1%82%E5%89%96%E8%85%B9%E4%BA%A7%E9%81%AD%E6%8B%92%E5%AD%A9%E5%AD%90%E8%84%91%E7%98%AB%E4%B8%88%E5%A4%AB%E5%8F%91%E5%A3%B0%23&t=31&band_rank=1&Refer=top",
-      "score": 147471,
+      "url": "https://s.weibo.com/weibo?q=%2322%E5%B2%81%E7%94%B7%E5%AD%90%E7%A1%AE%E8%AF%8A%E7%B3%96%E5%B0%BF%E7%97%85%E4%B8%8D%E6%95%A2%E5%91%8A%E8%AF%89%E5%90%8C%E4%BA%8B%23&t=31&band_rank=1&Refer=top",
+      "score": 152614,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1794587000
+      "onboardTime": 1794628219
     },
     {
-      "title": "山姆399元羽绒服鸭绒成本约130元",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%B1%B1%E5%A7%86399%E5%85%83%E7%BE%BD%E7%BB%92%E6%9C%8D%E9%B8%AD%E7%BB%92%E6%88%90%E6%9C%AC%E7%BA%A6130%E5%85%83%23&t=31&band_rank=1&Refer=top",
-      "score": 141759,
+      "title": "男子自己做饭1年逆转糖尿病",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E8%87%AA%E5%B7%B1%E5%81%9A%E9%A5%AD1%E5%B9%B4%E9%80%86%E8%BD%AC%E7%B3%96%E5%B0%BF%E7%97%85%23&t=31&band_rank=1&Refer=top",
+      "score": 149971,
       "owner": "微博同城",
-      "label": "新",
+      "label": "",
       "category": "民生新闻",
-      "onboardTime": 1794635899
+      "onboardTime": 1794640579
+    },
+    {
+      "title": "30岁糖尿病男子血糖狂飙20年险丧命",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%2330%E5%B2%81%E7%B3%96%E5%B0%BF%E7%97%85%E7%94%B7%E5%AD%90%E8%A1%80%E7%B3%96%E7%8B%82%E9%A3%9920%E5%B9%B4%E9%99%A9%E4%B8%A7%E5%91%BD%23&t=31&band_rank=1&Refer=top",
+      "score": 135720,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1794642800
     }
   ]
 }
