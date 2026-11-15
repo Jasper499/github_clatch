@@ -1,100 +1,70 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-11-15T06:14:36Z",
+  "savedAt": "2026-11-15T17:57:57Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-15，共 9 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-15，共 6 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-11-15",
   "items": [
     {
-      "title": "女孩5岁白血病终末期如今已45岁",
+      "title": "2分钟快闪视频看APEC热词",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%A95%E5%B2%81%E7%99%BD%E8%A1%80%E7%97%85%E7%BB%88%E6%9C%AB%E6%9C%9F%E5%A6%82%E4%BB%8A%E5%B7%B245%E5%B2%81%23&t=31&band_rank=1&Refer=top",
-      "score": 785868,
+      "url": "https://s.weibo.com/weibo?q=%232%E5%88%86%E9%92%9F%E5%BF%AB%E9%97%AA%E8%A7%86%E9%A2%91%E7%9C%8BAPEC%E7%83%AD%E8%AF%8D%23&t=31&band_rank=1&Refer=top",
+      "score": 498629,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1794716781
+      "onboardTime": 1794745821
     },
     {
-      "title": "中国砒霜治疗成国际方案",
+      "title": "砒霜口服药让白血病患存活率超97%",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E7%A0%92%E9%9C%9C%E6%B2%BB%E7%96%97%E6%88%90%E5%9B%BD%E9%99%85%E6%96%B9%E6%A1%88%23&t=31&band_rank=1&Refer=top",
-      "score": 673119,
+      "url": "https://s.weibo.com/weibo?q=%23%E7%A0%92%E9%9C%9C%E5%8F%A3%E6%9C%8D%E8%8D%AF%E8%AE%A9%E7%99%BD%E8%A1%80%E7%97%85%E6%82%A3%E5%AD%98%E6%B4%BB%E7%8E%87%E8%B6%8597%25%23&t=31&band_rank=1&Refer=top",
+      "score": 79702,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1794717561
+      "onboardTime": 1794738441
     },
     {
-      "title": "家长举报老师生孩子没理性更没人性",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AE%B6%E9%95%BF%E4%B8%BE%E6%8A%A5%E8%80%81%E5%B8%88%E7%94%9F%E5%AD%A9%E5%AD%90%E6%B2%A1%E7%90%86%E6%80%A7%E6%9B%B4%E6%B2%A1%E4%BA%BA%E6%80%A7%23&t=31&band_rank=1&Refer=top",
-      "score": 613876,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1794722481
-    },
-    {
-      "title": "孙海洋回应女儿结婚不收彩礼",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AD%99%E6%B5%B7%E6%B4%8B%E5%9B%9E%E5%BA%94%E5%A5%B3%E5%84%BF%E7%BB%93%E5%A9%9A%E4%B8%8D%E6%94%B6%E5%BD%A9%E7%A4%BC%23&t=31&band_rank=1&Refer=top",
-      "score": 481289,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1794719480
-    },
-    {
-      "title": "孙悦婚礼孙卓落泪拥抱姐姐",
+      "title": "猪肉价跌得有多狠",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AD%99%E6%82%A6%E5%A9%9A%E7%A4%BC%E5%AD%99%E5%8D%93%E8%90%BD%E6%B3%AA%E6%8B%A5%E6%8A%B1%E5%A7%90%E5%A7%90%23&t=31&band_rank=1&Refer=top",
-      "score": 271550,
+      "url": "https://s.weibo.com/weibo?q=%23%E7%8C%AA%E8%82%89%E4%BB%B7%E8%B7%8C%E5%BE%97%E6%9C%89%E5%A4%9A%E7%8B%A0%23&t=31&band_rank=1&Refer=top",
+      "score": 71970,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1794717980
+      "onboardTime": 1794751101
     },
     {
-      "title": "央视曝光校园举报乱象",
+      "title": "你的朋友圈设置为三天可见了吗",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E6%A0%A1%E5%9B%AD%E4%B8%BE%E6%8A%A5%E4%B9%B1%E8%B1%A1%23&t=31&band_rank=1&Refer=top",
-      "score": 249011,
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BD%A0%E7%9A%84%E6%9C%8B%E5%8F%8B%E5%9C%88%E8%AE%BE%E7%BD%AE%E4%B8%BA%E4%B8%89%E5%A4%A9%E5%8F%AF%E8%A7%81%E4%BA%86%E5%90%97%23&t=31&band_rank=1&Refer=top",
+      "score": 70983,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1794712342
+      "onboardTime": 1794757940
     },
     {
-      "title": "辽阳广播电视台主持人张雪峰去世",
+      "title": "胖东来羽绒服区人山人海",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E8%BE%BD%E9%98%B3%E5%B9%BF%E6%92%AD%E7%94%B5%E8%A7%86%E5%8F%B0%E4%B8%BB%E6%8C%81%E4%BA%BA%E5%BC%A0%E9%9B%AA%E5%B3%B0%E5%8E%BB%E4%B8%96&t=31&band_rank=1&Refer=top",
-      "score": 230766,
+      "url": "https://s.weibo.com/weibo?q=%23%E8%83%96%E4%B8%9C%E6%9D%A5%E7%BE%BD%E7%BB%92%E6%9C%8D%E5%8C%BA%E4%BA%BA%E5%B1%B1%E4%BA%BA%E6%B5%B7%23&t=31&band_rank=1&Refer=top",
+      "score": 68625,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1794719781
+      "onboardTime": 1794761539
     },
     {
-      "title": "孩子觉得打包剩饭丢人家长最该反思",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AD%A9%E5%AD%90%E8%A7%89%E5%BE%97%E6%89%93%E5%8C%85%E5%89%A9%E9%A5%AD%E4%B8%A2%E4%BA%BA%E5%AE%B6%E9%95%BF%E6%9C%80%E8%AF%A5%E5%8F%8D%E6%80%9D%23&t=31&band_rank=1&Refer=top",
-      "score": 209403,
+      "title": "千万别带着塑料袋把菜塞冰箱",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E5%8D%83%E4%B8%87%E5%88%AB%E5%B8%A6%E7%9D%80%E5%A1%91%E6%96%99%E8%A2%8B%E6%8A%8A%E8%8F%9C%E5%A1%9E%E5%86%B0%E7%AE%B1&t=31&band_rank=1&Refer=top",
+      "score": 58754,
       "owner": "微博同城",
-      "label": "新",
+      "label": "",
       "category": "民生新闻",
-      "onboardTime": 1794720201
-    },
-    {
-      "title": "男子网购书包拆出他人内裤和照片",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E7%BD%91%E8%B4%AD%E4%B9%A6%E5%8C%85%E6%8B%86%E5%87%BA%E4%BB%96%E4%BA%BA%E5%86%85%E8%A3%A4%E5%92%8C%E7%85%A7%E7%89%87%23&t=31&band_rank=1&Refer=top",
-      "score": 203307,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1794722481
+      "onboardTime": 1794750261
     }
   ]
 }
