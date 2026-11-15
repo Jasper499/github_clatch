@@ -1,6 +1,6 @@
 {
   "sourceKey": "weibo",
-  "savedAt": "2026-11-15T17:57:57Z",
+  "savedAt": "2026-11-15T18:45:27Z",
   "label": "热搜榜",
   "description": "微博热搜榜（2026-11-15，共 30 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
@@ -10,7 +10,7 @@
       "title": "国乒全军覆没34岁方博夺冠",
       "description": "热",
       "url": "https://s.weibo.com/weibo?q=%23%E5%9B%BD%E4%B9%92%E5%85%A8%E5%86%9B%E8%A6%86%E6%B2%A134%E5%B2%81%E6%96%B9%E5%8D%9A%E5%A4%BA%E5%86%A0%23&t=31&band_rank=1&Refer=top",
-      "score": 770710,
+      "score": 501149,
       "owner": "微博热搜",
       "label": "热"
     },
@@ -18,7 +18,7 @@
       "title": "青稚聊天记录",
       "description": "热",
       "url": "https://s.weibo.com/weibo?q=%E9%9D%92%E7%A8%9A%E8%81%8A%E5%A4%A9%E8%AE%B0%E5%BD%95&t=31&band_rank=1&Refer=top",
-      "score": 610632,
+      "score": 424739,
       "owner": "微博热搜",
       "label": "热"
     },
@@ -26,23 +26,23 @@
       "title": "2分钟快闪视频看APEC热词",
       "description": "",
       "url": "https://s.weibo.com/weibo?q=%232%E5%88%86%E9%92%9F%E5%BF%AB%E9%97%AA%E8%A7%86%E9%A2%91%E7%9C%8BAPEC%E7%83%AD%E8%AF%8D%23&t=31&band_rank=1&Refer=top",
-      "score": 498629,
+      "score": 226322,
       "owner": "微博热搜",
       "label": ""
-    },
-    {
-      "title": "红果AI漫剧热播榜排名TOP10",
-      "description": "热",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%BA%A2%E6%9E%9CAI%E6%BC%AB%E5%89%A7%E7%83%AD%E6%92%AD%E6%A6%9C%E6%8E%92%E5%90%8DTOP10%23&t=31&band_rank=1&Refer=top",
-      "score": 436729,
-      "owner": "微博热搜",
-      "label": "热"
     },
     {
       "title": "BLG庆功宴",
       "description": "",
       "url": "https://s.weibo.com/weibo?q=%23BLG%E5%BA%86%E5%8A%9F%E5%AE%B4%23&t=31&band_rank=1&Refer=top",
-      "score": 244653,
+      "score": 176151,
+      "owner": "微博热搜",
+      "label": ""
+    },
+    {
+      "title": "买衣服别被面料名字忽悠",
+      "description": "",
+      "url": "https://s.weibo.com/weibo?q=%E4%B9%B0%E8%A1%A3%E6%9C%8D%E5%88%AB%E8%A2%AB%E9%9D%A2%E6%96%99%E5%90%8D%E5%AD%97%E5%BF%BD%E6%82%A0&t=31&band_rank=1&Refer=top",
+      "score": 142164,
       "owner": "微博热搜",
       "label": ""
     },
@@ -50,7 +50,7 @@
       "title": "韩网友爆料Jennie妈妈",
       "description": "热",
       "url": "https://s.weibo.com/weibo?q=%23%E9%9F%A9%E7%BD%91%E5%8F%8B%E7%88%86%E6%96%99Jennie%E5%A6%88%E5%A6%88%23&t=31&band_rank=1&Refer=top",
-      "score": 243599,
+      "score": 121152,
       "owner": "微博热搜",
       "label": "热"
     },
@@ -58,23 +58,15 @@
       "title": "曝许飞退群",
       "description": "热",
       "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E8%AE%B8%E9%A3%9E%E9%80%80%E7%BE%A4%23&t=31&band_rank=1&Refer=top",
-      "score": 241649,
+      "score": 120435,
       "owner": "微博热搜",
       "label": "热"
-    },
-    {
-      "title": "买衣服别被面料名字忽悠",
-      "description": "",
-      "url": "https://s.weibo.com/weibo?q=%E4%B9%B0%E8%A1%A3%E6%9C%8D%E5%88%AB%E8%A2%AB%E9%9D%A2%E6%96%99%E5%90%8D%E5%AD%97%E5%BF%BD%E6%82%A0&t=31&band_rank=1&Refer=top",
-      "score": 236030,
-      "owner": "微博热搜",
-      "label": ""
     },
     {
       "title": "内娱这样的台词我等了二十年",
       "description": "",
       "url": "https://s.weibo.com/weibo?q=%E5%86%85%E5%A8%B1%E8%BF%99%E6%A0%B7%E7%9A%84%E5%8F%B0%E8%AF%8D%E6%88%91%E7%AD%89%E4%BA%86%E4%BA%8C%E5%8D%81%E5%B9%B4&t=31&band_rank=1&Refer=top",
-      "score": 148500,
+      "score": 90792,
       "owner": "微博热搜",
       "label": ""
     },
@@ -82,15 +74,31 @@
       "title": "BLG一串四原来是烤串的串",
       "description": "",
       "url": "https://s.weibo.com/weibo?q=%23BLG%E4%B8%80%E4%B8%B2%E5%9B%9B%E5%8E%9F%E6%9D%A5%E6%98%AF%E7%83%A4%E4%B8%B2%E7%9A%84%E4%B8%B2%23&t=31&band_rank=1&Refer=top",
-      "score": 121522,
+      "score": 84851,
       "owner": "微博热搜",
       "label": ""
+    },
+    {
+      "title": "Knight夺冠后鼓励chovy",
+      "description": "新",
+      "url": "https://s.weibo.com/weibo?q=%23Knight%E5%A4%BA%E5%86%A0%E5%90%8E%E9%BC%93%E5%8A%B1chovy%23&t=31&band_rank=1&Refer=top",
+      "score": 80467,
+      "owner": "微博热搜",
+      "label": "新"
+    },
+    {
+      "title": "红果AI漫剧热播榜排名TOP10",
+      "description": "热",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%BA%A2%E6%9E%9CAI%E6%BC%AB%E5%89%A7%E7%83%AD%E6%92%AD%E6%A6%9C%E6%8E%92%E5%90%8DTOP10%23&t=31&band_rank=1&Refer=top",
+      "score": 78767,
+      "owner": "微博热搜",
+      "label": "热"
     },
     {
       "title": "白鹿进组前的伙食",
       "description": "",
       "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E9%B9%BF%E8%BF%9B%E7%BB%84%E5%89%8D%E7%9A%84%E4%BC%99%E9%A3%9F%23&t=31&band_rank=1&Refer=top",
-      "score": 117599,
+      "score": 78379,
       "owner": "微博热搜",
       "label": ""
     },
@@ -98,15 +106,7 @@
       "title": "Lisa把钱塞腰上被质疑",
       "description": "",
       "url": "https://s.weibo.com/weibo?q=Lisa%E6%8A%8A%E9%92%B1%E5%A1%9E%E8%85%B0%E4%B8%8A%E8%A2%AB%E8%B4%A8%E7%96%91&t=31&band_rank=1&Refer=top",
-      "score": 117128,
-      "owner": "微博热搜",
-      "label": ""
-    },
-    {
-      "title": "丹麦新工签将向中国公民开放",
-      "description": "",
-      "url": "https://s.weibo.com/weibo?q=%E4%B8%B9%E9%BA%A6%E6%96%B0%E5%B7%A5%E7%AD%BE%E5%B0%86%E5%90%91%E4%B8%AD%E5%9B%BD%E5%85%AC%E6%B0%91%E5%BC%80%E6%94%BE&t=31&band_rank=1&Refer=top",
-      "score": 113166,
+      "score": 78103,
       "owner": "微博热搜",
       "label": ""
     },
@@ -114,47 +114,15 @@
       "title": "朱天天 创造101",
       "description": "",
       "url": "https://s.weibo.com/weibo?q=%E6%9C%B1%E5%A4%A9%E5%A4%A9%20%E5%88%9B%E9%80%A0101&t=31&band_rank=1&Refer=top",
-      "score": 102384,
+      "score": 65632,
       "owner": "微博热搜",
       "label": ""
     },
     {
-      "title": "侯明昊工作室谴责品牌违规售票",
+      "title": "丹麦新工签将向中国公民开放",
       "description": "",
-      "url": "https://s.weibo.com/weibo?q=%E4%BE%AF%E6%98%8E%E6%98%8A%E5%B7%A5%E4%BD%9C%E5%AE%A4%E8%B0%B4%E8%B4%A3%E5%93%81%E7%89%8C%E8%BF%9D%E8%A7%84%E5%94%AE%E7%A5%A8&t=31&band_rank=1&Refer=top",
-      "score": 101240,
-      "owner": "微博热搜",
-      "label": ""
-    },
-    {
-      "title": "白鹿换新手机",
-      "description": "",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E9%B9%BF%E6%8D%A2%E6%96%B0%E6%89%8B%E6%9C%BA%23&t=31&band_rank=1&Refer=top",
-      "score": 96023,
-      "owner": "微博热搜",
-      "label": ""
-    },
-    {
-      "title": "胡先煦我后面几期更笨",
-      "description": "",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%83%A1%E5%85%88%E7%85%A6%E6%88%91%E5%90%8E%E9%9D%A2%E5%87%A0%E6%9C%9F%E6%9B%B4%E7%AC%A8%23&t=31&band_rank=1&Refer=top",
-      "score": 88232,
-      "owner": "微博热搜",
-      "label": ""
-    },
-    {
-      "title": "穆祉丞18岁最后一条动态",
-      "description": "",
-      "url": "https://s.weibo.com/weibo?q=%E7%A9%86%E7%A5%89%E4%B8%9E18%E5%B2%81%E6%9C%80%E5%90%8E%E4%B8%80%E6%9D%A1%E5%8A%A8%E6%80%81&t=31&band_rank=1&Refer=top",
-      "score": 87113,
-      "owner": "微博热搜",
-      "label": ""
-    },
-    {
-      "title": "砒霜口服药让白血病患存活率超97%",
-      "description": "",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%A0%92%E9%9C%9C%E5%8F%A3%E6%9C%8D%E8%8D%AF%E8%AE%A9%E7%99%BD%E8%A1%80%E7%97%85%E6%82%A3%E5%AD%98%E6%B4%BB%E7%8E%87%E8%B6%8597%25%23&t=31&band_rank=1&Refer=top",
-      "score": 79702,
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%B9%E9%BA%A6%E6%96%B0%E5%B7%A5%E7%AD%BE%E5%B0%86%E5%90%91%E4%B8%AD%E5%9B%BD%E5%85%AC%E6%B0%91%E5%BC%80%E6%94%BE&t=31&band_rank=1&Refer=top",
+      "score": 62115,
       "owner": "微博热搜",
       "label": ""
     },
@@ -162,7 +130,39 @@
       "title": "方博回应复出夺冠",
       "description": "",
       "url": "https://s.weibo.com/weibo?q=%23%E6%96%B9%E5%8D%9A%E5%9B%9E%E5%BA%94%E5%A4%8D%E5%87%BA%E5%A4%BA%E5%86%A0%23&t=31&band_rank=1&Refer=top",
-      "score": 75824,
+      "score": 55739,
+      "owner": "微博热搜",
+      "label": ""
+    },
+    {
+      "title": "白鹿换新手机",
+      "description": "",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E9%B9%BF%E6%8D%A2%E6%96%B0%E6%89%8B%E6%9C%BA%23&t=31&band_rank=1&Refer=top",
+      "score": 55539,
+      "owner": "微博热搜",
+      "label": ""
+    },
+    {
+      "title": "侯明昊工作室谴责品牌违规售票",
+      "description": "",
+      "url": "https://s.weibo.com/weibo?q=%E4%BE%AF%E6%98%8E%E6%98%8A%E5%B7%A5%E4%BD%9C%E5%AE%A4%E8%B0%B4%E8%B4%A3%E5%93%81%E7%89%8C%E8%BF%9D%E8%A7%84%E5%94%AE%E7%A5%A8&t=31&band_rank=1&Refer=top",
+      "score": 54215,
+      "owner": "微博热搜",
+      "label": ""
+    },
+    {
+      "title": "青稚前女友六点澄清",
+      "description": "",
+      "url": "https://s.weibo.com/weibo?q=%E9%9D%92%E7%A8%9A%E5%89%8D%E5%A5%B3%E5%8F%8B%E5%85%AD%E7%82%B9%E6%BE%84%E6%B8%85&t=31&band_rank=1&Refer=top",
+      "score": 53477,
+      "owner": "微博热搜",
+      "label": ""
+    },
+    {
+      "title": "砒霜口服药让白血病患存活率超97%",
+      "description": "",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%A0%92%E9%9C%9C%E5%8F%A3%E6%9C%8D%E8%8D%AF%E8%AE%A9%E7%99%BD%E8%A1%80%E7%97%85%E6%82%A3%E5%AD%98%E6%B4%BB%E7%8E%87%E8%B6%8597%25%23&t=31&band_rank=1&Refer=top",
+      "score": 52718,
       "owner": "微博热搜",
       "label": ""
     },
@@ -170,15 +170,23 @@
       "title": "妈妈试了三次才懂孩子想吃煎蛋",
       "description": "",
       "url": "https://s.weibo.com/weibo?q=%E5%A6%88%E5%A6%88%E8%AF%95%E4%BA%86%E4%B8%89%E6%AC%A1%E6%89%8D%E6%87%82%E5%AD%A9%E5%AD%90%E6%83%B3%E5%90%83%E7%85%8E%E8%9B%8B&t=31&band_rank=1&Refer=top",
-      "score": 75724,
+      "score": 52710,
       "owner": "微博热搜",
       "label": ""
     },
     {
-      "title": "雪中飞向侯明昊道歉",
+      "title": "胡先煦我后面几期更笨",
       "description": "",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%9B%AA%E4%B8%AD%E9%A3%9E%E5%90%91%E4%BE%AF%E6%98%8E%E6%98%8A%E9%81%93%E6%AD%89%23&t=31&band_rank=1&Refer=top",
-      "score": 75433,
+      "url": "https://s.weibo.com/weibo?q=%23%E8%83%A1%E5%85%88%E7%85%A6%E6%88%91%E5%90%8E%E9%9D%A2%E5%87%A0%E6%9C%9F%E6%9B%B4%E7%AC%A8%23&t=31&band_rank=1&Refer=top",
+      "score": 52685,
+      "owner": "微博热搜",
+      "label": ""
+    },
+    {
+      "title": "Viper把圣枪哥拉到奖杯前合影",
+      "description": "",
+      "url": "https://s.weibo.com/weibo?q=%23Viper%E6%8A%8A%E5%9C%A3%E6%9E%AA%E5%93%A5%E6%8B%89%E5%88%B0%E5%A5%96%E6%9D%AF%E5%89%8D%E5%90%88%E5%BD%B1%23&t=31&band_rank=1&Refer=top",
+      "score": 52673,
       "owner": "微博热搜",
       "label": ""
     },
@@ -186,7 +194,7 @@
       "title": "张家齐妈妈是北京拆迁户",
       "description": "",
       "url": "https://s.weibo.com/weibo?q=%23%E5%BC%A0%E5%AE%B6%E9%BD%90%E5%A6%88%E5%A6%88%E6%98%AF%E5%8C%97%E4%BA%AC%E6%8B%86%E8%BF%81%E6%88%B7%23&t=31&band_rank=1&Refer=top",
-      "score": 75323,
+      "score": 52647,
       "owner": "微博热搜",
       "label": ""
     },
@@ -194,7 +202,7 @@
       "title": "青稚前女友",
       "description": "",
       "url": "https://s.weibo.com/weibo?q=%E9%9D%92%E7%A8%9A%E5%89%8D%E5%A5%B3%E5%8F%8B&t=31&band_rank=1&Refer=top",
-      "score": 74981,
+      "score": 52645,
       "owner": "微博热搜",
       "label": ""
     },
@@ -202,15 +210,7 @@
       "title": "夫妻约定二胎一家一个姓",
       "description": "",
       "url": "https://s.weibo.com/weibo?q=%E5%A4%AB%E5%A6%BB%E7%BA%A6%E5%AE%9A%E4%BA%8C%E8%83%8E%E4%B8%80%E5%AE%B6%E4%B8%80%E4%B8%AA%E5%A7%93&t=31&band_rank=1&Refer=top",
-      "score": 74840,
-      "owner": "微博热搜",
-      "label": ""
-    },
-    {
-      "title": "曝DK全员离队",
-      "description": "",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9DDK%E5%85%A8%E5%91%98%E7%A6%BB%E9%98%9F%23&t=31&band_rank=1&Refer=top",
-      "score": 74634,
+      "score": 52641,
       "owner": "微博热搜",
       "label": ""
     },
@@ -218,33 +218,33 @@
       "title": "00后真是在各过各的",
       "description": "",
       "url": "https://s.weibo.com/weibo?q=00%E5%90%8E%E7%9C%9F%E6%98%AF%E5%9C%A8%E5%90%84%E8%BF%87%E5%90%84%E7%9A%84&t=31&band_rank=1&Refer=top",
-      "score": 74267,
+      "score": 52589,
       "owner": "微博热搜",
       "label": ""
     },
     {
-      "title": "LCK解说长达十分钟盛赞BLG",
-      "description": "",
-      "url": "https://s.weibo.com/weibo?q=%23LCK%E8%A7%A3%E8%AF%B4%E9%95%BF%E8%BE%BE%E5%8D%81%E5%88%86%E9%92%9F%E7%9B%9B%E8%B5%9EBLG%23&t=31&band_rank=1&Refer=top",
-      "score": 74221,
+      "title": "2026MMA完整获奖名单",
+      "description": "新",
+      "url": "https://s.weibo.com/weibo?q=2026MMA%E5%AE%8C%E6%95%B4%E8%8E%B7%E5%A5%96%E5%90%8D%E5%8D%95&t=31&band_rank=1&Refer=top",
+      "score": 50914,
       "owner": "微博热搜",
-      "label": ""
-    },
-    {
-      "title": "猪肉价跌得有多狠",
-      "description": "",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%8C%AA%E8%82%89%E4%BB%B7%E8%B7%8C%E5%BE%97%E6%9C%89%E5%A4%9A%E7%8B%A0%23&t=31&band_rank=1&Refer=top",
-      "score": 71970,
-      "owner": "微博热搜",
-      "label": ""
+      "label": "新"
     },
     {
       "title": "你的朋友圈设置为三天可见了吗",
       "description": "",
       "url": "https://s.weibo.com/weibo?q=%23%E4%BD%A0%E7%9A%84%E6%9C%8B%E5%8F%8B%E5%9C%88%E8%AE%BE%E7%BD%AE%E4%B8%BA%E4%B8%89%E5%A4%A9%E5%8F%AF%E8%A7%81%E4%BA%86%E5%90%97%23&t=31&band_rank=1&Refer=top",
-      "score": 70983,
+      "score": 50699,
       "owner": "微博热搜",
       "label": ""
+    },
+    {
+      "title": "樊振东暴力熊猫回归",
+      "description": "新",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%A8%8A%E6%8C%AF%E4%B8%9C%E6%9A%B4%E5%8A%9B%E7%86%8A%E7%8C%AB%E5%9B%9E%E5%BD%92%23&t=31&band_rank=1&Refer=top",
+      "score": 50669,
+      "owner": "微博热搜",
+      "label": "新"
     }
   ]
 }
