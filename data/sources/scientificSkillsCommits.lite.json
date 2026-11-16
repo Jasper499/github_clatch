@@ -1,12 +1,23 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-11-15T19:56:57Z",
+  "savedAt": "2026-11-16T09:56:03Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+  "latestSha": "ec59a29a03d5c40f73ab40878df04860bc00e876",
   "items": [
+    {
+      "title": "chore: update security scan report [skip ci]",
+      "description": "chore: update security scan report [skip ci]",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/ec59a29a03d5c40f73ab40878df04860bc00e876",
+      "sha": "ec59a29",
+      "fullSha": "ec59a29a03d5c40f73ab40878df04860bc00e876",
+      "owner": "github-actions",
+      "published": "2026-11-16",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "chore: update security scan report [skip ci]",
       "description": "chore: update security scan report [skip ci]",
@@ -156,17 +167,6 @@
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/4537e63f1a50b31e46933cd77324a499f2be1299",
       "sha": "4537e63",
       "fullSha": "4537e63f1a50b31e46933cd77324a499f2be1299",
-      "owner": "timothykassis",
-      "published": "2026-10-01",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "remove: delete CLAUDE.md as repository guidance is now consolidated i…",
-      "description": "remove: delete CLAUDE.md as repository guidance is now consolidated in AGENTS.md",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/8b078d6bedfb99672cb703664ccf170f89665cb8",
-      "sha": "8b078d6",
-      "fullSha": "8b078d6bedfb99672cb703664ccf170f89665cb8",
       "owner": "timothykassis",
       "published": "2026-10-01",
       "label": "commit",
