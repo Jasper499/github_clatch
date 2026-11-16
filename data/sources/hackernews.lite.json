@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-11-16T21:56:23Z",
+  "savedAt": "2026-11-16T23:15:37Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-11-16，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -20,8 +20,8 @@
       "title": "SpaceX catches the Starship to end Flight 15",
       "description": "<a href=\"https:&#x2F;&#x2F;x.com&#x2F;SpaceX&#x2F;status&#x2F;2121316300702056595\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;SpaceX&#x2F;status&#x2F;2121316300702056595</a><p><a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;jHlpfNSpBmw?t=3233\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;jHlpfNSpBmw?t=3233</a>",
       "url": "https://www.spacex.com/launches/starship-flight-15",
-      "score": 1740,
-      "comments": 1338,
+      "score": 1741,
+      "comments": 1343,
       "owner": "ls612",
       "published": "2026-11-14T21:22:24Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50500963"
@@ -40,7 +40,7 @@
       "title": "Tim Peters has died",
       "description": "<a href=\"https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;Python&#x2F;s&#x2F;2Cm5dBcvQw\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;Python&#x2F;s&#x2F;2Cm5dBcvQw</a>",
       "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
-      "score": 1443,
+      "score": 1444,
       "comments": 206,
       "owner": "ayhanfuat",
       "published": "2026-11-11T07:03:17Z",
@@ -50,8 +50,8 @@
       "title": "All AI-generated code should be Open Source",
       "description": "",
       "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
-      "score": 1242,
-      "comments": 650,
+      "score": 1253,
+      "comments": 651,
       "owner": "jcubic",
       "published": "2026-11-15T14:46:58Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50507303"
@@ -120,7 +120,7 @@
       "title": "Lovable apps expose passport details and more than 200K private messages",
       "description": "",
       "url": "https://www.crissyfield.de/research/lovable-en/",
-      "score": 1000,
+      "score": 1002,
       "comments": 374,
       "owner": "armcat",
       "published": "2026-11-14T17:43:10Z",
@@ -170,11 +170,21 @@
       "title": "Qwen4-Max",
       "description": "",
       "url": "https://qwen.ai/blog?id=qwen4-max",
-      "score": 846,
-      "comments": 466,
+      "score": 848,
+      "comments": 469,
       "owner": "ilreb",
       "published": "2026-11-16T02:14:44Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50513215"
+    },
+    {
+      "title": "How to make almost anything",
+      "description": "",
+      "url": "https://pub.cba.mit.edu/863.26/site/",
+      "score": 823,
+      "comments": 138,
+      "owner": "o4c",
+      "published": "2026-11-16T05:50:37Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50514470"
     },
     {
       "title": "Nvidia employees petition to bring back Jensen Huang",
@@ -187,21 +197,11 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50477231"
     },
     {
-      "title": "How to make almost anything",
-      "description": "",
-      "url": "https://pub.cba.mit.edu/863.26/site/",
-      "score": 808,
-      "comments": 136,
-      "owner": "o4c",
-      "published": "2026-11-16T05:50:37Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50514470"
-    },
-    {
       "title": "Reverse engineering my Coway air purifier to ditch the cloud",
       "description": "",
       "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
       "score": 798,
-      "comments": 224,
+      "comments": 225,
       "owner": "scottjg",
       "published": "2026-11-12T22:03:09Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50474959"
