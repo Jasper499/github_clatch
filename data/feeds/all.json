@@ -6,100 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "github:https://github.com/deepseek-ai/chat-demo",
-      "url": "https://github.com/deepseek-ai/chat-demo",
-      "title": "[GitHub 热门新项目] deepseek-ai/chat-demo",
-      "date_published": "2026-11-16T07:37:44Z"
+      "id": "hackernews:https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+      "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+      "title": "[Hacker News 热门] Jensen Huang resigns",
+      "date_published": "2026-11-16T07:38:27Z"
     },
     {
-      "id": "github:https://github.com/apex-compute/ANR",
-      "url": "https://github.com/apex-compute/ANR",
-      "title": "[GitHub 热门新项目] apex-compute/ANR",
-      "date_published": "2026-11-16T07:37:44Z"
+      "id": "hackernews:https://www.spacex.com/launches/starship-flight-15",
+      "url": "https://www.spacex.com/launches/starship-flight-15",
+      "title": "[Hacker News 热门] SpaceX catches the Starship to end Flight 15",
+      "date_published": "2026-11-16T07:38:27Z"
     },
     {
-      "id": "github:https://github.com/Kianuni/Erosion-CN",
-      "url": "https://github.com/Kianuni/Erosion-CN",
-      "title": "[GitHub 热门新项目] Kianuni/Erosion-CN",
-      "date_published": "2026-11-16T07:37:44Z"
+      "id": "hackernews:https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+      "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+      "title": "[Hacker News 热门] FAA issues national ground stop – lifted 4.5 hours later",
+      "date_published": "2026-11-16T07:38:27Z"
     },
     {
-      "id": "github:https://github.com/hitkeeen/blender-ai-mcp-addon",
-      "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
-      "title": "[GitHub 热门新项目] hitkeeen/blender-ai-mcp-addon",
-      "date_published": "2026-11-16T07:37:44Z"
+      "id": "hackernews:https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+      "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+      "title": "[Hacker News 热门] Tim Peters has died",
+      "date_published": "2026-11-16T07:38:27Z"
     },
     {
-      "id": "github:https://github.com/FrigadeHQ/yogurt",
-      "url": "https://github.com/FrigadeHQ/yogurt",
-      "title": "[GitHub 热门新项目] FrigadeHQ/yogurt",
-      "date_published": "2026-11-16T07:37:44Z"
+      "id": "hackernews:https://www.foldableflight.com",
+      "url": "https://www.foldableflight.com",
+      "title": "[Hacker News 热门] Foldable Flight: The Best Paper Airplanes",
+      "date_published": "2026-11-16T07:38:27Z"
     },
     {
-      "id": "github:https://github.com/HybridRobotics/supermimic",
-      "url": "https://github.com/HybridRobotics/supermimic",
-      "title": "[GitHub 热门新项目] HybridRobotics/supermimic",
-      "date_published": "2026-11-16T07:37:44Z"
+      "id": "hackernews:https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+      "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+      "title": "[Hacker News 热门] Nvidia is preparing to oust Jensen Huang",
+      "date_published": "2026-11-16T07:38:27Z"
     },
     {
-      "id": "github:https://github.com/Noniv/abyssal-garden",
-      "url": "https://github.com/Noniv/abyssal-garden",
-      "title": "[GitHub 热门新项目] Noniv/abyssal-garden",
-      "date_published": "2026-11-16T07:37:44Z"
+      "id": "hackernews:https://docodethatmatters.com/home-automation-overnight-success/",
+      "url": "https://docodethatmatters.com/home-automation-overnight-success/",
+      "title": "[Hacker News 热门] Smart home devices should work without the internet",
+      "date_published": "2026-11-16T07:38:27Z"
     },
     {
-      "id": "github:https://github.com/DevedevT/FFmpeg-GUI-Editor-Windows",
-      "url": "https://github.com/DevedevT/FFmpeg-GUI-Editor-Windows",
-      "title": "[GitHub 热门新项目] DevedevT/FFmpeg-GUI-Editor-Windows",
-      "date_published": "2026-11-16T07:37:44Z"
-    },
-    {
-      "id": "githubActive:https://github.com/public-apis/public-apis",
-      "url": "https://github.com/public-apis/public-apis",
-      "title": "[GitHub 活跃项目] public-apis/public-apis",
-      "date_published": "2026-11-16T07:37:44Z"
-    },
-    {
-      "id": "githubActive:https://github.com/morluto/rea",
-      "url": "https://github.com/morluto/rea",
-      "title": "[GitHub 活跃项目] morluto/rea",
-      "date_published": "2026-11-16T07:37:44Z"
-    },
-    {
-      "id": "githubActive:https://github.com/freeCodeCamp/freeCodeCamp",
-      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "title": "[GitHub 活跃项目] freeCodeCamp/freeCodeCamp",
-      "date_published": "2026-11-16T07:37:44Z"
-    },
-    {
-      "id": "githubActive:https://github.com/EbookFoundation/free-programming-books",
-      "url": "https://github.com/EbookFoundation/free-programming-books",
-      "title": "[GitHub 活跃项目] EbookFoundation/free-programming-books",
-      "date_published": "2026-11-16T07:37:44Z"
-    },
-    {
-      "id": "githubActive:https://github.com/openclaw/openclaw",
-      "url": "https://github.com/openclaw/openclaw",
-      "title": "[GitHub 活跃项目] openclaw/openclaw",
-      "date_published": "2026-11-16T07:37:44Z"
-    },
-    {
-      "id": "githubActive:https://github.com/nilbuild/developer-roadmap",
-      "url": "https://github.com/nilbuild/developer-roadmap",
-      "title": "[GitHub 活跃项目] nilbuild/developer-roadmap",
-      "date_published": "2026-11-16T07:37:44Z"
-    },
-    {
-      "id": "githubActive:https://github.com/vinta/awesome-python",
-      "url": "https://github.com/vinta/awesome-python",
-      "title": "[GitHub 活跃项目] vinta/awesome-python",
-      "date_published": "2026-11-16T07:37:44Z"
-    },
-    {
-      "id": "githubActive:https://github.com/mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
-      "title": "[GitHub 活跃项目] mattpocock/skills",
-      "date_published": "2026-11-16T07:37:44Z"
+      "id": "hackernews:https://status.cloud.microsoft/",
+      "url": "https://status.cloud.microsoft/",
+      "title": "[Hacker News 热门] Service degradation on Microsoft 365",
+      "date_published": "2026-11-16T07:38:27Z"
     }
   ]
 }
