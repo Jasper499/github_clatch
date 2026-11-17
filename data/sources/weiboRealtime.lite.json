@@ -1,310 +1,310 @@
 {
   "sourceKey": "weiboRealtime",
-  "savedAt": "2026-11-17T04:45:38Z",
+  "savedAt": "2026-11-17T07:46:13Z",
   "label": "实时",
   "description": "微博实时上升榜（按上榜时间排序，2026-11-17，共 30 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-11-17",
   "items": [
     {
-      "title": "Zeus换T1头像",
-      "description": "新 · 电竞",
-      "url": "https://s.weibo.com/weibo?q=%23Zeus%E6%8D%A2T1%E5%A4%B4%E5%83%8F%23&t=31&band_rank=1&Refer=top",
-      "score": 168651,
+      "title": "买车后最直观的感受",
+      "description": "新 · 汽车",
+      "url": "https://s.weibo.com/weibo?q=%E4%B9%B0%E8%BD%A6%E5%90%8E%E6%9C%80%E7%9B%B4%E8%A7%82%E7%9A%84%E6%84%9F%E5%8F%97&t=31&band_rank=1&Refer=top",
+      "score": 129536,
       "owner": "微博实时",
       "label": "新",
-      "category": "电竞",
-      "onboardTime": 1794890721
+      "category": "汽车",
+      "onboardTime": 1794901520
     },
     {
-      "title": "信小呆兑奖行程受限长期透支身体",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%BF%A1%E5%B0%8F%E5%91%86%E5%85%91%E5%A5%96%E8%A1%8C%E7%A8%8B%E5%8F%97%E9%99%90%E9%95%BF%E6%9C%9F%E9%80%8F%E6%94%AF%E8%BA%AB%E4%BD%93%23&t=31&band_rank=1&Refer=top",
-      "score": 197015,
+      "title": "声生不息2阵容官宣",
+      "description": "新 · 综艺",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A3%B0%E7%94%9F%E4%B8%8D%E6%81%AF2%E9%98%B5%E5%AE%B9%E5%AE%98%E5%AE%A3%23&t=31&band_rank=1&Refer=top",
+      "score": 160397,
       "owner": "微博实时",
       "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1794890600
+      "category": "综艺",
+      "onboardTime": 1794901400
     },
     {
-      "title": "猝死女律师交五险却无法享受工亡待遇",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E7%8C%9D%E6%AD%BB%E5%A5%B3%E5%BE%8B%E5%B8%88%E4%BA%A4%E4%BA%94%E9%99%A9%E5%8D%B4%E6%97%A0%E6%B3%95%E4%BA%AB%E5%8F%97%E5%B7%A5%E4%BA%A1%E5%BE%85%E9%81%87&t=31&band_rank=1&Refer=top",
-      "score": 328393,
-      "owner": "微博实时",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1794890540
-    },
-    {
-      "title": "杨瀚森5分钟连送3助攻",
-      "description": "新 · 体育",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%A8%E7%80%9A%E6%A3%AE5%E5%88%86%E9%92%9F%E8%BF%9E%E9%80%813%E5%8A%A9%E6%94%BB%23&t=31&band_rank=1&Refer=top",
-      "score": 210183,
-      "owner": "微博实时",
-      "label": "新",
-      "category": "体育",
-      "onboardTime": 1794890540
-    },
-    {
-      "title": "王兴兴低调进入APEC会场",
-      "description": "新 · 国内时政,互联网",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E5%85%B4%E5%85%B4%E4%BD%8E%E8%B0%83%E8%BF%9B%E5%85%A5APEC%E4%BC%9A%E5%9C%BA%23&t=31&band_rank=1&Refer=top",
-      "score": 333616,
-      "owner": "微博实时",
-      "label": "新",
-      "category": "国内时政,互联网",
-      "onboardTime": 1794890481
-    },
-    {
-      "title": "雷军董明珠王传福李彦宏都到深圳了",
-      "description": "新 · 国内时政,互联网",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%9B%B7%E5%86%9B%E8%91%A3%E6%98%8E%E7%8F%A0%E7%8E%8B%E4%BC%A0%E7%A6%8F%E6%9D%8E%E5%BD%A6%E5%AE%8F%E9%83%BD%E5%88%B0%E6%B7%B1%E5%9C%B3%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 279580,
-      "owner": "微博实时",
-      "label": "新",
-      "category": "国内时政,互联网",
-      "onboardTime": 1794890481
-    },
-    {
-      "title": "鹈鹕大胜勇士",
-      "description": "新 · 体育",
-      "url": "https://s.weibo.com/weibo?q=%E9%B9%88%E9%B9%95%E5%A4%A7%E8%83%9C%E5%8B%87%E5%A3%AB&t=31&band_rank=1&Refer=top",
-      "score": 186877,
-      "owner": "微博实时",
-      "label": "新",
-      "category": "体育",
-      "onboardTime": 1794890060
-    },
-    {
-      "title": "A股芯片产业链逆势走强",
-      "description": "新 · 财经",
-      "url": "https://s.weibo.com/weibo?q=%23A%E8%82%A1%E8%8A%AF%E7%89%87%E4%BA%A7%E4%B8%9A%E9%93%BE%E9%80%86%E5%8A%BF%E8%B5%B0%E5%BC%BA%23&t=31&band_rank=1&Refer=top",
-      "score": 167613,
-      "owner": "微博实时",
-      "label": "新",
-      "category": "财经",
-      "onboardTime": 1794890060
-    },
-    {
-      "title": "尚公主冻伤妆 雪地里拍写真",
-      "description": "剧集",
-      "url": "https://s.weibo.com/weibo?q=%E5%B0%9A%E5%85%AC%E4%B8%BB%E5%86%BB%E4%BC%A4%E5%A6%86%20%E9%9B%AA%E5%9C%B0%E9%87%8C%E6%8B%8D%E5%86%99%E7%9C%9F&t=31&band_rank=1&Refer=top",
-      "score": 186571,
-      "owner": "微博实时",
-      "label": "",
-      "category": "剧集",
-      "onboardTime": 1794890001
-    },
-    {
-      "title": "华为门店曝星芒阔直板4000元起",
+      "title": "华为星芒O1Pro上手体验",
       "description": "新 · 数码",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8D%8E%E4%B8%BA%E9%97%A8%E5%BA%97%E6%9B%9D%E6%98%9F%E8%8A%92%E9%98%94%E7%9B%B4%E6%9D%BF4000%E5%85%83%E8%B5%B7%23&t=31&band_rank=1&Refer=top",
-      "score": 208467,
+      "url": "https://s.weibo.com/weibo?q=%E5%8D%8E%E4%B8%BA%E6%98%9F%E8%8A%92O1Pro%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C&t=31&band_rank=1&Refer=top",
+      "score": 253069,
       "owner": "微博实时",
       "label": "新",
       "category": "数码",
-      "onboardTime": 1794889821
+      "onboardTime": 1794901220
     },
     {
-      "title": "鞠婧祎用荣耀700演绎4K电影感Live",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%9E%A0%E5%A9%A7%E7%A5%8E%E7%94%A8%E8%8D%A3%E8%80%80700%E6%BC%94%E7%BB%8E4K%E7%94%B5%E5%BD%B1%E6%84%9FLive%23&t=31&band_rank=1&Refer=top",
-      "score": 240706,
+      "title": "腾讯 马化腾",
+      "description": "新 · 互联网",
+      "url": "https://s.weibo.com/weibo?q=%E8%85%BE%E8%AE%AF%20%E9%A9%AC%E5%8C%96%E8%85%BE&t=31&band_rank=1&Refer=top",
+      "score": 237615,
       "owner": "微博实时",
       "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1794889340
+      "category": "互联网",
+      "onboardTime": 1794900921
     },
     {
-      "title": "虞书欣新综艺开机",
+      "title": "声生不息官宣许飞文案",
       "description": "新 · 综艺",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%99%9E%E4%B9%A6%E6%AC%A3%E6%96%B0%E7%BB%BC%E8%89%BA%E5%BC%80%E6%9C%BA%23&t=31&band_rank=1&Refer=top",
-      "score": 538264,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A3%B0%E7%94%9F%E4%B8%8D%E6%81%AF%E5%AE%98%E5%AE%A3%E8%AE%B8%E9%A3%9E%E6%96%87%E6%A1%88%23&t=31&band_rank=1&Refer=top",
+      "score": 205104,
       "owner": "微博实时",
       "label": "新",
       "category": "综艺",
-      "onboardTime": 1794889281
+      "onboardTime": 1794900921
     },
     {
-      "title": "热火18分大胜火箭",
+      "title": "王楚钦入围香港总决赛名单",
       "description": "新 · 体育",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%83%AD%E7%81%AB18%E5%88%86%E5%A4%A7%E8%83%9C%E7%81%AB%E7%AE%AD%23&t=31&band_rank=1&Refer=top",
-      "score": 171970,
+      "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%A5%9A%E9%92%A6%E5%85%A5%E5%9B%B4%E9%A6%99%E6%B8%AF%E6%80%BB%E5%86%B3%E8%B5%9B%E5%90%8D%E5%8D%95%23&t=31&band_rank=1&Refer=top",
+      "score": 219018,
       "owner": "微博实时",
       "label": "新",
       "category": "体育",
-      "onboardTime": 1794889281
+      "onboardTime": 1794900859
     },
     {
-      "title": "40岁孕妇羊水穿刺牵出丈夫肠道癌变",
+      "title": "信小呆赶兑奖日均睡2到3小时",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%2340%E5%B2%81%E5%AD%95%E5%A6%87%E7%BE%8A%E6%B0%B4%E7%A9%BF%E5%88%BA%E7%89%B5%E5%87%BA%E4%B8%88%E5%A4%AB%E8%82%A0%E9%81%93%E7%99%8C%E5%8F%98%23&t=31&band_rank=1&Refer=top",
-      "score": 217901,
+      "url": "https://s.weibo.com/weibo?q=%E4%BF%A1%E5%B0%8F%E5%91%86%E8%B5%B6%E5%85%91%E5%A5%96%E6%97%A5%E5%9D%87%E7%9D%A12%E5%88%B03%E5%B0%8F%E6%97%B6&t=31&band_rank=1&Refer=top",
+      "score": 169451,
       "owner": "微博实时",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1794888980
+      "onboardTime": 1794900859
     },
     {
-      "title": "声生不息2定档",
-      "description": "新 · 综艺",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A3%B0%E7%94%9F%E4%B8%8D%E6%81%AF2%E5%AE%9A%E6%A1%A3%23&t=31&band_rank=1&Refer=top",
-      "score": 534687,
+      "title": "Tim开启冷笑话大赛送iPhoneDuo",
+      "description": "新 · 数码",
+      "url": "https://s.weibo.com/weibo?q=%23Tim%E5%BC%80%E5%90%AF%E5%86%B7%E7%AC%91%E8%AF%9D%E5%A4%A7%E8%B5%9B%E9%80%81iPhoneDuo%23&t=31&band_rank=1&Refer=top",
+      "score": 202745,
       "owner": "微博实时",
       "label": "新",
-      "category": "综艺",
-      "onboardTime": 1794888201
+      "category": "数码",
+      "onboardTime": 1794900800
     },
     {
-      "title": "杨瀚森砍鲨战术",
-      "description": "新 · 体育",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%A8%E7%80%9A%E6%A3%AE%E7%A0%8D%E9%B2%A8%E6%88%98%E6%9C%AF%23&t=31&band_rank=1&Refer=top",
-      "score": 830612,
-      "owner": "微博实时",
-      "label": "新",
-      "category": "体育",
-      "onboardTime": 1794888081
-    },
-    {
-      "title": "智利总统卡斯特抵达深圳",
-      "description": "新 · 国际时政",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%99%BA%E5%88%A9%E6%80%BB%E7%BB%9F%E5%8D%A1%E6%96%AF%E7%89%B9%E6%8A%B5%E8%BE%BE%E6%B7%B1%E5%9C%B3%23&t=31&band_rank=1&Refer=top",
-      "score": 339898,
-      "owner": "微博实时",
-      "label": "新",
-      "category": "国际时政",
-      "onboardTime": 1794887840
-    },
-    {
-      "title": "从100斤瘦到80斤堪比整容",
-      "description": "美妆",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%BB%8E100%E6%96%A4%E7%98%A6%E5%88%B080%E6%96%A4%E5%A0%AA%E6%AF%94%E6%95%B4%E5%AE%B9%23&t=31&band_rank=1&Refer=top",
-      "score": 539479,
-      "owner": "微博实时",
-      "label": "",
-      "category": "美妆",
-      "onboardTime": 1794887661
-    },
-    {
-      "title": "Nuguri疑似复出",
+      "title": "孙亚龙推举BLG冠军皮肤",
       "description": "新 · 电竞",
-      "url": "https://s.weibo.com/weibo?q=%23Nuguri%E7%96%91%E4%BC%BC%E5%A4%8D%E5%87%BA%23&t=31&band_rank=1&Refer=top",
-      "score": 240701,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%AD%99%E4%BA%9A%E9%BE%99%E6%8E%A8%E4%B8%BEBLG%E5%86%A0%E5%86%9B%E7%9A%AE%E8%82%A4%23&t=31&band_rank=1&Refer=top",
+      "score": 207309,
       "owner": "微博实时",
       "label": "新",
       "category": "电竞",
-      "onboardTime": 1794887241
+      "onboardTime": 1794900741
     },
     {
-      "title": "甄嬛传这三集播放量最高",
-      "description": "新 · 剧集",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%94%84%E5%AC%9B%E4%BC%A0%E8%BF%99%E4%B8%89%E9%9B%86%E6%92%AD%E6%94%BE%E9%87%8F%E6%9C%80%E9%AB%98%23&t=31&band_rank=1&Refer=top",
-      "score": 528176,
+      "title": "何小鹏给淑柔交付MONA新车",
+      "description": "新 · 汽车",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BD%95%E5%B0%8F%E9%B9%8F%E7%BB%99%E6%B7%91%E6%9F%94%E4%BA%A4%E4%BB%98MONA%E6%96%B0%E8%BD%A6%23&t=31&band_rank=1&Refer=top",
+      "score": 220303,
       "owner": "微博实时",
       "label": "新",
-      "category": "剧集",
-      "onboardTime": 1794886821
+      "category": "汽车",
+      "onboardTime": 1794900621
     },
     {
-      "title": "金价下跌女子胖东来买金像扫货",
+      "title": "Tim称iPhoneDuo已经送了49台",
+      "description": "新 · 数码",
+      "url": "https://s.weibo.com/weibo?q=%23Tim%E7%A7%B0iPhoneDuo%E5%B7%B2%E7%BB%8F%E9%80%81%E4%BA%8649%E5%8F%B0%23&t=31&band_rank=1&Refer=top",
+      "score": 225389,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "数码",
+      "onboardTime": 1794900500
+    },
+    {
+      "title": "信小呆火速辞职后细看奖品傻眼了",
       "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%87%91%E4%BB%B7%E4%B8%8B%E8%B7%8C%E5%A5%B3%E5%AD%90%E8%83%96%E4%B8%9C%E6%9D%A5%E4%B9%B0%E9%87%91%E5%83%8F%E6%89%AB%E8%B4%A7%23&t=31&band_rank=1&Refer=top",
-      "score": 188101,
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BF%A1%E5%B0%8F%E5%91%86%E7%81%AB%E9%80%9F%E8%BE%9E%E8%81%8C%E5%90%8E%E7%BB%86%E7%9C%8B%E5%A5%96%E5%93%81%E5%82%BB%E7%9C%BC%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 172178,
       "owner": "微博实时",
       "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1794886760
+      "onboardTime": 1794900139
     },
     {
-      "title": "原来王子璇去了不止一趟医院",
-      "description": "新 · 综艺",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8E%9F%E6%9D%A5%E7%8E%8B%E5%AD%90%E7%92%87%E5%8E%BB%E4%BA%86%E4%B8%8D%E6%AD%A2%E4%B8%80%E8%B6%9F%E5%8C%BB%E9%99%A2%23&t=31&band_rank=1&Refer=top",
-      "score": 526244,
+      "title": "杨博文 苏新皓",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%E6%9D%A8%E5%8D%9A%E6%96%87%20%E8%8B%8F%E6%96%B0%E7%9A%93&t=31&band_rank=1&Refer=top",
+      "score": 223087,
       "owner": "微博实时",
       "label": "新",
-      "category": "综艺",
-      "onboardTime": 1794886700
+      "category": "艺人",
+      "onboardTime": 1794899960
     },
     {
-      "title": "BLG成员有自己的NBA形象了",
+      "title": "谢霆锋容祖儿成英皇娱乐董事",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%B0%A2%E9%9C%86%E9%94%8B%E5%AE%B9%E7%A5%96%E5%84%BF%E6%88%90%E8%8B%B1%E7%9A%87%E5%A8%B1%E4%B9%90%E8%91%A3%E4%BA%8B%23&t=31&band_rank=1&Refer=top",
+      "score": 179794,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1794899899
+    },
+    {
+      "title": "所有人向厉娜看齐",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%89%80%E6%9C%89%E4%BA%BA%E5%90%91%E5%8E%89%E5%A8%9C%E7%9C%8B%E9%BD%90%23&t=31&band_rank=1&Refer=top",
+      "score": 126151,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1794899839
+    },
+    {
+      "title": "信小呆 200多家商家提供奖品",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E4%BF%A1%E5%B0%8F%E5%91%86%20200%E5%A4%9A%E5%AE%B6%E5%95%86%E5%AE%B6%E6%8F%90%E4%BE%9B%E5%A5%96%E5%93%81&t=31&band_rank=1&Refer=top",
+      "score": 253248,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1794899300
+    },
+    {
+      "title": "意大利人震惊中国的银行可以直接进去",
+      "description": "新 · 海外新闻",
+      "url": "https://s.weibo.com/weibo?q=%E6%84%8F%E5%A4%A7%E5%88%A9%E4%BA%BA%E9%9C%87%E6%83%8A%E4%B8%AD%E5%9B%BD%E7%9A%84%E9%93%B6%E8%A1%8C%E5%8F%AF%E4%BB%A5%E7%9B%B4%E6%8E%A5%E8%BF%9B%E5%8E%BB&t=31&band_rank=1&Refer=top",
+      "score": 201874,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "海外新闻",
+      "onboardTime": 1794899300
+    },
+    {
+      "title": "2026年APEC工商领导人峰会",
+      "description": "新 · 国内时政",
+      "url": "https://s.weibo.com/weibo?q=%232026%E5%B9%B4APEC%E5%B7%A5%E5%95%86%E9%A2%86%E5%AF%BC%E4%BA%BA%E5%B3%B0%E4%BC%9A%23&t=31&band_rank=1&Refer=top",
+      "score": 738485,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "国内时政",
+      "onboardTime": 1794899120
+    },
+    {
+      "title": "亚太合作如何改变日常生活",
+      "description": "新 · 国内时政",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BA%9A%E5%A4%AA%E5%90%88%E4%BD%9C%E5%A6%82%E4%BD%95%E6%94%B9%E5%8F%98%E6%97%A5%E5%B8%B8%E7%94%9F%E6%B4%BB%23&t=31&band_rank=1&Refer=top",
+      "score": 272019,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "国内时政",
+      "onboardTime": 1794899120
+    },
+    {
+      "title": "36岁男子吃饭顿顿用秤量妻子崩溃",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%2336%E5%B2%81%E7%94%B7%E5%AD%90%E5%90%83%E9%A5%AD%E9%A1%BF%E9%A1%BF%E7%94%A8%E7%A7%A4%E9%87%8F%E5%A6%BB%E5%AD%90%E5%B4%A9%E6%BA%83%23&t=31&band_rank=1&Refer=top",
+      "score": 253129,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1794898939
+    },
+    {
+      "title": "戈贝尔回应杨瀚森砍鲨战术",
       "description": "新 · 体育",
-      "url": "https://s.weibo.com/weibo?q=%23BLG%E6%88%90%E5%91%98%E6%9C%89%E8%87%AA%E5%B7%B1%E7%9A%84NBA%E5%BD%A2%E8%B1%A1%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 315056,
+      "url": "https://s.weibo.com/weibo?q=%23%E6%88%88%E8%B4%9D%E5%B0%94%E5%9B%9E%E5%BA%94%E6%9D%A8%E7%80%9A%E6%A3%AE%E7%A0%8D%E9%B2%A8%E6%88%98%E6%9C%AF%23&t=31&band_rank=1&Refer=top",
+      "score": 371276,
       "owner": "微博实时",
       "label": "新",
       "category": "体育",
-      "onboardTime": 1794886460
+      "onboardTime": 1794898699
     },
     {
-      "title": "Junjia前女友发文道歉",
-      "description": "电竞",
-      "url": "https://s.weibo.com/weibo?q=%23Junjia%E5%89%8D%E5%A5%B3%E5%8F%8B%E5%8F%91%E6%96%87%E9%81%93%E6%AD%89%23&t=31&band_rank=1&Refer=top",
-      "score": 255584,
+      "title": "杨超越单人vlog怎么都裁不掉另一个人",
+      "description": "剧集",
+      "url": "https://s.weibo.com/weibo?q=%E6%9D%A8%E8%B6%85%E8%B6%8A%E5%8D%95%E4%BA%BAvlog%E6%80%8E%E4%B9%88%E9%83%BD%E8%A3%81%E4%B8%8D%E6%8E%89%E5%8F%A6%E4%B8%80%E4%B8%AA%E4%BA%BA&t=31&band_rank=1&Refer=top",
+      "score": 145094,
       "owner": "微博实时",
       "label": "",
-      "category": "电竞",
-      "onboardTime": 1794886279
+      "category": "剧集",
+      "onboardTime": 1794898699
     },
     {
-      "title": "太阳雨陈砚周求婚郑雨",
+      "title": "甄嬛传播放量最高不是滴血验亲",
       "description": "新 · 剧集",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%AA%E9%98%B3%E9%9B%A8%E9%99%88%E7%A0%9A%E5%91%A8%E6%B1%82%E5%A9%9A%E9%83%91%E9%9B%A8%23&t=31&band_rank=1&Refer=top",
-      "score": 345501,
+      "url": "https://s.weibo.com/weibo?q=%23%E7%94%84%E5%AC%9B%E4%BC%A0%E6%92%AD%E6%94%BE%E9%87%8F%E6%9C%80%E9%AB%98%E4%B8%8D%E6%98%AF%E6%BB%B4%E8%A1%80%E9%AA%8C%E4%BA%B2%23&t=31&band_rank=1&Refer=top",
+      "score": 292329,
       "owner": "微博实时",
       "label": "新",
       "category": "剧集",
-      "onboardTime": 1794885921
+      "onboardTime": 1794898281
     },
     {
-      "title": "信小呆中奖后抑郁了",
-      "description": "新 · 舆论监督",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%BF%A1%E5%B0%8F%E5%91%86%E4%B8%AD%E5%A5%96%E5%90%8E%E6%8A%91%E9%83%81%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 633197,
+      "title": "信小呆的1亿奖品清单",
+      "description": "新 · 民生新闻,互联网",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BF%A1%E5%B0%8F%E5%91%86%E7%9A%841%E4%BA%BF%E5%A5%96%E5%93%81%E6%B8%85%E5%8D%95%23&t=31&band_rank=1&Refer=top",
+      "score": 1493864,
       "owner": "微博实时",
       "label": "新",
-      "category": "舆论监督",
-      "onboardTime": 1794885740
+      "category": "民生新闻,互联网",
+      "onboardTime": 1794898160
     },
     {
-      "title": "2026年APEC时间来了",
-      "description": "新 · 国内时政",
-      "url": "https://s.weibo.com/weibo?q=%232026%E5%B9%B4APEC%E6%97%B6%E9%97%B4%E6%9D%A5%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 174106,
+      "title": "A股",
+      "description": "新 · 财经",
+      "url": "https://s.weibo.com/weibo?q=A%E8%82%A1&t=31&band_rank=1&Refer=top",
+      "score": 253233,
       "owner": "微博实时",
       "label": "新",
-      "category": "国内时政",
-      "onboardTime": 1794885439
+      "category": "财经",
+      "onboardTime": 1794897740
     },
     {
-      "title": "跨代卡包卡面",
-      "description": "艺人",
-      "url": "https://s.weibo.com/weibo?q=%E8%B7%A8%E4%BB%A3%E5%8D%A1%E5%8C%85%E5%8D%A1%E9%9D%A2&t=31&band_rank=1&Refer=top",
-      "score": 194370,
+      "title": "王自如谈字节只差一个聊天软件了",
+      "description": "新 · 互联网",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E8%87%AA%E5%A6%82%E8%B0%88%E5%AD%97%E8%8A%82%E5%8F%AA%E5%B7%AE%E4%B8%80%E4%B8%AA%E8%81%8A%E5%A4%A9%E8%BD%AF%E4%BB%B6%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 355898,
       "owner": "微博实时",
-      "label": "",
-      "category": "艺人",
-      "onboardTime": 1794885260
+      "label": "新",
+      "category": "互联网",
+      "onboardTime": 1794897619
     },
     {
-      "title": "深圳APEC主持人阵容拉满",
-      "description": "国内时政",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B7%B1%E5%9C%B3APEC%E4%B8%BB%E6%8C%81%E4%BA%BA%E9%98%B5%E5%AE%B9%E6%8B%89%E6%BB%A1%23&t=31&band_rank=1&Refer=top",
-      "score": 1132853,
+      "title": "信小呆称环游世界后落后了太多",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BF%A1%E5%B0%8F%E5%91%86%E7%A7%B0%E7%8E%AF%E6%B8%B8%E4%B8%96%E7%95%8C%E5%90%8E%E8%90%BD%E5%90%8E%E4%BA%86%E5%A4%AA%E5%A4%9A%23&t=31&band_rank=1&Refer=top",
+      "score": 908411,
       "owner": "微博实时",
-      "label": "",
-      "category": "国内时政",
-      "onboardTime": 1794885141
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1794897259
     },
     {
-      "title": "NBA回应BLG现场观战篮网76人比赛",
-      "description": "体育",
-      "url": "https://s.weibo.com/weibo?q=%23NBA%E5%9B%9E%E5%BA%94BLG%E7%8E%B0%E5%9C%BA%E8%A7%82%E6%88%98%E7%AF%AE%E7%BD%9176%E4%BA%BA%E6%AF%94%E8%B5%9B%23&t=31&band_rank=1&Refer=top",
-      "score": 523763,
+      "title": "王楚然去年滴眼药水就不眨眼",
+      "description": "新 · 综艺",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%A5%9A%E7%84%B6%E5%8E%BB%E5%B9%B4%E6%BB%B4%E7%9C%BC%E8%8D%AF%E6%B0%B4%E5%B0%B1%E4%B8%8D%E7%9C%A8%E7%9C%BC%23&t=31&band_rank=1&Refer=top",
+      "score": 180376,
       "owner": "微博实时",
-      "label": "",
+      "label": "新",
+      "category": "综艺",
+      "onboardTime": 1794897079
+    },
+    {
+      "title": "NBA回应杨瀚森1篮板3助攻",
+      "description": "新 · 体育",
+      "url": "https://s.weibo.com/weibo?q=%23NBA%E5%9B%9E%E5%BA%94%E6%9D%A8%E7%80%9A%E6%A3%AE1%E7%AF%AE%E6%9D%BF3%E5%8A%A9%E6%94%BB%23&t=31&band_rank=1&Refer=top",
+      "score": 253265,
+      "owner": "微博实时",
+      "label": "新",
       "category": "体育",
-      "onboardTime": 1794885019
+      "onboardTime": 1794897019
+    },
+    {
+      "title": "太阳雨德国篇 剧情人设OOC",
+      "description": "新 · 剧集",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%AA%E9%98%B3%E9%9B%A8%E5%BE%B7%E5%9B%BD%E7%AF%87%20%E5%89%A7%E6%83%85%E4%BA%BA%E8%AE%BEOOC&t=31&band_rank=1&Refer=top",
+      "score": 365623,
+      "owner": "微博实时",
+      "label": "新",
+      "category": "剧集",
+      "onboardTime": 1794896841
     }
   ]
 }
