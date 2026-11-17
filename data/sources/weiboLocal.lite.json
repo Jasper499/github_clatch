@@ -1,100 +1,60 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-11-17T07:46:13Z",
+  "savedAt": "2026-11-17T14:51:56Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-17，共 9 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-17，共 5 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-11-17",
   "items": [
     {
-      "title": "信小呆的1亿奖品清单",
-      "description": "新 · 民生新闻,互联网",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%BF%A1%E5%B0%8F%E5%91%86%E7%9A%841%E4%BA%BF%E5%A5%96%E5%93%81%E6%B8%85%E5%8D%95%23&t=31&band_rank=1&Refer=top",
-      "score": 1493864,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻,互联网",
-      "onboardTime": 1794898160
-    },
-    {
-      "title": "信小呆称环游世界后落后了太多",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%BF%A1%E5%B0%8F%E5%91%86%E7%A7%B0%E7%8E%AF%E6%B8%B8%E4%B8%96%E7%95%8C%E5%90%8E%E8%90%BD%E5%90%8E%E4%BA%86%E5%A4%AA%E5%A4%9A%23&t=31&band_rank=1&Refer=top",
-      "score": 908411,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1794897259
-    },
-    {
-      "title": "信小呆 200多家商家提供奖品",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E4%BF%A1%E5%B0%8F%E5%91%86%20200%E5%A4%9A%E5%AE%B6%E5%95%86%E5%AE%B6%E6%8F%90%E4%BE%9B%E5%A5%96%E5%93%81&t=31&band_rank=1&Refer=top",
-      "score": 253248,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1794899300
-    },
-    {
-      "title": "36岁男子吃饭顿顿用秤量妻子崩溃",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%2336%E5%B2%81%E7%94%B7%E5%AD%90%E5%90%83%E9%A5%AD%E9%A1%BF%E9%A1%BF%E7%94%A8%E7%A7%A4%E9%87%8F%E5%A6%BB%E5%AD%90%E5%B4%A9%E6%BA%83%23&t=31&band_rank=1&Refer=top",
-      "score": 253129,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1794898939
-    },
-    {
-      "title": "全民进入低电量过日子时代",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%85%A8%E6%B0%91%E8%BF%9B%E5%85%A5%E4%BD%8E%E7%94%B5%E9%87%8F%E8%BF%87%E6%97%A5%E5%AD%90%E6%97%B6%E4%BB%A3&t=31&band_rank=1&Refer=top",
-      "score": 181947,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1794896540
-    },
-    {
-      "title": "信小呆火速辞职后细看奖品傻眼了",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%BF%A1%E5%B0%8F%E5%91%86%E7%81%AB%E9%80%9F%E8%BE%9E%E8%81%8C%E5%90%8E%E7%BB%86%E7%9C%8B%E5%A5%96%E5%93%81%E5%82%BB%E7%9C%BC%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 172178,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1794900139
-    },
-    {
-      "title": "信小呆赶兑奖日均睡2到3小时",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E4%BF%A1%E5%B0%8F%E5%91%86%E8%B5%B6%E5%85%91%E5%A5%96%E6%97%A5%E5%9D%87%E7%9D%A12%E5%88%B03%E5%B0%8F%E6%97%B6&t=31&band_rank=1&Refer=top",
-      "score": 169451,
-      "owner": "微博同城",
-      "label": "新",
-      "category": "民生新闻",
-      "onboardTime": 1794900859
-    },
-    {
-      "title": "信小呆辞职兑奖花光积蓄",
+      "title": "外国人在深圳贴退热贴用筷子吃烧烤",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E4%BF%A1%E5%B0%8F%E5%91%86%E8%BE%9E%E8%81%8C%E5%85%91%E5%A5%96%E8%8A%B1%E5%85%89%E7%A7%AF%E8%93%84&t=31&band_rank=1&Refer=top",
-      "score": 163561,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%9C%A8%E6%B7%B1%E5%9C%B3%E8%B4%B4%E9%80%80%E7%83%AD%E8%B4%B4%E7%94%A8%E7%AD%B7%E5%AD%90%E5%90%83%E7%83%A7%E7%83%A4%23&t=31&band_rank=1&Refer=top",
+      "score": 349851,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1794880159
+      "onboardTime": 1794920479
     },
     {
-      "title": "40岁孕妇羊水穿刺牵出丈夫肠道癌变",
+      "title": "女子盒马仅退款400次零食堆成山",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%2340%E5%B2%81%E5%AD%95%E5%A6%87%E7%BE%8A%E6%B0%B4%E7%A9%BF%E5%88%BA%E7%89%B5%E5%87%BA%E4%B8%88%E5%A4%AB%E8%82%A0%E9%81%93%E7%99%8C%E5%8F%98%23&t=31&band_rank=1&Refer=top",
-      "score": 137312,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E7%9B%92%E9%A9%AC%E4%BB%85%E9%80%80%E6%AC%BE400%E6%AC%A1%E9%9B%B6%E9%A3%9F%E5%A0%86%E6%88%90%E5%B1%B1%23&t=31&band_rank=1&Refer=top",
+      "score": 317649,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1794888980
+      "onboardTime": 1794909081
+    },
+    {
+      "title": "男子腿痛去骨科就诊查出肺癌晚期",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E8%85%BF%E7%97%9B%E5%8E%BB%E9%AA%A8%E7%A7%91%E5%B0%B1%E8%AF%8A%E6%9F%A5%E5%87%BA%E8%82%BA%E7%99%8C%E6%99%9A%E6%9C%9F%23&t=31&band_rank=1&Refer=top",
+      "score": 182518,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1794922342
+    },
+    {
+      "title": "拆墙让路老人女儿否认网传记者身份",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%E6%8B%86%E5%A2%99%E8%AE%A9%E8%B7%AF%E8%80%81%E4%BA%BA%E5%A5%B3%E5%84%BF%E5%90%A6%E8%AE%A4%E7%BD%91%E4%BC%A0%E8%AE%B0%E8%80%85%E8%BA%AB%E4%BB%BD&t=31&band_rank=1&Refer=top",
+      "score": 178487,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1794927020
+    },
+    {
+      "title": "马斯克确认即将前往中国",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%A9%AC%E6%96%AF%E5%85%8B%E7%A1%AE%E8%AE%A4%E5%8D%B3%E5%B0%86%E5%89%8D%E5%BE%80%E4%B8%AD%E5%9B%BD%23&t=31&band_rank=1&Refer=top",
+      "score": 164322,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1794906859
     }
   ]
 }
