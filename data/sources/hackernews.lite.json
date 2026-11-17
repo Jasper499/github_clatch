@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-11-17T20:48:02Z",
+  "savedAt": "2026-11-17T22:05:58Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-11-17，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -20,8 +20,8 @@
       "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
       "description": "",
       "url": "https://www.cs.cmu.edu/learn/",
-      "score": 2230,
-      "comments": 302,
+      "score": 2258,
+      "comments": 307,
       "owner": "pcompeau",
       "published": "2026-11-16T20:43:36Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50522980"
@@ -30,8 +30,8 @@
       "title": "SpaceX catches the Starship to end Flight 15",
       "description": "<a href=\"https:&#x2F;&#x2F;x.com&#x2F;SpaceX&#x2F;status&#x2F;2121316300702056595\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;SpaceX&#x2F;status&#x2F;2121316300702056595</a><p><a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;jHlpfNSpBmw?t=3233\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;jHlpfNSpBmw?t=3233</a>",
       "url": "https://www.spacex.com/launches/starship-flight-15",
-      "score": 1752,
-      "comments": 1406,
+      "score": 1754,
+      "comments": 1407,
       "owner": "ls612",
       "published": "2026-11-14T21:22:24Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50500963"
@@ -41,7 +41,7 @@
       "description": "<a href=\"https:&#x2F;&#x2F;www.fly.faa.gov&#x2F;adv&#x2F;adv_otherdis?adv_date=11132026&amp;advn=111\" rel=\"nofollow\">https:&#x2F;&#x2F;www.fly.faa.gov&#x2F;adv&#x2F;adv_otherdis?adv_date=11132026&amp;a...</a><p><a href=\"https:&#x2F;&#x2F;www.fly.faa.gov&#x2F;adv&#x2F;adv_otherdis?adv_date=11142026&amp;advn=5\" rel=\"nofollow\">https:&#x2F;&#x2F;www.fly.faa.gov&#x2F;adv&#x2F;adv_otherdis?adv_date=11142026&amp;a...</a><p><a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;live&#x2F;2026&#x2F;11&#x2F;13&#x2F;us&#x2F;ground-stop-nationwide-flights-faa&#x2F;d2ae2ce1-ac6b-59ad-ad8d-daef4e181b34\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nytimes.com&#x2F;live&#x2F;2026&#x2F;11&#x2F;13&#x2F;us&#x2F;ground-stop-natio...</a>",
       "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
       "score": 1654,
-      "comments": 1283,
+      "comments": 1284,
       "owner": "zulln",
       "published": "2026-11-13T21:05:53Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50489641"
@@ -61,7 +61,7 @@
       "description": "",
       "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
       "score": 1278,
-      "comments": 667,
+      "comments": 668,
       "owner": "jcubic",
       "published": "2026-11-15T14:46:58Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50507303"
@@ -71,7 +71,7 @@
       "description": "",
       "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
       "score": 1227,
-      "comments": 1646,
+      "comments": 1647,
       "owner": "jbredeche",
       "published": "2026-11-11T22:31:06Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50459703"
@@ -97,6 +97,16 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50493251"
     },
     {
+      "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
+      "description": "",
+      "url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
+      "score": 1088,
+      "comments": 538,
+      "owner": "donohoe",
+      "published": "2026-11-17T11:45:51Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50530163"
+    },
+    {
       "title": "My AI agents found an unmapped Maya site?",
       "description": "",
       "url": "https://pietromiotti.com/latest/maya-site",
@@ -105,16 +115,6 @@
       "owner": "eyvindn",
       "published": "2026-11-11T12:05:22Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50452455"
-    },
-    {
-      "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
-      "description": "",
-      "url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
-      "score": 1033,
-      "comments": 516,
-      "owner": "donohoe",
-      "published": "2026-11-17T11:45:51Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50530163"
     },
     {
       "title": "Anthropic IPO",
@@ -160,11 +160,21 @@
       "title": "Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savings",
       "description": "",
       "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
-      "score": 947,
+      "score": 951,
       "comments": 547,
       "owner": "DeepLogin",
       "published": "2026-11-16T13:39:07Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50517488"
+    },
+    {
+      "title": "GPT‑6.2 Astra and Sol",
+      "description": "",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "score": 913,
+      "comments": 558,
+      "owner": "jasondavies",
+      "published": "2026-11-17T17:46:43Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50535230"
     },
     {
       "title": "Rust 1.100",
@@ -180,8 +190,8 @@
       "title": "How to make almost anything",
       "description": "",
       "url": "https://pub.cba.mit.edu/863.26/site/",
-      "score": 902,
-      "comments": 148,
+      "score": 904,
+      "comments": 149,
       "owner": "o4c",
       "published": "2026-11-16T05:50:37Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50514470"
@@ -195,16 +205,6 @@
       "owner": "ilreb",
       "published": "2026-11-16T02:14:44Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50513215"
-    },
-    {
-      "title": "Nvidia employees petition to bring back Jensen Huang",
-      "description": "",
-      "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
-      "score": 819,
-      "comments": 696,
-      "owner": "lavendermon",
-      "published": "2026-11-13T02:16:24Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50477231"
     }
   ]
 }
