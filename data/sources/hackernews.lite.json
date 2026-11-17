@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-11-17T10:23:50Z",
+  "savedAt": "2026-11-17T20:48:02Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-11-17，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,18 +10,28 @@
       "title": "Jensen Huang resigns",
       "description": "<a href=\"https:&#x2F;&#x2F;nvidianews.nvidia.com&#x2F;news&#x2F;nvidia-announces-ceo-transition\" rel=\"nofollow\">https:&#x2F;&#x2F;nvidianews.nvidia.com&#x2F;news&#x2F;nvidia-announces-ceo-tran...</a><p><a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;retail-consumer&#x2F;nvidia-ceo-jensen-huang-step-down-big-blow-ai-boom-2026-11-12&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;retail-consumer&#x2F;nvidia-ceo-...</a>, <a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;live&#x2F;nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;live&#x2F;nvidia-live-board-meets-fate-ce...</a><p><a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;live&#x2F;2026&#x2F;11&#x2F;12&#x2F;business&#x2F;nvidia-jensen-huang-resigns\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nytimes.com&#x2F;live&#x2F;2026&#x2F;11&#x2F;12&#x2F;business&#x2F;nvidia-jens...</a>",
       "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
-      "score": 4055,
-      "comments": 3475,
+      "score": 4058,
+      "comments": 3483,
       "owner": "lldb",
       "published": "2026-11-12T13:52:29Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50467087"
     },
     {
+      "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
+      "description": "",
+      "url": "https://www.cs.cmu.edu/learn/",
+      "score": 2230,
+      "comments": 302,
+      "owner": "pcompeau",
+      "published": "2026-11-16T20:43:36Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50522980"
+    },
+    {
       "title": "SpaceX catches the Starship to end Flight 15",
       "description": "<a href=\"https:&#x2F;&#x2F;x.com&#x2F;SpaceX&#x2F;status&#x2F;2121316300702056595\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;SpaceX&#x2F;status&#x2F;2121316300702056595</a><p><a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;jHlpfNSpBmw?t=3233\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;jHlpfNSpBmw?t=3233</a>",
       "url": "https://www.spacex.com/launches/starship-flight-15",
-      "score": 1745,
-      "comments": 1363,
+      "score": 1752,
+      "comments": 1406,
       "owner": "ls612",
       "published": "2026-11-14T21:22:24Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50500963"
@@ -31,20 +41,10 @@
       "description": "<a href=\"https:&#x2F;&#x2F;www.fly.faa.gov&#x2F;adv&#x2F;adv_otherdis?adv_date=11132026&amp;advn=111\" rel=\"nofollow\">https:&#x2F;&#x2F;www.fly.faa.gov&#x2F;adv&#x2F;adv_otherdis?adv_date=11132026&amp;a...</a><p><a href=\"https:&#x2F;&#x2F;www.fly.faa.gov&#x2F;adv&#x2F;adv_otherdis?adv_date=11142026&amp;advn=5\" rel=\"nofollow\">https:&#x2F;&#x2F;www.fly.faa.gov&#x2F;adv&#x2F;adv_otherdis?adv_date=11142026&amp;a...</a><p><a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;live&#x2F;2026&#x2F;11&#x2F;13&#x2F;us&#x2F;ground-stop-nationwide-flights-faa&#x2F;d2ae2ce1-ac6b-59ad-ad8d-daef4e181b34\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nytimes.com&#x2F;live&#x2F;2026&#x2F;11&#x2F;13&#x2F;us&#x2F;ground-stop-natio...</a>",
       "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
       "score": 1654,
-      "comments": 1282,
+      "comments": 1283,
       "owner": "zulln",
       "published": "2026-11-13T21:05:53Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50489641"
-    },
-    {
-      "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
-      "description": "",
-      "url": "https://www.cs.cmu.edu/learn/",
-      "score": 1537,
-      "comments": 209,
-      "owner": "pcompeau",
-      "published": "2026-11-16T20:43:36Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50522980"
     },
     {
       "title": "Tim Peters has died",
@@ -60,8 +60,8 @@
       "title": "All AI-generated code should be Open Source",
       "description": "",
       "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
-      "score": 1271,
-      "comments": 660,
+      "score": 1278,
+      "comments": 667,
       "owner": "jcubic",
       "published": "2026-11-15T14:46:58Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50507303"
@@ -70,27 +70,17 @@
       "title": "Nvidia is preparing to oust Jensen Huang",
       "description": "",
       "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
-      "score": 1226,
+      "score": 1227,
       "comments": 1646,
       "owner": "jbredeche",
       "published": "2026-11-11T22:31:06Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50459703"
     },
     {
-      "title": "Smart home devices should work without the internet",
-      "description": "",
-      "url": "https://docodethatmatters.com/home-automation-overnight-success/",
-      "score": 1204,
-      "comments": 446,
-      "owner": "skittleson",
-      "published": "2026-11-10T15:25:20Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50441707"
-    },
-    {
       "title": "Service degradation on Microsoft 365",
       "description": "<a href=\"https:&#x2F;&#x2F;www.abc.net.au&#x2F;news&#x2F;2026-11-13&#x2F;microsoft-outage-affects-users-worldwide&#x2F;107381050\" rel=\"nofollow\">https:&#x2F;&#x2F;www.abc.net.au&#x2F;news&#x2F;2026-11-13&#x2F;microsoft-outage-affe...</a><p><a href=\"https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;sysadmin&#x2F;comments&#x2F;1xuje83&#x2F;microsoft_office_seems_to_be_down&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;sysadmin&#x2F;comments&#x2F;1xuje83&#x2F;microsoft...</a><p><a href=\"https:&#x2F;&#x2F;downdetector.com&#x2F;status&#x2F;microsoft-365&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;downdetector.com&#x2F;status&#x2F;microsoft-365&#x2F;</a>",
       "url": "https://status.cloud.microsoft/",
-      "score": 1173,
+      "score": 1174,
       "comments": 996,
       "owner": "dkpk",
       "published": "2026-11-12T18:20:48Z",
@@ -100,8 +90,8 @@
       "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
       "description": "",
       "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-      "score": 1112,
-      "comments": 649,
+      "score": 1113,
+      "comments": 650,
       "owner": "speckx",
       "published": "2026-11-14T02:52:59Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50493251"
@@ -117,10 +107,20 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50452455"
     },
     {
+      "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
+      "description": "",
+      "url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
+      "score": 1033,
+      "comments": 516,
+      "owner": "donohoe",
+      "published": "2026-11-17T11:45:51Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50530163"
+    },
+    {
       "title": "Anthropic IPO",
       "description": "",
       "url": "https://ipo.anthropic.com/us/",
-      "score": 1005,
+      "score": 1006,
       "comments": 921,
       "owner": "josephljohnston",
       "published": "2026-11-12T11:46:41Z",
@@ -130,8 +130,8 @@
       "title": "Lovable apps expose passport details and more than 200K private messages",
       "description": "",
       "url": "https://www.crissyfield.de/research/lovable-en/",
-      "score": 1002,
-      "comments": 377,
+      "score": 1004,
+      "comments": 380,
       "owner": "armcat",
       "published": "2026-11-14T17:43:10Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50499017"
@@ -140,7 +140,7 @@
       "title": "AWS emulator",
       "description": "<a href=\"https:&#x2F;&#x2F;www.aboutamazon.com&#x2F;news&#x2F;aws&#x2F;how-autonomous-ai-agents-built-aws-emulator\" rel=\"nofollow\">https:&#x2F;&#x2F;www.aboutamazon.com&#x2F;news&#x2F;aws&#x2F;how-autonomous-ai-agent...</a><p><a href=\"https:&#x2F;&#x2F;www.allthingsdistributed.com&#x2F;2026&#x2F;11&#x2F;aws-emulator-and-the-engineers-job-when-agents-write-the-code.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.allthingsdistributed.com&#x2F;2026&#x2F;11&#x2F;aws-emulator-an...</a>",
       "url": "https://github.com/aws/aws-emulator",
-      "score": 992,
+      "score": 993,
       "comments": 266,
       "owner": "super_linear",
       "published": "2026-11-11T18:21:38Z",
@@ -150,48 +150,38 @@
       "title": "LibreOffice actually works 365 days a year",
       "description": "",
       "url": "https://twitter.com/LibreOffice/status/2121205272479998268",
-      "score": 958,
+      "score": 959,
       "comments": 294,
       "owner": "mksaunders2",
       "published": "2026-11-13T17:09:58Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50486482"
     },
     {
-      "title": ".name Grandfathered",
-      "description": "Previously: <i>.name Termination</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49550772\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49550772</a> - Sept 2026 (547 comments)",
-      "url": "https://neil.fraser.name/news/2026/11/10/",
-      "score": 937,
-      "comments": 212,
-      "owner": "p4bl0",
-      "published": "2026-11-10T16:37:44Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50442736"
+      "title": "Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savings",
+      "description": "",
+      "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
+      "score": 947,
+      "comments": 547,
+      "owner": "DeepLogin",
+      "published": "2026-11-16T13:39:07Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50517488"
     },
     {
       "title": "Rust 1.100",
       "description": "",
       "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
-      "score": 901,
+      "score": 904,
       "comments": 321,
       "owner": "mbStavola",
       "published": "2026-11-12T18:39:05Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50472038"
     },
     {
-      "title": "Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savings",
-      "description": "",
-      "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
-      "score": 896,
-      "comments": 533,
-      "owner": "DeepLogin",
-      "published": "2026-11-16T13:39:07Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50517488"
-    },
-    {
       "title": "How to make almost anything",
       "description": "",
       "url": "https://pub.cba.mit.edu/863.26/site/",
-      "score": 883,
-      "comments": 144,
+      "score": 902,
+      "comments": 148,
       "owner": "o4c",
       "published": "2026-11-16T05:50:37Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50514470"
@@ -200,11 +190,21 @@
       "title": "Qwen4-Max",
       "description": "",
       "url": "https://qwen.ai/blog?id=qwen4-max",
-      "score": 863,
-      "comments": 477,
+      "score": 872,
+      "comments": 483,
       "owner": "ilreb",
       "published": "2026-11-16T02:14:44Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50513215"
+    },
+    {
+      "title": "Nvidia employees petition to bring back Jensen Huang",
+      "description": "",
+      "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
+      "score": 819,
+      "comments": 696,
+      "owner": "lavendermon",
+      "published": "2026-11-13T02:16:24Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50477231"
     }
   ]
 }
