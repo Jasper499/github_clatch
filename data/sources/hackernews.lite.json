@@ -1,17 +1,17 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-11-16T23:15:37Z",
+  "savedAt": "2026-11-17T07:46:54Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-11-16，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-11-17，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-11-16",
+  "fetchedDate": "2026-11-17",
   "items": [
     {
       "title": "Jensen Huang resigns",
       "description": "<a href=\"https:&#x2F;&#x2F;nvidianews.nvidia.com&#x2F;news&#x2F;nvidia-announces-ceo-transition\" rel=\"nofollow\">https:&#x2F;&#x2F;nvidianews.nvidia.com&#x2F;news&#x2F;nvidia-announces-ceo-tran...</a><p><a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;retail-consumer&#x2F;nvidia-ceo-jensen-huang-step-down-big-blow-ai-boom-2026-11-12&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;retail-consumer&#x2F;nvidia-ceo-...</a>, <a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;live&#x2F;nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;live&#x2F;nvidia-live-board-meets-fate-ce...</a><p><a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;live&#x2F;2026&#x2F;11&#x2F;12&#x2F;business&#x2F;nvidia-jensen-huang-resigns\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nytimes.com&#x2F;live&#x2F;2026&#x2F;11&#x2F;12&#x2F;business&#x2F;nvidia-jens...</a>",
       "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
-      "score": 4054,
-      "comments": 3469,
+      "score": 4055,
+      "comments": 3474,
       "owner": "lldb",
       "published": "2026-11-12T13:52:29Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50467087"
@@ -20,8 +20,8 @@
       "title": "SpaceX catches the Starship to end Flight 15",
       "description": "<a href=\"https:&#x2F;&#x2F;x.com&#x2F;SpaceX&#x2F;status&#x2F;2121316300702056595\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;SpaceX&#x2F;status&#x2F;2121316300702056595</a><p><a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;jHlpfNSpBmw?t=3233\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;jHlpfNSpBmw?t=3233</a>",
       "url": "https://www.spacex.com/launches/starship-flight-15",
-      "score": 1741,
-      "comments": 1343,
+      "score": 1743,
+      "comments": 1361,
       "owner": "ls612",
       "published": "2026-11-14T21:22:24Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50500963"
@@ -41,17 +41,27 @@
       "description": "<a href=\"https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;Python&#x2F;s&#x2F;2Cm5dBcvQw\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;Python&#x2F;s&#x2F;2Cm5dBcvQw</a>",
       "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
       "score": 1444,
-      "comments": 206,
+      "comments": 207,
       "owner": "ayhanfuat",
       "published": "2026-11-11T07:03:17Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50450488"
     },
     {
+      "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
+      "description": "",
+      "url": "https://www.cs.cmu.edu/learn/",
+      "score": 1307,
+      "comments": 181,
+      "owner": "pcompeau",
+      "published": "2026-11-16T20:43:36Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50522980"
+    },
+    {
       "title": "All AI-generated code should be Open Source",
       "description": "",
       "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
-      "score": 1253,
-      "comments": 651,
+      "score": 1270,
+      "comments": 660,
       "owner": "jcubic",
       "published": "2026-11-15T14:46:58Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50507303"
@@ -71,7 +81,7 @@
       "description": "",
       "url": "https://docodethatmatters.com/home-automation-overnight-success/",
       "score": 1204,
-      "comments": 444,
+      "comments": 446,
       "owner": "skittleson",
       "published": "2026-11-10T15:25:20Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50441707"
@@ -90,7 +100,7 @@
       "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
       "description": "",
       "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-      "score": 1111,
+      "score": 1112,
       "comments": 649,
       "owner": "speckx",
       "published": "2026-11-14T02:52:59Z",
@@ -101,7 +111,7 @@
       "description": "",
       "url": "https://pietromiotti.com/latest/maya-site",
       "score": 1036,
-      "comments": 392,
+      "comments": 393,
       "owner": "eyvindn",
       "published": "2026-11-11T12:05:22Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50452455"
@@ -110,7 +120,7 @@
       "title": "Anthropic IPO",
       "description": "",
       "url": "https://ipo.anthropic.com/us/",
-      "score": 1004,
+      "score": 1005,
       "comments": 921,
       "owner": "josephljohnston",
       "published": "2026-11-12T11:46:41Z",
@@ -121,7 +131,7 @@
       "description": "",
       "url": "https://www.crissyfield.de/research/lovable-en/",
       "score": 1002,
-      "comments": 374,
+      "comments": 377,
       "owner": "armcat",
       "published": "2026-11-14T17:43:10Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50499017"
@@ -167,44 +177,34 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50472038"
     },
     {
-      "title": "Qwen4-Max",
+      "title": "Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savings",
       "description": "",
-      "url": "https://qwen.ai/blog?id=qwen4-max",
-      "score": 848,
-      "comments": 469,
-      "owner": "ilreb",
-      "published": "2026-11-16T02:14:44Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50513215"
+      "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
+      "score": 882,
+      "comments": 524,
+      "owner": "DeepLogin",
+      "published": "2026-11-16T13:39:07Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50517488"
     },
     {
       "title": "How to make almost anything",
       "description": "",
       "url": "https://pub.cba.mit.edu/863.26/site/",
-      "score": 823,
-      "comments": 138,
+      "score": 876,
+      "comments": 144,
       "owner": "o4c",
       "published": "2026-11-16T05:50:37Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50514470"
     },
     {
-      "title": "Nvidia employees petition to bring back Jensen Huang",
+      "title": "Qwen4-Max",
       "description": "",
-      "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
-      "score": 818,
-      "comments": 692,
-      "owner": "lavendermon",
-      "published": "2026-11-13T02:16:24Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50477231"
-    },
-    {
-      "title": "Reverse engineering my Coway air purifier to ditch the cloud",
-      "description": "",
-      "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
-      "score": 798,
-      "comments": 225,
-      "owner": "scottjg",
-      "published": "2026-11-12T22:03:09Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50474959"
+      "url": "https://qwen.ai/blog?id=qwen4-max",
+      "score": 859,
+      "comments": 477,
+      "owner": "ilreb",
+      "published": "2026-11-16T02:14:44Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50513215"
     }
   ]
 }
