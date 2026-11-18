@@ -1,40 +1,40 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-11-18T04:42:18Z",
+  "savedAt": "2026-11-18T07:13:30Z",
   "label": "同城",
   "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-18，共 3 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-11-18",
   "items": [
     {
-      "title": "APEC合影",
+      "title": "深圳机场一眼望去全是专机",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23APEC%E5%90%88%E5%BD%B1%23&t=31&band_rank=1&Refer=top",
-      "score": 388290,
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B7%B1%E5%9C%B3%E6%9C%BA%E5%9C%BA%E4%B8%80%E7%9C%BC%E6%9C%9B%E5%8E%BB%E5%85%A8%E6%98%AF%E4%B8%93%E6%9C%BA%23&t=31&band_rank=1&Refer=top",
+      "score": 669282,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1794967999
+      "onboardTime": 1794980541
     },
     {
       "title": "游客曝1600的烤全羊剥不出1两肉",
-      "description": "热 · 民生新闻",
+      "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E6%B8%B8%E5%AE%A2%E6%9B%9D1600%E7%9A%84%E7%83%A4%E5%85%A8%E7%BE%8A%E5%89%A5%E4%B8%8D%E5%87%BA1%E4%B8%A4%E8%82%89%23&t=31&band_rank=1&Refer=top",
-      "score": 351351,
+      "score": 475793,
       "owner": "微博同城",
-      "label": "热",
+      "label": "",
       "category": "民生新闻",
       "onboardTime": 1794971180
     },
     {
-      "title": "盒马仅退款400次女子认罪认罚",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%9B%92%E9%A9%AC%E4%BB%85%E9%80%80%E6%AC%BE400%E6%AC%A1%E5%A5%B3%E5%AD%90%E8%AE%A4%E7%BD%AA%E8%AE%A4%E7%BD%9A%23&t=31&band_rank=1&Refer=top",
-      "score": 216233,
+      "title": "民宿回应1600元烤全羊几乎全是骨架",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B0%91%E5%AE%BF%E5%9B%9E%E5%BA%941600%E5%85%83%E7%83%A4%E5%85%A8%E7%BE%8A%E5%87%A0%E4%B9%8E%E5%85%A8%E6%98%AF%E9%AA%A8%E6%9E%B6%23&t=31&band_rank=1&Refer=top",
+      "score": 195467,
       "owner": "微博同城",
-      "label": "新",
+      "label": "",
       "category": "民生新闻",
-      "onboardTime": 1794974000
+      "onboardTime": 1794979460
     }
   ]
 }
