@@ -1,40 +1,220 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-11-18T07:13:30Z",
+  "savedAt": "2026-11-18T14:31:12Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-18，共 3 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-18，共 21 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-11-18",
   "items": [
     {
-      "title": "深圳机场一眼望去全是专机",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B7%B1%E5%9C%B3%E6%9C%BA%E5%9C%BA%E4%B8%80%E7%9C%BC%E6%9C%9B%E5%8E%BB%E5%85%A8%E6%98%AF%E4%B8%93%E6%9C%BA%23&t=31&band_rank=1&Refer=top",
-      "score": 669282,
+      "title": "APEC会议来宾欢迎宴会大合影",
+      "description": "新 · 国内时政",
+      "url": "https://s.weibo.com/weibo?q=%23APEC%E4%BC%9A%E8%AE%AE%E6%9D%A5%E5%AE%BE%E6%AC%A2%E8%BF%8E%E5%AE%B4%E4%BC%9A%E5%A4%A7%E5%90%88%E5%BD%B1%23&t=31&band_rank=1&Refer=top",
+      "score": 1359352,
       "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1794980541
+      "label": "新",
+      "category": "国内时政",
+      "onboardTime": 1795007480
     },
     {
-      "title": "游客曝1600的烤全羊剥不出1两肉",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B8%B8%E5%AE%A2%E6%9B%9D1600%E7%9A%84%E7%83%A4%E5%85%A8%E7%BE%8A%E5%89%A5%E4%B8%8D%E5%87%BA1%E4%B8%A4%E8%82%89%23&t=31&band_rank=1&Refer=top",
-      "score": 475793,
+      "title": "特朗普感受到了深圳市民的热情",
+      "description": "新 · 国际时政",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E6%84%9F%E5%8F%97%E5%88%B0%E4%BA%86%E6%B7%B1%E5%9C%B3%E5%B8%82%E6%B0%91%E7%9A%84%E7%83%AD%E6%83%85%23&t=31&band_rank=1&Refer=top",
+      "score": 729407,
       "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1794971180
+      "label": "新",
+      "category": "国际时政",
+      "onboardTime": 1795010840
     },
     {
-      "title": "民宿回应1600元烤全羊几乎全是骨架",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B0%91%E5%AE%BF%E5%9B%9E%E5%BA%941600%E5%85%83%E7%83%A4%E5%85%A8%E7%BE%8A%E5%87%A0%E4%B9%8E%E5%85%A8%E6%98%AF%E9%AA%A8%E6%9E%B6%23&t=31&band_rank=1&Refer=top",
-      "score": 195467,
+      "title": "李在明夫妇会见韩籍在华企业家",
+      "description": "新 · 国际时政",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E5%9C%A8%E6%98%8E%E5%A4%AB%E5%A6%87%E4%BC%9A%E8%A7%81%E9%9F%A9%E7%B1%8D%E5%9C%A8%E5%8D%8E%E4%BC%81%E4%B8%9A%E5%AE%B6%23&t=31&band_rank=1&Refer=top",
+      "score": 549445,
       "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1794979460
+      "label": "新",
+      "category": "国际时政",
+      "onboardTime": 1795010722
+    },
+    {
+      "title": "虞书欣上海场演唱会报批歌单",
+      "description": "新 · 演出",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%99%9E%E4%B9%A6%E6%AC%A3%E4%B8%8A%E6%B5%B7%E5%9C%BA%E6%BC%94%E5%94%B1%E4%BC%9A%E6%8A%A5%E6%89%B9%E6%AD%8C%E5%8D%95%23&t=31&band_rank=1&Refer=top",
+      "score": 372290,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "演出",
+      "onboardTime": 1795011262
+    },
+    {
+      "title": "蔡国庆摔了",
+      "description": "热 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%94%A1%E5%9B%BD%E5%BA%86%E6%91%94%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 371235,
+      "owner": "微博同城",
+      "label": "热",
+      "category": "艺人",
+      "onboardTime": 1795004241
+    },
+    {
+      "title": "APEC欢迎宴会高清大图",
+      "description": "新 · 国内时政",
+      "url": "https://s.weibo.com/weibo?q=%23APEC%E6%AC%A2%E8%BF%8E%E5%AE%B4%E4%BC%9A%E9%AB%98%E6%B8%85%E5%A4%A7%E5%9B%BE%23&t=31&band_rank=1&Refer=top",
+      "score": 368975,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "国内时政",
+      "onboardTime": 1795011681
+    },
+    {
+      "title": "杨超越这段音频即将迎来赛博永生",
+      "description": "新 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%E6%9D%A8%E8%B6%85%E8%B6%8A%E8%BF%99%E6%AE%B5%E9%9F%B3%E9%A2%91%E5%8D%B3%E5%B0%86%E8%BF%8E%E6%9D%A5%E8%B5%9B%E5%8D%9A%E6%B0%B8%E7%94%9F&t=31&band_rank=1&Refer=top",
+      "score": 366746,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "艺人",
+      "onboardTime": 1795007720
+    },
+    {
+      "title": "豆包画13个鸡蛋反复出错",
+      "description": "新 · 互联网",
+      "url": "https://s.weibo.com/weibo?q=%E8%B1%86%E5%8C%85%E7%94%BB13%E4%B8%AA%E9%B8%A1%E8%9B%8B%E5%8F%8D%E5%A4%8D%E5%87%BA%E9%94%99&t=31&band_rank=1&Refer=top",
+      "score": 363847,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "互联网",
+      "onboardTime": 1795008321
+    },
+    {
+      "title": "普京说俄罗斯也想模仿这种成就",
+      "description": "新 · 国内时政",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%99%AE%E4%BA%AC%E8%AF%B4%E4%BF%84%E7%BD%97%E6%96%AF%E4%B9%9F%E6%83%B3%E6%A8%A1%E4%BB%BF%E8%BF%99%E7%A7%8D%E6%88%90%E5%B0%B1%23&t=31&band_rank=1&Refer=top",
+      "score": 348266,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "国内时政",
+      "onboardTime": 1795009222
+    },
+    {
+      "title": "中国军人再现空军一号旁纹丝不动",
+      "description": "新 · 军事",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E5%86%9B%E4%BA%BA%E5%86%8D%E7%8E%B0%E7%A9%BA%E5%86%9B%E4%B8%80%E5%8F%B7%E6%97%81%E7%BA%B9%E4%B8%9D%E4%B8%8D%E5%8A%A8%23&t=31&band_rank=1&Refer=top",
+      "score": 268241,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "军事",
+      "onboardTime": 1795011862
+    },
+    {
+      "title": "中国军人空军一号旁再现名场面",
+      "description": "新 · 军事",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E5%86%9B%E4%BA%BA%E7%A9%BA%E5%86%9B%E4%B8%80%E5%8F%B7%E6%97%81%E5%86%8D%E7%8E%B0%E5%90%8D%E5%9C%BA%E9%9D%A2%23&t=31&band_rank=1&Refer=top",
+      "score": 266452,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "军事",
+      "onboardTime": 1795011262
+    },
+    {
+      "title": "特朗普驻足聆听欢迎宴会乐团演奏",
+      "description": "新 · 国际时政",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E9%A9%BB%E8%B6%B3%E8%81%86%E5%90%AC%E6%AC%A2%E8%BF%8E%E5%AE%B4%E4%BC%9A%E4%B9%90%E5%9B%A2%E6%BC%94%E5%A5%8F%23&t=31&band_rank=1&Refer=top",
+      "score": 264458,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "国际时政",
+      "onboardTime": 1795007600
+    },
+    {
+      "title": "内娱第一个把孩子说成是子宫肌瘤的",
+      "description": "热 · 艺人",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%86%85%E5%A8%B1%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%8A%8A%E5%AD%A9%E5%AD%90%E8%AF%B4%E6%88%90%E6%98%AF%E5%AD%90%E5%AE%AB%E8%82%8C%E7%98%A4%E7%9A%84%23&t=31&band_rank=1&Refer=top",
+      "score": 262050,
+      "owner": "微博同城",
+      "label": "热",
+      "category": "艺人",
+      "onboardTime": 1794981980
+    },
+    {
+      "title": "许飞看向曾沛慈的眼神",
+      "description": "新 · 综艺",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%AE%B8%E9%A3%9E%E7%9C%8B%E5%90%91%E6%9B%BE%E6%B2%9B%E6%85%88%E7%9A%84%E7%9C%BC%E7%A5%9E%23&t=31&band_rank=1&Refer=top",
+      "score": 258420,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "综艺",
+      "onboardTime": 1795006940
+    },
+    {
+      "title": "KPL",
+      "description": "新 · 电竞",
+      "url": "https://s.weibo.com/weibo?q=KPL&t=31&band_rank=1&Refer=top",
+      "score": 257340,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "电竞",
+      "onboardTime": 1795010181
+    },
+    {
+      "title": "体制内vs主持人内娱少见的夫妻组合",
+      "description": "新 · 剧集",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BD%93%E5%88%B6%E5%86%85vs%E4%B8%BB%E6%8C%81%E4%BA%BA%E5%86%85%E5%A8%B1%E5%B0%91%E8%A7%81%E7%9A%84%E5%A4%AB%E5%A6%BB%E7%BB%84%E5%90%88%23&t=31&band_rank=1&Refer=top",
+      "score": 222969,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "剧集",
+      "onboardTime": 1795009642
+    },
+    {
+      "title": "第一眼这十块看到后面这十块",
+      "description": "新 · 幽默",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%AC%AC%E4%B8%80%E7%9C%BC%E8%BF%99%E5%8D%81%E5%9D%97%E7%9C%8B%E5%88%B0%E5%90%8E%E9%9D%A2%E8%BF%99%E5%8D%81%E5%9D%97%23&t=31&band_rank=1&Refer=top",
+      "score": 222800,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "幽默",
+      "onboardTime": 1795011141
+    },
+    {
+      "title": "2026豆瓣8分以上的剧",
+      "description": "新 · 剧集",
+      "url": "https://s.weibo.com/weibo?q=%232026%E8%B1%86%E7%93%A38%E5%88%86%E4%BB%A5%E4%B8%8A%E7%9A%84%E5%89%A7%23&t=31&band_rank=1&Refer=top",
+      "score": 219907,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "剧集",
+      "onboardTime": 1795009642
+    },
+    {
+      "title": "入夜的深圳未来感溢出屏幕",
+      "description": "新 · 国内时政",
+      "url": "https://s.weibo.com/weibo?q=%E5%85%A5%E5%A4%9C%E7%9A%84%E6%B7%B1%E5%9C%B3%E6%9C%AA%E6%9D%A5%E6%84%9F%E6%BA%A2%E5%87%BA%E5%B1%8F%E5%B9%95&t=31&band_rank=1&Refer=top",
+      "score": 192551,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "国内时政",
+      "onboardTime": 1795009822
+    },
+    {
+      "title": "主流AI画不对13个鸡蛋",
+      "description": "新 · 互联网",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%BB%E6%B5%81AI%E7%94%BB%E4%B8%8D%E5%AF%B913%E4%B8%AA%E9%B8%A1%E8%9B%8B%23&t=31&band_rank=1&Refer=top",
+      "score": 182980,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "互联网",
+      "onboardTime": 1795008202
+    },
+    {
+      "title": "央视因信号问题弃播开拓者比赛",
+      "description": "新 · 体育",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%AE%E8%A7%86%E5%9B%A0%E4%BF%A1%E5%8F%B7%E9%97%AE%E9%A2%98%E5%BC%83%E6%92%AD%E5%BC%80%E6%8B%93%E8%80%85%E6%AF%94%E8%B5%9B%23&t=31&band_rank=1&Refer=top",
+      "score": 182728,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "体育",
+      "onboardTime": 1795008562
     }
   ]
 }
