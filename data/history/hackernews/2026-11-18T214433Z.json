@@ -1,0 +1,212 @@
+{
+  "date": "2026-11-18T214433Z",
+  "day": "2026-11-18",
+  "sourceKey": "hackernews",
+  "savedAt": "2026-11-18T21:44:33Z",
+  "label": "Hacker News 热门",
+  "description": "近 7 天 HN 高互动讨论（2026-11-18，共 20 条）",
+  "updateFrequency": "twice-daily",
+  "fetchedDate": "2026-11-18",
+  "items": [
+    {
+      "title": "Jensen Huang resigns",
+      "description": "<a href=\"https:&#x2F;&#x2F;nvidianews.nvidia.com&#x2F;news&#x2F;nvidia-announces-ceo-transition\" rel=\"nofollow\">https:&#x2F;&#x2F;nvidianews.nvidia.com&#x2F;news&#x2F;nvidia-announces-ceo-tran...</a><p><a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;retail-consumer&#x2F;nvidia-ceo-jensen-huang-step-down-big-blow-ai-boom-2026-11-12&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;retail-consumer&#x2F;nvidia-ceo-...</a>, <a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;live&#x2F;nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;live&#x2F;nvidia-live-board-meets-fate-ce...</a><p><a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;live&#x2F;2026&#x2F;11&#x2F;12&#x2F;business&#x2F;nvidia-jensen-huang-resigns\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nytimes.com&#x2F;live&#x2F;2026&#x2F;11&#x2F;12&#x2F;business&#x2F;nvidia-jens...</a>",
+      "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+      "score": 4059,
+      "comments": 3490,
+      "owner": "lldb",
+      "published": "2026-11-12T13:52:29Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50467087"
+    },
+    {
+      "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
+      "description": "",
+      "url": "https://www.cs.cmu.edu/learn/",
+      "score": 2350,
+      "comments": 324,
+      "owner": "pcompeau",
+      "published": "2026-11-16T20:43:36Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50522980"
+    },
+    {
+      "title": "SpaceX catches the Starship to end Flight 15",
+      "description": "<a href=\"https:&#x2F;&#x2F;x.com&#x2F;SpaceX&#x2F;status&#x2F;2121316300702056595\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;SpaceX&#x2F;status&#x2F;2121316300702056595</a><p><a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;jHlpfNSpBmw?t=3233\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;jHlpfNSpBmw?t=3233</a>",
+      "url": "https://www.spacex.com/launches/starship-flight-15",
+      "score": 1759,
+      "comments": 1475,
+      "owner": "ls612",
+      "published": "2026-11-14T21:22:24Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50500963"
+    },
+    {
+      "title": "FAA issues national ground stop – lifted 4.5 hours later",
+      "description": "<a href=\"https:&#x2F;&#x2F;www.fly.faa.gov&#x2F;adv&#x2F;adv_otherdis?adv_date=11132026&amp;advn=111\" rel=\"nofollow\">https:&#x2F;&#x2F;www.fly.faa.gov&#x2F;adv&#x2F;adv_otherdis?adv_date=11132026&amp;a...</a><p><a href=\"https:&#x2F;&#x2F;www.fly.faa.gov&#x2F;adv&#x2F;adv_otherdis?adv_date=11142026&amp;advn=5\" rel=\"nofollow\">https:&#x2F;&#x2F;www.fly.faa.gov&#x2F;adv&#x2F;adv_otherdis?adv_date=11142026&amp;a...</a><p><a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;live&#x2F;2026&#x2F;11&#x2F;13&#x2F;us&#x2F;ground-stop-nationwide-flights-faa&#x2F;d2ae2ce1-ac6b-59ad-ad8d-daef4e181b34\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nytimes.com&#x2F;live&#x2F;2026&#x2F;11&#x2F;13&#x2F;us&#x2F;ground-stop-natio...</a>",
+      "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+      "score": 1654,
+      "comments": 1284,
+      "owner": "zulln",
+      "published": "2026-11-13T21:05:53Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50489641"
+    },
+    {
+      "title": "GPT‑6.2 Astra and Sol",
+      "description": "",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "score": 1333,
+      "comments": 845,
+      "owner": "jasondavies",
+      "published": "2026-11-17T17:46:43Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50535230"
+    },
+    {
+      "title": "All AI-generated code should be Open Source",
+      "description": "",
+      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+      "score": 1281,
+      "comments": 670,
+      "owner": "jcubic",
+      "published": "2026-11-15T14:46:58Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50507303"
+    },
+    {
+      "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
+      "description": "",
+      "url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
+      "score": 1280,
+      "comments": 641,
+      "owner": "donohoe",
+      "published": "2026-11-17T11:45:51Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50530163"
+    },
+    {
+      "title": "Nvidia is preparing to oust Jensen Huang",
+      "description": "",
+      "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+      "score": 1227,
+      "comments": 1646,
+      "owner": "jbredeche",
+      "published": "2026-11-11T22:31:06Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50459703"
+    },
+    {
+      "title": "Service degradation on Microsoft 365",
+      "description": "<a href=\"https:&#x2F;&#x2F;www.abc.net.au&#x2F;news&#x2F;2026-11-13&#x2F;microsoft-outage-affects-users-worldwide&#x2F;107381050\" rel=\"nofollow\">https:&#x2F;&#x2F;www.abc.net.au&#x2F;news&#x2F;2026-11-13&#x2F;microsoft-outage-affe...</a><p><a href=\"https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;sysadmin&#x2F;comments&#x2F;1xuje83&#x2F;microsoft_office_seems_to_be_down&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;sysadmin&#x2F;comments&#x2F;1xuje83&#x2F;microsoft...</a><p><a href=\"https:&#x2F;&#x2F;downdetector.com&#x2F;status&#x2F;microsoft-365&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;downdetector.com&#x2F;status&#x2F;microsoft-365&#x2F;</a>",
+      "url": "https://status.cloud.microsoft/",
+      "score": 1176,
+      "comments": 996,
+      "owner": "dkpk",
+      "published": "2026-11-12T18:20:48Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50471731"
+    },
+    {
+      "title": "Java4Shell: RCE in OpenJDK when processing Base64",
+      "description": "",
+      "url": "https://calif.io/java4shell/",
+      "score": 1145,
+      "comments": 320,
+      "owner": "werrett",
+      "published": "2026-11-17T21:11:28Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50538240"
+    },
+    {
+      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+      "description": "",
+      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "score": 1113,
+      "comments": 650,
+      "owner": "speckx",
+      "published": "2026-11-14T02:52:59Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50493251"
+    },
+    {
+      "title": "Anthropic IPO",
+      "description": "",
+      "url": "https://ipo.anthropic.com/us/",
+      "score": 1007,
+      "comments": 922,
+      "owner": "josephljohnston",
+      "published": "2026-11-12T11:46:41Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50465829"
+    },
+    {
+      "title": "Lovable apps expose passport details and more than 200K private messages",
+      "description": "",
+      "url": "https://www.crissyfield.de/research/lovable-en/",
+      "score": 1006,
+      "comments": 381,
+      "owner": "armcat",
+      "published": "2026-11-14T17:43:10Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50499017"
+    },
+    {
+      "title": "Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savings",
+      "description": "",
+      "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
+      "score": 966,
+      "comments": 555,
+      "owner": "DeepLogin",
+      "published": "2026-11-16T13:39:07Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50517488"
+    },
+    {
+      "title": "LibreOffice actually works 365 days a year",
+      "description": "",
+      "url": "https://twitter.com/LibreOffice/status/2121205272479998268",
+      "score": 959,
+      "comments": 294,
+      "owner": "mksaunders2",
+      "published": "2026-11-13T17:09:58Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50486482"
+    },
+    {
+      "title": "How to make almost anything",
+      "description": "",
+      "url": "https://pub.cba.mit.edu/863.26/site/",
+      "score": 916,
+      "comments": 149,
+      "owner": "o4c",
+      "published": "2026-11-16T05:50:37Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50514470"
+    },
+    {
+      "title": "Rust 1.100",
+      "description": "",
+      "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+      "score": 904,
+      "comments": 321,
+      "owner": "mbStavola",
+      "published": "2026-11-12T18:39:05Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50472038"
+    },
+    {
+      "title": "Qwen4-Max",
+      "description": "",
+      "url": "https://qwen.ai/blog?id=qwen4-max",
+      "score": 879,
+      "comments": 485,
+      "owner": "ilreb",
+      "published": "2026-11-16T02:14:44Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50513215"
+    },
+    {
+      "title": "Unauthenticated remote code execution in Nginx",
+      "description": "<a href=\"https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123633\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123633</a><p><a href=\"https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123007\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123007</a>",
+      "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+      "score": 879,
+      "comments": 379,
+      "owner": "speedping",
+      "published": "2026-11-18T15:19:55Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50547374"
+    },
+    {
+      "title": "Quad9's withdrawal from France: A canary in the coal mine",
+      "description": "",
+      "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+      "score": 875,
+      "comments": 421,
+      "owner": "subset",
+      "published": "2026-11-17T22:13:34Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50538994"
+    }
+  ]
+}
