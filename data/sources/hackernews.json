@@ -1,10 +1,10 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-11-18T21:44:33Z",
+  "savedAt": "2026-11-19T07:14:13Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-11-18，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-11-19，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-11-18",
+  "fetchedDate": "2026-11-19",
   "items": [
     {
       "title": "Jensen Huang resigns",
@@ -20,8 +20,8 @@
       "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
       "description": "",
       "url": "https://www.cs.cmu.edu/learn/",
-      "score": 2350,
-      "comments": 324,
+      "score": 2357,
+      "comments": 328,
       "owner": "pcompeau",
       "published": "2026-11-16T20:43:36Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50522980"
@@ -31,7 +31,7 @@
       "description": "<a href=\"https:&#x2F;&#x2F;x.com&#x2F;SpaceX&#x2F;status&#x2F;2121316300702056595\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;SpaceX&#x2F;status&#x2F;2121316300702056595</a><p><a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;jHlpfNSpBmw?t=3233\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;jHlpfNSpBmw?t=3233</a>",
       "url": "https://www.spacex.com/launches/starship-flight-15",
       "score": 1759,
-      "comments": 1475,
+      "comments": 1483,
       "owner": "ls612",
       "published": "2026-11-14T21:22:24Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50500963"
@@ -50,41 +50,41 @@
       "title": "GPT‑6.2 Astra and Sol",
       "description": "",
       "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
-      "score": 1333,
-      "comments": 845,
+      "score": 1339,
+      "comments": 853,
       "owner": "jasondavies",
       "published": "2026-11-17T17:46:43Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50535230"
+    },
+    {
+      "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
+      "description": "",
+      "url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
+      "score": 1292,
+      "comments": 643,
+      "owner": "donohoe",
+      "published": "2026-11-17T11:45:51Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50530163"
+    },
+    {
+      "title": "Unauthenticated remote code execution in Nginx",
+      "description": "<a href=\"https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123633\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123633</a><p><a href=\"https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123007\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123007</a>",
+      "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+      "score": 1289,
+      "comments": 564,
+      "owner": "speedping",
+      "published": "2026-11-18T15:19:55Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50547374"
     },
     {
       "title": "All AI-generated code should be Open Source",
       "description": "",
       "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
       "score": 1281,
-      "comments": 670,
+      "comments": 671,
       "owner": "jcubic",
       "published": "2026-11-15T14:46:58Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50507303"
-    },
-    {
-      "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
-      "description": "",
-      "url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
-      "score": 1280,
-      "comments": 641,
-      "owner": "donohoe",
-      "published": "2026-11-17T11:45:51Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50530163"
-    },
-    {
-      "title": "Nvidia is preparing to oust Jensen Huang",
-      "description": "",
-      "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
-      "score": 1227,
-      "comments": 1646,
-      "owner": "jbredeche",
-      "published": "2026-11-11T22:31:06Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50459703"
     },
     {
       "title": "Service degradation on Microsoft 365",
@@ -100,8 +100,8 @@
       "title": "Java4Shell: RCE in OpenJDK when processing Base64",
       "description": "",
       "url": "https://calif.io/java4shell/",
-      "score": 1145,
-      "comments": 320,
+      "score": 1162,
+      "comments": 323,
       "owner": "werrett",
       "published": "2026-11-17T21:11:28Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50538240"
@@ -110,7 +110,7 @@
       "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
       "description": "",
       "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-      "score": 1113,
+      "score": 1114,
       "comments": 650,
       "owner": "speckx",
       "published": "2026-11-14T02:52:59Z",
@@ -130,8 +130,8 @@
       "title": "Lovable apps expose passport details and more than 200K private messages",
       "description": "",
       "url": "https://www.crissyfield.de/research/lovable-en/",
-      "score": 1006,
-      "comments": 381,
+      "score": 1007,
+      "comments": 382,
       "owner": "armcat",
       "published": "2026-11-14T17:43:10Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50499017"
@@ -140,7 +140,7 @@
       "title": "Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savings",
       "description": "",
       "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
-      "score": 966,
+      "score": 968,
       "comments": 555,
       "owner": "DeepLogin",
       "published": "2026-11-16T13:39:07Z",
@@ -170,11 +170,21 @@
       "title": "Rust 1.100",
       "description": "",
       "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
-      "score": 904,
+      "score": 905,
       "comments": 321,
       "owner": "mbStavola",
       "published": "2026-11-12T18:39:05Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50472038"
+    },
+    {
+      "title": "Quad9's withdrawal from France: A canary in the coal mine",
+      "description": "",
+      "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+      "score": 889,
+      "comments": 433,
+      "owner": "subset",
+      "published": "2026-11-17T22:13:34Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50538994"
     },
     {
       "title": "Qwen4-Max",
@@ -187,24 +197,14 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50513215"
     },
     {
-      "title": "Unauthenticated remote code execution in Nginx",
-      "description": "<a href=\"https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123633\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123633</a><p><a href=\"https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123007\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123007</a>",
-      "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
-      "score": 879,
-      "comments": 379,
-      "owner": "speedping",
-      "published": "2026-11-18T15:19:55Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50547374"
-    },
-    {
-      "title": "Quad9's withdrawal from France: A canary in the coal mine",
+      "title": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
       "description": "",
-      "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
-      "score": 875,
-      "comments": 421,
-      "owner": "subset",
-      "published": "2026-11-17T22:13:34Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50538994"
+      "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
+      "score": 834,
+      "comments": 711,
+      "owner": "samk3nny",
+      "published": "2026-11-16T18:31:30Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50521045"
     }
   ]
 }

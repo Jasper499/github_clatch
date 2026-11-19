@@ -6,124 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E4%B8%AD%E7%BE%8E%E5%85%83%E9%A6%96%E6%B7%B1%E5%9C%B3%E4%BC%9A%E6%99%A4%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E7%BE%8E%E5%85%83%E9%A6%96%E6%B7%B1%E5%9C%B3%E4%BC%9A%E6%99%A4%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 中美元首深圳会晤",
-      "date_published": "2026-11-19T07:13:42Z"
+      "id": "hackernews:https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+      "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+      "title": "[Hacker News 热门] Jensen Huang resigns",
+      "date_published": "2026-11-19T07:14:13Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23APEC%E9%A2%86%E5%AF%BC%E4%BA%BA%E4%BC%91%E6%81%AF%E5%AE%A4%E6%B8%A9%E9%A6%A8%E7%94%BB%E9%9D%A2%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23APEC%E9%A2%86%E5%AF%BC%E4%BA%BA%E4%BC%91%E6%81%AF%E5%AE%A4%E6%B8%A9%E9%A6%A8%E7%94%BB%E9%9D%A2%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] APEC领导人休息室温馨画面",
-      "date_published": "2026-11-19T07:13:42Z"
+      "id": "hackernews:https://www.cs.cmu.edu/learn/",
+      "url": "https://www.cs.cmu.edu/learn/",
+      "title": "[Hacker News 热门] Carnegie Mellon is putting computer science courses on YouTube for free",
+      "date_published": "2026-11-19T07:14:13Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%85%B1%E5%88%9B%E4%BA%9A%E5%A4%AA%E5%85%89%E6%98%8E%E6%9C%AA%E6%9D%A5%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%85%B1%E5%88%9B%E4%BA%9A%E5%A4%AA%E5%85%89%E6%98%8E%E6%9C%AA%E6%9D%A5%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 共创亚太光明未来",
-      "date_published": "2026-11-19T07:13:42Z"
+      "id": "hackernews:https://www.spacex.com/launches/starship-flight-15",
+      "url": "https://www.spacex.com/launches/starship-flight-15",
+      "title": "[Hacker News 热门] SpaceX catches the Starship to end Flight 15",
+      "date_published": "2026-11-19T07:14:13Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E9%A9%AC%E6%96%AF%E5%85%8B%E5%B0%8F%E5%84%BF%E5%AD%90%E7%8E%A9%E5%85%B7%E9%83%BD%E6%98%AF%E4%B8%AD%E5%9B%BD%E5%88%B6%E9%80%A0%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%A9%AC%E6%96%AF%E5%85%8B%E5%B0%8F%E5%84%BF%E5%AD%90%E7%8E%A9%E5%85%B7%E9%83%BD%E6%98%AF%E4%B8%AD%E5%9B%BD%E5%88%B6%E9%80%A0%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 马斯克小儿子玩具都是中国制造",
-      "date_published": "2026-11-19T07:13:42Z"
+      "id": "hackernews:https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+      "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+      "title": "[Hacker News 热门] FAA issues national ground stop – lifted 4.5 hours later",
+      "date_published": "2026-11-19T07:14:13Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23APEC%E9%87%8D%E8%A6%81%E8%AE%B2%E8%AF%9D%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23APEC%E9%87%8D%E8%A6%81%E8%AE%B2%E8%AF%9D%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] APEC重要讲话",
-      "date_published": "2026-11-19T07:13:42Z"
+      "id": "hackernews:https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "title": "[Hacker News 热门] GPT‑6.2 Astra and Sol",
+      "date_published": "2026-11-19T07:14:13Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E7%8E%8B%E5%AD%90%E7%92%87%E8%AF%B4%E5%8F%AA%E6%9C%89%E6%96%87%E5%90%89%E5%84%BF%E6%8D%A2%E4%BA%86%E8%BD%AF%E5%8D%A7%E5%8C%85%E9%97%B4%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E5%AD%90%E7%92%87%E8%AF%B4%E5%8F%AA%E6%9C%89%E6%96%87%E5%90%89%E5%84%BF%E6%8D%A2%E4%BA%86%E8%BD%AF%E5%8D%A7%E5%8C%85%E9%97%B4%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 王子璇说只有文吉儿换了软卧包间",
-      "date_published": "2026-11-19T07:13:42Z"
+      "id": "hackernews:https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
+      "url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
+      "title": "[Hacker News 热门] New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
+      "date_published": "2026-11-19T07:14:13Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E4%BC%8A%E8%83%BD%E9%9D%99%20%E5%BC%A0%E8%90%8C%E9%A9%AC%E5%A4%A9%E5%AE%87%E4%B8%8D%E9%80%82%E5%90%88%E5%81%9A%E6%9C%8B%E5%8F%8B&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E4%BC%8A%E8%83%BD%E9%9D%99%20%E5%BC%A0%E8%90%8C%E9%A9%AC%E5%A4%A9%E5%AE%87%E4%B8%8D%E9%80%82%E5%90%88%E5%81%9A%E6%9C%8B%E5%8F%8B&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 伊能静 张萌马天宇不适合做朋友",
-      "date_published": "2026-11-19T07:13:42Z"
+      "id": "hackernews:https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+      "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+      "title": "[Hacker News 热门] Unauthenticated remote code execution in Nginx",
+      "date_published": "2026-11-19T07:14:13Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E5%BE%AE%E5%8D%9A%E7%AB%9E%E7%87%83%E4%B9%8B%E5%A4%9C&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%BE%AE%E5%8D%9A%E7%AB%9E%E7%87%83%E4%B9%8B%E5%A4%9C&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 微博竞燃之夜",
-      "date_published": "2026-11-19T07:13:42Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E9%99%88%E6%99%93%E6%A5%A0%E6%96%87%E5%90%89%E5%84%BF%E8%81%8A%E4%B8%8D%E4%B8%8B%E5%8E%BB%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%99%88%E6%99%93%E6%A5%A0%E6%96%87%E5%90%89%E5%84%BF%E8%81%8A%E4%B8%8D%E4%B8%8B%E5%8E%BB%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 陈晓楠文吉儿聊不下去了",
-      "date_published": "2026-11-19T07:13:42Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E7%90%83%E6%98%9F%E5%85%AC%E7%9B%8A%E8%A1%8C%E8%AE%A9%E6%B8%A9%E6%9A%96%E5%AE%88%E6%8A%A4%E5%9C%A8%E8%BA%AB%E8%BE%B9%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%90%83%E6%98%9F%E5%85%AC%E7%9B%8A%E8%A1%8C%E8%AE%A9%E6%B8%A9%E6%9A%96%E5%AE%88%E6%8A%A4%E5%9C%A8%E8%BA%AB%E8%BE%B9%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 球星公益行让温暖守护在身边",
-      "date_published": "2026-11-19T07:13:42Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E5%BE%AE%E5%8D%9A%E7%AB%9E%E7%87%83%E4%B9%8B%E5%A4%9C&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%BE%AE%E5%8D%9A%E7%AB%9E%E7%87%83%E4%B9%8B%E5%A4%9C&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 微博竞燃之夜",
-      "date_published": "2026-11-19T07:13:42Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E6%B2%A1%E6%8B%89%E7%AA%97%E5%B8%98%E6%98%AF%E5%AF%B9%E5%AE%89%E4%BF%9D%E6%9C%80%E5%A4%A7%E7%9A%84%E8%82%AF%E5%AE%9A%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E6%B2%A1%E6%8B%89%E7%AA%97%E5%B8%98%E6%98%AF%E5%AF%B9%E5%AE%89%E4%BF%9D%E6%9C%80%E5%A4%A7%E7%9A%84%E8%82%AF%E5%AE%9A%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 特朗普没拉窗帘是对安保最大的肯定",
-      "date_published": "2026-11-19T07:13:42Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E6%B6%B2%E6%B0%A7%E4%B9%90%E9%98%9F%E4%B8%BB%E5%94%B1%E5%BC%A0%E5%AE%87%E5%8E%BB%E4%B8%96%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B6%B2%E6%B0%A7%E4%B9%90%E9%98%9F%E4%B8%BB%E5%94%B1%E5%BC%A0%E5%AE%87%E5%8E%BB%E4%B8%96%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 液氧乐队主唱张宇去世",
-      "date_published": "2026-11-19T07:13:42Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E4%B8%AD%E7%BE%8E%E5%85%83%E9%A6%96%E6%AD%A5%E5%85%A5%E4%BC%9A%E5%9C%BA%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E7%BE%8E%E5%85%83%E9%A6%96%E6%AD%A5%E5%85%A5%E4%BC%9A%E5%9C%BA%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 中美元首步入会场",
-      "date_published": "2026-11-19T07:13:42Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E6%99%AE%E4%BA%AC%E9%AB%98%E5%BA%A6%E8%AF%84%E4%BB%B7%E4%B8%AD%E5%9B%BD%E5%B7%A5%E4%BD%9C%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%99%AE%E4%BA%AC%E9%AB%98%E5%BA%A6%E8%AF%84%E4%BB%B7%E4%B8%AD%E5%9B%BD%E5%B7%A5%E4%BD%9C%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 普京高度评价中国工作",
-      "date_published": "2026-11-19T07:13:42Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E5%89%8D%E5%A4%AB%E6%96%B9%E6%8C%87%E8%94%A1%E5%A4%A9%E5%87%A4%E4%B8%8E%E9%82%9D%E7%90%83%E7%8B%AC%E5%A4%84%E5%90%8E%E5%85%A8%E6%98%AF%E8%A1%80%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%89%8D%E5%A4%AB%E6%96%B9%E6%8C%87%E8%94%A1%E5%A4%A9%E5%87%A4%E4%B8%8E%E9%82%9D%E7%90%83%E7%8B%AC%E5%A4%84%E5%90%8E%E5%85%A8%E6%98%AF%E8%A1%80%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 前夫方指蔡天凤与邝球独处后全是血",
-      "date_published": "2026-11-19T07:13:42Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E9%A9%AC%E6%96%AF%E5%85%8B%E5%B0%8F%E5%84%BF%E5%AD%90%E7%8E%A9%E5%85%B7%E9%83%BD%E6%98%AF%E4%B8%AD%E5%9B%BD%E5%88%B6%E9%80%A0%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%A9%AC%E6%96%AF%E5%85%8B%E5%B0%8F%E5%84%BF%E5%AD%90%E7%8E%A9%E5%85%B7%E9%83%BD%E6%98%AF%E4%B8%AD%E5%9B%BD%E5%88%B6%E9%80%A0%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 马斯克小儿子玩具都是中国制造",
-      "date_published": "2026-11-19T07:13:42Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E8%83%96%E4%B8%9C%E6%9D%A5%E6%92%A4%E8%B5%B0%E5%90%8E%E9%99%8D%E5%88%B0%E5%9B%9B%E7%99%BE%E4%B8%87%E4%BE%9D%E7%84%B6%E6%B2%A1%E6%9C%89%E4%BA%BA%E6%8E%A5%E7%9B%98%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%83%96%E4%B8%9C%E6%9D%A5%E6%92%A4%E8%B5%B0%E5%90%8E%E9%99%8D%E5%88%B0%E5%9B%9B%E7%99%BE%E4%B8%87%E4%BE%9D%E7%84%B6%E6%B2%A1%E6%9C%89%E4%BA%BA%E6%8E%A5%E7%9B%98%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 胖东来撤走后降到四百万依然没有人接盘",
-      "date_published": "2026-11-19T07:13:42Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%E5%85%BB%E8%80%81%E4%BF%9D%E9%99%A9%E6%9C%80%E4%BD%8E%E7%BC%B4%E8%B4%B9%E5%B9%B4%E9%99%90%E4%B8%8A%E8%B0%83&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%85%BB%E8%80%81%E4%BF%9D%E9%99%A9%E6%9C%80%E4%BD%8E%E7%BC%B4%E8%B4%B9%E5%B9%B4%E9%99%90%E4%B8%8A%E8%B0%83&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 养老保险最低缴费年限上调",
-      "date_published": "2026-11-19T07:13:42Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%89%8D%E5%A4%AB%E6%96%B9%E6%8C%87%E8%94%A1%E5%A4%A9%E5%87%A4%E4%B8%8E%E9%82%9D%E7%90%83%E7%8B%AC%E5%A4%84%E5%90%8E%E5%85%A8%E6%98%AF%E8%A1%80%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%89%8D%E5%A4%AB%E6%96%B9%E6%8C%87%E8%94%A1%E5%A4%A9%E5%87%A4%E4%B8%8E%E9%82%9D%E7%90%83%E7%8B%AC%E5%A4%84%E5%90%8E%E5%85%A8%E6%98%AF%E8%A1%80%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 前夫方指蔡天凤与邝球独处后全是血",
-      "date_published": "2026-11-19T07:13:42Z"
+      "id": "hackernews:https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+      "title": "[Hacker News 热门] All AI-generated code should be Open Source",
+      "date_published": "2026-11-19T07:14:13Z"
     }
   ]
 }
