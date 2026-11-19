@@ -1,0 +1,163 @@
+{
+  "date": "2026-11-19T102944Z",
+  "day": "2026-11-19",
+  "sourceKey": "natureSkillsCommits",
+  "savedAt": "2026-11-19T10:29:44Z",
+  "label": "最近提交",
+  "description": "最近 15 条提交动态",
+  "updateFrequency": "daily",
+  "repo": "Yuan1z0825/nature-skills",
+  "latestSha": "9bd1d0823f564752f0dcc701f9bd3a0001fffdc5",
+  "items": [
+    {
+      "title": "Merge pull request #283 from lijiangsheng1/feat/academic-search-date-…",
+      "description": "Merge pull request #283 from lijiangsheng1/feat/academic-search-date-window\n\nfeat(nature-academic-search): add --date-from / --date-to to academic_search.py",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/9bd1d0823f564752f0dcc701f9bd3a0001fffdc5",
+      "sha": "9bd1d08",
+      "fullSha": "9bd1d0823f564752f0dcc701f9bd3a0001fffdc5",
+      "owner": "Yuan1z0825",
+      "published": "2026-11-19",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #289 from DrZoggg/fix/crossref-preprint-version-ha…",
+      "description": "Merge pull request #289 from DrZoggg/fix/crossref-preprint-version-handoff-20261105\n\nfix(nature-academic-search): preserve Crossref preprint version links",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/73ebc13712928caec77891eb10e4329e61a129bc",
+      "sha": "73ebc13",
+      "fullSha": "73ebc13712928caec77891eb10e4329e61a129bc",
+      "owner": "Yuan1z0825",
+      "published": "2026-11-19",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #288 from DrZoggg/fix/pubmed-pmc-reading-route-202…",
+      "description": "Merge pull request #288 from DrZoggg/fix/pubmed-pmc-reading-route-20261105\n\nfix(nature-academic-search): preserve explicit PMC reading routes",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/b6559d0ac3d74ca53b191189449aa7441f9409e3",
+      "sha": "b6559d0",
+      "fullSha": "b6559d0ac3d74ca53b191189449aa7441f9409e3",
+      "owner": "Yuan1z0825",
+      "published": "2026-11-19",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #290 from DrZoggg/geo/openalex-work-bylines-g288",
+      "description": "Merge pull request #290 from DrZoggg/geo/openalex-work-bylines-g288\n\nPreserve work-specific OpenAlex bylines in search results",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/cb53f057fb11ddf93d8948671f594ed792d46477",
+      "sha": "cb53f05",
+      "fullSha": "cb53f057fb11ddf93d8948671f594ed792d46477",
+      "owner": "Yuan1z0825",
+      "published": "2026-11-19",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #291 from subhansh-dev/fix/windows-utf8-cli-output",
+      "description": "Merge pull request #291 from subhansh-dev/fix/windows-utf8-cli-output\n\nfix: emit CLI JSON as UTF-8 on Windows consoles",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/e97ba509b8cb7d339bd6e4a035cf85ceb82152e3",
+      "sha": "e97ba50",
+      "fullSha": "e97ba509b8cb7d339bd6e4a035cf85ceb82152e3",
+      "owner": "Yuan1z0825",
+      "published": "2026-11-19",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #292 from subhansh-dev/fix/nature-figure-ggsave-de…",
+      "description": "Merge pull request #292 from subhansh-dev/fix/nature-figure-ggsave-device-validation\n\nfix(nature-figure): accept ggsave(device = ...) in editable-text check",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c9d9f437f2bc84ba9591206456a7cdf2ef452d1e",
+      "sha": "c9d9f43",
+      "fullSha": "c9d9f437f2bc84ba9591206456a7cdf2ef452d1e",
+      "owner": "Yuan1z0825",
+      "published": "2026-11-19",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #294 from subhansh-dev/feat/pdf-character-spacing-…",
+      "description": "Merge pull request #294 from subhansh-dev/feat/pdf-character-spacing-audit\n\nfeat(nature-figure): audit non-zero PDF character and word spacing",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/41db96189f1f8aa4b4281719b31c4ba07aa13959",
+      "sha": "41db961",
+      "fullSha": "41db96189f1f8aa4b4281719b31c4ba07aa13959",
+      "owner": "Yuan1z0825",
+      "published": "2026-11-19",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #295 from ls-open/docs/paper2word-format-flag-and-…",
+      "description": "Merge pull request #295 from ls-open/docs/paper2word-format-flag-and-base-template\n\ndocs(nature-paper2word): use `-f` for the format file, add the school-template path",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/210ffb9ef1a0f2499441d50ad58880d62d40574a",
+      "sha": "210ffb9",
+      "fullSha": "210ffb9ef1a0f2499441d50ad58880d62d40574a",
+      "owner": "Yuan1z0825",
+      "published": "2026-11-19",
+      "label": "commit"
+    },
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/1d1b9dd00a9e5fde1fdc0e15b03919d9c256cfc4",
+      "sha": "1d1b9dd",
+      "fullSha": "1d1b9dd00a9e5fde1fdc0e15b03919d9c256cfc4",
+      "owner": "github-actions",
+      "published": "2026-11-19",
+      "label": "commit"
+    },
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/14ca69710cae192325395a380e9cdd4ae5d9d0c8",
+      "sha": "14ca697",
+      "fullSha": "14ca69710cae192325395a380e9cdd4ae5d9d0c8",
+      "owner": "github-actions",
+      "published": "2026-11-16",
+      "label": "commit"
+    },
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/7bff1d0539c0dfad6c30178bb93ce6dd8a5cebf8",
+      "sha": "7bff1d0",
+      "fullSha": "7bff1d0539c0dfad6c30178bb93ce6dd8a5cebf8",
+      "owner": "github-actions",
+      "published": "2026-11-13",
+      "label": "commit"
+    },
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/a1a8220366e82ecd8584ea3d7f46cb3969f4b018",
+      "sha": "a1a8220",
+      "fullSha": "a1a8220366e82ecd8584ea3d7f46cb3969f4b018",
+      "owner": "github-actions",
+      "published": "2026-11-10",
+      "label": "commit"
+    },
+    {
+      "title": "docs(nature-paper2word): 用 `-f` 取格式文件，补上保留学校模板的用法",
+      "description": "docs(nature-paper2word): 用 `-f` 取格式文件，补上保留学校模板的用法\n\n`-r` 是旧写法，引擎里已经改名 `-f`，只留兼容：`--help` 里不列，一用就往 stderr 打一行\n弃用提示。这份 skill 里四处仍写着 `-r`，照着做的 Agent 会让用户一直用旧参数。\n\n另外补两件引擎现在有、这里没写的事：\n\n- 场景表加一行「学位论文用学校自己的 .docx」：`--base-template` 把正文灌进去，封面和前置件\n  原样保留，切点用 `--keep-until` 选、不能越过目录。验不过就不产出文件。\n- 顶部加一条能力自检 `md-to-word --help | grep -- --base-template`，按能力判断而不是按版本号。\n\n只动 SKILL.md，不碰 references/。",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/8ff576e010afc416510065cc9c80e85aa56dccd9",
+      "sha": "8ff576e",
+      "fullSha": "8ff576e010afc416510065cc9c80e85aa56dccd9",
+      "owner": "ls-wq",
+      "published": "2026-11-08",
+      "label": "commit"
+    },
+    {
+      "title": "feat(nature-figure): audit non-zero PDF character and word spacing",
+      "description": "feat(nature-figure): audit non-zero PDF character and word spacing",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c7649cda8dbc44801760c59281b18b803520e8b3",
+      "sha": "c7649cd",
+      "fullSha": "c7649cda8dbc44801760c59281b18b803520e8b3",
+      "owner": "subhansh-dev",
+      "published": "2026-11-07",
+      "label": "commit"
+    },
+    {
+      "title": "fix(nature-figure): accept ggsave(device = ...) in editable-text check",
+      "description": "fix(nature-figure): accept ggsave(device = ...) in editable-text check",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c98791b7d624128bed87c8c2f982f43813de0f7c",
+      "sha": "c98791b",
+      "fullSha": "c98791b7d624128bed87c8c2f982f43813de0f7c",
+      "owner": "subhansh-dev",
+      "published": "2026-11-07",
+      "label": "commit"
+    }
+  ]
+}
