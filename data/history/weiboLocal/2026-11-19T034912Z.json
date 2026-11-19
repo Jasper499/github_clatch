@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-19T034912Z",
+  "day": "2026-11-19",
+  "sourceKey": "weiboLocal",
+  "savedAt": "2026-11-19T03:49:12Z",
+  "label": "同城",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-19，共 2 条，约每 6 小时更新）",
+  "updateFrequency": "every-6h",
+  "fetchedDate": "2026-11-19",
+  "items": [
+    {
+      "title": "妈妈呼喊女儿被骂不准外地人随便叫",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A6%88%E5%A6%88%E5%91%BC%E5%96%8A%E5%A5%B3%E5%84%BF%E8%A2%AB%E9%AA%82%E4%B8%8D%E5%87%86%E5%A4%96%E5%9C%B0%E4%BA%BA%E9%9A%8F%E4%BE%BF%E5%8F%AB%23&t=31&band_rank=1&Refer=top",
+      "score": 516898,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1795047320
+    },
+    {
+      "title": "白宫发布特朗普访华视频",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E5%AE%AB%E5%8F%91%E5%B8%83%E7%89%B9%E6%9C%97%E6%99%AE%E8%AE%BF%E5%8D%8E%E8%A7%86%E9%A2%91%23&t=31&band_rank=1&Refer=top",
+      "score": 514994,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1795053319
+    }
+  ]
+}

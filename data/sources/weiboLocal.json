@@ -1,70 +1,30 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-11-18T20:23:56Z",
+  "savedAt": "2026-11-19T03:49:12Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-18，共 6 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-19，共 2 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
-  "fetchedDate": "2026-11-18",
+  "fetchedDate": "2026-11-19",
   "items": [
     {
-      "title": "深圳倡议发布",
+      "title": "妈妈呼喊女儿被骂不准外地人随便叫",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B7%B1%E5%9C%B3%E5%80%A1%E8%AE%AE%E5%8F%91%E5%B8%83%23&t=31&band_rank=1&Refer=top",
-      "score": 60664,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A6%88%E5%A6%88%E5%91%BC%E5%96%8A%E5%A5%B3%E5%84%BF%E8%A2%AB%E9%AA%82%E4%B8%8D%E5%87%86%E5%A4%96%E5%9C%B0%E4%BA%BA%E9%9A%8F%E4%BE%BF%E5%8F%AB%23&t=31&band_rank=1&Refer=top",
+      "score": 516898,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1795002201
+      "onboardTime": 1795047320
     },
     {
-      "title": "情侣鼓楼偶遇大爷拍出人生照片",
+      "title": "白宫发布特朗普访华视频",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%83%85%E4%BE%A3%E9%BC%93%E6%A5%BC%E5%81%B6%E9%81%87%E5%A4%A7%E7%88%B7%E6%8B%8D%E5%87%BA%E4%BA%BA%E7%94%9F%E7%85%A7%E7%89%87%23&t=31&band_rank=1&Refer=top",
-      "score": 35025,
+      "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E5%AE%AB%E5%8F%91%E5%B8%83%E7%89%B9%E6%9C%97%E6%99%AE%E8%AE%BF%E5%8D%8E%E8%A7%86%E9%A2%91%23&t=31&band_rank=1&Refer=top",
+      "score": 514994,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1795018939
-    },
-    {
-      "title": "老外被中国刷手机丝滑到了",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%80%81%E5%A4%96%E8%A2%AB%E4%B8%AD%E5%9B%BD%E5%88%B7%E6%89%8B%E6%9C%BA%E4%B8%9D%E6%BB%91%E5%88%B0%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "score": 34704,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1795012402
-    },
-    {
-      "title": "陌生男扔加冰可乐砸女子脸后逃跑",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%99%8C%E7%94%9F%E7%94%B7%E6%89%94%E5%8A%A0%E5%86%B0%E5%8F%AF%E4%B9%90%E7%A0%B8%E5%A5%B3%E5%AD%90%E8%84%B8%E5%90%8E%E9%80%83%E8%B7%91%23&t=31&band_rank=1&Refer=top",
-      "score": 34640,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1795026795
-    },
-    {
-      "title": "姥爷网购3万斤薯条喂猪比玉米划算",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A7%A5%E7%88%B7%E7%BD%91%E8%B4%AD3%E4%B8%87%E6%96%A4%E8%96%AF%E6%9D%A1%E5%96%82%E7%8C%AA%E6%AF%94%E7%8E%89%E7%B1%B3%E5%88%92%E7%AE%97%23&t=31&band_rank=1&Refer=top",
-      "score": 32313,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1795020677
-    },
-    {
-      "title": "售楼处回应男子把泳池当平地迈入",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%94%AE%E6%A5%BC%E5%A4%84%E5%9B%9E%E5%BA%94%E7%94%B7%E5%AD%90%E6%8A%8A%E6%B3%B3%E6%B1%A0%E5%BD%93%E5%B9%B3%E5%9C%B0%E8%BF%88%E5%85%A5%23&t=31&band_rank=1&Refer=top",
-      "score": 32279,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1795013841
+      "onboardTime": 1795053319
     }
   ]
 }
