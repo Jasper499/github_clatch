@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-19T202742Z",
+  "day": "2026-11-19",
+  "sourceKey": "weiboLocal",
+  "savedAt": "2026-11-19T20:27:42Z",
+  "label": "同城",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-19，共 5 条，约每 6 小时更新）",
+  "updateFrequency": "every-6h",
+  "fetchedDate": "2026-11-19",
+  "items": [
+    {
+      "title": "APEC晚宴用荔枝酒已限购",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23APEC%E6%99%9A%E5%AE%B4%E7%94%A8%E8%8D%94%E6%9E%9D%E9%85%92%E5%B7%B2%E9%99%90%E8%B4%AD%23&t=31&band_rank=1&Refer=top",
+      "score": 44485,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1795099941
+    },
+    {
+      "title": "20多天婴儿被喂白开水中毒肾损伤",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%2320%E5%A4%9A%E5%A4%A9%E5%A9%B4%E5%84%BF%E8%A2%AB%E5%96%82%E7%99%BD%E5%BC%80%E6%B0%B4%E4%B8%AD%E6%AF%92%E8%82%BE%E6%8D%9F%E4%BC%A4%23&t=31&band_rank=1&Refer=top",
+      "score": 44040,
+      "owner": "微博同城",
+      "label": "热",
+      "category": "民生新闻",
+      "onboardTime": 1795090401
+    },
+    {
+      "title": "优先招35岁以上员工餐厅停业",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BC%98%E5%85%88%E6%8B%9B35%E5%B2%81%E4%BB%A5%E4%B8%8A%E5%91%98%E5%B7%A5%E9%A4%90%E5%8E%85%E5%81%9C%E4%B8%9A%23&t=31&band_rank=1&Refer=top",
+      "score": 36621,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1795100242
+    },
+    {
+      "title": "APEC晚宴用荔枝冰酒销量暴增900倍",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23APEC%E6%99%9A%E5%AE%B4%E7%94%A8%E8%8D%94%E6%9E%9D%E5%86%B0%E9%85%92%E9%94%80%E9%87%8F%E6%9A%B4%E5%A2%9E900%E5%80%8D%23&t=31&band_rank=1&Refer=top",
+      "score": 35830,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1795085152
+    },
+    {
+      "title": "华强北长满了外国人",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8D%8E%E5%BC%BA%E5%8C%97%E9%95%BF%E6%BB%A1%E4%BA%86%E5%A4%96%E5%9B%BD%E4%BA%BA%23&t=31&band_rank=1&Refer=top",
+      "score": 35814,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1795116854
+    }
+  ]
+}
