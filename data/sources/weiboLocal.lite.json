@@ -1,50 +1,50 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-11-19T07:13:42Z",
+  "savedAt": "2026-11-19T13:51:06Z",
   "label": "同城",
   "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-19，共 4 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-11-19",
   "items": [
     {
-      "title": "马斯克小儿子玩具都是中国制造",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%A9%AC%E6%96%AF%E5%85%8B%E5%B0%8F%E5%84%BF%E5%AD%90%E7%8E%A9%E5%85%B7%E9%83%BD%E6%98%AF%E4%B8%AD%E5%9B%BD%E5%88%B6%E9%80%A0%23&t=31&band_rank=1&Refer=top",
-      "score": 1082586,
+      "title": "APEC晚宴用荔枝冰酒销量暴增900倍",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23APEC%E6%99%9A%E5%AE%B4%E7%94%A8%E8%8D%94%E6%9E%9D%E5%86%B0%E9%85%92%E9%94%80%E9%87%8F%E6%9A%B4%E5%A2%9E900%E5%80%8D%23&t=31&band_rank=1&Refer=top",
+      "score": 1052742,
       "owner": "微博同城",
-      "label": "新",
+      "label": "",
       "category": "民生新闻",
-      "onboardTime": 1795068080
+      "onboardTime": 1795085152
     },
     {
       "title": "胖东来撤走后降到四百万依然没有人接盘",
       "description": "热 · 民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E8%83%96%E4%B8%9C%E6%9D%A5%E6%92%A4%E8%B5%B0%E5%90%8E%E9%99%8D%E5%88%B0%E5%9B%9B%E7%99%BE%E4%B8%87%E4%BE%9D%E7%84%B6%E6%B2%A1%E6%9C%89%E4%BA%BA%E6%8E%A5%E7%9B%98%23&t=31&band_rank=1&Refer=top",
-      "score": 410789,
+      "score": 708088,
       "owner": "微博同城",
       "label": "热",
       "category": "民生新闻",
       "onboardTime": 1795060821
     },
     {
-      "title": "养老保险最低缴费年限上调",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%E5%85%BB%E8%80%81%E4%BF%9D%E9%99%A9%E6%9C%80%E4%BD%8E%E7%BC%B4%E8%B4%B9%E5%B9%B4%E9%99%90%E4%B8%8A%E8%B0%83&t=31&band_rank=1&Refer=top",
-      "score": 231023,
+      "title": "20多天婴儿被喂白开水中毒肾损伤",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%2320%E5%A4%9A%E5%A4%A9%E5%A9%B4%E5%84%BF%E8%A2%AB%E5%96%82%E7%99%BD%E5%BC%80%E6%B0%B4%E4%B8%AD%E6%AF%92%E8%82%BE%E6%8D%9F%E4%BC%A4%23&t=31&band_rank=1&Refer=top",
+      "score": 527283,
       "owner": "微博同城",
-      "label": "",
+      "label": "热",
       "category": "民生新闻",
-      "onboardTime": 1795066881
+      "onboardTime": 1795090401
     },
     {
-      "title": "前夫方指蔡天凤与邝球独处后全是血",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%89%8D%E5%A4%AB%E6%96%B9%E6%8C%87%E8%94%A1%E5%A4%A9%E5%87%A4%E4%B8%8E%E9%82%9D%E7%90%83%E7%8B%AC%E5%A4%84%E5%90%8E%E5%85%A8%E6%98%AF%E8%A1%80%23&t=31&band_rank=1&Refer=top",
-      "score": 227274,
+      "title": "被赞长沙胖东来餐厅一年亏100多万",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%A2%AB%E8%B5%9E%E9%95%BF%E6%B2%99%E8%83%96%E4%B8%9C%E6%9D%A5%E9%A4%90%E5%8E%85%E4%B8%80%E5%B9%B4%E4%BA%8F100%E5%A4%9A%E4%B8%87%23&t=31&band_rank=1&Refer=top",
+      "score": 178851,
       "owner": "微博同城",
-      "label": "",
+      "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1795071680
+      "onboardTime": 1795094542
     }
   ]
 }
