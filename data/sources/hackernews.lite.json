@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-11-19T07:14:13Z",
+  "savedAt": "2026-11-19T10:01:18Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-11-19，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -11,7 +11,7 @@
       "description": "<a href=\"https:&#x2F;&#x2F;nvidianews.nvidia.com&#x2F;news&#x2F;nvidia-announces-ceo-transition\" rel=\"nofollow\">https:&#x2F;&#x2F;nvidianews.nvidia.com&#x2F;news&#x2F;nvidia-announces-ceo-tran...</a><p><a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;retail-consumer&#x2F;nvidia-ceo-jensen-huang-step-down-big-blow-ai-boom-2026-11-12&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;retail-consumer&#x2F;nvidia-ceo-...</a>, <a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;live&#x2F;nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;live&#x2F;nvidia-live-board-meets-fate-ce...</a><p><a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;live&#x2F;2026&#x2F;11&#x2F;12&#x2F;business&#x2F;nvidia-jensen-huang-resigns\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nytimes.com&#x2F;live&#x2F;2026&#x2F;11&#x2F;12&#x2F;business&#x2F;nvidia-jens...</a>",
       "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
       "score": 4059,
-      "comments": 3490,
+      "comments": 3491,
       "owner": "lldb",
       "published": "2026-11-12T13:52:29Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50467087"
@@ -20,8 +20,8 @@
       "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
       "description": "",
       "url": "https://www.cs.cmu.edu/learn/",
-      "score": 2357,
-      "comments": 328,
+      "score": 2359,
+      "comments": 329,
       "owner": "pcompeau",
       "published": "2026-11-16T20:43:36Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50522980"
@@ -31,7 +31,7 @@
       "description": "<a href=\"https:&#x2F;&#x2F;x.com&#x2F;SpaceX&#x2F;status&#x2F;2121316300702056595\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;SpaceX&#x2F;status&#x2F;2121316300702056595</a><p><a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;jHlpfNSpBmw?t=3233\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;jHlpfNSpBmw?t=3233</a>",
       "url": "https://www.spacex.com/launches/starship-flight-15",
       "score": 1759,
-      "comments": 1483,
+      "comments": 1487,
       "owner": "ls612",
       "published": "2026-11-14T21:22:24Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50500963"
@@ -47,6 +47,16 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50489641"
     },
     {
+      "title": "Unauthenticated remote code execution in Nginx",
+      "description": "<a href=\"https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123633\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123633</a><p><a href=\"https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123007\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123007</a>",
+      "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+      "score": 1376,
+      "comments": 594,
+      "owner": "speedping",
+      "published": "2026-11-18T15:19:55Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50547374"
+    },
+    {
       "title": "GPT‑6.2 Astra and Sol",
       "description": "",
       "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
@@ -60,21 +70,11 @@
       "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
       "description": "",
       "url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
-      "score": 1292,
+      "score": 1296,
       "comments": 643,
       "owner": "donohoe",
       "published": "2026-11-17T11:45:51Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50530163"
-    },
-    {
-      "title": "Unauthenticated remote code execution in Nginx",
-      "description": "<a href=\"https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123633\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123633</a><p><a href=\"https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123007\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123007</a>",
-      "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
-      "score": 1289,
-      "comments": 564,
-      "owner": "speedping",
-      "published": "2026-11-18T15:19:55Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50547374"
     },
     {
       "title": "All AI-generated code should be Open Source",
@@ -100,8 +100,8 @@
       "title": "Java4Shell: RCE in OpenJDK when processing Base64",
       "description": "",
       "url": "https://calif.io/java4shell/",
-      "score": 1162,
-      "comments": 323,
+      "score": 1167,
+      "comments": 326,
       "owner": "werrett",
       "published": "2026-11-17T21:11:28Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50538240"
@@ -141,7 +141,7 @@
       "description": "",
       "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
       "score": 968,
-      "comments": 555,
+      "comments": 556,
       "owner": "DeepLogin",
       "published": "2026-11-16T13:39:07Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50517488"
@@ -180,8 +180,8 @@
       "title": "Quad9's withdrawal from France: A canary in the coal mine",
       "description": "",
       "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
-      "score": 889,
-      "comments": 433,
+      "score": 894,
+      "comments": 437,
       "owner": "subset",
       "published": "2026-11-17T22:13:34Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50538994"
@@ -200,7 +200,7 @@
       "title": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
       "description": "",
       "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
-      "score": 834,
+      "score": 835,
       "comments": 711,
       "owner": "samk3nny",
       "published": "2026-11-16T18:31:30Z",
