@@ -1,50 +1,70 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-11-20T03:42:54Z",
+  "savedAt": "2026-11-20T07:01:10Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-20，共 4 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-20，共 6 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-11-20",
   "items": [
     {
-      "title": "同居生孩分手后男方起诉返还百万",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%90%8C%E5%B1%85%E7%94%9F%E5%AD%A9%E5%88%86%E6%89%8B%E5%90%8E%E7%94%B7%E6%96%B9%E8%B5%B7%E8%AF%89%E8%BF%94%E8%BF%98%E7%99%BE%E4%B8%87%23&t=31&band_rank=1&Refer=top",
-      "score": 267388,
+      "title": "12306迎来重大更新",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=12306%E8%BF%8E%E6%9D%A5%E9%87%8D%E5%A4%A7%E6%9B%B4%E6%96%B0&t=31&band_rank=1&Refer=top",
+      "score": 387795,
       "owner": "微博同城",
-      "label": "",
+      "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1795137920
+      "onboardTime": 1795155620
     },
     {
-      "title": "女儿蛋糕放钱妈妈当众塞给儿媳",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%84%BF%E8%9B%8B%E7%B3%95%E6%94%BE%E9%92%B1%E5%A6%88%E5%A6%88%E5%BD%93%E4%BC%97%E5%A1%9E%E7%BB%99%E5%84%BF%E5%AA%B3%23&t=31&band_rank=1&Refer=top",
-      "score": 250062,
+      "title": "零元面馆周边13家面馆称未拿到补偿",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%9B%B6%E5%85%83%E9%9D%A2%E9%A6%86%E5%91%A8%E8%BE%B913%E5%AE%B6%E9%9D%A2%E9%A6%86%E7%A7%B0%E6%9C%AA%E6%8B%BF%E5%88%B0%E8%A1%A5%E5%81%BF%23&t=31&band_rank=1&Refer=top",
+      "score": 381141,
       "owner": "微博同城",
-      "label": "",
+      "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1795137020
+      "onboardTime": 1795157059
     },
     {
-      "title": "女子打4份工养家月入3万多元",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E6%89%934%E4%BB%BD%E5%B7%A5%E5%85%BB%E5%AE%B6%E6%9C%88%E5%85%A53%E4%B8%87%E5%A4%9A%E5%85%83%23&t=31&band_rank=1&Refer=top",
-      "score": 164539,
+      "title": "10元快剪暴打设计总监",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%2310%E5%85%83%E5%BF%AB%E5%89%AA%E6%9A%B4%E6%89%93%E8%AE%BE%E8%AE%A1%E6%80%BB%E7%9B%91%23&t=31&band_rank=1&Refer=top",
+      "score": 380959,
       "owner": "微博同城",
-      "label": "",
+      "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1795137859
+      "onboardTime": 1795156939
     },
     {
-      "title": "儿子将满18岁消失17年的父亲来求赡养",
+      "title": "女友捂死3岁女儿生父回应冷血不哭",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%8F%8B%E6%8D%82%E6%AD%BB3%E5%B2%81%E5%A5%B3%E5%84%BF%E7%94%9F%E7%88%B6%E5%9B%9E%E5%BA%94%E5%86%B7%E8%A1%80%E4%B8%8D%E5%93%AD%23&t=31&band_rank=1&Refer=top",
+      "score": 318881,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1795155560
+    },
+    {
+      "title": "同居生孩分手男方一口气提8项诉求",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%90%8C%E5%B1%85%E7%94%9F%E5%AD%A9%E5%88%86%E6%89%8B%E7%94%B7%E6%96%B9%E4%B8%80%E5%8F%A3%E6%B0%94%E6%8F%908%E9%A1%B9%E8%AF%89%E6%B1%82%23&t=31&band_rank=1&Refer=top",
+      "score": 236432,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1795157901
+    },
+    {
+      "title": "妈妈回应女童胃里取出6斤头发",
       "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%84%BF%E5%AD%90%E5%B0%86%E6%BB%A118%E5%B2%81%E6%B6%88%E5%A4%B117%E5%B9%B4%E7%9A%84%E7%88%B6%E4%BA%B2%E6%9D%A5%E6%B1%82%E8%B5%A1%E5%85%BB%23&t=31&band_rank=1&Refer=top",
-      "score": 141044,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A6%88%E5%A6%88%E5%9B%9E%E5%BA%94%E5%A5%B3%E7%AB%A5%E8%83%83%E9%87%8C%E5%8F%96%E5%87%BA6%E6%96%A4%E5%A4%B4%E5%8F%91%23&t=31&band_rank=1&Refer=top",
+      "score": 208694,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
-      "onboardTime": 1795138759
+      "onboardTime": 1795145900
     }
   ]
 }
