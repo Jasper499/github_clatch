@@ -1,16 +1,16 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-11-19T22:00:30Z",
+  "savedAt": "2026-11-20T07:01:47Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-11-19，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-11-20，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-11-19",
+  "fetchedDate": "2026-11-20",
   "items": [
     {
       "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
       "description": "",
       "url": "https://www.cs.cmu.edu/learn/",
-      "score": 2365,
+      "score": 2372,
       "comments": 331,
       "owner": "pcompeau",
       "published": "2026-11-16T20:43:36Z",
@@ -20,8 +20,8 @@
       "title": "SpaceX catches the Starship to end Flight 15",
       "description": "<a href=\"https:&#x2F;&#x2F;x.com&#x2F;SpaceX&#x2F;status&#x2F;2121316300702056595\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;SpaceX&#x2F;status&#x2F;2121316300702056595</a><p><a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;jHlpfNSpBmw?t=3233\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;jHlpfNSpBmw?t=3233</a>",
       "url": "https://www.spacex.com/launches/starship-flight-15",
-      "score": 1761,
-      "comments": 1492,
+      "score": 1762,
+      "comments": 1494,
       "owner": "ls612",
       "published": "2026-11-14T21:22:24Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50500963"
@@ -40,8 +40,8 @@
       "title": "Unauthenticated remote code execution in Nginx",
       "description": "<a href=\"https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123633\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123633</a><p><a href=\"https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123007\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123007</a>",
       "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
-      "score": 1480,
-      "comments": 633,
+      "score": 1489,
+      "comments": 640,
       "owner": "speedping",
       "published": "2026-11-18T15:19:55Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50547374"
@@ -51,7 +51,7 @@
       "description": "",
       "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
       "score": 1345,
-      "comments": 860,
+      "comments": 861,
       "owner": "jasondavies",
       "published": "2026-11-17T17:46:43Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50535230"
@@ -61,7 +61,7 @@
       "description": "",
       "url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
       "score": 1300,
-      "comments": 644,
+      "comments": 645,
       "owner": "donohoe",
       "published": "2026-11-17T11:45:51Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50530163"
@@ -71,7 +71,7 @@
       "description": "",
       "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
       "score": 1285,
-      "comments": 672,
+      "comments": 673,
       "owner": "jcubic",
       "published": "2026-11-15T14:46:58Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50507303"
@@ -80,8 +80,8 @@
       "title": "Java4Shell: RCE in OpenJDK when processing Base64",
       "description": "",
       "url": "https://calif.io/java4shell/",
-      "score": 1176,
-      "comments": 328,
+      "score": 1178,
+      "comments": 329,
       "owner": "werrett",
       "published": "2026-11-17T21:11:28Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50538240"
@@ -91,10 +91,30 @@
       "description": "",
       "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
       "score": 1114,
-      "comments": 650,
+      "comments": 651,
       "owner": "speckx",
       "published": "2026-11-14T02:52:59Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50493251"
+    },
+    {
+      "title": "Anthropic’s Nasdaq debut",
+      "description": "",
+      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+      "score": 1043,
+      "comments": 2060,
+      "owner": "wslh",
+      "published": "2026-11-19T17:02:40Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50562754"
+    },
+    {
+      "title": "Gemini 4 Neon",
+      "description": "",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "score": 1030,
+      "comments": 764,
+      "owner": "yigitdemirag",
+      "published": "2026-11-18T21:34:07Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50552424"
     },
     {
       "title": "Lovable apps expose passport details and more than 200K private messages",
@@ -107,20 +127,10 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50499017"
     },
     {
-      "title": "Gemini 4 Neon",
-      "description": "",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
-      "score": 1003,
-      "comments": 752,
-      "owner": "yigitdemirag",
-      "published": "2026-11-18T21:34:07Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50552424"
-    },
-    {
       "title": "Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savings",
       "description": "",
       "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
-      "score": 969,
+      "score": 970,
       "comments": 556,
       "owner": "DeepLogin",
       "published": "2026-11-16T13:39:07Z",
@@ -130,7 +140,7 @@
       "title": "LibreOffice actually works 365 days a year",
       "description": "",
       "url": "https://twitter.com/LibreOffice/status/2121205272479998268",
-      "score": 959,
+      "score": 960,
       "comments": 294,
       "owner": "mksaunders2",
       "published": "2026-11-13T17:09:58Z",
@@ -140,7 +150,7 @@
       "title": "How to make almost anything",
       "description": "",
       "url": "https://pub.cba.mit.edu/863.26/site/",
-      "score": 916,
+      "score": 918,
       "comments": 149,
       "owner": "o4c",
       "published": "2026-11-16T05:50:37Z",
@@ -150,8 +160,8 @@
       "title": "Quad9's withdrawal from France: A canary in the coal mine",
       "description": "",
       "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
-      "score": 902,
-      "comments": 454,
+      "score": 904,
+      "comments": 455,
       "owner": "subset",
       "published": "2026-11-17T22:13:34Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50538994"
@@ -177,31 +187,21 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50521045"
     },
     {
-      "title": "Nvidia employees petition to bring back Jensen Huang",
+      "title": "Garage Door Spam",
       "description": "",
-      "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
-      "score": 820,
-      "comments": 698,
-      "owner": "lavendermon",
-      "published": "2026-11-13T02:16:24Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50477231"
-    },
-    {
-      "title": "Reverse engineering my Coway air purifier to ditch the cloud",
-      "description": "",
-      "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
-      "score": 804,
-      "comments": 225,
-      "owner": "scottjg",
-      "published": "2026-11-12T22:03:09Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50474959"
+      "url": "https://blog.harrison.page/garage-door-spam/",
+      "score": 827,
+      "comments": 347,
+      "owner": "harrisonpage",
+      "published": "2026-11-16T16:13:36Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50519231"
     },
     {
       "title": "AI is killing All About Berlin",
       "description": "",
       "url": "https://nicolasbouliane.com/blog/death-by-ai",
-      "score": 801,
-      "comments": 709,
+      "score": 806,
+      "comments": 710,
       "owner": "grey-area",
       "published": "2026-11-18T06:47:26Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50542705"
