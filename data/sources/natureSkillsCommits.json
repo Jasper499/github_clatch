@@ -1,12 +1,32 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-11-19T22:17:20Z",
+  "savedAt": "2026-11-20T09:50:56Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "9bd1d0823f564752f0dcc701f9bd3a0001fffdc5",
+  "latestSha": "a65a8364b419e05f7d8d5d96842a1ff7e544b1bb",
   "items": [
+    {
+      "title": "Update README_EN.md",
+      "description": "Update README_EN.md",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/a65a8364b419e05f7d8d5d96842a1ff7e544b1bb",
+      "sha": "a65a836",
+      "fullSha": "a65a8364b419e05f7d8d5d96842a1ff7e544b1bb",
+      "owner": "Yuan1z0825",
+      "published": "2026-11-20",
+      "label": "commit"
+    },
+    {
+      "title": "Update README.md",
+      "description": "Update README.md",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/de4a7838ccdc0439562b731b2b328d69bae86db0",
+      "sha": "de4a783",
+      "fullSha": "de4a7838ccdc0439562b731b2b328d69bae86db0",
+      "owner": "Yuan1z0825",
+      "published": "2026-11-20",
+      "label": "commit"
+    },
     {
       "title": "Merge pull request #283 from lijiangsheng1/feat/academic-search-date-…",
       "description": "Merge pull request #283 from lijiangsheng1/feat/academic-search-date-window\n\nfeat(nature-academic-search): add --date-from / --date-to to academic_search.py",
@@ -135,26 +155,6 @@
       "fullSha": "8ff576e010afc416510065cc9c80e85aa56dccd9",
       "owner": "ls-wq",
       "published": "2026-11-08",
-      "label": "commit"
-    },
-    {
-      "title": "feat(nature-figure): audit non-zero PDF character and word spacing",
-      "description": "feat(nature-figure): audit non-zero PDF character and word spacing",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c7649cda8dbc44801760c59281b18b803520e8b3",
-      "sha": "c7649cd",
-      "fullSha": "c7649cda8dbc44801760c59281b18b803520e8b3",
-      "owner": "subhansh-dev",
-      "published": "2026-11-07",
-      "label": "commit"
-    },
-    {
-      "title": "fix(nature-figure): accept ggsave(device = ...) in editable-text check",
-      "description": "fix(nature-figure): accept ggsave(device = ...) in editable-text check",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c98791b7d624128bed87c8c2f982f43813de0f7c",
-      "sha": "c98791b",
-      "fullSha": "c98791b7d624128bed87c8c2f982f43813de0f7c",
-      "owner": "subhansh-dev",
-      "published": "2026-11-07",
       "label": "commit"
     }
   ]
