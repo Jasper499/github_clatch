@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-11-21T19:06:15Z",
+  "savedAt": "2026-11-21T20:24:42Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-11-21，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,8 +10,8 @@
       "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
       "description": "Related: <i>Hurried Announcement: Alessandro Masullo GRH</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50579568\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50579568</a>",
       "url": "https://alpo.ge/remark.pdf",
-      "score": 2825,
-      "comments": 1996,
+      "score": 2841,
+      "comments": 2014,
       "owner": "iamronaldo",
       "published": "2026-11-20T14:16:21Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50574968"
@@ -30,8 +30,8 @@
       "title": "Hurried Announcement: Alessandro Masullo GRH",
       "description": "Related: <i>Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50574968\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50574968</a>",
       "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
-      "score": 2326,
-      "comments": 1118,
+      "score": 2341,
+      "comments": 1125,
       "owner": "jasondavies",
       "published": "2026-11-20T18:33:14Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50579568"
@@ -77,6 +77,16 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50530163"
     },
     {
+      "title": "Inkling 2 Mini",
+      "description": "",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "score": 1303,
+      "comments": 268,
+      "owner": "jasondavies",
+      "published": "2026-11-20T20:12:19Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50581260"
+    },
+    {
       "title": "All AI-generated code should be Open Source",
       "description": "",
       "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
@@ -85,16 +95,6 @@
       "owner": "jcubic",
       "published": "2026-11-15T14:46:58Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50507303"
-    },
-    {
-      "title": "Inkling 2 Mini",
-      "description": "",
-      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
-      "score": 1268,
-      "comments": 256,
-      "owner": "jasondavies",
-      "published": "2026-11-20T20:12:19Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50581260"
     },
     {
       "title": "Java4Shell: RCE in OpenJDK when processing Base64",
@@ -110,8 +110,8 @@
       "title": "Anthropic’s Nasdaq debut",
       "description": "",
       "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
-      "score": 1137,
-      "comments": 2316,
+      "score": 1138,
+      "comments": 2317,
       "owner": "wslh",
       "published": "2026-11-19T17:02:40Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50562754"
@@ -120,7 +120,7 @@
       "title": "Gemini 4 Neon",
       "description": "",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
-      "score": 1057,
+      "score": 1058,
       "comments": 775,
       "owner": "yigitdemirag",
       "published": "2026-11-18T21:34:07Z",
@@ -150,7 +150,7 @@
       "title": "Garage Door Spam",
       "description": "",
       "url": "https://blog.harrison.page/garage-door-spam/",
-      "score": 917,
+      "score": 918,
       "comments": 401,
       "owner": "harrisonpage",
       "published": "2026-11-16T16:13:36Z",
@@ -201,7 +201,7 @@
       "description": "",
       "url": "https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/",
       "score": 831,
-      "comments": 419,
+      "comments": 420,
       "owner": "ExMachina73",
       "published": "2026-11-18T23:53:49Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50554045"
