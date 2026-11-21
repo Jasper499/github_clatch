@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-11-21T06:56:26Z",
+  "savedAt": "2026-11-21T09:24:48Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-11-21，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,8 +10,8 @@
       "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
       "description": "Related: <i>Hurried Announcement: Alessandro Masullo GRH</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50579568\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50579568</a>",
       "url": "https://alpo.ge/remark.pdf",
-      "score": 2522,
-      "comments": 1742,
+      "score": 2613,
+      "comments": 1795,
       "owner": "iamronaldo",
       "published": "2026-11-20T14:16:21Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50574968"
@@ -30,8 +30,8 @@
       "title": "Hurried Announcement: Alessandro Masullo GRH",
       "description": "Related: <i>Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50574968\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50574968</a>",
       "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
-      "score": 1865,
-      "comments": 860,
+      "score": 2017,
+      "comments": 931,
       "owner": "jasondavies",
       "published": "2026-11-20T18:33:14Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50579568"
@@ -101,7 +101,7 @@
       "description": "",
       "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
       "score": 1133,
-      "comments": 2301,
+      "comments": 2299,
       "owner": "wslh",
       "published": "2026-11-19T17:02:40Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50562754"
@@ -110,8 +110,8 @@
       "title": "Gemini 4 Neon",
       "description": "",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
-      "score": 1053,
-      "comments": 776,
+      "score": 1054,
+      "comments": 775,
       "owner": "yigitdemirag",
       "published": "2026-11-18T21:34:07Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50552424"
@@ -137,6 +137,16 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50517488"
     },
     {
+      "title": "Inkling 2 Mini",
+      "description": "",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "score": 960,
+      "comments": 178,
+      "owner": "jasondavies",
+      "published": "2026-11-20T20:12:19Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50581260"
+    },
+    {
       "title": "How to make almost anything",
       "description": "",
       "url": "https://pub.cba.mit.edu/863.26/site/",
@@ -150,8 +160,8 @@
       "title": "Garage Door Spam",
       "description": "",
       "url": "https://blog.harrison.page/garage-door-spam/",
-      "score": 914,
-      "comments": 397,
+      "score": 915,
+      "comments": 398,
       "owner": "harrisonpage",
       "published": "2026-11-16T16:13:36Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50519231"
@@ -167,16 +177,6 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50538994"
     },
     {
-      "title": "Inkling 2 Mini",
-      "description": "",
-      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
-      "score": 889,
-      "comments": 164,
-      "owner": "jasondavies",
-      "published": "2026-11-20T20:12:19Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50581260"
-    },
-    {
       "title": "Qwen4-Max",
       "description": "",
       "url": "https://qwen.ai/blog?id=qwen4-max",
@@ -190,8 +190,8 @@
       "title": "Pancreatic cancer halted by virus injection in three patients",
       "description": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;2Et0x\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;2Et0x</a><p><a href=\"https:&#x2F;&#x2F;clinicaltrials.gov&#x2F;study&#x2F;NCT06693986\" rel=\"nofollow\">https:&#x2F;&#x2F;clinicaltrials.gov&#x2F;study&#x2F;NCT06693986</a>",
       "url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
-      "score": 876,
-      "comments": 154,
+      "score": 878,
+      "comments": 156,
       "owner": "cybermango",
       "published": "2026-11-19T17:25:33Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50563066"
