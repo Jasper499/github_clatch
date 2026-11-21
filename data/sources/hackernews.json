@@ -1,11 +1,21 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-11-20T21:43:27Z",
+  "savedAt": "2026-11-21T06:56:26Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-11-20，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-11-21，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-11-20",
+  "fetchedDate": "2026-11-21",
   "items": [
+    {
+      "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
+      "description": "Related: <i>Hurried Announcement: Alessandro Masullo GRH</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50579568\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50579568</a>",
+      "url": "https://alpo.ge/remark.pdf",
+      "score": 2522,
+      "comments": 1742,
+      "owner": "iamronaldo",
+      "published": "2026-11-20T14:16:21Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50574968"
+    },
     {
       "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
       "description": "",
@@ -17,14 +27,14 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50522980"
     },
     {
-      "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
-      "description": "",
-      "url": "https://alpo.ge/remark.pdf",
-      "score": 2112,
-      "comments": 1436,
-      "owner": "iamronaldo",
-      "published": "2026-11-20T14:16:21Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50574968"
+      "title": "Hurried Announcement: Alessandro Masullo GRH",
+      "description": "Related: <i>Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50574968\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50574968</a>",
+      "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+      "score": 1865,
+      "comments": 860,
+      "owner": "jasondavies",
+      "published": "2026-11-20T18:33:14Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50579568"
     },
     {
       "title": "SpaceX catches the Starship to end Flight 15",
@@ -40,7 +50,7 @@
       "title": "Unauthenticated remote code execution in Nginx",
       "description": "<a href=\"https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123633\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123633</a><p><a href=\"https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123007\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123007</a>",
       "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
-      "score": 1507,
+      "score": 1511,
       "comments": 641,
       "owner": "speedping",
       "published": "2026-11-18T15:19:55Z",
@@ -51,7 +61,7 @@
       "description": "",
       "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
       "score": 1346,
-      "comments": 863,
+      "comments": 864,
       "owner": "jasondavies",
       "published": "2026-11-17T17:46:43Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50535230"
@@ -60,8 +70,8 @@
       "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
       "description": "",
       "url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
-      "score": 1306,
-      "comments": 647,
+      "score": 1307,
+      "comments": 648,
       "owner": "donohoe",
       "published": "2026-11-17T11:45:51Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50530163"
@@ -90,48 +100,28 @@
       "title": "Anthropic’s Nasdaq debut",
       "description": "",
       "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
-      "score": 1127,
-      "comments": 2281,
+      "score": 1133,
+      "comments": 2301,
       "owner": "wslh",
       "published": "2026-11-19T17:02:40Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50562754"
     },
     {
-      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
-      "description": "",
-      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-      "score": 1115,
-      "comments": 651,
-      "owner": "speckx",
-      "published": "2026-11-14T02:52:59Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50493251"
-    },
-    {
       "title": "Gemini 4 Neon",
       "description": "",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
-      "score": 1047,
+      "score": 1053,
       "comments": 776,
       "owner": "yigitdemirag",
       "published": "2026-11-18T21:34:07Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50552424"
     },
     {
-      "title": "Hurried Announcement: Alessandro Masullo GRH",
-      "description": "",
-      "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
-      "score": 1013,
-      "comments": 474,
-      "owner": "jasondavies",
-      "published": "2026-11-20T18:33:14Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50579568"
-    },
-    {
       "title": "Lovable apps expose passport details and more than 200K private messages",
       "description": "",
       "url": "https://www.crissyfield.de/research/lovable-en/",
       "score": 1009,
-      "comments": 384,
+      "comments": 385,
       "owner": "armcat",
       "published": "2026-11-14T17:43:10Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50499017"
@@ -160,8 +150,8 @@
       "title": "Garage Door Spam",
       "description": "",
       "url": "https://blog.harrison.page/garage-door-spam/",
-      "score": 909,
-      "comments": 391,
+      "score": 914,
+      "comments": 397,
       "owner": "harrisonpage",
       "published": "2026-11-16T16:13:36Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50519231"
@@ -177,6 +167,16 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50538994"
     },
     {
+      "title": "Inkling 2 Mini",
+      "description": "",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "score": 889,
+      "comments": 164,
+      "owner": "jasondavies",
+      "published": "2026-11-20T20:12:19Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50581260"
+    },
+    {
       "title": "Qwen4-Max",
       "description": "",
       "url": "https://qwen.ai/blog?id=qwen4-max",
@@ -190,8 +190,8 @@
       "title": "Pancreatic cancer halted by virus injection in three patients",
       "description": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;2Et0x\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;2Et0x</a><p><a href=\"https:&#x2F;&#x2F;clinicaltrials.gov&#x2F;study&#x2F;NCT06693986\" rel=\"nofollow\">https:&#x2F;&#x2F;clinicaltrials.gov&#x2F;study&#x2F;NCT06693986</a>",
       "url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
-      "score": 868,
-      "comments": 153,
+      "score": 876,
+      "comments": 154,
       "owner": "cybermango",
       "published": "2026-11-19T17:25:33Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50563066"
@@ -200,7 +200,7 @@
       "title": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
       "description": "",
       "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
-      "score": 838,
+      "score": 839,
       "comments": 711,
       "owner": "samk3nny",
       "published": "2026-11-16T18:31:30Z",
