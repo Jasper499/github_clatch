@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-21T190540Z",
+  "day": "2026-11-21",
+  "sourceKey": "weiboLocal",
+  "savedAt": "2026-11-21T19:05:40Z",
+  "label": "同城",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-21，共 5 条，约每 6 小时更新）",
+  "updateFrequency": "every-6h",
+  "fetchedDate": "2026-11-21",
+  "items": [
+    {
+      "title": "央视揭秘网络女主播真实生态",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%AE%E8%A7%86%E6%8F%AD%E7%A7%98%E7%BD%91%E7%BB%9C%E5%A5%B3%E4%B8%BB%E6%92%AD%E7%9C%9F%E5%AE%9E%E7%94%9F%E6%80%81%23&t=31&band_rank=1&Refer=top",
+      "score": 63542,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1795272681
+    },
+    {
+      "title": "榜一大哥的占有欲从屏幕爬进现实",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%A6%9C%E4%B8%80%E5%A4%A7%E5%93%A5%E7%9A%84%E5%8D%A0%E6%9C%89%E6%AC%B2%E4%BB%8E%E5%B1%8F%E5%B9%95%E7%88%AC%E8%BF%9B%E7%8E%B0%E5%AE%9E%23&t=31&band_rank=1&Refer=top",
+      "score": 63365,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1795274480
+    },
+    {
+      "title": "2名在华日本人发生冲突1人死亡",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%232%E5%90%8D%E5%9C%A8%E5%8D%8E%E6%97%A5%E6%9C%AC%E4%BA%BA%E5%8F%91%E7%94%9F%E5%86%B2%E7%AA%811%E4%BA%BA%E6%AD%BB%E4%BA%A1%23&t=31&band_rank=1&Refer=top",
+      "score": 63319,
+      "owner": "微博同城",
+      "label": "热",
+      "category": "民生新闻",
+      "onboardTime": 1795273941
+    },
+    {
+      "title": "羽绒服生意变天了",
+      "description": "热 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%BE%BD%E7%BB%92%E6%9C%8D%E7%94%9F%E6%84%8F%E5%8F%98%E5%A4%A9%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 63064,
+      "owner": "微博同城",
+      "label": "热",
+      "category": "民生新闻",
+      "onboardTime": 1795278259
+    },
+    {
+      "title": "武警战士王猛真猛",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%AD%A6%E8%AD%A6%E6%88%98%E5%A3%AB%E7%8E%8B%E7%8C%9B%E7%9C%9F%E7%8C%9B%23&t=31&band_rank=1&Refer=top",
+      "score": 46420,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1795272200
+    }
+  ]
+}
