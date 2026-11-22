@@ -6,52 +6,100 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "hackernews:https://alpo.ge/remark.pdf",
-      "url": "https://alpo.ge/remark.pdf",
-      "title": "[Hacker News 热门] Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
-      "date_published": "2026-11-22T09:30:28Z"
+      "id": "scientificSkills:https://github.com/K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "title": "[Skills 清单] K-Dense-AI/scientific-agent-skills · 仓库总览",
+      "date_published": "2026-11-22T09:31:26Z"
     },
     {
-      "id": "hackernews:https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
-      "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
-      "title": "[Hacker News 热门] Hurried Announcement: Alessandro Masullo GRH",
-      "date_published": "2026-11-22T09:30:28Z"
+      "id": "scientificSkills:https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/13c-metabolic-flux",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/13c-metabolic-flux",
+      "title": "[Skills 清单] 13c-metabolic-flux",
+      "date_published": "2026-11-22T09:31:26Z"
     },
     {
-      "id": "hackernews:https://www.cs.cmu.edu/learn/",
-      "url": "https://www.cs.cmu.edu/learn/",
-      "title": "[Hacker News 热门] Carnegie Mellon is putting computer science courses on YouTube for free",
-      "date_published": "2026-11-22T09:30:28Z"
+      "id": "scientificSkills:https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/adaptyv",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/adaptyv",
+      "title": "[Skills 清单] adaptyv",
+      "date_published": "2026-11-22T09:31:26Z"
     },
     {
-      "id": "hackernews:https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
-      "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
-      "title": "[Hacker News 热门] Unauthenticated remote code execution in Nginx",
-      "date_published": "2026-11-22T09:30:28Z"
+      "id": "scientificSkills:https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/aeon",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/aeon",
+      "title": "[Skills 清单] aeon",
+      "date_published": "2026-11-22T09:31:26Z"
     },
     {
-      "id": "hackernews:https://thinkingmachines.ai/news/inkling-2-mini/",
-      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
-      "title": "[Hacker News 热门] Inkling 2 Mini",
-      "date_published": "2026-11-22T09:30:28Z"
+      "id": "scientificSkills:https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/alphagenome",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/alphagenome",
+      "title": "[Skills 清单] alphagenome",
+      "date_published": "2026-11-22T09:31:26Z"
     },
     {
-      "id": "hackernews:https://openai.com/index/introducing-gpt-6-2-astra-sol/",
-      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
-      "title": "[Hacker News 热门] GPT‑6.2 Astra and Sol",
-      "date_published": "2026-11-22T09:30:28Z"
+      "id": "scientificSkills:https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/analytical-method-validation",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/analytical-method-validation",
+      "title": "[Skills 清单] analytical-method-validation",
+      "date_published": "2026-11-22T09:31:26Z"
     },
     {
-      "id": "hackernews:https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
-      "url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
-      "title": "[Hacker News 热门] New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
-      "date_published": "2026-11-22T09:30:28Z"
+      "id": "scientificSkills:https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/anndata",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/anndata",
+      "title": "[Skills 清单] anndata",
+      "date_published": "2026-11-22T09:31:26Z"
     },
     {
-      "id": "hackernews:https://jakub.jankiewicz.org/blog/ai-code-open-source/",
-      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
-      "title": "[Hacker News 热门] All AI-generated code should be Open Source",
-      "date_published": "2026-11-22T09:30:28Z"
+      "id": "scientificSkills:https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/arbor",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/arbor",
+      "title": "[Skills 清单] arbor",
+      "date_published": "2026-11-22T09:31:26Z"
+    },
+    {
+      "id": "scientificSkillsCommits:https://github.com/K-Dense-AI/scientific-agent-skills/commit/ec59a29a03d5c40f73ab40878df04860bc00e876",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/ec59a29a03d5c40f73ab40878df04860bc00e876",
+      "title": "[最近提交] chore: update security scan report [skip ci]",
+      "date_published": "2026-11-22T09:31:26Z"
+    },
+    {
+      "id": "scientificSkillsCommits:https://github.com/K-Dense-AI/scientific-agent-skills/commit/2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "title": "[最近提交] chore: update security scan report [skip ci]",
+      "date_published": "2026-11-22T09:31:26Z"
+    },
+    {
+      "id": "scientificSkillsCommits:https://github.com/K-Dense-AI/scientific-agent-skills/commit/a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "title": "[最近提交] chore: update security scan report [skip ci]",
+      "date_published": "2026-11-22T09:31:26Z"
+    },
+    {
+      "id": "scientificSkillsCommits:https://github.com/K-Dense-AI/scientific-agent-skills/commit/5f2bc0341354fd5590aef76a533ada1e1e5b4e62",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/5f2bc0341354fd5590aef76a533ada1e1e5b4e62",
+      "title": "[最近提交] chore: update security scan report [skip ci]",
+      "date_published": "2026-11-22T09:31:26Z"
+    },
+    {
+      "id": "scientificSkillsCommits:https://github.com/K-Dense-AI/scientific-agent-skills/commit/593377bb048752abb0152deab9fbb1083a6087df",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/593377bb048752abb0152deab9fbb1083a6087df",
+      "title": "[最近提交] chore: update security scan report [skip ci]",
+      "date_published": "2026-11-22T09:31:26Z"
+    },
+    {
+      "id": "scientificSkillsCommits:https://github.com/K-Dense-AI/scientific-agent-skills/commit/a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "title": "[最近提交] chore: update security scan report [skip ci]",
+      "date_published": "2026-11-22T09:31:26Z"
+    },
+    {
+      "id": "scientificSkillsCommits:https://github.com/K-Dense-AI/scientific-agent-skills/commit/92ace75ac21efe19a620434e0ca4e356081fe807",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/92ace75ac21efe19a620434e0ca4e356081fe807",
+      "title": "[最近提交] chore: update security scan report [skip ci]",
+      "date_published": "2026-11-22T09:31:26Z"
+    },
+    {
+      "id": "scientificSkillsCommits:https://github.com/K-Dense-AI/scientific-agent-skills/commit/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298",
+      "title": "[最近提交] docs: pin install example to v2.71.0",
+      "date_published": "2026-11-22T09:31:26Z"
     }
   ]
 }
