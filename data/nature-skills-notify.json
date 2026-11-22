@@ -1,20 +1,35 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-11-22T09:56:23Z",
+  "changed": true,
+  "fetchedAt": "2026-11-22T20:37:53Z",
   "previousSha": "8a7713697d4567b3337cb20cddc55613d88f518e",
-  "latestSha": "8a7713697d4567b3337cb20cddc55613d88f518e",
+  "latestSha": "c6701dbea29afa7c596d029b957b7edc92130ea5",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "chore: update star history",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/8a7713697d4567b3337cb20cddc55613d88f518e",
-    "sha": "8a77136",
+    "title": "Use white-background Nature AI service image",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/c6701dbea29afa7c596d029b957b7edc92130ea5",
+    "sha": "c6701db",
     "published": "2026-11-22"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "Use white-background Nature AI service image",
+      "sha": "c6701db",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c6701dbea29afa7c596d029b957b7edc92130ea5"
+    },
+    {
+      "title": "Restore previous Nature AI service banner",
+      "sha": "d16b3e2",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/d16b3e2c113fb1ca9149af76504b9e10286a55bb"
+    },
+    {
+      "title": "Replace Nature AI service banner",
+      "sha": "9b34a65",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/9b34a650df0efa4b18118255ba995d881e2d24f0"
+    },
     {
       "title": "chore: update star history",
       "sha": "8a77136",
@@ -24,21 +39,6 @@
       "title": "Update README_EN.md",
       "sha": "a65a836",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/a65a8364b419e05f7d8d5d96842a1ff7e544b1bb"
-    },
-    {
-      "title": "Update README.md",
-      "sha": "de4a783",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/de4a7838ccdc0439562b731b2b328d69bae86db0"
-    },
-    {
-      "title": "Merge pull request #283 from lijiangsheng1/feat/academic-search-date-…",
-      "sha": "9bd1d08",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/9bd1d0823f564752f0dcc701f9bd3a0001fffdc5"
-    },
-    {
-      "title": "Merge pull request #289 from DrZoggg/fix/crossref-preprint-version-ha…",
-      "sha": "73ebc13",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/73ebc13712928caec77891eb10e4329e61a129bc"
     }
   ]
 }
