@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-11-22T09:30:28Z",
+  "savedAt": "2026-11-22T19:29:08Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-11-22，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,8 +10,8 @@
       "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
       "description": "Related: <i>Hurried Announcement: Alessandro Masullo GRH</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50579568\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50579568</a>",
       "url": "https://alpo.ge/remark.pdf",
-      "score": 2872,
-      "comments": 2051,
+      "score": 2897,
+      "comments": 2079,
       "owner": "iamronaldo",
       "published": "2026-11-20T14:16:21Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50574968"
@@ -20,8 +20,8 @@
       "title": "Hurried Announcement: Alessandro Masullo GRH",
       "description": "Related: <i>Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50574968\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50574968</a>",
       "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
-      "score": 2414,
-      "comments": 1173,
+      "score": 2444,
+      "comments": 1195,
       "owner": "jasondavies",
       "published": "2026-11-20T18:33:14Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50579568"
@@ -30,7 +30,7 @@
       "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
       "description": "",
       "url": "https://www.cs.cmu.edu/learn/",
-      "score": 2383,
+      "score": 2387,
       "comments": 334,
       "owner": "pcompeau",
       "published": "2026-11-16T20:43:36Z",
@@ -40,7 +40,7 @@
       "title": "Unauthenticated remote code execution in Nginx",
       "description": "<a href=\"https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123633\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123633</a><p><a href=\"https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123007\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123007</a>",
       "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
-      "score": 1513,
+      "score": 1516,
       "comments": 644,
       "owner": "speedping",
       "published": "2026-11-18T15:19:55Z",
@@ -50,8 +50,8 @@
       "title": "Inkling 2 Mini",
       "description": "",
       "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
-      "score": 1408,
-      "comments": 287,
+      "score": 1442,
+      "comments": 292,
       "owner": "jasondavies",
       "published": "2026-11-20T20:12:19Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50581260"
@@ -77,14 +77,24 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50530163"
     },
     {
-      "title": "All AI-generated code should be Open Source",
+      "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
       "description": "",
-      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
-      "score": 1288,
-      "comments": 673,
-      "owner": "jcubic",
-      "published": "2026-11-15T14:46:58Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50507303"
+      "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+      "score": 1289,
+      "comments": 274,
+      "owner": "rafaelc",
+      "published": "2026-11-20T21:03:12Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50582069"
+    },
+    {
+      "title": "Lean verification of the Riemann Hypothesis",
+      "description": "",
+      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "score": 1188,
+      "comments": 983,
+      "owner": "g-b-r",
+      "published": "2026-11-21T14:36:45Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50589618"
     },
     {
       "title": "Java4Shell: RCE in OpenJDK when processing Base64",
@@ -101,7 +111,7 @@
       "description": "",
       "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
       "score": 1140,
-      "comments": 2321,
+      "comments": 2329,
       "owner": "wslh",
       "published": "2026-11-19T17:02:40Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50562754"
@@ -110,21 +120,21 @@
       "title": "Gemini 4 Neon",
       "description": "",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
-      "score": 1059,
+      "score": 1066,
       "comments": 775,
       "owner": "yigitdemirag",
       "published": "2026-11-18T21:34:07Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50552424"
     },
     {
-      "title": "Lean verification of the Riemann Hypothesis",
+      "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
       "description": "",
-      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-      "score": 1020,
-      "comments": 834,
-      "owner": "g-b-r",
-      "published": "2026-11-21T14:36:45Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50589618"
+      "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+      "score": 1037,
+      "comments": 617,
+      "owner": "zdw",
+      "published": "2026-11-22T04:04:56Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50596133"
     },
     {
       "title": "Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savings",
@@ -137,20 +147,10 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50517488"
     },
     {
-      "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
-      "description": "",
-      "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
-      "score": 965,
-      "comments": 213,
-      "owner": "rafaelc",
-      "published": "2026-11-20T21:03:12Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50582069"
-    },
-    {
       "title": "How to make almost anything",
       "description": "",
       "url": "https://pub.cba.mit.edu/863.26/site/",
-      "score": 921,
+      "score": 922,
       "comments": 149,
       "owner": "o4c",
       "published": "2026-11-16T05:50:37Z",
@@ -161,7 +161,7 @@
       "description": "",
       "url": "https://blog.harrison.page/garage-door-spam/",
       "score": 918,
-      "comments": 402,
+      "comments": 404,
       "owner": "harrisonpage",
       "published": "2026-11-16T16:13:36Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50519231"
@@ -177,24 +177,24 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50538994"
     },
     {
-      "title": "Qwen4-Max",
-      "description": "",
-      "url": "https://qwen.ai/blog?id=qwen4-max",
-      "score": 884,
-      "comments": 485,
-      "owner": "ilreb",
-      "published": "2026-11-16T02:14:44Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50513215"
-    },
-    {
       "title": "Pancreatic cancer halted by virus injection in three patients",
       "description": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;2Et0x\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;2Et0x</a><p><a href=\"https:&#x2F;&#x2F;clinicaltrials.gov&#x2F;study&#x2F;NCT06693986\" rel=\"nofollow\">https:&#x2F;&#x2F;clinicaltrials.gov&#x2F;study&#x2F;NCT06693986</a>",
       "url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
-      "score": 884,
+      "score": 888,
       "comments": 157,
       "owner": "cybermango",
       "published": "2026-11-19T17:25:33Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50563066"
+    },
+    {
+      "title": "Qwen4-Max",
+      "description": "",
+      "url": "https://qwen.ai/blog?id=qwen4-max",
+      "score": 884,
+      "comments": 486,
+      "owner": "ilreb",
+      "published": "2026-11-16T02:14:44Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50513215"
     },
     {
       "title": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
