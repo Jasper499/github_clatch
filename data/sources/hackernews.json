@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-11-22T06:33:57Z",
+  "savedAt": "2026-11-22T09:30:28Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-11-22，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,8 +10,8 @@
       "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
       "description": "Related: <i>Hurried Announcement: Alessandro Masullo GRH</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50579568\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50579568</a>",
       "url": "https://alpo.ge/remark.pdf",
-      "score": 2867,
-      "comments": 2050,
+      "score": 2872,
+      "comments": 2051,
       "owner": "iamronaldo",
       "published": "2026-11-20T14:16:21Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50574968"
@@ -20,8 +20,8 @@
       "title": "Hurried Announcement: Alessandro Masullo GRH",
       "description": "Related: <i>Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50574968\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50574968</a>",
       "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
-      "score": 2402,
-      "comments": 1167,
+      "score": 2414,
+      "comments": 1173,
       "owner": "jasondavies",
       "published": "2026-11-20T18:33:14Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50579568"
@@ -41,7 +41,7 @@
       "description": "<a href=\"https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123633\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123633</a><p><a href=\"https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123007\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123007</a>",
       "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
       "score": 1513,
-      "comments": 642,
+      "comments": 644,
       "owner": "speedping",
       "published": "2026-11-18T15:19:55Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50547374"
@@ -50,8 +50,8 @@
       "title": "Inkling 2 Mini",
       "description": "",
       "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
-      "score": 1400,
-      "comments": 286,
+      "score": 1408,
+      "comments": 287,
       "owner": "jasondavies",
       "published": "2026-11-20T20:12:19Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50581260"
@@ -90,7 +90,7 @@
       "title": "Java4Shell: RCE in OpenJDK when processing Base64",
       "description": "",
       "url": "https://calif.io/java4shell/",
-      "score": 1184,
+      "score": 1185,
       "comments": 339,
       "owner": "werrett",
       "published": "2026-11-17T21:11:28Z",
@@ -100,8 +100,8 @@
       "title": "Anthropic’s Nasdaq debut",
       "description": "",
       "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
-      "score": 1139,
-      "comments": 2320,
+      "score": 1140,
+      "comments": 2321,
       "owner": "wslh",
       "published": "2026-11-19T17:02:40Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50562754"
@@ -117,6 +117,16 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50552424"
     },
     {
+      "title": "Lean verification of the Riemann Hypothesis",
+      "description": "",
+      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "score": 1020,
+      "comments": 834,
+      "owner": "g-b-r",
+      "published": "2026-11-21T14:36:45Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50589618"
+    },
+    {
       "title": "Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savings",
       "description": "",
       "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
@@ -127,14 +137,14 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50517488"
     },
     {
-      "title": "Lean verification of the Riemann Hypothesis",
+      "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
       "description": "",
-      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-      "score": 941,
-      "comments": 804,
-      "owner": "g-b-r",
-      "published": "2026-11-21T14:36:45Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50589618"
+      "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+      "score": 965,
+      "comments": 213,
+      "owner": "rafaelc",
+      "published": "2026-11-20T21:03:12Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50582069"
     },
     {
       "title": "How to make almost anything",
@@ -185,16 +195,6 @@
       "owner": "cybermango",
       "published": "2026-11-19T17:25:33Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50563066"
-    },
-    {
-      "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
-      "description": "",
-      "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
-      "score": 861,
-      "comments": 201,
-      "owner": "rafaelc",
-      "published": "2026-11-20T21:03:12Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50582069"
     },
     {
       "title": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
