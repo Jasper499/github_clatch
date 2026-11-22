@@ -1988,6 +1988,12 @@
     ],
     "natureSkills": [
       {
+        "date": "2026-11-22T084607Z",
+        "day": "2026-11-22",
+        "savedAt": "2026-11-22T08:46:07Z",
+        "itemCount": 18
+      },
+      {
         "date": "2026-11-21T203541Z",
         "day": "2026-11-21",
         "savedAt": "2026-11-21T20:35:41Z",
@@ -2700,15 +2706,15 @@
         "day": "2026-10-23",
         "savedAt": "2026-10-23T07:42:15Z",
         "itemCount": 18
-      },
-      {
-        "date": "2026-10-23T022136Z",
-        "day": "2026-10-23",
-        "savedAt": "2026-10-23T02:21:36Z",
-        "itemCount": 18
       }
     ],
     "natureSkillsCommits": [
+      {
+        "date": "2026-11-22T084607Z",
+        "day": "2026-11-22",
+        "savedAt": "2026-11-22T08:46:07Z",
+        "itemCount": 15
+      },
       {
         "date": "2026-11-21T203541Z",
         "day": "2026-11-21",
@@ -3421,12 +3427,6 @@
         "date": "2026-10-23T074215Z",
         "day": "2026-10-23",
         "savedAt": "2026-10-23T07:42:15Z",
-        "itemCount": 15
-      },
-      {
-        "date": "2026-10-23T022136Z",
-        "day": "2026-10-23",
-        "savedAt": "2026-10-23T02:21:36Z",
         "itemCount": 15
       }
     ],
@@ -7041,7 +7041,7 @@
       }
     ]
   },
-  "updatedAt": "2026-11-22T06:33:57Z",
+  "updatedAt": "2026-11-22T08:46:07Z",
   "search": {
     "github": [
       {
@@ -7205,25 +7205,25 @@
     "natureSkills": [
       {
         "month": "2026-11",
-        "items": 1512,
-        "bytes": 759614
+        "items": 1530,
+        "bytes": 768657
       },
       {
         "month": "2026-10",
-        "items": 648,
-        "bytes": 325550
+        "items": 630,
+        "bytes": 316507
       }
     ],
     "natureSkillsCommits": [
       {
         "month": "2026-11",
-        "items": 1245,
-        "bytes": 567561
+        "items": 1260,
+        "bytes": 573420
       },
       {
         "month": "2026-10",
-        "items": 540,
-        "bytes": 307141
+        "items": 525,
+        "bytes": 298735
       }
     ],
     "scientificSkills": [

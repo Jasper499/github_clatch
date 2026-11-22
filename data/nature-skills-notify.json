@@ -1,20 +1,25 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-11-21T20:35:41Z",
+  "changed": true,
+  "fetchedAt": "2026-11-22T08:46:07Z",
   "previousSha": "a65a8364b419e05f7d8d5d96842a1ff7e544b1bb",
-  "latestSha": "a65a8364b419e05f7d8d5d96842a1ff7e544b1bb",
+  "latestSha": "8a7713697d4567b3337cb20cddc55613d88f518e",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "Update README_EN.md",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/a65a8364b419e05f7d8d5d96842a1ff7e544b1bb",
-    "sha": "a65a836",
-    "published": "2026-11-20"
+    "title": "chore: update star history",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/8a7713697d4567b3337cb20cddc55613d88f518e",
+    "sha": "8a77136",
+    "published": "2026-11-22"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "chore: update star history",
+      "sha": "8a77136",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/8a7713697d4567b3337cb20cddc55613d88f518e"
+    },
     {
       "title": "Update README_EN.md",
       "sha": "a65a836",
@@ -34,11 +39,6 @@
       "title": "Merge pull request #289 from DrZoggg/fix/crossref-preprint-version-ha…",
       "sha": "73ebc13",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/73ebc13712928caec77891eb10e4329e61a129bc"
-    },
-    {
-      "title": "Merge pull request #288 from DrZoggg/fix/pubmed-pmc-reading-route-202…",
-      "sha": "b6559d0",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/b6559d0ac3d74ca53b191189449aa7441f9409e3"
     }
   ]
 }

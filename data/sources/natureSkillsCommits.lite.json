@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-11-21T20:35:41Z",
+  "savedAt": "2026-11-22T08:46:07Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "a65a8364b419e05f7d8d5d96842a1ff7e544b1bb",
+  "latestSha": "8a7713697d4567b3337cb20cddc55613d88f518e",
   "items": [
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/8a7713697d4567b3337cb20cddc55613d88f518e",
+      "sha": "8a77136",
+      "fullSha": "8a7713697d4567b3337cb20cddc55613d88f518e",
+      "owner": "github-actions",
+      "published": "2026-11-22",
+      "label": "commit"
+    },
     {
       "title": "Update README_EN.md",
       "description": "Update README_EN.md",
@@ -145,16 +155,6 @@
       "fullSha": "a1a8220366e82ecd8584ea3d7f46cb3969f4b018",
       "owner": "github-actions",
       "published": "2026-11-10",
-      "label": "commit"
-    },
-    {
-      "title": "docs(nature-paper2word): 用 `-f` 取格式文件，补上保留学校模板的用法",
-      "description": "docs(nature-paper2word): 用 `-f` 取格式文件，补上保留学校模板的用法\n\n`-r` 是旧写法，引擎里已经改名 `-f`，只留兼容：`--help` 里不列，一用就往 stderr 打一行\n弃用提示。这份 skill 里四处仍写着 `-r`，照着做的 Agent 会让用户一直用旧参数。\n\n另外补两件引擎现在有、这里没写的事：\n\n- 场景表加一行「学位论文用学校自己的 .docx」：`--base-template` 把正文灌进去，封面和前置件\n  原样保留，切点用 `--keep-until` 选、不能越过目录。验不过就不产出文件。\n- 顶部加一条能力自检 `md-to-word --help | grep -- --base-template`，按能力判断而不是按版本号。\n\n只动 SKILL.md，不碰 references/。",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/8ff576e010afc416510065cc9c80e85aa56dccd9",
-      "sha": "8ff576e",
-      "fullSha": "8ff576e010afc416510065cc9c80e85aa56dccd9",
-      "owner": "ls-wq",
-      "published": "2026-11-08",
       "label": "commit"
     }
   ]
