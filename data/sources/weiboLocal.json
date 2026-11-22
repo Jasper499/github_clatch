@@ -1,26 +1,16 @@
 {
   "sourceKey": "weiboLocal",
-  "savedAt": "2026-11-22T17:22:07Z",
+  "savedAt": "2026-11-22T19:28:32Z",
   "label": "同城",
-  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-22，共 5 条，约每 6 小时更新）",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-22，共 6 条，约每 6 小时更新）",
   "updateFrequency": "every-6h",
   "fetchedDate": "2026-11-22",
   "items": [
     {
-      "title": "主播糟蹋千斤苹果仅赔6000元",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%BB%E6%92%AD%E7%B3%9F%E8%B9%8B%E5%8D%83%E6%96%A4%E8%8B%B9%E6%9E%9C%E4%BB%85%E8%B5%946000%E5%85%83%23&t=31&band_rank=1&Refer=top",
-      "score": 425635,
-      "owner": "微博同城",
-      "label": "",
-      "category": "民生新闻",
-      "onboardTime": 1795344800
-    },
-    {
       "title": "诗词里的千年文脉",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E8%AF%97%E8%AF%8D%E9%87%8C%E7%9A%84%E5%8D%83%E5%B9%B4%E6%96%87%E8%84%89%23&t=31&band_rank=1&Refer=top",
-      "score": 363324,
+      "score": 94700,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
@@ -30,31 +20,51 @@
       "title": "私闯果园糟蹋水果主播下架所有视频",
       "description": "民生新闻",
       "url": "https://s.weibo.com/weibo?q=%23%E7%A7%81%E9%97%AF%E6%9E%9C%E5%9B%AD%E7%B3%9F%E8%B9%8B%E6%B0%B4%E6%9E%9C%E4%B8%BB%E6%92%AD%E4%B8%8B%E6%9E%B6%E6%89%80%E6%9C%89%E8%A7%86%E9%A2%91%23&t=31&band_rank=1&Refer=top",
-      "score": 282885,
+      "score": 72736,
       "owner": "微博同城",
       "label": "",
       "category": "民生新闻",
       "onboardTime": 1795361841
     },
     {
-      "title": "女儿回应父亲交往母亲第三者的前妻",
-      "description": "新 · 民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%84%BF%E5%9B%9E%E5%BA%94%E7%88%B6%E4%BA%B2%E4%BA%A4%E5%BE%80%E6%AF%8D%E4%BA%B2%E7%AC%AC%E4%B8%89%E8%80%85%E7%9A%84%E5%89%8D%E5%A6%BB%23&t=31&band_rank=1&Refer=top",
-      "score": 180122,
+      "title": "主播糟蹋千斤苹果仅赔6000元",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%BB%E6%92%AD%E7%B3%9F%E8%B9%8B%E5%8D%83%E6%96%A4%E8%8B%B9%E6%9E%9C%E4%BB%85%E8%B5%946000%E5%85%83%23&t=31&band_rank=1&Refer=top",
+      "score": 64114,
       "owner": "微博同城",
-      "label": "新",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1795344800
+    },
+    {
+      "title": "女儿回应父亲交往母亲第三者的前妻",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%84%BF%E5%9B%9E%E5%BA%94%E7%88%B6%E4%BA%B2%E4%BA%A4%E5%BE%80%E6%AF%8D%E4%BA%B2%E7%AC%AC%E4%B8%89%E8%80%85%E7%9A%84%E5%89%8D%E5%A6%BB%23&t=31&band_rank=1&Refer=top",
+      "score": 61565,
+      "owner": "微博同城",
+      "label": "",
       "category": "民生新闻",
       "onboardTime": 1795363640
     },
     {
-      "title": "央视曝光褪黑素骗局",
-      "description": "民生新闻",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E8%A4%AA%E9%BB%91%E7%B4%A0%E9%AA%97%E5%B1%80%23&t=31&band_rank=1&Refer=top",
-      "score": 96443,
+      "title": "医生建议冬天减肥可以多吃点火锅",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8C%BB%E7%94%9F%E5%BB%BA%E8%AE%AE%E5%86%AC%E5%A4%A9%E5%87%8F%E8%82%A5%E5%8F%AF%E4%BB%A5%E5%A4%9A%E5%90%83%E7%82%B9%E7%81%AB%E9%94%85%23&t=31&band_rank=1&Refer=top",
+      "score": 41796,
       "owner": "微博同城",
-      "label": "",
+      "label": "新",
       "category": "民生新闻",
-      "onboardTime": 1795354159
+      "onboardTime": 1795372455
+    },
+    {
+      "title": "央视主持人被新疆芝麻糖粘掉门牙",
+      "description": "新 · 民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%AE%E8%A7%86%E4%B8%BB%E6%8C%81%E4%BA%BA%E8%A2%AB%E6%96%B0%E7%96%86%E8%8A%9D%E9%BA%BB%E7%B3%96%E7%B2%98%E6%8E%89%E9%97%A8%E7%89%99%23&t=31&band_rank=1&Refer=top",
+      "score": 40578,
+      "owner": "微博同城",
+      "label": "新",
+      "category": "民生新闻",
+      "onboardTime": 1795372875
     }
   ]
 }
