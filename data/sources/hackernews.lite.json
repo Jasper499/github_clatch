@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-11-22T19:29:08Z",
+  "savedAt": "2026-11-22T20:37:08Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-11-22，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,7 +10,7 @@
       "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
       "description": "Related: <i>Hurried Announcement: Alessandro Masullo GRH</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50579568\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50579568</a>",
       "url": "https://alpo.ge/remark.pdf",
-      "score": 2897,
+      "score": 2898,
       "comments": 2079,
       "owner": "iamronaldo",
       "published": "2026-11-20T14:16:21Z",
@@ -20,8 +20,8 @@
       "title": "Hurried Announcement: Alessandro Masullo GRH",
       "description": "Related: <i>Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50574968\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50574968</a>",
       "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
-      "score": 2444,
-      "comments": 1195,
+      "score": 2445,
+      "comments": 1196,
       "owner": "jasondavies",
       "published": "2026-11-20T18:33:14Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50579568"
@@ -50,7 +50,7 @@
       "title": "Inkling 2 Mini",
       "description": "",
       "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
-      "score": 1442,
+      "score": 1446,
       "comments": 292,
       "owner": "jasondavies",
       "published": "2026-11-20T20:12:19Z",
@@ -80,8 +80,8 @@
       "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
       "description": "",
       "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
-      "score": 1289,
-      "comments": 274,
+      "score": 1303,
+      "comments": 284,
       "owner": "rafaelc",
       "published": "2026-11-20T21:03:12Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50582069"
@@ -90,8 +90,8 @@
       "title": "Lean verification of the Riemann Hypothesis",
       "description": "",
       "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-      "score": 1188,
-      "comments": 983,
+      "score": 1195,
+      "comments": 993,
       "owner": "g-b-r",
       "published": "2026-11-21T14:36:45Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50589618"
@@ -111,10 +111,20 @@
       "description": "",
       "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
       "score": 1140,
-      "comments": 2329,
+      "comments": 2330,
       "owner": "wslh",
       "published": "2026-11-19T17:02:40Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50562754"
+    },
+    {
+      "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+      "description": "",
+      "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+      "score": 1080,
+      "comments": 635,
+      "owner": "zdw",
+      "published": "2026-11-22T04:04:56Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50596133"
     },
     {
       "title": "Gemini 4 Neon",
@@ -125,16 +135,6 @@
       "owner": "yigitdemirag",
       "published": "2026-11-18T21:34:07Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50552424"
-    },
-    {
-      "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
-      "description": "",
-      "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
-      "score": 1037,
-      "comments": 617,
-      "owner": "zdw",
-      "published": "2026-11-22T04:04:56Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50596133"
     },
     {
       "title": "Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savings",

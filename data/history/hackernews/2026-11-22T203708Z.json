@@ -1,0 +1,212 @@
+{
+  "date": "2026-11-22T203708Z",
+  "day": "2026-11-22",
+  "sourceKey": "hackernews",
+  "savedAt": "2026-11-22T20:37:08Z",
+  "label": "Hacker News 热门",
+  "description": "近 7 天 HN 高互动讨论（2026-11-22，共 20 条）",
+  "updateFrequency": "twice-daily",
+  "fetchedDate": "2026-11-22",
+  "items": [
+    {
+      "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
+      "description": "Related: <i>Hurried Announcement: Alessandro Masullo GRH</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50579568\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50579568</a>",
+      "url": "https://alpo.ge/remark.pdf",
+      "score": 2898,
+      "comments": 2079,
+      "owner": "iamronaldo",
+      "published": "2026-11-20T14:16:21Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50574968"
+    },
+    {
+      "title": "Hurried Announcement: Alessandro Masullo GRH",
+      "description": "Related: <i>Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50574968\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50574968</a>",
+      "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+      "score": 2445,
+      "comments": 1196,
+      "owner": "jasondavies",
+      "published": "2026-11-20T18:33:14Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50579568"
+    },
+    {
+      "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
+      "description": "",
+      "url": "https://www.cs.cmu.edu/learn/",
+      "score": 2387,
+      "comments": 334,
+      "owner": "pcompeau",
+      "published": "2026-11-16T20:43:36Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50522980"
+    },
+    {
+      "title": "Unauthenticated remote code execution in Nginx",
+      "description": "<a href=\"https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123633\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123633</a><p><a href=\"https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123007\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123007</a>",
+      "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+      "score": 1516,
+      "comments": 644,
+      "owner": "speedping",
+      "published": "2026-11-18T15:19:55Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50547374"
+    },
+    {
+      "title": "Inkling 2 Mini",
+      "description": "",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "score": 1446,
+      "comments": 292,
+      "owner": "jasondavies",
+      "published": "2026-11-20T20:12:19Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50581260"
+    },
+    {
+      "title": "GPT‑6.2 Astra and Sol",
+      "description": "",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "score": 1347,
+      "comments": 864,
+      "owner": "jasondavies",
+      "published": "2026-11-17T17:46:43Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50535230"
+    },
+    {
+      "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
+      "description": "",
+      "url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
+      "score": 1308,
+      "comments": 648,
+      "owner": "donohoe",
+      "published": "2026-11-17T11:45:51Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50530163"
+    },
+    {
+      "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
+      "description": "",
+      "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+      "score": 1303,
+      "comments": 284,
+      "owner": "rafaelc",
+      "published": "2026-11-20T21:03:12Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50582069"
+    },
+    {
+      "title": "Lean verification of the Riemann Hypothesis",
+      "description": "",
+      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "score": 1195,
+      "comments": 993,
+      "owner": "g-b-r",
+      "published": "2026-11-21T14:36:45Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50589618"
+    },
+    {
+      "title": "Java4Shell: RCE in OpenJDK when processing Base64",
+      "description": "",
+      "url": "https://calif.io/java4shell/",
+      "score": 1185,
+      "comments": 339,
+      "owner": "werrett",
+      "published": "2026-11-17T21:11:28Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50538240"
+    },
+    {
+      "title": "Anthropic’s Nasdaq debut",
+      "description": "",
+      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+      "score": 1140,
+      "comments": 2330,
+      "owner": "wslh",
+      "published": "2026-11-19T17:02:40Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50562754"
+    },
+    {
+      "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+      "description": "",
+      "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+      "score": 1080,
+      "comments": 635,
+      "owner": "zdw",
+      "published": "2026-11-22T04:04:56Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50596133"
+    },
+    {
+      "title": "Gemini 4 Neon",
+      "description": "",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "score": 1066,
+      "comments": 775,
+      "owner": "yigitdemirag",
+      "published": "2026-11-18T21:34:07Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50552424"
+    },
+    {
+      "title": "Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savings",
+      "description": "",
+      "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
+      "score": 975,
+      "comments": 558,
+      "owner": "DeepLogin",
+      "published": "2026-11-16T13:39:07Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50517488"
+    },
+    {
+      "title": "How to make almost anything",
+      "description": "",
+      "url": "https://pub.cba.mit.edu/863.26/site/",
+      "score": 922,
+      "comments": 149,
+      "owner": "o4c",
+      "published": "2026-11-16T05:50:37Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50514470"
+    },
+    {
+      "title": "Garage Door Spam",
+      "description": "",
+      "url": "https://blog.harrison.page/garage-door-spam/",
+      "score": 918,
+      "comments": 404,
+      "owner": "harrisonpage",
+      "published": "2026-11-16T16:13:36Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50519231"
+    },
+    {
+      "title": "Quad9's withdrawal from France: A canary in the coal mine",
+      "description": "",
+      "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+      "score": 908,
+      "comments": 457,
+      "owner": "subset",
+      "published": "2026-11-17T22:13:34Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50538994"
+    },
+    {
+      "title": "Pancreatic cancer halted by virus injection in three patients",
+      "description": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;2Et0x\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;2Et0x</a><p><a href=\"https:&#x2F;&#x2F;clinicaltrials.gov&#x2F;study&#x2F;NCT06693986\" rel=\"nofollow\">https:&#x2F;&#x2F;clinicaltrials.gov&#x2F;study&#x2F;NCT06693986</a>",
+      "url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
+      "score": 888,
+      "comments": 157,
+      "owner": "cybermango",
+      "published": "2026-11-19T17:25:33Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50563066"
+    },
+    {
+      "title": "Qwen4-Max",
+      "description": "",
+      "url": "https://qwen.ai/blog?id=qwen4-max",
+      "score": 884,
+      "comments": 486,
+      "owner": "ilreb",
+      "published": "2026-11-16T02:14:44Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50513215"
+    },
+    {
+      "title": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
+      "description": "",
+      "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
+      "score": 839,
+      "comments": 712,
+      "owner": "samk3nny",
+      "published": "2026-11-16T18:31:30Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50521045"
+    }
+  ]
+}
