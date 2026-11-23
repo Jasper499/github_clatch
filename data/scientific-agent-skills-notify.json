@@ -1,20 +1,25 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-11-22T20:49:59Z",
+  "changed": true,
+  "fetchedAt": "2026-11-23T10:56:29Z",
   "previousSha": "ec59a29a03d5c40f73ab40878df04860bc00e876",
-  "latestSha": "ec59a29a03d5c40f73ab40878df04860bc00e876",
+  "latestSha": "c21d13b3cc2894680229ba9959a53281acb9200e",
   "repo": "K-Dense-AI/scientific-agent-skills",
   "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "stars": 0,
   "skillCount": 177,
   "latestCommit": {
     "title": "chore: update security scan report [skip ci]",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/ec59a29a03d5c40f73ab40878df04860bc00e876",
-    "sha": "ec59a29",
-    "published": "2026-11-16"
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/c21d13b3cc2894680229ba9959a53281acb9200e",
+    "sha": "c21d13b",
+    "published": "2026-11-23"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "chore: update security scan report [skip ci]",
+      "sha": "c21d13b",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/c21d13b3cc2894680229ba9959a53281acb9200e"
+    },
     {
       "title": "chore: update security scan report [skip ci]",
       "sha": "ec59a29",
@@ -34,11 +39,6 @@
       "title": "chore: update security scan report [skip ci]",
       "sha": "5f2bc03",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/5f2bc0341354fd5590aef76a533ada1e1e5b4e62"
-    },
-    {
-      "title": "chore: update security scan report [skip ci]",
-      "sha": "593377b",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/593377bb048752abb0152deab9fbb1083a6087df"
     }
   ]
 }

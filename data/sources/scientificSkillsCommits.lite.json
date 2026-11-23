@@ -1,12 +1,23 @@
 {
   "sourceKey": "scientificSkillsCommits",
-  "savedAt": "2026-11-22T20:50:00Z",
+  "savedAt": "2026-11-23T10:56:29Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "K-Dense-AI/scientific-agent-skills",
-  "latestSha": "ec59a29a03d5c40f73ab40878df04860bc00e876",
+  "latestSha": "c21d13b3cc2894680229ba9959a53281acb9200e",
   "items": [
+    {
+      "title": "chore: update security scan report [skip ci]",
+      "description": "chore: update security scan report [skip ci]",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/c21d13b3cc2894680229ba9959a53281acb9200e",
+      "sha": "c21d13b",
+      "fullSha": "c21d13b3cc2894680229ba9959a53281acb9200e",
+      "owner": "github-actions",
+      "published": "2026-11-23",
+      "label": "commit",
+      "repo": "K-Dense-AI/scientific-agent-skills"
+    },
     {
       "title": "chore: update security scan report [skip ci]",
       "description": "chore: update security scan report [skip ci]",
@@ -156,17 +167,6 @@
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/91497e335489dcb544ec8ddc8f6b7ce5fd6d1121",
       "sha": "91497e3",
       "fullSha": "91497e335489dcb544ec8ddc8f6b7ce5fd6d1121",
-      "owner": "timothykassis",
-      "published": "2026-10-01",
-      "label": "commit",
-      "repo": "K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "title": "test(generate-image): recognize unsupported size disclaimers",
-      "description": "test(generate-image): recognize unsupported size disclaimers\n\nKeep rejecting size flag examples while allowing both existing negative capability warnings. Scope the CLI rejection test to its actual behavior.",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/4537e63f1a50b31e46933cd77324a499f2be1299",
-      "sha": "4537e63",
-      "fullSha": "4537e63f1a50b31e46933cd77324a499f2be1299",
       "owner": "timothykassis",
       "published": "2026-10-01",
       "label": "commit",
