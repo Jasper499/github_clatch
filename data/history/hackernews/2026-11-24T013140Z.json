@@ -1,0 +1,212 @@
+{
+  "date": "2026-11-24T013140Z",
+  "day": "2026-11-24",
+  "sourceKey": "hackernews",
+  "savedAt": "2026-11-24T01:31:40Z",
+  "label": "Hacker News 热门",
+  "description": "近 7 天 HN 高互动讨论（2026-11-24，共 20 条）",
+  "updateFrequency": "twice-daily",
+  "fetchedDate": "2026-11-24",
+  "items": [
+    {
+      "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
+      "description": "Related: <i>Hurried Announcement: Alessandro Masullo GRH</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50579568\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50579568</a>",
+      "url": "https://alpo.ge/remark.pdf",
+      "score": 2922,
+      "comments": 2110,
+      "owner": "iamronaldo",
+      "published": "2026-11-20T14:16:21Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50574968"
+    },
+    {
+      "title": "Hurried Announcement: Alessandro Masullo GRH",
+      "description": "Related: <i>Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50574968\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50574968</a>",
+      "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+      "score": 2450,
+      "comments": 1220,
+      "owner": "jasondavies",
+      "published": "2026-11-20T18:33:14Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50579568"
+    },
+    {
+      "title": "Nvidia Reinstates Jensen Huang as CEO",
+      "description": "<a href=\"https:&#x2F;&#x2F;nvidianews.nvidia.com&#x2F;news&#x2F;nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director\" rel=\"nofollow\">https:&#x2F;&#x2F;nvidianews.nvidia.com&#x2F;news&#x2F;nvidia-board-reinstates-j...</a><p><a href=\"https:&#x2F;&#x2F;www.cnbc.com&#x2F;2026&#x2F;11&#x2F;23&#x2F;nvidia-jensen-huang-congress-trump.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cnbc.com&#x2F;2026&#x2F;11&#x2F;23&#x2F;nvidia-jensen-huang-congress...</a>",
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+      "score": 2078,
+      "comments": 3129,
+      "owner": "jaz",
+      "published": "2026-11-23T14:00:18Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50611576"
+    },
+    {
+      "title": "Jensen Huang Reinstated as Nvidia CEO",
+      "description": "",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "score": 1702,
+      "comments": 4,
+      "owner": "alanwong",
+      "published": "2026-11-23T14:01:23Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50611588"
+    },
+    {
+      "title": "Unauthenticated remote code execution in Nginx",
+      "description": "<a href=\"https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123633\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123633</a><p><a href=\"https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123007\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cve.org&#x2F;CVERecord?id=CVE-2026-123007</a>",
+      "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+      "score": 1517,
+      "comments": 647,
+      "owner": "speedping",
+      "published": "2026-11-18T15:19:55Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50547374"
+    },
+    {
+      "title": "Inkling 2 Mini",
+      "description": "",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "score": 1475,
+      "comments": 293,
+      "owner": "jasondavies",
+      "published": "2026-11-20T20:12:19Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50581260"
+    },
+    {
+      "title": "Ladybird is now in alpha",
+      "description": "",
+      "url": "https://ladybird.org/posts/alpha/",
+      "score": 1419,
+      "comments": 330,
+      "owner": "janvdberg",
+      "published": "2026-11-23T16:13:12Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50614249"
+    },
+    {
+      "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
+      "description": "",
+      "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+      "score": 1387,
+      "comments": 325,
+      "owner": "rafaelc",
+      "published": "2026-11-20T21:03:12Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50582069"
+    },
+    {
+      "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+      "description": "",
+      "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+      "score": 1382,
+      "comments": 730,
+      "owner": "zdw",
+      "published": "2026-11-22T04:04:56Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50596133"
+    },
+    {
+      "title": "GPT‑6.2 Astra and Sol",
+      "description": "",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "score": 1347,
+      "comments": 865,
+      "owner": "jasondavies",
+      "published": "2026-11-17T17:46:43Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50535230"
+    },
+    {
+      "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
+      "description": "",
+      "url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
+      "score": 1310,
+      "comments": 649,
+      "owner": "donohoe",
+      "published": "2026-11-17T11:45:51Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50530163"
+    },
+    {
+      "title": "Lean verification of the Riemann Hypothesis",
+      "description": "",
+      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "score": 1242,
+      "comments": 1047,
+      "owner": "g-b-r",
+      "published": "2026-11-21T14:36:45Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50589618"
+    },
+    {
+      "title": "Java4Shell: RCE in OpenJDK when processing Base64",
+      "description": "",
+      "url": "https://calif.io/java4shell/",
+      "score": 1187,
+      "comments": 339,
+      "owner": "werrett",
+      "published": "2026-11-17T21:11:28Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50538240"
+    },
+    {
+      "title": "Anthropic’s Nasdaq debut",
+      "description": "",
+      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+      "score": 1144,
+      "comments": 2343,
+      "owner": "wslh",
+      "published": "2026-11-19T17:02:40Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50562754"
+    },
+    {
+      "title": "Dario is hyping the dangers so OSS models are illegal and he stays in control",
+      "description": "",
+      "url": "https://twitter.com/ylecun/status/2124550037912920090",
+      "score": 1138,
+      "comments": 632,
+      "owner": "MrBuddyCasino",
+      "published": "2026-11-23T17:07:26Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50615308"
+    },
+    {
+      "title": "Gemini 4 Neon",
+      "description": "",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "score": 1070,
+      "comments": 775,
+      "owner": "yigitdemirag",
+      "published": "2026-11-18T21:34:07Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50552424"
+    },
+    {
+      "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
+      "description": "",
+      "url": "https://z.ai/blog/glm-5.4",
+      "score": 1049,
+      "comments": 345,
+      "owner": "foohis",
+      "published": "2026-11-23T10:06:43Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50609685"
+    },
+    {
+      "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+      "description": "",
+      "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+      "score": 1027,
+      "comments": 1005,
+      "owner": "happosai",
+      "published": "2026-11-22T08:57:34Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50597612"
+    },
+    {
+      "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
+      "description": "",
+      "url": "https://spelunkr.tv",
+      "score": 941,
+      "comments": 161,
+      "owner": "SockThief",
+      "published": "2026-11-23T01:13:51Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50606192"
+    },
+    {
+      "title": "Quad9's withdrawal from France: A canary in the coal mine",
+      "description": "",
+      "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+      "score": 911,
+      "comments": 457,
+      "owner": "subset",
+      "published": "2026-11-17T22:13:34Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50538994"
+    }
+  ]
+}
