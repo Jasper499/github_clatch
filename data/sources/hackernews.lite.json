@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-11-25T21:36:01Z",
+  "savedAt": "2026-11-25T22:59:08Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-11-25，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -20,8 +20,8 @@
       "title": "Nvidia Reinstates Jensen Huang as CEO",
       "description": "<a href=\"https:&#x2F;&#x2F;nvidianews.nvidia.com&#x2F;news&#x2F;nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director\" rel=\"nofollow\">https:&#x2F;&#x2F;nvidianews.nvidia.com&#x2F;news&#x2F;nvidia-board-reinstates-j...</a><p><a href=\"https:&#x2F;&#x2F;www.cnbc.com&#x2F;2026&#x2F;11&#x2F;23&#x2F;nvidia-jensen-huang-congress-trump.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cnbc.com&#x2F;2026&#x2F;11&#x2F;23&#x2F;nvidia-jensen-huang-congress...</a>",
       "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
-      "score": 2838,
-      "comments": 3794,
+      "score": 2839,
+      "comments": 3797,
       "owner": "jaz",
       "published": "2026-11-23T14:00:18Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50611576"
@@ -40,7 +40,7 @@
       "title": "Ladybird is now in alpha",
       "description": "",
       "url": "https://ladybird.org/posts/alpha/",
-      "score": 2424,
+      "score": 2426,
       "comments": 622,
       "owner": "janvdberg",
       "published": "2026-11-23T16:13:12Z",
@@ -70,7 +70,7 @@
       "title": "Inkling 2 Mini",
       "description": "",
       "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
-      "score": 1487,
+      "score": 1488,
       "comments": 297,
       "owner": "jasondavies",
       "published": "2026-11-20T20:12:19Z",
@@ -80,7 +80,7 @@
       "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
       "description": "",
       "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
-      "score": 1399,
+      "score": 1400,
       "comments": 742,
       "owner": "zdw",
       "published": "2026-11-22T04:04:56Z",
@@ -110,8 +110,8 @@
       "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
       "description": "",
       "url": "https://z.ai/blog/glm-5.4",
-      "score": 1177,
-      "comments": 384,
+      "score": 1179,
+      "comments": 385,
       "owner": "foohis",
       "published": "2026-11-23T10:06:43Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50609685"
@@ -121,7 +121,7 @@
       "description": "",
       "url": "https://arm.jonpalmisc.com/",
       "score": 1177,
-      "comments": 293,
+      "comments": 294,
       "owner": "tech234a",
       "published": "2026-11-23T19:17:55Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50617499"
@@ -160,31 +160,41 @@
       "title": "2035 came early",
       "description": "",
       "url": "https://fzakaria.com/2026/11/23/2035-came-early",
-      "score": 1017,
+      "score": 1018,
       "comments": 374,
       "owner": "setheron",
       "published": "2026-11-24T06:30:33Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50624497"
     },
     {
+      "title": "The matrix multiplication exponent is nine fourths [pdf]",
+      "description": "See also <i>Holy shit holy shit holy shit holy shit: the magnitude of what’s now happening</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50646108\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50646108</a>",
+      "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+      "score": 1009,
+      "comments": 558,
+      "owner": "E-Reverance",
+      "published": "2026-11-25T01:19:26Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50637220"
+    },
+    {
       "title": "LLM agents work for their parent companies, not for you",
       "description": "",
       "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
-      "score": 997,
+      "score": 998,
       "comments": 410,
       "owner": "surprisetalk",
       "published": "2026-11-24T12:40:15Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50627340"
     },
     {
-      "title": "The matrix multiplication exponent is nine fourths [pdf]",
-      "description": "See also <i>Holy shit holy shit holy shit holy shit: the magnitude of what’s now happening</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50646108\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50646108</a>",
-      "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
-      "score": 981,
-      "comments": 547,
-      "owner": "E-Reverance",
-      "published": "2026-11-25T01:19:26Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50637220"
+      "title": "1Password Security Incident",
+      "description": "",
+      "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+      "score": 961,
+      "comments": 405,
+      "owner": "lxhrstn",
+      "published": "2026-11-25T17:18:26Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50644817"
     },
     {
       "title": "Pancreatic cancer halted by virus injection in three patients",
@@ -195,16 +205,6 @@
       "owner": "cybermango",
       "published": "2026-11-19T17:25:33Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50563066"
-    },
-    {
-      "title": "We need smart people who give a shit",
-      "description": "",
-      "url": "https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/",
-      "score": 842,
-      "comments": 428,
-      "owner": "ExMachina73",
-      "published": "2026-11-18T23:53:49Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50554045"
     }
   ]
 }
