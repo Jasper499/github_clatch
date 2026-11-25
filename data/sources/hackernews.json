@@ -1,10 +1,10 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-11-24T23:25:25Z",
+  "savedAt": "2026-11-25T08:18:48Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-11-24，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-11-25，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-11-24",
+  "fetchedDate": "2026-11-25",
   "items": [
     {
       "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
@@ -20,8 +20,8 @@
       "title": "Nvidia Reinstates Jensen Huang as CEO",
       "description": "<a href=\"https:&#x2F;&#x2F;nvidianews.nvidia.com&#x2F;news&#x2F;nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director\" rel=\"nofollow\">https:&#x2F;&#x2F;nvidianews.nvidia.com&#x2F;news&#x2F;nvidia-board-reinstates-j...</a><p><a href=\"https:&#x2F;&#x2F;www.cnbc.com&#x2F;2026&#x2F;11&#x2F;23&#x2F;nvidia-jensen-huang-congress-trump.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cnbc.com&#x2F;2026&#x2F;11&#x2F;23&#x2F;nvidia-jensen-huang-congress...</a>",
       "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
-      "score": 2783,
-      "comments": 3687,
+      "score": 2817,
+      "comments": 3749,
       "owner": "jaz",
       "published": "2026-11-23T14:00:18Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50611576"
@@ -30,8 +30,8 @@
       "title": "Hurried Announcement: Alessandro Masullo GRH",
       "description": "Related: <i>Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50574968\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50574968</a>",
       "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
-      "score": 2452,
-      "comments": 1224,
+      "score": 2453,
+      "comments": 1226,
       "owner": "jasondavies",
       "published": "2026-11-20T18:33:14Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50579568"
@@ -40,8 +40,8 @@
       "title": "Ladybird is now in alpha",
       "description": "",
       "url": "https://ladybird.org/posts/alpha/",
-      "score": 2375,
-      "comments": 591,
+      "score": 2399,
+      "comments": 601,
       "owner": "janvdberg",
       "published": "2026-11-23T16:13:12Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50614249"
@@ -50,8 +50,8 @@
       "title": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
       "description": "",
       "url": "https://twitter.com/ylecun/status/2124550037912920090",
-      "score": 1980,
-      "comments": 1166,
+      "score": 1996,
+      "comments": 1176,
       "owner": "MrBuddyCasino",
       "published": "2026-11-23T17:07:26Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50615308"
@@ -60,7 +60,7 @@
       "title": "Jensen Huang Reinstated as Nvidia CEO",
       "description": "",
       "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
-      "score": 1709,
+      "score": 1712,
       "comments": 4,
       "owner": "alanwong",
       "published": "2026-11-23T14:01:23Z",
@@ -80,38 +80,38 @@
       "title": "Inkling 2 Mini",
       "description": "",
       "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
-      "score": 1482,
-      "comments": 296,
+      "score": 1485,
+      "comments": 297,
       "owner": "jasondavies",
       "published": "2026-11-20T20:12:19Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50581260"
     },
     {
-      "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
-      "description": "",
-      "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
-      "score": 1394,
-      "comments": 331,
-      "owner": "rafaelc",
-      "published": "2026-11-20T21:03:12Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50582069"
-    },
-    {
       "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
       "description": "",
       "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
-      "score": 1393,
-      "comments": 737,
+      "score": 1395,
+      "comments": 739,
       "owner": "zdw",
       "published": "2026-11-22T04:04:56Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50596133"
+    },
+    {
+      "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
+      "description": "",
+      "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+      "score": 1395,
+      "comments": 332,
+      "owner": "rafaelc",
+      "published": "2026-11-20T21:03:12Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50582069"
     },
     {
       "title": "Lean verification of the Riemann Hypothesis",
       "description": "",
       "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
       "score": 1246,
-      "comments": 1055,
+      "comments": 1057,
       "owner": "g-b-r",
       "published": "2026-11-21T14:36:45Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50589618"
@@ -120,8 +120,8 @@
       "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
       "description": "",
       "url": "https://z.ai/blog/glm-5.4",
-      "score": 1161,
-      "comments": 380,
+      "score": 1173,
+      "comments": 382,
       "owner": "foohis",
       "published": "2026-11-23T10:06:43Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50609685"
@@ -130,8 +130,8 @@
       "title": "Per Arm's request, this site will be discontinued on 4 December 2026 :(",
       "description": "",
       "url": "https://arm.jonpalmisc.com/",
-      "score": 1156,
-      "comments": 282,
+      "score": 1171,
+      "comments": 290,
       "owner": "tech234a",
       "published": "2026-11-23T19:17:55Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50617499"
@@ -147,6 +147,16 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50562754"
     },
     {
+      "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
+      "description": "",
+      "url": "https://spelunkr.tv",
+      "score": 1075,
+      "comments": 181,
+      "owner": "SockThief",
+      "published": "2026-11-23T01:13:51Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50606192"
+    },
+    {
       "title": "Gemini 4 Neon",
       "description": "",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
@@ -157,21 +167,11 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50552424"
     },
     {
-      "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
-      "description": "",
-      "url": "https://spelunkr.tv",
-      "score": 1065,
-      "comments": 181,
-      "owner": "SockThief",
-      "published": "2026-11-23T01:13:51Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50606192"
-    },
-    {
       "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
       "description": "",
       "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
-      "score": 1038,
-      "comments": 1006,
+      "score": 1040,
+      "comments": 1009,
       "owner": "happosai",
       "published": "2026-11-22T08:57:34Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50597612"
@@ -180,31 +180,31 @@
       "title": "2035 came early",
       "description": "",
       "url": "https://fzakaria.com/2026/11/23/2035-came-early",
-      "score": 942,
-      "comments": 359,
+      "score": 993,
+      "comments": 371,
       "owner": "setheron",
       "published": "2026-11-24T06:30:33Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50624497"
     },
     {
+      "title": "LLM agents work for their parent companies, not for you",
+      "description": "",
+      "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+      "score": 964,
+      "comments": 399,
+      "owner": "surprisetalk",
+      "published": "2026-11-24T12:40:15Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50627340"
+    },
+    {
       "title": "Pancreatic cancer halted by virus injection in three patients",
       "description": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;2Et0x\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;2Et0x</a><p><a href=\"https:&#x2F;&#x2F;clinicaltrials.gov&#x2F;study&#x2F;NCT06693986\" rel=\"nofollow\">https:&#x2F;&#x2F;clinicaltrials.gov&#x2F;study&#x2F;NCT06693986</a>",
       "url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
-      "score": 892,
+      "score": 893,
       "comments": 157,
       "owner": "cybermango",
       "published": "2026-11-19T17:25:33Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50563066"
-    },
-    {
-      "title": "LLM agents work for their parent companies, not for you",
-      "description": "",
-      "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
-      "score": 865,
-      "comments": 363,
-      "owner": "surprisetalk",
-      "published": "2026-11-24T12:40:15Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50627340"
     }
   ]
 }
