@@ -1,12 +1,32 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-11-24T23:31:44Z",
+  "savedAt": "2026-11-25T11:00:16Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "c6701dbea29afa7c596d029b957b7edc92130ea5",
+  "latestSha": "c300047218d1015f3edeeea33a72cd298a7e9de5",
   "items": [
+    {
+      "title": "Update README.md",
+      "description": "Update README.md",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c300047218d1015f3edeeea33a72cd298a7e9de5",
+      "sha": "c300047",
+      "fullSha": "c300047218d1015f3edeeea33a72cd298a7e9de5",
+      "owner": "Flyme886",
+      "published": "2026-11-25",
+      "label": "commit"
+    },
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/fe5d5d5c06f0eefe8bbb68fc945dc328f93c5fcb",
+      "sha": "fe5d5d5",
+      "fullSha": "fe5d5d5c06f0eefe8bbb68fc945dc328f93c5fcb",
+      "owner": "github-actions",
+      "published": "2026-11-25",
+      "label": "commit"
+    },
     {
       "title": "Use white-background Nature AI service image",
       "description": "Use white-background Nature AI service image",
@@ -134,26 +154,6 @@
       "sha": "41db961",
       "fullSha": "41db96189f1f8aa4b4281719b31c4ba07aa13959",
       "owner": "Yuan1z0825",
-      "published": "2026-11-19",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #295 from ls-open/docs/paper2word-format-flag-and-…",
-      "description": "Merge pull request #295 from ls-open/docs/paper2word-format-flag-and-base-template\n\ndocs(nature-paper2word): use `-f` for the format file, add the school-template path",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/210ffb9ef1a0f2499441d50ad58880d62d40574a",
-      "sha": "210ffb9",
-      "fullSha": "210ffb9ef1a0f2499441d50ad58880d62d40574a",
-      "owner": "Yuan1z0825",
-      "published": "2026-11-19",
-      "label": "commit"
-    },
-    {
-      "title": "chore: update star history",
-      "description": "chore: update star history",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/1d1b9dd00a9e5fde1fdc0e15b03919d9c256cfc4",
-      "sha": "1d1b9dd",
-      "fullSha": "1d1b9dd00a9e5fde1fdc0e15b03919d9c256cfc4",
-      "owner": "github-actions",
       "published": "2026-11-19",
       "label": "commit"
     }
