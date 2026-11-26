@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-11-26T10:37:06Z",
+  "savedAt": "2026-11-26T19:48:05Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-11-26，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -10,8 +10,8 @@
       "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
       "description": "Related: <i>Hurried Announcement: Alessandro Masullo GRH</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50579568\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50579568</a>",
       "url": "https://alpo.ge/remark.pdf",
-      "score": 2934,
-      "comments": 2126,
+      "score": 2935,
+      "comments": 2127,
       "owner": "iamronaldo",
       "published": "2026-11-20T14:16:21Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50574968"
@@ -20,8 +20,8 @@
       "title": "Nvidia Reinstates Jensen Huang as CEO",
       "description": "<a href=\"https:&#x2F;&#x2F;nvidianews.nvidia.com&#x2F;news&#x2F;nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director\" rel=\"nofollow\">https:&#x2F;&#x2F;nvidianews.nvidia.com&#x2F;news&#x2F;nvidia-board-reinstates-j...</a><p><a href=\"https:&#x2F;&#x2F;www.cnbc.com&#x2F;2026&#x2F;11&#x2F;23&#x2F;nvidia-jensen-huang-congress-trump.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cnbc.com&#x2F;2026&#x2F;11&#x2F;23&#x2F;nvidia-jensen-huang-congress...</a>",
       "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
-      "score": 2843,
-      "comments": 3804,
+      "score": 2849,
+      "comments": 3815,
       "owner": "jaz",
       "published": "2026-11-23T14:00:18Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50611576"
@@ -30,7 +30,7 @@
       "title": "Hurried Announcement: Alessandro Masullo GRH",
       "description": "Related: <i>Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50574968\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50574968</a>",
       "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
-      "score": 2453,
+      "score": 2454,
       "comments": 1226,
       "owner": "jasondavies",
       "published": "2026-11-20T18:33:14Z",
@@ -40,8 +40,8 @@
       "title": "Ladybird is now in alpha",
       "description": "",
       "url": "https://ladybird.org/posts/alpha/",
-      "score": 2438,
-      "comments": 625,
+      "score": 2446,
+      "comments": 630,
       "owner": "janvdberg",
       "published": "2026-11-23T16:13:12Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50614249"
@@ -50,11 +50,21 @@
       "title": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
       "description": "",
       "url": "https://twitter.com/ylecun/status/2124550037912920090",
-      "score": 2014,
-      "comments": 1196,
+      "score": 2019,
+      "comments": 1201,
       "owner": "MrBuddyCasino",
       "published": "2026-11-23T17:07:26Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50615308"
+    },
+    {
+      "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
+      "description": "See also <i>The matrix multiplication exponent is nine fourths [pdf]</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50637220\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50637220</a>",
+      "url": "https://scottaaronson.blog/?p=10379",
+      "score": 1912,
+      "comments": 1750,
+      "owner": "Kotlopou",
+      "published": "2026-11-25T19:11:27Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50646108"
     },
     {
       "title": "Jensen Huang Reinstated as Nvidia CEO",
@@ -67,14 +77,14 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50611588"
     },
     {
-      "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
-      "description": "See also <i>The matrix multiplication exponent is nine fourths [pdf]</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50637220\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50637220</a>",
-      "url": "https://scottaaronson.blog/?p=10379",
-      "score": 1571,
-      "comments": 1378,
-      "owner": "Kotlopou",
-      "published": "2026-11-25T19:11:27Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50646108"
+      "title": "1Password Security Incident",
+      "description": "",
+      "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+      "score": 1617,
+      "comments": 696,
+      "owner": "lxhrstn",
+      "published": "2026-11-25T17:18:26Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50644817"
     },
     {
       "title": "Inkling 2 Mini",
@@ -85,16 +95,6 @@
       "owner": "jasondavies",
       "published": "2026-11-20T20:12:19Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50581260"
-    },
-    {
-      "title": "1Password Security Incident",
-      "description": "",
-      "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
-      "score": 1446,
-      "comments": 614,
-      "owner": "lxhrstn",
-      "published": "2026-11-25T17:18:26Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50644817"
     },
     {
       "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
@@ -127,71 +127,61 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50589618"
     },
     {
-      "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
-      "description": "",
-      "url": "https://z.ai/blog/glm-5.4",
-      "score": 1179,
-      "comments": 386,
-      "owner": "foohis",
-      "published": "2026-11-23T10:06:43Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50609685"
-    },
-    {
       "title": "Per Arm's request, this site will be discontinued on 4 December 2026 :(",
       "description": "",
       "url": "https://arm.jonpalmisc.com/",
-      "score": 1178,
+      "score": 1182,
       "comments": 295,
       "owner": "tech234a",
       "published": "2026-11-23T19:17:55Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50617499"
     },
     {
-      "title": "Anthropic’s Nasdaq debut",
+      "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
       "description": "",
-      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
-      "score": 1146,
-      "comments": 2345,
-      "owner": "wslh",
-      "published": "2026-11-19T17:02:40Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50562754"
+      "url": "https://z.ai/blog/glm-5.4",
+      "score": 1180,
+      "comments": 386,
+      "owner": "foohis",
+      "published": "2026-11-23T10:06:43Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50609685"
     },
     {
       "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
       "description": "",
       "url": "https://spelunkr.tv",
-      "score": 1091,
+      "score": 1095,
       "comments": 187,
       "owner": "SockThief",
       "published": "2026-11-23T01:13:51Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50606192"
     },
     {
-      "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
-      "description": "",
-      "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
-      "score": 1042,
-      "comments": 1010,
-      "owner": "happosai",
-      "published": "2026-11-22T08:57:34Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50597612"
-    },
-    {
       "title": "The matrix multiplication exponent is nine fourths [pdf]",
       "description": "See also <i>Holy shit holy shit holy shit holy shit: the magnitude of what’s now happening</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50646108\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50646108</a>",
       "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
-      "score": 1042,
-      "comments": 592,
+      "score": 1059,
+      "comments": 604,
       "owner": "E-Reverance",
       "published": "2026-11-25T01:19:26Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50637220"
     },
     {
+      "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+      "description": "",
+      "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+      "score": 1043,
+      "comments": 1011,
+      "owner": "happosai",
+      "published": "2026-11-22T08:57:34Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50597612"
+    },
+    {
       "title": "2035 came early",
       "description": "",
       "url": "https://fzakaria.com/2026/11/23/2035-came-early",
-      "score": 1025,
-      "comments": 375,
+      "score": 1029,
+      "comments": 378,
       "owner": "setheron",
       "published": "2026-11-24T06:30:33Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50624497"
@@ -200,11 +190,21 @@
       "title": "LLM agents work for their parent companies, not for you",
       "description": "",
       "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
-      "score": 1016,
-      "comments": 411,
+      "score": 1025,
+      "comments": 412,
       "owner": "surprisetalk",
       "published": "2026-11-24T12:40:15Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50627340"
+    },
+    {
+      "title": "Button Sounds – collection of professionally-recorded button clicks and presses",
+      "description": "",
+      "url": "https://buttons.joshwcomeau.com/",
+      "score": 878,
+      "comments": 134,
+      "owner": "gaurang_tandon",
+      "published": "2026-11-25T03:23:07Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50638032"
     }
   ]
 }
