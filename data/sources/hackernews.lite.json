@@ -1,17 +1,17 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-11-25T22:59:08Z",
+  "savedAt": "2026-11-26T08:04:17Z",
   "label": "Hacker News 热门",
-  "description": "近 7 天 HN 高互动讨论（2026-11-25，共 20 条）",
+  "description": "近 7 天 HN 高互动讨论（2026-11-26，共 20 条）",
   "updateFrequency": "twice-daily",
-  "fetchedDate": "2026-11-25",
+  "fetchedDate": "2026-11-26",
   "items": [
     {
       "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
       "description": "Related: <i>Hurried Announcement: Alessandro Masullo GRH</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50579568\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50579568</a>",
       "url": "https://alpo.ge/remark.pdf",
       "score": 2934,
-      "comments": 2123,
+      "comments": 2126,
       "owner": "iamronaldo",
       "published": "2026-11-20T14:16:21Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50574968"
@@ -20,8 +20,8 @@
       "title": "Nvidia Reinstates Jensen Huang as CEO",
       "description": "<a href=\"https:&#x2F;&#x2F;nvidianews.nvidia.com&#x2F;news&#x2F;nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director\" rel=\"nofollow\">https:&#x2F;&#x2F;nvidianews.nvidia.com&#x2F;news&#x2F;nvidia-board-reinstates-j...</a><p><a href=\"https:&#x2F;&#x2F;www.cnbc.com&#x2F;2026&#x2F;11&#x2F;23&#x2F;nvidia-jensen-huang-congress-trump.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cnbc.com&#x2F;2026&#x2F;11&#x2F;23&#x2F;nvidia-jensen-huang-congress...</a>",
       "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
-      "score": 2839,
-      "comments": 3797,
+      "score": 2842,
+      "comments": 3802,
       "owner": "jaz",
       "published": "2026-11-23T14:00:18Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50611576"
@@ -40,8 +40,8 @@
       "title": "Ladybird is now in alpha",
       "description": "",
       "url": "https://ladybird.org/posts/alpha/",
-      "score": 2426,
-      "comments": 622,
+      "score": 2437,
+      "comments": 625,
       "owner": "janvdberg",
       "published": "2026-11-23T16:13:12Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50614249"
@@ -50,8 +50,8 @@
       "title": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
       "description": "",
       "url": "https://twitter.com/ylecun/status/2124550037912920090",
-      "score": 2010,
-      "comments": 1199,
+      "score": 2014,
+      "comments": 1196,
       "owner": "MrBuddyCasino",
       "published": "2026-11-23T17:07:26Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50615308"
@@ -80,7 +80,7 @@
       "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
       "description": "",
       "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
-      "score": 1400,
+      "score": 1402,
       "comments": 742,
       "owner": "zdw",
       "published": "2026-11-22T04:04:56Z",
@@ -90,18 +90,38 @@
       "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
       "description": "",
       "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
-      "score": 1398,
-      "comments": 333,
+      "score": 1400,
+      "comments": 334,
       "owner": "rafaelc",
       "published": "2026-11-20T21:03:12Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50582069"
     },
     {
+      "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
+      "description": "See also <i>The matrix multiplication exponent is nine fourths [pdf]</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50637220\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50637220</a>",
+      "url": "https://scottaaronson.blog/?p=10379",
+      "score": 1393,
+      "comments": 1216,
+      "owner": "Kotlopou",
+      "published": "2026-11-25T19:11:27Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50646108"
+    },
+    {
+      "title": "1Password Security Incident",
+      "description": "",
+      "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+      "score": 1378,
+      "comments": 578,
+      "owner": "lxhrstn",
+      "published": "2026-11-25T17:18:26Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50644817"
+    },
+    {
       "title": "Lean verification of the Riemann Hypothesis",
       "description": "",
       "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-      "score": 1247,
-      "comments": 1059,
+      "score": 1248,
+      "comments": 1060,
       "owner": "g-b-r",
       "published": "2026-11-21T14:36:45Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50589618"
@@ -111,7 +131,7 @@
       "description": "",
       "url": "https://z.ai/blog/glm-5.4",
       "score": 1179,
-      "comments": 385,
+      "comments": 386,
       "owner": "foohis",
       "published": "2026-11-23T10:06:43Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50609685"
@@ -120,8 +140,8 @@
       "title": "Per Arm's request, this site will be discontinued on 4 December 2026 :(",
       "description": "",
       "url": "https://arm.jonpalmisc.com/",
-      "score": 1177,
-      "comments": 294,
+      "score": 1178,
+      "comments": 295,
       "owner": "tech234a",
       "published": "2026-11-23T19:17:55Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50617499"
@@ -140,8 +160,8 @@
       "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
       "description": "",
       "url": "https://spelunkr.tv",
-      "score": 1086,
-      "comments": 186,
+      "score": 1091,
+      "comments": 187,
       "owner": "SockThief",
       "published": "2026-11-23T01:13:51Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50606192"
@@ -157,54 +177,34 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50597612"
     },
     {
+      "title": "The matrix multiplication exponent is nine fourths [pdf]",
+      "description": "See also <i>Holy shit holy shit holy shit holy shit: the magnitude of what’s now happening</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50646108\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50646108</a>",
+      "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+      "score": 1038,
+      "comments": 589,
+      "owner": "E-Reverance",
+      "published": "2026-11-25T01:19:26Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50637220"
+    },
+    {
       "title": "2035 came early",
       "description": "",
       "url": "https://fzakaria.com/2026/11/23/2035-came-early",
-      "score": 1018,
+      "score": 1023,
       "comments": 374,
       "owner": "setheron",
       "published": "2026-11-24T06:30:33Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50624497"
     },
     {
-      "title": "The matrix multiplication exponent is nine fourths [pdf]",
-      "description": "See also <i>Holy shit holy shit holy shit holy shit: the magnitude of what’s now happening</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50646108\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50646108</a>",
-      "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
-      "score": 1009,
-      "comments": 558,
-      "owner": "E-Reverance",
-      "published": "2026-11-25T01:19:26Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50637220"
-    },
-    {
       "title": "LLM agents work for their parent companies, not for you",
       "description": "",
       "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
-      "score": 998,
+      "score": 1013,
       "comments": 410,
       "owner": "surprisetalk",
       "published": "2026-11-24T12:40:15Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50627340"
-    },
-    {
-      "title": "1Password Security Incident",
-      "description": "",
-      "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
-      "score": 961,
-      "comments": 405,
-      "owner": "lxhrstn",
-      "published": "2026-11-25T17:18:26Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50644817"
-    },
-    {
-      "title": "Pancreatic cancer halted by virus injection in three patients",
-      "description": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;2Et0x\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;2Et0x</a><p><a href=\"https:&#x2F;&#x2F;clinicaltrials.gov&#x2F;study&#x2F;NCT06693986\" rel=\"nofollow\">https:&#x2F;&#x2F;clinicaltrials.gov&#x2F;study&#x2F;NCT06693986</a>",
-      "url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
-      "score": 895,
-      "comments": 157,
-      "owner": "cybermango",
-      "published": "2026-11-19T17:25:33Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50563066"
     }
   ]
 }
