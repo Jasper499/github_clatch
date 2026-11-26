@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-11-25T23:09:32Z",
+  "savedAt": "2026-11-26T10:00:31Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "c300047218d1015f3edeeea33a72cd298a7e9de5",
+  "latestSha": "96a89bc7ef78e3bece9a50bb9ad08ddea4dc0e1e",
   "items": [
+    {
+      "title": "Merge pull request #299 from DrZoggg/fix-pubmed-test-subelement-20261125",
+      "description": "Merge pull request #299 from DrZoggg/fix-pubmed-test-subelement-20261125\n\nFix PubMed test fixture construction with stdlib SubElement",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/96a89bc7ef78e3bece9a50bb9ad08ddea4dc0e1e",
+      "sha": "96a89bc",
+      "fullSha": "96a89bc7ef78e3bece9a50bb9ad08ddea4dc0e1e",
+      "owner": "Yuan1z0825",
+      "published": "2026-11-26",
+      "label": "commit"
+    },
     {
       "title": "Update README.md",
       "description": "Update README.md",
@@ -14,6 +24,16 @@
       "sha": "c300047",
       "fullSha": "c300047218d1015f3edeeea33a72cd298a7e9de5",
       "owner": "Flyme886",
+      "published": "2026-11-25",
+      "label": "commit"
+    },
+    {
+      "title": "Use stdlib SubElement to construct PubMed test fixtures",
+      "description": "Use stdlib SubElement to construct PubMed test fixtures",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/ce67cdfc71e4b81d28068d831d07e5821413b36f",
+      "sha": "ce67cdf",
+      "fullSha": "ce67cdfc71e4b81d28068d831d07e5821413b36f",
+      "owner": "DrZoggg",
       "published": "2026-11-25",
       "label": "commit"
     },
@@ -133,26 +153,6 @@
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/e97ba509b8cb7d339bd6e4a035cf85ceb82152e3",
       "sha": "e97ba50",
       "fullSha": "e97ba509b8cb7d339bd6e4a035cf85ceb82152e3",
-      "owner": "Yuan1z0825",
-      "published": "2026-11-19",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #292 from subhansh-dev/fix/nature-figure-ggsave-de…",
-      "description": "Merge pull request #292 from subhansh-dev/fix/nature-figure-ggsave-device-validation\n\nfix(nature-figure): accept ggsave(device = ...) in editable-text check",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c9d9f437f2bc84ba9591206456a7cdf2ef452d1e",
-      "sha": "c9d9f43",
-      "fullSha": "c9d9f437f2bc84ba9591206456a7cdf2ef452d1e",
-      "owner": "Yuan1z0825",
-      "published": "2026-11-19",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #294 from subhansh-dev/feat/pdf-character-spacing-…",
-      "description": "Merge pull request #294 from subhansh-dev/feat/pdf-character-spacing-audit\n\nfeat(nature-figure): audit non-zero PDF character and word spacing",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/41db96189f1f8aa4b4281719b31c4ba07aa13959",
-      "sha": "41db961",
-      "fullSha": "41db96189f1f8aa4b4281719b31c4ba07aa13959",
       "owner": "Yuan1z0825",
       "published": "2026-11-19",
       "label": "commit"

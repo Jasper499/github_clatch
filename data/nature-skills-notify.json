@@ -1,24 +1,34 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-11-25T23:09:32Z",
+  "changed": true,
+  "fetchedAt": "2026-11-26T10:00:31Z",
   "previousSha": "c300047218d1015f3edeeea33a72cd298a7e9de5",
-  "latestSha": "c300047218d1015f3edeeea33a72cd298a7e9de5",
+  "latestSha": "96a89bc7ef78e3bece9a50bb9ad08ddea4dc0e1e",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "Update README.md",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/c300047218d1015f3edeeea33a72cd298a7e9de5",
-    "sha": "c300047",
-    "published": "2026-11-25"
+    "title": "Merge pull request #299 from DrZoggg/fix-pubmed-test-subelement-20261125",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/96a89bc7ef78e3bece9a50bb9ad08ddea4dc0e1e",
+    "sha": "96a89bc",
+    "published": "2026-11-26"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
     {
+      "title": "Merge pull request #299 from DrZoggg/fix-pubmed-test-subelement-20261125",
+      "sha": "96a89bc",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/96a89bc7ef78e3bece9a50bb9ad08ddea4dc0e1e"
+    },
+    {
       "title": "Update README.md",
       "sha": "c300047",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/c300047218d1015f3edeeea33a72cd298a7e9de5"
+    },
+    {
+      "title": "Use stdlib SubElement to construct PubMed test fixtures",
+      "sha": "ce67cdf",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/ce67cdfc71e4b81d28068d831d07e5821413b36f"
     },
     {
       "title": "chore: update star history",
@@ -29,16 +39,6 @@
       "title": "Use white-background Nature AI service image",
       "sha": "c6701db",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/c6701dbea29afa7c596d029b957b7edc92130ea5"
-    },
-    {
-      "title": "Restore previous Nature AI service banner",
-      "sha": "d16b3e2",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/d16b3e2c113fb1ca9149af76504b9e10286a55bb"
-    },
-    {
-      "title": "Replace Nature AI service banner",
-      "sha": "9b34a65",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/9b34a650df0efa4b18118255ba995d881e2d24f0"
     }
   ]
 }
