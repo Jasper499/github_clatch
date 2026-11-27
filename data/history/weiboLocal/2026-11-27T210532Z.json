@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-27T210532Z",
+  "day": "2026-11-27",
+  "sourceKey": "weiboLocal",
+  "savedAt": "2026-11-27T21:05:32Z",
+  "label": "同城",
+  "description": "城事/社会民生向热搜（公开接口暂无官方同城榜；2026-11-27，共 4 条，约每 6 小时更新）",
+  "updateFrequency": "every-6h",
+  "fetchedDate": "2026-11-27",
+  "items": [
+    {
+      "title": "三只松鼠一夜整改反而让人唏嘘",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%89%E5%8F%AA%E6%9D%BE%E9%BC%A0%E4%B8%80%E5%A4%9C%E6%95%B4%E6%94%B9%E5%8F%8D%E8%80%8C%E8%AE%A9%E4%BA%BA%E5%94%8F%E5%98%98%23&t=31&band_rank=1&Refer=top",
+      "score": 59455,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1795786761
+    },
+    {
+      "title": "妻子出轨生子丈夫选择抚养第三者急了",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A6%BB%E5%AD%90%E5%87%BA%E8%BD%A8%E7%94%9F%E5%AD%90%E4%B8%88%E5%A4%AB%E9%80%89%E6%8B%A9%E6%8A%9A%E5%85%BB%E7%AC%AC%E4%B8%89%E8%80%85%E6%80%A5%E4%BA%86%23&t=31&band_rank=1&Refer=top",
+      "score": 30647,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1795779920
+    },
+    {
+      "title": "济南医保骂人主播被解除劳动关系",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B5%8E%E5%8D%97%E5%8C%BB%E4%BF%9D%E9%AA%82%E4%BA%BA%E4%B8%BB%E6%92%AD%E8%A2%AB%E8%A7%A3%E9%99%A4%E5%8A%B3%E5%8A%A8%E5%85%B3%E7%B3%BB%23&t=31&band_rank=1&Refer=top",
+      "score": 28729,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1795807875
+    },
+    {
+      "title": "男子去世前曾为已去世女友守灵3天",
+      "description": "民生新闻",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E5%8E%BB%E4%B8%96%E5%89%8D%E6%9B%BE%E4%B8%BA%E5%B7%B2%E5%8E%BB%E4%B8%96%E5%A5%B3%E5%8F%8B%E5%AE%88%E7%81%B53%E5%A4%A9%23&t=31&band_rank=1&Refer=top",
+      "score": 27635,
+      "owner": "微博同城",
+      "label": "",
+      "category": "民生新闻",
+      "onboardTime": 1795786520
+    }
+  ]
+}
