@@ -1,6 +1,6 @@
 {
   "sourceKey": "hackernews",
-  "savedAt": "2026-11-27T21:06:03Z",
+  "savedAt": "2026-11-27T22:33:15Z",
   "label": "Hacker News 热门",
   "description": "近 7 天 HN 高互动讨论（2026-11-27，共 20 条）",
   "updateFrequency": "twice-daily",
@@ -20,7 +20,7 @@
       "title": "Ladybird is now in alpha",
       "description": "",
       "url": "https://ladybird.org/posts/alpha/",
-      "score": 2466,
+      "score": 2467,
       "comments": 741,
       "owner": "janvdberg",
       "published": "2026-11-23T16:13:12Z",
@@ -31,7 +31,7 @@
       "description": "See also <i>The matrix multiplication exponent is nine fourths [pdf]</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50637220\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50637220</a>",
       "url": "https://scottaaronson.blog/?p=10379",
       "score": 2033,
-      "comments": 1877,
+      "comments": 1879,
       "owner": "Kotlopou",
       "published": "2026-11-25T19:11:27Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50646108"
@@ -41,7 +41,7 @@
       "description": "",
       "url": "https://twitter.com/ylecun/status/2124550037912920090",
       "score": 2024,
-      "comments": 1206,
+      "comments": 1207,
       "owner": "MrBuddyCasino",
       "published": "2026-11-23T17:07:26Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50615308"
@@ -60,7 +60,7 @@
       "title": "1Password Security Incident",
       "description": "",
       "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
-      "score": 1695,
+      "score": 1700,
       "comments": 724,
       "owner": "lxhrstn",
       "published": "2026-11-25T17:18:26Z",
@@ -117,6 +117,16 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50606192"
     },
     {
+      "title": "AI made self-hosting fun again",
+      "description": "",
+      "url": "https://janlukas.blog/posts/ai-self-hosting",
+      "score": 1068,
+      "comments": 500,
+      "owner": "jlelse",
+      "published": "2026-11-26T21:47:45Z",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50660180"
+    },
+    {
       "title": "The matrix multiplication exponent is nine fourths [pdf]",
       "description": "See also <i>Holy shit holy shit holy shit holy shit: the magnitude of what’s now happening</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50646108\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50646108</a>",
       "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
@@ -135,16 +145,6 @@
       "owner": "happosai",
       "published": "2026-11-22T08:57:34Z",
       "discussionUrl": "https://news.ycombinator.com/item?id=50597612"
-    },
-    {
-      "title": "AI made self-hosting fun again",
-      "description": "",
-      "url": "https://janlukas.blog/posts/ai-self-hosting",
-      "score": 1042,
-      "comments": 492,
-      "owner": "jlelse",
-      "published": "2026-11-26T21:47:45Z",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50660180"
     },
     {
       "title": "2035 came early",
@@ -170,7 +170,7 @@
       "title": "Button Sounds – collection of professionally-recorded button clicks and presses",
       "description": "",
       "url": "https://buttons.joshwcomeau.com/",
-      "score": 901,
+      "score": 903,
       "comments": 136,
       "owner": "gaurang_tandon",
       "published": "2026-11-25T03:23:07Z",
