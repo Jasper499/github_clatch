@@ -6,52 +6,100 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "hackernews:https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
-      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
-      "title": "[Hacker News 热门] Nvidia Reinstates Jensen Huang as CEO",
-      "date_published": "2026-11-27T21:06:03Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills",
+      "url": "https://github.com/Yuan1z0825/nature-skills",
+      "title": "[Skills 清单] Yuan1z0825/nature-skills · 仓库总览",
+      "date_published": "2026-11-27T22:18:41Z"
     },
     {
-      "id": "hackernews:https://ladybird.org/posts/alpha/",
-      "url": "https://ladybird.org/posts/alpha/",
-      "title": "[Hacker News 热门] Ladybird is now in alpha",
-      "date_published": "2026-11-27T21:06:03Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-academic-search",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-academic-search",
+      "title": "[Skills 清单] nature-academic-search",
+      "date_published": "2026-11-27T22:18:41Z"
     },
     {
-      "id": "hackernews:https://scottaaronson.blog/?p=10379",
-      "url": "https://scottaaronson.blog/?p=10379",
-      "title": "[Hacker News 热门] Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
-      "date_published": "2026-11-27T21:06:03Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-citation",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-citation",
+      "title": "[Skills 清单] nature-citation",
+      "date_published": "2026-11-27T22:18:41Z"
     },
     {
-      "id": "hackernews:https://twitter.com/ylecun/status/2124550037912920090",
-      "url": "https://twitter.com/ylecun/status/2124550037912920090",
-      "title": "[Hacker News 热门] \"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
-      "date_published": "2026-11-27T21:06:03Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-data",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-data",
+      "title": "[Skills 清单] nature-data",
+      "date_published": "2026-11-27T22:18:41Z"
     },
     {
-      "id": "hackernews:https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
-      "title": "[Hacker News 热门] Jensen Huang Reinstated as Nvidia CEO",
-      "date_published": "2026-11-27T21:06:03Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-downloader",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-downloader",
+      "title": "[Skills 清单] nature-downloader",
+      "date_published": "2026-11-27T22:18:41Z"
     },
     {
-      "id": "hackernews:https://1password.com/blog/update-on-nov-2026-security-incident",
-      "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
-      "title": "[Hacker News 热门] 1Password Security Incident",
-      "date_published": "2026-11-27T21:06:03Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-experiment-log",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-experiment-log",
+      "title": "[Skills 清单] nature-experiment-log",
+      "date_published": "2026-11-27T22:18:41Z"
     },
     {
-      "id": "hackernews:https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
-      "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
-      "title": "[Hacker News 热门] Toyota, Nissan, and Honda to standardize parts to lower costs",
-      "date_published": "2026-11-27T21:06:03Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-figure",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-figure",
+      "title": "[Skills 清单] nature-figure",
+      "date_published": "2026-11-27T22:18:41Z"
     },
     {
-      "id": "hackernews:https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-      "title": "[Hacker News 热门] Lean verification of the Riemann Hypothesis",
-      "date_published": "2026-11-27T21:06:03Z"
+      "id": "natureSkills:https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-literature-pipeline",
+      "url": "https://github.com/Yuan1z0825/nature-skills/tree/main/skills/nature-literature-pipeline",
+      "title": "[Skills 清单] nature-literature-pipeline",
+      "date_published": "2026-11-27T22:18:41Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/96a89bc7ef78e3bece9a50bb9ad08ddea4dc0e1e",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/96a89bc7ef78e3bece9a50bb9ad08ddea4dc0e1e",
+      "title": "[最近提交] Merge pull request #299 from DrZoggg/fix-pubmed-test-subelement-20261125",
+      "date_published": "2026-11-27T22:18:41Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/c300047218d1015f3edeeea33a72cd298a7e9de5",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c300047218d1015f3edeeea33a72cd298a7e9de5",
+      "title": "[最近提交] Update README.md",
+      "date_published": "2026-11-27T22:18:41Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/ce67cdfc71e4b81d28068d831d07e5821413b36f",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/ce67cdfc71e4b81d28068d831d07e5821413b36f",
+      "title": "[最近提交] Use stdlib SubElement to construct PubMed test fixtures",
+      "date_published": "2026-11-27T22:18:41Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/fe5d5d5c06f0eefe8bbb68fc945dc328f93c5fcb",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/fe5d5d5c06f0eefe8bbb68fc945dc328f93c5fcb",
+      "title": "[最近提交] chore: update star history",
+      "date_published": "2026-11-27T22:18:41Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/c6701dbea29afa7c596d029b957b7edc92130ea5",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c6701dbea29afa7c596d029b957b7edc92130ea5",
+      "title": "[最近提交] Use white-background Nature AI service image",
+      "date_published": "2026-11-27T22:18:41Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/d16b3e2c113fb1ca9149af76504b9e10286a55bb",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/d16b3e2c113fb1ca9149af76504b9e10286a55bb",
+      "title": "[最近提交] Restore previous Nature AI service banner",
+      "date_published": "2026-11-27T22:18:41Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/9b34a650df0efa4b18118255ba995d881e2d24f0",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/9b34a650df0efa4b18118255ba995d881e2d24f0",
+      "title": "[最近提交] Replace Nature AI service banner",
+      "date_published": "2026-11-27T22:18:41Z"
+    },
+    {
+      "id": "natureSkillsCommits:https://github.com/Yuan1z0825/nature-skills/commit/8a7713697d4567b3337cb20cddc55613d88f518e",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/8a7713697d4567b3337cb20cddc55613d88f518e",
+      "title": "[最近提交] chore: update star history",
+      "date_published": "2026-11-27T22:18:41Z"
     }
   ]
 }

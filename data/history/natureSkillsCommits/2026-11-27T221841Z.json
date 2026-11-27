@@ -1,0 +1,163 @@
+{
+  "date": "2026-11-27T221841Z",
+  "day": "2026-11-27",
+  "sourceKey": "natureSkillsCommits",
+  "savedAt": "2026-11-27T22:18:41Z",
+  "label": "最近提交",
+  "description": "最近 15 条提交动态",
+  "updateFrequency": "daily",
+  "repo": "Yuan1z0825/nature-skills",
+  "latestSha": "96a89bc7ef78e3bece9a50bb9ad08ddea4dc0e1e",
+  "items": [
+    {
+      "title": "Merge pull request #299 from DrZoggg/fix-pubmed-test-subelement-20261125",
+      "description": "Merge pull request #299 from DrZoggg/fix-pubmed-test-subelement-20261125\n\nFix PubMed test fixture construction with stdlib SubElement",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/96a89bc7ef78e3bece9a50bb9ad08ddea4dc0e1e",
+      "sha": "96a89bc",
+      "fullSha": "96a89bc7ef78e3bece9a50bb9ad08ddea4dc0e1e",
+      "owner": "Yuan1z0825",
+      "published": "2026-11-26",
+      "label": "commit"
+    },
+    {
+      "title": "Update README.md",
+      "description": "Update README.md",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c300047218d1015f3edeeea33a72cd298a7e9de5",
+      "sha": "c300047",
+      "fullSha": "c300047218d1015f3edeeea33a72cd298a7e9de5",
+      "owner": "Flyme886",
+      "published": "2026-11-25",
+      "label": "commit"
+    },
+    {
+      "title": "Use stdlib SubElement to construct PubMed test fixtures",
+      "description": "Use stdlib SubElement to construct PubMed test fixtures",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/ce67cdfc71e4b81d28068d831d07e5821413b36f",
+      "sha": "ce67cdf",
+      "fullSha": "ce67cdfc71e4b81d28068d831d07e5821413b36f",
+      "owner": "DrZoggg",
+      "published": "2026-11-25",
+      "label": "commit"
+    },
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/fe5d5d5c06f0eefe8bbb68fc945dc328f93c5fcb",
+      "sha": "fe5d5d5",
+      "fullSha": "fe5d5d5c06f0eefe8bbb68fc945dc328f93c5fcb",
+      "owner": "github-actions",
+      "published": "2026-11-25",
+      "label": "commit"
+    },
+    {
+      "title": "Use white-background Nature AI service image",
+      "description": "Use white-background Nature AI service image",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c6701dbea29afa7c596d029b957b7edc92130ea5",
+      "sha": "c6701db",
+      "fullSha": "c6701dbea29afa7c596d029b957b7edc92130ea5",
+      "owner": "Flyme886",
+      "published": "2026-11-22",
+      "label": "commit"
+    },
+    {
+      "title": "Restore previous Nature AI service banner",
+      "description": "Restore previous Nature AI service banner",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/d16b3e2c113fb1ca9149af76504b9e10286a55bb",
+      "sha": "d16b3e2",
+      "fullSha": "d16b3e2c113fb1ca9149af76504b9e10286a55bb",
+      "owner": "Flyme886",
+      "published": "2026-11-22",
+      "label": "commit"
+    },
+    {
+      "title": "Replace Nature AI service banner",
+      "description": "Replace Nature AI service banner",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/9b34a650df0efa4b18118255ba995d881e2d24f0",
+      "sha": "9b34a65",
+      "fullSha": "9b34a650df0efa4b18118255ba995d881e2d24f0",
+      "owner": "Flyme886",
+      "published": "2026-11-22",
+      "label": "commit"
+    },
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/8a7713697d4567b3337cb20cddc55613d88f518e",
+      "sha": "8a77136",
+      "fullSha": "8a7713697d4567b3337cb20cddc55613d88f518e",
+      "owner": "github-actions",
+      "published": "2026-11-22",
+      "label": "commit"
+    },
+    {
+      "title": "Update README_EN.md",
+      "description": "Update README_EN.md",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/a65a8364b419e05f7d8d5d96842a1ff7e544b1bb",
+      "sha": "a65a836",
+      "fullSha": "a65a8364b419e05f7d8d5d96842a1ff7e544b1bb",
+      "owner": "Yuan1z0825",
+      "published": "2026-11-20",
+      "label": "commit"
+    },
+    {
+      "title": "Update README.md",
+      "description": "Update README.md",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/de4a7838ccdc0439562b731b2b328d69bae86db0",
+      "sha": "de4a783",
+      "fullSha": "de4a7838ccdc0439562b731b2b328d69bae86db0",
+      "owner": "Yuan1z0825",
+      "published": "2026-11-20",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #283 from lijiangsheng1/feat/academic-search-date-…",
+      "description": "Merge pull request #283 from lijiangsheng1/feat/academic-search-date-window\n\nfeat(nature-academic-search): add --date-from / --date-to to academic_search.py",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/9bd1d0823f564752f0dcc701f9bd3a0001fffdc5",
+      "sha": "9bd1d08",
+      "fullSha": "9bd1d0823f564752f0dcc701f9bd3a0001fffdc5",
+      "owner": "Yuan1z0825",
+      "published": "2026-11-19",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #289 from DrZoggg/fix/crossref-preprint-version-ha…",
+      "description": "Merge pull request #289 from DrZoggg/fix/crossref-preprint-version-handoff-20261105\n\nfix(nature-academic-search): preserve Crossref preprint version links",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/73ebc13712928caec77891eb10e4329e61a129bc",
+      "sha": "73ebc13",
+      "fullSha": "73ebc13712928caec77891eb10e4329e61a129bc",
+      "owner": "Yuan1z0825",
+      "published": "2026-11-19",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #288 from DrZoggg/fix/pubmed-pmc-reading-route-202…",
+      "description": "Merge pull request #288 from DrZoggg/fix/pubmed-pmc-reading-route-20261105\n\nfix(nature-academic-search): preserve explicit PMC reading routes",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/b6559d0ac3d74ca53b191189449aa7441f9409e3",
+      "sha": "b6559d0",
+      "fullSha": "b6559d0ac3d74ca53b191189449aa7441f9409e3",
+      "owner": "Yuan1z0825",
+      "published": "2026-11-19",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #290 from DrZoggg/geo/openalex-work-bylines-g288",
+      "description": "Merge pull request #290 from DrZoggg/geo/openalex-work-bylines-g288\n\nPreserve work-specific OpenAlex bylines in search results",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/cb53f057fb11ddf93d8948671f594ed792d46477",
+      "sha": "cb53f05",
+      "fullSha": "cb53f057fb11ddf93d8948671f594ed792d46477",
+      "owner": "Yuan1z0825",
+      "published": "2026-11-19",
+      "label": "commit"
+    },
+    {
+      "title": "Merge pull request #291 from subhansh-dev/fix/windows-utf8-cli-output",
+      "description": "Merge pull request #291 from subhansh-dev/fix/windows-utf8-cli-output\n\nfix: emit CLI JSON as UTF-8 on Windows consoles",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/e97ba509b8cb7d339bd6e4a035cf85ceb82152e3",
+      "sha": "e97ba50",
+      "fullSha": "e97ba509b8cb7d339bd6e4a035cf85ceb82152e3",
+      "owner": "Yuan1z0825",
+      "published": "2026-11-19",
+      "label": "commit"
+    }
+  ]
+}
