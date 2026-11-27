@@ -6,124 +6,52 @@
   "description": "GitHub / HN / Weibo / Journals / Skills aggregator",
   "items": [
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E8%91%A3%E6%98%8E%E7%8F%A0%E7%8E%B0%E5%9C%BA%E5%8F%91%E7%81%AB%E9%AD%8F%E5%BB%BA%E5%86%9B%E8%A7%A3%E5%9B%B4&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E8%91%A3%E6%98%8E%E7%8F%A0%E7%8E%B0%E5%9C%BA%E5%8F%91%E7%81%AB%E9%AD%8F%E5%BB%BA%E5%86%9B%E8%A7%A3%E5%9B%B4&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 董明珠现场发火魏建军解围",
-      "date_published": "2026-11-27T21:05:32Z"
+      "id": "hackernews:https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+      "title": "[Hacker News 热门] Nvidia Reinstates Jensen Huang as CEO",
+      "date_published": "2026-11-27T21:06:03Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F%E7%AC%AC%E4%B8%89%E6%AC%A1%E9%A3%9E%E8%A1%8C%E5%98%89%E5%AE%BE%E9%98%B5%E5%AE%B9%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F%E7%AC%AC%E4%B8%89%E6%AC%A1%E9%A3%9E%E8%A1%8C%E5%98%89%E5%AE%BE%E9%98%B5%E5%AE%B9%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 后会友期第三次飞行嘉宾阵容",
-      "date_published": "2026-11-27T21:05:32Z"
+      "id": "hackernews:https://ladybird.org/posts/alpha/",
+      "url": "https://ladybird.org/posts/alpha/",
+      "title": "[Hacker News 热门] Ladybird is now in alpha",
+      "date_published": "2026-11-27T21:06:03Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23180%E7%A7%92%E5%9B%9E%E9%A1%BE%E7%A5%9E24%E5%8F%91%E5%B0%84%E4%BB%BB%E5%8A%A1%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23180%E7%A7%92%E5%9B%9E%E9%A1%BE%E7%A5%9E24%E5%8F%91%E5%B0%84%E4%BB%BB%E5%8A%A1%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 180秒回顾神24发射任务",
-      "date_published": "2026-11-27T21:05:32Z"
+      "id": "hackernews:https://scottaaronson.blog/?p=10379",
+      "url": "https://scottaaronson.blog/?p=10379",
+      "title": "[Hacker News 热门] Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
+      "date_published": "2026-11-27T21:06:03Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E4%B8%89%E5%8F%AA%E6%9D%BE%E9%BC%A0%E4%B8%80%E5%A4%9C%E6%95%B4%E6%94%B9%E5%8F%8D%E8%80%8C%E8%AE%A9%E4%BA%BA%E5%94%8F%E5%98%98%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%89%E5%8F%AA%E6%9D%BE%E9%BC%A0%E4%B8%80%E5%A4%9C%E6%95%B4%E6%94%B9%E5%8F%8D%E8%80%8C%E8%AE%A9%E4%BA%BA%E5%94%8F%E5%98%98%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 三只松鼠一夜整改反而让人唏嘘",
-      "date_published": "2026-11-27T21:05:32Z"
+      "id": "hackernews:https://twitter.com/ylecun/status/2124550037912920090",
+      "url": "https://twitter.com/ylecun/status/2124550037912920090",
+      "title": "[Hacker News 热门] \"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
+      "date_published": "2026-11-27T21:06:03Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E5%8D%83%E4%B8%87%E4%B8%8D%E8%A6%81%E7%94%A8%E7%BA%B8%E5%B7%BE%E5%8C%85%E8%B4%B5%E9%87%8D%E7%89%A9%E5%93%81&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E5%8D%83%E4%B8%87%E4%B8%8D%E8%A6%81%E7%94%A8%E7%BA%B8%E5%B7%BE%E5%8C%85%E8%B4%B5%E9%87%8D%E7%89%A9%E5%93%81&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 千万不要用纸巾包贵重物品",
-      "date_published": "2026-11-27T21:05:32Z"
+      "id": "hackernews:https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "title": "[Hacker News 热门] Jensen Huang Reinstated as Nvidia CEO",
+      "date_published": "2026-11-27T21:06:03Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E5%8E%89%E5%A8%9C%E5%89%8D%E7%BB%8F%E7%BA%AA%E4%BA%BA%E5%BC%A0%E9%98%BF%E7%9E%B3%E5%8F%91%E6%96%87%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8E%89%E5%A8%9C%E5%89%8D%E7%BB%8F%E7%BA%AA%E4%BA%BA%E5%BC%A0%E9%98%BF%E7%9E%B3%E5%8F%91%E6%96%87%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 厉娜前经纪人张阿瞳发文",
-      "date_published": "2026-11-27T21:05:32Z"
+      "id": "hackernews:https://1password.com/blog/update-on-nov-2026-security-incident",
+      "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+      "title": "[Hacker News 热门] 1Password Security Incident",
+      "date_published": "2026-11-27T21:06:03Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%E9%A9%AC%E5%A4%A9%E5%AE%87%20%E6%88%91%E9%83%BD40%E4%BA%86%E8%82%AF%E5%AE%9A%E6%9C%89%E8%BF%87%E4%BA%B2%E5%AF%86%E5%85%B3%E7%B3%BB%E5%95%8A&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E9%A9%AC%E5%A4%A9%E5%AE%87%20%E6%88%91%E9%83%BD40%E4%BA%86%E8%82%AF%E5%AE%9A%E6%9C%89%E8%BF%87%E4%BA%B2%E5%AF%86%E5%85%B3%E7%B3%BB%E5%95%8A&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 马天宇 我都40了肯定有过亲密关系啊",
-      "date_published": "2026-11-27T21:05:32Z"
+      "id": "hackernews:https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+      "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+      "title": "[Hacker News 热门] Toyota, Nissan, and Honda to standardize parts to lower costs",
+      "date_published": "2026-11-27T21:06:03Z"
     },
     {
-      "id": "weibo:https://s.weibo.com/weibo?q=%23%E8%B5%B5%E6%98%AD%E4%BB%AA%E8%AF%B4%E5%89%A7%E7%BB%84%E4%B8%8D%E5%90%83%E6%A7%9F%E6%A6%94%E7%9A%84%E4%BA%BA%E5%BE%88%E5%B0%91%E8%A7%81%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%B5%B5%E6%98%AD%E4%BB%AA%E8%AF%B4%E5%89%A7%E7%BB%84%E4%B8%8D%E5%90%83%E6%A7%9F%E6%A6%94%E7%9A%84%E4%BA%BA%E5%BE%88%E5%B0%91%E8%A7%81%23&t=31&band_rank=1&Refer=top",
-      "title": "[热搜榜] 赵昭仪说剧组不吃槟榔的人很少见",
-      "date_published": "2026-11-27T21:05:32Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%23%E8%B5%B5%E6%98%AD%E4%BB%AA%E8%87%AA%E6%9B%9D%E7%8A%B6%E6%80%81%E4%B8%8D%E5%A5%BD%E6%97%B6%E6%9B%BE%E4%BC%A4%E5%AE%B3%E8%87%AA%E5%B7%B1%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%B5%B5%E6%98%AD%E4%BB%AA%E8%87%AA%E6%9B%9D%E7%8A%B6%E6%80%81%E4%B8%8D%E5%A5%BD%E6%97%B6%E6%9B%BE%E4%BC%A4%E5%AE%B3%E8%87%AA%E5%B7%B1%23&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 赵昭仪自曝状态不好时曾伤害自己",
-      "date_published": "2026-11-27T21:05:32Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=A%E8%82%A1%E6%94%BE%E9%87%8F%E6%9A%B4%E6%B6%A8%20%E5%9B%BD%E5%AE%B6%E9%98%9F%E7%A8%B3%E5%B8%82&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=A%E8%82%A1%E6%94%BE%E9%87%8F%E6%9A%B4%E6%B6%A8%20%E5%9B%BD%E5%AE%B6%E9%98%9F%E7%A8%B3%E5%B8%82&t=31&band_rank=1&Refer=top",
-      "title": "[实时] A股放量暴涨 国家队稳市",
-      "date_published": "2026-11-27T21:05:32Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=U17%E4%B8%96%E7%95%8C%E6%9D%AF%E4%BA%9A%E6%B4%B2%E5%8C%BA7%E9%98%9F%E5%87%BA%E7%BA%BF&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=U17%E4%B8%96%E7%95%8C%E6%9D%AF%E4%BA%9A%E6%B4%B2%E5%8C%BA7%E9%98%9F%E5%87%BA%E7%BA%BF&t=31&band_rank=1&Refer=top",
-      "title": "[实时] U17世界杯亚洲区7队出线",
-      "date_published": "2026-11-27T21:05:32Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E8%A7%81%E5%88%B0%E7%9C%9F%E6%AD%A3%E7%9A%84%E9%9D%9E%E6%9A%B4%E5%8A%9B%E6%B2%9F%E9%80%9A%E4%BA%86&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E8%A7%81%E5%88%B0%E7%9C%9F%E6%AD%A3%E7%9A%84%E9%9D%9E%E6%9A%B4%E5%8A%9B%E6%B2%9F%E9%80%9A%E4%BA%86&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 见到真正的非暴力沟通了",
-      "date_published": "2026-11-27T21:05:32Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=AG%E4%B8%96%E7%95%8C%E8%B5%9B%E9%A6%96%E6%97%A5%E7%A7%AF%E5%88%86%E6%8E%92%E5%90%8D&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=AG%E4%B8%96%E7%95%8C%E8%B5%9B%E9%A6%96%E6%97%A5%E7%A7%AF%E5%88%86%E6%8E%92%E5%90%8D&t=31&band_rank=1&Refer=top",
-      "title": "[实时] AG世界赛首日积分排名",
-      "date_published": "2026-11-27T21:05:32Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E9%95%BF%E5%AD%90%E9%95%BF%E5%AD%99%E6%B2%A1%E5%85%88%E7%BB%93%E5%A9%9A%E8%A2%AB%E8%AF%B4%E4%BC%9A%E6%96%AD%E4%BA%B2&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E9%95%BF%E5%AD%90%E9%95%BF%E5%AD%99%E6%B2%A1%E5%85%88%E7%BB%93%E5%A9%9A%E8%A2%AB%E8%AF%B4%E4%BC%9A%E6%96%AD%E4%BA%B2&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 长子长孙没先结婚被说会断亲",
-      "date_published": "2026-11-27T21:05:32Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E7%AC%AC%E4%BA%94%E4%BA%BA%E6%A0%BC%E8%B5%9B%E4%BA%8B&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E7%AC%AC%E4%BA%94%E4%BA%BA%E6%A0%BC%E8%B5%9B%E4%BA%8B&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 第五人格赛事",
-      "date_published": "2026-11-27T21:05:32Z"
-    },
-    {
-      "id": "weiboRealtime:https://s.weibo.com/weibo?q=%E4%B8%80%E6%96%B9%E4%B8%8D%E6%9C%8D%E7%A6%BB%E5%A9%9A%E7%A7%B0%E4%BB%8D%E8%A6%81%E8%BF%BD%E5%A5%B9&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E6%96%B9%E4%B8%8D%E6%9C%8D%E7%A6%BB%E5%A9%9A%E7%A7%B0%E4%BB%8D%E8%A6%81%E8%BF%BD%E5%A5%B9&t=31&band_rank=1&Refer=top",
-      "title": "[实时] 一方不服离婚称仍要追她",
-      "date_published": "2026-11-27T21:05:32Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E4%B8%89%E5%8F%AA%E6%9D%BE%E9%BC%A0%E4%B8%80%E5%A4%9C%E6%95%B4%E6%94%B9%E5%8F%8D%E8%80%8C%E8%AE%A9%E4%BA%BA%E5%94%8F%E5%98%98%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%89%E5%8F%AA%E6%9D%BE%E9%BC%A0%E4%B8%80%E5%A4%9C%E6%95%B4%E6%94%B9%E5%8F%8D%E8%80%8C%E8%AE%A9%E4%BA%BA%E5%94%8F%E5%98%98%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 三只松鼠一夜整改反而让人唏嘘",
-      "date_published": "2026-11-27T21:05:32Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E5%A6%BB%E5%AD%90%E5%87%BA%E8%BD%A8%E7%94%9F%E5%AD%90%E4%B8%88%E5%A4%AB%E9%80%89%E6%8B%A9%E6%8A%9A%E5%85%BB%E7%AC%AC%E4%B8%89%E8%80%85%E6%80%A5%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A6%BB%E5%AD%90%E5%87%BA%E8%BD%A8%E7%94%9F%E5%AD%90%E4%B8%88%E5%A4%AB%E9%80%89%E6%8B%A9%E6%8A%9A%E5%85%BB%E7%AC%AC%E4%B8%89%E8%80%85%E6%80%A5%E4%BA%86%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 妻子出轨生子丈夫选择抚养第三者急了",
-      "date_published": "2026-11-27T21:05:32Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E6%B5%8E%E5%8D%97%E5%8C%BB%E4%BF%9D%E9%AA%82%E4%BA%BA%E4%B8%BB%E6%92%AD%E8%A2%AB%E8%A7%A3%E9%99%A4%E5%8A%B3%E5%8A%A8%E5%85%B3%E7%B3%BB%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B5%8E%E5%8D%97%E5%8C%BB%E4%BF%9D%E9%AA%82%E4%BA%BA%E4%B8%BB%E6%92%AD%E8%A2%AB%E8%A7%A3%E9%99%A4%E5%8A%B3%E5%8A%A8%E5%85%B3%E7%B3%BB%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 济南医保骂人主播被解除劳动关系",
-      "date_published": "2026-11-27T21:05:32Z"
-    },
-    {
-      "id": "weiboLocal:https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E5%8E%BB%E4%B8%96%E5%89%8D%E6%9B%BE%E4%B8%BA%E5%B7%B2%E5%8E%BB%E4%B8%96%E5%A5%B3%E5%8F%8B%E5%AE%88%E7%81%B53%E5%A4%A9%23&t=31&band_rank=1&Refer=top",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E5%8E%BB%E4%B8%96%E5%89%8D%E6%9B%BE%E4%B8%BA%E5%B7%B2%E5%8E%BB%E4%B8%96%E5%A5%B3%E5%8F%8B%E5%AE%88%E7%81%B53%E5%A4%A9%23&t=31&band_rank=1&Refer=top",
-      "title": "[同城] 男子去世前曾为已去世女友守灵3天",
-      "date_published": "2026-11-27T21:05:32Z"
+      "id": "hackernews:https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "title": "[Hacker News 热门] Lean verification of the Riemann Hypothesis",
+      "date_published": "2026-11-27T21:06:03Z"
     }
   ]
 }
