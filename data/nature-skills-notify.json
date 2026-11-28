@@ -1,20 +1,25 @@
 {
-  "changed": false,
-  "fetchedAt": "2026-11-27T22:46:38Z",
+  "changed": true,
+  "fetchedAt": "2026-11-28T09:58:32Z",
   "previousSha": "96a89bc7ef78e3bece9a50bb9ad08ddea4dc0e1e",
-  "latestSha": "96a89bc7ef78e3bece9a50bb9ad08ddea4dc0e1e",
+  "latestSha": "efcd39d975ef7db817c9513e91ea83f6556739eb",
   "repo": "Yuan1z0825/nature-skills",
   "repoUrl": "https://github.com/Yuan1z0825/nature-skills",
   "stars": 0,
   "skillCount": 17,
   "latestCommit": {
-    "title": "Merge pull request #299 from DrZoggg/fix-pubmed-test-subelement-20261125",
-    "url": "https://github.com/Yuan1z0825/nature-skills/commit/96a89bc7ef78e3bece9a50bb9ad08ddea4dc0e1e",
-    "sha": "96a89bc",
-    "published": "2026-11-26"
+    "title": "chore: update star history",
+    "url": "https://github.com/Yuan1z0825/nature-skills/commit/efcd39d975ef7db817c9513e91ea83f6556739eb",
+    "sha": "efcd39d",
+    "published": "2026-11-28"
   },
   "siteUrl": "https://jasper499.github.io/github_clatch/",
   "recentCommits": [
+    {
+      "title": "chore: update star history",
+      "sha": "efcd39d",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/efcd39d975ef7db817c9513e91ea83f6556739eb"
+    },
     {
       "title": "Merge pull request #299 from DrZoggg/fix-pubmed-test-subelement-20261125",
       "sha": "96a89bc",
@@ -34,11 +39,6 @@
       "title": "chore: update star history",
       "sha": "fe5d5d5",
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/fe5d5d5c06f0eefe8bbb68fc945dc328f93c5fcb"
-    },
-    {
-      "title": "Use white-background Nature AI service image",
-      "sha": "c6701db",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/c6701dbea29afa7c596d029b957b7edc92130ea5"
     }
   ]
 }

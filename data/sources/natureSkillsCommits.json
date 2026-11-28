@@ -1,12 +1,22 @@
 {
   "sourceKey": "natureSkillsCommits",
-  "savedAt": "2026-11-27T22:46:38Z",
+  "savedAt": "2026-11-28T09:58:32Z",
   "label": "最近提交",
   "description": "最近 15 条提交动态",
   "updateFrequency": "daily",
   "repo": "Yuan1z0825/nature-skills",
-  "latestSha": "96a89bc7ef78e3bece9a50bb9ad08ddea4dc0e1e",
+  "latestSha": "efcd39d975ef7db817c9513e91ea83f6556739eb",
   "items": [
+    {
+      "title": "chore: update star history",
+      "description": "chore: update star history",
+      "url": "https://github.com/Yuan1z0825/nature-skills/commit/efcd39d975ef7db817c9513e91ea83f6556739eb",
+      "sha": "efcd39d",
+      "fullSha": "efcd39d975ef7db817c9513e91ea83f6556739eb",
+      "owner": "github-actions",
+      "published": "2026-11-28",
+      "label": "commit"
+    },
     {
       "title": "Merge pull request #299 from DrZoggg/fix-pubmed-test-subelement-20261125",
       "description": "Merge pull request #299 from DrZoggg/fix-pubmed-test-subelement-20261125\n\nFix PubMed test fixture construction with stdlib SubElement",
@@ -143,16 +153,6 @@
       "url": "https://github.com/Yuan1z0825/nature-skills/commit/cb53f057fb11ddf93d8948671f594ed792d46477",
       "sha": "cb53f05",
       "fullSha": "cb53f057fb11ddf93d8948671f594ed792d46477",
-      "owner": "Yuan1z0825",
-      "published": "2026-11-19",
-      "label": "commit"
-    },
-    {
-      "title": "Merge pull request #291 from subhansh-dev/fix/windows-utf8-cli-output",
-      "description": "Merge pull request #291 from subhansh-dev/fix/windows-utf8-cli-output\n\nfix: emit CLI JSON as UTF-8 on Windows consoles",
-      "url": "https://github.com/Yuan1z0825/nature-skills/commit/e97ba509b8cb7d339bd6e4a035cf85ceb82152e3",
-      "sha": "e97ba50",
-      "fullSha": "e97ba509b8cb7d339bd6e4a035cf85ceb82152e3",
       "owner": "Yuan1z0825",
       "published": "2026-11-19",
       "label": "commit"
